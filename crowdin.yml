@@ -4,9 +4,6 @@ files:
     translate_attributes: '0'
   - source: /content/*.html
     translation: /build/content/%android_code%/%original_file_name%
-  - source: /gscore/*.xml
-    translation: /build/gscore/values-%android_code%/%original_file_name%
-    translate_attributes: '0'
   - source: /content/*.properties
     translation: /build/content/%android_code%/%original_file_name%
   - source: /web/*.html
