@@ -1,0 +1,2 @@
+# translate
+Translations for Blokada.
