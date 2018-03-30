@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<link rel="stylesheet" href="css/poole.css">
+<link rel="stylesheet" href="css/syntax.css">
+<link rel="stylesheet" href="css/hyde.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,700|Russo+One">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="//block.blokada.org/favicon.png" rel="icon">
+
+<title>Changelog: Blokada</title>
+</head>
+<body class="theme-base-theme1 layout-reverse">
+
+<div class="content">
+    <div class="container">
+        <section id="main">
+
+<h3>Changelog</h3>
+
+<h4>Blokada v3.2 (Planned)</h4>
+<p>This is a maintenance release focusing on stability and performance.</p>
+<ul>
+  <li>Refactor filters and welcome flow for lower memory use</li>
+  <li>Refactor core for performance and reliability</li>
+  <li>Refactor filter cache loading for performance</li>
+  <li>Add restart on crash for app resiliency</li>
+  <li>Fix Start on Boot</li>
+  <li>Fix ads counter persistence (old counter is back)</li>
+  <li>Improve logging and log sharing</li>
+  <li>Change icon to the refreshed shield (non-adaptive)</li>
+  <li>Introduce Beta Channel for Blokada Insiders</li>
+  <li>Fix #149 in-app updater problems</li>
+  <li>Make blacklist / whitelist / dns refresh Quick Action fetch new defaults (without overwriting custom settings)</li>
+  <li>Phase out Blokada Patron</li>
+  <li>Add Google Play Games to whitelist defaults</li>
+</ul>
+
+<h4>Blokada v3.1.1 (March 21th, 2018)</h4>
+<p>This is a feature release introducing custom DNS servers and fixing several common problems. Please note that translations haven't been updated because of some issues with the currently used translation platform.</p>
+<ul>
+  <li>Introduce DNS servers configurability with built in defaults</li>
+  <li>Introduce Blokada DNS available on Google Play (without adblocking functionality)</li>
+  <li>Introduce log sharing for easier bug reporting (beta)</li>
+  <li>Fix a problem with too aggressive Wake Lock</li>
+  <li>Fix #126, problems with starting up when back online</li>
+  <li>Fix #102, can't add apps to whitelist</li>
+  <li>Decrease filter cache time to 1 day</li>
+  <li>Add more lists to defaults and change default blacklist to AdZHosts</li>
+  <li>Improve Help and intro screens (Peter)</li>
+  <li>Rework onboarding (welcome flow) to decrease the amount of dialog windows</li>
+  <li>Revert some design changes from v2</li>
+</ul>
+
+<h4>Blokada v3.0.0 (March 2nd, 2018)</h4>
+<p>This is the first stable v3 release with many important changes. Check the notes on preview versions below for detailed changelog. Additional changes:</p>
+<ul>
+  <li>Introduce "Chip In", a periodic Call to Action mechanism to engage the userbase and help make community decisions.</li>
+</ul>
+
+<h4>Blokada v3.0.0-preview2 (February 27th, 2018)</h4>
+<p>This is another preview of the 3.0.0 release with many important changes. It's mostly ready, however it's mostly meant for the translators to review their translations.</p>
+<ul>
+  <li>Fix KeepAlive to prevent Android from closing the app</li>
+  <li>Fix Start on Boot</li>
+  <li>Include (also partial) translations for: cs de es fr hu it ms nl pl ru zh_TW tr hr pt-BR pt-PT</li>
+  <li>Change chat platform to Telegram</li>
+</ul>
+
+<h4>Blokada v3.0.0-preview (February 20th, 2018)</h4>
+<p>This is a major release with many important changes. Please note it's a preview release, meaning you may want to wait for the next stable release. This release is English-only.</p>
+<ul>
+  <li>Introduce HTTPS to secure website, API and the update process</li>
+  <li>Drop support for Android 4</li>
+  <li>Introduce <a href="patron.html">Blokada Patron</a></li>
+  <li>Introduce <a href="http://go.blokada.org/chat">Blokada Chat</a> with icon in the topbar</li>
+  <li>Introduce API v3 for simpler, unified and more flexible code</li>
+  <li>Simplify translations by removing superficial strings and pluralisation</li>
+  <li>Fix #64, whitelist constantly cleared</li>
+  <li>Fix #78, update and expand Help screen to answer the most common questions</li>
+  <li>Fix #84, add Coin Blocker list against Bitcoin mining</li>
+  <li>Fix #91, add Social filter to Blacklist</li>
+  <li>Fix #86, stop deactivating on hotspot</li>
+  <li>Fix #71, update website with F-Droid button</li>
+  <li>Fix #92, introduce adaptive launcher icon</li>
+  <li>Redo localisation to support dynamic language change (stage 1)</li>
+  <li>Refresh branding and improve contrast</li>
+  <li>Simplify Home screen by removing less important icons and putting them to top menu</li>
+  <li>Remove ability to edit home screen icons</li>
+  <li>Replace Bug Report and Feedback screens with simplified Feedback / Contact screen</li>
+  <li>Redo Welcome flow to be more informative and flexible</li>
+  <li>Update Donate, Contribute, and other information screens</li>
+  <li>Simplify Update screen</li>
+  <li>Introduce Changelog screen for a more clear release history</li>
+  <li>Introduce Open in Browser button for most web screens</li>
+  <li>Remove User Report and corresponding Default Whitelist</li>
+  <li>Simplify codebase (stage 1) by refactoring libraries and packages</li>
+  <li>Introduce gscore library as common app framework</li>
+  <li>Remove unused assets and resources to decrease app size</li>
+  <li>Minimise app threading to eliminate concurrency bugs (stage 1)</li>
+</ul>
+
+<h4>Blokada v2.2.3 adblocker for Android</h4>
+<p>This is a small maintenance release that fixes GPL compliance, updates translations and introduces several new languages:</p>
+<ul>
+  <li>Indonesian</li>
+  <li>Croatian</li>
+  <li>Hungarian</li>
+  <li>Russian</li>
+  <li>Chinese (Simplified)</li>
+  <li>Chinese (Traditional)</li>
+</ul>
+
+<h4>Blokada v2.2.2 adblocker for Android</h4>
+<p>This is a maintenance release that fixes some problems discovered in 2.2:</p>
+<ul>
+  <li>Fix unnecessary reload web view for static pages</li>
+  <li>Always whitelist Google Play</li>
+  <li>Update translations</li>
+</ul>
+
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
