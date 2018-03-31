@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 <link href="//block.blokada.org/favicon.png" rel="icon">
 
-<title>Help: Blokada</title>
+<title>Ayuda: Blokada</title>
 </head>
 <body class="theme-base-theme1 layout-reverse">
 
@@ -70,7 +70,7 @@
 <p>Si tampoco sirve, reinicia el teléfono. A veces también ayuda.</p>
 
 <h4><a name="kill">Blokada deja de funcionar tras un tiempo.</h4>
-<p>En primer lugar, activa la opción <i>Mantener activo</i> en Blokada. Blokada intentará mantenerse operativo, pero ten en cuenta que el sistema todavía puede influir en este comportamiento. Si lo configuras y sigues viendo que Blokada se sigue deteniendo, comprueba la configuración de tu sistema y desactiva todas las optimizaciones de batería y memoria afecten a Blokada. Desafortunadamente, esta opción es distinta en cada sistema, por lo que no podemos ayudarte en este aspecto. Prueba a buscar en la Configuración de tu dispositivo. Otra causa de este comportamiento puede ser el uso de un limpiador de memoria. En ese caso, incluye Blokada en la lista blanca o en la lista de exclusión. Si ninguno de estos pasos te ha servido, por favor reporta un error (ve abajo cómo hacerlo).</p>
+<p>En primer lugar, activa la opción <i>Mantener activo</i> en Blokada. Blokada intentará mantenerse operativo, pero ten en cuenta que el sistema todavía puede influir en este comportamiento. Si lo configuras y sigues viendo que Blokada se sigue deteniendo, comprueba la configuración de tu sistema y desactiva todas las optimizaciones de batería y memoria afecten a Blokada. Desafortunadamente, esta opción es distinta en cada sistema, por lo que no podemos ayudarte en este aspecto. Prueba a buscar en la Configuración de tu dispositivo. Otra causa de este comportamiento puede ser el uso de un limpiador de memoria. En ese caso, incluye Blokada en la lista blanca o en la lista de exclusión. Si ninguno de estos pasos te ha servido, por favor reporta un fallo (ve abajo cómo hacerlo).</p>
 
 <h4><a name="howitworks">¿Cómo funciona Blokada?</a></h4>
 <p>Blokada es una fina capa entre la interfaz de red (wifi o móvil) de tu dispositivo y las aplicaciones que utilizas. Para poder filtrar el tráfico saliente, genera una conexión VPN y simplemente bloquea cualquier petición que se incluya en los hosts definidos en los filtros de la lista negra. Este bloqueo se realiza con una redirección, la dirección IP del sitio web que proporciona el anuncio será resuelta por el dispositivo a una meta-dirección no enrutable, 0.0.0.0, donde no se está ejecutando ningún servicio web, por lo que no se mostrará nada. Con esto, Blokada ahorra tanto en la batería como en tu plan de datos. Los filtros se actualizan automáticamente y contienen direcciones conocidas por mostrar anuncios, seguimiento, spam, malware y otros contenidos no deseados o peligrosos. Puedes configurar Blokada con tus propios filtros personalizados y listas blancas para asegurarte de que el servicio que deseas utilizar no esté bloqueado y no experimentes ninguna interrupción.</p>
@@ -92,17 +92,17 @@
 
 <p>Ajustes no configurables:</p>
 <p><ul>
-    <li><b>Actualizado</b>: si lo ves, es que estás utilizando la versión más reciente. Keep the app up-to-date because it has less bugs and more features!</li>
-    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b>Actualizado</b>: si lo ves, es que estás utilizando la versión más reciente. ¡Mantener la aplicación actualizada añade más funcionalidades y reduce los fallos!</li>
+    <li><b># anuncios bloqueados</b>: el número de contenido no deseado que Blokada bloqueó desde que se inició por primera vez.</li>
+    <li><b># hosts</b>: número de webs que alojan publicidad, malware y otros contenidos no deseados en la listas negras.</li>
 </ul></p>
 
-<h4><a name="ads">What can I do if I still see some ads?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<h4><a name="ads">¿Qué puedo hacer si sigo viendo anuncios?</a></h4>
+<p>Algunos anuncios aparecerán con cualquier bloqueador de anuncios en Android. Particularmente, los anuncios de YouTube y algunas ventanas emergentes son difíciles de bloquear. Si crees que estás recibiendo más anuncios que antes, prueba estos pasos:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, report a bug.</li>
+    <li>Comprueba si el icono de la llave VPN está presente en la barra de notificaciones. Si no, inicia Blokada.</li>
+    <li>Abre Blokada y comprueba si está activado y no reporta ningún error.</li>
+    <li>Comprueba si el contador de hosts es distinto a cero. Si es así, añade algunos filtros a la Lista negra. Si el contador se mantiene igual, reporta un fallo.</li>
     <li>Make sure you don't have too many apps in the whitelist - maybe that's why you are seeing ads.</li>
     <li>Try resetting your filters (go to the Blacklist screen and choose <i>Restore Defaults</i> from the Quick Actions menu at the top).</li>
     <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
