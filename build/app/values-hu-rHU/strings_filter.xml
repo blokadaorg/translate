@@ -10,7 +10,7 @@
   <!-- Parameter: directory of the file. For example: A file from Downloads -->
   <string name="filter_name_file">Egy fájl innen: %s</string>
   <!-- As in, "A a file from this device". -->
-  <string name="filter_name_file_unknown">az eszköz</string>
+  <string name="filter_name_file_unknown">erről az eszközről</string>
   <!-- Name of a tab for adding a new host to the blacklist / whitelist. -->
   <string name="filter_edit_name">Hoszt</string>
   <!-- An example format of a hostname. -->
@@ -21,13 +21,13 @@
   <string name="filter_edit_file">Fájl</string>
   <string name="filter_edit_file_choose">Válassz ki egy hoszt fájlt</string>
   <string name="filter_edit_file_none">Nincs hoszt fájl kiválasztva</string>
-  <string name="filter_edit_file_error">A kiválsztott fájl úgy tűnik nem tartalmaz hosztokat.</string>
+  <string name="filter_edit_file_error">A kiválasztott fájl úgy tűnik nem tartalmaz hosztokat.</string>
   <!-- Name of a tab that allows to add a link to hosts. -->
   <string name="filter_edit_link">Link</string>
   <string name="filter_edit_link_enter">Adj meg egy linket a hosztfájlhoz</string>
   <!-- An example format of a link to hosts file. -->
   <string name="filter_edit_link_placeholder">http://example.com/hosts.txt</string>
-  <string name="filter_edit_link_error">A megadott link nem letölthető, vagy nem tartalmaz hostokat.</string>
+  <string name="filter_edit_link_error">A megadott link nem letölthető, vagy nem tartalmaz hosztokat.</string>
   <!-- Name of a tab that allows to whitelist app. -->
   <string name="filter_edit_app">App</string>
   <string name="filter_edit_app_enter">Adj meg alkalmazás vagy csomag nevet</string>
