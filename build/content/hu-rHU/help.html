@@ -67,45 +67,45 @@
 
 <p>Ha nincs más VPN kapcsolatod nézd meg, hogy a Blokada-ban a <i>Csak online</i> engedélyezve van-e és ha igen, nézd meg, hogy csatlakozva van-e a készülék wifi-n vagy mobil adatkapcsolaton az internethez. A Blokada nem fog elindulni ha a <i>Csak online</i> engedélyezve van és nincs internetkapcsolatod.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Ha ez sem oldotta meg a problémát, indítsd újra a telefont, néha ez is segít.</p>
 
-<h4><a name="kill">Blokada stops to function/work after a while.</h4>
+<h4><a name="kill">A Blokada egy idő után leáll vagy nem működik.</h4>
 <p>Első lépésként engedélyezd az <i>Életben tart</i> opciót a Blokada-ban. Ebben az esetben a Blokada megpróbál online maradni, de kérlek vedd figyelembe, hogy a rendszered még így is befolyásolhatja ennek a működését. Ha beállítottad, de még így is azt látod, hogy a Blokada időről időre leáll, ellenőrizd a rendszered beállításait és próbálj kikapcsolni minden akkumulátor- és memóriaoptimalizációt ami a Blokada-ra vonatkozik. Sajnálatos módon ez minden rendszeren eltérő módon állítható be, így nem tudjuk megmondani hol tudod megtenni. Kérlek ellenőrizd a telefonod beállításait. Egyéb forrása a fenti problémának az is lehet, ha memóriatisztító alkalmazást használsz. Ebben az esetben kérlek tedd a Blokada-t fehérlistára vagy a kivételek listájára. Ha ezen lépések közül egyik sem segített, kérlek írj egy hibajelentést (alább láthatod ennek a módját).</p>
 
 <h4><a name="howitworks">Hogyan működik a Blokada?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
+<p>A Blokada egy vékony réteg a telefonod hálózati interfésze (wifi vagy mobilhálózat) és az alkalmazás(ok) között, amiket használsz. Létrehoz egy VPN kapcsolatot, hogy képes legyen minden kimenő kérést szűrni és egyszerűen blokkolja azokat a hosztokat amik a tiltólistán szereplő listákban vannak. Ez a blokkolás egy átirányítással valósul meg, a weblap IP címe, amely a reklámot adja egy nem továbbítható címre lesz feloldva a telefon álltal, konkrétan 0.0.0.0-ra ahol nem fut webszolgáltatás, így nem fog semmi megjelenni. Ezzel a Blokada a mobiladat forgalmadat és az akkumulátorodat is kíméli. A szűrők automatikusan frissülnek és olyan hosztokat tartalmaznak amik reklámokat, nyomkövetőket, spam-et, malware-t és egyéb kéretlen vagy veszélyes tartalmat szolgáltatnak. Be tudod állítani a saját szűrőidet és kivételeidet is, hogy biztos legyél benne, hogy a szolgáltatás amit használni szeretnél nem lesz blokkolva és nem tapasztalsz kiesést.</p>
 
-<h4><a name="vpn">Can I use another VPN while Blokada is turned on?</a></h4>
-<p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
+<h4><a name="vpn">Tudok másik VPN-t használni ha a Blokada be van kapcsolva?</a></h4>
+<p>Sajnos nem, ez egy rendszerlimitáció; egyszerre csak egy aktív VPN kapcsolatod lehet. Ha csatlakozol egy másik szolgáltatáshoz a Blokada le fog állni.</p>
 
-<h4><a name="options">What are the options in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the main screen that are not detailed at the first start. Please let us do it now. You can see the following:</p>
+<h4><a name="options">Milyen lehetőségek vannak a Blokada-ban?</a></h4>
+<p>Mint azt biztosan láttad, a Blokada-nak van pár funkciója a főképernyőn amik nincsenek elmagyarázva az első induláskor. Kérlek hadd tegyük meg most. A következők láthatóak:</p>
 <p><ul>
-    <li><b>Blacklist</b>: this is the lists of host files containing the servers to block. Please note that using multiple lists can have effect on network and system speed.</li>
-    <li><b>Whitelist</b>: the whitelist is the exception list, here you can define hosts that should not be blocked or apps where Blokada won’t filter URLs. Blokada is installed with several whitelisted apps by default.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>DNS</b>: if you are suspecting that some websites or services are blocked for you, or you are presuming that your internet provider collects information about your intenet usage, choose a secure DNS machine from the list. By default, Blokada uses the same DNS server/s as your system.</li>
+    <li><b>Tiltólista</b>: az a lista amik a szűrendő szerverek listáit tartalmazza. Kérlek vedd figyelembe, hogy túl sok lista használata hatással lehet a hálózat- és rendszersebességre.</li>
+    <li><b>Kivételek</b>: a kivételek között azok a hosztok találhatók amik nem lesznek blokkolva vagy olyan alkalmazások amikben a Blokada nem fog linkeket szűrni. A Blokada Kivétel listáján több alkalmazás is megtalálható alapértelmezettként.</li>
+    <li><b>Életben tart</b>: ez a funkció gondoskodik arról, hogy a rendszer ne szüneteltesse vagy állítsa meg a Blokada-t. Kérlek vedd figyelembe, hogy a rendszer felülírhatja ezt, győződj meg róla, hogy a beállításaid engedik a Blokada-t futni a háttérben.</li>
+    <li><b>Értesítések</b>: ha engedélyezett, értesítéseket fogsz kapni mikor egy reklám blokkolva van. Alapból be van kapcsolva, de kapcsold ki ha nagyon sok értesítést kapsz.</li>
+    <li><b>Csak online</b>: ha ez be van kapcsolva a Blokada megáll ha nincsen aktív internetkapcsolat és újra elindul ha a kapcsolat visszaáll. Ha letiltod a Blokada mindig futni fog a háttérben (akkor is ha nincs elérhető hálózat). Ez a funkció nem biztos, hogy minden készüléken működik.</li>
+    <li><b>Bootoláskor indul</b>: ha engedélyezett, a Blokada a rendszerrel együtt indulni fog. Kérlek vedd figyelembe, hogy vannak rendszer szintű beállítások erre, emiatt nem garantálható, hogy a Blokada valóban indulni tud. Ez esetben kérlek nézd meg a telefonod beállításait. Az alap beállítás, hogy engedélyezve van, ha kézzel akarod indítani a Blokada-t akkor tiltsd le ezt.</li>
+    <li><b>DNS</b>: ha azt gyanítod, hogy néhány weblap vagy szolgáltatás tiltva van számodra, vagy azt feltételezed, hogy az internetszolgáltatód információkat gyűjt az internethasználatodról, akkor válassz egy biztonságos DNS kiszolgálót a listáról. Alapértelmezettként a Blokada azokat a DNS szervereket haszálja amiket a rendszer is.</li>
 </ul></p>
 
-<p>Not configurable things:</p>
+<p>Nem konfigurálható dolgok:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
-    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b>Legfrissebb</b>: ha ezt látod, a legújabb Blokada verziót használod. Tartsd az alkalmazást naprakészen, mert a legfrissebb verzió mindig kevesebb hibát és több funkciót tartalmaz!</li>
+    <li><b># hirdetés blokkolva</b>: a Blokada által blokkolt tartalmak száma a Blokada első indítása óta</li>
+    <li><b># hoszt</b>: azon szerverek száma, amely hirdetéseket, rosszindulatú programokat és egyéb nem kívánt tartalmakat jelenítenek meg</li>
 </ul></p>
 
-<h4><a name="ads">What can I do if I still see some ads?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<h4><a name="ads">Mit tehetek ha még mindig látok néhány reklámot?</a></h4>
+<p>Néhány reklám mindegyik reklámszűrőn átjut az Androidon. YouTube vagy néhány teljes képernyős reklám szürése kivételesen nehéz. Ha úgy érzed, hogy több reklámot kapsz mint előtte, próbáld ki ezeket a lépéseket:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, report a bug.</li>
-    <li>Make sure you don't have too many apps in the whitelist - maybe that's why you are seeing ads.</li>
-    <li>Try resetting your filters (go to the Blacklist screen and choose <i>Restore Defaults</i> from the Quick Actions menu at the top).</li>
-    <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
+    <li>Nézd meg, hogy a VPN kulcs ikon látható-e az értesítési sávon. Ha nem, indítsd el a Blokada-t.</li>
+    <li>Nyisd meg a Blokada-t és győződj meg róla, hogy aktív és nincsenek hibajelentések.</li>
+    <li>Nézd meg, hogy a hosztszámláló nem-e nullán áll. Ha annyin van, válassz pár listát a tiltólistáról, hogy a reklámok blokkolva legyenek. Ha ezek után is nullán áll a számláló, jelentsd a hibát.</li>
+    <li>Bizonyosodj meg róla, hogy nincs túl sok alkalmazás a kivételek között - talán emiatt látsz reklámokat.</li>
+    <li>Próbáld meg újra beállítani a szűrőket (menjen a Tiltólista képernyőre, és válaszd a fenti Gyors műveletek menü <i>Alaphelyzetbe állítás</i> lehetőséget).</li>
+    <li>Ha a böngészőben hirdetéseket lát, tiltson le minden adattömörítést, vagy optimalizálást a böngésző beállításai között.</li>
     <li>Deactivate Blokada, close it (by swiping it out from the Recents screen), and turn it on again.</li>
     <li>If you recently changed your settings (filters, whitelist, etc), remember it takes time before new configuration start working. Give it some time.</li>
     <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
