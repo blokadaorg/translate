@@ -54,7 +54,7 @@
 <h4><a name="refresh">Blokada блокирует меньше рекламы.</a></h4>
 <p>Если вы подозреваете, что Blokada блокирует меньше рекламы, чем раньше, обновите ваши списки. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Reflesh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.</p>
 
-<p>Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>В качестве альтернативы вы можете включить другие списки хостов или добавить другие запрещающие фильтры в <i>Черный список</i>.</p>
 
 <h4><a name="whitelist">Приложение не работает должным образом.</a></h4>
 <p>If you can see that an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please go to the main screen, choose <i>Whitelist</i>, at the bottom of the screen tap on the + sign, choose <i>App</i> and type its name. Нажмите <i>Сохранить</i> в конце. При этом Blokada не будет фильтровать URL-адреса в этом приложении.</p>
@@ -67,19 +67,19 @@
 
 <p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Если это не поможет, перезагрузите телефон, это тоже иногда помогает.</p>
 
 <h4><a name="kill">Blokada перестает работать через некоторое время.</h4>
-<p>В качестве первого шага включите <i>Держать активным</i> в Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Проверьте настройки вашего телефона. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<p>В качестве первого шага включите <i>Держать активным</i> в Blokada. В этом случае Blokada попытается остаться в сети, но, пожалуйста, имейте в виду, что ваша система может повлиять на это поведение. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Проверьте настройки вашего телефона. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="howitworks">Как работает Blokada?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. Фильтры обновляются автоматически и содержат узлы, известные для показа рекламы, отслеживания, спама, вредоносных программ и других нежелательных или опасных материалов. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
+<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. Фильтры обновляются автоматически и содержат узлы, известные для показа рекламы, отслеживания, спама, вредоносных программ и других нежелательных или опасных материалов. Вы можете настроить Blokada с помощью собственных пользовательских фильтров и белых списков, чтобы гарантировать, что служба, которую вы хотите использовать, не блокируется, и вы не испытываете никаких перебоев.</p>
 
 <h4><a name="vpn">Могу ли я использовать другое соединение VPN во время работы Blokada?</a></h4>
-<p>К сожалению нет, это системное ограничение; одновременно может быть активно только одно VPN-подключение. If you join to an other service, Blokada will exit.</p>
+<p>К сожалению нет, это системное ограничение; одновременно может быть активно только одно VPN-подключение. Если вы присоединитесь к другой службе, Blokada перестанет работать.</p>
 
 <h4><a name="options">Какие опции есть в Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the main screen that are not detailed at the first start. Давайте сделаем это сейчас. Вы можете увидеть следующее:</p>
+<p>Вы наверняка уже видели, что у Blokada есть некоторые опции на главном экране, которые не были указаны при первом запуске. Давайте сделаем это сейчас. Вы можете увидеть следующее:</p>
 <p><ul>
     <li><b>Blacklist</b>: this is the lists of host files containing the servers to block. Имейте в виду, что использование нескольких списков может влиять на скорость работы сети и системы.</li>
     <li><b>Whitelist</b>: the whitelist is the exception list, here you can define hosts that should not be blocked or apps where Blokada won’t filter URLs. Blokada is installed with several whitelisted apps by default.</li>
