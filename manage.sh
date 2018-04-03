@@ -62,8 +62,8 @@ elif [ "$choice" = "e" ]; then
 	cp -rf $web/api/v3/canonical/strings $web/api/v3/content/en
 	cp -rf build/content/* $web/api/v3/content/
 	for D in $web/api/v3/content/*/; do
-		cp -r $web/api/v3/canonical/cache $d/
-		cp -r $web/api/v3/canonical/css $d/
+		cp -r $web/api/v3/canonical/cache $D/
+		cp -r $web/api/v3/canonical/css $D/
 	done
 
 	echo "Done. Check removed files."
