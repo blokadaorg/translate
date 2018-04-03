@@ -60,10 +60,20 @@ elif [ "$choice" = "e" ]; then
 
 	echo "Exporting web..."
 	rm -rf $web/api/v3/content/*
-	cp -rf $web/api/v3/canonical/strings $web/api/v3/content/en
+	cp -rf $web/api/v3/canonical/strings/* $web/api/v3/content/en/
 	cp -rf build/content/* $web/api/v3/content/
 	for D in $web/api/v3/content/*/; do
 		cp -r $web/api/v3/canonical/css $D/
+	done
+
+	echo "Exporting web (dns)..."
+	rm -rf $web/api/v3/content_dns/*
+	cp -rf $web/api/v3/canonical/strings/* $web/api/v3/content_dns/en/
+	cp -rf build/content/* $web/api/v3/content_dns/
+	for D in $web/api/v3/content_dns/*/; do
+		cp -r $web/api/v3/canonical/css $D/
+		mv $D/intro_dns.html $D/intro.html
+		mv $D/help_dns.html $D/help.html
 	done
 
 	echo "Done. Check removed files."
