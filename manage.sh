@@ -41,9 +41,7 @@ if [ "$choice" = "i" ]; then
 	for x in $xml; do
 	    runXml
 	done
-	src=$gscore
-	x="gscore"
-	runXml
+	cp $gscore/src/main/res/values/strings_$x.xml gscore/strings_$x.xml
 
 	echo "Importing web..."
 	src=$web
