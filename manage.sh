@@ -39,14 +39,15 @@ if [ "$choice" = "i" ]; then
 	echo "Importing xml..."
 	src=$app
 	for x in $xml; do
-	    runXml
+	    importXml
 	done
-	cp $gscore/src/main/res/values/strings_$x.xml gscore/strings_$x.xml
+	echo "Importing gscore..."
+	cp $gscore/src/main/res/values/strings_gscore.xml gscore/strings_gscore.xml
 
 	echo "Importing web..."
 	src=$web
 	for x in $pages; do
-	    runPages
+	    importContent
 	done
 elif [ "$choice" = "e" ]; then
 	echo "Exporting xml..."
