@@ -36,7 +36,7 @@ echo ""
 
 read -p "Do you want to import sources (i) or export translations (e)? (i/e) " choice
 if [ "$choice" = "i" ]; then
-	echo "Importing xml..."
+	echo "Importing app..."
 	src=$app
 	for x in $xml; do
 	    importXml
@@ -50,10 +50,11 @@ if [ "$choice" = "i" ]; then
 	    importContent
 	done
 elif [ "$choice" = "e" ]; then
-	echo "Exporting xml..."
+	echo "Exporting app..."
 	rm -rf $app/src/main/res/values-*
 	cp -rf build/app/* $app/src/main/res/
 
+	echo "Exporting gscore..."
 	rm -rf $gscore/src/main/res/values-*
 	cp -rf build/gscore/* $gscore/src/main/res/
 
