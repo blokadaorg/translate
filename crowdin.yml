@@ -8,3 +8,4 @@ files:
     translation: /build/content/%locale_with_underscore%/%original_file_name%
   - source: /gscore/*.xml
     translation: /build/gscore/values-%android_code%/%original_file_name%
+    translate_attributes: '0'
