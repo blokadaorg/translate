@@ -52,15 +52,15 @@
 <h4><a name="unsupported">Я не могу запустить Blokada после установки.</a></h4>
 <p>Есть две общие причины для такой ситуации. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada не запустится, если включена опция <i>Только онлайн</i> или отсутствует подключение к интернету.</p>
 
 <p>Если это не поможет, перезагрузите телефон, это тоже иногда помогает.</p>
 
 <h4><a name="kill">Blokada перестает работать через некоторое время.</h4>
-<p>В качестве первого шага включите <i>Держать активным</i> в Blokada. В этом случае Blokada попытается остаться в сети, но, пожалуйста, имейте в виду, что ваша система может повлиять на это поведение. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Проверьте настройки вашего телефона. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<p>В качестве первого шага включите <i>Держать активным</i> в Blokada. В этом случае Blokada попытается остаться в сети, но, пожалуйста, имейте в виду, что ваша система может повлиять на это поведение. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Проверьте настройки вашего телефона. Other source of such behaviour can be that you are using a memory cleaner. Пожалуйста, добавьте Blokada в белый список или список исключений. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="howitworks">Как работает Blokada?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to change DNS servers addresses of your device, it generates a VPN connection. Blokada does not send your data anywhere, the VPN is used only to create a local connection to make apps think they should use different DNS servers. Blokada DNS does not filter your connection in any way, but depending on DNS servers you choose, they may do so.</p>
+<p>Blokada - это тонкий слой между сетевым интерфейсом (Wi-Fi или мобильной сетью) вашего устройства и используемыми вами приложениями. Чтобы иметь возможность изменять DNS-сервера вашего устройства, создается VPN-соединение. Blokada никуда не отправляет ваши данные, VPN используется только для создания локального подключения, чтобы заставить приложения использовать другие DNS-серверы. Blokada никогда не фильтрует ваше соединение, фильтрацию выполняет выбранный вами DNS-сервер.</p>
 
 <h4><a name="vpn">Могу ли я использовать другое соединение VPN во время работы Blokada?</a></h4>
 <p>К сожалению нет, это системное ограничение; одновременно может быть активно только одно VPN-подключение. Если вы подкоючитесь к другому сервису, Blokada перестанет работать.</p>
@@ -70,7 +70,7 @@
 <p><ul>
     <li><b>Белый список</b>: белый список - это список исключений, здесь вы можете определить приложения, для которых Blokada не будет изменять DNS. По умолчанию в Blokada несколько приложений включены в белый список.</li>
     <li><b>Держать активным</b>: этот параметр должен обеспечивать, что Blokada не будет остановлена ​​или выключена ​​системой. Имейте в виду, что ваша система может завершить приложение, поэтому убедитесь, что ваши настройки позволят Blokada работать в фоновом режиме.</li>
-    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
+    <li><b>Только онлайн</b>: если включено, Blokada разъединится, если нет активного подключения, и возобновится снова при появлении интернета. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
     <li><b>Запуск при загрузке</b>: при включении, Blokada будет запускаться после загрузки системы. Обратите внимание, что для этой опции могут существовать конфигурации системного уровня, поэтому запуск Blokada при загрузке не может быть гарантирован. В этом случае проверьте настройки телефона. Конфигурация по умолчанию включена, если вы хотите запустить Blokada вручную, отключите эту опцию.</li>
 </ul></p>
 
