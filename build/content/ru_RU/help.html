@@ -65,7 +65,7 @@
 <h4><a name="unsupported">Я не могу запустить Blokada после установки.</a></h4>
 <p>Есть две общие причины для такой ситуации. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada не запустится, если включена опция <i>Только онлайн</i> или отсутствует подключение к интернету.</p>
 
 <p>Если это не поможет, перезагрузите телефон, это тоже иногда помогает.</p>
 
@@ -85,7 +85,7 @@
     <li><b>Whitelist</b>: the whitelist is the exception list, here you can define hosts that should not be blocked or apps where Blokada won’t filter URLs. По умолчанию в Blokada несколько приложений включены в белый список.</li>
     <li><b>Держать активным</b>: этот параметр должен обеспечивать, что Blokada не будет остановлена ​​или выключена ​​системой. Имейте в виду, что ваша система может завершить приложение, поэтому убедитесь, что ваши настройки позволят Blokada работать в фоновом режиме.</li>
     <li><b>Уведомления</b>: при включении вы будете уведомляться о каждой блокировке рекламы. Они включены по умолчанию. Если вы получаете много уведомлений - отключите их.</li>
-    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
+    <li><b>Только онлайн</b>: если включено, Blokada разъединится, если нет активного подключения, и возобновится снова при появлении интернета. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
     <li><b>Запуск при загрузке</b>: при включении, Blokada будет запускаться после загрузки системы. Обратите внимание, что для этой опции могут существовать конфигурации системного уровня, поэтому запуск Blokada при загрузке не может быть гарантирован. В этом случае проверьте настройки телефона. Конфигурация по умолчанию включена, если вы хотите запустить Blokada вручную, отключите эту опцию.</li>
     <li><b>DNS</b>: if you are suspecting that some websites or services are blocked for you, or you are presuming that your internet provider collects information about your intenet usage, choose a secure DNS machine from the list. По умолчанию Blokada использует тот же DNS-сервер, что и ваша система.</li>
 </ul></p>
