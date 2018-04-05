@@ -13,19 +13,41 @@
   <string name="filter_name_file_unknown">este dispositivo</string>
   <!-- Name of a tab for adding a new host to the blacklist / whitelist. -->
   <!-- An example format of a hostname. -->
+  <string name="filter_edit_name_error">Isto não parece correto. Certifique-se de que inseriu um domínio, como exemplo.com.</string>
   <!-- Name of a tab that allows to add a file with hosts. -->
+  <string name="filter_edit_file">Arquivo</string>
+  <string name="filter_edit_file_choose">Selecione um arquivo de endereços</string>
+  <string name="filter_edit_file_none">Nenhum arquivo de endereços selecionado</string>
+  <string name="filter_edit_file_error">O arquivo selecionado não parece conter endereços.</string>
   <!-- Name of a tab that allows to add a link to hosts. -->
+  <string name="filter_edit_link">Link</string>
+  <string name="filter_edit_link_enter">Informe o link para um arquivo de endereços</string>
   <!-- An example format of a link to hosts file. -->
+  <string name="filter_edit_link_error">Este link não pôde ser baixado ou parece não conter endereços.</string>
   <!-- Name of a tab that allows to whitelist app. -->
+  <string name="filter_edit_app_enter">Insira o nome do app ou pacote</string>
   <!-- An example package name of app to whitelist. -->
+  <string name="filter_edit_app_error">Este app não existe ou não pode ser adicionado à lista branca.</string>
+  <string name="filter_edit_save">Salvar</string>
+  <string name="filter_edit_cancel">Cancelar</string>
+  <string name="filter_edit_do">Continuar</string>
+  <string name="filter_edit_comments">Comentários</string>
+  <string name="filter_edit_comments_none">Sem comentários</string>
   <!-- Parameter: number of hosts. -->
+  <string name="filter_edit_count">Contém %d endereços</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
+  <string name="filter_blacklist_text">%d na lista negra</string>
+  <string name="filter_blacklist_text_none">Lista negra inativa</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
+  <string name="filter_whitelist_text">%d na lista branca</string>
+  <string name="filter_whitelist_text_none">Lista branca inativa</string>
   <!-- Title of menu with quick actions for whitelist / blacklist -->
+  <string name="filter_generate_title">Ações rápidas</string>
   <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
   <!-- Adds all system apps to the whitelist and/or sets them to disabled -->
   <!-- Adds all installed apps to the whitelist and/or sets them to enabled -->
   <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
   <!-- Deletes all filters and fetches default ones. -->
   <!-- Forcefully refetch filters ignoring cache. -->
+  <string name="filter_generate_refetch">Atualizar filtros</string>
 </resources>
