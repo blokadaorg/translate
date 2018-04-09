@@ -52,61 +52,61 @@
 <h4><a name="unsupported">Blokada nejde po instalaci spustit.</a></h4>
 <p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a to <i>Vždy VPN zapnutá</i> možnost je povolena. Chcete-li to provést, přejděte do Nastavení telefonu, vyhledejte VPN v části nastavení sítě a klepněte na zařízení vedle existující sítě VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
+<p>Pokud nemáte jiné připojení VPN, zkontrolujte Blokadu, zda je zapnuta volba <i>Pouze on-line</i>, pokud ano, zkontrolujte, zda jste připojeni k internetu, a to buď pomocí WiFi nebo mobilních dat. Blokada se nespustí, pokud je povoleno <i>Pouze on-line</i> a nemáte připojení k internetu.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Pokud to nepomůže, restartujte telefon, to někdy pomáhá.</p>
 
-<h4><a name="kill">Blokada stops to function/work after a while.</h4>
-<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<h4><a name="kill">Blokada po chvíli přestane pracovat.</h4>
+<p>Jako první krok zapněte v Blokadě možnost <i>Udržet při životě</i>. V tomto případě se Blokada pokusí zůstat on-line, ale přesto může váš systém toto chování stále ovlivnit. Pokud toto nastavení nepomůže a Blokada po čase přestane opět pracovat, zkontrolujte nastavení vašeho systému a vypněte optimalizaci baterie a paměti pro Blokadu. Bohužel se v každém systému toto nastavení liší, a proto nemůžeme poradit, jak to udělat. Zkontrolujte prosím nastavení vašeho telefonu. Jiný zdroj takového chování může být, že používáte některý z paměťových čističů, takzvaných taskkillerů. Prosím nastavte si Blokadu na seznam povolených nebo vyloučených aplikací. Pokud v tomto případě nepomohl žádný z těchto kroků, prosím, nahlaste chybu (viz níže, jak to udělat).</p>
 
-<h4><a name="howitworks">How does Blokada work?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to change DNS servers addresses of your device, it generates a VPN connection. Blokada does not send your data anywhere, the VPN is used only to create a local connection to make apps think they should use different DNS servers. Blokada DNS does not filter your connection in any way, but depending on DNS servers you choose, they may do so.</p>
+<h4><a name="howitworks">Jak Blokada funguje?</a></h4>
+<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Blokada je schopná změnit adresy serverů DNS vašeho zařízení a vytváří připojení VPN. Blokada nikam neodesílá vaše data, VPN se používá pouze k vytvoření místního připojení, díky němuž si aplikace myslí, že by měla používat odlišné DNS servery. Služba Blokada DNS v žádném případě nefiltruje vaše připojení, avšak v závislosti na zvoleném serveru DNS to dělat může.</p>
 
-<h4><a name="vpn">Can I use another VPN while Blokada is turned on?</a></h4>
-<p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
+<h4><a name="vpn">Mohu používat jinou síť VPN, zatímco je Blokada zapnutá?</a></h4>
+<p>Bohužel ne, je to systémové omezení; můžete mít současně pouze jedno aktivní připojení VPN. Pokud se připojíte k jiné službě, Blokada bude ukončena.</p>
 
-<h4><a name="options">What are the options in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the main screen which are not detailed at the first start. Please let us do it now. You can see the following:</p>
+<h4><a name="options">Jaké funkce jsou v Blokadě?</a></h4>
+<p>Jak jste si jistě všimli, Blokada má na hlavní obrazovce několik možností, které nejsou při prvním startu podrobně popsané. Prosím, učiňme to tedy nyní. Můžete vidět následující:</p>
 <p><ul>
-    <li><b>Whitelist</b>: the whitelist is the exception list, here you can definapps where Blokada won’t change DNS for. Blokada is installed with several whitelisted apps by default.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
+    <li><b>Whitelist</b>: Whitelist je seznam výjimek, zde můžete určit aplikace, u kterých Blokada DNS nezmění. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
+    <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
+    <li><b>Pouze on-line</b>: pokud je povoleno, Blokada se ukončí, pokud není aktivní připojení, a znovu se spustí, jakmile bude připojení k síti obnoveno. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
+    <li><b>Spustit při startu</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
 </ul></p>
 
-<p>Not configurable things:</p>
+<p>Nekonfigurovatelné věci:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b>Aktualizováno</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější má vždy méně chyb a více funkcí!</li>
 </ul></p>
 
-<h4><a name="update">I cannot install an update, what can I do?</a></h4>
-<p>First of all, please check if the Android version you have is 5 or newer. Android 4 and older versions are not supported in Blokada 3.0 and newer versions. To do it, go to the Settings of your phone, scroll to <i>About phone</i> and search for <i>Android version</i></p>
-<p>If your phone runs Andriod 5 or newer, please restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again. It can be, that your device is unsupported. Please check <a href="http://go.blokada.org/issue_device">Devices Database</a>.</p>
-<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
+<h4><a name="update">Nemohu nainstalovat aktualizaci, co mám dělat?</a></h4>
+<p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>Informace o telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
+<p>Běží-li váš telefon na Androidu 5 nebo novějším, restartujte prosím vaše zařízení. Možná to zní divně, ale někdy to může pomoci. Pokud to problém nevyřešilo, odinstalujte Blokadu a nainstalujte ji znovu. Může to být také tím, že vaše zařízení není podporováno. Prosím, zkontrolujte <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
+<p>Pokud žádný z těchto kroků nepomohl, přihlaste se ke svému účtu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> a získejte nápovědu, nebo nahlaste chybu (viz níže).</p>
 
-<h4><a name="notification">Can I hide the VPN notification?</a></h4>
-<p>Unfortunately no. Some devices may be displaying annoying VPN notification while VPN is active, and it is not possible to hide it. If you can, try updating your device, since newer Android versions do not have this problem.</p>
+<h4><a name="notification">Mohu skrýt oznámení o VPN?</a></h4>
+<p>Bohužel ne. Některá zařízení mohou zobrazovat obtěžující oznámení o VPN (ikona klíče v notifikační liště), zatímco VPN je aktivní a není možné jej skrýt. Pokud je to možné, zkuste aktualizovat své zařízení na Android 8 (Oreo), protože novější verze systému Android neobsahují tento přehled o stavu.</p>
 
-<h4><a name="bug">How do I report a problem, idea or suggestion?</a></h4>
-<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
+<h4><a name="bug">Jak nahlásím problém, nápad nebo návrh?</a></h4>
+<p>Pokud máte potíže, připojte se k našemu chatu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kde vám naše komunita ráda pomůže. Můžete také zvolit možnost Zpětné vazby z nabídky v pravém horním rohu a postupovat podle pokynů. Uveďte co nejvíce informací a kroky k reprodukci stejného problému - to nám velmi pomůže při řešení problému! Pokud jste profesionálním uživatelem, můžete jít přímo na web nástroje GitHub pro sledování problémů.</p>
 
-<h4><a name="private">Can Blokada see my private data?</a></h4>
-<p>No. Blokada does not read or tamper with your private information. Blokada DNS does not monitor your data in any way, it simply makes your app think they should use different DNS servers. Blokada has no access to your encrypted traffic.</p>
+<h4><a name="private">Může Blokada vidět moje soukromá data?</a></h4>
+<p>Ne. Blokada nečte ani neoprávněně nemanipuluje s vašimi osobními daty. Blokada DNS v žádném případě nesleduje vaše data, jednoduše funguje tak, že vaše aplikace si myslí, že by měla používat odlišné DNS servery. Blokada nemá přístup k šifrovaným přenosům.</p>
 
-<h4><a name="battery">Does Blokada use a lot of battery?</a></h4>
-<p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+<h4><a name="battery">Má Blokada velkou spotřebu energie?</a></h4>
+<p>Ne. V závislosti na vašich nastaveních je dopad na baterii minimální a na většině nových zařízení, zejména na zařízeních se systémem ve verzi Marshmallow (Android 6) nebo novějším, nezaznamenáte žádný úbytek baterie. Některé přístroje mohou zaznamenat zvýšené vybíjení baterie. To bývá však výjimkou. Podrobnosti naleznete v <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 
-<h4><a name="speed">Will Blokada slow down my device?</a></h4>
-<p>No. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+<h4><a name="speed">Bude Blokada zpomalovat mé zařízení?</a></h4>
+<p>Ne. V závislosti na nastavení Blokady, může mít na běh systému docela efektivní dopad. Ve skutečnosti se výkon zařízení i životnost baterie mohou výrazně zlepšit, protože Blokada zamezuje stahování některého obsahu (velké množství reklam). Telefon tak nemusí zpracovávat větší množství operací, čímž se zařízení zrychluje a nedochází k úbytku baterie. Uživatelé s některými staršími zařízeními však mohou zaznamenat pokles výkonu. Podrobnosti naleznete v <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 
-<h4><a name="free">Is Blokada really free to use?</a></h4>
-<p>Yes! Blokada started as my hobby project, is still mostly developed by me. It's my way of giving back to the community. Blokada is fully open source and it will stay free forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (see below).</p>
+<h4><a name="free">Je Blokada opravdu zdarma?</a></h4>
+<p>Ano! Projekt Blokada začal jako můj koníček, je stále většinově vyvíjen mnou. Je to můj způsob, jak dát něco komunitě zpět. Blokada je plně open source projekt a zůstane navždy zdarma. To znamená, že vývoj aplikace trvá delší dobu, proto prosím zvažte podporu projektu jakýmkoli způsobem (viz níže).</p>
 
-<h4><a name="contribute">Blokada is great, how can I help the project?</a></h4>
-<p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
+<h4><a name="contribute">Blokada je skvělá, jak mohu projektu pomoci?</a></h4>
+<p>Existuje mnoho způsobů, jak podpořit Blokadu, finančně či jinak. Všechny způsoby pomoci jsou pro projekt velmi důležité. <a href="contribute.html">Přejděte prosím na tuto stránku pro více informací</a>, nebo se jen <a href="http://go.blokada.org/chat">připojte k chatu </a>.</p>
 
-<h4><a name="other">I have another question, where can I ask it?</a></h4>
-<p>If your question is not answered here, please join to our Telegram chat channel on the <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> link, our community will be there to help you. If it is not convinient for you, use the Feedback option from the top menu, or if you have a more technical question, please go directly to the tracker at GitHub.</p>
+<h4><a name="other">Mám další otázky, kde se mohu zeptat?</a></h4>
+<p>Pokud jste zde nenašli odpovědi na vaše další otázky, připojte se k našemu chatu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kde vám naše komunita ráda pomůže. Pokud to není pro vás vhodná cesta, použijte možnost Zpětné vazby z horního menu, nebo máte-li otázku technického rázu, přejděte prosím přímo na GitHub.</p>
         </section>
     </div>
 </div>
