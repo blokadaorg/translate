@@ -57,7 +57,7 @@
 <p>Alternatif olarak <i>Kara Liste</i> menüsünden başka host seçeneklerini aktifleştirebilir ve sınırlayıcı filtreler uygulayabilirsiniz.</p>
 
 <h4><a name="whitelist">Bir uygulama beklendiği gibi çalışmıyor.</a></h4>
-<p>If you can see that an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please go to the main screen, choose <i>Whitelist</i>, at the bottom of the screen tap on the + sign, choose <i>App</i> and type its name. Tap on <i>Save</i> at the end. With this, Blokada won't filter the URLs in this app.</p>
+<p>Eğer bir uygulama beklendiği gibi çalışmıyor veya açtığınızda boş sayfa gösterip içeriği yüklenmiyorsa, ana ekranda <i>Beyaz Liste</i> seçeneğine dokunun, alt kısımda yer alan + işaretine basıp <i>Uygulama</i> sekmesinden sorun yaşadığınız uygulamayı seçiniz. Son olarak <i>Kaydet</i> düğmesine basınız. Bu sayede uygulamada yer alan URL'ler Blokada tarafından filtrelenmeyecektir.</p>
 
 <h4><a name="blacklist">Seçtiğim bir web sitesini engellemek istiyorum.</a></h4>
 <p>Host listesinde olmayan herhangi bir web sitesini engelleyebilirsiniz. Bunu yapmak için ana sayfadaki <i>Kara Liste</i> kısmına gidip sayfanın altındaki + işaretine dokunun <i>Host</i>'u seçin ve www olmadan web sitesinin adresini yazın. (örneğin: <i>ornek.com</i>).</p>
@@ -65,12 +65,12 @@
 <h4><a name="unsupported">Yükledikten sonra Blokada'yı başlatamıyorum.</a></h4>
 <p>Böyle bir durumun iki genel nedeni vardır. İlk olarak, etkin bir VPN bağlantısı var mı ve bu <i>Daima-açık VPN</i> olarak etkinleştirilmiş mi kontrol ediniz. Bunu yapmak için cihazınızın Ayarlar bölümüne girip Bağlantı sekmesinden VPN seçeneğini bularak devre dışı bırakınız. Aktif VPN bağlantısını sonlandırmanizin ardından Blokada'yı yeniden başlatınız.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
+<p>Eğer başka bir VPN bağlantınız yoksa, Blokada ana ekranından <i>Sadece Çevrimiçi</i> seçeneği aktif mi kontrol edin, eğer öyleyse, Wi-Fi veya mobil veri aracılığıyla internete bağlı olduğunuzdan emin olun. <i>Sadece Çevrimiçi</i> seçeneği aktifse ve internet bağlantısı yoksa Blokada çalışmayacaktır.</p>
 
 <p>Eğer işe yaramadıysa, telefonunuzu yeniden başlatın, bu bazen işe yarar..</p>
 
 <h4><a name="kill">Blokada bir süre sonra çalışmayı durduruyor.</h4>
-<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<p>İlk olarak, <i>Sürekli Çalış</i> seçeneğini aktifleştirin. Bu durumda, Blokada çevrimiçi kalmaya çalışacaktır, ama unutmayın ki bu davranışı sisteminiz yine de etkileyebilir. Eğer bu şekilde ayarlamanıza rağmen bir süre sonra Blokada çalışmayı durduruyorsa, cihaz ayarlarınızdan pil veya bellek optimizasyonlarını Blokada için devre dışı bırakınız. Maalesef her sistemde bu ayarların yeri farklı olduğundan, nereden yapacağınızı söyleyemiyoruz. Lütfen cihaz ayarlarınızı kontrol edin. Bunun bir başka nedeni ise bellek temizleyici uygulama kullanmanız olabilir. Lütfen Blokada'yı beyaz listeye ekleyin veya hariç tutun. Bu adımlardan hiçbiri yardımcı olmadıysa lütfen hata raporu bildiriminde bulununuz (aşağıya bakın).</p>
 
 <h4><a name="howitworks">Blokada nasıl çalışır?</a></h4>
 <p>Blokada cihazınızın bağlantı arayüzü (Wi-Fi veya mobil veri) ile uygulamalar arasında ince bir katmandır. Her giden trafiği filtrelemek için bir VPN bağlantısı oluşturur ve kara listede yer alan filtrelere göre engelleme yapar. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. Bu sayede cihazınız hem veri planınızı hem batarya ömrünü korur. Filtreler otomatik olarak güncellenir ve reklam, takip, spam, zararlı, istenmeyen veya tehlikeli içerik taşıyan adreslere karşı korur. Herhangi bir kesinti yaşamamak adına arzu ettiğiniz şekilde filtreleri düzenleyebilir, engellenmesini istemediğiniz hizmetleri hariç tutabilirsiniz.</p>
@@ -82,12 +82,12 @@
 <p>Açıkça gördüğünüz üzere Blokada ana ekranında ilk etapta bahsetmediğimiz seçenekler var. Şimdi sizi bilgilendirelim. Aşağıdaki listeyi inceleyiniz:</p>
 <p><ul>
     <li><b>Kara Liste</b>: engellenecek sunucu adreslerini içerir. Birden fazla liste kullanmak bağlantı hızı ve cihaz performansını etkileyebilir.</li>
-    <li><b>Beyaz Liste</b>: bu bir hariç tutulanlar listesidir. Engellenmesini istemediğiniz adresleri veya filtrelenmeyecek uygulamaları seçebilirsiniz. Blokada is installed with several whitelisted apps by default.</li>
+    <li><b>Beyaz Liste</b>: bu bir hariç tutulanlar listesidir. Engellenmesini istemediğiniz adresleri veya filtrelenmeyecek uygulamaları seçebilirsiniz. Blokada ilk etapta hariç tutulmuş birkaç uygulama ile gelir.</li>
     <li><b>Sürekli Çalış</b>: bu seçenek Blokada'nın sistem tarafından durdurulmadığını garanti etmek içindir. Lütfen sistemin bunu geçersiz kılma ihtimalini unutmayın ve Blokada'nın arka planda çalışması için gerekli ayarları yaptığınızdan emin olun.</li>
     <li><b>Bildirimler</b>: aktifse, bir reklam engellendiğinde bildirim alacaksınız. Varsayılan olarak aktiftir, ancak bir sürü bildirim alırsanız, devre dışı bırakabilirsiniz.</li>
     <li><b>Sadece Çevrimiçi</b>: aktifse, Blokada bir etkin bağlantı olmadığında kapanacak, bağlantı sağlandığı zaman kendiliğinden çalışacaktır. Devre dışı ise, etkin bağlantı olmadığında bile Blokada arka planda çalışacaktır. Lütfen bu özelliğin bazı cihazlarda çalışmayabileceğini unutmayın.</li>
     <li><b>Açılışta Çalıştır</b>: aktifse, sistem açıldığında Blokada otomatik olarak çalışacaktır. Lütfen bu seçenek için sistem seviyesinde ayarlar gerektiğini unutmayın, Blokada'nın her sistem başlangıcında çalışacağı garanti edilemez. Bu durumda lütfen cihaz ayarlarınızı kontrol ediniz. Varsayılan olarak bu seçenek aktiftir, kendiniz Blokada'yı çalıştırmak isterseniz devre dışı bırakabilirsiniz.</li>
-    <li><b>DNS</b>: if you are suspecting that some websites or services are blocked for you, or you are presuming that your internet provider collects information about your intenet usage, choose a secure DNS machine from the list. Varsayılan olarak Blokada sisteminize ait DNS sunucularını kullanır.</li>
+    <li><b>DNS</b>: bazı web siteleri veya hizmetlerin sizin engellediğini düşünüyor ya da internet sağlayıcınız tarafından verilerinizin toplandığını düşünüyorsanız listeden güvenli bir DNS sağlayıcısı seçebilirsiniz. Varsayılan olarak Blokada sisteminize ait DNS sunucularını kullanır.</li>
 </ul></p>
 
 <p>Yapılandırılamayan şeyler:</p>
