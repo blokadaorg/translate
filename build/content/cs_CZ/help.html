@@ -73,26 +73,26 @@
 <p>Jako první krok zapněte v Blokadě možnost <i>Udržet při životě</i>. V tomto případě se Blokada pokusí zůstat on-line, ale přesto může váš systém toto chování stále ovlivnit. Pokud toto nastavení nepomůže a Blokada po čase přestane opět pracovat, zkontrolujte nastavení vašeho systému a vypněte optimalizaci baterie a paměti pro Blokadu. Bohužel se v každém systému toto nastavení liší, a proto nemůžeme poradit, jak to udělat. Zkontrolujte prosím nastavení vašeho telefonu. Jiný zdroj takového chování může být, že používáte některý z paměťových čističů, takzvaných taskkillerů. Prosím nastavte si Blokadu na seznam povolených nebo vyloučených aplikací. Pokud v tomto případě nepomohl žádný z těchto kroků, prosím, nahlaste chybu (viz níže, jak to udělat).</p>
 
 <h4><a name="howitworks">Jak Blokada funguje?</a></h4>
-<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Filtruje všechen odchozí provoz, generuje připojení VPN a jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny, takzvaném Blacklistu. Toto blokování se provádí přesměrováním, adresy IP webové stránky, která slouží této reklamě, požadavek bude vyřešen telefonem na ne-směrovatelnou meta-adresu pro 0.0.0.0, kde není spuštěna žádná webová služba, a proto se nic nezobrazí. Díky tomu Blokada spoří vaše mobilní data i životnost baterie. Filtry se automaticky aktualizují a obsahují hostitele známé pro zobrazování reklam, sledování, spam, malware a další nežádoucí nebo nebezpečný obsah. Blokadu můžete nakonfigurovat pomocí vlastních filtrů a seznamů povolených ve Whitelistu, abyste zajistili, že služba, kterou chcete používat, nebude zablokována.</p>
+<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Filtruje všechen odchozí provoz, generuje připojení VPN a jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny. Toto blokování se provádí přesměrováním adresy IP webové stránky, která slouží této reklamě, požadavek bude vyřešen telefonem na ne-směrovatelnou meta-adresu pro 0.0.0.0, kde není spuštěna žádná webová služba, a proto se nic nezobrazí. Díky tomu Blokada spoří vaše mobilní data i životnost baterie. Filtry se automaticky aktualizují a obsahují hostitele známé pro zobrazování reklam, sledování, spam, malware a další nežádoucí nebo nebezpečný obsah. Blokadu můžete nakonfigurovat pomocí vlastních filtrů v Seznamu povolených, abyste zajistili, že služba, kterou chcete používat, nebude zablokována.</p>
 
 <h4><a name="vpn">Mohu používat jinou síť VPN, zatímco je Blokada zapnutá?</a></h4>
 <p>Bohužel ne, je to systémové omezení; můžete mít současně pouze jedno aktivní připojení VPN. Pokud se připojíte k jiné službě, Blokada bude ukončena.</p>
 
-<h4><a name="options">Jaké funkce jsou v Blokadě?</a></h4>
+<h4><a name="options">Jaké jsou možnosti v Blokadě?</a></h4>
 <p>Jak jste si jistě všimli, Blokada má na hlavní obrazovce několik možností, které nejsou při prvním startu podrobně popsané. Prosím, učiňme to tedy nyní. Můžete vidět následující:</p>
 <p><ul>
-    <li><b>Blacklist</b>: toto jsou seznamy hostitelských souborů, které obsahují blokované servery. Upozorňujeme, že použití více seznamů může mít vliv na rychlost sítě a systému.</li>
-    <li><b>Whitelist</b>: Whitelist je seznam výjimek, zde můžete definovat hostitele, které by neměly být blokovány, nebo aplikace u kterých Blokada nebude filtrovat adresy URL. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
+    <li><b>Černá listina</b>: toto jsou seznamy blocklistů, které obsahují blokované servery. Upozorňujeme, že použití více blocklistů může mít vliv na rychlost sítě a systému.</li>
+    <li><b>Seznam povolených</b>: Seznam povolených je seznam výjimek, zde můžete definovat hostitele, které by neměly být blokovány, nebo aplikace u kterých Blokada nebude filtrovat adresy URL. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
-    <li><b>Upozornění</b>: Pokud je povoleno, budete upozorněni při každé, zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
+    <li><b>Oznámení</b>: Pokud je povoleno, budete upozorněni při každé, zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
     <li><b>Pouze on-line</b>: pokud je povoleno, Blokada se ukončí, pokud není aktivní připojení, a znovu se spustí, jakmile bude připojení k síti obnoveno. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
-    <li><b>Spustit při startu</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
+    <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, zda Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Ve výchozí konfiguraci je tato funkce povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
     <li><b>DNS</b>: Pokud máte podezření, že některé webové stránky nebo služby jsou vám blokovány, nebo za předpokladu, že váš poskytovatel internetu shromažďuje informace o vašem používání internetu, zvolte bezpečné DNS z nabízeného seznamu. Blokada ve výchozím nastavení používá stejný DNS server jako váš systém.</li>
 </ul></p>
 
 <p>Nekonfigurovatelné věci:</p>
 <p><ul>
-    <li><b>Aktualizováno</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější má vždy méně chyb a více funkcí!</li>
+    <li><b>Aktuální</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější verze má vždy méně chyb a více funkcí!</li>
     <li><b># reklam zablokováno</b>: počet nežádoucího obsahu, který blokuje Blokada od jejího prvního spuštění</li>
     <li><b># hosts</b>: počet serverů, které evidují reklamy, škodlivý software a další nežádoucí obsah</li>
 </ul></p>
@@ -103,10 +103,10 @@
     <li>Zkontrolujte, zda je ve stavovém řádku v horní části ikona klíče VPN. Pokud ne, spusťte Blokadu.</li>
     <li>Otevřete Blokadu a zkontrolujte, zda je aktivní a nehlásí žádné chyby.</li>
     <li>Zkontrolujte, zda čítač hostitelů není rovný nule. Pokud ano, vyberte některé filtry z Blacklistu, aby mohly být reklamy blokovány. Pokud je čítač stále rovný nule, nahlaste chybu.</li>
-    <li>Ujistěte se, že nemáte příliš mnoho aplikací v seznamu povolených položek - možná to je důvod, proč se zobrazují reklamy.</li>
-    <li>Zkuste restartovat filtry (přejděte na obrazovku Blacklist a zvolte <i>Obnovit výchozí</i> z nabídky Rychlé akce v horní části).</li>
+    <li>Ujistěte se, zda nemáte příliš mnoho aplikací v seznamu povolených - možná to je důvod, proč se zobrazují reklamy.</li>
+    <li>Zkuste restartovat filtry (přejděte na obrazovku Černá listina a zvolte <i>Obnovit výchozí</i> z nabídky Rychlé akce v horní části).</li>
     <li>Pokud se v prohlížeči zobrazují reklamy, deaktivujte v nastavení prohlížeče jakýkoli druh komprese nebo optimalizace provozu.</li>
-    <li>Deaktivujte Blokadu, zavřete ji (odstraněním obrazovky z obrazovky běžících aplikací) a opět ji zapněte.</li>
+    <li>Deaktivujte Blokadu, zavřete ji (odstraněním z obrazovky běžících aplikací) a opět ji zapněte.</li>
     <li>Pokud jste nedávno změnili nastavení (filtry, seznam povolených, atd.), Nezapomeňte, že trvá určitou dobu, než začne nová konfigurace fungovat. Dejte tomu nějaký čas.</li>
     <li>Vymažte data aplikace Blokada (v systémových nastaveních) nebo ji znovu nainstalujte.</li>
     <li>Restartujte zařízení.</li>
@@ -115,10 +115,10 @@
 </ul></p>
 
  <h4><a name="DNS">Co je to DNS a kterou vybrat?</a></h4>
- <p>Zkratka DNS znamená systém Domain Name System a tyto servery jsou odpovědné za překlad názvů domén (například: <i>myexample.com</i>) na adresy IP, které se mezi zařízeními používají ke komunikaci. Váš poskytovatel internetových služeb má své vlastní servery DNS; Blokada je konfigurována tak, aby používala výchozí nastavení systému. Alternativní DNS servery v tomto seznamu by měly být použity, pokud máte podezření, že váš ISP shromažďuje protokoly o používání internetu, obáváte se nějakého rizika spojeného s ochranou osobních údajů nebo pokud jsou některé webové stránky či služby pro vás zablokovány ze strany ISP. Neexistuje "nejlepší", vše závisí na vašich preferencích a umístění, takže pokud chcete používat vlastní servery DNS, přečtěte si jejich popis, vyhledejte si je na internetu a přečtěte si zpětné vazby.</p>
+ <p>Zkratka DNS znamená systém Domain Name System a tyto servery jsou odpovědné za překlad názvů domén (například: <i>myexample.com</i>) na adresy IP, které se mezi zařízeními používají ke komunikaci. Váš poskytovatel internetových služeb má své vlastní servery DNS; Blokada je konfigurována tak, aby používala výchozí nastavení systému. Alternativní DNS servery v tomto seznamu by měly být použity, pokud máte podezření, že váš ISP (poskytovatel internetu) shromažďuje protokoly o používání internetu, obáváte se nějakého rizika spojeného s ochranou osobních údajů nebo pokud jsou některé webové stránky či služby pro vás zablokovány ze strany ISP. Neexistuje "nejlepší", vše závisí na vašich preferencích a umístění, takže pokud chcete používat vlastní servery DNS, přečtěte si jejich popis, vyhledejte si je na internetu a přečtěte si zpětné vazby.</p>
 
 <h4><a name="update">Nemohu nainstalovat aktualizaci, co mám dělat?</a></h4>
-<p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>Informace o telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
+<p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>O telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
 <p>Běží-li váš telefon na Androidu 5 nebo novějším, restartujte prosím vaše zařízení. Možná to zní divně, ale někdy to může pomoci. Pokud to problém nevyřešilo, odinstalujte Blokadu a nainstalujte ji znovu. Může to být také tím, že vaše zařízení není podporováno. Prosím, zkontrolujte <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 <p>Pokud žádný z těchto kroků nepomohl, přihlaste se ke svému účtu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> a získejte nápovědu, nebo nahlaste chybu (viz níže).</p>
 
@@ -138,7 +138,7 @@
 <p>Ne. V závislosti na nastavení Blokady, může mít na běh systému docela efektivní dopad. Ve skutečnosti se výkon zařízení i životnost baterie mohou výrazně zlepšit, protože Blokada zamezuje stahování některého obsahu (velké množství reklam). Telefon tak nemusí zpracovávat větší množství operací, čímž se zařízení zrychluje a nedochází k úbytku baterie. Uživatelé s některými staršími zařízeními však mohou zaznamenat pokles výkonu. Podrobnosti naleznete v <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 
 <h4><a name="free">Je Blokada opravdu zdarma?</a></h4>
-<p>Ano! Projekt Blokada začal jako můj koníček, je stále většinově vyvíjen mnou. Je to můj způsob, jak dát něco komunitě zpět. Blokada je plně open source projekt a zůstane navždy zdarma. To znamená, že vývoj aplikace trvá delší dobu, proto prosím zvažte podporu projektu jakýmkoli způsobem (viz níže).</p>
+<p>Ano! Projekt Blokada začal jako můj koníček a je stále většinově vyvíjen mnou. Je to můj způsob, jak dát něco komunitě zpět. Blokada je plně open source projekt a zůstane navždy zdarma. To znamená, že vývoj aplikace trvá delší dobu, proto prosím zvažte podporu projektu jakýmkoli způsobem (viz níže).</p>
 
 <h4><a name="contribute">Blokada je skvělá, jak mohu projektu pomoci?</a></h4>
 <p>Existuje mnoho způsobů, jak podpořit Blokadu, finančně či jinak. Všechny způsoby pomoci jsou pro projekt velmi důležité. <a href="contribute.html">Přejděte prosím na tuto stránku pro více informací</a>, nebo se jen <a href="http://go.blokada.org/chat">připojte k chatu </a>.</p>
