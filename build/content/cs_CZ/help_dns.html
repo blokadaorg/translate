@@ -47,7 +47,7 @@
 </ol>
 
 <h4><a name="whitelist">Aplikace nefunguje dle očekávání.</a></h4>
-<p>Pokud zjistíte, že aplikace nefunguje dle očekávání, nenahrává obsah nebo má podobně špatné chování, přejděte na hlavní obrazovku a zvolte <i>Whitelist</i>, v dolní části obrazovky klepněte na znaménko + a zvolte <i>App</i>a zadejte její název. Na konec klepněte na <i>Uložit</i>. Díky tomu nebude Blokada filtrovat adresy URL v této aplikaci.</p>
+<p>Pokud zjistíte, že aplikace nefunguje dle očekávání, nenahrává obsah nebo má podobně špatné chování, přejděte na hlavní obrazovku a zvolte <i>Seznam povolených</i>, v dolní části obrazovky klepněte na znaménko + a zvolte <i>App</i>a zadejte její název. Na konec klepněte na <i>Uložit</i>. Díky tomu nebude Blokada filtrovat adresy URL v této aplikaci.</p>
 
 <h4><a name="unsupported">Blokada nejde po instalaci spustit.</a></h4>
 <p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a to <i>Vždy VPN zapnutá</i> možnost je povolena. Chcete-li to provést, přejděte do Nastavení telefonu, vyhledejte VPN v části nastavení sítě a klepněte na zařízení vedle existující sítě VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
@@ -60,27 +60,27 @@
 <p>Jako první krok zapněte v Blokadě možnost <i>Udržet při životě</i>. V tomto případě se Blokada pokusí zůstat on-line, ale přesto může váš systém toto chování stále ovlivnit. Pokud toto nastavení nepomůže a Blokada po čase přestane opět pracovat, zkontrolujte nastavení vašeho systému a vypněte optimalizaci baterie a paměti pro Blokadu. Bohužel se v každém systému toto nastavení liší, a proto nemůžeme poradit, jak to udělat. Zkontrolujte prosím nastavení vašeho telefonu. Jiný zdroj takového chování může být, že používáte některý z paměťových čističů, takzvaných taskkillerů. Prosím nastavte si Blokadu na seznam povolených nebo vyloučených aplikací. Pokud v tomto případě nepomohl žádný z těchto kroků, prosím, nahlaste chybu (viz níže, jak to udělat).</p>
 
 <h4><a name="howitworks">Jak Blokada funguje?</a></h4>
-<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Blokada je schopná změnit adresy serverů DNS vašeho zařízení a vytváří připojení VPN. Blokada nikam neodesílá vaše data, VPN se používá pouze k vytvoření místního připojení, díky němuž si aplikace myslí, že by měla používat odlišné DNS servery. Služba Blokada DNS v žádném případě nefiltruje vaše připojení, avšak v závislosti na zvoleném serveru DNS to dělat může.</p>
+<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Blokada je schopná změnit adresy serverů DNS vašeho zařízení a vytváří připojení VPN. Blokada nikam neodesílá vaše data, VPN se používá pouze k vytvoření místního připojení, díky němuž si aplikace myslí, že by měla používat odlišné DNS servery. Aplikace Blokada DNS v žádném případě nefiltruje vaše připojení, avšak v závislosti na zvoleném serveru DNS to dělat může.</p>
 
 <h4><a name="vpn">Mohu používat jinou síť VPN, zatímco je Blokada zapnutá?</a></h4>
 <p>Bohužel ne, je to systémové omezení; můžete mít současně pouze jedno aktivní připojení VPN. Pokud se připojíte k jiné službě, Blokada bude ukončena.</p>
 
-<h4><a name="options">Jaké funkce jsou v Blokadě?</a></h4>
+<h4><a name="options">Jaké jsou možnosti v Blokadě?</a></h4>
 <p>Jak jste si jistě všimli, Blokada má na hlavní obrazovce několik možností, které nejsou při prvním startu podrobně popsané. Prosím, učiňme to tedy nyní. Můžete vidět následující:</p>
 <p><ul>
-    <li><b>Whitelist</b>: Whitelist je seznam výjimek, kde můžete určit aplikace, u kterých Blokada DNS nezmění. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
+    <li><b>Seznam povolených</b>: Seznam povolených je seznam výjimek, kde můžete určit aplikace, u kterých Blokada DNS nezmění. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
     <li><b>Pouze on-line</b>: pokud je povoleno, Blokada se ukončí, pokud není aktivní připojení, a znovu se spustí, jakmile bude připojení k síti obnoveno. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
-    <li><b>Spustit při startu</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
+    <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
 </ul></p>
 
 <p>Nekonfigurovatelné věci:</p>
 <p><ul>
-    <li><b>Aktualizováno</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější má vždy méně chyb a více funkcí!</li>
+    <li><b>Aktuální</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější verze má vždy méně chyb a více funkcí!</li>
 </ul></p>
 
 <h4><a name="update">Nemohu nainstalovat aktualizaci, co mám dělat?</a></h4>
-<p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>Informace o telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
+<p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>O telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
 <p>Běží-li váš telefon na Androidu 5 nebo novějším, restartujte prosím vaše zařízení. Možná to zní divně, ale někdy to může pomoci. Pokud to problém nevyřešilo, odinstalujte Blokadu a nainstalujte ji znovu. Může to být také tím, že vaše zařízení není podporováno. Prosím, zkontrolujte <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 <p>Pokud žádný z těchto kroků nepomohl, přihlaste se ke svému účtu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> a získejte nápovědu, nebo nahlaste chybu (viz níže).</p>
 
@@ -100,7 +100,7 @@
 <p>Ne. V závislosti na nastavení Blokady, může mít na běh systému docela efektivní dopad. Ve skutečnosti se výkon zařízení i životnost baterie mohou výrazně zlepšit, protože Blokada zamezuje stahování některého obsahu (velké množství reklam). Telefon tak nemusí zpracovávat větší množství operací, čímž se zařízení zrychluje a nedochází k úbytku baterie. Uživatelé s některými staršími zařízeními však mohou zaznamenat pokles výkonu. Podrobnosti naleznete v <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</p>
 
 <h4><a name="free">Je Blokada opravdu zdarma?</a></h4>
-<p>Ano! Projekt Blokada začal jako můj koníček, je stále většinově vyvíjen mnou. Je to můj způsob, jak dát něco komunitě zpět. Blokada je plně open source projekt a zůstane navždy zdarma. To znamená, že vývoj aplikace trvá delší dobu, proto prosím zvažte podporu projektu jakýmkoli způsobem (viz níže).</p>
+<p>Ano! Projekt Blokada začal jako můj koníček a je stále většinově vyvíjen mnou. Je to můj způsob, jak dát něco komunitě zpět. Blokada je plně open source projekt a zůstane navždy zdarma. To znamená, že vývoj aplikace trvá delší dobu, proto prosím zvažte podporu projektu jakýmkoli způsobem (viz níže).</p>
 
 <h4><a name="contribute">Blokada je skvělá, jak mohu projektu pomoci?</a></h4>
 <p>Existuje mnoho způsobů, jak podpořit Blokadu, finančně či jinak. Všechny způsoby pomoci jsou pro projekt velmi důležité. <a href="contribute.html">Přejděte prosím na tuto stránku pro více informací</a>, nebo se jen <a href="http://go.blokada.org/chat">připojte k chatu </a>.</p>
