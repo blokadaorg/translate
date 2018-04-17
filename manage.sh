@@ -53,10 +53,16 @@ elif [ "$choice" = "e" ]; then
 	echo "Exporting app..."
 	rm -rf $app/src/main/res/values-*
 	cp -rf build/app/* $app/src/main/res/
+	cd $app/src/main/res/
+	git checkout -- values-w820*
+	cd -
 
 	echo "Exporting gscore..."
 	rm -rf $gscore/src/main/res/values-*
 	cp -rf build/gscore/* $gscore/src/main/res/
+	cd $gscore/src/main/res/
+	git checkout -- values-w820*
+	cd -
 
 	echo "Exporting web..."
 	rm -rf $web/api/v3/content/*
