@@ -30,7 +30,7 @@
   <string name="filter_edit_app">एैप्स</string>
   <string name="filter_edit_app_enter">एप्लिकेशन नाम या पैकेज नाम दर्ज करें</string>
   <!-- An example package name of app to whitelist. -->
-  <string name="filter_edit_app_error">इस एप्लिकेशन मौजूद नहीं है या श्वेत सूची में शामिल नहीं किया जा सकता है ।</string>
+  <string name="filter_edit_app_error">इस एप्लिकेशन मौजूद नहीं है या whitelist में शामिल नहीं किया जा सकता है ।</string>
   <string name="filter_edit_save">सेव</string>
   <string name="filter_edit_cancel">कैंसिल</string>
   <string name="filter_edit_do">जारी रखें</string>
@@ -42,8 +42,8 @@
   <string name="filter_blacklist_text">ब्लैकलिस्ट में %d</string>
   <string name="filter_blacklist_text_none">ब्लैकलिस्ट निष्क्रिय</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
-  <string name="filter_whitelist_text">श्वेत सूची में %d</string>
-  <string name="filter_whitelist_text_none">श्वेत सूची निष्क्रिय</string>
+  <string name="filter_whitelist_text">whitelist में %d</string>
+  <string name="filter_whitelist_text_none">Whitelist निष्क्रिय</string>
   <!-- Title of menu with quick actions for whitelist / blacklist -->
   <string name="filter_generate_title">त्वरित कार्रवाई</string>
   <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
