@@ -97,7 +97,7 @@ elif [ "$choice" = "e" ]; then
 	rm -rf $web/api/v3/content_dns/en_US
 
 	echo "Done. Check removed files."
-elif [ "$choice" = "r" =; then
+elif [ "$choice" = "r" ]; then
 	echo "Refetching English in app..."
 	cp -rf build/app/values-en-rUS/* $app/src/main/res/values/
 
