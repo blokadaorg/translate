@@ -3,14 +3,13 @@
 # and push translated strings to sources.
 #
 # Syntax:
-# ./manage.sh app-path web-path gscore-path
+# ./manage.sh app-path web-path
 #
 # Arguments:
 # - app-path - Where is Blokada app repo
-# - gscore-path - Where is gscore lib repo
 # - web-path - Where is Blokada website repo
 
-xml="filter main notification tunnel update dns"
+xml="filter main notification tunnel update dns gscore"
 pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html help_dns.html intro_dns.html filters.properties dns.properties"
 
 x=""
@@ -25,11 +24,9 @@ function importContent {
 
 app=$1
 web=$2
-gscore=$3
 
 echo "app: $app"
 echo "web: $web"
-echo "gscore: $gscore"
 echo "xml: $xml"
 echo "pages: $pages"
 echo ""
@@ -41,8 +38,6 @@ if [ "$choice" = "i" ]; then
 	for x in $xml; do
 	    importXml
 	done
-	echo "Importing gscore..."
-	cp $gscore/src/main/res/values/strings_gscore.xml gscore/strings_gscore.xml
 
 	echo "Importing web..."
 	src=$web
@@ -54,13 +49,6 @@ elif [ "$choice" = "e" ]; then
 	rm -rf $app/src/main/res/values-*
 	cp -rf build/app/* $app/src/main/res/
 	cd $app/src/main/res/
-	git checkout -- values-w820*
-	cd -
-
-	echo "Exporting gscore..."
-	rm -rf $gscore/src/main/res/values-*
-	cp -rf build/gscore/* $gscore/src/main/res/
-	cd $gscore/src/main/res/
 	git checkout -- values-w820*
 	cd -
 
