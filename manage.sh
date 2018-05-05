@@ -31,7 +31,7 @@ echo "xml: $xml"
 echo "pages: $pages"
 echo ""
 
-read -p "Do you want to import sources (i) or export translations (e)? (i/e) " choice
+read -p "Do you want to import sources (i), export translations (e), or refetch English (r)? (i/e/r) " choice
 if [ "$choice" = "i" ]; then
 	echo "Importing app..."
 	src=$app
@@ -48,6 +48,11 @@ elif [ "$choice" = "e" ]; then
 	echo "Exporting app..."
 	rm -rf $app/src/main/res/values-*
 	cp -rf build/app/* $app/src/main/res/
+
+	# English is not exported by default
+	rm -rf $app/src/main/res/values-en-rUS
+
+	# Some files should not be removed. Revert
 	cd $app/src/main/res/
 	git checkout -- values-w820*
 	cd -
@@ -67,6 +72,9 @@ elif [ "$choice" = "e" ]; then
 		cp -n $web/api/v3/canonical/strings/* $D/
 	done
 
+	# English is not exported by default
+	rm -rf $web/api/v3/content/en_US
+
 	echo "Exporting web (dns)..."
 	rm -rf $web/api/v3/content_dns/*
 
@@ -85,7 +93,18 @@ elif [ "$choice" = "e" ]; then
 		mv $D/filters_dns.txt $D/filters.txt
 	done
 
+	# English is not exported by default
+	rm -rf $web/api/v3/content_dns/en_US
+
 	echo "Done. Check removed files."
+elif [ "$choice" = "r" =; then
+	echo "Refetching English in app..."
+	cp -rf build/app/values-en-rUS/* $app/src/main/res/values/
+
+	echo "Refetching English in web..."
+	cp -rf build/content/en_US/*.html $web/api/v3/canonical/strings/
+
+	echo "Done. Don't forget to export."
 else
     echo "Cancelled"
 fi
