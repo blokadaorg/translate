@@ -30,6 +30,7 @@
   <li><a href="#blacklist">Voglio bloccare un sito web specifico.</a></li>
   <li><a href="#unsupported">Dopo averla installata, non riesco a far partire Blokada.</a></li>
   <li><a href="#kill">Dopo un po', Blokada smette di funzionare.</li>
+  <li><a href="#abplists">Non riesco ad importare le liste di EasyList/AdBlock in Blokada.</a></li>
 </ol>
 
 <h4>Domande generali</h4>
@@ -69,8 +70,11 @@
 
 <p>Se ciò non è stato d'aiuto, prova a riavviare il tuo dispositivo, certe volte aiuta.</p>
 
-<h4><a name="kill">Dopo un po', Blokada smette di funzionare.</h4>
+<h4><a name="kill">Dopo un po', Blokada smette di funzionare.</a></h4>
 <p>Come prima cosa, abilita l'opzione <i>Mantieni attivo</i> dalla schermata principale. Così facendo, Blokada cercherà di restare attiva, ma attenzione, il tuo sistema può ancora interferire su questa impostazione. Se hai impostato l'opzione <i>Mantieni attivo</i> ma noti che Blokada continua a venire bloccata, controlla le tue impostazioni di sistema e disabilita ogni ottimizzazione della batteria e la memoria per Blokada. Sfortunatamente, la procedura è diversa in ogni sistema, pertanto non possiamo dirti come fare. Per favore, controlla le impostazioni del tuo dispositivo. Un'altra possibile causa per questo problema potrebbe essere l'utilizzo di app per la pulizia della memoria. Per favore, aggiungi Blokada alla whitelist di queste applicazioni o ad una lista esclusioni. Se nessuno di questi passaggi ti è stato d'aiuto, segnala un bug (come farlo è spiegato più giù).</p>
+
+<h4><a name="abplists">Non riesco ad importare le liste di EasyList/AdBlock in Blokada.</a></h4>
+<p>Se provi ad importare una lista (come EasyList) che funziona senza problemi con la tua estensione di AdBlock sul tuo PC o notebook, Blokada riporterà un messaggio d'errore. Questo perché Blokada utilizza un altro metodo per bloccare le pubblicità. Mentre ABP blocca e nasconde elementi o parti di un sito web, Blokada non può farlo perché non è un plugin di un browser, al contrario reindirizza gli accessi al server pubblicitario verso un indirizzo non instradabile (0.0.0.0), pertanto richiede una lista di host o indirizzi IP.</p>
 
 <h4><a name="howitworks">Come funziona Blokada?</a></h4>
 <p>Blokada è un sottile livello tra l'interfaccia network (WiFi o rete mobile) del tuo dispositivo e le applicazioni che utilizzi. Per poter filtrare tutto il traffico in uscita, Blokada genera una connessione VPN e blocca qualunque richiesta verso gli host definiti nei filtri della blacklist. Questo blocco è possibile tramite un reindirizzamento: l'indirizzo IP del sito che offre la pubblicità viene risolto dal tuo dispositivo verso un meta-indirizzo non instradabile, a 0.0.0.0, dove nessun servizio web è in esecuzione, pertanto non verrà mostrata nessuna pubblicità. In questo modo, Blokada preserva sia il tuo piano dati che la tua batteria. I filtri vengono aggiornati automaticamente e contengono host conosciuti per servizi pubblicitari, di tracciamento, spam, malware e altri contenuti non desiderati o potenzialmente pericolosi. Puoi configurare Blokada con i tuoi filtri personalizzati e whitelist, in modo da assicurarti che il servizio che vuoi utilizzare non venga bloccato e non si verifichi alcuna interruzione.</p>

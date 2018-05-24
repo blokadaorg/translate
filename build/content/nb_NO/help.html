@@ -30,6 +30,7 @@
   <li><a href="#blacklist">Jeg ønsker å blokkere et bestemt webområde.</a></li>
   <li><a href="#unsupported">Jeg kan ikke starte Blokada etter at jeg har installert den.</a></li>
   <li><a href="#kill">Blokada slutter for å virke etter en stund.</li>
+  <li><a href="#abplists">Jeg kan ikke importere EasyList / AdBlock Plus-listen til Blokada.</a></li>
 </ol>
 
 <h4>Generelle spørsmål</h4>
@@ -69,8 +70,11 @@
 
 <p>Hvis det ikke hjelper, restart telefonen, det hjelper også noen ganger.</p>
 
-<h4><a name="kill">Blokada slutter for å virke etter en stund.</h4>
+<h4><a name="kill">Blokada slutter for å virke etter en stund.</a></h4>
 <p>Som et første skritt, slå på <i>Hold i live</i> i Blokada. I dette tilfellet vil Blokada prøve å forbli aktiv, men vær oppmerksom på at enhetens system fortsatt kan påvirke denne oppførselen. Hvis du aktiverer det, og du fortsatt ser at Blokada stoppes gang på gang, sjekk systemets innstillinger og slå av alle batteri - og minne-optimalisering for Blokada. Dessverre er dette forskjellige fra telefonsystem, til telefonsystem. Derfor kan vi ikke si hvor du kan gjøre det. Vennligst sjekk telefonens innstillinger. En annen kilde for slik oppførsel kan være at du bruker en memory cleaner. Vennligst sett Blokada på hviteliste eller utelatelseslisten. Hvis ikke noen av disse trinn hjalp i ditt tilfelle, kan du rapportere en feil (se nedenfor hvordan du gjør det).</p>
+
+<h4><a name="abplists">Jeg kan ikke importere EasyList / AdBlock Plus-listen til Blokada.</a></h4>
+<p>Hvis du prøver å importere en liste (for eksempel EasyList) som fungerer veldig bra med AdBlock Plus-utvidelsen på din PC eller notatbok, vil Blokada gi en feilmelding. Det er fordi Bloakda bruker en annen metode for å blokkere annonser. Mens ABP blokkerer og gjemmer elementer eller deler av nettstedet, kan Blokada ikke gjøre det fordi det ikke er en plugin i nettleseren, men omdirigerer tilgangene til annonseserveren til en ikke-adresserbar adresse (0.0.0.0), derfor trenger den en vertsnavn-IP-liste.</p>
 
 <h4><a name="howitworks">Hvordan virker Blokada?</a></h4>
 <p>Blokada er et tynt lag mellom nettverksgrensesnittet (wifi eller mobil data på telefonen) og applikasjonene du bruker. For å være i stand til å filtrere all utgående trafikk, genererer det en VPN-tilkobling og blokkerer ganske enkelt forespørsler mot vertene definert i svarteliste-filtrene. Denne blokkeringen blir utført ved en omadressering, IP-adressen til webområdet som serverer reklame vil bli omgjort av telefonen til en ikke-rutbar meta-adressen, til 0.0.0.0, der ingen web-tjenesten kjører, og dermed vises ingenting. Med dette vil Blokada spare både data plan og batterilevetid. Filtrene oppdateres automatisk og inneholder verter kjent for visning av annonser, sporing, spam, skadelig programvare og annet uønsket eller farlig innhold. Du kan konfigurere Blokada med dine egne tilpassede filtre og hvitelister for å sikre at tjenesten du vil bruke ikke er blokkert, og at du ikke opplever noen avbrudd.</p>
@@ -119,7 +123,7 @@
 
 <h4><a name="update">Jeg ikke kan installere en oppdatering, hva kan jeg gjøre?</a></h4>
 <p>Først av alt, vennligst sjekk om den Android-versjonen du har er 5 eller nyere. Android 4 og eldre versjoner støttes ikke i Blokada 3.0 og nyere versjoner. For å gjøre dette, gå til innstillingene for telefonen, bla til <i>om telefonen</i> og søk etter <i>Android versjon</i></p>
-<p>Hvis telefonen din kjører Android 5 eller nyere, vennligst restart enheten. Det høres rart ut, men noen ganger hjelper det. Hvis dette ikke løser problemet, avinnstaller Blokada og installer det på nytt. Det kan hende at enheten ikke støttes. Vennligst sjekk <a href="http://go.blokada.org/issue_device">Devices Database</a>.</p>
+<p>Hvis telefonen din kjører Android 5 eller nyere, vennligst restart enheten. Det høres rart ut, men noen ganger hjelper det. Hvis dette ikke løser problemet, avinstaller Blokada og installer det på nytt. Det kan hende at enheten ikke støttes. Vennligst sjekk <a href="http://go.blokada.org/issue_device">Devices Database</a>.</p>
 <p>Hvis ingen av disse trinnene hjalp, vennligst Registrer deg til vår Telegram chat på <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> for å få hjelp eller send en feilrapport (se nedenfor).</p>
 
 <h4><a name="notification">Kan jeg skjule VPN varselet?</a></h4>
