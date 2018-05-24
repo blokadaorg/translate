@@ -28,8 +28,9 @@
   <li><a href="#refresh">Blokada 阻擋較少的廣告。</a></li>
   <li><a href="#whitelist">應用程式無法按預期的那樣工作。</a></li>
   <li><a href="#blacklist">我想阻擋特定的網站。</a></li>
-  <li><a href="#unsupported">我安裝後無法啟動 Blokada。</a></li>
-  <li><a href="#kill">Blokada 在一段時間後才能停止作用/工作。</li>
+  <li><a href="#youtube">Ads in YouTube aren't blocked!</a></li>
+  <li><a href="#unsupported">I cannot start Blokada after I installed it.</a></li>
+  <li><a href="#kill">Blokada stops to function/work after a while.</li>
   <li><a href="#abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></li>
 </ol>
 
@@ -53,7 +54,7 @@
 </ol>
 
 <h4><a name="refresh">Blokada 阻擋較少的廣告。</a></h4>
-<p>如果你懷疑 Blokada 阻擋的廣告比以前少，請重新整理清單。 執行此動作，輕觸<i>黑名單</i>，然後在右上角等化器中，選擇<i>重新整理過濾器</i>，並輕觸<i>繼續</i>。 通常發生這種情況，是因為新加入的新伺服器還尚未被確定及加到黑名單中，或者新的清單還沒下載到手機，所以才沒廣告。</p>
+<p>如果你懷疑 Blokada 阻擋的廣告比以前少，請重新整理清單。 To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. 通常發生這種情況，是因為新加入的新伺服器還尚未被確定及加到黑名單中，或者新的清單還沒下載到手機，所以才沒廣告。</p>
 
 <p>另外，你可以在<i>黑名單</i>選單中，啟用更多主機清單或加入更多限制的過濾器。</p>
 
@@ -63,18 +64,21 @@
 <h4><a name="blacklist">我想阻擋特定的網站。</a></h4>
 <p>你可以阻擋主機清單上沒有的單一網站。 執行此動作，前往在主頁面的<i>黑名單</i>，輕觸在螢幕底部的 + 符號、輕觸<i>主機</i>，並輸入網站的主機名稱，不含 http 及 www 的部分（例如：<i>myexample.com</i>）。</p>
 
-<h4><a name="unsupported">我安裝後無法啟動 Blokada。</a></h4>
-<p>此情況有兩個常見的原因。 首先，請檢查你是否已經有啟動的 VPN 連線，以及是否啟用<i>永久連線的 VPN</i> 選項。 要檢查的話，前往手機的設定，在網路的部分搜尋 VPN，輕觸現有 VPN 旁的齒輪。 停用它，與啟動的 VPN 連線斷線，接著試著重新啟動 Blokada。</p>
+<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternitives of the official YouTube application, please check which fits better for you.</p>
 
-<p>如果沒有其他的 VPN 連線，在 Blokada 中，檢查<i>僅上網時</i>是否啟用，如果有的話，檢查是否使用 WiFi 或行動網路連線。 如果<i>僅上網時</i>啟用，並且沒有網路連線，將不會啟動 Blokada。</p>
+<h4><a name="unsupported">I cannot start Blokada after I installed it.</a></h4>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
-<p>如果這沒有幫助，重新啟動您的手機，有時也會有所幫助。</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
 
-<h4><a name="kill">Blokada 在一段時間後才能停止作用/工作。</a></h4>
-<p>第一步，打開在 Blokada 中的<i>持久連線</i>。 在這個情況下，Blokada 將會試著保持連線，但請注意，系統仍然可以會影響到這個行為。 如果設定了這個，在之後，你仍然會看見 Blokada 被終止，檢查系統設定，關閉每個 Blokada 的電池及記憶體優化。 非常不巧的，在每個系統都不一樣，所以我們無法講要在哪裡做。 請檢查你的手機設定。 這種行爲的起因，可能是你使用記憶體清理程式。 請把 Blokada 設定在白名單中或排除清單中。 如果這些步驟無法協助你的情形，請回報錯誤（看下方如何去做）。</p>
+<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+
+<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
+<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Bloakda uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
 
 <h4><a name="howitworks">How does Blokada work?</a></h4>
 <p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
@@ -136,7 +140,7 @@
 <p>不會。 Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (what you can turn off). Blokada has no access to your encrypted traffic.</p>
 
 <h4><a name="battery">Does Blokada use a lot of battery?</a></h4>
-<p>不會。 Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+<p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
 
 <h4><a name="speed">Will Blokada slow down my device?</a></h4>
 <p>No. Depending on your settings Blokada can be quite efficient. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
