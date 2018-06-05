@@ -28,8 +28,9 @@
   <li><a href="#refresh">Blokada блокує менше реклами.</a></li>
   <li><a href="#whitelist">Додаток не працює належним чином.</a></li>
   <li><a href="#blacklist">Я хочу заблокувати вказаний веб-сайт.</a></li>
-  <li><a href="#unsupported">Я не можу запустити Blokada після встановлення.</a></li>
-  <li><a href="#kill">Blokada вимикається чи припиняє працювати після деякого часу.</li>
+  <li><a href="#youtube">Ads in YouTube aren't blocked!</a></li>
+  <li><a href="#unsupported">I cannot start Blokada after I installed it.</a></li>
+  <li><a href="#kill">Blokada stops to function/work after a while.</li>
   <li><a href="#abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></li>
 </ol>
 
@@ -53,7 +54,7 @@
 </ol>
 
 <h4><a name="refresh">Blokada блокує менше реклами.</a></h4>
-<p>Якщо у вас є підозри, що Blokada блокує менше реклами, ніж було до того — будь ласка, оновіть списки блокування. Для цього натисніть на <i>"Чорний" список</i>, тоді у правому верхньому кутку натисніть на іконку "гамбургер", оберіть <i>Оновити фільтри</i> та натисніть <i>Продовжити</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.</p>
+<p>Якщо у вас є підозри, що Blokada блокує менше реклами, ніж було до того — будь ласка, оновіть списки блокування. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.</p>
 
 <p>Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
 
@@ -63,18 +64,21 @@
 <h4><a name="blacklist">Я хочу заблокувати вказаний веб-сайт.</a></h4>
 <p>You can block individual website what isn't on a host list. To do it, go to the <i>Blacklist</i> on the main page, tap on the + sign at the bottom of the screen, tap on <i>Host</i> and type in the hostname of the website, without the http and www part (for example: <i>myexample.com</i>).</p>
 
-<h4><a name="unsupported">Я не можу запустити Blokada після встановлення.</a></h4>
+<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternitives of the official YouTube application, please check which fits better for you.</p>
+
+<h4><a name="unsupported">I cannot start Blokada after I installed it.</a></h4>
 <p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
 <p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
 
 <p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
 
-<h4><a name="kill">Blokada вимикається чи припиняє працювати після деякого часу.</a></h4>
+<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
 <p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Bloakda uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
 
 <h4><a name="howitworks">How does Blokada work?</a></h4>
 <p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>

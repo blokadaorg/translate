@@ -28,8 +28,9 @@
   <li><a href="#refresh">Blokada blokuje mniej reklam.</a></li>
   <li><a href="#whitelist">Aplikacja nie działa zgodnie z oczekiwaniami.</a></li>
   <li><a href="#blacklist">Chcę zablokować konkretną stronę.</a></li>
-  <li><a href="#unsupported">Nie mogę uruchomić Blokada po zainstalowaniu.</a></li>
-  <li><a href="#kill">Blokada przestaje działać po jakimś czasie pracy.</li>
+  <li><a href="#youtube">Ads in YouTube aren't blocked!</a></li>
+  <li><a href="#unsupported">I cannot start Blokada after I installed it.</a></li>
+  <li><a href="#kill">Blokada stops to function/work after a while.</li>
   <li><a href="#abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></li>
 </ol>
 
@@ -53,7 +54,7 @@
 </ol>
 
 <h4><a name="refresh">Blokada blokuje mniej reklam.</a></h4>
-<p>Jeżeli podejrzewasz, że Blokada ukrywa mniej reklam niż wcześniej, odśwież swoje listy. Aby to zrobić, przejdź do <i>Filtrów</i>, następnie w prawym górnym rogu tapnij ikonę equalisera i wybierz <i>Odśwież listy</i> potwierdzając <i>Kontynuuj</i>. Z reguły, zdarza się to dlatego, że nowe serwery dodane do istniejących list nie są (jeszcze) znane, lub też nowa lista nie została pobrana na Twój telefon, dlatego też nie są (jeszcze) zablokowane.</p>
+<p>Jeżeli podejrzewasz, że Blokada ukrywa mniej reklam niż wcześniej, odśwież swoje listy. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Z reguły, zdarza się to dlatego, że nowe serwery dodane do istniejących list nie są (jeszcze) znane, lub też nowa lista nie została pobrana na Twój telefon, dlatego też nie są (jeszcze) zablokowane.</p>
 
 <p>Alternatywnie, możesz dodać więcej list hostów lub bardziej restrykcyjne zasady w menu <i>Filtry</i>.</p>
 
@@ -63,18 +64,21 @@
 <h4><a name="blacklist">Chcę zablokować konkretną stronę.</a></h4>
 <p>Możesz blokować pojedynczą stronę, która nie jest na listach. Aby to zrobić przejdź do <i>Filtrów</i> na stronie głównej, tapnij znak + na dole ekranu, tapnij na <i>Host</i> i wpisz domenę strony bez http(s) i www na początku (na przykład <i>przyklad.com</i>).</p>
 
-<h4><a name="unsupported">Nie mogę uruchomić Blokada po zainstalowaniu.</a></h4>
-<p>Są dwie częste przyczyny takiej sytuacji. Po pierwsze sprawdź, czy masz aktywne połączenie VPN i czy posiada ono włączoną opcję <i>VPN zawsze włączony</i>. Aby to zrobić przejdź do menu Ustawienia swojego telefonu, poszukaj ustawień dotyczących VPN i kliknij koło zębate istniejącego połączenia VPN. Rozłącz istniejące połączenie VPN i następnie uruchom Blokadę ponownie.</p>
+<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternitives of the official YouTube application, please check which fits better for you.</p>
 
-<p>Jeżeli nie masz innego połączenia VPN, sprawdź w Blokadzie, czy opcja <i>Tylko online</i> jest aktywna i jeżeli tak, sprawdź czy masz połączenie z internetem przez WiFi lub dane komórkowe. Blokada nie uruchomi się, jeżeli opcja <i>Tylko online</i> jest aktywna i nie masz połączenia z internetem.</p>
+<h4><a name="unsupported">I cannot start Blokada after I installed it.</a></h4>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
-<p>Jeżeli to nie pomoże, spróbuj zrestartować swój telefon, zdarza się, że to rozwiązuje problem.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Online only</i> is enabled, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Online only</i> is enabled and you don’t have an internet connection.</p>
 
-<h4><a name="kill">Blokada przestaje działać po jakimś czasie pracy.</a></h4>
-<p>Na początek włącz w Blokadzie <i>Zawsze w tle</i>. W tym przypadku Blokada będzie próbować utrzymać połączenie, ale pamiętaj, że system Twojego urządzenia może wpłynąć na to zachowanie programu. Jeżeli Zawsze w tle jest włączone, a mimo to nadal widzisz, że Blokada wyłącza się, sprawdź ustawienia systemu i wyłącz wszystkie optymalizacje baterii lub pamięci związane z Blokadą. Niestety ustawienia te są zależne od Twojego systemu, więc nie możemy dokładnie wskazać gdzie je znaleźć. Sprawdź ustawienia telefonu. Innym źródłem takiego zachowania aplikacji może być program do oczyszczania pamięci. Ustaw Blokadę na liście wyjątków w takiej aplikacji. Jeżeli żaden z powyższych kroków nie pomoże, zgłoś błąd twórcy aplikacji (sprawdź niżej jak to zrobić).</p>
+<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+
+<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
+<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Bloakda uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
 
 <h4><a name="howitworks">How does Blokada work?</a></h4>
 <p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
