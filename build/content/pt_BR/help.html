@@ -77,40 +77,40 @@
 <h4><a name="kill">O Blokada para de funcionar depois de algum tempo.</a></h4>
 <p>Como um primeiro passo, ligue <i>Manter ativo</i> no Blokada. Neste caso o Blokada tentará ficar online, mas por favor, note que seu sistema ainda pode ter este comportamento. Se você configurá-lo, e ainda notar que o Blokada é interrompido de tempo em tempo, verifique as configurações do seu sistema e desative as opções de otimização de bateria e memória para o Blokada. Infelizmente isso é diferente em cada sistema, portanto, não podemos fornecer um passo a passo. Por favor, verifique as configurações do seu telefone. Outra causa para tal comportamento pode ser que você esteja usando um "limpador de memória". Por favor inclua o Blokada na Lista Branca ou o exclua da Lista Negra. Se nenhum desses passos ajudou no seu caso, por favor relate um bug (veja abaixo como fazer isso).</p>
 
-<h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<h4><a name="abplists">Não consigo importar as listas EasyList/AdBlock para o Blokada.</a></h4>
+<p>Se você tentar importar uma lista (por exemplo EasyList) que funciona muito bem com sua extensão AdBlock Plus no seu PC ou notebook, o Blokada informará uma mensagem de erro. Isso acontece porque o Blokada usa outro método para bloquear anúncios. Enquanto ABP bloqueia e oculta elementos ou partes do website, o Blokada não pode fazer isso porque não é um plugin no navegador, em vez disso, ele redireciona os acessos do servidor de anúncios para um endereço não-roteável (0.0.0.0), portanto, precisa de uma lista de nome de hosts IP.</p>
 
-<h4><a name="howitworks">How does Blokada work?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
+<h4><a name="howitworks">Como o Blokada funciona?</a></h4>
+<p>Blokada é uma fina camada entre a interface de rede (wifi ou móvel) do telefone e os aplicativos que você usa. Para ser capaz de filtrar todo o tráfego de saída, ele gera uma conexão VPN e simplesmente bloqueia qualquer solicitação para os endereços definidos nos filtros de Lista Negra. Este bloqueio é feito com um redirecionamento, o endereço IP do site que mostra o anúncio será resolvido pelo telefone para um meta-endereço não-roteável, para 0.0.0.0, onde nenhum serviço web está sendo executado, portanto nada será exibido. Com isso, o Blokada economiza seu plano de dados e a vida da bateria. Os filtros são atualizados automaticamente e contêm endereços conhecidos por hospedar anúncios, rastreamento, spam, malware e outros tipos de conteúdos indesejados ou perigosos. Você pode configurar o Blokada com seus próprios filtros personalizados e Listas Brancas para garantir que o serviço que você gostaria de usar não seja bloqueado ou interrompido.</p>
 
-<h4><a name="vpn">Can I use another VPN while Blokada is turned on?</a></h4>
-<p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
+<h4><a name="vpn">Posso usar outro serviço de VPN enquanto Blokada está ativo?</a></h4>
+<p>Infelizmente não, é uma limitação do sistema; você pode ter apenas uma conexão de VPN ativa de cada vez. Se você usar um outro serviço, o Blokada será desativado.</p>
 
-<h4><a name="options">What are the options in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the main screen that are not detailed at the first start. Please let us do it now. You can see the following:</p>
+<h4><a name="options">Quais são as opções no Blokada?</a></h4>
+<p>Como você certamente viu, o Blokada tem algumas opções na tela principal que não são detalhadas na primeira inicialização.  Mostraremos isso agora. Você pode ver o seguinte:</p>
 <p><ul>
-    <li><b>Blacklist</b>: this is the lists of host files containing the servers to block. Please note that using multiple lists can have effect on network and system speed.</li>
-    <li><b>Whitelist</b>: the whitelist is the exception list, here you can define hosts that should not be blocked or apps where Blokada won’t filter URLs. Blokada is installed with several whitelisted apps by default.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Online only</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>DNS</b>: if you are suspecting that some websites or services are blocked for you, or you are presuming that your internet provider collects information about your intenet usage, choose a secure DNS machine from the list. By default, Blokada uses the same DNS server/s as your system.</li>
+    <li><b>Lista Negra</b>: esta é a lista de arquivos de endereços que contém os servidores para bloquear. Atenção, usar várias listas pode ter efeito sobre a velocidade da rede e do sistema.</li>
+    <li><b>Lista Branca</b>: Lista Branca é a lista de exceção, aqui você pode definir endereços que não devem ser bloqueados ou apps em que o Blokada não deve filtrar conteúdo. Por padrão o Blokada é instalado com alguns apps na Lista Branca.</li>
+    <li><b>Manter ativo</b>: esta opção é para garantir que o Blokada não seja pausado ou interrompido pelo sistema. Note que seu sistema pode não obedecer isso, certifique-se de que suas configurações vão deixar o Blokada ser executado em segundo plano.</li>
+    <li><b>Notificações</b>: quando ativado, você será notificado quando um anúncio é bloqueado. Isso é ativado por padrão, mas se você tiver várias notificações, desligue.</li>
+    <li><b>Apenas Online</b>: quando ativado, o Blokada vai se desativar se não houver nenhuma conexão ativa e se reativar quando a conexão voltar. Se desativado, o Blokada sempre será executado em segundo plano (mesmo se nenhuma rede estiver disponível). Por favor, note que esta opção pode não funcionar em alguns dispositivos.</li>
+    <li><b>Começar na inicialização</b>: quando ativado, o Blokada começará depois que o sistema é inicializado. Note que existem configurações no sistema para essa opção, portanto não há garantia de que o Blokada pode ativar na inicialização. Neste caso, por favor verifique as configurações do seu telefone. É a configuração padrão ativada, se você deseja iniciar o Blokada manualmente desabilite essa opção.</li>
+    <li><b>DNS</b>: se você está suspeitando que alguns sites ou serviços estão bloqueados para você, ou você está achando que seu provedor de internet coleta informações sobre o seu uso na internet, escolha um DNS seguro da lista. Por padrão, o Blokada usa o mesmo servidor DNS do seu sistema.</li>
 </ul></p>
 
-<p>Not configurable things:</p>
+<p>Opções que não são configuráveis:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
-    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b>Atualizado</b>: se você ver isto, você está executando a versão mais recente do Blokada. Mantenha o aplicativo atualizado para ter menos bugs e mais recursos!</li>
+    <li><b># anuncios bloqueados</b>: o número de conteúdo indesejado bloqueado desde que o Blokada foi iniciado pela primeira vez</li>
+    <li><b># endereços</b>: número de servidores que servem anunciantes, malware e outros conteúdos indesejados</li>
 </ul></p>
 
-<h4><a name="ads">What can I do if I still see some ads?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<h4><a name="ads">O que posso fazer se ainda vejo alguns anúncios?</a></h4>
+<p>Alguns anúncios vão aparecer mesmo com um bloqueador de anúncios ativo no Android. Em particular, anúncios no YouTube ou alguns anúncios pop-up de tela cheia são difíceis de bloquear. Se você acha que estão vindo mais anúncios do que antes, tente estas etapas:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, report a bug.</li>
+    <li>Verifique se o ícone de chave de VPN está presente na barra de status na parte superior. Se não, ative o Blokada.</li>
+    <li>Abra Blokada e verifique se ele está ativo e não relata quaisquer erros.</li>
+    <li>Verifique se o contador de endereços não está em zero. Se estiver, selecione alguns filtros da Lista Negra para que os anúncios possam ser bloqueados. If the counter is still zero, report a bug.</li>
     <li>Make sure you don't have too many apps in the whitelist - maybe that's why you are seeing ads.</li>
     <li>Try resetting your filters (go to the Blacklist screen and choose <i>Restore Defaults</i> from the Quick Actions menu at the top).</li>
     <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
