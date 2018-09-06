@@ -54,21 +54,20 @@
 </ol>
 
 <h4><a name="refresh">Blokada blokuje méně reklam.</a></h4>
-<p>Pokud máte podezření, že Blokada blokuje méně reklam než dříve, aktualizujte své blocklisty. Chcete-li to provést, klepněte na <i>Černá listina</i> a v pravém horním rohu na "ekvalizér", zvolte <i>Aktualizovat filtry</i> a klepněte na <i>Pokračovat</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>Pokud máte podezření, že Blokada blokuje méně reklam než dříve, aktualizujte své blocklisty. Chcete-li to provést, klepněte na <i>Černá listina</i> a v pravém horním rohu na "ekvalizér", zvolte <i>Aktualizovat filtry</i> a klepněte na <i>Pokračovat</i>. Obvykle se to stává, protože nové servery jsou přidány k existujícím, které ještě (nejsou) identifikovány a přidány do černé listiny, nebo nový blocklist není stažen do vašeho telefonu, a proto nejsou reklamy (stále) zablokovány.<br> Můžete aktivovat více blocklistů nebo přidat do seznamu <i>Černá listina</i> přísnější filtry.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Vezměte prosím na vědomí, že Blokada používá blocklisty třetích stran, a proto pokud samotná aplikace dříve pracovala a blokovala reklamy, beze změn by se měla chovat stejným způsobem.</p>
 
 <h4><a name="whitelist">Aplikace nefunguje dle očekávání.</a></h4>
 <p>Pokud zjistíte, že aplikace nefunguje dle očekávání, nenahrává obsah nebo má podobně špatné chování, přejděte na hlavní obrazovku a zvolte <i>Seznam povolených</i>, v dolní části obrazovky klepněte na znaménko + a zvolte <i>App</i>a zadejte její název. Na konec klepněte na <i>Uložit</i>. Díky tomu nebude Blokada filtrovat adresy URL v této aplikaci.</p>
 
-<p>Please note that Blokada 3.4 and earlier releases had a bug which caused that a freshly installed app wasn't recognized in Blokada, therefore they couldn't be set on the <i>Whitelist</i>. This bug is fixed in version 3.5 and newer.</p>
+<p>Vezměte prosím na vědomí, že Blokada ve verzi 3.4 a starší měly chybu, která způsobila, že v aplikaci Blokada nebyla rozpoznána nová aplikace, která nemohla být nastavena na <i>Seznam povolených</i>. Tato chyba je opravena ve verzi 3.5 a novější.</p>
 
 <h4><a name="blacklist">Chci zablokovat danou webovou stránku.</a></h4>
 <p>You can block individual website what isn't on a host list. To do it, go to the <i>Blacklist</i> on the main page, tap on the + sign at the bottom of the screen, tap on <i>Host</i> and type in the hostname of the website, without the http and www part (for example: <i>myexample.com</i>).</p>
 
 <h4><a name="youtube">Reklamy na YouTube nejsou blokovány!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Proto je mnohem snazší blokovat reklamy v aplikaci YouTube jako u externího nástroje (jako je Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
 
 <h4><a name="unsupported">Nemohu spustit Blokadu po instalaci.</a></h4>
 <p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
@@ -84,7 +83,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
 
 <h4><a name="howitworks">Jak Blokada funguje?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a local (no 3rd party service in use) VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
+<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. Aby bylo možné filtrovat veškerý odchozí provoz, generuje lokální připojení (bez použití třetí strany) VPN a jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
 
 <h4><a name="vpn">Mohu používat jinou síť VPN, zatímco je Blokada zapnutá?</a></h4>
 <p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
