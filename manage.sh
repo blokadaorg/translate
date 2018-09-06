@@ -15,7 +15,7 @@ pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html 
 x=""
 
 function importXml {
-    cp "$src/src/main/res/values/strings_$x.xml" "app/strings_$x.xml"
+    cp "$src/src/legacy/res/values/strings_$x.xml" "app/strings_$x.xml"
 }
 
 function importContent {
@@ -46,14 +46,14 @@ if [ "$choice" = "i" ]; then
 	done
 elif [ "$choice" = "e" ]; then
 	echo "Exporting app..."
-	rm -rf $app/src/main/res/values-*
-	cp -rf build/app/* $app/src/main/res/
+	rm -rf $app/src/legacy/res/values-*
+	cp -rf build/app/* $app/src/legacy/res/
 
 	# English is not exported by default
-	rm -rf $app/src/main/res/values-en-rUS
+	rm -rf $app/src/legacy/res/values-en-rUS
 
 	# Some files should not be removed. Revert
-	cd $app/src/main/res/
+	cd $app/src/legacy/res/
 	git checkout -- values-w820*
 	cd -
 
@@ -99,7 +99,7 @@ elif [ "$choice" = "e" ]; then
 	echo "Done. Check removed files."
 elif [ "$choice" = "r" ]; then
 	echo "Refetching English in app..."
-	cp -rf build/app/values-en-rUS/* $app/src/main/res/values/
+	cp -rf build/app/values-en-rUS/* $app/src/legacy/res/values/
 
 	echo "Refetching English in web..."
 	cp -rf build/content/en_US/*.html $web/api/v3/canonical/strings/
