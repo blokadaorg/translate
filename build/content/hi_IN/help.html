@@ -54,18 +54,21 @@
 </ol>
 
 <h4><a name="refresh">Blokada ब्लॉक कम विज्ञापन ।</a></h4>
-<p>यदि आपको संदेह है कि Blokada पहले से कम विज्ञापनों को रोकता है, तो कृपया अपनी सूचियां ताज़ा करें । To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. आम तौर पर ऐसा होता है क्योंकि नए सर्वर मौजूदा है कि (अभी तक) की पहचान नहीं कर रहे है और काली सूची में जोड़ा, या नई लिस्ट अपने फोन को डाउनलोड नहीं कर रहे है करने के लिए जोड़ रहे हैं, इसलिए वे (अभी तक) अवरुद्ध नहीं कर रहे हैं ।</p>
+<p>यदि आपको संदेह है कि Blokada पहले से कम विज्ञापनों को रोकता है, तो कृपया अपनी सूचियां ताज़ा करें । To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
 
-<p>वैकल्पिक रूप से आप अधिक होस्ट सूचियों को सक्षम कर सकते हैं या <i> ब्लैकलिस्ट </i> मेनू में अधिक प्रतिबंधी फ़िल्टर जोड़ सकते हैं।</p>
+<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
 
 <h4><a name="whitelist">एक app उम्मीद के रूप में काम नहीं करता.</a></h4>
 <p>आप देख सकते हैं कि एक app की उम्मीद के रूप में काम नहीं करता है, अपनी सामग्री लोड नहीं करता है या इसी तरह की बदसलूकी का अनुभव है, कृपया मुख्य स्क्रीन पर जाएँ, <i> श्वेत सूची </i> चुनें + साइन पर स्क्रीन नल के तल पर, <i> एप्लिकेशन </i> का चयन करें और इसका नाम लिखें. अंत में <i> save </i> पर टैप करें इसके साथ, ब्लोकडा इस एप में यूआरएल को फिल्टर नहीं करेगा।</p>
 
+<p>Please note that Blokada 3.4 and earlier releases had a bug which caused that a freshly installed app wasn't recognized in Blokada, therefore they couldn't be set on the <i>Whitelist</i>. This bug is fixed in version 3.5 and newer.</p>
+
 <h4><a name="blacklist">मैं किसी वेबसाइट को ब्लॉक करना चाहता हूं ।</a></h4>
-<p>आप व्यक्तिगत वेबसाइट ब्लॉक कर सकते है क्या एक मेजबान सूची में नहीं है । यह करने के लिए, मुख्य पृष्ठ पर <i> ब्लैकलिस्ट </i> पर जाएँ, स्क्रीन के तल पर + साइन पर टैप करें, http और www भाग के बिना, वेबसाइट के होस्ट नाम में <i> होस्ट </i> और प्रकार पर टैप करें (उदाहरण के लिए: <i> myexample. com </i>).</p>
+<p>You can block individual website what isn't on a host list. To do it, go to the <i>Blacklist</i> on the main page, tap on the + sign at the bottom of the screen, tap on <i>Host</i> and type in the hostname of the website, without the http and www part (for example: <i>myexample.com</i>).</p>
 
 <h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
 
 <h4><a name="unsupported">I cannot start Blokada after I installed it.</a></h4>
 <p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
@@ -81,7 +84,7 @@
 <p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
 
 <h4><a name="howitworks">How does Blokada work?</a></h4>
-<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
+<p>Blokada is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it generates a local (no 3rd party service in use) VPN connection and simply blocks any requests towards the hosts defined in the blacklist filters. This blocking is done with a redirection, the IP address of the website that serves the advertisement will be resolved by the phone to a non-routable meta-address, for 0.0.0.0, where no web service is running, therefore nothing will be shown. With this, Blokada saves both your data plan and battery life. The filters are updated automatically and contain hosts known for serving ads, tracking, spam, malware, and other unwanted or dangerous content. You can configure Blokada with your own custom filters and whitelists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.</p>
 
 <h4><a name="vpn">Can I use another VPN while Blokada is turned on?</a></h4>
 <p>Unfortunately no, it is a system limitation; you can have only one active VPN connection at a time. If you join to an other service, Blokada will exit.</p>
@@ -137,7 +140,7 @@
 <p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
 
 <h4><a name="private">Can Blokada see my private data?</a></h4>
-<p>नहीं Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (what you can turn off). Blokada has no access to your encrypted traffic.</p>
+<p>No. Blokada does not read or tamper with your private information, it only monitors which hosts your device is making requests towards and blocks the ones matching the filters. Every time Blokada blocks anything, you will see a notification (what you can turn off). Blokada has no access to your encrypted traffic.</p>
 
 <h4><a name="battery">Does Blokada use a lot of battery?</a></h4>
 <p>No. Depending on your settings the battery impact is minimal, and on most new devices, especially on Marshmallow (Android 6) or newer, you will not notice any battery drain. However, some unlucky devices may experience increased battery drain. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
