@@ -41,14 +41,14 @@
   <string name="filter_edit_count">包含 %d 個主機項目</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
   <string name="filter_blacklist_text">%d 個黑名單項目</string>
-  <string name="filter_blacklist_text_none">未啟動黑名單</string>
+  <string name="filter_blacklist_text_none">黑名單未啟用</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
   <string name="filter_whitelist_text">%d 個白名單項目</string>
-  <string name="filter_whitelist_text_none">未啟動白名單</string>
+  <string name="filter_whitelist_text_none">未啟用白名單</string>
   <!-- Title of menu with quick actions for whitelist / blacklist -->
   <string name="filter_generate_title">快速動作</string>
   <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
-  <string name="filter_generate_whitelist_system">加入所有系統應用程式 (已啟用)</string>
+  <string name="filter_generate_whitelist_system">加入所有的系統應用程式 (已啟用)</string>
   <!-- Adds all system apps to the whitelist and/or sets them to disabled -->
   <string name="filter_generate_whitelist_system_disabled">加入所有系統應用程式 (已停用)</string>
   <!-- Adds all installed apps to the whitelist and/or sets them to enabled -->
@@ -56,17 +56,17 @@
   <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
   <string name="filter_generate_whitelist_all_disabled">加入所有應用程式 (已停用)</string>
   <!-- Deletes all filters and fetches default ones. -->
-  <string name="filter_generate_defaults">重設成預設值 (白名單和黑名單)</string>
+  <string name="filter_generate_defaults">重設至預設值 (黑名單與白名單)</string>
   <!-- Forcefully refetch filters ignoring cache. -->
   <string name="filter_generate_refetch">重新整理過濾器</string>
   <!-- Select save location for filters  -->
   <string name="filter_generate_export">匯入／匯出</string>
   <!-- A button to open directory chooser to export settings to. -->
-  <string name="filter_export_select">選擇設定的儲存位置</string>
-  <string name="filter_export_error">無法使用選定的目錄。請檢查寫入權限。</string>
+  <string name="filter_export_select">選擇設定檔的儲存位置</string>
+  <string name="filter_export_error">無法使用選定的目錄。請檢查是否有寫入權限。</string>
   <string name="filter_export_import">從外部儲存空間匯入</string>
-  <string name="filter_export_import2">現在匯入</string>
+  <string name="filter_export_import2">立即匯入</string>
   <string name="filter_export_internal">內建儲存空間（預設）</string>
   <string name="filter_export_external">外部儲存空間</string>
-  <string name="filter_export_external_info">注意：您的選擇將會同時套用到黑名單與白名單。請確定您已經（在系統設定中）給予 Blokada 存取外部儲存空間的權限，否則將改使用內部儲存空間。若您打算匯入既有的設定，在關閉此視窗前輕點現在匯入，不然其將會被覆寫。</string>
+  <string name="filter_export_external_info">注意：您的選擇將會同時套用到黑名單與白名單。請確保您已經（在系統設定中）給予 Blokada 存取外部儲存空間的權限，否則將改使用內部儲存空間。若您打算匯入既有的設定，在關閉此視窗前輕點立即匯入，不然其將會被覆寫。</string>
 </resources>
