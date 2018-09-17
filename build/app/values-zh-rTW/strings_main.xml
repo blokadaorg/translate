@@ -3,20 +3,20 @@
 <resources>
   <string name="main_loading">載入中，請稍候……</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_intro">歡迎來到 %s！點擊螢幕以啟動應用程式。當請求時請給予允許權限。</string>
+  <string name="main_intro">歡迎使用 %s！點擊螢幕以啟動應用程式。當請求權限時請提供權限。</string>
   <string name="main_error">發生錯誤。請檢查網路連線後重試。</string>
   <!-- Parameter: branded app name (Blokada). -->
   <string name="main_deactivating_new">正在關閉 %s。請稍候…</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_active">%s 處於啟用狀態。</string>
+  <string name="main_active">%s 為啟用狀態。</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_active_new">現在 %1$s 已經在保護您的裝置免受廣告干擾。您可以在下面微調 %1$s，或者直接開始使用您的裝置！</string>
+  <string name="main_active_new">現在 %1$s 已經在保護您的裝置。您可以在下方微調 %1$s，或者直接開始使用您的裝置！</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_paused">%s 已停用。</string>
+  <string name="main_paused">%s 為未啟用狀態。</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_paused_autoenable">因為您的裝置已斷開連線，因此 %1$s 已暫停。連上網路後，%1$s 將會自行啟動。</string>
+  <string name="main_paused_autoenable">因為您的裝置已斷開連線，因此 %1$s 已暫停。連上網路後 %1$s 將會自行啟動。</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_paused_autoenable_tethering">因為您的裝置啟用了 WiFi 熱點，因此 %1$s 已經暫停。停用 WiFi 熱點後，%1$s 將會自行啟動。</string>
+  <string name="main_paused_autoenable_tethering">因為您的裝置啟用了 WiFi 熱點，因此 %1$s 已經暫停。停用 WiFi 熱點後 %1$s 將會自行啟動。</string>
   <!-- Label for the Quick Settings toggle -->
   <string name="main_quicksettings_toggle">啟用器</string>
   <!-- Active status for the Quick Settings toggle -->
@@ -35,7 +35,7 @@
   <string name="main_faq_text">協助</string>
   <string name="main_donate_text">捐助</string>
   <string name="main_contribute_text">參與</string>
-  <string name="main_blog_text">最新動態</string>
+  <string name="main_blog_text">動態</string>
   <!-- A switch in the Home screen, that allows to turn off connectivity monitoring. -->
   <string name="main_connectivity_text">僅連線時</string>
   <string name="main_autostart_text">開機時啟動</string>
@@ -55,6 +55,6 @@
   <string name="main_log">分享日誌紀錄</string>
   <string name="main_report_title">回報至 Blokada</string>
   <string name="main_report_text">Blokada 發生了問題（或你要求傳送報告），日誌紀錄將會附上可能包含私密資訊的內容。只有受信任的內部人士才能讀取你的報告，一旦不再需要時，此報告將會被刪除。</string>
-  <string name="main_report_comment">有意見的報告會優先處理。問題發生前，你做了什麼？</string>
+  <string name="main_report_comment">有意見的報告會優先處理。問題發生前你正在做些什麼？</string>
   <string name="main_report_limit">回報數量已達限制，請靜待更新。感謝你的反映！</string>
 </resources>
