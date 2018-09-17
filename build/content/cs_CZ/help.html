@@ -54,18 +54,20 @@
 </ol>
 
 <h4><a name="refresh">Blokada blokuje méně reklam.</a></h4>
-<p>Pokud máte podezření, že Blokada blokuje méně reklam než dříve, aktualizujte své blocklisty. Chcete-li to provést, klepněte na <i>Černá listina</i> a v pravém horním rohu na "ekvalizér", zvolte <i>Aktualizovat filtry</i> a klepněte na <i>Pokračovat</i>. Obvykle se to stává, pokud jsou nové servery přidány k existujícím, které nejsou (dosud) identifikovány a přidány do Černé listiny, nebo nový blocklist není stažen do vašeho telefonu, a proto nejsou (dosud) blokovány.</p>
+<p>Pokud máte podezření, že Blokada blokuje méně reklam než dříve, aktualizujte své blocklisty. Chcete-li to provést, klepněte na <i>Černá listina</i> a v pravém horním rohu na "ekvalizér", zvolte <i>Aktualizovat filtry</i> a klepněte na <i>Pokračovat</i>. Obvykle se to stává, protože nové servery jsou přidány k existujícím, které ještě (nejsou) identifikovány a přidány do černé listiny, nebo nový blocklist není stažen do vašeho telefonu, a proto nejsou reklamy (stále) zablokovány.<br> Můžete aktivovat více blocklistů nebo přidat do seznamu <i>Černá listina</i> přísnější filtry.</p>
 
-<p>Můžete také povolit více blocklistů nebo přidat do seznamu <i>Černá listina</i> další omezující filtry.</p>
+<p>Vezměte prosím na vědomí, že Blokada používá blocklisty třetích stran, a proto pokud samotná aplikace dříve pracovala a blokovala reklamy, beze změn by se měla chovat stejným způsobem.</p>
 
 <h4><a name="whitelist">Aplikace nefunguje dle očekávání.</a></h4>
 <p>Pokud zjistíte, že aplikace nefunguje dle očekávání, nenahrává obsah nebo má podobně špatné chování, přejděte na hlavní obrazovku a zvolte <i>Seznam povolených</i>, v dolní části obrazovky klepněte na znaménko + a zvolte <i>App</i>a zadejte její název. Na konec klepněte na <i>Uložit</i>. Díky tomu nebude Blokada filtrovat adresy URL v této aplikaci.</p>
+
+<p>Vezměte prosím na vědomí, že Blokada ve verzi 3.4 a starší měly chybu, která způsobila, že v aplikaci Blokada nebyla rozpoznána nová aplikace, která nemohla být nastavena na <i>Seznam povolených</i>. Tato chyba je opravena ve verzi 3.5 a novější.</p>
 
 <h4><a name="blacklist">Chci zablokovat danou webovou stránku.</a></h4>
 <p>Můžete blokovat i jednotlivé webové stránky, které nejsou na seznamu blocklistů. Chcete-li to provést, přejděte na hlavní stránku a vyberte <i>Černá listina</i> klepněte na znaménko + v dolní části obrazovky, klepněte na <i>Host</i>a zadejte název hostitele, bez http a www (například: <i>myexample.com</i>).</p>
 
 <h4><a name="youtube">Reklamy na YouTube nejsou blokovány!</a></h4>
-<p>Blokování reklam na YouTube je velmi těžké, protože Google používá šifrování a náhodně generované hostitele pro zobrazování reklamy. Proto je mnohem jednodušší blokovat reklamy v rámci aplikace třetí strany (jako je například Blokada). Aplikace NewPipe a YouTube Vanced jsou skvělé alternativy k oficiální aplikaci YouTube. Vyzkoušejte si prosím, která z nich je pro vás vhodnější.</p>
+<p>Blokování reklam na YouTube je velmi těžké, protože Google používá šifrování a náhodně generované hostitele pro zobrazování reklamy. Proto je mnohem snazší blokovat reklamy v aplikaci YouTube jako u externího nástroje (jako je Blokada). Aplikace NewPipe a YouTube Vanced jsou skvělé alternativy k oficiální aplikaci YouTube. Vyzkoušejte si prosím, která z nich je pro vás vhodnější.</p>
 
 <h4><a name="unsupported">Nemohu spustit Blokadu po instalaci.</a></h4>
 <p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a aby možnost <i>Vždy VPN zapnutá</i> byla povolena. Chcete-li to provést, přejděte do Nastavení telefonu, vyhledejte VPN v části nastavení sítě a klepněte na "ozubené kolečko" vedle existující sítě VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
@@ -81,7 +83,7 @@
 <p>Pokud se pokusíte importovat seznam (například EasyList), který funguje velmi dobře s rozšířením AdBlock Plus ve vašem počítači nebo notebooku, Blokada nahlásí chybovou zprávu. Je to proto, že Blokada používá jinou metodu k blokování reklam. Zatímco ABP blokuje a skrývá prvky nebo části webových stránek, Blokada toto nemůže dělat, protože se nejedná o plugin v prohlížeči, místo toho přesměruje přístupy na ad-server na adresu, která není směrovatelná (0.0.0.0), a proto potřebuje hostname-IP seznam.</p>
 
 <h4><a name="howitworks">Jak Blokada funguje?</a></h4>
-<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Filtruje všechen odchozí provoz, generuje připojení VPN a jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny. Toto blokování se provádí přesměrováním adresy IP webové stránky, která slouží této reklamě, požadavek bude vyřešen telefonem na ne-směrovatelnou meta-adresu pro 0.0.0.0, kde není spuštěna žádná webová služba, a proto se nic nezobrazí. Díky tomu Blokada spoří vaše mobilní data i životnost baterie. Filtry se automaticky aktualizují a obsahují hostitele známé pro zobrazování reklam, sledování, spam, malware a další nežádoucí nebo nebezpečný obsah. Blokadu můžete nakonfigurovat pomocí vlastních filtrů v Seznamu povolených, abyste zajistili, že služba, kterou chcete používat, nebude zablokována.</p>
+<p>Blokada je tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Aby bylo možné filtrovat veškerý odchozí provoz, generuje lokální připojení (bez použití třetí strany) VPN a jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny. Toto blokování se provádí přesměrováním adresy IP webové stránky, která slouží této reklamě, požadavek bude vyřešen telefonem na ne-směrovatelnou meta-adresu pro 0.0.0.0, kde není spuštěna žádná webová služba, a proto se nic nezobrazí. Díky tomu Blokada spoří vaše mobilní data i životnost baterie. Filtry se automaticky aktualizují a obsahují hostitele známé pro zobrazování reklam, sledování, spam, malware a další nežádoucí nebo nebezpečný obsah. Blokadu můžete nakonfigurovat pomocí vlastních filtrů v Seznamu povolených, abyste zajistili, že služba, kterou chcete používat, nebude zablokována.</p>
 
 <h4><a name="vpn">Mohu používat jinou síť VPN, zatímco je Blokada zapnutá?</a></h4>
 <p>Bohužel ne, je to systémové omezení; můžete mít současně pouze jedno aktivní připojení VPN. Pokud se připojíte k jiné službě, Blokada bude ukončena.</p>
@@ -94,7 +96,7 @@
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
     <li><b>Oznámení</b>: Pokud je povoleno, budete upozorněni při každé, zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
     <li><b>Pouze on-line</b>: pokud je povoleno, Blokada se ukončí, pokud není aktivní připojení, a znovu se spustí, jakmile bude připojení k síti obnoveno. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
-    <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
+    <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, zda Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
     <li><b>DNS</b>: Pokud máte podezření, že některé webové stránky nebo služby jsou vám blokovány, nebo za předpokladu, že váš poskytovatel internetu shromažďuje informace o vašem používání internetu, zvolte bezpečné DNS z nabízeného seznamu. Blokada ve výchozím nastavení používá stejný DNS server jako váš systém.</li>
 </ul></p>
 
@@ -119,7 +121,7 @@
     <li>Vymažte data aplikace Blokada (v systémových nastaveních) nebo ji znovu nainstalujte.</li>
     <li>Restartujte zařízení.</li>
     <li>Vaše zařízení nemusí být podporované. Prosím, zkontrolujte <a href="http://go.blokada.org/issue_device">Databázi zařízení</a>.</li>
-    <li>Pokud žádný z těchto kroků nepomohl, nahláste chybu (viz níže).</li>
+    <li>Pokud žádný z těchto kroků nepomohl, nahlaste chybu (viz níže).</li>
 </ul></p>
 
  <h4><a name="DNS">Co je to DNS a kterou vybrat?</a></h4>
