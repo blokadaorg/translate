@@ -3,9 +3,12 @@
 <resources>
   <string name="tunnel_hosts_desc">Memaparkan jumlah hos yang telah ditetapkan untuk dihalang oleh %s</string>
   <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
+  <string name="tunnel_hosts_count2">%s hos</string>
   <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
   <string name="tunnel_hosts_updating">Mengemaskini...</string>
   <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
+  <string name="tunnel_hosts_downloading">Memuat turun...</string>
+  <string name="tunnel_config_wifi">Memuat turun penapis hanya apabila pada sambungan wifi</string>
   <string name="tunnel_dropped_count_desc">Memaparkan jumlah hos yang disekat setakat ini.</string>
   <string name="tunnel_dropped_count">%d telah disekat</string>
 </resources>
