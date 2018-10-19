@@ -25,4 +25,7 @@
   <string name="tunnel_config_wifi_only_description">Aktivovať tento prepínač, ak chcete aby aplikácia stiahla zoznamy iba v prípade, že zariadenie je pripojené k Wi-Fi. Inak, aplikácia môže prevziať zoznamy, keď je zariadenie pripojené do mobilnej siete a využívať váš dátový balík.</string>
   <string name="tunnel_config_memory_capacity">%s sa zmestí do pamäte</string>
   <string name="tunnel_config_watchdog_title">Strážny pes</string>
+  <string name="tunnel_config_watchdog_description">Aktivovať tento prepínač, ak chcete aktivovať VPN, iba ak existuje pripojenie na Internet a reštartujte tunel v prípade, že existujú problémy s pripojením. To môže pomôcť niektorým zariadeniam. Poznámka: v starších verziách sa táto možnosť volala \"Online Only\".</string>
+  <string name="tunnel_config_powersave_title">Agresívne prebudenie</string>
+  <string name="tunnel_config_powersave_description">Aktivovať tento prepínač, ak sa vyskytnú problémy spôsobené úspornou funkciou vášho prístroja. Keď aplikácia zistí problémy s pripojením do tunela, pokúsi sa zvýšiť jeho prioritu v úspornom režime.</string>
 </resources>
