@@ -60,7 +60,7 @@
 <p>V prvom rade zapnite v Blokade funkciu <i>Udržať aktívne</i>. V tomto prípade sa Blokada bude snažiť ostať online, no berte prosím na vedomie, že váš systém môže toto správanie stále ovplyvniť. Ak sa po nastavení bude Blokada stále čas od času zastavovať, skontrolujte nastavenia vášho systému a vypnite všetky optimalizácie batérie či pamäte pre Blokadu. Bohužiaľ je to iné v každom systéme, preto nedokážeme presne povedať ako na to. Skontrolujte prosím nastavenia vášho zariadenia. Ďalším zdrojom takéhoto správania môže byť fakt, že používate nejaký čistič pamäte. Pridajte prosím Blokadu do bielej listiny alebo do zoznamu výnimiek. Ak ani jeden z týchto krokov nepomohol, prosíme o nahlásenie chyby (návod nižšie).</p>
 
 <h4><a name="howitworks">Ako funguje Blokada?</a></h4>
-<p>Blokada je tenká vrstva medzi sieťovým rozhraním (wifi alebo dáta) vášho zariadenia a aplikáciami, ktoré používate. Aby bolo možné zmeniť adresy DNS serverov vášho zariadenia, vytvorí pripojenie VPN. Blokada does not send your data anywhere, the VPN is used only to create a local connection to make apps think they should use different DNS servers. Blokada DNS does not filter your connection in any way, but depending on DNS servers you choose, they may do so.</p>
+<p>Blokada je tenká vrstva medzi sieťovým rozhraním (wifi alebo dáta) vášho zariadenia a aplikáciami, ktoré používate. Aby bolo možné zmeniť adresy DNS serverov vášho zariadenia, vytvorí pripojenie VPN. Blokada vaše dáta nikam neposiela, VPN slúži iba na vytvorenie lokálneho pripojenia, aby si aplikácie mysleli, že by mali používať iné servery DNS. Blokada DNS vaše pripojenie nijakým spôsobom nefiltruje, ale v závislosti od DNS serverov, ktoré si vyberiete, k tomu dochádzať môže.</p>
 
 <h4><a name="vpn">Môžem použiť inú VPN sieť pri zapnutej Blokada?</a></h4>
 <p>Bohužiaľ nie, je to systémové obmedzenie; súčasne môže byť aktívne iba jedno VPN pripojenie. Ak sa pripojíte k inej službe, Blokada sa ukončí.</p>
@@ -68,7 +68,7 @@
 <h4><a name="options">Aké možnosti ponúka Blokada?</a></h4>
 <p>Ako ste určite videli, Blokada má na hlavnej obrazovke zopár nastavení, ktoré nie sú pri prvom spustení vysvetlené. Dovoľte nám to urobiť teraz. Môžete vidieť nasledovné:</p>
 <p><ul>
-    <li><b>Whitelist</b>: the whitelist is the exception list, here you can define apps where Blokada won’t change DNS for. Zopár aplikácii je v tejto listine hneď po inštalácii Blokady.</li>
+    <li><b>Biela listina</b>: biela listina je zoznam výnimiek, tu môžete definovať aplikácie, pre ktoré Blokada nezmení DNS. Zopár aplikácii je v tejto listine hneď po inštalácii Blokady.</li>
     <li><b>Udržať aktívne</b>: táto možnosť je na zabezpečenie toho, aby systém nepozastavoval alebo nezastavoval Blokadu. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
     <li><b>Len online</b>: ak je zapnuté, Blokada sa ukončí ak nie je žiadne aktívne pripojenie k internetu, a po opätovnom pripojení sa znova spustí. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
     <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
@@ -91,16 +91,16 @@
 <p>Ak sa vyskytnú problémy, pripojte sa prosím k nášmu Telegram chatu na <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, a naša komunita vám s radosťou pomôže. Prípadne vyberte možnosť spätnej väzby z ponuky v pravom hornom rohu a postupujte podľa pokynov. Poskytnite prosím čo najviac informácii a krokov na reprodukciu problému - výrazne to pomôže pri riešení vášho problému! Ak ste pokročilý užívateľ, môžete ísť priamo do issue trackera na GitHube.</p>
 
 <h4><a name="private">Môže Blokada vidieť moje súkromné údaje?</a></h4>
-<p>Nie. Blokada does not read or tamper with your private information. Blokada DNS does not monitor your data in any way, it simply makes your app think they should use different DNS servers. Blokada nemá prístup k vašim šifrovaným dátam.</p>
+<p>Nie. Blokada nečíta ani nemanipuluje s vašimi súkromnými informáciami. Blokada DNS nijakým spôsobom nemonitoruje vaše dáta, iba prinúti aplikácie aby si mysleli, že majú používať iné DNS servery. Blokada nemá prístup k vašim šifrovaným dátam.</p>
 
 <h4><a name="battery">Má Blokada veľkú spotrebu batérie?</a></h4>
 <p>Nie. Vplyv na výdrž batérie závisí od vašich nastavení, mal by byť minimálny, a na väčšine nových zariadení, hlavne s Androidom 6 (Marshmallow) alebo novším si ho ani nevšimnete. Avšak, na niektorých nešťastných zariadeniach sa zvýšená spotreba batérie môže vyskytnúť. Skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a> pre podrobnosti.</p>
 
 <h4><a name="speed">Bude Blokada spomaľovať moje zariadenie?</a></h4>
-<p>Nie. V závislosti od vašich nastavení môže byť Blokada pomerne efektívna. In fact, both your device's performance and battery life may visibly improve, because Blokada saves your device from downloading and processing content you don't need or care about. However, users with some older devices may experience performance drop. Refer to the <a href="http://go.blokada.org/issue_device">Devices Database</a> for details.</p>
+<p>Nie. V závislosti od vašich nastavení môže byť Blokada pomerne efektívna. Výkon a výdrž batérie vášho zariadenia sa môže naopak viditeľne zlepšiť, pretože Blokada šetrí vaše zariadenie od sťahovania a spracúvavania nepotrebného obsahu. U používateľov so staršími zariadeniami sa však pokles výkonu môže prejaviť. Skontrolujte <a href="http://go.blokada.org/issue_device">Databázu zariadení</a> pre podrobnosti.</p>
 
 <h4><a name="free">Je Blokada naozaj zadarmo?</a></h4>
-<p>Yes! Blokada started as my hobby project, is still mostly developed by me. It's my way of giving back to the community. Blokada is fully open source and it will stay free forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (see below).</p>
+<p>Áno! Blokada started as my hobby project, is still mostly developed by me. It's my way of giving back to the community. Blokada is fully open source and it will stay free forever. That said, developing it takes a lot of time, so please consider supporting the project in any way you can (see below).</p>
 
 <h4><a name="contribute">Blokada je skvelá, ako môžem pomôcť projektu?</a></h4>
 <p>There are many ways to support Blokada, financially or else. All means of help are very important for the project to exist. <a href="contribute.html">Please go to this page for more information</a>, or just <a href="http://go.blokada.org/chat">join our chat</a>.</p>
