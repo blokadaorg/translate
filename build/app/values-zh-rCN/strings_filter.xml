@@ -30,10 +30,10 @@
   <string name="filter_edit_link_error">链接不能下载或者下载的文件中不包含hosts</string>
   <!-- Name of a tab that allows to whitelist app. -->
   <string name="filter_edit_app">应用</string>
-  <string name="filter_edit_app_enter">输入软件名或者软件包名称</string>
+  <string name="filter_edit_app_enter">输入应用名或者应用包名称</string>
   <!-- An example package name of app to whitelist. -->
   <string name="filter_edit_app_placeholder">谷歌应用商店</string>
-  <string name="filter_edit_app_error">应用不存在或者不能被加入白名单中。</string>
+  <string name="filter_edit_app_error">应用不存在或无法加入白名单中。</string>
   <string name="filter_edit_app_unsupported">（不受标准阻止支持）</string>
   <string name="filter_edit_save">保存</string>
   <string name="filter_edit_cancel">取消</string>
@@ -43,13 +43,13 @@
   <!-- Parameter: number of hosts. -->
   <string name="filter_edit_count">有 %d 条过滤规则</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
-  <string name="filter_blacklist_text">黑名单内 %d 条规则</string>
+  <string name="filter_blacklist_text">黑名单内有 %d 条规则</string>
   <string name="filter_blacklist_text_none">黑名单未启用</string>
   <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
-  <string name="filter_whitelist_text">白名单内 %d 条规则</string>
+  <string name="filter_whitelist_text">白名单内有 %d 条规则</string>
   <string name="filter_whitelist_text_none">白名单未启用</string>
   <!-- Title of menu with quick actions for whitelist / blacklist -->
-  <string name="filter_generate_title">快速启用</string>
+  <string name="filter_generate_title">快捷操作</string>
   <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
   <string name="filter_generate_whitelist_system">添加全部系统应用（启用）</string>
   <!-- Adds all system apps to the whitelist and/or sets them to disabled -->
