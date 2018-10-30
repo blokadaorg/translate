@@ -6,11 +6,11 @@
   <string name="notification_blocked_title">广告已拦截</string>
   <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
   <!-- Button to turn off notifications. -->
-  <string name="notification_blocked_off">以后不显示该域名的拦截</string>
+  <string name="notification_blocked_off">以后不通知该域名的拦截</string>
   <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
   <string name="notification_blocked_whitelist">加入白名单</string>
   <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
-  <string name="notification_blocked_whitelist_applied">已完成！可能要花数秒的时间来使更改生效。</string>
+  <string name="notification_blocked_whitelist_applied">已完成！等待几秒以使其生效。</string>
   <!-- Parameter: branded app name (Blokada). -->
   <string name="notification_disabled">%s 将不会显示拦截广告的通知</string>
   <!-- Parameter: branded app name (Blokada). -->
