@@ -3,8 +3,8 @@
 <resources>
   <string name="main_loading">正在加载......</string>
   <!-- Parameter: branded app name (Blokada). -->
-  <string name="main_intro">欢迎使用 %s! 点击盾牌以激活应用。当设备询问时请授予它权限。</string>
-  <string name="main_error">嗯～出了点小状况。请检查您的网络连接并再试一次。</string>
+  <string name="main_intro">欢迎使用 %s! 点击盾牌以激活应用。当设备询问权限时请授予。</string>
+  <string name="main_error">嗯～出了点小状况。请检查您的网络连接后重试。</string>
   <!-- Parameter: branded app name (Blokada). -->
   <string name="main_deactivating_new">正在关闭 %s.请等待......</string>
   <!-- Parameter: branded app name (Blokada). -->
@@ -53,8 +53,8 @@
   <!-- An overlay header on top of Patron page -->
   <string name="main_log">分享日志</string>
   <string name="main_report_title">Blokada 报告</string>
-  <string name="main_report_text">Blokada 遇到了问题 (或者您要求发送报告)。将附加一份日志记录, 其中可能包含私人信息。只有受信任的内部人员才能阅读您的报告, 一旦不再需要, 报告将被删除。</string>
-  <string name="main_report_comment">含有注释的报告将优先处理。请问在问题发生之前你做了什么？</string>
+  <string name="main_report_text">Blokada 遇到了问题 (或者您想要发送报告)。报告将附加一份日志记录, 其中可能包含私人信息。只有受信任的内部人员才能阅读您的报告, 一旦不再需要, 报告将被删除。</string>
+  <string name="main_report_comment">含有注释的报告将优先处理。请问，在问题发生之前，您做了什么？</string>
   <string name="main_report_limit">已达到报告限制！请持续关注最新状况。感谢您的反馈!</string>
   <!-- To display a big number in short way, eg. 1.69 million -->
   <string name="core_format_million">%s 百万</string>
