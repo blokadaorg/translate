@@ -27,7 +27,7 @@
   <string name="filter_edit_link_enter">请输入一个hosts文件的(下载)链接</string>
   <!-- An example format of a link to hosts file. -->
   <string name="filter_edit_link_placeholder">http://example.com/hosts.txt</string>
-  <string name="filter_edit_link_error">链接不能下载或者下载的文件中不包含hosts</string>
+  <string name="filter_edit_link_error">链接无法下载或者链接中不含hosts</string>
   <!-- Name of a tab that allows to whitelist app. -->
   <string name="filter_edit_app">应用</string>
   <string name="filter_edit_app_enter">输入应用名或者应用包名称</string>
@@ -59,17 +59,17 @@
   <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
   <string name="filter_generate_whitelist_all_disabled">添加全部应用 (禁用)</string>
   <!-- Deletes all filters and fetches default ones. -->
-  <string name="filter_generate_defaults">恢复默认值 (黑名单和白名单)</string>
+  <string name="filter_generate_defaults">恢复默认值 (黑名单&amp; 和白名单)</string>
   <!-- Forcefully refetch filters ignoring cache. -->
   <string name="filter_generate_refetch">刷新过滤列表</string>
   <!-- Select save location for filters  -->
   <string name="filter_generate_export">导入 / 导出</string>
   <!-- A button to open directory chooser to export settings to. -->
   <string name="filter_export_select">选择设定保存的位置</string>
-  <string name="filter_export_error">无法使用选定的目录。检查写权限。</string>
+  <string name="filter_export_error">无法使用选定的目录。请检查写权限。</string>
   <string name="filter_export_import">从外部存储导入</string>
   <string name="filter_export_import2">现在导入</string>
   <string name="filter_export_internal">内部存储 (默认)</string>
-  <string name="filter_export_external">外部存儲器</string>
+  <string name="filter_export_external">外部存储</string>
   <string name="filter_export_external_info">注意: 您的选择对黑名单和白名单均适用。确保您已经授予 Blokada 的外部存储权限\"(在系统设置中), 否则即使您选择了外部存储，也将使用内部存储。如果要导入现有设置, 请在关闭此窗口之前点击 \"立即导入\", 否则将被覆盖。</string>
 </resources>
