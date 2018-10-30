@@ -17,6 +17,7 @@
   <!-- Parameter: branded app name (Blokada). -->
   <string name="main_paused_autoenable_tethering">%1$s estas paŭzita ĉar via aparato havas Wi-Fi Hotspot ebligita. %1$s aŭtomate fariĝos aktiva kiam WiFi Hotspot estas malŝaltita.</string>
   <!-- Label for the Quick Settings toggle -->
+  <string name="main_quicksettings_toggle">Aktivilo</string>
   <!-- Active status for the Quick Settings toggle -->
   <string name="main_quicksettings_on">Aktiva</string>
   <!-- Disabled status for the Quick Settings toggle -->
@@ -26,7 +27,10 @@
   <!-- App status, as in: Blokada is Disabled -->
   <string name="main_status_disabled">malebligita</string>
   <!-- App status, always displayed without the "Blokada is" part. -->
+  <string name="main_status_activating">Aktiviganta</string>
   <!-- App status, always displayed without the "Blokada is" part. -->
+  <string name="main_status_deactivating">Malaktiviganta</string>
+  <string name="main_status_error">Problemo okazis</string>
   <string name="main_faq_text">Helpu</string>
   <string name="main_donate_text">Donacu</string>
   <string name="main_contribute_text">Implikiĝi</string>
