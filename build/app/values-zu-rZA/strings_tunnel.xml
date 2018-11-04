@@ -5,5 +5,19 @@
     <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
     <string name="tunnel_hosts_count2">%s amafayela</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
+    <string name="tunnel_hosts_updating">Ukubuyekezwa...</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
+    <string name="tunnel_hosts_downloading">Iyalanda...</string>
+    <string name="tunnel_config_wifi">Landa izihlungi kuphela uma ku-wifi</string>
+    <string name="tunnel_dropped_count_desc">Ibonisa inani eliphelele labasikazi elivalwe kuze kube manje.</string>
+    <string name="tunnel_dropped_count">%d avinjilwe</string>
+    <string name="tunnel_dropped_count2">%s ivinjilwe</string>
+    <string name="tunnel_config_refetch_now_title">Landa uhlu</string>
+    <string name="tunnel_config_refetch_now">Landa uhlu manje</string>
+    <string name="tunnel_config_refetch_now_description">Sebenzisa inkinobho ngezansi ukuze ususe isilondolozi bese ulanda uhlu lwakho. Lokhu kungasiza uma uhlangabezana nezinkinga ngesilonda sakho.</string>
+    <string name="tunnel_config_refetch_frequency_title">Izinhlu zokulanda imvamisa</string>
+    <string name="tunnel_config_refetch_frequency_description">Khetha enye yezinketho ukuze ulungise ukuthi kungakanani uhlelo lokusebenza olulanda izinhlu zakho.</string>
+    <string name="tunnel_config_refetch_frequency_1">Kanye ngosuku</string>
+    <string name="tunnel_config_refetch_frequency_2">Kabili ngesonto</string>
+    <string name="tunnel_config_refetch_frequency_3">Kanye ngenyanga</string>
 </resources>
