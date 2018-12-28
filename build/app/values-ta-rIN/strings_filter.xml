@@ -8,13 +8,21 @@
     <!-- Parameter: directory of the file. For example: A file from Downloads -->
     <string name="filter_name_file">%s -லிருந்து ஒரு கோப்பு</string>
     <!-- As in, "A a file from this device". -->
+    <string name="filter_name_file_unknown">இந்த கருவி</string>
     <!-- Name of a tab for adding a new host to the blacklist / whitelist. -->
     <!-- An example format of a hostname. -->
     <!-- Name of a tab that allows to add a file with hosts. -->
+    <string name="filter_edit_file">கோப்பு</string>
     <!-- Name of a tab that allows to add a link to hosts. -->
+    <string name="filter_edit_link">இணைப்பு</string>
     <!-- An example format of a link to hosts file. -->
     <!-- Name of a tab that allows to whitelist app. -->
+    <string name="filter_edit_app">செயலி</string>
     <!-- An example package name of app to whitelist. -->
+    <string name="filter_edit_save">சேமி</string>
+    <string name="filter_edit_cancel">ரத்து செய்</string>
+    <string name="filter_edit_comments">கருத்துக்கள்</string>
+    <string name="filter_edit_comments_none">கருத்துகள் இல்லை</string>
     <!-- Parameter: number of hosts. -->
     <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
     <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
@@ -26,5 +34,7 @@
     <!-- Deletes all filters and fetches default ones. -->
     <!-- Forcefully refetch filters ignoring cache. -->
     <!-- Select save location for filters  -->
+    <string name="filter_generate_export">இறக்குமதி / ஏற்றுமதி</string>
     <!-- A button to open directory chooser to export settings to. -->
+    <string name="filter_export_import2">இறக்குமதி செய்</string>
 </resources>
