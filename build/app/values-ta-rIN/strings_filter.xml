@@ -4,6 +4,7 @@
     <!-- A recommended option, for example: Optimised blocking (recommended). Parameter: name of the option. -->
     <string name="filter_recommended">%s (பரிந்துரைக்கப்பட்டது)</string>
     <!-- Parameter: host name of the link. For example: A link from example.com -->
+    <string name="filter_name_link">%s லிருந்து ஒரு இணைப்பு</string>
     <!-- As in, "A link from the Internet". -->
     <string name="filter_name_link_unknown">இணையம்</string>
     <!-- Parameter: directory of the file. For example: A file from Downloads -->
@@ -11,15 +12,25 @@
     <!-- As in, "A a file from this device". -->
     <string name="filter_name_file_unknown">இந்த கருவி</string>
     <!-- Name of a tab for adding a new host to the blacklist / whitelist. -->
+    <string name="filter_edit_name">வழங்கி</string>
     <!-- An example format of a hostname. -->
+    <string name="filter_edit_name_enter">வழங்கி பெயர் உள்ளிடவும்</string>
+    <string name="filter_edit_name_error">இது சரியானது அல்ல. example.com போல ஒரு மின் முகவரியை உள்ளிடவும்.</string>
     <!-- Name of a tab that allows to add a file with hosts. -->
     <string name="filter_edit_file">கோப்பு</string>
+    <string name="filter_edit_file_choose">Hosts கோப்பை தேர்வு செய்யவும்</string>
+    <string name="filter_edit_file_none">Hosts கோப்பு தேர்வு செய்யப்படவில்லை</string>
+    <string name="filter_edit_file_error">தேர்வு செய்யப்பட்ட கோப்பு hosts கொண்டவையாக இல்லை.</string>
     <!-- Name of a tab that allows to add a link to hosts. -->
     <string name="filter_edit_link">இணைப்பு</string>
+    <string name="filter_edit_link_enter">Hosts கோப்பிற்க்கு இணைப்பு சேர்க்கவும்</string>
     <!-- An example format of a link to hosts file. -->
+    <string name="filter_edit_link_error">இந்த இணைப்பை தரவிறக்க முடியாது.</string>
     <!-- Name of a tab that allows to whitelist app. -->
     <string name="filter_edit_app">செயலி</string>
+    <string name="filter_edit_app_enter">செயலியின் பெயரை உள்ளிடவும்</string>
     <!-- An example package name of app to whitelist. -->
+    <string name="filter_edit_app_error">இந்த செயலி இல்லை.</string>
     <string name="filter_edit_save">சேமி</string>
     <string name="filter_edit_cancel">ரத்து செய்</string>
     <string name="filter_edit_comments">கருத்துக்கள்</string>
