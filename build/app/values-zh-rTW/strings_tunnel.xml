@@ -28,4 +28,5 @@
     <string name="tunnel_config_watchdog_description">如果您希望應用程式僅在有網路連線時啟動 VPN，並在有連線問題時重新啟動連線通道，請啟用此開關。這可能對某些裝置有幫助。注意，在較舊的版本中，此選項稱為「僅上網時」。</string>
     <string name="tunnel_config_powersave_title">主動喚醒</string>
     <string name="tunnel_config_powersave_description">如果您遇到您的裝置因省電功能而引起的問題，請啟用此開關。當應用程式偵測到連線通到問題時，它將會嘗試將本身提高到有較高的優先權，使其脫離省電功能的影響。</string>
+    <string name="tunnel_config_reports_title">回報</string>
 </resources>
