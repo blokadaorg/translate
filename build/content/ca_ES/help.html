@@ -73,7 +73,7 @@ Alternativament, podeu activar més llistes de servidors o afegir filtres més r
 <h4><a name="unsupported">No puc iniciar Blokada després d'haver-lo instal·lat.</a></h4>
 <p>Hi ha dues causes comuns per aquesta situació. En primer lloc, comproveu si teniu una connexió VPN activa i si l'opció <i>VPN sempre encesa</i> està activada. Per fer-ho, aneu a la Configuració del telèfon, busqueu VPN a la secció de xarxa, toqueu l'engranatge al costat de la VPN existent. Desactiveu-la, desconnecteu-vos de la connexió VPN activa i intenteu reiniciar el Blokada.</p>
 
-<p>Si no teniu una altra connexió VPN, comproveu al Blokada si <i>Només en línia</i> està activat i, en cas afirmatiu, verifiqueu si esteu connectat a Internet amb Wi-Fi o amb dades mòbils. Blokada no s'iniciarà si <i>Només en línia</i> està activat i no teniu una connexió a Internet.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Si això no ajuda, reinicieu el telèfon, a vegades pot ser útil.</p>
 
@@ -96,7 +96,7 @@ Alternativament, podeu activar més llistes de servidors o afegir filtres més r
     <li><b>Llista blanca</b>: la llista blanca és la llista d'excepcions, aquí podeu definir els servidors que no s'han de bloquejar o les aplicacions on Blokada no filtrarà les URL. Blokada s'instal·la amb diverses aplicacions incloses a la llista blanca per defecte.</li>
     <li><b>Mantén actiu</b>: aquesta opció és per assegurar-se que Blokada no es pausi ni sigui aturat pel sistema. Tingueu en compte que el vostre sistema pot sobreescriure-lo, assegureu-vos que la vostra configuració deixi que Blokada s'executi en segon pla.</li>
     <li><b>Notificacions</b>: en activar-se, se us notificarà quan un anunci ha està bloquejat. Està activat per defecte, però si rebeu moltes notificacions, podeu desactivar-lo.</li>
-    <li><b>Només en línia</b>: en activar-se, Blokada es tancarà si no hi ha connexió activa, i començarà de nou cada vegada que torni la connexió. Si està desactivat, Blokada s'executarà sempre en segon pla (encara que no hi hagi cap xarxa disponible). Tingueu en compte que aquesta opció pot no funcionar en tots els dispositius.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Si està desactivat, Blokada s'executarà sempre en segon pla (encara que no hi hagi cap xarxa disponible). Tingueu en compte que aquesta opció pot no funcionar en tots els dispositius.</li>
     <li><b>Inicia en l'inici</b>: en activar-se, Blokada s'iniciarà després d'arrencar el sistema. Tingueu en compte que hi ha configuracions a nivell del sistema per a aquesta opció, per tant, no es pot garantir que Blokada s'iniciï en l'arrencada. En aquest cas, comproveu la configuració del vostre telèfon. La configuració per defecte està activada, si voleu iniciar Blokada manualment, desactiveu aquesta opció.</li>
     <li><b>DNS</b>: si sospiteu que alguns llocs web o serveis estan bloquejats per a vós, o està suposant que el vostre proveïdor d'Internet recopila informació sobre el seu ús d'Internet, utilitzeu qualsevol DNS segura de la llista. Per defecte, Blokada utilitza els mateixos servidor/s DNS que el vostre sistema.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternativament, podeu activar més llistes de servidors o afegir filtres més r
 <p><ul>
     <li>Comproveu si la icona de la clau VPN apareix a la barra d'estat a la part superior. Si no, inicieu el Blokada.</li>
     <li>Obriu Blokada i comproveu si està actiu i que no informi de cap error.</li>
-    <li>Comproveu si el comptador de servidors no és igual a zero. Si és així, seleccioneu alguns filtres de la llista negra perquè els anuncis es puguin bloquejar. Si el comptador segueix a zero, informeu d'un error.</li>
+    <li>Comproveu si el comptador de servidors no és igual a zero. Si és així, seleccioneu alguns filtres de la llista negra perquè els anuncis es puguin bloquejar. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Assegureu-vos que no teniu massa aplicacions a la llista blanca, potser és per això que visualitzeu anuncis.</li>
     <li>Proveu a restablir els vostres filtres (aneu a la pantalla de la Llista negra i trieu <i>Restableix valors per defecte</i> al menú Accions ràpides en la part superior).</li>
     <li>Si veieu anuncis al vostre navegador, desactiveu qualsevol tipus de compressió o optimització de trànsit a la configuració del navegador.</li>
