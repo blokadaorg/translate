@@ -28,4 +28,7 @@
     <string name="tunnel_config_watchdog_description">Aktiviere diesen Schalter, wenn die App das VPN nur aktivieren soll, wenn eine aktive Internetverbindung besteht. Die Einstellung startet das VPN neu, falls Verbindungsprobleme auftreten. Dies kann für einige Geräte hilfreich sein. Hinweis: In früheren Versionen wurde diese Option \"Nur Online\" genannt.</string>
     <string name="tunnel_config_powersave_title">Aggressives Aufwachen.</string>
     <string name="tunnel_config_powersave_description">Aktiviere diesen Schalter, wenn Probleme auftreten die durch die Powersave-Funktion des Geräts verursacht werden. Wenn die App Probleme mit der VPN feststellt, versucht sie die Priorität zu erhöhen, um den Energiesparmodus zu deaktivieren.</string>
+    <string name="tunnel_config_reports_title">Berichte</string>
+    <string name="tunnel_config_reports_description">Aktiviere diesen Schalter, um der App zu ermöglichen, Berichte zu senden. Diese helfen uns, Probleme und Fehler zu beheben. Das Senden geschieht nur einmal pro Tag bzw. dann, wenn die App abstürzt. Das Deaktivieren kann es schwierig machen, alle Probleme zu lösen, die bei dir möglicherweise auftreten. Du musst die App neu starten, damit diese Einstellung wirksam wird.</string>
+    <string name="tunnel_config_fallback_title">DNS-Fallback</string>
 </resources>
