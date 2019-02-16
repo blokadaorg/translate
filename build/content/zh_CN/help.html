@@ -72,7 +72,7 @@
 <h4><a name="unsupported">我安装后无法启动Blokada。</a></h4>
 <p>造成这种情况的原因有两个。 首先，请检查您是否有活动的VPN连接，以及是否启用了<i>总是连接VPN</i>选项。 要做到这一点，请转到手机的设置，在网络部分搜索VPN，点击现有VPN旁边的齿轮。 将其禁用，断开VPN连接并尝试重新启动Blokada。</p>
 
-<p>如果您没有其他VPN连接，请检查Blokada是否启用<i>仅联机</i>，如果是，请检查您是否使用WiFi或移动数据连接到互联网。 如果启用了<i>仅联机</i>而您没有网络连接，则Blokada不会启动。</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>如果这没有帮助，请重新启动手机，有时也会有所帮助。</p>
 
@@ -95,7 +95,7 @@
     <li><b>白名单</b>：白名单是例外列表，您可以在此处定义不应被阻止的主机或Blokada不会过滤URL的应用程序。 Blokada默认添加了几个白名单应用程序。</li>
     <li><b>永久连接</b>：此选项用于确保Blokada不会被系统暂停或停止。 请注意您的系统可以覆盖它，确保您的设置能让Blokada在后台运行。</li>
     <li><b>通知</b>：启用后，您会在广告被拦截时收到通知。 默认开启，但如果您收到太多通知，可以关掉它。</li>
-    <li><b>仅联机</b>：启用后，如果没有网络不可用，Blokada将退出，且当网络可用时重新启动。 如果禁用，Blokada将始终在后台运行(即使网络不可用)。 请注意，该选项可能无法在每台设备上使用。</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. 如果禁用，Blokada将始终在后台运行(即使网络不可用)。 请注意，该选项可能无法在每台设备上使用。</li>
     <li><b>开机启动</b>：启用后，Blokada将在系统启动后启动。 请注意，此选项与系统配置相关，因此无法保证Blokada能开机启动 在这种情况下，请检查您手机的设置。 默认配置已启用，如果您想手动启动Blokada，请禁用此选项。</li>
     <li><b>DNS</b>：如果您怀疑某些网站或服务被拦截，或者您认为您的Internet提供商收集有关您的intenet使用情况的信息，请从列表中选择一台安全的DNS计算机。 默认情况下，Blokada使用与您的系统相同的DNS服务器。</li>
 </ul></p>
@@ -112,7 +112,7 @@
 <p><ul>
     <li>检查顶部状态栏中是否存在VPN钥匙图标。 如果没有，开启Blokada。</li>
     <li>打开Blokada并检查它是否处于活动状态并且不报告任何错误。</li>
-    <li>检查主机计数器是不为零的。 如果是零，请选择一些黑名单过滤器，以便拦截广告。 如果计数器仍然为零，请向我们报告bug。</li>
+    <li>检查主机计数器是不为零的。 如果是零，请选择一些黑名单过滤器，以便拦截广告。 If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>确保您的白名单中没有太多应用 - 也许这就是为什么您看到广告。</li>
     <li>尝试重置您的过滤器(转至黑名单页面并从顶部的“快速操作”菜单中选择<i>恢复默认值</i>)。</li>
     <li>如果您在浏览器中看到广告，请停用浏览器设置中的任何类型的流量压缩或优化功能。</li>
