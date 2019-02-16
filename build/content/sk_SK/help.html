@@ -73,7 +73,7 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 <h4><a name="unsupported">Blokada sa nedá po nainštalovaní spustiť.</a></h4>
 <p>Pre takúto situáciu existujú dve najčastejšie príčíny. Najprv prosím skontrolujte, či máte aktívne VPN pripojenie a či je zapnutá možnosť <i>Vždy zapnutá VPN</i>. Prejdite do nastavení vášho zariadenia, nájdite položku VPN v nastaveniach sietí, a ťuknite na ozubené koleso vedľa existujúceho VPN. Ak je zapnutá, vypnite ju, odpojte sa od aktívneho VPN pripojenia a skúste reštartovať Blokadu.</p>
 
-<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade v rozšírených nastaveniach zapnutý <i>Strážny pes</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade v rozšírených nastaveniach zapnutý <i>Strážny pes</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Ak je <i>Strážny pes</i> zapnutý a nemáte pripojenie na internet, Blokada sa nespustí.</p>
 
 <p>Ak to nepomôže, reštartujte vaše zariadenie, niekedy to môže pomôcť.</p>
 
@@ -96,7 +96,7 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
     <li><b>Biela listina</b>: biela listina je zoznam výnimiek, tu môžete definovať hostov, ktorí by nemali byť zablokovaní, alebo aplikácie, v ktorých Blokada nebude filtrovať URL adresy. Zopár aplikácii je v tejto listine hneď po inštalácii Blokady.</li>
     <li><b>Udržať aktívne</b>: táto možnosť je na zabezpečenie toho, aby systém nepozastavoval alebo nezastavoval Blokadu. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
     <li><b>Upozornenia</b>: ak sú zapnuté, po každom zablokovaní reklamy vám príde upozornenie. Predvolene sú zapnuté, ale ak dostávate priveľa upozornení, vypnite ich.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
+    <li><b>Strážny pes</b>: ak je zapnutý a nemáte žiadne pripojenie k internetu, Blokada sa ukončí, a po opätovnom pripojení sa znova spustí. Ak je vypnutý, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
     <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
     <li><b>DNS</b>: ak máte podozrenie, že niektoré webové stránky alebo služby sú pre vás zablokované, alebo predpokladáte, že váš poskytovateľ internetových služieb zhromažďuje informácie o vašom používaní internetu, vyberte si zo zoznamu nový, bezpečný DNS stroj. Predvolene Blokada používa rovnaký/é DNS server/y ako váš systém.</li>
 </ul></p>
