@@ -29,4 +29,7 @@
     <string name="tunnel_config_powersave_title">Agresívne prebudenie</string>
     <string name="tunnel_config_powersave_description">Aktivujte tento prepínač, ak sa vyskytnú problémy spôsobené úspornou funkciou vášho zariadenia. Keď aplikácia zistí problémy s pripojením do tunela, pokúsi sa zvýšiť svoju prioritu v úspornom režime.</string>
     <string name="tunnel_config_reports_title">Záznamy</string>
+    <string name="tunnel_config_reports_description">Aktivovaním tohto prepínača dovolíte aplikácii odosielať záznamy, ktoré nám môžu pomôcť vyriešiť problémy a chyby. Záznamy budú odosielané raz denne, prípadne pri páde aplikácie. Vypnutie nám môže vyriešenie vašich problémov výrazne sťažiť. Po nastavení môže byť potrebné reštartovať aplikáciu.</string>
+    <string name="tunnel_config_fallback_title">Záložné DNS</string>
+    <string name="tunnel_config_fallback_description">Aktivujte tento prepínač, ak v niektorých situáciách strácate prístup k internetu, napr. počas pripojenia cez WiFi. Aplikácia dočasne zmení DNS na Cloudflare DNS kvôli udržaniu vášho pripojenia. Aby sa toto nastavenie prejavilo, možno budete musieť znova vybrať vaše servery v DNS sekcii.</string>
 </resources>
