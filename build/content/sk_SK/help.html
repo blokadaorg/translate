@@ -73,7 +73,7 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 <h4><a name="unsupported">Blokada sa nedá po nainštalovaní spustiť.</a></h4>
 <p>Pre takúto situáciu existujú dve najčastejšie príčíny. Najprv prosím skontrolujte, či máte aktívne VPN pripojenie a či je zapnutá možnosť <i>Vždy zapnutá VPN</i>. Prejdite do nastavení vášho zariadenia, nájdite položku VPN v nastaveniach sietí, a ťuknite na ozubené koleso vedľa existujúceho VPN. Ak je zapnutá, vypnite ju, odpojte sa od aktívneho VPN pripojenia a skúste reštartovať Blokadu.</p>
 
-<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade zapnutá možnosť <i>Len online</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Blokada sa nespustí, ak je zapnuté <i>Len online</i> a nemáte pripojenie na internet.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Ak to nepomôže, reštartujte vaše zariadenie, niekedy to môže pomôcť.</p>
 
@@ -96,7 +96,7 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
     <li><b>Biela listina</b>: biela listina je zoznam výnimiek, tu môžete definovať hostov, ktorí by nemali byť zablokovaní, alebo aplikácie, v ktorých Blokada nebude filtrovať URL adresy. Zopár aplikácii je v tejto listine hneď po inštalácii Blokady.</li>
     <li><b>Udržať aktívne</b>: táto možnosť je na zabezpečenie toho, aby systém nepozastavoval alebo nezastavoval Blokadu. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
     <li><b>Upozornenia</b>: ak sú zapnuté, po každom zablokovaní reklamy vám príde upozornenie. Predvolene sú zapnuté, ale ak dostávate priveľa upozornení, vypnite ich.</li>
-    <li><b>Len online</b>: ak je zapnuté, Blokada sa ukončí ak nie je žiadne aktívne pripojenie k internetu, a po opätovnom pripojení sa znova spustí. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
     <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
     <li><b>DNS</b>: ak máte podozrenie, že niektoré webové stránky alebo služby sú pre vás zablokované, alebo predpokladáte, že váš poskytovateľ internetových služieb zhromažďuje informácie o vašom používaní internetu, vyberte si zo zoznamu nový, bezpečný DNS stroj. Predvolene Blokada používa rovnaký/é DNS server/y ako váš systém.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 <p><ul>
     <li>Skontrolujte, či vidíte ikonu VPN kľúča v stavovom riadku v hornej časti obrazovky. Ak nie, spustite Blokadu.</li>
     <li>Otvorte Blokadu a skontrolujte, či je aktívna a nehlási žiadne chyby.</li>
-    <li>Skontrolujte, či počítadlo hostov nezobrazuje nulu. Ak áno, vyberte si niektoré filtre čiernej listiny, aby mohli byť reklamy zablokované. Ak je na počítadle stále nula, nahláste chybu.</li>
+    <li>Skontrolujte, či počítadlo hostov nezobrazuje nulu. Ak áno, vyberte si niektoré filtre čiernej listiny, aby mohli byť reklamy zablokované. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Uistite sa, že nemáte príliš veľa aplikácií v bielej listine - to môže byť dôvod, prečo ste videli reklamy.</li>
     <li>Skúste resetovať filtre (choďte do čiernej listiny a vyberte <i>Obnoviť predvolené</i> z menu rýchlych akcii na vrchu).</li>
     <li>Ak vidíte reklamy vo vašom prehliadači, deaktivujte akúkoľvek kompresiu či optimalizáciu dát v nastavení prehliadača.</li>
