@@ -65,11 +65,11 @@
     <!-- Select save location for filters  -->
     <string name="filter_generate_export">Importer / Exporter</string>
     <!-- A button to open directory chooser to export settings to. -->
-    <string name="filter_export_select">Sélectionnez le lieu où les paramètres devraient être sauvegardés</string>
-    <string name="filter_export_error">Le répertoire sélectionné ne peut être utilisé. Veuillez vérifiez les permissions d\'écriture.</string>
-    <string name="filter_export_import">Importer depuis stockage externe</string>
+    <string name="filter_export_select">Sélectionnez l\'endroit où les paramètres devraient être sauvegardés</string>
+    <string name="filter_export_error">Le répertoire sélectionné ne peut être utilisé. Veuillez vérifier si vous avez autorisé le droit d\'écriture.</string>
+    <string name="filter_export_import">Importer depuis le stockage externe</string>
     <string name="filter_export_import2">Importer maintenant</string>
     <string name="filter_export_internal">Stockage interne (par défaut)</string>
     <string name="filter_export_external">Stockage externe</string>
-    <string name="filter_export_external_info">Remarque : votre choix s\'applique à la fois à votre liste noire et à votre liste blanche. Assurez-vous que vous avez accordé les permissions d\'accès au stockage externe à Blockada (dans les paramètres système), sinon le stockage interne sera utilisé peu importe votre choix. Si vous importez des paramètres existants, appuyez sur Importer Maintenant avant de fermer cette fenêtre, sinon ils seront écrasés.</string>
+    <string name="filter_export_external_info">Remarque : votre choix s\'applique à la fois à votre liste noire et à votre liste blanche. Assurez-vous que vous avez accordé les permissions d\'accès au stockage externe à Blokada (dans les paramètres système), sinon le stockage interne sera utilisé peu importe votre choix. Si vous importez des paramètres existants, appuyez sur Importer Maintenant avant de fermer cette fenêtre, sinon ils seront écrasés.</string>
 </resources>
