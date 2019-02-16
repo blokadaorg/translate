@@ -73,7 +73,7 @@ Alternatīvi, jūs varat iespējot vairāk adrešu sarakstus vai pievienot vair�
 <h4><a name="unsupported">Pēc instalācijas nevaru aktivizēt Blokada.</a></h4>
 <p>Šajā situācijā ir divi biežāk sastopamie cēloņi. Pirmkārt, pārbaudiet, vai jums ir aktīvs VPN savienojums un, ka iestatījums <i>VPN vienmēr ieslēgts</i> ir iespējots. Lai to izdarītu, atveriet ierīces iestatījumus, tīkla sadaļā meklējiet VPN un atveriet esošā VPN iestatījumus. Atspējojiet to, atvienojieties no aktīvā VPN savienojuma un mēģiniet restartēt Blokada.</p>
 
-<p>Ja jums nav cita VPN savienojuma, iekš Blokada pārbaudiet, vai <i>Tikai tiešsaitē</i> ir iespējots, ja ir, pārbaudiet vai jums ir aktīvs vai nu wifi, vai mobilo datu interneta savienojums. Blokada netiks startēta, ja <i>Tikai tiešsaitē</i> ir iespējots un jums nav aktīva interneta savienojuma.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Ja šie soļi neatrisina jūsu problēmu, restartējiet ierīci, reizēm tas palīdz.</p>
 
@@ -96,7 +96,7 @@ Alternatīvi, jūs varat iespējot vairāk adrešu sarakstus vai pievienot vair�
     <li><b>Baltais saraksts</b>: šis ir izņēmuma saraksts, kur jūs varat iekļaut adreses vai lietotnes, kuras nevajag bloķēt. Blokada ir instalēta ar jau dažām baltajā sarakstā iekļautām lietotnēm.</li>
     <li><b>Uzturēt dzīvu</b>: šī opcija nodrošina, ka ierīces sistēma nevarēs izslēgt vai apstādināt Blokada. Tomēr ņemiet vērā, ka sistēma var šo uzstādījumu pārrakstīt, pārliecinieties, ka ierīces uzstādījumos esat atļāvuši Blokada strādāt fonā.</li>
     <li><b>Paziņojumi</b>: ja iespējots, jums paziņos, kad kāda reklāma tiek bloķēta. Pēc noklusējuma šis ir iespējots, taču, ja saņemat daudz paziņojumu, varat to atspējot.</li>
-    <li><b>Tikai tiešsaitē</b>: kad iespējots, Blokada izslēgsies, ja nebūs aktīva savienouma ar internetu, un ieslēgsies, kad savienojums parādīsies. Ja atspējots, Blokada vienmēr darbosies fonā (pat ja nav aktīva interneta savienojuma). Lūdzu ņemiet vērā, ka šis uzstādījums var nestrādāt korekti uz visām ierīcēm.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Ja atspējots, Blokada vienmēr darbosies fonā (pat ja nav aktīva interneta savienojuma). Lūdzu ņemiet vērā, ka šis uzstādījums var nestrādāt korekti uz visām ierīcēm.</li>
     <li><b>Sākt ar OS</b>: kad iespējots, Blokada sāks darboties līdz ar operētājsistēmas ieslēgšanos. Lūdzu ņemiet vērā, ka šī opcija ir sistēmas līmeņa konfigurācija, līdz ar to, nav iespējams garantēt to, ka Blokada varēs uzsākt darbu ierīci ieslēdzot. Šajā gadījumā, lūdzu, pārbaudiet ierīces sistēmas iestatījumus. Pēc noklusējuma šis uzstādījums ir iespējots, ja vēlaties Blokada ieslēgt manuāli, atspējojiet šo uzstādījumu.</li>
     <li><b>DNS</b>: ja jums ir aizdomas, ka ir bloķētas vietnes vai servisi, kam nevajadzētu būt, vai arī, ja jūs pieņemat, ka jūsu interneta pakalpojumu sniedzējs apkopo informāciju par to kā jūs izmantojat internetu, izvēlieties drošu DNS no saraksta. Pēc noklusējuma Blokada izmanto tos pašus DNS serverus, ko jūsu sistēma.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternatīvi, jūs varat iespējot vairāk adrešu sarakstus vai pievienot vair�
 <p><ul>
     <li>Pārbaudiet, vai augšējā statusa joslā ir redzama VPN atslēgas ikona. Ja nav, aktivizējiet Blokada.</li>
     <li>Atveriet Blokada un pārliecinieties, ka tā ir aktīva, un nav radusies kāda kļūda.</li>
-    <li>Pārbaudiet, vai bloķējamo adrešu skaits nav vienāds ar nulli. Ja tas ir, aktivizējiet melno sarakstu filtrus, lai reklāmas varētu tikt bloķētas. Ja skaits joprojām ir nulle, ziņojiet par kļūdu.</li>
+    <li>Pārbaudiet, vai bloķējamo adrešu skaits nav vienāds ar nulli. Ja tas ir, aktivizējiet melno sarakstu filtrus, lai reklāmas varētu tikt bloķētas. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Pārliecinieties, ka baltajā sarakstā nav iekļauts par daudz lietotņu - varbūt tieši tas ir iemesls, kādēļ redzat reklāmas.</li>
     <li>Mēģiniet atiestatīt filtrus (dodieties uz Melnā saraksta uzstādījumiem Ātrajās darbībās, kas atrodas ekrāna augšdaļā un spiediet uz <i>Atjaunot noklusējumu</i>).</li>
     <li>Ja redzat reklāmas pārlūkprogrammā, pārlūkprogrammas iestatījumos deaktivizējiet jebkāda veida datu saspiešanu vai optimizāciju.</li>
