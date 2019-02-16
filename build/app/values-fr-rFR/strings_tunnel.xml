@@ -28,4 +28,6 @@
     <string name="tunnel_config_watchdog_description">Activez cette option si vous souhaitez que l\'application n\'active le VPN que s\'il y a une connexion Internet, et redémarre le tunnel en cas de problème de connexion. Cela peut être utile pour certains appareils. Remarque : dans les versions antérieures, cette option s\'appelait \"En ligne seulement\".</string>
     <string name="tunnel_config_powersave_title">Réveil agressif</string>
     <string name="tunnel_config_powersave_description">Activez cette option si vous rencontrez des problèmes causés par la fonction d\'économie d\'énergie de votre appareil. Lorsque l\'application détectera des problèmes de connectivité, elle tentera d\'augmenter sa priorité pour sortir du mode économie d\'énergie.</string>
+    <string name="tunnel_config_reports_title">Rapports</string>
+    <string name="tunnel_config_reports_description">Activez cette option pour permettre à l\'application d\'envoyer des rapports nous aidant à résoudre les problèmes et les bugs. Cela ne se produira qu\'une fois par jour ou lorsque l\'application plantera. Si vous désactivez cette option, il peut être difficile pour nous de résoudre les problèmes que vous pourriez rencontrer. Vous devrez peut-être redémarrer l\'application pour que ce paramètre prenne effet.</string>
 </resources>
