@@ -73,7 +73,7 @@
 <h4><a name="unsupported">我安裝後無法啟動 Blokada。</a></h4>
 <p>此情況有兩個常見的原因。 首先，請檢查你是否已經有啟動的 VPN 連線，以及是否啟用<i>永久連線的 VPN</i> 選項。 要檢查的話，前往手機的設定，在網路部分搜尋 VPN，輕觸現有 VPN 旁的齒輪。 停用它，從啟用中的 VPN 連線中斷線，接著嘗試重新啟動 Blokada。</p>
 
-<p>如果沒有其他的 VPN 連線，在 Blokada 中，檢查<i>僅連線時</i>是否啟用，如果有的話，檢查是否使用 WiFi 或行動網路連線。 如果<i>僅連線時</i>啟用，並且沒有網路連線，將不會啟動 Blokada。</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>如果這沒有幫助，嘗試重新啟動您的手機，有時也會有所幫助。</p>
 
@@ -96,7 +96,7 @@
     <li><b>白名單</b>：白名單是例外清單，在這裡你可以定義不被封鎖的主機，或 Blokada 不過濾網址的應用程式。 Blokada 預設安裝幾個白名單應用程式。</li>
     <li><b>保持連線</b>：此選項用於確保系統不會暫停或停止 Blokada。 請注意，系統可以覆蓋此選項，確定設定會讓 Blokada 在背景中執行。</li>
     <li><b>通知</b>：啟用後，當阻擋廣告時將會通知你。 這個選項預設是開啟，但如果你收到許多通知，請關閉它。</li>
-    <li><b>僅連線時</b>：啟用後，如果沒有啟動的連線，Blokada 將會離開，並在連線回來時再啟動。 如果停用，Blokada 將一直在背景執行（即使沒有網路可用）。 請注意，此選項也許無法適用每個裝置。</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. 如果停用，Blokada 將一直在背景執行（即使沒有網路可用）。 請注意，此選項也許無法適用每個裝置。</li>
     <li><b>在開機時啟動</b>：啟用後，Blokada 會在系統啟動後開始。 請注意，此選項有系統層級的設定，因此，這無法保證 Blokada 可以在開機時啟動。 這種情況下，請檢查你的手機設定。 預設設定已啟用，如果你想要手動啟動 Blokada，請停用此選項。</li>
     <li><b>DNS</b>：如果你懷疑有些網站或服務被阻擋，或你假設網路供應商，蒐集關於你的網路使用資訊，請從清單中選擇安全的 DNS 機器。 預設情況下，Blokada 使用與系統相同的 DNS 伺服器。</li>
 </ul></p>
@@ -113,7 +113,7 @@
 <p><ul>
     <li>檢查 VPN 密鑰圖示是否顯示在上方的狀態列。 如果沒有，開啟 Blokada。</li>
     <li>開啟 Blokada 並檢查它是否已經啟動並且沒有傳達任何錯誤。</li>
-    <li>檢查主機計數器是否等於零。 如果是，選擇一些黑名單過濾器，以便可以阻擋廣告。 如果計數器仍然為零，請回報問題。</li>
+    <li>檢查主機計數器是否等於零。 如果是，選擇一些黑名單過濾器，以便可以阻擋廣告。 If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>確定您的白名單內沒有太多應用程式 - 也許這就是為什麼您看到廣告的原因。</li>
     <li>試著重置您的過濾器(進入黑名單畫面，並從上方的快速動作選單中選取<i>恢復預設值</i>)</li>
     <li>如果您在瀏覽器中看到廣告，在瀏覽器的設定，停用任何類型的流量壓縮或最佳化。</li>
