@@ -28,4 +28,6 @@
     <string name="tunnel_config_watchdog_description">Akkor kapcsold be ezt a kapcsolót, ha azt szeretnéd, hogy az alkalmazás csak akkor aktiválja a VPN-t, ha van internetkapcsolat, és újraindítsa az alagutat, ha problémák vannak a kapcsolattal. Ez segíthet néhány eszközön. Megjegyzés: a korábbi verziókban ennek a neve \"Csak online\" volt.</string>
     <string name="tunnel_config_powersave_title">Agresszív ébresztés</string>
     <string name="tunnel_config_powersave_description">Akkor kapcsold be ezt a kapcsolót, ha olyan problémák merülnek fel, amelyeket az eszközöd energiatakarékos módja okozott. Amikor az alkalmazás alagút kapcsolódási problémát észlel, akkor megpróbálja növelni annak prioritását, hogy elkerülje az energiatakarékos módot.</string>
+    <string name="tunnel_config_reports_title">Jelentések</string>
+    <string name="tunnel_config_reports_description">Aktiváld ezt a kapcsolót, hogy lehetővé tedd az alkalmazás számára a jelentések küldését, amelyek segítenek megoldani a problémákat és a hibákat. Ez naponta egyszer történik meg, vagy amikor az alkalmazás összeomlik. Ennek letiltása megnehezítheti számunkra a felmerülő problémák megoldását. Lehet, hogy újra kell indítanod az alkalmazást, hogy ez a beállítás érvénybe léphessen.</string>
 </resources>
