@@ -30,5 +30,6 @@
     <string name="tunnel_config_powersave_description">如果您遇到由省电功能引起的问题, 请启用此项。当应用检测到VPN连接问题时, 我们会尝试提高其优先级, 使其脱离省电模式。</string>
     <string name="tunnel_config_reports_title">报告</string>
     <string name="tunnel_config_reports_description">激活此开关，允许应用程序发送帮助我们解决问题和错误的报告。这将每天发生一次，或者当应用崩溃时。禁用这可能使我们难以解决您可能遇到的任何问题。您可能需要重启此设置的应用程序才能生效。</string>
-    <string name="tunnel_config_fallback_title">DNS错误</string>
+    <string name="tunnel_config_fallback_title">dns 回退</string>
+    <string name="tunnel_config_fallback_description">如果您在某些情况下丢失互联网访问，如WiFi，激活此开关。这将使应用程序暂时切换到 CloudcaleDNS，以维持您的连接。您可能需要在 DNS 部分重新选择您的服务器，以使此设置生效。</string>
 </resources>
