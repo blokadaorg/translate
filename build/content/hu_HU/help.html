@@ -73,7 +73,7 @@ Alternatívaként több hosztlistát is engedélyezhet, vagy több korlátozó s
 <h4><a name="unsupported">Nem tudom elindítani a Blokada-t miután telepítettem.</a></h4>
 <p>Két ismert oka is lehet ennek a szituációnak. Először is nézd meg, hogy van-e aktív VPN kapcsolatod és hogy annak a <i>Mindig bekapcsolva</i> lehetősége engedélyezve van. Hogy erről meggyőződj, menj a telefonod Beállítás menüjébe, keresd a VPN-t a hálózati résznél és koppints a fogaskerékre a létező VPN mellett. Tiltsd le, bontsd a kapcsolatot az aktív VPN hálózattal és próbáld újraindítani a Blokada-t.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Ha nincs más VPN-kapcsolatod, akkor ellenőrizd a Blokada-t, hogy a <i>Watchdog</i> engedélyezve van-e a Speciális beállítások menüben, és ha igen, ellenőrizd, hogy csatlakozol-e az internethez Wi-Fi-n vagy mobilneten keresztül. A Blokada nem indul el, ha a <i>Watchdog</i> engedélyezve van, és nincs aktív internetkapcsolatod.</p>
 
 <p>Ha ez sem oldotta meg a problémát, indítsd újra a telefont, néha ez is segít.</p>
 
@@ -96,7 +96,7 @@ Alternatívaként több hosztlistát is engedélyezhet, vagy több korlátozó s
     <li><b>Kivételek</b>: a kivételek között azok a hosztok találhatók, amik nem lesznek blokkolva, vagy olyan alkalmazások amikben a Blokada nem fog linkeket szűrni. A Blokada Kivétel listáján több alkalmazás is megtalálható alapértelmezettként.</li>
     <li><b>Életben tart</b>: ez a funkció gondoskodik arról, hogy a rendszer ne szüneteltesse vagy állítsa meg a Blokada-t. Kérlek vedd figyelembe, hogy a rendszer felülírhatja ezt, győződj meg róla, hogy a beállításaid engedik a Blokada-t futni a háttérben.</li>
     <li><b>Értesítések</b>: ha engedélyezett, értesítéseket fogsz kapni mikor egy reklám blokkolva van. Alapból be van kapcsolva, de kapcsold ki, ha nagyon sok értesítést kapsz.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Ha letiltod a Blokada mindig futni fog a háttérben (akkor is, ha nincs elérhető hálózat). Ez a funkció nem biztos, hogy minden készüléken működik.</li>
+    <li><b>Watchdog</b>: ha ez be van kapcsolva, a Blokada megáll, ha nincsen aktív internetkapcsolat és újra elindul, ha a kapcsolat visszaáll. Ha letiltod a Blokada mindig futni fog a háttérben (akkor is, ha nincs elérhető hálózat). Ez a funkció nem biztos, hogy minden készüléken működik.</li>
     <li><b>Bootoláskor indul</b>: ha engedélyezett, a Blokada a rendszerrel együtt indulni fog. Kérlek vedd figyelembe, hogy vannak rendszer szintű beállítások erre, emiatt nem garantálható, hogy a Blokada valóban indulni tud. Ez esetben, kérlek, nézd meg a telefonod beállításait. Alapértelmezésként ez a beállítás engedélyezve van, ha inkább kézzel akarod indítani a Blokada-t, akkor tiltsd le ezt.</li>
     <li><b>DNS</b>: ha azt gyanítod, hogy néhány weblap vagy szolgáltatás tiltva van számodra, vagy azt feltételezed, hogy az internetszolgáltatód információkat gyűjt az internethasználatodról, akkor válassz egy biztonságos DNS kiszolgálót a listáról. Alapértelmezettként a Blokada azokat a DNS szervereket használja, amiket a rendszer is.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternatívaként több hosztlistát is engedélyezhet, vagy több korlátozó s
 <p><ul>
     <li>Nézd meg, hogy a VPN kulcs ikon látható-e az értesítési sávon. Ha nem, indítsd el a Blokada-t.</li>
     <li>Nyisd meg a Blokada-t és győződj meg róla, hogy aktív és nincsenek hibajelentések.</li>
-    <li>Nézd meg, hogy a hosztszámláló nem nullán áll-e. Ha aktív, válassz pár listát a tiltólistáról, hogy a reklámok blokkolva legyenek. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
+    <li>Nézd meg, hogy a hosztszámláló nem nullán áll-e. Ha aktív, válassz pár listát a tiltólistáról, hogy a reklámok blokkolva legyenek. Ha a számláló még mindig nulla, engedélyezd tárhely hozzáférési engedélyt a Rendszerbeállítások - Alkalmazások - Blokada alatt, majd töröld az adatokat és a gyorsítótárat, és indítsd újra a készüléket.</li>
     <li>Bizonyosodj meg róla, hogy nincs túl sok alkalmazás a fehérlistán - talán emiatt látsz reklámokat.</li>
     <li>Próbáld meg újra beállítani a szűrőket (menj a Tiltólista képernyőre, és válaszd a fenti Gyors műveletek menü <i>Alaphelyzetbe állítás</i> lehetőséget).</li>
     <li>Ha a böngészőben hirdetéseket látsz, tilts le minden adattömörítést, vagy optimalizálást a böngésző beállításai között.</li>
