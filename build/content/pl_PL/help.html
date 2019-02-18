@@ -73,7 +73,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <h4><a name="unsupported">Nie mogę uruchomić Blokada po zainstalowaniu.</a></h4>
 <p>Są dwie częste przyczyny takiej sytuacji. Po pierwsze sprawdź, czy masz aktywne połączenie VPN i czy posiada ono włączoną opcję <i>VPN zawsze włączony</i>. Aby to zrobić przejdź do menu Ustawienia swojego telefonu, poszukaj ustawień dotyczących VPN i kliknij koło zębate istniejącego połączenia VPN. Rozłącz istniejące połączenie VPN i następnie uruchom Blokadę ponownie.</p>
 
-<p>Jeżeli nie masz innego połączenia VPN, sprawdź w Blokadzie, czy opcja <i>Tylko online</i> jest aktywna i jeżeli tak, sprawdź czy masz połączenie z internetem przez WiFi lub dane komórkowe. Blokada nie uruchomi się, jeżeli opcja <i>Tylko online</i> jest aktywna i nie masz połączenia z internetem.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Jeżeli to nie pomoże, spróbuj zrestartować swój telefon, zdarza się, że to rozwiązuje problem.</p>
 
@@ -96,7 +96,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
     <li><b>Biała lista</b>: biała lista to lista wyjątków, tutaj można zdefiniować hosty, które nie powinny być zablokowane lub aplikacje, w których Blokada nie będzie filtrować URL-i. Blokada domyślnie posiada kilka aplikacji na białej liście.</li>
     <li><b>Zawsze w tle</b>: ta opcja powoduje, że Blokada nie jest zatrzymywana lub wstrzymywana przez system. Pamiętaj, że Twój system może nadpisać tę opcję, więc upewnij się, że system pozwoli Blokadzie pracować w tle.</li>
     <li><b>Powiadomienia</b>: włączone powiadomią Cię o zablokowaniu reklamy. Domyślnie włączone, ale jeżeli otrzymujesz wiele powiadomień, wyłącz je.</li>
-    <li><b>Tylko online</b>: jeżeli włączone, Blokada wyłączy się bez aktywnego połączenia z internetem i uruchomi się ponownie gdy połączenie zostanie przywrócone. Wyłączone spowoduje, że Blokada będzie działać non-stop w tle, nawet bez aktywnego połączenia sieciowego. Pamiętaj, że ta opcja może nie działać na każdym urządzeniu.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Wyłączone spowoduje, że Blokada będzie działać non-stop w tle, nawet bez aktywnego połączenia sieciowego. Pamiętaj, że ta opcja może nie działać na każdym urządzeniu.</li>
     <li><b>Auto start</b>: włączenie spowoduje, że Blokada będzie uruchamiać się przy starcie systemu. Zwróć uwagę, że to są inne możliwości rekonfigurowania autostartu, więc nie możemy zagwarantować, ze Blokada faktycznie się uruchomi. W takim przypadku, sprawdź ustawienia telefonu. Domyślnie ta opcja jest włączona, jeżeli chcesz uruchamiać Blokadę ręcznie, wyłącz tę opcję.</li>
     <li><b>DNS</b>: jeżeli przypuszczasz, że pewne strony lub usługi są zablokowane u operatora, lub przypuszczasz, że zbiera on informacje na temat tego jak korzystasz z internetu, wybierz bezpieczny DNS z listy. Domyślnie Blokada korzysta z tych samych DNSów co Twój system.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p><ul>
     <li>Sprawdź czy ikona VPN jest widoczna na pasku statusu na górze ekranu. Jeżeli nie, uruchom Blokadę.</li>
     <li>Otwórz Blokadę, sprawdź czy jest aktywna i czy nie zgłasza błędów.</li>
-    <li>Sprawdź czy liczba blokowanych hostów nie jest równa zeru. Jeżeli jest wybierz kilka list żeby blokować reklamy. Jeżeli licznik nadal wynosi zero, zgłoś błąd.</li>
+    <li>Sprawdź czy liczba blokowanych hostów nie jest równa zeru. Jeżeli jest wybierz kilka list żeby blokować reklamy. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Upewnij się, że na liście wyjątków nie ma zbyt wielu aplikacji, może to właśnie dlatego widzisz reklamy.</li>
     <li>Spróbuj zresetować filtry (na ekranie List wybierz z menu<i>Przywróć domyślne filtry</i>).</li>
     <li>Jeżeli widzisz reklamy w przeglądarce wyłącz wszystkie optymalizatory i kompresory ruchu w ustawieniach przeglądarki.</li>

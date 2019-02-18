@@ -72,7 +72,7 @@
 <h4><a name="unsupported">Nemohu spustit Blokadu po instalaci.</a></h4>
 <p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a aby možnost <i>Vždy VPN zapnutá</i> byla povolena. Chcete-li to provést, přejděte do Nastavení telefonu, vyhledejte VPN v části nastavení sítě a klepněte na "ozubené kolečko" vedle existující sítě VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
 
-<p>Pokud nemáte jiné připojení VPN, zkontrolujte Blokadu, zda je zapnuta volba <i>Pouze on-line</i>, pokud ano, zkontrolujte, zda jste připojeni k internetu, a to buď pomocí WiFi nebo mobilních dat. Blokada se nespustí, pokud je povoleno <i>Pouze on-line</i> a nemáte připojení k internetu.</p>
+<p>Pokud nemáte jiné VPN připojení, zkontrolujte, zda je v sekci Pokročilá nastavení povolena volba <i>Hlídací pes</i>. Pokud ano, zkontrolujte, zda jste připojeni k internetu, a to buď prostřednictvím WiFi nebo mobilními daty. Blokada se nespustí, pokud je volba <i>Hlídací pes</i> povolena a nemáte aktivní připojení k internetu.</p>
 
 <p>Pokud to nepomůže, restartujte telefon, to někdy pomáhá.</p>
 
@@ -95,7 +95,7 @@
     <li><b>Seznam povolených</b>: Seznam povolených je seznam výjimek, zde můžete definovat hostitele, které by neměly být blokovány, nebo aplikace u kterých Blokada nebude filtrovat adresy URL. Blokada je ve výchozím nastavení nainstalována s několika povolenými aplikacemi.</li>
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
     <li><b>Oznámení</b>: Pokud je povoleno, budete upozorněni při každé, zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
-    <li><b>Pouze on-line</b>: pokud je povoleno, Blokada se ukončí, pokud není aktivní připojení, a znovu se spustí, jakmile bude připojení k síti obnoveno. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
+    <li><b>Hlídací pec</b>: pokud je volba zapnuta, Blokada se ukončí, pokud není aktivní připojení k internetu a znovu se spustí, kdykoli dojde k opětovnému připojení k internetu. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
     <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, zda Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Výchozí konfigurace je povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
     <li><b>DNS</b>: Pokud máte podezření, že některé webové stránky nebo služby jsou vám blokovány, nebo za předpokladu, že váš poskytovatel internetu shromažďuje informace o vašem používání internetu, zvolte bezpečné DNS z nabízeného seznamu. Blokada ve výchozím nastavení používá stejný DNS server jako váš systém.</li>
 </ul></p>
@@ -112,7 +112,7 @@
 <p><ul>
     <li>Zkontrolujte, zda je ve stavovém řádku v horní části ikona klíče VPN. Pokud ne, spusťte Blokadu.</li>
     <li>Otevřete Blokadu a zkontrolujte, zda je aktivní a nehlásí žádné chyby.</li>
-    <li>Zkontrolujte, zda čítač hostitelů není rovný nule. Pokud ano, vyberte některé filtry z Blacklistu, aby mohly být reklamy blokovány. Pokud je čítač stále rovný nule, nahlaste chybu.</li>
+    <li>Zkontrolujte, zda čítač hostitelů není rovný nule. Pokud ano, vyberte některé filtry z Blacklistu, aby mohly být reklamy blokovány. Pokud má počitadlo stále nulový stav, udělte aplikaci oprávnění pro přístup k úložišti v části Nastavení systému - Aplikace - Blokada, poté vymažte data aplikace a její mezipaměti. Nakonec zařízení restartujte.</li>
     <li>Ujistěte se, že nemáte příliš mnoho aplikací v seznamu povolených položek - možná to je důvod, proč se zobrazují reklamy.</li>
     <li>Zkuste vynulovat filtry (přejděte na obrazovku Blacklist a zvolte <i>Obnovit výchozí</i>  z nabídky Rychlé akce v horní části).</li>
     <li>Pokud se v prohlížeči zobrazují reklamy, deaktivujte v nastavení prohlížeče jakýkoli druh komprese nebo optimalizace provozu.</li>

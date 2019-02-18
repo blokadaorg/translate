@@ -72,7 +72,7 @@
 <h4><a name="unsupported">Ich kann Blokada nicht starten, nachdem ich es installiert habe.</a></h4>
 <p>Für diese Situation gibt es zwei mögliche Ursachen. Überprüfen Sie zuerst, ob Sie eine aktive VPN-Verbindung haben und ob die Option <i>Always-on VPN</i> aktiviert ist. Um dies zu tun, gehen Sie zu den Einstellungen Ihres Telefons, suchen Sie im Bereich Netzwerk nach VPN, tippen Sie auf das Zahnrad neben dem vorhandenen VPN. Deaktiviere es, trenne die Verbindung zur aktiven VPN-Verbindung und versuche Blokada neu zu starten.</p>
 
-<p>Wenn Sie keine andere VPN-Verbindung haben, checken Sie in Blokada ein, wenn <i>Nur Online</i> aktiviert ist, und wenn ja, überprüfen Sie, ob Sie mit dem Internet entweder über WLAN oder mit mobilen Daten verbunden sind. Blokada startet nicht, wenn nur <i>Online</i> aktiviert ist und Sie keine Internetverbindung haben.</p>
+<p>Wenn du keine andere VPN-Verbindung hast, kannst du in den Blokada-Einstellungen überprüfen, ob <i>Watchdog</i> aktiviert ist. Falls das der Fall ist, überprüfe bitte, ob du mit dem Internet (WLAN oder mobile Daten) verbunden bist. Blokada wird nicht starten können, wenn <i>Watchdog</i> aktiviert ist und du keine bestehende Internetverbindung hast.</p>
 
 <p>Wenn es nicht hilft, starte Dein Gerät neu, dies hilft manchmal.</p>
 
@@ -95,7 +95,7 @@
     <li><b>Whitelist</b>: Die Whitelist ist die Ausnahmeliste, hier können Sie Hosts definieren, die nicht blockiert werden sollen oder Apps, bei denen Blokada URLs nicht filtern wird. Blokada wird standardmäßig mit mehreren Whitelist-Apps installiert.</li>
     <li><b>Aktiv halten</b>: Mit dieser Option wird sichergestellt, dass Blokada nicht pausiert oder vom System angehalten wird. Bitte beachten Sie, dass Ihr System es überschreiben kann, stellen Sie sicher, dass Ihre Einstellungen Blokada im Hintergrund laufen lassen.</li>
     <li><b>Benachrichtigungen</b>: Wenn diese Option aktiviert ist, werden Sie benachrichtigt, wenn eine Anzeige blockiert wird. Es ist standardmäßig aktiviert, aber wenn Sie viele Benachrichtigungen erhalten, schalten Sie es aus.</li>
-    <li><b>Nur online</b>: Wenn diese Option aktiviert ist, wird Blokada beendet, wenn keine aktive Verbindung besteht, und erneut starten, sobald die Verbindung wieder hergestellt wird. Wenn deaktiviert, läuft Blokada immer im Hintergrund (auch wenn kein Netzwerk verfügbar ist). Bitte beachte, dass diese Option möglicherweise nicht auf jedem Gerät funktioniert.</li>
+    <li><b>Watchdog</b>: Wenn diese Option aktiviert ist, wird Blokada inaktiv sein, falls keine aktive Internetverbindung besteht. Wenn du wieder online bist, wird Blokada automatisch wieder aktiv. Wenn deaktiviert, läuft Blokada immer im Hintergrund (auch wenn kein Netzwerk verfügbar ist). Bitte beachte, dass diese Option möglicherweise nicht auf jedem Gerät funktioniert.</li>
     <li><b>Start beim Booten</b>: Wenn diese Option aktiviert ist, wird Blokada nach dem Hochfahren des Systems gestartet. Bitte beachte, dass es für diese Option Einstellungen auf Systemebene gibt. Daher kann nicht garantiert werden, dass Blokada beim Booten gestartet werden kann. In diesem Fall überprüfe bitte die Einstellungen Deines Geräts. Die Standardkonfiguration ist aktiviert. Wenn Du Blokada manuell starten möchtest, deaktiviere diese Option.</li>
     <li><b>DNS</b>: Wenn Sie vermuten, dass einige Websites oder Dienste für Sie gesperrt sind oder Sie vermuten, dass Ihr Internetanbieter Informationen über Ihre Internetnutzung sammelt, wählen Sie einen sicheren DNS-Computer aus der Liste aus. Standardmäßig verwendet Blokada die gleichen DNS-Server wie Ihr System.</li>
 </ul></p>
@@ -112,7 +112,7 @@
 <p><ul>
     <li>Überprüfen Sie, ob das VPN-Icon in der Statusleiste oben angezeigt wird. Wenn nicht, starten Sie Blokada.</li>
     <li>Öffnen Sie Blokada und prüfen Sie, ob es aktiv ist und keine Fehler meldet.</li>
-    <li>Überprüfen Sie, ob der Host-Zähler nicht gleich Null ist. Wenn dies der Fall ist, wählen Sie einige Blacklist-Filter aus, damit Anzeigen blockiert werden können. Wenn der Zähler immer noch Null ist, melden Sie einen Fehler.</li>
+    <li>Überprüfen Sie, ob der Host-Zähler nicht gleich Null ist. Wenn dies der Fall ist, wählen Sie einige Blacklist-Filter aus, damit Anzeigen blockiert werden können. Wenn der Zähler dauerhaft Null anzeigt, solltest du die Berechtigung auf den Speicherzugriff gewähren (via Systemeinstellungen - Apps - Blokada). Anschließend musst du die Daten und den Cache für Blokada löschen und dein Gerät neustarten.</li>
     <li>Stellen Sie sicher, dass Sie nicht zu viele Apps in der Whitelist haben - vielleicht sehen Sie deshalb Anzeigen.</li>
     <li>Versuchen Sie, Ihre Filter zurückzusetzen (gehen Sie zum Blacklist-Bildschirm und wählen Sie oben im Menü "Quick Actions" die Option <i>Restore Defaults</i>).</li>
     <li>Wenn Sie Anzeigen in Ihrem Browser sehen, deaktivieren Sie jegliche Art von Traffic-Komprimierung oder -Optimierung in den Browsereinstellungen.</li>

@@ -20,7 +20,7 @@
     <div class="container">
         <section id="main">
 
-<h3>Trợ giúp.</h3>
+<h3>Trợ giúp</h3>
 <p>Trang web này được xây dựng với hai phần khác nhau. Phần đầu sẽ trợ giúp cho bạn trước những vấn đề thường gặp, còn phần sau sẽ đưa ra các thông tin hữu ích cho các câu hỏi.</p>
 
 <h4>Những vấn đề thường gặp</h4>
@@ -73,12 +73,12 @@ Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm c
 <h4><a name="unsupported">Tôi không thể chạy Blokada sau khi cài.</a></h4>
 <p>Có hai nguyên nhân phổ biến cho tình huống như vậy. Trước tiên, hãy kiểm tra xem nếu bạn đang có một kết nối VPN hoạt động và nếu tùy chọn <i>Luôn luôn trên VPN</i> được kích hoạt. Để làm điều đó, đến cài đặt điện thoại của bạn, tìm kiếm các VPN trong phần Mạng, nhấn vào biểu tượng bánh răng bên cạnh VPN hiện có. Vô hiệu hóa nó, ngắt kết nối từ các kết nối VPN đang hoạt động và thử khởi động lại Blokada.</p>
 
-<p>Nếu bạn không có kết nối VPN, kiểm tra trong Blokada nếu <i>Chỉ online</i> được kích hoạt, và nếu có, hãy kiểm tra nếu bạn đang kết nối internet với wifi hoặc với dữ liệu di động. Blokada sẽ không bắt đầu nếu <i>Chỉ online</i> được kích hoạt và bạn không có kết nối internet.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Nếu nó không giúp ích, hãy khởi động lại điện thoại của bạn, đôi khi nó cũng có thể giúp.</p>
 
 <h4><a name="kill">Blokada dừng hoạt động sau một thời gian.</a></h4>
-<p>Bước đầu tiên, bật <i>Giữ sống</i> trong Blokada. Trong trường hợp này, Blokada sẽ cố gắng hoạt động liên tục, nhưng hãy nhớ, hệ điều hành vẫn có thể can thiệp. Nếu bạn bật nó, và bạn vẫn thấy Blokada dừng lại sau một thời gian, kiểm tra cài đặt hệ thống của bạn và tắt tất cả các tùy chọn tối ưu pin và bộ nhớ cho Blokada. Thật không may, điều này khác nhau ở mỗi hệ thống, do đó chúng tôi không thể nói nơi để làm điều đó. Xin vui lòng kiểm tra cài đặt điện thoại của bạn. Nguyên nhân khác gây ra tình trạng này có thể là một phần mềm dọn bộ nhớ. Xin vui lòng thêm Blokada vào danh sách trắng hoặc danh sách loại trừ. Nếu không bước nào ở trên hữu ích trong trường hợp của bạn, xin vui lòng báo cáo lỗi (xem bên dưới).</p>
+<p>Bước đầu tiên, bật <i>Giữ kích hoạt</i> trong Blokada. Trong trường hợp này, Blokada sẽ cố gắng hoạt động liên tục, nhưng hãy nhớ, hệ điều hành vẫn có thể can thiệp. Nếu bạn bật nó, và bạn vẫn thấy Blokada dừng lại sau một thời gian, kiểm tra cài đặt hệ thống của bạn và tắt tất cả các tùy chọn tối ưu pin và bộ nhớ cho Blokada. Thật không may, điều này khác nhau ở mỗi hệ thống, do đó chúng tôi không thể nói nơi để làm điều đó. Xin vui lòng kiểm tra cài đặt điện thoại của bạn. Nguyên nhân khác gây ra tình trạng này có thể là một phần mềm dọn bộ nhớ. Xin vui lòng thêm Blokada vào danh sách trắng hoặc danh sách loại trừ. Nếu không bước nào ở trên hữu ích trong trường hợp của bạn, xin vui lòng báo cáo lỗi (xem bên dưới).</p>
 
 <h4><a name="abplists">Tôi không thể thêm danh sách EasyList/AdBlock Plus vào Blokada.</a></h4>
 <p>Nếu bạn thử thêm một bộ lọc hoạt động trên máy tính với AdBlock Plus (ví dụ như EasyList), Blokada sẽ báo lỗi. Đó là bởi vì Blokada sử dụng phương pháp khác để chặn quảng cáo. Trong khi ABP chặn và ẩn các yếu tố hoặc các bộ phận của trang web, Blokada không thể làm điều đó bởi vì nó không phải là một plugin trong trình duyệt, thay vào đó nó chuyển hướng các đường dẫn truy cập đến máy chủ quảng cáo đến một địa chỉ không thể chuyển hướng (0.0.0.0), vì vậy nó cần một danh sách tên miền máy chủ-IP.</p>
@@ -96,7 +96,7 @@ Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm c
     <li><b>Danh sách trắng</b>: đây là danh sách ngoại lệ, ở đây bạn có thể xác định những máy chủ không bị chặn hoặc các ứng dụng mà Blokada sẽ không lọc URL. Blokada được cài đặt với vài ứng dụng mặc định trong danh sách trắng.</li>
     <li><b>Giữ kích hoạt</b>: tùy chỉnh này sẽ giúp Blokada không bị dừng bởi hệ điều hành. Lưu ý rằng hệ thống của bạn vẫn có thể vượt qua nó, nên hãy chắc rằng cài đặt hệ thống của bạn cho phép Blokada hoạt động trong nền.</li>
     <li><b>Thông báo</b>: khi tùy chọn này được kích họat, bạn sẽ nhận được thông báo mỗi khi có quảng cáo bị chặn. Nó được bật theo mặc định, nhưng nếu bạn nhận được quá nhiều thông báo, hãy tắt nó đi.</li>
-    <li><b>Chỉ online</b>: khi tùy chọn này được kích hoạt, Blokada sẽ tự thoát nếu không có kết nối mạng, và khởi động lại khi có kết nối trở lại. Nếu bị vô hiệu hoá, Blokada sẽ luôn luôn chạy dưới nền (ngay cả khi không có mạng). Lưu ý rằng tùy chọn này có thể không hoạt động với một số thiết bị.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Nếu bị vô hiệu hoá, Blokada sẽ luôn luôn chạy dưới nền (ngay cả khi không có mạng). Lưu ý rằng tùy chọn này có thể không hoạt động với một số thiết bị.</li>
     <li><b>Bắt đầu khi khởi động</b>: khi tùy chọn này được kích hoạt, Blokada sẽ khởi động sau khi thiết bị khởi động. Xin vui lòng lưu ý hệ thống có thể điều khiển tùy chọn này, do đó nó không thể đảm bảo Blokada có thể khởi động ngay khi thiết bị được bật. Trong trường hợp này, xin vui lòng kiểm tra cài đặt của điện thoại. Tùy chọn này được bật theo mặc định, nếu bạn muốn tự bật Blokada một cách thủ công, hãy tắt nó.</li>
     <li><b>DNS</b>: nếu bạn đang nghi ngờ rằng một số trang web hoặc dịch vụ bị chặn, hoặc bạn cho rằng nhà cung cấp mạng thu thập thông tin về việc sử dụng intenet của bạn, hãy lựa chọn một máy chủ DNS bảo mật từ danh sách. Theo mặc định, Blokada sử dụng máy chủ DNS mặc định theo hệ thống của bạn.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm c
 <p><ul>
     <li>Kiểm tra xem biểu tượng VPN có hiển thị ở thanh status hay không. Nếu không, khởi động Blokada.</li>
     <li>Mở Blokada và chắc chắn nó đang hoạt động và không báo cáo lỗi nào.</li>
-    <li>Kiểm tra nếu bộ đếm máy chủ không phải là bằng 0. Nếu đúng là như vậy, chọn thêm một số danh sách bộ lọc. Nếu bộ đếm vẫn bằng 0, xin hãy báo cáo lỗi.</li>
+    <li>Kiểm tra nếu bộ đếm máy chủ không phải là bằng 0. Nếu đúng là như vậy, chọn thêm một số danh sách bộ lọc. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Chắc chắn bạn không có quá nhiều ứng dụng ở danh sách trắng - có lẽ đó là lý do bạn thấy quảng cáo đấy.</li>
     <li>Thử đặt lại bộ lọc của bạn (đến màn hình Danh sách đen và chọn <i>Khôi phục mặc định</i> từ menu Hành động nhanh ở đầu trang).</li>
     <li>Nếu bạn thấy quảng cáo trong trình duyệt của bạn, tắt bất kỳ loại lưu lượng truy cập nén hoặc tối ưu hóa trong thiết lập của trình duyệt.</li>
@@ -130,7 +130,7 @@ Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm c
 
 <h4><a name="update">Tôi không thể cài đặt bản cập nhật, hãy làm sao đây?</a></h4>
 <p>Trước hết, xin vui lòng kiểm tra xem nếu phiên bản Android bạn có là 5 hoặc mới hơn. Android 4 và phiên bản cũ hơn không được hỗ trợ trong Blokada 3.0 và phiên bản mới hơn. Để làm điều đó, hãy đến phần Cài đặt điện thoại của bạn, di chuyển đến phần <i>Về điện thoại</i> và tìm kiếm <i>Phiên bản Android</i></p>
-<p>Nếu điện thoại của bạn chạy Android 5 hoặc mới hơn, vui lòng khởi động lại thiết bị của bạn. Nghe có vẻ lạ, nhưng đôi khi nó giúp. Nếu nó không giải quyết vấn đề, gỡ cài đặt Blokada và cài đặt nó một lần nữa. Hoặc có thể là, thiết bị của bạn không được hỗ trợ. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a>.</p>
+<p>Nếu điện thoại của bạn chạy Android 5 hoặc mới hơn, vui lòng khởi động lại thiết bị của bạn. Nghe có vẻ lạ, nhưng đôi khi nó giúp. Nếu nó không giải quyết vấn đề, gỡ cài đặt Blokada và cài đặt nó một lần nữa. Hoặc có thể, thiết bị của bạn không được hỗ trợ. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a>.</p>
 <p>Nếu những bước trên không giúp, xin vui lòng tham gia Telegram với chúng tôi trên <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> để được giúp đỡ, hoặc thông báo lỗi (xem bên dưới).</p>
 
 <h4><a name="notification">Tôi có thể ẩn thông báo VPN được chứ?</a></h4>
@@ -149,7 +149,7 @@ Bạn cũng có thể cho phép nhiều bộ lọc hoạt động hoặc thêm c
 <p>Không. Tùy thuộc vào cài đặt mà Blokada có thể khá hiệu quả. Trong thực tế, cả hiệu suất và tuổi thọ pin của thiết bị có thể được cải thiện rõ rệt, vì Blokada tiết kiệm điện từ bằng cách ngăn thiết bị tải về và xử lý các nội dung bạn không cần hay không quan tâm. Tuy nhiên, người sử dụng với một số thiết bị cũ có thể trải nghiệm việc giảm hiệu suẩt. Vui lòng kiểm tra <a href="http://go.blokada.org/issue_device">Cơ sở dữ liệu thiết bị</a> để biết thêm chi tiết.</p>
 
 <h4><a name="free">Blokada có thật sự miễn phí?</a></h4>
-<p>Đồng ý! Blokada bắt đầu như một dự án tiêu khiển của tôi, và vẫn chủ yếu được phát triển bởi tôi. Đây là cách để tôi cống hiến cho cộng đồng. Blokada có mã nguồn mở hoàn toàn và nó sẽ miễn phí mãi mãi. Nhưng, phát triển nó mất rất nhiều thời gian, vì vậy xin vui lòng xem xét việc hỗ trợ dự án này bằng bất kỳ cách nào bạn có thể (xem bên dưới).</p>
+<p>Tất nhiên! Blokada bắt đầu như một dự án tiêu khiển của tôi, và vẫn chủ yếu được phát triển bởi tôi. Đây là cách để tôi cống hiến cho cộng đồng. Blokada có mã nguồn mở hoàn toàn và nó sẽ miễn phí mãi mãi. Nhưng, phát triển nó mất rất nhiều thời gian, vì vậy xin vui lòng xem xét việc hỗ trợ dự án này bằng bất kỳ cách nào bạn có thể (xem bên dưới).</p>
 
 <h4><a name="contribute">Tuyệt đấy, tôi có thể giúp gì cho dự án?</a></h4>
 <p>Có rất nhiều cách để hỗ trợ Blokada, tài chính hoặc khác. Tất cả các sự trợ giúp là rất quan trọng đối với dự án này để tồn tại. <a href="contribute.html">Xin vui lòng đi đến trang này để biết thêm thông tin</a>, hoặc <a href="http://go.blokada.org/chat">tham gia trò chuyện cùng chúng tôi</a>.</p>

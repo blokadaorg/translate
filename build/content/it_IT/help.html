@@ -72,7 +72,7 @@
 <h4><a name="unsupported">Dopo averla installata, non riesco a far partire Blokada.</a></h4>
 <p>Comunemente, ci sono due possibili cause per questo problema. Anzitutto, controlla se hai una connessione VPN attiva e se un'opzione del tipo <i>VPN sempre attiva</i> è abilitata. Per farlo, vai nelle Impostazioni del tuo dispositivo, cerca "VPN" nella sezione wireless e reti, clicca sul simbolo dell'ingranaggio vicino al nome della VPN e disabilitala. A questo punto, scollega anche una eventuale VPN attiva e prova a far ripartire Blokada.</p>
 
-<p>Se non hai altre connessioni VPN, controlla se l'opzione <i>Solo online</i> su Blokada è attiva, se sì, controlla se sei connesso ad internet tramite WiFi o rete mobile. Blokada non entrerà in funzione se l'opzione <i>Solo online</i> è abilitata ma non sei connesso ad internet.</p>
+<p>Se non hai altre connessioni VPN, controlla se l'opzione <i>Watchdog</i> è attiva nelle Impostazioni Avanzate, se sì, controlla se sei connesso ad Internet tramite WiFi o Dati mobili. Blokada non entrerà in funzione se l'opzione <i>Watchdog</i> è attiva ma non sei connesso ad Internet.</p>
 
 <p>Se ciò non è stato d'aiuto, prova a riavviare il tuo dispositivo, certe volte aiuta.</p>
 
@@ -95,7 +95,7 @@
     <li><b>Whitelist</b>: la whitelist è la lista eccezioni, qui potrai definire gli host che non vuoi siano bloccati o applicazioni per le quali Blokada non filtrerà gli URL. All'installazione, di default Blokada avrà già diverse applicazioni in questa lista.</li>
     <li><b>Mantieni attivo</b>: questa opzione aiuta Blokada a non venire messa in pausa o bloccata dal sistema. Il tuo sistema potrebbe aggirare questa opzione, assicurati che le tue impostazioni permettano a Blokada di funzionare in background.</li>
     <li><b>Notifiche</b>: se abilitata, riceverai una notifica ogni qual volta una pubblicità viene bloccata. L'opzione è attiva di default, ma se ricevi troppe notifiche puoi disabilitarla.</li>
-    <li><b>Solo online</b>: quando è attiva, Blokada verrà disabilitata in assenza di connessioni attive e ripartirà non appena sarà nuovamente disponibile una connessione. Se disabilitata, Blokada continuerà a funzionare in background (anche in assenza di una connessione). Attenzione, questa opzione potrebbe non funzionare in ogni dispositivo.</li>
+    <li><b>Watchdog</b>: quando è attiva, Blokada verrà disabilitata in assenza di connessioni attive e ripartirà non appena sarà nuovamente disponibile una connessione. Se disabilitata, Blokada continuerà a funzionare in background (anche in assenza di una connessione). Attenzione, questa opzione potrebbe non funzionare in ogni dispositivo.</li>
     <li><b>Avvia al boot</b>: se abilitata, Blokada si avvierà subito dopo l'avvio del sistema. Tuttavia, questa opzione dipende da alcuni livelli di configurazione del sistema, perciò non può essere garantito l'avvio automatico di Blokada al boot. Pertanto, controlla le impostazioni del tuo dispositivo. Per configurazione predefinita, questa opzione è abilitata, se desideri avviare manualmente Blokada, disabilitala.</li>
     <li><b>DNS</b>: se sospetti che alcuni siti o servizi vengono bloccati per te, o credi che il tuo ISP raccolga informazioni circa il tuo uso di internet, puoi scegliere dei DNS più sicuri da questa lista. Di default, Blokada utilizza gli stessi server DNS del tuo sistema.</li>
 </ul></p>
@@ -112,7 +112,7 @@
 <p><ul>
     <li>Controlla se l'icona a forma di chiave della VPN è presente in alto, nella barra di stato. Se no, avvia Blokada.</li>
     <li>Apri Blokada e controlla se è attiva e non dà alcun errore.</li>
-    <li>Controlla se la conta degli host è pari a zero. Se è così, seleziona alcune liste dai filtri della blacklist, in modo da bloccare le pubblicità. Se la conta è ancora zero, segnala un bug.</li>
+    <li>Controlla se la conta degli host è pari a zero. Se è così, seleziona alcune liste dai filtri della blacklist, in modo da bloccare le pubblicità. Se il contatore rimane a zero, concedi l'autorizzazione all'Archiviazione nelle Impostazioni di Sistema > Applicazioni > Blokada, poi cancella la cache e riavvia il dispositivo.</li>
     <li>Assicurati di non avere troppe applicazioni nella whitelist, potrebbe essere la causa del perché vedi troppe pubblicità.</li>
     <li>Prova a reimpostare i tuoi filtri (vai su Blacklist e scegli <i>Ripristina predefinite</i> dal menù delle Opzioni Veloci in alto a destra).</li>
     <li>Se vedi pubblicità nel tuo browser, disattiva ogni tipo di compressione o ottimizzazione del traffico dati dalle impostazioni del browser.</li>

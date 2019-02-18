@@ -73,7 +73,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <h4><a name="unsupported">Não consigo iniciar o Blokada após a sua instalação.</a></h4>
 <p>Existem duas causas para este problema. Em primeiro lugar, verifique se tem uma ligação VPN activa e se a opção <i>VPN sempre ligada</i> está activada. Para o fazer, vá às Definições do seu telemóvel, procure por VPN na secção de Ligações/Rede e pressione na roda dentada ao lado da VPN existente. Desactive essa opção, desconecte-se da ligação VPN activa e tente reiniciar o Blokada.</p>
 
-<p>Se não tiver outra ligação VPN, confirme se o modo <i>Apenas online</i> do Blokada está activo e, em caso afirmativo, verifique que se encontra ligado à Internet, quer via Wi-Fi ou dados móveis. O Blokada não iniciará se a opção <i>Apenas online</i> estiver activada e não houver ligação à Internet.</p>
+<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
 <p>Se isto não ajudar, reinicie o seu telemóvel, o que também ajuda, por vezes.</p>
 
@@ -96,7 +96,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
     <li><b>Lista Branca</b>: a Lista Branca representa a lista de excepções, onde pode definir os endereços que não deverão ser bloqueados ou as aplicações para as quais o Blokada não filtrará URLs. O Blokada é instalado com diversas aplicações já incluídas na Lista Branca, por defeito.</li>
     <li><b>Manter activo</b>: esta opção garante que o Blokada não é pausado ou parado pelo sistema. Por favor, repare que o sistema pode sobrepor-se a esta opção, portanto certifique-se de que as definições do sistema permitem ao Blokada manter-se em execução em segundo plano.</li>
     <li><b>Notificações</b>: quando activadas, permitem que seja notificado sempre que um anúncio é bloqueado. Encontra-se activada, por defeito, mas se receber demasiadas notificações, pode desligá-la.</li>
-    <li><b>Apenas online</b>: quando activada, esta opção fará com que o Blokada encerre quando não existir nenhuma ligação activa, e o mesmo reiniciará sempre que a ligação for retomada. Quando desactivada, o Blokada irá manter-se permanentemente em execução em segundo plano (mesmo se nenhuma ligação estiver disponível). Por favor, note que esta opção poderá não funcionar em todos os dispositivos.</li>
+    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Quando desactivada, o Blokada irá manter-se permanentemente em execução em segundo plano (mesmo se nenhuma ligação estiver disponível). Por favor, note que esta opção poderá não funcionar em todos os dispositivos.</li>
     <li><b>Iniciar no arranque</b>: quando activada, esta opção permite que o Blokada se inicie automaticamente após o arranque do sistema. Por favor, repare que que esta opção envolve configurações ao nível do sistema e, como tal, não é possível garantir que o Blokada seja efectivamente iniciado no arranque. Neste caso, por favor verifique as definições do seu telemóvel. Esta opção está activa por predefinição, se pretender iniciar o Blokada manualmente, desactive esta opção.</li>
     <li><b>DNS</b>: se suspeita que alguns sites ou serviços encontram-se bloqueados pelo seu operador, ou que o mesmo recolhe informação sobre a sua actividade na Internet, escolha um DNS seguro a partir da lista. Por defeito, o Blokada utiliza o servidor de DNS do seu sistema.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p><ul>
     <li>Verifique se o ícone da chave da VPN está presente na barra de estado, no cimo do ecrã. Em caso negativo, inicie o Blokada.</li>
     <li>Abra o Blokada e verifique se este se encontra activo e se não está a reportar erros.</li>
-    <li>Confirme se o total de endereços bloqueados não é zero. Se for, seleccione alguns filtros da Lista Negra, de forma a bloquear anúncios. Se o total de endereços continuar a ser zero, reporte um erro.</li>
+    <li>Confirme se o total de endereços bloqueados não é zero. Se for, seleccione alguns filtros da Lista Negra, de forma a bloquear anúncios. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
     <li>Certifique-se de que não tem demasiadas aplicações na lista branca - talvez seja por isso que está a ver tantos anúncios.</li>
     <li>Tente resetar os seus filtros (vá ao ecrã da Lista Negra e seleccione <i>Repor Valores Padrão</i> a partir do menu de Acções Rápidas, em cima).</li>
     <li>Se vir anúncios no seu navegador, desactive qualquer tipo de compressão de dados ou optimização nas definições do navegador.</li>
