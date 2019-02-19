@@ -30,4 +30,6 @@
     <string name="tunnel_config_powersave_description">Activeer deze schakelaar indien u problemen ondervindt door het accubesparings feature van uw aparaat. Als de app tunnel verbindingsproblemen dedecteert wordt er geprobeerd de prioriteit te verhogen om hem uit accubesparing te brengen.</string>
     <string name="tunnel_config_reports_title">Rapporten</string>
     <string name="tunnel_config_reports_description">Activeer deze schakelaar om de app toe te staan om rapporten te sturen die ons helpen problemen en bugs op te lossen. Dit zal slechts één keer per dag gebeuren, of wanneer de app crasht. Het uitschakelen van deze functie kan het voor ons moeilijk maken om problemen op te lossen die u kunt ondervinden. U moet de app opnieuw opstarten om deze instelling uit te voeren.</string>
+    <string name="tunnel_config_fallback_title">DNS fallback</string>
+    <string name="tunnel_config_fallback_description">Activeer deze schakelaar als u in soms internet toegang verliest, zoals uw WiFi. Dan schakelt de app tijdelijk over naar Cloudflare DNS om uw connectiviteit te behouden. U moet wellicht uw servers opnieuw selecteren in de DNS-sectie om deze instelling in werking te laten treden.</string>
 </resources>
