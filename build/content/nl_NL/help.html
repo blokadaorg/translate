@@ -73,7 +73,7 @@ Als alternatief kunt u meer hostlijsten inschakelen of meer beperkende filters t
 <h4><a name="unsupported">Ik kan Blokada niet starten nadat ik het installeerde.</a></h4>
 <p>Er zijn twee mogelijke oorzaken van dit probleem. Allereerst, controleer of u een actieve VPN connectie heeft en of deze de optie <i>Altijd-aan VPN</i> aan heeft staan. Om dit te vinden, ga naar de instellingen van uw telefoon, zoek naar VPN bij netwerken en tik op het roertje naast de bestaande VPN. Schakel deze uit, verbreek de verbinding met de actieve VPN en probeer Blokada opnieuw op te starten.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Als u geen andere VPN-verbinding hebt, controleer dan in Blokada of <i>Watchdog</i> is ingeschakeld in de Geavanceerde Instellingen, en indien ja, controleer dan of u verbonden bent met het internet via wifi of met mobiele data. Blokada zal niet beginnen als de <i>Watchdog</i> is ingeschakeld en u geen actieve internetverbinding hebt.</p>
 
 <p>Als dit niet helpt, start je je telefoon opnieuw op, soms helpt dit ook.</p>
 
@@ -96,7 +96,7 @@ Als alternatief kunt u meer hostlijsten inschakelen of meer beperkende filters t
     <li><b>Whitelist</b>: dit is is de uitzonderingenlijst, hier kunt u hosts definiëren die niet mogen worden geblokkeerd of apps waar Blokada URL's niet filtert. Blokada wordt standaard geïnstalleerd met verschillende apps op de witte lijst.</li>
     <li><b> Keep alive</b>: deze optie zorgt ervoor dat Blokada niet wordt gepauzeerd of gestopt door het systeem. Let op: uw systeem kan het overschrijven, zorg ervoor dat uw instellingen Blokada op de achtergrond laten draaien.</li>
     <li><b>Meldingen</b>: indien ingeschakeld, ontvangt u een melding wanneer een advertentie wordt geblokkeerd. Het is standaard ingeschakeld, maar als u veel meldingen ontvangt, schakelt u het uit.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Indien uitgeschakeld, zal Blokada altijd op de achtergrond draaien (zelfs als er geen netwerk beschikbaar is). Let op: deze optie werkt mogelijk niet op elk apparaat.</li>
+    <li><b>Alleen Online</b>: indien ingeschakeld, zal Blokada afsluiten als er geen actieve verbinding is en opnieuw beginnen wanneer de verbinding terugkomt. Indien uitgeschakeld, zal Blokada altijd op de achtergrond draaien (zelfs als er geen netwerk beschikbaar is). Let op: deze optie werkt mogelijk niet op elk apparaat.</li>
     <li><b>Starten bij opstarten</b>: indien ingeschakeld, start Blokada nadat het systeem opstart. Let op: er zijn configuraties op systeemniveau voor deze optie, daarom kan niet worden gegarandeerd dat Blokada kan starten bij het opstarten. Controleer in dit geval de instellingen van je telefoon. De standaardconfiguratie is ingeschakeld, als u Blokada handmatig wilt starten, schakelt u deze optie uit.</li>
     <li><b>DNS</b>: als u vermoedt dat sommige websites of services voor u zijn geblokkeerd, of als u vermoedt dat uw internetprovider informatie over uw intenetgebruik verzamelt, kiest u een beveiligde DNS-machine in de lijst. Blokada gebruikt standaard dezelfde DNS-server(s) als uw systeem.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Als alternatief kunt u meer hostlijsten inschakelen of meer beperkende filters t
 <p><ul>
     <li>Controleer of het pictogram van de VPN-sleutel aanwezig is in de statusbalk bovenaan. Zo niet, start Blokada.</li>
     <li>Open Blokada en controleer of deze actief is en geen fouten meldt.</li>
-    <li>Controleer of de hosts-teller niet gelijk is aan nul. Als dit het geval is, selecteer dan enkele zwartelijst filters zodat advertenties kunnen worden geblokkeerd. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
+    <li>Controleer of de hosts-teller niet gelijk is aan nul. Als dit het geval is, selecteer dan enkele zwartelijst filters zodat advertenties kunnen worden geblokkeerd. Als de teller nog steeds op nul staat, geef dan toestemming voor opslag toegang in de systeeminstellingen - Toepassingen - Blokada, verwijder dan gegevens en cache en herstart het apparaat.</li>
     <li>Zorg ervoor dat je niet teveel apps op de witte lijst hebt staan, misschien is dit de reden dat je veel advertenties ziet.</li>
     <li>Probeer je filters opnieuw in te stellen (ga naar het Blacklist-scherm en kies <i>Standaardinstellingen herstellen</i> in het menu Snelle acties bovenaan).</li>
     <li>Als u advertenties in uw browser ziet, deactiveer dan elke vorm van verkeerscompressie of optimalisatie in de browserinstellingen.</li>
