@@ -73,7 +73,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <h4><a name="unsupported">Saya tidak bisa memulai Blokada setelah saya menginstalnya.</a></h4>
 <p>Ada dua penyebab umum untuk situasi seperti ini. Pertama, periksa apakah Anda memiliki koneksi VPN yang aktif dan jika itu <i>VPN selalu-hidup</i> pilihan diaktifkan. Untuk melakukannya, pergi ke pengaturan telepon Anda, mencari VPN di bagian jaringan, ketuk pada roda gigi di VPN yang sudah ada. Menonaktifkannya, lepaskan dari sambungan VPN aktif dan coba me-restart Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Jika Anda tidak memiliki koneksi VPN lain yang sedang aktif, periksa apakah <i>Watchdog</i> diaktifkan di Pengaturan Lanjut, jika pengaturan tersebut aktif, periksa kembali apakah Anda tersambung ke jaringan seluler/Wi-Fi. Blokada tidak bekerja ketika <i>Watchdog</i> sudah diaktifkan dan Anda tidak terkoneksi ke internet.</p>
 
 <p>Jika itu tidak membantu, Start ulang telepon Anda, itu juga membantu kadang-kadang.</p>
 
@@ -96,7 +96,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
     <li><b>Daftar Putih</b>: daftar putih adalah daftar pengecualian, di sini Anda dapat menentukan host yang seharusnya tidak diblokir atau aplikasi di mana Blokada tidak akan memfilter URL. Blokada dipasang dengan beberapa aplikasi masuk daftar putih secara standar.</li>
     <li><b>Tetap hidup</b>: opsi ini adalah untuk memastikan Blokada tidak berhenti atau dihentikan oleh sistem. Perhatikan sistem Anda dapat menimpa, pastikan pengaturan Anda akan membiarkan Blokada yang berjalan di latar belakang.</li>
     <li><b>Notifikasi</b>: saat diaktifkan, Anda akan diberi tahu saat iklan diblokir. Ini diaktifkan secara standar, tetapi jika Anda mendapatkan banyak notifikasi, matikan.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Jika dinonaktifkan, Blokada akan selalu berjalan di latar belakang (meskipun tidak ada jaringan). Harap perhatikan bahwa opsi ini mungkin tidak bekerja pada perangkat tertentu.</li>
+    <li><b>Watchdog</b>: jika diaktifkan maka Blokada akan berhenti bekerja ketika Anda tidak terkoneksi ke internet, dan akan mulai bekerja kembali ketika Anda sudah terkoneksi. Jika dinonaktifkan, Blokada akan selalu berjalan di latar belakang (meskipun tidak ada jaringan). Harap perhatikan bahwa opsi ini mungkin tidak bekerja pada perangkat tertentu.</li>
     <li><b>Mulai saat boot</b>: ketika diaktifkan, Blokada akan dimulai setelah sistem boot. Harap dicatat ada konfigurasi tingkat sistem untuk opsi ini, oleh karena itu tidak dapat dijamin Blokada dapat memulai saat boot. Dalam hal ini, periksa pengaturan ponsel Anda. Konfigurasi standar diaktifkan, jika Anda ingin memulai Blokada secara manual, nonaktifkan opsi ini.</li>
     <li><b>DNS</b>: jika Anda mencurigai bahwa beberapa situs web atau layanan diblokir untuk Anda, atau Anda menganggap bahwa penyedia internet Anda mengumpulkan informasi tentang penggunaan intenet Anda, pilih mesin DNS aman dari daftar. Secara standar, Blokada menggunakan server DNS yang sama sebagai sistem Anda.</li>
 </ul></p>
@@ -113,7 +113,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <p><ul>
     <li>Periksa apakah ikon kunci VPN ada di status bar di bagian atas. Jika tidak, jalankan Blokada.</li>
     <li>Buka Blokada dan periksa apakah sudah aktif dan tidak melaporkan adanya kesalahan.</li>
-    <li>Periksa apakah penghitung host tidak sama dengan nol. Jika ya, pilih beberapa filter daftar hitam sehingga iklan dapat diblokir. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
+    <li>Periksa apakah penghitung host tidak sama dengan nol. Jika ya, pilih beberapa filter daftar hitam sehingga iklan dapat diblokir. Jika angka yang tertera masih 0 (nol), berikan ijin kepada Blokada untuk mengakses media penyimpanan di bagian Pengaturan Sistem - Aplikasi - Blokada, kemudian hapus data dan cache dan reboot gawai Anda.</li>
     <li>Pastikan Anda tidak memiliki terlalu banyak aplikasi di daftar putih - mungkin karena itulah Anda melihat iklan.</li>
     <li>Coba atur ulang filter Anda (masuk ke layar Daftar hitam dan pilih <i>Pulihkan Standar</i> dari menu Tindakan Cepat di bagian atas).</li>
     <li>Jika Anda melihat iklan di browser Anda, nonaktifkan segala jenis kompresi lalu lintas atau pengoptimalan di pengaturan browser.</li>

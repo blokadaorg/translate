@@ -18,12 +18,29 @@
     <string name="filter_edit_name_error">Ειναι λαθος. Ελεγξε αν εδωσες σωστα το ονομα ιστοτοπου, οπως example.com.</string>
     <!-- Name of a tab that allows to add a file with hosts. -->
     <string name="filter_edit_file">Aρχείο</string>
+    <string name="filter_edit_file_choose">Επιλεξε αρχειο των hosts</string>
+    <string name="filter_edit_file_none">Δεν επιλεχθηκε αρχειο hosts</string>
+    <string name="filter_edit_file_error">Το επιλεγμενο αρχειο δε φαινεται να περιεχει hosts.</string>
     <!-- Name of a tab that allows to add a link to hosts. -->
+    <string name="filter_edit_link">Υπερσυνδεσμος</string>
+    <string name="filter_edit_link_enter">Βαλε υπερδυνδεσμο για αρχειο hosts</string>
     <!-- An example format of a link to hosts file. -->
+    <string name="filter_edit_link_error">Ο συνδεσμος δεν κατεβαινει ή δεν περιεχει hosts.</string>
     <!-- Name of a tab that allows to whitelist app. -->
+    <string name="filter_edit_app">Εφαρμογη</string>
+    <string name="filter_edit_app_enter">Βαλε ονομα εφαρμογης ή ονομα πακετου</string>
     <!-- An example package name of app to whitelist. -->
+    <string name="filter_edit_app_error">Η εφαρμογη δεν υπαρχει ή δε γινεται να μπει σε λευκη λιστα.</string>
+    <string name="filter_edit_save">Αποθηκευσε</string>
+    <string name="filter_edit_cancel">Ακυρωσε</string>
+    <string name="filter_edit_do">Συνεχισε</string>
+    <string name="filter_edit_comments">Σχολια</string>
+    <string name="filter_edit_comments_none">Κανενα σχολιο</string>
     <!-- Parameter: number of hosts. -->
+    <string name="filter_edit_count">Περιεχει %d host(s)</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
+    <string name="filter_blacklist_text">%d στη μαύρη λίστα</string>
+    <string name="filter_blacklist_text_none">Μαυρη λιστα ανενεργη</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
     <!-- Title of menu with quick actions for whitelist / blacklist -->
     <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
