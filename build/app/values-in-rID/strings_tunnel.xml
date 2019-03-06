@@ -8,7 +8,7 @@
     <string name="tunnel_hosts_updating">Memperbarui...</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
     <string name="tunnel_hosts_downloading">Mengunduh...</string>
-    <string name="tunnel_config_wifi">Download filter hanya ketika pada wifi</string>
+    <string name="tunnel_config_wifi">Download filter hanya pada saat tersambung ke WiFi</string>
     <string name="tunnel_dropped_count_desc">Menampilkan jumlah total host yang diblokir sejauh ini.</string>
     <string name="tunnel_dropped_count">%d diblokir</string>
     <string name="tunnel_dropped_count2">%s diblokir</string>
@@ -24,7 +24,7 @@
     <string name="tunnel_config_wifi_only_title">Unduh hanya di WiFi</string>
     <string name="tunnel_config_wifi_only_description">Aktifkan sakelar ini jika Anda ingin aplikasi untuk mengunduh daftar hanya ketika perangkat Anda terhubung ke WiFi. Jika tidak, aplikasi juga dapat mengunduh daftar ketika perangkat Anda terhubung ke jaringan seluler dan menggunakan paket data Anda.</string>
     <string name="tunnel_config_memory_capacity">%s bisa tersimpan ke dalam memori</string>
-    <string name="tunnel_config_watchdog_title">Pengawas</string>
+    <string name="tunnel_config_watchdog_title">Watchdog</string>
     <string name="tunnel_config_watchdog_description">Aktifkan switch ini jika Anda ingin aplikasi untuk mengaktifkan VPN hanya jika ada koneksi Internet, dan me-restart jalur koneksi apabila ada masalah pada jaringan. Ini dapat membantu untuk beberapa jenis perangkat. Catatan: pada versi sebelumnya opsi ini disebut \"Hanya Online\".</string>
     <string name="tunnel_config_powersave_description">Aktifkan switch ini jika Anda mengalami masalah yang disebabkan oleh fitur penghemat daya di perangkat Anda. Ketika aplikasi mendeteksi jaringan Anda bermasalah, maka aplikasi ini akan berusaha menaikkan prioritasnya sehingga tidak lagi dimasukkan ke dalam modus penghemat daya.</string>
     <string name="tunnel_config_reports_title">Laporan</string>
