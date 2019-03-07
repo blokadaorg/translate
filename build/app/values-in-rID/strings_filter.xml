@@ -30,7 +30,7 @@
     <string name="filter_edit_app">Aplikasi</string>
     <string name="filter_edit_app_enter">Masukkan nama aplikasi atau nama paket</string>
     <!-- An example package name of app to whitelist. -->
-    <string name="filter_edit_app_error">Aplikasi ini tidak ada atau tidak dapat dimasukkan ke daftar putih.</string>
+    <string name="filter_edit_app_error">Aplikasi ini tidak ada atau tidak dapat dimasukkan ke dalam whitelist.</string>
     <string name="filter_edit_save">Simpan</string>
     <string name="filter_edit_cancel">Batal</string>
     <string name="filter_edit_do">Lanjut</string>
@@ -42,8 +42,8 @@
     <string name="filter_blacklist_text">%d dalam blacklist</string>
     <string name="filter_blacklist_text_none">Blacklist tidak aktif</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
-    <string name="filter_whitelist_text">%d dalam daftar putih</string>
-    <string name="filter_whitelist_text_none">Daftar putih tidak aktif</string>
+    <string name="filter_whitelist_text">%d dalam whitelist</string>
+    <string name="filter_whitelist_text_none">Whitelist tidak aktif</string>
     <!-- Title of menu with quick actions for whitelist / blacklist -->
     <string name="filter_generate_title">Aksi cepat</string>
     <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
