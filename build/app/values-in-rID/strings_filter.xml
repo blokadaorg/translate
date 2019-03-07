@@ -39,8 +39,8 @@
     <!-- Parameter: number of hosts. -->
     <string name="filter_edit_count">Berisi %d hosts</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
-    <string name="filter_blacklist_text">%d dalam daftar hitam</string>
-    <string name="filter_blacklist_text_none">Daftar hitam tidak aktif</string>
+    <string name="filter_blacklist_text">%d dalam blacklist</string>
+    <string name="filter_blacklist_text_none">Blacklist tidak aktif</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
     <string name="filter_whitelist_text">%d dalam daftar putih</string>
     <string name="filter_whitelist_text_none">Daftar putih tidak aktif</string>
@@ -55,7 +55,7 @@
     <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
     <string name="filter_generate_whitelist_all_disabled">Tambahkan semua aplikasi (dinonaktifkan)</string>
     <!-- Deletes all filters and fetches default ones. -->
-    <string name="filter_generate_defaults">Pulihkan standar (daftar hitam &amp; daftar putih)</string>
+    <string name="filter_generate_defaults">Pulihkan standar (blacklist &amp; whitelist)</string>
     <!-- Forcefully refetch filters ignoring cache. -->
     <string name="filter_generate_refetch">Perbarui filter</string>
     <!-- Select save location for filters  -->
@@ -67,5 +67,5 @@
     <string name="filter_export_import2">Impor sekarang</string>
     <string name="filter_export_internal">Penyimpanan internal (default)</string>
     <string name="filter_export_external">Penyimpanan eksternal</string>
-    <string name="filter_export_external_info">Catatan: pilihan Anda berlaku untuk daftar hitam dan daftar putih. Pastikan Anda telah memberikan izin penyimpanan eksternal untuk Blokada (dalam pengaturan sistem), jika tidak penyimpanan internal akan digunakan meskipun Anda memilihnya. Jika Anda mengimpor pengaturan yang ada, ketuk Impor Sekarang sebelum menutup jendela ini, atau mereka akan ditimpa.</string>
+    <string name="filter_export_external_info">Catatan: pilihan Anda berlaku untuk blacklist dan whitelist. Pastikan Anda telah memberikan ijin untuk mengakses penyimpanan eksternal kepada Blokada (dalam pengaturan sistem), jika tidak maka penyimpanan internal yang akan digunakan. Jika Anda mengimpor pengaturan yang sudah ada sebelumnya, tekan Impor Sekarang sebelum menutup jendela dialog ini, atau pengaturan tersebut akan digantikan oleh pengaturan baru.</string>
 </resources>
