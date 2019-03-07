@@ -26,7 +26,7 @@
 <h4>Situasi yang diketahui</h4>
 <ol>
   <li><a href="#perbarui">Blokada memblokir lebih sedikit iklan dibandingkan dengan sebelumnya.</a></li>
-  <li><a href="#daftarputih">Aplikasi tidak berfungsi seperti yang diharapkan.</a></li>
+  <li><a href="#whitelist">Aplikasi tidak berfungsi seperti yang diharapkan.</a></li>
   <li><a href="#blacklist">Saya ingin memblokir situs web tertentu.</a></li>
   <li><a href="#youtube">Iklan di YouTube tidak diblokir!</a></li>
   <li><a href="#tidakdidukung">Saya tidak bisa mengaktifkan Blokada setelah saya menginstalnya.</a></li>
@@ -54,18 +54,18 @@
 </ol>
 
 <h4><a name="refresh">Blokada memblokir lebih sedikit iklan.</a></h4>
-<p>Jika Anda menduga Blokada memblokir lebih sedikit iklan daripada sebelumnya, harap perbarui daftar Anda. Untuk melakukannya, tekan <i>Blacklist</i>, lalu di sudut kanan atas pada equalizer, pilih <i>Segarkan filter</i> dan tekan pada <i>Lanjutkan</i>. Biasanya itu terjadi karena server baru ditambahkan ke yang server sudah ada yang tidak (atau belum) diidentifikasi dan ditambahkan ke daftar hitam, atau daftar baru tidak diunduh ke ponsel Anda, sehingga iklan tersebut belum diblokir. <br>
-Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menambahkan filter yang lebih ketat di menu <i>Daftar Hitam</i>.</p>
+<p>Jika Anda menduga Blokada memblokir lebih sedikit iklan daripada sebelumnya, harap perbarui daftar Anda. Untuk melakukannya, tekan <i>Blacklist</i>, lalu di sudut kanan atas pada equalizer, pilih <i>Segarkan filter</i> dan tekan pada <i>Lanjutkan</i>. Biasanya itu terjadi karena server baru ditambahkan ke yang server sudah ada yang tidak (atau belum) diidentifikasi dan ditambahkan ke dalam blacklist, atau daftar baru tidak diunduh ke ponsel Anda, sehingga iklan tersebut belum diblokir. <br>
+Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menambahkan filter yang lebih ketat di menu <i>Blacklist</i>.</p>
 
 <p>Harap diingat bahwa Blokada menggunakan daftar pihak ke-3, oleh karena itu jika aplikasi itu sendiri berfungsi sebagaimana mestinya dan memblokir iklan sebelum Blokada diaktifkan, maka aplikasi tersebut seharusnya tetap berfungsi.</p>
 
 <h4><a name="whitelist">Aplikasi tidak berfungsi seperti yang diharapkan.</a></h4>
-<p>Jika Anda dapat melihat bahwa suatu aplikasi tidak berfungsi seperti yang diharapkan, tidak memuat kontennya atau kejadian lain yang serupa, silakan menuju ke layar utama, pilih <i>Daftar Putih</i>, di bagian bawah layar ketuk tanda +, pilih <i>Aplikasi</i> dan ketikkan namanya. Ketuk <i>Simpan</i> di akhir. Dengan ini, Blokada tidak akan menyaring URL dalam aplikasi ini.</p>
+<p>Jika suatu aplikasi tidak berfungsi sebagaimana mestinya, tidak memuat kontennya atau kejadian lain yang serupa, silakan menuju ke layar utama, pilih <i>Whitelist</i>, di bagian bawah layar tekan tanda +, pilih <i>Aplikasi</i> dan ketikkan nama aplikasi tersebut. Ketuk <i>Simpan</i> di akhir. Dengan ini, Blokada tidak akan menyaring URL dalam aplikasi ini.</p>
 
-<p>Harap dicatat bahwa Blokada 3.4 dan rilis sebelumnya memiliki bug yang menyebabkan aplikasi yang baru dipasang tidak dikenali di Blokada, oleh karena itu aplikasi tersebut tidak dapat diatur pada <i>Daftar Putih</i>. Bug ini diperbaiki dalam versi 3.5 dan selanjutnya.</p>
+<p>Harap diingat bahwa Blokada 3.4 dan versi sebelumnya memiliki bug yang menyebabkan aplikasi yang baru dipasang tidak dikenali oleh Blokada, oleh karena itu aplikasi tersebut tidak dapat dimasukkan ke dalam <i>Whitelist</i>. Bug ini diperbaiki dalam versi 3.5 dan selanjutnya.</p>
 
 <h4><a name="blacklist">Saya ingin memblokir situs web tertentu.</a></h4>
-<p>Anda dapat memblokir situs yang tidak ada dalam daftar host satu per satu secara manual. Untuk melakukannya, masuk ke <i>Daftar hitam</i> di halaman utama, tekan tanda + di bagian bawah layar, tekan pada <i>Host</i> dan ketik nama host situs web, tanpa bagian http dan www (misalnya: <i>myexample.com</i>).</p>
+<p>Anda dapat memblokir situs yang tidak ada dalam daftar host satu per satu secara manual. Untuk melakukannya, masuk ke <i>Blacklist</i> di halaman utama, tekan tanda + di bagian bawah layar, tekan pada <i>Host</i> dan ketik nama host situs web, tanpa bagian http dan www (misalnya: <i>myexample.com</i>).</p>
 
 <h4><a name="youtube">Iklan di YouTube tidak diblokir!</a></h4>
 <p>Memblokir iklan di YouTube sangat sulit karena Google menggunakan enkripsi dan host yang dibuat secara acak untuk menayangkan iklan. Oleh karena itu, lebih mudah untuk memblokir iklan dalam aplikasi YouTube seperti dengan piranti lunak eksternal (misalnya Blokada). NewPipe dan YouTube Vanced adalah alternatif aplikasi YouTube resmi yang luar biasa dan memiliki banyak fitur, silakan coba mana yang lebih cocok untuk Anda.</p>
@@ -84,7 +84,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <p>Jika Anda mencoba untuk mengimpor daftar (misalnya EasyList) yang bekerja sangat baik dengan ekstensi AdBlock Plus Anda pada PC atau notebook, Blokada akan melaporkan pesan kesalahan. Hal ini terjadi karena Blokada menggunakan metode lain untuk memblokir iklan. ABP bisa memblokir dan menyembunyikan elemen atau bagian dari website, namun Blokada tidak bisa melakukan hal tersebut karena aplikasi ini bukan sebuah plugin dalam browser, melainkan hanya berfungsi untuk mengalihkan akses server iklan ke alamat non-routable (0.0.0.0), oleh karena itu Blokada memerlukan daftar nama host-IP.</p>
 
 <h4><a name="howitworks">Bagaimana cara kerja Blokada?</a></h4>
-<p>Blokada adalah lapisan tipis antara antarmuka jaringan (wifi atau mobile telepon) dan aplikasi yang Anda gunakan. Agar dapat menyaring setiap trafik keluar, Blokada akan menghasilkan koneksi VPN lokal (tanpa layanan pihak ketiga) dan hanya memblokir setiap permintaan ke host yang ditentukan dalam filter daftar hitam. Pemblokiran ini dilakukan dengan cara pengalihan, alamat IP dari website yang menyajikan iklan akan diselesaikan oleh perangkat Anda menuju meta-address on-routable, yaitu 0.0.0.0, di mana tidak ada layanan web yang berjalan, sehingga iklan tidak akan ditampilkan. Dengan ini, Blokada menghemat kuota data dan baterai. Filter dimutakhirkan secara otomatis dan mengandung host yang dikenal untuk melayani iklan, pelacakan, spam, malware, dan konten lainnya yang tidak diinginkan atau berbahaya. Anda dapat mengkonfigurasi Blokada dengan filter kustom Anda sendiri dan daftar putih untuk memastikan layanan yang Anda ingin gunakan tidak diblokir dan Anda tidak mengalami gangguan.</p>
+<p>Blokada adalah lapisan tipis antara antarmuka jaringan (wifi atau mobile telepon) dan aplikasi yang Anda gunakan. Agar dapat menyaring setiap trafik keluar, Blokada akan membuat koneksi VPN lokal (tanpa layanan pihak ketiga) dan hanya memblokir setiap permintaan ke host yang ditentukan dalam filter yang ada di dalam blacklist. Pemblokiran ini dilakukan dengan cara pengalihan, alamat IP dari website yang menyajikan iklan akan diselesaikan oleh perangkat Anda menuju meta-address on-routable, yaitu 0.0.0.0, di mana tidak ada layanan web yang berjalan, sehingga iklan tidak akan ditampilkan. Dengan ini, Blokada menghemat kuota data dan baterai. Filter dimutakhirkan secara otomatis dan mengandung host yang dikenal untuk melayani iklan, pelacakan, spam, malware, dan konten lainnya yang tidak diinginkan atau berbahaya. Anda dapat mengkonfigurasi Blokada dengan filter kustom Anda sendiri dan daftar putih untuk memastikan layanan yang Anda ingin gunakan tidak diblokir dan Anda tidak mengalami gangguan.</p>
 
 <h4><a name="vpn">Dapatkah saya menggunakan VPN lain ketika Blokada sedang aktif?</a></h4>
 <p>Sayangnya tidak, hal ini dikarenakan keterbatasan sistem; Anda hanya dapat memiliki satu sambungan VPN aktif di saat bersamaan. Jika Anda terhubung ke layanan VPN lain, Blokada akan menonaktifkan diri.</p>
@@ -92,7 +92,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <h4><a name="options">Apa saja pilihan yang tersedia di Blokada?</a></h4>
 <p>Seperti yang Anda pasti lihat, Blokada memiliki beberapa pilihan pada layar utama yang tidak dijelaskan secara menyeluruh pada saat Anda mengaktifkannya pertama kali. Ijinkan kami menjelaskannya kepada Anda sekarang. Anda dapat melihat sebagai berikut:</p>
 <p><ul>
-    <li><b>Daftar Hitam</b>: ini adalah daftar file host yang berisi server untuk diblokir. Harap diingat bahwa menggunakan beberapa daftar sekaligus dapat mempengaruhi kecepatan jaringan dan sistem pada perangkat Anda.</li>
+    <li><b>Blacklist</b>: ini adalah daftar file host yang berisi server untuk diblokir. Harap diingat bahwa menggunakan beberapa daftar sekaligus dapat mempengaruhi kecepatan jaringan dan sistem pada perangkat Anda.</li>
     <li><b>Daftar Putih</b>: daftar putih adalah daftar pengecualian, di sini Anda dapat menentukan host yang seharusnya tidak diblokir atau aplikasi di mana Blokada tidak akan memfilter URL. Blokada terinstal dengan beberapa aplikasi masuk daftar putih secara bawaan.</li>
     <li><b>Tetap hidup</b>: opsi ini adalah untuk memastikan Blokada tidak berhenti atau dihentikan oleh sistem. Harap diingat sistem Anda dapat mengambil alih pengaturan ini, pastikan pengaturan Anda akan mengijinkan Blokada untuk aktif di latar belakang.</li>
     <li><b>Notifikasi</b>: saat diaktifkan, Anda akan diberi tahu saat iklan diblokir. Notifikasi ini aktif secara bawaan, tetapi bisa dinonaktifkan jika Anda merasa mendapatkan terlalu banyak notifikasi.</li>
@@ -113,9 +113,9 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <p><ul>
     <li>Periksa apakah ikon kunci VPN ada di status bar di bagian atas. Jika tidak, aktifkan Blokada.</li>
     <li>Buka Blokada dan periksa apakah sudah aktif dan tidak melaporkan adanya kesalahan.</li>
-    <li>Periksa apakah penghitung host tidak sama dengan nol. Jika angka host yang ditampilkan 0, pilih beberapa filter daftar hitam sehingga iklan dapat diblokir. Jika angka yang tertera masih 0 (nol), berikan ijin kepada Blokada untuk mengakses media penyimpanan di bagian Pengaturan Sistem - Aplikasi - Blokada, kemudian hapus data dan cache dan reboot perangkat Anda.</li>
+    <li>Periksa apakah penghitung host tidak sama dengan nol. Jika angka host yang ditampilkan 0, pilih beberapa filter blacklist sehingga iklan dapat diblokir. Jika angka yang tertera masih 0 (nol), berikan ijin kepada Blokada untuk mengakses media penyimpanan di bagian Pengaturan Sistem - Aplikasi - Blokada, kemudian hapus data dan cache dan reboot perangkat Anda.</li>
     <li>Pastikan Anda tidak memiliki terlalu banyak aplikasi di daftar putih - mungkin karena itulah Anda melihat iklan.</li>
-    <li>Coba atur ulang filter Anda (masuk ke layar Daftar hitam dan pilih <i>Pulihkan Standar</i> dari menu Tindakan Cepat di bagian atas).</li>
+    <li>Coba atur ulang filter Anda (masuk ke layar Blacklist dan pilih <i>Pulihkan Standar</i> dari menu Tindakan Cepat di bagian atas).</li>
     <li>Jika Anda melihat iklan di browser Anda, nonaktifkan segala jenis kompresi data atau pengoptimalan di pengaturan browser.</li>
     <li>Nonaktifkan Blokada, tutup (dengan menggesernya keluar dari layar Baru), dan nyalakan kembali.</li>
     <li>Jika Anda baru saja mengubah setelan (filter, daftar putih, dll.), harap diingat bahwa perlu waktu sebelum konfigurasi baru mulai bekerja. Tunggu sebentar.</li>
