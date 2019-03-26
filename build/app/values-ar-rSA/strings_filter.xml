@@ -55,17 +55,17 @@
     <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
     <string name="filter_generate_whitelist_all_disabled">إضافة جميع التطبيقات (غير مفعل)</string>
     <!-- Deletes all filters and fetches default ones. -->
-    <string name="filter_generate_defaults">إستعادة الإعدادات الإفتراضية (القائمتين السوداء والبيضاء)</string>
+    <string name="filter_generate_defaults">إستعادة الإعدادات الإفتراضيّة (القائمتين السوداء والبيضاء)</string>
     <!-- Forcefully refetch filters ignoring cache. -->
-    <string name="filter_generate_refetch">مرشحات التحديث</string>
+    <string name="filter_generate_refetch">تحديث الفلاتر</string>
     <!-- Select save location for filters  -->
-    <string name="filter_generate_export">استيراد و تصدير</string>
+    <string name="filter_generate_export">استيراد / تصدير</string>
     <!-- A button to open directory chooser to export settings to. -->
-    <string name="filter_export_select">حدد مكان حفظ الإعدادات إلى</string>
-    <string name="filter_export_error">لا يمكن استخدام الدليل المحدد. تحقق من أذونات الكتابة.</string>
-    <string name="filter_export_import">استيراد من وحدة التخزين الخارجية</string>
-    <string name="filter_export_import2">استيراد الآن</string>
-    <string name="filter_export_internal">التخزين الداخلي (افتراضي)</string>
-    <string name="filter_export_external">تخزين خارجي</string>
+    <string name="filter_export_select">حدد مكان حفظ الإعدادات</string>
+    <string name="filter_export_error">لا يمكن إستخدام الدليل المحدد. تحقق من أذونات الكتابة.</string>
+    <string name="filter_export_import">إستيراد من وحدة التخزين الخارجية</string>
+    <string name="filter_export_import2">إستيراد الآن</string>
+    <string name="filter_export_internal">التخزين الداخلي (إفتراضي)</string>
+    <string name="filter_export_external">التخزين الخارجي</string>
     <string name="filter_export_external_info">ملاحظة: ينطبق اختيارك على كل من القائمة السوداء والقائمة البيضاء. تأكد من أنك منحت أذونات التخزين الخارجية لـ Blokada (في إعدادات النظام) ، وإلا سيتم استخدام وحدة التخزين الداخلية على الرغم من اختيارك. إذا كنت تستورد الإعدادات الحالية ، فانقر فوق استيراد الآن قبل إغلاق هذه النافذة ، أو سيتم استبدالها.</string>
 </resources>
