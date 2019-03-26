@@ -30,12 +30,12 @@
     <string name="filter_edit_app">التطبيق</string>
     <string name="filter_edit_app_enter">أدخل اسم التطبيق أو اسم الحزمة</string>
     <!-- An example package name of app to whitelist. -->
-    <string name="filter_edit_app_error">يبدو أن البرنامج غير موجود أو لا يمكننا وضعه في القائمة البيضاء.</string>
+    <string name="filter_edit_app_error">يبدو أن البرنامج غير موجود أو لا يمكن وضعه في القائمة البيضاء.</string>
     <string name="filter_edit_save">حفظ</string>
     <string name="filter_edit_cancel">إلغاء</string>
     <string name="filter_edit_do">واصل</string>
     <string name="filter_edit_comments">التعليقات</string>
-    <string name="filter_edit_comments_none">لا توجد تعليقات</string>
+    <string name="filter_edit_comments_none">لا يوجد تعليقات</string>
     <!-- Parameter: number of hosts. -->
     <string name="filter_edit_count">يحتوي على %d مستضيف(ين)</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
@@ -47,13 +47,13 @@
     <!-- Title of menu with quick actions for whitelist / blacklist -->
     <string name="filter_generate_title">الإجراءات السريعة</string>
     <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
-    <string name="filter_generate_whitelist_system">إضافة جميع تطبيقات النظام (مفعلة)</string>
+    <string name="filter_generate_whitelist_system">إضافة جميع تطبيقات النظام (مفعل)</string>
     <!-- Adds all system apps to the whitelist and/or sets them to disabled -->
-    <string name="filter_generate_whitelist_system_disabled">إضافة جميع تطبيقات النظام (غير مفعلة)</string>
+    <string name="filter_generate_whitelist_system_disabled">إضافة جميع تطبيقات النظام (غير مفعل)</string>
     <!-- Adds all installed apps to the whitelist and/or sets them to enabled -->
-    <string name="filter_generate_whitelist_all">إضافة جميع التطبيقات (مفعلة)</string>
+    <string name="filter_generate_whitelist_all">إضافة جميع التطبيقات (مفعل)</string>
     <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
-    <string name="filter_generate_whitelist_all_disabled">إضافة جميع التطبيقات (غير مفعلة)</string>
+    <string name="filter_generate_whitelist_all_disabled">إضافة جميع التطبيقات (غير مفعل)</string>
     <!-- Deletes all filters and fetches default ones. -->
     <string name="filter_generate_defaults">إستعادة الإعدادات الإفتراضية (القائمتين السوداء والبيضاء)</string>
     <!-- Forcefully refetch filters ignoring cache. -->
