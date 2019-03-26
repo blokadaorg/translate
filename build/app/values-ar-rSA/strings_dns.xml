@@ -6,14 +6,14 @@
     <!-- A name used for DNS servers added by user. -->
     <string name="dns_custom_name">مُخصّص</string>
     <!-- An example format of a DNS server address. -->
-    <string name="dns_edit_name_enter">أدخل عنوانا لخادم أسماء النطاقات</string>
-    <string name="dns_edit_name_error">هذا لا يبدو صحيحا. تأكد من إدخال عنوان IP للخادم ، مثل 8.8.8.8.</string>
+    <string name="dns_edit_name_enter">أدخل عنوان خادم ال DNS</string>
+    <string name="dns_edit_name_error">هذا لا يبدو صحيحاً. تأكد من إدخال عنوان IP للخادم ، مثل 8.8.8.8.</string>
     <!-- Displayed in the home screen when no custom dns is set, keep it short. -->
-    <string name="dns_text_none">خدمة أسماء النطاقات الإفتراضية</string>
+    <string name="dns_text_none">ال DNS الإفتراضي</string>
     <!-- Deletes all dns suggestions and fetches default ones. -->
-    <string name="dns_generate_defaults">استعادة الإعدادات الافتراضية</string>
+    <string name="dns_generate_defaults">استعادة الإعدادات الإفتراضية</string>
     <!-- Forcefully refetch dns suggestions ignoring cache. -->
-    <string name="dns_generate_refetch">تحديث قائمة خوادم أسماء النطاقات</string>
+    <string name="dns_generate_refetch">تحديث قائمة خوادم ال DNS</string>
     <!-- Keep Alive notification for DNS. Parameter: addresses of active dns servers. -->
     <string name="dns_keepalive_content">نشط: ٪s</string>
 </resources>
