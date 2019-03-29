@@ -3,8 +3,8 @@
 <resources>
     <string name="main_loading">التحميل جارٍ ، يُرجى الإنتظار …</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="main_intro">مرحباً بك في %s! إضغط على الدرع لتفعيل التطبيق ثم وافق التصريحات إذا طُلب منك ذلك.</string>
-    <string name="main_error">المعذرة، لقد حدث خطأ! تأكّد من إتصالك بشبكة الإنترنت ثم أعد المحاولة.</string>
+    <string name="main_intro">مرحباً بك في %s! إضغط على الدرع لتفعيل التطبيق ثم وافق على التصريحات إذا طُلب منك ذلك.</string>
+    <string name="main_error">المعذرة، لقد حدث خطأ! تأكّد من إتصالك بشبكة الإنترنت ثم أعِد المحاولة.</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="main_deactivating_new">جارِ إيقاف %s. الرجاء الإنتظار…</string>
     <!-- Parameter: branded app name (Blokada). -->
@@ -14,11 +14,11 @@
     <!-- Parameter: branded app name (Blokada). -->
     <string name="main_paused">%s غير نَشِط.</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="main_paused_autoenable">%1$s متوقّف مؤقتاً لعدم وجود إتصال بالشبكة. %1$s سيعمل تلقائياً بمجرد إتصالك بالشبكة.</string>
+    <string name="main_paused_autoenable">%1$s متوقّف مؤقتاً لعدم وجود إتصال بالشبكة. %1$s سيعمل تلقائياً بمجرد إتصالك بالإنترنت.</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="main_paused_autoenable_tethering">%1$s متوقف مؤقتاً لأنك تستخدم هاتفك كموزع شبكة. %1$s سيعمل بشكل تلقائي عند إيقاف خاصيّة توزيع الشبكة.</string>
     <!-- Label for the Quick Settings toggle -->
-    <string name="main_quicksettings_toggle">تفعيل</string>
+    <string name="main_quicksettings_toggle">تَفعيل</string>
     <!-- Active status for the Quick Settings toggle -->
     <string name="main_quicksettings_on">مُفَعَّل</string>
     <!-- Disabled status for the Quick Settings toggle -->
