@@ -7,13 +7,13 @@
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
     <string name="tunnel_hosts_updating">يتم تحديث...</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
-    <string name="tunnel_hosts_downloading">جاري التحميل...</string>
-    <string name="tunnel_config_wifi">تنزيل المصفيات فقط عندما لا يوجد wifi</string>
-    <string name="tunnel_dropped_count_desc">يعرض العدد الإجمالي للمضيفات المحظورة حتى الآن.</string>
-    <string name="tunnel_dropped_count">لم يتم حجب أي إعلان</string>
-    <string name="tunnel_dropped_count2">تم حظر %s</string>
-    <string name="tunnel_config_refetch_now_title">قائمة التحميل</string>
-    <string name="tunnel_config_refetch_now">تحميل القوائم الأن</string>
+    <string name="tunnel_hosts_downloading">يتم التحميل...</string>
+    <string name="tunnel_config_wifi">تحميل الفلاتر فقط في حالة الإتصال ب WiFi</string>
+    <string name="tunnel_dropped_count_desc">يَعرض العدد الإجمالي للمُستضيفين المحظورين حتى الآن.</string>
+    <string name="tunnel_dropped_count">%d محظور</string>
+    <string name="tunnel_dropped_count2">%s تمّ حظر</string>
+    <string name="tunnel_config_refetch_now_title">تحميل القوائم</string>
+    <string name="tunnel_config_refetch_now">تحميل القوائم الآن</string>
     <string name="tunnel_config_refetch_now_description">إستخدم الأيقونة أدناه لإزالة بيانات ال cache و أعد تنزيل قوائمك مرة أخرى. هذا يمكن أن يساعد إذا واجهتك مشكلة في تصفيتك.</string>
     <string name="tunnel_config_refetch_frequency_title">تكرار تنزيل القوائم</string>
     <string name="tunnel_config_refetch_frequency_description">إختر واحد من الخيارات لتهيئة كيفية تنزيل القوائم.</string>
