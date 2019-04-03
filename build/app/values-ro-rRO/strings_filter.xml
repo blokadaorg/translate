@@ -55,10 +55,15 @@
     <!-- Adds all installed apps to the whitelist and/or sets them to disabled -->
     <string name="filter_generate_whitelist_all_disabled">Adăugați toate aplicațiile (dezactivat)</string>
     <!-- Deletes all filters and fetches default ones. -->
+    <string name="filter_generate_defaults">Restabilire setări implicite (lista neagră &amp; lista albă)</string>
     <!-- Forcefully refetch filters ignoring cache. -->
+    <string name="filter_generate_refetch">Reîmprospătare filtre</string>
     <!-- Select save location for filters  -->
     <string name="filter_generate_export">Importă/Exportă</string>
     <!-- A button to open directory chooser to export settings to. -->
+    <string name="filter_export_select">Selectați unde se salvează setările</string>
+    <string name="filter_export_error">Directorul selectat nu poate fi utilizat. Verificați drepturile de scriere.</string>
+    <string name="filter_export_import">Import din memoria externă</string>
     <string name="filter_export_import2">Importă acum</string>
     <string name="filter_export_internal">Stocare internă (implicit)</string>
     <string name="filter_export_external">Stocare externă</string>
