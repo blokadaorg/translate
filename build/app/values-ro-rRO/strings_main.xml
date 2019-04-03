@@ -9,10 +9,13 @@
     <!-- Parameter: branded app name (Blokada). -->
     <string name="main_active">%s este activ.</string>
     <!-- Parameter: branded app name (Blokada). -->
+    <string name="main_active_new">Acum %1$s îți protejează dispozitivul. Poți ajusta în detaliu %1$s sau poți continua să folosești dispozitivul!</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="main_paused">%s este inactiv.</string>
     <!-- Parameter: branded app name (Blokada). -->
+    <string name="main_paused_autoenable">%1$s este oprit din cauză că dispozitivul este deconectat. %1$s va fi activat automat de îndată ce conexiunea la Internet devine disponibilă.</string>
     <!-- Parameter: branded app name (Blokada). -->
+    <string name="main_paused_autoenable_tethering">%1$s este oprit din cauză că Hotspot-ul WiFi este activ. %1$s va fi activat automat de îndată ce Hotspot-ul WiFi este dezactivat.</string>
     <!-- Label for the Quick Settings toggle -->
     <string name="main_quicksettings_toggle">Activator</string>
     <!-- Active status for the Quick Settings toggle -->
@@ -49,6 +52,7 @@
     <!-- An overlay header on top of Patron page -->
     <string name="main_log">Împarte log</string>
     <string name="main_report_title">Raport Blokada</string>
+    <string name="main_report_text">Blokada a întâmpinat o problemă (ori ai cerut să trimiți un raport). Un jurnal va fi atașat care poate conține informații personale. Doar Insiderii de încredere vor putea citi raportul și va fi șters de îndată ce nu mai este nevoie de el.</string>
     <string name="main_report_comment">Rapoartele cu comantarii sunt prioritizate. Ce ai făcut înainte să apară problema?</string>
     <string name="main_report_limit">Limita de rapoarte atinsă. Rămâi aproape pentru noutăți. Mulțumim pentru părere!</string>
     <!-- To display a big number in short way, eg. 1.69 million -->
