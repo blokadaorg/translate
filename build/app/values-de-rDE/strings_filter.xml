@@ -10,7 +10,7 @@
     <!-- Parameter: directory of the file. For example: A file from Downloads -->
     <string name="filter_name_file">Eine Datei von %s</string>
     <!-- As in, "A a file from this device". -->
-    <string name="filter_name_file_unknown">Dieses Gerät</string>
+    <string name="filter_name_file_unknown">diesem Gerät</string>
     <!-- Name of a tab for adding a new host to the blacklist / whitelist. -->
     <string name="filter_edit_name">Host</string>
     <!-- An example format of a hostname. -->
@@ -69,5 +69,5 @@
     <string name="filter_export_import2">Jetzt importieren</string>
     <string name="filter_export_internal">Interner Speicher (Standard)</string>
     <string name="filter_export_external">Externer Speicher</string>
-    <string name="filter_export_external_info">Merke: Deine Auswahl betrifft die blacklist sowie die whitelist. Machen Sie sich sicher, dass Sie Blokada die Erlaubnis für den externen Speicher erteilt haben (in den system Einstellungen). Ansonsten wird der interne Speicher genutzt, egal welchen Speicher sie auswählen. Wenn Sie bereits existierende Einstellungen importieren wollen, tippen Sie auf jetzt importieren bevor Sie dieses Fenster schließen, ansonst werden die Einstellungen überschrieben.</string>
+    <string name="filter_export_external_info">Hinweis: Deine Auswahl betrifft sowohl die Black- als auch die Whitelist. Achte darauf, dass Blokada (in den Systemeinstellungen) der Zugriff auf den externen Speicher gewährt wurde. Ansonsten wird entgegen Deiner Auswahl der interne Speicher genutzt werden. Wenn Du bereits existierende Einstellungen importieren willst, tippe vor dem Schließen dieses Fensters auf \"Jetzt importieren\", sonst werden diese überschrieben.</string>
 </resources>
