@@ -15,16 +15,16 @@
     <string name="filter_edit_name">Host</string>
     <!-- An example format of a hostname. -->
     <string name="filter_edit_name_placeholder">example.com</string>
-    <string name="filter_edit_name_enter">Gib einen Hostnamen ein</string>
+    <string name="filter_edit_name_enter">Hostnamen eingeben</string>
     <string name="filter_edit_name_error">Das sieht nicht korrekt aus. Stelle sicher, dass Du einen Domainnamen wie z.B. \"Beispiel.com\" einträgst.</string>
     <!-- Name of a tab that allows to add a file with hosts. -->
     <string name="filter_edit_file">Datei</string>
-    <string name="filter_edit_file_choose">Wähle eine Hostdatei aus</string>
+    <string name="filter_edit_file_choose">Hostdatei auswählen</string>
     <string name="filter_edit_file_none">Keine Hostdatei ausgewählt</string>
     <string name="filter_edit_file_error">Die ausgewählte Datei scheint keine Hosts zu enthalten.</string>
     <!-- Name of a tab that allows to add a link to hosts. -->
     <string name="filter_edit_link">Link</string>
-    <string name="filter_edit_link_enter">Adresse einer Hostdatei eingeben</string>
+    <string name="filter_edit_link_enter">Gib die Adresse einer Host-Datei an.</string>
     <!-- An example format of a link to hosts file. -->
     <string name="filter_edit_link_placeholder">http://example.com/hosts.txt</string>
     <string name="filter_edit_link_error">Dieser Link kann nicht heruntergeladen werden oder enthält keine Hosts.</string>
@@ -61,13 +61,13 @@
     <!-- Forcefully refetch filters ignoring cache. -->
     <string name="filter_generate_refetch">Filter aktualisieren</string>
     <!-- Select save location for filters  -->
-    <string name="filter_generate_export">Importieren/Exportieren</string>
+    <string name="filter_generate_export">Importieren / Exportieren</string>
     <!-- A button to open directory chooser to export settings to. -->
     <string name="filter_export_select">Wähle aus, wo die Einstellungen gespeichert werden sollen</string>
     <string name="filter_export_error">Ausgewähltes Verzeichnis nicht verwendbar. Bitte Schreibberechtigung überprüfen.</string>
-    <string name="filter_export_import">Importieren von externem Speicher</string>
+    <string name="filter_export_import">Aus externem Speicher importieren</string>
     <string name="filter_export_import2">Jetzt importieren</string>
     <string name="filter_export_internal">Interner Speicher (Standard)</string>
     <string name="filter_export_external">Externer Speicher</string>
-    <string name="filter_export_external_info">Hinweis: Deine Auswahl betrifft sowohl die Black- als auch die Whitelist. Achte darauf, dass Blokada (in den Systemeinstellungen) der Zugriff auf den externen Speicher gewährt wurde. Ansonsten wird entgegen Deiner Auswahl der interne Speicher genutzt werden. Wenn Du bereits existierende Einstellungen importieren willst, tippe vor dem Schließen dieses Fensters auf \"Jetzt importieren\", sonst werden diese überschrieben.</string>
+    <string name="filter_export_external_info">Merke: Deine Auswahl betrifft die blacklist sowie die whitelist. Machen Sie sich sicher, dass Sie Blokada die Erlaubnis für den externen Speicher erteilt haben (in den system Einstellungen). Ansonsten wird der interne Speicher genutzt, egal welchen Speicher sie auswählen. Wenn Sie bereits existierende Einstellungen importieren wollen, tippen Sie auf jetzt importieren bevor Sie dieses Fenster schließen, ansonst werden die Einstellungen überschrieben.</string>
 </resources>
