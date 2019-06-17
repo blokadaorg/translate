@@ -99,8 +99,14 @@
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">متَّصل إلى %s</string>
     <string name="slot_gateway_description">الأداء: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;الإقليم: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">الأداء: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;الإقليم: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; هذه هي البوابة المحددة حاليّاً.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">مرتفع</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">منخفض</string>
+    <string name="panel_section_home_gateways">بوّابات VPN</string>
+    <string name="subscription_success">حسابك يتمّ تفعيله. و هذا قد يستغرق بضع ثوان. شكراً لكم!</string>
+    <string name="slot_protection_header">حالة بلوكادا</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
@@ -108,8 +114,13 @@
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
+    <string name="slot_account_name_restore">إستعادة</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">الإعدادات الرئيسيّة</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">حظر الإعلانات &amp; قوائم</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">إعدادات DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">الإعدادات المتقدِّمة</string>
 </resources>
