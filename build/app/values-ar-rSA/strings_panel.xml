@@ -21,7 +21,14 @@
     <string name="panel_section_apps_system">تطبيقات النظام</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; مسموح</string>
+    <string name="panel_domain_forwarded_desc">تم السماح لهذا الموقع.  لحَظٰرِه ، استخدم الزرّ أدناه.</string>
+    <string name="panel_domain_forwarded_toast">تَمّت الإضافة إلى القائمة البيضاء.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; محظور</string>
+    <string name="panel_domain_blocked_desc">تَمّ حظْر هذا الموقع.  للسماح به في المستقبل ، استخدم الزرّ أدناه.</string>
+    <string name="panel_domain_blocked_toast">تَمّت الإضافة إلى القائمة السوداء.</string>
+    <string name="panel_ruleset">عدّاد الفلاتر</string>
+    <string name="panel_ruleset_title">الفلاتر فيها الآن %s قاعدة.</string>
     <!-- Button to allow blocked domain -->
     <!-- Button to block allowed domain -->
     <!-- Button to open homepage of list's author. Keep it short. -->
