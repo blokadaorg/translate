@@ -60,8 +60,17 @@
     <string name="slot_status_vpn_turned_on">VPN متصل إلى %s</string>
     <string name="slot_status_vpn_connecting">جارِ تفعيل VPN بلوكادا...</string>
     <string name="slot_status_vpn_turned_off">VPN بلوكادا غير مُفَعَُل</string>
-    <string name="slot_status_vpn_desc_on">VPN بلوكادا حاليّاً &lt;b&gt;enabled&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt; جهازك وبياناتك آمنة الآن. إضغط على علامة الاستفهام للحصول على التفاصيل.</string>
+    <string name="slot_status_vpn_desc_on">VPN بلوكادا حاليّاً &lt;b&gt;مُفَعَّل&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;جهازك وبياناتك آمنة الآن. إضغط على علامة الاستفهام للحصول على التفاصيل.</string>
     <string name="slot_status_vpn_desc_off">VPN بلوكادا حاليّاً &lt;b&gt;غير مُفَعَّل&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;عند اتصال VPN ، يتصل جهازك من خلال خوادمنا الآمنة ، و يتمّ تشفير حركة المرور الخاصة بك ، لذلك لا يمكن لأحد رؤية بياناتك. عنوان IP الحقيقي الخاص بك مخفي ، و يُمكِنك الوصول إلى المحتوى المحظور. في بعض الحالات ، يصبح اتصال إنترنت أسرع أيضاً.</string>
+    <string name="slot_status_vpn_lease">تحديث</string>
+    <string name="slot_action_deactivate">إيقاف التشغيل</string>
+    <string name="slot_action_activate">تشغيل</string>
+    <string name="slot_action_deactivate_adblocking">إيقاف تشغيل حظْر الإعلانات</string>
+    <string name="slot_action_activate_adblocking">تشغيل حظْر الإعلانات</string>
+    <string name="slot_dropped_counter">عدّاد النطاقات المحظورة</string>
+    <string name="slot_dropped_counter_info">يعرض هذا العدّاد عدد النطاقات التي تمَّ حظرها منذ تثبيت التطبيق.</string>
+    <string name="slot_dropped_action_clear">إعادة ضبط العدّاد</string>
+    <string name="slot_notifications_title">الإشعارات هي %s.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
