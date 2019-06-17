@@ -4,6 +4,7 @@
     <string name="tunnel_hosts_desc">يَعرض عدد المستضيفين الذين تم حجبهم بواسطة %s.</string>
     <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
     <string name="tunnel_hosts_count2">%s مستضيفين</string>
+    <string name="tunnel_hosts_count">%d مُستَضيفين</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
     <string name="tunnel_hosts_updating">يتم تحديث...</string>
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
@@ -11,8 +12,10 @@
     <string name="tunnel_config_wifi">تحميل الفلاتر فقط في حالة الإتصال ب WiFi</string>
     <string name="tunnel_dropped_count_desc">يَعرض العدد الإجمالي للمُستضيفين المحظورين حتى الآن.</string>
     <string name="tunnel_dropped_count">%d محظور</string>
+    <string name="tunnel_dropped_count2">%s مواقع مَحظورة</string>
     <string name="tunnel_config_refetch_now_title">تحميل القوائم</string>
     <string name="tunnel_config_refetch_now">تحميل القوائم الآن</string>
+    <string name="tunnel_config_refetch_toast">بدأ تحميل القوائم</string>
     <string name="tunnel_config_refetch_now_description">إستخدم الأيقونة أدناه لحذف الملفات المؤقتة و إعادة تحميل قوائمك. قد يكون ذلك مُفيداً إذا كنت تواجه مشاكل تصفية مع الفلاتر التي تستخدمها.</string>
     <string name="tunnel_config_refetch_frequency_title">تواتر تحميل القوائم</string>
     <string name="tunnel_config_refetch_frequency_description">إختر واحد من الإختيارات لتحديد طريقة التطبيق في تحميل القوائم.</string>
