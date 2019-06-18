@@ -123,9 +123,18 @@
     <string name="slot_adblocking_label">Блокировка рекламы &amp; трекеров</string>
     <string name="slot_blocka_label">Аккаунт Blokada VPN</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Управление</string>
+    <string name="slot_account_action_manage_inactive">Активировать аккаунт</string>
+    <string name="slot_account_action_change_id">Восстановить аккаунт</string>
+    <string name="slot_account_action_copy">Копировать ID аккаунта</string>
+    <string name="slot_account_action_copied">ID аккаунта скопирован в буфер обмена</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Подключиться к %s</string>
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_protection_header">Статус Blokada</string>
+    <string name="slot_protection_off">Blokada неактивна</string>
+    <string name="slot_protection_off_desc">Ваше устройство не защищено.</string>
     <string name="slot_protection_action">Настройки</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
