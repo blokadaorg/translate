@@ -102,11 +102,16 @@
     <string name="slot_forwarded_title">網域已轉發</string>
     <string name="slot_whitelist_title">已經是白名單的應用程式</string>
     <string name="slot_list_no_desc">這個條目沒有任何的描述</string>
+    <string name="slot_status_description_active">廣告封鎖目前&lt;b&gt;已啟用&lt;/b&gt;。&lt;br /&gt;&lt;br /&gt;當廣告、追蹤器與其他不需要的東西被封鎖時，您將會看到背景動畫。</string>
+    <string name="slot_status_description_inactive">廣告封鎖目前&lt;b&gt;已停用&lt;/b&gt;。</string>
+    <string name="slot_status_info">當應用程式啟用時，您將會看到畫面頂端的通知列有鑰匙的圖示，這代表了您的裝置已受保護。您可以使用下方的按鈕將應用程式關閉，或是將底部的選單往下滑。</string>
     <string name="slot_status_vpn_turn_off">停用VPN</string>
     <string name="slot_status_vpn_turn_on">啟用VPN</string>
     <string name="slot_status_vpn_turned_on">VPN已連接至 %s</string>
     <string name="slot_status_vpn_connecting">正在啟用Blokada的VPN...</string>
     <string name="slot_status_vpn_turned_off">Blokada的VPN沒有啟用</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN 目前&lt;b&gt;已啟用&lt;/b&gt;。&lt;br /&gt;IP：&lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;您的裝置與資料現在都是安全的。輕點問號按鈕以取得更多資訊。</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN 目前&lt;b&gt;已停用&lt;/b&gt;。&lt;br /&gt;&lt;br /&gt;當連上 VPN 時，您的裝置會透過我們的安全伺服器通訊，而您的流量也會被加密，所以沒有人可以窺探您的資料。您的真實 IP 會被隱藏，您也可以存取被封鎖的內容。在某些情況下，您也可以體驗到較快的網路連線。</string>
     <string name="slot_status_vpn_lease">更新</string>
     <string name="slot_action_deactivate">關閉</string>
     <string name="slot_action_activate">開啟</string>
@@ -116,6 +121,7 @@
     <string name="slot_dropped_counter_info">這個計數器顯示的數字是自從安裝這個應用程式之後所被阻擋之網域的數量</string>
     <string name="slot_dropped_action_clear">重設計數器</string>
     <string name="slot_notifications_title">通知已 %s .</string>
+    <string name="slot_notifications_desc">您可以在此將通知開啟或關閉。請記住，在某些裝置上，Android 將會顯示一個無法關閉的 VPN 通知。</string>
     <string name="slot_notifications_enabled">已開啟</string>
     <string name="slot_notifications_disabled">已停用</string>
     <string name="slot_update_action_refresh">再檢查一次</string>
@@ -126,10 +132,14 @@
     <string name="slot_dropped_share">我已經封鎖了%s個廣告，這都要歸功於%s！ www.blokada.org</string>
     <string name="slot_active">啟用</string>
     <string name="slot_inactive">未啟用</string>
+    <string name="slot_adblocking_label">阻擋廣告與追蹤器</string>
     <string name="slot_adblocking_text">當啟用後, Blokada將會阻擋廣告, 追蹤器, 以及其他任何您不想要的內容. 這幫助您來保護您的隱私, 加速您的裝置並且節省您的數據流量.</string>
     <string name="slot_blocka_label">Blokada的VPN帳號</string>
     <string name="slot_account_label_active">帳號直到 %s 之前有效</string>
     <string name="slot_account_text_account">您的帳號ID為 &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">您的訂閱&lt;b&gt;不活躍&lt;/b&gt;。您需要活躍的帳號以使用 Blokada VPN。請輕點下方的按鈕以啟用它。</string>
+    <string name="slot_account_text_active">您的訂閱目前是&lt;b&gt;啟用狀態&lt;/b&gt;，有效期限至 &lt;b&gt;%s&lt;/b&gt;。請輕點下方的按鈕以管理您的訂閱。</string>
+    <string name="slot_account_info">您不應讓您的帳號 ID 外洩，它在您解除安裝後想要復原帳號時是必要的。除非您手動取消，否則您的訂閱將會自動延長。</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">管理</string>
     <string name="slot_account_action_manage_inactive">啟用帳號</string>
@@ -161,27 +171,45 @@
     <string name="slot_protection_no_adblocking">廣告阻擋 &amp; 追蹤器目前已停用. 您應該啟用它來保護您的隱私以及數據.</string>
     <string name="slot_protection_no_vpn">您尚未連接至Blokada VPN. 您應該考慮使用它, 以獲取對您來說更好的隱私及保安</string>
     <string name="slot_protection_no_start_on_boot">Blokada並沒有設置成在開機時啟動. 您應該保持Blokada永遠開啟來獲得更佳的保護.</string>
+    <string name="slot_protection_no_dns">目前是使用您網路預設的 DNS 伺服器。建議切換到具有隱私意識的 DNS 伺服器。</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada 無法忽略您裝置的電池最佳化功能，所以它可能會被系統砍除。您應該使用您的系統偏好設定來將 Blokada 加入白名單，這樣它就可以保持開啟來保護您的裝置。</string>
+    <string name="slot_protection_description">要開啟設定，請打開底部選單。</string>
+    <string name="slot_start_on_boot_description">啟用開機啟動讓 Blokada 可以一直保持活躍的狀態並保護您的裝置。</string>
     <string name="slot_recommended_dns_label">使用建議的DNS伺服器</string>
+    <string name="slot_recommended_dns_description">當啟用時，Blokada 將會自動選擇建議的 DNS 伺服器以協助提升您的網路速度並保護您的隱私。否則將會使用您網路的預設 DNS 伺服器。如果您在進階設定區塊中手動選擇了 DNS 伺服器，這個設定就會被忽略。</string>
     <string name="slot_update_no_updates">Blokada已經是最新的版本</string>
     <string name="slot_about">關於Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">日誌紀錄</string>
     <string name="slot_help_label">需要幫助嗎？</string>
+    <string name="slot_help_desc">輕點下方的按鈕以開啟我們的說明頁面。您也可以使用我們的社群媒體來取得協助，我們在 Telegram、Facebook、Reddit 與 Twitter 上都有帳號。</string>
     <!-- A button to open help -->
     <string name="slot_help_action">幫助</string>
+    <string name="slot_donate_label">喜歡 Blokada 嗎？請考慮支援我們，這樣我們才能持續改善應用程式。</string>
+    <string name="slot_donate_desc">Blokada 廣告阻擋程式是自由且開放原始碼的，而我們想要繼續保持下去。您的捐款可以協助我們的繼續開發應用程式並引入您最想要看到的新功能。謝謝！</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">贊助</string>
+    <string name="slot_cta_label">嘿！我們想要知道您的意見。</string>
+    <string name="slot_cta_desc">透過參與我們的調查與其他活動來展示您的支持。我們會定期與我們的社群聯繫來取得創意與新發展的回饋，以確保我們正在努力實現您想要看到的功能。</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">開啟</string>
+    <string name="slot_blog_label">看看我們的開發部落格！</string>
+    <string name="slot_blog_desc">The Block 是我們書寫關於專案發展、未來計畫與討論點子的地方。</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">開啟</string>
     <string name="slot_updated_label">Blokada已更新!</string>
+    <string name="slot_updated_desc">您的 Blokada 已是最新。輕點下方按鈕來取得更多關於此更新的資訊。同時，請考慮捐款支持本專案！</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">更多</string>
     <string name="slot_obsolete_label">需要行動:這個版本已經過時!</string>
+    <string name="slot_obsolete_desc">您的 Blokada 太舊了，可能沒辦法正常運作。請下載最新的版本以確保您可以繼續收到更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_obsolete_action">更新</string>
+    <string name="slot_cleanup_label">偵測到多個版本的 Blokada</string>
+    <string name="slot_cleanup_desc">您的裝置上似乎安裝了多個版本的 Blokada。您想要移除其他版本並只保留這個嗎？</string>
     <string name="slot_cleanup_action">清除</string>
+    <string name="account_inactive">您的 Blokada VPN 已過期。您不能連線到 VPN 了。</string>
+    <string name="lease_cant_connect">無法連線至 Blokada VPN。嘗試選取其他閘道。</string>
     <string name="slot_account_name_title">帳號ID</string>
     <string name="slot_account_name_restore">恢復</string>
     <!-- A section in advanced settings. -->
