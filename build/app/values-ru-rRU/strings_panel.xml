@@ -118,20 +118,41 @@
     <string name="slot_telegram_desc">Посетите наш канал Telegram чтобы получить помощь или просто станьте частью нашего сообщества.</string>
     <string name="slot_telegram_action">Открыть</string>
     <string name="slot_dropped_share_title">Поделиться</string>
+    <string name="slot_active">Активен</string>
+    <string name="slot_inactive">Не активен</string>
+    <string name="slot_adblocking_label">Блокировка рекламы &amp; трекеров</string>
     <string name="slot_blocka_label">Аккаунт Blokada VPN</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_protection_action">Настройки</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_label">Требуется действие: эта версия устарела!</string>
+    <string name="slot_obsolete_desc">Ваша версия Blokada устарела и может работать некорректно. Пожалуйста, загрузите самую новую версию, чтобы получать обновления.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Обновить</string>
+    <string name="slot_cleanup_label">Обнаружены несколько версий Blokada</string>
+    <string name="slot_cleanup_desc">Кажется, на вашем устройстве установлено много версий Blokada. Вы хотите удалить другие версии и оставить только одну?</string>
+    <string name="slot_cleanup_action">Удалить</string>
+    <string name="account_inactive">Срок действия Blokada VPN истек. Вы не подключены к VPN.</string>
+    <string name="lease_cant_connect">Не удалось подключиться к Blokada VPN. Попробуйте выбрать другой шлюз.</string>
+    <string name="slot_account_name_title">ID аккаунта</string>
+    <string name="slot_account_name_desc">Введите старый ID учетной записи, чтобы восстановить предыдущую подписку. Вы можете записать свой текущий ID аккаунта на случай ошибки.</string>
+    <string name="slot_account_name_error">ID аккаунта может содержать только буквы и цифры.</string>
+    <string name="slot_account_name_api_error">Этот ID аккаунта некорректен.</string>
+    <string name="slot_account_name_restore">Восстановить</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Основные настройки</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Блокировка рекламы &amp; списки</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Настройки DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Расширенные настройки</string>
 </resources>
