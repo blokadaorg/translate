@@ -172,6 +172,10 @@
     <string name="slot_protection_no_vpn">No estás conectado al VPN de Blokada. Deberías considerarlo para una mejor protección de tu privacidad y seguridad.</string>
     <string name="slot_protection_no_start_on_boot">Blokada no está configurado para iniciar en el arranque. Deberías mantener a Blokada siempre activo para una mejor protección.</string>
     <string name="slot_protection_no_dns">Actualmente se están usando los servidores DNS por defecto de tu red. Cambiar a servidores DNS conscientes de la privacidad es recomendado.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada no está exento de la optimización de batería de tu dispositivo, por lo que puede ser detenido por el sistema. Debes utilizar las preferencias del sistema para añadir a Blokada a la lista blanca para que pueda permanecer activo y proteger tu dispositivo.</string>
+    <string name="slot_protection_description">Para configurar los ajustes, abre el menú inferior.</string>
+    <string name="slot_start_on_boot_description">Habilitando inicio en el arranque permite que Blokada esté activo en todo momento y proteja tu dispositivo.</string>
+    <string name="slot_recommended_dns_label">Usar servidores DNS recomendados</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
