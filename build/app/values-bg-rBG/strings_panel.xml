@@ -20,7 +20,7 @@
     <string name="panel_section_apps_all">Инсталирани приложения</string>
     <string name="panel_section_apps_system">Системни приложения</string>
     <!-- When a domain is allowed (not blocked) -->
-    <string name="panel_domain_forwarded">Позволен &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded">Позволени &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Този домейн е разрешен. За да го блокирате използвайте бутона по-долу.</string>
     <string name="panel_domain_forwarded_toast">Добавен е към белия списък.</string>
     <!-- When a domain is blocked -->
@@ -97,6 +97,10 @@
     <string name="slot_action_external">Външно хранилище</string>
     <string name="slot_filters_title">Списък с филтри</string>
     <string name="slot_filters_description">Можете да синхронизирате списъка с филтри с нашите сървъри, без да губите персонализираните си записи. &lt;br/&gt;&lt;br/&gt;Освен това можете да изтриете всички записи (включително и вашите) и да ги изтеглите отново.</string>
+    <string name="slot_blocked_title">Блокиран домейн</string>
+    <string name="slot_forwarded_title">Препратен домейн</string>
+    <string name="slot_whitelist_title">Бял списък с приложения</string>
+    <string name="slot_list_no_desc">Този запис няма описание.</string>
     <string name="slot_status_description_active">Блокирането на реклами понастоящем &lt;b&gt;е активирано&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Ще видите блокиране на фонова анимация, реклами, тракери и друго нежелано съдържание.</string>
     <string name="slot_status_description_inactive">Блокирането на реклами понастоящем &lt;b&gt;е спряно&lt;/b&gt;.</string>
     <string name="slot_status_info">Когато приложението е Активно, ще видите икона с ключ в лентата за известия в горната част на екрана, което означава, че устройството ви е защитено. Можете да изключите приложението с помощта на бутона по-долу или чрез плъзгане надолу в долното меню.</string>
@@ -129,6 +133,11 @@
     <string name="slot_inactive">Е неактивна</string>
     <string name="slot_adblocking_label">Блокирани реклами &amp; тракери</string>
     <string name="slot_adblocking_text">Когато е активирана Blokada ще блокира реклами, тракери и друго нежелано съдържание. Това помага да защитите личните си данни, да ускорите устройството си и да запазите данните си.</string>
+    <string name="slot_blocka_label">Blokada VPN Профил</string>
+    <string name="slot_account_label_active">Профилът е валиден до %s</string>
+    <string name="slot_account_text_account">Вашиат профилен ID e &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Вашият абонамент е &lt;b&gt;неактивен &lt;/b&gt;.
+Нуждаете се от активен акаунт за да използвате Blokada VPN. Моля, натиснете бутона по-долу за да го активирате.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
