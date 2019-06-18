@@ -17,7 +17,14 @@
     <string name="panel_section_apps_all">Инсталлированные приложения</string>
     <string name="panel_section_apps_system">Системные приложения</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">Разрешен &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">Этот домен был разрешен. Чтобы заблокировать его, используйте кнопку ниже.</string>
+    <string name="panel_domain_forwarded_toast">Добавлен в белый список.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">Заблокирован &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_desc">Этот домен был заблокирован. Чтобы разрешить его, используйте кнопку ниже.</string>
+    <string name="panel_domain_blocked_toast">Добавлен в черный список.</string>
+    <string name="panel_ruleset">Счетчик фильтров</string>
     <!-- Button to allow blocked domain -->
     <!-- Button to block allowed domain -->
     <!-- Button to open homepage of list's author. Keep it short. -->
@@ -33,6 +40,11 @@
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_allapp_whitelist">Белый список</string>
+    <string name="slot_dns_name">Текущий DNS-сервер: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_action_facts">Факты</string>
+    <string name="slot_action_unwhitelist">Отмена</string>
+    <string name="slot_action_author">О приложении</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
