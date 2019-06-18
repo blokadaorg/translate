@@ -75,15 +75,28 @@
     <string name="slot_allapp_normal">Nicht Whitelistet</string>
     <string name="slot_allapp_whitelist">Whitelist</string>
     <string name="slot_dns_name">Aktuelle(r) DNS-Server: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_action_none">Diese Aktion steht noch nicht zur Verfügung.</string>
     <string name="slot_action_unwhitelist">Abbrechen</string>
     <string name="slot_action_author">Über</string>
     <string name="slot_action_share">Teilen</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Ein Eintrag</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Ein Eintrag für %s</string>
     <string name="slot_dns_control_title">Liste der DNS-Server</string>
+    <string name="slot_dns_control_description">Du kannst die DNS-Serverliste mit unseren Servern synchronisieren, ohne eigene Einträge zu verlieren. &lt;br/&gt;&lt;br/&gt;Alternativ kannst Du alle Einträge (einschließlich der eigenen) abwählen und sie neu herunterladen.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Sync</string>
+    <string name="slot_action_refresh_toast">Synchronisation gestartet</string>
+    <string name="slot_export_title">Speicherort für Einstellungen</string>
+    <string name="slot_export_description">Du kannst ändern, wohin die Konfiguration gespeichert (bzw. woher sie geladen) wird. Bitte zuerst \"Importieren\" wählen, wenn bestehende Einstellungen importiert werden sollen, sonst werden sie überschrieben.</string>
+    <string name="slot_action_import">Importieren</string>
     <string name="slot_action_internal">Interner Speicher</string>
     <string name="slot_action_external">Externer Speicher</string>
+    <string name="slot_filters_title">Filterlisten</string>
+    <string name="slot_blocked_title">Domäne blockiert</string>
+    <string name="slot_forwarded_title">Domäne weitergeleitet</string>
+    <string name="slot_whitelist_title">App aus der Whitelist</string>
     <string name="slot_status_vpn_turn_off">VPN deaktivieren</string>
     <string name="slot_status_vpn_turn_on">VPN aktivieren</string>
     <string name="slot_status_vpn_lease">Aktualisieren</string>
