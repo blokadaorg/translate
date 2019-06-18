@@ -83,8 +83,21 @@
     <string name="slot_active">Ativo</string>
     <string name="slot_inactive">Inativo</string>
     <string name="slot_adblocking_label">Bloquear anúncios &amp; rastreadores</string>
+    <string name="slot_adblocking_text">Quando ativado, o Blokada bloqueará anúncios, rastreadores e outros conteúdos indesejados. Isso ajuda a proteger sua privacidade, acelera seu dispositivo e economiza seus dados.</string>
+    <string name="slot_blocka_label">Conta da VPN do Blokada</string>
+    <string name="slot_account_label_active">Conta válida até %s</string>
+    <string name="slot_account_text_account">Sua ID de conta é &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_active">Sua assinatura está &lt;b&gt;ativa&lt;/b&gt; até &lt;b&gt;%s&lt;/b&gt;. Por favor, toque no botão abaixo para gerenciar sua assinatura.</string>
+    <string name="slot_account_info">Você deve manter o ID da sua conta em segredo - isso é necessário para recuperar sua conta caso você desinstale o aplicativo. Sua assinatura será automaticamente estendida, a menos que você a cancele.</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Gerenciar</string>
+    <string name="slot_account_action_manage_inactive">Ativar conta</string>
+    <string name="slot_account_action_change_id">Restaurar conta</string>
+    <string name="slot_account_action_copy">Copiar o ID da conta</string>
+    <string name="slot_account_action_copied">O ID da conta foi copiado para a área de transferência</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Conectar-se a %s</string>
+    <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Região: &lt;b&gt;%s&lt;/b&gt;</string>
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->
