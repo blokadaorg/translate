@@ -97,6 +97,13 @@
     <string name="slot_action_internal">Armazenamento Interno</string>
     <string name="slot_action_external">Armazenamento Externo</string>
     <string name="slot_filters_title">Lista de filtros</string>
+    <string name="slot_filters_description">Você pode sincronizar a lista de filtros com os nossos servidores sem perder suas entradas personalizadas. &lt;br/&gt;&lt;br/&gt;Como alternativa, você pode eliminar todas as entradas (inclusive as suas) e baixá-las novamente.</string>
+    <string name="slot_blocked_title">Domínio bloqueado</string>
+    <string name="slot_forwarded_title">Domínio encaminhado</string>
+    <string name="slot_whitelist_title">App na lista branca</string>
+    <string name="slot_list_no_desc">Esta entrada não tem alguma descrição.</string>
+    <string name="slot_status_description_active">No momento, o bloqueio de anúncios está &lt;b&gt;ativado&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Você verá o plano de fundo animar como anúncios, rastreadores e outros conteúdos indesejados estão sendo bloqueados.</string>
+    <string name="slot_status_description_inactive">No momento, o bloqueio de anúncios está &lt;b&gt;desativado&lt;/b&gt;.</string>
     <string name="slot_status_info">Quando o aplicativo estiver Ativo, você verá o ícone da chave na barra de notificação na parte superior da tela, o que significa que seu dispositivo está protegido. Você pode desativar o aplicativo usando o botão abaixo ou deslizando para baixo o menu inferior.</string>
     <string name="slot_status_vpn_turn_off">Desativar a VPN</string>
     <string name="slot_status_vpn_turn_on">Ativar a VPN</string>
@@ -151,6 +158,7 @@
     <string name="slot_protection_header">Status do Blokada</string>
     <string name="slot_protection_off">O Blokada está inativo</string>
     <string name="slot_protection_off_desc">O seu dispositivo não está protegido.</string>
+    <string name="slot_protection_error">O Blokada está temporariamente inativo</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
