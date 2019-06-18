@@ -68,9 +68,29 @@
     <string name="slot_enter_name_desc">Въведете име на новия запис. Можете също да генерирате предложено име.</string>
     <string name="slot_enter_name_error">Това не ми прилича на нищо.</string>
     <string name="slot_enter_name_generate">Генериране</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; е в белия списък</string>
+    <string name="slot_app_desc">Това приложение е включено в белия списък, което означава, че не се извършва блокиране или филтриране.</string>
+    <string name="slot_allapp_desc">Можете да поставите това приложение в белия списък за да спрете блокирането на трафика към него.</string>
+    <string name="slot_allapp_whitelisted">В белия списък</string>
+    <string name="slot_allapp_normal">Не е в белия списък</string>
+    <string name="slot_allapp_whitelist">Бял списък</string>
+    <string name="slot_dns_name">Актуален DNS сървър(и): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Можете да промените текущите сървъри, като използвате долното меню.</string>
+    <string name="slot_action_none">Това действие все още не е налице.</string>
+    <string name="slot_action_facts">Факти</string>
+    <string name="slot_action_unwhitelist">Отказ</string>
+    <string name="slot_action_author">Относно</string>
+    <string name="slot_action_share">Сподели</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Запис</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Запис за %s</string>
+    <string name="slot_dns_control_title">Списък с DNS сървъри</string>
+    <string name="slot_dns_control_description">Можете да синхронизирате списъка с DNS сървъри с нашите сървъри без да губите персонализираните си записи. &lt;br/&gt;&lt;br/&gt;Освен това можете да изтриете всички записи (включително и вашите) и да ги изтеглите отново.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Синхронизиране</string>
+    <string name="slot_action_refresh_toast">Синхронизирането започна</string>
+    <string name="slot_export_title">Местоположение на настройките</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
