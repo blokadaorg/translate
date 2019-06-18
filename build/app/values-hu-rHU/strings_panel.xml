@@ -5,6 +5,7 @@
     <!-- Main screen section -->
     <!-- Main screen section -->
     <!-- Main screen section -->
+    <string name="panel_section_apps_all">Telepített alkalmazások</string>
     <!-- When a domain is allowed (not blocked) -->
     <!-- When a domain is blocked -->
     <!-- Button to allow blocked domain -->
@@ -32,19 +33,31 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
+    <string name="slot_update_action_refresh">Ellenőrizze újra</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">magas</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">alacsony</string>
+    <string name="slot_protection_action">Beállítások</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Megnyitás</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Megnyitás</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Továbbiak</string>
+    <string name="slot_obsolete_label">Beavatkozás szükséges: ez a verzió elavult!</string>
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Elsődleges beállítások</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
+    <string name="label_dns">DNS beállítások</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Haladó beállítások</string>
 </resources>
