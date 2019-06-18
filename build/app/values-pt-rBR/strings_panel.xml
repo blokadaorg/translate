@@ -170,8 +170,21 @@
     <string name="slot_protection_no_adblocking">O bloqueio de anúncios &amp; rastreadores está desativado no momento. Você deve ativá-lo para proteger a sua privacidade e seus dados.</string>
     <string name="slot_protection_no_vpn">Você não está conectado à VPN do Blokada. Você deve considerar isso para uma melhor proteção da sua privacidade e segurança.</string>
     <string name="slot_protection_no_start_on_boot">O Blokada não está configurado para carregar na inicialização. Você deve manter o Blokada sempre ativado para uma proteção melhor.</string>
+    <string name="slot_protection_no_dns">Os servidores DNS padrão da sua rede estão sendo usados atualmente. Recomenda-se alternar para servidores DNS com privacidade.</string>
+    <string name="slot_protection_no_battery_whitelist">O Blokada não está isento da otimização da bateria do seu dispositivo, portanto, ele pode ser encerrado pelo sistema. Você deve usar as preferências do sistema para colocar o Blokada na lista de permissões, daí ele poderá permanecer ativo e irá proteger o seu dispositivo.</string>
+    <string name="slot_protection_description">Para definir as configurações, abra o menu inferior.</string>
+    <string name="slot_start_on_boot_description">Habilitar o carregamento na inicialização permite que o Blokada esteja ativo o tempo todo e proteja seu dispositivo.</string>
+    <string name="slot_recommended_dns_label">Usar servidores de DNS recomendados</string>
+    <string name="slot_recommended_dns_description">Quando ativado, o Blokada escolherá automaticamente os servidores DNS recomendados para ajudar a acelerar sua Internet e proteger a sua privacidade. Caso contrário, os servidores DNS padrão da sua rede serão usados. Se você escolher servidores DNS manualmente na seção Avançado, essa configuração será ignorada.</string>
+    <string name="slot_update_no_updates">O Blokada está atualizado</string>
+    <string name="slot_about">Sobre o Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Registo</string>
+    <string name="slot_help_label">Precisa de ajuda?</string>
+    <string name="slot_help_desc">Toque no botão abaixo para abrir nossa página de ajuda. Você também pode usar nossas mídias sociais para obter ajuda - nós estamos no Telegram, Facebook, Reddit e Twitter.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Ajuda</string>
+    <string name="slot_donate_label">Está gostando do Blokada? Considere nos apoiar, daí poderemos continuar melhorando o aplicativo.</string>
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
