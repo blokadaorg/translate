@@ -95,8 +95,19 @@
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Sambungkan ke %s</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="panel_section_home_gateways">VPN Gateways</string>
+    <string name="subscription_success">Akun Anda sedang diaktifkan. Mungkin akan memakan sedikit waktu. Terima kasih!</string>
+    <string name="slot_protection_header">Status Blokada</string>
+    <string name="slot_protection_off">Blokada tidak aktif</string>
+    <string name="slot_protection_off_desc">Perangkat Anda terlindungi.</string>
+    <string name="slot_protection_error">Blokada untuk sementara tidak aktif</string>
+    <string name="slot_protection_error_desc">Hal ini bisa disebabkan oleh masalah pada jaringan, perangkat atau software. Blokada akan aktif kembali secara otomatis, namun Anda bisa mencoba mengaktifkan Blokada secara manual atau merestart perangkat Anda. Jika masalah berlanjut, silakan hubungi kami di Telegram.</string>
+    <string name="slot_protection_disconnected">Perangkat Anda offline/tidak terkoneksi</string>
+    <string name="slot_protection_disconnected_desc">Blokada terhenti sementara dikarenakan perangkat Anda tidak terkoneksi ke internet. Blokada akan kembali aktif secara otomatis saat perangkat Anda telah terkoneksi ke internet.</string>
+    <string name="slot_protection_activating">Blokada sedang diaktifkan</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
@@ -105,7 +116,11 @@
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Pengaturan Utama</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Pemblokiran iklan &amp; daftar</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Pengaturan DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Pengaturan lanjutan</string>
 </resources>
