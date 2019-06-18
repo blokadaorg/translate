@@ -107,6 +107,14 @@
     <string name="slot_status_vpn_turned_on">VPN conectado a %s</string>
     <string name="slot_status_vpn_connecting">Activando el VPN de Blokada...</string>
     <string name="slot_status_vpn_turned_off">El VPN de Blokada no está activado</string>
+    <string name="slot_status_vpn_desc_on">El VPN de Blokada está actualmente &lt;b&gt;activado&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Tu dispositivo y datos ahora están seguros. Toca el signo de interrogación para más detalles.</string>
+    <string name="slot_status_vpn_desc_off">El VPN de Blokada esta actualmente &lt;b&gt;desactivado&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Cuando el VPN está conectado, tu dispositivo se comunica a través de nuestros servidores seguros y tu tráfico es encriptado, así nadie puede ver tus datos. Tu dirección IP real es escondida y puedes acceder contenido bloqueado. En algunos casos, también puedes experimentar una conexión a Internet mas rápida.</string>
+    <string name="slot_status_vpn_lease">Actualizar</string>
+    <string name="slot_action_deactivate">Desactivar</string>
+    <string name="slot_action_activate">Activar</string>
+    <string name="slot_action_deactivate_adblocking">Desactivar bloqueo de anuncios</string>
+    <string name="slot_action_activate_adblocking">Activar bloqueo de anuncios</string>
+    <string name="slot_dropped_counter">Contador de dominios bloqueados</string>
     <string name="slot_dropped_counter_info">Este contador muestra el número de dominios que han sido bloqueados desde la instalación de la aplicación.</string>
     <string name="slot_dropped_action_clear">Reiniciar contador</string>
     <string name="slot_notifications_title">Las notificaciones están %s.</string>
@@ -123,6 +131,7 @@
     <string name="slot_inactive">Inactivo</string>
     <string name="slot_adblocking_label">Bloquea anuncios &amp; rastreadores</string>
     <string name="slot_adblocking_text">Cuando está activado, Blokada bloqueará anuncios, rastreadores y otro contenido no deseado. Esto ayuda a proteger tu privacidad, acelerar tu dispositivo y ahorrar tus datos.</string>
+    <string name="slot_blocka_label">Cuenta del VPN de Blokada</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
