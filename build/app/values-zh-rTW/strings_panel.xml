@@ -26,12 +26,24 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">已封鎖 &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_desc">這個網域已被封鎖. 要在未來允許它,請使用下方的按鈕.</string>
+    <string name="panel_domain_blocked_toast">已加入黑名單.</string>
+    <string name="panel_ruleset">過濾器計數器</string>
+    <string name="panel_ruleset_title">過濾器現在有 %s 個規則.</string>
+    <string name="panel_ruleset_updating">正在更新過濾器...</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">允許</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">封鎖</string>
+    <string name="slot_action_close">關閉</string>
+    <string name="slot_action_remove">移除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
+    <string name="slot_action_credits">網站</string>
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">開啟</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">關閉</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_switch_switch_bitch">切換</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
