@@ -61,6 +61,24 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_status_vpn_desc_on">Blokada VPN saat ini &lt;b&gt;aktif&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Perangkat dan data Anda sudah aman sekarang. Ketuk ikon tanda tanya untuk detail lebih lanjut.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN saat ini &lt;b&gt;nonaktif&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Ketika VPN diaktifkan, perangkat Anda akan berkomunikasi secara aman melalui server kami, dan lalu lintas data Anda akan dienkripsi, sehingga tidak ada yang bisa melihat data Anda. IP asli Anda disembunyikan, dan Anda akan bisa mengakses konten yang diblokir. Dalam beberapa kasus, Anda bisa mengakses internet dengan lebih cepat.</string>
+    <string name="slot_status_vpn_lease">Segarkan</string>
+    <string name="slot_action_deactivate">Nonaktifkan</string>
+    <string name="slot_action_activate">Aktifkan</string>
+    <string name="slot_action_deactivate_adblocking">Nonaktifkan pemblokiran iklan</string>
+    <string name="slot_action_activate_adblocking">Aktifkan pemblokiran iklan</string>
+    <string name="slot_notifications_desc">Anda bisa mengatur status notifikasi di sini (hidup atau mati). Harap diingat bahwa pada beberapa perangkat, Android akan menampilkan notifikasi VPN terpisah yang tidak bisa dinonaktifkan.</string>
+    <string name="slot_notifications_enabled">diaktifkan</string>
+    <string name="slot_notifications_disabled">dinonaktifkan</string>
+    <string name="slot_update_action_refresh">Periksa kembali</string>
+    <string name="slot_telegram_title">Bergabung bersama kami di Telegram!</string>
+    <string name="slot_telegram_desc">Kunjungi channel Telegram kami untuk meminta bantuan atau bergabung dengan komunitas.</string>
+    <string name="slot_telegram_action">Buka</string>
+    <string name="slot_dropped_share_title">Bagikan ke</string>
+    <string name="slot_dropped_share">Saya telah memblokir %s iklan berkat %s! www.blokada.org</string>
+    <string name="slot_active">Aktif</string>
+    <string name="slot_inactive">Tidak aktif</string>
+    <string name="slot_adblocking_label">Memblokir iklan &amp; tracker</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
