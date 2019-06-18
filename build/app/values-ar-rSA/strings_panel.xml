@@ -70,9 +70,28 @@
     <string name="slot_enter_name_generate">توليد</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; في القائمة البيضاء</string>
     <string name="slot_app_desc">تم إدراج هذا التطبيق في القائمة البيضاء ، ممّا يعني أنّه لن يتمّ إجراء حظر أو فلترة عليه.</string>
+    <string name="slot_allapp_desc">يمكنك إدراج هذا التطبيق في القائمة البيضاء لإيقاف أيّ حظر على حركة اتصاله بالإنترنت.</string>
+    <string name="slot_allapp_whitelisted">أُضيف إلى القائمة البيضاء</string>
+    <string name="slot_allapp_normal">غير مُضاف إلى القائمة البيضاء</string>
+    <string name="slot_allapp_whitelist">أضِف إلى القائمة البيضاء</string>
+    <string name="slot_dns_name">خَوادِم DNS الحاليّة: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">يُمكِنك تغيير الخَوادِم الحاليّة باستخدام القائمة السفلية.</string>
+    <string name="slot_action_none">هذا الإجراء غير مُتاح حتّى الآن.</string>
+    <string name="slot_action_facts">حقائق</string>
+    <string name="slot_action_unwhitelist">إلغاء</string>
+    <string name="slot_action_author">حولَ</string>
+    <string name="slot_action_share">مُشارَكة</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">إدخال</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">مدخل ل %s</string>
+    <string name="slot_dns_control_title">قائمة خَوادِم DNS</string>
+    <string name="slot_dns_control_description">يُمكِنك مزامنة قائمة خوادم DNS مع خوادمنا دون فقدان إدخالاتك المُخصَّصة. &lt;br/&gt;&lt;br/&gt;بدلاً من ذلك ، يُمكِنك إسقاط جميع الإدخالات (بما في ذلك إدخالاتك) وتنزيلها مرة أخرى.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">مُزامنة</string>
+    <string name="slot_action_refresh_toast">بدأت المُزامنة</string>
+    <string name="slot_action_restore">إسقاط</string>
+    <string name="slot_export_title">موقع الإعدادات</string>
     <string name="slot_status_description_inactive">حظر الإعلانات حاليّاً &lt;b&gt;disabled&lt;/b&gt;.</string>
     <string name="slot_status_info">عندما يكون التطبيق نشطاً ، سترى أيقونة المفتاح في شريط الإعلام أعلى الشاشة ، مما يعني أن جهازك محمي. يُمكِنك إيقاف تشغيل التطبيق باستخدام الزرّ أدناه ، أو عن طريق تمرير القائمة السفلية إلى أسفل.</string>
     <string name="slot_status_vpn_turn_off">تعطيل VPN</string>
