@@ -44,9 +44,27 @@
     <string name="slot_switch_off">關閉</string>
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">切換</string>
+    <string name="slot_start">向上滑以啟動</string>
+    <string name="slot_intro_new">歡迎來到 %s! 點擊這裡來獲得它的介紹.</string>
+    <string name="slot_intro_new_header">如何使用新的介面?</string>
+    <string name="slot_new_filter">封鎖新的主機</string>
+    <string name="slot_new_filter_list">增加新的列表</string>
+    <string name="slot_new_filter_whitelist">將新的主機列為白名單</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">取消設定</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">設定</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">無效</string>
+    <string name="slot_continue">繼續</string>
+    <string name="slot_enter_domain_title">網域</string>
+    <string name="slot_enter_domain_file">檔案</string>
+    <string name="slot_enter_name_title">名稱</string>
+    <string name="slot_enter_name_generate">創建</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 已成為白名單</string>
+    <string name="slot_allapp_whitelisted">白名單</string>
+    <string name="slot_allapp_normal">不是白名單</string>
+    <string name="slot_allapp_whitelist">白名單</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
