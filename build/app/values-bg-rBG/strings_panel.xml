@@ -102,9 +102,14 @@
     <string name="slot_status_info">Когато приложението е Активно, ще видите икона с ключ в лентата за известия в горната част на екрана, което означава, че устройството ви е защитено. Можете да изключите приложението с помощта на бутона по-долу или чрез плъзгане надолу в долното меню.</string>
     <string name="slot_status_vpn_turn_off">Деактивиране на VPN</string>
     <string name="slot_status_vpn_turn_on">Активиране на VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN е свързана с %s</string>
     <string name="slot_status_vpn_connecting">Активиране на Blokada VPN...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN не е активирана</string>
     <string name="slot_status_vpn_desc_on">Блокада VPN понастоящем &lt;b&gt;е активирана&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Сега устройството и данните Ви са защитени. Докоснете въпросния знак за подробности.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN понастоящем &lt;b&gt;е деактивирана&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Когато VPN е свързан, вашето устройство комуникира чрез нашите защитени сървъри и трафикът ви е шифрован, така че никой не може да види данните ви. Истинският ви IP адрес е скрит и имате достъп до блокирано съдържание. В някои случаи можете да имате и по-бърза интернет връзка.</string>
+    <string name="slot_status_vpn_lease">Опресняване</string>
+    <string name="slot_action_deactivate">Изключване</string>
+    <string name="slot_action_activate">Включване</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
