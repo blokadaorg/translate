@@ -30,18 +30,31 @@
     <string name="panel_ruleset">Contador de filtros</string>
     <string name="panel_ruleset_title">Os filtros agora têm %s regras.</string>
     <string name="panel_ruleset_updating">Atualizando filtros...</string>
+    <string name="panel_ruleset_built">Os filtros estão agora configurados com &lt;b&gt;%s&lt;/b&gt; regras. Até &lt;b&gt;%s&lt;/b&gt; regras podem ser armazenadas na memória do seu dispositivo em geral. Lembre-se, isso é apenas uma estimativa e está sujeita a alterações, dependendo de outros aplicativos no seu dispositivo, por isso você deve ficar bem abaixo desse limite para estar seguro.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Permitir</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Bloquear</string>
+    <string name="slot_action_close">Fechar</string>
+    <string name="slot_action_remove">Remover</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
+    <string name="slot_action_credits">Site</string>
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Ativado</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Desativado</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_switch_switch_bitch">Alternar</string>
+    <string name="slot_start">deslize para cima para iniciar</string>
+    <string name="slot_intro_new">Bem-vindo a %s! Toque aqui para uma introdução.</string>
+    <string name="slot_intro_new_header">Como usar a nova interface?</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_status_info">Quando o aplicativo estiver Ativo, você verá o ícone da chave na barra de notificação na parte superior da tela, o que significa que seu dispositivo está protegido. Você pode desativar o aplicativo usando o botão abaixo ou deslizando para baixo o menu inferior.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
