@@ -88,6 +88,7 @@
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Sync</string>
     <string name="slot_action_refresh_toast">Synchronisation gestartet</string>
+    <string name="slot_action_restore">Verwerfen</string>
     <string name="slot_export_title">Speicherort für Einstellungen</string>
     <string name="slot_export_description">Du kannst ändern, wohin die Konfiguration gespeichert (bzw. woher sie geladen) wird. Bitte zuerst \"Importieren\" wählen, wenn bestehende Einstellungen importiert werden sollen, sonst werden sie überschrieben.</string>
     <string name="slot_action_import">Importieren</string>
@@ -98,12 +99,14 @@
     <string name="slot_blocked_title">Domain blockiert</string>
     <string name="slot_forwarded_title">Domain weitergeleitet</string>
     <string name="slot_whitelist_title">App aus der Whitelist</string>
+    <string name="slot_list_no_desc">Dieser Eintrag hat keine Beschreibung.</string>
     <string name="slot_status_description_active">Anzeigenblockierung ist momentan &lt;b&gt;aktiviert&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Du siehst den Hintergrund animiert, da Werbung, Tracker und andere unerwünschte Inhalte blockiert werden.</string>
     <string name="slot_status_description_inactive">Anzeigenblockierung ist momentan &lt;b&gt;deaktiviert&lt;/b&gt;.</string>
     <string name="slot_status_vpn_turn_off">VPN deaktivieren</string>
     <string name="slot_status_vpn_turn_on">VPN aktivieren</string>
     <string name="slot_status_vpn_turned_on">VPN mit %s verbunden</string>
     <string name="slot_status_vpn_connecting">Blokada-VPN aktivieren ...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN ist nicht aktiviert</string>
     <string name="slot_status_vpn_lease">Aktualisieren</string>
     <string name="slot_action_deactivate">Ausschalten</string>
     <string name="slot_action_activate">Einschalten</string>
@@ -117,6 +120,7 @@
     <string name="slot_notifications_enabled">aktiviert</string>
     <string name="slot_notifications_disabled">deaktiviert</string>
     <string name="slot_update_action_refresh">Erneut überprüfen</string>
+    <string name="slot_telegram_title">Folgen Sie uns auf Telegram!</string>
     <string name="slot_telegram_action">Öffnen</string>
     <string name="slot_dropped_share_title">Teilen mit</string>
     <string name="slot_active">Aktiv</string>
@@ -126,6 +130,7 @@
     <string name="slot_blocka_label">Blokada-VPN-Konto</string>
     <string name="slot_account_label_active">Nutzerkonto ist gültig bis %s</string>
     <string name="slot_account_text_account">Deine Konto-ID ist &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Dein Abonnement ist &lt;b&gt;inaktiv&lt;/b&gt;. Du brauchst ein aktives Konto, um Blokada VPN zu verwenden. Bitte tippe auf den Schalter unten, um es zu aktivieren.</string>
     <string name="slot_account_text_active">Dein Abonnement ist &lt;b&gt;aktiv&lt;/b&gt; bis &lt;b&gt;%s&lt;/b&gt;. Bitte tippe auf den Schalter unten, um das Abonnement zu verwalten.</string>
     <string name="slot_account_info">Du solltest Deine Konto-ID geheim halten - sie wird benötigt, um Dein Konto wiederherzustellen, falls die App deinstalliert wird. Dein Abonnement wird automatisch verlängert, solange es nicht gekündigt wird.</string>
     <!-- Action to manage active subscription. Keep it short -->
@@ -157,6 +162,7 @@
     <string name="slot_protection_action">Einstellungen</string>
     <string name="slot_protection_ok">Das Gerät ist vollständig geschützt! VPN und Adblocking sind aktiv.</string>
     <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um Deine Privatsphäre und Daten zu schützen.</string>
+    <string name="slot_update_no_updates">Blokada ist aktuell</string>
     <string name="slot_about">Über Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Protokoll</string>
@@ -168,6 +174,7 @@
     <string name="slot_cta_label">Psst! Wir würden gerne Deine Meinung erfahren.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Öffnen</string>
+    <string name="slot_blog_label">Schauen Sie sich unseren Entwicklungs-Blog an!</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Öffnen</string>
     <string name="slot_updated_label">Blokada wurde aktualisiert!</string>
@@ -182,6 +189,7 @@
     <string name="slot_cleanup_desc">Es scheint, dass viele Versionen von Blokada auf dem Gerät installiert sind. Sollen die anderen Versionen entfernt werden und nur eine bleiben?</string>
     <string name="slot_cleanup_action">Aufräumen</string>
     <string name="account_inactive">Dein Blokada-VPN ist abgelaufen. Du bist nicht mit dem VPN verbunden.</string>
+    <string name="slot_account_name_restore">Wiederherstellen</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
