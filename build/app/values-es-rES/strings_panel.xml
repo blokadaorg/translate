@@ -50,9 +50,20 @@
     <string name="slot_intro_desc">Puedes tocar en cualquier ítem, como este, para abrirlo y realizar acciones en él. Por ejemplo, este ítem puede ser eliminado una vez hayas terminado con él. &lt;br/&gt;&lt;br/&gt;Actualmente estás en la sección de Inicio. Desliza hacia la izquierda o derecha para ver secciones adicionales. Cada una tiene su propio menú inferior - ábrelo deslizando hacia arriba. &lt;br/&gt;&lt;br/&gt;¡Continúa y explora la aplicación ahora!</string>
     <string name="slot_intro_info">Psst... Algunos ítems tienen el icono de signo de interrogación en ellos. ¡Tocándolo mostrará un mensaje de ayuda corto, como este!</string>
     <string name="slot_new_filter">Bloquear nuevo host</string>
+    <string name="slot_new_filter_list">Añadir nueva lista</string>
+    <string name="slot_new_filter_whitelist">Añadir nuevo host en la lista blanca</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">sin definir</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">definido</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">inválido</string>
+    <string name="slot_continue">Continuar</string>
+    <string name="slot_enter_domain_title">Dominio(s)</string>
+    <string name="slot_enter_domain_desc">Introduce dominios separados por una coma. También puedes pegar un enlace a cualquier lista de hosts, o importar un archivo de lista de hosts local.</string>
+    <string name="slot_enter_domain_error">Esto no me parece nada.</string>
+    <string name="slot_enter_domain_file">Archivo</string>
+    <string name="slot_enter_name_title">Nombre</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
