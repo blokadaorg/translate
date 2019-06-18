@@ -21,15 +21,15 @@
     <string name="panel_section_apps_system">Aplikasi Sistem</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; diizinkan</string>
-    <string name="panel_domain_forwarded_desc">Domain ini telah diberi izin akses. Gunakan tombol di bawah ini untuk memblokir domain tersebut.</string>
+    <string name="panel_domain_forwarded_desc">Domain ini telah diperbolehkan. Gunakan tombol di bawah ini untuk memblokir domain tersebut.</string>
     <string name="panel_domain_forwarded_toast">Ditambahkan ke whitelist.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
     <string name="panel_domain_blocked_desc">Domain ini telah diblokir. Gunakan tombol di bawah ini jika Anda mengizinkan domain tersebut untuk diakses.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
     <string name="panel_ruleset_title">Filter sekarang memiliki %s aturan.</string>
-    <string name="panel_ruleset_updating">Meng-update filter...</string>
-    <string name="panel_ruleset_built">Filter telah dikonfigurasi dengan &lt;b&gt;%s&lt;/b&gt; aturan. Keseluruhan, memori perangkat Anda dapat memuat &lt;b&gt;%s&lt;/b&gt; aturan. Namun harap diingat bahwa angka tersebut hanya berupa perkiraan dan bisa saja berubah tergantung kepada jumalh aplikasi yang terinstal di perangkat Anda, sehingga sebaiknya Anda menjaga agar angka tersebut berada di bawah ambang batas.</string>
+    <string name="panel_ruleset_updating">Memperbaharui filter...</string>
+    <string name="panel_ruleset_built">Filter telah dikonfigurasi dengan &lt;b&gt;%s&lt;/b&gt; aturan. Secara keseluruhan, memori perangkat Anda dapat memuat &lt;b&gt;%s&lt;/b&gt; aturan. Namun harap diingat bahwa angka tersebut hanya berupa perkiraan dan bisa saja berubah tergantung kepada jumalh aplikasi yang terinstal di perangkat Anda, sehingga sebaiknya Anda menjaga agar angka tersebut tetap berada di bawah ambang batas.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Izinkan</string>
     <!-- Button to block allowed domain -->
