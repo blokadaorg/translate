@@ -143,15 +143,37 @@
     <string name="slot_protection_action">設定</string>
     <string name="slot_protection_ok">您的裝置已受到全面性的保護! VPN以及廣告阻擋皆已啟用.</string>
     <string name="slot_protection_no_adblocking">廣告阻擋 &amp; 追蹤器目前已停用. 您應該啟用它來保護您的隱私以及數據.</string>
+    <string name="slot_protection_no_vpn">您尚未連接至Blokada VPN. 您應該考慮使用它, 以獲取對您來說更好的隱私及保安</string>
+    <string name="slot_protection_no_start_on_boot">Blokada並沒有設置成在開機時啟動. 您應該保持Blokada永遠開啟來獲得更佳的保護.</string>
+    <string name="slot_recommended_dns_label">使用建議的DNS伺服器</string>
+    <string name="slot_update_no_updates">Blokada已經是最新的版本</string>
+    <string name="slot_about">關於Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">日誌紀錄</string>
+    <string name="slot_help_label">需要幫助嗎？</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">幫助</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">贊助</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">開啟</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">開啟</string>
+    <string name="slot_updated_label">Blokada已更新!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">更多</string>
+    <string name="slot_obsolete_label">需要行動:這個版本已經過時!</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">更新</string>
+    <string name="slot_cleanup_action">清除</string>
+    <string name="slot_account_name_title">帳號ID</string>
+    <string name="slot_account_name_restore">恢復</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">主要設定</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">廣告阻擋 &amp; 列表</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">DNS設定</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">進階設定</string>
 </resources>
