@@ -123,8 +123,18 @@
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">連接至 %s</string>
     <string name="slot_gateway_description">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP位置: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;區域: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP位置: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;區域: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;這是目前您所選擇的閘道</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">低</string>
+    <string name="panel_section_home_gateways">VPN閘道</string>
+    <string name="subscription_success">正在啟用您的帳號. 這可能需要花個幾秒鐘的時間. 謝謝您!</string>
+    <string name="slot_protection_header">Blokada的狀態</string>
+    <string name="slot_protection_off">Blokada正在閒置中</string>
+    <string name="slot_protection_off_desc">您的裝置並無受到保護.</string>
+    <string name="slot_protection_error">Blokada暫時閒置中</string>
+    <string name="slot_protection_disconnected">您的裝置已離線</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
