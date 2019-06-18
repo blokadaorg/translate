@@ -4,6 +4,7 @@
     <!-- Main screen section -->
     <!-- Main screen section -->
     <!-- Main screen section -->
+    <string name="panel_section_apps">Apps</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Hilfe</string>
     <string name="panel_section_apps_all">Installierte Apps</string>
@@ -21,19 +22,45 @@
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_continue">Fortsetzen</string>
+    <string name="slot_enter_domain_file">Datei</string>
+    <string name="slot_enter_name_title">Name</string>
+    <string name="slot_action_unwhitelist">Abbrechen</string>
+    <string name="slot_action_author">Über</string>
+    <string name="slot_action_share">Teilen</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_internal">Interner Speicher</string>
+    <string name="slot_action_external">Externer Speicher</string>
+    <string name="slot_status_vpn_turn_off">VPN deaktivieren</string>
+    <string name="slot_status_vpn_turn_on">VPN aktivieren</string>
+    <string name="slot_status_vpn_lease">Aktualisieren</string>
+    <string name="slot_action_deactivate">Ausschalten</string>
+    <string name="slot_action_activate">Einschalten</string>
+    <string name="slot_notifications_enabled">aktiviert</string>
+    <string name="slot_notifications_disabled">deaktiviert</string>
+    <string name="slot_active">Aktiv</string>
+    <string name="slot_inactive">Inaktiv</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">hoch</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">niedrig</string>
+    <string name="slot_protection_header">Blokada Status</string>
+    <string name="slot_protection_off">Blokada ist inaktiv</string>
+    <string name="slot_protection_error">Blokada ist vorübergehend inaktiv</string>
+    <string name="slot_protection_action">Einstellungen</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
+    <string name="slot_help_action">Hilfe</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Spenden</string>
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Mehr</string>
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
