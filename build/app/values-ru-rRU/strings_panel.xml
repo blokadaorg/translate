@@ -59,14 +59,66 @@
     <string name="slot_invalid">недопустимо</string>
     <string name="slot_continue">Продолжить</string>
     <string name="slot_enter_domain_title">Домен(ы)</string>
+    <string name="slot_enter_domain_desc">Введите домены, разделенные запятой. Вы также можете вставить ссылку на любой список хостов или импортировать локальный файл со списком.</string>
+    <string name="slot_enter_domain_file">Файл</string>
+    <string name="slot_enter_name_title">Имя</string>
+    <string name="slot_enter_name_desc">Введите, либо сгенерируйте имя для новой записи.</string>
+    <string name="slot_enter_name_generate">Генерировать</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; добавлено в белый список</string>
+    <string name="slot_app_desc">Это приложение добавлено в белый список. Теперь для него не будет происходить блокировка или фильтрация.</string>
+    <string name="slot_allapp_desc">Вы можете внести это приложение в белый список, чтобы прекратить блокировку любого его трафика.</string>
+    <string name="slot_allapp_whitelisted">В белом списке</string>
+    <string name="slot_allapp_normal">Не в белом списке</string>
     <string name="slot_allapp_whitelist">Белый список</string>
     <string name="slot_dns_name">Текущий DNS-сервер: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Вы можете изменить текущие серверы с помощью нижнего меню.</string>
+    <string name="slot_action_none">Это действие еще не доступно.</string>
     <string name="slot_action_facts">Факты</string>
     <string name="slot_action_unwhitelist">Отмена</string>
     <string name="slot_action_author">О приложении</string>
+    <string name="slot_action_share">Поделиться</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_dns_control_title">Список DNS-серверов</string>
+    <string name="slot_dns_control_description">Вы можете синхронизировать список DNS-серверов с нашими серверами без потери ваших записей. &lt;br/&gt;&lt;br/&gt;Кроме того, вы можете удалить все записи (включая вашу) и загрузить их снова.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Синхронизация</string>
+    <string name="slot_action_refresh_toast">Синхронизация началась</string>
+    <string name="slot_action_restore">Прервать</string>
+    <string name="slot_export_title">Настроки сохранения</string>
+    <string name="slot_export_description">Можно изменить место сохранения конфигурации. Если вы не импортируете существующие настройки, то они будут перезаписаны.</string>
+    <string name="slot_action_import">Импорт</string>
+    <string name="slot_action_internal">Внутреннее хранилище</string>
+    <string name="slot_action_external">Внешнее хранилище</string>
+    <string name="slot_filters_title">Список фильтров</string>
+    <string name="slot_filters_description">Вы можете синхронизировать список фильтров с нашими серверами без потери ваших записей. &lt;br/&gt;&lt;br/&gt;Кроме того, вы можете удалить все записи (включая вашу) и загрузить их снова.</string>
+    <string name="slot_blocked_title">Домен заблокирован</string>
+    <string name="slot_forwarded_title">Домен переадресован</string>
+    <string name="slot_whitelist_title">Белый список приложений</string>
+    <string name="slot_list_no_desc">Эта запись не имеет никакого описания.</string>
+    <string name="slot_status_vpn_turn_off">Отключить VPN</string>
+    <string name="slot_status_vpn_turn_on">Включить VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN подключен к %s</string>
+    <string name="slot_status_vpn_connecting">Включение Blokada VPN...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN не включен</string>
+    <string name="slot_status_vpn_lease">Обновить</string>
+    <string name="slot_action_deactivate">Отключить</string>
+    <string name="slot_action_activate">Включить</string>
+    <string name="slot_action_deactivate_adblocking">Отключить блокировку рекламы</string>
+    <string name="slot_action_activate_adblocking">Включить блокировку рекламы</string>
+    <string name="slot_dropped_counter">Счетчик заблокированных доменов</string>
+    <string name="slot_dropped_counter_info">Этот счетчик отображает количество доменов, которые были заблокированы с момента установки приложения.</string>
+    <string name="slot_dropped_action_clear">Сбросить счетчик</string>
+    <string name="slot_notifications_title">Уведомления %s.</string>
+    <string name="slot_notifications_desc">Вы можете включить или выключить уведомления здесь. Помните, что на некоторых устройствах Android будет отображать отдельное уведомление VPN, которое нельзя отключить.</string>
+    <string name="slot_notifications_enabled">включено</string>
+    <string name="slot_notifications_disabled">отключено</string>
+    <string name="slot_update_action_refresh">Проверить снова</string>
+    <string name="slot_telegram_title">Присоединяйтесь к нам в Telegram!</string>
+    <string name="slot_telegram_desc">Посетите наш канал Telegram чтобы получить помощь или просто станьте частью нашего сообщества.</string>
+    <string name="slot_telegram_action">Открыть</string>
+    <string name="slot_dropped_share_title">Поделиться</string>
+    <string name="slot_blocka_label">Аккаунт Blokada VPN</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
