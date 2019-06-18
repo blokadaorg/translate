@@ -78,9 +78,57 @@
     <string name="slot_dns_dns">您可以使用底部菜单更改当前服务器。</string>
     <string name="slot_action_none">此操作尚未可用。</string>
     <string name="slot_action_facts">事实</string>
+    <string name="slot_action_unwhitelist">取消</string>
+    <string name="slot_action_author">关于</string>
+    <string name="slot_action_share">分享</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">条目</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">%s 的条目</string>
+    <string name="slot_dns_control_title">DNS服务器列表</string>
+    <string name="slot_dns_control_description">您可以在我们的服务器同步DNS服务器列表，同时不丢失您的自定义条目。 &lt;br/&gt;&lt;br/&gt;或者，您可以丢弃所有条目(包括您的)，并再次下载。</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">同步</string>
+    <string name="slot_action_refresh_toast">同步开始</string>
+    <string name="slot_action_restore">拖放</string>
+    <string name="slot_export_title">设置位置</string>
+    <string name="slot_export_description">您可以更改配置保存到 (并载入). 如果您正在导入现有设置, 请先选择导入, 否则它们将被覆盖.</string>
+    <string name="slot_action_import">导入</string>
+    <string name="slot_action_internal">内部存储</string>
+    <string name="slot_action_external">外部存储</string>
+    <string name="slot_filters_title">过滤器列表</string>
+    <string name="slot_filters_description">您可以在我们的服务器同步过滤器列表，同时不丢失自定义条目。 &lt;br/&gt;&lt;br/&gt;或者，您可以丢弃所有条目(包括您的)，并再次下载。</string>
+    <string name="slot_blocked_title">域已屏蔽</string>
+    <string name="slot_forwarded_title">域名转发</string>
+    <string name="slot_whitelist_title">白名单应用</string>
+    <string name="slot_list_no_desc">此条目没有任何描述。</string>
+    <string name="slot_status_description_active">Adblock目前正在启用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;您将看到背景动画，因为广告、跟踪器和其他不想要的内容被屏蔽。</string>
+    <string name="slot_status_description_inactive">广告屏蔽目前已禁用 &lt;b&gt;&lt;/b&gt;。</string>
+    <string name="slot_status_info">当应用程序激活时，您将看到通知栏上的关键图标在屏幕顶部，这意味着您的设备受到保护。您可以使用下面的按钮关闭应用程序，或者通过下游菜单滑动。</string>
+    <string name="slot_status_vpn_turn_off">禁用 VPN</string>
+    <string name="slot_status_vpn_turn_on">启用 VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN 已连接到 %s</string>
+    <string name="slot_status_vpn_connecting">启用 Blokada VPN...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN 未启用</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN 目前已启用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;你的设备和数据现在安全。点击问题标记来详细信息。</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN 目前已禁用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;当VPN连接时，您的设备通过我们的安全服务器进行通信，您的流量加密，因此没有人能看到您的数据。您的真实IP已被隐藏，您可以访问已屏蔽的内容。在某些情况下，您可以体验更快的互联网连接。</string>
+    <string name="slot_status_vpn_lease">刷新</string>
+    <string name="slot_action_deactivate">关闭</string>
+    <string name="slot_action_activate">开启</string>
+    <string name="slot_action_deactivate_adblocking">关闭广告屏蔽</string>
+    <string name="slot_action_activate_adblocking">打开广告屏蔽</string>
+    <string name="slot_dropped_counter">已屏蔽的域名计数</string>
+    <string name="slot_dropped_counter_info">此计数器显示应用安装以来已屏蔽的域名数量。</string>
+    <string name="slot_dropped_action_clear">重置计数器</string>
+    <string name="slot_notifications_title">通知是 %s。</string>
+    <string name="slot_notifications_desc">您可以在此打开或关闭通知。记住，在某些设备上，Android将显示一个无法关闭的 VPN 通知。</string>
+    <string name="slot_notifications_enabled">启用</string>
+    <string name="slot_notifications_disabled">禁用</string>
+    <string name="slot_update_action_refresh">再次检查</string>
+    <string name="slot_telegram_title">在 Telegram 上加入我们！</string>
+    <string name="slot_telegram_desc">访问我们的 Telegram 频道，帮助或只是我们社区的一部分。</string>
+    <string name="slot_telegram_action">打开</string>
+    <string name="slot_dropped_share_title">分享到</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
