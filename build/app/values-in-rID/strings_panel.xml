@@ -60,6 +60,12 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_status_info">Ketika Blokada dalam kondisi aktif, Anda akan melihat ikon kunci di notification bar di bagian atas layar, hal tersebut menandakan perangkat Anda telah terlindungi. Anda bisa menonkatifkan Blokada dengan mengetuk tombol di bawah, atau dengan mengusap menu ke arah bawah.</string>
+    <string name="slot_status_vpn_turn_off">Nonaktifkan VPN</string>
+    <string name="slot_status_vpn_turn_on">Aktifkan VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN terhubung ke %s</string>
+    <string name="slot_status_vpn_connecting">Mengaktifkan Blokada VPN...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN tidak aktif</string>
     <string name="slot_status_vpn_desc_on">Blokada VPN saat ini &lt;b&gt;aktif&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Perangkat dan data Anda sudah aman sekarang. Ketuk ikon tanda tanya untuk detail lebih lanjut.</string>
     <string name="slot_status_vpn_desc_off">Blokada VPN saat ini &lt;b&gt;nonaktif&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Ketika VPN diaktifkan, perangkat Anda akan berkomunikasi secara aman melalui server kami, dan lalu lintas data Anda akan dienkripsi, sehingga tidak ada yang bisa melihat data Anda. IP asli Anda disembunyikan, dan Anda akan bisa mengakses konten yang diblokir. Dalam beberapa kasus, Anda bisa mengakses internet dengan lebih cepat.</string>
     <string name="slot_status_vpn_lease">Segarkan</string>
@@ -108,6 +114,13 @@
     <string name="slot_protection_disconnected">Perangkat Anda offline/tidak terkoneksi</string>
     <string name="slot_protection_disconnected_desc">Blokada terhenti sementara dikarenakan perangkat Anda tidak terkoneksi ke internet. Blokada akan kembali aktif secara otomatis saat perangkat Anda telah terkoneksi ke internet.</string>
     <string name="slot_protection_activating">Blokada sedang diaktifkan</string>
+    <string name="slot_protection_active_warning">Blokada telah aktif, namun Anda masih bisa mengkonfigurasi lebih lanjut. Ketuk untuk melihat detailnya.</string>
+    <string name="slot_protection_active">Blokada dan VPN telah aktif</string>
+    <string name="slot_protection_action">Pengaturan</string>
+    <string name="slot_protection_ok">Perangkat Anda terlindungi! VPN dan pemblokir iklan telah diaktifkan.</string>
+    <string name="slot_protection_no_adblocking">Pemblokiran iklan &amp; tracker nonaktif. Disarankan untuk mengaktifkannya agar privasi dan data Anda terlindungi.</string>
+    <string name="slot_protection_no_vpn">Anda tidak tersambung dengan Blokada VPN. Kami sarankan Anda menggunakan VPN untuk melindungi privasi dan keamanan Anda.</string>
+    <string name="slot_protection_no_start_on_boot">Bloada tidak dikonfigurasi untuk aktif ketika perangkat dinyalakan. Kami sarankan Blokada tetap aktif sehingga perangkat Anda tetap terlindungi.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
