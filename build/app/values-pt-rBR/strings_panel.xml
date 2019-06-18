@@ -71,11 +71,32 @@
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista branca</string>
     <string name="slot_app_desc">Este aplicativo está na lista branca, o que significa que nenhum bloqueio ou filtragem é realizado nele.</string>
     <string name="slot_allapp_desc">Você pode adicionar este aplicativo à lista branca para interromper o bloqueio de qualquer tráfego nele.</string>
-    <string name="slot_allapp_whitelisted">Adicionado à lista branca</string>
+    <string name="slot_allapp_whitelisted">Está na lista branca</string>
     <string name="slot_allapp_normal">Não está na lista branca</string>
+    <string name="slot_allapp_whitelist">Lista branca</string>
+    <string name="slot_dns_name">Servidor(es) de DNS atual(is): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Você pode alterar os servidores atuais usando o menu inferior.</string>
+    <string name="slot_action_none">Esta ação ainda não está disponível.</string>
+    <string name="slot_action_facts">Fatos</string>
+    <string name="slot_action_unwhitelist">Cancelar</string>
+    <string name="slot_action_author">Sobre</string>
+    <string name="slot_action_share">Compartilhar</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Uma entrada</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Uma entrada para %s</string>
+    <string name="slot_dns_control_title">Lista de servidores DNS</string>
+    <string name="slot_dns_control_description">Você pode sincronizar a lista de servidores DNS com nossos servidores sem perder suas entradas personalizadas. &amp;&lt;br/&gt;&lt;br/&gt;Como alternativa, você pode eliminar todas as entradas (inclusive as suas), e baixá-las novamente.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Sincronizar</string>
+    <string name="slot_action_refresh_toast">Sincronização iniciada</string>
+    <string name="slot_action_restore">Descartar</string>
+    <string name="slot_export_title">Localização das configurações</string>
+    <string name="slot_export_description">Você pode alterar onde a configuração é salva (e de onde é carregada). Se você estiver importando configurações existentes, selecione Importar primeiro, caso contrário, elas serão sobrescritas.</string>
+    <string name="slot_action_import">Importar</string>
+    <string name="slot_action_internal">Armazenamento Interno</string>
+    <string name="slot_action_external">Armazenamento Externo</string>
+    <string name="slot_filters_title">Lista de filtros</string>
     <string name="slot_status_info">Quando o aplicativo estiver Ativo, você verá o ícone da chave na barra de notificação na parte superior da tela, o que significa que seu dispositivo está protegido. Você pode desativar o aplicativo usando o botão abaixo ou deslizando para baixo o menu inferior.</string>
     <string name="slot_status_vpn_turn_off">Desativar a VPN</string>
     <string name="slot_status_vpn_turn_on">Ativar a VPN</string>
