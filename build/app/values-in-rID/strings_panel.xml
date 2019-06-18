@@ -79,8 +79,22 @@
     <string name="slot_active">Aktif</string>
     <string name="slot_inactive">Tidak aktif</string>
     <string name="slot_adblocking_label">Memblokir iklan &amp; tracker</string>
+    <string name="slot_adblocking_text">Ketika diaktifkan, Blokada akan memblokir iklan, tracker, dan konten lain yang tidak diinginkan. Hal ini membantu melindungi privasi Anda, mempercepat kinerja perangkat Anda, dan menghemat data.</string>
+    <string name="slot_blocka_label">Akun Blokada VPN</string>
+    <string name="slot_account_label_active">Akun valid sampai %s</string>
+    <string name="slot_account_text_account">ID akun Anda adalah &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Status akun Anda adalah &lt;b&gt;tidak aktif&lt;/b&gt;. Anda perlu akun berstatus aktif untuk dapat menggunakan Blokada VPN. Silahkan ketuk tombol di bawah untuk mengaktifkan akun Anda.</string>
+    <string name="slot_account_text_active">Status akun Anda adalah &lt;b&gt;aktif&lt;/b&gt; until &lt;b&gt;%s&lt;/b&gt;. Silahkan ketuk tombol di bawah untuk mengelola akun Anda.</string>
+    <string name="slot_account_info">Rahasiakan ID akun Anda - ID tersebut akan diperlukan untuk mengembalikan akun Anda jika sewaktu-waktu Anda menguninstal Blokada. Status berlangganan Anda akan diperpanjang secara otomatis kecuali Anda batalkan.</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Kelola</string>
+    <string name="slot_account_action_manage_inactive">Aktifkan Akun Anda</string>
+    <string name="slot_account_action_change_id">Pulihkan Akun</string>
+    <string name="slot_account_action_copy">Salin ID akun</string>
+    <string name="slot_account_action_copied">ID akun telah disalin ke clipboard</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Sambungkan ke %s</string>
+    <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->
