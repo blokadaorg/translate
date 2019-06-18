@@ -51,12 +51,29 @@
     <string name="slot_intro_info">Psst... Einige Elemente haben ein Fragezeichen-Symbol. Tippen darauf, um eine kurze Hilfe anzuzeigen, ähnlich wie diese!</string>
     <string name="slot_new_filter">Neuen Host blockieren</string>
     <string name="slot_new_filter_list">Neue Liste hinzufügen</string>
+    <string name="slot_new_filter_whitelist">Neuen Host in die Whiteliste aufnehmen</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">zurücksetzen</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">einstellen</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">ungültig</string>
     <string name="slot_continue">Fortsetzen</string>
+    <string name="slot_enter_domain_title">Domain(s)</string>
+    <string name="slot_enter_domain_desc">Gib Domains ein, die durch Komma getrennt sind. Du kannst auch einen Link in jede Hostliste einfügen oder eine lokale Host-Liste-Datei importieren.</string>
+    <string name="slot_enter_domain_error">Das sieht mir nicht so aus.</string>
     <string name="slot_enter_domain_file">Datei</string>
     <string name="slot_enter_name_title">Name</string>
+    <string name="slot_enter_name_desc">Gib einen Namen für den neuen Eintrag ein. Du kannst auch einen Namen automatisch generieren lassen.</string>
+    <string name="slot_enter_name_error">Das sieht mir nicht so aus.</string>
+    <string name="slot_enter_name_generate">Erzeugen</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; ist auf der Whiteliste</string>
+    <string name="slot_app_desc">Diese App ist Whitelist, was bedeutet, dass keine Sperrung oder Filterung auf ihr durchgeführt wird.</string>
+    <string name="slot_allapp_desc">Du kannst diese App auf die Whitelist setzen, um zu verhindern, dass der Datenverkehr gefiltert wird.</string>
+    <string name="slot_allapp_whitelisted">Als erlaubt gelistet</string>
+    <string name="slot_allapp_normal">Nicht Whitelistet</string>
+    <string name="slot_allapp_whitelist">Whitelist</string>
+    <string name="slot_dns_name">Aktuelle(r) DNS-Server: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_action_unwhitelist">Abbrechen</string>
     <string name="slot_action_author">Über</string>
     <string name="slot_action_share">Teilen</string>
@@ -75,15 +92,33 @@
     <string name="slot_active">Aktiv</string>
     <string name="slot_inactive">Inaktiv</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage_inactive">Konto aktivieren</string>
+    <string name="slot_account_action_change_id">Konto wiederherstellen</string>
+    <string name="slot_account_action_copy">Konto-ID kopieren</string>
+    <string name="slot_account_action_copied">Konto-ID in die Zwischenablage kopiert</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Verbinde mit %s</string>
+    <string name="slot_gateway_description">Leistung: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Leistung: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dies ist das aktuell ausgewählte Gateway.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">hoch</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">niedrig</string>
+    <string name="panel_section_home_gateways">VPN-Gateways</string>
+    <string name="subscription_success">Dein Konto wird aktiviert. Dies kann einen Augenblick dauern. Vielen Dank!</string>
     <string name="slot_protection_header">Blokada Status</string>
     <string name="slot_protection_off">Blokada ist inaktiv</string>
+    <string name="slot_protection_off_desc">Das Gerät ist nicht geschützt.</string>
     <string name="slot_protection_error">Blokada ist vorübergehend inaktiv</string>
+    <string name="slot_protection_error_desc">Dies kann durch temporäre Netzwerkprobleme, Geräte- oder Softwareprobleme verursacht werden. Blokada wird versuchen sich selbst zu starten, aber Du könntest auch versuchen die App wieder zu aktivieren oder Dein Telefon neu zu starten. Wenn das Problem weiterhin besteht, kontaktiere uns bitte bei Telegram.</string>
+    <string name="slot_protection_disconnected">Das Gerät ist nicht verbunden</string>
+    <string name="slot_protection_disconnected_desc">Blokada ist pausiert, weil das Gerät die Internetverbindung verloren hat. Blokada wird sich automatisch aktivieren, sobald die Verbindung wieder verfügbar ist.</string>
+    <string name="slot_protection_activating">Blokada wird aktiviert</string>
+    <string name="slot_protection_active_warning">Blokada ist aktiv, aber die Konfiguration könnte optimiert werden. Tippe für Details.</string>
+    <string name="slot_protection_active">Blokada und VPN sind aktiv</string>
     <string name="slot_protection_action">Einstellungen</string>
+    <string name="slot_protection_ok">Das Gerät ist vollständig geschützt! VPN und Adblocking sind aktiv.</string>
+    <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um Deine Privatsphäre und Daten zu schützen.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <string name="slot_help_action">Hilfe</string>
