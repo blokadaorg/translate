@@ -66,6 +66,18 @@
     <string name="slot_enter_domain_file">文件</string>
     <string name="slot_enter_name_title">名称</string>
     <string name="slot_enter_name_desc">输入新条目的名称。您也可以生成一个建议的名称。</string>
+    <string name="slot_enter_name_error">我看上去没有任何东西。</string>
+    <string name="slot_enter_name_generate">生成</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 白名单</string>
+    <string name="slot_app_desc">此应用程序被列入白名单，这意味着没有屏蔽或过滤。</string>
+    <string name="slot_allapp_desc">您可以白名单此应用，以便停止屏蔽任何流量。</string>
+    <string name="slot_allapp_whitelisted">白名单</string>
+    <string name="slot_allapp_normal">未列出白名单</string>
+    <string name="slot_allapp_whitelist">白名单</string>
+    <string name="slot_dns_name">当前DNS服务器(s)： &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">您可以使用底部菜单更改当前服务器。</string>
+    <string name="slot_action_none">此操作尚未可用。</string>
+    <string name="slot_action_facts">事实</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
