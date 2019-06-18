@@ -148,8 +148,20 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Abrir</string>
     <string name="slot_updated_label">¡Blokada ha sido actualizado!</string>
+    <string name="slot_updated_desc">Tu versión de Blokada ahora está actualizada. Toca el botón de abajo para obtener información adicional sobre esta actualización. Además, ¡Por favor considera donar para apoyar este proyecto!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Más detalles</string>
+    <string name="slot_obsolete_label">Acción requerida: ¡Esta versión está obsoleta!</string>
+    <string name="slot_obsolete_desc">Tu versión de Blokada está obsoleta y puede no funcionar correctamente. Por favor, descarga la versión más reciente para seguir recibiendo actualizaciones.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Actualizar</string>
+    <string name="slot_cleanup_label">Se han detectado varias versiones de Blokada</string>
+    <string name="slot_cleanup_desc">Parece que hay muchas versiones de Blokada instaladas en tu dispositivo. ¿Quieres eliminar las otras versiones y mantener una sola?</string>
+    <string name="slot_cleanup_action">Limpiar</string>
+    <string name="account_inactive">Tu VPN de Blokada ha expirado. No estás conectado a el VPN.</string>
+    <string name="lease_cant_connect">No se pudo conectar al VPN de Blokada. Intenta seleccionando otra puerta de enlace.</string>
+    <string name="slot_account_name_title">ID de cuenta</string>
+    <string name="slot_account_name_desc">Introduce tu ID de cuenta antiguo para restaurar tu suscripción anterior. Puede que quieras escribir tu ID de cuenta actual antes de hacerlo, en caso de que cometas un error.</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
