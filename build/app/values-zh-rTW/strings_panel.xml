@@ -62,32 +62,42 @@
     <string name="slot_continue">繼續</string>
     <string name="slot_enter_domain_title">網域</string>
     <string name="slot_enter_domain_desc">輸入網域，並以英文逗號分隔。您也可以貼上任何主機清單的連結，或是匯入本機主機清單的檔案。</string>
+    <string name="slot_enter_domain_error">這看起來並不像任何東西。</string>
     <string name="slot_enter_domain_file">檔案</string>
     <string name="slot_enter_name_title">名稱</string>
+    <string name="slot_enter_name_desc">輸入新項目的名稱。您也可以生成建議的名稱。</string>
+    <string name="slot_enter_name_error">這看起來並不像任何東西。</string>
     <string name="slot_enter_name_generate">創建</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 已成為白名單</string>
+    <string name="slot_app_desc">此應用程式已在白名單內，這代表了不會對其封鎖或過濾。</string>
+    <string name="slot_allapp_desc">您可以將此應用程式加入白名單以停止封鎖其任何流量。</string>
     <string name="slot_allapp_whitelisted">白名單</string>
     <string name="slot_allapp_normal">不是白名單</string>
     <string name="slot_allapp_whitelist">白名單</string>
     <string name="slot_dns_name">目前的DNS伺服器為: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_dns_dns">您可以使用底部的選單更改當前的伺服器</string>
     <string name="slot_action_none">這項操作目前並不可用</string>
+    <string name="slot_action_facts">事實</string>
     <string name="slot_action_unwhitelist">取消</string>
     <string name="slot_action_author">關於</string>
     <string name="slot_action_share">分享</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">一個條目</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">%s 的項目</string>
     <string name="slot_dns_control_title">DNS伺服器列表</string>
+    <string name="slot_dns_control_description">您不必失去任何您的自訂項目也可以從我們的伺服器同步 DNS 伺服器清單。&lt;br/&gt;&lt;br/&gt;或者您也可以刪除所有的項目（包含您自己的），然後重新下載。</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">同步</string>
     <string name="slot_action_refresh_toast">已開始同步</string>
     <string name="slot_action_restore">丟失</string>
     <string name="slot_export_title">設定的位置</string>
+    <string name="slot_export_description">您可以變更設定要儲存（以及載入）的位置。如果您正在匯入既有的設定，請先選取匯入，否則它們會被覆蓋。</string>
     <string name="slot_action_import">匯入</string>
     <string name="slot_action_internal">內部儲存空間</string>
     <string name="slot_action_external">外部儲存空間</string>
     <string name="slot_filters_title">過濾器列表</string>
+    <string name="slot_filters_description">您不必失去任何您的自訂項目也可以從我們的伺服器同步過濾規則清單。&lt;br/&gt;&lt;br/&gt;或者您也可以刪除所有的項目（包含您自己的），然後重新下載。</string>
     <string name="slot_blocked_title">網域已封鎖</string>
     <string name="slot_forwarded_title">網域已轉發</string>
     <string name="slot_whitelist_title">已經是白名單的應用程式</string>
