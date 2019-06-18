@@ -185,12 +185,37 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Ajuda</string>
     <string name="slot_donate_label">Está gostando do Blokada? Considere nos apoiar, daí poderemos continuar melhorando o aplicativo.</string>
+    <string name="slot_donate_desc">O bloqueador de anúncios Blokada é gratuito e de código aberto, e nós queremos que isso continue assim. As suas doações nos ajudam a continuar desenvolvendo o aplicativo e a apresentar novos recursos que você mais deseja ver. Obrigado!</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Doar</string>
+    <string name="slot_cta_label">Psiu! Nós gostaríamos de saber da sua opinião.</string>
+    <string name="slot_cta_desc">Mostre o seu apoio participando de nossas pesquisas e outros eventos. Nós entramos em contato com nossa comunidade regularmente para receber feedback sobre ideias e novos desenvolvimentos, a fim de garantir que estamos trabalhando no que você deseja ver.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Abrir</string>
+    <string name="slot_blog_label">Confira o nosso blog de desenvolvimento!</string>
+    <string name="slot_blog_desc">O Bloco é onde escrevemos sobre o desenvolvimento do projeto, planos futuros e discutimos ideias.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Abrir</string>
+    <string name="slot_updated_label">O Blokada foi atualizado!</string>
+    <string name="slot_updated_desc">A sua versão do Blokada está atualizada. Toque no botão abaixo para informações adicionais sobre esta atualização. Por favor, considere doar para apoiar este projeto!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Mais</string>
+    <string name="slot_obsolete_label">Ação necessária: esta versão está obsoleta!</string>
+    <string name="slot_obsolete_desc">Sua versão do Blokada está obsoleta e pode não funcionar corretamente. Por favor, baixe a versão mais recente para continuar recebendo atualizações.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Atualizar</string>
+    <string name="slot_cleanup_label">Várias versões do Blokada foram detectadas</string>
+    <string name="slot_cleanup_desc">Parece que há muitas versões do Blokada instaladas no seu dispositivo. Gostaria de remover as outras versões e manter apenas uma?</string>
+    <string name="slot_cleanup_action">Limpar</string>
+    <string name="account_inactive">Sua VPN do Blokada expirou. Você não está conectado à VPN.</string>
+    <string name="lease_cant_connect">Não foi possível conectar-se à VPN do Blokada. Tente selecionar outro gateway.</string>
+    <string name="slot_account_name_title">ID da conta</string>
+    <string name="slot_account_name_desc">Insira seu ID de conta antigo para restaurar sua assinatura anterior. Você pode querer anotar o ID de sua conta atual antes de fazer isso, caso você cometa um erro.</string>
+    <string name="slot_account_name_error">O ID da conta pode conter apenas letras e números.</string>
+    <string name="slot_account_name_api_error">Este ID de conta não parece estar correto.</string>
+    <string name="slot_account_name_restore">Restaurar</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Configurações primárias</string>
     <!-- A section in advanced settings. -->
     <string name="label_filters">Bloqueio de anúncios &amp; listas</string>
     <!-- A section in advanced settings. -->
