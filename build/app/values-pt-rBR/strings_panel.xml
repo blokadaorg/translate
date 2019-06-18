@@ -61,6 +61,28 @@
     <string name="slot_status_vpn_connecting">Ativando a VPN do Blokada...</string>
     <string name="slot_status_vpn_turned_off">A VPN do Blokada não está ativada</string>
     <string name="slot_status_vpn_desc_on">No momento, a VPN do Blokada está &lt;b&gt;ativada&lt;/b&gt;.&lt;br /&gt;IP: IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Seu dispositivo e seus dados estão protegidos agora. Toque no ponto de interrogação para detalhes.</string>
+    <string name="slot_status_vpn_desc_off">No momento, a VPN do Blokada está &lt;b&gt;desativada&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Quando a VPN está conectada, o seu dispositivo se comunica através de nossos servidores seguros, e seu tráfego é criptografado, para que ninguém possa ver seus dados. Seu IP real fica oculto, e você pode acessar conteúdo bloqueado. Em alguns casos, você também pode ter uma conexão de Internet mais rápida.</string>
+    <string name="slot_status_vpn_lease">Atualizar</string>
+    <string name="slot_action_deactivate">Desativar</string>
+    <string name="slot_action_activate">Ativar</string>
+    <string name="slot_action_deactivate_adblocking">Desativar bloqueio de anúncios</string>
+    <string name="slot_action_activate_adblocking">Ativar bloqueio de anúncios</string>
+    <string name="slot_dropped_counter">Contador de domínios bloqueados</string>
+    <string name="slot_dropped_counter_info">Este contador exibe o número de domínios que foram bloqueados desde a instalação do aplicativo.</string>
+    <string name="slot_dropped_action_clear">Zerar contador</string>
+    <string name="slot_notifications_title">As notificações estão %s.</string>
+    <string name="slot_notifications_desc">Você pode ativar ou desativar as notificações aqui. Lembre-se de que, em alguns dispositivos, o Android exibirá uma notificação de VPN separada que não pode ser desativada.</string>
+    <string name="slot_notifications_enabled">ativado</string>
+    <string name="slot_notifications_disabled">desativado</string>
+    <string name="slot_update_action_refresh">Verificar novamente</string>
+    <string name="slot_telegram_title">Join us at Telegram!</string>
+    <string name="slot_telegram_desc">Visite nosso canal no Telegram para ajuda ou apenas para fazer parte de nossa comunidade.</string>
+    <string name="slot_telegram_action">Abrir</string>
+    <string name="slot_dropped_share_title">Compartilhar para</string>
+    <string name="slot_dropped_share">Eu bloqueei %s anúncios graças a %s! www.blokada.org</string>
+    <string name="slot_active">Ativo</string>
+    <string name="slot_inactive">Inativo</string>
+    <string name="slot_adblocking_label">Bloquear anúncios &amp; rastreadores</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
