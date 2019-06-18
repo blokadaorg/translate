@@ -9,6 +9,7 @@
     <string name="panel_section_apps">Aplicaciones</string>
     <!-- Main screen section -->
     <string name="panel_section_advanced">Avanzado</string>
+    <string name="panel_section_home_start">VPN de Blokada</string>
     <string name="panel_section_home_help">Ayuda</string>
     <string name="panel_section_home_community">Comunidad</string>
     <string name="panel_section_ads_lists">Listas de Hosts</string>
@@ -65,8 +66,25 @@
     <string name="slot_enter_domain_file">Archivo</string>
     <string name="slot_enter_name_title">Nombre</string>
     <string name="slot_enter_name_desc">Introduce el nombre para la nueva entrada. También puedes generar un nombre sugerido.</string>
+    <string name="slot_enter_name_error">Esto no me parece nada.</string>
+    <string name="slot_enter_name_generate">Generar</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está en la lista blanca</string>
+    <string name="slot_app_desc">Esta aplicación está en la lista blanca, lo cual significa que ningún bloqueo o filtrado es realizado en ella.</string>
+    <string name="slot_allapp_desc">Puedes añadir esta aplicación a la lista blanca para dejar de bloquear cualquier tráfico para ella.</string>
+    <string name="slot_allapp_whitelisted">En la lista blanca</string>
+    <string name="slot_allapp_normal">No se encuentra en la lista blanca</string>
+    <string name="slot_allapp_whitelist">Lista blanca</string>
+    <string name="slot_dns_name">Servidor(es) DNS ahora: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Puedes cambiar los servidores actuales usando el menú inferior.</string>
+    <string name="slot_action_none">Esta acción no está disponible aún.</string>
+    <string name="slot_action_facts">Información</string>
+    <string name="slot_action_unwhitelist">Cancelar</string>
+    <string name="slot_action_author">Acerca de</string>
+    <string name="slot_action_share">Compartir</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Una entrada</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Una entrada para %s</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_dropped_counter_info">Este contador muestra el número de dominios que han sido bloqueados desde la instalación de la aplicación.</string>
     <string name="slot_dropped_action_clear">Reiniciar contador</string>
