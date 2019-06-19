@@ -106,6 +106,8 @@
     <string name="slot_status_vpn_turned_on">VPN подключен к %s</string>
     <string name="slot_status_vpn_connecting">Включение Blokada VPN...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN не включен</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN в настоящее время &lt;b&gt;включен&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Теперь ваше устройство и данные в безопасности. Коснитесь вопросительного знака для получения дополнительной информации.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN в настоящее время &lt;b&gt;отключен&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Когда VPN подключена, ваше устройство обменивается данными через наши защищенные серверы, и ваш трафик шифруется, поэтому никто не может видеть ваши данные. Ваш реальный IP-адрес скрыт, и вы можете получить доступ к заблокированному контенту. В некоторых случаях, вы также можете получить более быстрое подключение к интернету.</string>
     <string name="slot_status_vpn_lease">Обновить</string>
     <string name="slot_action_deactivate">Отключить</string>
     <string name="slot_action_activate">Включить</string>
@@ -123,10 +125,17 @@
     <string name="slot_telegram_desc">Посетите наш канал Telegram чтобы получить помощь или просто станьте частью нашего сообщества.</string>
     <string name="slot_telegram_action">Открыть</string>
     <string name="slot_dropped_share_title">Поделиться</string>
+    <string name="slot_dropped_share">Заблокировано %s благодаря %s! www.blokada.org</string>
     <string name="slot_active">Активен</string>
     <string name="slot_inactive">Не активен</string>
     <string name="slot_adblocking_label">Блокировка рекламы &amp; трекеров</string>
+    <string name="slot_adblocking_text">Если эта функция включена, Blokada будет блокировать рекламу, трекеры и другое нежелательное содержимое. Это поможет защитить конфиденциальность, ускорить работу устройства и сохранить данные.</string>
     <string name="slot_blocka_label">Аккаунт Blokada VPN</string>
+    <string name="slot_account_label_active">Аккаунт действителен до %s</string>
+    <string name="slot_account_text_account">ID вашего аккаунта &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Ваша подписка &lt;b&gt;неактивна&lt;/b&gt;. Для использования Blokada VPN необходима активный аккаунт. Пожалуйста, нажмите кнопку ниже для его активации.</string>
+    <string name="slot_account_text_active">Ваша подписка &lt;b&gt;активна&lt;/b&gt; до &lt;b&gt;%s&lt;/b&gt;. Для управления подпиской нажмите кнопку ниже.</string>
+    <string name="slot_account_info">Вы должны держать свой ID аккаунта в секрете - он необходим для восстановления учетной записи в случае переустановки приложения. Ваша подписка будет автоматически продлена, если вы ее не отмените.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Управление</string>
     <string name="slot_account_action_manage_inactive">Активировать аккаунт</string>
@@ -135,11 +144,18 @@
     <string name="slot_account_action_copied">ID аккаунта скопирован в буфер обмена</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Подключиться к %s</string>
+    <string name="slot_gateway_description">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваш выбранный шлюз.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">высокая</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">низкая</string>
+    <string name="panel_section_home_gateways">Шлюзы VPN</string>
+    <string name="subscription_success">Ваш аккаунт активируется. Это может занять несколько секунд. Спасибо!</string>
     <string name="slot_protection_header">Статус Blokada</string>
     <string name="slot_protection_off">Blokada неактивна</string>
     <string name="slot_protection_off_desc">Ваше устройство не защищено.</string>
+    <string name="slot_protection_error">Blokada временно неактивна</string>
     <string name="slot_protection_action">Настройки</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
