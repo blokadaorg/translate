@@ -60,9 +60,11 @@
     <string name="slot_continue">Продолжить</string>
     <string name="slot_enter_domain_title">Домен(ы)</string>
     <string name="slot_enter_domain_desc">Введите домены, разделенные запятой. Вы также можете вставить ссылку на любой список хостов или импортировать локальный файл со списком.</string>
+    <string name="slot_enter_domain_error">На мой взгляд, это не похоже ни на что.</string>
     <string name="slot_enter_domain_file">Файл</string>
     <string name="slot_enter_name_title">Имя</string>
     <string name="slot_enter_name_desc">Введите, либо сгенерируйте имя для новой записи.</string>
+    <string name="slot_enter_name_error">На мой взгляд, это не похоже ни на что.</string>
     <string name="slot_enter_name_generate">Генерировать</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; добавлено в белый список</string>
     <string name="slot_app_desc">Это приложение добавлено в белый список. Теперь для него не будет происходить блокировка или фильтрация.</string>
@@ -96,6 +98,9 @@
     <string name="slot_forwarded_title">Домен переадресован</string>
     <string name="slot_whitelist_title">Белый список приложений</string>
     <string name="slot_list_no_desc">Эта запись не имеет никакого описания.</string>
+    <string name="slot_status_description_active">Блокировка рекламы в настоящее время &lt;b&gt;включена&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Вы увидите анимацию фона, когда реклама, трекеры и другой нежелательный контент блокируется.</string>
+    <string name="slot_status_description_inactive">Блокировка рекламы в настоящее время &lt;b&gt;отключена&lt;/b&gt;.</string>
+    <string name="slot_status_info">Когда приложение активно, в строке уведомлений отображается значок ключа, означающий, что ваше устройство защищено. Вы можете выключить приложение, нажав кнопку ниже или смахнув вниз меню.</string>
     <string name="slot_status_vpn_turn_off">Отключить VPN</string>
     <string name="slot_status_vpn_turn_on">Включить VPN</string>
     <string name="slot_status_vpn_turned_on">VPN подключен к %s</string>
