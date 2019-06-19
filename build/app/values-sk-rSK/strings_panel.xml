@@ -145,9 +145,25 @@
     <string name="slot_account_action_manage_inactive">Aktivovať účeť</string>
     <string name="slot_account_action_change_id">Obnoviť účet</string>
     <string name="slot_account_action_copy">Kopírovať ID účtu</string>
+    <string name="slot_account_action_copied">ID účtu bolo skopírované do schránky</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Pripojiť k %s</string>
+    <string name="slot_gateway_description">Výkon: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Výkon: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Toto je vaša aktuálna sieťová brána.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">vysoká</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">nízka</string>
+    <string name="panel_section_home_gateways">Sieťové brány VPN</string>
+    <string name="subscription_success">Prebieha aktivácia vášho účtu. Môže to trvať niekoľko sekúnd. Ďakujeme!</string>
+    <string name="slot_protection_header">Stav Blokady</string>
+    <string name="slot_protection_off">Blokada je neaktívna</string>
+    <string name="slot_protection_off_desc">Vaše zariadenie nie je chránené.</string>
+    <string name="slot_protection_error">Blokada je dočasne neaktívna</string>
+    <string name="slot_protection_error_desc">Toto môže byť spôsobené dočasnými problémami so sieťou, problémami v zariadení či v softvéri. Blokada sa čoskoro automaticky znova aktivuje, prípadne môžete skúsiť aplikáciu manuálne znova zapnúť, alebo reštartovať vaše zariadenie. Ak problémy neprestávajú, pre pomoc nás prosím kontaktujte na Telegrame.</string>
+    <string name="slot_protection_disconnected">Vaše zariadenie je offline</string>
+    <string name="slot_protection_disconnected_desc">Blokada ja pozastavená, pretože vaše zariadenie stratilo pripojenie k internetu. Keď budete späť online, Blokada sa automaticky znova aktivuje.</string>
+    <string name="slot_protection_activating">Blokada sa aktivuje</string>
     <string name="slot_start_on_boot_description">Povolenie spustenia pri štarte dovolí Blokade byť vždy aktívnou a chrániť vaše zariadenie.</string>
     <string name="slot_recommended_dns_label">Použiť odporúčané DNS servery</string>
     <string name="slot_recommended_dns_description">Ak je zapnuté, Blokada automaticky vyberie odporúčané DNS servery, aby pomohla zrýchliť váš internet a chrániť vaše súkromie. Inak budú využívané predvolené DNS servery vašej siete. Ak si manuálne vyberiete DNS servery v sekcii Rozšírené, toto nastavenie bude ignorované.</string>
