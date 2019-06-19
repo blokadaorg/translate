@@ -110,11 +110,22 @@
     <string name="slot_status_vpn_turned_on">VPN pripojené ku %s</string>
     <string name="slot_status_vpn_connecting">Spúšťanie Blokada VPN...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN nie je povolené</string>
-    <string name="slot_status_vpn_desc_on">Blokada VPN je práve &lt;b&gt;zapnuté&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Vaše zariadenie a dáta sú teraz v bezpečí. Pre viac informácii sa dotknite otáznika.</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN je práve &lt;b&gt;zapnuté&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Vaše zariadenie a údaje sú teraz v bezpečí. Pre viac informácii sa dotknite otáznika.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN je práve &lt;b&gt;vypnuté&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Keď je pripojené VPN, vaše zariadenie komunikuje cez naše zabezpečené servery, a vaša sieťová prevádzka je zašifrovaná, takže nikto nemôže vidieť vaše údaje. Vaša skutočná IP adresa je skrytá, a získavate prístup k zablokovanému obsahu. V niektorých prípadoch môže dôjsť aj k zrýchleniu vášho internetového pripojenia.</string>
+    <string name="slot_status_vpn_lease">Obnoviť</string>
+    <string name="slot_action_deactivate">Vypnúť</string>
+    <string name="slot_action_activate">Zapnúť</string>
+    <string name="slot_action_deactivate_adblocking">Vypnúť blokovanie reklám</string>
+    <string name="slot_action_activate_adblocking">Zapnúť blokovanie reklám</string>
+    <string name="slot_dropped_counter">Počet zablokovaných domén</string>
+    <string name="slot_dropped_counter_info">Toto počítadlo zobrazuje počet domén, ktoré boli zablokované od momentu inštalácie aplikácie.</string>
+    <string name="slot_dropped_action_clear">Obnoviť počítadlo</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_start_on_boot_description">Povolenie spustenia pri štarte dovolí Blokade byť vždy aktívnou a chrániť vaše zariadenie.</string>
+    <string name="slot_recommended_dns_label">Použiť odporúčané DNS servery</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
