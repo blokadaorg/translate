@@ -60,12 +60,20 @@
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
     <string name="slot_active">Aktív</string>
+    <string name="slot_inactive">Inaktív</string>
+    <string name="slot_blocka_label">Blokada VPN fiók</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
+    <string name="slot_account_action_change_id">Fiók visszaállítása</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">magas</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">alacsony</string>
+    <string name="slot_protection_header">Blokada állapota</string>
+    <string name="slot_protection_off">Blokada inaktív</string>
+    <string name="slot_protection_off_desc">A készüléked nem védett.</string>
+    <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
     <string name="slot_protection_action">Beállítások</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
