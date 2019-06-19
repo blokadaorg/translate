@@ -12,7 +12,16 @@
     <string name="panel_section_home_start">VPN del Blokada</string>
     <string name="panel_section_home_help">Ajuda</string>
     <string name="panel_section_home_community">Comunitat</string>
+    <string name="panel_section_ads_lists">Llistes de servidors</string>
+    <string name="panel_section_ads_log">Registre de servidors</string>
+    <string name="panel_section_ads_blacklist">Servidors bloquejats</string>
+    <string name="panel_section_ads_whitelist">Servidors permesos</string>
+    <string name="panel_section_advanced_dns">Servidors DNS</string>
+    <string name="panel_section_apps_all">Aplicacions instal·lades</string>
+    <string name="panel_section_apps_system">Aplicacions del sistema</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; permès</string>
+    <string name="panel_domain_forwarded_desc">Aquest domini s\'ha permès. Per bloquejar-lo, utilitzeu el botó de sota.</string>
     <!-- When a domain is blocked -->
     <!-- Button to allow blocked domain -->
     <!-- Button to block allowed domain -->
