@@ -152,9 +152,25 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Viac</string>
     <string name="slot_obsolete_label">Potrebná akcia: táto verzia je zastaraná!</string>
+    <string name="slot_obsolete_desc">Vaša verzia Blokady je zastaraná a nemusí fungovať správne. Stiahnite si prosím najnovšiu verziu, aby ste mohli aj naďalej dostávať aktualizácie.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Aktualizovať</string>
+    <string name="slot_cleanup_label">Boli zistené viaceré verzie Blokady</string>
+    <string name="slot_cleanup_desc">Vyzerá to tak, že na vašom zariadení je nainštalovaných veľa verzii Blokady. Chcete odstrániť ostatné verzie a zachovať iba jednu?</string>
+    <string name="slot_cleanup_action">Vyčistiť</string>
+    <string name="account_inactive">Platnosť vášho Blokada VPN vypršala. Nie ste pripojení k VPN.</string>
+    <string name="lease_cant_connect">Nepodarilo sa pripojiť k Blokada VPN. Skúste vybrať inú sieťovú bránu.</string>
+    <string name="slot_account_name_title">ID účtu</string>
+    <string name="slot_account_name_desc">Zadajte ID vášho starého účtu pre obnovu predchádzajúceho predplatného. Predtým si môžete zapísať vaše aktuálne ID účtu v prípade omylu.</string>
+    <string name="slot_account_name_error">ID účtu môže obsahovať iba písmená a čísla.</string>
+    <string name="slot_account_name_api_error">Toto ID účtu nevyzerá správne.</string>
+    <string name="slot_account_name_restore">Obnoviť</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Primárne nastavenia</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Blokovanie reklám &amp; zoznamy</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Nastavenia DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Pokročilé nastavenia</string>
 </resources>
