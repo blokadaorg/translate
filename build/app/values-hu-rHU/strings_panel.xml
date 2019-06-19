@@ -11,6 +11,10 @@
     <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">Súgó</string>
     <string name="panel_section_home_community">Közösség</string>
+    <string name="panel_section_ads_lists">Hoszt listák</string>
+    <string name="panel_section_ads_log">Hoszt napló</string>
+    <string name="panel_section_ads_blacklist">Blokkolt hosztok</string>
+    <string name="panel_section_ads_whitelist">Engedélyezett hosztok</string>
     <string name="panel_section_apps_all">Telepített alkalmazások</string>
     <!-- When a domain is allowed (not blocked) -->
     <!-- When a domain is blocked -->
@@ -26,12 +30,15 @@
     <string name="slot_switch_off">Ki</string>
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">Váltás</string>
+    <string name="slot_new_filter">Új hoszt blokkolása</string>
     <string name="slot_new_filter_list">Új lista hozzáadása</string>
+    <string name="slot_new_filter_whitelist">Új hoszt engedélyező listára vétele</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">érvénytelen</string>
     <string name="slot_continue">Folytatás</string>
+    <string name="slot_enter_domain_desc">Vesszővel elválasztott domainokat adj meg. Beilleszthetsz egy linket bármely hoszt listához, vagy importálhatsz is egy helyi hoszt lista fájlt.</string>
     <string name="slot_enter_domain_file">Fájl</string>
     <string name="slot_enter_name_title">Név</string>
     <string name="slot_action_facts">Tények</string>
@@ -41,8 +48,18 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Szinkr.</string>
+    <string name="slot_action_refresh_toast">Szinkr. elkezdődött</string>
+    <string name="slot_action_import">Importálás</string>
+    <string name="slot_action_internal">Belső tárhely</string>
+    <string name="slot_action_external">Külső tárhely</string>
+    <string name="slot_filters_title">Szűrőlista</string>
+    <string name="slot_status_vpn_lease">Frissítés</string>
+    <string name="slot_action_deactivate">Kikapcsolás</string>
+    <string name="slot_action_activate">Bekapcsolás</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
+    <string name="slot_active">Aktív</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
