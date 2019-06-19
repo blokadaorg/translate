@@ -49,9 +49,22 @@
     <string name="slot_intro_new">Vitajte v %s! Začnite dotykom sem.</string>
     <string name="slot_intro_new_header">Ako používať nové UI?</string>
     <string name="slot_intro_desc">Môžete sa dotknúť akejkoľvek položky, napríklad tejto, pre jej otvorenie a vykonávanie akcií. Napríklad táto položka môže byť odstránená, keď ju už nebudete chcieť používať. &lt;br/&gt;&lt;br/&gt;Momentálne ste v sekcii Domov. Potiahnite doľava alebo doprava pre prístup k ďalším sekciám. Každá z nich má svoje vlastné spodné menu - otvorte ho potiahnutím hore. &lt;br/&gt;&lt;br/&gt; Teraz choďte preskúmať zvyšok aplikácie!</string>
+    <string name="slot_intro_info">Psst... Niektoré položky majú na sebe ikonu otáznika. Dotykom sa zobrazí krátka nápoveda podobná tejto!</string>
+    <string name="slot_new_filter">Zablokovať nového hosta</string>
+    <string name="slot_new_filter_list">Pridať nový zoznam</string>
+    <string name="slot_new_filter_whitelist">Pridať hosta do bielej listiny</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">nevybrané</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">vybrané</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">neplatné</string>
+    <string name="slot_continue">Pokračovať</string>
+    <string name="slot_enter_domain_title">Doména(y)</string>
+    <string name="slot_enter_domain_desc">Zadajte domény oddelené čiarkou. Môžete zadať aj odkaz na akýkoľvek zoznam hostov, alebo importovať lokálny súbor zoznamu hostov.</string>
+    <string name="slot_enter_domain_error">Toto mi nič nepripomína.</string>
+    <string name="slot_enter_domain_file">Súbor</string>
+    <string name="slot_enter_name_title">Názov</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
