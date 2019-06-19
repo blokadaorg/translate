@@ -53,6 +53,7 @@
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">tidak valid</string>
     <string name="slot_continue">Lanjutkan</string>
     <string name="slot_enter_domain_title">Domain</string>
     <string name="slot_enter_domain_desc">Masukkan domain, dipisahkan oleh koma. Anda bisa menyalin tautan ke daftar host manapun dan merekatkannya di sini, atau Anda bisa juga mengimpor berkas daftar host yang tersimpan di perangkat Anda.</string>
@@ -64,6 +65,9 @@
     <string name="slot_enter_name_generate">Beri nama otomatis</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; sudah dimasukkan ke whitelist</string>
     <string name="slot_app_desc">Aplikasi ini sudah dimasukkan ke dalam whitelist, sehingga dikecualikan dari pemblokiran atau penyaringan.</string>
+    <string name="slot_allapp_desc">Anda bisa memasukkan aplikasi ini ke dalam whitelist agar lalu lintas data aplikasi ini sama sekali tidak diblokir.</string>
+    <string name="slot_allapp_whitelisted">Masuk whitelist</string>
+    <string name="slot_allapp_normal">Tidak masuk whitelist</string>
     <string name="slot_allapp_whitelist">Whitelist</string>
     <string name="slot_dns_name">DNS server yang sedang digunakan: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_dns_dns">Anda bisa mengganti server DNS yang sedang dipakai di menu bawah.</string>
@@ -81,6 +85,18 @@
     <string name="slot_action_refresh_toast">Sinkronisasi dimulai</string>
     <string name="slot_action_restore">Hapus</string>
     <string name="slot_export_title">Pengaturan lokasi penyimpanan</string>
+    <string name="slot_export_description">Anda bisa mengatur di mana berkas konfigurasi disimpan (atau dari mana berkas tersebut diambil). Jika Anda mengimpor pengaturan yang sudah dibuat sebelumnya, harap pilih Impor terlebih dahulu, jika tidak pengaturan yang ada akan ditimpa.</string>
+    <string name="slot_action_import">Impor</string>
+    <string name="slot_action_internal">Penyimpanan Internal</string>
+    <string name="slot_action_external">Penyimpanan Eksternal</string>
+    <string name="slot_filters_title">Daftar filter</string>
+    <string name="slot_filters_description">Anda bisa mensinkronkan daftar server DNS dengan server kami tanpa kehilangan daftar server DNS yang telah Anda buat sendiri. &lt;br/&gt;&lt;br/&gt;Atau, Anda bisa juga membuang daftar server DNS yang ada sekarang (termasuk server DNS yang Anda masukkan secara manual) dan mengunduhnya kembali dari server kami.</string>
+    <string name="slot_blocked_title">Domain yang diblokir</string>
+    <string name="slot_forwarded_title">Domain yang diizinkan</string>
+    <string name="slot_whitelist_title">Aplikasi tidak terblokir</string>
+    <string name="slot_list_no_desc">Bagian ini tidak memiliki keterangan/catatan.</string>
+    <string name="slot_status_description_active">Pemblokiran iklan saat ini berstatus &lt;b&gt;aktif&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Anda akan melihat animasi di latar belakang yang menandakan bahwa iklan, tracker, dan konten lainnya yang tidak diinginkan sedang diblokir.</string>
+    <string name="slot_status_description_inactive">Pemblokiran iklan saat ini berstatus &lt;b&gt;tidak aktif&lt;/b&gt;.</string>
     <string name="slot_status_info">Ketika Blokada dalam kondisi aktif, Anda akan melihat ikon kunci di notification bar di bagian atas layar, hal tersebut menandakan perangkat Anda telah terlindungi. Anda bisa menonkatifkan Blokada dengan mengetuk tombol di bawah, atau dengan mengusap menu ke arah bawah.</string>
     <string name="slot_status_vpn_turn_off">Nonaktifkan VPN</string>
     <string name="slot_status_vpn_turn_on">Aktifkan VPN</string>
@@ -94,6 +110,7 @@
     <string name="slot_action_activate">Aktifkan</string>
     <string name="slot_action_deactivate_adblocking">Nonaktifkan pemblokiran iklan</string>
     <string name="slot_action_activate_adblocking">Aktifkan pemblokiran iklan</string>
+    <string name="slot_notifications_title">Notifikasi %s.</string>
     <string name="slot_notifications_desc">Anda bisa mengatur status notifikasi di sini (aktif atau nonaktif). Harap diingat bahwa pada beberapa perangkat, Android akan menampilkan notifikasi VPN terpisah yang tidak bisa dinonaktifkan.</string>
     <string name="slot_notifications_enabled">diaktifkan</string>
     <string name="slot_notifications_disabled">dinonaktifkan</string>
@@ -110,6 +127,7 @@
     <string name="slot_blocka_label">Akun Blokada VPN</string>
     <string name="slot_account_label_active">Akun valid sampai %s</string>
     <string name="slot_account_text_account">ID akun Anda adalah &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Status akun Anda adalah &lt;b&gt;tidak aktif&lt;/b&gt;. Anda perlu akun berstatus aktif untuk dapat menggunakan Blokada VPN. Silahkan ketuk tombol di bawah untuk mengaktifkan akun Anda.</string>
     <string name="slot_account_text_active">Status akun Anda adalah &lt;b&gt;aktif&lt;/b&gt; until &lt;b&gt;%s&lt;/b&gt;. Silahkan ketuk tombol di bawah untuk mengelola akun Anda.</string>
     <string name="slot_account_info">Rahasiakan ID akun Anda - ID tersebut akan diperlukan untuk mengembalikan akun Anda jika sewaktu-waktu Anda menguninstal Blokada. Status berlangganan Anda akan diperpanjang secara otomatis kecuali Anda batalkan.</string>
     <!-- Action to manage active subscription. Keep it short -->
@@ -123,7 +141,9 @@
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">tinggi</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">rendah</string>
     <string name="panel_section_home_gateways">VPN Gateways</string>
     <string name="subscription_success">Akun Anda sedang diaktifkan. Mungkin akan memakan sedikit waktu. Terima kasih!</string>
     <string name="slot_protection_header">Status Blokada</string>
