@@ -89,9 +89,16 @@
     <string name="slot_account_action_manage">Urus</string>
     <string name="slot_account_action_manage_inactive">Aktifkan akaun</string>
     <string name="slot_account_action_change_id">Pulihkan Akaun</string>
+    <string name="slot_account_action_copy">Salin ID akaun</string>
+    <string name="slot_account_action_copied">ID akaun telah disalin pada clipboard</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Sambung kepada %s</string>
+    <string name="slot_gateway_description">Prestasi: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Wilayah: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Prestasi: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Wilayah: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah pilihan pintu masuk anda sekarang.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">tinggi</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">rendah</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
