@@ -55,8 +55,14 @@
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_continue">Lanjutkan</string>
     <string name="slot_enter_domain_title">Domain</string>
+    <string name="slot_enter_domain_desc">Masukkan domain, dipisahkan oleh koma. Anda bisa menyalin tautan ke daftar host manapun dan merekatkannya di sini, atau Anda bisa juga mengimpor berkas daftar host yang tersimpan di perangkat Anda.</string>
     <string name="slot_enter_domain_error">Sepertinya ini bukan domain.</string>
     <string name="slot_enter_domain_file">File</string>
+    <string name="slot_enter_name_title">Nama</string>
+    <string name="slot_enter_name_desc">Berikan nama untuk domain yang baru saja Anda masukkan. Atau Anda bisa membiarkan Blokada memilih nama secara otomatis.</string>
+    <string name="slot_enter_name_error">Sepertinya ini bukan domain.</string>
+    <string name="slot_enter_name_generate">Beri nama otomatis</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; sudah dimasukkan ke whitelist</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
