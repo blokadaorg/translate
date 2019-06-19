@@ -57,10 +57,38 @@
     <string name="slot_invalid">tidak sah</string>
     <string name="slot_continue">Teruskan</string>
     <string name="slot_enter_domain_title">Domain</string>
+    <string name="slot_enter_domain_desc">Masukkan domain diselangi dengan koma. Anda juga boleh tampal sebarang link kepada mana-mana senarai hos, atau import fail senarai hos dalaman.</string>
+    <string name="slot_enter_domain_file">Fail</string>
+    <string name="slot_enter_name_title">Nama</string>
+    <string name="slot_enter_name_desc">Masukkan nama untuk kemasukkan baru. Anda juga boleh menjana nama cadangan.</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_activate">Hidupkan</string>
+    <string name="slot_action_deactivate_adblocking">Matikan penyekat iklan</string>
+    <string name="slot_action_activate_adblocking">Hidupkan penyekat iklan</string>
+    <string name="slot_dropped_counter">Bilangan domain disekat</string>
+    <string name="slot_dropped_counter_info">Bilangan ini menunjukkan jumlah domain yang telah disekat semenjak aplikasi ini dipasang.</string>
+    <string name="slot_dropped_action_clear">Tetapan semula bilangan</string>
+    <string name="slot_notifications_title">Pemberitahuan adalah %s.</string>
+    <string name="slot_notifications_enabled">aktifkan</string>
+    <string name="slot_notifications_disabled">dimatikan</string>
+    <string name="slot_update_action_refresh">Semak lagi</string>
+    <string name="slot_telegram_title">Sertai kami di Telegram!</string>
+    <string name="slot_telegram_desc">Kunjungi saluran Telegram kami untuk dapatakan bantuan atau menjadi sebahagian kominiti kami.</string>
+    <string name="slot_telegram_action">Buka</string>
+    <string name="slot_dropped_share_title">Kongsi ke</string>
+    <string name="slot_dropped_share">Saya telah menyekat %s iklan, terima kasih kepada %s! www.blokada.org</string>
+    <string name="slot_active">Aktif</string>
+    <string name="slot_inactive">Tidak aktif</string>
+    <string name="slot_adblocking_label">Sekat iklan &amp; penjejak</string>
+    <string name="slot_blocka_label">Akaun VPN Blokada</string>
+    <string name="slot_account_label_active">Akaun sah sehingga %s</string>
+    <string name="slot_account_text_account">ID anda ialah &lt;b&gt;%s&lt;/b&gt;.</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Urus</string>
+    <string name="slot_account_action_manage_inactive">Aktifkan akaun</string>
+    <string name="slot_account_action_change_id">Pulihkan Akaun</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
