@@ -30,6 +30,7 @@
     <string name="panel_ruleset">Счетчик фильтров</string>
     <string name="panel_ruleset_title">Фильтры теперь имеют %s правил.</string>
     <string name="panel_ruleset_updating">Обновление фильтров...</string>
+    <string name="panel_ruleset_built">Фильтры теперь настроены с &lt;b&gt;%s&lt;/b&gt; правилами. В общей сложности в память устройства можно вписать до &lt;b&gt;%s&lt;/b&gt; rules. Помните, что это всего лишь приблизительная оценка и она может меняться в зависимости от других приложений на вашем устройстве, поэтому для безопасности вы должны оставаться намного ниже этого предела.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Разрешить</string>
     <!-- Button to block allowed domain -->
@@ -164,10 +165,22 @@
     <string name="slot_protection_action">Настройки</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
+    <string name="slot_donate_label">Наслаждаетесь Blokada? Подумайте о том, чтобы поддержать нас, чтобы мы могли продолжать улучшать приложение.</string>
+    <string name="slot_donate_desc">Блокировщик рекламы Blokada - бесплатный и с открытым исходным кодом, и мы хотим, чтобы он оставался таким же. Ваши пожертвования помогают нам продолжать разработку приложения и внедрять новые функции, которые вы хотите видеть больше всего. Спасибо!</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Пожертвовать</string>
+    <string name="slot_cta_label">Мы хотели бы узнать ваше мнение.</string>
+    <string name="slot_cta_desc">Проявите свою поддержку, участвуя в наших опросах и других мероприятиях. Мы регулярно обращаемся к нашему сообществу за отзывами об идеях и новых разработках, чтобы убедиться, что мы работаем над тем, что вы хотите видеть.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Открыть</string>
+    <string name="slot_blog_label">Загляните в наш блог разработки!</string>
+    <string name="slot_blog_desc">В этом блоке мы пишем о развитии проекта, планах на будущее и обсуждаем идеи.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Открыть</string>
+    <string name="slot_updated_label">Blokada была обновлена!</string>
+    <string name="slot_updated_desc">Ваша версия Blokada теперь актуальна. Нажмите кнопку ниже для получения дополнительной информации об этом обновлении. Также, пожалуйста, рассмотрите возможность пожертвований для поддержки этого проекта!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Подробнее</string>
     <string name="slot_obsolete_label">Требуется действие: эта версия устарела!</string>
     <string name="slot_obsolete_desc">Ваша версия Blokada устарела и может работать некорректно. Пожалуйста, загрузите самую новую версию, чтобы получать обновления.</string>
     <!-- A button to update the app. -->
