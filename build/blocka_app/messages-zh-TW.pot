@@ -13,21 +13,21 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-06-20 15:33\n"
+"PO-Revision-Date: 2019-06-20 19:42\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/App.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "當前訂閱週期已過期，可能會自動續訂"
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/App.json
 msgid "ACTIVE"
-msgstr "啟動"
+msgstr "啟用"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
@@ -41,7 +41,7 @@ msgstr "帳號ID"
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr "啟用已取消"
+msgstr "已取消啟用"
 
 #. [account.subscription_status_canceled] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -153,5 +153,5 @@ msgstr "您的付款正在處理中,並且您的帳號將會於稍後啟動. 若
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "您的付款已取消，我們不會向您收取任何費用。 您的帳戶未啟用。 如果您遇到任何問題，請通過hello@blokada.org與我們聯繫。"
 
