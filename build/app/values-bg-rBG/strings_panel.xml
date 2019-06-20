@@ -203,9 +203,25 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Още</string>
     <string name="slot_obsolete_label">Задължително е действие: тази версия е остаряла!</string>
+    <string name="slot_obsolete_desc">Вашата версия на Blokada е остаряла и може да не работи правилно. Моля, изтеглете най-новата версия за да получавате актуализации.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Актуализация</string>
+    <string name="slot_cleanup_label">Открити са няколко версии на Blokada</string>
+    <string name="slot_cleanup_desc">Изглежда, че на устройството ви са инсталирани няколко версии на Blokada. Искате ли да премахнете другите версии и да запазите само една?</string>
+    <string name="slot_cleanup_action">Почисти</string>
+    <string name="account_inactive">Вашият VPN Blokada, изтече. Не сте свързани с VPN.</string>
+    <string name="lease_cant_connect">Не можа да се свърже с Blokada VPN. Опитайте да изберете друг шлюз.</string>
+    <string name="slot_account_name_title">Профил ID</string>
+    <string name="slot_account_name_desc">Въведете стария си идентификационен номер (ID) за да възстановите предишния си абонамент. Може да искате да запишете идентификационния номер на текущия си акаунт преди да възстановите стария, в случай че направите грешка.</string>
+    <string name="slot_account_name_error">ID на профила може да съдържа само букви и цифри.</string>
+    <string name="slot_account_name_api_error">ID на този профил не изглежда правилно.</string>
+    <string name="slot_account_name_restore">Възстановяване</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Основни настройки</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Блокиране на реклами &amp; списъци</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">DNS настройки</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Разширени настройки</string>
 </resources>
