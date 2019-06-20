@@ -175,9 +175,22 @@
     <string name="slot_protection_no_dns">Понастоящем се използват стандартните DNS сървъри на вашата мрежа. Препоръчва се преминаване към DNS сървъри със съзнание за поверителност.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada не е освободена от оптимизацията на батерията на устройството, така че може да бъде убита от системата. Трябва да използвате системните настройки за да включите Blokada в списъка с разрешени, така ще може тя да остане активна и да защитава устройството ви.</string>
     <string name="slot_protection_description">За да конфигурирате настройките, отворете долното меню.</string>
+    <string name="slot_start_on_boot_description">Разрешаването на старт със системата позволява на Blokada да бъде активна по всяко време и да предпазва устройството ви.</string>
+    <string name="slot_recommended_dns_label">Използвайте препоръчаните DNS сървъри</string>
+    <string name="slot_recommended_dns_description">Когато е активирана, Blokada автоматично ще избере препоръчаните DNS сървъри за да спомогне за ускоряването на интернет и защитата на поверителността ви. В противен случай се използват стандартните DNS сървъри на вашата мрежа. Ако ръчно изберете DNS сървъри в раздела Разширени, тази настройка се игнорира.</string>
+    <string name="slot_update_no_updates">Blokada е актуална</string>
+    <string name="slot_about">За Блокада</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Лог</string>
+    <string name="slot_help_label">Нужда от помощ?</string>
+    <string name="slot_help_desc">Докоснете бутона по-долу за да отворите страницата за помощ. Можете също да използвате нашите социални медии за да получите помощ - ние сме на Telegram, Facebook, Reddit и Twitter.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Помощ</string>
+    <string name="slot_donate_label">Наслаждавате се на Блокада? Помислете да ни подкрепите за да можем да продължим с подобряването на приложението.</string>
+    <string name="slot_donate_desc">Blokada adblocker е свободен и отворен код, и ние искаме той да продължи по този начин. Вашите дарения ни помагат да продължим да разработваме приложението и да въвеждаме нови функции, които искате да видите най-много. Благодарим Ви!</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Дарете</string>
+    <string name="slot_cta_label">Псст! Бихме искали да знаем вашето мнение.</string>
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
