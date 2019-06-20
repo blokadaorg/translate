@@ -20,8 +20,8 @@
     <string name="panel_section_apps_all">Installierte Apps</string>
     <string name="panel_section_apps_system">System-Apps</string>
     <!-- When a domain is allowed (not blocked) -->
-    <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; erlaubt</string>
-    <string name="panel_domain_forwarded_desc">Diese Domain wurde erlaubt. Um sie zu blockieren, benutze den Button unten.</string>
+    <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; zugelassen</string>
+    <string name="panel_domain_forwarded_desc">Diese Domain wurde zugelassen. Um sie zu blockieren, benutze den Button unten.</string>
     <string name="panel_domain_forwarded_toast">Zur Whitelist hinzugefügt.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; blockiert</string>
@@ -136,16 +136,16 @@
     <string name="slot_adblocking_text">Wenn aktiviert, blockiert Blokada Werbung, Tracker und andere unerwünschte Inhalte. Das hilft, die Privatsphäre zu schützen, das Gerät zu beschleunigen und Daten zu sparen.</string>
     <string name="slot_blocka_label">Blokada-VPN-Konto</string>
     <string name="slot_account_label_active">Nutzerkonto ist gültig bis %s</string>
-    <string name="slot_account_text_account">Deine Konto-ID ist &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_account">Deine Kontokennung ist &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_text_inactive">Dein Abonnement ist &lt;b&gt;inaktiv&lt;/b&gt;. Du brauchst ein aktives Konto, um Blokada VPN zu verwenden. Bitte tippe auf den Schalter unten, um es zu aktivieren.</string>
     <string name="slot_account_text_active">Dein Abonnement ist &lt;b&gt;aktiv&lt;/b&gt; bis &lt;b&gt;%s&lt;/b&gt;. Bitte tippe auf den Schalter unten, um das Abonnement zu verwalten.</string>
-    <string name="slot_account_info">Du solltest Deine Konto-ID geheim halten - sie wird benötigt, um Dein Konto wiederherzustellen, falls die App deinstalliert wird. Dein Abonnement wird automatisch verlängert, solange es nicht gekündigt wird.</string>
+    <string name="slot_account_info">Du solltest deine Kontokennung geheim halten - sie wird benötigt, um dein Konto wiederherzustellen, falls die App deinstalliert wird. Dein Abonnement wird automatisch verlängert, solange es nicht gekündigt wird.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Verwalten</string>
     <string name="slot_account_action_manage_inactive">Konto aktivieren</string>
     <string name="slot_account_action_change_id">Konto wiederherstellen</string>
-    <string name="slot_account_action_copy">Konto-ID kopieren</string>
-    <string name="slot_account_action_copied">Konto-ID in die Zwischenablage kopiert</string>
+    <string name="slot_account_action_copy">Kontokennung kopieren</string>
+    <string name="slot_account_action_copied">Kontokennung in die Zwischenablage kopiert</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Verbinde mit %s</string>
     <string name="slot_gateway_description">Leistung: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
@@ -210,9 +210,9 @@
     <string name="slot_cleanup_action">Aufräumen</string>
     <string name="account_inactive">Dein Blokada-VPN ist abgelaufen. Du bist nicht mit dem VPN verbunden.</string>
     <string name="lease_cant_connect">Die Verbindung zu Blokada VPN konnte nicht hergestellt werden. Versuche ein anderes Gateway auszuwählen.</string>
-    <string name="slot_account_name_title">Konto-ID</string>
+    <string name="slot_account_name_title">Kontokennung</string>
     <string name="slot_account_name_desc">Gib Deine vorherige Konto-ID ein, um Dein vorheriges Abbonement wiederherzustellen. Schreibe Dir Deine jetzige Konto-ID zur Sicherheit auf, falls ein Fehler auftreten sollte.</string>
-    <string name="slot_account_name_error">Die Konto-ID kann nur Buchstaben und Nummern enthalten.</string>
+    <string name="slot_account_name_error">Die Kontokennung kann nur Buchstaben und Nummern enthalten.</string>
     <string name="slot_account_name_api_error">Diese Konto ID scheint nicht korrekt zu sein.</string>
     <string name="slot_account_name_restore">Wiederherstellen</string>
     <!-- A section in advanced settings. -->
