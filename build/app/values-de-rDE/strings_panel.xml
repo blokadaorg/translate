@@ -175,19 +175,26 @@
     <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Batterieoptimierung Deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
     <string name="slot_protection_description">Um Einstellungen vorzunehmen, benutze das untere Menü.</string>
     <string name="slot_start_on_boot_description">Durch das aktivieren des Autostarts beim starten des Geräts, kann Blokada jederzeit aktiv Dein Gerät und Deine Daten schützen.</string>
+    <string name="slot_recommended_dns_label">Verwende die empfohlenen DNS-Server</string>
+    <string name="slot_recommended_dns_description">Wenn aktiviert, wird Blokada automatisch die empfohlenen DNS-Server auswählen, um Dein Internet zu beschleunigen und Deine Privatsphäre zu schützen. Andernfalls werden die Standard-DNS-Server des Netzwerks verwendet. Wenn Du manuell die DNS-Server im Erweiterten Abschnitt auswählst, wird diese Einstellung ignoriert.</string>
     <string name="slot_update_no_updates">Blokada ist aktuell</string>
     <string name="slot_about">Über Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Protokoll</string>
     <string name="slot_help_label">Brauchst Du Hilfe?</string>
+    <string name="slot_help_desc">Tippe auf den Button unten, um unsere Hilfe-Seite zu öffnen. Du kannst auch unsere sozialen Medien nutzen, um Hilfe zu erhalten - wir sind auf Telegram, Facebook, Reddit und Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Hilfe</string>
+    <string name="slot_donate_label">Gefällt Dir Blokada? Dann Unterstützung uns, damit wir die App weiter verbessern können.</string>
+    <string name="slot_donate_desc">Blokada Adblocker ist frei und Open Source, und wir wollen, dass es so bleibt. Deine Spenden helfen uns, die App weiterzuentwickeln und neue Funktionen einzuführen, die Du am meisten sehen möchtest. Vielen Dank!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Spenden</string>
     <string name="slot_cta_label">Psst! Wir würden gerne Deine Meinung erfahren.</string>
+    <string name="slot_cta_desc">Zeige Deine Unterstützung, in dem Du an unseren Umfragen und Veranstaltungen teilnimmst. Wir prüfen regelmässig die Rückmeldungen unserer Community, bezüglich Ideen und neuen Entwicklungen, um sicher zu gehen, dass wir die Wünsche unserer Community umsetzen können.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Öffnen</string>
     <string name="slot_blog_label">Schauen Sie sich unseren Entwicklungs-Blog an!</string>
+    <string name="slot_blog_desc">Der Block ist unser Blog, um die neusten Entwicklungen unseres Projekts, zukünftige Pläne veröffentlichen und Diskussionen bezüglich neuer Ideen führen.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Öffnen</string>
     <string name="slot_updated_label">Blokada wurde aktualisiert!</string>
@@ -202,6 +209,10 @@
     <string name="slot_cleanup_desc">Es scheint, dass viele Versionen von Blokada auf dem Gerät installiert sind. Sollen die anderen Versionen entfernt werden und nur eine bleiben?</string>
     <string name="slot_cleanup_action">Aufräumen</string>
     <string name="account_inactive">Dein Blokada-VPN ist abgelaufen. Du bist nicht mit dem VPN verbunden.</string>
+    <string name="lease_cant_connect">Die Verbindung zu Blokada VPN konnte nicht hergestellt werden. Versuche ein anderes Gateway auszuwählen.</string>
+    <string name="slot_account_name_title">Konto-ID</string>
+    <string name="slot_account_name_desc">Gib Deine vorherige Konto-ID ein, um Dein vorheriges Abbonement wiederherzustellen. Schreibe Dir Deine jetzige Konto-ID zur Sicherheit auf, falls ein Fehler auftreten sollte.</string>
+    <string name="slot_account_name_error">Die Konto-ID kann nur Buchstaben und Nummern enthalten.</string>
     <string name="slot_account_name_api_error">Diese Konto ID scheint nicht korrekt zu sein.</string>
     <string name="slot_account_name_restore">Wiederherstellen</string>
     <!-- A section in advanced settings. -->
