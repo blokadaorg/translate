@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-06-20 15:18\n"
+"PO-Revision-Date: 2019-06-20 15:33\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -76,77 +76,77 @@ msgstr "正在取消 {spinner}"
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "接收帳號資料 {spinner}"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/App.json
 msgid "LOADING"
-msgstr ""
+msgstr "載入中"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/App.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "載入中 {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "沒有找到"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "抱歉, 發生錯誤. 請稍後再嘗試一次."
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
 #. Subscribe
 #: build/messages/src/App.json
 msgid "Subscribe"
-msgstr ""
+msgstr "訂閱"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
 #: build/messages/src/App.json
 msgid "Subscription: {status}"
-msgstr ""
+msgstr "訂閱狀態: {status}"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "謝謝!"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "這個頁面無法被顯示. 若您遇到了任何問題, 請利用hello@blokada.org來與我們聯繫."
 
 #. [account.activate_helptext] - Help text shown when about to activate an account
 #. defaultMessage is:
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr ""
+msgstr "在啟用帳號ID前先把它寫下來, 以防萬一若數據遺失了, 可以用它來回復數據."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "您的付款正在處理中,並且您的帳號將會於稍後啟動. 若您遇到了任何問題, 請利用hello@blokada.org來與我們聯繫."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
