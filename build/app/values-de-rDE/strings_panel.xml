@@ -49,10 +49,10 @@
     <string name="slot_intro_new">Willkommen bei %s! Tippe hier für eine Einführung.</string>
     <string name="slot_intro_new_header">Wie benutzt man die neue Benutzeroberfläche?</string>
     <string name="slot_intro_desc">Du kannst auf jedes Objekt, wie dieses hier, tippen, um es zu öffnen und Aktionen durchzuführen. Zum Beispiel kann dieses Objekt entfernt werden, sobald du mit ihm fertig bist. &lt;br/&gt;&lt;br/&gt;Du bist momentan auf der Startseite. Wische nach links oder rechts, um weitere Bereiche anzusehen. Jeder von ihnen hat sein eigenes Menü am unteren Bildschirmrand - öffne es, indem du nach oben wischst. &lt;br/&gt;&lt;br/&gt;Los gehts, erkunde jetzt die App!</string>
-    <string name="slot_intro_info">Psst... Einige Elemente haben ein Fragezeichen-Symbol. Tippen darauf, um eine kurze Hilfe anzuzeigen, ähnlich wie diese!</string>
+    <string name="slot_intro_info">Psst... Einige Objekte tragen ein Fragezeichen. Beim Daraufdrücken wird eine kurze Hilfe angezeigt, ähnlich wie diese!</string>
     <string name="slot_new_filter">Neuen Host blockieren</string>
     <string name="slot_new_filter_list">Neue Liste hinzufügen</string>
-    <string name="slot_new_filter_whitelist">Neuen Host in die Whiteliste aufnehmen</string>
+    <string name="slot_new_filter_whitelist">Neuen Host in die Whitelist aufnehmen</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">zurücksetzen</string>
     <!-- A state of input form when correct input is entered  -->
@@ -68,7 +68,7 @@
     <string name="slot_enter_name_desc">Gib einen Namen für den neuen Eintrag ein. Du kannst auch einen Namen automatisch generieren lassen.</string>
     <string name="slot_enter_name_error">Das sieht mir nicht so aus.</string>
     <string name="slot_enter_name_generate">Erzeugen</string>
-    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; ist auf der Whiteliste</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; ist auf der Whitelist</string>
     <string name="slot_app_desc">Diese App ist Whitelist, was bedeutet, dass keine Sperrung oder Filterung auf ihr durchgeführt wird.</string>
     <string name="slot_allapp_desc">Du kannst diese App auf die Whitelist setzen, um zu verhindern, dass der Datenverkehr gefiltert wird.</string>
     <string name="slot_allapp_whitelisted">Als erlaubt gelistet</string>
@@ -172,7 +172,7 @@
     <string name="slot_protection_no_vpn">Du bist nicht mit Blokada VPN verbunden. Du solltest es für einen besseren Schutz Deiner Privatsphäre und Sicherheit aktivieren.</string>
     <string name="slot_protection_no_start_on_boot">Blokada ist so eingestellt das es nicht automatisch mit Deinem Gerät mitstartet. Du solltest Blokada für besseren Schutz immer aktiviert halten.</string>
     <string name="slot_protection_no_dns">Die Standard-DNS-Server Deines Netzwerks werden derzeit verwendet. Wechsle sicherheitshalber zu den datenschutzbewussteren DNS-Servern.</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Batterieoptimierung Deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Akku-Optimierung Deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der Optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
     <string name="slot_protection_description">Um Einstellungen vorzunehmen, benutze das untere Menü.</string>
     <string name="slot_start_on_boot_description">Die Aktivierung des Autostarts ermöglicht Blokada, jederzeit aktiv zu sein und dein Gerät zu schützen.</string>
     <string name="slot_recommended_dns_label">Verwende die empfohlenen DNS-Server</string>
