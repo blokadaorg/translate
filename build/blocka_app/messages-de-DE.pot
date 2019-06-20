@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-06-20 11:03\n"
+"PO-Revision-Date: 2019-06-20 11:25\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -55,7 +55,7 @@ msgstr "Abgebrochen"
 #. CANCELING
 #: build/messages/src/App.json
 msgid "CANCELING"
-msgstr ""
+msgstr "Beenden"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -69,7 +69,7 @@ msgstr "Abonnement kündigen"
 #. Canceling {spinner}
 #: build/messages/src/App.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Beende {spinner}"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -83,14 +83,14 @@ msgstr "Kontoinformationen werden abgerufen {spinner}"
 #. LOADING
 #: build/messages/src/App.json
 msgid "LOADING"
-msgstr ""
+msgstr "Lade"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/App.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Lade {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -104,7 +104,7 @@ msgstr "Nicht gefunden"
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Leider ist ein Fehler aufgetreten. Bitte versuch es später erneut."
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
@@ -118,7 +118,7 @@ msgstr "Abonnieren"
 #. Subscription: {status}
 #: build/messages/src/App.json
 msgid "Subscription: {status}"
-msgstr ""
+msgstr "Abonnement: {status}"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -139,19 +139,19 @@ msgstr "Diese Seite konnte nicht angezeigt werden. Wenn Sie Probleme haben, kont
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr ""
+msgstr "Notiere Dir Deine Konto-ID vor der Aktivierung, sie kann dazu benutzer werden um Dein Abbonement bei einem eventuellen Datenverlust wiederherzustellen."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Deine Zahlung wird bearbeitet und Dein Konto wird in Kürze aktiviert. Wenn Du Probleme haben solltest, kontaktiere uns bitte unter hello@blokada.org."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Deine Zahlung wurde storniert und Dein Konto wird nicht belastet. Dein Konto ist nicht aktiv. Wenn Du weiterhin Probleme haben solltest, kontaktiere uns bitte unter hello@blokada.org."
 
