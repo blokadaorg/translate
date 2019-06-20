@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-06-20 11:38\n"
+"PO-Revision-Date: 2019-06-20 20:52\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -48,21 +48,21 @@ msgstr "Aktivierung abgebrochen"
 #. CANCELED
 #: build/messages/src/App.json
 msgid "CANCELED"
-msgstr "Abgebrochen"
+msgstr "GEKÜNDIGT"
 
 #. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELING
 #: build/messages/src/App.json
 msgid "CANCELING"
-msgstr "Beenden"
+msgstr "KÜNDIGEN"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/App.json
 msgid "Cancel Subscription"
-msgstr "Abonnement kündigen"
+msgstr "Abonnement beenden"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
@@ -76,21 +76,21 @@ msgstr "Beende {spinner}"
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
-msgstr "Kontoinformationen werden abgerufen {spinner}"
+msgstr "Kontoinformationen abrufen {spinner}"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/App.json
 msgid "LOADING"
-msgstr "Lade"
+msgstr "LADEN"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/App.json
 msgid "Loading {spinner}"
-msgstr "Lade {spinner}"
+msgstr "Laden {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
