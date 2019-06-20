@@ -119,11 +119,35 @@
     <string name="slot_protection_ok">Il tuo dispositivo è completamente protetto! Sia la VPN che il blocco pubblicità sono attivi.</string>
     <string name="slot_protection_no_adblocking">Il blocco pubblicità &amp; tracker è al momento disabilitato. Dovresti abilitarlo per proteggere la tua privacy e i tuoi dati.</string>
     <string name="slot_protection_no_vpn">Non sei connesso alla VPN di Blokada. Dovresti prenderla in considerazione per una migliore protezione della tua privacy e sicurezza.</string>
+    <string name="slot_protection_no_start_on_boot">Blokada non è configurata per avviarsi al boot. Dovresti mantenere Blokada sempre attiva per una migliore protezione.</string>
+    <string name="slot_protection_no_dns">Al momento stai usando i server DNS di default della tua rete. Si consiglia di passare a server DNS che tengono alla privacy.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada non è esente dall\'ottimizzazione batteria del tuo dispositivo, perciò può essere terminata dal sistema. Dovresti modificare le impostazioni del tuo dispositivo per aggiungere Blokada alla whitelist in modo che possa restare attiva e proteggerti.</string>
+    <string name="slot_protection_description">Per modificare le impostazioni, apri il menù in basso.</string>
+    <string name="slot_start_on_boot_description">Abilitare l\'avvio al boot permette a Blokada di rimanere sempre attiva e proteggere il tuo dispositivo.</string>
+    <string name="slot_recommended_dns_label">Usa i server DNS raccomandati</string>
+    <string name="slot_recommended_dns_description">Quando abilitata, Blokada sceglierà in automatico i server DNS raccomandati per velocizzare la tua connessione Internet e proteggere la tua privacy. Altrimenti, verranno utilizzati i server DNS di default della tua rete. Se scegli manualmente i server DNS nella sezione Avanzate, questa impostazione sarà ignorata.</string>
+    <string name="slot_update_no_updates">Blokada è aggiornata</string>
+    <string name="slot_about">Info su Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Log</string>
+    <string name="slot_help_label">Serve aiuto?</string>
+    <string name="slot_help_desc">Clicca il pulsante sotto per aprire la nostra pagina di aiuto. Puoi anche utilizzare i nostri social per chiedere aiuto - siam su Telegram, Facebook, Reddit e Twitter.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Aiuto</string>
+    <string name="slot_donate_label">Blokada ti piace? Se ti va, supporta il nostro lavoro, così potremo continuare a migliorare l\'app.</string>
+    <string name="slot_donate_desc">Blokada è gratuita e open source, e vogliamo che continui ad essere così. Le tue donazioni ci aiutano a sviluppare l\'app ed introdurre le nuove funzionalità che più vorresti. Grazie!</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Dona</string>
+    <string name="slot_cta_label">Psst! Vorremmo sapere la tua opinione.</string>
+    <string name="slot_cta_desc">Mostra il tuo sostegno partecipando ai nostri sondaggi e altri eventi. Chiediamo costantemente alla nostra comunità feedback e idee per futuri sviluppi, così da garantire che stiamo lavorando su ciò che vi piacerebbe.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Apri</string>
+    <string name="slot_blog_label">Dai un\'occhiata al nostro Blog di sviluppo!</string>
+    <string name="slot_blog_desc">Il Blog è dove scriviamo aggiornamenti sullo sviluppo del progetto, i piani futuri e dove discutiamo le nuove idee.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Apri</string>
+    <string name="slot_updated_label">Blokada è stata aggiornata!</string>
+    <string name="slot_updated_desc">La tua versione di Blokada è ora aggiornata. Clicca il pulsante sotto per ulteriori informazioni circa questo aggiornamento. Inoltre, considera l\'idea di donare per supportare questo progetto!</string>
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
