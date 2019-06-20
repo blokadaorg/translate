@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-06-20 20:52\n"
+"PO-Revision-Date: 2019-06-20 21:04\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -34,7 +34,7 @@ msgstr "AKTIV"
 #. Account ID
 #: build/messages/src/App.json
 msgid "Account ID"
-msgstr "Konto-ID"
+msgstr "Kontokennung"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -48,14 +48,14 @@ msgstr "Aktivierung abgebrochen"
 #. CANCELED
 #: build/messages/src/App.json
 msgid "CANCELED"
-msgstr "GEKÜNDIGT"
+msgstr "BEENDET"
 
 #. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELING
 #: build/messages/src/App.json
 msgid "CANCELING"
-msgstr "KÜNDIGEN"
+msgstr "BEENDEN"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -69,7 +69,7 @@ msgstr "Abonnement beenden"
 #. Canceling {spinner}
 #: build/messages/src/App.json
 msgid "Canceling {spinner}"
-msgstr "Beende {spinner}"
+msgstr "Beenden {spinner}"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -139,7 +139,7 @@ msgstr "Diese Seite konnte nicht angezeigt werden. Wenn Sie Probleme haben, kont
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr "Notiere Dir Deine Konto-ID vor der Aktivierung, sie kann dazu benutzer werden um Dein Abbonement bei einem eventuellen Datenverlust wiederherzustellen."
+msgstr "Notiere dir vor der Aktivierung die Konto-ID, sie kann im Falle eines Datenverlusts zur Wiederherstellung deines Abonnements verwendet werden."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
