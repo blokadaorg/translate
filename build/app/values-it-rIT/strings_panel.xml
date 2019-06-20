@@ -48,11 +48,44 @@
     <string name="slot_start">scorri su per iniziare</string>
     <string name="slot_intro_new">Benvenuto su %s! Tocca qui per cominciare.</string>
     <string name="slot_intro_new_header">Come si utilizza la nuova interfaccia?</string>
+    <string name="slot_intro_desc">Puoi cliccare su qualsiasi elemento, come questo, per aprirlo ed eseguire alcune azioni. Per esempio, puoi rimuovere questo elemento una volta che hai finito. &lt;br/&gt;&lt;br/&gt;Attualmente sei nella sezione Home. Scorri a sinistra oppure a destra per le altre sezioni. Ognuna ha il proprio menù in basso - aprilo scorrendo verso l\'alto. &lt;br/&gt;&lt;br/&gt;Forza, adesso va\' ed esplora l\'app!</string>
+    <string name="slot_intro_info">Psst... Alcuni elementi hanno l\'icona del punto interrogativo di sopra. Toccarla farà aprire un breve messaggio d\'aiuto, come questo!</string>
+    <string name="slot_new_filter">Blocca un nuovo host</string>
+    <string name="slot_new_filter_list">Aggiungi una nuova lista</string>
+    <string name="slot_new_filter_whitelist">Aggiungi un host alla whitelist</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">non impostato</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">impostato</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">non valido</string>
+    <string name="slot_continue">Continua</string>
+    <string name="slot_enter_domain_title">Dominio(i)</string>
+    <string name="slot_enter_domain_desc">Inserisci i domini separati da una virgola. Puoi anche incollare un link ad una lista di host, oppure importarne una da un file in locale.</string>
+    <string name="slot_enter_domain_error">Tu vuoi che io muoro?</string>
+    <string name="slot_enter_domain_file">File</string>
+    <string name="slot_enter_name_title">Nome</string>
+    <string name="slot_enter_name_desc">Inserisci il nome per la nuova voce. Puoi anche generare un nome suggerito.</string>
+    <string name="slot_enter_name_error">Tu vuoi che io muoro?</string>
+    <string name="slot_enter_name_generate">Genera</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; è ora nella whitelist</string>
+    <string name="slot_app_desc">Quest\'app è nella whitelist, ciò significa che su di essa non agisce alcun blocco o filtro.</string>
+    <string name="slot_allapp_desc">Puoi inserire quest\'app nella whitelist, così da permettere tutto il traffico.</string>
+    <string name="slot_allapp_whitelisted">In whitelist</string>
+    <string name="slot_allapp_normal">Non in whitelist</string>
+    <string name="slot_allapp_whitelist">Whitelist</string>
+    <string name="slot_dns_name">Server DNS corrente(i): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Puoi cambiare i server correnti usando il menù in basso.</string>
+    <string name="slot_action_none">Questa azione non è ancora possibile.</string>
+    <string name="slot_action_facts">Eventi</string>
+    <string name="slot_action_unwhitelist">Cancella</string>
+    <string name="slot_action_author">L\'autore</string>
+    <string name="slot_action_share">Condividi</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Una voce</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Una voce per %s</string>
+    <string name="slot_dns_control_title">Lista server DNS</string>
     <!-- A button to synchronize (fetch) lists  -->
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
