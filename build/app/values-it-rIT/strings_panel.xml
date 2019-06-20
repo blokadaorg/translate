@@ -86,7 +86,23 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">Una voce per %s</string>
     <string name="slot_dns_control_title">Lista server DNS</string>
+    <string name="slot_dns_control_description">Puoi sincronizzare la lista dei server DNS con i nostri server, senza perdere le tue voci personalizzate. &lt;br/&gt;&lt;br/&gt;Alternativamente, puoi eliminare tutte le voci (incluse le tue), e scaricarle di nuovo.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Sincronizza</string>
+    <string name="slot_action_refresh_toast">Sincronizzazione iniziata</string>
+    <string name="slot_action_restore">Elimina</string>
+    <string name="slot_export_title">Impostazioni posizione</string>
+    <string name="slot_export_description">Puoi modificare dove verrà salvata la configurazione (e da dove verrà caricata). Se vuoi importare delle impostazioni esistenti, per prima cosa seleziona Importa, altrimenti le impostazioni verranno sovrascritte.</string>
+    <string name="slot_action_import">Importa</string>
+    <string name="slot_action_internal">Memoria Interna</string>
+    <string name="slot_action_external">Memoria Esterna</string>
+    <string name="slot_filters_title">Lista filtri</string>
+    <string name="slot_filters_description">Puoi sincronizzare la lista dei filtri con i nostri server, senza perdere le tue voci personalizzate. &lt;br/&gt;&lt;br/&gt;Alternativamente, puoi eliminare tutte le voci (incluse le tue), e scaricarle di nuovo.</string>
+    <string name="slot_blocked_title">Dominio bloccato</string>
+    <string name="slot_forwarded_title">Dominio inoltrato</string>
+    <string name="slot_whitelist_title">App in whitelist</string>
+    <string name="slot_list_no_desc">Questa voce non ha alcuna descrizione.</string>
+    <string name="slot_status_description_active">Il blocco pubblicità è attualmente &lt;b&gt;attivo&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Vedrai un\'animazione in background quando pubblicità, tracker o altri contenuti indesiderati verranno bloccati.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
