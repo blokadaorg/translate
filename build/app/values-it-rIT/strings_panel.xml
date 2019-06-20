@@ -104,6 +104,7 @@
     <string name="slot_list_no_desc">Questa voce non ha alcuna descrizione.</string>
     <string name="slot_status_description_active">Il blocco pubblicità è attualmente &lt;b&gt;attivo&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Vedrai un\'animazione in background quando pubblicità, tracker o altri contenuti indesiderati verranno bloccati.</string>
     <string name="slot_status_description_inactive">Il blocco pubblicità è attualmente &lt;b&gt;disattivato&lt;/b&gt;.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN è attualmente &lt;b&gt;disabilitato&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Quando la VPN è connessa, il tuo dispositivo comunica attraverso i nostri server sicuri e il tuo traffico è criptato, così che nessuno possa vedere i tuoi dati. Il tuo reale IP è nascosto e puoi accedere ai contenuti oscurati. In alcuni casi, potresti anche notare una connessione ad Internet più veloce.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
@@ -118,7 +119,7 @@
     <string name="slot_protection_action">Impostazioni</string>
     <string name="slot_protection_ok">Il tuo dispositivo è completamente protetto! Sia la VPN che il blocco pubblicità sono attivi.</string>
     <string name="slot_protection_no_adblocking">Il blocco pubblicità &amp; tracker è al momento disabilitato. Dovresti abilitarlo per proteggere la tua privacy e i tuoi dati.</string>
-    <string name="slot_protection_no_vpn">Non sei connesso alla VPN di Blokada. Dovresti prenderla in considerazione per una migliore protezione della tua privacy e sicurezza.</string>
+    <string name="slot_protection_no_vpn">Non sei connesso a Blokada VPN. Dovresti prenderla in considerazione per una migliore protezione della tua privacy e sicurezza.</string>
     <string name="slot_protection_no_start_on_boot">Blokada non è configurata per avviarsi al boot. Dovresti mantenere Blokada sempre attiva per una migliore protezione.</string>
     <string name="slot_protection_no_dns">Al momento stai usando i server DNS di default della tua rete. Si consiglia di passare a server DNS che tengono alla privacy.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada non è esente dall\'ottimizzazione batteria del tuo dispositivo, perciò può essere terminata dal sistema. Dovresti modificare le impostazioni del tuo dispositivo per aggiungere Blokada alla whitelist in modo che possa restare attiva e proteggerti.</string>
@@ -157,8 +158,8 @@
     <string name="slot_cleanup_label">Rilevate più versioni di Blokada</string>
     <string name="slot_cleanup_desc">Sembra che sul tuo dispositivo siano installate più versioni di Blokada. Vuoi rimuovere le altre versioni e tenerne solo una?</string>
     <string name="slot_cleanup_action">Pulisci</string>
-    <string name="account_inactive">La tua VPN di Blokada è scaduta. Non sei connesso alla VPN.</string>
-    <string name="lease_cant_connect">Impossibile connettersi alla VPN di Blokada. Prova a selezionare un altro gateway.</string>
+    <string name="account_inactive">Il tuo abbonamento a Blokada VPN è scaduto. Non sei connesso alla VPN.</string>
+    <string name="lease_cant_connect">Impossibile connettersi a Blokada VPN. Prova a selezionare un altro gateway.</string>
     <string name="slot_account_name_title">ID account</string>
     <string name="slot_account_name_desc">Inserisci il tuo vecchio ID account per ripristinare il tuo abbonamento precedente. Potresti volerti segnare il tuo ID account corrente prima di farlo, nel caso tu commetta qualche errore.</string>
     <string name="slot_account_name_error">L\'ID account può contenere solo lettere e numeri.</string>
