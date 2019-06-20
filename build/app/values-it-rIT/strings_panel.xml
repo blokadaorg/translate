@@ -103,10 +103,22 @@
     <string name="slot_whitelist_title">App in whitelist</string>
     <string name="slot_list_no_desc">Questa voce non ha alcuna descrizione.</string>
     <string name="slot_status_description_active">Il blocco pubblicità è attualmente &lt;b&gt;attivo&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Vedrai un\'animazione in background quando pubblicità, tracker o altri contenuti indesiderati verranno bloccati.</string>
+    <string name="slot_status_description_inactive">Il blocco pubblicità è attualmente &lt;b&gt;disattivato&lt;/b&gt;.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_protection_error">Blokada è temporaneamente disabilitato</string>
+    <string name="slot_protection_error_desc">Ciò potrebbe essere causato da problemi di rete temporanei, da problemi con il tuo dispositivo o con il software. Blokada si riattiverà in automatico a breve, ma potresti provare a riattivare l\'app manualmente o riavviare il telefono. Se continui ad avere problemi, per favore contattaci su Telegram.</string>
+    <string name="slot_protection_disconnected">Il tuo dispositivo è offline</string>
+    <string name="slot_protection_disconnected_desc">Blokada è in pausa perché il tuo dispositivo ha perso la connessione ad Internet. Blokada si riattiverà automaticamente non appena tornerai online.</string>
+    <string name="slot_protection_activating">Blokada si sta attivando</string>
+    <string name="slot_protection_active_warning">Blokada è attiva, ma la configurazione potrebbe essere migliorata. Clicca per dettagli.</string>
+    <string name="slot_protection_active">Blokada e la VPN sono attive</string>
+    <string name="slot_protection_action">Impostazioni</string>
+    <string name="slot_protection_ok">Il tuo dispositivo è completamente protetto! Sia la VPN che il blocco pubblicità sono attivi.</string>
+    <string name="slot_protection_no_adblocking">Il blocco pubblicità &amp; tracker è al momento disabilitato. Dovresti abilitarlo per proteggere la tua privacy e i tuoi dati.</string>
+    <string name="slot_protection_no_vpn">Non sei connesso alla VPN di Blokada. Dovresti prenderla in considerazione per una migliore protezione della tua privacy e sicurezza.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
