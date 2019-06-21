@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2019-06-20 10:44\n"
+"PO-Revision-Date: 2019-06-21 06:43\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -27,14 +27,14 @@ msgstr ""
 #. ACTIVE
 #: build/messages/src/App.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "AKTÍV"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/App.json
 msgid "Account ID"
-msgstr ""
+msgstr "Fiókazonosító"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -97,14 +97,14 @@ msgstr ""
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Nem található"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Sajnos hiba történt. Kérjük, próbáld újra később."
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
@@ -125,28 +125,28 @@ msgstr ""
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Köszönjük!"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Ezt az oldalt nem lehetett megjeleníteni. Bármilyen probléma felmerülése esetén, kérjük, lépj velünk kapcsolatba a hello@blokada.org címen."
 
 #. [account.activate_helptext] - Help text shown when about to activate an account
 #. defaultMessage is:
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr ""
+msgstr "Írd le a fiókazonosítódat, mielőtt aktiválnád, az adatvesztés esetén az előfizetés visszaállítására használható."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "A fizetés feldolgozása folyamatban van, és fiókod hamarosan aktiválásra kerül. Bármilyen probléma felmerülése esetén, kérjük, lépj velünk kapcsolatba a hello@blokada.org címen."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
