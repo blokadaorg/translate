@@ -22,6 +22,10 @@ function importContent {
     cp "$src/api/v3/canonical/strings/$x" "content/$x"
 }
 
+function importWeb {
+    cp "$src/index.html" "web/index.html"
+}
+
 app=$1
 web=$2
 
@@ -41,6 +45,9 @@ if [ "$choice" = "i" ]; then
 
 	echo "Importing web..."
 	src=$web
+	importWeb
+
+	echo "Importing content..."
 	for x in $pages; do
 	    importContent
 	done
@@ -54,10 +61,23 @@ elif [ "$choice" = "e" ]; then
 
 	# Some files should not be removed. Revert
 	cd $app/src/legacy/res/
-	git checkout -- values-w820*
+	git checkout -- values-w420dp-port
+	git checkout -- values-w840dp-land
+	git checkout -- values-w960dp
 	cd -
 
 	echo "Exporting web..."
+	rm -rf $web/lang/*
+
+	cp -rf build/web/* $web/local/
+	for D in $web/local/*/; do
+		cp -r $web/css $D/
+		cp -r $web/js $D/
+		ln -s $web/static $D/static
+		ln -s $web/img $D/img
+	done
+
+	echo "Exporting content..."
 	rm -rf $web/api/v3/content/*
 
 	mkdir $web/api/v3/content/en
