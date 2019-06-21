@@ -69,7 +69,7 @@
     <string name="slot_enter_name_error">Das sieht mir nicht so aus.</string>
     <string name="slot_enter_name_generate">Erzeugen</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; ist auf der Whitelist</string>
-    <string name="slot_app_desc">Diese App ist auf der Whitelist, das heißt auf sie wird keine Sperrung oder Filterung angewandt.</string>
+    <string name="slot_app_desc">Diese App ist auf der Whitelist, das heißt auf sie wird keine Blockierung oder Filterung angewandt.</string>
     <string name="slot_allapp_desc">Du kannst diese App auf die Whitelist setzen, um zu verhindern, dass der Datenverkehr gefiltert wird.</string>
     <string name="slot_allapp_whitelisted">Auf der Whitelist</string>
     <string name="slot_allapp_normal">Nicht auf der Whitelist</string>
@@ -92,7 +92,7 @@
     <string name="slot_action_refresh_toast">Synchronisation gestartet</string>
     <string name="slot_action_restore">Verwerfen</string>
     <string name="slot_export_title">Speicherort für Einstellungen</string>
-    <string name="slot_export_description">Du kannst ändern, wohin die Konfiguration gespeichert (bzw. woher sie geladen) wird. Bitte zuerst \"Importieren\" wählen, wenn bestehende Einstellungen importiert werden sollen, sonst werden sie überschrieben.</string>
+    <string name="slot_export_description">Du kannst ändern, wohin die Konfiguration gespeichert (bzw. woher sie geladen) wird. Bitte wähle zuerst \"Importieren\", wenn bestehende Einstellungen importiert werden sollen, sonst werden sie überschrieben.</string>
     <string name="slot_action_import">Importieren</string>
     <string name="slot_action_internal">Interner Speicher</string>
     <string name="slot_action_external">Externer Speicher</string>
@@ -160,7 +160,7 @@
     <string name="slot_protection_off">Blokada ist inaktiv</string>
     <string name="slot_protection_off_desc">Das Gerät ist nicht geschützt.</string>
     <string name="slot_protection_error">Blokada ist vorübergehend inaktiv</string>
-    <string name="slot_protection_error_desc">Dies kann durch temporäre Netzwerkprobleme, Geräte- oder Softwareprobleme verursacht werden. Blokada wird versuchen sich selbst zu starten, aber du könntest auch versuchen die App wieder zu aktivieren oder dein Telefon neu zu starten. Wenn das Problem weiterhin besteht, kontaktiere uns bitte bei Telegram.</string>
+    <string name="slot_protection_error_desc">Dies kann durch temporäre Netzwerkprobleme, Geräte- oder Softwareprobleme verursacht werden. Blokada wird versuchen sich selbst zu starten, aber du könntest auch versuchen die App manuell wieder zu aktivieren oder dein Telefon neu zu starten. Wenn das Problem weiterhin besteht, kontaktiere uns bitte bei Telegram.</string>
     <string name="slot_protection_disconnected">Das Gerät ist nicht verbunden</string>
     <string name="slot_protection_disconnected_desc">Blokada ist pausiert, weil das Gerät die Internetverbindung verloren hat. Blokada wird sich automatisch aktivieren, sobald die Verbindung wieder verfügbar ist.</string>
     <string name="slot_protection_activating">Blokada wird aktiviert</string>
@@ -171,7 +171,7 @@
     <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um deine Privatsphäre und Daten zu schützen.</string>
     <string name="slot_protection_no_vpn">Du bist nicht mit Blokada VPN verbunden. Du solltest es für einen besseren Schutz deiner Privatsphäre und Sicherheit aktivieren.</string>
     <string name="slot_protection_no_start_on_boot">Blokada ist so eingestellt das es nicht automatisch mit deinem Gerät mitstartet. Du solltest Blokada für besseren Schutz immer aktiviert halten.</string>
-    <string name="slot_protection_no_dns">Die Standard-DNS-Server Deines Netzwerks werden derzeit verwendet. Wechsle sicherheitshalber zu den datenschutzbewussteren DNS-Servern.</string>
+    <string name="slot_protection_no_dns">Die Standard-DNS-Server deines Netzwerks werden derzeit verwendet. Wechsle sicherheitshalber zu den datenschutzbewussteren DNS-Servern.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Akku-Optimierung deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der Optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
     <string name="slot_protection_description">Um Einstellungen vorzunehmen, benutze das untere Menü.</string>
     <string name="slot_start_on_boot_description">Die Aktivierung des Autostarts ermöglicht Blokada, jederzeit aktiv zu sein und dein Gerät zu schützen.</string>
