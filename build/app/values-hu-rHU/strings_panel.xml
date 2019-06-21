@@ -45,6 +45,8 @@
     <string name="slot_switch_off">Ki</string>
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">Váltás</string>
+    <string name="slot_intro_new">Üdvözöl a %s! Érintsd meg itt a bevezető megtekintéséhez.</string>
+    <string name="slot_intro_new_header">Hogyan működik az új felhasználói felület?</string>
     <string name="slot_intro_info">Psszt... Néhány elemhez kérdőjel ikon kapcsolódik. Megérintve, egy rövid súgóüzenet jelenik meg, mint ez!</string>
     <string name="slot_new_filter">Új hoszt blokkolása</string>
     <string name="slot_new_filter_list">Új lista hozzáadása</string>
@@ -129,6 +131,8 @@
     <string name="slot_account_action_copied">Fiókazonosító a vágólapra másolva</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Csatlakozás ehhez: %s</string>
+    <string name="slot_gateway_description">Teljesítmény: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Régió: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Teljesítmény: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Régió: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ez a jelenleg kiválasztott átjáró.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">magas</string>
     <!-- Gateway load -->
@@ -139,8 +143,10 @@
     <string name="slot_protection_off">Blokada inaktív</string>
     <string name="slot_protection_off_desc">A készüléked nem védett.</string>
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
+    <string name="slot_protection_error_desc">Ezt az ideiglenes hálózati problémák, készülék- vagy a szoftverproblémák okozzák. A Blokada automatikusan újraaktiválódik, de megpróbálhatod újraindítani az alkalmazást, vagy újraindítani a telefont. Ha továbbra is problémáid vannak, kérjük, lépj velünk kapcsolatba a Telegram csatornánkon.</string>
     <string name="slot_protection_disconnected">A készüléked offline állapotban van</string>
     <string name="slot_protection_disconnected_desc">A Blokada szüneteltetésre került, mert a készüléked elveszítette az internetkapcsolatot. A Blokada automatikusan újraaktiválódik, ha újra online leszel.</string>
+    <string name="slot_protection_activating">Blokada aktiválása</string>
     <string name="slot_protection_active_warning">A Blokada aktív, de a konfigurációja javítható. Érintsd meg a részletekért.</string>
     <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
@@ -190,6 +196,7 @@
     <string name="slot_account_name_title">Fiókazonosító</string>
     <string name="slot_account_name_desc">Add meg régi fiókazonosítódat az előző előfizetés visszaállításához. Írd le az aktuális fiókazonosítódat mielőtt ezt megtennéd, hogy elkerüld a félregépelést.</string>
     <string name="slot_account_name_error">A Fiókazonosító csak betűket (ékezet nélküli) és számokat tartalmazhat.</string>
+    <string name="slot_account_name_api_error">A megadott fiókazonosító helytelen.</string>
     <string name="slot_account_name_restore">Visszaállítás</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Elsődleges beállítások</string>
