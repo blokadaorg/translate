@@ -4,6 +4,7 @@
     <!-- Main screen section -->
     <string name="panel_section_home">Kezdőlap</string>
     <!-- Main screen section -->
+    <string name="panel_section_ads">Hirdetés blokkolás</string>
     <!-- Main screen section -->
     <string name="panel_section_apps">Appok</string>
     <!-- Main screen section -->
@@ -15,6 +16,7 @@
     <string name="panel_section_ads_log">Hoszt napló</string>
     <string name="panel_section_ads_blacklist">Blokkolt hosztok</string>
     <string name="panel_section_ads_whitelist">Engedélyezett hosztok</string>
+    <string name="panel_section_advanced_dns">DNS-kiszolgálók</string>
     <string name="panel_section_apps_all">Telepített alkalmazások</string>
     <string name="panel_section_apps_system">Rendszer-alkalmazások</string>
     <!-- When a domain is allowed (not blocked) -->
@@ -50,12 +52,15 @@
     <string name="slot_enter_domain_desc">Vesszővel elválasztott domainokat adj meg. Beilleszthetsz egy linket bármely hoszt listához, vagy importálhatsz is egy helyi hoszt lista fájlt.</string>
     <string name="slot_enter_domain_file">Fájl</string>
     <string name="slot_enter_name_title">Név</string>
+    <string name="slot_dns_name">Jelenlegi DNS-kiszolgáló(k): &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_action_facts">Tények</string>
     <string name="slot_action_unwhitelist">Mégse</string>
     <string name="slot_action_author">Névjegy</string>
     <string name="slot_action_share">Megosztás</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_dns_control_title">DNS-kiszolgálók listája</string>
+    <string name="slot_dns_control_description">Szinkronizálhatod a DNS-kiszolgálók listáját a szervereinkkel anélkül, hogy elveszítenéd az egyéni bejegyzéseket. &lt;br/&gt;&lt;br/&gt;Alternatívaként az összes bejegyzés (beleértve a sajátodat is) törölhető, és újra letölthető.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Szinkr.</string>
     <string name="slot_action_refresh_toast">Szinkr. elkezdődött</string>
@@ -96,6 +101,10 @@
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
     <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
+    <string name="slot_protection_no_vpn">Nem csatlakozik a Blokada VPN-hez. Fontolóra kéne venned a jobb adatvédelem és biztonság érdekében.</string>
+    <string name="slot_protection_no_dns">Jelenleg az alapértelmezett DNS-kiszolgálókat használod. Javasoljuk, hogy válts át adatvédelmi célú DNS-kiszolgálókra.</string>
+    <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
+    <string name="slot_recommended_dns_description">Ha ez a funkció engedélyezve van, a Blokada automatikusan kiválasztja az ajánlott DNS-kiszolgálókat, hogy felgyorsítsa az internetet és védje az adatait. Ellenkező esetben a hálózat alapértelmezett DNS-kiszolgálóit használja. Ha a Haladó részben manuálisan választod ki a DNS-kiszolgálókat, ez a beállítás figyelmen kívül marad.</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Napló</string>
     <string name="slot_help_label">Segíthetünk?</string>
