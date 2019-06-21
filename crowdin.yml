@@ -9,4 +9,4 @@ files:
   - source: blocka_app/*.pot
     translation: /build/blocka_app/%file_name%-%locale%.po
   - source: /web/*.html
-    translation: /build/web/%two_letters_code%/%original_file_name%
+    translation: /build/web/%locale_with_underscore%/%original_file_name%
