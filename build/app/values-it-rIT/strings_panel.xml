@@ -211,6 +211,7 @@
     <string name="slot_cleanup_desc">Sembra che sul tuo dispositivo siano installate più versioni di Blokada. Vuoi rimuovere le altre versioni e tenerne solo una?</string>
     <string name="slot_cleanup_action">Pulisci</string>
     <string name="account_inactive">Il tuo abbonamento a Blokada VPN è scaduto. Non sei connesso alla VPN.</string>
+    <string name="slot_lease_cant_connect">Impossibile connettersi a Blokada VPN. Prova a selezionare un altro gateway.</string>
     <string name="slot_account_name_title">ID account</string>
     <string name="slot_account_name_desc">Inserisci il tuo vecchio ID account per ripristinare il tuo abbonamento precedente. Potresti volerti segnare il tuo ID account corrente prima di farlo, nel caso tu commetta qualche errore.</string>
     <string name="slot_account_name_error">L\'ID account può contenere solo lettere e numeri.</string>
@@ -219,6 +220,9 @@
     <!-- A section in advanced settings. -->
     <string name="label_basic">Impostazioni principali</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Blocco pubblicità &amp; liste</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Impostazioni DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Impostazioni avanzate</string>
 </resources>
