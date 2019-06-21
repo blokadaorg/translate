@@ -192,12 +192,37 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">Darovat</string>
     <string name="slot_cta_label">Psst! Rádi bychom znali váš názor.</string>
+    <string name="slot_cta_desc">Ukažte svou podporu účastí v našich průzkumech a dalších akcích. Pravidelně se obracíme na naši komunitu, abychom získali zpětnou vazbu o nápadech a novém vývoji, abychom se ujistili, že pracujeme na tom, co chcete v aplikaci vidět.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Otevřít</string>
+    <string name="slot_blog_label">Podívejte se na náš vývojářský blog!</string>
+    <string name="slot_blog_desc">Blog je místo, kde píšeme o vývoji projektu, budoucích plánech a diskutujeme o nápadech.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Otevřít</string>
+    <string name="slot_updated_label">Blokada byla aktualizována!</string>
+    <string name="slot_updated_desc">Vaše verze Blokady je nyní aktuální. Další informace o této aktualizaci získáte klepnutím na tlačítko níže. Zvažte také podporu tohoto projektu!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Více</string>
+    <string name="slot_obsolete_label">Požadovaná akce: tato verze je zastaralá!</string>
+    <string name="slot_obsolete_desc">Vaše verze Blokady je zastaralá a nemusí fungovat správně. Chcete-li i nadále dostávat aktualizace, stáhněte si nejnovější verzi.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Aktualizovat</string>
+    <string name="slot_cleanup_label">Bylo zjištěno více verzí Blokady</string>
+    <string name="slot_cleanup_desc">Zdá se, že na vašem zařízení je nainstalováno více verzí aplikace Blokada. Chcete odstranit jiné verze a ponechat si jen jednu?</string>
+    <string name="slot_cleanup_action">Vyčistit</string>
+    <string name="account_inactive">Platnost Blokada VPN vypršela. Nejste připojeni k VPN.</string>
+    <string name="slot_lease_cant_connect">Nelze se připojit k Blokada VPN. Zkuste vybrat jinou bránu.</string>
+    <string name="slot_account_name_title">ID účtu</string>
+    <string name="slot_account_name_desc">Chcete-li obnovit předchozí předplatné, zadejte své staré ID účtu. Možná budete chtít zapsat své ID účtu před tím, než to uděláte, v případě, že uděláte chybu.</string>
+    <string name="slot_account_name_error">ID účtu může obsahovat pouze písmena a čísla.</string>
+    <string name="slot_account_name_api_error">Toto ID účtu se zdá být nesprávné.</string>
+    <string name="slot_account_name_restore">Obnovit</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Primární nastavení</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Seznamy &amp; blokovaných reklam</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Nastavení DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Pokročilá nastavení</string>
 </resources>
