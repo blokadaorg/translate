@@ -148,8 +148,10 @@
     <string name="slot_account_action_copied">ID аккаунта скопирован в буфер обмена</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Подключиться к %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Подключиться к %s</string>
     <string name="slot_gateway_description">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваш выбранный шлюз.</string>
+    <string name="slot_gateway_overloaded">Этот шлюз занят и не принимает новые подключения.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">высокая</string>
     <!-- Gateway load -->
@@ -209,6 +211,7 @@
     <string name="slot_cleanup_desc">Кажется, на вашем устройстве установлено много версий Blokada. Вы хотите удалить другие версии и оставить только одну?</string>
     <string name="slot_cleanup_action">Удалить</string>
     <string name="account_inactive">Срок действия Blokada VPN истек. Вы не подключены к VPN.</string>
+    <string name="slot_lease_cant_connect">Не удалось подключиться к Blokada VPN. Попробуйте выбрать другой шлюз.</string>
     <string name="slot_account_name_title">ID аккаунта</string>
     <string name="slot_account_name_desc">Введите старый ID учетной записи, чтобы восстановить предыдущую подписку. Вы можете записать свой текущий ID аккаунта на случай ошибки.</string>
     <string name="slot_account_name_error">ID аккаунта может содержать только буквы и цифры.</string>
