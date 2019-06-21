@@ -83,6 +83,8 @@
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
     <string name="slot_account_action_change_id">Fiók visszaállítása</string>
+    <string name="slot_account_action_copy">Fiókazonosító másolása</string>
+    <string name="slot_account_action_copied">Fiókazonosító a vágólapra másolva</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">magas</string>
@@ -92,8 +94,10 @@
     <string name="slot_protection_off">Blokada inaktív</string>
     <string name="slot_protection_off_desc">A készüléked nem védett.</string>
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
+    <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Napló</string>
     <string name="slot_help_label">Segíthetünk?</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Segítség</string>
@@ -109,8 +113,14 @@
     <string name="slot_updated_action">Továbbiak</string>
     <string name="slot_obsolete_label">Beavatkozás szükséges: ez a verzió elavult!</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Frissítés</string>
+    <string name="slot_cleanup_desc">Úgy tűnik, hogy a Blokada számos verziója telepítve van a készülékeden. Szeretnéd eltávolítani a többi verziót és csak egyet megtartani?</string>
+    <string name="slot_cleanup_action">Tisztítás</string>
+    <string name="account_inactive">A Blokada VPN lejárt. Nem kapcsolódsz a VPN-hez.</string>
     <string name="slot_account_name_title">Fiókazonosító</string>
+    <string name="slot_account_name_desc">Add meg régi fiókazonosítódat az előző előfizetés visszaállításához. Írd le az aktuális fiókazonosítódat mielőtt ezt megtennéd, hogy elkerüld a félregépelést.</string>
     <string name="slot_account_name_error">A Fiókazonosító csak betűket (ékezet nélküli) és számokat tartalmazhat.</string>
+    <string name="slot_account_name_restore">Visszaállítás</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Elsődleges beállítások</string>
     <!-- A section in advanced settings. -->
