@@ -7,4 +7,4 @@ files:
   - source: /content/*.properties
     translation: /build/content/%locale_with_underscore%/%original_file_name%
   - source: blocka_app/*.pot
-    translation: /build/blocka_app/%file_name%-%locale%.%file_extension%
+    translation: /build/blocka_app/%file_name%-%locale%.po
