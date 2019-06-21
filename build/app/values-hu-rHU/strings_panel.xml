@@ -90,6 +90,8 @@
     <string name="slot_action_deactivate">Kikapcsolás</string>
     <string name="slot_action_activate">Bekapcsolás</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
+    <string name="slot_notifications_enabled">engedélyezve</string>
+    <string name="slot_notifications_disabled">letiltva</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
     <string name="slot_telegram_action">Megnyitás</string>
     <string name="slot_active">Aktív</string>
@@ -97,6 +99,7 @@
     <string name="slot_adblocking_text">Ha engedélyezve van, a Blokada blokkolja a hirdetéseket, nyomkövetőket és más nem kívánt tartalmat. Ez segít megvédeni a magánéletedet, felgyorsítja a készülékedet és biztosítja az adataid védelmét.</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Kezelés</string>
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
     <string name="slot_account_action_change_id">Fiók visszaállítása</string>
     <string name="slot_account_action_copy">Fiókazonosító másolása</string>
@@ -106,10 +109,13 @@
     <string name="slot_gateway_load_low">magas</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">alacsony</string>
+    <string name="panel_section_home_gateways">VPN-átjárók</string>
+    <string name="subscription_success">Fiókod aktiválva van. Ez eltarthat néhány másodpercig. Köszönjük!</string>
     <string name="slot_protection_header">Blokada állapota</string>
     <string name="slot_protection_off">Blokada inaktív</string>
     <string name="slot_protection_off_desc">A készüléked nem védett.</string>
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
+    <string name="slot_protection_disconnected">A készüléked offline állapotban van</string>
     <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
     <string name="slot_protection_no_adblocking">A hirdetések és a nyomkövetők blokkolása jelenleg le van tiltva. Az adatvédelem és az adatbiztonság érdekében engedélyezned kellene.</string>
