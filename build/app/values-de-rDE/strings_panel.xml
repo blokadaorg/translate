@@ -29,7 +29,7 @@
     <string name="panel_domain_blocked_toast">Zur Blacklist hinzugefügt.</string>
     <string name="panel_ruleset">Filterzähler</string>
     <string name="panel_ruleset_title">Filter haben jetzt %s Regeln.</string>
-    <string name="panel_ruleset_updating">Filter aktualisieren ...</string>
+    <string name="panel_ruleset_updating">Filter aktualisieren...</string>
     <string name="panel_ruleset_built">Filter sind jetzt mit &lt;b&gt;%s&lt;/b&gt; Regeln konfiguriert. Bis zu &lt;b&gt;%s&lt;/b&gt; können Regeln in den Gerätespeicher insgesamt passen. Denke daran, dass dies nur eine Schätzung ist und abhängig von anderen Apps auf deinem Gerät geändert wird, daher solltest du zur Sicherheit, weit unter diesem Limit bleiben.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Erlauben</string>
@@ -86,9 +86,9 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">Ein Eintrag für %s</string>
     <string name="slot_dns_control_title">Liste der DNS-Server</string>
-    <string name="slot_dns_control_description">Du kannst die DNS-Serverliste mit unseren Servern synchronisieren, ohne eigene Einträge zu verlieren. &lt;br/&gt;&lt;br/&gt;Alternativ kannst Du alle Einträge (einschließlich der eigenen) abwählen und sie neu herunterladen.</string>
+    <string name="slot_dns_control_description">Du kannst die DNS-Serverliste mit unseren Servern synchronisieren, ohne eigene Einträge zu verlieren. &lt;br/&gt;&lt;br/&gt;Alternativ kannst du alle Einträge (einschließlich der eigenen) abwählen und sie neu herunterladen.</string>
     <!-- A button to synchronize (fetch) lists  -->
-    <string name="slot_action_refresh">Sync</string>
+    <string name="slot_action_refresh">Synchronisieren</string>
     <string name="slot_action_refresh_toast">Synchronisation gestartet</string>
     <string name="slot_action_restore">Verwerfen</string>
     <string name="slot_export_title">Speicherort für Einstellungen</string>
@@ -97,7 +97,7 @@
     <string name="slot_action_internal">Interner Speicher</string>
     <string name="slot_action_external">Externer Speicher</string>
     <string name="slot_filters_title">Filterlisten</string>
-    <string name="slot_filters_description">Du kannst die Filterliste mit unseren Servern synchronisieren, ohne eigene Einträge zu verlieren. &lt;br/&gt;&lt;br/&gt;Alternativ kannst Du alle Einträge (einschließlich der eigenen) abwählen und sie neu herunterladen.</string>
+    <string name="slot_filters_description">Du kannst die Filterliste mit unseren Servern synchronisieren, ohne eigene Einträge zu verlieren. &lt;br/&gt;&lt;br/&gt;Alternativ kannst du alle Einträge (einschließlich der eigenen) abwählen und sie neu herunterladen.</string>
     <string name="slot_blocked_title">Domain blockiert</string>
     <string name="slot_forwarded_title">Domain weitergeleitet</string>
     <string name="slot_whitelist_title">App aus der Whitelist</string>
@@ -108,7 +108,7 @@
     <string name="slot_status_vpn_turn_off">VPN deaktivieren</string>
     <string name="slot_status_vpn_turn_on">VPN aktivieren</string>
     <string name="slot_status_vpn_turned_on">VPN mit %s verbunden</string>
-    <string name="slot_status_vpn_connecting">Blokada-VPN aktivieren ...</string>
+    <string name="slot_status_vpn_connecting">Blokada-VPN aktivieren...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN ist nicht aktiviert</string>
     <string name="slot_status_vpn_desc_on">Blokada VPN ist derzeit &lt;b&gt;aktiviert&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Dein Gerät und deine Daten sind jetzt sicher. Tippe auf das Fragezeichen für Details.</string>
     <string name="slot_status_vpn_desc_off">Blokada VPN ist derzeit &lt;b&gt;deaktiviert&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Wenn das VPN verbunden ist, kommuniziert dein Gerät über unsere sicheren Server und dein Datenverkehr wird verschlüsselt, so sollte niemand deine Daten sehen können. Deine echte IP ist versteckt und du kannst auf blockierte Inhalte zugreifen. In einigen Fällen kannst du auch eine schnellere Internetverbindung bemerken.</string>
@@ -125,7 +125,7 @@
     <string name="slot_notifications_enabled">aktiviert</string>
     <string name="slot_notifications_disabled">deaktiviert</string>
     <string name="slot_update_action_refresh">Erneut überprüfen</string>
-    <string name="slot_telegram_title">Folgen Sie uns auf Telegram!</string>
+    <string name="slot_telegram_title">Folge uns auf Telegram!</string>
     <string name="slot_telegram_desc">Besuche unseren Telegram-Kanal für Hilfe oder um sei ein Teil der Community/Gemeinschaft.</string>
     <string name="slot_telegram_action">Öffnen</string>
     <string name="slot_dropped_share_title">Teilen mit</string>
@@ -185,7 +185,7 @@
     <string name="slot_help_desc">Tippe auf den Button unten, um unsere Hilfe-Seite zu öffnen. Du kannst auch unsere sozialen Medien nutzen, um Hilfe zu erhalten - wir sind auf Telegram, Facebook, Reddit und Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Hilfe</string>
-    <string name="slot_donate_label">Gefällt Dir Blokada? Dann Unterstützung uns, damit wir die App weiter verbessern können.</string>
+    <string name="slot_donate_label">Gefällt dir Blokada? Dann Unterstützung uns, damit wir die App weiter verbessern können.</string>
     <string name="slot_donate_desc">Blokada Adblocker ist frei und Open Source, und wir wollen, dass es so bleibt. Deine Spenden helfen uns, die App weiterzuentwickeln und neue Funktionen einzuführen, die du am meisten sehen möchtest. Vielen Dank!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Spenden</string>
@@ -193,7 +193,7 @@
     <string name="slot_cta_desc">Zeige deine Unterstützung, in dem du an unseren Umfragen und Veranstaltungen teilnimmst. Wir prüfen regelmässig die Rückmeldungen unserer Community, bezüglich Ideen und neuen Entwicklungen, um sicher zu gehen, dass wir die Wünsche unserer Community umsetzen können.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Öffnen</string>
-    <string name="slot_blog_label">Schauen Sie sich unseren Entwicklungs-Blog an!</string>
+    <string name="slot_blog_label">Schau dir unseren Entwicklungs-Blog an!</string>
     <string name="slot_blog_desc">Der Block ist unser Blog, um die neusten Entwicklungen unseres Projekts, zukünftige Pläne veröffentlichen und Diskussionen bezüglich neuer Ideen führen.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Öffnen</string>
