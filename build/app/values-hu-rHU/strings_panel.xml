@@ -33,6 +33,8 @@
     <string name="slot_action_allow">Engedélyez</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Blokkol</string>
+    <string name="slot_action_close">Bezárás</string>
+    <string name="slot_action_remove">Eltávolítás</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <string name="slot_action_credits">Weboldal</string>
     <!-- A state for switches (like notifications: on) -->
@@ -41,6 +43,7 @@
     <string name="slot_switch_off">Ki</string>
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">Váltás</string>
+    <string name="slot_intro_info">Psszt... Néhány elemhez kérdőjel ikon kapcsolódik. Megérintve, egy rövid súgóüzenet jelenik meg, mint ez!</string>
     <string name="slot_new_filter">Új hoszt blokkolása</string>
     <string name="slot_new_filter_list">Új lista hozzáadása</string>
     <string name="slot_new_filter_whitelist">Új hoszt engedélyező listára vétele</string>
@@ -49,9 +52,16 @@
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">érvénytelen</string>
     <string name="slot_continue">Folytatás</string>
+    <string name="slot_enter_domain_title">Domain(ek)</string>
     <string name="slot_enter_domain_desc">Vesszővel elválasztott domainokat adj meg. Beilleszthetsz egy linket bármely hoszt listához, vagy importálhatsz is egy helyi hoszt lista fájlt.</string>
     <string name="slot_enter_domain_file">Fájl</string>
     <string name="slot_enter_name_title">Név</string>
+    <string name="slot_enter_name_generate">Generálás</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; engedélyezőlistára téve</string>
+    <string name="slot_app_desc">Ez az alkalmazás az engedélyezőlistán van, ami azt jelenti, hogy ezen nem történik blokkolás vagy szűrés.</string>
+    <string name="slot_allapp_whitelisted">Engedélyezőlistán</string>
+    <string name="slot_allapp_normal">Nincs az engedélyezőlistán</string>
+    <string name="slot_allapp_whitelist">Engedélyezőlista</string>
     <string name="slot_dns_name">Jelenlegi DNS-kiszolgáló(k): &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_action_facts">Tények</string>
     <string name="slot_action_unwhitelist">Mégse</string>
@@ -84,6 +94,7 @@
     <string name="slot_telegram_action">Megnyitás</string>
     <string name="slot_active">Aktív</string>
     <string name="slot_inactive">Inaktív</string>
+    <string name="slot_adblocking_text">Ha engedélyezve van, a Blokada blokkolja a hirdetéseket, nyomkövetőket és más nem kívánt tartalmat. Ez segít megvédeni a magánéletedet, felgyorsítja a készülékedet és biztosítja az adataid védelmét.</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
@@ -101,6 +112,7 @@
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
     <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
+    <string name="slot_protection_no_adblocking">A hirdetések és a nyomkövetők blokkolása jelenleg le van tiltva. Az adatvédelem és az adatbiztonság érdekében engedélyezned kellene.</string>
     <string name="slot_protection_no_vpn">Nem csatlakozik a Blokada VPN-hez. Fontolóra kéne venned a jobb adatvédelem és biztonság érdekében.</string>
     <string name="slot_protection_no_dns">Jelenleg az alapértelmezett DNS-kiszolgálókat használod. Javasoljuk, hogy válts át adatvédelmi célú DNS-kiszolgálókra.</string>
     <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
