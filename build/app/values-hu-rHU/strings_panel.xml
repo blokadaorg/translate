@@ -122,8 +122,10 @@
     <string name="slot_protection_ok">A készüléked teljesen védett! Mind a VPN mind a hirdetés blokkolás aktív.</string>
     <string name="slot_protection_no_adblocking">A hirdetések és a nyomkövetők blokkolása jelenleg le van tiltva. Az adatvédelem és az adatbiztonság érdekében engedélyezned kellene.</string>
     <string name="slot_protection_no_vpn">Nem csatlakozik a Blokada VPN-hez. Fontolóra kéne venned a jobb adatvédelem és biztonság érdekében.</string>
+    <string name="slot_protection_no_start_on_boot">A Blokada nincs beállítva bootoláskor való indulásra. A jobb védelem érdekében mindig tartsd a Blokadát bekapcsolva.</string>
     <string name="slot_protection_no_dns">Jelenleg az alapértelmezett DNS-kiszolgálókat használod. Javasoljuk, hogy válts át adatvédelmi célú DNS-kiszolgálókra.</string>
     <string name="slot_protection_description">A beállítások konfigurálásához nyisd meg az alsó menüt.</string>
+    <string name="slot_start_on_boot_description">Az bootoláskor indul engedély lehetővé teszi, hogy a Blokada mindig aktív legyen és védje a készüléket.</string>
     <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
     <string name="slot_recommended_dns_description">Ha ez a funkció engedélyezve van, a Blokada automatikusan kiválasztja az ajánlott DNS-kiszolgálókat, hogy felgyorsítsa az internetet és védje az adatait. Ellenkező esetben a hálózat alapértelmezett DNS-kiszolgálóit használja. Ha a Haladó részben manuálisan választod ki a DNS-kiszolgálókat, ez a beállítás figyelmen kívül marad.</string>
     <!-- A button to share debug log. Keep it short. -->
@@ -131,10 +133,15 @@
     <string name="slot_help_label">Segíthetünk?</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Segítség</string>
+    <string name="slot_donate_desc">A Blokada hirdetés blokkoló ingyenes és nyílt forráskódú, és azt akarjuk, hogy ez így is maradjon. Adományaid segítik az alkalmazás továbbfejlesztését és az olyan új funkciók bevezetését, amelyeket a legjobban látni szeretnél. Köszönjük!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Támogatás</string>
+    <string name="slot_cta_label">Pszt! A véleményedre lennénk kíváncsiak.</string>
+    <string name="slot_cta_desc">Támogass minket azzal, hogy részt veszel a felméréseinkben és egyéb eseményeinkben. Rendszeresen szólunk a közösségünkhöz, hogy visszajelzést adjon az ötletekről és az új fejlesztésekről, ezzel bizonyosodunk meg arról, hogy azon dolgozunk, amit látni szeretnétek.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Megnyitás</string>
+    <string name="slot_blog_label">Nézd meg a fejlesztői blogunkat!</string>
+    <string name="slot_blog_desc">A Block az a hely, ahol a projekt fejlesztéséről, a jövőbeli tervekről és az elképzelésekről beszélünk.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Megnyitás</string>
     <string name="slot_updated_label">A Blokada frissítésre került!</string>
@@ -142,11 +149,14 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Továbbiak</string>
     <string name="slot_obsolete_label">Beavatkozás szükséges: ez a verzió elavult!</string>
+    <string name="slot_obsolete_desc">A Blokada verziója elavult, és esetleg nem működik megfelelően. Kérjük, töltsd le a legújabb verziót a későbbi frissítések fogadásához.</string>
     <!-- A button to update the app. -->
     <string name="slot_obsolete_action">Frissítés</string>
+    <string name="slot_cleanup_label">A Blokada több verzióját észleltük</string>
     <string name="slot_cleanup_desc">Úgy tűnik, hogy a Blokada számos verziója telepítve van a készülékeden. Szeretnéd eltávolítani a többi verziót és csak egyet megtartani?</string>
     <string name="slot_cleanup_action">Tisztítás</string>
     <string name="account_inactive">A Blokada VPN lejárt. Nem kapcsolódsz a VPN-hez.</string>
+    <string name="lease_cant_connect">Nem sikerült csatlakozni a Blokada VPN-hez. Próbálj másik átjárót kiválasztani.</string>
     <string name="slot_account_name_title">Fiókazonosító</string>
     <string name="slot_account_name_desc">Add meg régi fiókazonosítódat az előző előfizetés visszaállításához. Írd le az aktuális fiókazonosítódat mielőtt ezt megtennéd, hogy elkerüld a félregépelést.</string>
     <string name="slot_account_name_error">A Fiókazonosító csak betűket (ékezet nélküli) és számokat tartalmazhat.</string>
@@ -154,6 +164,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_basic">Elsődleges beállítások</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Hirdetések szűrése és listák</string>
     <!-- A section in advanced settings. -->
     <string name="label_dns">DNS beállítások</string>
     <!-- A section in advanced settings. -->
