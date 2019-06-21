@@ -30,7 +30,7 @@
     <string name="panel_ruleset">Filterzähler</string>
     <string name="panel_ruleset_title">Filter haben jetzt %s Regeln.</string>
     <string name="panel_ruleset_updating">Filter aktualisieren ...</string>
-    <string name="panel_ruleset_built">Filter sind jetzt mit &lt;b&gt;%s&lt;/b&gt; Regeln konfiguriert. Bis zu &lt;b&gt;%s&lt;/b&gt; können Regeln in den Gerätespeicher insgesamt passen. Denke daran, dass dies nur eine Schätzung ist und abhängig von anderen Apps auf Deinem Gerät geändert wird, daher solltest Du zur Sicherheit, weit unter diesem Limit bleiben.</string>
+    <string name="panel_ruleset_built">Filter sind jetzt mit &lt;b&gt;%s&lt;/b&gt; Regeln konfiguriert. Bis zu &lt;b&gt;%s&lt;/b&gt; können Regeln in den Gerätespeicher insgesamt passen. Denke daran, dass dies nur eine Schätzung ist und abhängig von anderen Apps auf deinem Gerät geändert wird, daher solltest du zur Sicherheit, weit unter diesem Limit bleiben.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Erlauben</string>
     <!-- Button to block allowed domain -->
@@ -110,8 +110,8 @@
     <string name="slot_status_vpn_turned_on">VPN mit %s verbunden</string>
     <string name="slot_status_vpn_connecting">Blokada-VPN aktivieren ...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN ist nicht aktiviert</string>
-    <string name="slot_status_vpn_desc_on">Blokada VPN ist derzeit &lt;b&gt;aktiviert&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Dein Gerät und Deine Daten sind jetzt sicher. Tippe auf das Fragezeichen für Details.</string>
-    <string name="slot_status_vpn_desc_off">Blokada VPN ist derzeit &lt;b&gt;deaktiviert&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Wenn das VPN verbunden ist, kommuniziert Dein Gerät über unsere sicheren Server und Dein Datenverkehr wird verschlüsselt, so sollte niemand Deine Daten sehen können. Deine echte IP ist versteckt und Du kannst auf blockierte Inhalte zugreifen. In einigen Fällen kannst Du auch eine schnellere Internetverbindung bemerken.</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN ist derzeit &lt;b&gt;aktiviert&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Dein Gerät und deine Daten sind jetzt sicher. Tippe auf das Fragezeichen für Details.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN ist derzeit &lt;b&gt;deaktiviert&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Wenn das VPN verbunden ist, kommuniziert dein Gerät über unsere sicheren Server und dein Datenverkehr wird verschlüsselt, so sollte niemand deine Daten sehen können. Deine echte IP ist versteckt und du kannst auf blockierte Inhalte zugreifen. In einigen Fällen kannst du auch eine schnellere Internetverbindung bemerken.</string>
     <string name="slot_status_vpn_lease">Aktualisieren</string>
     <string name="slot_action_deactivate">Ausschalten</string>
     <string name="slot_action_activate">Einschalten</string>
@@ -139,7 +139,7 @@
     <string name="slot_account_text_account">Deine Kontokennung ist &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_text_inactive">Dein Abonnement ist &lt;b&gt;inaktiv&lt;/b&gt;. Du brauchst ein aktives Konto, um Blokada VPN zu verwenden. Bitte tippe auf den Schalter unten, um es zu aktivieren.</string>
     <string name="slot_account_text_active">Dein Abonnement ist &lt;b&gt;aktiv&lt;/b&gt; bis &lt;b&gt;%s&lt;/b&gt;. Bitte tippe auf den Schalter unten, um das Abonnement zu verwalten.</string>
-    <string name="slot_account_info">Du solltest Deine Konto-ID geheim halten - sie wird benötigt, um Dein Konto wiederherzustellen, falls die App deinstalliert wird. Dein Abonnement wird automatisch verlängert, solange es nicht gekündigt wird.</string>
+    <string name="slot_account_info">Du solltest deine Konto-ID geheim halten - sie wird benötigt, um dein Konto wiederherzustellen, falls die App deinstalliert wird. Dein Abonnement wird automatisch verlängert, solange es nicht gekündigt wird.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Verwalten</string>
     <string name="slot_account_action_manage_inactive">Konto aktivieren</string>
@@ -160,7 +160,7 @@
     <string name="slot_protection_off">Blokada ist inaktiv</string>
     <string name="slot_protection_off_desc">Das Gerät ist nicht geschützt.</string>
     <string name="slot_protection_error">Blokada ist vorübergehend inaktiv</string>
-    <string name="slot_protection_error_desc">Dies kann durch temporäre Netzwerkprobleme, Geräte- oder Softwareprobleme verursacht werden. Blokada wird versuchen sich selbst zu starten, aber Du könntest auch versuchen die App wieder zu aktivieren oder Dein Telefon neu zu starten. Wenn das Problem weiterhin besteht, kontaktiere uns bitte bei Telegram.</string>
+    <string name="slot_protection_error_desc">Dies kann durch temporäre Netzwerkprobleme, Geräte- oder Softwareprobleme verursacht werden. Blokada wird versuchen sich selbst zu starten, aber du könntest auch versuchen die App wieder zu aktivieren oder dein Telefon neu zu starten. Wenn das Problem weiterhin besteht, kontaktiere uns bitte bei Telegram.</string>
     <string name="slot_protection_disconnected">Das Gerät ist nicht verbunden</string>
     <string name="slot_protection_disconnected_desc">Blokada ist pausiert, weil das Gerät die Internetverbindung verloren hat. Blokada wird sich automatisch aktivieren, sobald die Verbindung wieder verfügbar ist.</string>
     <string name="slot_protection_activating">Blokada wird aktiviert</string>
@@ -168,9 +168,9 @@
     <string name="slot_protection_active">Blokada und VPN sind aktiv</string>
     <string name="slot_protection_action">Einstellungen</string>
     <string name="slot_protection_ok">Das Gerät ist vollständig geschützt! VPN und Adblocking sind aktiv.</string>
-    <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um Deine Privatsphäre und Daten zu schützen.</string>
-    <string name="slot_protection_no_vpn">Du bist nicht mit Blokada VPN verbunden. Du solltest es für einen besseren Schutz Deiner Privatsphäre und Sicherheit aktivieren.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada ist so eingestellt das es nicht automatisch mit Deinem Gerät mitstartet. Du solltest Blokada für besseren Schutz immer aktiviert halten.</string>
+    <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um deine Privatsphäre und Daten zu schützen.</string>
+    <string name="slot_protection_no_vpn">Du bist nicht mit Blokada VPN verbunden. Du solltest es für einen besseren Schutz deiner Privatsphäre und Sicherheit aktivieren.</string>
+    <string name="slot_protection_no_start_on_boot">Blokada ist so eingestellt das es nicht automatisch mit deinem Gerät mitstartet. Du solltest Blokada für besseren Schutz immer aktiviert halten.</string>
     <string name="slot_protection_no_dns">Die Standard-DNS-Server Deines Netzwerks werden derzeit verwendet. Wechsle sicherheitshalber zu den datenschutzbewussteren DNS-Servern.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Akku-Optimierung Deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der Optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
     <string name="slot_protection_description">Um Einstellungen vorzunehmen, benutze das untere Menü.</string>
