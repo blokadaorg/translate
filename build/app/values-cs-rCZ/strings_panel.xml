@@ -110,6 +110,12 @@
     <string name="slot_status_vpn_turned_on">VPN připojena k %s</string>
     <string name="slot_status_vpn_connecting">Povolování Blokada VPN...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN není povolena</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN je aktuálně &lt;b&gt;povolena&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Vaše zařízení a data jsou nyní zabezpečena. Podrobnosti zobrazíte klepnutím na otazník.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN je aktuálně &lt;b&gt;zakázána&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Když je VPN připojeno, zařízení komunikuje prostřednictvím našich zabezpečených serverů a váš provoz je šifrován, takže nikdo nemůže vidět vaše data. Vaše skutečná IP adresa je skrytá a máte tak přístup i k blokovanému obsahu. V některých případech můžete také využít rychlejší připojení k internetu.</string>
+    <string name="slot_status_vpn_lease">Obnovit</string>
+    <string name="slot_action_deactivate">Vypnout</string>
+    <string name="slot_action_activate">Zapnout</string>
+    <string name="slot_action_deactivate_adblocking">Vypnout blokování reklam</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
