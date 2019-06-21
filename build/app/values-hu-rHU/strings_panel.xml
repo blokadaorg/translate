@@ -16,8 +16,14 @@
     <string name="panel_section_ads_blacklist">Blokkolt hosztok</string>
     <string name="panel_section_ads_whitelist">Engedélyezett hosztok</string>
     <string name="panel_section_apps_all">Telepített alkalmazások</string>
+    <string name="panel_section_apps_system">Rendszer-alkalmazások</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">Engedélyezve &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">Ez a domain engedélyezésre került. A blokkoláshoz használd a lenti gombot.</string>
+    <string name="panel_domain_forwarded_toast">Hozzáadva az engedélyezőlistához.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">Blokkolva &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_desc">Ez a domain blokkolásra került. Az engedélyezéshez használd a lenti gombot.</string>
     <string name="panel_domain_blocked_toast">Hozzáadva a tiltólistához.</string>
     <string name="panel_ruleset_title">A szűrők most %s szabályt tartalmaznak.</string>
     <string name="panel_ruleset_updating">Szűrők frissítése...</string>
@@ -59,6 +65,11 @@
     <string name="slot_filters_title">Szűrőlista</string>
     <string name="slot_blocked_title">Domain blokkolva</string>
     <string name="slot_whitelist_title">Engedélyezett alkalmazások</string>
+    <string name="slot_status_vpn_turn_off">VPN letiltása</string>
+    <string name="slot_status_vpn_turn_on">VPN engedélyezése</string>
+    <string name="slot_status_vpn_connecting">Blokada VPN engedélyezése...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN nincs engedélyezve</string>
+    <string name="slot_status_vpn_desc_on">A Blokada VPN jelenleg &lt;b&gt;engedélyezve van&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A készüléked és az adataid most már biztonságban vannak. A részletekért érintsd meg a kérdőjelet.</string>
     <string name="slot_status_vpn_lease">Frissítés</string>
     <string name="slot_action_deactivate">Kikapcsolás</string>
     <string name="slot_action_activate">Bekapcsolás</string>
