@@ -147,10 +147,46 @@
     <string name="slot_account_action_copy">Kopírovat ID účtu</string>
     <string name="slot_account_action_copied">ID účtu bylo zkopírováno do schránky</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Připojeno k %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Připojeno k %s</string>
+    <string name="slot_gateway_description">Výkon: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Výkon: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Toto je vaše aktuálně vybraná brána.</string>
+    <string name="slot_gateway_overloaded">Tato brána je zaneprázdněna a nepřijímá nová připojení.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">vysoké</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">nízké</string>
+    <string name="panel_section_home_gateways">VPN brány</string>
+    <string name="subscription_success">Váš účet bude aktivován. To může trvat několik sekund. Děkujeme!</string>
+    <string name="slot_protection_header">Stav Blokady</string>
+    <string name="slot_protection_off">Blokada není aktivní</string>
+    <string name="slot_protection_off_desc">Vaše zařízení není chráněno.</string>
+    <string name="slot_protection_error">Blokada je dočasně neaktivní</string>
+    <string name="slot_protection_error_desc">To může být způsobeno dočasnými problémy se sítí, problémy se zařízením nebo softwarem. Blokada se brzy znovu aktivuje, ale můžete se také pokusit aplikaci znovu zapnout nebo restartovat telefon. Pokud budete mít problémy, kontaktujte nás prosím na Telegramu.</string>
+    <string name="slot_protection_disconnected">Vaše zařízení je offline</string>
+    <string name="slot_protection_disconnected_desc">Blokada je pozastavena, protože zařízení ztratilo internetové připojení. Blokada se automaticky znovu aktivuje, jakmile budete zpět online.</string>
+    <string name="slot_protection_activating">Blokada se aktivuje</string>
+    <string name="slot_protection_active_warning">Blokada je aktivní, ale konfigurace by mohla být vylepšena. Klepněte pro zobrazení podrobností.</string>
+    <string name="slot_protection_active">Blokada a VPN jsou aktivní</string>
+    <string name="slot_protection_action">Nastavení</string>
+    <string name="slot_protection_ok">Vaše zařízení je plně chráněno! VPN i blokování reklam jsou aktivní.</string>
+    <string name="slot_protection_no_adblocking">Blokování reklamních &amp; trackerů je aktuálně zakázáno. Měli byste jej povolit, abyste chránili své soukromí a data.</string>
+    <string name="slot_protection_no_vpn">Nejste připojeni k Blokada VPN. Měli byste to zvážit pro lepší ochranu vašeho soukromí a bezpečnosti.</string>
+    <string name="slot_protection_no_start_on_boot">Blokada není nakonfigurován tak, aby se spustila po spouštění systému. Pro lepší ochranu byste měli vždy udržet Blokadu aktivní.</string>
+    <string name="slot_protection_no_dns">V současné době jsou používány výchozí servery DNS vaší sítě. Doporučujeme přepnout na DNS servery s prověřenou ochranou soukromí.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada není vyňata z optimalizace baterie vašeho zařízení, takže ji může systém ukončit. Měli byste použít systémové předvolby pro povolení Blokady, aby mohl váš přístroj zůstat chráněn po celou dobu jeho používání.</string>
+    <string name="slot_protection_description">Chcete-li konfigurovat nastavení, otevřete spodní nabídku.</string>
+    <string name="slot_start_on_boot_description">Povolení spuštění při startu systému umožňuje Blokadě být neustále aktivní a chránit vaše zařízení.</string>
+    <string name="slot_recommended_dns_label">Používejte doporučené DNS servery</string>
+    <string name="slot_recommended_dns_description">Pokud je tato možnost povolena, Blokada automaticky vybere doporučené servery DNS, které pomohou urychlit váš internet a chránit vaše soukromí. V opačném případě se použijí výchozí DNS servery vaší sítě. Pokud v části Pokročilé ručně vyberete DNS servery, bude toto nastavení ignorováno.</string>
+    <string name="slot_update_no_updates">Blokada je aktuální</string>
+    <string name="slot_about">O Blokadě</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Protokol</string>
+    <string name="slot_help_label">Potřebujete pomoc?</string>
+    <string name="slot_help_desc">Klepnutím na tlačítko níže otevřete naši stránku nápovědy. Můžete také využít našich sociálních sítí pro získání pomoci - jsme na Telegramu, Facebooku, Redditu a Twitteru.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Nápověda</string>
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
