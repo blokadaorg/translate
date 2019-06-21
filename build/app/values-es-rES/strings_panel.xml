@@ -148,8 +148,10 @@
     <string name="slot_account_action_copied">ID de cuenta copiado al portapapeles</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Conectarse a %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Conectarse a %s</string>
     <string name="slot_gateway_description">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Esta es tu puerta de enlace actualmente seleccionada.</string>
+    <string name="slot_gateway_overloaded">Esta puerta de enlace está ocupada y no acepta nuevas conexiones.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">alto</string>
     <!-- Gateway load -->
@@ -209,6 +211,7 @@
     <string name="slot_cleanup_desc">Parece que hay muchas versiones de Blokada instaladas en tu dispositivo. ¿Quieres eliminar las otras versiones y mantener una sola?</string>
     <string name="slot_cleanup_action">Limpiar</string>
     <string name="account_inactive">Tu VPN de Blokada ha expirado. No estás conectado a el VPN.</string>
+    <string name="slot_lease_cant_connect">No se pudo conectar al VPN de Blokada. Intenta seleccionando otra puerta de enlace.</string>
     <string name="slot_account_name_title">ID de cuenta</string>
     <string name="slot_account_name_desc">Introduce tu ID de cuenta antiguo para restaurar tu suscripción anterior. Puede que quieras escribir tu ID de cuenta actual antes de hacerlo, en caso de que cometas un error.</string>
     <string name="slot_account_name_error">El ID de cuenta solo puede contener letras y números.</string>
