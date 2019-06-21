@@ -116,11 +116,14 @@
     <string name="slot_protection_off_desc">A készüléked nem védett.</string>
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
     <string name="slot_protection_disconnected">A készüléked offline állapotban van</string>
+    <string name="slot_protection_active_warning">A Blokada aktív, de a konfigurációja javítható. Érintsd meg a részletekért.</string>
     <string name="slot_protection_active">Blokada és VPN aktív</string>
     <string name="slot_protection_action">Beállítások</string>
+    <string name="slot_protection_ok">A készüléked teljesen védett! Mind a VPN mind a hirdetés blokkolás aktív.</string>
     <string name="slot_protection_no_adblocking">A hirdetések és a nyomkövetők blokkolása jelenleg le van tiltva. Az adatvédelem és az adatbiztonság érdekében engedélyezned kellene.</string>
     <string name="slot_protection_no_vpn">Nem csatlakozik a Blokada VPN-hez. Fontolóra kéne venned a jobb adatvédelem és biztonság érdekében.</string>
     <string name="slot_protection_no_dns">Jelenleg az alapértelmezett DNS-kiszolgálókat használod. Javasoljuk, hogy válts át adatvédelmi célú DNS-kiszolgálókra.</string>
+    <string name="slot_protection_description">A beállítások konfigurálásához nyisd meg az alsó menüt.</string>
     <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
     <string name="slot_recommended_dns_description">Ha ez a funkció engedélyezve van, a Blokada automatikusan kiválasztja az ajánlott DNS-kiszolgálókat, hogy felgyorsítsa az internetet és védje az adatait. Ellenkező esetben a hálózat alapértelmezett DNS-kiszolgálóit használja. Ha a Haladó részben manuálisan választod ki a DNS-kiszolgálókat, ez a beállítás figyelmen kívül marad.</string>
     <!-- A button to share debug log. Keep it short. -->
