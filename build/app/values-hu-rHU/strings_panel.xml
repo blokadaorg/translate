@@ -89,15 +89,25 @@
     <string name="slot_status_vpn_lease">Frissítés</string>
     <string name="slot_action_deactivate">Kikapcsolás</string>
     <string name="slot_action_activate">Bekapcsolás</string>
+    <string name="slot_action_deactivate_adblocking">Hirdetések blokkolásának kikapcsolása</string>
+    <string name="slot_action_activate_adblocking">Hirdetések blokkolásának bekapcsolása</string>
+    <string name="slot_dropped_counter">Blokkolt domain számláló</string>
+    <string name="slot_dropped_counter_info">Ez a számláló mutatja az alkalmazás telepítése óta blokkolt domainek számát.</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
+    <string name="slot_notifications_title">Az értesítések: %s.</string>
+    <string name="slot_notifications_desc">Itt be- vagy kikapcsolhatod az értesítéseket. Ne feledd, hogy egyes eszközökön az Android külön VPN-értesítést jelenít meg, amelyet nem lehet kikapcsolni.</string>
     <string name="slot_notifications_enabled">engedélyezve</string>
     <string name="slot_notifications_disabled">letiltva</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
+    <string name="slot_telegram_title">Csatlakozz hozzánk a Telegramban!</string>
+    <string name="slot_telegram_desc">Látogass el a Telegram csatornánkba, hogy segítséget kapj, vagy szimplán válj a közösségünk tagjává.</string>
     <string name="slot_telegram_action">Megnyitás</string>
     <string name="slot_active">Aktív</string>
     <string name="slot_inactive">Inaktív</string>
     <string name="slot_adblocking_text">Ha engedélyezve van, a Blokada blokkolja a hirdetéseket, nyomkövetőket és más nem kívánt tartalmat. Ez segít megvédeni a magánéletedet, felgyorsítja a készülékedet és biztosítja az adataid védelmét.</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
+    <string name="slot_account_text_account">Fiókazonosítód: &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Előfizetésed: &lt;b&gt;inaktív&lt;/b&gt;. A Blokada VPN használatához aktív fiókra van szükséged. Az aktiváláshoz érintsd meg az alábbi gombot.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Kezelés</string>
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
@@ -128,11 +138,14 @@
     <string name="slot_start_on_boot_description">Az bootoláskor indul engedély lehetővé teszi, hogy a Blokada mindig aktív legyen és védje a készüléket.</string>
     <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
     <string name="slot_recommended_dns_description">Ha ez a funkció engedélyezve van, a Blokada automatikusan kiválasztja az ajánlott DNS-kiszolgálókat, hogy felgyorsítsa az internetet és védje az adatait. Ellenkező esetben a hálózat alapértelmezett DNS-kiszolgálóit használja. Ha a Haladó részben manuálisan választod ki a DNS-kiszolgálókat, ez a beállítás figyelmen kívül marad.</string>
+    <string name="slot_about">A Bloakadaról</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Napló</string>
     <string name="slot_help_label">Segíthetünk?</string>
+    <string name="slot_help_desc">A súgóoldal megnyitásához érintsd meg az alábbi gombot. A közösségi oldalainkon segítséget is kaphatsz - elérhetőek vagyunk a Telegramon, a Facebookon, a Redditen és a Twitteren.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Segítség</string>
+    <string name="slot_donate_label">Tetszik a Blokada? Fontold meg az adományozást, így folyamatosan javíthatjuk az alkalmazást.</string>
     <string name="slot_donate_desc">A Blokada hirdetés blokkoló ingyenes és nyílt forráskódú, és azt akarjuk, hogy ez így is maradjon. Adományaid segítik az alkalmazás továbbfejlesztését és az olyan új funkciók bevezetését, amelyeket a legjobban látni szeretnél. Köszönjük!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Támogatás</string>
