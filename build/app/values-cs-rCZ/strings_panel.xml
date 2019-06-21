@@ -30,18 +30,86 @@
     <string name="panel_ruleset">Počítadlo filtrů</string>
     <string name="panel_ruleset_title">Filtr má nyní %s pravidel.</string>
     <string name="panel_ruleset_updating">Aktualizování filtrů...</string>
+    <string name="panel_ruleset_built">Filtry jsou nyní nakonfigurovány s &lt;b&gt;%s&lt;/b&gt; pravidly. Až &lt;b&gt;%s&lt;/b&gt; pravidel se vejde do paměti vašeho přístroje. Nezapomeňte, že se jedná pouze o odhad a může se měnit v závislosti na jiných aplikacích ve vašem zařízení, takže byste měli zůstat v bezpečí pod touto hranicí.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Povolit</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Blokovat</string>
+    <string name="slot_action_close">Zavřít</string>
+    <string name="slot_action_remove">Odstranit</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
+    <string name="slot_action_credits">Webové stránky</string>
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Zapnuto</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Vypnuto</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_switch_switch_bitch">Přepínač</string>
+    <string name="slot_start">tahem nahoru zahájit</string>
+    <string name="slot_intro_new">Vítejte v %s! Klepněte zde pro průvodce.</string>
+    <string name="slot_intro_new_header">Jak používat nové uživatelské rozhraní?</string>
+    <string name="slot_intro_desc">Můžete klepnout na libovolnou položku, jako je tato, otevřít ji a provádět s ní akce. Tuto položku lze například odebrat, jakmile s ní skončíte.&lt;br/&gt;&lt;br/&gt;Nyní se nacházíte v domovské sekci. Pro další sekce přejeďte vlevo nebo vpravo. Každá z nich má své vlastní spodní menu - otevřete ho tahem nahoru.&lt;br/&gt;&lt;br/&gt;Pokračujte a prozkoumejte nyní aplikaci!</string>
+    <string name="slot_intro_info">Psst... Některé položky jsou označeny symbolem otazníku. Klepnutím na něj se zobrazí krátká nápověda, jako je tato!</string>
+    <string name="slot_new_filter">Blokovat nového hostitele</string>
+    <string name="slot_new_filter_list">Přidat nový seznam</string>
+    <string name="slot_new_filter_whitelist">Nový hostitel v seznamu povolených</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">nenastaveno</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">nastavit</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">neplatné</string>
+    <string name="slot_continue">Pokračovat</string>
+    <string name="slot_enter_domain_title">Doména(y)</string>
+    <string name="slot_enter_domain_desc">Zadejte domény oddělené čárkou. Můžete také vložit odkaz na libovolný seznam hostitelů nebo importovat soubor lokálního hostitele.</string>
+    <string name="slot_enter_domain_error">To pro mě moc nevypadá.</string>
+    <string name="slot_enter_domain_file">Soubor</string>
+    <string name="slot_enter_name_title">Název</string>
+    <string name="slot_enter_name_desc">Zadejte název nové položky. Můžete také vygenerovat navrhovaný název.</string>
+    <string name="slot_enter_name_error">To pro mě moc nevypadá.</string>
+    <string name="slot_enter_name_generate">Generovat</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; je v seznamu povolených</string>
+    <string name="slot_app_desc">Tato aplikace je v seznamu povolených, což znamená, že na ní není prováděno žádné blokování ani filtrování.</string>
+    <string name="slot_allapp_desc">Tuto aplikaci můžete umístit na seznam povolených, abyste zastavili jakákoliv blokování.</string>
+    <string name="slot_allapp_whitelisted">V seznamu povolených</string>
+    <string name="slot_allapp_normal">Není v seznamu povolených</string>
+    <string name="slot_allapp_whitelist">Seznam povolených</string>
+    <string name="slot_dns_name">Aktuální DNS server(y): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Aktuální servery můžete změnit v dolní nabídce.</string>
+    <string name="slot_action_none">Tato akce nyní není dostupná.</string>
+    <string name="slot_action_facts">Fakta</string>
+    <string name="slot_action_unwhitelist">Zrušit</string>
+    <string name="slot_action_author">O</string>
+    <string name="slot_action_share">Sdílet</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Položka</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Položka pro %s</string>
+    <string name="slot_dns_control_title">Seznam DNS serverů</string>
+    <string name="slot_dns_control_description">Seznam serverů DNS můžete synchronizovat s našimi servery bez ztráty vlastních položek.&lt;br/&gt;&lt;br/&gt;Případně můžete všechny položky (včetně vašich) zrušit a znovu stáhnout.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Synchronizovat</string>
+    <string name="slot_action_refresh_toast">Synchronizace spuštěna</string>
+    <string name="slot_action_restore">Pokles</string>
+    <string name="slot_export_title">Nastavení místa</string>
+    <string name="slot_export_description">Můžete změnit, kam se má konfigurace uložit (a načíst). Pokud importujete stávající nastavení, vyberte nejprve možnost Importovat, jinak bude stávající nastavení přepsáno.</string>
+    <string name="slot_action_import">Import</string>
+    <string name="slot_action_internal">Interní úložiště</string>
+    <string name="slot_action_external">Externí úložiště</string>
+    <string name="slot_filters_title">Seznam filtrů</string>
+    <string name="slot_filters_description">Seznam filtrů můžete synchronizovat s našimi servery bez ztráty vlastních položek.&lt;br/&gt;&lt;br/&gt;Případně můžete všechny položky (včetně vašich) zrušit a znovu stáhnout.</string>
+    <string name="slot_blocked_title">Doména zablokována</string>
+    <string name="slot_forwarded_title">Doména přesměrována</string>
+    <string name="slot_whitelist_title">Povolené aplikace</string>
+    <string name="slot_list_no_desc">Tato položka nemá žádný popis.</string>
+    <string name="slot_status_description_active">Blokování reklam je aktuálně &lt;b&gt;povoleno&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Animaci na pozadí uvidíte, pokud jsou reklamy, sledovače a další nežádoucí obsah blokovány.</string>
+    <string name="slot_status_description_inactive">Blokování reklam je aktuálně &lt;b&gt;zakázáno&lt;/b&gt;.</string>
+    <string name="slot_status_info">Když je aplikace aktivní, zobrazí se ikona klíče v oznamovací liště v horní části obrazovky, což znamená, že zařízení je chráněno. Aplikaci můžete vypnout pomocí níže uvedeného tlačítka nebo přejetím dolů ve spodním menu.</string>
+    <string name="slot_status_vpn_turn_off">Zakázat VPN</string>
+    <string name="slot_status_vpn_turn_on">Povolit VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN připojena k %s</string>
+    <string name="slot_status_vpn_connecting">Povolování Blokada VPN...</string>
+    <string name="slot_status_vpn_turned_off">Blokada VPN není povolena</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
