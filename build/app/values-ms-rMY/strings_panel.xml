@@ -85,6 +85,13 @@
     <string name="slot_filters_title">Senarai penapis</string>
     <string name="slot_blocked_title">Domain disekat</string>
     <string name="slot_whitelist_title">Aplikasi disenarai putihkan</string>
+    <string name="slot_status_vpn_turn_off">Matikan VPN</string>
+    <string name="slot_status_vpn_turn_on">Hidupkan VPN</string>
+    <string name="slot_status_vpn_turned_on">Sambungan VPN ke %s</string>
+    <string name="slot_status_vpn_connecting">Menghidupkan VPN Blokada...</string>
+    <string name="slot_status_vpn_turned_off">VPN Blokada tidak dihidupkan</string>
+    <string name="slot_status_vpn_lease">Kemaskini</string>
+    <string name="slot_action_deactivate">Matikan</string>
     <string name="slot_action_activate">Hidupkan</string>
     <string name="slot_action_deactivate_adblocking">Matikan penyekat iklan</string>
     <string name="slot_action_activate_adblocking">Hidupkan penyekat iklan</string>
@@ -137,8 +144,20 @@
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Buka</string>
+    <string name="slot_updated_label">Blokada telah dikemas kini!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Lagi</string>
+    <string name="slot_obsolete_label">Tindakan deperlukan: versi ini telah usang!</string>
+    <string name="slot_obsolete_desc">Versi Blokada anda telah usang dan ia mungkin tidak berfungsi dengan baik. Sila muat turun versi baharu untuk sentiasa mendapatkan kemas kini.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Kemas kini</string>
+    <string name="slot_cleanup_label">Pelbagai versi Blokada telah dikesan</string>
+    <string name="slot_cleanup_action">Bersihkan</string>
+    <string name="account_inactive">VPN Blokada anda telah tamat tempoh. Anda tidak lagi berhubung dengan VPN.</string>
+    <string name="lease_cant_connect">Tidak dapat berhubung dengan VPN Blokada. Sila cuba pintu masuk yang lain.</string>
+    <string name="slot_account_name_title">ID Akaun</string>
+    <string name="slot_account_name_error">ID akaun hanya boleh mengandungi huruf dan nombor.</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
