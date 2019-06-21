@@ -70,11 +70,13 @@
     <string name="slot_status_vpn_connecting">Blokada VPN engedélyezése...</string>
     <string name="slot_status_vpn_turned_off">Blokada VPN nincs engedélyezve</string>
     <string name="slot_status_vpn_desc_on">A Blokada VPN jelenleg &lt;b&gt;engedélyezve van&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;A készüléked és az adataid most már biztonságban vannak. A részletekért érintsd meg a kérdőjelet.</string>
+    <string name="slot_status_vpn_desc_off">A Blokada VPN jelenleg &lt;b&gt;le van tiltva&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Amikor a VPN csatlakozik, a készüléked a mi biztonságos kiszolgálónkon keresztül kommunikál, és az adatforgalmad titkosítva van, így senki nem látja az adatokat. Az igazi IP címed elrejtésre kerül, és hozzáférhet a blokkolt tartalomhoz. Bizonyos esetekben gyorsabb internetkapcsolatot is tapasztalhatsz.</string>
     <string name="slot_status_vpn_lease">Frissítés</string>
     <string name="slot_action_deactivate">Kikapcsolás</string>
     <string name="slot_action_activate">Bekapcsolás</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
+    <string name="slot_telegram_action">Megnyitás</string>
     <string name="slot_active">Aktív</string>
     <string name="slot_inactive">Inaktív</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
@@ -92,16 +94,23 @@
     <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
     <string name="slot_protection_action">Beállítások</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_help_label">Segíthetünk?</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Segítség</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Támogatás</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Megnyitás</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Megnyitás</string>
+    <string name="slot_updated_label">A Blokada frissítésre került!</string>
+    <string name="slot_updated_desc">A Blokada verziója naprakész. A frissítéssel kapcsolatos további információkért érintsd meg az alábbi gombot. Kérjük, fontold meg az adományozást, hogy támogasd ezt a projektet!</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Továbbiak</string>
     <string name="slot_obsolete_label">Beavatkozás szükséges: ez a verzió elavult!</string>
     <!-- A button to update the app. -->
+    <string name="slot_account_name_title">Fiókazonosító</string>
+    <string name="slot_account_name_error">A Fiókazonosító csak betűket (ékezet nélküli) és számokat tartalmazhat.</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Elsődleges beállítások</string>
     <!-- A section in advanced settings. -->
