@@ -55,6 +55,8 @@
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_continue">Continua</string>
+    <string name="slot_enter_domain_title">Domini(s)</string>
     <string name="slot_enter_domain_file">Fitxer</string>
     <string name="slot_enter_name_title">Nom</string>
     <string name="slot_enter_name_desc">Introduïu el nom de la nova entrada. També podeu generar un nom suggerit.</string>
@@ -64,7 +66,10 @@
     <string name="slot_action_author">Quant a</string>
     <string name="slot_action_share">Comparteix</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Una entrada</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Una entrada per a %s</string>
+    <string name="slot_dns_control_title">Llista de servidors DNS</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Sincronitza</string>
     <string name="slot_action_restore">Esborra</string>
