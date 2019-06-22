@@ -53,6 +53,7 @@
     <string name="slot_new_filter_whitelist">Masukkan host baru ke dalam whitelist</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">telah disetel</string>
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">tidak valid</string>
     <string name="slot_continue">Lanjutkan</string>
@@ -141,6 +142,7 @@
     <string name="slot_account_action_copied">ID akun telah disalin ke clipboard</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Sambungkan ke %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Koneksi ke %s</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
     <string name="slot_gateway_overloaded">Gateway ini sibuk dan tidak menerima koneksi baru.</string>
