@@ -111,6 +111,8 @@
     <string name="slot_action_activate">Aktifkan</string>
     <string name="slot_action_deactivate_adblocking">Nonaktifkan pemblokiran iklan</string>
     <string name="slot_action_activate_adblocking">Aktifkan pemblokiran iklan</string>
+    <string name="slot_dropped_counter">Penghitung domain terblokir</string>
+    <string name="slot_dropped_counter_info">Penghitung ini menampilkan jumlah domain yang terblokir semenjak pemasangan aplikasi ini.</string>
     <string name="slot_notifications_title">Notifikasi %s.</string>
     <string name="slot_notifications_desc">Anda bisa mengatur status notifikasi di sini (aktif atau nonaktif). Harap diingat bahwa pada beberapa perangkat, Android akan menampilkan notifikasi VPN terpisah yang tidak bisa dinonaktifkan.</string>
     <string name="slot_notifications_enabled">diaktifkan</string>
@@ -141,6 +143,7 @@
     <string name="slot_gateway_label">Sambungkan ke %s</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
+    <string name="slot_gateway_overloaded">Gateway ini sibuk dan tidak menerima koneksi baru.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">tinggi</string>
     <!-- Gateway load -->
@@ -200,6 +203,7 @@
     <string name="slot_cleanup_desc">Sepertinya ada beberapa versi Blokada tersimpan di perangkat Anda. Apakah Anda ingin menghapus versi-versi lainnya dan menyimpan salah satu saja?</string>
     <string name="slot_cleanup_action">Bersihkan</string>
     <string name="account_inactive">Akun Blokada VPN Anda telah kedaluwarsa. Perangkat Anda tidak terhubung ke VPN.</string>
+    <string name="slot_lease_cant_connect">Tidak dapat tersambung ke Blokada VPN. Silakan pilih gateway lain.</string>
     <string name="slot_account_name_title">ID Akun</string>
     <string name="slot_account_name_desc">Masukkan ID akun lama Anda untuk mengembalikan data langganan sebelumnya. Disarankan untuk mencatat ID akun baru sebelum Anda memasukkan ID akun lama, untuk berjaga-jaga jika ID akun yang Anda masukkan salah.</string>
     <string name="slot_account_name_error">ID akun hanya bisa terdiri dari huruf dan angka.</string>
