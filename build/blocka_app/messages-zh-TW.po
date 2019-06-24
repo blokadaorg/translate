@@ -13,14 +13,14 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-06-23 18:51\n"
+"PO-Revision-Date: 2019-06-24 17:26\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/App.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "當前訂閱週期已過期，可能會自動續訂"
+msgstr "目前的訂閱可能會在訂閱過期後自動續訂。"
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -34,7 +34,7 @@ msgstr "啟用"
 #. Account ID
 #: build/messages/src/App.json
 msgid "Account ID"
-msgstr "帳號ID"
+msgstr "帳號 ID"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -76,7 +76,7 @@ msgstr "正在取消 {spinner}"
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
-msgstr "接收帳號資料 {spinner}"
+msgstr "正在接收帳號資料 {spinner}"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -97,14 +97,14 @@ msgstr "載入中 {spinner}"
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr "沒有找到"
+msgstr "未找到"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr "抱歉, 發生錯誤. 請稍後再嘗試一次."
+msgstr "抱歉，發生了錯誤。請稍後再試。"
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
@@ -118,14 +118,14 @@ msgstr "訂閱"
 #. Subscription: {status}
 #: build/messages/src/App.json
 msgid "Subscription: {status}"
-msgstr "訂閱狀態: {status}"
+msgstr "訂閱狀態：{status}"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr "謝謝!"
+msgstr "謝謝！"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
