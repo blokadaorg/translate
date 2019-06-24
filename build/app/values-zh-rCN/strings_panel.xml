@@ -48,6 +48,7 @@
     <string name="slot_start">向上滑动启动</string>
     <string name="slot_intro_new">如何使用新的界面？点击这里展开介绍。</string>
     <string name="slot_intro_new_header">如何使用新界面？</string>
+    <string name="slot_intro_desc">您目前位于主页部分，如果你滑到右侧，还有更多。每部分都有相应的底部菜单 - 上滑打开。 &lt;br/&gt;&lt;br/&gt; 在 Android TV 上，使用十字键（上下左右）操作。使用确定键（OK 键）打开底部菜单，或者打开您选中的任何一项。各按钮都被标有上、下、左、右箭头 - 使用方向键去点击它们。</string>
     <string name="slot_intro_info">Pst... 一些项目在其上面有问题标记。点击将会显示一个短帮助信息，就像这个消息！</string>
     <string name="slot_new_filter">屏蔽新主机</string>
     <string name="slot_new_filter_list">添加新列表</string>
@@ -147,8 +148,10 @@
     <string name="slot_account_action_copied">帐户ID已复制到剪贴板</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">连接到 %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] 连接 %s</string>
     <string name="slot_gateway_description">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;这是您当前选择的网关。</string>
+    <string name="slot_gateway_overloaded">此网关忙，不接受新的连接。</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
@@ -208,6 +211,7 @@
     <string name="slot_cleanup_desc">您的设备似乎有许多版本的 Blokada。您想删除其他版本，只保留一个版本吗？</string>
     <string name="slot_cleanup_action">清理</string>
     <string name="account_inactive">您的 Blokada VPN 已过期。您没有连接到 VPN。</string>
+    <string name="slot_lease_cant_connect">无法连接到 Blokada VPN。请尝试选择另一个网关。</string>
     <string name="slot_account_name_title">账户 ID</string>
     <string name="slot_account_name_desc">输入您的旧帐户ID，以恢复您以前的订阅。如果您犯错误，您可能想要在写下您的经常账户ID。</string>
     <string name="slot_account_name_error">帐户ID只能包含字母和数字。</string>
