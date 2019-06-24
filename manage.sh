@@ -69,13 +69,15 @@ elif [ "$choice" = "e" ]; then
 	echo "Exporting web..."
 	rm -rf $web/lang/*
 
-	cp -rf build/web/* $web/local/
-	for D in $web/local/*/; do
+	cp -rf build/web/* $web/lang/
+	cd $web
+	for D in $web/lang/*/; do
 		cp -r $web/css $D/
 		cp -r $web/js $D/
-		ln -s $web/static $D/static
-		ln -s $web/img $D/img
+		ln -s ../../static $D/static
+		ln -s ../../img $D/img
 	done
+	cd -
 
 	echo "Exporting content..."
 	rm -rf $web/api/v3/content/*
