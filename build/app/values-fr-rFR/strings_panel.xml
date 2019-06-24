@@ -9,7 +9,7 @@
     <string name="panel_section_apps">Applications</string>
     <!-- Main screen section -->
     <string name="panel_section_advanced">Avancés</string>
-    <string name="panel_section_home_start">Blokada VPN</string>
+    <string name="panel_section_home_start">VPN Blokada</string>
     <string name="panel_section_home_help">Aide</string>
     <string name="panel_section_home_community">Communauté</string>
     <string name="panel_section_ads_lists">Listes d\'hôte</string>
@@ -126,7 +126,25 @@
     <string name="slot_notifications_disabled">désactivé</string>
     <string name="slot_update_action_refresh">Vérifier à nouveau</string>
     <string name="slot_telegram_title">Rejoignez-nous sur Telegram !</string>
+    <string name="slot_telegram_desc">Visitez notre canal Telegram pour obtenir de l\'aide ou simplement pour faire partie de notre communauté.</string>
+    <string name="slot_telegram_action">Ouvrir</string>
+    <string name="slot_dropped_share_title">Partager via</string>
+    <string name="slot_dropped_share">J\'ai bloqué %s annonces grâce à %s! www.blokada.org</string>
+    <string name="slot_active">Actif</string>
+    <string name="slot_inactive">Inactif</string>
+    <string name="slot_adblocking_label">Bloquer les annonces &amp; les traceurs</string>
+    <string name="slot_adblocking_text">Lorsque activé, Blokada bloquera les annonces, les traceurs et d\'autres contenus non désirés. Cela permet de protéger votre vie privée, d\'accélérer votre appareil et d\'économiser vos données.</string>
+    <string name="slot_blocka_label">Compte VPN Blokada</string>
+    <string name="slot_account_label_active">Compte valide jusqu\'à %s</string>
+    <string name="slot_account_text_account">Votre ID de compte est &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">Votre souscription est &lt;b&gt;inactive&lt;/b&gt;. Vous avez besoin d\'un compte actif pour utiliser le VPN Blokada. Veuillez appuyer sur le bouton ci-dessous pour l\'activer.</string>
+    <string name="slot_account_text_active">Votre souscription est &lt;b&gt;active&lt;/b&gt; jusqu\'à &lt;b&gt;%s&lt;/b&gt;. Veuillez appuyer sur le bouton ci-dessous pour gérer votre souscription.</string>
+    <string name="slot_account_info">Vous devez garder votre identifiant secret ; vous en aurez besoin pour récupérer votre compte si vous désinstallez l\'application. Votre abonnement sera automatiquement renouvelé, sauf si vous l\'annulez.</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Gérer</string>
+    <string name="slot_account_action_manage_inactive">Activer votre compte</string>
+    <string name="slot_account_action_change_id">Restaurer votre compte</string>
+    <string name="slot_account_action_copy">Copier l\'identifiant</string>
     <string name="slot_account_action_copied">ID du compte copié dans le presse-papiers</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Se connecter à %s</string>
@@ -186,9 +204,25 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Plus</string>
     <string name="slot_obsolete_label">Action requise : cette version est obsolète !</string>
+    <string name="slot_obsolete_desc">Votre version de Blokada est obsolète et pourrait ne pas fonctionner correctement. Veuillez télécharger la version la plus récente pour continuer à recevoir des mises à jour.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Mettre à jour</string>
+    <string name="slot_cleanup_label">Plusieurs versions de Blokada détectées</string>
+    <string name="slot_cleanup_desc">Il semble y avoir plusieurs versions de Blokada installées sur votre appareil. Voulez-vous supprimer les autres versions et n\'en garder qu\'une une seule ?</string>
+    <string name="slot_cleanup_action">Nettoyer</string>
+    <string name="account_inactive">Votre abonnement au VPN de Blokada a expiré. Vous n\'êtes pas connecté au VPN.</string>
+    <string name="slot_lease_cant_connect">Impossible de se connecter au VPN Blokada. Essayez de sélectionner une autre passerelle.</string>
+    <string name="slot_account_name_title">ID du compte</string>
+    <string name="slot_account_name_desc">Entrez votre ancien ID de compte pour restaurer votre abonnement précédent. Vous pouvez écrire votre ID de compte courant avant de le faire, au cas où vous commettriez une erreur.</string>
+    <string name="slot_account_name_error">L\'ID du compte ne peut contenir que des lettres et des chiffres.</string>
+    <string name="slot_account_name_api_error">Cet identifiant de compte ne semble pas correct.</string>
+    <string name="slot_account_name_restore">Restaurer</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Paramètres principaux</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Bloquage d\'annonces &amp; listes</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Paramètres DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Paramètres avancés</string>
 </resources>
