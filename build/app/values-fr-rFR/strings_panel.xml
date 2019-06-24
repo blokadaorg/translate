@@ -94,6 +94,38 @@
     <string name="slot_export_title">Emplacement des paramètres</string>
     <string name="slot_export_description">Vous pouvez changer où la configuration est enregistrée (et chargée). Si vous importez des paramètres existants, veuillez d\'abord sélectionner Importer, sinon ils seront écrasés.</string>
     <string name="slot_action_import">Importer</string>
+    <string name="slot_action_internal">Stockage interne</string>
+    <string name="slot_action_external">Stockage Externe</string>
+    <string name="slot_filters_title">Liste des filtres</string>
+    <string name="slot_filters_description">Vous pouvez synchroniser la liste des filtres avec nos serveurs sans perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Alternativement, vous pouvez abandonner toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
+    <string name="slot_blocked_title">Domaine bloqué</string>
+    <string name="slot_forwarded_title">Domaine transféré</string>
+    <string name="slot_whitelist_title">Application en liste blanche</string>
+    <string name="slot_list_no_desc">Cette entrée n\'a aucune description.</string>
+    <string name="slot_status_description_active">Le bloqueur d\'annonces est actuellement activé &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Vous verrez l\'image de fond s\'animer à mesurue que les publicités, les trackers et d\'autres contenus non désirés seront bloqués.</string>
+    <string name="slot_status_description_inactive">Le bloqueur d\'annonces est actuellement &lt;b&gt;désactivé&lt;/b&gt;.</string>
+    <string name="slot_status_info">Lorsque l\'application est active, vous verrez une icône de clé dans la barre de notification en haut de l\'écran, ce qui signifie que votre appareil est protégé. Vous pouvez désactiver l\'application en utilisant le bouton ci-dessous, ou en glissant vers le bas le menu en dessous.</string>
+    <string name="slot_status_vpn_turn_off">Désactiver le VPN</string>
+    <string name="slot_status_vpn_turn_on">Activer le VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN connecté à %s</string>
+    <string name="slot_status_vpn_connecting">Activer le VPN Blokada...</string>
+    <string name="slot_status_vpn_turned_off">Le VPN Blokada n\'est pas activé</string>
+    <string name="slot_status_vpn_desc_on">Blokada VPN est actuellement &lt;b&gt;activé&lt;/b&gt;.&lt;br /&gt;IP : &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Votre appareil et vos données sont sécurisés maintenant. Appuyez sur le point d\'interrogation pour plus de détails.</string>
+    <string name="slot_status_vpn_desc_off">Blokada VPN est actuellement &lt;b&gt;désactivé&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Lorsque le VPN est connecté, votre appareil communique à travers nos serveurs sécurisés, et votre trafic est chiffré, donc personne ne peut voir vos données. Votre IP réelle est cachée, et vous pouvez accéder au contenu bloqué. Dans certains cas, vous pouvez également remarquer une connexion Internet plus rapide.</string>
+    <string name="slot_status_vpn_lease">Actualiser</string>
+    <string name="slot_action_deactivate">Désactiver</string>
+    <string name="slot_action_activate">Activer</string>
+    <string name="slot_action_deactivate_adblocking">Désactiver le bloqueur d\'annonces</string>
+    <string name="slot_action_activate_adblocking">Activer le bloqueur d\'annonces</string>
+    <string name="slot_dropped_counter">Compteur de domaines bloqués</string>
+    <string name="slot_dropped_counter_info">Ce compteur affiche le nombre de domaines bloqués depuis l\'installation de l\'application.</string>
+    <string name="slot_dropped_action_clear">Réinitialiser le compteur</string>
+    <string name="slot_notifications_title">Les notifications sont %s.</string>
+    <string name="slot_notifications_desc">Vous pouvez activer ou désactiver les notifications ici. N\'oubliez pas que sur certains appareils, Android affichera une notification VPN séparée qui ne peut pas être désactivée.</string>
+    <string name="slot_notifications_enabled">activé</string>
+    <string name="slot_notifications_disabled">désactivé</string>
+    <string name="slot_update_action_refresh">Vérifier à nouveau</string>
+    <string name="slot_telegram_title">Rejoignez-nous sur Telegram !</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_copied">ID du compte copié dans le presse-papiers</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -142,9 +174,18 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">Faire un don</string>
     <string name="slot_cta_label">Psst ! Nous aimerions connaître votre opinion.</string>
+    <string name="slot_cta_desc">Montrez votre soutien en participant à nos sondages et à d\'autres événements. Nous vous invitons régulièrement à nous faire part de vos commentaires sur les idées et le développement, afin de vous assurer que nous travaillons sur ce que vous voulez voir.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Ouvrir</string>
+    <string name="slot_blog_label">Découvrez notre blog de développement !</string>
+    <string name="slot_blog_desc">Block est l\'endroit où nous écrivons sur le développement du projet, les plans futurs et discuterons des idées.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Ouvrir</string>
+    <string name="slot_updated_label">Blokada a été mis à jour !</string>
+    <string name="slot_updated_desc">Votre version de Blokada est maintenant à jour. Appuyez sur le bouton ci-dessous pour obtenir des informations supplémentaires sur cette mise à jour. Aussi, veuillez envisager de faire des dons pour soutenir ce projet !</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Plus</string>
+    <string name="slot_obsolete_label">Action requise : cette version est obsolète !</string>
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
