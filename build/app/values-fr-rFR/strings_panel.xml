@@ -12,15 +12,15 @@
     <string name="panel_section_home_start">VPN Blokada</string>
     <string name="panel_section_home_help">Aide</string>
     <string name="panel_section_home_community">Communauté</string>
-    <string name="panel_section_ads_lists">Listes d\'hôte</string>
-    <string name="panel_section_ads_log">Journal d\'hôte</string>
+    <string name="panel_section_ads_lists">Listes d\'hôtes</string>
+    <string name="panel_section_ads_log">Journal d\'hôtes</string>
     <string name="panel_section_ads_blacklist">Hôtes bloqués</string>
     <string name="panel_section_ads_whitelist">Hôtes autorisés</string>
     <string name="panel_section_advanced_dns">Serveurs DNS</string>
     <string name="panel_section_apps_all">Applications installées</string>
     <string name="panel_section_apps_system">Applications système</string>
     <!-- When a domain is allowed (not blocked) -->
-    <string name="panel_domain_forwarded">Autorisés &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; autorisé</string>
     <string name="panel_domain_forwarded_desc">Ce domaine a été autorisé. Pour le bloquer, utilisez le bouton ci-dessous.</string>
     <string name="panel_domain_forwarded_toast">Ajouté à la liste blanche.</string>
     <!-- When a domain is blocked -->
@@ -211,11 +211,11 @@
     <string name="slot_cleanup_desc">Il semble y avoir plusieurs versions de Blokada installées sur votre appareil. Voulez-vous supprimer les autres versions et n\'en garder qu\'une une seule ?</string>
     <string name="slot_cleanup_action">Nettoyer</string>
     <string name="account_inactive">Votre abonnement au VPN de Blokada a expiré. Vous n\'êtes pas connecté au VPN.</string>
-    <string name="slot_lease_cant_connect">Impossible de se connecter au VPN Blokada. Essayez de sélectionner une autre passerelle.</string>
-    <string name="slot_account_name_title">ID du compte</string>
-    <string name="slot_account_name_desc">Entrez votre ancien ID de compte pour restaurer votre abonnement précédent. Vous pouvez écrire votre ID de compte courant avant de le faire, au cas où vous commettriez une erreur.</string>
-    <string name="slot_account_name_error">L\'ID du compte ne peut contenir que des lettres et des chiffres.</string>
-    <string name="slot_account_name_api_error">Cet identifiant de compte ne semble pas correct.</string>
+    <string name="slot_lease_cant_connect">Impossible de se connecter au VPN de Blokada. Essayez de sélectionner une autre passerelle.</string>
+    <string name="slot_account_name_title">Identifiant du compte</string>
+    <string name="slot_account_name_desc">Entrez votre ancien identifiant de compte pour restaurer votre abonnement précédent. Vous pouvez écrire votre identifiant actuel avant de le faire, au cas où vous commettriez une erreur.</string>
+    <string name="slot_account_name_error">L\'identifiant du compte ne peut contenir que des lettres et des chiffres.</string>
+    <string name="slot_account_name_api_error">Cet identifiant ne semble pas correct.</string>
     <string name="slot_account_name_restore">Restaurer</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Paramètres principaux</string>
