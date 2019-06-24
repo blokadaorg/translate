@@ -84,20 +84,20 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">Une entrée</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
-    <string name="slot_input_suggestion_for">Une entrée pour %s</string>
+    <string name="slot_input_suggestion_for">%s</string>
     <string name="slot_dns_control_title">Liste des serveurs DNS</string>
-    <string name="slot_dns_control_description">Vous pouvez synchroniser la liste des serveurs DNS avec nos serveurs sans perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Alternativement, vous pouvez abandonner toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
+    <string name="slot_dns_control_description">Vous pouvez synchroniser la liste des serveurs DNS avec nos serveurs poyr ne pas perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Vous pouvez également supprimer toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Synchroniser</string>
-    <string name="slot_action_refresh_toast">Synchronisation lancée</string>
-    <string name="slot_action_restore">Abandonner</string>
+    <string name="slot_action_refresh_toast">Synchronisation démarrée</string>
+    <string name="slot_action_restore">Supprimer</string>
     <string name="slot_export_title">Emplacement des paramètres</string>
-    <string name="slot_export_description">Vous pouvez changer où la configuration est enregistrée (et chargée). Si vous importez des paramètres existants, veuillez d\'abord sélectionner Importer, sinon ils seront écrasés.</string>
+    <string name="slot_export_description">Vous pouvez choisir où vos paramètres sont enregistrés (et d\'où ils sont chargés). Si vous importez des paramètres existants, veuillez d\'abord sélectionner importer, sinon ils seront écrasés.</string>
     <string name="slot_action_import">Importer</string>
     <string name="slot_action_internal">Stockage interne</string>
     <string name="slot_action_external">Stockage Externe</string>
-    <string name="slot_filters_title">Liste des filtres</string>
-    <string name="slot_filters_description">Vous pouvez synchroniser la liste des filtres avec nos serveurs sans perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Alternativement, vous pouvez abandonner toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
+    <string name="slot_filters_title">Filtres</string>
+    <string name="slot_filters_description">Vous pouvez synchroniser vos filtres sur nos serveurs pour ne pas perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Vous pouvez également supprimer toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
     <string name="slot_blocked_title">Domaine bloqué</string>
     <string name="slot_forwarded_title">Domaine transféré</string>
     <string name="slot_whitelist_title">Application en liste blanche</string>
