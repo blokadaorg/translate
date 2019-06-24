@@ -13,140 +13,140 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-06-23 18:49\n"
+"PO-Revision-Date: 2019-06-24 15:41\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/App.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "Un nouvel abonnement peut être activé après l'expiration du cycle actuel."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/App.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "ACTIF"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/App.json
 msgid "Account ID"
-msgstr ""
+msgstr "Identifiant du compte"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Activation annulée"
 
 #. [account.subscription_status_canceled] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELED
 #: build/messages/src/App.json
 msgid "CANCELED"
-msgstr ""
+msgstr "ANNULÉ"
 
 #. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELING
 #: build/messages/src/App.json
 msgid "CANCELING"
-msgstr ""
+msgstr "ANNULATION"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/App.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Annuler la souscription"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/App.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Annulation {spinner}"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "Récupération des informations du compte {spinner}"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/App.json
 msgid "LOADING"
-msgstr ""
+msgstr "CHARGEMENT"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/App.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Chargement {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Introuvable"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Désolé, une erreur s'est produite. Merci de réessayer plus tard."
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
 #. Subscribe
 #: build/messages/src/App.json
 msgid "Subscribe"
-msgstr ""
+msgstr "S'abonner"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
 #: build/messages/src/App.json
 msgid "Subscription: {status}"
-msgstr ""
+msgstr "État de l'abonnement: {status}"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Merci !"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Cette page n'a pas pu être affichée. Si vous rencontrez des problèmes, veuillez nous contacter à hello@blokada.org."
 
 #. [account.activate_helptext] - Help text shown when about to activate an account
 #. defaultMessage is:
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr ""
+msgstr "Écrivez l'identifiant du compte avant d'activer, il peut être utilisé pour restaurer votre abonnement en cas de perte de données."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Votre paiement est en cours de traitement et votre compte sera activé sous peu. Si vous rencontrez des problèmes, veuillez nous contacter à hello@blokada.org."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
