@@ -54,18 +54,94 @@
     <string name="slot_new_filter_list">Ajouter une nouvelle liste</string>
     <string name="slot_new_filter_whitelist">Ajouter un hôte dans la liste blanche</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">non défini</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">défini</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">invalide</string>
+    <string name="slot_continue">Continuer</string>
+    <string name="slot_enter_domain_title">Domaine(s)</string>
+    <string name="slot_enter_domain_desc">Entrez les domaines séparés par une virgule. Vous pouvez aussi coller un lien vers une liste d\'hôtes ou importer un fichier local de liste d\'hôtes.</string>
+    <string name="slot_enter_domain_error">Cela ne me ressemble pas à quoi que ce soit d\'après moi.</string>
+    <string name="slot_enter_domain_file">Fichier</string>
+    <string name="slot_enter_name_title">Nom</string>
+    <string name="slot_enter_name_desc">Entrez le nom de la nouvelle entrée. Vous pouvez également générer un nom suggéré.</string>
+    <string name="slot_enter_name_error">Cela ne me ressemble pas à quoi que ce soit d\'après moi.</string>
+    <string name="slot_enter_name_generate">Générer</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; est en liste blanche</string>
+    <string name="slot_app_desc">Cette application est en liste blanche, ce qui signifie qu\'aucun blocage ou filtrage n\'est effectué sur elle.</string>
+    <string name="slot_allapp_desc">Vous pouvez ajouter cette application en liste blanche afin d\'arrêter de bloquer tout trafic pour elle.</string>
+    <string name="slot_allapp_whitelisted">Inscrit en liste blanche</string>
+    <string name="slot_allapp_normal">Pas inscrit dans la liste blanche</string>
+    <string name="slot_allapp_whitelist">Liste blanche</string>
+    <string name="slot_dns_name">Serveur(s) DNS actuel : &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Vous pouvez changer les serveurs actuels en utilisant le menu en dessous.</string>
+    <string name="slot_action_none">Cette action n\'est pas encore disponible.</string>
+    <string name="slot_action_facts">Infos</string>
+    <string name="slot_action_unwhitelist">Annuler</string>
+    <string name="slot_action_author">À propos</string>
+    <string name="slot_action_share">Partager</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Une entrée</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Une entrée pour %s</string>
+    <string name="slot_dns_control_title">Liste des serveurs DNS</string>
+    <string name="slot_dns_control_description">Vous pouvez synchroniser la liste des serveurs DNS avec nos serveurs sans perdre vos entrées personnalisées. &lt;br/&gt;&lt;br/&gt;Alternativement, vous pouvez abandonner toutes les entrées (y compris les vôtres) et les télécharger à nouveau.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Synchroniser</string>
+    <string name="slot_action_refresh_toast">Synchronisation lancée</string>
+    <string name="slot_action_restore">Abandonner</string>
+    <string name="slot_export_title">Emplacement des paramètres</string>
+    <string name="slot_export_description">Vous pouvez changer où la configuration est enregistrée (et chargée). Si vous importez des paramètres existants, veuillez d\'abord sélectionner Importer, sinon ils seront écrasés.</string>
+    <string name="slot_action_import">Importer</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_copied">ID du compte copié dans le presse-papiers</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Se connecter à %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Se connecter à %s</string>
+    <string name="slot_gateway_description">Performance : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Région : &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Performance : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Région : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ceci est la passerelle actuellement sélectionnée pour vous.</string>
+    <string name="slot_gateway_overloaded">Cette passerelle est occupée et n\'accepte pas de nouvelles connexions.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">haut</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">bas</string>
+    <string name="panel_section_home_gateways">Passerelles VPN</string>
+    <string name="subscription_success">Votre compte est en cours d\'activation. Cela peut prendre quelques secondes. Merci !</string>
+    <string name="slot_protection_header">Statut de Blokada</string>
+    <string name="slot_protection_off">Blokada est inactif</string>
+    <string name="slot_protection_off_desc">Votre appareil n\'est pas protégé.</string>
+    <string name="slot_protection_error">Blokada est temporairement inactif</string>
+    <string name="slot_protection_error_desc">Ceci peut être causé par des problèmes temporaires de réseau, des problèmes de périphérique ou de logiciel. Blokada va automatiquement se réactiver bientôt, mais vous pouvez également essayer d\'activer l\'application à nouveau ou de redémarrer votre téléphone. Si vous avez des problèmes, veuillez nous contacter sur Telegram pour obtenir de l\'aide.</string>
+    <string name="slot_protection_disconnected">Votre appareil est hors ligne</string>
+    <string name="slot_protection_disconnected_desc">Blokada est en pause car votre appareil a perdu sa connexion à Internet. Blokada se réactivera automatiquement une fois que vous serez de retour en ligne.</string>
+    <string name="slot_protection_activating">Blokada s\'active</string>
+    <string name="slot_protection_active_warning">Blokada est actif, mais la configuration pourrait être améliorée. Appuyez pour plus de détails.</string>
+    <string name="slot_protection_active">Blokada et VPN sont actifs</string>
+    <string name="slot_protection_action">Paramètres</string>
+    <string name="slot_protection_ok">Votre appareil est entièrement protégé ! Le VPN et le bloqueur d\'annonces sont actifs.</string>
+    <string name="slot_protection_no_adblocking">Le blocage des annonces &amp; traceurs est actuellement désactivé. Vous devriez l\'activer pour protéger votre vie privée et vos données.</string>
+    <string name="slot_protection_no_vpn">Vous n\'êtes pas connecté au VPN Blokada. Vous devriez considérer de le faire pour une meilleure protection de votre vie privée et de votre sécurité.</string>
+    <string name="slot_protection_no_start_on_boot">Blokada n\'est pas configuré pour démarrer au démarrage de l\'appareil. Vous devriez toujours garder Blokada activé pour une meilleure protection.</string>
+    <string name="slot_protection_no_dns">Les serveurs DNS par défaut de votre réseau sont actuellement utilisés. Le passage à des serveurs DNS respectueux de la vie privée est recommandé.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada n\'est pas ignoré par l\'optimisation de la batterie de votre appareil, il peut être arrêté par le système. Vous devriez modifier vos préférences système et ajouter Blokada à la liste blanche afin qu\'il puisse rester allumé et protéger votre appareil.</string>
+    <string name="slot_protection_description">Pour configurer les paramètres, ouvrez le menu en bas.</string>
+    <string name="slot_start_on_boot_description">Activer le démarrage de Blokada au démarrage de l\'appareil permet d\'être actif en tout temps et de protéger votre appareil.</string>
+    <string name="slot_recommended_dns_label">Utiliser les serveurs DNS recommandés</string>
+    <string name="slot_recommended_dns_description">Lorsque activé, Blokada choisira automatiquement les serveurs DNS recommandés pour accélérer votre connexion Internet et protéger votre vie privée. Sinon, les serveurs DNS par défaut de votre réseau sont utilisés. Si vous choisissez manuellement les serveurs DNS dans la section Avancé, ce paramètre est ignoré.</string>
+    <string name="slot_update_no_updates">Blokada est à jour</string>
+    <string name="slot_about">À propos de Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Historique</string>
+    <string name="slot_help_label">Besoin d’aide ?</string>
+    <string name="slot_help_desc">Appuyez sur le bouton ci-dessous pour ouvrir notre page d\'aide. Vous pouvez également utiliser nos médias sociaux pour obtenir de l\'aide - nous sommes sur Telegram, Facebook, Reddit et Twitter.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Aide</string>
+    <string name="slot_donate_label">Vous aimez Blokada ? Pensez à nous soutenir, pour que nous puissions continuer à améliorer l\'application.</string>
+    <string name="slot_donate_desc">Blokada bloqueur d\'annonces est gratuit et open source, et nous voulons qu\'il le reste. Vos dons nous aident à continuer à développer l\'application et à introduire les nouvelles fonctionnalités que vous voulez le plus. Merci !</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Faire un don</string>
+    <string name="slot_cta_label">Psst ! Nous aimerions connaître votre opinion.</string>
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
