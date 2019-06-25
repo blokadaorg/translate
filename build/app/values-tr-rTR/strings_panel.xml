@@ -76,10 +76,26 @@
     <string name="slot_allapp_whitelist">Beyaz liste</string>
     <string name="slot_dns_name">Mevcut DNS sunucu(ları): &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_dns_dns">Alttaki menüyü kullanarak mevcut sunucuları değiştirebilirsiniz.</string>
+    <string name="slot_action_none">Bu işlem henüz mevcut değil.</string>
+    <string name="slot_action_facts">Gerçekler</string>
+    <string name="slot_action_unwhitelist">İptal et</string>
+    <string name="slot_action_author">Hakkında</string>
+    <string name="slot_action_share">Paylaş</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Bir giriş</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">%s için bir giriş</string>
+    <string name="slot_dns_control_title">DNS sunucuları listesi</string>
+    <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Senkronizasyon</string>
+    <string name="slot_action_refresh_toast">Senkronizasyon başladı</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Yönet</string>
+    <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
+    <string name="slot_account_action_change_id">Hesabı geri yükle</string>
+    <string name="slot_account_action_copy">Hesap kimliğini kopyala</string>
+    <string name="slot_account_action_copied">Hesap kimliği panoya kopyalandı</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
