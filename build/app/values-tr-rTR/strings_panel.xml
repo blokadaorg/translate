@@ -122,13 +122,48 @@
     <string name="slot_protection_ok">Cihazınız tamamen korumalı! Hem VPN hem de reklam engelleme etkindir.</string>
     <string name="slot_protection_no_adblocking">Reklamları engelleme &amp; izleyiciler şu anda devre dışı. Gizliliğinizi ve verilerinizi korumak için etkinleştirmelisiniz.</string>
     <string name="slot_protection_no_vpn">Blokada VPN\'e bağlı değilsiniz. Gizliliğinizi ve güvenliğinizi daha iyi korumak için göz önünde bulundurmalısınız.</string>
+    <string name="slot_protection_no_start_on_boot">Blokada açılışta başlayacak şekilde yapılandırılmamış. Daha iyi koruma için Blokada\'yı her zaman açık tutmalısınız.</string>
+    <string name="slot_protection_no_dns">Ağınızın varsayılan DNS sunucuları şu anda kullanılıyor. Gizlilik bilinci olan DNS sunucularına geçilmesi önerilir.</string>
+    <string name="slot_protection_no_battery_whitelist">Blokada, cihazınızın batarya optimizasyonundan muaf değil, bu nedenle sistem tarafından sonlandırılabilir. Sistem tercihlerinizi, Blokada\'yı beyaz listeye almak için kullanmalı, böylece cihazınızın üzerinde kalmasını ve korunmasını sağlar.</string>
+    <string name="slot_protection_description">Ayarları yapılandırmak için alt menüyü açın.</string>
+    <string name="slot_start_on_boot_description">Açılışta başlatmayı etkinleştirmek Blokada\'nın her zaman etkin olmasını ve cihazınızı korumasını sağlar.</string>
+    <string name="slot_recommended_dns_label">Önerilen DNS sunucularını kullanın</string>
+    <string name="slot_recommended_dns_description">Etkinleştirildiğinde, Blokada, İnternet\'inizi hızlandırmak ve gizliliğinizi korumak için otomatik olarak önerilen DNS sunucularını seçer. Aksi takdirde, ağınızın varsayılan DNS sunucuları kullanılır. Gelişmiş bölümünde DNS sunucularını el ile seçerseniz, bu ayar yoksayılır.</string>
+    <string name="slot_update_no_updates">Blokada güncel</string>
+    <string name="slot_about">Blokada Hakkında</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Günlük</string>
+    <string name="slot_help_label">Yardıma mı ihtiyacınız var?</string>
+    <string name="slot_help_desc">Yardım sayfamızı açmak için aşağıdaki düğmeye dokunun. Sosyal medyayı yardım almak için de kullanabilirsiniz - Telegram, Facebook, Reddit ve Twitter\'dayız.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Yardım</string>
+    <string name="slot_donate_label">Blokada’dan zevk alıyor musunuz? Bizi desteklemeyi düşünün, böylece uygulamayı geliştirmeye devam edebiliriz.</string>
+    <string name="slot_donate_desc">Blokada reklam engelleyici ücretsiz ve açık kaynak kodlu ve biz de bunun böyle olmasını istiyoruz. Bağışlarınız, uygulamayı geliştirmeye devam etmemize ve en çok görmek istediğiniz yeni özellikleri sunmamıza yardımcı oluyor. Teşekkür ederim!</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Bağış</string>
+    <string name="slot_cta_label">Hatırlatma! Fikrinizi bilmek istiyoruz.</string>
+    <string name="slot_cta_desc">Anketlerimize ve diğer etkinliklere katılarak desteğinizi gösterin. Görmek istediğiniz şey üzerinde çalıştığımızdan emin olmak için fikir ve yeni gelişmeler hakkında geri bildirim için topluluğumuza düzenli olarak ulaşıyoruz.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Aç</string>
+    <string name="slot_blog_label">Geliştirme blogumuza göz atın!</string>
+    <string name="slot_blog_desc">Blok, projenin gelişimi, gelecek planları ve fikirleri tartışmak için yazdığımız yerdir.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Aç</string>
+    <string name="slot_updated_label">Blokada güncellendi!</string>
+    <string name="slot_updated_desc">Blokada sürümünüz şimdi güncel. Bu güncelleme hakkında ek bilgi için aşağıdaki butona dokunun. Ayrıca, lütfen bu projeyi desteklemek için bağış yapmayı düşünün!</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_updated_action">Daha</string>
+    <string name="slot_obsolete_label">Gerekli eylem: bu sürüm eski!</string>
+    <string name="slot_obsolete_desc">Blokada sürümünüz eskidir ve düzgün çalışmayabilir. Güncellemeleri almaya devam etmek için lütfen en yeni sürümü indirin.</string>
     <!-- A button to update the app. -->
+    <string name="slot_obsolete_action">Güncelleştir</string>
+    <string name="slot_cleanup_label">Birden fazla Blokada sürümü tespit edildi</string>
+    <string name="slot_cleanup_desc">Cihazınızda yüklü olan birçok Blokada sürümü var. Diğer sürümleri kaldırmak ve yalnızca bir tanesini tutmak ister misiniz?</string>
+    <string name="slot_cleanup_action">Temizle</string>
+    <string name="account_inactive">Blokada VPN\'inizin süresi doldu. VPN\'ye bağlı değilsiniz.</string>
+    <string name="slot_lease_cant_connect">Blokada VPN\'e bağlanılamadı. Başka bir ağ geçidi seçmeyi deneyin.</string>
+    <string name="slot_account_cant_create">Blokada VPN hesabınız oluşturulamadı. Lütfen daha sonra tekrar deneyin veya Telegram\'da bizimle iletişime geçin.</string>
+    <string name="slot_account_name_title">Hesap kimliği</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
