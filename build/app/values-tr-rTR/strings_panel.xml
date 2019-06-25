@@ -28,12 +28,30 @@
     <string name="panel_domain_blocked_desc">Bu domain\'e izin verilmiştir. İzin vermek için aşağıdaki butonu kullanın.</string>
     <string name="panel_domain_blocked_toast">Kara listeye eklendi.</string>
     <string name="panel_ruleset">Filtre sayacı</string>
+    <string name="panel_ruleset_title">Filtrelerin artık %s kuralları var.</string>
+    <string name="panel_ruleset_updating">Filtreler güncelleniyor...</string>
+    <string name="panel_ruleset_built">Filtreler artık &lt;b&gt;%s&lt;/b&gt; kurallarla yapılandırılmıştır. Genel olarak &lt;b&gt;%s&lt;/b&gt; kural cihazınızın hafızasına sığabilir. Unutmayın, bu sadece bir tahmindir ve cihazınızdaki diğer uygulamalara bağlı olarak değişebilir, bu yüzden güvende olmak için bu limitin çok altında kalmalısınız.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">İzin ver</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Engelle</string>
+    <string name="slot_action_close">Kapat</string>
+    <string name="slot_action_remove">Kaldır</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
+    <string name="slot_action_credits">Web sitesi</string>
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Açık</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Kapalı</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_switch_switch_bitch">Anahtar</string>
+    <string name="slot_start">başlatmak için yukarı kaydırın</string>
+    <string name="slot_intro_new">Yeni Arayüz nasıl kullanılır? Giriş için buraya dokunun.</string>
+    <string name="slot_intro_new_header">Yeni Arayüz nasıl kullanılır?</string>
+    <string name="slot_intro_desc">Şu anda Giriş bölümünde bulunuyorsunuz, sağa kaydırırsanız daha fazlası var. Her birinin kendi alt menüsü vardır - yukarı kaydırarak açın. &lt;br/&gt;&lt;br/&gt;Android TV\'de, Arayüz’de dpad ile gezinin. Alt menüyü veya seçtiğiniz herhangi bir öğeyi açmak için ortadaki tuşu kullanın. Düğmeler yukarı, aşağı, sol veya sağ oklarla işaretlenmiştir - tıklamak için yön tuşlarını kullanın.</string>
+    <string name="slot_intro_info">Hatırlatma... Bazı öğelerin üzerinde soru işareti simgesi bulunur. Dokunulduğunda, bunun gibi kısa bir yardım mesajı görüntülenir!</string>
+    <string name="slot_new_filter">Yeni host\'u engelle</string>
+    <string name="slot_new_filter_list">Yeni liste ekle</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
