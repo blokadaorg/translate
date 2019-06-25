@@ -90,6 +90,14 @@
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Senkronizasyon</string>
     <string name="slot_action_refresh_toast">Senkronizasyon başladı</string>
+    <string name="slot_action_restore">Bırak</string>
+    <string name="slot_export_title">Konumu ayarla</string>
+    <string name="slot_export_description">Yapılandırmanın kaydedildiği yeri (ve nereden yüklendiğini) değiştirebilirsiniz. Mevcut ayarları içe aktarıyorsanız, lütfen önce İçe Aktar\'ı seçin, aksi takdirde bunların üzerine yazılır.</string>
+    <string name="slot_action_import">İçe aktar</string>
+    <string name="slot_action_internal">Dahili Depolama</string>
+    <string name="slot_action_external">Harici Depolama</string>
+    <string name="slot_filters_title">Filtreler listesi</string>
+    <string name="slot_filters_description">Özel girişlerinizi kaybetmeden, filtreler listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Yönet</string>
     <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
@@ -164,8 +172,16 @@
     <string name="slot_lease_cant_connect">Blokada VPN\'e bağlanılamadı. Başka bir ağ geçidi seçmeyi deneyin.</string>
     <string name="slot_account_cant_create">Blokada VPN hesabınız oluşturulamadı. Lütfen daha sonra tekrar deneyin veya Telegram\'da bizimle iletişime geçin.</string>
     <string name="slot_account_name_title">Hesap kimliği</string>
+    <string name="slot_account_name_desc">Önceki aboneliğinizi geri yüklemek için eski hesap kimliğinizi girin. Bir hata yapmanız durumunda, mevcut hesap kimliğinizi yapmadan önce yazmak isteyebilirsiniz.</string>
+    <string name="slot_account_name_error">Hesap kimliği yalnızca harf ve rakam içerebilir.</string>
+    <string name="slot_account_name_api_error">Bu hesap kimliği doğru görünmüyor.</string>
+    <string name="slot_account_name_restore">Geri yükle</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Ana ayarlar</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Reklam engelleme &amp; listeleri</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">DNS ayarları</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Gelişmiş ayarlar</string>
 </resources>
