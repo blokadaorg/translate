@@ -58,6 +58,24 @@
     <!-- A state of input form when correct input is entered  -->
     <string name="slot_set">ayarla</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">geçersiz</string>
+    <string name="slot_continue">Devam et</string>
+    <string name="slot_enter_domain_title">Alan(lar)</string>
+    <string name="slot_enter_domain_desc">Virgülle ayrılmış alanları girin. Bir bağlantıyı herhangi bir host listesine yapıştırabilir veya yerel bir host listesi dosyasını içe aktarabilirsiniz.</string>
+    <string name="slot_enter_domain_error">Bu bana bir şey gibi görünmüyor.</string>
+    <string name="slot_enter_domain_file">Dosya</string>
+    <string name="slot_enter_name_title">Ad</string>
+    <string name="slot_enter_name_desc">Yeni giriş için ad girin. Ayrıca önerilen bir isim de oluşturabilirsiniz.</string>
+    <string name="slot_enter_name_error">Bu bana bir şey gibi görünmüyor.</string>
+    <string name="slot_enter_name_generate">Oluştur</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; beyaz listeye alındı</string>
+    <string name="slot_app_desc">Bu uygulama beyaz listeye eklenmiştir, yani üzerinde herhangi bir engelleme veya filtreleme yapılmaz.</string>
+    <string name="slot_allapp_desc">Herhangi bir trafiği engellemeyi durdurmak için bu uygulamayı beyaz listeye ekleyebilirsiniz.</string>
+    <string name="slot_allapp_whitelisted">Beyaz listede</string>
+    <string name="slot_allapp_normal">Beyaz listeye alınmadı</string>
+    <string name="slot_allapp_whitelist">Beyaz liste</string>
+    <string name="slot_dns_name">Mevcut DNS sunucu(ları): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Alttaki menüyü kullanarak mevcut sunucuları değiştirebilirsiniz.</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
