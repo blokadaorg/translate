@@ -46,7 +46,9 @@
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">Ubah</string>
     <string name="slot_start">geser ke atas untuk memulai</string>
+    <string name="slot_intro_new">Bagaimana cara berinteraksi dengan antarmuka pengguna yang baru? Ketuk di sini untuk melihat tutorialnya.</string>
     <string name="slot_intro_new_header">Bagaimana cara menggunakan antarmuka pengguna (UI) yang baru?</string>
+    <string name="slot_intro_desc">Saat ini Anda berada di Beranda, ada bagian lain jika Anda menggeser layar ke sebelah kanan. Setiap bagian/halaman memiliki menu di bagian bawah - buka menu tersebut dengan mengusap layar ke atas. &lt;br/&gt;&lt;br/&gt;Pada Android TV, Anda bisa menavigasi antarmuka pengguna dengan menggunakan D-pad. Gunakan tombol tengah untuk membuka menu bawah, atau item apapun yang telah Anda pilih. Tombol-tombol ditandai dengan tanda panah atas, bawah, kiri atau kanan - gunakan tombol arah pada d-pad untuk menggunakannya.</string>
     <string name="slot_intro_info">Ssst... Beberapa bagian memiliki ikon tanda tanya. Mengetuk ikon tersebut akan menampilkan pesan pendek berisi panduan penggunaan, seperti yang ini!</string>
     <string name="slot_new_filter">Blokir host baru</string>
     <string name="slot_new_filter_list">Tambah daftar baru</string>
@@ -116,7 +118,7 @@
     <string name="slot_action_deactivate_adblocking">Nonaktifkan pemblokiran iklan</string>
     <string name="slot_action_activate_adblocking">Aktifkan pemblokiran iklan</string>
     <string name="slot_dropped_counter">Penghitung domain terblokir</string>
-    <string name="slot_dropped_counter_info">Penghitung ini menampilkan jumlah domain yang terblokir semenjak pemasangan aplikasi ini.</string>
+    <string name="slot_dropped_counter_info">Penghitung ini menampilkan jumlah domain yang terblokir sejak aplikasi ini diinstal.</string>
     <string name="slot_dropped_action_clear">Atur ulang penghitung</string>
     <string name="slot_notifications_title">Notifikasi %s.</string>
     <string name="slot_notifications_desc">Anda bisa mengatur status notifikasi di sini (aktif atau nonaktif). Harap diingat bahwa pada beberapa perangkat, Android akan menampilkan notifikasi VPN terpisah yang tidak bisa dinonaktifkan.</string>
@@ -146,10 +148,10 @@
     <string name="slot_account_action_copied">ID akun telah disalin ke clipboard</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Sambungkan ke %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Koneksi ke %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Tersambung ke %s</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
-    <string name="slot_gateway_overloaded">Gateway ini sibuk dan tidak menerima koneksi baru.</string>
+    <string name="slot_gateway_overloaded">Gateway ini sedang sibuk dan tidak menerima koneksi baru.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">tinggi</string>
     <!-- Gateway load -->
@@ -210,6 +212,7 @@
     <string name="slot_cleanup_action">Bersihkan</string>
     <string name="account_inactive">Akun Blokada VPN Anda telah kedaluwarsa. Perangkat Anda tidak terhubung ke VPN.</string>
     <string name="slot_lease_cant_connect">Tidak dapat tersambung ke Blokada VPN. Silakan pilih gateway lain.</string>
+    <string name="slot_account_cant_create">Tidak bisa membuat akun Blokada VPN. Silakan coba kembali beberapa saat lagi atau hubungi kami di Telegram.</string>
     <string name="slot_account_name_title">ID Akun</string>
     <string name="slot_account_name_desc">Masukkan ID akun lama Anda untuk mengembalikan data langganan sebelumnya. Disarankan untuk mencatat ID akun baru sebelum Anda memasukkan ID akun lama, untuk berjaga-jaga jika ID akun yang Anda masukkan salah.</string>
     <string name="slot_account_name_error">ID akun hanya bisa terdiri dari huruf dan angka.</string>
