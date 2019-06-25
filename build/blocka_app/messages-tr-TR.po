@@ -13,145 +13,145 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-06-23 18:49\n"
+"PO-Revision-Date: 2019-06-25 12:49\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/App.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "Geçerli döngü sona erdikten sonra yeni bir abonelik etkinleştirilebilir."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/App.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "AKTİF"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/App.json
 msgid "Account ID"
-msgstr ""
+msgstr "Hesap kimliği"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Aktivasyon iptal edildi"
 
 #. [account.subscription_status_canceled] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELED
 #: build/messages/src/App.json
 msgid "CANCELED"
-msgstr ""
+msgstr "İPTAL EDİLDİ"
 
 #. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. CANCELING
 #: build/messages/src/App.json
 msgid "CANCELING"
-msgstr ""
+msgstr "İPTAL EDİLİYOR"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/App.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Aboneliği iptal et"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/App.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "İptal ediliyor {spinner}"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "Hesap bilgileri alınıyor {spinner}"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/App.json
 msgid "LOADING"
-msgstr ""
+msgstr "YÜKLENİYOR"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/App.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Yükleniyor {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Bulunamadı"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Maalesef, bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
 
 #. [account.activate] - Button for proceeding to payment for activating an account
 #. defaultMessage is:
 #. Subscribe
 #: build/messages/src/App.json
 msgid "Subscribe"
-msgstr ""
+msgstr "Abone ol"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
 #: build/messages/src/App.json
 msgid "Subscription: {status}"
-msgstr ""
+msgstr "Abonelik: {status}"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Teşekkürler!"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Bu sayfa görüntülenemedi. Herhangi bir sorun yaşarsanız, lütfen bize hello@blokada.org adresinden ulaşın."
 
 #. [account.activate_helptext] - Help text shown when about to activate an account
 #. defaultMessage is:
 #. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
 #: build/messages/src/App.json
 msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr ""
+msgstr "Etkinleştirmeden önce hesap kimliğini not alın, veri kaybı durumunda aboneliğinizi geri yüklemek için kullanılabilir."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Ödemeniz işleme alındı ve hesabınız kısa süre içinde etkinleştirilecek. Herhangi bir sorun yaşarsanız, lütfen bize hello@blokada.org adresinden ulaşın."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org."
-msgstr ""
+msgstr "Ödemeniz iptal edildi ve sizden ücret alınmayacak. Hesabınız aktif değil. Herhangi bir sorun yaşarsanız, lütfen bize hello@blokada.org adresinden ulaşın."
 
