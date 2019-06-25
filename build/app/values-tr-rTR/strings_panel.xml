@@ -97,8 +97,24 @@
     <string name="slot_account_action_copy">Hesap kimliğini kopyala</string>
     <string name="slot_account_action_copied">Hesap kimliği panoya kopyalandı</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">%s’e bağlan</string>
+    <string name="slot_gateway_label_overloaded">[Dolu] %s’e bağlan</string>
+    <string name="slot_gateway_description">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Bu, şu anda seçili ağ geçidinizdir.</string>
+    <string name="slot_gateway_overloaded">Bu ağ geçidi meşgul ve yeni bağlantılar kabul etmiyor.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">yüksek</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">düşük</string>
+    <string name="panel_section_home_gateways">VPN Ağ Geçitleri</string>
+    <string name="subscription_success">Hesabınız aktif hale getirildi. Bu bir kaç saniye alabilir. Teşekkür ederim!</string>
+    <string name="slot_protection_header">Blokada durumu</string>
+    <string name="slot_protection_off">Blokada etkin değil</string>
+    <string name="slot_protection_off_desc">Cihazınız korumalı değil.</string>
+    <string name="slot_protection_error">Blokada geçici olarak etkin değil</string>
+    <string name="slot_protection_error_desc">Buna geçici ağ sorunları, cihaz veya yazılım sorunları neden olabilir. Blokada yakında otomatik olarak yeniden devreye girecek, ancak uygulamayı tekrar açmayı veya telefonunuzu yeniden başlatmayı deneyebilirsiniz. Sorun yaşamaya devam ederseniz, lütfen yardım için Telegram\'da bizimle iletişime geçin.</string>
+    <string name="slot_protection_disconnected">Cihazınız çevrimdışı</string>
+    <string name="slot_protection_disconnected_desc">Cihazınız İnternet bağlantısını kaybettiği için Blokada duraklatıldı. Blokada tekrar çevrimiçi olduğunuzda otomatik olarak yeniden devreye girecektir.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
