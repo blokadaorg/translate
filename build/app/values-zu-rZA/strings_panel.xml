@@ -143,7 +143,15 @@
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Lawula</string>
     <string name="slot_account_action_manage_inactive">Yenza i-akhawunti isebenze</string>
+    <string name="slot_account_action_change_id">Buyisela i-akhawunti</string>
+    <string name="slot_account_action_copy">Kopisha i-ID ye-akhawunti</string>
+    <string name="slot_account_action_copied">I-ID ye-akhawunti ikopishwe ebhodini lokunamathisela</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Xhumana ne-%s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Xhumana ne-%s</string>
+    <string name="slot_gateway_description">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Leli isango lakho elikhethiwe.</string>
+    <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->
