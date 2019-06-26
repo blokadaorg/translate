@@ -48,7 +48,7 @@
     <string name="slot_start">deslize para cima para iniciar</string>
     <string name="slot_intro_new">Como usar a nova interface? Toque aqui para uma introdução.</string>
     <string name="slot_intro_new_header">Como usar a nova interface?</string>
-    <string name="slot_intro_desc">Você está atualmente na seção Home, há mais conteúdo se você deslizar para a direita. Cada uma delas tem seu próprio menu inferior - abra-o deslizando para cima. &lt;br/&gt;&lt;br/&gt;Na Android TV, navegue pela interface do usuário com o controle direcional. Use a tecla central para abrir o menu inferior, ou qualquer item que você selecionar. Os botões são marcados com as setas para cima, para baixo, esquerda ou direita - use as teclas de direção para clicá-los.</string>
+    <string name="slot_intro_desc">Você está atualmente na seção Início, há mais conteúdo se você deslizar para a direita. Cada uma delas tem seu próprio menu inferior - abra-o deslizando para cima. &lt;br/&gt;&lt;br/&gt;Na Android TV, navegue pela interface do usuário com o controle direcional. Use a tecla central para abrir o menu inferior, ou qualquer item que você selecionar. Os botões são marcados com as setas para cima, para baixo, esquerda ou direita - use as teclas de direção para clicá-los.</string>
     <string name="slot_intro_info">Psiu... Alguns itens têm o ícone de interrogação neles. Tocar nele irá exibir uma pequena mensagem de ajuda, como esta!</string>
     <string name="slot_new_filter">Bloquear novo endereço</string>
     <string name="slot_new_filter_list">Adicionar lista nova</string>
@@ -212,6 +212,7 @@
     <string name="slot_cleanup_action">Limpar</string>
     <string name="account_inactive">Sua VPN do Blokada expirou. Você não está conectado à VPN.</string>
     <string name="slot_lease_cant_connect">Não foi possível conectar-se à VPN do Blokada. Tente selecionar outro gateway.</string>
+    <string name="slot_account_cant_create">Não foi possível criar sua conta da VPN do Blokada. Por favor, tente novamente mais tarde ou entre em contato conosco pelo Telegram.</string>
     <string name="slot_account_name_title">ID da conta</string>
     <string name="slot_account_name_desc">Insira seu ID de conta antigo para restaurar sua assinatura anterior. Você pode querer anotar o ID de sua conta atual antes de fazer isso, caso você cometa um erro.</string>
     <string name="slot_account_name_error">O ID da conta pode conter apenas letras e números.</string>
@@ -225,4 +226,8 @@
     <string name="label_dns">Configurações de DNS</string>
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Configurações avançadas</string>
+    <string name="slot_whitelist_updating">Atualizando as configurações, por favor aguarde...</string>
+    <string name="slot_lease_deleted_information">Note que atualmente a VPN do Blokada pode ser usada apenas em um dispositivo.</string>
+    <string name="slot_background_animation">Animação de fundo</string>
+    <string name="slot_background_animation_description">Quando ativado, as ondas serão animadas sempre que uma solicitação de DNS for bloqueada ou permitida. Desative se você notar lentidões.</string>
 </resources>
