@@ -27,7 +27,7 @@
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
     <string name="panel_domain_blocked_desc">Domain ini telah diblokir. Gunakan tombol di bawah ini jika Anda mengizinkan domain tersebut untuk diakses.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
-    <string name="panel_ruleset">Penghitung pemblokiran</string>
+    <string name="panel_ruleset">Penghitung filter</string>
     <string name="panel_ruleset_title">Filter sekarang memiliki %s aturan.</string>
     <string name="panel_ruleset_updating">Memperbaharui filter...</string>
     <string name="panel_ruleset_built">Filter telah dikonfigurasi dengan &lt;b&gt;%s&lt;/b&gt; aturan. Secara keseluruhan, memori perangkat Anda dapat memuat &lt;b&gt;%s&lt;/b&gt; aturan. Namun harap diingat bahwa angka tersebut hanya berupa perkiraan dan bisa saja berubah tergantung kepada jumalh aplikasi yang terinstal di perangkat Anda, sehingga sebaiknya Anda menjaga agar angka tersebut tetap berada di bawah ambang batas.</string>
@@ -54,9 +54,9 @@
     <string name="slot_new_filter_list">Tambah daftar baru</string>
     <string name="slot_new_filter_whitelist">Masukkan host baru ke dalam whitelist</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
-    <string name="slot_unset">tak disetel</string>
+    <string name="slot_unset">hapus</string>
     <!-- A state of input form when correct input is entered  -->
-    <string name="slot_set">telah disetel</string>
+    <string name="slot_set">simpan</string>
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">tidak valid</string>
     <string name="slot_continue">Lanjutkan</string>
@@ -82,9 +82,9 @@
     <string name="slot_action_author">Info Aplikasi</string>
     <string name="slot_action_share">Bagikan</string>
     <!-- A prefix for generated name for manually entered domain.  -->
-    <string name="slot_input_suggestion">Masukan</string>
+    <string name="slot_input_suggestion">Nama domain</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
-    <string name="slot_input_suggestion_for">Masukan untuk %s</string>
+    <string name="slot_input_suggestion_for">Nama domain untuk %s</string>
     <string name="slot_dns_control_title">Daftar server DNS</string>
     <string name="slot_dns_control_description">Anda bisa mensinkronkan daftar server DNS dengan server kami tanpa kehilangan daftar server DNS yang telah Anda buat sendiri. &lt;br/&gt;&lt;br/&gt;Atau, Anda bisa juga membuang daftar server DNS yang ada sekarang (termasuk server DNS yang Anda masukkan secara manual) dan mengunduhnya kembali dari server kami.</string>
     <!-- A button to synchronize (fetch) lists  -->
