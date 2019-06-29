@@ -13,7 +13,7 @@
     <string name="panel_section_home_help">Nápověda</string>
     <string name="panel_section_home_community">Komunita</string>
     <string name="panel_section_ads_lists">Seznam hostitelů</string>
-    <string name="panel_section_ads_log">Protokol hostitele</string>
+    <string name="panel_section_ads_log">Záznamy hostitelů</string>
     <string name="panel_section_ads_blacklist">Blokovaní hostitelé</string>
     <string name="panel_section_ads_whitelist">Povolení hostitelé</string>
     <string name="panel_section_advanced_dns">DNS servery</string>
@@ -52,7 +52,7 @@
     <string name="slot_intro_info">Psst... Některé položky jsou označeny symbolem otazníku. Klepnutím na něj se zobrazí krátká nápověda, jako je tato!</string>
     <string name="slot_new_filter">Blokovat nového hostitele</string>
     <string name="slot_new_filter_list">Přidat nový seznam</string>
-    <string name="slot_new_filter_whitelist">Nový hostitel v seznamu povolených</string>
+    <string name="slot_new_filter_whitelist">Přidat hostitele do seznamu povolených</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">nenastaveno</string>
     <!-- A state of input form when correct input is entered  -->
@@ -92,7 +92,7 @@
     <string name="slot_action_refresh_toast">Synchronizace spuštěna</string>
     <string name="slot_action_restore">Pokles</string>
     <string name="slot_export_title">Nastavení místa</string>
-    <string name="slot_export_description">Můžete změnit, kam se má konfigurace uložit (a načíst). Pokud importujete stávající nastavení, vyberte nejprve možnost Importovat, jinak bude stávající nastavení přepsáno.</string>
+    <string name="slot_export_description">Zde můžete změnit, kam se má konfigurace uložit (a načíst). Pokud importujete stávající nastavení, vyberte nejprve možnost Importovat, jinak bude stávající nastavení přepsáno.</string>
     <string name="slot_action_import">Import</string>
     <string name="slot_action_internal">Interní úložiště</string>
     <string name="slot_action_external">Externí úložiště</string>
@@ -221,7 +221,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_basic">Primární nastavení</string>
     <!-- A section in advanced settings. -->
-    <string name="label_filters">Seznamy &amp; blokovaných reklam</string>
+    <string name="label_filters">Seznamy &amp; blokování reklamy</string>
     <!-- A section in advanced settings. -->
     <string name="label_dns">Nastavení DNS</string>
     <!-- A section in advanced settings. -->
