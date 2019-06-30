@@ -109,8 +109,38 @@
     <string name="slot_status_vpn_turn_on">Activa la VPN</string>
     <string name="slot_status_vpn_turned_on">VPN connectada a %s</string>
     <string name="slot_status_vpn_connecting">S\'està activant la VPN del Blokada...</string>
+    <string name="slot_status_vpn_turned_off">La VPN del Blokada no està activada</string>
+    <string name="slot_status_vpn_desc_on">La VPN del Blokada està &lt;b&gt;activada&lt;/b&gt;.&lt;br /&gt; actualment IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;El dispositiu i les vostres dades ara estan segurs. Toqueu el signe d\'interrogació per a més detalls.</string>
     <string name="slot_status_vpn_lease">Refrescar</string>
+    <string name="slot_action_deactivate">Desactiva</string>
+    <string name="slot_action_activate">Activa</string>
+    <string name="slot_action_deactivate_adblocking">Desactiva el bloqueig d\'anuncis</string>
+    <string name="slot_action_activate_adblocking">Activa el bloqueig d\'anuncis</string>
+    <string name="slot_dropped_counter">Comptador de dominis bloquejats</string>
+    <string name="slot_dropped_counter_info">Aquest comptador mostra el número de dominis bloquejats des de la instal·lació de l\'aplicació.</string>
+    <string name="slot_dropped_action_clear">Restableix el comptador</string>
+    <string name="slot_notifications_title">Les notificacions estan %s.</string>
+    <string name="slot_notifications_desc">Podeu activar o desactivar les notificacions aquí. Recordeu que en alguns dispositius, l\'Android mostrarà una notificació d\'VPN que no es pot desactivar.</string>
+    <string name="slot_notifications_enabled">activada</string>
+    <string name="slot_notifications_disabled">desactivada</string>
+    <string name="slot_update_action_refresh">Torna-ho a comprovar</string>
+    <string name="slot_telegram_title">Uniu-vos al nostre Telegram!</string>
+    <string name="slot_telegram_desc">Visiteu el nostre canal de Telegram per obtenir ajuda o simplement per formar part de la nostra comunitat.</string>
+    <string name="slot_telegram_action">Obre</string>
+    <string name="slot_dropped_share_title">Comparteix a</string>
+    <string name="slot_dropped_share">¡He bloquejat %s anuncis gràcies a %s! www.blokada.org</string>
+    <string name="slot_active">Actiu</string>
+    <string name="slot_inactive">Inactiu</string>
+    <string name="slot_adblocking_label">Bloqueja anuncis i seguidors</string>
+    <string name="slot_adblocking_text">En activar-se, el Blokada bloquejarà anuncis, seguidors i altres continguts no desitjats. Això ajuda a protegir la vostra privadesa, accelerar el vostre dispositiu i estalviar dades.</string>
+    <string name="slot_blocka_label">Compte VPN del Blokada</string>
+    <string name="slot_account_label_active">Compte vàlid fins al %s</string>
+    <string name="slot_account_text_account">El vostre ID de compte és &lt;b&gt;%s&lt;/b&gt;.</string>
+    <string name="slot_account_text_inactive">La vostra subscripció està &lt;b&gt;inactiva&lt;/b&gt;. Necessiteu un compte actiu per utilitzar la VPN del Blokada. Toqueu el botó següent per activar-lo.</string>
+    <string name="slot_account_text_active">La vostra subscripció està &lt;b&gt;activa&lt;/b&gt; fins al &lt;b&gt;%s&lt;/b&gt;. Toqueu el botó següent per gestionar la vostra subscripció.</string>
+    <string name="slot_account_info">Haureu de mantenir el vostre ID del compte en secret: és necessari per recuperar el vostre compte en cas de desinstal·lar l\'aplicació. La vostra subscripció s\'ampliarà automàticament si no la cancel·leu.</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Gestiona</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
