@@ -48,19 +48,32 @@
     <string name="slot_start">llisqueu cap amunt per començar</string>
     <string name="slot_intro_new">Com s\'utilitza la nova interfície d\'usuari? Toqueu aquí per saber-ne més.</string>
     <string name="slot_intro_new_header">Com s\'utilitza la nova interfície?</string>
+    <string name="slot_intro_desc">Actualment us trobeu a la secció Inici, hi ha més si us desplaceu cap a la dreta. Cadascuna té el seu propi menú inferior: obriu-lo lliscant cap amunt. &lt;br/&gt;&lt;br/&gt;A l\'Android TV, navegueu per la interfície d\'usuari amb el dpad. Utilitzeu la tecla central per obrir el menú inferior o qualsevol element que seleccioneu. Els botons estan marcats amb la fletxa amunt, avall, esquerra o dreta: utilitzeu les tecles de direcció per fer clic.</string>
     <string name="slot_intro_info">Psst... Alguns elements tenen la icona del signe d\'interrogació sobre ells. Si el toqueu, es mostrarà un missatge d\'ajuda curt, com aquest!</string>
     <string name="slot_new_filter">Bloqueja un nou servidor</string>
     <string name="slot_new_filter_list">Afegeix una nova llista</string>
     <string name="slot_new_filter_whitelist">Afegeix un nou servidor en la llista blanca</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">sense definir</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">definit</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">invàlid</string>
     <string name="slot_continue">Continua</string>
     <string name="slot_enter_domain_title">Domini(s)</string>
+    <string name="slot_enter_domain_desc">Introduïu els dominis separats per una coma. També podeu enganxar un enllaç a qualsevol llista de servidors o importar un fitxer de llista de servidors local.</string>
+    <string name="slot_enter_domain_error">Això no s\'assembla gens a mi.</string>
     <string name="slot_enter_domain_file">Fitxer</string>
     <string name="slot_enter_name_title">Nom</string>
     <string name="slot_enter_name_desc">Introduïu el nom de la nova entrada. També podeu generar un nom suggerit.</string>
+    <string name="slot_enter_name_error">Això no s\'assembla gens a mi.</string>
     <string name="slot_enter_name_generate">Genera</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; és a la llista blanca</string>
+    <string name="slot_app_desc">Aquesta aplicació és a la llista blanca, de manera que no es realitza cap bloqueig o filtratge en ella.</string>
+    <string name="slot_allapp_desc">Podeu afegir aquesta aplicació a la llista blanca per aturar el bloqueig del trànsit en ella.</string>
+    <string name="slot_allapp_whitelisted">A la llista blanca</string>
+    <string name="slot_allapp_normal">No és a la llista blanca</string>
+    <string name="slot_allapp_whitelist">Llista blanca</string>
     <string name="slot_action_facts">Informació</string>
     <string name="slot_action_unwhitelist">Cancel·la</string>
     <string name="slot_action_author">Quant a</string>
