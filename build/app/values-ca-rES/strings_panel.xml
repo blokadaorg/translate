@@ -74,6 +74,9 @@
     <string name="slot_allapp_whitelisted">A la llista blanca</string>
     <string name="slot_allapp_normal">No és a la llista blanca</string>
     <string name="slot_allapp_whitelist">Llista blanca</string>
+    <string name="slot_dns_name">Servidor(s) DNS actual(s): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_dns_dns">Podeu canviar els servidors actuals mitjançant el menú inferior.</string>
+    <string name="slot_action_none">Aquesta acció encara no està disponible.</string>
     <string name="slot_action_facts">Informació</string>
     <string name="slot_action_unwhitelist">Cancel·la</string>
     <string name="slot_action_author">Quant a</string>
@@ -83,13 +86,29 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">Una entrada per a %s</string>
     <string name="slot_dns_control_title">Llista de servidors DNS</string>
+    <string name="slot_dns_control_description">Podeu sincronitzar la llista de servidors DNS amb els nostres servidors sense perdre les entrades personalitzades. &lt;br/&gt;&lt;br/&gt;Alternativament, podeu eliminar totes les entrades (incloses les vostres) i tornar-les a baixar.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Sincronitza</string>
+    <string name="slot_action_refresh_toast">Sincronització iniciada</string>
     <string name="slot_action_restore">Esborra</string>
+    <string name="slot_export_title">Ubicació de la configuració</string>
+    <string name="slot_export_description">Podeu canviar el lloc on es desa (i es carrega) la configuració. Si esteu important configuracions existents, seleccioneu Importa primer, en cas contrari es sobreescriuran.</string>
     <string name="slot_action_import">Import</string>
     <string name="slot_action_internal">Emmagatzematge intern</string>
     <string name="slot_action_external">Emmagatzematge extern</string>
     <string name="slot_filters_title">Llista de filtres</string>
+    <string name="slot_filters_description">Podeu sincronitzar la llista de filtres amb els nostres servidors sense perdre les entrades personalitzades. &lt;br/&gt;&lt;br/&gt;Alternativament, podeu eliminar totes les entrades (incloses les vostres) i tornar-les a baixar.</string>
+    <string name="slot_blocked_title">Domini bloquejat</string>
+    <string name="slot_forwarded_title">Domini reenviat</string>
+    <string name="slot_whitelist_title">Aplicació en la llista blanca</string>
+    <string name="slot_list_no_desc">Aquesta entrada no té cap descripció.</string>
+    <string name="slot_status_description_active">El bloqueig d\'anuncis està &lt;b&gt;activat&lt;/b&gt; actualment.&lt;br /&gt;&lt;br /&gt;Veureu l\'animació de fons a mesura que es bloquegen anuncis, rastrejadors i altres continguts no desitjats.</string>
+    <string name="slot_status_description_inactive">El bloqueig d\'anuncis està &lt;b&gt;desactivat&lt;/b&gt; actualment.</string>
+    <string name="slot_status_info">Quan l\'aplicació estigui activa, veureu la icona de la clau a la barra de notificació a la part superior de la pantalla, això vol dir que el vostre dispositiu està protegit. Podeu desactivar l\'aplicació mitjançant el botó de sota o lliscant cap avall el menú inferior.</string>
+    <string name="slot_status_vpn_turn_off">Desactiva la VPN</string>
+    <string name="slot_status_vpn_turn_on">Activa la VPN</string>
+    <string name="slot_status_vpn_turned_on">VPN connectada a %s</string>
+    <string name="slot_status_vpn_connecting">S\'està activant la VPN del Blokada...</string>
     <string name="slot_status_vpn_lease">Refrescar</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
