@@ -111,6 +111,7 @@
     <string name="slot_status_vpn_connecting">S\'està activant la VPN del Blokada...</string>
     <string name="slot_status_vpn_turned_off">La VPN del Blokada no està activada</string>
     <string name="slot_status_vpn_desc_on">La VPN del Blokada està &lt;b&gt;activada&lt;/b&gt;.&lt;br /&gt; actualment IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;El dispositiu i les vostres dades ara estan segurs. Toqueu el signe d\'interrogació per a més detalls.</string>
+    <string name="slot_status_vpn_desc_off">La VPN del Blokada està &lt;b&gt;desactivada&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;actualment Quan la VPN estigui connectada, el dispositiu es comunica a través dels nostres servidors segurs i el vostre trànsit està xifrat, de manera que ningú no pugui veure les vostres dades. La vostra IP real està oculta i podeu accedir al contingut bloquejat. En alguns casos, també podeu experimentar una connexió a Internet més ràpida.</string>
     <string name="slot_status_vpn_lease">Refrescar</string>
     <string name="slot_action_deactivate">Desactiva</string>
     <string name="slot_action_activate">Activa</string>
@@ -206,8 +207,27 @@
     <string name="slot_obsolete_desc">La vostra versió del Blokada és obsoleta i és possible que no funcioni correctament. Baixeu la versió més recent per seguir rebent actualitzacions.</string>
     <!-- A button to update the app. -->
     <string name="slot_obsolete_action">Actualitza</string>
+    <string name="slot_cleanup_label">S\'han detectat diverses versions del Blokada</string>
+    <string name="slot_cleanup_desc">Sembla que hi ha moltes versions del Blokada instal·lades al dispositiu. Voleu eliminar les altres versions i mantenir-ne una només?</string>
+    <string name="slot_cleanup_action">Neteja</string>
+    <string name="account_inactive">La vostra VPN del Blokada ha caducat. No esteu connectats a la VPN.</string>
+    <string name="slot_lease_cant_connect">No s\'ha pogut connectar a la VPN del Blokada. Proveu de seleccionar una altra passarel·la.</string>
+    <string name="slot_account_cant_create">No s\'ha pogut crear el vostre compte VPN del Blokada. Torneu-ho a provar més tard o contacteu amb nosaltres al Telegram.</string>
+    <string name="slot_account_name_title">ID del compte</string>
+    <string name="slot_account_name_desc">Introduïu el vostre ID del compte antic per restaurar la vostra subscripció anterior. És possible que vulgueu escriure l\'ID del compte actual abans de fer-ho, en cas que cometeu un error.</string>
+    <string name="slot_account_name_error">L\'ID del compte només pot contenir lletres i números.</string>
+    <string name="slot_account_name_api_error">Aquest ID de compte no sembla correcte.</string>
+    <string name="slot_account_name_restore">Restaura</string>
     <!-- A section in advanced settings. -->
+    <string name="label_basic">Configuració principal</string>
     <!-- A section in advanced settings. -->
+    <string name="label_filters">Bloqueig d\'anuncis i llistes</string>
     <!-- A section in advanced settings. -->
+    <string name="label_dns">Configuració DNS</string>
     <!-- A section in advanced settings. -->
+    <string name="label_advanced">Configuració avançada</string>
+    <string name="slot_whitelist_updating">S\'està actualitzant la configuració, espereu...</string>
+    <string name="slot_lease_deleted_information">Tingueu en compte que actualment la VPN del Blokada només es pot utilitzar en un dispositiu.</string>
+    <string name="slot_background_animation">Animació de fons</string>
+    <string name="slot_background_animation_description">En activar-se, les ones s\'animaran cada vegada que es bloquegi o permeti una sol·licitud DNS. Desactiveu aquesta funció quan noteu lentitud.</string>
 </resources>
