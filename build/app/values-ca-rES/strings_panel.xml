@@ -162,6 +162,21 @@
     <string name="slot_protection_off_desc">El vostre dispositiu no està protegit.</string>
     <string name="slot_protection_error">El Blokada està temporalment inactiu</string>
     <string name="slot_protection_error_desc">Això pot ser causat per problemes temporals de xarxa, per problemes del dispositiu o per programari. El Blokada es reactivarà automàticament aviat, però també podeu intentar tornar a obrir l\'aplicació o reiniciar el telèfon. Si continueu tenint problemes, contacteu amb nosaltres al Telegram per obtenir ajuda.</string>
+    <string name="slot_protection_disconnected">El vostre dispositiu està fora de línia</string>
+    <string name="slot_protection_disconnected_desc">El Blokada està en pausa perquè el dispositiu ha perdut la connexió a Internet. El Blokada es reactivarà automàticament quan la connexió torni.</string>
+    <string name="slot_protection_activating">El Blokada s\'està activant</string>
+    <string name="slot_protection_active_warning">El Blokada està actiu, però es pot millorar la configuració. Toqueu per obtenir més detalls.</string>
+    <string name="slot_protection_active">El Blokada i l\'VPN estan actives</string>
+    <string name="slot_protection_action">Configuració</string>
+    <string name="slot_protection_ok">El vostre dispositiu està totalment protegit. Tant l\'VPN com el bloqueig d\'anuncis estan actius.</string>
+    <string name="slot_protection_no_adblocking">El bloqueig d\'anuncis i seguidors està desactivat actualment. Haureu d\'activar-lo per tal de protegir la vostra privadesa i dades.</string>
+    <string name="slot_protection_no_vpn">No esteu connectats a la VPN del Blokada. Tingueu-ho present per a una millor protecció de la vostra privadesa i seguretat.</string>
+    <string name="slot_protection_no_start_on_boot">El Blokada no està configurat per executar-se a l\'inici. Haureu de mantenir el Blokada sempre actiu per obtenir una millor protecció.</string>
+    <string name="slot_protection_no_dns">Actualment, s\'utilitzen els servidors DNS per defecte de la vostra xarxa. Es recomana canviar a uns servidors DNS conscients de la privadesa.</string>
+    <string name="slot_protection_no_battery_whitelist">El Blokada no està exempt de l\'optimització de la bateria del dispositiu, per la qual cosa el sistema pot aturar-lo. Haureu d\'utilitzar les preferències del sistema per afegir a la llista blanca el Blokada perquè pugui mantenir-se actiu i protegir el dispositiu.</string>
+    <string name="slot_protection_description">Per configurar els paràmetres, obriu el menú inferior.</string>
+    <string name="slot_start_on_boot_description">En activar executar-se a l\'inici permet al Blokada estar sempre actiu i protegir el vostre dispositiu.</string>
+    <string name="slot_recommended_dns_label">Utilitzeu els servidors DNS recomanats</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
