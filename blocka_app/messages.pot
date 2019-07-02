@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-06-19T11:24:14.026Z\n"
+"POT-Creation-Date: 2019-07-02T16:06:23.338Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -28,6 +28,13 @@ msgstr ""
 msgid "Account ID"
 msgstr ""
 
+#: build/messages/src/Checkout.json
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. defaultMessage is:
+#. Activate monthly subscription
+msgid "Activate monthly subscription"
+msgstr ""
+
 #: build/messages/src/App.json
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -35,18 +42,18 @@ msgstr ""
 msgid "Activation cancelled"
 msgstr ""
 
-#: build/messages/src/App.json
-#. [account.subscription_status_canceled] - Subscription status parameter next to the account.subscription string
+#: build/messages/src/Checkout.json
+#. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
-#. CANCELED
-msgid "CANCELED"
+#. An error occured, please try later.
+msgid "An error occured, please try later."
 msgstr ""
 
-#: build/messages/src/App.json
-#. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
+#: build/messages/src/Checkout.json
+#. [account.subscription_price] - Price info above payment options
 #. defaultMessage is:
-#. CANCELING
-msgid "CANCELING"
+#. Blokada VPN, €{price} per month
+msgid "Blokada VPN, €{price} per month"
 msgstr ""
 
 #: build/messages/src/App.json
@@ -64,10 +71,24 @@ msgid "Canceling {spinner}"
 msgstr ""
 
 #: build/messages/src/App.json
+#. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
+#. defaultMessage is:
+#. DEACTIVATING
+msgid "DEACTIVATING"
+msgstr ""
+
+#: build/messages/src/App.json
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 msgid "Fetching account information {spinner}"
+msgstr ""
+
+#: build/messages/src/App.json
+#. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
+#. defaultMessage is:
+#. INACTIVE
+msgid "INACTIVE"
 msgstr ""
 
 #: build/messages/src/App.json
@@ -77,7 +98,7 @@ msgstr ""
 msgid "LOADING"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Checkout.json
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
@@ -91,18 +112,32 @@ msgstr ""
 msgid "Not found"
 msgstr ""
 
+#: build/messages/src/Checkout.json
+#. [account.subscription_card_header] - Title above credit card input
+#. defaultMessage is:
+#. Pay with card
+msgid "Pay with card"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate] - Button for proceeding to payment for activating an account
+#. defaultMessage is:
+#. Pay €{price}
+msgid "Pay €{price}"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
+#. defaultMessage is:
+#. Processing {spinner}
+msgid "Processing {spinner}"
+msgstr ""
+
 #: build/messages/src/App.json
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
-
-#: build/messages/src/App.json
-#. [account.activate] - Button for proceeding to payment for activating an account
-#. defaultMessage is:
-#. Subscribe
-msgid "Subscribe"
 msgstr ""
 
 #: build/messages/src/App.json
