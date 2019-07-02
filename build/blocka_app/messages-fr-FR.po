@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-07-02 17:05\n"
+"PO-Revision-Date: 2019-07-02 19:45\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -48,21 +48,21 @@ msgstr "Activation annulée"
 #. An error occured, please try later.
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Une erreur s'est produite, veuillez réessayer plus tard."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
 #. defaultMessage is:
 #. Auto renew monthly
 #: build/messages/src/Checkout.json
 msgid "Auto renew monthly"
-msgstr ""
+msgstr "Renouvellement mensuel automatique"
 
 #. [account.subscription_price] - Price info above payment options
 #. defaultMessage is:
 #. Blokada VPN, €{price} per month
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN, €{price} per month"
-msgstr ""
+msgstr "Blokada VPN, {price}€ par mois"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Annulation {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "Désactivation"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -97,7 +97,7 @@ msgstr "Récupération des informations du compte {spinner}"
 #. INACTIVE
 #: build/messages/src/App.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "Innactif"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -125,7 +125,7 @@ msgstr "Introuvable"
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Payer par carte"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
