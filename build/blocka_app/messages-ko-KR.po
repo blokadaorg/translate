@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-06-19T11:23:14.026Z\n"
+"POT-Creation-Date: 2019-07-02T16:06:23.338Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2019-06-23 18:50\n"
+"PO-Revision-Date: 2019-07-02 16:55\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -36,6 +36,13 @@ msgstr ""
 msgid "Account ID"
 msgstr ""
 
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. defaultMessage is:
+#. Activate monthly subscription
+#: build/messages/src/Checkout.json
+msgid "Activate monthly subscription"
+msgstr ""
+
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -43,18 +50,18 @@ msgstr ""
 msgid "Activation cancelled"
 msgstr ""
 
-#. [account.subscription_status_canceled] - Subscription status parameter next to the account.subscription string
+#. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
-#. CANCELED
-#: build/messages/src/App.json
-msgid "CANCELED"
+#. An error occured, please try later.
+#: build/messages/src/Checkout.json
+msgid "An error occured, please try later."
 msgstr ""
 
-#. [account.subscription_status_canceling] - Subscription status parameter next to the account.subscription string
+#. [account.subscription_price] - Price info above payment options
 #. defaultMessage is:
-#. CANCELING
-#: build/messages/src/App.json
-msgid "CANCELING"
+#. Blokada VPN, €{price} per month
+#: build/messages/src/Checkout.json
+msgid "Blokada VPN, €{price} per month"
 msgstr ""
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
@@ -71,11 +78,25 @@ msgstr ""
 msgid "Canceling {spinner}"
 msgstr ""
 
+#. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
+#. defaultMessage is:
+#. DEACTIVATING
+#: build/messages/src/App.json
+msgid "DEACTIVATING"
+msgstr ""
+
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 #: build/messages/src/App.json
 msgid "Fetching account information {spinner}"
+msgstr ""
+
+#. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
+#. defaultMessage is:
+#. INACTIVE
+#: build/messages/src/App.json
+msgid "INACTIVE"
 msgstr ""
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
@@ -88,7 +109,7 @@ msgstr ""
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
-#: build/messages/src/App.json
+#: build/messages/src/Checkout.json
 msgid "Loading {spinner}"
 msgstr ""
 
@@ -99,18 +120,32 @@ msgstr ""
 msgid "Not found"
 msgstr ""
 
+#. [account.subscription_card_header] - Title above credit card input
+#. defaultMessage is:
+#. Pay with card
+#: build/messages/src/Checkout.json
+msgid "Pay with card"
+msgstr ""
+
+#. [account.activate] - Button for proceeding to payment for activating an account
+#. defaultMessage is:
+#. Pay €{price}
+#: build/messages/src/Checkout.json
+msgid "Pay €{price}"
+msgstr ""
+
+#. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
+#. defaultMessage is:
+#. Processing {spinner}
+#: build/messages/src/Checkout.json
+msgid "Processing {spinner}"
+msgstr ""
+
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
-
-#. [account.activate] - Button for proceeding to payment for activating an account
-#. defaultMessage is:
-#. Subscribe
-#: build/messages/src/App.json
-msgid "Subscribe"
 msgstr ""
 
 #. [account.subscription] - Subscription status on info for active account
