@@ -12,7 +12,7 @@
     <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">Помощ</string>
     <string name="panel_section_home_community">Общност</string>
-    <string name="panel_section_ads_lists">Списъци на хостове</string>
+    <string name="panel_section_ads_lists">Списъци с хостове</string>
     <string name="panel_section_ads_log">Лог на хостове</string>
     <string name="panel_section_ads_blacklist">Блокирани хостове</string>
     <string name="panel_section_ads_whitelist">Позволени хостове</string>
@@ -52,9 +52,9 @@
     <string name="slot_intro_info">Хей... Някои точки имат икона с въпросителен знак върху тях. Докосването му ще покаже кратко съобщение за помощ, също като това!</string>
     <string name="slot_new_filter">Блокирайте нов хост</string>
     <string name="slot_new_filter_list">Добавяне на нов списък</string>
-    <string name="slot_new_filter_whitelist">Бял списък с нов хост</string>
+    <string name="slot_new_filter_whitelist">Бял списък с нови хостове</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
-    <string name="slot_unset">незададен</string>
+    <string name="slot_unset">незапазен</string>
     <!-- A state of input form when correct input is entered  -->
     <string name="slot_set">зададен</string>
     <!-- A state of input form when incorrect input is entered  -->
@@ -228,4 +228,8 @@
     <string name="label_dns">DNS настройки</string>
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Разширени настройки</string>
+    <string name="slot_whitelist_updating">Конфигурацията се актуализира, моля изчакайте...</string>
+    <string name="slot_lease_deleted_information">Обърнете внимание, че понастоящем Blokada VPN може да се използва само на едно устройство.</string>
+    <string name="slot_background_animation">Фонова анимация</string>
+    <string name="slot_background_animation_description">Когато са включени, вълните ще анимират всеки път при блокирана или позволена заявка за DNS. Изключете, ако има забавяне в призводителността.</string>
 </resources>
