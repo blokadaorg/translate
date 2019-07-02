@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-07-02 19:45\n"
+"PO-Revision-Date: 2019-07-02 19:57\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -132,21 +132,21 @@ msgstr "Payer par carte"
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Payer {price}€"
 
 #. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
-msgstr ""
+msgstr "Payer {price}€ tous les mois"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Traitement {spinner}"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
