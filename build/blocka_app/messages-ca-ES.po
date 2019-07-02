@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Catalan\n"
 "Language: ca_ES\n"
-"PO-Revision-Date: 2019-07-02 17:23\n"
+"PO-Revision-Date: 2019-07-02 17:32\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -62,7 +62,7 @@ msgstr "Renovació automàtica mensual"
 #. Blokada VPN, €{price} per month
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN, €{price} per month"
-msgstr ""
+msgstr "VPN del Blokada, {price}€ al mes"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "S'està cancel·lant {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "S'ESTÀ DESACTIVANT"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -97,7 +97,7 @@ msgstr "S'està obtenint informació del compte {spinner}"
 #. INACTIVE
 #: build/messages/src/App.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "INACTIVA"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -125,28 +125,28 @@ msgstr "No s'ha trobat"
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Paga amb targeta"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Paga {price}€"
 
 #. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
-msgstr ""
+msgstr "Paga {price}€ cada mes"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "S'està processant {spinner}"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
