@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-02T16:06:23.338Z\n"
+"POT-Creation-Date: 2019-07-02T16:57:20.756Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -28,13 +28,6 @@ msgstr ""
 msgid "Account ID"
 msgstr ""
 
-#: build/messages/src/Checkout.json
-#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
-#. defaultMessage is:
-#. Activate monthly subscription
-msgid "Activate monthly subscription"
-msgstr ""
-
 #: build/messages/src/App.json
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -47,6 +40,13 @@ msgstr ""
 #. defaultMessage is:
 #. An error occured, please try later.
 msgid "An error occured, please try later."
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. defaultMessage is:
+#. Auto renew monthly
+msgid "Auto renew monthly"
 msgstr ""
 
 #: build/messages/src/Checkout.json
@@ -120,10 +120,17 @@ msgid "Pay with card"
 msgstr ""
 
 #: build/messages/src/Checkout.json
-#. [account.activate] - Button for proceeding to payment for activating an account
+#. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 msgid "Pay €{price}"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
+#. defaultMessage is:
+#. Pay €{price} each month
+msgid "Pay €{price} each month"
 msgstr ""
 
 #: build/messages/src/Checkout.json
