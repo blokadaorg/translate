@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-02T16:06:23.338Z\n"
+"POT-Creation-Date: 2019-07-02T16:57:20.756Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Malay\n"
 "Language: ms_MY\n"
-"PO-Revision-Date: 2019-07-02 16:56\n"
+"PO-Revision-Date: 2019-07-02 17:06\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -36,13 +36,6 @@ msgstr ""
 msgid "Account ID"
 msgstr ""
 
-#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
-#. defaultMessage is:
-#. Activate monthly subscription
-#: build/messages/src/Checkout.json
-msgid "Activate monthly subscription"
-msgstr ""
-
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -55,6 +48,13 @@ msgstr ""
 #. An error occured, please try later.
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
+msgstr ""
+
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. defaultMessage is:
+#. Auto renew monthly
+#: build/messages/src/Checkout.json
+msgid "Auto renew monthly"
 msgstr ""
 
 #. [account.subscription_price] - Price info above payment options
@@ -127,11 +127,18 @@ msgstr ""
 msgid "Pay with card"
 msgstr ""
 
-#. [account.activate] - Button for proceeding to payment for activating an account
+#. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
+msgstr ""
+
+#. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
+#. defaultMessage is:
+#. Pay €{price} each month
+#: build/messages/src/Checkout.json
+msgid "Pay €{price} each month"
 msgstr ""
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
