@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-07-03 14:48\n"
+"PO-Revision-Date: 2019-07-03 16:34\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Beenden {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr "DEAKTIVIERUNG"
+msgstr "DEAKTIVIEREN"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -146,14 +146,14 @@ msgstr "Jeden Monat €{price} zahlen"
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Zahlung fehlgeschlagen, bitte überprüfe deine Kartendaten."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr "Verarbeitung {spinner}"
+msgstr "Bearbeitung {spinner}"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
