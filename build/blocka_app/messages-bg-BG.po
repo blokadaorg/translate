@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-07-03 16:22\n"
+"PO-Revision-Date: 2019-07-03 16:34\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -55,14 +55,14 @@ msgstr "Възникна грешка. Моля, опитайте по-късн�
 #. Auto renew monthly
 #: build/messages/src/Checkout.json
 msgid "Auto renew monthly"
-msgstr ""
+msgstr "Автоматично ежемесечно обновяване"
 
 #. [account.subscription_price] - Price info above payment options
 #. defaultMessage is:
 #. Blokada VPN, €{price} per month
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN, €{price} per month"
-msgstr ""
+msgstr "Blokada VPN, €{price} на месец"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Отмяна {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "ДЕАКТИВИРАНЕ"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -97,7 +97,7 @@ msgstr "Извличане на информация за профила {spinne
 #. INACTIVE
 #: build/messages/src/App.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "НЕАКТИВЕН"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -125,35 +125,35 @@ msgstr "Не е намерен"
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Платете с карта"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Платете €{price}"
 
 #. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
-msgstr ""
+msgstr "Плащане €{price} всеки месец"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Плащането не бе успешно, моля потвърдете данните за картата."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Обработва се {spinner}"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
