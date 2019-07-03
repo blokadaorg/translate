@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-02T16:57:20.756Z\n"
+"POT-Creation-Date: 2019-07-03T14:18:05.337Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -131,6 +131,13 @@ msgstr ""
 #. defaultMessage is:
 #. Pay €{price} each month
 msgid "Pay €{price} each month"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate_card_error] - Error displayed when card error is returned from payment processor
+#. defaultMessage is:
+#. Payment failed, please validate the card details.
+msgid "Payment failed, please validate the card details."
 msgstr ""
 
 #: build/messages/src/Checkout.json
