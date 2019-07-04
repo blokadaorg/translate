@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-02T16:57:20.756Z\n"
+"POT-Creation-Date: 2019-07-03T14:18:05.337Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,14 +13,14 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2019-07-02 17:07\n"
+"PO-Revision-Date: 2019-07-03 23:49\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/App.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "Layanan berlangganan baru bolh jadi diaktifkan setelah siklus langganan saat ini telah berakhir."
+msgstr "Layanan berlangganan baru bisa diaktifkan setelah siklus langganan saat ini telah berakhir."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -48,21 +48,21 @@ msgstr "Aktivasi dibatalkan"
 #. An error occured, please try later.
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Terjadi kesalahan, silakan coba kembali beberapa saat lagi."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
 #. defaultMessage is:
 #. Auto renew monthly
 #: build/messages/src/Checkout.json
 msgid "Auto renew monthly"
-msgstr ""
+msgstr "Perbarui otomatis setiap bulan"
 
 #. [account.subscription_price] - Price info above payment options
 #. defaultMessage is:
 #. Blokada VPN, €{price} per month
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN, €{price} per month"
-msgstr ""
+msgstr "Blokada VPN, €{price} per bulan"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Membatalkan {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "MENONAKTIFKAN"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -97,7 +97,7 @@ msgstr "Mengunduh informasi akun {spinner}"
 #. INACTIVE
 #: build/messages/src/App.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "TIDAK AKTIF"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -125,28 +125,35 @@ msgstr "Tidak ditemukan"
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Bayar dengan Kartu"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Bayar €{price}"
 
 #. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
-msgstr ""
+msgstr "Bayar €{price} setiap bulan"
+
+#. [account.activate_card_error] - Error displayed when card error is returned from payment processor
+#. defaultMessage is:
+#. Payment failed, please validate the card details.
+#: build/messages/src/Checkout.json
+msgid "Payment failed, please validate the card details."
+msgstr "Pembayaran gagal, harap periksa kembali data kartu Anda."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Sedang diproses {spinner}"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:

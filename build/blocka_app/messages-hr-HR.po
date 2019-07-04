@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-02T16:57:20.756Z\n"
+"POT-Creation-Date: 2019-07-03T14:18:05.337Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Croatian\n"
 "Language: hr_HR\n"
-"PO-Revision-Date: 2019-07-02 17:03\n"
+"PO-Revision-Date: 2019-07-03 14:47\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -139,6 +139,13 @@ msgstr ""
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
+msgstr ""
+
+#. [account.activate_card_error] - Error displayed when card error is returned from payment processor
+#. defaultMessage is:
+#. Payment failed, please validate the card details.
+#: build/messages/src/Checkout.json
+msgid "Payment failed, please validate the card details."
 msgstr ""
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
