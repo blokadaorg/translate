@@ -50,10 +50,27 @@
     <string name="menu_vpn_gateways_label">Seleziona uno dei gateway a cui connetterti. Il dispositivo invierà i tuoi dati crittografati in modo sicuro attraverso quel gateway, garantendo l\'anonimato.</string>
     <string name="menu_dns_recommended">Server DNS consigliati</string>
     <string name="menu_dns_intro">I DNS sono responsabili della connessione del tuo dispositivo ai siti web e alle applicazioni che usi. Scegliere dei buoni DNS può velocizzare il tuo dispositivo e aiuterà a proteggere la tua privacy.</string>
+    <string name="menu_dns_select">Per prima cosa, seleziona uno dei server DNS.</string>
+    <string name="menu_apps_intro">Alcune applicazioni potrebbero non funzionare correttamente con Blokada. Ad esempio, potrebbero avere problemi di connessione.\n\nL\'attivazione della VPN è spesso d\'aiuto in questi casi.\n\nAltrimenti, è possibile far eludere a queste app il controllo di Blokada. Ricorda, le app che eludono il controllo di Blokada comunicano al di fuori della VPN.</string>
+    <string name="menu_apps_system_label">Le app di sistema sono quelle preinstallate con il tuo dispositivo. Alcune di esse sono nascoste. Modificale solo se sai cosa stai facendo.</string>
+    <string name="menu_host_list_intro">Le liste degli host contengono regole per bloccare annunci e tracker. Cerca di mantenere basso il numero di liste attive.</string>
+    <string name="menu_host_list_settings">Impostazioni lista</string>
+    <string name="menu_host_list_status">Stato lista</string>
+    <string name="menu_host_list_download">Impostazioni download lista</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Altro</string>
+    <string name="menu_share_log_label">La condivisione del log ci permette di scoprire la ragione del tuo problema. Assicurati di inviarlo privatamente a uno dei membri dello staff di Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Scopri di più</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Conoscenza</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Partecipa</string>
+    <string name="menu_telegram">Canale Telegram</string>
+    <string name="menu_configure">Configura le funzioni di Blokada</string>
+    <string name="menu_exclude">Escludi le app che non funzionano correttamente</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Vai più a fondo</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Gestisci</string>
 </resources>
