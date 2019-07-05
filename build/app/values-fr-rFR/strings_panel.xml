@@ -52,9 +52,9 @@
     <string name="slot_intro_new_header">Comment utiliser la nouvelle interface graphique ?</string>
     <string name="slot_intro_desc">Vous êtes actuellement dans la section Accueil, glisser vers de la droite vers la gauche pour en voir plus. Chaque section possède un menu en bas de l\'écran, ouvrez-le en le faisant glisser vers le haut. &lt;br/&gt;&lt;br/&gt;Sur Android TV vous pouvez naviguer dans l\'interface avec le dpad. Utilisez la touche centrale pour ouvrir le menu du bas, ou tout élément que vous sélectionnez. Les boutons sont marqués par la flèche haut, bas, gauche ou droite ; utilisez les touches de direction pour les cliquer.</string>
     <string name="slot_intro_info">Psst... Certains éléments affichent un point d\'interrogation. Appuyez dessus pour afficher un message d\'aide court, comme celui-ci !</string>
-    <string name="slot_new_filter">Ajouter un nouvel hôte à la liste des éléments bloqués</string>
-    <string name="slot_new_filter_list">Ajouter une nouvelle liste d\'hôtes</string>
-    <string name="slot_new_filter_whitelist">Ajouter un nouvel hôte à la liste des éléments autorisés</string>
+    <string name="slot_new_filter">Ajouter un nouveau domaine à la liste des éléments bloqués</string>
+    <string name="slot_new_filter_list">Ajouter une nouvelle liste noire</string>
+    <string name="slot_new_filter_whitelist">Ajouter un nouveau domaine à la liste des éléments autorisés</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">non défini</string>
     <!-- A state of input form when correct input is entered  -->
@@ -72,7 +72,7 @@
     <string name="slot_enter_name_generate">Générer</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; est en liste blanche</string>
     <string name="slot_app_desc">Cette application est en liste blanche, ce qui signifie qu\'aucun blocage ou filtrage n\'est effectué sur elle.</string>
-    <string name="slot_allapp_desc">Vous pouvez faire en sorte que cette application contourne Blokada afin que ce dernier arrête de bloquer le trafic pour celle-ci. N\'oubliez pas que les applications autorisées à contourner Blokada communiquent en dehors du VPN.</string>
+    <string name="slot_allapp_desc">Vous pouvez faire en sorte que cette application contourne Blokada afin que cette dernière arrête de bloquer le trafic pour celle-ci. N\'oubliez pas que les applications autorisées à contourner Blokada communiquent en dehors du VPN.</string>
     <string name="slot_allapp_whitelisted">Autorisée à contourner</string>
     <string name="slot_allapp_normal">Non autorisée à contourner</string>
     <string name="slot_allapp_whitelist">Autoriser à contourner</string>
