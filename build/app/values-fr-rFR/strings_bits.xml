@@ -52,10 +52,25 @@
     <string name="menu_dns_intro">Votre DNS vous permet de vous connecter aux sites web que vous visitez. Un bon DNS peut donc permettre une accéléation du chargement des pages web et une meilleure protection de la vue privée.</string>
     <string name="menu_dns_select">Sélectionnez d\'abord un des serveurs DNS.</string>
     <string name="menu_apps_intro">Certaines applications peuvent ne pas fonctionner correctement avec Blokada. Par exemple, elles peuvent avoir des difficultés à se connecter.\n\nActiver le VPN peut résoudre ces problèmes.\n\nDans le cas contraire, vous pouvez autoriser les applications à contourner le filtrage effectué par Blokada. Rappelez-vous que les applications qui contournent Blokada communiquent en dehors du VPN.</string>
+    <string name="menu_apps_system_label">Les applications système sont celles qui sont pré-installées sur votre appareil. Certaines d\'entre-elles sont cachées. Modifiez uniquement celles-ci si vous savez ce que vous êtes en train de faire.</string>
+    <string name="menu_host_list_intro">Les listes d\'hôtes contiennent des règles pour bloquer les publicités et les trackers. Essayez de maintenir un nombre de listes actives assez bas.</string>
+    <string name="menu_host_list_settings">Paramètres de liste</string>
+    <string name="menu_host_list_status">Statut de la liste</string>
+    <string name="menu_host_list_download">Paramètre de téléchargement de la liste</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Autre</string>
+    <string name="menu_share_log_label">Le partage de log nous permet de découvrir la raison de votre problème. Assurez-vous de l\'envoyer en privé à un des membres de l\'équipe de base de Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">En savoir plus</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Connaissances</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Impliquez-vous</string>
+    <string name="menu_telegram">Chat Telegram</string>
+    <string name="menu_configure">Configurer les fonctionnalités de Blokada</string>
+    <string name="menu_exclude">Exclure les applications qui ne fonctionnent pas correctement</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Aller plus loin</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Gérer</string>
 </resources>
