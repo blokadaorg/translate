@@ -11,13 +11,45 @@
     <string name="home_requests_blocked">richieste bloccate</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Condividi</string>
+    <string name="home_adblocking_enabled">Blocco pubblicità abilitato</string>
+    <string name="home_adblocking_disabled">Blocco pubblicità disabilitato</string>
     <!-- A short text for the item that displays update information -->
+    <string name="home_whats_new">Cosa c\'è di nuovo?</string>
+    <string name="home_update_required">Aggiornamento necessario</string>
     <!-- A short text for the item that displays donate link -->
+    <string name="home_donate">Dona</string>
+    <string name="home_vpn_enabled">La VPN è abilitata</string>
+    <string name="home_vpn_disabled">La VPN è disabilitata</string>
+    <string name="home_account_active">il tuo account è ancora attivo</string>
+    <string name="home_connecting_vpn">Connessione alla VPN</string>
+    <string name="home_cleanup">È raccomandata una pulizia</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_change_vpn">Cambia</string>
+    <string name="home_connected_vpn">connesso alla VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
+    <string name="menu_ads">Pubblicità</string>
+    <string name="menu_ads_live_label">Cronologia live delle richieste consentite e bloccate</string>
+    <string name="menu_ads_turn_on">Attiva o disattiva il blocco pubblicità.</string>
+    <string name="menu_ads_lists_label">Seleziona le liste da utilizzare per il blocco. I valori predefiniti sono validi per la maggior parte delle persone.</string>
+    <string name="menu_ads_rules_label">Aggiungi le tue regole per perfezionare il blocco.</string>
+    <string name="menu_ads_log_label">Guarda cosa è stato bloccato o permesso di recente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn_activate_account">Per favore, anzitutto attiva il tuo account.</string>
+    <string name="menu_vpn_select_gateway">Per favore, seleziona un gateway.</string>
+    <string name="menu_vpn_intro_button">Perché una VPN?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Account</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Gateway</string>
+    <string name="menu_vpn_manage_subscription">Gestisci il tuo abbonamento qui:</string>
+    <string name="menu_vpn_account_secret">L\'ID del tuo account è segreto e dovresti tenerlo per te. Annotalo in caso di disinstallazione dell\'app.</string>
+    <string name="menu_vpn_restore_label">Qui puoi ripristinare il tuo account esistente se, ad esempio, hai installato di nuovo l\'app.</string>
+    <string name="menu_vpn_intro">Con una VPN i tuoi dati sono crittografati, il tuo indirizzo IP è nascosto e la tua geolocalizzazione è modificata.</string>
+    <string name="menu_vpn_account_label">Per poter utilizzare la VPN, è necessario un account attivo. Controlla o ripristina il tuo account qui.</string>
+    <string name="menu_vpn_gateways_label">Seleziona uno dei gateway a cui connetterti. Il dispositivo invierà i tuoi dati crittografati in modo sicuro attraverso quel gateway, garantendo l\'anonimato.</string>
+    <string name="menu_dns_recommended">Server DNS consigliati</string>
+    <string name="menu_dns_intro">I DNS sono responsabili della connessione del tuo dispositivo ai siti web e alle applicazioni che usi. Scegliere dei buoni DNS può velocizzare il tuo dispositivo e aiuterà a proteggere la tua privacy.</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
