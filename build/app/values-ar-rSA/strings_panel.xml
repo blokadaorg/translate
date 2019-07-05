@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">الرئيسيَّة</string>
+    <string name="panel_section_menu">القائمة</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">حَظْر الإعلانات</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">تسجيل المُستَضيف</string>
     <string name="panel_section_ads_blacklist">المُستَضيفين المحظورين</string>
     <string name="panel_section_ads_whitelist">المُستَضيفين المسموحين</string>
+    <string name="panel_section_advanced_dns">نظام أسماء النطاقات (DNS)</string>
     <string name="panel_section_apps_all">التطبيقات المُثبَّتة</string>
     <string name="panel_section_apps_system">تطبيقات النظام</string>
+    <string name="panel_section_advanced_settings">الإعدادات</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; مسموح</string>
     <string name="panel_domain_forwarded_desc">تم السماح لهذا الموقع.  لحَظٰرِه ، استخدم الزرّ أدناه.</string>
@@ -49,6 +52,9 @@
     <string name="slot_intro_new_header">كيف تستخدام واجهة المُستخدِم الجديدة؟</string>
     <string name="slot_intro_desc">أنت حاليّاً في قسم \"الصفحة الرئيسية\" ، سوف تَجِد المزيد إذا قمت بالسحب لليسار. كلّ واحد منهم له قائمة سُفليّة خاصّة - يَتِم فتحه عن طريق السحب للأعلى. &lt;br/&gt;&lt;br/&gt;على Android TV ، يُمكِنُك الإنتقال إلى واجهة المُستخدِم باستخدام دي باد. إستَخدِم المفتاح الأوسط لفتح القائمة السُفليِّة ، أو أي عنصر تَختاره. تتميّز الأزرار بالسهم لأعلى أو لأسفل أو لليسار أو لليمين - إستخدِم مفاتيح الإتجاه للنقر عليها.</string>
     <string name="slot_intro_info">معلومة... تحتوي بعض العناصر على رمز علامة الإستفهام عليها. النقر فوقها سيعرض رسالة مساعدة قصيرة ، مثل هذه الرسالة!</string>
+    <string name="slot_new_filter">إضافة مُستَضيف جديد إلى القائمة المحظورة</string>
+    <string name="slot_new_filter_list">أضافة قائمة مُستَضيفين جديدة</string>
+    <string name="slot_new_filter_whitelist">إضافة مُستَضيف جديد إلى قائمة المسموحين</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">غير مُثَبَّت</string>
     <!-- A state of input form when correct input is entered  -->
