@@ -77,6 +77,7 @@
     <string name="slot_allapp_normal">غَير مُتجاوِز</string>
     <string name="slot_allapp_whitelist">تَجاوز</string>
     <string name="slot_dns_name">%s مُفَعَّل</string>
+    <string name="slot_dns_name_disabled">الـ DNS المُخَصَّص مُعَطَّل</string>
     <string name="slot_dns_dns">يُمكِنك تغيير الخَوادِم الحاليّة باستخدام القائمة السفلية.</string>
     <string name="slot_action_none">هذا الإجراء غير مُتاح حتّى الآن.</string>
     <string name="slot_action_facts">حقائق</string>
@@ -122,7 +123,10 @@
     <string name="slot_dropped_counter">عدّاد النطاقات المحظورة</string>
     <string name="slot_dropped_counter_info">يعرض هذا العدّاد عدد النطاقات التي تمَّ حظرها منذ تثبيت التطبيق.</string>
     <string name="slot_dropped_action_clear">إعادة ضبط العدّاد</string>
+    <string name="slot_notifications_title">الإشعارات هي %s</string>
     <string name="slot_notifications_desc">يمكنك تشغيل الإشعارات أو إيقاف تشغيلها هنا. تذكّر أنه في بعض الأجهزة ، سيعرض Android إشعار VPN منفصل لا يمكن إلغاء ظهوره.</string>
+    <string name="slot_notifications_enabled">الإشعارات مُفَعَّلة</string>
+    <string name="slot_notifications_disabled">الإشعارات مُعَطَّلة</string>
     <string name="slot_update_action_refresh">تحقَّق مرّة أُخرى</string>
     <string name="slot_telegram_title">إنضم إلينا في Telegram!</string>
     <string name="slot_telegram_desc">تفضل بزيارة مجموعتنا على Telegram للحصول على المساعدة أو لمجرّد أن تكون جزء من مجتمعنا.</string>
@@ -134,12 +138,15 @@
     <string name="slot_adblocking_label">حظر الإعلانات &amp; المُتَعقِّبين</string>
     <string name="slot_adblocking_text">عند التمكين ، سيَمنع بلوكادا الإعلانات و التتبُّع و المحتويات الأخرى غير المرغوب فيها. يساعد ذلك في حماية خصوصيّتك و تسريع جهازك و حفظ بياناتك.</string>
     <string name="slot_blocka_label">حساب Blokada VPN</string>
+    <string name="slot_account_label_active">الحساب صالح لغاية %s</string>
+    <string name="slot_account_label_inactive">الحساب غير نَشِط</string>
     <string name="slot_account_text_account">مُعرِّف حسابك هو &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_info">يجب عليك الحفاظ على سرية مُعرِّف حسابك - إنّه مطلوب لإستعادة حسابك في حالة إزالة تثبيت التطبيق. سيتم تمديد اشتراكك تلقائيّاً ما لم تلغيه.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">إدارة الحساب</string>
     <string name="slot_account_action_manage_inactive">تفعيل الحساب</string>
     <string name="slot_account_action_change_id">إستعادة الحساب</string>
+    <string name="slot_account_show">مُعَرِّف الحساب</string>
     <string name="slot_account_action_copy">نسخ مُعرِّف الحساب</string>
     <string name="slot_account_action_copied">تمَّ نسخ مُعرِّف الحساب إلى الحافظة</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -184,6 +191,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">المساعدة</string>
     <string name="slot_donate_label">مُتستمتِع باستخدام بلوكادا؟ فكِّر في دعمنا ، حتى نتمكّن من الإستمرار في تحسين التطبيق.</string>
+    <string name="slot_donate_desc">مانع الإعلانات بلوكادا هو مجّاني و مفتوح المصدر ، و نحن نريد إبقاءه على هذا النحو. تبرّعاتك تساعدنا على مواصلة تطوير التطبيق و تقديم ميِّزات جديدة ترغب في رؤيتها كثيراً. إضغط هنا لقراءة المزيد. شكراً لكم!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">تبرع</string>
     <string name="slot_cta_label">معلومة! نَودّ أن نعرف رأيك.</string>
