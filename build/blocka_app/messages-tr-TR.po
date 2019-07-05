@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-07-05 00:12\n"
+"PO-Revision-Date: 2019-07-05 00:22\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -62,7 +62,7 @@ msgstr "Aylık otomatik yenile"
 #. Blokada VPN, €{price} per month
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN, €{price} per month"
-msgstr "Blokada VPN, aylık €{fiyat}"
+msgstr "Blokada VPN, aylık €{price}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "İptal ediliyor {spinner}"
 #. DEACTIVATING
 #: build/messages/src/App.json
 msgid "DEACTIVATING"
-msgstr "DEAKTİVE"
+msgstr "AKTİF DEĞİL"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -125,35 +125,35 @@ msgstr "Bulunamadı"
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Kartla öde"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "€{price} ödeyin"
 
 #. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each month
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each month"
-msgstr ""
+msgstr "Her ay €{price} ödeyin"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Ödeme başarısız oldu, lütfen kart ayrıntılarını doğrulayın."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "{spinner} işleniyor"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
