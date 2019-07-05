@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Inici</string>
+    <string name="panel_section_menu">Menú</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Bloqueig d\'anuncis</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Registre de servidors</string>
     <string name="panel_section_ads_blacklist">Servidors bloquejats</string>
     <string name="panel_section_ads_whitelist">Servidors permesos</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Aplicacions instal·lades</string>
     <string name="panel_section_apps_system">Aplicacions del sistema</string>
+    <string name="panel_section_advanced_settings">Configuració</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; permès</string>
     <string name="panel_domain_forwarded_desc">Aquest domini s\'ha permès. Per bloquejar-lo, utilitzeu el botó de sota.</string>
@@ -129,6 +132,7 @@
     <string name="slot_account_action_manage">Gestiona</string>
     <string name="slot_account_action_manage_inactive">Activa el compte</string>
     <string name="slot_account_action_change_id">Restaura el compte</string>
+    <string name="slot_account_show">ID del compte</string>
     <string name="slot_account_action_copy">Copia l\'ID del compte</string>
     <string name="slot_account_action_copied">L\'ID del compte s\'ha copiat al porta-retalls</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
