@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Start</string>
+    <string name="panel_section_menu">Menü</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Werbeblocker</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Host-Log</string>
     <string name="panel_section_ads_blacklist">Blockierte Hosts</string>
     <string name="panel_section_ads_whitelist">Erlaubte Hosts</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Installierte Apps</string>
     <string name="panel_section_apps_system">System-Apps</string>
+    <string name="panel_section_advanced_settings">Einstellungen</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; zugelassen</string>
     <string name="panel_domain_forwarded_desc">Diese Domain wurde zugelassen. Um sie zu blockieren, benutze den Button unten.</string>
@@ -49,6 +52,8 @@
     <string name="slot_intro_new_header">Wie benutzt man die neue Benutzeroberfläche?</string>
     <string name="slot_intro_desc">Du befindest dich derzeit auf der Startseite, du findest weitere, wenn du nach rechts wischst. Jede von ihnen besitzt ihr eigenes Menü am unteren Bildschirmrand - öffne es, indem du nach oben streichst. &lt;br/&gt;&lt;br/&gt;Navigiere auf einem Android-TV mit dem Dpad durch die Benutzeroberfläche. Verwende die zentrale Taste, um das untere Menü oder das des jeweiligen ausgewählten Objekts zu öffnen. Die Schaltflächen sind mit einem Pfeil nach oben, unten, links oder rechts gekennzeichnet - verwende die Richtungstasten, um sie anzuklicken.</string>
     <string name="slot_intro_info">Psst... Einige Objekte tragen ein Fragezeichen. Beim Daraufdrücken wird eine kurze Hilfe angezeigt, ähnlich wie diese!</string>
+    <string name="slot_new_filter">Neuen Host zur Sperrliste hinzufügen</string>
+    <string name="slot_new_filter_list">Neue Hostliste hinzufügen</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">zurücksetzen</string>
     <!-- A state of input form when correct input is entered  -->
