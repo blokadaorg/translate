@@ -6,21 +6,53 @@
     <string name="home_blokada_disabled">Blokada ist deaktiviert</string>
     <string name="home_activating">Aktivierung</string>
     <string name="home_please_wait">Bitte warten...</string>
+    <string name="home_vpn_only">Nur VPN-Modus</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">blockierte Anfragen</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Teilen</string>
+    <string name="home_adblocking_enabled">Blockierung ist aktiviert</string>
+    <string name="home_adblocking_disabled">Blockierung ist deaktiviert</string>
     <!-- A short text for the item that displays update information -->
+    <string name="home_whats_new">Was gibt\'s Neues?</string>
+    <string name="home_update_required">Aktualisierung erforderlich</string>
     <!-- A short text for the item that displays donate link -->
+    <string name="home_donate">Spenden</string>
+    <string name="home_vpn_enabled">VPN ist aktiviert</string>
+    <string name="home_vpn_disabled">VPN ist deaktiviert</string>
+    <string name="home_account_active">Dein Konto ist noch aktiv</string>
+    <string name="home_connecting_vpn">Verbinde mit VPN</string>
+    <string name="home_cleanup">Bereinigung empfohlen</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_change_vpn">Wechsel</string>
+    <string name="home_connected_vpn">mit VPN verbunden</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
+    <string name="menu_ads">Anzeigen</string>
+    <string name="menu_ads_live_label">Live-Verlauf von erlaubten und blockierten Anfragen</string>
+    <string name="menu_ads_turn_on">Schalte die Blockierung ein oder aus.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn_activate_account">Bitte aktiviere zuerst dein Konto.</string>
+    <string name="menu_vpn_intro_button">Warum VPN?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Benutzerkonto</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_dns_select">Wähle zuerst einen der DNS-Server.</string>
+    <string name="menu_host_list_settings">Listeneinstellungen</string>
+    <string name="menu_host_list_status">Listenstatus</string>
+    <string name="menu_host_list_download">Download-Einstellungen auflisten</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Andere</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Mehr erfahren</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Wissenswertes</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Mach mit</string>
+    <string name="menu_telegram">Telegram-Chat</string>
+    <string name="menu_configure">Blokada-Funktionen konfigurieren</string>
+    <string name="menu_exclude">Apps ausschließen, die nicht korrekt funktionieren</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
 </resources>
