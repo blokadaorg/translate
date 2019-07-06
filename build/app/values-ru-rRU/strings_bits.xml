@@ -47,6 +47,9 @@
     <string name="menu_vpn_restore_label">Здесь вы можете восстановить существующую учетную запись, если, например, вы переустановили приложение.</string>
     <string name="menu_vpn_intro">Через VPN передаваемые данные зашифрованы, IP-адрес и местоположение изменены.</string>
     <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет безопасно передавать ваши зашифрованные данные через этот шлюз, и вы станете анонимным.</string>
+    <string name="menu_dns_intro">DNS отвечает за подключение устройства к веб-сайтам и приложениям, которые вы используете. Выбор хорошего DNS может ускорить работу вашего устройства и поможет защитить конфиденциальность.</string>
+    <string name="menu_dns_select">Сначала выберите один из DNS-серверов.</string>
+    <string name="menu_host_list_intro">Списки хостов содержат правила для блокировки объявлений и трекеров. Постарайтесь, чтобы количество активных списков оставалось небольшим.</string>
     <string name="menu_host_list_settings">Настройки списка</string>
     <string name="menu_host_list_status">Статус списка</string>
     <string name="menu_host_list_download">Настройки загрузки списка</string>
@@ -59,5 +62,7 @@
     <string name="menu_get_involved">Присоединиться</string>
     <string name="menu_telegram">Чат в Telegram</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Погрузиться глубже</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Управление</string>
 </resources>
