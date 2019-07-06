@@ -3,16 +3,35 @@
 <resources>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <!-- A button to share the ads counter on social media -->
+    <string name="home_share">Поделиться</string>
+    <string name="home_adblocking_enabled">Блокировка рекламы включена</string>
+    <string name="home_adblocking_disabled">Блокировка рекламы отключена</string>
     <!-- A short text for the item that displays update information -->
+    <string name="home_whats_new">Что нового?</string>
+    <string name="home_update_required">Требуется обновление</string>
     <!-- A short text for the item that displays donate link -->
+    <string name="home_donate">Пожертвовать</string>
+    <string name="home_vpn_enabled">VPN включен</string>
+    <string name="home_vpn_disabled">VPN отключен</string>
+    <string name="home_account_active">ваш аккаунт все еще активен</string>
+    <string name="home_connecting_vpn">Подключение к VPN</string>
+    <string name="home_cleanup">Рекомендуется очистка</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_change_vpn">Изменить</string>
+    <string name="home_connected_vpn">подключено к VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
+    <string name="menu_ads">Реклама</string>
     <string name="menu_ads_live_label">Живая история разрешенных и заблокированных запросов</string>
     <string name="menu_ads_log_label">Посмотрите, что недавно было заблокировано или разрешено.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn_select_gateway">Пожалуйста, выберите шлюз.</string>
+    <string name="menu_vpn_intro_button">Почему VPN?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Аккаунт</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Шлюзы</string>
+    <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет безопасно передавать ваши зашифрованные данные через этот шлюз, и вы станете анонимным.</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
