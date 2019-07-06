@@ -76,6 +76,7 @@
     <string name="slot_allapp_normal">未繞過</string>
     <string name="slot_allapp_whitelist">繞過</string>
     <string name="slot_dns_name">已啟用 %s</string>
+    <string name="slot_dns_name_disabled">已停用自訂 DNS</string>
     <string name="slot_dns_dns">您可使用底部選單來變更目前伺服器。</string>
     <string name="slot_action_none">這個動作尚未支援。</string>
     <string name="slot_action_facts">事實</string>
@@ -121,7 +122,10 @@
     <string name="slot_dropped_counter">已阻擋網域計數器</string>
     <string name="slot_dropped_counter_info">這個計數器顯示自安裝 App 以來被封鎖的網域數。</string>
     <string name="slot_dropped_action_clear">重設計數器</string>
+    <string name="slot_notifications_title">通知已 %s</string>
     <string name="slot_notifications_desc">您可以在此將通知開啟或關閉。請記住，在某些裝置上，Android 將會顯示一個無法關閉的 VPN 通知。</string>
+    <string name="slot_notifications_enabled">通知已啟用</string>
+    <string name="slot_notifications_disabled">通知已停用</string>
     <string name="slot_update_action_refresh">再次檢查</string>
     <string name="slot_telegram_title">在 Telegram 加入我們！</string>
     <string name="slot_telegram_desc">造訪我們的 Telegram 頻道來取得協助，或是成為我們社群的一份子。</string>
@@ -133,12 +137,15 @@
     <string name="slot_adblocking_label">阻擋廣告與追蹤器</string>
     <string name="slot_adblocking_text">啟用後，Blokada 將會阻擋廣告、追蹤器，以及其他任何您不想要的內容。這協助您來保護您的隱私、加速您的裝置並且節省您的數據流量。</string>
     <string name="slot_blocka_label">Blokada VPN 帳號</string>
+    <string name="slot_account_label_active">帳號直到 %s 前皆為啟用狀態</string>
+    <string name="slot_account_label_inactive">帳號未啟用</string>
     <string name="slot_account_text_account">您的帳號 ID 為 &lt;b&gt;%s&lt;/b&gt;。</string>
     <string name="slot_account_info">您不應讓您的帳號 ID 外洩，它在您解除安裝後要復原帳號時是必要的。除非您手動取消，否則您的訂閱將會自動延長。</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">管理</string>
     <string name="slot_account_action_manage_inactive">啟用帳號</string>
     <string name="slot_account_action_change_id">恢復帳號</string>
+    <string name="slot_account_show">帳號 ID</string>
     <string name="slot_account_action_copy">複製帳號 ID</string>
     <string name="slot_account_action_copied">帳號 ID 已複製至剪貼簿上</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -194,6 +201,7 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">開啟</string>
     <string name="slot_updated_label">Blokada 已經更新！</string>
+    <string name="slot_updated_desc">Blokada 找到新更新！點選這裡以取得此次更新的額外資訊。</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">更多</string>
     <string name="slot_obsolete_label">需要行動：這個版本已經過時！</string>
