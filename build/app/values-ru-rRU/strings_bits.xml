@@ -46,7 +46,9 @@
     <string name="menu_vpn_account_secret">ID вашего аккаунта необходимо хранить в тайне. Запишите его на случай перустановки приложения.</string>
     <string name="menu_vpn_restore_label">Здесь вы можете восстановить существующую учетную запись, если, например, вы переустановили приложение.</string>
     <string name="menu_vpn_intro">Через VPN передаваемые данные зашифрованы, IP-адрес и местоположение изменены.</string>
+    <string name="menu_vpn_account_label">Для того, чтобы использовать VPN, вам нужна активная учетная запись. Проверьте или восстановите свой аккаунт здесь.</string>
     <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет безопасно передавать ваши зашифрованные данные через этот шлюз, и вы станете анонимным.</string>
+    <string name="menu_dns_recommended">Рекомендуемые DNS-серверы</string>
     <string name="menu_dns_intro">DNS отвечает за подключение устройства к веб-сайтам и приложениям, которые вы используете. Выбор хорошего DNS может ускорить работу вашего устройства и поможет защитить конфиденциальность.</string>
     <string name="menu_dns_select">Сначала выберите один из DNS-серверов.</string>
     <string name="menu_host_list_intro">Списки хостов содержат правила для блокировки объявлений и трекеров. Постарайтесь, чтобы количество активных списков оставалось небольшим.</string>
@@ -55,12 +57,16 @@
     <string name="menu_host_list_download">Настройки загрузки списка</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Дополнительно</string>
+    <string name="menu_share_log_label">Отправка журнала позволит нам выяснить причину вашей проблемы. Убедитесь, что отправили его лично одному из членов основной команды Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Подробнее</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">База знаний</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Присоединиться</string>
     <string name="menu_telegram">Чат в Telegram</string>
+    <string name="menu_configure">Настройка параметров Blokada</string>
+    <string name="menu_exclude">Исключить приложения, которые работают неправильно</string>
     <!-- A section in menu for additional buttons  -->
     <string name="menu_dive_in">Погрузиться глубже</string>
     <!-- A section to manage some settings (generic)  -->
