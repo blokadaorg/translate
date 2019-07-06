@@ -30,6 +30,8 @@
     <string name="menu_ads">Anzeigen</string>
     <string name="menu_ads_live_label">Live-Verlauf von erlaubten und blockierten Anfragen</string>
     <string name="menu_ads_turn_on">Schalte die Blockierung ein oder aus.</string>
+    <string name="menu_ads_lists_label">Listen wählen, die zum Blockieren verwendet werden. Die Standardwerte sind für die meisten Leute ausreichend.</string>
+    <string name="menu_ads_rules_label">Eigene Regeln zur Feinabstimmung der Blockade hinzufügen.</string>
     <string name="menu_ads_log_label">Ansehen, was zuletzt blockiert oder zugelassen wurde.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">VPN</string>
@@ -57,6 +59,7 @@
     <string name="menu_host_list_download">Download-Einstellungen auflisten</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Andere</string>
+    <string name="menu_share_log_label">Das Teilen von Protokolldaten ermöglicht es uns, den Grund für dein Problem zu ermitteln. Achte darauf, sie privat an eines der Mitglieder des Blokada-Kernteams zu senden.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Mehr erfahren</string>
     <!-- A section informational content in menu -->
@@ -67,5 +70,7 @@
     <string name="menu_configure">Blokada-Funktionen konfigurieren</string>
     <string name="menu_exclude">Apps ausschließen, die nicht korrekt funktionieren</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Tiefer einsteigen</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Verwalten</string>
 </resources>
