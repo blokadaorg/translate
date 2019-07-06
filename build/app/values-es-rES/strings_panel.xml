@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Inicio</string>
+    <string name="panel_section_menu">Menú</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Bloqueo de anuncios</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Registro de Hosts</string>
     <string name="panel_section_ads_blacklist">Hosts bloqueados</string>
     <string name="panel_section_ads_whitelist">Hosts permitidos</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Aplicaciones Instaladas</string>
     <string name="panel_section_apps_system">Aplicaciones del Sistema</string>
+    <string name="panel_section_advanced_settings">Configuración</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Permitido &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Este dominio ha sido permitido. Para bloquearlo, utiliza el botón de abajo.</string>
