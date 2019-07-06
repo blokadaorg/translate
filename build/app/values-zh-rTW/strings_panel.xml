@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">首頁</string>
+    <string name="panel_section_menu">選單</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">廣告封鎖</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">主機記錄</string>
     <string name="panel_section_ads_blacklist">已封鎖主機</string>
     <string name="panel_section_ads_whitelist">已允許主機</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">已安裝的應用程式</string>
     <string name="panel_section_apps_system">系統應用程式</string>
+    <string name="panel_section_advanced_settings">設定</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">已允許 &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">已允許此網域。若要封鎖，請使用下方的按鈕。</string>
@@ -49,6 +52,9 @@
     <string name="slot_intro_new_header">如何使用新的介面?</string>
     <string name="slot_intro_desc">您目前在首頁區塊，如果您向右滑可以看到更多東西。每個選項都有下層選單，往上滑以開啟。&lt;br/&gt;&lt;br/&gt;在 Android TV 上，使用 dpad 選擇使用者介面。使用中鍵以開啟下層選單，或是任何您選項的項目。按鈕會以上、下、左、右箭頭指示，使用方向鍵來點擊它們。</string>
     <string name="slot_intro_info">嘿！有些項目上會有問號圖示。輕點它會顯示簡短的說明訊息，就像這個一樣！</string>
+    <string name="slot_new_filter">將新主機新增至阻擋列表</string>
+    <string name="slot_new_filter_list">新增主機列表</string>
+    <string name="slot_new_filter_whitelist">將主機新增至允許列表</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">取消設定</string>
     <!-- A state of input form when correct input is entered  -->
@@ -66,6 +72,10 @@
     <string name="slot_enter_name_generate">建立</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 已列入白名單</string>
     <string name="slot_app_desc">此應用程式已在白名單內，這代表了不會對其阻擋或過濾。</string>
+    <string name="slot_allapp_whitelisted">已繞過</string>
+    <string name="slot_allapp_normal">未繞過</string>
+    <string name="slot_allapp_whitelist">繞過</string>
+    <string name="slot_dns_name">已啟用 %s</string>
     <string name="slot_dns_dns">您可使用底部選單來變更目前伺服器。</string>
     <string name="slot_action_none">這個動作尚未支援。</string>
     <string name="slot_action_facts">事實</string>
