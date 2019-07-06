@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Домой</string>
+    <string name="panel_section_menu">Меню</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Блокировка рекламы</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Журнал хоста</string>
     <string name="panel_section_ads_blacklist">Заблокированные хосты</string>
     <string name="panel_section_ads_whitelist">Разрешенные хосты</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Инсталлированные приложения</string>
     <string name="panel_section_apps_system">Системные приложения</string>
+    <string name="panel_section_advanced_settings">Настройки</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Разрешен &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Этот домен был разрешен. Чтобы заблокировать его, используйте кнопку ниже.</string>
@@ -49,6 +52,9 @@
     <string name="slot_intro_new_header">Как использовать новый интерфейс?</string>
     <string name="slot_intro_desc">Вы находитесь в домашнем разделе. Можно провести пальцем вправо, но это еще не все. Каждый раздел имеет свое нижнее меню - откройте его, проведя вверх. &lt;br/&gt;&lt;br/&gt;На Android TV перемещайтесь по интерфейсу с помощью клавиш навигации. Используйте центральную клавишу, чтобы открыть нижнее меню, или любой другой элемент, который вы выберете. Кнопки отмечены стрелками вверх, вниз, влево или вправо - используйте клавиши со стрелками для их нажатия.</string>
     <string name="slot_intro_info">Опа... Некоторые элементы могут иметь значок с вопросительным знаком. Нажав на него, вы увидите короткое справочное сообщение, подобное этому!</string>
+    <string name="slot_new_filter">Добавить новый хост в черный список</string>
+    <string name="slot_new_filter_list">Добавить новый список хостов</string>
+    <string name="slot_new_filter_whitelist">Добавить новый хост в список разрешенных</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">не задано</string>
     <!-- A state of input form when correct input is entered  -->
