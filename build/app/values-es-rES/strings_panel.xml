@@ -52,6 +52,9 @@
     <string name="slot_intro_new_header">¿Cómo utilizar la nueva interfaz?</string>
     <string name="slot_intro_desc">Actualmente estás en la sección de Inicio, hay más si deslizas hacia a la derecha. Cada sección tiene su propio menú inferior - ábrelo deslizando hacia arriba. &lt;br/&gt;&lt;br/&gt;En Android TV, navega por la interfaz con el D-pad. Utiliza la tecla central para abrir el menú inferior o cualquier ítem que selecciones. Los botones están marcados con la flecha hacia arriba, abajo, izquierda o derecha - utiliza las teclas de dirección para hacer clic en ellos.</string>
     <string name="slot_intro_info">Psst... Algunos ítems tienen el icono de signo de interrogación en ellos. ¡Tocándolo mostrará un mensaje de ayuda corto, como este!</string>
+    <string name="slot_new_filter">Añadir un nuevo host a la lista de bloqueados</string>
+    <string name="slot_new_filter_list">Añadir una nueva lista de hosts</string>
+    <string name="slot_new_filter_whitelist">Añadir un nuevo host a la lista de permitidos</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">sin definir</string>
     <!-- A state of input form when correct input is entered  -->
@@ -69,6 +72,10 @@
     <string name="slot_enter_name_generate">Generar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está en la lista blanca</string>
     <string name="slot_app_desc">Esta aplicación está en la lista blanca, lo cual significa que ningún bloqueo o filtrado es realizado en ella.</string>
+    <string name="slot_allapp_desc">Puedes hacer que esta aplicación eluda Blokada para dejar de bloquear trafico para ella. Recuerda que aplicaciones omitidas se comunican fuera del VPN.</string>
+    <string name="slot_allapp_whitelisted">Omitida</string>
+    <string name="slot_allapp_normal">No omitida</string>
+    <string name="slot_dns_name">%s está activado</string>
     <string name="slot_dns_dns">Puedes cambiar los servidores actuales usando el menú inferior.</string>
     <string name="slot_action_none">Esta acción no está disponible aún.</string>
     <string name="slot_action_facts">Datos</string>
