@@ -29,9 +29,24 @@
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Anuncios</string>
     <string name="menu_ads_live_label">Historial en vivo de peticiones permitidas y bloqueadas</string>
+    <string name="menu_ads_turn_on">Activar o desactivar el bloqueo de anuncios.</string>
+    <string name="menu_ads_lists_label">Seleccione las listas a usar para el bloqueo. Los valores por defecto están bien para la mayoría de las personas.</string>
+    <string name="menu_ads_rules_label">Añade tus propias reglas para afinar el bloqueo.</string>
+    <string name="menu_ads_log_label">Ve que ha sido bloqueado o permitido recientemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn_activate_account">Por favor, primero activa tu cuenta.</string>
+    <string name="menu_vpn_select_gateway">Por favor, selecciona una puerta de enlace.</string>
+    <string name="menu_vpn_intro_button">¿Por qué un VPN?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Cuenta</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Puertas de enlace</string>
+    <string name="menu_vpn_manage_subscription">Gestiona la suscripción de tu cuenta aquí:</string>
+    <string name="menu_vpn_account_secret">Tu ID de cuenta es secreto y deberías mantenerlo para ti mismo. Anótalo en caso de que desinstales la aplicación.</string>
+    <string name="menu_vpn_restore_label">Aquí puedes restaurar tu cuenta existente si, por ejemplo, reinstalaste la aplicación.</string>
+    <string name="menu_vpn_intro">Con un VPN tus datos son encriptados, tu dirección IP se oculta y tu ubicación se cambia.</string>
+    <string name="menu_vpn_account_label">Para usar el VPN necesitas una cuenta activa. Revisa o restaura tu cuenta aquí.</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
