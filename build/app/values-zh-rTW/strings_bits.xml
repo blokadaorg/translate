@@ -30,6 +30,7 @@
     <string name="menu_ads">廣告</string>
     <string name="menu_ads_live_label">已允許及已阻擋請求的即時記錄</string>
     <string name="menu_ads_turn_on">開關廣告封鎖功能。</string>
+    <string name="menu_ads_lists_label">選取要用於阻擋的清單。預設值應該對大多數人來說都夠好用了。</string>
     <string name="menu_ads_rules_label">可以藉由新增自己的列表來微調封鎖。</string>
     <string name="menu_ads_log_label">檢視最近被封鎖或允許的項目。</string>
     <!-- VPN section header in menu (for configuring VPN) -->
@@ -42,6 +43,8 @@
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">閘道</string>
     <string name="menu_vpn_manage_subscription">請在此處管理帳號訂閱：</string>
+    <string name="menu_vpn_account_secret">您的帳號 ID 是您應該自行守好的祕密。如果您要解除安裝應用程式，請先記下來。</string>
+    <string name="menu_vpn_restore_label">舉例來說，如果您重新安裝應用程式，就可以在此將您既有的帳號復原。</string>
     <string name="menu_dns_recommended">建議 DNS 伺服器</string>
     <string name="menu_dns_select">請先選取任一 DNS 伺服器。</string>
     <string name="menu_host_list_settings">列表設定</string>
