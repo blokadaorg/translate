@@ -123,6 +123,7 @@
     <string name="slot_dropped_action_clear">Нулиране на брояча</string>
     <string name="slot_notifications_title">Известията са %s</string>
     <string name="slot_notifications_desc">Можете да включите или изключите известията от тук. Не забравяйте, че на някои устройства с Android ще покаже отделно известие за VPN, което не може да бъде изключено.</string>
+    <string name="slot_notifications_enabled">Известията са активни</string>
     <string name="slot_update_action_refresh">Провери отново</string>
     <string name="slot_telegram_title">Присъединете се към нас в Telegram!</string>
     <string name="slot_telegram_desc">Посетете нашия канал за помощ в Telegram, или просто станете част от нашата общност.</string>
@@ -134,12 +135,15 @@
     <string name="slot_adblocking_label">Блокиране на реклами &amp; тракери</string>
     <string name="slot_adblocking_text">Когато е активирана Blokada ще блокира реклами, тракери и друго нежелано съдържание. Това помага да защитите личните си данни, да ускорите устройството си и да запазите данните си.</string>
     <string name="slot_blocka_label">Blokada VPN Профил</string>
+    <string name="slot_account_label_active">Профилът е валиден до %s</string>
+    <string name="slot_account_label_inactive">Профилът е неактивен</string>
     <string name="slot_account_text_account">Вашият профилен ID e &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_info">Трябва да пазите профилния си идентификационен номер (ID) - това е необходимо за да възстановите профила си, в случай че деинсталирате приложението. Вашият абонамент ще бъде автоматично удължен, освен ако не го анулирате.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Управление</string>
     <string name="slot_account_action_manage_inactive">Активиране на профил</string>
     <string name="slot_account_action_change_id">Възстановяване на профил</string>
+    <string name="slot_account_show">Профилно ID</string>
     <string name="slot_account_action_copy">Копирай профилен ID</string>
     <string name="slot_account_action_copied">Профилен ID е копиран в клипборда</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
