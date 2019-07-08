@@ -3,23 +3,17 @@
 <resources>
     <string name="home_touch_to_turn_on">Tekan untuk mengaktifkan</string>
     <string name="home_setup_vpn">Tekan untuk mengatur VPN</string>
-    <string name="home_blokada_disabled">Blokada dinonaktifkan</string>
     <string name="home_activating">Mengaktifkan</string>
     <string name="home_please_wait">harap tunggu...</string>
     <string name="home_vpn_only">Mode VPN Saja</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">permintaan diblokir</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Bagikan</string>
-    <string name="home_adblocking_enabled">Mode pemblokiran iklan diaktifkan</string>
-    <string name="home_adblocking_disabled">Mode pemblokiran iklan dinonaktifkan</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">Apa yang baru?</string>
     <string name="home_update_required">Silakan perbarui</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donasi</string>
-    <string name="home_vpn_enabled">VPN diaktifkan</string>
-    <string name="home_vpn_disabled">VPN dinonaktifkan</string>
     <string name="home_account_active">akun Anda masih aktif</string>
     <string name="home_connecting_vpn">Menghubungkan ke VPN</string>
     <string name="home_cleanup">Harap bersihkan memori Anda</string>
@@ -50,7 +44,6 @@
     <string name="menu_vpn_gateways_label">Pilih gateway yang Anda inginkan. Perangkat Anda akan mengirimkan data Anda yang telah dienkripsi secara aman melalui gateway tersebut, dan identitas Anda akan tetap tersembunyi.</string>
     <string name="menu_dns_recommended">Server DNS yang disarankan</string>
     <string name="menu_dns_intro">DNS berfungsi untuk menghubungkan perangkat Anda ke situs web dan aplikasi yang Anda gunakan. Memilih server DNS yang bagus bisa membantu mempercepat koneksi data perangkat Anda dan melindungi privasi Anda.</string>
-    <string name="menu_dns_select">Pilih salah satu server DNS terlebih dahulu.</string>
     <string name="menu_apps_intro">Beberapa aplikasi mungkin tidak berfungsi sebagaimana mestinya ketika Blokada aktif. Misalnya, aplikasi tidak bisa terhubung dengan internet\n\nMengaktifkan VPN bisa jadi solusi dalam beberapa kasus.\n\nAtau, Anda bisa mengatur agar aplikasi tersebut membypass Blokada. Harap diingat, aplikasi yang diatur sedemikian rupa berkomunikasi di luar VPN.</string>
     <string name="menu_apps_system_label">Aplikasi sistem adalah aplikasi yang telah diinstal di perangkat Anda, baik oleh produsen perangkat maupun provider telekomunikasi. Sebagian aplikasi tersebut tersembunyi. Anda bisa memodifikasi aplikasi tersebut HANYA jika Anda tahu apa yang Anda lakukan.</string>
     <string name="menu_host_list_intro">Daftar host berisi aturan untuk memblokir iklan dan pelacak (trackers). Kami menyarankan Anda untuk tidak memilih terlalu banyak daftar host.</string>
