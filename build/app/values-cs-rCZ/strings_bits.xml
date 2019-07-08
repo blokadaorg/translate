@@ -3,23 +3,17 @@
 <resources>
     <string name="home_touch_to_turn_on">Klepněte pro zapnutí</string>
     <string name="home_setup_vpn">Klepněte pro nastavení VPN</string>
-    <string name="home_blokada_disabled">Blokada je deaktivována</string>
     <string name="home_activating">Aktivace</string>
     <string name="home_please_wait">čekejte prosím...</string>
     <string name="home_vpn_only">Režim pouze VPN</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">zablokované požadavky</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Sdílet</string>
-    <string name="home_adblocking_enabled">Blokování reklam je povoleno</string>
-    <string name="home_adblocking_disabled">Blokování reklam je zakázáno</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">Co je nového?</string>
     <string name="home_update_required">Je vyžadována aktualizace</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Darovat</string>
-    <string name="home_vpn_enabled">VPN je povoleno</string>
-    <string name="home_vpn_disabled">VPN je zakázáno</string>
     <string name="home_account_active">váš účet je stále aktivní</string>
     <string name="home_connecting_vpn">Připojování k VPN</string>
     <string name="home_cleanup">Doporučuje se vyčištění</string>
@@ -50,7 +44,6 @@
     <string name="menu_vpn_gateways_label">Vyberte jednu z bran, ke které se chcete připojit. Vaše zařízení odešle vaše šifrovaná data bezpečně přes tuto bránu a vy zůstanete anonymní.</string>
     <string name="menu_dns_recommended">Doporučené DNS servery</string>
     <string name="menu_dns_intro">DNS odpovídá za připojení zařízení k webovým stránkám a aplikacím, které používáte. Výběr dobrého DNS serveru může urychlit vaše zařízení a pomůže chránit vaše soukromí.</string>
-    <string name="menu_dns_select">Nejprve vyberte jeden z DNS serverů.</string>
     <string name="menu_apps_intro">Některé aplikace nemusí s Blokadou správně fungovat. Mohou mít například potíže s připojením.\n\nV těchto případech často pomáhá aktivace VPN.\n\nV opačném případě můžete tyto aplikace zcela vynechat. Nezapomeňte, že vynechané aplikace komunikují mimo VPN.</string>
     <string name="menu_apps_system_label">Systémové aplikace jsou ty, které jsou předinstalovány ve vašem zařízení. Některé z nich jsou skryté. Zasahujte do nich pouze v případě, že víte, co děláte.</string>
     <string name="menu_host_list_intro">Seznamy hostitelů obsahují pravidla pro blokování reklam a sledovačů. Snažte se udržet počet aktivních seznamů nízký.</string>
