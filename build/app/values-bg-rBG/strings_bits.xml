@@ -37,8 +37,24 @@
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзове</string>
     <string name="menu_vpn_manage_subscription">Тук можете да управлявате абонамента за профила си:</string>
+    <string name="menu_vpn_account_secret">ID на профила ви е секретен и трябва да го запазите. Запишете го в случай, че деинсталирате приложението.</string>
+    <string name="menu_vpn_restore_label">Тук можете да възстановите сегашния си профил, ако например инсталиралите отново приложението.</string>
+    <string name="menu_vpn_intro">С VPN данните ви са в криптиран вид, вашият IP адрес е скрит и местоположението ви е променено.</string>
+    <string name="menu_vpn_account_label">За да използвате VPN, трябва да имате активен акаунт. Проверете или възстановете профила си тук.</string>
+    <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви ще изпраща криптираните данни сигурно чрез този шлюз и ще останете анонимни.</string>
+    <string name="menu_dns_recommended">Препоръчителни DNS сървъри</string>
+    <string name="menu_dns_intro">DNS отговаря за свързването на устройството ви с уеб сайтове и приложения, които използвате. Изборът на добър DNS може да ускори устройството и ще спомогне за защитата на поверителността ви.</string>
+    <string name="menu_apps_intro">Някои приложения може да не работят правилно с Blokada. Например, може да има проблеми при свързването.\n\nАктивирането на VPN често помага в тези случаи.\n\nВ противен случай можете да накарате тези приложения изцяло да бъдат заобиколени от проверката на Blokada. Не забравяйте, че прескочените приложения ще комуникират извън VPN.</string>
+    <string name="menu_apps_system_label">Системните приложения са тези, които са предварително инсталирани на устройство ви. Някои от тях са скрити. Променете тези, за които знаете какво правите.</string>
+    <string name="menu_host_list_intro">Хост списъците съдържат правила за блокиране на реклами и тракери. Опитайте се да запазите нисък броя на активните списъци.</string>
+    <string name="menu_host_list_settings">Настройки за списък</string>
+    <string name="menu_host_list_status">Състояние на списъка</string>
+    <string name="menu_host_list_download">Настройки за изтегляне на списък</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Друго</string>
+    <string name="menu_share_log_label">Споделянето на дневника ни позволява да открием причината за проблема ви. Уверете се, че го изпращате лично на един от членовете на основния екип на Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Научете повече</string>
     <!-- A section informational content in menu -->
     <!-- A section content promoting participating in our project -->
     <!-- A section in menu for additional buttons  -->
