@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Начало</string>
+    <string name="panel_section_menu">Меню</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Блокиране на реклами</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Лог на хостове</string>
     <string name="panel_section_ads_blacklist">Блокирани хостове</string>
     <string name="panel_section_ads_whitelist">Позволени хостове</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Инсталирани приложения</string>
     <string name="panel_section_apps_system">Системни приложения</string>
+    <string name="panel_section_advanced_settings">Настройки</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Позволен &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Този домейн е разрешен. За да го блокирате използвайте бутона по-долу.</string>
