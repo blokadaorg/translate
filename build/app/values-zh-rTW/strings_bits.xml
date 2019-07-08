@@ -3,17 +3,25 @@
 <resources>
     <string name="home_touch_to_turn_on">觸點以開啟</string>
     <string name="home_setup_vpn">觸點以設定 VPN</string>
+    <string name="home_blokada_disabled">Blokada 已停用</string>
     <string name="home_activating">啟用中</string>
     <string name="home_please_wait">請稍候…</string>
     <string name="home_vpn_only">僅 VPN 模式</string>
+    <string name="home_dns_touch">觸控以設定 DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked">%s 已阻擋</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">分享</string>
+    <string name="home_share_state">您的分數</string>
+    <string name="home_adblocking_enabled">廣告阻擋已啟用</string>
+    <string name="home_adblocking_disabled">廣告阻擋已停用</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">更新內容</string>
     <string name="home_update_required">需要更新</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">捐助</string>
+    <string name="home_vpn_enabled">VPN 已啟用</string>
+    <string name="home_vpn_disabled">VPN 已停用</string>
     <string name="home_account_active">您的帳號仍為啟用狀態</string>
     <string name="home_connecting_vpn">連線至 VPN</string>
     <string name="home_cleanup">需要清理</string>
@@ -44,6 +52,7 @@
     <string name="menu_vpn_gateways_label">選取其中一個要連線的閘道。您的裝置將會透過該閘道安全地傳送您已加密的資料，您也將會保持匿名。</string>
     <string name="menu_dns_recommended">建議 DNS 伺服器</string>
     <string name="menu_dns_intro">DNS 負責讓您的裝置連線到您所使用的網頁與應用程式。選擇好的 DNS 可以讓您的裝置加速並協助保護您的隱私。</string>
+    <string name="menu_dns_select">選取其中一個 DNS 伺服器。</string>
     <string name="menu_apps_intro">某些應用程式可能沒辦法與 Blokada 一同正常運作。舉例來說，它們可能會沒辦法正常連線。\n\n啟用 VPN 通常在這些例子中會有用。\n\n否則您可以讓這些應用程式繞過 Blokada 的檢查。請記住，繞過的應用程式會在 VPN 的管轄之外通訊。</string>
     <string name="menu_apps_system_label">系統應用程式是預先安裝在您的裝置上的應用程式。有些是隱藏的。僅當您知道你在幹嘛的時候才改這邊的東西。</string>
     <string name="menu_host_list_intro">主機清單包含了阻擋廣告與追蹤器的規則。請試著把啟用的清單數保持在較低的數量。</string>
