@@ -3,23 +3,17 @@
 <resources>
     <string name="home_touch_to_turn_on">Tocca per attivare</string>
     <string name="home_setup_vpn">Tocca per configurare la VPN</string>
-    <string name="home_blokada_disabled">Blokada è disabilitata</string>
     <string name="home_activating">Attivazione</string>
     <string name="home_please_wait">attendere prego...</string>
     <string name="home_vpn_only">Modalità solo VPN</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">richieste bloccate</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Condividi</string>
-    <string name="home_adblocking_enabled">Blocco pubblicità abilitato</string>
-    <string name="home_adblocking_disabled">Blocco pubblicità disabilitato</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">Cosa c\'è di nuovo?</string>
     <string name="home_update_required">Aggiornamento necessario</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Dona</string>
-    <string name="home_vpn_enabled">La VPN è abilitata</string>
-    <string name="home_vpn_disabled">La VPN è disabilitata</string>
     <string name="home_account_active">il tuo account è ancora attivo</string>
     <string name="home_connecting_vpn">Connessione alla VPN</string>
     <string name="home_cleanup">È raccomandata una pulizia</string>
@@ -50,7 +44,6 @@
     <string name="menu_vpn_gateways_label">Seleziona uno dei gateway a cui connetterti. Il dispositivo invierà i tuoi dati crittografati in modo sicuro attraverso quel gateway, garantendo l\'anonimato.</string>
     <string name="menu_dns_recommended">Server DNS consigliati</string>
     <string name="menu_dns_intro">I DNS sono responsabili della connessione del tuo dispositivo ai siti web e alle applicazioni che usi. Scegliere dei buoni DNS può velocizzare il tuo dispositivo e aiuterà a proteggere la tua privacy.</string>
-    <string name="menu_dns_select">Per prima cosa, seleziona uno dei server DNS.</string>
     <string name="menu_apps_intro">Alcune applicazioni potrebbero non funzionare correttamente con Blokada. Ad esempio, potrebbero avere problemi di connessione.\n\nL\'attivazione della VPN è spesso d\'aiuto in questi casi.\n\nAltrimenti, è possibile far eludere a queste app il controllo di Blokada. Ricorda, le app che eludono il controllo di Blokada comunicano al di fuori della VPN.</string>
     <string name="menu_apps_system_label">Le app di sistema sono quelle preinstallate con il tuo dispositivo. Alcune di esse sono nascoste. Modificale solo se sai cosa stai facendo.</string>
     <string name="menu_host_list_intro">Le liste degli host contengono regole per bloccare annunci e tracker. Cerca di mantenere basso il numero di liste attive.</string>
