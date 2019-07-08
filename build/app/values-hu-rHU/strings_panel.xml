@@ -72,6 +72,8 @@
     <string name="slot_enter_name_generate">Generálás</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; engedélyezőlistára téve</string>
     <string name="slot_app_desc">Ez az alkalmazás az engedélyezőlistán van, ami azt jelenti, hogy ezen nem történik blokkolás vagy szűrés.</string>
+    <string name="slot_dns_name">Egyéni DNS aktív</string>
+    <string name="slot_dns_name_disabled">Egyéni DNS deaktiválva</string>
     <string name="slot_dns_dns">Az aktuális kiszolgálókat az alsó menü segítségével módosíthatod.</string>
     <string name="slot_action_none">Ez a művelet még nem érhető el.</string>
     <string name="slot_action_facts">Tények</string>
@@ -118,6 +120,8 @@
     <string name="slot_dropped_counter_info">Ez a számláló mutatja az alkalmazás telepítése óta blokkolt domainek számát.</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
     <string name="slot_notifications_desc">Itt be- vagy kikapcsolhatod az értesítéseket. Ne feledd, hogy egyes eszközökön az Android külön VPN-értesítést jelenít meg, amelyet nem lehet kikapcsolni.</string>
+    <string name="slot_notifications_enabled">Értesítések engedélyezve vannak</string>
+    <string name="slot_notifications_disabled">Értesítések le vannak tiltva</string>
     <string name="slot_update_action_refresh">Ellenőrizze újra</string>
     <string name="slot_telegram_title">Csatlakozz hozzánk a Telegramban!</string>
     <string name="slot_telegram_desc">Látogass el a Telegram csatornánkba, hogy segítséget kapj, vagy szimplán válj a közösségünk tagjává.</string>
@@ -129,12 +133,14 @@
     <string name="slot_adblocking_label">Hirdetések és nyomkövetők blokkolása</string>
     <string name="slot_adblocking_text">Ha engedélyezve van, a Blokada blokkolja a hirdetéseket, nyomkövetőket és más nem kívánt tartalmat. Ez segít megvédeni a magánéletedet, felgyorsítja a készülékedet és biztosítja az adataid védelmét.</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
+    <string name="slot_account_label_inactive">Fiók inaktív</string>
     <string name="slot_account_text_account">Fiókazonosítód: &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_info">A fiókazonosítódat tartsd titokban - ha eltávolítod az alkalmazást, a fiók helyreállításához szükséges. Az előfizetés automatikusan meghosszabbodik, ameddig le nem mondod azt.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Kezelés</string>
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
     <string name="slot_account_action_change_id">Fiók visszaállítása</string>
+    <string name="slot_account_show">Fiókazonosító</string>
     <string name="slot_account_action_copy">Fiókazonosító másolása</string>
     <string name="slot_account_action_copied">Fiókazonosító a vágólapra másolva</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
