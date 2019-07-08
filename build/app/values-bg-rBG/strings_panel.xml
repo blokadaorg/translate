@@ -72,6 +72,10 @@
     <string name="slot_enter_name_generate">Генерирай</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; е в белия списък</string>
     <string name="slot_app_desc">Това приложение е включено в белия списък, което означава, че не се извършва блокиране или филтриране.</string>
+    <string name="slot_allapp_desc">Можете да включите това приложение за да го заобиколи Blokada и да спрете блокирането на трафика към него. Не забравяйте, че заобиколените приложения комуникират извън VPN.</string>
+    <string name="slot_allapp_whitelisted">Заобиколени</string>
+    <string name="slot_allapp_normal">Не е заобиколено</string>
+    <string name="slot_allapp_whitelist">Заобикаляне</string>
     <string name="slot_dns_dns">Можете да промените текущите сървъри като използвате долното меню.</string>
     <string name="slot_action_none">Това действие все още не е налице.</string>
     <string name="slot_action_facts">Факти</string>
@@ -117,6 +121,7 @@
     <string name="slot_dropped_counter">Брояч на блокирани домейни</string>
     <string name="slot_dropped_counter_info">Този брояч показва броя домейни, които са били блокирани след инсталирането на приложението.</string>
     <string name="slot_dropped_action_clear">Нулиране на брояча</string>
+    <string name="slot_notifications_title">Известията са %s</string>
     <string name="slot_notifications_desc">Можете да включите или изключите известията от тук. Не забравяйте, че на някои устройства с Android ще покаже отделно известие за VPN, което не може да бъде изключено.</string>
     <string name="slot_update_action_refresh">Провери отново</string>
     <string name="slot_telegram_title">Присъединете се към нас в Telegram!</string>
