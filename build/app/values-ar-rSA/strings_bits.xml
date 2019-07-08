@@ -3,23 +3,17 @@
 <resources>
     <string name="home_touch_to_turn_on">إضغط للتشغيل</string>
     <string name="home_setup_vpn">إضغط لتهيئة VPN</string>
-    <string name="home_blokada_disabled">بلوكادا مُعَطَّل</string>
     <string name="home_activating">جارِ التفعيل</string>
     <string name="home_please_wait">الرجاء الإنتظار...</string>
     <string name="home_vpn_only">وضعيّة VPN فقط</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">حَظْر الطلبات</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">مُشارَكة</string>
-    <string name="home_adblocking_enabled">حَظْر الإعلانات مُفَعَّل</string>
-    <string name="home_adblocking_disabled">حَظْر الإعلانات مُعَطَّل</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">ما الجديد؟</string>
     <string name="home_update_required">التحديث مطلوب</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">التَّبرُّع</string>
-    <string name="home_vpn_enabled">الـ VPN مُفَعَّل</string>
-    <string name="home_vpn_disabled">الـ VPN مُعَطَّل</string>
     <string name="home_account_active">حسابك لا يزال نشطاً</string>
     <string name="home_connecting_vpn">جارِ الإتصال بـ VPN</string>
     <string name="home_cleanup">يُنصَح بالتنظيف</string>
@@ -50,7 +44,6 @@
     <string name="menu_vpn_gateways_label">حدِّد إحدى البوّابات للاتصال بها. سيُرسل جهازك بياناتك المشفَّرة بأمان عبر هذه البوابة ، و ستظل مجهول الهويّة.</string>
     <string name="menu_dns_recommended">خوادِم DNS الموصى بها</string>
     <string name="menu_dns_intro">DNS مسؤول عن توصيل جهازك بمواقع الويب و التطبيقات التي تستخدمها. قد يؤدي إختيار DNS جيّد إلى تسريع جهازك و سيساعد في حماية خصوصيَّتك.</string>
-    <string name="menu_dns_select">حدِّد أحد خوادم DNS أوّلاً.</string>
     <string name="menu_apps_intro">بعض التطبيقات قد لا تعمل بشكل صحيح مع بلوكادا. على سبيل المثال ، قد يكون لديهم مشكلة في الإتصال.\n\nتنشيط VPN غالباً ما يساعد في تلك الحالات.\n\nخلاف ذلك ، يُمكِنك جعل هذه التطبيقات تتجاوز مراقبة بلوكادا تماماً. تَذكَّر أنّ التطبيقات التي تمّ تجاوزها تتواصل خارج VPN.</string>
     <string name="menu_apps_system_label">تطبيقات النظام هي التطبيقات التي تأتي مثبّتة مُسبقاً على جهازك. بعضها مخفي. قُم بتعديلها فقط إذا كنت تعرف ما تفعله.</string>
     <string name="menu_host_list_intro">تحتوي قوائم المُستضيفين على قواعد لحظر الإعلانات و التعقُّب. حاول إبقاء عدد القوائم النَشِطة منخفض.</string>
