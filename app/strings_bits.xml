@@ -2,18 +2,20 @@
 <resources>
     <string name="home_touch_to_turn_on">Touch to turn on</string>
     <string name="home_setup_vpn">Touch to setup VPN</string>
-    <string name="home_blokada_disabled">Blokada is disabled</string>
+    <string name="home_blokada_disabled">Blokada is deactivated</string>
     <string name="home_activating">Activating</string>
     <string name="home_please_wait">please wait...</string>
     <string name="home_vpn_only">VPN only mode</string>
+    <string name="home_dns_touch">Touch to setup DNS</string>
 
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">requests blocked</string>
+    <string name="home_requests_blocked">%s blocked</string>
 
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Share</string>
-    <string name="home_adblocking_enabled">Ad blocking is enabled</string>
-    <string name="home_adblocking_disabled">Ad blocking is disabled</string>
+    <string name="home_share_state">your score</string>
+    <string name="home_adblocking_enabled">Ad blocking is active</string>
+    <string name="home_adblocking_disabled">Ad blocking is deactivated</string>
 
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">What\'s new?</string>
@@ -23,8 +25,8 @@
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donate</string>
 
-    <string name="home_vpn_enabled">VPN is enabled</string>
-    <string name="home_vpn_disabled">VPN is disabled</string>
+    <string name="home_vpn_enabled">VPN is active</string>
+    <string name="home_vpn_disabled">VPN is deactivated</string>
     <string name="home_account_active">your account is still active</string>
     <string name="home_connecting_vpn">Connecting to VPN</string>
     <string name="home_cleanup">Cleanup recommended</string>
@@ -64,7 +66,7 @@
     <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
     <string name="menu_dns_recommended">Recommended DNS servers</string>
     <string name="menu_dns_intro">DNS is responsible for connecting your device to websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
-    <string name="menu_dns_select">Select one of the DNS servers first.</string>
+    <string name="menu_dns_select">Select one of the DNS servers.</string>
     <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of the VPN.</string>
     <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
     <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
