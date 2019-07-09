@@ -10,7 +10,7 @@
 # - web-path - Where is Blokada website repo
 
 xml="filter main notification tunnel update dns gscore panel logger widget bits"
-pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html help_dns.html intro_dns.html filters.properties dns.properties"
+pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html help_dns.html intro_dns.html vpn.html filters.properties dns.properties"
 
 x=""
 
