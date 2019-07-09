@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Hlavní obrazovka</string>
+    <string name="panel_section_menu">Menu</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Blokování reklamy</string>
     <!-- Main screen section -->
@@ -16,9 +17,10 @@
     <string name="panel_section_ads_log">Záznamy hostitelů</string>
     <string name="panel_section_ads_blacklist">Blokovaní hostitelé</string>
     <string name="panel_section_ads_whitelist">Povolení hostitelé</string>
-    <string name="panel_section_advanced_dns">DNS servery</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Nainstalované aplikace</string>
     <string name="panel_section_apps_system">Systémové aplikace</string>
+    <string name="panel_section_advanced_settings">Nastavení</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Povoleno &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Tato doména byla povolena. Chcete-li jí zablokovat, použijte tlačítko níže.</string>
@@ -50,9 +52,9 @@
     <string name="slot_intro_new_header">Jak používat nové uživatelské rozhraní?</string>
     <string name="slot_intro_desc">Momentálně se nacházíte v domovské sekci, existuje více možností po přejetí doprava. Každá z nich má své vlastní spodní menu - otevřete ho přejetím nahoru. &lt;br/&gt;&lt;br/&gt;V Android TV navigujte pomocí uživatelského rozhraní. Pomocí středního tlačítka otevřete spodní nabídku nebo libovolnou položku, kterou vyberete. Tlačítka jsou označena šipkou nahoru, dolů, doleva nebo doprava.</string>
     <string name="slot_intro_info">Psst... Některé položky jsou označeny symbolem otazníku. Klepnutím na něj se zobrazí krátká nápověda, jako je tato!</string>
-    <string name="slot_new_filter">Blokovat nového hostitele</string>
-    <string name="slot_new_filter_list">Přidat nový seznam</string>
-    <string name="slot_new_filter_whitelist">Přidat hostitele do seznamu povolených</string>
+    <string name="slot_new_filter">Přidat nového hostitele do seznamu blokovaných</string>
+    <string name="slot_new_filter_list">Přidat nový seznam hostitelů</string>
+    <string name="slot_new_filter_whitelist">Přidat nového hostitele do seznamu povolených</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">nenastaveno</string>
     <!-- A state of input form when correct input is entered  -->
@@ -70,11 +72,12 @@
     <string name="slot_enter_name_generate">Generovat</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; je v seznamu povolených</string>
     <string name="slot_app_desc">Tato aplikace je v seznamu povolených, což znamená, že na ní není prováděno žádné blokování ani filtrování.</string>
-    <string name="slot_allapp_desc">Tuto aplikaci můžete umístit na seznam povolených, abyste zastavili jakákoliv blokování.</string>
-    <string name="slot_allapp_whitelisted">V seznamu povolených</string>
-    <string name="slot_allapp_normal">Není v seznamu povolených</string>
-    <string name="slot_allapp_whitelist">Seznam povolených</string>
-    <string name="slot_dns_name">Aktuální DNS server(y): &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_allapp_desc">Tuto aplikaci můžete v rámci Blokady vynechat, tím dojde k zastavení blokování provozu u této aplikace. Nezapomeňte, že vynechané aplikace komunikují mimo VPN.</string>
+    <string name="slot_allapp_whitelisted">Vynechané</string>
+    <string name="slot_allapp_normal">Nevynechané</string>
+    <string name="slot_allapp_whitelist">Vynechat</string>
+    <string name="slot_dns_name">Vlastní DNS je aktivní</string>
+    <string name="slot_dns_name_disabled">Vlastní DNS je deaktivováno</string>
     <string name="slot_dns_dns">Aktuální servery můžete změnit ve spodní nabídce.</string>
     <string name="slot_action_none">Tato akce nyní není dostupná.</string>
     <string name="slot_action_facts">Fakta</string>
@@ -120,10 +123,10 @@
     <string name="slot_dropped_counter">Počítadlo zablokovaných domén</string>
     <string name="slot_dropped_counter_info">Toto počítadlo zobrazuje počet domén, které byly od instalace aplikace zablokovány.</string>
     <string name="slot_dropped_action_clear">Obnovit počítadlo</string>
-    <string name="slot_notifications_title">Oznámení jsou %s.</string>
+    <string name="slot_notifications_title">Oznámení jsou %s</string>
     <string name="slot_notifications_desc">Zde můžete zapnout nebo vypnout oznámení. Nezapomeňte, že na některých Android zařízeních se zobrazí samostatné oznámení o aktivní VPN, které nelze vypnout.</string>
-    <string name="slot_notifications_enabled">povolena</string>
-    <string name="slot_notifications_disabled">zakázána</string>
+    <string name="slot_notifications_enabled">Oznámení jsou povolena</string>
+    <string name="slot_notifications_disabled">Oznámení jsou zakázána</string>
     <string name="slot_update_action_refresh">Znovu zkontrolovat</string>
     <string name="slot_telegram_title">Přidejte se k nám na Telegram!</string>
     <string name="slot_telegram_desc">Navštivte náš Telegram kanál pro pomoc nebo jen proto, abyste se stali součástí naší komunity.</string>
@@ -135,15 +138,15 @@
     <string name="slot_adblocking_label">Blokovat reklamy &amp; sledovače</string>
     <string name="slot_adblocking_text">Pokud je tato možnost povolena, Blokada bude blokovat reklamy, sledovače a další nežádoucí obsah. To pomáhá chránit vaše soukromí, zrychlit zařízení a spořit mobilní data.</string>
     <string name="slot_blocka_label">Účet Blokada VPN</string>
-    <string name="slot_account_label_active">Účet má platnost do %s</string>
+    <string name="slot_account_label_active">Účet je aktivní do %s</string>
+    <string name="slot_account_label_inactive">Účet není aktivní</string>
     <string name="slot_account_text_account">Vaše uživatelské ID je &lt;b&gt;%s&lt;/b&gt;.</string>
-    <string name="slot_account_text_inactive">Vaše předplatné je &lt;b&gt;neaktivní&lt;/b&gt;. Chcete-li používat službu Blokada VPN, potřebujete aktivní účet. Chcete-li jej aktivovat, klepněte na tlačítko níže.</string>
-    <string name="slot_account_text_active">Vaše předplatné je &lt;b&gt;aktivní&lt;/b&gt; do &lt;b&gt;%s&lt;/b&gt;. Chcete-li spravovat své předplatné, klepněte na tlačítko níže.</string>
     <string name="slot_account_info">Měli byste své ID účtu uchovávat v tajnosti - je to nutné k obnovení účtu v případě, že aplikaci odinstalujete. Vaše předplatné bude automaticky prodlouženo, pokud jej vy sami nezrušíte.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Spravovat</string>
     <string name="slot_account_action_manage_inactive">Aktivovat účet</string>
     <string name="slot_account_action_change_id">Obnovit účet</string>
+    <string name="slot_account_show">ID účtu</string>
     <string name="slot_account_action_copy">Kopírovat ID účtu</string>
     <string name="slot_account_action_copied">ID účtu bylo zkopírováno do schránky</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -188,7 +191,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Nápověda</string>
     <string name="slot_donate_label">Baví vás Blokada? Zvažte naši podporu, abychom mohli nadále aplikaci zlepšovat.</string>
-    <string name="slot_donate_desc">Blokátor reklamy Blokada je svobodný a otevřený zdroj a chceme, aby to tak zůstalo. Vaše dary nám pomáhají pokračovat ve vývoji aplikace a představovat vám nové funkce, které chcete vidět nejvíce. Děkujeme!</string>
+    <string name="slot_donate_desc">Pomozte nám zavést nové funkce! Více zde.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Darovat</string>
     <string name="slot_cta_label">Psst! Rádi bychom znali váš názor.</string>
@@ -200,7 +203,7 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Otevřít</string>
     <string name="slot_updated_label">Blokada byla aktualizována!</string>
-    <string name="slot_updated_desc">Vaše verze Blokady je nyní aktuální. Další informace o této aktualizaci získáte klepnutím na tlačítko níže. Zvažte také podporu tohoto projektu!</string>
+    <string name="slot_updated_desc">Dotkněte se zde pro představení tohoto vydání.</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Více</string>
     <string name="slot_obsolete_label">Požadovaná akce: tato verze je zastaralá!</string>

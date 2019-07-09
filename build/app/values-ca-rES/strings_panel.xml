@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Inici</string>
+    <string name="panel_section_menu">Menú</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Bloqueig d\'anuncis</string>
     <!-- Main screen section -->
@@ -16,9 +17,10 @@
     <string name="panel_section_ads_log">Registre de servidors</string>
     <string name="panel_section_ads_blacklist">Servidors bloquejats</string>
     <string name="panel_section_ads_whitelist">Servidors permesos</string>
-    <string name="panel_section_advanced_dns">Servidors DNS</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Aplicacions instal·lades</string>
     <string name="panel_section_apps_system">Aplicacions del sistema</string>
+    <string name="panel_section_advanced_settings">Configuració</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; permès</string>
     <string name="panel_domain_forwarded_desc">Aquest domini s\'ha permès. Per bloquejar-lo, utilitzeu el botó de sota.</string>
@@ -50,9 +52,6 @@
     <string name="slot_intro_new_header">Com s\'utilitza la nova interfície?</string>
     <string name="slot_intro_desc">Actualment us trobeu a la secció Inici, hi ha més si us desplaceu cap a la dreta. Cadascuna té el seu propi menú inferior: obriu-lo lliscant cap amunt. &lt;br/&gt;&lt;br/&gt;A l\'Android TV, navegueu per la interfície d\'usuari amb el dpad. Utilitzeu la tecla central per obrir el menú inferior o qualsevol element que seleccioneu. Els botons estan marcats amb la fletxa amunt, avall, esquerra o dreta: utilitzeu les tecles de direcció per fer clic.</string>
     <string name="slot_intro_info">Psst... Alguns elements tenen la icona del signe d\'interrogació sobre ells. Si el toqueu, es mostrarà un missatge d\'ajuda curt, com aquest!</string>
-    <string name="slot_new_filter">Bloqueja un nou servidor</string>
-    <string name="slot_new_filter_list">Afegeix una nova llista</string>
-    <string name="slot_new_filter_whitelist">Afegeix un nou servidor en la llista blanca</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">sense definir</string>
     <!-- A state of input form when correct input is entered  -->
@@ -70,11 +69,6 @@
     <string name="slot_enter_name_generate">Genera</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; és a la llista blanca</string>
     <string name="slot_app_desc">Aquesta aplicació és a la llista blanca, de manera que no es realitza cap bloqueig o filtratge en ella.</string>
-    <string name="slot_allapp_desc">Podeu afegir aquesta aplicació a la llista blanca per aturar el bloqueig del trànsit en ella.</string>
-    <string name="slot_allapp_whitelisted">A la llista blanca</string>
-    <string name="slot_allapp_normal">No és a la llista blanca</string>
-    <string name="slot_allapp_whitelist">Llista blanca</string>
-    <string name="slot_dns_name">Servidor(s) DNS actual(s): &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_dns_dns">Podeu canviar els servidors actuals mitjançant el menú inferior.</string>
     <string name="slot_action_none">Aquesta acció encara no està disponible.</string>
     <string name="slot_action_facts">Informació</string>
@@ -120,10 +114,7 @@
     <string name="slot_dropped_counter">Comptador de dominis bloquejats</string>
     <string name="slot_dropped_counter_info">Aquest comptador mostra el número de dominis bloquejats des de la instal·lació de l\'aplicació.</string>
     <string name="slot_dropped_action_clear">Restableix el comptador</string>
-    <string name="slot_notifications_title">Les notificacions estan %s.</string>
     <string name="slot_notifications_desc">Podeu activar o desactivar les notificacions aquí. Recordeu que en alguns dispositius, l\'Android mostrarà una notificació d\'VPN que no es pot desactivar.</string>
-    <string name="slot_notifications_enabled">activada</string>
-    <string name="slot_notifications_disabled">desactivada</string>
     <string name="slot_update_action_refresh">Torna-ho a comprovar</string>
     <string name="slot_telegram_title">Uniu-vos al nostre Telegram!</string>
     <string name="slot_telegram_desc">Visiteu el nostre canal de Telegram per obtenir ajuda o simplement per formar part de la nostra comunitat.</string>
@@ -135,15 +126,13 @@
     <string name="slot_adblocking_label">Bloqueja anuncis i seguidors</string>
     <string name="slot_adblocking_text">En activar-se, el Blokada bloquejarà anuncis, seguidors i altres continguts no desitjats. Això ajuda a protegir la vostra privadesa, accelerar el vostre dispositiu i estalviar dades.</string>
     <string name="slot_blocka_label">Compte VPN del Blokada</string>
-    <string name="slot_account_label_active">Compte vàlid fins al %s</string>
     <string name="slot_account_text_account">El vostre ID de compte és &lt;b&gt;%s&lt;/b&gt;.</string>
-    <string name="slot_account_text_inactive">La vostra subscripció està &lt;b&gt;inactiva&lt;/b&gt;. Necessiteu un compte actiu per utilitzar la VPN del Blokada. Toqueu el botó següent per activar-lo.</string>
-    <string name="slot_account_text_active">La vostra subscripció està &lt;b&gt;activa&lt;/b&gt; fins al &lt;b&gt;%s&lt;/b&gt;. Toqueu el botó següent per gestionar la vostra subscripció.</string>
     <string name="slot_account_info">Haureu de mantenir el vostre ID del compte en secret: és necessari per recuperar el vostre compte en cas de desinstal·lar l\'aplicació. La vostra subscripció s\'ampliarà automàticament si no la cancel·leu.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Gestiona</string>
     <string name="slot_account_action_manage_inactive">Activa el compte</string>
     <string name="slot_account_action_change_id">Restaura el compte</string>
+    <string name="slot_account_show">ID del compte</string>
     <string name="slot_account_action_copy">Copia l\'ID del compte</string>
     <string name="slot_account_action_copied">L\'ID del compte s\'ha copiat al porta-retalls</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -188,7 +177,6 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Ajuda</string>
     <string name="slot_donate_label">Us encanta el Blokada? Considereu ajudar-nos, de manera que puguem millorar l\'aplicació.</string>
-    <string name="slot_donate_desc">El bloquejador d\'anuncis Blokada és de codi obert i gratuït i volem que continuï així. Les vostres donacions ens ajuden a continuar desenvolupant l\'aplicació i a introduir noves funcions que demaneu. Gràcies!</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Donatius</string>
     <string name="slot_cta_label">Psst! Ens agradaria conèixer la vostra opinió.</string>
@@ -200,7 +188,6 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Obre</string>
     <string name="slot_updated_label">El Blokada s\'ha actualitzat!</string>
-    <string name="slot_updated_desc">La vostra versió del Blokada està actualitzada. Toqueu el botó següent per obtenir informació addicional sobre aquesta actualització. A més, considereu feu un donatiu per donar suport a aquest projecte!</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Més</string>
     <string name="slot_obsolete_label">Acció necessària: aquesta versió és obsoleta!</string>
