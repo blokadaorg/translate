@@ -44,6 +44,7 @@
     <string name="menu_vpn_account">Benutzerkonto</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_manage_subscription">Abonnement für dein Konto verwalten</string>
     <string name="menu_vpn_account_secret">Deine Kontokennung ist geheim und du solltest sie für dich behalten. Schreib sie dir auf für den Fall, dass du die App deinstallierst.</string>
     <string name="menu_vpn_restore_label">Hier kannst du dein bestehendes Konto wiederherstellen, wenn du beispielsweise die App erneut installierst.</string>
     <string name="menu_vpn_intro">Mit VPN werden deine Daten verschlüsselt, deine IP-Adresse verborgen und dein Standort verändert.</string>
@@ -59,6 +60,7 @@
     <string name="menu_host_list_status">Listenstatus</string>
     <string name="menu_host_list_download">Download-Einstellungen auflisten</string>
     <string name="menu_host_whitelist">Hosts, die du hier hinzufügst, werden nie blockiert. Verwende diese Liste, wenn zum Beispiel eine Webseite, die du besuchst, fälschlicherweise blockiert wird.</string>
+    <string name="menu_host_blacklist">Hosts, die du hier hinzufügst, werden immer blockiert. Zum Beispiel kannst du Webseiten hinzufügen, die durch die Standardlisten nicht blockiert werden aber blockiert werden sollen.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Andere</string>
     <string name="menu_share_log_label">Das Teilen von Protokolldaten ermöglicht es uns, den Grund für dein Problem zu ermitteln. Achte darauf, sie privat an eines der Mitglieder des Blokada-Kernteams zu senden.</string>
@@ -75,4 +77,5 @@
     <string name="menu_dive_in">Tiefer einsteigen</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Verwalten</string>
+    <string name="menu_ok">OK</string>
 </resources>
