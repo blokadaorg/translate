@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Início</string>
+    <string name="panel_section_menu">Menu</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Bloqueio de anúncios</string>
     <!-- Main screen section -->
@@ -16,8 +17,10 @@
     <string name="panel_section_ads_log">Registro do Endereço</string>
     <string name="panel_section_ads_blacklist">Endereços Bloqueados</string>
     <string name="panel_section_ads_whitelist">Endereços Permitidos</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Aplicativos Instalados</string>
     <string name="panel_section_apps_system">Apps do Sistema</string>
+    <string name="panel_section_advanced_settings">Configurações</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Permitido &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Este domínio foi permitido. Para bloqueá-lo, use o botão abaixo.</string>
@@ -49,6 +52,7 @@
     <string name="slot_intro_new_header">Como usar a nova interface?</string>
     <string name="slot_intro_desc">Você está atualmente na seção Início, há mais conteúdo se você deslizar para a direita. Cada uma delas tem seu próprio menu inferior - abra-o deslizando para cima. &lt;br/&gt;&lt;br/&gt;Na Android TV, navegue pela interface do usuário com o controle direcional. Use a tecla central para abrir o menu inferior, ou qualquer item que você selecionar. Os botões são marcados com as setas para cima, para baixo, esquerda ou direita - use as teclas de direção para clicá-los.</string>
     <string name="slot_intro_info">Psiu... Alguns itens têm o ícone de interrogação neles. Tocar nele irá exibir uma pequena mensagem de ajuda, como esta!</string>
+    <string name="slot_new_filter_list">Adicionar uma nova lista de endereço</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">não definido</string>
     <!-- A state of input form when correct input is entered  -->
@@ -66,6 +70,11 @@
     <string name="slot_enter_name_generate">Gerar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista branca</string>
     <string name="slot_app_desc">Este aplicativo está na lista branca, o que significa que nenhum bloqueio ou filtragem é realizado nele.</string>
+    <string name="slot_allapp_whitelisted">Ignorado</string>
+    <string name="slot_allapp_normal">Não ignorado</string>
+    <string name="slot_allapp_whitelist">Ignorar</string>
+    <string name="slot_dns_name">O DNS personalizado está ativo</string>
+    <string name="slot_dns_name_disabled">O DNS personalizado está inativo</string>
     <string name="slot_dns_dns">Você pode alterar os servidores atuais usando o menu inferior.</string>
     <string name="slot_action_none">Esta ação ainda não está disponível.</string>
     <string name="slot_action_facts">Fatos</string>
@@ -111,7 +120,10 @@
     <string name="slot_dropped_counter">Contador de domínios bloqueados</string>
     <string name="slot_dropped_counter_info">Este contador exibe o número de domínios que foram bloqueados desde a instalação do aplicativo.</string>
     <string name="slot_dropped_action_clear">Zerar contador</string>
+    <string name="slot_notifications_title">As notificações estão %s</string>
     <string name="slot_notifications_desc">Você pode ativar ou desativar as notificações aqui. Lembre-se de que, em alguns dispositivos, o Android exibirá uma notificação de VPN separada que não pode ser desativada.</string>
+    <string name="slot_notifications_enabled">As notificações estão habilitadas</string>
+    <string name="slot_notifications_disabled">As notificações estão desativadas</string>
     <string name="slot_update_action_refresh">Verificar novamente</string>
     <string name="slot_telegram_title">Junte-se a nós no Telegram!</string>
     <string name="slot_telegram_desc">Visite nosso canal no Telegram para ajuda ou apenas para fazer parte de nossa comunidade.</string>
@@ -123,12 +135,15 @@
     <string name="slot_adblocking_label">Bloquear anúncios &amp; rastreadores</string>
     <string name="slot_adblocking_text">Quando ativado, o Blokada bloqueará anúncios, rastreadores e outros conteúdos indesejados. Isso ajuda a proteger sua privacidade, acelera seu dispositivo e economiza seus dados.</string>
     <string name="slot_blocka_label">Conta da VPN do Blokada</string>
+    <string name="slot_account_label_active">Conta ativa até %s</string>
+    <string name="slot_account_label_inactive">Conta inativa</string>
     <string name="slot_account_text_account">Sua ID de conta é &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_info">Você deve manter o ID da sua conta em segredo - isso é necessário para recuperar sua conta caso você desinstale o aplicativo. Sua assinatura será automaticamente estendida, a menos que você a cancele.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Gerenciar</string>
     <string name="slot_account_action_manage_inactive">Ativar conta</string>
     <string name="slot_account_action_change_id">Restaurar conta</string>
+    <string name="slot_account_show">ID da conta</string>
     <string name="slot_account_action_copy">Copiar o ID da conta</string>
     <string name="slot_account_action_copied">O ID da conta foi copiado para a área de transferência</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
