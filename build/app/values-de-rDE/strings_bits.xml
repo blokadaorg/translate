@@ -50,6 +50,7 @@
     <string name="menu_vpn_account_label">Um das VPN zu nutzen, brauchst du ein aktives Konto. Überprüfe hier dein Konto oder stelle es wieder her.</string>
     <string name="menu_vpn_gateways_label">Wähle eines der Gateways, um dich mit ihm zu verbinden. Dein Gerät wird deine verschlüsselten Daten sicher durch dieses Gateway leiten und du bleibst anonym.</string>
     <string name="menu_dns_recommended">Empfohlene DNS-Server</string>
+    <string name="menu_dns_intro">DNS ist für die Übersetzung von IP-Adressen der von dir genutzten Webseiten und Apps zuständig. Die Auswahl eines guten DNS-Servers kann dein Gerät schneller machen und hilft dabei, deine privaten Daten zu schützen.</string>
     <string name="menu_dns_select">Wähle einen der DNS-Server.</string>
     <string name="menu_apps_intro">Manche Apps funktionieren mit Blokada unter Umständen nicht richtig. Sie haben eventuell Schwierigkeiten mit der Verbindung.\n\nHäufig hilft in diesen Fällen die Aktivierung des VPN.\n\nAnsonsten kannst du diese Apps insgesamt an der Überwachung durch Blokada vorbeileiten. Denke daran, dass umgeleitete Apps außerhalb des VPN kommunizieren.</string>
     <string name="menu_apps_system_label">System-Apps sind diejenigen, die auf deinem Gerät vorinstalliert sind. Einige von ihnen sind nicht sichtbar. Verändere diese nur, wenn du weißt, was du damit tust.</string>
@@ -57,6 +58,7 @@
     <string name="menu_host_list_settings">Listeneinstellungen</string>
     <string name="menu_host_list_status">Listenstatus</string>
     <string name="menu_host_list_download">Download-Einstellungen auflisten</string>
+    <string name="menu_host_whitelist">Hosts, die du hier hinzufügst, werden nie blockiert. Verwende diese Liste, wenn zum Beispiel eine Webseite, die du besuchst, fälschlicherweise blockiert wird.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Andere</string>
     <string name="menu_share_log_label">Das Teilen von Protokolldaten ermöglicht es uns, den Grund für dein Problem zu ermitteln. Achte darauf, sie privat an eines der Mitglieder des Blokada-Kernteams zu senden.</string>
