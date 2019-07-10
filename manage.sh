@@ -11,6 +11,8 @@
 
 xml="filter main notification tunnel update dns gscore panel logger widget bits"
 pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html help_dns.html intro_dns.html vpn.html filters.properties dns.properties"
+legacy=(ca cs de es fa fr he hr hu in it ms nl pl pt ru sl tr vi zh_CN zh_TW)
+legacy_mapped=(ca_ES cs_CZ de_DE es_ES fa_IR fr_FR he_IL hr_HR hu_HU id_ID it_IT ms_MY nl_NL pl_PL pt_PT ru_RU sl_SI tr_TR vi_VN zh_CN zh_TW)
 
 x=""
 
@@ -78,6 +80,19 @@ elif [ "$choice" = "e" ]; then
 		ln -s ../../img $D/img
 	done
 	cd -
+
+	for i in ${!legacy[@]}; do
+		x=${legacy[$i]}
+		y=${legacy_mapped[$i]}
+		echo "legacy from $x to $y"
+		rm -rf $web/$x
+		mkdir $web/$x
+		cp -r $web/css $web/$x/
+		cp -r $web/js $web/$x/
+		ln -s ../static $web/$x/static
+		ln -s ../img $web/$x/img
+		cp $web/lang/$y/index.html $web/$x/
+	done
 
 	echo "Exporting content..."
 	rm -rf $web/api/v3/content/*
