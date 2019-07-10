@@ -7,9 +7,9 @@
     <string name="home_activating">جارِ التفعيل</string>
     <string name="home_please_wait">الرجاء الإنتظار...</string>
     <string name="home_vpn_only">وضعيّة VPN فقط</string>
-    <string name="home_dns_touch">إضغط لتهيئة VPN</string>
+    <string name="home_dns_touch">إضغط لتهيئة DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked">%s تَمّ حظر</string>
+    <string name="home_requests_blocked">%s تَمَّ حَظْر</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">أخبر أصدقائك</string>
     <string name="home_share_state">شارك نتيجتك في بلوكادا</string>
@@ -22,7 +22,7 @@
     <string name="home_donate">التَّبرُّع</string>
     <string name="home_vpn_enabled">الـ VBN نَشِط</string>
     <string name="home_vpn_disabled">الـ VPN غير نَشِط</string>
-    <string name="home_account_active">حسابك لا يزال نشطاً</string>
+    <string name="home_account_active">حسابك لا يزال نَشِطاً</string>
     <string name="home_connecting_vpn">جارِ الإتصال بـ VPN</string>
     <string name="home_cleanup">يُنصَح بالتنظيف</string>
     <!-- A short text for the button to change VPN settings -->
@@ -31,14 +31,14 @@
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">إعلانات</string>
     <string name="menu_ads_live_label">التاريخ المباشر للطلبات المسموح بها و المحظورة</string>
-    <string name="menu_ads_turn_on">قم بتشغيل أو إيقاف حظر الإعلانات.</string>
-    <string name="menu_ads_lists_label">حَدِّد القوائم المُستخدَمة للحظر. القوائم الإفتراضيّة مُناسِبة لمعظم الأشخاص.</string>
-    <string name="menu_ads_rules_label">أضِف القواعد الخاصّة بك لضبط الحظر.</string>
-    <string name="menu_ads_log_label">تَعرَّف على ما تمّ حظره أو السماح به مؤخّراً.</string>
+    <string name="menu_ads_turn_on">قم بتشغيل أو إيقاف حَظْر الإعلانات.</string>
+    <string name="menu_ads_lists_label">حَدِّد القوائم المُستخدَمة للحَظْر. القوائم الإفتراضيّة مُناسِبة لمعظم الأشخاص.</string>
+    <string name="menu_ads_rules_label">أضِف القواعد الخاصّة بك لضبط الحَظْر.</string>
+    <string name="menu_ads_log_label">تَعرَّف على ما تَمّ حَظْره أو السماح به مؤخّراً.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">الرجاء تنشيط حسابك أوّلاً.</string>
-    <string name="menu_vpn_select_gateway">الرجاء اختيار بوّابة.</string>
+    <string name="menu_vpn_select_gateway">الرجاء إختيار بوّابة.</string>
     <string name="menu_vpn_intro_button">لماذا VPN ؟</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">الحساب</string>
@@ -49,7 +49,7 @@
     <string name="menu_vpn_restore_label">هنا يمكنك إستعادة حسابك الحالي ، على سبيل المثال ، إذا قمت بإعادة تثبيت التطبيق.</string>
     <string name="menu_vpn_intro">مع VPN تكون بياناتك مشفَّرة ، يَتمّ إخفاء عنوان الـ IP الخاص بك ، و يَتمّ تغيير موقعك.</string>
     <string name="menu_vpn_account_label">من أجل إستخدام الـ VPN ، تحتاج إلى حساب نَشِط. تَحقَّق أو استعد حسابك هنا.</string>
-    <string name="menu_vpn_gateways_label">حدِّد إحدى البوّابات للاتصال بها. سيُرسل جهازك بياناتك المشفَّرة بأمان عبر هذه البوابة ، و ستظل مجهول الهويّة.</string>
+    <string name="menu_vpn_gateways_label">حدِّد إحدى البوّابات للاتصال بها. سَيُرسِل جهازك بياناتك المشفَّرة بأمان عبر هذه البوابة ، و ستظل مجهول الهويّة.</string>
     <string name="menu_dns_recommended">خوادِم DNS الموصى بها</string>
     <string name="menu_dns_intro">الـ DNS مسؤول عن ترجمة عناوين IP المواقع و التطبيقات التي تستخدمها. قد يؤدي إختيار DNS جيّد إلى تسريع جهازك و سيساعد في حماية خصوصيّتك.</string>
     <string name="menu_dns_select">حدِّد أحّد خوادِم DNS.</string>
