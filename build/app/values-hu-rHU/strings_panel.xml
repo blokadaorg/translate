@@ -119,6 +119,7 @@
     <string name="slot_dropped_counter">Blokkolt domain számláló</string>
     <string name="slot_dropped_counter_info">Ez a számláló mutatja az alkalmazás telepítése óta blokkolt domainek számát.</string>
     <string name="slot_dropped_action_clear">Számláló visszaállítása</string>
+    <string name="slot_notifications_title">Az értesítések: %s</string>
     <string name="slot_notifications_desc">Itt be- vagy kikapcsolhatod az értesítéseket. Ne feledd, hogy egyes eszközökön az Android külön VPN-értesítést jelenít meg, amelyet nem lehet kikapcsolni.</string>
     <string name="slot_notifications_enabled">Értesítések engedélyezve vannak</string>
     <string name="slot_notifications_disabled">Értesítések le vannak tiltva</string>
@@ -133,6 +134,7 @@
     <string name="slot_adblocking_label">Hirdetések és nyomkövetők blokkolása</string>
     <string name="slot_adblocking_text">Ha engedélyezve van, a Blokada blokkolja a hirdetéseket, nyomkövetőket és más nem kívánt tartalmat. Ez segít megvédeni a magánéletedet, felgyorsítja a készülékedet és biztosítja az adataid védelmét.</string>
     <string name="slot_blocka_label">Blokada VPN fiók</string>
+    <string name="slot_account_label_active">A fiók eddig aktív: %s</string>
     <string name="slot_account_label_inactive">Fiók inaktív</string>
     <string name="slot_account_text_account">Fiókazonosítód: &lt;b&gt;%s&lt;/b&gt;.</string>
     <string name="slot_account_info">A fiókazonosítódat tartsd titokban - ha eltávolítod az alkalmazást, a fiók helyreállításához szükséges. Az előfizetés automatikusan meghosszabbodik, ameddig le nem mondod azt.</string>
@@ -185,6 +187,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Segítség</string>
     <string name="slot_donate_label">Tetszik a Blokada? Fontold meg az adományozást, így folyamatosan javíthatjuk az alkalmazást.</string>
+    <string name="slot_donate_desc">Segíts nekünk az új funkciók bevezetésében! További információért érintsd meg itt.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Támogatás</string>
     <string name="slot_cta_label">Pszt! A véleményedre lennénk kíváncsiak.</string>
@@ -196,6 +199,7 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Megnyitás</string>
     <string name="slot_updated_label">A Blokada frissítésre került!</string>
+    <string name="slot_updated_desc">A verzió használatának bemutatásához érintsd meg itt.</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Továbbiak</string>
     <string name="slot_obsolete_label">Beavatkozás szükséges: ez a verzió elavult!</string>

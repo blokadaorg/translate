@@ -11,8 +11,8 @@
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s blockiert</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Teilen</string>
-    <string name="home_share_state">deine Rate</string>
+    <string name="home_share">Weiterempfehlen</string>
+    <string name="home_share_state">teile deine Blokada-Punktzahl</string>
     <string name="home_adblocking_enabled">Werbesperre ist aktiv</string>
     <string name="home_adblocking_disabled">Werbesperre ist deaktiviert</string>
     <!-- A short text for the item that displays update information -->
@@ -44,14 +44,14 @@
     <string name="menu_vpn_account">Benutzerkonto</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
-    <string name="menu_vpn_manage_subscription">Hier Abonnement für dein Konto verwalten:</string>
+    <string name="menu_vpn_manage_subscription">Abonnement für dein Konto verwalten</string>
     <string name="menu_vpn_account_secret">Deine Kontokennung ist geheim und du solltest sie für dich behalten. Schreib sie dir auf für den Fall, dass du die App deinstallierst.</string>
     <string name="menu_vpn_restore_label">Hier kannst du dein bestehendes Konto wiederherstellen, wenn du beispielsweise die App erneut installierst.</string>
     <string name="menu_vpn_intro">Mit VPN werden deine Daten verschlüsselt, deine IP-Adresse verborgen und dein Standort verändert.</string>
     <string name="menu_vpn_account_label">Um das VPN zu nutzen, brauchst du ein aktives Konto. Überprüfe hier dein Konto oder stelle es wieder her.</string>
     <string name="menu_vpn_gateways_label">Wähle eines der Gateways, um dich mit ihm zu verbinden. Dein Gerät wird deine verschlüsselten Daten sicher durch dieses Gateway leiten und du bleibst anonym.</string>
     <string name="menu_dns_recommended">Empfohlene DNS-Server</string>
-    <string name="menu_dns_intro">DNS ist für die Verbindung deines Geräts mit von dir genutzten Webseiten und Apps zuständig. Die Auswahl eines guten DNS-Servers kann dein Gerät schneller machen und hilft dabei, deine privaten Daten zu schützen.</string>
+    <string name="menu_dns_intro">DNS ist für die Übersetzung von IP-Adressen der von dir genutzten Webseiten und Apps zuständig. Die Auswahl eines guten DNS-Servers kann dein Gerät schneller machen und hilft dabei, deine privaten Daten zu schützen.</string>
     <string name="menu_dns_select">Wähle einen der DNS-Server.</string>
     <string name="menu_apps_intro">Manche Apps funktionieren mit Blokada unter Umständen nicht richtig. Sie haben eventuell Schwierigkeiten mit der Verbindung.\n\nHäufig hilft in diesen Fällen die Aktivierung des VPN.\n\nAnsonsten kannst du diese Apps insgesamt an der Überwachung durch Blokada vorbeileiten. Denke daran, dass umgeleitete Apps außerhalb des VPN kommunizieren.</string>
     <string name="menu_apps_system_label">System-Apps sind diejenigen, die auf deinem Gerät vorinstalliert sind. Einige von ihnen sind nicht sichtbar. Verändere diese nur, wenn du weißt, was du damit tust.</string>
@@ -59,6 +59,8 @@
     <string name="menu_host_list_settings">Listeneinstellungen</string>
     <string name="menu_host_list_status">Listenstatus</string>
     <string name="menu_host_list_download">Download-Einstellungen auflisten</string>
+    <string name="menu_host_whitelist">Hosts, die du hier hinzufügst, werden nie blockiert. Verwende diese Liste, wenn zum Beispiel eine Webseite, die du besuchst, fälschlicherweise blockiert wird.</string>
+    <string name="menu_host_blacklist">Hosts, die du hier hinzufügst, werden immer blockiert. Zum Beispiel kannst du Webseiten hinzufügen, die durch die Standardlisten nicht blockiert werden aber blockiert werden sollen.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Andere</string>
     <string name="menu_share_log_label">Das Teilen von Protokolldaten ermöglicht es uns, den Grund für dein Problem zu ermitteln. Achte darauf, sie privat an eines der Mitglieder des Blokada-Kernteams zu senden.</string>
@@ -75,4 +77,5 @@
     <string name="menu_dive_in">Tiefer einsteigen</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Verwalten</string>
+    <string name="menu_ok">OK</string>
 </resources>

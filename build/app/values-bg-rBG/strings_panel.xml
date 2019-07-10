@@ -52,7 +52,7 @@
     <string name="slot_intro_new_header">Как да използваме новия потребителски интерфейс (UI)?</string>
     <string name="slot_intro_desc">В момента сте в секцията Начало и ако плъзнете на дясно ще видите още. Всяка от тях има свое собствено долно меню - отворете го с плъзгане нагоре. &lt;br/&gt;&lt;br/&gt;На телевизори с Android можете да се движите в потребителския интерфейс с помощта на dpad. Използвайте централния бутон, за да отворите долното меню или всеки елемент, който изберете. Бутоните са маркирани със стрелка нагоре, надолу, наляво или надясно - използвате бутоните за посока, за да кликнете върху тях.</string>
     <string name="slot_intro_info">Хей... Някои точки имат икона с въпросителен знак върху тях. Докосването му ще покаже кратко съобщение за помощ, също като това!</string>
-    <string name="slot_new_filter">Добавете нов хост към списъка с блокирани</string>
+    <string name="slot_new_filter">Добавяне на нов хост към списъка с блокирани</string>
     <string name="slot_new_filter_list">Добавяне на нов списък с хостове</string>
     <string name="slot_new_filter_whitelist">Добавяне на нов хост в списъка с разрешени</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
@@ -76,6 +76,8 @@
     <string name="slot_allapp_whitelisted">Заобиколени</string>
     <string name="slot_allapp_normal">Не е заобиколено</string>
     <string name="slot_allapp_whitelist">Заобикаляне</string>
+    <string name="slot_dns_name">Персонализираният DNS е активен</string>
+    <string name="slot_dns_name_disabled">Персонализираният DNS е деактивиран</string>
     <string name="slot_dns_dns">Можете да промените текущите сървъри като използвате долното меню.</string>
     <string name="slot_action_none">Това действие все още не е налице.</string>
     <string name="slot_action_facts">Факти</string>
@@ -123,8 +125,8 @@
     <string name="slot_dropped_action_clear">Нулиране на брояча</string>
     <string name="slot_notifications_title">Известията са %s</string>
     <string name="slot_notifications_desc">Можете да включите или изключите известията от тук. Не забравяйте, че на някои устройства с Android ще покаже отделно известие за VPN, което не може да бъде изключено.</string>
-    <string name="slot_notifications_enabled">Известията са активни</string>
-    <string name="slot_notifications_disabled">Известията са неактивни</string>
+    <string name="slot_notifications_enabled">Известията са активирани</string>
+    <string name="slot_notifications_disabled">Известията са деактивирани</string>
     <string name="slot_update_action_refresh">Провери отново</string>
     <string name="slot_telegram_title">Присъединете се към нас в Telegram!</string>
     <string name="slot_telegram_desc">Посетете нашия канал за помощ в Telegram, или просто станете част от нашата общност.</string>
@@ -190,6 +192,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Помощ</string>
     <string name="slot_donate_label">Наслаждавате се на Блокада? Помислете да ни подкрепите за да можем да продължим с подобряването на приложението.</string>
+    <string name="slot_donate_desc">Помогнете ни да въведем нови функции! Докоснете тук за повече.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Дарете</string>
     <string name="slot_cta_label">Хей! Бихме искали да знаем вашето мнение.</string>
@@ -201,6 +204,7 @@
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Отвори</string>
     <string name="slot_updated_label">Blokada е актуализирана!</string>
+    <string name="slot_updated_desc">Докоснете тук за въведение в тази версия.</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Още</string>
     <string name="slot_obsolete_label">Задължително е действие: тази версия е остаряла!</string>

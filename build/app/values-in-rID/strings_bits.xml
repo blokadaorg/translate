@@ -11,8 +11,8 @@
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s diblokir</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Bagikan</string>
-    <string name="home_share_state">skor Anda</string>
+    <string name="home_share">Beri tahu teman-teman Anda</string>
+    <string name="home_share_state">bagikan skor Blokada Anda</string>
     <string name="home_adblocking_enabled">Mode pemblokiran iklan diaktifkan</string>
     <string name="home_adblocking_disabled">Mode pemblokiran iklan dinonaktifkan</string>
     <!-- A short text for the item that displays update information -->
@@ -44,7 +44,7 @@
     <string name="menu_vpn_account">Akun</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateway</string>
-    <string name="menu_vpn_manage_subscription">Kelola akun berlangganan Anda di sini:</string>
+    <string name="menu_vpn_manage_subscription">Kelola akun berlangganan Anda di sini</string>
     <string name="menu_vpn_account_secret">ID akun Anda bersifat rahasia dan Anda harus menjaganya. Catat detail akun agar memudahkan Anda ketika Anda menguninstal Blokada di kemudian hari.</string>
     <string name="menu_vpn_restore_label">Di sini Anda bisa memulihkan akun lama Anda, jika misalnya Anda menginstal Blokada kembali.</string>
     <string name="menu_vpn_intro">Ketika Anda menggunakan VPN, data Anda dienkripsi, alamat IP Anda disembunyikan, dan lokasi Anda dirubah.</string>
@@ -59,6 +59,8 @@
     <string name="menu_host_list_settings">Pengaturan daftar host</string>
     <string name="menu_host_list_status">Status daftar host</string>
     <string name="menu_host_list_download">Pengaturan pengunduhan daftar host</string>
+    <string name="menu_host_whitelist">Host yang Anda masukkan di whitelist tidak akan diblokir. Gunakan fitur ini ketika misalnya situs yang Anda kunjungi terblokir secara tidak sengaja.</string>
+    <string name="menu_host_blacklist">Host yang Anda masukkan ke dalam blacklist akan selalu diblokir. Anda bisa memasukkan situs-situs yang menurut Anda patut diblokir namun situs tersebut tidak tercantum di blacklist standar/default.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Lainnya</string>
     <string name="menu_share_log_label">Membagikan log memungkinkan kami untuk menemukan akar masalah yang Anda hadapi. Pastikan Anda mengirimkan log tersebut melalui pesan privat ke salah satu anggota tim inti Blokada.</string>
@@ -75,4 +77,5 @@
     <string name="menu_dive_in">Pelajari lebih dalam lagi</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Kelola</string>
+    <string name="menu_ok">OK</string>
 </resources>
