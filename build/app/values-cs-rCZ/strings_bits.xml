@@ -55,6 +55,7 @@
     <string name="menu_vpn_account_label">Abyste mohli používat VPN, potřebujete aktivní účet. Zde můžete zkontrolovat stav vašeho účtu nebo jej obnovit.</string>
     <string name="menu_vpn_gateways_label">Vyberte jednu z bran, ke které se chcete připojit. Vaše zařízení odešle vaše šifrovaná data bezpečně přes tuto bránu a vy zůstanete anonymní.</string>
     <string name="menu_dns_recommended">Doporučené DNS servery</string>
+    <string name="menu_dns_intro">DNS odpovídá za překlad IP adres webových stránek a aplikací, které používáte. Výběr správného DNS může urychlit vaše zařízení a pomoci chránit vaše soukromí.</string>
     <string name="menu_dns_select">Vyberte jeden z DNS serverů.</string>
     <string name="menu_apps_intro">Některé aplikace nemusí s Blokadou správně fungovat. Mohou mít například potíže s připojením.\n\nV těchto případech často pomáhá aktivace VPN.\n\nV opačném případě můžete tyto aplikace zcela vynechat. Nezapomeňte, že vynechané aplikace komunikují mimo VPN.</string>
     <string name="menu_apps_system_label">Systémové aplikace jsou ty, které jsou předinstalovány ve vašem zařízení. Některé z nich jsou skryté. Zasahujte do nich pouze v případě, že víte, co děláte.</string>
@@ -62,6 +63,8 @@
     <string name="menu_host_list_settings">Nastavení seznamu</string>
     <string name="menu_host_list_status">Stav seznamu</string>
     <string name="menu_host_list_download">Nastavení stahování seznamu</string>
+    <string name="menu_host_whitelist">Hostitelé, které sem přidáte, nebudou nikdy blokováni. Tento seznam použijte, když je například webová stránka, kterou navštívíte, omylem zablokována.</string>
+    <string name="menu_host_blacklist">Hostitelé, které sem přidáte, budou vždy blokováni. Můžete například přidat webové stránky, které nejsou blokovány standardními seznamy, ale měly by být.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Ostatní</string>
     <string name="menu_share_log_label">Protokol sdílení nám umožňuje zjistit důvod vašich problémů. Ujistěte se, že je posíláte soukromě jednomu z členů týmu Blokada.</string>
@@ -78,4 +81,6 @@
     <string name="menu_dive_in">Ponořte se hlouběji</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Spravovat</string>
+    <string name="menu_ok">OK</string>
+    <string name="menu_dns_remove_default">Výchozí DNS nelze odebrat.</string>
 </resources>
