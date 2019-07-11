@@ -25,12 +25,12 @@
     <string name="filter_edit_link">الرّابط</string>
     <string name="filter_edit_link_enter">أدخل رابط إلى مَلفّ hosts</string>
     <!-- An example format of a link to hosts file. -->
-    <string name="filter_edit_link_error">يبدو أنه لا يمكن تحميل المَلفّ أو أنه لا يحتوي على بيانات مُستضيفين hosts.</string>
+    <string name="filter_edit_link_error">يبدو أنّه لا يمكن تحميل المَلفّ أو أنه لا يحتوي على بيانات مُستضيفين hosts.</string>
     <!-- Name of a tab that allows to whitelist app. -->
     <string name="filter_edit_app">التّطبيق</string>
     <string name="filter_edit_app_enter">أدخل إسم التّطبيق أو إسم الحُزمة</string>
     <!-- An example package name of app to whitelist. -->
-    <string name="filter_edit_app_error">يبدو أنّ البرنامج غير موجود أو لا يمكن وضعه في القائمة البيضاء.</string>
+    <string name="filter_edit_app_error">يبدو أنّ البرنامج غير موجود أو لا يُمكِن وضعه في القائمة البيضاء.</string>
     <string name="filter_edit_save">حِفْظ</string>
     <string name="filter_edit_cancel">إلغاء</string>
     <string name="filter_edit_do">واصِلْ</string>
@@ -40,10 +40,10 @@
     <string name="filter_edit_count">يحتوي على %d مُستضيف(ين)</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of blacklisted entries. -->
     <string name="filter_blacklist_text">%d في القائمة السّوداء</string>
-    <string name="filter_blacklist_text_none">القائمة السّوداء غير مُفعّلة</string>
+    <string name="filter_blacklist_text_none">القائمة السّوداء غير مُفعَّلة</string>
     <!-- Displayed in the home screen, keep it short. Parameter: number of whitelisted entries. -->
     <string name="filter_whitelist_text">%d في القائمة البيضاء</string>
-    <string name="filter_whitelist_text_none">القائمة البيضاء غير مُفعّلة</string>
+    <string name="filter_whitelist_text_none">القائمة البيضاء غير مُفعَّلة</string>
     <!-- Title of menu with quick actions for whitelist / blacklist -->
     <string name="filter_generate_title">الإجراءات السريعة</string>
     <!-- Adds all system apps to the whitelist and/or sets them to enabled -->
