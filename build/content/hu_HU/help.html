@@ -97,19 +97,19 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
 <h4><a name="startup">Nem tudom elindítani Blokada-t, miután telepítettem.</a></h4>
 <p>Két gyakori probléma esetén szokott felmerülni ez a szituáció. Először is kérlek ellenőrizd, hogy van-e aktív VPN kapcsolatod és hogy annak a <i>Mindig bekapcsolva</i> opciója engedélyezve van. Hogy erről meggyőződj, menj a telefonod Beállítás menüjébe, keresd a VPN-t a hálózati beállításoknál és koppints a fogaskerékre a már létező VPN mellett. Tiltsd le, bontsd a kapcsolatot az aktív VPN hálózattal és próbáld újraindítani a Blokada-t.</p>
 
-<p>Ha nincs más VPN-kapcsolatod, akkor ellenőrizd a Blokada-t, hogy a <i>Watchdog</i> engedélyezve van-e a Speciális beállítások menüben, és ha igen, ellenőrizd, hogy csatlakozol-e az internethez Wi-Fi-n vagy mobilneten keresztül. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Ha nincs más VPN-kapcsolatod, akkor ellenőrizd a Blokada-t, hogy a <i>Watchdog</i> engedélyezve van-e a Speciális beállítások menüben, és ha igen, ellenőrizd, hogy csatlakozol-e az internethez Wi-Fi-n vagy mobilneten keresztül. A Blokada nem indul el, ha a <i>Watchdog</i> engedélyezve van, és nincs aktív internetkapcsolatod.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Ha ez sem oldotta meg a problémát, indítsd újra a telefont, néha ez is segít.</p>
 
 <h4><a name="refresh">A Blokada kevesebb reklámot blokkol.</a></h4>
-<p>Ha azt gyanítod, hogy a Blokada kevesebb reklámot szűr meg mint előzőleg, kérlek frissítsd a listáidat. Ehhez koppints a <i>Tiltólistá</i>ra, majd a jobb felső sarokban lévő szabályzóra, válaszd a <i>Szűrők frissítésé</i>t és kattints a <i>Folytatás</i>ra. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>Ha azt gyanítod, hogy a Blokada kevesebb reklámot szűr meg mint előzőleg, kérlek frissítsd a listáidat. Ehhez koppints a <i>Tiltólistá</i>ra, majd a jobb felső sarokban lévő szabályzóra, válaszd a <i>Szűrők frissítésé</i>t és kattints a <i>Folytatás</i>ra. Általában ez azért történik, mert új szerverek adódnak hozzá azokhoz a meglévőkhöz, amelyek (még) nem lettek azonosítva és hozzáadva a tiltólistához, vagy az új lista nem került a telefonra letöltésre, ezért (még) nincsenek blokkolva.<br>
+Alternatívaként több hosztlistát is engedélyezhetsz, vagy több korlátozó szűrőt adhatsz a <i>Tiltólista</i> menüben.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Kérjük, vedd figyelembe, hogy a Blokada harmadik fél által generált listákat használ, ezért ha az alkalmazás maga korábban működött és blokkolta a hirdetéseket, akkor módosítások nélkül ugyanígy kell viselkednie.</p>
 
-<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
+<h4><a name="chrome">A Blokada nem blokkolja a hirdetéseket a Chrome-ban.</a></h4>
+<p>Ha Google Chrome-ot használsz, le kell tiltanod az Adatforgalom-csökkentőt és az Async DNS-t. A Google alapértelmezetten ezt a két technológiát használja, és ezek zavarják a Blokada hoszt-blokkolását.<br>
+1. Az Adatforgalom-csökkentő letiltásához a Google Chrome alkalmazásban kattints a függőleges három pontra, menj a Beállításokba, keresd meg az "egyszerűsített módot" vagy az "adatforgalom-csökkentőt" és kapcsold ki.<br>
 2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
 4. Reboot!</p>
