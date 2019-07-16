@@ -3,14 +3,20 @@
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_please_wait">Lütfen bekleyin...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Yalnızca DNS modu</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <!-- A button to share the ads counter on social media -->
+    <string name="home_share">Arkadaşlarına söyle</string>
+    <string name="home_share_state">Blokada puanınızı paylaşın</string>
     <!-- A short text for the item that displays update information -->
     <!-- A short text for the item that displays donate link -->
+    <string name="home_account_active">Hesabınız hala aktif</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">VPN\'e bağlı</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <!-- VPN section header in menu (for configuring VPN) -->
     <!-- A button opening VPN account settings -->
@@ -21,4 +27,5 @@
     <!-- A section content promoting participating in our project -->
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_dns_remove_default">Varsayılan DNS kaldırılamaz.</string>
 </resources>
