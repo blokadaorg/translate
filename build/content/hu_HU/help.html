@@ -47,8 +47,8 @@
 <h4>Általános kérdések</h4>
 <ol>
   <li><a href="#ads">Mit tehetek, ha még mindig látok néhány reklámot?</a></li>
-  <li><a href="#kill">What can I do if Blokada stops working after a while?</a></li>
-  <li><a href="#update">I cannot install an update, what can I do?</a></li>
+  <li><a href="#kill">Mit tehetek, ha a Blokada működése megáll egy idő után?</a></li>
+  <li><a href="#update">Nem tudok egy frissítést telepíteni, mit tehetek?</a></li>
   <li><a href="#notification">El tudom rejteni a VPN értesítést?</a></li>
   <li><a href="#bug">Hogyan tudok egy problémát jelenteni, ötletet vagy javaslatot küldeni?</a></li>
   <li><a href="#private">Láthatja a Blokada a privát adataimat?</a></li>
@@ -118,45 +118,45 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p>A hirdetések blokkolása a YouTube-on nagyon nehéz, mert a Google titkosítást és véletlenszerűen generált hosztokat használ a hirdetések megjelenítéséhez. Ezért sokkal könnyebb blokkolni a hirdetéseket a YouTube alkalmazáson belül, mint egy külső eszközzel (például Blokada). A NewPipe és a YouTube Vanced a YouTube hivatalos alkalmazásának nagyszerű alternatívái, kérjük, ellenőrizd, hogy melyik felel meg a számodra.</p>
 
 <h4><a name="kill">A Blokada egy idő után leáll vagy nem működik.</a></h4>
-<p>Első lépésként engedélyezd az <i>Életben tart</i> opciót a Blokada-ban. Ebben az esetben a Blokada megpróbál online maradni, de kérlek vedd figyelembe, hogy a rendszered még így is befolyásolhatja ennek a működését. Ha beállítottad, de még így is azt látod, hogy a Blokada időről időre leáll, ellenőrizd a rendszered beállításait és próbálj kikapcsolni minden akkumulátor- és memóriaoptimalizációt ami a Blokada-ra vonatkozik. Sajnálatos módon ez minden rendszeren eltérő módon állítható be, így nem tudjuk megmondani, hol tudod megtenni. Kérlek ellenőrizd a telefonod beállításait. Egyéb forrása a fenti problémának az is lehet, ha memóriatisztító alkalmazást használsz. Ebben az esetben kérlek tedd a Blokada-t engedélyezőlistára vagy a kivételek listájára. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<p>Első lépésként engedélyezd az <i>Életben tart</i> opciót a Blokada-ban. Ebben az esetben a Blokada megpróbál online maradni, de kérlek vedd figyelembe, hogy a rendszered még így is befolyásolhatja ennek a működését. Ha beállítottad, de még így is azt látod, hogy a Blokada időről időre leáll, ellenőrizd a rendszered beállításait és próbálj kikapcsolni minden akkumulátor- és memóriaoptimalizációt ami a Blokada-ra vonatkozik. Sajnálatos módon ez minden rendszeren eltérő módon állítható be, így nem tudjuk megmondani, hol tudod megtenni. Kérlek ellenőrizd a telefonod beállításait. Egyéb forrása a fenti problémának az is lehet, ha memóriatisztító alkalmazást használsz. Ebben az esetben kérlek tedd a Blokada-t engedélyezőlistára vagy a kivételek listájára. Ha ezen lépések közül egyik sem segített, kérlek tégy egy hibajelentést (alább láthatod ennek a módját).</p>
 
-<h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<h4><a name="abplists">Nem tudom az EasyList/AdBlock Plus listákat használni a Blokada-ban.</a></h4>
+<p>Amikor megpróbálsz egy listát importálni (például az EasyList-et) ami az AdBlock Plus kiegészítővel tökéletesen működik a PC-den vagy notebook-odon, a Blokada hibát fog jelenteni. Ez azért van, mert a Blokada más metódust használ. Míg az ABP a weblap részeit és elemeit blokkolja, a Blokada ezt nem tudja megtenni, mert ez nem egy beépülő modul a böngészőben, ehelyett átirányítja a reklámszerverek felé irányuló kéréseket egy nem feloldható címre (0.0.0.0), ehhez egy hosztnév-IP lista szükséges.</p>
 
-<p>Not configurable things:</p>
+<p>Nem konfigurálható dolgok:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
-    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b>Naprakész</b>: ha ezt a kiírást látod, a legújabb Blokada verziót használod. Tartsd az alkalmazást naprakészen, mert a legfrissebb verzió mindig kevesebb hibát és több funkciót tartalmaz!</li>
+    <li><b># hirdetés blokkolva</b>: a Blokada által blokkolt tartalmak száma a Blokada első indítása óta</li>
+    <li><b># hoszt</b>: azon szerverek száma, amely hirdetéseket, rosszindulatú programokat és egyéb nem kívánt tartalmakat jelenítenek meg</li>
 </ul></p>
 
 <h4><a name="ads">Mit tehetek, ha még mindig látok néhány reklámot?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<p>Néhány reklám mindegyik reklámszűrőn átjut az Androidon. YouTube vagy néhány teljes képernyős reklám szűrése kivételesen nehéz. Ha úgy érzed, hogy több reklámot kapsz mint előtte, próbáld ki ezeket a lépéseket:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
-    <li>Make sure you don't have too many apps in the whitelist - maybe that's why you are seeing ads.</li>
-    <li>Try resetting your filters (go to the Blacklist screen and choose <i>Restore Defaults</i> from the Quick Actions menu at the top).</li>
-    <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
-    <li>Deactivate Blokada, close it (by swiping it out from the Recents screen), and turn it on again.</li>
-    <li>If you recently changed your settings (filters, whitelist, etc), remember it takes time before new configuration start working. Give it some time.</li>
-    <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
-    <li>Restart your device.</li>
-    <li>If none of those steps helped, please report a bug (see below).</li>
+    <li>Nézd meg, hogy a VPN kulcs ikon látható-e az értesítési sávon. Ha nem, indítsd el a Blokada-t.</li>
+    <li>Nyisd meg a Blokada-t és győződj meg róla, hogy aktív és nincsenek hibajelentések.</li>
+    <li>Nézd meg, hogy a hosztszámláló nem nullán áll-e. Ha nulla, válassz pár listát a tiltólistáról, hogy a reklámok blokkolva legyenek. Ha a számláló még mindig nulla, engedélyezd a tárhely hozzáférési engedélyt a Rendszerbeállítások - Alkalmazások - Blokada alatt, majd töröld az adatokat és a gyorsítótárat, és indítsd újra a készüléket.</li>
+    <li>Bizonyosodj meg róla, hogy nincs túl sok alkalmazás a kivételek között - talán emiatt látsz reklámokat.</li>
+    <li>Próbáld meg újra beállítani a szűrőket (menj a Tiltólista képernyőre, és válaszd a fenti Gyors műveletek menü <i>Alaphelyzetbe állítás</i> lehetőséget).</li>
+    <li>Ha a böngészőben hirdetéseket látsz, tilts le minden adattömörítést, vagy optimalizálást a böngésző beállításai között.</li>
+    <li>Deaktiváld a Blokada-t, zárd be (a Legutóbbi képernyőn való oldalra csúsztatással) és kapcsold be újra.</li>
+    <li>Ha épp nemrég változtattad meg a beállításokat (szűrők, kivételek, stb), ne feledd, hogy eltart egy kis ideig, míg a konfiguráció életbe lép. Adj neki egy kis időt!</li>
+    <li>Töröld a Blokada alkalmazás adatait (a rendszer beállításainál), vagy telepítsd újra.</li>
+    <li>Indítsd újra a készüléket.</li>
+    <li>Ha ezek közül a lépések közül egyik sem segített, kérlek jelentsd a hibát (lásd lejjebb)!</li>
 </ul></p>
 
 <h4><a name="update">Nem tudok egy frissítést telepíteni, mit tehetek?</a></h4>
 <p>Először is nézd meg, hogy az Android verziód 5-ös vagy újabb. A 4-es vagy annál régebbi verziók nem támogatottak a Blokada 3 vagy újabb kiadásaiban. Ezt úgy tudod megtenni, ha a telefonod Beállításaiba mész, ott legörgetsz az <i>A telefonról</i> részhez és megkeresed az <i>Android verziójá</i>t</p>
 <p>If your phone runs Andriod 5 or newer, please ensure you try to install the update from the same source that you installed Blokada initially. Different repositories add their signature keys and therefore the update may fail.</p>
-<p>Restart your device. It sounds strange, but sometimes it helps. If that didn't solve the issue, uninstall Blokada and install it again.
-<p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
+<p>Indítsd újra a készüléket. Furán hangzik, de ez néha segít. Ha ez nem oldotta meg a hibát, akkor töröld le a Blokada-t, és telepítsd újra.
+<p>Ha egyik lépés sem segített, kérlek, csatlakozz a <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> Telegram csatornánkhoz, ahol segítséget kaphatsz, vagy hibát jelenthetsz (lásd alább).</p>
 
 <h4><a name="notification">El tudom rejteni a VPN értesítést?</a></h4>
-<p>Unfortunately no. Some devices may be displaying annoying VPN notification (a key icon) while VPN is active, and it is not possible to hide it. If you can, try updating your device to Android 8 (Oreo), since newer Android versions do not have this status report.</p>
+<p>Sajnos nem. Néhány eszköz egy idegesítő VPN értesítést (egy kulcs ikont) mutat amíg a VPN aktív és ezt nem lehet eltüntetni. Ha lehetséges, frissítsd a készülékedet Android 8-ra (Oreo), mert az újabb Android verziók nem jelzik ezt az állapotot.</p>
 
 <h4><a name="bug">Hogyan tudok hibát jelenteni, ötletet vagy javaslatot küldeni?</a></h4>
-<p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
+<p>Ha hibát tapasztalsz, kérlek csatlakozz a Telegram csatornánkhoz a <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> linken, ahol a közösségünk örömmel segít. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Kérlek add meg a lehető legtöbb információt és lépést, hogy reprodukálni tudjuk a hibát - ez nagyban segít kijavítani a hibát! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
 
 <h4><a name="private">Láthatja a Blokada a privát adataimat?</a></h4>
 <p>Nem. A Blokada nem olvassa, vagy módosítja a személyes adataidat, csak felügyeli, hogy melyik kiszolgálókat szeretné elérni a készüléked és blokkolja azokat, amik egyeznek a listákon szereplőkkel. Minden alkalommal, mikor a Blokada letilt valamit, egy értesítést fogsz kapni (amit ki tudsz kapcsolni). A Blokada-nak nincs hozzáférése a titkosított forgalomhoz.</p>
