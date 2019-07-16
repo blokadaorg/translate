@@ -91,7 +91,7 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
     <li><b>Protokolování požadavků</b>: pokud je tato možnost povolena, Blokada vygeneruje soubor CSV a požadavky protokolu, které byly povoleny a/nebo blokovány aplikací.</li>
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
     <li><b>Hlídací pec</b>: pokud je volba zapnuta, Blokada se ukončí, pokud není aktivní připojení k internetu a znovu se spustí, kdykoli dojde k opětovnému připojení k internetu. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Agresivní probuzení</b>: zapněte tuto možnost, pokud vaše zařízení zastaví nebo ukončí Blokadu kvůli systémové funkci úspory energie. Ačkoli tato možnost si klade za cíl udržet Blokadu naživu na většině zařízení, systém bude mít vždy vyšší prioritu a může aplikaci zastavit, pokud není vyloučena z optimalizace paměti nebo baterie.
 </ul></p>
 
 <h4><a name="startup">Blokada nejde po instalaci spustit.</a></h4>
@@ -107,10 +107,10 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
 <p>Vezměte prosím na vědomí, že Blokada používá blocklisty třetích stran, a proto, pokud samotná aplikace dříve pracovala a blokovala reklamy, beze změn by se měla chovat stejným způsobem.</p>
 
 <h4><a name="chrome">Blokada neblokuje reklamy v Chrome.</a></h4>
-<p>Pokud používáte Google Chrome, musíte vypnout Spořič dat a Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
-2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
-3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
+<p>Pokud používáte Google Chrome, musíte vypnout Spořič dat a Async DNS. Google tyto dvě technologie používá ve výchozím nastavení a ruší blokování hostitele Blokady.<br>
+1. Chcete-li funkci Úspory dat vypnout, klepněte v prohlížeči Google Chrome na tři svislé body, přejděte do části Nastavení, vyhledejte "spořič dat" nebo "režim lite" a vypněte jej.<br>
+2. Chcete-li službu Async DNS zakázat, otevřete ve svém prohlížeči stránku "chrome://flags", vyhledejte DNS a vypněte funkci Asynchronní DNS.<br>
+3. V zařízení přejděte do části Nastavení -> Aplikace -> Chrome -> Úložiště a vymažte vyrovnávací paměť, cache.<br>
 4. Restartovat!</p>
 
 <h4><a name="youtube">Reklamy na YouTube nejsou blokovány!</a></h4>
@@ -147,7 +147,7 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
 
 <h4><a name="update">Nemohu nainstalovat aktualizaci, co mám dělat?</a></h4>
 <p>Za prvé prosím zkontrolujte, zda máte Android ve verzi 5 nebo novější. Android 4 a starší verze nejsou podporovány a Blokada ve verzi 3.0 a novějších nebude na takovém zařízení fungovat. Chcete-li zjistit, jakou verzi operačního systému Android máte, jděte do nastavení telefonu, přejděte na položku <i>O telefonu</i> a vyhledejte pole <i>Verze systému Android</i></p>
-<p>If your phone runs Andriod 5 or newer, please ensure you try to install the update from the same source that you installed Blokada initially. Different repositories add their signature keys and therefore the update may fail.</p>
+<p>Pokud je v telefonu běží systém Android 5 nebo novější, zkontrolujte, zda se pokoušíte nainstalovat aktualizaci ze stejného zdroje, ze kterého jste Blokadu původně instalovali. Různá úložiště přidávají své podpisové klíče a proto může aktualizace selhat.</p>
 <p>Restartujte zařízení. Možná to zní divně, ale někdy to může pomoci. Pokud to problém nevyřešilo, odinstalujte Blokadu a nainstalujte ji znovu.
 <p>Pokud žádný z těchto kroků nepomohl, přihlaste se ke svému účtu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> a získejte nápovědu, nebo nahlaste chybu (viz níže).</p>
 
