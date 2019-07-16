@@ -1,0 +1,147 @@
+#!/bin/bash
+# A simple script to pull English strings from sources
+# and push translated strings to sources.
+#
+# Syntax:
+# ./manage.sh app-path web-path
+#
+# Arguments:
+# - app-path - Where is Blokada app repo
+# - web-path - Where is Blokada website repo
+
+xml="filter main notification tunnel update dns gscore panel logger widget bits"
+pages="cleanup.html donate.html help.html intro.html obsolete.html updated.html help_dns.html intro_dns.html vpn.html filters.properties dns.properties"
+legacy=(ca cs de es fa fr he hr hu in it ms nl pl pt ru sl tr vi zh_CN zh_TW)
+legacy_mapped=(ca_ES cs_CZ de_DE es_ES fa_IR fr_FR he_IL hr_HR hu_HU id_ID it_IT ms_MY nl_NL pl_PL pt_PT ru_RU sl_SI tr_TR vi_VN zh_CN zh_TW)
+
+x=""
+
+function importXml {
+    cp "$src/src/legacy/res/values/strings_$x.xml" "app/strings_$x.xml"
+}
+
+function importContent {
+    cp "$src/api/v4/canonical/strings/$x" "content/$x"
+}
+
+function importWeb {
+    cp "$src/index.html" "web/index.html"
+}
+
+app=$1
+web=$2
+
+echo "app: $app"
+echo "web: $web"
+echo "xml: $xml"
+echo "pages: $pages"
+echo ""
+
+read -p "Do you want to import sources (i), export translations (e), or refetch English (r)? (i/e/r) " choice
+if [ "$choice" = "i" ]; then
+	echo "Importing app..."
+	src=$app
+	for x in $xml; do
+	    importXml
+	done
+
+	echo "Importing web..."
+	src=$web
+	importWeb
+
+	echo "Importing content..."
+	for x in $pages; do
+	    importContent
+	done
+elif [ "$choice" = "e" ]; then
+	echo "Exporting app..."
+	rm -rf $app/src/legacy/res/values-*
+	cp -rf build/app/* $app/src/legacy/res/
+
+	# English is not exported by default
+	rm -rf $app/src/legacy/res/values-en-rUS
+
+	# Some files should not be removed. Revert
+	cd $app/src/legacy/res/
+	git checkout -- values-w420dp-port
+	git checkout -- values-w840dp-land
+	git checkout -- values-w960dp
+	cd -
+
+	echo "Exporting web..."
+	rm -rf $web/lang/*
+
+	cp -rf build/web/* $web/lang/
+	cd $web
+	for D in $web/lang/*/; do
+		cp -r $web/css $D/
+		cp -r $web/js $D/
+		ln -s ../../static $D/static
+		ln -s ../../img $D/img
+	done
+	cd -
+
+	for i in ${!legacy[@]}; do
+		x=${legacy[$i]}
+		y=${legacy_mapped[$i]}
+		echo "legacy from $x to $y"
+		rm -rf $web/$x
+		mkdir $web/$x
+		cp -r $web/css $web/$x/
+		cp -r $web/js $web/$x/
+		ln -s ../static $web/$x/static
+		ln -s ../img $web/$x/img
+		cp $web/lang/$y/index.html $web/$x/
+	done
+
+	echo "Exporting content..."
+	rm -rf $web/api/v4/content/*
+
+	mkdir $web/api/v4/content/en
+	cp -r $web/api/v4/canonical/css $web/api/v4/content/en/
+	cp $web/api/v4/canonical/strings/* $web/api/v4/content/en/
+	cp $web/api/v4/canonical/defaults/* $web/api/v4/content/en/
+
+	cp -rf build/content/* $web/api/v4/content/
+	for D in $web/api/v4/content/*/; do
+		cp -r $web/api/v4/canonical/css $D/
+		cp $web/api/v4/canonical/defaults/* $D/
+		cp -n $web/api/v4/canonical/strings/* $D/
+	done
+
+	# English is not exported by default
+	rm -rf $web/api/v4/content/en_US
+
+	echo "Exporting web (dns)..."
+	rm -rf $web/api/v4/content_dns/*
+
+	mkdir $web/api/v4/content_dns/en
+	cp -r $web/api/v4/canonical/css $web/api/v4/content_dns/en/
+	cp $web/api/v4/canonical/strings/* $web/api/v4/content_dns/en/
+	cp $web/api/v4/canonical/defaults/* $web/api/v4/content_dns/en/
+
+	cp -rf build/content/* $web/api/v4/content_dns/
+	for D in $web/api/v4/content_dns/*/; do
+		cp -r $web/api/v4/canonical/css $D/
+		cp $web/api/v4/canonical/defaults/* $D/
+		cp -n $web/api/v4/canonical/strings/* $D/
+		mv $D/intro_dns.html $D/intro.html
+		mv $D/help_dns.html $D/help.html
+		mv $D/filters_dns.txt $D/filters.txt
+	done
+
+	# English is not exported by default
+	rm -rf $web/api/v4/content_dns/en_US
+
+	echo "Done. Check removed files."
+elif [ "$choice" = "r" ]; then
+	echo "Refetching English in app..."
+	cp -rf build/app/values-en-rUS/* $app/src/legacy/res/values/
+
+	echo "Refetching English in web..."
+	cp -rf build/content/en_US/*.html $web/api/v4/canonical/strings/
+
+	echo "Done. Don't forget to export."
+else
+    echo "Cancelled"
+fi
