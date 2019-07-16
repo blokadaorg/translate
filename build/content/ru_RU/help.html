@@ -52,19 +52,19 @@
   <li><a href="#notification">Can I hide the VPN notification?</a></li>
   <li><a href="#bug">How do I report a problem, idea or suggestion?</a></li>
   <li><a href="#private">Can Blokada see my private data?</a></li>
-  <li><a href="#battery">Does Blokada use a lot of battery?</a></li>
-  <li><a href="#speed">Will Blokada slow down my device?</a></li>
-  <li><a href="#free">Is Blokada really free to use?</a></li>
-  <li><a href="#contribute">Blokada is great, how can I help the project?</a></li>
-  <li><a href="#other">I have another question, where can I ask it?</a></li>
+  <li><a href="#battery">Увеличивает ли Blokada нагрузку на аккумулятор?</a></li>
+  <li><a href="#speed">Будет ли Blokada замедлять мое устройство?</a></li>
+  <li><a href="#free">Blokada действительно свободна в использовании?</a></li>
+  <li><a href="#contribute">Blokada - это здорово, как я могу помочь проекту?</a></li>
+  <li><a href="#other">У меня есть другой вопрос, где я могу его задать?</a></li>
 </ol>
 
 
-<h4><a name="adblock">Ad blocking</a></h4>
-  <p>Blokada's most known feature is ad blocking. It is a thin layer between the network interface (wifi or mobile) of your phone and the application/s you use. To be able to filter every outgoing traffic, it uses the VPN API of the device you use, and simply blocks all requests towards the hosts defined in the blocklist filters. This blocking is done with a simple "Hostname not found" report for the application is tries to access a hostname that is blocked. With this, Blokada saves both your data plan, battery life and time: no redirection is done. The filters are updated automatically. You can configure Blokada with your own custom filters and allowlists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.<br>
+<h4><a name="adblock">Блокировка рекламы</a></h4>
+  <p>Самая известная функция Blokada - блокировка рекламы. Это тонкий слой между сетевым интерфейсом (Wi-Fi или мобильной сетью) вашего устройства и используемыми вами приложениями. To be able to filter every outgoing traffic, it uses the VPN API of the device you use, and simply blocks all requests towards the hosts defined in the blocklist filters. This blocking is done with a simple "Hostname not found" report for the application is tries to access a hostname that is blocked. With this, Blokada saves both your data plan, battery life and time: no redirection is done. The filters are updated automatically. You can configure Blokada with your own custom filters and allowlists to ensure the service that you would like to use isn’t blocked and you don’t experience any interruption.<br>
   This feature is available for free, and it will stay free. Enjoy using Blokada!</p>
   <p><a name="allowlist"></a>If an app doesn't work as expected, doesn't load its content or something similar misbehaviour is experienced, please open Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Allowed Hosts</i>, tap the + sign at the top and add a single hostname or a list file containing all the hosts you want to bypass filtering.</p>
-  <p><a name="blocklist"></a> You can block individual website what isn't on a host list. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
+  <p><a name="blocklist"></a> Вы можете заблокировать отдельный веб-сайт, которого нет в списке хостов. To do it, go to Blokada's menu by swiping up, tap on <i>Ad blocking</i>, choose <i>Blocked Hosts</i> and tap the + sign at the top of the screen. Here, you can add a single hostname or a list file containing all the hosts you want to block.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>In Blokada v4 a new service is introduced, it is Blokada's own VPN. This service is brought to you to ensure your security and anonymity on the internet, no matter where you are, what you are doing. Please refer to our blog article <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">here</a> to know more about this feature.<br>
@@ -77,7 +77,7 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
 
 <h4><a name="dns">Changing DNS</a></h4>
   <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
+  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. У вашего интернет-провайдера есть собственные DNS-серверы; Blokada настроена на использование системных значений по умолчанию. Серверы из этого списка необходимо использовать, если вы подозреваете, что ваш интернет-провайдер собирает журналы о посещаемых вами сайтах и вы опасаетесь риска для приватности или если некоторые сайты или службы заблокированы для вас. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
   This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
 </p>
 
@@ -89,23 +89,23 @@ As for the payment mechanism we use Stripe and the info saved in the process is 
     <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
     <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
+    <li><b>Поддержка активности</b>: этот параметр должен обеспечивать, что Blokada не будет остановлена ​​или отключена ​​системой. Имейте в виду, что ваша система может завершить приложение, поэтому убедитесь, что ваши настройки позволяют Blokada работать в фоновом режиме.</li>
+    <li><b>Сторож</b>: при включенном параметре Blokada разъединится, если нет активного подключения, и возобновится снова при появлении интернета. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
     <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
 </ul></p>
 
-<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<h4><a name="startup">Я не могу запустить Blokada после установки.</a></h4>
+<p>Есть две общие причины для такой ситуации. Во-первых, проверьте, есть ли у вас активное VPN-соединение, и включена ли опция <i>Постоянная VPN</i>. Чтобы это сделать, зайдите в Настройки своего телефона, найдите VPN в разделе Сети, нажмите на значок настройки рядом с существующей VPN. Отключите, разъедините активное VPN-соединение и попробуйте перезапустить Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Если у вас нет другого подключения VPN, проверьте, включен ли параметр <i>Сторож</i> в расширенных настройках, и, если он включен, проверьте, подключены ли вы к интернету. Blokada не запустится, если включена опция <i>Сторож</i> и отсутствует активное подключение к интернету.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Если это не поможет, перезагрузите телефон, это тоже иногда помогает.</p>
 
-<h4><a name="refresh">Blokada blocks less ads.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<h4><a name="refresh">Blokada блокирует меньше рекламы.</a></h4>
+<p>Если вы подозреваете, что Blokada блокирует меньше рекламы, чем раньше, обновите ваши списки. Чтобы это сделать, нажмите <i>Черный список</i>, затем в правом верхнем углу на эквалайзере, выберите <i>Обновить фильтры</i> и нажмите <i>Продолжить</i>. Обычно это происходит из-за того, что новые серверы добавляются к уже существующим. Они еще (пока) не идентифицированы и не добавлены в черные списки, либо новый список не загружен на ваш телефон, поэтому они еще (пока) не заблокированы.<br>
+В качестве альтернативы вы можете включить больше списков хостов или добавить более ограничительные фильтры в меню <i>Черного списка</i>.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Обратите внимание, что Blokada использует сторонние списки, поэтому, если само приложение работало ранее и блокировало рекламу, оно должно вести себя так же без каких-либо изменений.</p>
 
 <h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
 <p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
@@ -114,18 +114,18 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
 4. Reboot!</p>
 
-<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<h4><a name="youtube">Реклама на YouTube не заблокирована!</a></h4>
+<p>Блокировка рекламы на YouTube очень сложна, поскольку Google использует шифрование и случайно созданные хосты для показа рекламы. Поэтому гораздо проще блокировать рекламу в YT с помощью внешнего инструмента (например, Blokada). NewPipe и YouTube Vanced являются отличными альтернативами официального приложения YouTube. Пожалуйста, оцените возможность перехода на них.</p>
 
-<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
-<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
+<h4><a name="kill">Blokada перестает работать через некоторое время.</a></h4>
+<p>В качестве первого шага включите в Blokada <i>Держать активным</i>. В этом случае Blokada попытается остаться в сети, но, пожалуйста, имейте в виду, что ваша система может повлиять на это поведение. Если вы включили это, но по-прежнему видите, что Blokada время от времени останавливается, проверьте настройки вашей системы и отключите оптимизацию батареи и памяти для Blokada. К сожалению, этот вариант отличается в зависимости от устройства, поэтому мы не можем подсказать где это сделать. Проверьте настройки вашего телефона. Другой причиной подобного поведения может быть то, что вы используете приложение для очистки памяти. Пожалуйста, добавьте Blokada в белый список или список исключений. Если это не помогло, в этом случае сообщите об ошибке (см. ниже, как это сделать).</p>
 
-<h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, instead it redirects the accesses to the ad-server to a non-routable address (0.0.0.0), therefore it needs a hostname-IP list.</p>
+<h4><a name="abplists">Я не могу импортировать список EasyList/AdBlock Plus в Blokada.</a></h4>
+<p>Если вы попытаетесь импортировать список (например, EasyList), который очень хорошо работает с вашим расширением AdBlock Plus на вашем ПК или ноутбуке, Blokada сообщит об ошибке. Это связано с тем, что Blokada использует другой метод блокировки рекламы. ABP блокирует и скрывает элементы или части веб-сайта, Blokada не может этого сделать, потому что не является плагином браузера. Blokada перенаправляет обращения к серверу рекламы на немаршрутизируемый адрес (0.0.0.0), поэтому Blokada необходим список имен хостов-IP.</p>
 
-<p>Not configurable things:</p>
+<p>Не являются настройками:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b>Обновлений не найдено</b>: если вы видите это, значит используется самая последняя версия Blokada. Держите приложение в актуальном состоянии, поскольку новая версия имеет меньше ошибок и больше возможностей!</li>
     <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
     <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
 </ul></p>
