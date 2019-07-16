@@ -3,17 +3,24 @@
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_blokada_disabled">Blokada devre dışı bırakıldı</string>
     <string name="home_please_wait">Lütfen bekleyin...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Yalnızca DNS modu</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_touch">DNS kurulumu için dokunun</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked">%s engellendi</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Arkadaşlarına söyle</string>
     <string name="home_share_state">Blokada puanınızı paylaşın</string>
+    <string name="home_adblocking_enabled">Reklam engelleme etkin</string>
+    <string name="home_adblocking_disabled">Reklam engelleme devre dışı bırakıldı</string>
     <!-- A short text for the item that displays update information -->
     <!-- A short text for the item that displays donate link -->
+    <string name="home_vpn_enabled">VPN aktif</string>
+    <string name="home_vpn_disabled">VPN devre dışı bırakıldı</string>
     <string name="home_account_active">Hesabınız hala aktif</string>
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">VPN\'e bağlı</string>
@@ -21,6 +28,10 @@
     <!-- VPN section header in menu (for configuring VPN) -->
     <!-- A button opening VPN account settings -->
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_manage_subscription">Hesap aboneliğinizi yönetin</string>
+    <string name="menu_dns_intro">DNS, kullandığınız web sitelerinin ve uygulamaların IP adreslerini çevirmekten sorumludur. İyi bir DNS seçmek, cihazınızı hızlandırabilir ve gizliliğinizin korunmasına yardımcı olur.</string>
+    <string name="menu_dns_select">DNS sunucularından birini seçin.</string>
+    <string name="menu_host_whitelist">Buraya eklediğiniz hostlar hiçbir zaman engellenmeyecek. Örneğin, ziyaret ettiğiniz bir web sitesi yanlışlıkla engellendiğinde bu listeyi kullanın.</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
