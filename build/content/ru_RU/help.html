@@ -88,10 +88,10 @@
     <li><b>Запуск при загрузке</b>: при включении, Blokada будет запускаться после загрузки системы. Обратите внимание, что для этой опции могут существовать конфигурации системного уровня, поэтому запуск Blokada при загрузке не может быть гарантирован. В этом случае проверьте настройки телефона. Настройка по умолчанию включена, если вы хотите запускать Blokada вручную, отключите эту опцию.</li>
     <li><b>Расположение настроек</b>: где вы хотите хранить конфигурацию: во внутреннем или внешнем хранилище? Если вы вы выберете внешнее, файлы будут доступны в каталоге /Download/Blokada.</li>
     <li><b>Фоновая анимация</b>: можно включить или выключить фоновую анимацию, отображающую волны. Белые волны означают разрешенные запросы, а оранжевые - заблокированные.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
+    <li><b>Регистратор запросов</b>: при включении этого параметра Blokada будет генерировать CSV-файл и регистрировать запросы, которые были разрешены и/или заблокированы.</li>
     <li><b>Поддержка активности</b>: этот параметр должен обеспечивать, что Blokada не будет остановлена ​​или отключена ​​системой. Имейте в виду, что ваша система может завершить приложение, поэтому убедитесь, что ваши настройки позволяют Blokada работать в фоновом режиме.</li>
     <li><b>Сторож</b>: при включенном параметре Blokada разъединится, если нет активного подключения, и возобновится снова при появлении интернета. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Агрессивное пробуждение</b>: включите эту опцию, если настройки энергосбережения устройства отключают или убивают Blokada. Несмотря на то, что эта опция предназначена для сохранения работоспособности Blokada на большинстве устройств, система всегда будет иметь более высокий приоритет и может остановить приложение, если оно не исключено для оптимизации памяти или батареи.
 </ul></p>
 
 <h4><a name="startup">Я не могу запустить Blokada после установки.</a></h4>
@@ -107,10 +107,10 @@
 
 <p>Обратите внимание, что Blokada использует сторонние списки, поэтому, если само приложение работало ранее и блокировало рекламу, оно должно вести себя так же без каких-либо изменений.</p>
 
-<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
-2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
+<h4><a name="chrome">Blokada не блокирует рекламу в Chrome.</a></h4>
+<p>Если вы используете Google Chrome, необходимо отключить функции экономии трафика и Async DNS. Google использует эти две технологии по умолчанию, и они препятствуют блокировке хостов Blokada.<br>
+1. Чтобы отключить функцию экономии трафика, коснитесь трех вертикальных точек в Google Chrome, перейдите в Настройки, найдите пункт "Экономия трафика" или "Режим Lite" и отключите его.<br>
+2. Чтобы отключить Async DNS, откройте страницу "chrome://flags" в браузере, найдите DNS и отключите флаг Asynchronous DNS.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
 4. Перезагрузить!</p>
 
