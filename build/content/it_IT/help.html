@@ -88,36 +88,35 @@ Per quanto riguarda le forme di pagamento, noi usiamo Stripe, e le informazioni 
     <li><b>Avvia al boot</b>: se abilitata, Blokada si avvierà subito dopo l'avvio del sistema. Tuttavia, questa opzione dipende da alcuni livelli di configurazione del sistema, perciò non può essere garantito l'avvio automatico di Blokada al boot. Pertanto, controlla le impostazioni del tuo dispositivo. Per configurazione predefinita, questa opzione è abilitata, se desideri avviare manualmente Blokada, disabilitala.</li>
     <li><b>Impostazioni posizione</b>: dove vuoi memorizzare la configurazione, nella memoria interna o esterna? Se scegli quella esterna, i file saranno disponibili nella cartella /Download/Blokada.</li>
     <li><b>Animazione sfondo</b>: è possibile abilitare o disabilitare l'animazione dello sfondo, mostrando le onde. Le onde bianche rappresentano le richieste consentite dall'host mentre quelle arancioni sono quelle bloccate.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Richiesta logger</b>: quando abilitato, Blokada genererà un file CSV e le richieste di log che sono state consentite e/o bloccate dall'app.</li>
+    <li><b>Mantieni attivo</b>: questa opzione aiuta Blokada a non venire messa in pausa o bloccata dal sistema. Il tuo sistema potrebbe aggirare questa opzione, assicurati che le tue impostazioni permettano a Blokada di funzionare in background.</li>
+    <li><b>Watchdog</b>: quando è attiva, Blokada verrà disabilitata in assenza di connessioni attive e ripartirà non appena sarà nuovamente disponibile una connessione. Se disabilitata, Blokada continuerà a funzionare in background (anche in assenza di una connessione). Attenzione, questa opzione potrebbe non funzionare in ogni dispositivo.</li>
+    <li><b>Forza risveglio</b>: abilita questa opzione se il dispositivo blocca o chiude Blokada a causa della funzione di risparmio energetico del dispositivo. Anche se questa opzione mira a mantenere attiva Blokada sulla maggior parte dei dispositivi, il sistema avrà sempre una priorità maggiore e può fermare l'app se non è esclusa dall'ottimizzazione della memoria o della batteria.
 </ul></p>
 
-<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<h4><a name="startup">Dopo averla installata, non riesco a far partire Blokada.</a></h4>
+<p>Comunemente, ci sono due possibili cause per questo problema. Anzitutto, controlla se hai una connessione VPN attiva e se un'opzione del tipo <i>VPN sempre attiva</i> è abilitata. Per farlo, vai nelle Impostazioni del tuo dispositivo, cerca "VPN" nella sezione wireless e reti, clicca sul simbolo dell'ingranaggio vicino al nome della VPN e disabilitala. A questo punto, scollega anche una eventuale VPN attiva e prova a far ripartire Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Se non hai altre connessioni VPN, controlla se l'opzione <i>Watchdog</i> è attiva nelle Impostazioni Avanzate, se sì, controlla se sei connesso ad Internet tramite WiFi o Dati mobili. Blokada non entrerà in funzione se l'opzione <i>Watchdog</i> è attiva ma non sei connesso ad Internet.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Se ciò non è stato d'aiuto, prova a riavviare il tuo dispositivo, certe volte aiuta.</p>
 
-<h4><a name="refresh">Blokada blocks less ads.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<h4><a name="refresh">Blokada blocca meno pubblicità.</a></h4>
+<p>Se sospetti che Blokada stia bloccando meno pubblicità di quante non facesse prima, per favore aggiorna le tue liste. Per farlo, clicca su <i>Blacklist</i>, poi nell'angolo in alto a destra sul simbolo dell'equalizzatore, scegli <i>Aggiorna filtri</i> e infine su <i>Continua</i>. In genere, questo accade perché sono stati aggiungi nuovi server nella lista preesistente che non sono (ancora) stati identificati e aggiunti alla blacklist, oppure la nuova lista non è stata scaricata correttamente sul tuo telefono, o perché non sono stati (ancora) bloccati.<br>In alternativa, puoi abilitare più liste o aggiungere filtri più restrittivi dal menù <i>Blacklist</i>.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Nota bene: Blokada usa liste di terze parti, pertanto se inizialmente funzionava bene e bloccava le pubblicità, senza modifiche di alcun tipo dovrebbe funzionare allo stesso modo.</p>
 
-<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
-2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
-3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
-4. Reboot!</p>
+<h4><a name="chrome">Blokada non blocca le pubblicità su Chrome.</a></h4>
+<p>Se stai usando Google Chrome, devi disabilitare la Modalità Lite e il DNS Async. Google utilizza queste due tecnologie per impostazione predefinita, ma queste interferiscono con il blocco degli host di Blokada.<br>
+1. Per disabilitare la Modalità Lite, tocca i tre punti verticali di Google Chrome, vai in Impostazioni, cerca "Risparmio Dati" o "Modalità Lite" e disabilitalo.<br>
+2. Per disabilitare il DNS Async, apri la pagina "chrome://flags" nel tuo browser, cerca il DNS e disabilita la funzionalità DNS Asynchronous.<br>
+3. Sul tuo dispositivo, vai su Impostazioni -> Applicazioni -> Chrome -> Spazio di archiviazione e Svuota cache.<br>
+4. Riavvia!</p>
 
-<h4><a name="youtube">Ads in YouTube aren't blocked!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<h4><a name="youtube">Le pubblicità su YouTube non vengono bloccate!</a></h4>
+<p>Bloccare le pubblicità su YouTube è molto difficile, questo perché Google utilizza, per i suoi annunci, crittografia e host generati casualmente. Perciò, per bloccare le pubblicità, è molto più semplice bloccarle dall'interno dell'applicazione stessa e non tramite un'applicazione esterna (come Blokada). NewPipe e YouTube Vanced sono ottime applicazioni alternative a quella ufficiale di YouTube, ricche di funzioni, provale per vedere qual è quella più adatta alle tue esigenze.</p>
 
-<h4><a name="kill">Blokada stops to function/work after a while.</a></h4>
+<h4><a name="kill">Dopo un po', Blokada smette di funzionare.</a></h4>
 <p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on whitelist or exclude list. If non of this steps helped in your case, please report a bug (see below how to do it).</p>
 
 <h4><a name="abplists">I can't import EasyList/AdBlock Plus list into Blokada.</a></h4>
