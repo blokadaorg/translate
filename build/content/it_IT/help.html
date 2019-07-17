@@ -69,25 +69,25 @@
 <h4><a name="vpn">VPN</a></h4>
   <p>In Blokada v4 viene introdotto un nuovo servizio, la VPN di Blokada. Questo servizio è reso disponibile per garantire la tua sicurezza e anonimato su Internet, indipendentemente da dove ti trovi e cosa stai facendo. Si prega di fare riferimento al nostro articolo sul blog, <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">qui</a>, per saperne di più su questa funzionalità.<br>
   Questo servizio costa 5€/mese. Per favore leggi i nostri Termini di Servizio <a href="https://vpn.blocka.net/tos.html">qui</a> e l'Informativa sulla Privacy <a href="https://vpn.blocka.net/privacy.html">qui</a> prima di iscriverti.
-  In questa sezione sarai in grado di gestire il tuo account VPN. From here you’ll be able to:<br>
-  - Activate an account<br>
-  - Restore your account<br>
-  - Select the gateway to connect to<br>
-As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your suscription safely.</p>
+  In questa sezione sarai in grado di gestire il tuo account VPN. Da qui potrai:<br>
+  - Attivare un account<br>
+  - Ripristinare il tuo account<br>
+  - Selezionare un gateway al quale connetterti<br>
+Per quanto riguarda le forme di pagamento, noi usiamo Stripe, e le informazioni salvate nel processo sono utilizzate solo per verificare i pagamenti e mantenere le informazioni sufficienti per poter attivare l'account e consentirti di gestire il tuo abbonamento in modo sicuro.</p>
 
-<h4><a name="dns">Changing DNS</a></h4>
-  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+<h4><a name="dns">Cambio DNS</a></h4>
+  <p>L'altra funzione comunemente utilizzata in Blokada è il cambio dei server DNS. L'applicazione fornisce un elenco di server DNS predefiniti tra cui puoi scegliere.<br>
+  L'acronimo DNS sta per Domain Name System e questi server servono per tradurre i nomi di dominio (ad esempio: <i>mioesempio.com</i>) in indirizzi IP, che vengono usati tra due macchine per comunicare. Il tuo provider internet utilizza i propri server DNS; Blokada è configurata per usare quelli predefiniti dal sistema. Se sospetti che alcuni siti o servizi vengono bloccati per te, o credi che il tuo ISP raccolga informazioni circa il tuo uso di internet, puoi scegliere dei DNS più sicuri da questa lista. Non ce n'è uno "migliore", tutto dipende dalle tue preferenze e posizione, quindi se vuoi utilizzare dei server DNS personalizzati, leggi la loro descrizione, cercali su internet e leggi le opinioni.<br>
+  Questa sezione DNS funzionerà con o senza VPN attiva, quindi il DNS di tua scelta sarà quello utilizzato con o senza il servizio VPN. Inoltre, considera che Blokada v4 non supporta ancora DoH/DoT, questi saranno implementati a breve dopo la versione 4.
 </p>
 
-<h4><a name="settings">What are the available settings in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<h4><a name="settings">Quali sono le impostazioni disponibili in Blokada?</a></h4>
+<p>Come sicuramente avrai notato, Blokada ha alcune opzioni nella schermata Impostazioni. Potrai notare le seguenti:</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
+    <li><b>Notifiche</b>: se abilitata, riceverai una notifica ogni qual volta una pubblicità viene bloccata. L'opzione è attiva di default, ma se ricevi troppe notifiche puoi disabilitarla.</li>
+    <li><b>Avvia al boot</b>: se abilitata, Blokada si avvierà subito dopo l'avvio del sistema. Tuttavia, questa opzione dipende da alcuni livelli di configurazione del sistema, perciò non può essere garantito l'avvio automatico di Blokada al boot. Pertanto, controlla le impostazioni del tuo dispositivo. Per configurazione predefinita, questa opzione è abilitata, se desideri avviare manualmente Blokada, disabilitala.</li>
+    <li><b>Impostazioni posizione</b>: dove vuoi memorizzare la configurazione, nella memoria interna o esterna? Se scegli quella esterna, i file saranno disponibili nella cartella /Download/Blokada.</li>
+    <li><b>Animazione sfondo</b>: è possibile abilitare o disabilitare l'animazione dello sfondo, mostrando le onde. Le onde bianche rappresentano le richieste consentite dall'host mentre quelle arancioni sono quelle bloccate.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
     <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
     <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
