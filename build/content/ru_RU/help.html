@@ -69,25 +69,25 @@
 <h4><a name="vpn">VPN</a></h4>
   <p>В Blokada v4 добавлен новый сервис - собственный VPN от Blokada. Эта услуга предоставляется вам для обеспечения вашей защищенности и анонимности в интернете, независимо от того, где вы находитесь и что делаете. Пожалуйста, ознакомьтесь со статьей в нашем блоге <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">здесь</a>, чтобы узнать больше об этой функции.<br>
   Эта услуга стоит / месяц. Пожалуйста, ознакомьтесь с нашими Условиями предоставления услуг <a href="https://vpn.blocka.net/tos.html">здесь</a> и Политикой конфиденциальности <a href="https://vpn.blocka.net/privacy.html">здесь</a> перед регистрацией.
-  In this section you’ll be able to manage your VPN account. From here you’ll be able to:<br>
-  - Activate an account<br>
-  - Restore your account<br>
-  - Select the gateway to connect to<br>
-As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your suscription safely.</p>
+  В этом разделе вы сможете управлять своей учетной записью VPN. Отсюда вы сможете:<br>
+  - Активировать учетную запись<br>
+  - Восстановить учетную запись<br>
+  - Выбрать шлюз для подключения<br>.
+Что касается механизма оплаты, то мы используем Stripe, и информация, сохраненная в процессе оплаты, используется только для верификации платежей и хранения информации, достаточной для активации счета и безопасного управления подпиской.</p>
 
 <h4><a name="dns">Изменение DNS</a></h4>
-  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. У вашего интернет-провайдера есть собственные DNS-серверы; Blokada настроена на использование системных значений по умолчанию. Серверы из этого списка необходимо использовать, если вы подозреваете, что ваш интернет-провайдер собирает журналы о посещаемых вами сайтах и вы опасаетесь риска для приватности или если некоторые сайты или службы заблокированы для вас. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+  <p>Другой часто используемой функцией Blokada является смена DNS-сервера. В приложении предварительно определенны DNS-сервера, которые можно выбирать.<br>
+  Аббревиатура DNS означает систему доменных имен и представляет собой серверы, отвечающие за получение IP-адреса по имени домена (например: <i>myexample.com</i>). У вашего интернет-провайдера есть собственные DNS-серверы; Blokada настроена на использование системных значений по умолчанию. Серверы из этого списка необходимо использовать, если вы подозреваете, что ваш интернет-провайдер собирает журналы о посещаемых вами сайтах и вы опасаетесь риска для приватности или если некоторые сайты или службы заблокированы для вас. Нет никакого "лучшего", все зависит от ваших предпочтений и местоположения, поэтому если вы хотите использовать пользовательские DNS-серверы, пожалуйста, прочитайте их описание, найдите их в интернете и прочитайте отзывы.<br>
+  Этот раздел DNS будет работать с активным VPN-подключением или без него, поэтому выбранный вами DNS-сервер будет использоваться с сервисом VPN или без него. Также следует учитывать, что с v4 Blokada пока не поддерживает DoH/DoT, но это будет реализовано вскоре после релиза v4.
 </p>
 
-<h4><a name="settings">What are the available settings in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. Вы можете увидеть следующее:</p>
+<h4><a name="settings">Какие настройки доступны в Blokada?</a></h4>
+<p>Как вы, конечно же, видели, у Blokada есть несколько опций на экране настроек. Вы можете увидеть следующее:</p>
 <p><ul>
     <li><b>Уведомления</b>: при включении вы будете уведомлены о каждой блокировке рекламы. Они включены по умолчанию. Если вы получаете много уведомлений - отключите их.</li>
     <li><b>Запуск при загрузке</b>: при включении, Blokada будет запускаться после загрузки системы. Обратите внимание, что для этой опции могут существовать конфигурации системного уровня, поэтому запуск Blokada при загрузке не может быть гарантирован. В этом случае проверьте настройки телефона. Настройка по умолчанию включена, если вы хотите запускать Blokada вручную, отключите эту опцию.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
+    <li><b>Расположение настроек</b>: где вы хотите хранить конфигурацию: во внутреннем или внешнем хранилище? Если вы вы выберете внешнее, файлы будут доступны в каталоге /Download/Blokada.</li>
+    <li><b>Фоновая анимация</b>: можно включить или выключить фоновую анимацию, отображающую волны. Белые волны означают разрешенные запросы, а оранжевые - заблокированные.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
     <li><b>Поддержка активности</b>: этот параметр должен обеспечивать, что Blokada не будет остановлена ​​или отключена ​​системой. Имейте в виду, что ваша система может завершить приложение, поэтому убедитесь, что ваши настройки позволяют Blokada работать в фоновом режиме.</li>
     <li><b>Сторож</b>: при включенном параметре Blokada разъединится, если нет активного подключения, и возобновится снова при появлении интернета. Если отключено, Blokada всегда будет работать в фоновом режиме (даже если сеть недоступна). Обратите внимание, что этот параметр может работать не на всех устройствах.</li>
