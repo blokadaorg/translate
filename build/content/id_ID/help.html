@@ -31,32 +31,32 @@
   <li><a href="#adblock">Pemblokiran iklan</a></li>
   <li><a href="#vpn">VPN</a></li>
   <li><a href="#dns">Mengganti DNS</a></li>
-  <li><a href="#settings">Pengaturan</a></li>
+  <li><a href="#pengaturan">Pengaturan</a></li>
 </ol>
 
 <h4>Situasi yang diketahui</h4>
 <ol>
   <li><a href="#startup">Saya tidak bisa mengaktifkan Blokada setelah saya menginstalnya.</a></li>
-  <li><a href="#refresh">Blokada memblokir lebih sedikit iklan dibandingkan dengan sebelumnya.</a></li>
+  <li><a href="#segarkan">Blokada memblokir lebih sedikit iklan dibandingkan dengan sebelumnya.</a></li>
   <li><a href="#chrome">Blokada tidak memblokir iklan di Chrome.</a></li>
   <li><a href="#youtube">Iklan di YouTube tidak diblokir!</a></li>
-  <li><a href="#kill">Blokada berhenti berfungsi/bekerja setelah beberapa saat.</li>
+  <li><a href="#matikan">Blokada berhenti berfungsi/bekerja setelah beberapa saat.</li>
   <li><a href="#abplists">Saya tidak dapat mengimpor daftar EasyList/AdBlock Plus ke dalam Blokada.</a></li>
 </ol>
 
 <h4>Pertanyaan Umum</h4>
 <ol>
-  <li><a href="#ads">Apa yang bisa saya lakukan jika masih ada iklan yang muncul di perangkat saya?</a></li>
-  <li><a href="#kill">Apa yang bisa saya lakukan jika Blokada berhenti bekerja setelah beberapa saat?</a></li>
-  <li><a href="#update">Saya tidak bisa menginstal pembaruan, apa yang bisa saya lakukan?</a></li>
-  <li><a href="#notification">Dapatkah saya menyembunyikan notifikasi VPN?</a></li>
+  <li><a href="#iklan">Apa yang bisa saya lakukan jika masih ada iklan yang muncul di perangkat saya?</a></li>
+  <li><a href="#matikan">Apa yang bisa saya lakukan jika Blokada berhenti bekerja setelah beberapa saat?</a></li>
+  <li><a href="#pembaruan">Saya tidak bisa menginstal pembaruan, apa yang bisa saya lakukan?</a></li>
+  <li><a href="#notifikasi">Dapatkah saya menyembunyikan notifikasi VPN?</a></li>
   <li><a href="#bug">Bagaimana cara melaporkan masalah, mengajukan ide atau saran?</a></li>
-  <li><a href="#private">Bisakah Blokada melihat data pribadi saya?</a></li>
-  <li><a href="#battery">Apakah Blokada boros baterai?</a></li>
-  <li><a href="#speed">Akankah Blokada memperlambat perangkat saya?</a></li>
-  <li><a href="#free">Apakah Blokada benar-benar gratis untuk digunakan?</a></li>
-  <li><a href="#contribute">Blokada bagus, bagaimana saya bisa membantu proyek ini?</a></li>
-  <li><a href="#other">Saya punya pertanyaan lain, kemana saya bisa bertanya?</a></li>
+  <li><a href="#rahasia">Bisakah Blokada melihat data pribadi saya?</a></li>
+  <li><a href="#baterai">Apakah Blokada boros baterai?</a></li>
+  <li><a href="#kecepatan">Akankah Blokada memperlambat perangkat saya?</a></li>
+  <li><a href="#gratis">Apakah Blokada benar-benar gratis untuk digunakan?</a></li>
+  <li><a href="#kontribusi">Blokada bagus, bagaimana saya bisa membantu proyek ini?</a></li>
+  <li><a href="#lainlain">Saya punya pertanyaan lain, kemana saya bisa bertanya?</a></li>
 </ol>
 
 
@@ -130,20 +130,20 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
     <li><b># host</b>: jumlah server yang menyajikan iklan, malware, dan konten yang tidak diinginkan lainnya</li>
 </ul></p>
 
-<h4><a name="ads">What can I do if I still see some ads?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<h4><a name="ads">Apa yang bisa saya lakukan jika masih ada iklan yang muncul di perangkat saya?</a></h4>
+<p>Beberapa iklan akan tetap bisa lolos dengan pemblokir iklan apa pun yang ada di Android. Khususnya iklan YouTube atau beberapa iklan popup layar penuh yang sulit untuk diblokir. Jika menurut Anda iklan lebih sering muncul dibandingkan sebelumnya, coba ikuti langkah-langkah ini:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
-    <li>Make sure you don't have too many apps in the whitelist - maybe that's why you are seeing ads.</li>
-    <li>Try resetting your filters (go to the Blacklist screen and choose <i>Restore Defaults</i> from the Quick Actions menu at the top).</li>
-    <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
-    <li>Deactivate Blokada, close it (by swiping it out from the Recents screen), and turn it on again.</li>
-    <li>If you recently changed your settings (filters, whitelist, etc), remember it takes time before new configuration start working. Give it some time.</li>
-    <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
-    <li>Restart your device.</li>
-    <li>If none of those steps helped, please report a bug (see below).</li>
+    <li>Periksa apakah ikon VPN berbentuk kunci ada di status bar di bagian atas. Jika tidak, aktifkan Blokada.</li>
+    <li>Buka Blokada dan periksa apakah sudah aktif dan tidak ada laporan kesalahan.</li>
+    <li>Pastikan penghitung host tidak sama dengan nol. Jika angka host yang ditampilkan adalah 0, pilih beberapa filter blacklist sehingga iklan dapat diblokir. Jika angka yang tertera masih juga 0 (nol), berikan izin kepada Blokada untuk mengakses media penyimpanan di bagian Pengaturan Sistem - Aplikasi - Blokada, kemudian hapus data dan cache kemudian reboot perangkat Anda.</li>
+    <li>Pastikan juga Anda tidak memasukkan terlalu banyak aplikasi ke dalam whitelist - hal ini bisa jadi penyebab kenapa masih ada iklan di perangkat Anda.</li>
+    <li>Cobalah untuk mengatur ulang filter Anda (masuk ke layar Blacklist dan pilih <i>Pulihkan Standar</i> dari menu Tindakan Cepat di bagian atas).</li>
+    <li>Jika Anda melihat iklan di browser Anda, nonaktifkan segala jenis kompresi data atau pengoptimalan di pengaturan browser.</li>
+    <li>Nonaktifkan Blokada, tutup (dengan menggesernya keluar dari layar Baru), dan aktifkan kembali.</li>
+    <li>Jika Anda belakangan ini mengubah setelan (filter, whitelist, dll.), harap diingat bahwa perlu waktu sebelum konfigurasi yang baru mulai aktif dan bekerja. Tunggu sebentar.</li>
+    <li>Hapus data aplikasi untuk Blokada (dalam pengaturan sistem), atau instal ulang.</li>
+    <li>Mulai ulang/reboot perangkat Anda.</li>
+    <li>Jika langkah-langkah di atas tetap tidak membantu, laporkan bug (lihat di bawah).</li>
 </ul></p>
 
 <h4><a name="update">Saya tidak bisa menginstal pembaruan, apa yang bisa saya lakukan?</a></h4>
