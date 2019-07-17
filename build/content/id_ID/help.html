@@ -91,25 +91,25 @@ DNS adalah singkatan dari Domain Name Server dan server inilah yang bertanggung 
     <li><b>Permintaan Log</b>: jika diaktifkan, Blokada akan membuat file berformat CSV berisi log permintaan akses yang telah diblokir dan/atau diizinkan untuk diakses oleh Blokada.</li>
     <li><b>Tetap Hidup</b>: pilihan ini adalah untuk memastikan Blokada tidak berhenti atau dihentikan oleh sistem. Harap diingat sistem Anda dapat mengambil alih pengaturan ini, pastikan pengaturan Anda akan mengizinkan Blokada untuk aktif di latar belakang.</li>
     <li><b>Watchdog</b>: jika diaktifkan maka Blokada akan berhenti bekerja ketika perangkat Anda tidak terkoneksi ke internet, dan akan mulai bekerja kembali ketika perangkat Anda sudah terkoneksi. Jika dinonaktifkan, Blokada akan selalu berjalan di latar belakang (meskipun tidak ada jaringan). Harap diingat bahwa opsi ini mungkin tidak berfungsi pada perangkat tertentu.</li>
-    <li><b>Penggugah Agresif</b>: aktifkan pilihan ini jika perangkat Anda menghentikan atau mematikan Blokada dikarenakan fitur penghemat daya. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Penggugah Agresif</b>: aktifkan pilihan ini jika perangkat Anda menghentikan atau mematikan Blokada dikarenakan fitur penghemat daya. Walaupun pilihan ini ditujukan untuk tetap mengaktifkan Blokada di sebagian besar perangkat, sistem perangkat Anda akan selalu memiliki prioritas teratas dan bisa menonaktifkan Blokada jika tidak dikecualikan dari fitur optimisasi memori atau baterai.
 </ul></p>
 
-<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<h4><a name="startup">Saya tidak bisa mengaktifkan Blokada setelah saya menginstalnya.</a></h4>
+<p>Ada dua penyebab umum untuk situasi seperti ini. Pertama, periksa apakah Anda memiliki koneksi VPN yang aktif dan apakah pilihan <i>VPN selalu-hidup</i> diaktifkan. Untuk melakukannya, buka pengaturan telepon Anda, cari VPN di bagian jaringan, tekan ikon roda gigi di sebelah nama VPN pilihan Anda. Nonaktifkan, kemudian lepaskan dari sambungan VPN aktif dan cobalah untuk me-restart Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Jika Anda tidak memiliki koneksi VPN lain yang sedang aktif, periksa apakah <i>Watchdog</i> diaktifkan di Pengaturan Lanjut, jika pengaturan tersebut aktif, periksa kembali apakah Anda tersambung ke jaringan seluler/Wi-Fi. Blokada tidak akan bekerja jika <i>Watchdog</i> sudah diaktifkan dan Anda tidak terkoneksi ke internet.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Jika langkah-langkah tersebut tidak membantu, start ulang telepon Anda, kadangkala hal tersebut juga bisa membantu menyelesaikan masalah.</p>
 
-<h4><a name="refresh">Blokada blocks less ads.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<h4><a name="refresh">Blokada memblokir lebih sedikit iklan dibandingkan dengan sebelumnya.</a></h4>
+<p>Jika Anda menduga Blokada memblokir lebih sedikit iklan daripada sebelumnya, harap segarkan daftar Anda. Untuk melakukannya, tekan <i>Blacklist</i>, lalu di sudut kanan atas pada ikon equalizer, pilih <i>Segarkan filter</i> dan tekan pada <i>Lanjutkan</i>. Biasanya hal itu terjadi karena server baru ditambahkan ke daftar server yang sudah ada dan tidak (atau belum) diidentifikasi dan ditambahkan ke dalam blacklist, atau daftar baru tidak diunduh ke ponsel Anda, sehingga iklan tersebut belum bisa diblokir. <br>
+Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menambahkan filter yang lebih ketat di menu <i>Blacklist</i>.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Harap diingat bahwa Blokada menggunakan daftar pihak ke-3, oleh karena itu jika sebelum pembaruan Blokada berfungsi sebagaimana mestinya dan masih memblokir iklan, maka Blokada seharusnya tetap berfungsi.</p>
 
-<h4><a name="chrome">Blokada doesn't block ads in Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
+<h4><a name="chrome">Blokada tidak memblokir iklan di Chrome.</a></h4>
+<p>Jika Anda menggunakan Google Chrome, Anda perlu menonaktifkan Data Saver dan Async DNS. Google menggunakan dua teknologi tersebut secara default dan dua hal itu mengganggu kinerja Blokada dalam hal pemblokiran iklan.<br>
+1. Untuk menonaktifkan Data Saver, buka Pengaturan, cari "Data Saver" atau "Lite Mode", kemudian nonaktifkan.<br>
 2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
 4. Reboot!</p>
