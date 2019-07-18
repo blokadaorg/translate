@@ -30,7 +30,7 @@
     <string name="home_vpn_disabled">VPN вимкнено</string>
     <string name="home_account_active">Ваша підписка активна</string>
     <string name="home_connecting_vpn">Приєднання до VPN</string>
-    <string name="home_cleanup">Рекомендована очистка</string>
+    <string name="home_cleanup">Рекомендовано очищення</string>
     <!-- A short text for the button to change VPN settings -->
     <string name="home_change_vpn">Змінити</string>
     <string name="home_connected_vpn">Підключено до VPN</string>
@@ -43,7 +43,7 @@
     <string name="menu_ads_log_label">Глянути, що було недавно блоковано чи дозволено.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">VPN</string>
-    <string name="menu_vpn_activate_account">Будь ласка, активуйте Ваш аккаунт.</string>
+    <string name="menu_vpn_activate_account">Будь ласка, активуйте Вашу підписку.</string>
     <string name="menu_vpn_select_gateway">Оберіть шлюз для підключення.</string>
     <string name="menu_vpn_intro_button">Чому VPN?</string>
     <!-- A button opening VPN account settings -->
@@ -61,7 +61,7 @@
     <string name="menu_dns_select">Оберіть один з DNS серверів.</string>
     <string name="menu_apps_intro">Деякі додатки можуть працювати неправильно із Blokada. Наприклад, вони можуть мати проблеми зі з\'єднанням.\n\nАктивація VPN часто допомагає у таких ситуаціях.\n\nАбо ж Ви можете пропустити блокування для них повністю. Але пам\'ятайте, що тоді ці додатки працюють поза VPN.</string>
     <string name="menu_apps_system_label">Системні додатки – це ті додатки, що були попередньо встановлені на пристрої виробником. Деякі з них приховані. Змінюйте це тільки якщо точно розумієте свої дії.</string>
-    <string name="menu_host_list_intro">Списки хостів містять правила для блокування реклами та стеження. Старайтеся, щоб їх було не надто багато.</string>
+    <string name="menu_host_list_intro">Списки хостів містять правила для блокування реклами та стеження. Слідкуйте, щоб їх було не надто багато.</string>
     <string name="menu_host_list_settings">Налаштування списку</string>
     <string name="menu_host_list_status">Стан списку</string>
     <string name="menu_host_list_download">Налаштування завантажень</string>
@@ -78,6 +78,11 @@
     <string name="menu_get_involved">Долучитися</string>
     <string name="menu_telegram">Telegram чат</string>
     <string name="menu_configure">Налаштувати Blokada</string>
+    <string name="menu_exclude">Пропустити додатки, що працюють неправильно</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Заглянути глибше</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Керувати</string>
+    <string name="menu_ok">Угу</string>
+    <string name="menu_dns_remove_default">Типовий DNS не можна видалити.</string>
 </resources>
