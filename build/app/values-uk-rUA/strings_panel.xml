@@ -32,6 +32,7 @@
     <string name="panel_ruleset">Лічильник фільтрів</string>
     <string name="panel_ruleset_title">У фільтрах зараз %s правил.</string>
     <string name="panel_ruleset_updating">Оновлення фільтрів...</string>
+    <string name="panel_ruleset_built">Фільтри зараз працюють із &lt;b&gt;%s&lt;/b&gt; правил. Приблизно &lt;b&gt;%s&lt;/b&gt; правил може поміститися у пам\'ять Вашого пристрою. Намагайтеся, щоб кількість правил була меншою за цю цифру, щоб додаток працював добре.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Дозволити</string>
     <!-- Button to block allowed domain -->
@@ -49,6 +50,8 @@
     <string name="slot_start">проведіть вгору для початку</string>
     <string name="slot_intro_new">Як користуватися новим інтерфейсом? Натисніть тут для демонстрації.</string>
     <string name="slot_intro_new_header">Новий інтерфейс?</string>
+    <string name="slot_intro_desc">Ви на основному екрані, тут є ще екрани, якщо Ви перетягнете вправо. Кожен з них має власне меню, для цього потягніть вверх.&lt;br/&gt;&lt;br/&gt;На Android TV переходьте по меню за допомогою \"хрестика\". Використовуйте центральну клавішу для відкривання нижнього меню чи інших пунктів.</string>
+    <string name="slot_intro_info">Пссс... Деякі пункти зі знаком запитання. При натисканні на них буде показуватися корисна інформація!</string>
     <string name="slot_new_filter">Додати новий хост до заблокованих</string>
     <string name="slot_new_filter_list">Додати новий список хостів</string>
     <string name="slot_new_filter_whitelist">Дозволити новий хост</string>
@@ -60,8 +63,14 @@
     <string name="slot_invalid">невірно</string>
     <string name="slot_continue">Продовжити</string>
     <string name="slot_enter_domain_title">Домен(и)</string>
+    <string name="slot_enter_domain_desc">Введіть домени через кому. Також можна вставити посилання на будь-який список хостів чи імпортувати локальний файл.</string>
     <string name="slot_enter_domain_error">Це не схоже на адресу домену.</string>
     <string name="slot_enter_domain_file">Файл</string>
+    <string name="slot_enter_name_title">Назва</string>
+    <string name="slot_enter_name_desc">Введіть назву для нового пункту. Також можна згенерувати пропоновану назву.</string>
+    <string name="slot_enter_name_error">Це не схоже на те, що потрібно.</string>
+    <string name="slot_enter_name_generate">Генерувати</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; у білому списку</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
