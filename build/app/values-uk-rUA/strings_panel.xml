@@ -71,9 +71,30 @@
     <string name="slot_enter_name_error">Це не схоже на те, що потрібно.</string>
     <string name="slot_enter_name_generate">Генерувати</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; у білому списку</string>
+    <string name="slot_app_desc">Цей додаток у білому списку, Blokada його не фільтруватиме.</string>
+    <string name="slot_allapp_desc">Ви можете пропустити блокування для цього додатка з Blokada. Пам\'ятайте, що тоді додаток працює поза VPN.</string>
+    <string name="slot_allapp_whitelisted">Пропускається</string>
+    <string name="slot_allapp_normal">Не пропускається</string>
+    <string name="slot_allapp_whitelist">Пропустити</string>
+    <string name="slot_dns_name">Власний DNS активний</string>
+    <string name="slot_dns_name_disabled">Власний DNS не активний</string>
+    <string name="slot_dns_dns">Ви можете замінити поточні сервери у нижньому меню.</string>
+    <string name="slot_action_none">Функція поки недоступна.</string>
+    <string name="slot_action_facts">Факти</string>
+    <string name="slot_action_unwhitelist">Скасувати</string>
+    <string name="slot_action_author">Про це</string>
+    <string name="slot_action_share">Поширити</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Пункт</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Пункт для %s</string>
+    <string name="slot_dns_control_title">Список DNS серверів</string>
+    <string name="slot_dns_control_description">Ви можете синхронізувати список DNS із нашими серверами, не втрачаючи власні записи.&lt;br/&gt;&lt;br/&gt;Або можна видалити всі (включаючи власні) та завантажити знову.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Оновити</string>
+    <string name="slot_action_refresh_toast">Почалося оновлення</string>
+    <string name="slot_action_restore">Викинути</string>
+    <string name="slot_export_title">Місце для налаштувань</string>
     <string name="slot_status_vpn_lease">Оновити</string>
     <string name="slot_action_deactivate">Вимкнути</string>
     <string name="slot_action_activate">Увімкнути</string>
