@@ -77,16 +77,16 @@
 
 <h4><a name="dns">變更 DNS</a></h4>
   <p>另一個 Blokada 的常用功能是變更 DNS 伺服器。 這個應用程式會提供一個預設的 DNS 伺服器清單來供您選擇。<br>
- DNS 是網域名稱系統 (Domain Name System) 的縮寫，而他的伺服器是負責將網域名稱 (如: <i>myexample.com</i>) 解譯成機器間通訊所使用的 IP 位址。 你的網路提供者有其自帶的 DNS 伺服器；Blokada 會使用系統的預設值。 你應該在懷疑網路提供者在蒐集你的網路使用記錄、擔心一些隱私上的威脅或是你被組檔使用某些網站或是服務時使用清單內的主機。 There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+ DNS 是網域名稱系統 (Domain Name System) 的縮寫，而他的伺服器是負責將網域名稱 (如: <i>myexample.com</i>) 解譯成機器間通訊所使用的 IP 位址。 你的網路提供者有其自帶的 DNS 伺服器；Blokada 會使用系統的預設值。 你應該在懷疑網路提供者在蒐集你的網路使用記錄、擔心一些隱私上的威脅或是你被組檔使用某些網站或是服務時使用清單內的主機。 這並沒有所謂的「最佳選擇」，一切取決於您的偏好及位置。因此在你想要使用自訂的 DNS 伺服器前，請先詳讀他們的描述，還有在網路上搜尋跟其相關的反映。<br>
+ DNS 的部分不論 VPN 是否使用中都會運作，所以您選擇的 DNS 不論 VPN 服務是否啟用都會被使用。 Blokada v4 目前尚未支援 DoH/DoT，但在 v4 正式推出後不久就會實作這個功能。
 </p>
 
-<h4><a name="settings">What are the available settings in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<h4><a name="settings">在 Blokada 中有哪些地方可以設定？</a></h4>
+<p>在設定畫面你應該會看到一些選項。 你可以看到以下這些：</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
+    <li><b>通知</b>: 啟用後，您會在有廣告被阻擋時收到通知。 預設是啟用的，但當您收到太多通知時，關掉他。</li>
+    <li><b>開機時啟動</b>: 啟用後， Blokada 會在系統開機後啟動。 這邊要注意的是這個選項還需要有相關的系統設定，因此這並不保證 Blokada 能夠開機時啟動。 在這個情形下你應該要去確認您的手機設定。 預設是啟用的，如果您希望手動啟動 Blokada，停用這這個選項。</li>
+    <li><b>設定儲存位置</b>: 您想要將設定檔儲存於內部還是外部儲存裝置。 如果您選擇了外部儲存裝置，這些檔案會被存放在 /Download/Blokada 這個資料夾。</li>
     <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
     <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
