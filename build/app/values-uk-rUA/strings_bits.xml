@@ -28,7 +28,7 @@
     <string name="home_donate">Фондувати</string>
     <string name="home_vpn_enabled">VPN працює</string>
     <string name="home_vpn_disabled">VPN вимкнено</string>
-    <string name="home_account_active">Ваша обліковка активна</string>
+    <string name="home_account_active">Ваша підписка активна</string>
     <string name="home_connecting_vpn">Приєднання до VPN</string>
     <string name="home_cleanup">Рекомендована очистка</string>
     <!-- A short text for the button to change VPN settings -->
@@ -47,11 +47,15 @@
     <string name="menu_vpn_select_gateway">Оберіть шлюз для підключення.</string>
     <string name="menu_vpn_intro_button">Чому VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Обліковка</string>
+    <string name="menu_vpn_account">Підписка</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзи</string>
     <string name="menu_vpn_manage_subscription">Керувати підпискою</string>
     <string name="menu_vpn_account_secret">Зберігайте Ваш ідентифікатор та не показуйте його нікому. Знадобиться при перевстановленні Blokada.</string>
+    <string name="menu_vpn_restore_label">Тут Ви можете відновити наявну підписку, якщо Ви перевстановили додаток.</string>
+    <string name="menu_vpn_intro">Із VPN Ваші дані передаються шифрованими до шлюза, IP адреса та локація змінені.</string>
+    <string name="menu_vpn_account_label">Для користування VPN потрібно мати підписку. Перевірте чи відновіть її тут.</string>
+    <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_host_list_settings">Налаштування списку</string>
     <string name="menu_host_list_status">Стан списку</string>
     <string name="menu_host_list_download">Налаштування завантажень</string>
