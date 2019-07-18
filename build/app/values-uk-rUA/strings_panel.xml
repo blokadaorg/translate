@@ -47,12 +47,30 @@
     <!-- An action to toggle a switch -->
     <string name="slot_switch_switch_bitch">Змінити</string>
     <string name="slot_start">проведіть вгору для початку</string>
+    <string name="slot_intro_new">Як користуватися новим інтерфейсом? Натисніть тут для демонстрації.</string>
+    <string name="slot_intro_new_header">Новий інтерфейс?</string>
+    <string name="slot_new_filter">Додати новий хост до заблокованих</string>
+    <string name="slot_new_filter_list">Додати новий список хостів</string>
+    <string name="slot_new_filter_whitelist">Дозволити новий хост</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">нічого</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">обрано</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">невірно</string>
+    <string name="slot_continue">Продовжити</string>
+    <string name="slot_enter_domain_title">Домен(и)</string>
+    <string name="slot_enter_domain_error">Це не схоже на адресу домену.</string>
+    <string name="slot_enter_domain_file">Файл</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_status_vpn_lease">Оновити</string>
+    <string name="slot_action_deactivate">Вимкнути</string>
+    <string name="slot_action_activate">Увімкнути</string>
+    <string name="slot_action_deactivate_adblocking">Дозволити рекламу</string>
+    <string name="slot_action_activate_adblocking">Блокувати рекламу</string>
+    <string name="slot_dropped_counter">Лічильник заблокованих доменів</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Gateway load -->
