@@ -91,18 +91,18 @@
     <li><b>請求記錄</b>: 當啟用時， Blokada 會產生一個 CSV 檔，並將所有不論放行或阻擋的請求都記錄在裡面。</li>
     <li><b>維持執行狀態</b>這個選項是用於確保 Blokada 不會被系統暫停或是停止。 這邊要注意的是您的系統可以覆寫該項設定，所以請確認您的設定是允許 Blokada 在背景運作的。</li>
     <li><b>看門狗</b>：當啟用後，Blokada 會在斷線時關閉，在連線恢復時自動啟動。 停用時，Blokada 會持續在背景執行（即使沒有網路）。 請注意，此選項或許無法在所有裝置上運作。</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>保持裝置清醒</b>: 如果您的裝置會因為系統的省電設定暫停或關閉 Blokada，啟用這個選項。 即便這個選項的目的是讓 Blokada 能在絕大多數裝置上維持運作，系統仍有較高的優先權，能在這個程式並未排除於記憶體或是電池最佳化選項時暫停他。
 </ul></p>
 
-<h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<h4><a name="startup">我安裝後無法啟動 Blokada。</a></h4>
+<p>有兩種常見原因會導致這個情形。 首先，請檢查您是否有已啟動的 VPN 連線，並看看<i>永久連線的 VPN</i> 選項是否啟用。 檢查的方式是到您手機的設定頁面，在網路部份搜尋 VPN，輕點現有 VPN 旁的齒輪。 停用它，將連線中的 VPN 斷線，並重新啟動 Blokada。</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>如果沒有其他的 VPN 連線，在 Blokada 中，檢查<i>僅上網時</i>是否啟用，如果有的話，檢查是否使用 WiFi 或行動網路連線連上網路。 Blokada 不會在沒有網路連線，且<i>看門狗</i>選項啟用的時候啟動。</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>如果還是沒有用，重啟您的手機，有時候這會有用。</p>
 
-<h4><a name="refresh">Blokada blocks less ads.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+<h4><a name="refresh">Blokada 阻擋的廣告很少。</a></h4>
+<p>如果你覺得 Blokada 阻擋的廣告比以前少，請重新整理清單。 To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
 Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
 
 <p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
