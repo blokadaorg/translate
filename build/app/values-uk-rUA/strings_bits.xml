@@ -57,13 +57,27 @@
     <string name="menu_vpn_account_label">Для користування VPN потрібно мати підписку. Перевірте чи відновіть її тут.</string>
     <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_dns_recommended">Рекомендовані DNS сервери</string>
+    <string name="menu_dns_intro">DNS відповідає за визначення адрес IP для сайтів та додатків, які Ви використовуєте. Хороший DNS може пришвидшити пристрій та допоможе захистити приватність.</string>
+    <string name="menu_dns_select">Оберіть один з DNS серверів.</string>
+    <string name="menu_apps_intro">Деякі додатки можуть працювати неправильно із Blokada. Наприклад, вони можуть мати проблеми зі з\'єднанням.\n\nАктивація VPN часто допомагає у таких ситуаціях.\n\nАбо ж Ви можете пропустити блокування для них повністю. Але пам\'ятайте, що тоді ці додатки працюють поза VPN.</string>
+    <string name="menu_apps_system_label">Системні додатки – це ті додатки, що були попередньо встановлені на пристрої виробником. Деякі з них приховані. Змінюйте це тільки якщо точно розумієте свої дії.</string>
+    <string name="menu_host_list_intro">Списки хостів містять правила для блокування реклами та стеження. Старайтеся, щоб їх було не надто багато.</string>
     <string name="menu_host_list_settings">Налаштування списку</string>
     <string name="menu_host_list_status">Стан списку</string>
     <string name="menu_host_list_download">Налаштування завантажень</string>
+    <string name="menu_host_whitelist">Додані тут хости ніколи не будуть блокуватися. Використовуйте цей список, якщо потрібний сайт був випадково заблокований.</string>
+    <string name="menu_host_blacklist">Додані тут хости будуть завжди блокуватися. Тут можна додати те, що не блокується стандартними списками.</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Інше</string>
+    <string name="menu_share_log_label">Поділившись логом роботи, Ви дозволите нам знайти рішення для проблеми, що виникла. Переконайтеся, що надаєте його саме учаснику основної команди Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Дізнатись більше</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Знання</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Долучитися</string>
+    <string name="menu_telegram">Telegram чат</string>
+    <string name="menu_configure">Налаштувати Blokada</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
 </resources>
