@@ -10,8 +10,13 @@
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
     <string name="notification_blocked_whitelist">Whitelist</string>
     <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
+    <string name="notification_blocked_whitelist_applied">Færdig! Ændringer kan tage et par sekunder.</string>
     <!-- Parameter: branded app name (Blokada). -->
+    <string name="notification_disabled">%s vil ikke vise notifikationer.</string>
     <!-- Parameter: branded app name (Blokada). -->
+    <string name="notification_enabled">%s vil vise notifikationer hver gang noget bliver blokeret.</string>
+    <string name="notification_keepalive_text">Hold i live</string>
+    <string name="notification_keepalive_description">Aktiver denne funktion hvis du oplever problemer med at appen lukker ned. Appen vil vise en permanent notifikation for at forhindre systemet i at stoppe den.</string>
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
