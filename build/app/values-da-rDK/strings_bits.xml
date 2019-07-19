@@ -37,9 +37,26 @@
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamer</string>
     <string name="menu_ads_live_label">Live oversigt over tilladte og blokerede forespørgsler</string>
+    <string name="menu_ads_turn_on">Tænd eller sluk reklame blokering.</string>
+    <string name="menu_ads_lists_label">Vælg liste til blokering. Standard er god til de fleste folk.</string>
+    <string name="menu_ads_rules_label">Tilføj dine egne regler for at fintune blokering.</string>
+    <string name="menu_ads_log_label">Se hvad der er blokering og tilladt for nyligt.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn_activate_account">Aktiver venligst din konto først.</string>
+    <string name="menu_vpn_select_gateway">Vælg venligst en gateway.</string>
+    <string name="menu_vpn_intro_button">Hvorfor VPN?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Konto</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_manage_subscription">Administrer din kontos abonnement</string>
+    <string name="menu_vpn_account_secret">Din kontos ID er hemmeligt og burde gemmes et sikkert sted. Skriv det ned i tilfælde af du afinstallere appen.</string>
+    <string name="menu_vpn_restore_label">Her kan du gendanne din eksisterende konto hvis, for eksempel, du har geninstalleret appen.</string>
+    <string name="menu_vpn_intro">Med en VPN er din data krypteret, din IP addresse er skjult, og din placering er ændret.</string>
+    <string name="menu_vpn_account_label">For at bruge vores VPN, skal du aktivere din konto. Tjek eller gendan din konto her.</string>
+    <string name="menu_vpn_gateways_label">Vælg en af de gateways du vil forbinde til. Din enhed vil sende dit krypterede data sikkert til den gateway, og du vil forblive anonym.</string>
+    <string name="menu_dns_recommended">Anbefalet DNS servere</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
