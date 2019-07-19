@@ -16,6 +16,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_enabled">%s відтепер буде показувати сповіщення щоразу при блокуванні чого-небудь.</string>
     <string name="notification_keepalive_text">Підтримка активності</string>
+    <string name="notification_keepalive_description">Активуйте це, якщо Blokada вимикається через деякий час. Буде додано постійне сповіщення у панель сповіщень системи, яке не дозволить їй закрити додаток.</string>
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_disabled">%s більше не захищається від збереження батареї чи пам\'яті.</string>
     <!-- Parameter: branded app name (Blokada). -->
@@ -26,4 +27,5 @@
     <string name="notification_keepalive_content">Останній: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">моніторинг</string>
+    <string name="notification_keepalive_activate">Активувати</string>
 </resources>
