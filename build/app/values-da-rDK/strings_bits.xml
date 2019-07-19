@@ -57,10 +57,25 @@
     <string name="menu_vpn_account_label">For at bruge vores VPN, skal du aktivere din konto. Tjek eller gendan din konto her.</string>
     <string name="menu_vpn_gateways_label">Vælg en af de gateways du vil forbinde til. Din enhed vil sende dit krypterede data sikkert til den gateway, og du vil forblive anonym.</string>
     <string name="menu_dns_recommended">Anbefalet DNS servere</string>
+    <string name="menu_dns_intro">DNS er ansvarlig for at oversætte IP addressen for hjemmesider og de apps du bruger. Valg af en god DNS kan øge hastigheden på din enhed og vil hjælpe med at beskytte dit privatliv.</string>
+    <string name="menu_dns_select">Vælg en af de følgende DNS servere.</string>
+    <string name="menu_apps_intro">Nogle apps vil måske ikke virke som de skal med Blokada. Eksempelvis, kan du have problemer med at forbinde.\n\n Aktivering af VPN hjælper ofte i de tilfælde.\n\nEllers, kan du få de apps til at gå udenom Blokada filtrering. Husk at apps der går udenom kommunikere udenom VPN.</string>
+    <string name="menu_apps_system_label">System apps er dem der kommer preinstalleret på din enhed. Nogle af dem er skjulte. Lav ændringer kun hvis du ved hvad du laver.</string>
+    <string name="menu_host_list_intro">Host lister indeholder regler for at blokere reklamer og trackere. Prøv at holde mængden af aktive liste lav.</string>
+    <string name="menu_host_list_settings">Liste indstillinger</string>
+    <string name="menu_host_list_status">Liste status</string>
+    <string name="menu_host_list_download">Liste download indstillinger</string>
+    <string name="menu_host_whitelist">Hosts du tilføjer her vil aldrig blive blokeret. Brug denne list til, for eksempel, en hjemmeside du besøger som blokeres ved et uheld.</string>
+    <string name="menu_host_blacklist">Hosts du tilføjer her vil altid blive blokeret. For eksempel, du kan tilføje en hjemmeside som ikke er blokeret af de standard lister, men som burde være.</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Andre</string>
+    <string name="menu_share_log_label">Deling af log tillader os at finde årsagen til dit prblem. Vær sikker på du sender den privat til en af Blokadas primære medlemmer.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Lær mere</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Viden</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Bliv involveret</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
 </resources>
