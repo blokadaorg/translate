@@ -76,7 +76,7 @@
     <li>Fiókod visszaállítása</li>
     <li>Csatlakozni kívánt átjáró kiválasztása</li>
   </ul></p>
-  <p>As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your subscription safely.</p>
+  <p>Ami a fizetési mechanizmust illeti, a Stripe-t használjuk, a fizetési folyamatban tárolt információkat csak a kifizetések igazolására kerülnek felhasználásra, mely elegendő információt tárol a fiók aktiválásához és az előfizetés biztonságos kezeléséhez.</p>
 
 <h4><a name="dns">DNS váltása</a></h4>
   <p>A Blokada másik általánosan használt funkciója a DNS-kiszolgáló váltása. Az alkalmazás előre definiált DNS-kiszolgálók listáját kínálja fel.<br>
@@ -98,7 +98,7 @@
 </ul></p>
 
 <h4><a name="startup">Nem tudom elindítani Blokada-t, miután telepítettem.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Tiltsd le, bontsd a kapcsolatot az aktív VPN hálózattal és próbáld újraindítani a Blokada-t.</p>
+<p>Két gyakori probléma esetén szokott felmerülni ez a szituáció. Először is nézd meg, hogy van-e aktív VPN kapcsolatod és hogy annak a <i>Mindig bekapcsolva</i> lehetősége engedélyezve van. Hogy erről meggyőződj, menj a telefonod Beállítás menüjébe, keresd a VPN-t a hálózati beállításoknál és koppints a fogaskerékre a már létező VPN mellett. Tiltsd le, bontsd a kapcsolatot az aktív VPN hálózattal és próbáld újraindítani a Blokada-t.</p>
 
 <p>Ha nincs más VPN-kapcsolatod, akkor ellenőrizd a Blokada-t, hogy a <i>Watchdog</i> engedélyezve van-e a Speciális beállítások menüben, és ha igen, ellenőrizd, hogy csatlakozol-e az internethez Wi-Fi-n vagy mobilneten keresztül. A Blokada nem indul el, ha a <i>Watchdog</i> engedélyezve van, és nincs aktív internetkapcsolatod.</p>
 
@@ -118,13 +118,13 @@ Alternatívaként több hosztlistát is engedélyezhetsz, vagy több korlátozó
 4. Indítsd újra a készüléket!</p>
 
 <h4><a name="youtube">Nem blokkolja a hirdetéseket a YouTube-on!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>A hirdetések blokkolása a YouTube-on nagyon nehéz, mert a Google titkosítást és véletlenszerűen generált hosztokat használ a hirdetések megjelenítéséhez. Ezért sokkal könnyebb blokkolni a hirdetéseket a YouTube alkalmazáson belül, mint egy külső eszközzel (például Blokada). A NewPipe és a YouTube Vanced a YouTube hivatalos alkalmazásának nagyszerű alternatívái, kérjük, ellenőrizd, hogy melyik felel meg a számodra.</p>
 
 <h4><a name="kill">A Blokada egy idő után leáll vagy nem működik.</a></h4>
-<p>Első lépésként engedélyezd az <i>Életben tart</i> opciót a Blokada-ban. Ebben az esetben a Blokada megpróbál online maradni, de kérlek vedd figyelembe, hogy a rendszered még így is befolyásolhatja ennek a működését. Ha beállítottad, de még így is azt látod, hogy a Blokada időről időre leáll, ellenőrizd a rendszered beállításait és próbálj kikapcsolni minden akkumulátor- és memóriaoptimalizációt ami a Blokada-ra vonatkozik. Sajnálatos módon ez minden rendszeren eltérő módon állítható be, így nem tudjuk megmondani, hol tudod megtenni. Kérlek ellenőrizd a telefonod beállításait. Egyéb forrása a fenti problémának az is lehet, ha memóriatisztító alkalmazást használsz. Ebben az esetben kérlek tedd a Blokada-t engedélyezőlistára vagy a kivételek listájára. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
+<p>Első lépésként engedélyezd az <i>Életben tart</i> opciót a Blokada-ban. Ebben az esetben a Blokada megpróbál online maradni, de kérlek vedd figyelembe, hogy a rendszered még így is befolyásolhatja ennek a működését. Ha beállítottad, de még így is azt látod, hogy a Blokada időről időre leáll, ellenőrizd a rendszered beállításait és próbálj kikapcsolni minden akkumulátor- és memóriaoptimalizációt ami a Blokada-ra vonatkozik. Sajnálatos módon ez minden rendszeren eltérő módon állítható be, így nem tudjuk megmondani, hol tudod megtenni. Kérlek ellenőrizd a telefonod beállításait. Egyéb forrása a fenti problémának az is lehet, ha memóriatisztító alkalmazást használsz. Ebben az esetben kérlek tedd a Blokada-t engedélyezőlistára vagy a kivételek listájára. Ha a fentiek egyike sem segített a te esetedben, kérjük, jelentsd felénk a hibát (<a href="#other">lásd lentebb</a>, hogy hogyan teheted ezt meg).</p>
 
 <h4><a name="abplists">Nem tudom az EasyList/AdBlock Plus listákat használni a Blokada-ban.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+<p>Amikor megpróbálsz egy listát importálni (például az EasyList-et) ami az AdBlock Plus kiegészítővel tökéletesen működik a PC-den vagy notebook-odon, a Blokada hibát fog jelenteni. Ez azért van, mert a Blokada más metódust használ. Míg az ABP a weboldal elemeit vagy részeit blokkolja és rejti el, a Blokada ezt nem tudja megtenni, mert nem épül be a böngészőbe, azaz a hoszt kérelmeket blokkolva alacsonyabb szinten működik.</p>
 
 <p>Nem konfigurálható dolgok:</p>
 <p><ul>
