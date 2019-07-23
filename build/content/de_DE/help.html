@@ -93,8 +93,8 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
     <li><b>Hintergrundanimation</b>: Die Hintergrundanimation in Form von Wellen kann aktiviert oder deaktiviert werden. Weiße Wellen stellen die erlaubten Host-Anfragen dar, während die orangen die blockierten sind.</li>
     <li><b>Protokollierung anfordern</b>: Wenn aktiviert, generiert Blokada eine CSV-Datei und protokolliert Anfragen, die von der App genehmigt und/oder blockiert wurden.</li>
     <li><b>Aktiv halten</b>: Mit dieser Option wird sichergestellt, dass Blokada nicht vom System angehalten oder beendet wird. Bitte beachte, dass dein System es überschreiben kann, stelle sicher, dass deine Einstellungen Blokada im Hintergrund laufen lassen.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. Wenn deaktiviert, läuft Blokada immer im Hintergrund (selbst wenn kein Netzwerk verfügbar ist). Bitte beachte, dass diese Option möglicherweise nicht auf jedem Gerät funktioniert.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Wachhund</b>: Wenn diese Option aktiviert ist, wird Blokada beendet, wenn keine aktive Internetverbindung besteht, und automatisch wieder gestartet, sobald du wieder online bist. Wenn deaktiviert, läuft Blokada immer im Hintergrund (selbst wenn kein Netzwerk verfügbar ist). Bitte beachte, dass diese Option möglicherweise nicht auf jedem Gerät funktioniert.</li>
+    <li><b>Aggressives Aufwecken</b>: Aktiviere diese Option, wenn dein Gerät aufgrund von Energiesparfunktionen des Systems Blokada anhält oder beendet. Obwohl diese Option darauf abzielt, Blokada auf den meisten Geräten am Leben zu halten, wird das System immer höhere Priorität haben und die App stoppen können, wenn sie nicht von Speicher- oder Akku-Optimierungen ausgeschlossen ist.
 </ul></p>
 
 <h4><a name="startup">Ich kann Blokada nicht starten, nachdem ich es installiert habe.</a></h4>
@@ -156,7 +156,7 @@ Alternatively you can enable more host lists or add more restrictive filters in 
 <p>If none of those steps helped, please join to our Telegram chat on <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> to get help, or report a bug (see below).</p>
 
 <h4><a name="notification">Kann ich die VPN-Benachrichtigung ausblenden?</a></h4>
-<p>Unfortunately no. Some devices may be displaying annoying VPN notification (a key icon) while VPN is active, and it is not possible to hide it. If you can, try updating your device to Android 8 (Oreo), since newer Android versions do not have this status report.</p>
+<p>Leider nicht. Einige Geräte zeigen möglicherweise eine störende VPN-Benachrichtigung (ein Schlüsselsymbol) an, solange VPN aktiv ist, und es ist nicht möglich, sie auszublenden. Versuche, Dein Gerät auf Android 8 (Oreo) zu aktualisieren, da neuere Android-Versionen diesen Statusbericht nicht haben.</p>
 
 <h4><a name="bug">Wie melde ich ein Problem, eine Idee oder einen Vorschlag?</a></h4>
 <p>If you are experiencing problems, please join to our Telegram chat at <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, where our community is happy to help you. Alternatively, just choose the Feedback option from the menu in top right corner and follow the instructions. Please provide as much information as you can and steps to reproduce the same issue - it helps greatly in fixing your problem! If you are a pro user, you can go directly to the issue tracker at GitHub.</p>
