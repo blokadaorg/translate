@@ -100,35 +100,35 @@
 <h4><a name="startup">No puedo iniciar Blokada tras haberlo instalado.</a></h4>
 <p>Existen dos causas comunes para tal situación. Primero, por favor comprueba si tienes una conexión VPN activa y si está habilitada la opción <i>VPN siempre activada</i>. Para hacerlo, ve a las configuraciones de tu teléfono, busca VPN en la sección de red y toca el engranaje junto al VPN existente. Desactívala, desconéctate de la conexión VPN activa e intenta reiniciar Blokada.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Si no tienes otra conexión VPN, verifica en Blokada si <i>Watchdog</i> está activado en las Configuraciones avanzadas y, si es así, verifica si estás conectado a Internet con wifi o datos móviles. Blokada no iniciará si <i>Watchdog</i> está activado y no tienes una conexión activa a Internet.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Si tampoco sirve, reinicia tu teléfono, a veces también ayuda.</p>
 
 <h4><a name="refresh">Blokada bloquea menos anuncios.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>Si sospechas que Blokada bloquea menos anuncios que antes, por favor actualiza tus listas. Para hacerlo, toca en <i>Lista negra</i>, toca el ecualizador de arriba a la derecha, selecciona <i>Actualizar filtros</i> y dale a <i>Continuar</i>. Normalmente esto ocurre porque se añaden nuevos servidores a los ya existentes que (aún) no han sido identificados y añadidos a las listas negras, o porque la nueva lista no se descarga a tu dispositivo, por lo que (aún) no están bloqueados.<br>
+Alternativamente, puedes habilitar más listas de hosts o añadir filtros más restrictivos en el menú de <i>Lista Negra</i>.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Ten en cuenta que Blokada utiliza listas de terceros, por lo que si la aplicación funcionaba antes y bloqueaba los anuncios, sin cambios debería comportarse de la misma manera.</p>
 
 <h4><a name="chrome">Blokada no bloquea anuncios en Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
-1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
-2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
-3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
-4. Reboot!</p>
+<p>Si estás usando Google Chrome, necesitas desactivar Ahorro de datos y Async DNS. Google utiliza estas dos tecnologías por defecto y ellas interfieren con el bloqueo de host de Blokada.<br>
+1. Para desactivar el Ahorro de datos, toca los tres puntos verticales en Google Chrome, ve a Ajustes, busca "Ahorro de datos" o "Modo Básico" y desactívalo.<br>
+2. Para desactivar Async DNS, abre la página "chrome://flags" en tu navegador, busca DNS y desactiva Asynchronous DNS.<br>
+3. En tu dispositivo, ve a Ajustes -> Aplicaciones -> Chrome -> Almacenamiento y limpia la caché.<br>
+4. ¡Reinicia!</p>
 
 <h4><a name="youtube">¡Los anuncios en YouTube no son bloqueados!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>Bloquear anuncios en YouTube es muy difícil porque Google usa cifrado y hosts generados aleatoriamente para mostrar anuncios. Por ello, es mucho más fácil bloquear anuncios dentro de la aplicación de YouTube que con una herramienta externa (como Blokada). NewPipe y YouTube Vanced son muy buenas alternativas a la aplicación oficial de YouTube, solo tienes que comprobar cuál se adapta mejor a tus necesidades.</p>
 
 <h4><a name="kill">Blokada deja de funcionar tras un tiempo.</a></h4>
-<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on allowlist or exclude list. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
+<p>Como primer paso, activa la opción <i>Mantener activo</i> en Blokada. En este caso, Blokada intentará permanecer activo, pero por favor ten en cuenta que tu sistema aún puede afectar este comportamiento. Si lo configuras y todavía ves que Blokada se detiene una vez tras otra, comprueba la configuración de tu sistema y desactiva toda optimización de batería y memoria para Blokada. Desafortunadamente esto es diferente en cada sistema, por lo que no podemos decirte dónde hacerlo. Por favor comprueba la configuración de tu teléfono. Otra fuente de tal comportamiento puede ser que estás usando un limpiador de memoria. En ese caso, por favor incluye a Blokada en la lista blanca o lista de exclusión. Si ninguno de estos pasos ha ayudado en tu caso, por favor reporta un error (<a href="#other">ve abajo</a> cómo hacerlo).</p>
 
 <h4><a name="abplists">No puedo importar la lista EasyList/AdBlock Plus a Blokada.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+<p>Si intentas importar una lista (por ejemplo, EasyList) que funciona muy bien con la extensión AdBlock Plus en tu PC o portátil, Blokada te informará de un error. Esto se debe a que Blokada utiliza otro método para bloquear anuncios. Mientras que ABP bloquea y oculta elementos o partes del sitio web, Blokada no puede hacerlo porque no es un plugin en el navegador, Blokada funciona en un nivel inferior, bloqueando el acceso al host.</p>
 
-<p>Not configurable things:</p>
+<p>Cosas no configurables:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
+    <li><b>Actualizado</b>: si lo ves, estás utilizando la versión más reciente de Blokada. ¡Mantener la aplicación actualizada añade más funcionalidades y reduce los fallos!</li>
     <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
     <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
 </ul></p>
