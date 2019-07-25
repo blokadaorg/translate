@@ -91,16 +91,16 @@
     <li><b>Arrancar al inicio</b>: cuando está activado, Blokada se iniciará luego de que el sistema arranque. Por favor, ten en cuenta que hay configuraciones de nivel de sistema para esta opción, por lo que no se puede garantizar que Blokada pueda iniciarse en el arranque. En ese caso, comprueba la configuración de tu teléfono. Por defecto, esta configuración está habilitada. Si deseas iniciar Blokada manualmente, deshabilita esta opción.</li>
     <li><b>Ubicación de la configuración</b>: ¿dónde quieres guardar la configuración: en el almacenamiento interno o externo? Si eliges el externo, los archivos están disponibles en el directorio /Download/Blokada.</li>
     <li><b>Animación de fondo</b>: puedes activar o desactivar las animaciones de fondo, mostrando las ondas. Las ondas blancas representan las consultas de host permitidas mientras que las naranjas son las bloqueadas.</li>
-    <li><b>Logger de peticiones</b>: cuando está activado, Blokada generará un archivo CSV y registrará peticiones que han sido permitidas y/o bloqueadas por la aplicación.</li>
+    <li><b>Registro de peticiones</b>: cuando está activado, Blokada generará un archivo CSV y registrará peticiones que han sido permitidas y/o bloqueadas por la aplicación.</li>
     <li><b>Mantener activo</b>: esta opción es para asegurar que Blokada no se interrumpa o sea detenido por el sistema. Por favor, ten en cuenta que el sistema puede sobrescribir este ajuste, asegúrate de que tu configuración permita que Blokada se ejecute en segundo plano.</li>
-    <li><b>Watchdog</b>: cuando está activado, Blokada se cerrará si no hay una conexión activa, y se iniciará nuevamente cuando la conexión vuelva. Si está desactivado, Blokada siempre funcionará en segundo plano (incluso si no hay ninguna red disponible). Por favor, ten en cuenta que esta opción puede no funcionar en todos los dispositivo.</li>
+    <li><b>Watchdog</b>: cuando está activado, Blokada se cerrará si no hay una conexión activa, y se iniciará nuevamente cuando la conexión vuelva. Si está desactivado, Blokada siempre funcionará en segundo plano (incluso si no hay ninguna red disponible). Por favor, ten en cuenta que esta opción puede no funcionar en todos los dispositivos.</li>
     <li><b>Inicio agresivo</b>: activa esta opción si tu dispositivo detiene o cierra Blokada debido a la función de ahorro de energía del sistema. Aunque esta opción pretende mantener a Blokada activo en la mayoría de los dispositivos, el sistema siempre tendrá mayor prioridad y puede detener la aplicación si no está excluida de la optimización de memoria o batería.
 </ul></p>
 
 <h4><a name="startup">No puedo iniciar Blokada tras haberlo instalado.</a></h4>
 <p>Existen dos causas comunes para tal situación. Primero, por favor comprueba si tienes una conexión VPN activa y si está habilitada la opción <i>VPN siempre activada</i>. Para hacerlo, ve a las configuraciones de tu teléfono, busca VPN en la sección de red y toca el engranaje junto al VPN existente. Desactívala, desconéctate de la conexión VPN activa e intenta reiniciar Blokada.</p>
 
-<p>Si no tienes otra conexión VPN, verifica en Blokada si <i>Watchdog</i> está activado en las Configuraciones avanzadas y, si es así, verifica si estás conectado a Internet con wifi o datos móviles. Blokada no iniciará si <i>Watchdog</i> está activado y no tienes una conexión activa a Internet.</p>
+<p>Si no tienes otra conexión VPN, verifica en Blokada si <i>Watchdog</i> está activado en la Configuración avanzada y, si es así, verifica si estás conectado a Internet con wifi o datos móviles. Blokada no iniciará si <i>Watchdog</i> está activado y no tienes una conexión activa a Internet.</p>
 
 <p>Si tampoco sirve, reinicia tu teléfono, a veces también ayuda.</p>
 
@@ -114,7 +114,7 @@ Alternativamente, puedes habilitar más listas de hosts o añadir filtros más r
 <p>Si estás usando Google Chrome, necesitas desactivar Ahorro de datos y Async DNS. Google utiliza estas dos tecnologías por defecto y ellas interfieren con el bloqueo de host de Blokada.<br>
 1. Para desactivar el Ahorro de datos, toca los tres puntos verticales en Google Chrome, ve a Ajustes, busca "Ahorro de datos" o "Modo Básico" y desactívalo.<br>
 2. Para desactivar Async DNS, abre la página "chrome://flags" en tu navegador, busca DNS y desactiva Asynchronous DNS.<br>
-3. En tu dispositivo, ve a Ajustes -> Aplicaciones -> Chrome -> Almacenamiento y limpia la caché.<br>
+3. En tu dispositivo, ve a Ajustes -> Aplicaciones -> Chrome -> Almacenamiento y limpia el caché.<br>
 4. ¡Reinicia!</p>
 
 <h4><a name="youtube">¡Los anuncios en YouTube no son bloqueados!</a></h4>
@@ -171,10 +171,10 @@ Alternativamente, puedes habilitar más listas de hosts o añadir filtros más r
 <p>No. Dependiendo de tu configuración, Blokada puede ser bastante eficiente. De hecho, tanto el rendimiento de tu dispositivo como la vida de la batería pueden mejorar visiblemente, porque Blokada evita que el dispositivo descargue y procese contenido que no necesitas o no te interesa. Sin embargo, usuarios con dispositivos antiguos pueden experimentar una caída de rendimiento.</p>
 
 <h4><a name="free">¿Blokada es realmente gratuito?</a></h4>
-<p>¡Sí! Blokada comenzó como un proyecto hobby, es una forma de devolver a la comunidad. La aplicación es de código abierto, la funcionalidad de filtrado de anuncios es gratuita y permanecerá así para siempre. Dicho esto, su desarrollo toma mucho tiempo, así que por favor considera apoyar el proyecto en cualquier manera que puedas (<a href="#contribute">ver abajo</a>).</p>
+<p>¡Sí! Blokada comenzó como un hobby, como una forma de aportar algo a la comunidad. La aplicación es de código abierto, la funcionalidad de filtrado de anuncios es gratuita y permanecerá así para siempre. Dicho esto, su desarrollo toma mucho tiempo, así que por favor considera apoyar el proyecto en cualquier manera que puedas (<a href="#contribute">ver abajo</a>).</p>
 
 <h4><a name="contribute">Blokada es genial, ¿cómo puedo ayudar al proyecto?</a></h4>
-<p>Existen muchas formas de apoyar a Blokada, ya sea financieramente o de otra forma. Todas las formas de ayuda son muy importantes para que el proyecto exista. <a href="contribute.html">Por favor, ve a esta página para más información</a>, o simplemente <a href="http://go.blokada.org/chat">únete a nuestro chat</a>.</p>
+<p>Existen muchas formas de apoyar a Blokada, ya sea financieramente o de otra manera. Todas las formas de ayuda son muy importantes para que el proyecto exista. <a href="contribute.html">Por favor, ve a esta página para más información</a>, o simplemente <a href="http://go.blokada.org/chat">únete a nuestro chat</a>.</p>
 
 <h4><a name="other">Tengo otra duda, ¿dónde puedo preguntar?</a></h4>
 <p>Si no encuentras la respuesta a tu pregunta aquí, puedes unirte a nuestro chat de Telegram en el enlace <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, nuestra comunidad estará ahí para ayudarte. Si no te conviene, usa la opción de Comentarios del menú superior, o si tienes una pregunta más técnica, por favor ve directamente al rastreador en GitHub.</p>
