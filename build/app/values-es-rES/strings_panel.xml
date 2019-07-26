@@ -181,7 +181,7 @@
     <string name="slot_protection_no_dns">Actualmente se están usando los servidores DNS por defecto de tu red. Cambiar a servidores DNS conscientes de la privacidad es recomendado.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada no está exento de la optimización de batería de tu dispositivo, por lo que puede ser detenido por el sistema. Debes utilizar las preferencias del sistema para añadir a Blokada a la lista blanca para que pueda permanecer activo y proteger tu dispositivo.</string>
     <string name="slot_protection_description">Para configurar los ajustes, abre el menú inferior.</string>
-    <string name="slot_start_on_boot_description">Habilitando inicio en el arranque permite que Blokada esté activo en todo momento y proteja tu dispositivo.</string>
+    <string name="slot_start_on_boot_description">Habilitar el inicio en el arranque permite que Blokada esté activo en todo momento y proteja tu dispositivo.</string>
     <string name="slot_recommended_dns_label">Usar servidores DNS recomendados</string>
     <string name="slot_recommended_dns_description">Cuando está activado, Blokada elegirá automáticamente servidores DNS recomendados para ayudar a acelerar tu Internet y proteger tu privacidad. De lo contrario, se utilizan los servidores DNS por defecto de tu red. Si eliges manualmente servidores DNS en la sección Avanzada, esta configuración se ignora.</string>
     <string name="slot_update_no_updates">Blokada está actualizado</string>
@@ -204,7 +204,7 @@
     <string name="slot_blog_desc">The Block (El Bloque) es donde escribimos sobre el desarrollo del proyecto, los planes futuros, y discutimos ideas.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Abrir</string>
-    <string name="slot_updated_label">¡Blokada ha sido actualizado!</string>
+    <string name="slot_updated_label">¡Blokada se ha actualizado!</string>
     <string name="slot_updated_desc">Toca aquí para una introducción a esta versión.</string>
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_updated_action">Más detalles</string>
@@ -213,13 +213,13 @@
     <!-- A button to update the app. -->
     <string name="slot_obsolete_action">Actualizar</string>
     <string name="slot_cleanup_label">Se han detectado varias versiones de Blokada</string>
-    <string name="slot_cleanup_desc">Parece que hay muchas versiones de Blokada instaladas en tu dispositivo. ¿Quieres eliminar las otras versiones y mantener una sola?</string>
+    <string name="slot_cleanup_desc">Parece que hay varias versiones de Blokada instaladas en tu dispositivo. ¿Quieres eliminar las otras versiones y mantener una sola?</string>
     <string name="slot_cleanup_action">Limpiar</string>
-    <string name="account_inactive">Tu VPN de Blokada ha expirado. No estás conectado a el VPN.</string>
-    <string name="slot_lease_cant_connect">No se pudo conectar al VPN de Blokada. Intenta seleccionando otra puerta de enlace.</string>
-    <string name="slot_account_cant_create">No se pudo crear tu cuenta del VPN de Blokada. Por favor, inténtalo de nuevo más tarde o contáctanos en Telegram.</string>
+    <string name="account_inactive">Tu VPN de Blokada ha expirado. No estás conectado al VPN.</string>
+    <string name="slot_lease_cant_connect">No se ha podido conectar al VPN de Blokada. Inténtalo de nuevo seleccionando otra puerta de enlace.</string>
+    <string name="slot_account_cant_create">No se ha podido crear tu cuenta del VPN de Blokada. Por favor, inténtalo de nuevo más tarde o contáctanos en Telegram.</string>
     <string name="slot_account_name_title">ID de cuenta</string>
-    <string name="slot_account_name_desc">Introduce tu ID de cuenta antiguo para restaurar tu suscripción anterior. Puede que quieras escribir tu ID de cuenta actual antes de hacerlo, en caso de que cometas un error.</string>
+    <string name="slot_account_name_desc">Introduce el ID de tu cuenta anterior para restaurar tu suscripción. Puede que quieras escribir el ID de tu cuenta actual antes de hacerlo, en caso de que cometas un error.</string>
     <string name="slot_account_name_error">El ID de cuenta solo puede contener letras y números.</string>
     <string name="slot_account_name_api_error">Este ID de cuenta no parece ser correcto.</string>
     <string name="slot_account_name_restore">Restaurar</string>
@@ -234,5 +234,5 @@
     <string name="slot_whitelist_updating">Actualizando configuración, por favor espera...</string>
     <string name="slot_lease_deleted_information">Ten en cuenta que actualmente el VPN de Blokada sólo puede ser usado en un dispositivo.</string>
     <string name="slot_background_animation">Animación de fondo</string>
-    <string name="slot_background_animation_description">Cuando está activado, ondas se animarán cada vez que una solicitud DNS es bloqueada o permitida. Desactiva esta opción si experimentas ralentización.</string>
+    <string name="slot_background_animation_description">Cuando está activado, las ondas se animarán cada vez que una solicitud DNS sea bloqueada o permitida. Desactiva esta opción si experimentas ralentización.</string>
 </resources>
