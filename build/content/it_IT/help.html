@@ -123,7 +123,7 @@
 <p>Come prima cosa, abilita l'opzione <i>Mantieni attivo</i> dalla schermata principale. Così facendo, Blokada cercherà di restare attiva, ma attenzione, il tuo sistema può ancora interferire su questa impostazione. Se hai impostato l'opzione <i>Mantieni attivo</i> ma noti che Blokada continua a venire bloccata, controlla le tue impostazioni di sistema e disabilita ogni ottimizzazione della batteria e la memoria per Blokada. Sfortunatamente, la procedura è diversa in ogni sistema, pertanto non possiamo dirti come fare. Per favore, controlla le impostazioni del tuo dispositivo. Un'altra possibile causa per questo problema potrebbe essere l'utilizzo di app per la pulizia della memoria. Per favore, aggiungi Blokada alla whitelist di queste applicazioni o ad una lista esclusioni. Se nessuno di questi passaggi ti è stato d'aiuto, segnala un bug (come farlo è spiegato <a href="#other">più giù</a>).</p>
 
 <h4><a name="abplists">Non riesco ad importare le liste di EasyList/AdBlock Plus in Blokada.</a></h4>
-<p>Se provi ad importare una lista (come EasyList) che funziona senza problemi con l'estensione di AdBlock presente sul tuo PC o notebook, Blokada riporterà un messaggio di errore. Questo perché Blokada utilizza un altro metodo per bloccare le pubblicità. Mentre ABP blocca e nasconde elementi o parti del sito web, Blokada non può farlo perché non è un'estensione per browser, funziona a un livello inferiore, bloccando l'accesso agli host.</p>
+<p>Se provi ad importare una lista (come EasyList) che funziona senza problemi con la tua estensione di AdBlock sul tuo PC o notebook, Blokada riporterà un messaggio d'errore. Questo perché Blokada utilizza un altro metodo per bloccare le pubblicità. Mentre ABP blocca e nasconde elementi o parti del sito web, Blokada non può farlo perché non è un plugin nel browser, funziona a un livello inferiore, bloccando l'accesso agli host.</p>
 
 <p>Opzioni non configurabili:</p>
 <p><ul>
@@ -133,16 +133,16 @@
 </ul></p>
 
 <h4><a name="ads">Cosa posso fare se vedo ancora qualche pubblicità?</a></h4>
-<p>Su Android, alcune pubblicità saranno sempre visibili con qualunque ad blocker. In particolare, le pubblicità di YouTube o alcuni popup a tutto schermo risultano difficili da bloccare. Se ritieni che più pubblicità del normale non stiano venendo bloccate, prova a seguire questi passaggi:</p>
+<p>Su Android, alcune pubblicità saranno sempre visibili con qualunque ad blocker. In particolare, le pubblicità di YouTube o alcuni popup a tutto schermo sono difficili da bloccare. Se ritieni che più pubblicità del normale non stiano venendo bloccate, prova questi passaggi:</p>
 <p><ul>
-    <li>Assicurati che l'icona a forma di chiave della VPN sia presente in alto, nella barra di stato. Altrimenti, avvia Blokada.</li>
-    <li>Apri Blokada e verifica che sia attiva e non restituisca alcun errore.</li>
-    <li>Assicurati che il conteggio degli host sia pari a zero. Se è così, seleziona alcune liste dai filtri della blacklist, in modo da bloccare le pubblicità. Se il contatore rimanesse ancora a zero, concedi l'autorizzazione all'Archiviazione nelle Impostazioni di Sistema > Applicazioni > Blokada, poi cancella la cache e riavvia il dispositivo.</li>
-    <li>Assicurati di non aver escluso troppe app dal blocco pubblicitario - possibile causa di annunci ancora visibili.</li>
-    <li>Prova a reimpostare i tuoi filtri: vai su 'Blocco annunci', dopodiché premi su 'Impostazioni lista' e infine su 'Filtro liste' (non su Sync), quindi scegli DROP.</li>
+    <li>Controlla se l'icona a forma di chiave della VPN è presente in alto, nella barra di stato. Se no, avvia Blokada.</li>
+    <li>Apri Blokada e controlla se è attiva e non dà alcun errore.</li>
+    <li>Controlla se la conta degli host è pari a zero. Se è così, seleziona alcune liste dai filtri della blacklist, in modo da bloccare le pubblicità. Se il contatore rimane a zero, concedi l'autorizzazione all'Archiviazione nelle Impostazioni di Sistema > Applicazioni > Blokada, poi cancella la cache e riavvia il dispositivo.</li>
+    <li>Assicurati di non avere troppe applicazioni nella whitelist, potrebbe essere la causa del perché vedi troppe pubblicità.</li>
+    <li>Prova a reimpostare i filtri: vai su 'Blocco pubblicità', premi su 'Impostazioni lista', premi su 'Lista filtri' (non su Sincronizza), scegli ELIMINA.</li>
     <li>Se vedi pubblicità nel tuo browser, disattiva ogni tipo di compressione o ottimizzazione del traffico dati dalle impostazioni del browser.</li>
-    <li>Disattiva Blokada, chiudilo (trascinandolo fuori dalla schermata recenti del sistema), e rieseguilo nuovamente.</li>
-    <li>Se hai cambiato di recente le tue impostazioni (filtri, liste di blocco, ecc), ricorda che ci vuole tempo prima che la nuova configurazione inizi a funzionare. Dagli del tempo.</li>
+    <li>Disattiva Blokada, chiudila (trascinandola fuori dalla schermata Recenti), e riaprila.</li>
+    <li>Se di recente hai cambiato alcune impostazioni (filtri, whitelist, ecc), ricorda che potrebbe volerci un po' perché la nuova configurazione inizi a funzionare. Dagli del tempo.</li>
     <li>Pulisci i dati dell'applicazione di Blokada (dalle impostazioni di sistema), o reinstallala.</li>
     <li>Riavvia il tuo dispositivo.</li>
     <li>Se nessuno di questi suggerimenti è stato d'aiuto, segnala un bug (vedi sotto).</li>
@@ -150,33 +150,33 @@
 
 <h4><a name="update">Non riesco ad installare un aggiornamento, cosa posso fare?</a></h4>
 <p>Per prima cosa, controlla se la tua versione di Android è la 5 o superiore. Android 4 e le versioni precedenti non sono supportate da Blokada 3.0 e le versioni più recenti. Per farlo, vai nelle Impostazioni del telefono, scorri fino a <i>Info sul telefono</i> e controlla la tua <i>Versione di Android</i>.</p>
-<p>Se il tuo telefono esegue Android 5 o più recente, assicurati di aver provato ad installare l'aggiornamento dalla stessa fonte da cui hai installato Blokada all'inizio. Ogni repository utilizza la propria firma digitale e pertanto l'aggiornamento potrebbe fallire.</p>
-<p>Riavvia il tuo dispositivo. Sembra strano, ma certe volte aiuta. Se il problema persiste, disinstalla e reinstalla nuovamente Blokada.
-<p>Se nessuno di questi suggerimenti è stato d'aiuto, entra nella nostra chat Telegram su <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> (in lingua inglese) per ottenere aiuto o segnalare un bug (vedi in basso).</p>
+<p>Se il tuo telefono è aggiornato ad Android 5 o più recente, assicurati di provare ad installare l'aggiornamento dalla stessa fonte dalla quale hai installato Blokada all'inizio. I diversi store aggiungono le loro firme digitali e pertanto l'aggiornamento potrebbe fallire.</p>
+<p>Riavvia il tuo dispositivo. Sembra strano, ma certe volte aiuta. Se il problema persiste, disinstalla Blokada e installala nuovamente.
+<p>Se nessuno di questi suggerimenti è stato d'aiuto, entra nella nostra chat Telegram su <a href="http://go.blokada.org/chat">go.blokada.org/chat</a> (in lingua inglese) per ottenere aiuto o segnalare un bug (vedi sotto).</p>
 
 <h4><a name="notification">Posso nascondere la notifica della VPN?</a></h4>
-<p>Purtroppo no. Alcuni dispositivi potrebbero mostrare una fastidiosa notifica VPN (l'icona di una chiave) mentre una VPN è attiva, senza possibilità di nasconderla. Se possibile, prova ad aggiornare il tuo dispositivo ad Android 8 (Oreo), poiché le versioni più recenti di Android non mostrano questa icona.</p>
+<p>Purtroppo no. Alcuni dispositivi visualizzano una notifica di VPN (l'icona di una chiave) e non è possibile nasconderla. Se è possibile, prova ad aggiornare il tuo dispositivo ad Android 8 (Oreo), poiché le versioni più recenti di Android non hanno questa icona.</p>
 
 <h4><a name="bug">Come posso segnalare un problema, un'idea o un suggerimento?</a></h4>
-<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti (in lingua inglese). In alternativa, basterà scegliere l'opzione Segnalazione dal menù in alto a destra e seguire le istruzioni. Ti preghiamo di fornire quante più informazioni possibili ed i passaggi per riprodurre lo stesso problema - questo approccio semplifica notevolemente la risoluzione del tuo problema! Se sei un utente avanzato, puoi fare diretto riferimento alla lista problemi elencata su GitHub.</p>
+<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti. In alternativa, basta scegliere l'opzione di Feedback dal menù in alto a destra e seguire le istruzioni. Ti preghiamo di fornire quante più informazioni possibili e i passaggi per riprodurre lo stesso problema - ci aiuta notevolmente a risolvere il tuo problema! Se sei un utente avanzato, puoi andare direttamente al tracker issue di GitHub.</p>
 
 <h4><a name="private">Blokada può accedere ai miei dati privati?</a></h4>
 <p>No. Blokada non legge le informazioni private, monitora solo gli host che ricevono richieste dal tuo dispositivo e blocca quelli corrispondenti ai filtri. Ogni volta che Blokada bloccherà una richiesta, verrà visualizzata una notifica (che sarà possibile disattivare). Blokada non ha accesso al tuo traffico crittografato.</p>
 
 <h4><a name="battery">Blokada consuma molta batteria?</a></h4>
-<p>No. A prescindere dalle tue impostazioni, l'impatto sulla batteria sarà minimo e sulla maggior parte dei nuovi dispositivi, soprattutto quelli da Marshmallow (Android 6) in poi, non avrai alcun consumo anomalo. Tuttavia, su alcuni sfortunati dispositivi si potrebbe verificare un consumo maggiore di batteria.
+<p>No. A prescindere dalle tue impostazioni, l'impatto sulla batteria è minimo e sulla maggior parte dei nuovi dispositivi, soprattutto quelli da Marshmallow (Android 6) in poi, non avrai alcun consumo anomalo. Tuttavia, alcuni sfortunati dispositivi potrebbero avere un consumo maggiore di batteria.
 
 <h4><a name="speed">Blokada rallenterà il mio dispositivo?</a></h4>
-<p>No. A seconda delle impostazioni, Blokada potrebbe risultare molto efficiente. Infatti, sia le prestazioni del dispositivo che la durata della batteria possono migliorare visibilmente, questo perché Blokada evita l'elaborazione del contenuto non necessario, risparmiando risorse. Tuttavia, gli utenti con alcuni dispositivi meno recenti potrebbero verificare cali prestazionali.</p>
+<p>No. A seconda delle impostazioni, Blokada può essere molto efficiente. Infatti, sia le prestazioni del dispositivo che la durata della batteria possono migliorare visibilmente, questo perché Blokada evita l'elaborazione del contenuto non necessario, risparmiando risorse. Tuttavia, gli utenti con alcuni dispositivi meno recenti potrebbero verificare cali prestazionali.</p>
 
 <h4><a name="free">Blokada è veramente gratuita?</a></h4>
-<p>Sì! Blokada è iniziato come progetto hobby, un modo per ripagare la comunità. L'app è open source, la funzionalità di filtraggio pubblicitario è gratuita e rimarrà così per sempre. Detto questo, lo sviluppo richiede molto tempo, quindi per favore, considera di supportare il progetto in qualsiasi modo tu possa (<a href="#contribute">vedi in basso/0>).</p>
+<p>Sì! Blokada è iniziato come progetto hobby, un modo per ripagare la comunità. L'app è open source, la funzionalità di filtraggio delle pubblicità è gratuita e rimarrà tale per sempre. Ciò detto, svilupparla occupa un sacco di tempo, quindi se ti è possibile ti chiedo di supportare il progetto come puoi (<a href="#contribute">vedi sotto</a>).</p>
 
 <h4><a name="contribute">Blokada è fantastica, come posso sostenere il progetto?</a></h4>
-<p>Ci sono molti modi per sostenere Blokada, anche finanziariamente. Tutte le varie tipologie di aiuto sono molto importanti per mantenere in vita il progetto. <a href="contribute.html">Per favore, apri questa pagina per ulteriori informazioni</a> o, semplicemente, <a href="http://go.blokada.org/chat">unisciti alla nostra chat</a>.</p>
+<p>Ci sono molti modi per sostenere Blokada, finanziariamente o in altra maniera. Tutte le varie tipologie di aiuto sono molto importanti per mantenere in vita il progetto. <a href="contribute.html">Per favore, vai a questa pagina per ulteriori informazioni</a> o, semplicemente, <a href="http://go.blokada.org/chat">unisciti alla nostra chat</a>.</p>
 
 <h4><a name="other">Ho un'altra domanda, dove posso chiedere?</a></h4>
-<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti (in lingua inglese). Se per te non risultasse comodo, utilizza l'opzione di Segnalazione dal menu in alto, o se avessi una domanda più tecnica, accedi direttamente alla lista problemi su GitHub.</p>
+<p>Per qualsiasi problema, unisciti alla nostra chat di Telegram <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, dove la nostra comunità sarà felice di aiutarti. Se non ti è comodo, utilizza l'opzione di Feedback dal menu in alto, o se hai una domanda più tecnica, vai direttamente al tracker issue di GitHub.</p>
         </section>
     </div>
 </div>
