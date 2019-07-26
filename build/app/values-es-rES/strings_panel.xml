@@ -71,15 +71,15 @@
     <string name="slot_enter_name_error">Esto no me parece nada.</string>
     <string name="slot_enter_name_generate">Generar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está en la lista blanca</string>
-    <string name="slot_app_desc">Esta aplicación está en la lista blanca, lo cual significa que ningún bloqueo o filtrado es realizado en ella.</string>
-    <string name="slot_allapp_desc">Puedes hacer que esta aplicación eluda Blokada para dejar de bloquear trafico para ella. Recuerda que aplicaciones omitidas se comunican fuera del VPN.</string>
+    <string name="slot_app_desc">Esta aplicación está en la lista blanca, por lo que ningún bloqueo o filtrado será realizado en ella.</string>
+    <string name="slot_allapp_desc">Puedes hacer que esta aplicación eluda Blokada para dejar de bloquear tráfico en ella. Recuerda que las aplicaciones omitidas se comunican fuera del VPN.</string>
     <string name="slot_allapp_whitelisted">Omitida</string>
     <string name="slot_allapp_normal">No omitida</string>
     <string name="slot_allapp_whitelist">Omitir</string>
     <string name="slot_dns_name">DNS personalizado está activo</string>
-    <string name="slot_dns_name_disabled">DNS personalizado está desactivado</string>
+    <string name="slot_dns_name_disabled">El DNS personalizado está desactivado</string>
     <string name="slot_dns_dns">Puedes cambiar los servidores actuales usando el menú inferior.</string>
-    <string name="slot_action_none">Esta acción no está disponible aún.</string>
+    <string name="slot_action_none">Esta acción aún no está disponible.</string>
     <string name="slot_action_facts">Datos</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
     <string name="slot_action_author">Acerca de</string>
@@ -183,7 +183,7 @@
     <string name="slot_protection_description">Para configurar los ajustes, abre el menú inferior.</string>
     <string name="slot_start_on_boot_description">Habilitar el inicio en el arranque permite que Blokada esté activo en todo momento y proteja tu dispositivo.</string>
     <string name="slot_recommended_dns_label">Usar servidores DNS recomendados</string>
-    <string name="slot_recommended_dns_description">Cuando está activado, Blokada elegirá automáticamente servidores DNS recomendados para ayudar a acelerar tu Internet y proteger tu privacidad. De lo contrario, se utilizan los servidores DNS por defecto de tu red. Si eliges manualmente servidores DNS en la sección Avanzada, esta configuración se ignora.</string>
+    <string name="slot_recommended_dns_description">Cuando está activado, Blokada elegirá automáticamente servidores DNS recomendados para ayudar a acelerar tu Internet y proteger tu privacidad. De lo contrario, se utilizan los servidores DNS por defecto de tu red. Si eliges manualmente servidores DNS en la sección Avanzada, esta configuración se ignorará.</string>
     <string name="slot_update_no_updates">Blokada está actualizado</string>
     <string name="slot_about">Acerca de Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
@@ -197,7 +197,7 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">Donar</string>
     <string name="slot_cta_label">¡Psst! Nos gustaría saber tu opinión.</string>
-    <string name="slot_cta_desc">Muestra tu apoyo participando en nuestras encuestas y otros eventos. Regularmente contactamos a nuestra comunidad para que nos informe sobre ideas y desarrollo nuevo, para asegurarnos de que estamos trabajando en lo que quieres ver.</string>
+    <string name="slot_cta_desc">Muestra tu apoyo participando en nuestras encuestas y otros eventos. Regularmente contactamos con nuestra comunidad para que nos den ideas y nuevos proyectos, para asegurarnos de que estamos trabajando en lo que quieres ver.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Abrir</string>
     <string name="slot_blog_label">¡Echa un vistazo a nuestro Blog de desarrollo!</string>
