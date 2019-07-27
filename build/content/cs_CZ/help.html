@@ -70,35 +70,35 @@
 <h4><a name="vpn">VPN</a></h4>
   <p>V Blokadě v4 je zavedena nová služba, je to vlastní VPN. Tato služba vám přináší zabezpečení a anonymitu na internetu bez ohledu na to, kde se nacházíte a co děláte. Více informací o této funkci naleznete v článku <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">zde</a> na našem blogu.<br>
   Tato služba stojí 5€/měsíc. Než se zaregistrujete, přečtěte si prosím naše Smluvní podmínky <a href="https://vpn.blocka.net/tos.html">zde</a> a Zásady ochrany osobních údajů <a href="https://vpn.blocka.net/privacy.html">zde</a>.
-  V této sekci budete moci spravovat svůj VPN účet. From here you’ll be able to:</p>
+  V této sekci budete moci spravovat svůj VPN účet. Odtud budete moci:</p>
   <p><ul>
-    <li>Activate an account</li>
-    <li>Restore your account</li>
-    <li>Select the gateway to connect to</li>
+    <li>Aktivovat účet</li>
+    <li>Obnovit účet</li>
+    <li>Vyberte bránu, ke které se chcete připojit</li>
   </ul></p>
-  <p>As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your subscription safely.</p>
+  <p>Pokud jde o platební mechanismus, využíváme službu Stripe a informace uložené v tomto procesu se používají pouze k ověření plateb a uchovávání dostatečného množství informací pro aktivaci účtu a umožňují bezpečnou správu předplatného.</p>
 
 <h4><a name="dns">Změna DNS</a></h4>
-  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+  <p>Další běžně používanou funkcí v Blokadě je změna DNS serveru. Aplikace poskytuje seznam předdefinovaných DNS serverů, ze kterých si můžete vybrat.<br>
+  Zkratka DNS znamená systém Domain Name System a tyto servery jsou odpovědné za překlad názvů domén (například: <i>myexample.com</i>) na adresy IP, které se mezi zařízeními používají ke komunikaci. Váš poskytovatel internetových služeb má své vlastní servery DNS; Blokada je konfigurována tak, aby používala výchozí nastavení systému. Alternativní DNS servery v tomto seznamu by měly být použity, pokud máte podezření, že váš ISP (poskytovatel internetu) shromažďuje protokoly o používání internetu, obáváte se nějakého rizika spojeného s ochranou osobních údajů nebo pokud jsou některé webové stránky či služby pro vás zablokovány ze strany ISP. Neexistuje žádný "nejlepší", vše záleží na vašich preferencích a umístění, proto pokud chcete používat vlastní DNS servery, přečtěte si jejich popis, hledejte je na internetu a přečtěte si zpětné vazby.<br>
+  Tato sekce DNS bude pracovat s aktivní VPN nebo bez ní, takže DNS dle vašeho výběru bude ten, který je používán s nebo bez služby VPN. Také zvažujeme od verze 4 Blokady zavedení zatím neexistující podpory DoH/DoT, ta bude implementována krátce po vydání v4.
 </p>
 
 <h4><a name="settings">Jaká jsou dostupná nastavení v Blokadě?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<p>Jak jste jistě viděli, Blokada má některé možnosti na obrazovce Nastavení. Můžete vidět následující:</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Oznámení</b>: Pokud je povoleno, budete upozorněni při každém zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
+    <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Ve výchozí konfiguraci je tato funkce povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
+    <li><b>Nastavení umístění</b>: kde chcete uložit konfiguraci: do interního nebo externího úložiště? Pokud si zvolíte externí, soubory budou dostupné v adresáři /Download/Blokada.</li>
+    <li><b>Animace na pozadí</b>: můžete povolit nebo zakázat animace na pozadí, zobrazující vlny. Bílé vlny představují povolené dotazy hostitele, zatímco oranžové jsou blokované.</li>
+    <li><b>Protokolování požadavků</b>: pokud je tato možnost povolena, Blokada vygeneruje soubor CSV a požadavky protokolu, které byly povoleny a/nebo blokovány aplikací.</li>
+    <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
+    <li><b>Hlídací pec</b>: pokud je volba zapnuta, Blokada se ukončí, pokud není aktivní připojení k internetu a znovu se spustí, kdykoli dojde k opětovnému připojení k internetu. Je-li možnost vypnuta, aplikace Blokada bude vždy pracovat na pozadí (i když není k dispozici žádná síť). Vezměte prosím na vědomí, že tato možnost nemusí fungovat na všech zařízeních.</li>
+    <li><b>Agresivní probuzení</b>: zapněte tuto možnost, pokud vaše zařízení zastaví nebo ukončí Blokadu kvůli systémové funkci úspory energie. Ačkoli tato možnost si klade za cíl udržet Blokadu naživu na většině zařízení, systém bude mít vždy vyšší prioritu a může aplikaci zastavit, pokud není vyloučena z optimalizace paměti nebo baterie.
 </ul></p>
 
 <h4><a name="startup">Blokada nejde po instalaci spustit.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a aby možnost <i>Vždy VPN zapnutá</i> byla povolena. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
 
 <p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
 
