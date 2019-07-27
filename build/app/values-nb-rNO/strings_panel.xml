@@ -3,6 +3,7 @@
 <resources>
     <!-- Main screen section -->
     <string name="panel_section_home">Hjem</string>
+    <string name="panel_section_menu">Meny</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Annonseblokkering</string>
     <!-- Main screen section -->
@@ -12,6 +13,8 @@
     <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">Hjelp</string>
     <string name="panel_section_home_community">Nettsamfunn</string>
+    <string name="panel_section_advanced_dns">DNS</string>
+    <string name="panel_section_advanced_settings">Innstillinger</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Tillatt &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Dette domenet har blitt tillatt. For å blokkere det, bruk knappen nedenfor.</string>
@@ -59,12 +62,15 @@
     <string name="slot_action_deactivate">Slå av</string>
     <string name="slot_action_activate">Slå på</string>
     <string name="slot_dropped_action_clear">Tilbakestill teller</string>
+    <string name="slot_notifications_enabled">Varsler er aktivert</string>
+    <string name="slot_notifications_disabled">Varsler er deaktivert</string>
     <string name="slot_update_action_refresh">Sjekk igjen</string>
     <string name="slot_telegram_title">Bli med på Telegram!</string>
     <string name="slot_telegram_desc">Besøk vår Telegram kanal for hjelp eller bare for å være en del av samfunnet vårt.</string>
     <string name="slot_telegram_action">Åpne</string>
     <string name="slot_dropped_share_title">Del til</string>
     <string name="slot_dropped_share">Jeg blokkerte %s annonser takket være %s! www.blokada.org</string>
+    <string name="slot_active">Aktiv</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Administrer</string>
     <string name="slot_account_action_manage_inactive">Aktiver konto</string>
