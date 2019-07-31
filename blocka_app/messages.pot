@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-31T14:09:41.264Z\n"
+"POT-Creation-Date: 2019-07-31T15:15:30.412Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -155,17 +155,17 @@ msgid "Processing {spinner}"
 msgstr ""
 
 #: build/messages/src/App.json
+#. [account.blocked-header] - Header shown when account activation is blocked
+#. defaultMessage is:
+#. Sorry
+msgid "Sorry"
+msgstr ""
+
+#: build/messages/src/App.json
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
-
-#: build/messages/src/App.json
-#. [account.blocked] - Generic message when account activation is blocked for some reason
-#. defaultMessage is:
-#. Sorry, the account activation is temporarily locked. Please try again later.
-msgid "Sorry, the account activation is temporarily locked. Please try again later."
 msgstr ""
 
 #: build/messages/src/App.json
@@ -187,6 +187,13 @@ msgstr ""
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
+msgstr ""
+
+#: build/messages/src/App.json
+#. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
+#. defaultMessage is:
+#. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
+msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr ""
 
 #: build/messages/src/App.json
