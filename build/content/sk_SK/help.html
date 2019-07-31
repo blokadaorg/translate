@@ -94,24 +94,24 @@
     <li><b>Zapisovač žiadostí</b>: ak je zapnutý, Blokada vygeneruje CSV súbor a bude zapisovať požiadavky, ktoré boli povolené a/alebo zablokované aplikáciou.</li>
     <li><b>Udržať aktívne</b>: táto možnosť zaistí, že Blokada nebude systémom pozastavená alebo zastavená. Váš systém však môže túto možnosť prepísať, uistite sa, že vaše nastavenia umožnia Blokade byť spustená na pozadí.</li>
     <li><b>Strážny pes</b>: ak je zapnutý a nemáte žiadne pripojenie k internetu, Blokada sa ukončí, a po opätovnom pripojení sa znova spustí. Ak je vypnuté, Blokada bude vždy bežať na pozadí (aj keď nie je k dispozícii sieť). Vezmite prosím na vedomie, že táto možnosť nemusí fungovať na všetkých zariadeniach.</li>
-    <li><b>Agresívne prebudenie</b>: túto možnosť zapnite, ak vaše zariadenie zastavuje alebo ukončuje Blokadu kvôli systémovej funkcií úspory energie. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Agresívne prebudenie</b>: túto možnosť zapnite, ak vaše zariadenie zastavuje alebo ukončuje Blokadu kvôli systémovej funkcií úspory energie. Aj napriek tomu, že cieľom tejto možnosti je udržať Blokadu aktívnu na väčšine zariadení, systém bude mať vždy vyššiu prioritu a aplikáciu môže zastaviť, pokiaľ nie je vynechaná z optimalizácie pamäte alebo batérie.
 </ul></p>
 
 <h4><a name="startup">Blokada sa nedá po nainštalovaní spustiť.</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<p>Pre takúto situáciu existujú dve najčastejšie príčíny. Najprv prosím skontrolujte, či máte aktívne VPN pripojenie a či je zapnutá možnosť <i>Vždy zapnutá VPN</i>. Prejdite do nastavení vášho zariadenia, nájdite položku VPN v nastaveniach sietí, a ťuknite na ozubené koleso vedľa existujúceho VPN. Ak je zapnutá, vypnite ju, odpojte sa od aktívneho VPN pripojenia a skúste reštartovať Blokadu.</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>Ak nemáte žiadne iné VPN pripojenie, skontrolujte, či je v Blokade v rozšírených nastaveniach zapnutý <i>Strážny pes</i>, a ak áno, skontrolujte, či ste pripojení na internet, prostredníctvom wifi alebo mobilných dát. Ak je <i>Strážny pes</i> zapnutý a nemáte pripojenie na internet, Blokada sa nespustí.</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>Ak to nepomôže, reštartujte vaše zariadenie, niekedy to môže pomôcť.</p>
 
 <h4><a name="refresh">Blokada blokuje menej reklám.</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>Ak máte podozrenie, že Blokada blokuje menej reklám ako kedysi, obnovte prosím svoje zoznamy. Môžete to urobiť ťuknutím na <i>Čierna listina</i>, potom v pravom hornom rohu na ikonu ekvalizéra, vyberte <i>Obnoviť filtre</i> a ťuknite na <i>Pokračovať</i>. Obyčajne sa to stáva, pretože k existujúcim serverom sú pridané nové, ktoré (zatiaľ) nie sú identifikované a pridané do čiernych listín, alebo tieto nové listiny nie sú stiahnuté do vášho zariadenia, a tým pádom (zatiaľ) nie sú blokované.<br>
+Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejšie filtre v ponuke <i>Čierna listina</i>.</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>Upozorňujeme, že Blokada používa zoznamy tretích strán, ak teda samotná aplikácia kedysi fungovala a blokovala reklamy, bez zmien by sa mala správať rovnako.</p>
 
 <h4><a name="chrome">Blokada neblokuje reklamy v Chrome.</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
+<p>Ak používate Google Chrome, musíte vypnúť Šetrič dát a Async DNS. Google tieto dve technológie používa predvolene, a to prekáža blokovaniu hostov v Blokade.<br>
 1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
 2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
