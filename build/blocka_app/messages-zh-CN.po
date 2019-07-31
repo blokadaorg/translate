@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-30T13:33:20.077Z\n"
+"POT-Creation-Date: 2019-07-31T14:09:41.264Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2019-07-30 13:54\n"
+"PO-Revision-Date: 2019-07-31 14:25\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -168,6 +168,13 @@ msgstr ""
 #: build/messages/src/App.json
 msgid "Sorry, an error occured. Please try again later."
 msgstr "抱歉，发生了一个错误。请稍后再试。"
+
+#. [account.blocked] - Generic message when account activation is blocked for some reason
+#. defaultMessage is:
+#. Sorry, the account activation is temporarily locked. Please try again later.
+#: build/messages/src/App.json
+msgid "Sorry, the account activation is temporarily locked. Please try again later."
+msgstr ""
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
