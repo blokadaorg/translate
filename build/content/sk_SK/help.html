@@ -81,16 +81,16 @@
 <h4><a name="dns">Zmena DNS</a></h4>
   <p>Ďalšou bežné používanou funkciou v Blokade je zmena DNS servera. Aplikácia vám poskytne zoznam preddefinovaných DNS serverov, z ktorých si môžete vybrať.<br>
   Akronym DNS znamená Domain Name System, a tieto servery sú zodpovedné za priradzovanie doménových mien (napríklad: <i>myexample.com</i>) ku IP adresám, ktoré sú používané medzi zariadeniami na komunikáciu. Váš poskytovateľ internetových služieb má svoje vlastné DNS servery; Blokada je nakonfigurovaná, aby používala systémom predvolené hodnoty. Servery v tomto zozname by mali byť použité, ak máte podozrenie, že váš ISP zhromažďuje záznamy o vašom používaní internetu, máte strach z ohrozenia súkromia, alebo ak sú pre vás niektoré stránky alebo služby zablokované. Neexistuje žiadny "najlepší" z nich, všetko záleží na vašich preferenciách a polohe, preto pokiaľ by ste chceli využívať vlastné DNS servery, prečítajte si prosím ich popis, vyhľadajte ich na internete a prečítajte si spätnú väzbu.<br>
-  Táto DNS sekcia funguje s aktívnym, no aj bez aktívneho VPN, takže DNS, ktoré si vyberiete, bude použité vždy, s aj bez VPN služby. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+  Táto DNS sekcia funguje s aktívnym, no aj bez aktívneho VPN, takže DNS, ktoré si vyberiete, bude použité vždy, s aj bez VPN služby. Berte prosím do úvahy, že vo verzii v4 Blokada zatiaľ nepodporuje DoH/DoT, no táto funkcia bude implementovaná krátko po vydaní verzie v4.
 </p>
 
-<h4><a name="settings">What are the available settings in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<h4><a name="settings">Aké nastavenia sú dostupné v Blokade?</a></h4>
+<p>Ako ste si iste všimli, Blokada má na obrazovke Nastavení zopár možností. Môžete vidieť nasledovné:</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
+    <li><b>Upozornenia</b>: ak sú zapnuté, po každom zablokovaní reklamy vám príde upozornenie. Predvolene sú zapnuté, ale ak dostávate priveľa upozornení, vypnite ich.</li>
+    <li><b>Spustiť pri štarte</b>: ak je zapnuté, Blokada sa spustí pri štarte systému. Upozorňujeme, že pre túto možnosť existujú nastavenia na úrovni systému, preto nemožno zaručiť, že sa Blokada pri štarte môže spustiť. V takomto prípade skontrolujte nastavenia vášho zariadenia. Predvolene je táto možnosť zapnutá, ak chcete spúšťať Blokadu manuálne, vypnite túto možnosť.</li>
+    <li><b>Umiestnenie nastavení</b>: kde chcete ukladať konfiguráciu: do interného alebo externého úložiska? Ak si zvolíte externé, súbory budú dostupné v priečinku /Download/Blokada.</li>
+    <li><b>Animácia pozadia</b>: môžete zapnúť alebo vypnúť animácie na pozadí, zobrazujúce vlny. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
     <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
     <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
     <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
