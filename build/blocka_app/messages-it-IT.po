@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-03T14:18:05.337Z\n"
+"POT-Creation-Date: 2019-07-31T15:15:30.412Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2019-07-03 23:22\n"
+"PO-Revision-Date: 2019-07-31 16:53\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -85,6 +85,13 @@ msgstr "Annullo {spinner}"
 msgid "DEACTIVATING"
 msgstr "DISATTIVAZIONE"
 
+#. [account.subscription_email] - Label next to e-mail input
+#. defaultMessage is:
+#. E-mail
+#: build/messages/src/Checkout.json
+msgid "E-mail"
+msgstr "Email"
+
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
@@ -155,6 +162,13 @@ msgstr "Pagamento fallito, si prega di verificare i dettagli della carta."
 msgid "Processing {spinner}"
 msgstr "Elaborazione {spinner}"
 
+#. [account.blocked-header] - Header shown when account activation is blocked
+#. defaultMessage is:
+#. Sorry
+#: build/messages/src/App.json
+msgid "Sorry"
+msgstr "Siamo spiacenti"
+
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
@@ -182,6 +196,13 @@ msgstr "Grazie!"
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
 msgstr "Questa pagina non può essere visualizzata. Per qualunque problema, per favore contattaci su hello@blokada.org."
+
+#. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
+#. defaultMessage is:
+#. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
+#: build/messages/src/App.json
+msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
+msgstr "Stiamo avendo problemi con l'attivazione della VPN sulle build di F-Droid. Stiamo lavorando ad una soluzione, nel frattempo puoi disinstallare la versione F-Droid e scaricare l'app da blokada.org."
 
 #. [account.activate_helptext] - Help text shown when about to activate an account
 #. defaultMessage is:

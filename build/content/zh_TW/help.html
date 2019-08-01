@@ -62,7 +62,7 @@
 
 
 <h4><a name="adblock">廣告阻擋</a></h4>
-  <p>Blokada 最著名的功能是廣告攔截。 它是個介於電話的網路介面（WiFi 或行動網路）及你使用的應用程式之間的一個薄層。 為了過濾每個連出的流量，它使用了您裝置的 VPN API，並阻擋所有定義在封鎖清單過濾規則的所有請求。 當應用程式嘗試存取被封鎖的主機名稱，此封鎖就會回應「找不到主機名稱」給應用程式。 因為如此，Blokada 可以同時節省您的行動網路流量、電池壽命與時間：因為其並未使用重新導向。 過濾器會自動更新。 您可以使用您自訂的過濾規則與白名單來設定 Blokada 以確保您想要使用的服務不會被封鎖，且不會遇到任何中斷的問題。<br>
+  <p>Blokada 最著名的功能是廣告攔截。 它是個介於手機的網路介面（WiFi 或行動網路）及你使用的應用程式之間的一個薄層。 為了過濾每個連出的流量，它使用了您裝置的 VPN API，並阻擋所有定義在封鎖清單過濾規則的所有請求。 當應用程式嘗試存取被封鎖的主機名稱，此封鎖就會回應「找不到主機名稱」給應用程式。 因為如此，Blokada 可以同時節省您的行動網路流量、電池壽命與時間：因為其並未使用重新導向。 過濾器會自動更新。 您可以使用您自訂的過濾規則與白名單來設定 Blokada 以確保您想要使用的服務不會被封鎖，且不會遇到任何中斷的問題。<br>
   此功能免費提供，也將會保持免費。 盡情享受 Blokada 吧！</p>
   <p><a name="allowlist"></a>如果應用程式並未如預期般運作、無法載入其內容或某些類似的不當行為，請向上滑以開啟 Blokada 選單，然後輕點<i>廣告阻擋</i>、選擇<i>已允許的主機</i>，點選頂部的 + 號，並新增一個主機名稱或包含所有您想要略過過濾的主機清單檔案。</p>
   <p><a name="blocklist"></a> 你可以阻擋主機清單上沒有的單一網站。 要這麼做，請向上滑以開啟 Blokada 的選單，在<i>廣告阻擋</i>上輕點，選擇<i>已封鎖的主機</i>並輕點在畫面頂部的 + 號。 這裡，您可以新增一個主機名稱或包含所有您想要封鎖的主機清單檔案。</p>
@@ -70,42 +70,42 @@
 <h4><a name="vpn">VPN</a></h4>
   <p>我們在 Blokada v4 中加入了新服務，那就是Blokada 自己的 VPN。 此服務讓您可以確保您在網路上的安全與匿名，不管您在哪裡，正在做什麼都一樣。 請<a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">在此</a>參閱我們的部落格文章以取得更多關於此功能的資訊。<br>
   此服務的價格為每月5歐元。 請在註冊前<a href="https://vpn.blocka.net/tos.html">在此</a>閱讀我們的服務條款與<a href="https://vpn.blocka.net/privacy.html">隱私權政策</a>。
-  在此處，您將可以管理您的 VPN 帳號。 From here you’ll be able to:</p>
+  在此處，您將可以管理您的 VPN 帳號。 在這裡你可以：</p>
   <p><ul>
-    <li>Activate an account</li>
-    <li>Restore your account</li>
-    <li>Select the gateway to connect to</li>
+    <li>啟動一個帳號</li>
+    <li>恢復你的帳號</li>
+    <li>選擇你要連結的閘道</li>
   </ul></p>
   <p>As for the payment mechanism we use Stripe and the info saved in the process is only used to verify payments and keep enough information to activate the account and allow you to manage your subscription safely.</p>
 
 <h4><a name="dns">變更 DNS</a></h4>
-  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+  <p>另一個 Blokada 的常用功能是變更 DNS 伺服器。 這個應用程式會提供一個預設的 DNS 伺服器清單來供您選擇。<br>
+ DNS 是網域名稱系統 (Domain Name System) 的縮寫，而他的伺服器負責將網域名稱 (如: <i>myexample.com</i>) 解譯成機器之間通訊時所使用的 IP 位址。 你的網路服務供應商擁有自己的 DNS 伺服器；Blokada 設定使用系統預設值。 如果你懷疑網路服務供應商蒐集你的網路使用紀錄，擔心一些隱私上的風險，又或者是有些網站或服務被阻擋，那就使用在此清單內的主機吧。 這並沒有所謂的「最佳選擇」，一切取決於您的偏好及地點。因此在你想要使用自訂的 DNS 伺服器前，請先詳讀他們的說明，還有在網路上搜尋與其相關的反饋。<br>
+ DNS 的部分不論 VPN 是否使用中都會運作，所以您選擇的 DNS 不論 VPN 服務是否啟用都會被使用。 Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
 </p>
 
 <h4><a name="settings">在 Blokada 中有哪些地方可以設定？</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<p>As you surely saw it, Blokada has some options on the Settings screen. 你可以看到以下這些：</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>通知</b>: 啟用後，您會在有廣告被阻擋時收到通知。 這個選項預設是開啟，但如果你收到太多通知，請關閉它。</li>
+    <li><b>開機時啟動</b>：啟用後， Blokada 會在系統開機後啟動。 這邊要注意的是這個選項還需要有相關的系統設定，因此這並不保證 Blokada 真的能夠在開機時啟動。 這種情況下，請檢查你的手機設定。 預設是啟用的，如果您希望手動啟動 Blokada，停用這這個選項。</li>
+    <li><b>設定儲存位置</b>：您想要將設定檔儲存於：內部或是外部儲存裝置。 如果您選擇了外部儲存裝置，這些檔案將被儲存在 /Download/Blokada 這個資料夾。</li>
+    <li><b>背景動畫</b>：您可以選擇啟用或是停用背景的波紋動畫。 白色波紋代表被允許通過的域名請求，而橘色的代表被阻檔的。</li>
+    <li><b>請求記錄器</b>: 當啟用時， Blokada 會產生一個 CSV 檔，並將所有的請求，不論允許或阻擋，都記錄在裡面。</li>
+    <li><b>維持運行狀態</b>：這個選項是用於確保 Blokada 不會被系統暫停或是停止。 這邊要注意的是您的系統可以覆寫該項設定，所以請確認您的設定是允許 Blokada 在背景運作的。</li>
+    <li><b>看門狗</b>：當啟用後，Blokada 會在斷線時關閉，在恢復連線時重新啟動。 停用時，Blokada 將會持續在背景執行（即使沒有網路）。 請注意，此選項或許無法在所有裝置上運作。</li>
+    <li><b>主動喚醒</b>: 如果您的裝置會因為系統的省電設定暫停或關閉 Blokada，啟用這個選項。 即便這個選項的目的是讓 Blokada 能在絕大多數裝置上維持運作，系統仍有較高的優先權，能在這個程式並未排除於記憶體或電池最佳化選項時停止程式。
 </ul></p>
 
 <h4><a name="startup">我安裝後無法啟動 Blokada。</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. 停用它，將連線中的 VPN 斷線，並重新啟動 Blokada。</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>若您未使用其他 VPN 連線，請檢查 Blokada 的 <i>看門狗</i> 功能是否已在「進階設定」啟用。假如已經啟用，請檢查您是否連線到 Wi-Fi 或行動數據連線。 若已啟用 <i>看門狗</i> 且未連線到網路，則 Blokada 不會啟動。</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>如果這沒有幫助，重新啟動您的手機，有時也會有所幫助。</p>
 
 <h4><a name="refresh">Blokada 阻擋的廣告很少。</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+<p>如果你覺得 Blokada 阻擋的廣告比以前少，請重新整理清單。 To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
 Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
 
 <p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
