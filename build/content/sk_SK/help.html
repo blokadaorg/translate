@@ -114,32 +114,32 @@ Alternatívne môžete povoliť viac host listov alebo pridať reštriktívnejš
 <p>Ak používate Google Chrome, musíte vypnúť Šetrič dát a Async DNS. Google tieto dve technológie používa predvolene, a to prekáža blokovaniu hostov v Blokade.<br>
 1. Pre vypnutie Šetriča dát sa v prehliadači Google Chrome dotknite troch zvislých bodiek, prejdite do Nastavení, nájdite "šetrič dát" alebo "zjednodušený režim" a vypnite ho.<br>
 2. Pre vypnutie Async DNS, otvorte vo vašom prehliadači stránku "chrome://flags", vyhľadajte DNS a vypnite funkciu Asynchrónneho DNS.<br>
-3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
-4. Reboot!</p>
+3. V zariadení prejdite do Nastavení -> Aplikácie -> Chrome -> Úložisko a vymažte vyrovnávaciu pamäť.<br>
+4. Reštartujte zariadenie!</p>
 
 <h4><a name="youtube">Reklamy na YouTube nie sú blokované!</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>Blokovanie reklám na YT je veľmi náročné, pretože Google na poskytovanie reklám používa šifrovanie a náhodne generovaných hosts. Z tohto dôvodu je oveľa jednoduchšie blokovať reklamy v YT aplikácii samotnej, než s externým nástrojom (ako Blokada). Výbornými alternatívami oficiálnej YouTube aplikácie sú NewPipe a YouTube Vanced, vyberte si tú, ktorá vám viac vyhovuje.</p>
 
 <h4><a name="kill">Blokada prestane po chvíli pracovať.</a></h4>
-<p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on allowlist or exclude list. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
+<p>V prvom rade zapnite v Blokade funkciu <i>Udržať aktívne</i>. V tomto prípade sa Blokada bude snažiť ostať online, no berte prosím na vedomie, že váš systém môže toto správanie stále ovplyvniť. Ak sa po nastavení bude Blokada stále čas od času zastavovať, skontrolujte nastavenia vášho systému a vypnite všetky optimalizácie batérie či pamäte pre Blokadu. Bohužiaľ je to iné v každom systéme, preto nedokážeme presne povedať ako na to. Skontrolujte prosím nastavenia vášho zariadenia. Ďalším zdrojom takéhoto správania môže byť fakt, že používate nejaký čistič pamäte. Pridajte prosím Blokadu do bielej listiny alebo do zoznamu výnimiek. Ak ani jeden z týchto krokov nepomohol, prosíme o nahlásenie chyby (<a href="#other">návod nižšie</a>).</p>
 
 <h4><a name="abplists">Nemôžem importovať zoznamy EasyList/AdBlock Plus do Blokady.</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+<p>Ak sa pokúsite importovať zoznam (napríklad EasyList), ktorý funguje veľmi dobre s rozšírením AdBlock Plus na vašom PC alebo notebooku, Blokáda ohlási chybové hlásenie. Stane sa tak preto, lebo Blokada využíva inú metódu na blokovanie reklám. Zatiaľčo Adblock Plus blokuje a skrýva prvky alebo časti webu, Blokada toto robiť nemôže, pretože nie je doplnok v prehliadači, pracuje na nižšej úrovni a blokuje prístup k hostiteľovi.</p>
 
-<p>Not configurable things:</p>
+<p>Nenastaviteľné veci:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
-    <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b>Aktuálne</b>: ak to vidíte, používate najnovšiu verziu Blokady. Udržujte aplikáciu aktualizovanú pre opravy chýb a nové funkcie!</li>
+    <li><b># reklám zablokovaných</b>: počet nežiadúceho obsahu, ktorý Blokada zablokovala od jej prvého spustenia</li>
+    <li><b># hostov</b>: počet serverov, ktoré poskytujú reklamy, malvér a iný nežiadúci obsah</li>
 </ul></p>
 
 <h4><a name="ads">Čo môžem urobiť, pokiaľ sa stále zobrazujú nejaké reklamy?</a></h4>
-<p>Some ads will come through with any ad blocker on Android. In particular YouTube ads or some fullscreen popup ads are difficult to block. If you think more ads are coming through than before, try these steps:</p>
+<p>Niektoré reklamy sa dostanú cez akýkoľvek blokovač reklám pre Android. Je ťažké zablokovať najmä YouTube reklamy, alebo aj niektoré popup reklamy na celú obrazovku. Ak máte pocit, že sa zobrazuje viac reklám ako predtým, vyskúšajte tieto kroky:</p>
 <p><ul>
-    <li>Check if the VPN key icon is present in the status bar at the top. If not, start Blokada.</li>
-    <li>Open Blokada and check if it is active and not reporting any errors.</li>
-    <li>Check if the hosts counter is not equal to zero. If it is, select some blacklist filters so that ads can be blocked. If the counter is still zero, grant storage access permission in the System Settings - Applications - Blokada, then clear data and cache and reboot the device.</li>
-    <li>Make sure you don't have too many apps in the allow list - maybe that's why you are seeing ads.</li>
+    <li>Skontrolujte, či vidíte ikonu VPN kľúča v stavovom riadku v hornej časti obrazovky. Ak nie, spustite Blokadu.</li>
+    <li>Otvorte Blokadu a skontrolujte, či je aktívna a nehlási žiadne chyby.</li>
+    <li>Skontrolujte, či počítadlo hostov nezobrazuje nulu. Ak áno, vyberte si niektoré filtre čiernej listiny, aby mohli byť reklamy zablokované. Ak je na počítadle stále nula, udeľte aplikácii prístup k úložisku v systémových nastaveniach - Aplikácie - Blokada, potom vymažte dáta a vyrovnávaciu pamäť a reštartujte zariadenie.</li>
+    <li>Uistite sa, že nemáte v zozname povolených príliš veľa aplikácii - to môže byť dôvod, prečo vidíte reklamy.</li>
     <li>Try resetting your filters: go to 'Ad blocking', there tap on 'List settings', tap on 'Filter lists' (not on Sync), choose DROP.</li>
     <li>If you see ads in your browser, deactivate any kind of traffic compression or optimisation in the browser's settings.</li>
     <li>Deactivate Blokada, close it (by swiping it out from the system's Recents screen), and turn it on again.</li>
