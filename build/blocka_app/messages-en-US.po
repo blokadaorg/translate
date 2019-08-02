@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-31T15:15:30.412Z\n"
+"POT-Creation-Date: 2019-08-02T10:41:23.507Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,26 +13,26 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: English\n"
 "Language: en_US\n"
-"PO-Revision-Date: 2019-07-31 15:26\n"
+"PO-Revision-Date: 2019-08-02 10:56\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr ""
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "ACTIVE"
 msgstr ""
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
-#: build/messages/src/App.json
+#: build/messages/src/Account.json
 msgid "Account ID"
 msgstr ""
 
@@ -67,21 +67,21 @@ msgstr ""
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Cancel Subscription"
 msgstr ""
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
 msgstr ""
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "DEACTIVATING"
 msgstr ""
 
@@ -102,15 +102,22 @@ msgstr ""
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "INACTIVE"
 msgstr ""
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "LOADING"
+msgstr ""
+
+#. [account.feedback_button] - Button for leaving feedback on account manage
+#. defaultMessage is:
+#. Leave Feedback
+#: build/messages/src/Manage.json
+msgid "Leave Feedback"
 msgstr ""
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
@@ -179,7 +186,7 @@ msgstr ""
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Subscription: {status}"
 msgstr ""
 
