@@ -1,27 +1,27 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-31T15:15:30.412Z\n"
+"POT-Creation-Date: 2019-08-02T10:41:23.507Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
 "X-Generator: react-intl-po\n"
 
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 msgid "ACTIVE"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Account.json
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
@@ -56,21 +56,21 @@ msgstr ""
 msgid "Blokada VPN, €{price} per month"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 msgid "Cancel Subscription"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 msgid "Canceling {spinner}"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
@@ -91,18 +91,25 @@ msgstr ""
 msgid "Fetching account information {spinner}"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
 msgid "INACTIVE"
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 msgid "LOADING"
+msgstr ""
+
+#: build/messages/src/Manage.json
+#. [account.feedback_button] - Button for leaving feedback on account manage
+#. defaultMessage is:
+#. Leave Feedback
+msgid "Leave Feedback"
 msgstr ""
 
 #: build/messages/src/Checkout.json
@@ -168,7 +175,7 @@ msgstr ""
 msgid "Sorry, an error occured. Please try again later."
 msgstr ""
 
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
