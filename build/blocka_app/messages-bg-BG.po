@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-07-31T15:15:30.412Z\n"
+"POT-Creation-Date: 2019-08-02T10:41:23.507Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,26 +13,26 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-08-02 10:22\n"
+"PO-Revision-Date: 2019-08-02 11:24\n"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr "Нов абонамент може да бъде активиран след изтичане периода на текущия."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "ACTIVE"
 msgstr "АКТИВЕН"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
-#: build/messages/src/App.json
+#: build/messages/src/Account.json
 msgid "Account ID"
 msgstr "Профил ID"
 
@@ -67,21 +67,21 @@ msgstr "Blokada VPN, €{price} на месец"
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Cancel Subscription"
 msgstr "Отмяна на абонамента"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
 msgstr "Отмяна {spinner}"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "DEACTIVATING"
 msgstr "ДЕАКТИВИРАНЕ"
 
@@ -102,16 +102,23 @@ msgstr "Извличане на информация за профила {spinne
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "INACTIVE"
 msgstr "НЕАКТИВЕН"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "LOADING"
 msgstr "ЗАРЕЖДАНЕ"
+
+#. [account.feedback_button] - Button for leaving feedback on account manage
+#. defaultMessage is:
+#. Leave Feedback
+#: build/messages/src/Manage.json
+msgid "Leave Feedback"
+msgstr "Изпратете отзив"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -179,7 +186,7 @@ msgstr "За съжаление възникна грешка. Моля, опи�
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Subscription: {status}
-#: build/messages/src/App.json
+#: build/messages/src/Manage.json
 msgid "Subscription: {status}"
 msgstr "Абонамент: {status}"
 
