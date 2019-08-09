@@ -1,11 +1,32 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-02T10:41:23.507Z\n"
+"POT-Creation-Date: 2019-08-09T08:45:22.785Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
 "X-Generator: react-intl-po\n"
 
+
+#: build/messages/src/Checkout.json
+#. [account.subscription_price_month] - Monthly payment option
+#. defaultMessage is:
+#. 1 Month
+msgid "1 Month"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.subscription_price_12months] - Yearly payment option
+#. defaultMessage is:
+#. 12 Months
+msgid "12 Months"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.subscription_price_6months] - 6-month payment option
+#. defaultMessage is:
+#. 6 Months
+msgid "6 Months"
+msgstr ""
 
 #: build/messages/src/Manage.json
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
@@ -43,17 +64,17 @@ msgid "An error occured, please try later."
 msgstr ""
 
 #: build/messages/src/Checkout.json
-#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
-#. Auto renew monthly
-msgid "Auto renew monthly"
+#. Auto renew
+msgid "Auto renew"
 msgstr ""
 
 #: build/messages/src/Checkout.json
-#. [account.subscription_price] - Price info above payment options
+#. [account.subscription_header] - VPN service header
 #. defaultMessage is:
-#. Blokada VPN, €{price} per month
-msgid "Blokada VPN, €{price} per month"
+#. Blokada VPN
+msgid "Blokada VPN"
 msgstr ""
 
 #: build/messages/src/Manage.json
@@ -141,10 +162,10 @@ msgid "Pay €{price}"
 msgstr ""
 
 #: build/messages/src/Checkout.json
-#. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
+#. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
-#. Pay €{price} each month
-msgid "Pay €{price} each month"
+#. Pay €{price} each period
+msgid "Pay €{price} each period"
 msgstr ""
 
 #: build/messages/src/Checkout.json
@@ -159,6 +180,13 @@ msgstr ""
 #. defaultMessage is:
 #. Processing {spinner}
 msgid "Processing {spinner}"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.subscription_price_badge] - Badge showing percentage difference from 1 month payment
+#. defaultMessage is:
+#. Save {percent}%
+msgid "Save {percent}%"
 msgstr ""
 
 #: build/messages/src/App.json
@@ -201,13 +229,6 @@ msgstr ""
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
-
-#: build/messages/src/App.json
-#. [account.activate_helptext] - Help text shown when about to activate an account
-#. defaultMessage is:
-#. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
-msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
 msgstr ""
 
 #: build/messages/src/App.json
