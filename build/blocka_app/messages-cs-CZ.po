@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2019-08-09 13:59\n"
+"PO-Revision-Date: 2019-08-09 17:32\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -167,14 +167,14 @@ msgstr "Zaplatit kartou"
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr "Zaplatit €{price}"
+msgstr "Zaplatit {price}€"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr "Zaplatit €{price} za každé období"
+msgstr "Zaplatit {price}€ za každé období"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
