@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-02T10:41:23.507Z\n"
+"POT-Creation-Date: 2019-08-09T08:45:22.785Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,28 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2019-08-02 12:12\n"
+"PO-Revision-Date: 2019-08-09 09:03\n"
+
+#. [account.subscription_price_month] - Monthly payment option
+#. defaultMessage is:
+#. 1 Month
+#: build/messages/src/Checkout.json
+msgid "1 Month"
+msgstr ""
+
+#. [account.subscription_price_12months] - Yearly payment option
+#. defaultMessage is:
+#. 12 Months
+#: build/messages/src/Checkout.json
+msgid "12 Months"
+msgstr ""
+
+#. [account.subscription_price_6months] - 6-month payment option
+#. defaultMessage is:
+#. 6 Months
+#: build/messages/src/Checkout.json
+msgid "6 Months"
+msgstr ""
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -50,19 +71,19 @@ msgstr "Attivazione annullata"
 msgid "An error occured, please try later."
 msgstr "Si è verificato un errore, riprova più tardi."
 
-#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate monthly subscription or not
+#. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
-#. Auto renew monthly
+#. Auto renew
 #: build/messages/src/Checkout.json
-msgid "Auto renew monthly"
-msgstr "Rinnovo mensile automatico"
+msgid "Auto renew"
+msgstr ""
 
-#. [account.subscription_price] - Price info above payment options
+#. [account.subscription_header] - VPN service header
 #. defaultMessage is:
-#. Blokada VPN, €{price} per month
+#. Blokada VPN
 #: build/messages/src/Checkout.json
-msgid "Blokada VPN, €{price} per month"
-msgstr "Blokada VPN, {price}€ al mese"
+msgid "Blokada VPN"
+msgstr ""
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -148,12 +169,12 @@ msgstr "Paga con carta"
 msgid "Pay €{price}"
 msgstr "Paga {price}€"
 
-#. [account.activate_subscription] - Button for subscribing to monthly payment for activating an account
+#. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
-#. Pay €{price} each month
+#. Pay €{price} each period
 #: build/messages/src/Checkout.json
-msgid "Pay €{price} each month"
-msgstr "Paga {price}€ ogni mese"
+msgid "Pay €{price} each period"
+msgstr ""
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -168,6 +189,13 @@ msgstr "Pagamento fallito, si prega di verificare i dettagli della carta."
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
 msgstr "Elaborazione {spinner}"
+
+#. [account.subscription_price_badge] - Badge showing percentage difference from 1 month payment
+#. defaultMessage is:
+#. Save {percent}%
+#: build/messages/src/Checkout.json
+msgid "Save {percent}%"
+msgstr ""
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -210,13 +238,6 @@ msgstr "Questa pagina non può essere visualizzata. Per qualunque problema, per 
 #: build/messages/src/App.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "Stiamo avendo problemi con l'attivazione della VPN sulle build di F-Droid. Stiamo lavorando ad una soluzione, nel frattempo puoi disinstallare la versione F-Droid e scaricare l'app da blokada.org."
-
-#. [account.activate_helptext] - Help text shown when about to activate an account
-#. defaultMessage is:
-#. Write down the account ID before activating, it can be used to restore your subscription in case of data loss.
-#: build/messages/src/App.json
-msgid "Write down the account ID before activating, it can be used to restore your subscription in case of data loss."
-msgstr "Prima di attivarlo, segnati da qualche parte l'ID account, può essere usato per ripristinare l'abbonamento in caso di perdita di dati."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
