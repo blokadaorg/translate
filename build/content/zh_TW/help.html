@@ -81,11 +81,11 @@
 <h4><a name="dns">變更 DNS</a></h4>
   <p>另一個 Blokada 的常用功能是變更 DNS 伺服器。 這個應用程式會提供一個預設的 DNS 伺服器清單來供您選擇。<br>
  DNS 是網域名稱系統 (Domain Name System) 的縮寫，而他的伺服器負責將網域名稱 (如: <i>myexample.com</i>) 解譯成機器之間通訊時所使用的 IP 位址。 你的網路服務供應商擁有自己的 DNS 伺服器；Blokada 設定使用系統預設值。 如果你懷疑網路服務供應商蒐集你的網路使用紀錄，擔心一些隱私上的風險，又或者是有些網站或服務被阻擋，那就使用在此清單內的主機吧。 這並沒有所謂的「最佳選擇」，一切取決於您的偏好及地點。因此在你想要使用自訂的 DNS 伺服器前，請先詳讀他們的說明，還有在網路上搜尋與其相關的反饋。<br>
- DNS 的部分不論 VPN 是否使用中都會運作，所以您選擇的 DNS 不論 VPN 服務是否啟用都會被使用。 Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+ DNS 的部分不論 VPN 是否使用中都會運作，所以您選擇的 DNS 不論 VPN 服務是否啟用都會被使用。 目前 v4 Blokada 尚未支援 Doh/Dop，但會盡快在正式版推出後完成這個功能。
 </p>
 
 <h4><a name="settings">在 Blokada 中有哪些地方可以設定？</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. 你可以看到以下這些：</p>
+<p>正如同你所看到的，Blokada 在設定有一些選項。 你可以往下看看：</p>
 <p><ul>
     <li><b>通知</b>: 啟用後，您會在有廣告被阻擋時收到通知。 這個選項預設是開啟，但如果你收到太多通知，請關閉它。</li>
     <li><b>開機時啟動</b>：啟用後， Blokada 會在系統開機後啟動。 這邊要注意的是這個選項還需要有相關的系統設定，因此這並不保證 Blokada 真的能夠在開機時啟動。 這種情況下，請檢查你的手機設定。 預設是啟用的，如果您希望手動啟動 Blokada，停用這這個選項。</li>
@@ -97,8 +97,8 @@
     <li><b>主動喚醒</b>: 如果您的裝置會因為系統的省電設定暫停或關閉 Blokada，啟用這個選項。 即便這個選項的目的是讓 Blokada 能在絕大多數裝置上維持運作，系統仍有較高的優先權，能在這個程式並未排除於記憶體或電池最佳化選項時停止程式。
 </ul></p>
 
-<h4><a name="startup">我安裝後無法啟動 Blokada。</a></h4>
-<p>There are two common causes for such a situation. First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. 停用它，將連線中的 VPN 斷線，並重新啟動 Blokada。</p>
+<h4><a name="startup">我無法啟動 Blokada</a></h4>
+<p>有兩個常見原因會導致這樣的狀況。 First, please check if you have an active VPN connection and if thats <i>Always-on VPN</i> option is enabled. To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. 停用它，將連線中的 VPN 斷線，並重新啟動 Blokada。</p>
 
 <p>若您未使用其他 VPN 連線，請檢查 Blokada 的 <i>看門狗</i> 功能是否已在「進階設定」啟用。假如已經啟用，請檢查您是否連線到 Wi-Fi 或行動數據連線。 若已啟用 <i>看門狗</i> 且未連線到網路，則 Blokada 不會啟動。</p>
 
