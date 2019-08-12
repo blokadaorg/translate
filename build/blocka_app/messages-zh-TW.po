@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-08-11 04:05\n"
+"PO-Revision-Date: 2019-08-12 17:12\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -41,7 +41,7 @@ msgstr "6 個月"
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "目前的訂閱可能會在訂閱過期後自動續訂。"
+msgstr "當前訂閱週期已過期，可能會自動續訂"
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -111,7 +111,7 @@ msgstr "停用"
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr "電子信箱"
+msgstr "信箱"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -181,7 +181,7 @@ msgstr "每個週期付 €{price}"
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr "付款失敗，請檢查卡片資訊是否有效。"
+msgstr "付款失敗，請檢查信用卡是否仍然有效。"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -237,14 +237,14 @@ msgstr "無法顯示這個頁面。如果您遇到任何問題，請利用 hello
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/App.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr "目前 F-Droid 上的版本有啟用 VPN 的問題。我們已經在著手處理這個問題，如果您會用到此功能的話，建議您解除安裝 F-Droid 上的版本，並從 blokada.org 下載應用程式來安裝。"
+msgstr "目前在 F-Droid 上的 VPN 有問題，我們已經在著手處理。如果需要使用此功能，建議您解除安裝 F-Droid 上的版本，並從 blokada.org 下載。"
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "您的付款正在處理中,並且您的帳號將會於稍後啟用. 若您遇到了任何問題, 請利用hello@blokada.org來與我們聯繫."
+msgstr "正在處理中您的付款資訊，將會稍後啟用帳號。 若您遇到了任何問題， 請利用hello@blokada.org 來與我們聯繫。"
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
