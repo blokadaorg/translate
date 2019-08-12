@@ -5,7 +5,20 @@
     <string name="dns_default_comment">When selected, the DNS servers provided by your mobile network or your internet provider won\'t be changed and your default servers will be used by your device. This choice does not protect you from censorship nor tracking.</string>
     <!-- A name used for DNS servers added by user. -->
     <string name="dns_custom_name">Custom DNS</string>
+    <string name="dns_custom_comment">DNS</string>
+    <string name="dns_custom_add_slot">Add new DNS…</string>
+    <string name="slot_enter_dns_error">This does not look like an IPv4 to me.</string>
     <!-- An example format of a DNS server address. -->
+    <string name="dns_edit_ip_placeholder">8.8.8.8</string>
+    <string name="dns_edit_ip_label">IP address</string>
+    <string name="dns_edit_ip1_enter">Enter a DNS server address</string>
+    <string name="dns_edit_ip2_enter">Enter a secondary DNS server address</string>
+    <string name="dns_edit_ip_error">This does not look correct. Make sure you enter a server IP address, like 8.8.8.8.</string>
+    <string name="dns_edit_name_error">Not a valid name</string>
+    <string name="dns_edit_name_label">Server name</string>
+    <string name="dns_edit_name_default">Default name</string>
+    <string name="dns_edit_next">Next</string>
+    <string name="dns_edit_last">Add</string>
     <!-- Displayed in the home screen when no custom dns is set, keep it short. -->
     <string name="dns_text_none">Default DNS</string>
     <!-- Deletes all dns suggestions and fetches default ones. -->

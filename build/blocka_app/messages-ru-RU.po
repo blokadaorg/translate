@@ -13,35 +13,35 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2019-08-09 10:05\n"
+"PO-Revision-Date: 2019-08-10 11:07\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr "1 Месяц"
+msgstr "1 месяц"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr "12 Месяцев"
+msgstr "12 месяцев"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr "6 Месяцев"
+msgstr "6 месяцев"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "Новая подписка может быть активирована после истечения текущего цикла."
+msgstr "Новая подписка может быть активирована по истечении текущего цикла."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -76,7 +76,7 @@ msgstr "Произошла ошибка, пожалуйста попробуйт
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr "Авто-обновление"
+msgstr "Автопродление"
 
 #. [account.subscription_header] - VPN service header
 #. defaultMessage is:
@@ -174,7 +174,7 @@ msgstr "Оплата €{price}"
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "Оплачивать по €{price} евро за период"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
