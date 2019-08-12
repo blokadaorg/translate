@@ -105,32 +105,32 @@
 <p>如果沒有產生作用，有時重新啟動您的手機也是不錯的選擇。</p>
 
 <h4><a name="refresh">Blokada 阻擋的廣告很少。</a></h4>
-<p>如果您覺得 Blokada 阻擋的廣告比以往的還少，請重新整理清單。 To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
+<p>如果您覺得 Blokada 阻擋的廣告比以往的還少，請重新整理清單。 請點擊<i>黑名單</i>，在右上角的等化器圖示中，選擇<i>重新整理過濾器</i>並輕點<i>繼續</i>。 Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
 Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
 
 <p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
 
 <h4><a name="chrome">Blokada 不會阻擋 Chrome 的廣告。</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
+<p>如果您正在使用 Google Chrome 您需要停用 Data Saver 及 Async DNS。 Google 預設啟用這兩個技術，而這些會妨礙 Blokada 的主機阻擋功能。<br>
 1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
 2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
 4. Reboot!</p>
 
 <h4><a name="youtube">無法阻擋 YouTube 中的廣告！</a></h4>
-<p>Blocking ads on YT is very hard because Google uses encryption and randomly generated hosts to serve the ads. Therefore, it's much easier to block ads within the YT app as with an external tool (like Blokada). NewPipe and YouTube Vanced are featureful, great alternatives of the official YouTube application, please check which fits better for you.</p>
+<p>在 YouTube 上阻擋廣告是非常困難的，因為 Google 使用了加密且隨機生成的主機來播送廣告。 因此，使用外部工具（如 Blokada）在其他應用程式上會比較容易阻擋廣告。 NewPipe 或 YouTube Vanced 都是多功能的 YouTube 官方替代品，請看看哪個軟體對您比較合用。</p>
 
 <h4><a name="kill">Blokada 過一段時間就會停止運作。</a></h4>
 <p>As a first step, turn on <i>Keep alive</i> in Blokada. In this case, Blokada will try to stay online, but please note, your system still can effect this behaviour. If you set it, and you still see that Blokada is stopped time after time, check your system’s settings and turn off every battery- and memory-optimisation for Blokada. Unfortunately it is different in every system, therefore we cannot say where to do it. Please check your phone’s settings. Other source of such behaviour can be that you are using a memory cleaner. Please set Blokada on allowlist or exclude list. If non of this steps helped in your case, please report a bug (<a href="#other">see below</a> how to do it).</p>
 
 <h4><a name="abplists">我無法匯入 EasyList/AdBlock Plus 清單到 Blokada 中。</a></h4>
-<p>If you try to import a list (for example EasyList) that works very well with your AdBlock Plus extension on your PC or notebook, Blokada will report an error message. It is because Blokada uses other method to block ads. While ABP blocks and hides elements or parts of the website, Blokada cannot do it because it's not a plugin in the browser, works on a lower level, blocking host access.</p>
+<p>若您試著匯入在您的電腦上運作良好的 AdBlock Plus 附加元件的清單（例如 EasyList），Blokada 會回報錯誤。 這是因為 Blokada 使用了其他方法來阻擋廣告。 Blokada 並不能如 ABP 那般，阻擋並隱藏在網頁上的元素或區塊。因為它並非瀏覽器的附加元件，是採用較低層級的運作方式來阻擋主機。</p>
 
 <p>Not configurable things:</p>
 <p><ul>
     <li><b>Up to date</b>: if you see it, you are running the most recent version of Blokada. Keep the app up-to-date because it has less bugs and more features!</li>
     <li><b># ads blocked</b>: the number of unwanted content that Blokada blocked since it is started for the first time</li>
-    <li><b># hosts</b>: number of servers that serves advertisements, malware and other unwanted content</li>
+    <li><b># 主機</b>：提供過濾廣告、惡意軟體及其他可能有害內容的伺服器數量。</li>
 </ul></p>
 
 <h4><a name="ads">如果我仍然看到廣告，該怎麼辦？</a></h4>
@@ -143,9 +143,9 @@ Alternatively you can enable more host lists or add more restrictive filters in 
     <li>嘗試更新過濾器：前往「廣告封鎖」，點擊「列表設定」，點擊「過濾器列表」（不在同步中），選擇「丟失」。</li>
     <li>如果您仍然在瀏覽器中看到廣告，請進入瀏覽器的設定，停用任何類型的節省數據壓縮或最佳化。</li>
     <li>取消 Blokada，將其關閉 （ 由最近啟動畫面上刪除），再重新啟動。</li>
-    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes time before new configuration start working. Give it some time.</li>
-    <li>Clear app data for Blokada (in system settings), or reinstall it.</li>
-    <li>Restart your device.</li>
+    <li>如果你最近更改設定（過濾器、白名單等）。注意，要一段時間才會產生作用。 請稍待片刻。</li>
+    <li>清除 Blokada 的應用程式資料 （在系統設定裡） 或重新安裝。</li>
+    <li>重開機。</li>
     <li>If none of those steps helped, please report a bug (see below).</li>
 </ul></p>
 
