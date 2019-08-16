@@ -13,28 +13,28 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-08-09 09:02\n"
+"PO-Revision-Date: 2019-08-13 20:42\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "1 ay"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12 ay"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6 ay"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -76,14 +76,14 @@ msgstr "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Otomatik yenile"
 
 #. [account.subscription_header] - VPN service header
 #. defaultMessage is:
 #. Blokada VPN
 #: build/messages/src/Checkout.json
 msgid "Blokada VPN"
-msgstr ""
+msgstr "Blokada VPN"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -111,7 +111,7 @@ msgstr "AKTİF DEĞİL"
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "E-posta"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -139,7 +139,7 @@ msgstr "YÜKLENİYOR"
 #. Leave Feedback
 #: build/messages/src/Manage.json
 msgid "Leave Feedback"
-msgstr ""
+msgstr "Geri bildirim bırakın"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -174,7 +174,7 @@ msgstr "€{price} ödeyin"
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "Her dönem €{price} ödeyin"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -195,14 +195,14 @@ msgstr "{spinner} işleniyor"
 #. Save {percent}%
 #: build/messages/src/Checkout.json
 msgid "Save {percent}%"
-msgstr ""
+msgstr "Kaydet {percent}%"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/App.json
 msgid "Sorry"
-msgstr ""
+msgstr "Üzgünüz"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
@@ -237,7 +237,7 @@ msgstr "Bu sayfa görüntülenemedi. Herhangi bir sorun yaşarsanız, lütfen bi
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/App.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "Şu anda F-Droid yapılarında VPN aktivasyonu ile ilgili sorunlarımız var. Bu sorun üzerinde çalışılmaktadır, bu arada F-Droid sürümünü kaldırabilir ve uygulamayı blokada.org adresinden indirebilirsiniz."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
