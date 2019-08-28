@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2019-08-28 15:03\n"
+"PO-Revision-Date: 2019-08-28 15:16\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -167,7 +167,7 @@ msgstr "Zaplatit přes PayPal"
 #. Pay with PayPal is available in Blokada v4.2 and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v4.2 and up"
-msgstr ""
+msgstr "Platba přes PayPal je k dispozici od verze 4.2 a vyšší"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "Zaplatit {price}€ za každé období"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Zaplatit {price}€ pomocí PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "Platba se nezdařila, zkontrolujte prosím údaje o kartě."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Platba selhala, pro více informací se podívej na PayPal."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -244,7 +244,7 @@ msgstr "Děkujeme!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Tuto stránku nelze zobrazit. Pokud narazíte na nějaké problémy, kontaktujte nás na e-mailu {email}."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -258,12 +258,12 @@ msgstr "V současné době máme problémy s aktivací VPN na verzích s obchodu
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Vaše platba se zpracovává a váš účet bude brzy aktivován. Pokud narazíte na nějaké problémy, kontaktujte nás na e-mailu {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Vaše platba byla zrušena a nebudou vám účtovány žádné poplatky. Váš účet není aktivní. Pokud narazíte na nějaké problémy, kontaktujte nás na e-mailu {email}."
 
