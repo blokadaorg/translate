@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2019-08-28 13:25\n"
+"PO-Revision-Date: 2019-08-28 23:46\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Perpanjang otomatis"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Perbarui ulang saat selesai: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -160,14 +160,14 @@ msgstr "Tidak ditemukan"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Bayar dengan PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v4.2 and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v4.2 and up"
-msgstr ""
+msgstr "Pembayaran melalui PayPal dapat dilakukan di Blokada v4.2 dan seterusnya"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "Bayar €{price} setiap bulan"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Bayar €{price} menggunakan PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "Pembayaran gagal, harap periksa kembali data kartu Anda."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Pembayaran gagal, cek PayPal untuk melihat rinciannya."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
