@@ -21,7 +21,7 @@
     <string name="home_masterswitch_on">Sentuh untuk tangguh</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Beritahu rakan anda</string>
-    <string name="home_share_state">Kogsi markah Blokada anda</string>
+    <string name="home_share_state">Kongsi markah Blokada anda</string>
     <string name="home_adblocking_enabled">Penyekat iklan sedang aktif</string>
     <string name="home_adblocking_disabled">Penyekat iklan tidak diaktifkan</string>
     <!-- A short text for the item that displays update information -->
@@ -61,19 +61,32 @@
     <string name="menu_vpn_account_label">Untuk menggunkan VPN, anda perlu mengaktifkan akaun anda. Periksa atau pulihkan akaun anda di sini.</string>
     <string name="menu_vpn_gateways_label">Pilih salah satu Gateway yang akan disambungkan. Peranti anda akan mengahntar data yang telah disulitkan dengan selamat melalui Gateway tersebut, dan anda akan tetap berada dalam keadaan tanpa nama.</string>
     <string name="menu_dns_recommended">Cadangan pelayan DNS</string>
-    <string name="menu_dns_intro">DNS bertanggung jawab untuk menerjemahkan alamat IP sesawang dan aplikasi yang anda gunakan. Memilih DNS yang baik dapat mempercepat peranti anda dan akan membantu melindungi privasi anda.</string>
+    <string name="menu_dns_intro">DNS bertanggung jawab untuk menterjemahkan alamat IP sesawang dan aplikasi yang anda gunakan. Memilih DNS yang baik dapat mempercepat peranti anda dan akan membantu melindungi privasi anda.</string>
     <string name="menu_dns_select">Pilih satu daripada pelayan DNS.</string>
     <string name="menu_apps_intro">Beberapa aplikasi mungkin tidak bekerja dengan betul dengan Blokada. Misalnya, ia mungkin mengalami masalah ketika penyambungan.\n\nMengaktifkan VPN serselalunya membantu dalam masalah tersebut.\n\nJika tidak, anda boleh membuat aplikasi itu memintas pemerikasaan Blokada samasekali. Ingat, aplikasi yang memintas pemerikasaan berkomunikasi di luar VPN.</string>
-    <string name="menu_apps_system_label">Sistem aplikasi yang datang bersama dengan peranti anda. Ada antaranya tersembunyi. Anda boleh mengubah aplikasi ini juka anda tahu apa yang anda lakukan.</string>
-    <string name="menu_host_list_intro">Senarai host mengandungi aturan untuk menyekat iklan dan penjejak. Cubalah untuk mengurangakan bilangan senarai kepada paling rendah.</string>
+    <string name="menu_apps_system_label">Sistem aplikasi yang datang bersama dengan peranti anda. Ada antaranya tersembunyi. Anda boleh mengubah aplikasi ini jika anda tahu apa yang anda lakukan.</string>
+    <string name="menu_host_list_intro">Senarai hos mengandungi aturan untuk menyekat iklan dan penjejak. Cubalah untuk mengurangakan bilangan senarai kepada paling rendah.</string>
     <string name="menu_host_list_settings">Senarai tetapan</string>
     <string name="menu_host_list_status">Senarai status</string>
     <string name="menu_host_list_download">Senarai tetapan muaturun</string>
+    <string name="menu_host_whitelist">Hos yang anda tambahkan di sini tidak akan pernah disekat. Gunakan daftar ini ketika, contohnya, sesawang yang anda kunjungi tersalah disekat.</string>
+    <string name="menu_host_blacklist">Hos yang anda tambahkan di sini akan sentisa disekat. Contohnya, anda dapat menambah sesawang yang tidak disekat oleh daftar lalai, tetapi sepatutnya.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Lain-lain</string>
+    <string name="menu_share_log_label">Berkongsi log membolehkan kami untuk mengetahui sebab masalah anda. Pastikan anda menghantarnya secara pribadi ke salah seorang anggota teras kumpulan Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Ketahui lebih lanjut</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Pengetahuan</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Libatkan diri</string>
+    <string name="menu_telegram">Sembang Telegram</string>
+    <string name="menu_configure">Tetapan sifat Blokada</string>
+    <string name="menu_exclude">Kecualikan aplikasi yang tidak berfingsi dengan betul</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Menyelam lebih dalam</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Urus</string>
+    <string name="menu_ok">OK</string>
+    <string name="menu_dns_remove_default">DNS lalai tidak boleh dibuang.</string>
 </resources>
