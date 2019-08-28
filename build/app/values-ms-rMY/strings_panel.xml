@@ -51,6 +51,10 @@
     <string name="slot_intro_new">Bagaimana untuk menggunakan UI baharu? Sentuh di sini untuk pengenalan.</string>
     <string name="slot_intro_new_header">Bagaimana untuk menggunakan UI baru?</string>
     <string name="slot_intro_desc">Anda sedang berada di bahagian Home, ada banyak lagi jika anda mengusap ke kanan. Masing-masing memiliki menu bawahannya sendiri-bukanya dengan mengusap ke atas. &lt;br/&gt;&lt;br/&gt;Di Android TV, navigasi UI dengan dpad. Gunakan kekungci tengah untuk membuka menu bawah, atau pilihan yang anda pilih. Kekungci ditanda dengan anak panah ke atas, bawah, kiri atau kanan-Gunakan kekungci arah untuk menekanya.</string>
+    <string name="slot_intro_info">Psst... Sesetangah pilihan mempunyai tanda tanya pada ikonnya. Tekannya ia akan memaparkan pesanan bantuan ringkas, seperti yang ini!</string>
+    <string name="slot_new_filter">Tambah hos baru dalam daftar sekatan</string>
+    <string name="slot_new_filter_list">Tambah hos baru dalam daftar hos</string>
+    <string name="slot_new_filter_whitelist">Tambah host baru dalam daftar yang dibenarkan</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">nyahsetkan</string>
     <!-- A state of input form when correct input is entered  -->
@@ -60,10 +64,20 @@
     <string name="slot_continue">Teruskan</string>
     <string name="slot_enter_domain_title">Domain</string>
     <string name="slot_enter_domain_desc">Masukkan domain diselangi dengan koma. Anda juga boleh tampal sebarang link kepada mana-mana senarai hos, atau import fail senarai hos dalaman.</string>
+    <string name="slot_enter_domain_error">Ini tidak ketihatan seperti apa-apa saya.</string>
     <string name="slot_enter_domain_file">Fail</string>
     <string name="slot_enter_name_title">Nama</string>
     <string name="slot_enter_name_desc">Masukkan nama untuk kemasukkan baru. Anda juga boleh menjana nama cadangan.</string>
+    <string name="slot_enter_name_error">Ini tidak ketihatan seperti apa-apa saya.</string>
     <string name="slot_enter_name_generate">Menjana</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; disenarai putihkan</string>
+    <string name="slot_app_desc">Ini adalah aplikasi yang disenarai putihkan, ini bermakna tiada sekatan atau penapisan dilakukan kepadanya.</string>
+    <string name="slot_allapp_desc">Anda boleh membuat aplikasi ini untuk memintas Blokada untuk menghentikan sekatan aliran trafik kepadanya. Ingat, aplikasi yang terpintas berkomunikasi di luar VPN.</string>
+    <string name="slot_allapp_whitelisted">Terpintas</string>
+    <string name="slot_allapp_normal">Tidak terpintas</string>
+    <string name="slot_allapp_whitelist">Pintasan</string>
+    <string name="slot_dns_name">DNS kustom aktif</string>
+    <string name="slot_dns_name_disabled">DNS kustom dimatikan</string>
     <string name="slot_dns_dns">Anda boleh menukar pelayan semasa menggunakan menu di bawah.</string>
     <string name="slot_action_none">Tindakan ini tidak tersedia.</string>
     <string name="slot_action_unwhitelist">Batal</string>
