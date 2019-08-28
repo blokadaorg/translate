@@ -76,10 +76,11 @@
     <string name="slot_allapp_whitelisted">Terpintas</string>
     <string name="slot_allapp_normal">Tidak terpintas</string>
     <string name="slot_allapp_whitelist">Pintasan</string>
-    <string name="slot_dns_name">DNS kustom aktif</string>
-    <string name="slot_dns_name_disabled">DNS kustom dimatikan</string>
+    <string name="slot_dns_name">DNS kastom aktif</string>
+    <string name="slot_dns_name_disabled">DNS kastom dimatikan</string>
     <string name="slot_dns_dns">Anda boleh menukar pelayan semasa menggunakan menu di bawah.</string>
     <string name="slot_action_none">Tindakan ini tidak tersedia.</string>
+    <string name="slot_action_facts">Fakta</string>
     <string name="slot_action_unwhitelist">Batal</string>
     <string name="slot_action_author">Mengenai</string>
     <string name="slot_action_share">Kongsi</string>
@@ -88,7 +89,11 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">Kemasukan untuk %s</string>
     <string name="slot_dns_control_title">Senarai pelayan DNS</string>
+    <string name="slot_dns_control_description">Anda boleh menyelaraskan daftar server DNS dengan server kami tanpa kehilangan senarai kastom anda. &lt;br/&gt;&lt;br/&gt;Alternatifnya, anda boleh membuang semua senarai(termasuk kempunyaan anda), dan memuat turunya lagi.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Penyelarasan</string>
+    <string name="slot_action_refresh_toast">Penyelarasan bermula</string>
+    <string name="slot_action_restore">Membuang</string>
     <string name="slot_export_title">Tetapan lokasi</string>
     <string name="slot_action_import">Import</string>
     <string name="slot_action_internal">Storan dalaman</string>
