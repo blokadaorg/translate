@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-08-28 13:25\n"
+"PO-Revision-Date: 2019-08-29 07:23\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "自動續訂"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "到期時自動重新續訂：{status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -160,14 +160,14 @@ msgstr "未找到"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "使用 PayPal 支付"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v4.2 and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v4.2 and up"
-msgstr ""
+msgstr "使用 PayPal 支付在 Blokada v4.2 或更新版本可用"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "每個週期付 €{price}"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "使用 PayPal 支付 €{price}"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "付款失敗，請檢查信用卡是否仍然有效。"
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "付款失敗，請見 PayPal 以取得更多資訊。"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -244,7 +244,7 @@ msgstr "謝謝！"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "無法顯示此頁面。如果您遇到任何問題，請透過 {email} 聯絡我們。"
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -258,7 +258,7 @@ msgstr "目前在 F-Droid 上的 VPN 有問題，我們已經在著手處理。�
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "您的付款已處理完成，您的帳號很快就會啟用。如果您遇到任何問題，請透過 {email} 聯絡我們。"
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
