@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2019-08-28 13:25\n"
+"PO-Revision-Date: 2019-08-29 00:03\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Renovación automática"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Renovación automática al expirar: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -160,14 +160,14 @@ msgstr "No encontrado"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Pagar con Paypal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v4.2 and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v4.2 and up"
-msgstr ""
+msgstr "Los pagos mediante PayPal están disponibles desde Blokada v4.2"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "Paga {price}€ al mes"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Pagar {price}€ con PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "El pago ha fallado, por favor verifica los detalles de la tarjeta."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Pago fallido, consulta tu PayPal para más detalles."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
