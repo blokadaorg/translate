@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2019-08-28 14:30\n"
+"PO-Revision-Date: 2019-08-29 12:17\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Automatikus megújítás"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Automatikus megújítás lejáratkor: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -167,7 +167,7 @@ msgstr "Fizetés PayPal-lal"
 #. Pay with PayPal is available in Blokada v4.2 and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v4.2 and up"
-msgstr ""
+msgstr "A PayPal segítségével való fizetés a Blokada v4.2 és újabb verzióiban érhető el"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "€{price} fizetése periódusonként"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "€{price} fizetése PayPal segítségével"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "A fizetés nem sikerült, kérjük, ellenőrizd a kártya adatait."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "A fizetés sikertelen, a részleteket a PayPal oldalán tekintheted meg."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -244,7 +244,7 @@ msgstr "Köszönjük!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Ezt az oldalt nem lehetett megjeleníteni. Bármilyen probléma felmerülése esetén, kérjük, lépj velünk kapcsolatba a(z) {email} címen."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -258,12 +258,12 @@ msgstr "Jelenleg problémáink vannak az F-Droid verzió VPN-aktiválásával. D
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "A fizetés feldolgozása folyamatban van, és fiókod hamarosan aktiválásra kerül. Bármilyen probléma felmerülése esetén, kérjük, lépj velünk kapcsolatba a(z) {email} címen."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "A fizetés törlésre került, és nem kerül levonásra. Fiókod nem aktív. Bármilyen probléma felmerülése esetén, kérjük, lépj velünk kapcsolatba a(z) {email} címen."
 
