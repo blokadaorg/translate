@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-09T08:45:22.785Z\n"
+"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-08-12 11:25\n"
+"PO-Revision-Date: 2019-08-30 10:51\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -78,12 +78,12 @@ msgstr "Възникна грешка. Моля, опитайте по-късн�
 msgid "Auto renew"
 msgstr "Автоматично подновяване"
 
-#. [account.subscription_header] - VPN service header
+#. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
-#. Blokada VPN
-#: build/messages/src/Checkout.json
-msgid "Blokada VPN"
-msgstr "Blokada VPN"
+#. Auto renew on expiry: {status}
+#: build/messages/src/Manage.json
+msgid "Auto renew on expiry: {status}"
+msgstr ""
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -155,6 +155,20 @@ msgstr "Зареждане {spinner}"
 msgid "Not found"
 msgstr "Не е намерен"
 
+#. [account.activate_once_paypal] - Header for paying with PayPal
+#. defaultMessage is:
+#. Pay with PayPal
+#: build/messages/src/Checkout.json
+msgid "Pay with PayPal"
+msgstr ""
+
+#. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
+#. defaultMessage is:
+#. Pay with PayPal is available in Blokada v{version} and up
+#: build/messages/src/Checkout.json
+msgid "Pay with PayPal is available in Blokada v{version} and up"
+msgstr ""
+
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
@@ -176,6 +190,13 @@ msgstr "Платете €{price}"
 msgid "Pay €{price} each period"
 msgstr "Плащане €{price} всеки месец"
 
+#. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
+#. defaultMessage is:
+#. Pay €{price} using PayPal
+#: build/messages/src/Checkout.json
+msgid "Pay €{price} using PayPal"
+msgstr ""
+
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
@@ -183,19 +204,19 @@ msgstr "Плащане €{price} всеки месец"
 msgid "Payment failed, please validate the card details."
 msgstr "Плащането не бе успешно, моля потвърдете данните за картата."
 
+#. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
+#. defaultMessage is:
+#. Payment failed, see PayPal for details.
+#: build/messages/src/Checkout.json
+msgid "Payment failed, see PayPal for details."
+msgstr ""
+
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
 msgstr "Обработва се {spinner}"
-
-#. [account.subscription_price_badge] - Badge showing percentage difference from 1 month payment
-#. defaultMessage is:
-#. Save {percent}%
-#: build/messages/src/Checkout.json
-msgid "Save {percent}%"
-msgstr "Спестете {percent}%"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -211,13 +232,6 @@ msgstr "Съжаляваме"
 msgid "Sorry, an error occured. Please try again later."
 msgstr "За съжаление възникна грешка. Моля, опитайте отново по-късно."
 
-#. [account.subscription] - Subscription status on info for active account
-#. defaultMessage is:
-#. Subscription: {status}
-#: build/messages/src/Manage.json
-msgid "Subscription: {status}"
-msgstr "Абонамент: {status}"
-
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
@@ -227,10 +241,10 @@ msgstr "Благодаря!"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
-#. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
+#. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Тази страница не можа да бъде показана. Ако имате някакви проблеми, моля свържете се с нас на hello@blokada.org."
+msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
+msgstr ""
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -241,15 +255,15 @@ msgstr "В момента имаме проблем с активирането 
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
-#. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
+#. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Плащането се обработва и профилът Ви ще бъде активиран скоро. Ако имате някакви проблеми, моля свържете се с нас на hello@blokada.org."
+msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
+msgstr ""
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
-#. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org.
+#. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Плащането ви бе анулирано и няма да бъдете таксувани. Профилът ви не е активен. Ако имате някакви проблеми, моля свържете се с нас на hello@blokada.org."
+msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
+msgstr ""
 

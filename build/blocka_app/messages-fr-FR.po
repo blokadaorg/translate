@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-09T08:45:22.785Z\n"
+"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-08-11 20:28\n"
+"PO-Revision-Date: 2019-08-30 10:50\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -78,12 +78,12 @@ msgstr "Une erreur s'est produite, veuillez réessayer plus tard."
 msgid "Auto renew"
 msgstr "Renouvellement automatique"
 
-#. [account.subscription_header] - VPN service header
+#. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
-#. Blokada VPN
-#: build/messages/src/Checkout.json
-msgid "Blokada VPN"
-msgstr "Blokada VPN"
+#. Auto renew on expiry: {status}
+#: build/messages/src/Manage.json
+msgid "Auto renew on expiry: {status}"
+msgstr "Renouvellement automatique à l'expiration: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -155,6 +155,20 @@ msgstr "Chargement {spinner}"
 msgid "Not found"
 msgstr "Introuvable"
 
+#. [account.activate_once_paypal] - Header for paying with PayPal
+#. defaultMessage is:
+#. Pay with PayPal
+#: build/messages/src/Checkout.json
+msgid "Pay with PayPal"
+msgstr "Payer avec PayPal"
+
+#. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
+#. defaultMessage is:
+#. Pay with PayPal is available in Blokada v{version} and up
+#: build/messages/src/Checkout.json
+msgid "Pay with PayPal is available in Blokada v{version} and up"
+msgstr ""
+
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
@@ -176,6 +190,13 @@ msgstr "Payer {price}€"
 msgid "Pay €{price} each period"
 msgstr "Payez {price}€ par mois"
 
+#. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
+#. defaultMessage is:
+#. Pay €{price} using PayPal
+#: build/messages/src/Checkout.json
+msgid "Pay €{price} using PayPal"
+msgstr "Payer {price}€ en utilisant PayPal"
+
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
@@ -183,19 +204,19 @@ msgstr "Payez {price}€ par mois"
 msgid "Payment failed, please validate the card details."
 msgstr "Le paiement a échoué, veuillez vérifier les détails de la carte."
 
+#. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
+#. defaultMessage is:
+#. Payment failed, see PayPal for details.
+#: build/messages/src/Checkout.json
+msgid "Payment failed, see PayPal for details."
+msgstr "Le paiement a échoué, consultez PayPal pour plus de détails."
+
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
 msgstr "Traitement {spinner}"
-
-#. [account.subscription_price_badge] - Badge showing percentage difference from 1 month payment
-#. defaultMessage is:
-#. Save {percent}%
-#: build/messages/src/Checkout.json
-msgid "Save {percent}%"
-msgstr "Économisez {percent}%"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -211,13 +232,6 @@ msgstr "Désolé"
 msgid "Sorry, an error occured. Please try again later."
 msgstr "Désolé, une erreur s'est produite. Merci de réessayer plus tard."
 
-#. [account.subscription] - Subscription status on info for active account
-#. defaultMessage is:
-#. Subscription: {status}
-#: build/messages/src/Manage.json
-msgid "Subscription: {status}"
-msgstr "État de l'abonnement: {status}"
-
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
@@ -227,10 +241,10 @@ msgstr "Merci !"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
-#. This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org.
+#. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "This page could not be displayed. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Cette page n'a pas pu être affichée. Si vous rencontrez des problèmes, veuillez nous contacter à hello@blokada.org."
+msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
+msgstr "Cette page n'a pas pu être affichée. Si vous rencontrez des problèmes, veuillez nous contacter à l'adresse {email}."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -241,15 +255,15 @@ msgstr "Nous avons actuellement des problèmes avec l'activation VPN sur les ver
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
-#. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org.
+#. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Votre paiement est en cours de traitement et votre compte sera activé sous peu. Si vous rencontrez des problèmes, veuillez nous contacter à hello@blokada.org."
+msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
+msgstr "Votre paiement est en cours de traitement et votre compte sera activé sous peu. Si vous rencontrez des problèmes, veuillez nous contacter à l'adresse {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
-#. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org.
+#. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
-msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at hello@blokada.org."
-msgstr "Votre paiement a été annulé et vous ne serez pas facturé. Votre compte n'est pas actif. Si vous rencontrez des problèmes, veuillez nous contacter à hello@blokada.org."
+msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
+msgstr "Votre paiement a été annulé et vous ne serez pas débité. Votre compte n'est pas actif. Si vous rencontrez des problèmes, veuillez nous contacter à l'adresse {email}."
 

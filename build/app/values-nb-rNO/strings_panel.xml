@@ -65,6 +65,7 @@
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; er hvitelistet</string>
     <string name="slot_app_desc">Denne appen er hvitelistet, noe som betyr at det ikke utføres noen blokkering eller filtrering på den.</string>
     <string name="slot_action_none">Denne handlingen er ikke tilgjengelig ennå.</string>
+    <string name="slot_action_facts">Fakta</string>
     <string name="slot_action_unwhitelist">Avbryt</string>
     <string name="slot_action_author">Om</string>
     <string name="slot_action_share">Del</string>
@@ -74,9 +75,11 @@
     <string name="slot_status_vpn_turn_off">Deaktiver VPN</string>
     <string name="slot_status_vpn_turn_on">Aktiver VPN</string>
     <string name="slot_status_vpn_turned_on">VPN koblet til %s</string>
+    <string name="slot_status_vpn_lease">Oppdater</string>
     <string name="slot_action_deactivate">Slå av</string>
     <string name="slot_action_activate">Slå på</string>
     <string name="slot_dropped_action_clear">Tilbakestill teller</string>
+    <string name="slot_notifications_title">Varsler er %s</string>
     <string name="slot_notifications_enabled">Varsler er aktivert</string>
     <string name="slot_notifications_disabled">Varsler er deaktivert</string>
     <string name="slot_update_action_refresh">Sjekk igjen</string>
@@ -119,6 +122,7 @@
     <string name="slot_help_action">Hjelp</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Donér</string>
+    <string name="slot_cta_label">Psst! Vi vil gjerne vite din mening.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Åpne</string>
     <string name="slot_blog_label">Sjekk ut vår utviklingsblogg!</string>
@@ -147,4 +151,5 @@
     <string name="slot_lease_deleted_information">Merk at Blokada VPN for øyeblikket kun kan brukes på en enhet.</string>
     <string name="slot_background_animation">Bakgrunns animasjon</string>
     <string name="slot_background_animation_description">Når på, vil bølger animere hver gang en DNS-forespørsel er blokkert eller tillatt. Slå av hvis du opplever nedbremsing.</string>
+    <string name="slot_reset_counter_action">Tilbakestill</string>
 </resources>
