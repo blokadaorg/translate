@@ -35,13 +35,11 @@
     <string name="home_connecting_vpn">VPN\'e bağlanıyor</string>
     <string name="home_cleanup">Temizleme önerilir</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Değiştir</string>
     <string name="home_connected_vpn">VPN\'e bağlı</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamlar</string>
     <string name="menu_ads_live_label">İzin verilen ve engellenen isteklerin host günlüğü</string>
     <string name="menu_ads_clear_log">Host günlüğünü temizle</string>
-    <string name="menu_ads_turn_on">Reklam engellemeyi açın veya kapatın.</string>
     <string name="menu_ads_lists_label">Engelleme için kullanılacak listeleri seçin. Varsayılan ayar çoğu insan için iyidir.</string>
     <string name="menu_ads_rules_label">İnce ayar engellemeye kendi kurallarınızı ekleyin.</string>
     <string name="menu_ads_log_label">Son zamanlarda neyin engellendiğini veya izin verildiğini görün</string>
@@ -54,11 +52,10 @@
     <string name="menu_vpn_account">Hesap</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Ağ geçitleri</string>
+    <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Hesap aboneliğinizi yönetin</string>
     <string name="menu_vpn_account_secret">Hesap kimliğiniz gizlidir ve kendinize saklamalısınız. Uygulamayı kaldırırsanız yazınız.</string>
     <string name="menu_vpn_restore_label">Burada, örneğin uygulamayı yeniden yüklediyseniz, mevcut hesabınızı geri yükleyebilirsiniz.</string>
-    <string name="menu_vpn_intro">VPN ile verileriniz şifrelenmiş, IP adresiniz gizlenmiş ve konumunuz değiştirilmiş.</string>
-    <string name="menu_vpn_account_label">VPN\'i kullanmak için aktif hesaba ihtiyacınız var. Burada hesabınızı kontrol edin veya geri yükleyin.</string>
     <string name="menu_vpn_gateways_label">Bağlanılacak ağ geçitlerinden birini seçin. Cihazınız şifrelenmiş verilerinizi bu ağ geçidi üzerinden güvenli bir şekilde gönderir ve siz de isimsiz kalırsınız.</string>
     <string name="menu_dns_recommended">Önerilen DNS sunucuları</string>
     <string name="menu_dns_intro">DNS, kullandığınız web sitelerinin ve uygulamaların IP adreslerini çevirmekten sorumludur. İyi bir DNS seçmek, cihazınızı hızlandırabilir ve gizliliğinizin korunmasına yardımcı olur.</string>
