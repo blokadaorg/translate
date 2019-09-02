@@ -8,10 +8,7 @@
     <!-- Main screen section -->
     <string name="panel_section_apps">Apps</string>
     <!-- Main screen section -->
-    <string name="panel_section_advanced">Avançado</string>
-    <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">Ajuda</string>
-    <string name="panel_section_home_community">Comunidade</string>
     <string name="panel_section_ads_lists">Listas de Hosts</string>
     <string name="panel_section_ads_log">Log do Host</string>
     <string name="panel_section_ads_blacklist">Hosts Bloqueados</string>
@@ -42,8 +39,6 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Desligar</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_switch_switch_bitch">Interruptor</string>
-    <string name="slot_start">Deslize para cima para começar</string>
     <string name="slot_intro_new">Como usar a nova interface do usuário. Toque aqui para introdução</string>
     <string name="slot_intro_new_header">Como usar a nova interface do usuário</string>
     <string name="slot_intro_desc">Você está atualmente na seção Início, há mais se deslizar para a direita. Cada um deles tem seu próprio menu inferior – abra-o deslizando para cima. &amp; lt; br / &amp; gt; &amp; lt; br / &amp; gt; Na Android TV, navegue pela interface do usuário como controle direcional. Use a tecla central para abrir o menu inferior ou qualquer item selecionado. Os botões são marcados com as setas para cima, para baixo, esquerda ou direita - use as teclas de direção para clicá-los.</string>
@@ -55,6 +50,7 @@
     <!-- A button to synchronize (fetch) lists  -->
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->
