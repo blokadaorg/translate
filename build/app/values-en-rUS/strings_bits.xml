@@ -31,11 +31,9 @@
     <string name="home_connecting_vpn">Connecting to VPN</string>
     <string name="home_cleanup">Cleanup recommended</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Change Vpn settings</string>
     <string name="home_connected_vpn">Connected to VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Ads</string>
-    <string name="menu_ads_turn_on">Turn ad blocking on/off.</string>
     <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
     <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
     <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
@@ -48,11 +46,10 @@
     <string name="menu_vpn_account">Account</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
+    <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
     <string name="menu_vpn_account_secret">Your account ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
     <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With VPN your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
     <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
     <string name="menu_dns_recommended">Recommended DNS servers</string>
     <string name="menu_dns_intro">DNS is responsible for translating the IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help to protect your privacy.</string>
