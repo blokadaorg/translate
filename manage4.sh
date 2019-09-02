@@ -17,7 +17,7 @@ legacy_mapped=(ca_ES cs_CZ de_DE es_ES fa_IR fr_FR he_IL hr_HR hu_HU id_ID it_IT
 x=""
 
 function importXml {
-    cp "$src/src/legacy/res/values/strings_$x.xml" "app/strings_$x.xml"
+    cp "$src/src/ui-blokada/res/values/strings_$x.xml" "app/strings_$x.xml"
 }
 
 function importContent {
@@ -55,18 +55,18 @@ if [ "$choice" = "i" ]; then
 	done
 elif [ "$choice" = "e" ]; then
 	echo "Exporting app..."
-	rm -rf $app/src/legacy/res/values-*
-	cp -rf build/app/* $app/src/legacy/res/
+	rm -rf $app/src/main/res/values-*
+	cp -rf build/app/* $app/src/main/res/
 
 	# English is not exported by default
-	rm -rf $app/src/legacy/res/values-en-rUS
+	rm -rf $app/src/main/res/values-en-rUS
 
 	# Some files should not be removed. Revert
-	cd $app/src/legacy/res/
-	git checkout -- values-w420dp-port
-	git checkout -- values-w840dp-land
-	git checkout -- values-w960dp
-	cd -
+	#cd $app/src/mai/res/
+	#git checkout -- values-w420dp-port
+	#git checkout -- values-w840dp-land
+	#git checkout -- values-w960dp
+	#cd -
 
 	echo "Exporting web..."
 	rm -rf $web/lang/*
@@ -136,7 +136,7 @@ elif [ "$choice" = "e" ]; then
 	echo "Done. Check removed files."
 elif [ "$choice" = "r" ]; then
 	echo "Refetching English in app..."
-	cp -rf build/app/values-en-rUS/* $app/src/legacy/res/values/
+	cp -rf build/app/values-en-rUS/* $app/src/ui-blokada/res/values/
 
 	echo "Refetching English in web..."
 	cp -rf build/content/en_US/*.html $web/api/v4/canonical/strings/
