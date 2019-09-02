@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">效能：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;區域：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;這是目前您所選擇的閘道。</string>
     <string name="slot_gateway_overloaded">這個閘道忙碌中，不接受任何新連線。</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">控制會連線到 VPN 的裝置。</string>
+    <string name="slot_lease_name_current">%s (這台裝置)</string>
+    <string name="slot_lease_description">裝置 ID：&lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">裝置 ID：&lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;這是您目前的裝置。</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
@@ -186,6 +190,8 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">進階設定</string>
     <string name="slot_whitelist_updating">正在更新組態設定，請稍候…</string>
+    <string name="slot_too_many_leases">你已碰到使用中裝置上限。
+請前往「裝置」區塊停用一些裝置。</string>
     <string name="slot_background_animation">背景動畫</string>
     <string name="slot_background_animation_description">開啟時，將會在每次 DNS 請求被阻擋或允許時出現波浪動畫一次。如果你覺得速度變慢，請關閉。</string>
     <string name="slot_reset_counter_label">重設已阻擋的主機計數器</string>
