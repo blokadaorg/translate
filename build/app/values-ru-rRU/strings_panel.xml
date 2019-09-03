@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваш выбранный шлюз.</string>
     <string name="slot_gateway_overloaded">Этот шлюз занят и не принимает новые подключения.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Управляйте вашими устройствами подключающимися к VPN.</string>
+    <string name="slot_lease_name_current">%s (это устройство)</string>
+    <string name="slot_lease_description">ID устройства: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID устройства: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваше текущее устройство.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">высокая</string>
     <!-- Gateway load -->
@@ -186,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Расширенные настройки</string>
     <string name="slot_whitelist_updating">Обновление конфигурации, пожалуйста, подождите...</string>
+    <string name="slot_too_many_leases">Вы достигли предела активных устройств. Для деактивации одного из них перейдите в раздел \'Устройства\'.</string>
     <string name="slot_background_animation">Фоновая анимация</string>
     <string name="slot_background_animation_description">При включении волны будут анимированы в случае блокировки или принятия DNS-запросов. Выключите, если у вас упала производительность.</string>
     <string name="slot_reset_counter_label">Сброс счетчика заблокированных хостов</string>
