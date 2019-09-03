@@ -124,6 +124,7 @@
     <string name="slot_leases_info">تحكّم في إختيار أي من أجهزتك تتّصل بشبكة VPN.</string>
     <string name="slot_lease_name_current">%s (هذا الجهاز)</string>
     <string name="slot_lease_description">ID الجهاز: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID الجهاز: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;هذا هو جهازك الحالي.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">مرتفع</string>
     <!-- Gateway load -->
@@ -189,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">الإعدادات المتقدِّمة</string>
     <string name="slot_whitelist_updating">جارِ تحديث التكوين ، الرجاء الإنتظار...</string>
+    <string name="slot_too_many_leases">لقد وصلت إلى الحدّ الأقصى للأجهزة النشطة. الرجاء الإنتقال إلى قسم \"الأجهزة\" لإلغاء تنشيط واحد منهم.</string>
     <string name="slot_background_animation">خلفيّات مُتحرِّكة</string>
     <string name="slot_background_animation_description">عِنْد التشغيل ، ستتحرّك الموجات في كلّ مرّة يَتِمّ فيها حَظْر طَلبْ DNS أو السماح به. قُمْ بإلغائه إذا واجَهت بُطأً.</string>
     <string name="slot_reset_counter_label">إعادة تعيين عدّاد الحَظْر</string>
