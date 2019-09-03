@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">Teljesítmény: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Régió: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ez a jelenleg kiválasztott átjáró.</string>
     <string name="slot_gateway_overloaded">Ez az átjáró foglalt, és nem fogad új csatlakozásokat.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Vezérelheted, hogy melyik készülékek csatlakozzanak a VPN-hez.</string>
+    <string name="slot_lease_name_current">%s (ez a készülék)</string>
+    <string name="slot_lease_description">Készülék azonosító: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">Készülék azonosító: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ez az aktuális készüléked.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">magas</string>
     <!-- Gateway load -->
@@ -186,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Haladó beállítások</string>
     <string name="slot_whitelist_updating">Konfiguráció frissítése, kérjük várj...</string>
+    <string name="slot_too_many_leases">Elérted az aktív készülékek korlátját. Kérjük, lépj a Készülékek szakaszba, hogy az egyiket kikapcsold.</string>
     <string name="slot_background_animation">Háttér animáció</string>
     <string name="slot_background_animation_description">Amikor be van kapcsolva, a hullámok minden alkalommal, amikor letiltásra vagy engedélyezésre kerül egy DNS kérelem, animálódik. Kapcsold ki, ha lassulást tapasztalsz.</string>
     <string name="slot_reset_counter_label">Blokkolt hosztszámláló nullázása</string>
