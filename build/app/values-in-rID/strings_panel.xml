@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
     <string name="slot_gateway_overloaded">Gateway ini sedang sibuk dan tidak menerima koneksi baru.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Atur perangkat mana saja yang terhubung ke VPN.</string>
+    <string name="slot_lease_name_current">%s (perangkat ini)</string>
+    <string name="slot_lease_description">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Ini adalah perangkat yang Anda gunakan saat ini.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">tinggi</string>
     <!-- Gateway load -->
@@ -186,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Pengaturan lanjutan</string>
     <string name="slot_whitelist_updating">Memperbarui konfigurasi, harap tunggu...</string>
+    <string name="slot_too_many_leases">Anda telah melampaui kuota perangkat aktif yang bisa terhubung. Silakan menuju ke laman Perangkat dan nonaktifkan salah satu perangkat.</string>
     <string name="slot_background_animation">Animasi di latar belakang</string>
     <string name="slot_background_animation_description">Ketika Blokada aktif, animasi gelombang akan muncul di latar belakang setiap kali ada permintaan DNS yang diblokir (gelombang berwarna merah) atau diizinkan (warna putih). Animasi tersebut bisa dinonaktifkan jika perangkat Anda mengalami masalah.</string>
     <string name="slot_reset_counter_label">Reset penghitung host</string>
