@@ -123,6 +123,7 @@
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Stelle hier ein, welche Geräte sich mit dem VPN verbinden sollen.</string>
     <string name="slot_lease_description">Geräte-ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">Geräte-ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dies ist dein aktuelles Gerät.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">hoch</string>
     <!-- Gateway load -->
@@ -188,6 +189,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Erweiterte Einstellungen</string>
     <string name="slot_whitelist_updating">Aktualisierung der Konfiguration, bitte warten ...</string>
+    <string name="slot_too_many_leases">Du hast das Limit der aktiven Geräte erreicht. Bitte gehe in den Abschnitt Geräte, um eines davon zu deaktivieren.</string>
     <string name="slot_background_animation">Hintergrundanimation</string>
     <string name="slot_background_animation_description">Wenn aktiviert, wird jede blockierte oder erlaubte DNS-Anfrage durch eine Wellenanimation dargestellt. Schalte es aus, wenn du den Eindruck hast, das Gerät wird langsamer.</string>
     <string name="slot_reset_counter_label">Zähler der blockierten Hosts zurücksetzen</string>
