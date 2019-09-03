@@ -35,13 +35,11 @@
     <string name="home_connecting_vpn">Ansluter till VPN</string>
     <string name="home_cleanup">Städning rekommenderas</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Ändra</string>
     <string name="home_connected_vpn">Ansluten till VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Annonser</string>
     <string name="menu_ads_live_label">Nyligen tillåtna och filtrerade värdar</string>
     <string name="menu_ads_clear_log">Rensa värdlogg</string>
-    <string name="menu_ads_turn_on">Växla reklamfilter på eller av.</string>
     <string name="menu_ads_lists_label">Välj listor att använda som filter. Standardvalet räcker i de flesta fall.</string>
     <string name="menu_ads_rules_label">Lägg till egna regler för att finjustera filtret.</string>
     <string name="menu_ads_log_label">Se vad som filtrerats och vad som tillåtits nyligen.</string>
@@ -54,11 +52,10 @@
     <string name="menu_vpn_account">Konto</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Mellanhopp</string>
+    <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Hantera din prenumeration</string>
     <string name="menu_vpn_account_secret">Ditt kontonummer är hemligt och ska inte visas för andra. Skriv ner det ifall att du avinstallerar appen.</string>
     <string name="menu_vpn_restore_label">Här kan du återställa ditt tidigare konto ifall att du ominstallerade appen.</string>
-    <string name="menu_vpn_intro">Med VPN är din kommunikation krypterad, samt din plats och IP-adress maskerad från de sajter du besöker.</string>
-    <string name="menu_vpn_account_label">För att använda VPN måste du aktivera ditt konto. Kontrollera eller återställ ditt konto här.</string>
     <string name="menu_vpn_gateways_label">Välj ett mellanhopp att ansluta till. Din enhet kommer att skicka all trafik via den platsen och öka din anonymitet gentemot sajter du besöker.</string>
     <string name="menu_dns_recommended">Rekommenderade DNS-servrar</string>
     <string name="menu_dns_intro">DNS ansvarar för att översätta namn på sajter till IP-adresser. Att välja rätt DNS kan göra din enhet snabbare och skydda din integritet.</string>

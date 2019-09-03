@@ -9,10 +9,7 @@
     <!-- Main screen section -->
     <string name="panel_section_apps">יישומים</string>
     <!-- Main screen section -->
-    <string name="panel_section_advanced">מתקדם</string>
-    <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">עזרה</string>
-    <string name="panel_section_home_community">קהילה</string>
     <string name="panel_section_ads_lists">רשימות שרתים</string>
     <string name="panel_section_ads_log">רישומי שרתים</string>
     <string name="panel_section_ads_blacklist">שרתים חסומים</string>
@@ -40,14 +37,11 @@
     <string name="slot_action_close">סגור</string>
     <string name="slot_action_remove">הסר</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
-    <string name="slot_action_credits">אתר אינטרנט</string>
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">פעיל</string>
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">כבוי</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_switch_switch_bitch">החלף</string>
-    <string name="slot_start">החלק מעלה להתחלה</string>
     <string name="slot_intro_new">כיצד להשתמש בממשק המשתמש החדש? לחץ כאן להקדמה.</string>
     <string name="slot_intro_new_header">כיצד להשתמש בממשק המשתמש החדש?</string>
     <string name="slot_intro_desc">אתה נמצא כרגע בעמוד הבית, יש יותר אם תחליק ימינה. לכל אחד מהם יש תפריט תחתון משלו - ניתן לפתוח אותו על ידי החלקה מעלה. &lt;br/&gt;&lt;br/&gt;ב- Android TV, נווט בממשק המשתמש עם ה- dpad. השתמש במקש מרכזי כדי לפתוח את התפריט התחתון, או כל פריט שתבחר. לחצנים מסומנים בחץ למעלה, למטה, שמאלה או ימינה - השתמש במקשי הכיוון כדי ללחוץ עליהם.</string>
@@ -78,12 +72,9 @@
     <string name="slot_allapp_whitelist">עוקף</string>
     <string name="slot_dns_name">DNS מותאם אישית פעיל</string>
     <string name="slot_dns_name_disabled">DNS מותאם אישית מושבת</string>
-    <string name="slot_dns_dns">באפשרותך לשנות את השרתים הנוכחיים באמצעות התפריט התחתון.</string>
     <string name="slot_action_none">פעולה זו אינה זמינה עדיין.</string>
-    <string name="slot_action_facts">עובדות</string>
     <string name="slot_action_unwhitelist">בטל</string>
     <string name="slot_action_author">אודות</string>
-    <string name="slot_action_share">שתף</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">רשומה</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
@@ -105,10 +96,9 @@
     <string name="slot_forwarded_title">הדומיין הועבר</string>
     <string name="slot_whitelist_title">יישום מאושר</string>
     <string name="slot_list_no_desc">רשומה זו אינה מכילה תיאור.</string>
-    <string name="slot_status_description_active">חסימת המודעות כעת &lt;b&gt;מופעלת&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;תראה את הרקע מונפש כאשר מודעות, עוקבים או תוכן לא רצוי אחר נחסם.</string>
-    <string name="slot_status_description_inactive">חסימת המודעות כעת &lt;b&gt;מושבתת&lt;/b&gt;.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->

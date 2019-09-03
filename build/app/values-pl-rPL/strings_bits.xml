@@ -35,13 +35,11 @@
     <string name="home_connecting_vpn">Łączenie do VPN</string>
     <string name="home_cleanup">Oczyszczanie zalecane</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Zmień</string>
     <string name="home_connected_vpn">Podłączony do VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamy</string>
     <string name="menu_ads_live_label">Historia zezwolonych i zablokowanych żądań</string>
     <string name="menu_ads_clear_log">Oczyść stare logi</string>
-    <string name="menu_ads_turn_on">Włącz lub wyłącz blokowanie reklam.</string>
     <string name="menu_ads_lists_label">Wybierz listę używaną do blokowania. Domyślny wybór jest odpowiedni dla większości użytkowników.</string>
     <string name="menu_ads_rules_label">Dodaj własne filtry aby dokładniej skonfigurować blokowanie.</string>
     <string name="menu_ads_log_label">Zobacz co zostało zablokowane lub zezwolone w ostatnim czasie.</string>
@@ -54,11 +52,10 @@
     <string name="menu_vpn_account">Konto</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Bramy</string>
+    <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Zarządzaj subskrypcją tutaj</string>
     <string name="menu_vpn_account_secret">Twoje ID konta jest tajne i powinieneś je zachować dla siebie. Zapisz je sobie na wypadek odinstalowania aplikacji.</string>
     <string name="menu_vpn_restore_label">Tutaj możesz odzyskać swoje istniejące konto jeśli, na przykład, przeinstalowałeś aplikację.</string>
-    <string name="menu_vpn_intro">VPN szyfruje Twoje dane, ukrywa Twój adres IP, i zmienia Twoją lokalizację.</string>
-    <string name="menu_vpn_account_label">Menu etykieta vpn_account.</string>
     <string name="menu_vpn_gateways_label">Menu etykieta vpn_gateway.</string>
     <string name="menu_dns_recommended">Zalecane serwery DNS</string>
     <string name="menu_host_list_settings">Ustawienia list</string>

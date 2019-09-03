@@ -35,13 +35,11 @@
     <string name="home_connecting_vpn">Подключение к VPN</string>
     <string name="home_cleanup">Рекомендуется очистка</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Изменить</string>
     <string name="home_connected_vpn">Подключено к VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклама</string>
     <string name="menu_ads_live_label">Журнал разрешенных и заблокированных запросов хоста</string>
     <string name="menu_ads_clear_log">Очистить журнал хоста</string>
-    <string name="menu_ads_turn_on">Включите или отключите блокировку рекламы.</string>
     <string name="menu_ads_lists_label">Выберите списки для блокировки. Значения по умолчанию подходят для большинства пользователей.</string>
     <string name="menu_ads_rules_label">Добавьте свои собственные правила для тонкой настройки блокировки.</string>
     <string name="menu_ads_log_label">Посмотрите, что недавно было заблокировано или разрешено.</string>
@@ -54,11 +52,13 @@
     <string name="menu_vpn_account">Аккаунт</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзы</string>
+    <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Устройства</string>
     <string name="menu_vpn_manage_subscription">Управляйте подпиской вашего аккаунта</string>
     <string name="menu_vpn_account_secret">ID вашего аккаунта необходимо хранить в тайне. Запишите его на случай переустановки приложения.</string>
     <string name="menu_vpn_restore_label">Здесь вы можете восстановить существующий аккаунт, если, например, вы переустановили приложение.</string>
-    <string name="menu_vpn_intro">Через VPN передаваемые данные зашифрованы, IP-адрес и местоположение изменены.</string>
-    <string name="menu_vpn_account_label">Для того, чтобы использовать VPN, вам нужна активная учетная запись. Проверьте или восстановите свой аккаунт здесь.</string>
+    <string name="menu_vpn_intro">При использовании VPN передаваемые данные зашифрованы, реальный IP-адрес скрыт, местоположение изменено.</string>
+    <string name="menu_vpn_account_label">Для того чтобы использовать VPN, вам нужна активная учетная запись. Проверьте или восстановите свою учетную запись здесь.</string>
     <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет осуществлять безопасную передачу зашифрованных данных через этот шлюз, и вы станете анонимным.</string>
     <string name="menu_dns_recommended">Рекомендуемые DNS-серверы</string>
     <string name="menu_dns_intro">DNS отвечает за трансляцию IP-адресов веб-сайтов и приложений, которые вы используете. Выбор хорошего DNS может ускорить работу вашего устройства и поможет защитить конфиденциальность.</string>

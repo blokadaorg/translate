@@ -9,10 +9,7 @@
     <!-- Main screen section -->
     <string name="panel_section_apps">Apps</string>
     <!-- Main screen section -->
-    <string name="panel_section_advanced">Avanceret</string>
-    <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">Hjælp</string>
-    <string name="panel_section_home_community">Fællesskab</string>
     <string name="panel_section_ads_lists">Host lister</string>
     <string name="panel_section_ads_log">Host Log</string>
     <string name="panel_section_ads_blacklist">Blokeret Hosts</string>
@@ -40,14 +37,11 @@
     <string name="slot_action_close">Luk</string>
     <string name="slot_action_remove">Fjern</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
-    <string name="slot_action_credits">Hjemmeside</string>
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">Til</string>
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Fra</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_switch_switch_bitch">Skift</string>
-    <string name="slot_start">swipe op for at starte</string>
     <string name="slot_intro_new">Hvordan bruger man den nye UI? tryk her for introduktion.</string>
     <string name="slot_intro_new_header">Hvordan bruger man den nye UI?</string>
     <string name="slot_intro_desc">Du er lige nu i Hjem sektionen, der er mere hvis du swiper til højre. Hver af dem har sin egen bund menu - åben den ved at swipe op. &lt;br/&gt;&lt;br/&gt; På android TV, Naviger i UI med dpad. Brug midter knappen for at åbne bund menuen, eller enhver anden ting du vælger. Knapper er markeret med op, ned, venstre, eller højre pile - brug retnings knapperne for at trykke på dem.</string>
@@ -69,24 +63,14 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
-    <string name="slot_action_activate_adblocking">Slå reklame blokering til</string>
-    <string name="slot_dropped_counter">Blokerede domæner tæller</string>
-    <string name="slot_dropped_counter_info">Denne tæller viser antal domæner som er blokeret siden appen blev installeret.</string>
-    <string name="slot_dropped_action_clear">Nulstil tæller</string>
-    <string name="slot_notifications_title">Notifikationer er %s</string>
-    <string name="slot_notifications_desc">Du kan slå notifikationer til eller fra her. Husk at på nogle enheder, vil Android vise en sepperat VPN notifikation som ikke kan slås fra.</string>
-    <string name="slot_notifications_enabled">Notifikationer er slået til</string>
-    <string name="slot_notifications_disabled">Notifikationer er slået fra</string>
     <string name="slot_update_action_refresh">Tjek igen</string>
     <string name="slot_telegram_title">Kom med os på Telegram!</string>
     <string name="slot_telegram_desc">Besøg vores Telegram kannal for at hjælpe eller bare være en del af vores fællesskab.</string>
     <string name="slot_telegram_action">Åben</string>
     <string name="slot_dropped_share_title">Del via</string>
-    <string name="slot_dropped_share">Jeg blokerede %s reklamer via %s! www.blokada.org</string>
-    <string name="slot_active">Aktiv</string>
-    <string name="slot_inactive">Inaktiv</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
     <!-- A button to share debug log. Keep it short. -->

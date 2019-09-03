@@ -9,10 +9,7 @@
     <!-- Main screen section -->
     <string name="panel_section_apps">Apps</string>
     <!-- Main screen section -->
-    <string name="panel_section_advanced">Avanzado</string>
-    <string name="panel_section_home_start">VPN de Blokada</string>
     <string name="panel_section_home_help">Ayuda</string>
-    <string name="panel_section_home_community">Comunidad</string>
     <string name="panel_section_ads_lists">Listas de Hosts</string>
     <string name="panel_section_ads_log">Registro de Hosts</string>
     <string name="panel_section_ads_blacklist">Hosts bloqueados</string>
@@ -40,14 +37,11 @@
     <string name="slot_action_close">Cerrar</string>
     <string name="slot_action_remove">Eliminar</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
-    <string name="slot_action_credits">Sitio Web</string>
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">Activado</string>
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Desactivado</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_switch_switch_bitch">Cambiar</string>
-    <string name="slot_start">desliza hacia arriba para empezar</string>
     <string name="slot_intro_new">¿Cómo utilizar la nueva interfaz? Toca aquí para la introducción.</string>
     <string name="slot_intro_new_header">¿Cómo utilizar la nueva interfaz?</string>
     <string name="slot_intro_desc">Actualmente estás en la sección de Inicio, hay más si deslizas hacia a la derecha. Cada sección tiene su propio menú inferior - ábrelo deslizando hacia arriba. &lt;br/&gt;&lt;br/&gt;En Android TV, navega por la interfaz con el D-pad. Utiliza la tecla central para abrir el menú inferior o cualquier ítem que selecciones. Los botones están marcados con la flecha hacia arriba, abajo, izquierda o derecha - utiliza las teclas de dirección para hacer clic en ellos.</string>
@@ -78,12 +72,9 @@
     <string name="slot_allapp_whitelist">Omitir</string>
     <string name="slot_dns_name">DNS personalizado está activo</string>
     <string name="slot_dns_name_disabled">El DNS personalizado está desactivado</string>
-    <string name="slot_dns_dns">Puedes cambiar los servidores actuales usando el menú inferior.</string>
     <string name="slot_action_none">Esta acción aún no está disponible.</string>
-    <string name="slot_action_facts">Datos</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
     <string name="slot_action_author">Acerca de</string>
-    <string name="slot_action_share">Compartir</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">Una entrada</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
@@ -107,49 +98,23 @@
     <string name="slot_forwarded_title">Dominio redirigido</string>
     <string name="slot_whitelist_title">Aplicación en la lista blanca</string>
     <string name="slot_list_no_desc">Esta entrada no tiene una descripción.</string>
-    <string name="slot_status_description_active">El bloqueo de anuncios está actualmente &lt;b&gt;activado&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Verás el fondo animarse cuando anuncios, rastreadores y otro contenido no deseado sea bloqueado.</string>
-    <string name="slot_status_description_inactive">El bloqueo de anuncios está actualmente &lt;b&gt;desactivado&lt;/b&gt;.</string>
     <string name="slot_status_info">Cuando la aplicación esté activa, verás el icono de la llave en la barra de notificación en la parte superior de la pantalla, que indica que tu dispositivo está protegido. Puedes desactivar la aplicación usando el botón de abajo, o deslizándote por el menú de abajo.</string>
-    <string name="slot_status_vpn_turn_off">Desactivar VPN</string>
-    <string name="slot_status_vpn_turn_on">Activar VPN</string>
-    <string name="slot_status_vpn_turned_on">VPN conectado a %s</string>
-    <string name="slot_status_vpn_connecting">Activando el VPN de Blokada...</string>
-    <string name="slot_status_vpn_turned_off">El VPN de Blokada no está activado</string>
-    <string name="slot_status_vpn_desc_on">El VPN de Blokada está actualmente &lt;b&gt;activado&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Tu dispositivo y datos ahora están seguros. Toca el signo de interrogación para más detalles.</string>
-    <string name="slot_status_vpn_desc_off">El VPN de Blokada está actualmente &lt;b&gt;desactivado&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;Cuando el VPN está conectado, tu dispositivo se comunica a través de nuestros servidores seguros, y tu tráfico está encriptado, así que nadie puede acceder a tus datos. Tu IP real está oculta y puedes acceder a contenido bloqueado. En algunos casos, también puedes experimentar una conexión a Internet más rápida.</string>
-    <string name="slot_status_vpn_lease">Actualizar</string>
     <string name="slot_action_deactivate">Desactivar</string>
     <string name="slot_action_activate">Activar</string>
-    <string name="slot_action_deactivate_adblocking">Desactivar bloqueo de anuncios</string>
-    <string name="slot_action_activate_adblocking">Activar bloqueo de anuncios</string>
-    <string name="slot_dropped_counter">Contador de dominios bloqueados</string>
-    <string name="slot_dropped_counter_info">Este contador muestra el número de dominios que han sido bloqueados desde la instalación de la aplicación.</string>
-    <string name="slot_dropped_action_clear">Reiniciar contador</string>
-    <string name="slot_notifications_title">Las notificaciones están %s</string>
-    <string name="slot_notifications_desc">Puedes activar o desactivar las notificaciones aquí. Recuerda que en algunos dispositivos, Android mostrará una notificación de VPN separada que no puede desactivarse.</string>
-    <string name="slot_notifications_enabled">Las notificaciones están activadas</string>
-    <string name="slot_notifications_disabled">Las notificaciones están desactivadas</string>
     <string name="slot_update_action_refresh">Volver a comprobar</string>
     <string name="slot_telegram_title">¡Únete a nosotros en Telegram!</string>
     <string name="slot_telegram_desc">Visita nuestro canal de Telegram por ayuda o simplemente para formar parte de nuestra comunidad.</string>
     <string name="slot_telegram_action">Abrir</string>
     <string name="slot_dropped_share_title">Compartir en</string>
-    <string name="slot_dropped_share">¡He bloqueado %s anuncios gracias a %s! www.blokada.org</string>
-    <string name="slot_active">Activo</string>
-    <string name="slot_inactive">Inactivo</string>
     <string name="slot_adblocking_label">Bloquear anuncios y rastreadores</string>
     <string name="slot_adblocking_text">Cuando está activado, Blokada bloqueará anuncios, rastreadores y otro contenido no deseado. Esto ayuda a proteger tu privacidad, acelerar tu dispositivo y ahorrar tus datos.</string>
-    <string name="slot_blocka_label">Cuenta del VPN de Blokada</string>
     <string name="slot_account_label_active">Cuenta activa hasta %s</string>
     <string name="slot_account_label_inactive">Cuenta inactiva</string>
-    <string name="slot_account_text_account">Tu ID de cuenta es &lt;b&gt;%s&lt;/b&gt;.</string>
-    <string name="slot_account_info">Debes mantener tu ID de cuenta en secreto - es necesario para recuperar tu cuenta en caso de que desinstales la aplicación. Tu suscripción se extenderá automáticamente a menos que la canceles.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Gestionar</string>
     <string name="slot_account_action_manage_inactive">Activar cuenta</string>
     <string name="slot_account_action_change_id">Restaurar cuenta</string>
     <string name="slot_account_show">ID de Cuenta</string>
-    <string name="slot_account_action_copy">Copiar ID de cuenta</string>
     <string name="slot_account_action_copied">ID de cuenta copiado al portapapeles</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Conectarse a %s</string>
@@ -157,11 +122,15 @@
     <string name="slot_gateway_description">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Esta es tu puerta de enlace actualmente seleccionada.</string>
     <string name="slot_gateway_overloaded">Esta puerta de enlace está ocupada y no acepta nuevas conexiones.</string>
+    <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Controla qué dispositivos se conectan al VPN.</string>
+    <string name="slot_lease_name_current">%s (este dispositivo)</string>
+    <string name="slot_lease_description">ID del dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID del dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Este es tu dispositivo actual.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">alto</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">bajo</string>
-    <string name="panel_section_home_gateways">Puertas de enlace VPN</string>
     <string name="subscription_success">Tu cuenta está siendo activada. Esto puede tardar unos segundos. ¡Gracias!</string>
     <string name="slot_protection_header">Estado de Blokada</string>
     <string name="slot_protection_off">Blokada está inactivo</string>
@@ -178,7 +147,6 @@
     <string name="slot_protection_no_adblocking">Bloqueo de anuncios y rastreadores esta actualmente desactivado. Deberías activarlo para proteger tu privacidad y datos.</string>
     <string name="slot_protection_no_vpn">No estás conectado al VPN de Blokada. Deberías considerarlo para una mejor protección de tu privacidad y seguridad.</string>
     <string name="slot_protection_no_start_on_boot">Blokada no está configurado para iniciar en el arranque. Deberías mantener a Blokada siempre activo para una mejor protección.</string>
-    <string name="slot_protection_no_dns">Actualmente se están usando los servidores DNS por defecto de tu red. Cambiar a servidores DNS conscientes de la privacidad es recomendado.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada no está exento de la optimización de batería de tu dispositivo, por lo que puede ser detenido por el sistema. Debes utilizar las preferencias del sistema para añadir a Blokada a la lista blanca para que pueda permanecer activo y proteger tu dispositivo.</string>
     <string name="slot_protection_description">Para configurar los ajustes, abre el menú inferior.</string>
     <string name="slot_start_on_boot_description">Habilitar el inicio en el arranque permite que Blokada esté activo en todo momento y proteja tu dispositivo.</string>
@@ -204,17 +172,11 @@
     <string name="slot_blog_desc">The Block (El Bloque) es donde escribimos sobre el desarrollo del proyecto, los planes futuros, y discutimos ideas.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Abrir</string>
-    <string name="slot_updated_label">¡Blokada se ha actualizado!</string>
     <string name="slot_updated_desc">Toca aquí para una introducción a esta versión.</string>
     <!-- A button to open a description website of current app version after update. -->
-    <string name="slot_updated_action">Más detalles</string>
-    <string name="slot_obsolete_label">Acción requerida: ¡Esta versión está obsoleta!</string>
     <string name="slot_obsolete_desc">Tu versión de Blokada está obsoleta y puede no funcionar correctamente. Por favor, descarga la versión más reciente para seguir recibiendo actualizaciones.</string>
     <!-- A button to update the app. -->
-    <string name="slot_obsolete_action">Actualizar</string>
-    <string name="slot_cleanup_label">Se han detectado varias versiones de Blokada</string>
     <string name="slot_cleanup_desc">Parece que hay varias versiones de Blokada instaladas en tu dispositivo. ¿Quieres eliminar las otras versiones y mantener una sola?</string>
-    <string name="slot_cleanup_action">Limpiar</string>
     <string name="account_inactive">Tu VPN de Blokada ha expirado. No estás conectado al VPN.</string>
     <string name="slot_lease_cant_connect">No se ha podido conectar al VPN de Blokada. Inténtalo de nuevo seleccionando otra puerta de enlace.</string>
     <string name="slot_account_cant_create">No se ha podido crear tu cuenta del VPN de Blokada. Por favor, inténtalo de nuevo más tarde o contáctanos en Telegram.</string>
@@ -226,13 +188,11 @@
     <!-- A section in advanced settings. -->
     <string name="label_basic">Configuración Primaria</string>
     <!-- A section in advanced settings. -->
-    <string name="label_filters">Bloqueo de anuncios y listas</string>
     <!-- A section in advanced settings. -->
-    <string name="label_dns">Configuraciones DNS</string>
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Configuración avanzada</string>
     <string name="slot_whitelist_updating">Actualizando configuración, por favor espera...</string>
-    <string name="slot_lease_deleted_information">Ten en cuenta que actualmente el VPN de Blokada sólo puede ser usado en un dispositivo.</string>
+    <string name="slot_too_many_leases">Has alcanzado el límite de dispositivos activos. Por favor, ve a la sección Dispositivos para desactivar alguno de ellos.</string>
     <string name="slot_background_animation">Animación de fondo</string>
     <string name="slot_background_animation_description">Cuando está activado, las ondas se animarán cada vez que una solicitud DNS sea bloqueada o permitida. Desactiva esta opción si experimentas ralentización.</string>
     <string name="slot_reset_counter_label">Restablecer contador de hosts bloqueados</string>

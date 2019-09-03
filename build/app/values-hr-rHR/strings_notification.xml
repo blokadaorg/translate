@@ -12,14 +12,10 @@
     <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
     <string name="notification_blocked_whitelist_applied">Gotovo! Spremanje može potrajati par sekundi.</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="notification_disabled">%s neće prikazivati notifikacije.</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="notification_enabled">%s će sada prikazivati notifikacije za svaku blokiranu reklamu.</string>
     <string name="notification_keepalive_text">Ne gasi</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="notification_keepalive_disabled">%s više nije zaštićena od štednje baterije ili čišćenja memorije.</string>
     <!-- Parameter: branded app name (Blokada). -->
-    <string name="notification_keepalive_enabled">%s više ne može biti deaktivirana od strane operativnog sustava.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d blokiranih</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->

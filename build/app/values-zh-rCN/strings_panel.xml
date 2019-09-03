@@ -8,10 +8,7 @@
     <!-- Main screen section -->
     <string name="panel_section_apps">应用程序</string>
     <!-- Main screen section -->
-    <string name="panel_section_advanced">高级选项</string>
-    <string name="panel_section_home_start">Blokada VPN</string>
     <string name="panel_section_home_help">帮助</string>
-    <string name="panel_section_home_community">社区</string>
     <string name="panel_section_ads_lists">主机列表</string>
     <string name="panel_section_ads_log">主机日志</string>
     <string name="panel_section_ads_blacklist">已屏蔽的主机</string>
@@ -38,14 +35,11 @@
     <string name="slot_action_close">关闭</string>
     <string name="slot_action_remove">移除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
-    <string name="slot_action_credits">官方网站</string>
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">开启</string>
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">关闭</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_switch_switch_bitch">切换</string>
-    <string name="slot_start">向上滑动启动</string>
     <string name="slot_intro_new">如何使用新的界面？点击这里展开介绍。</string>
     <string name="slot_intro_new_header">如何使用新界面？</string>
     <string name="slot_intro_desc">您目前位于主页部分，如果你滑到右侧，还有更多。每部分都有相应的底部菜单 - 上滑打开。 &lt;br/&gt;&lt;br/&gt; 在 Android TV 上，使用十字键（上下左右）操作。使用确定键（OK 键）打开底部菜单，或者打开您选中的任何一项。各按钮都被标有上、下、左、右箭头 - 使用方向键去点击它们。</string>
@@ -67,12 +61,9 @@
     <string name="slot_enter_name_generate">生成</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 白名单</string>
     <string name="slot_app_desc">此应用程序被列入白名单，这意味着没有屏蔽或过滤。</string>
-    <string name="slot_dns_dns">您可以使用底部菜单更改当前服务器。</string>
     <string name="slot_action_none">此操作尚未可用。</string>
-    <string name="slot_action_facts">事实</string>
     <string name="slot_action_unwhitelist">取消</string>
     <string name="slot_action_author">关于</string>
-    <string name="slot_action_share">分享</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">条目</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
@@ -94,43 +85,20 @@
     <string name="slot_forwarded_title">域名转发</string>
     <string name="slot_whitelist_title">白名单应用</string>
     <string name="slot_list_no_desc">此条目没有任何描述。</string>
-    <string name="slot_status_description_active">广告屏蔽目前已启用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt; 当广告、跟踪器和其他不需要的内容被屏蔽时，您将看到背景动画。</string>
-    <string name="slot_status_description_inactive">广告屏蔽目前已禁用 &lt;b&gt;&lt;/b&gt;。</string>
     <string name="slot_status_info">当应用程序激活时，您将看到通知栏上的关键图标在屏幕顶部，这意味着您的设备受到保护。您可以使用下面的按钮关闭应用程序，或者通过下游菜单滑动。</string>
-    <string name="slot_status_vpn_turn_off">禁用 VPN</string>
-    <string name="slot_status_vpn_turn_on">启用 VPN</string>
-    <string name="slot_status_vpn_turned_on">VPN 已连接到 %s</string>
-    <string name="slot_status_vpn_connecting">启用 Blokada VPN...</string>
-    <string name="slot_status_vpn_turned_off">Blokada VPN 未启用</string>
-    <string name="slot_status_vpn_desc_on">Blokada VPN 目前已启用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;你的设备和数据现在安全。点击问题标记来详细信息。</string>
-    <string name="slot_status_vpn_desc_off">Blokada VPN 目前已禁用 &lt;b&gt;&lt;/b&gt;.&lt;br /&gt;&lt;br /&gt;当VPN连接时，您的设备通过我们的安全服务器进行通信，您的流量加密，因此没有人能看到您的数据。您的真实IP已被隐藏，您可以访问已屏蔽的内容。在某些情况下，您可以体验更快的互联网连接。</string>
-    <string name="slot_status_vpn_lease">刷新</string>
     <string name="slot_action_deactivate">关闭</string>
     <string name="slot_action_activate">开启</string>
-    <string name="slot_action_deactivate_adblocking">关闭广告屏蔽</string>
-    <string name="slot_action_activate_adblocking">打开广告屏蔽</string>
-    <string name="slot_dropped_counter">已屏蔽的域名计数</string>
-    <string name="slot_dropped_counter_info">此计数器显示应用安装以来已屏蔽的域名数量。</string>
-    <string name="slot_dropped_action_clear">重置计数器</string>
-    <string name="slot_notifications_desc">您可以在此打开或关闭通知。记住，在某些设备上，Android将显示一个无法关闭的 VPN 通知。</string>
     <string name="slot_update_action_refresh">再次检查</string>
     <string name="slot_telegram_title">在 Telegram 上加入我们！</string>
     <string name="slot_telegram_desc">访问我们的 Telegram 频道，帮助或只是我们社区的一部分。</string>
     <string name="slot_telegram_action">打开</string>
     <string name="slot_dropped_share_title">分享到</string>
-    <string name="slot_dropped_share">我屏蔽了 %s 广告，感谢 %s！www.blokada.org</string>
-    <string name="slot_active">活动中</string>
-    <string name="slot_inactive">非活动</string>
     <string name="slot_adblocking_label">屏蔽广告 &amp; 跟踪器</string>
     <string name="slot_adblocking_text">启用时，Blokada将屏蔽广告、跟踪器和其他不想要的内容。这有助于保护您的隐私，加速您的设备并保存您的数据。</string>
-    <string name="slot_blocka_label">Blokada VPN 帐户</string>
-    <string name="slot_account_text_account">您的帐户ID是 &lt;b&gt;%s&lt;/b&gt;。</string>
-    <string name="slot_account_info">您应保持您的帐户 ID 密钥 - 如果您卸载应用程序，需要恢复您的帐户。您的订阅将自动延长，除非您取消它。</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">管理</string>
     <string name="slot_account_action_manage_inactive">激活帐户</string>
     <string name="slot_account_action_change_id">恢复帐户</string>
-    <string name="slot_account_action_copy">复制帐户 ID</string>
     <string name="slot_account_action_copied">帐户ID已复制到剪贴板</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">连接到 %s</string>
@@ -138,11 +106,11 @@
     <string name="slot_gateway_description">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_description_current">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;这是您当前选择的网关。</string>
     <string name="slot_gateway_overloaded">此网关忙，不接受新的连接。</string>
+    <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
-    <string name="panel_section_home_gateways">VPN 网关</string>
     <string name="subscription_success">您的帐户正在激活。这可能需要几秒钟。谢谢！</string>
     <string name="slot_protection_header">Blokada 状态</string>
     <string name="slot_protection_off">Blokada 处于不活动状态</string>
@@ -159,7 +127,6 @@
     <string name="slot_protection_no_adblocking">屏蔽广告 &amp; 跟踪器目前已禁用。您应该启用它，以保护您的隐私和数据。</string>
     <string name="slot_protection_no_vpn">您未连接到Blokada VPN。您应该考虑它来保护您的隐私和安全。</string>
     <string name="slot_protection_no_start_on_boot">Blokada 没有配置在启动时开始。你应该保持 Blokada 始终保持更好的保护。</string>
-    <string name="slot_protection_no_dns">您网络的默认DNS服务器目前正在使用。建议切换到隐私意识的DNS服务器。</string>
     <string name="slot_protection_no_battery_whitelist">Blokada 不受设备电池优化的影响，所以它可能被系统杀死。您应该使用您的系统偏好设置为白名单 Blokada，以便它能够继续并保护您的设备。</string>
     <string name="slot_protection_description">要配置设置，打开底部菜单。</string>
     <string name="slot_start_on_boot_description">启动时启用启动，允许 Blokada 随时激活并保护您的设备。</string>
@@ -184,16 +151,10 @@
     <string name="slot_blog_desc">这个区块是我们编写项目、未来计划和讨论想法的方面。</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">打开</string>
-    <string name="slot_updated_label">Blokada 已更新！</string>
     <!-- A button to open a description website of current app version after update. -->
-    <string name="slot_updated_action">更多</string>
-    <string name="slot_obsolete_label">需要操作：此版本已经过时！</string>
     <string name="slot_obsolete_desc">您的 Blokada 版本已经过时，可能无法正常工作。请下载最新版本，以便继续接收更新。</string>
     <!-- A button to update the app. -->
-    <string name="slot_obsolete_action">更新</string>
-    <string name="slot_cleanup_label">检测到多种版本的布洛卡达</string>
     <string name="slot_cleanup_desc">您的设备似乎有许多版本的 Blokada。您想删除其他版本，只保留一个版本吗？</string>
-    <string name="slot_cleanup_action">清理</string>
     <string name="account_inactive">您的 Blokada VPN 已过期。您没有连接到 VPN。</string>
     <string name="slot_lease_cant_connect">无法连接到 Blokada VPN。请尝试选择另一个网关。</string>
     <string name="slot_account_cant_create">无法创建您的 Blokada VPN 帐户。请稍后再试，或在 Telegram 上联系我们。</string>
@@ -205,9 +166,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_basic">主设置</string>
     <!-- A section in advanced settings. -->
-    <string name="label_filters">广告屏蔽 &amp; 列表</string>
     <!-- A section in advanced settings. -->
-    <string name="label_dns">DNS 设置</string>
     <!-- A section in advanced settings. -->
     <string name="label_advanced">高级设置</string>
 </resources>

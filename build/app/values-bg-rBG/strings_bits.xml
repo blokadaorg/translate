@@ -35,13 +35,11 @@
     <string name="home_connecting_vpn">Свързване с VPN</string>
     <string name="home_cleanup">Препоръчително е почистване</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_change_vpn">Промяна</string>
     <string name="home_connected_vpn">Свързан с VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклами</string>
     <string name="menu_ads_live_label">Регистър на разрешените и блокираните заявки</string>
     <string name="menu_ads_clear_log">Изчистване на дневника с хостове</string>
-    <string name="menu_ads_turn_on">Включване или изключване блокирането на реклами.</string>
     <string name="menu_ads_lists_label">Изберете списъци, които да използвате за блокиране. По подразбиране е добре за повечето хора.</string>
     <string name="menu_ads_rules_label">Добавете свои собствени правила за фина настройка на блокирането.</string>
     <string name="menu_ads_log_label">Вижте какво е било блокирано или разрешено наскоро.</string>
@@ -54,11 +52,10 @@
     <string name="menu_vpn_account">Профил</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзове</string>
+    <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Управление на вашият абонамент и профил</string>
     <string name="menu_vpn_account_secret">ID на профила ви е секретен и трябва да го запазите. Запишете го в случай, че деинсталирате приложението.</string>
     <string name="menu_vpn_restore_label">Тук можете да възстановите сегашния си профил, ако например инсталиралите отново приложението.</string>
-    <string name="menu_vpn_intro">С VPN данните ви са в криптиран вид, вашият IP адрес е скрит и местоположението ви е променено.</string>
-    <string name="menu_vpn_account_label">За да използвате VPN, трябва да имате активен акаунт. Проверете или възстановете профила си тук.</string>
     <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви ще изпраща криптирани данни сигурно чрез този шлюз и ще останете анонимни.</string>
     <string name="menu_dns_recommended">Препоръчителни DNS сървъри</string>
     <string name="menu_dns_intro">DNS отговаря за свързването на устройството ви с уеб сайтове и приложения, които използвате. Изборът на добър DNS може да ускори устройството и ще спомогне за защитата на вашата поверителност.</string>
