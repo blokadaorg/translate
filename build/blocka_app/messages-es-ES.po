@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
+"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2019-08-30 15:04\n"
+"PO-Revision-Date: 2019-09-04 11:01\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -42,6 +42,13 @@ msgstr "6 meses"
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr "Una nueva suscripción puede activarse después de que el ciclo actual haya expirado."
+
+#. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
+#. defaultMessage is:
+#. A real browser is required. Try the "Open in browser" button below.
+#: build/messages/src/Checkout.json
+msgid "A real browser is required. Try the \"Open in browser\" button below."
+msgstr ""
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -134,13 +141,6 @@ msgstr "INACTIVA"
 msgid "LOADING"
 msgstr "CARGANDO"
 
-#. [account.feedback_button] - Button for leaving feedback on account manage
-#. defaultMessage is:
-#. Leave Feedback
-#: build/messages/src/Manage.json
-msgid "Leave Feedback"
-msgstr "Dejar comentarios"
-
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
@@ -232,6 +232,13 @@ msgstr "Lo sentimos"
 msgid "Sorry, an error occured. Please try again later."
 msgstr "Lo sentimos, ha ocurrido un error. Por favor, inténtalo de nuevo más tarde."
 
+#. [support.header] - Shown on support popup header
+#. defaultMessage is:
+#. Support
+#: build/messages/src/Support.json
+msgid "Support"
+msgstr ""
+
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
@@ -252,6 +259,13 @@ msgstr "Esta página no se ha podido mostrar. Si tienes algún problema, ponte e
 #: build/messages/src/App.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "Estamos teniendo problemas con la activación de VPN en las versiones de F-Droid. Estamos trabajando en ello, pero mientras tanto puedes desinstalar la versión de F-Droid y descargar la aplicación desde blokada.org."
+
+#. [support.input] - Shown on support popup message input
+#. defaultMessage is:
+#. Write a message...
+#: build/messages/src/Support.json
+msgid "Write a message..."
+msgstr ""
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
