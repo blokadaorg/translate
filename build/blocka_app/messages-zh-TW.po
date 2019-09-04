@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
+"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-09-01 17:17\n"
+"PO-Revision-Date: 2019-09-04 11:01\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -42,6 +42,13 @@ msgstr "6 個月"
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr "當前訂閱週期已過期，可能會自動續訂"
+
+#. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
+#. defaultMessage is:
+#. A real browser is required. Try the "Open in browser" button below.
+#: build/messages/src/Checkout.json
+msgid "A real browser is required. Try the \"Open in browser\" button below."
+msgstr ""
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -134,13 +141,6 @@ msgstr "不活動"
 msgid "LOADING"
 msgstr "載入中"
 
-#. [account.feedback_button] - Button for leaving feedback on account manage
-#. defaultMessage is:
-#. Leave Feedback
-#: build/messages/src/Manage.json
-msgid "Leave Feedback"
-msgstr "留下回饋"
-
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
@@ -232,6 +232,13 @@ msgstr "抱歉"
 msgid "Sorry, an error occured. Please try again later."
 msgstr "抱歉，發生了錯誤。請稍後再試。"
 
+#. [support.header] - Shown on support popup header
+#. defaultMessage is:
+#. Support
+#: build/messages/src/Support.json
+msgid "Support"
+msgstr ""
+
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
@@ -252,6 +259,13 @@ msgstr "無法顯示此頁面。如果您遇到任何問題，請透過 {email} 
 #: build/messages/src/App.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "目前在 F-Droid 上的 VPN 有問題，我們已經在著手處理。如果需要使用此功能，建議您解除安裝 F-Droid 上的版本，並從 blokada.org 下載。"
+
+#. [support.input] - Shown on support popup message input
+#. defaultMessage is:
+#. Write a message...
+#: build/messages/src/Support.json
+msgid "Write a message..."
+msgstr ""
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
