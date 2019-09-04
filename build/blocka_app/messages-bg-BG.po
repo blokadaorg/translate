@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-08-30 10:51\n"
+"PO-Revision-Date: 2019-09-04 10:12\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -83,7 +83,7 @@ msgstr "Автоматично подновяване"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Автоматично подновяване след изтичане: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -160,14 +160,14 @@ msgstr "Не е намерен"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Плащане с PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Плащането с PayPal е възможно за Blokada v{version} и по-нова версия"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -244,7 +244,7 @@ msgstr "Благодаря!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Тази страница не може да бъде показана. Ако имате някакви проблеми, моля свържете се с нас на {email}."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
