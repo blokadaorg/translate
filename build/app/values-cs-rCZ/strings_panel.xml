@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">Výkon: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Toto je vaše aktuálně vybraná brána.</string>
     <string name="slot_gateway_overloaded">Tato brána je zaneprázdněna a nepřijímá nová připojení.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Nastavte, které z vašich zařízení se budou moci připojit k VPN.</string>
+    <string name="slot_lease_name_current">%s (toto zařízení)</string>
+    <string name="slot_lease_description">ID zařízení: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID zařízení: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Toto je vaše aktuální zařízení.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">vysoké</string>
     <!-- Gateway load -->
@@ -186,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Pokročilá nastavení</string>
     <string name="slot_whitelist_updating">Aktualizace konfigurace, vyčkejte prosím...</string>
+    <string name="slot_too_many_leases">Dosáhli jste limitu aktivních zařízení. Přejděte prosím do sekce Zařízení a minimálně jedno deaktivujte.</string>
     <string name="slot_background_animation">Animace pozadí</string>
     <string name="slot_background_animation_description">Když je zapnuta, vlny se budou animovat pokaždé, když je požadavek DNS blokován nebo povolen. Pokud dojde ke zpomalování zařízení, vypněte ji.</string>
     <string name="slot_reset_counter_label">Obnovit čítač zablokovaných hostitelů</string>
