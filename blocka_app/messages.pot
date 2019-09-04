@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
+"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,13 @@ msgstr ""
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 msgid "A new subscription may be activated after the current cycle has expired."
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
+#. defaultMessage is:
+#. A real browser is required. Try the "Open in browser" button below.
+msgid "A real browser is required. Try the \"Open in browser\" button below."
 msgstr ""
 
 #: build/messages/src/Manage.json
@@ -126,13 +133,6 @@ msgstr ""
 msgid "LOADING"
 msgstr ""
 
-#: build/messages/src/Manage.json
-#. [account.feedback_button] - Button for leaving feedback on account manage
-#. defaultMessage is:
-#. Leave Feedback
-msgid "Leave Feedback"
-msgstr ""
-
 #: build/messages/src/Checkout.json
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -224,6 +224,13 @@ msgstr ""
 msgid "Sorry, an error occured. Please try again later."
 msgstr ""
 
+#: build/messages/src/Support.json
+#. [support.header] - Shown on support popup header
+#. defaultMessage is:
+#. Support
+msgid "Support"
+msgstr ""
+
 #: build/messages/src/App.json
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -243,6 +250,13 @@ msgstr ""
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
+msgstr ""
+
+#: build/messages/src/Support.json
+#. [support.input] - Shown on support popup message input
+#. defaultMessage is:
+#. Write a message...
+msgid "Write a message..."
 msgstr ""
 
 #: build/messages/src/App.json
