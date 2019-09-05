@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-08-30T10:41:51.735Z\n"
+"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2019-08-30 10:51\n"
+"PO-Revision-Date: 2019-09-05 09:41\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -42,6 +42,13 @@ msgstr "6 Mesi"
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr "Un nuovo abbonamento può essere attivato dopo la scadenza di quello attuale."
+
+#. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
+#. defaultMessage is:
+#. A real browser is required. Try the "Open in browser" button below.
+#: build/messages/src/Checkout.json
+msgid "A real browser is required. Try the \"Open in browser\" button below."
+msgstr "È necessario un vero browser. Prova il pulsante \"Apri nel browser\" qui sotto."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -83,7 +90,7 @@ msgstr "Rinnovo automatico"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Rinnovo automatico alla scadenza: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -134,13 +141,6 @@ msgstr "INATTIVO"
 msgid "LOADING"
 msgstr "CARICAMENTO"
 
-#. [account.feedback_button] - Button for leaving feedback on account manage
-#. defaultMessage is:
-#. Leave Feedback
-#: build/messages/src/Manage.json
-msgid "Leave Feedback"
-msgstr "Lascia un Feedback"
-
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
@@ -160,14 +160,14 @@ msgstr "Non trovato"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Paga con PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Il pagamento con PayPal è disponibile da Blokada v{version} in su"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "Paga {price}€ a periodo"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Paga {price}€ usando PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "Pagamento fallito, si prega di verificare i dettagli della carta."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Pagamento fallito, controlla PayPal per i dettagli."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -232,6 +232,13 @@ msgstr "Siamo spiacenti"
 msgid "Sorry, an error occured. Please try again later."
 msgstr "Ci spiace, si è verificato un errore. Per favore, riprova più tardi."
 
+#. [support.header] - Shown on support popup header
+#. defaultMessage is:
+#. Support
+#: build/messages/src/Support.json
+msgid "Support"
+msgstr "Supporto"
+
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
@@ -244,7 +251,7 @@ msgstr "Grazie!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Questa pagina non può essere visualizzata. Se hai riscontrato un problema, per favore contattaci su {email}."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -253,17 +260,24 @@ msgstr ""
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "Stiamo avendo problemi con l'attivazione della VPN sulle build di F-Droid. Stiamo lavorando ad una soluzione, nel frattempo puoi disinstallare la versione F-Droid e scaricare l'app da blokada.org."
 
+#. [support.input] - Shown on support popup message input
+#. defaultMessage is:
+#. Write a message...
+#: build/messages/src/Support.json
+msgid "Write a message..."
+msgstr "Scrivi un messaggio..."
+
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Il tuo pagamento è in fase di elaborazione e il tuo account sarà attivato a breve. Se riscontri problemi, per favore contattaci su {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Il tuo pagamento è stato annullato e non ti verrà addebitato. Il tuo account non è attivo. Se riscontri problemi, per favore contattaci su {email}."
 
