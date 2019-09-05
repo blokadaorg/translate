@@ -121,6 +121,10 @@
     <string name="slot_gateway_description_current">Prestazioni: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regione: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Questo è il tuo gateway attualmente selezionato.</string>
     <string name="slot_gateway_overloaded">Questo gateway è pieno e non accetta nuove connessioni.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Controlla quale dei tuoi dispositivi è connesso alla VPN.</string>
+    <string name="slot_lease_name_current">%s (questo dispositivo)</string>
+    <string name="slot_lease_description">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Questo è il tuo dispositivo attuale.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">alto</string>
     <!-- Gateway load -->
@@ -186,6 +190,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Impostazioni avanzate</string>
     <string name="slot_whitelist_updating">Aggiornamento della configurazione, attendere...</string>
+    <string name="slot_too_many_leases">Hai raggiunto il limite di dispositivi attivi. Per favore, vai alla sezione Dispositivi per disattivarne uno.</string>
     <string name="slot_background_animation">Animazione sfondo</string>
     <string name="slot_background_animation_description">Quando attiva, delle onde si animeranno ogni volta che una richiesta DNS verrà bloccata o consentita. Disattivala in caso di rallentamenti.</string>
     <string name="slot_reset_counter_label">Azzera contatore host bloccati</string>
