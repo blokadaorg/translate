@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-09-04 11:01\n"
+"PO-Revision-Date: 2019-09-07 11:49\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -48,7 +48,7 @@ msgstr "Geçerli döngü sona erdikten sonra yeni bir abonelik etkinleştirilebi
 #. A real browser is required. Try the "Open in browser" button below.
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "Gerçek bir tarayıcı gereklidir. Aşağıdaki \"Tarayıcıda aç\" düğmesini deneyin."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -90,7 +90,7 @@ msgstr "Otomatik yenile"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Süre bitiminde otomatik yenileme: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -160,14 +160,14 @@ msgstr "Bulunamadı"
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "PayPal ile öde"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "PayPal ile ödeme, Blokada v{version} ve üstü sürümlerde mevcuttur"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -195,7 +195,7 @@ msgstr "Her dönem €{price} ödeyin"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "PayPal kullanarak €{price} ödeyin"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "Ödeme başarısız oldu, lütfen kart ayrıntılarını doğrulayın."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Ödeme başarısız oldu, ayrıntılar için PayPal'a bakın."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -237,7 +237,7 @@ msgstr "Maalesef, bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Destek"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -251,7 +251,7 @@ msgstr "Teşekkürler!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Bu sayfa görüntülenemedi. Herhangi bir sorunla karşılaşırsanız, lütfen {email} adresinden bize ulaşın."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -265,19 +265,19 @@ msgstr "Şu anda F-Droid yapılarında VPN aktivasyonu ile ilgili sorunlarımız
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Bir mesaj yaz..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Ödemeniz işleme alındı ve hesabınız kısa süre içinde etkinleştirilecek. Herhangi bir sorunla karşılaşırsanız, lütfen {email} adresinden bize ulaşın."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Ödemeniz iptal edildi ve sizden ücret alınmayacak. Hesabınız aktif değil. Herhangi bir sorunla karşılaşırsanız, lütfen {email} adresinden bize ulaşın."
 
