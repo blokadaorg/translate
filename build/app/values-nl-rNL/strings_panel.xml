@@ -66,6 +66,7 @@
     <string name="slot_enter_name_generate">Genereren</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; is op de toegestane lijst</string>
     <string name="slot_app_desc">Deze app is op de toegestane lijst gezet, wat betekent dat er geen blokkering of filtering wordt uitgevoerd op deze app.</string>
+    <string name="slot_allapp_desc">Je kunt deze app Blokada omzeilen om te stoppen met het blokkeren van elk verkeer. Let op, gepasseerde apps communiceren buiten de VPN.</string>
     <string name="slot_allapp_whitelisted">Omzeild</string>
     <string name="slot_allapp_normal">Niet omzeild</string>
     <string name="slot_allapp_whitelist">Omzeild</string>
@@ -116,7 +117,13 @@
     <string name="slot_gateway_label">Verbinden met %s</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">hoog</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">laag</string>
+    <string name="slot_protection_header">Blokada status</string>
+    <string name="slot_protection_off">Blokada is gedeactiveerd</string>
+    <string name="slot_protection_off_desc">Uw apparaat is niet beschermd.</string>
+    <string name="slot_protection_error">Blokada is tijdelijk inactief</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
