@@ -66,12 +66,31 @@
     <string name="slot_enter_name_generate">Genereren</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; is op de toegestane lijst</string>
     <string name="slot_app_desc">Deze app is op de toegestane lijst gezet, wat betekent dat er geen blokkering of filtering wordt uitgevoerd op deze app.</string>
+    <string name="slot_allapp_whitelisted">Omzeild</string>
+    <string name="slot_allapp_normal">Niet omzeild</string>
+    <string name="slot_allapp_whitelist">Omzeild</string>
+    <string name="slot_dns_name">Aangepaste DNS is actief</string>
+    <string name="slot_dns_name_disabled">Aangepaste DNS is gedeactiveerd</string>
+    <string name="slot_action_none">Deze actie is nog niet beschikbaar.</string>
+    <string name="slot_action_unwhitelist">Annuleren</string>
+    <string name="slot_action_author">Over</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Een item</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Een item voor %s</string>
+    <string name="slot_dns_control_title">DNS-servers lijst</string>
+    <string name="slot_dns_control_description">Je kunt de DNS-servers lijst synchroniseren met onze servers zonder je eigen domeinen te verliezen. &lt;br/&gt;&lt;br/&gt;Als alternatief kun je alle items (inclusief de jouwe) laten vervallen en ze opnieuw downloaden.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Synchroniseren</string>
     <string name="slot_action_refresh_toast">De synchronisatie is gestart</string>
     <string name="slot_action_restore">Drop</string>
     <string name="slot_export_title">Locatie instellingen</string>
+    <string name="slot_export_description">Je kunt de plaats waar de configuratie wordt opgeslagen (en geladen) wijzigen. Als je bestaande instellingen importeert, selecteer dan eerst Importeren, anders worden deze overschreven.</string>
+    <string name="slot_action_import">Importeren</string>
+    <string name="slot_action_internal">Interne opslag</string>
+    <string name="slot_action_external">Externe opslag</string>
+    <string name="slot_filters_title">Filterlijst</string>
+    <string name="slot_filters_description">Je kunt de filterlijst synchroniseren met onze servers zonder je eigen domeinen te verliezen. &lt;br/&gt;&lt;br/&gt;Als alternatief kun je alle items (inclusief de jouwe) laten vervallen en ze opnieuw downloaden.</string>
     <string name="slot_blocked_title">Domein geblokkeerd</string>
     <string name="slot_forwarded_title">Domein doorgestuurd</string>
     <string name="slot_whitelist_title">Toegestane app</string>
