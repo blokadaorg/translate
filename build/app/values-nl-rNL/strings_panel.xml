@@ -177,9 +177,23 @@
     <string name="slot_cleanup_desc">Er lijken veel versies van Blokada geïnstalleerd te zijn op je apparaat. Wilt u de andere versies verwijderen en er één houden?</string>
     <string name="account_inactive">Je Blokada VPN is verlopen. Je bent niet verbonden met de VPN.</string>
     <string name="slot_lease_cant_connect">Kan geen verbinding maken met Blokada VPN. Probeer een andere gateway te selecteren.</string>
+    <string name="slot_account_cant_create">Kan je Blokada VPN-account niet aanmaken. Probeer het later opnieuw of neem contact op met ons op Telegram.</string>
     <string name="slot_account_name_title">Account ID</string>
+    <string name="slot_account_name_desc">Voer je oude account ID in om je vorige abonnement te herstellen. Je kunt uw huidige account ID beter opschrijven voordat je datt doet, in het geval je een fout maakt.</string>
+    <string name="slot_account_name_error">Account-ID kan alleen letters en cijfers bevatten.</string>
+    <string name="slot_account_name_api_error">Deze account ID lijkt niet correct.</string>
+    <string name="slot_account_name_restore">Herstellen</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Primaire instellingen</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Geavanceerde instellingen</string>
+    <string name="slot_whitelist_updating">Configuratie bijwerken, even geduld...</string>
+    <string name="slot_too_many_leases">Verwijder het oude apparaat uit uw lijst met apparaten.</string>
+    <string name="slot_background_animation">Achtergrond animatie</string>
+    <string name="slot_background_animation_description">Wanneer actief, zullen golven animeren elke keer als een DNS-verzoek geblokkeerd of toegestaan is. Schakel uit als je vertraging ervaart.</string>
+    <string name="slot_reset_counter_label">Blokkeerde host teller resetten</string>
+    <string name="slot_reset_counter_description">Zet de teller die laat zien hoeveel verzoeken geblokkeerd zijn op 0.</string>
+    <string name="slot_reset_counter_action">Resetten</string>
 </resources>
