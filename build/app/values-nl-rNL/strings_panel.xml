@@ -96,6 +96,7 @@
     <string name="slot_forwarded_title">Domein doorgestuurd</string>
     <string name="slot_whitelist_title">Toegestane app</string>
     <string name="slot_list_no_desc">Deze vermelding heeft geen beschrijving.</string>
+    <string name="slot_status_info">Wanneer de app actief is, zie je het sleutelpictogram in de notificatiebalk boven aan het scherm, wat betekent dat uw apparaat beschermd is. Je kunt de app uitschakelen met de onderstaande knop of door het onderste menu naar beneden te vegen.</string>
     <string name="slot_action_deactivate">Uitschakelen</string>
     <string name="slot_action_activate">Inschakelen</string>
     <string name="slot_update_action_refresh">Controleer opnieuw</string>
@@ -115,15 +116,34 @@
     <string name="slot_account_action_copied">Account ID is naar het klembord gekopieerd</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Verbinden met %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Verbind met %s</string>
+    <string name="slot_gateway_description">Prestatie: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regio: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_description_current">Prestatie: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regio: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dit is jouw huidige geselecteerde gateway.</string>
+    <string name="slot_gateway_overloaded">Deze gateway is bezet en accepteert geen nieuwe verbindingen.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Bepaal welke van je apparaten verbinding wil maken met het VPN.</string>
+    <string name="slot_lease_name_current">%s (dit apparaat)</string>
+    <string name="slot_lease_description">Apparaat ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">Apparaat ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dit is jouw huidige apparaat.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">hoog</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">laag</string>
+    <string name="subscription_success">Je account wordt geactiveerd. Dit kan een paar seconden duren. Bedankt!</string>
     <string name="slot_protection_header">Blokada status</string>
     <string name="slot_protection_off">Blokada is gedeactiveerd</string>
     <string name="slot_protection_off_desc">Uw apparaat is niet beschermd.</string>
     <string name="slot_protection_error">Blokada is tijdelijk inactief</string>
+    <string name="slot_protection_error_desc">Dit kan worden veroorzaakt door tijdelijke netwerkproblemen, apparaat of software problemen. Blokada zal automatisch snel opnieuw activeren, maar je kunt ook proberen de app opnieuw aan te zetten of uw telefoon opnieuw opstarten. Als je problemen blijft hebben, neem dan contact met ons op Telegram voor hulp.</string>
+    <string name="slot_protection_disconnected">Jouw apparaat is offline</string>
+    <string name="slot_protection_disconnected_desc">Blokada is gepauzeerd omdat je apparaat de internetverbinding heeft verloren. Blokada zal automatisch opnieuw activeren zodra je weer online bent.</string>
+    <string name="slot_protection_activating">Blokada is aan het activeren</string>
+    <string name="slot_protection_active_warning">Blokada is actief, maar configuratie kan worden verbeterd. Tik voor details.</string>
+    <string name="slot_protection_active">Blokada en VPN zijn actief</string>
+    <string name="slot_protection_action">Instellingen</string>
+    <string name="slot_protection_ok">Uw apparaat is volledig beschermd! Zowel VPN als adblokkering zijn actief.</string>
+    <string name="slot_protection_no_adblocking">Het blokkeren van advertenties &amp; trackers zijn momenteel uitgeschakeld. Je moet deze inschakelen om jouw privacy en gegevens te beschermen.</string>
+    <string name="slot_protection_no_vpn">Je bent niet verbonden met Blokada VPN. Je moet het overwegen voor een betere bescherming van jouw privacy en veiligheid.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
