@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
+"POT-Creation-Date: 2019-09-09T12:41:52.774Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2019-09-04 12:05\n"
+"PO-Revision-Date: 2019-09-09 14:52\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -106,6 +106,13 @@ msgstr "إلغاء الإشتراك"
 msgid "Canceling {spinner}"
 msgstr "جارِ الإلغاء {spinner}"
 
+#. [callback.continue] - Shown when opening Blokada app callbacks
+#. defaultMessage is:
+#. Continue with the Blokada App
+#: build/messages/src/Callback.json
+msgid "Continue with the Blokada App"
+msgstr "المتابعة مع تطبيق بلوكادا"
+
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
@@ -123,7 +130,7 @@ msgstr "البريد الإلكتروني"
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Fetching account information {spinner}"
 msgstr "جارِ إحضار معلومات الحساب {spinner}"
 
@@ -221,14 +228,14 @@ msgstr "جارِ المعالجة {spinner}"
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Sorry"
 msgstr "عذراً"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
 msgstr "عُذراً ، لقد حَصَل خطأ. الرجاء إعادة المحاولة لاحقاً."
 
@@ -238,6 +245,13 @@ msgstr "عُذراً ، لقد حَصَل خطأ. الرجاء إعادة الم
 #: build/messages/src/Support.json
 msgid "Support"
 msgstr "الدعم"
+
+#. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
+#. defaultMessage is:
+#. Taking longer than expected? See Support button bottom left
+#: build/messages/src/Checkout.json
+msgid "Taking longer than expected? See Support button bottom left"
+msgstr "يستغرق وقتاً أطول ممّا كان متوقعاً؟ انظر زرّ الدعم في الأسفل"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -253,10 +267,17 @@ msgstr "شكراً !"
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
 msgstr "لا يُمكِن عرض هذه الصفحة. إذا واجهت أيّ مشاكل ، الرّجاء التواصل معنا على {email}."
 
+#. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
+#. defaultMessage is:
+#. Waiting for PayPal to confirm payment...
+#: build/messages/src/Checkout.json
+msgid "Waiting for PayPal to confirm payment..."
+msgstr "في انتظار PayPal لتأكيد الدفع..."
+
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "نواجه حاليّاً مشاكل مع تنشيط VPN على إصدارات F-Droid. جارِ العمل على حلّ هذه المشكلة ، في غضون ذلك ، يُمكِنك إلغاء تثبيت إصدار F-Droid و تنزيل التطبيق من blokada.org بدلاً عن ذلك."
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-09-04T10:38:35.108Z\n"
+"POT-Creation-Date: 2019-09-09T12:41:52.774Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
-"PO-Revision-Date: 2019-09-04 15:13\n"
+"PO-Revision-Date: 2019-09-09 13:54\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -106,6 +106,13 @@ msgstr "Zrušit předplatné"
 msgid "Canceling {spinner}"
 msgstr "Rušení {spinner}"
 
+#. [callback.continue] - Shown when opening Blokada app callbacks
+#. defaultMessage is:
+#. Continue with the Blokada App
+#: build/messages/src/Callback.json
+msgid "Continue with the Blokada App"
+msgstr "Pokračovat s aplikací Blokada"
+
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
@@ -123,7 +130,7 @@ msgstr "E-mail"
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Fetching account information {spinner}"
 msgstr "Načítání informací o účtu {spinner}"
 
@@ -221,14 +228,14 @@ msgstr "Zpracovává se {spinner}"
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Sorry"
 msgstr "Promiňte"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
 msgstr "Je nám líto, ale došlo k chybě. Prosím, zkuste to znovu později."
 
@@ -238,6 +245,13 @@ msgstr "Je nám líto, ale došlo k chybě. Prosím, zkuste to znovu později."
 #: build/messages/src/Support.json
 msgid "Support"
 msgstr "Podpora"
+
+#. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
+#. defaultMessage is:
+#. Taking longer than expected? See Support button bottom left
+#: build/messages/src/Checkout.json
+msgid "Taking longer than expected? See Support button bottom left"
+msgstr "Trvá to déle, než se očekávalo? Viz tlačítko Podpora vlevo dole"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -253,10 +267,17 @@ msgstr "Děkujeme!"
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
 msgstr "Tuto stránku nelze zobrazit. Pokud narazíte na nějaké problémy, kontaktujte nás na e-mailu {email}."
 
+#. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
+#. defaultMessage is:
+#. Waiting for PayPal to confirm payment...
+#: build/messages/src/Checkout.json
+msgid "Waiting for PayPal to confirm payment..."
+msgstr "Čeká se na potvrzení platby ze strany PayPal..."
+
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
-#: build/messages/src/App.json
+#: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "V současné době máme problémy s aktivací VPN na verzích s obchodu F-Droid.  Na tomto problému se pracuje, mezitím můžete odinstalovat verzi z obchodu F-Droid a místo toho stáhnout aplikaci z našeho webu blokada.org."
 
