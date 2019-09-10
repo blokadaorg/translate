@@ -25,7 +25,12 @@
     <string name="home_update_required">Oppdatering påkrevd</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donér</string>
+    <string name="home_vpn_enabled">VPN er aktiv</string>
+    <string name="home_vpn_disabled">VPN er deaktivert</string>
+    <string name="home_account_active">Kontoen din er fortsatt aktiv</string>
+    <string name="home_connecting_vpn">Kobler til VPN</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Koblet til VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklame</string>
     <!-- VPN section header in menu (for configuring VPN) -->
@@ -36,16 +41,20 @@
     <string name="menu_vpn_account">Konto</string>
     <!-- A button opening VPN gateways settings -->
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Enheter</string>
     <string name="menu_dns_recommended">Anbefalte DNS-servere</string>
     <string name="menu_dns_intro">DNS er ansvarlig for å oversette IP-adresser til nettsteder og apper du bruker. Hvis du velger en god DNS, kan det øke hastigheten på enheten din og vil beskytte personvernet ditt.</string>
     <string name="menu_dns_select">Velg en av DNS-serverne.</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Annet</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Lær mer</string>
     <!-- A section informational content in menu -->
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Bli involvert</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Administrer</string>
     <string name="menu_ok">Ok</string>
+    <string name="menu_dns_remove_default">Standard DNS kan ikke fjernes.</string>
 </resources>
