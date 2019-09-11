@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-09-09 12:55\n"
+"PO-Revision-Date: 2019-09-11 05:42\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -48,7 +48,7 @@ msgstr "當前訂閱週期已過期，可能會自動續訂"
 #. A real browser is required. Try the "Open in browser" button below.
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "需要真的瀏覽器。請嘗試下方的「在瀏覽器中開啟」按鈕。"
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -111,7 +111,7 @@ msgstr "正在取消 {spinner}"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "使用 Blokada 應用程式繼續"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -244,14 +244,14 @@ msgstr "抱歉，發生了錯誤。請稍後再試。"
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "支援"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "花了比預期還長的時間？請看左下方的支援按鈕"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -272,7 +272,7 @@ msgstr "無法顯示此頁面。如果您遇到任何問題，請透過 {email} 
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "正在等待 PayPal 確認付款……"
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -286,7 +286,7 @@ msgstr "目前在 F-Droid 上的 VPN 有問題，我們已經在著手處理。�
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "撰寫訊息……"
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
