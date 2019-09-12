@@ -13,98 +13,98 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2019-09-09 16:02\n"
+"PO-Revision-Date: 2019-09-12 16:52\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr "1 Maand"
+msgstr "1 maand"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr "12 Maanden"
+msgstr "12 maanden"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr "6 Maanden"
+msgstr "6 maanden"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "Een nieuw abonnement kan worden geactiveerd, nadat het huidige is afgelopen."
 
 #. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
 #. defaultMessage is:
 #. A real browser is required. Try the "Open in browser" button below.
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "Een echte browser is vereist. Probeer de \"Open in browser\" knop hieronder."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "ACTIEF"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "Account ID"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Activering geannuleerd"
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
 #. An error occured, please try later.
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Er is een fout opgetreden. Probeer het later opnieuw."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Auto-vernieuwen"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Automatisch vernieuwen bij verlopen: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Abonnement opzeggen"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Annuleren {spinner}"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
@@ -118,133 +118,133 @@ msgstr "Ga verder met de Blokada App"
 #. DEACTIVATING
 #: build/messages/src/Manage.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "DEACTIVEREN"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 #: build/messages/src/Activate.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "Ophalen van accountinformatie {spinner}"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
 #: build/messages/src/Manage.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "INACTIEF"
 
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/Manage.json
 msgid "LOADING"
-msgstr ""
+msgstr "BEZIG MET LADEN"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/Checkout.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Laden {spinner}"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Niet gevonden"
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Betaal met PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Betalen met PayPal is beschikbaar in Blokada v{version} en hoger"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Betaal met kaart"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Betaal €{price}"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "Betaal €{price} per periode"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Betaal €{price} met PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Betaling mislukt, gelieve de kaartgegevens te valideren."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Betaling mislukt, zie PayPal voor details."
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Verwerken {spinner}"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "Sorry"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Sorry, er is een fout opgetreden. Probeer het later nog eens."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Ondersteuning"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
@@ -258,14 +258,14 @@ msgstr "Duurt het langer dan verwacht? Zie de Support knop linksonder"
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Bedankt!"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Deze pagina kon niet worden weergegeven. Als je problemen ondervindt, neem dan contact met ons op via {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
@@ -279,26 +279,26 @@ msgstr "Wachten op PayPal om betaling te bevestigen..."
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "We hebben momenteel problemen met de VPN-activatie op F-Droid bouwt. Er wordt gewerkt aan dit probleem, in de tussentijd kun je de F-Droid versie verwijderen en de app downloaden van Blokada.org."
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Schrijf een bericht..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Jouw betaling wordt verwerkt en jouw account wordt binnenkort geactiveerd. Als je problemen ondervindt, neem dan contact met ons op via {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Jouw betaling is geannuleerd en er worden geen kosten in rekening gebracht. Als je problemen ondervindt, neem dan contact met ons op via {email}."
 
