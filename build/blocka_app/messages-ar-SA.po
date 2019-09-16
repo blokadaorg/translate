@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-09-09T12:41:52.774Z\n"
+"POT-Creation-Date: 2019-09-16T15:59:52.634Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2019-09-09 14:52\n"
+"PO-Revision-Date: 2019-09-16 16:13\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -43,9 +43,13 @@ msgstr "6 شهور"
 msgid "A new subscription may be activated after the current cycle has expired."
 msgstr "قد يتمّ تنشيط اشتراك جديد بعد إنتهاء الدورة الحاليّة."
 
+#. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
+#. defaultMessage is:
+#. A real browser is required. Try the "Open in browser" button below.
 #. [account.activate_once_paypal_unsupported] - Error displayed when PayPal is loaded on a unsupported browser
 #. defaultMessage is:
 #. A real browser is required. Try the "Open in browser" button below.
+#: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
 msgstr "مطلوب متصفِّح حقيقي. جَرّب زرّ \"فتح في المتصفح\" أدناه."
@@ -74,6 +78,10 @@ msgstr "تمَّ إلغاء التنشيط"
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
 #. An error occured, please try later.
+#. [account.activate_stellar_error] - Generic error displayed when Stellar fails preparing the order
+#. defaultMessage is:
+#. An error occured, please try later.
+#: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
 msgstr "حدث خطأ. الرّجاء المحاولة لاحقاً."
@@ -134,6 +142,13 @@ msgstr "البريد الإلكتروني"
 msgid "Fetching account information {spinner}"
 msgstr "جارِ إحضار معلومات الحساب {spinner}"
 
+#. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
+#. defaultMessage is:
+#. I have a Stellar wallet
+#: build/messages/src/Checkout.json
+msgid "I have a Stellar wallet"
+msgstr ""
+
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
@@ -155,12 +170,26 @@ msgstr "جارِ التحميل"
 msgid "Loading {spinner}"
 msgstr "جارِ التحميل {spinner}"
 
+#. [account.activate_once_stellar_proceed_description] - Shown above Stellar button for paying one time
+#. defaultMessage is:
+#. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
+#: build/messages/src/Checkout.json
+msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
+msgstr ""
+
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
 msgstr "تَعذّر العثور"
+
+#. [account.activate_once_stellar_description] - Shown above Stellar button for paying one time
+#. defaultMessage is:
+#. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
+#: build/messages/src/Checkout.json
+msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
+msgstr ""
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -175,6 +204,20 @@ msgstr "الدفع بواسطة PayPal"
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
 msgstr "الدفع باستخدام PayPal مُتَاح في Blokada v{version} وما فوق"
+
+#. [account.activate_once_stellar] - Header for paying with Stellar
+#. defaultMessage is:
+#. Pay with Stellar
+#: build/messages/src/Checkout.json
+msgid "Pay with Stellar"
+msgstr ""
+
+#. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
+#. defaultMessage is:
+#. Pay with Stellar Lumens is available in Blokada v{version} and up
+#: build/messages/src/Checkout.json
+msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
+msgstr ""
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -218,6 +261,13 @@ msgstr "عمليّة الدفع قد فَشلَتْ ، الرجاء التحقّ
 msgid "Payment failed, see PayPal for details."
 msgstr "فشلت عمليّة الدفع ، راجع PayPal للحصول على التفاصيل."
 
+#. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
+#. defaultMessage is:
+#. Proceed to wallet
+#: build/messages/src/Checkout.json
+msgid "Proceed to wallet"
+msgstr ""
+
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
@@ -238,6 +288,13 @@ msgstr "عذراً"
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
 msgstr "عُذراً ، لقد حَصَل خطأ. الرجاء إعادة المحاولة لاحقاً."
+
+#. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
+#. defaultMessage is:
+#. Stellar?
+#: build/messages/src/Checkout.json
+msgid "Stellar?"
+msgstr ""
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -273,6 +330,13 @@ msgstr "لا يُمكِن عرض هذه الصفحة. إذا واجهت أيّ �
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
 msgstr "في انتظار PayPal لتأكيد الدفع..."
+
+#. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
+#. defaultMessage is:
+#. Waiting for payment confirmation...
+#: build/messages/src/Checkout.json
+msgid "Waiting for payment confirmation..."
+msgstr ""
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
