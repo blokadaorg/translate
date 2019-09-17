@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2019-09-17 08:14\n"
+"PO-Revision-Date: 2019-09-17 11:24\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -119,7 +119,7 @@ msgstr "Annullo {spinner}"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr "Continua con l'applicazione"
+msgstr "Continua sull'app Blokada"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -147,7 +147,7 @@ msgstr "Recupero informazioni account {spinner}"
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr "Ho un portafoglio Stellar"
+msgstr "Ho un conto su Stellar"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr "Caricamento {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr "Assicurati che il tuo portafoglio sia disponibile prima di procedere, torna qui quando hai inviato il pagamento."
+msgstr "Prima di procedere, assicurati che il tuo conto sia disponibile. Torna qui a pagamento inoltrato."
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -189,7 +189,7 @@ msgstr "Non trovato"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr "Paga l'equivalente di €{price} utilizzando un portafoglio Stellar. Ti consigliamo di utilizzare {recommeded}."
+msgstr "Paga l'equivalente di {price}€ utilizzando il tuo conto Stellar. Consigliamo di utilizzare {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -266,7 +266,7 @@ msgstr "Pagamento fallito, controlla PayPal per i dettagli."
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr "Procedi al portafoglio"
+msgstr "Vai al tuo conto"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -308,7 +308,7 @@ msgstr "Supporto"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr "Ci vuole più tempo del previsto? Premi il pulsante Supporto in basso a sinistra"
+msgstr "Sembra volerci più del previsto? Premi il pulsante \"Supporto\" in basso a sinistra"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
