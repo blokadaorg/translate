@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-09-16 16:51\n"
+"PO-Revision-Date: 2019-09-17 00:12\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr "載入中 {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr ""
+msgstr "在繼續之前請確定您的錢包是可以正常運作的，當您付款時就會回到這裡。"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -211,14 +211,14 @@ msgstr "使用 PayPal 付款已支援 Blokada v{version} 及更新版本"
 #. Pay with Stellar
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar"
-msgstr ""
+msgstr "使用 Stellar 付款"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "使用 Stellar Lumens 付款在 Blokada v{version} 及更新版本可用"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -267,7 +267,7 @@ msgstr "付款失敗，請見 PayPal 以取得更多資訊。"
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "繼續到錢包"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -295,7 +295,7 @@ msgstr "抱歉，發生了錯誤。請稍後再試。"
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -337,7 +337,7 @@ msgstr "正在等待 PayPal 確認付款……"
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "等待付款確認……"
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
