@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2019-09-16 16:13\n"
+"PO-Revision-Date: 2019-09-17 10:06\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -147,7 +147,7 @@ msgstr "Получение информации об аккаунте {spinner}"
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr ""
+msgstr "У меня есть кошелек Stellar"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr "Загрузка {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr ""
+msgstr "Убедитесь, что ваш кошелек доступен, прежде чем продолжить, вернитесь сюда после совершения платежа."
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -189,7 +189,7 @@ msgstr "Не найдено"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Оплатить эквивалент €{price}, используя кошелек Stellar. Мы рекомендуем использовать {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -210,14 +210,14 @@ msgstr "Оплата через PayPal доступна в Blokada v{version} и
 #. Pay with Stellar
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar"
-msgstr ""
+msgstr "Оплатить, используя Stellar"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Оплата с использованием Stellar Lumens доступна в Blokada v{version} и новее"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -266,7 +266,7 @@ msgstr "Платеж не прошел. Подробнее в PayPal."
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Перейти в кошелек"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -294,7 +294,7 @@ msgstr "Извините, произошла ошибка. Пожалуйста,
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -336,7 +336,7 @@ msgstr "Ожидание PayPal для подтверждения оплаты..
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Ожидание подтверждения оплаты..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:

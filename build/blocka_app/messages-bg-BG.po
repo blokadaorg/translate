@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-09-16 16:13\n"
+"PO-Revision-Date: 2019-09-18 16:44\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -147,7 +147,7 @@ msgstr "Извличане на информация за профила {spinne
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr ""
+msgstr "Имам Stellar портфейл"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr "Зареждане {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr ""
+msgstr "Уверете се, че вашият портфейл е активен преди да продължите, и когато сте завършили плащането, върнете се тук."
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -189,7 +189,7 @@ msgstr "Не е намерен"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Платете сума еквивалентна на €{price}, използвайки Stellar портфейл. Препоръчваме да използвате {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -210,14 +210,14 @@ msgstr "Плащането с PayPal е възможно за Blokada v{version}
 #. Pay with Stellar
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar"
-msgstr ""
+msgstr "Платете със Stellar"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Плащането с Stellar Lumens е достъпно в Blokada v{version} и по-нова версия"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -266,7 +266,7 @@ msgstr "Плащането не е успешно, вижте в PayPal за п�
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Продължете към портфейла"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -294,7 +294,7 @@ msgstr "За съжаление възникна грешка. Моля, опи�
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -336,7 +336,7 @@ msgstr "Изчаква се от PayPal потвърждение за плаща
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Чака се потвърждение за плащане..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
