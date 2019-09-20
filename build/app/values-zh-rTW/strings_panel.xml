@@ -66,7 +66,7 @@
     <string name="slot_enter_name_generate">建立</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; 已列入白名單</string>
     <string name="slot_app_desc">此應用程式已在白名單內，這代表了不會對其阻擋或過濾。</string>
-    <string name="slot_allapp_desc">您可以讓這個應用程式繞過 Blokada 以防止阻擋其任何流量。記住，已繞過的應用程式會在 VPN 之外通訊。</string>
+    <string name="slot_allapp_desc">您可以讓這個應用程式繞過 Blokada 以防止阻擋其任何流量。記住，繞過的應用程式會在 VPN 之外通訊。</string>
     <string name="slot_allapp_whitelisted">已繞過</string>
     <string name="slot_allapp_normal">未繞過</string>
     <string name="slot_allapp_whitelist">繞過</string>
@@ -136,9 +136,9 @@
     <string name="slot_protection_error">Blokada 暫時未啟用</string>
     <string name="slot_protection_error_desc">這可能是因為暫時性的網路、裝置或軟體問題所導致的。Blokada 將在稍候重新啟動，但您也能嘗試重新啟動 App 或是重新啟動手機。如果仍有問題，請在 Telegram 詢問我們取得協助。</string>
     <string name="slot_protection_disconnected">您的裝置已離線</string>
-    <string name="slot_protection_disconnected_desc">Blokada 已暫停，因為您的裝置未連上網路。當重新連線時，Blokada 將會重新啟動。</string>
+    <string name="slot_protection_disconnected_desc">Blokada 已暫停，因為您的裝置未連上網路。當重新連線時，Blokada 將會自動重新啟動。</string>
     <string name="slot_protection_activating">Blokada 正在啟動中</string>
-    <string name="slot_protection_active_warning">Blokada已啟動，但還可以更安全。點選來檢視更多相關資訊。</string>
+    <string name="slot_protection_active_warning">Blokada 已啟動，但還有能改的設定。點選來檢視更多相關資訊。</string>
     <string name="slot_protection_active">Blokada 以及 VPN 皆已啟用</string>
     <string name="slot_protection_action">設定</string>
     <string name="slot_protection_ok">您的裝置已受到全面保護！ VPN 以及廣告阻擋皆已啟用。</string>
