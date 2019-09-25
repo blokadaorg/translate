@@ -37,6 +37,12 @@
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">Conectado à VPN</string>
     <string name="home_boringtun_not_loaded">Desculpe, seu dispositivo não esta sendo suportado pela VPN Blokada</string>
+    <string name="home_blocka_vpn_error">Não foi possível conetar ao gateway. Você está online?</string>
+    <string name="home_account_error">Não foi possível verificar a conta. Você está online?</string>
+    <string name="home_permission_error">Por favor conceda permissões VPN.</string>
+    <string name="home_zero_filters_error">Você não tem filtros configurados. Verifique as configurações do bloqueio de anúncios.</string>
+    <string name="home_filters_memory_error">Não foi possível carregar todos os filtros à memoria. Verifique as configurações do bloqueio de anúncios.</string>
+    <string name="tasker_switch_label">Você pode configurar Blokada para ligar ou desligar sempre que seu evento se ative.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Anúncios</string>
     <string name="menu_ads_live_label">Registro de host de pedidos permitidos e bloqueados</string>
