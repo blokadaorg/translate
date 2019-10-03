@@ -63,18 +63,44 @@
     <string name="slot_enter_domain_no_file">Nie znaleziono plików w /Download/blokada/filters</string>
     <string name="slot_enter_file_titel">Nazwa pliku</string>
     <string name="slot_enter_file_import">Importuj</string>
+    <string name="slot_enter_file_desc">Importuj częściową nazwę pliku</string>
+    <string name="slot_enter_file_multi">Kilka plików mają takie dane</string>
     <string name="slot_enter_name_title">Nazwa</string>
+    <string name="slot_enter_name_desc">Wpisz nazwę dla nowego wejścia. Możesz również wygenerować sugerowaną nazwę.</string>
+    <string name="slot_enter_name_error">To mi nie wygląda dobrze.</string>
+    <string name="slot_enter_name_generate">Generuj</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; jest na białej liście</string>
     <string name="slot_action_unwhitelist">Anuluj</string>
+    <string name="slot_action_author">Więcej</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Synchronizacja</string>
+    <string name="slot_action_refresh_toast">Synchronizacja rozpoczęta</string>
+    <string name="slot_export_title">Ustawienia lokalizacji</string>
     <string name="slot_action_import">Importuj</string>
+    <string name="slot_action_internal">Pamięć wewnętrzna</string>
+    <string name="slot_action_external">Pamięć zewnętrzna</string>
+    <string name="slot_filters_title">Lista filtrów</string>
+    <string name="slot_blocked_title">Domena zablokowana</string>
+    <string name="slot_whitelist_title">Aplikacja na białej liście</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_protection_off">Blokada jest nieaktywna</string>
+    <string name="slot_protection_off_desc">Twoje urządzenie nie jest chronione.</string>
+    <string name="slot_protection_error">Blokada jest tymczasowo nieaktywna</string>
+    <string name="slot_protection_disconnected">Twoje urządzenie jest offline</string>
+    <string name="slot_protection_disconnected_desc">Blokada została spauzowana ponieważ twoje urządzenie straciło łącze internetowe. Blokada automatycznie włączy się ponownie po połączeniu z siecią.</string>
+    <string name="slot_protection_activating">Blokada jest uruchamiana</string>
+    <string name="slot_protection_active_warning">Blokada jest aktywna, ale konfiguracja nie może zostać poprawiona. Kliknij po więcej.</string>
+    <string name="slot_protection_active">Blokada i VPN są aktywne</string>
+    <string name="slot_protection_action">Ustawienia</string>
+    <string name="slot_protection_ok">Twoje urządzenie jest w pełni chronione! VPN oraz adblock jest aktywny.</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Log</string>
     <!-- A button to open help -->
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
