@@ -20,6 +20,9 @@
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">Garder actif (appuyer pour masquer)</string>
     <string name="notification_keepalive_text_new">Sous Android, une notification doit être affichée pour garder l\'application active. Vous êtes libre de la désactiver dans les paramètres système.</string>
+    <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
+    <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
+    <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_activate">Activer</string>
     <string name="notification_keepalive_activating">Blokada démarre. Cela peut prendre un moment.</string>
     <string name="notification_keepalive_deactivate">Désactiver</string>
