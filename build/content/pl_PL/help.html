@@ -79,22 +79,22 @@
   <p>Jeśli chodzi o mechanizm płatności, używamy Stripe, a informacje zapisane w tym procesie służą wyłącznie do weryfikacji płatności i przechowywania wystarczającej ilości informacji do aktywacji konta i umożliwienia bezpiecznego zarządzania subskrypcją.</p>
 
 <h4><a name="dns">Zmiana DNS</a></h4>
-  <p>The other commonly used function in Blokada is changing the DNS server. The application provides a list of pre-defined DNS servers you can choose from.<br>
-  The acronym DNS stands for Domain Name System and this servers are responsible to resolve the domain names (for example: <i>myexample.com</i>) to IP addresses, what are used between machines to communicate. Your internet service provider has its own DNS servers; Blokada is configured to use the system defaults. The machines in this list should be used if you are suspecting that your ISP collects logs about your internet usage, you are afraid of some privacy risk or if some websites or services are blocked for you. There is no "best", everything depends on your preferences and location, therefore if you would like to use custom DNS servers, please read their description, search for them on the internet and read the feedbacks.<br>
-  This DNS section will work with or without VPN active, so the DNS of your choice will be the one used with or without the VPN service. Also consider as of v4 Blokada doesn’t support yet DoH/DoT, but this will be implemented shortly after the release of v4.
+  <p>Inną często używaną funkcją w Blokadzie jest zmiana serwera DNS. Aplikacja zawiera listę wstępnie zdefiniowanych serwerów DNS, z których możesz wybierać.<br>
+  Akronim DNS oznacza Domain Name System (system nazw domenowych) i te serwery są odpowiedzialne za rozwiązanie nazw domen (na przykład: <i>myexample.com</i>) na adresy IP, które są używane między urządzeniami do komunikacji. Twój dostawca usług internetowych ma własne serwery DNS; Blokada jest skonfigurowany do używania domyślnych ustawień systemu. Urządzenia z tej listy powinny być używane, jeśli podejrzewasz, że Twój dostawca usług internetowych zbiera dzienniki dotyczące korzystania z Internetu, obawiasz się ryzyka utraty prywatności lub jeśli niektóre witryny lub usługi są dla Ciebie zablokowane. Nie ma „najlepszego”, wszystko zależy od twoich preferencji i lokalizacji, dlatego jeśli chcesz korzystać z niestandardowych serwerów DNS, przeczytaj ich opis, wyszukaj je w Internecie i przeczytaj informacje zwrotne.<br>
+   Ta sekcja DNS będzie działać z aktywną siecią VPN lub bez niej, więc wybrany DNS będzie używany z usługą VPN lub bez niej. Rozważ również od wersji 4 Blokada nie obsługuje jeszcze DoH / DoT, ale zostanie to zaimplementowane wkrótce po wydaniu wersji 4.
 </p>
 
-<h4><a name="settings">What are the available settings in Blokada?</a></h4>
-<p>As you surely saw it, Blokada has some options on the Settings screen. You can see the followings:</p>
+<h4><a name="settings">Jakie są dostępne ustawienia w Blokadzie?</a></h4>
+<p>Jak pewnie to widziałeś, Blokada ma kilka opcji na ekranie Ustawienia. Możesz zobaczyć następujące:</p>
 <p><ul>
-    <li><b>Notifications</b>: when enabled, you will be notified when an ad is blocked. It is on by default, but if you get a lot of notifications, turn it off.</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
-    <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
-    <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
-    <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
+    <li><b>Powiadomienia</b>: włączone powiadomią Cię o zablokowaniu reklamy. Domyślnie włączone, ale jeżeli otrzymujesz wiele powiadomień, wyłącz je.</li>
+    <li><b>Auto start</b>: włączenie spowoduje, że Blokada będzie uruchamiać się przy starcie systemu. Zwróć uwagę, że to są inne możliwości rekonfigurowania autostartu, więc nie możemy zagwarantować, ze Blokada faktycznie się uruchomi. W takim przypadku, sprawdź ustawienia telefonu. Domyślnie ta opcja jest włączona, jeżeli chcesz uruchamiać Blokadę ręcznie, wyłącz tę opcję.</li>
+    <li><b> Lokalizacja ustawień </b>: gdzie chcesz zapisać konfigurację: w magazynie wewnętrznym czy zewnętrznym? Jeśli wybierzesz opcję zewnętrzną, pliki będą dostępne w katalogu / Download / Blokada.</li>
+    <li><b> Animacja tła </b>: możesz włączyć lub wyłączyć animacje tła, pokazując fale. Białe fale reprezentują dozwolone zapytania hosta, podczas gdy pomarańczowe są blokowane.</li>
+    <li><b> Rejestrator żądań </b>: po włączeniu Blokada wygeneruje plik CSV i żądania dziennika, które zostały dozwolone i / lub zablokowane przez aplikację.</li>
+    <li><b>Zawsze w tle</b>: ta opcja powoduje, że Blokada nie jest zatrzymywana lub wstrzymywana przez system. Pamiętaj, że Twój system może nadpisać tę opcję, więc upewnij się, że system pozwoli Blokadzie pracować w tle.</li>
+    <li><b>Tylko online</b>: jeżeli włączone, Blokada wyłączy się bez aktywnego połączenia z internetem i uruchomi się ponownie gdy połączenie zostanie przywrócone. Wyłączone spowoduje, że Blokada będzie działać non-stop w tle, nawet bez aktywnego połączenia sieciowego. Pamiętaj, że ta opcja może nie działać na każdym urządzeniu.</li>
+    <li><b> Agresywne wybudzanie </b>: włącz tę opcję, jeśli urządzenie zatrzymuje się lub zabija aplikację Blokada z powodu funkcji oszczędzania energii w systemie. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
 </ul></p>
 
 <h4><a name="startup">I cannot start Blokada after I installed it.</a></h4>
