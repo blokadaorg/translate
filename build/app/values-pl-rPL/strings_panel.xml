@@ -28,7 +28,9 @@
     <string name="panel_domain_blocked_desc">Ta domena została zablokowana. Aby ją zaakceptować w przyszłości, kliknij przycisk poniżej.</string>
     <string name="panel_domain_blocked_toast">Dodano do czarnej listy.</string>
     <string name="panel_ruleset">Filter liczników</string>
+    <string name="panel_ruleset_title">Filtry mają teraz zasady %s.</string>
     <string name="panel_ruleset_updating">Aktualizuję filtry...</string>
+    <string name="panel_ruleset_built">Filtry zostały teraz skonfigurowane z zasadami &lt;b&gt;%s&lt;/b&gt;. Aż zasady do &lt;b&gt;%s&lt;/b&gt; może zmieścić się w ogólnej pamięci urządzenia. Pamiętaj, że jest to tylko szacunek i może ulec zmianie w zależności od innych aplikacji na twoim urządzeniu, więc powinieneś być znacznie poniżej tego limitu, aby być bezpiecznym.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Zezwól</string>
     <!-- Button to block allowed domain -->
@@ -41,6 +43,12 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Nie</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_intro_new">Jak używać nowego interfejsu? Kliknij tutaj dla intra.</string>
+    <string name="slot_intro_new_header">Jak używać nowego interfejsu?</string>
+    <string name="slot_intro_info">Psst... Kilka przedmiotów ma znak zapytania na ikonie. Klikając w nie zostanie wyświetlona krótka pomoc, jak ta!</string>
+    <string name="slot_new_filter">Dodano nowego hosta do listy zablokowanej</string>
+    <string name="slot_new_filter_list">Dodano nowego hosta do listy</string>
+    <string name="slot_new_filter_whitelist">Dodano nowego hosta do dozwolonej listy</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">nie ustawiono</string>
     <!-- A state of input form when correct input is entered  -->
@@ -49,6 +57,8 @@
     <string name="slot_invalid">niepoprawne</string>
     <string name="slot_continue">Kontynuuj</string>
     <string name="slot_enter_domain_title">Domena/y</string>
+    <string name="slot_enter_domain_desc">Wprowadź domeny oddzielając je przecinkiem. Możesz też wkleić link do dowolnej listy hosta, lub importować plik lokalnej listy hosta.</string>
+    <string name="slot_enter_domain_error">To mi nie wygląda dobrze.</string>
     <string name="slot_enter_domain_file">Plik</string>
     <string name="slot_enter_domain_no_file">Nie znaleziono plików w /Download/blokada/filters</string>
     <string name="slot_enter_file_titel">Nazwa pliku</string>
