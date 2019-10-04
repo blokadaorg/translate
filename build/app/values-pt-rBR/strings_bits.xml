@@ -5,6 +5,7 @@
     <string name="home_touch_to_turn_on">Toque e retome</string>
     <string name="home_touch_adblocking">Toque para bloquear anúncios</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_setup_vpn">Toque para configurar a VPN</string>
     <string name="home_blokada_disabled">Blokada em pausa</string>
     <string name="home_activating">Ativando</string>
     <string name="home_please_wait">Por favor, aguarde...</string>
@@ -13,15 +14,21 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Modo somente DNS</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_touch">Toque para configurar o DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s bloqueado(s)</string>
     <string name="home_masterswitch_enabled">Blokada ativo</string>
     <string name="home_masterswitch_on">Toque e pause</string>
+    <string name="home_masterswitch_waiting">Aguardando rede...</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Conte aos seus amigos</string>
     <string name="home_share_state">Compartilhe sua pontuação do Blokada</string>
+    <string name="home_share_state_google">Ajude os outros a aprender sobre o Blokada</string>
+    <string name="home_share_msg_google">Experimente o Blokada Slim e mantenha sua privacidade protegida! Baixe no Google Play.</string>
     <string name="home_adblocking_enabled">O bloqueio de anúncios está ativo</string>
     <string name="home_adblocking_disabled">O bloqueio de anúncios está inativo</string>
+    <string name="home_blokadaorg">Você está usando o Blokada Slim</string>
+    <string name="home_blokadaorg_state">Toque para obter a edição de código aberto</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">O que há de novo?</string>
     <string name="home_update_required">Atualização necessária</string>
@@ -40,6 +47,7 @@
     <string name="home_permission_error">Por favor conceda permissões VPN.</string>
     <string name="home_zero_filters_error">Você não tem filtros configurados. Verifique as configurações do bloqueio de anúncios.</string>
     <string name="home_filters_memory_error">Não foi possível carregar todos os filtros à memoria. Verifique as configurações do bloqueio de anúncios.</string>
+    <string name="tasker_switch_label">Toque em uma das opções para configurar a ativá-lo (ou desativá-lo) para o seu gatilho.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Anúncios</string>
     <string name="menu_ads_live_label">Registro de host de pedidos permitidos e bloqueados</string>
@@ -59,6 +67,7 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerenciar assinatura da sua conta</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Você não pode comprar assinatura no Blokada Slim.</string>
     <string name="menu_vpn_account_secret">O ID da sua conta é secreto e você deve guardá-lo para si mesmo. Anote-o caso você desinstale o aplicativo.</string>
     <string name="menu_vpn_restore_label">Aqui você pode restaurar sua conta existente se, por exemplo, você reinstalar o aplicativo.</string>
     <string name="menu_vpn_intro">Com a VPN, seus dados são criptografados, seu endereço IP fica oculto, e sua localização é alterada.</string>
