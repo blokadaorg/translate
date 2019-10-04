@@ -45,6 +45,7 @@
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">Jak używać nowego interfejsu? Kliknij tutaj dla intra.</string>
     <string name="slot_intro_new_header">Jak używać nowego interfejsu?</string>
+    <string name="slot_intro_desc">Aktualnie znajdujesz się w sekcji Strona główna, a więcej, jeśli przeciągniesz w prawo. Każdy z nich ma własne dolne menu - otwórz je, przesuwając palcem w górę.&lt;br/&gt;&lt;br/&gt; Na Android TV nawiguj po interfejsie użytkownika za pomocą panelu dotykowego. Użyj środkowego klawisza, aby otworzyć dolne menu lub dowolny wybrany element. Przyciski są oznaczone strzałkami w górę, w dół, w lewo lub w prawo - użyj klawiszy kierunkowych, aby je kliknąć.</string>
     <string name="slot_intro_info">Psst... Kilka przedmiotów ma znak zapytania na ikonie. Klikając w nie zostanie wyświetlona krótka pomoc, jak ta!</string>
     <string name="slot_new_filter">Dodano nowego hosta do listy zablokowanej</string>
     <string name="slot_new_filter_list">Dodano nowego hosta do listy</string>
@@ -64,12 +65,16 @@
     <string name="slot_enter_file_titel">Nazwa pliku</string>
     <string name="slot_enter_file_import">Importuj</string>
     <string name="slot_enter_file_desc">Importuj częściową nazwę pliku</string>
+    <string name="slot_enter_file_not_found">Brak nazwy pliku zawierającej dane wejściowe</string>
     <string name="slot_enter_file_multi">Kilka plików mają takie dane</string>
     <string name="slot_enter_name_title">Nazwa</string>
     <string name="slot_enter_name_desc">Wpisz nazwę dla nowego wejścia. Możesz również wygenerować sugerowaną nazwę.</string>
     <string name="slot_enter_name_error">To mi nie wygląda dobrze.</string>
     <string name="slot_enter_name_generate">Generuj</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; jest na białej liście</string>
+    <string name="slot_app_desc">Ta aplikacja znajduje się na białej liście, co oznacza, że nie jest w niej blokowane ani filtrowane.</string>
+    <string name="slot_allapp_desc">Możesz sprawić, by ta aplikacja omijała Blokada, aby przestać blokować dla niej ruch. Pamiętaj, że pominięte aplikacje komunikują się poza VPN.</string>
+    <string name="slot_allapp_whitelisted">Pominięte</string>
     <string name="slot_action_unwhitelist">Anuluj</string>
     <string name="slot_action_author">Więcej</string>
     <!-- A prefix for generated name for manually entered domain.  -->
