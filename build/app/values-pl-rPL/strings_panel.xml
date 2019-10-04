@@ -75,20 +75,40 @@
     <string name="slot_app_desc">Ta aplikacja znajduje się na białej liście, co oznacza, że nie jest w niej blokowane ani filtrowane.</string>
     <string name="slot_allapp_desc">Możesz sprawić, by ta aplikacja omijała Blokada, aby przestać blokować dla niej ruch. Pamiętaj, że pominięte aplikacje komunikują się poza VPN.</string>
     <string name="slot_allapp_whitelisted">Pominięte</string>
+    <string name="slot_allapp_normal">Nie pominięte</string>
+    <string name="slot_allapp_whitelist">Pomiń</string>
+    <string name="slot_dns_name">Niestandardowy DNS jest aktywny</string>
+    <string name="slot_dns_name_disabled">Niestandardowy DNS jest nieaktywny</string>
+    <string name="slot_action_none">Ta akcja nie jest jeszcze dostępna.</string>
     <string name="slot_action_unwhitelist">Anuluj</string>
     <string name="slot_action_author">Więcej</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Wejscie</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Wejście dla %s</string>
+    <string name="slot_dns_control_title">Lista serwerów DNS</string>
+    <string name="slot_dns_control_description">Możesz zsynchronizować listę serwerów DNS z naszymi serwerami bez utraty własnych wpisów.&lt;br/&gt;&lt;br/&gt; Możesz też usunąć wszystkie wpisy (w tym swoje) i pobrać je ponownie.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Synchronizacja</string>
     <string name="slot_action_refresh_toast">Synchronizacja rozpoczęta</string>
+    <string name="slot_action_restore">Upuść</string>
     <string name="slot_export_title">Ustawienia lokalizacji</string>
+    <string name="slot_export_description">Możesz zmienić miejsce, w którym konfiguracja jest zapisywana (i ładowana). Jeśli importujesz istniejące ustawienia, najpierw wybierz opcję Importuj, w przeciwnym razie zostaną one zastąpione.</string>
     <string name="slot_action_import">Importuj</string>
     <string name="slot_action_internal">Pamięć wewnętrzna</string>
     <string name="slot_action_external">Pamięć zewnętrzna</string>
     <string name="slot_filters_title">Lista filtrów</string>
+    <string name="slot_filters_description">Możesz zsynchronizować listę filtrów z naszymi serwerami bez utraty własnych wpisów. &lt;br/&gt;&lt;br/&gt; Możesz też usunąć wszystkie wpisy (w tym swoje) i pobrać je ponownie.</string>
     <string name="slot_blocked_title">Domena zablokowana</string>
+    <string name="slot_forwarded_title">Domena przekazana</string>
     <string name="slot_whitelist_title">Aplikacja na białej liście</string>
+    <string name="slot_list_no_desc">Ten wpis nie ma żadnego opisu.</string>
+    <string name="slot_status_info">Gdy aplikacja jest aktywna, zobaczysz ikonę klucza na pasku powiadomień u góry ekranu, co oznacza, że Twoje urządzenie jest chronione. Możesz wyłączyć aplikację za pomocą przycisku poniżej lub przesuwając w dół dolne menu.</string>
+    <string name="slot_action_deactivate">Wyłącz</string>
+    <string name="slot_action_activate">Włącz</string>
+    <string name="slot_update_action_refresh">Sprawdź ponownie</string>
+    <string name="slot_telegram_title">Dołącz do nas na Telegramie!</string>
+    <string name="slot_telegram_desc">Odwiedź nasz kanał Telegram, aby uzyskać pomoc lub po prostu być częścią naszej społeczności.</string>
     <string name="slot_telegram_action">Otwórz</string>
     <string name="slot_dropped_share_title">Udostępnij</string>
     <string name="slot_adblocking_label">Blokowanie reklam &amp; trackerów</string>
