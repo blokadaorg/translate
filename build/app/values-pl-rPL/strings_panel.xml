@@ -84,8 +84,22 @@
     <string name="slot_filters_title">Lista filtrów</string>
     <string name="slot_blocked_title">Domena zablokowana</string>
     <string name="slot_whitelist_title">Aplikacja na białej liście</string>
+    <string name="slot_telegram_action">Otwórz</string>
+    <string name="slot_dropped_share_title">Udostępnij</string>
+    <string name="slot_adblocking_label">Blokowanie reklam &amp; trackerów</string>
+    <string name="slot_adblocking_text">Po włączeniu Blokada będzie blokować reklamy, moduły śledzące i inne niechciane treści. Pomaga to chronić Twoją prywatność, przyspieszyć urządzenie i zaoszczędzić dane.</string>
+    <string name="slot_account_label_active">Konto ważne do %s</string>
+    <string name="slot_account_label_inactive">Konto nieaktywne</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Zarządzaj</string>
+    <string name="slot_account_action_manage_inactive">Aktywuj konto</string>
+    <string name="slot_account_action_change_id">Przywróć konto</string>
+    <string name="slot_account_show">ID konta</string>
+    <string name="slot_account_action_copied">Skopiowano URL do schowka</string>
+    <string name="slot_account_action_unavailable">[nieustawione]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Połącz z %s</string>
+    <string name="slot_gateway_label_overloaded">[Full] Połącz z %s</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
