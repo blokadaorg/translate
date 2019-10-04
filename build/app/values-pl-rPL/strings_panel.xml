@@ -158,7 +158,13 @@
     <string name="slot_obsolete_desc">Twoja wersja Blokady jest przestarzała i może nie działać poprawnie. Pobierz najnowszą wersję, aby nadal otrzymywać aktualizacje.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Wygląda na to, że na twoim urządzeniu zainstalowanych jest wiele wersji Blokady. Czy chcesz usunąć pozostałe wersje i zachować tylko jedną?</string>
+    <string name="account_inactive">Twoja Blokada VPN wygasła. Nie masz połączenia z VPN.</string>
+    <string name="slot_lease_cant_connect">Nie można połączyć się z Blokada VPN. Spróbuj wybrać inną bramę.</string>
+    <string name="slot_account_cant_create">Nie można utworzyć konta Blokada VPN. Spróbuj ponownie później lub skontaktuj się z nami przez Telegram.</string>
     <string name="slot_account_name_title">ID konta</string>
+    <string name="slot_account_name_desc">Wprowadź stary identyfikator konta, aby przywrócić poprzednią subskrypcję. Przed zrobieniem tego możesz zapisać swój bieżący identyfikator konta, na wypadek pomyłki.</string>
+    <string name="slot_account_name_error">Identyfikator konta może zawierać tylko litery i cyfry.</string>
+    <string name="slot_account_name_api_error">Ten identyfikator konta wydaje się nieprawidłowy.</string>
     <string name="slot_account_name_restore">Odzyskaj</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Ustawienia podstawowe</string>
