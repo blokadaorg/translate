@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2019-09-16 16:13\n"
+"PO-Revision-Date: 2019-10-04 20:23\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -98,7 +98,7 @@ msgstr "Auto-renovação"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Auto-renovar ao expirar: {status}"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -119,7 +119,7 @@ msgstr "Cancelando {spinner}"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Continuar com o Aplicativo do Blokada"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -147,7 +147,7 @@ msgstr "Obtendo informações da conta {spinner}"
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr ""
+msgstr "Eu tenho uma carteira Stellar"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr "Carregando {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr ""
+msgstr "Certifique-se de que sua carteira está disponível antes de prosseguir e volte para cá quando você tiver enviado o pagamento a eles."
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -189,7 +189,7 @@ msgstr "Não encontrado"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Pagar equivalente a €{price} usando uma carteira Stellar. Nós recomendamos usar {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -210,14 +210,14 @@ msgstr "Pagar com PayPal está disponível no Blokada v{version} e superior"
 #. Pay with Stellar
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar"
-msgstr ""
+msgstr "Pagar com Stellar"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Pagar com Stellar Lumens está disponível no Blokada v{version} e superiores"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -245,7 +245,7 @@ msgstr "Pague €{price} por período"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Pagar €{price} usando o PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -259,14 +259,14 @@ msgstr "O pagamento falhou, por favor valide os detalhes do cartão."
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Falha no pagamento, verifique o PayPal para mais detalhes."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Prosseguir para a carteira"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -294,21 +294,21 @@ msgstr "Desculpe, ocorreu um erro. Por favor, tente novamente mais tarde."
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "Demorando mais que o esperado? Veja o botão de Suporte no canto inferior esquerdo"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -322,7 +322,7 @@ msgstr "Obrigado!"
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Esta página não pôde ser exibida. Se você tiver algum problema, por favor, entre em contato conosco em {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
@@ -336,7 +336,7 @@ msgstr "Esperando PayPal confirmar o pagamento..."
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Aguardando a confirmação de pagamento..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -350,19 +350,19 @@ msgstr "Estamos tendo problemas com a ativação da VPN em versões do F-Droid. 
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Escreva uma mensagem..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "O seu pagamento está sendo processado e sua conta será ativada em breve. Se você tiver algum problema, por favor, entre em contato conosco em {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "O seu pagamento foi cancelado e você não será cobrado. Sua conta não está ativa. Se você tiver algum problema, por favor, entre em contato conosco em {email}."
 
