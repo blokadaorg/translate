@@ -46,8 +46,12 @@
     <string name="home_account_error">Ayikwazanga ukuqinisekisa i-akhawunti. Ingabe isasebenza i-inthanethi?</string>
     <string name="home_permission_error">Sicela unikeze izimvume ze-VPN.</string>
     <string name="home_zero_filters_error">Awunakho ukuhlunga okulungiselelwe. Hlola izilungiselelo zakho zezikhangiso.</string>
+    <string name="home_filters_memory_error">Ayikwazanga ukulayisha konke ukuhlunga kwememori. Hlola izilungiselelo zakho zezikhangiso.</string>
+    <string name="tasker_switch_label">Thepha kwenye yezinketho ongazilungiselela ukuyikhanyisa (noma ukucisha) i-trigger yakho.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Izikhangiso</string>
+    <string name="menu_ads_live_label">Umgcini wama-log wezicelo ezivunyelwe futhi ezivinjelwe</string>
+    <string name="menu_ads_clear_log">Susa umgcini wama-log</string>
     <string name="menu_ads_lists_label">Khetha uhlu ozolisebenzisa ukuze uvimbele. Okuhleliwe kulungile kubantu abaningi.</string>
     <string name="menu_ads_rules_label">Engeza imithetho yakho yokuvimbela ukuhlehlisa okuqotho.</string>
     <string name="menu_ads_log_label">Bona okusanda vinjwa noma okusanda vunyelwa.</string>
@@ -61,16 +65,23 @@
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Amasango</string>
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Amadhivayisi</string>
     <string name="menu_vpn_manage_subscription">Phatha ukubhalisa kwe-akhawunti yakho</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Uma i-akhawunti yakho intsha, vakashela iwebsite yethu. Awukwazi ukuthenga okubhaliselwe kwi Blokada Slim.</string>
     <string name="menu_vpn_account_secret">I-ID ye-akhawunti yakho imfihlo yakho wedwa. Ibhale phansi uma uzokhipha uhlelo.</string>
     <string name="menu_vpn_restore_label">Lapha ungavuselela i-akhawunti yangaphambilini uma, ngokwesibonela, ulufake kabusha uhlelo.</string>
+    <string name="menu_vpn_intro">Ngokusebenzisa i-VPN idatha yakho, ikheli lakho le-inthanethi nendawo okuyo, konke kufihliwe.</string>
+    <string name="menu_vpn_account_label">Ukuze usebenzise i-VPN, udinga i-akhawunti esebenzayo. Bheka noma vuselela i-akhawunti yakho la.</string>
     <string name="menu_vpn_gateways_label">Khetha isango ozoxhumana ngalo. Idhivayisi yakho izothumela idatha nemniningwane efihliwe ngokusebenzisa lelisango.</string>
+    <string name="menu_vpn_support_label">Uma uhlangabezana nezinkinga, unganqikazi ukuxhumana nathi.</string>
+    <string name="menu_vpn_support_button">Ukwesekwa</string>
     <string name="menu_dns_recommended">Amaseva eDNS aphakamisiwe</string>
     <string name="menu_dns_intro">I-DNS inesibopho sokuhumusha amakheli we-IP awamawebhusayithi nezinhlelo ozisebenzisayo.</string>
     <string name="menu_dns_select">Khetha iseva ye-DNS.</string>
     <string name="menu_apps_intro">Ezinye izinhlelo azisebenzi kahle neBlokada. Ngokwesibonelo, zingahluleka ngokhuxhumana ne-inthanethi.\n\nUkuvula i-VPN kuvamile ukusiza.\n\nNgaphandle kwalokho, lezo zinhlelo zingangasebenzisa i-Blokada. Khumbula, lokhu kusho ukuthi ukuxhumana akufihliwe.</string>
     <string name="menu_apps_system_label">Ezinya izinhlelo zifika nedhivayisi. Ezinye zalezi zifihliwe. Shintsha lezi umawazi ukuthi wenzani.</string>
     <string name="menu_host_list_intro">Izinhlu zokusingatha ziqukethe imithetho yokuvimbela izikhangiso nama-tracker. Zama ukugcina inombolo yezinhla iphansi.</string>
+    <string name="menu_host_adblocking_settings">Izilungiselelo zezikhangiso</string>
     <string name="menu_host_list_status">Isimo sohlu</string>
     <string name="menu_host_list_download">Bhala uhlu lwezilungiselelo zokulanda</string>
     <string name="menu_host_whitelist">Amawebhusayithi owengeza lapha awasoze avinjwe. Sebenzisa lolu hlu uma, ngokwesibonelo, iwebhusayithi oyivakashelayo ivinjiwe ngephutha.</string>
