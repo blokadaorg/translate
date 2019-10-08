@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-09-16T15:59:52.634Z\n"
+"POT-Creation-Date: 2019-10-08T10:20:36.799Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2019-10-04 20:23\n"
+"PO-Revision-Date: 2019-10-08 10:25\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -156,6 +156,13 @@ msgstr "Eu tenho uma carteira Stellar"
 msgid "INACTIVE"
 msgstr "INATIVO"
 
+#. [account.stellar_referer] - Label next to Stellar referer input
+#. defaultMessage is:
+#. Keybase referer
+#: build/messages/src/Checkout.json
+msgid "Keybase referer"
+msgstr ""
+
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. LOADING
@@ -205,13 +212,6 @@ msgstr "Pagar com PayPal"
 msgid "Pay with PayPal is available in Blokada v{version} and up"
 msgstr "Pagar com PayPal está disponível no Blokada v{version} e superior"
 
-#. [account.activate_once_stellar] - Header for paying with Stellar
-#. defaultMessage is:
-#. Pay with Stellar
-#: build/messages/src/Checkout.json
-msgid "Pay with Stellar"
-msgstr "Pagar com Stellar"
-
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
@@ -225,6 +225,13 @@ msgstr "Pagar com Stellar Lumens está disponível no Blokada v{version} e super
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
 msgstr "Pagar com cartão"
+
+#. [account.activate_once_stellar] - Header for paying with Stellar
+#. defaultMessage is:
+#. Pay with cryptocurrency
+#: build/messages/src/Checkout.json
+msgid "Pay with cryptocurrency"
+msgstr ""
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
