@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-09-16T15:59:52.634Z\n"
+"POT-Creation-Date: 2019-10-08T10:20:36.799Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -148,6 +148,13 @@ msgstr ""
 msgid "INACTIVE"
 msgstr ""
 
+#: build/messages/src/Checkout.json
+#. [account.stellar_referer] - Label next to Stellar referer input
+#. defaultMessage is:
+#. Keybase referer
+msgid "Keybase referer"
+msgstr ""
+
 #: build/messages/src/Manage.json
 #. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
@@ -198,13 +205,6 @@ msgid "Pay with PayPal is available in Blokada v{version} and up"
 msgstr ""
 
 #: build/messages/src/Checkout.json
-#. [account.activate_once_stellar] - Header for paying with Stellar
-#. defaultMessage is:
-#. Pay with Stellar
-msgid "Pay with Stellar"
-msgstr ""
-
-#: build/messages/src/Checkout.json
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
@@ -216,6 +216,13 @@ msgstr ""
 #. defaultMessage is:
 #. Pay with card
 msgid "Pay with card"
+msgstr ""
+
+#: build/messages/src/Checkout.json
+#. [account.activate_once_stellar] - Header for paying with Stellar
+#. defaultMessage is:
+#. Pay with cryptocurrency
+msgid "Pay with cryptocurrency"
 msgstr ""
 
 #: build/messages/src/Checkout.json
