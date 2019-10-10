@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-08T15:35:09.281Z\n"
+"POT-Creation-Date: 2019-10-10T12:54:35.588Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -92,6 +92,13 @@ msgstr ""
 msgid "Auto renew on expiry: {status}"
 msgstr ""
 
+#: build/messages/src/Login.json
+#. [login.header] - Header of login
+#. defaultMessage is:
+#. Blokada Account
+msgid "Blokada Account"
+msgstr ""
+
 #: build/messages/src/Manage.json
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -125,6 +132,13 @@ msgstr ""
 #. defaultMessage is:
 #. E-mail
 msgid "E-mail"
+msgstr ""
+
+#: build/messages/src/Login.json
+#. [login.description] - Description shown when the account ID is unknown
+#. defaultMessage is:
+#. Enter your account ID to continue
+msgid "Enter your account ID to continue"
 msgstr ""
 
 #: build/messages/src/Activate.json
