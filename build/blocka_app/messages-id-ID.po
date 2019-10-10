@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-08T15:35:09.281Z\n"
+"POT-Creation-Date: 2019-10-10T12:54:35.588Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2019-10-09 07:33\n"
+"PO-Revision-Date: 2019-10-10 13:06\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -100,6 +100,13 @@ msgstr "Perpanjang otomatis"
 msgid "Auto renew on expiry: {status}"
 msgstr "Perbarui ulang saat selesai: {status}"
 
+#. [login.header] - Header of login
+#. defaultMessage is:
+#. Blokada Account
+#: build/messages/src/Login.json
+msgid "Blokada Account"
+msgstr ""
+
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
@@ -134,6 +141,13 @@ msgstr "MENONAKTIFKAN"
 #: build/messages/src/Checkout.json
 msgid "E-mail"
 msgstr "E-mail"
+
+#. [login.description] - Description shown when the account ID is unknown
+#. defaultMessage is:
+#. Enter your account ID to continue
+#: build/messages/src/Login.json
+msgid "Enter your account ID to continue"
+msgstr ""
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
