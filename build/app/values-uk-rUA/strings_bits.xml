@@ -50,6 +50,7 @@
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклама</string>
     <string name="menu_ads_live_label">Журнал дозволених та заблокованих запитів</string>
+    <string name="menu_ads_clear_log">Очистити журнал хостів</string>
     <string name="menu_ads_lists_label">Виберіть списки блокування. Початкові налаштування зазвичай найкращі.</string>
     <string name="menu_ads_rules_label">Додайте власні правила блокування, якщо потрібно.</string>
     <string name="menu_ads_log_label">Глянути, що було недавно блоковано чи дозволено.</string>
@@ -63,9 +64,13 @@
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзи</string>
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Пристрої</string>
     <string name="menu_vpn_manage_subscription">Керувати підпискою</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Якщо у вас новий обліковий запис, завітайте на наш сайт. Купити підписку з Blokada Slim неможливо.</string>
     <string name="menu_vpn_account_secret">Зберігайте Ваш ідентифікатор та не показуйте його нікому. Знадобиться при перевстановленні Blokada.</string>
     <string name="menu_vpn_restore_label">Тут Ви можете відновити наявну підписку, якщо Ви перевстановили додаток.</string>
+    <string name="menu_vpn_intro">Із VPN ваші дані шифруються, IP адреса приховується, а місцезнаходження змінюється.</string>
+    <string name="menu_vpn_account_label">Щоб користуватися VPN, у вас має бути активний обліковий запис. Перевірити чи поновити його ви можете тут.</string>
     <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_dns_recommended">Рекомендовані DNS сервери</string>
     <string name="menu_dns_intro">DNS відповідає за визначення адрес IP для сайтів та додатків, які Ви використовуєте. Хороший DNS може пришвидшити пристрій та допоможе захистити приватність.</string>
