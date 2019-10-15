@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-15 20:03\n"
+"PO-Revision-Date: 2019-10-15 20:13\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -112,42 +112,42 @@ msgstr "Обліковий запис Blokada"
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr "Скасувати Передплату"
+msgstr "Скасувати Підписку"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Скасування {spinner}"
 
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
 #: build/messages/src/Login.json
 msgid "Continue"
-msgstr ""
+msgstr "Продовжити"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Продовжити в додатку Blokada"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
 #: build/messages/src/Manage.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "ДЕАКТИВАЦІЯ"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
@@ -175,7 +175,7 @@ msgstr ""
 #. INACTIVE
 #: build/messages/src/Manage.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "НЕАКТИВНА"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -189,14 +189,14 @@ msgstr ""
 #. LOADING
 #: build/messages/src/Manage.json
 msgid "LOADING"
-msgstr ""
+msgstr "ЗАВАНТАЖЕННЯ"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/Checkout.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Завантаження {spinner}"
 
 #. [account.activate_once_stellar_proceed_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
@@ -210,7 +210,7 @@ msgstr ""
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Не знайдено"
 
 #. [account.activate_once_stellar_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
@@ -294,21 +294,21 @@ msgstr ""
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Перейти до гаманця"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Обробка {spinner}"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "Вибачте"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
@@ -322,14 +322,14 @@ msgstr ""
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Підтримка"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
@@ -378,7 +378,7 @@ msgstr ""
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Написати повідомлення..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
