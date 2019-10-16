@@ -13,35 +13,35 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-10 15:04\n"
+"PO-Revision-Date: 2019-10-15 21:43\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "1 місяць"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12 місяців"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6 місяців"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "Нова підписка може бути активована після закінчення поточного періоду."
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -52,28 +52,28 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "Потрібен справжній браузер. Спробуйте кнопку \"Відкрити у браузері\" нижче."
 
 #. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "АКТИВНА"
 
 #. [account.title] - Title on info for active account
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "ID облікового запису"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Активація скасована"
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -84,98 +84,98 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Виникла помилка. Будь ласка, спробуйте пізніше."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Автоматичне поновлення"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Автоматичне поновлення після закінчення строку дії: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/Login.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Обліковий запис Blokada"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Скасувати Підписку"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Скасування {spinner}"
 
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
 #: build/messages/src/Login.json
 msgid "Continue"
-msgstr ""
+msgstr "Продовжити"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Продовжити в додатку Blokada"
 
 #. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. DEACTIVATING
 #: build/messages/src/Manage.json
 msgid "DEACTIVATING"
-msgstr ""
+msgstr "ДЕАКТИВАЦІЯ"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
 #: build/messages/src/Login.json
 msgid "Enter your account ID to continue"
-msgstr ""
+msgstr "Для продовження введіть ID вашого облікового запису"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
 #: build/messages/src/Activate.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "Отримання інформації про обліковий запис {spinner}"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr ""
+msgstr "У мене є гаманець Stellar"
 
 #. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
 #. defaultMessage is:
 #. INACTIVE
 #: build/messages/src/Manage.json
 msgid "INACTIVE"
-msgstr ""
+msgstr "НЕАКТИВНА"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -189,14 +189,14 @@ msgstr ""
 #. LOADING
 #: build/messages/src/Manage.json
 msgid "LOADING"
-msgstr ""
+msgstr "ЗАВАНТАЖЕННЯ"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/Checkout.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Завантаження {spinner}"
 
 #. [account.activate_once_stellar_proceed_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
@@ -210,7 +210,7 @@ msgstr ""
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Не знайдено"
 
 #. [account.activate_once_stellar_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
@@ -224,14 +224,14 @@ msgstr ""
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Сплатити через PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Оплата через PayPal доступна лише у Blokada v{version} і вище"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
@@ -245,14 +245,14 @@ msgstr ""
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Сплатити банківською картою"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
 #. Pay with cryptocurrency
 #: build/messages/src/Checkout.json
 msgid "Pay with cryptocurrency"
-msgstr ""
+msgstr "Сплатити криптовалютою"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
@@ -266,21 +266,21 @@ msgstr "Оплата €{price}"
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "Сплачувати €{price} за період"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Сплатити €{price} використовуючи PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Оплата не пройшла, будь ласка, перевірте дані карти."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
@@ -294,21 +294,21 @@ msgstr ""
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Перейти до гаманця"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Обробка {spinner}"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "Вибачте"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
@@ -322,14 +322,14 @@ msgstr ""
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellar?"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Підтримка"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
@@ -378,7 +378,7 @@ msgstr ""
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Написати повідомлення..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
