@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2019-10-17 13:25\n"
+"PO-Revision-Date: 2019-10-17 14:53\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -66,7 +66,7 @@ msgstr "AKTÍV"
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Fiók"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -155,28 +155,28 @@ msgstr "Folytatás a Blokada alkalmazással"
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Add meg és konfiguráld azon készülékeket, melyek csatlakozhatnak."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "KIKAPCSOLVA"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "KIKAPCSOLÁS"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Készülék: {counter}"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -204,7 +204,7 @@ msgstr "Fiókadatok lekérése {spinner}"
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Átjáró"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -215,7 +215,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Vissza"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -229,7 +229,7 @@ msgstr "Van Stellar tárcám"
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -264,28 +264,28 @@ msgstr "Mielőtt folytatnád, győződj meg arról, hogy elérhető-e a pénztá
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Készülék neve"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "Új fiók"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/Login.json
 msgid "New account"
-msgstr ""
+msgstr "Új fiók"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Új készülék"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -376,7 +376,7 @@ msgstr "A fizetés sikertelen, a részleteket a PayPal oldalán tekintheted meg.
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Kérjük, hitelesítsd a fiókazonosítódat az előző képernyőről."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -397,7 +397,7 @@ msgstr "Feldolgozás {spinner}"
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Nyilvános kulcs"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -425,7 +425,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "A fiókazonosítót biztonságos helyen tárold, a készüléked csatlakoztatása és az aktiválása során hozzá kell férned."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -453,7 +453,7 @@ msgstr "Köszönjük!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "A fiókazonosító nem egyezik, ellenőrizd, hogy helyesen mentetted-e az előző képernyőről, és próbáld újra."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -509,5 +509,5 @@ msgstr "A fizetés törlésre került, és nem kerül levonásra. Fiókod nem ak
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "új készülék"
 
