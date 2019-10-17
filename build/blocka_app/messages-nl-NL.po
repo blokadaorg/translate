@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-10T14:59:00.070Z\n"
+"POT-Creation-Date: 2019-10-17T12:57:12.377Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2019-10-10 15:45\n"
+"PO-Revision-Date: 2019-10-17 13:25\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -54,14 +54,21 @@ msgstr "Een nieuw abonnement kan worden geactiveerd, nadat het huidige is afgelo
 msgid "A real browser is required. Try the \"Open in browser\" button below."
 msgstr "Een echte browser is vereist. Probeer de \"Open in browser\" knop hieronder."
 
-#. [account.subscription_status_active] - Subscription status parameter next to the account.subscription string
+#. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
 msgstr "ACTIEF"
 
-#. [account.title] - Title on info for active account
+#. [manage.account_header] - Header of manage active account
+#. defaultMessage is:
+#. Account
+#: build/messages/src/Manage.json
+msgid "Account"
+msgstr ""
+
+#. [account.title] - long version of account id input
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
@@ -124,7 +131,15 @@ msgstr "Annuleren {spinner}"
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
+#. [button.continue] - Button for confirming and continuing
+#. defaultMessage is:
+#. Continue
+#. [signup.continue] - Button for confirming and continuing
+#. defaultMessage is:
+#. Continue
 #: build/messages/src/Login.json
+#: build/messages/src/Signup.json
+#: build/messages/src/Signup.json
 msgid "Continue"
 msgstr "Doorgaan"
 
@@ -135,12 +150,33 @@ msgstr "Doorgaan"
 msgid "Continue with the Blokada App"
 msgstr "Ga verder met de Blokada App"
 
-#. [account.subscription_status_deactivating] - Subscription status parameter next to the account.subscription string
+#. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
-#. DEACTIVATING
+#. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
-msgid "DEACTIVATING"
-msgstr "DEACTIVEREN"
+msgid "Create and configure devices that can connect."
+msgstr ""
+
+#. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
+#. defaultMessage is:
+#. DISABLED
+#: build/messages/src/Manage.json
+msgid "DISABLED"
+msgstr ""
+
+#. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
+#. defaultMessage is:
+#. DISABLING
+#: build/messages/src/Manage.json
+msgid "DISABLING"
+msgstr ""
+
+#. [manage.devices_header] - Header of top level manage devices with a counter of total devices
+#. defaultMessage is:
+#. Devices {counter}
+#: build/messages/src/Manage.json
+msgid "Devices {counter}"
+msgstr ""
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -163,6 +199,24 @@ msgstr "Voer je account ID in om door te gaan"
 msgid "Fetching account information {spinner}"
 msgstr "Ophalen van accountinformatie {spinner}"
 
+#. [manage.devices_gateway_select] - Label for selecting which VPN gateway to use for a device
+#. defaultMessage is:
+#. Gateway
+#: build/messages/src/Manage.json
+msgid "Gateway"
+msgstr ""
+
+#. [manage.devices_back] - Button for going back one step when selecting devices
+#. defaultMessage is:
+#. Go Back
+#. [signup.back] - Button for going back one step in the signup process
+#. defaultMessage is:
+#. Go Back
+#: build/messages/src/Manage.json
+#: build/messages/src/Signup.json
+msgid "Go Back"
+msgstr ""
+
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
 #. I have a Stellar wallet
@@ -170,12 +224,12 @@ msgstr "Ophalen van accountinformatie {spinner}"
 msgid "I have a Stellar wallet"
 msgstr "Ik heb een Stellar wallet"
 
-#. [account.subscription_status_inactive] - Subscription status parameter next to the account.subscription string
+#. [account.title_short] - short version of account ID input
 #. defaultMessage is:
-#. INACTIVE
-#: build/messages/src/Manage.json
-msgid "INACTIVE"
-msgstr "INACTIEF"
+#. ID
+#: build/messages/src/Account.json
+msgid "ID"
+msgstr ""
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -184,7 +238,7 @@ msgstr "INACTIEF"
 msgid "Keybase referrer"
 msgstr "Keybase verwijzer"
 
-#. [account.subscription_status_loading] - Subscription status parameter next to the account.subscription string
+#. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
 #. LOADING
 #: build/messages/src/Manage.json
@@ -204,6 +258,34 @@ msgstr "Laden {spinner}"
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
 msgstr "Zorg ervoor dat uw wallet beschikbaar is voordat u doorgaat, kom hier terug wanneer u deze betaling heeft verzonden."
+
+#. [manage.devices_name] - Label for device name a.k.a. alias
+#. defaultMessage is:
+#. Name of device
+#: build/messages/src/Manage.json
+msgid "Name of device"
+msgstr ""
+
+#. [signup.header] - Header of signup
+#. defaultMessage is:
+#. New Account
+#: build/messages/src/Signup.json
+msgid "New Account"
+msgstr ""
+
+#. [login.signup] - Link to create a new account ID
+#. defaultMessage is:
+#. New account
+#: build/messages/src/Login.json
+msgid "New account"
+msgstr ""
+
+#. [manage.devices_new] - Button for creating a new device configuration
+#. defaultMessage is:
+#. New device
+#: build/messages/src/Manage.json
+msgid "New device"
+msgstr ""
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -289,6 +371,13 @@ msgstr "Betaling mislukt, gelieve de kaartgegevens te valideren."
 msgid "Payment failed, see PayPal for details."
 msgstr "Betaling mislukt, zie PayPal voor details."
 
+#. [signup.verify_description] - Description on the verification step of creating a new account
+#. defaultMessage is:
+#. Please verify your account ID from the previous screen.
+#: build/messages/src/Signup.json
+msgid "Please verify your account ID from the previous screen."
+msgstr ""
+
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
@@ -302,6 +391,13 @@ msgstr "Ga naar wallet"
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
 msgstr "Verwerken {spinner}"
+
+#. [manage.devices_public_key] - Label for device public key
+#. defaultMessage is:
+#. Public Key
+#: build/messages/src/Manage.json
+msgid "Public Key"
+msgstr ""
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -324,6 +420,13 @@ msgstr "Sorry, er is een fout opgetreden. Probeer het later nog eens."
 msgid "Stellar?"
 msgstr "Stellar?"
 
+#. [signup.new_description] - Description of the signup when displaying a new account ID
+#. defaultMessage is:
+#. Store the account ID in a safe place, you need to have it when connecting and activating your device.
+#: build/messages/src/Signup.json
+msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
+msgstr ""
+
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
@@ -344,6 +447,13 @@ msgstr "Duurt het langer dan verwacht? Zie de Support knop linksonder"
 #: build/messages/src/App.json
 msgid "Thanks!"
 msgstr "Bedankt!"
+
+#. [signup.verify_invalid] - Verification step of creating a new account failed
+#. defaultMessage is:
+#. The account ID did not match, verify that you stored it properly on the previous screen and try again.
+#: build/messages/src/Signup.json
+msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
+msgstr ""
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -393,4 +503,11 @@ msgstr "Jouw betaling wordt verwerkt en jouw account wordt binnenkort geactiveer
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
 msgstr "Jouw betaling is geannuleerd en er worden geen kosten in rekening gebracht. Als je problemen ondervindt, neem dan contact met ons op via {email}."
+
+#. [manage.devices_current] - Badge shown on the most recent device created
+#. defaultMessage is:
+#. new device
+#: build/messages/src/Manage.json
+msgid "new device"
+msgstr ""
 
