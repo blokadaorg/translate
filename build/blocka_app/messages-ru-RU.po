@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2019-10-17 13:24\n"
+"PO-Revision-Date: 2019-10-17 16:20\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -66,7 +66,7 @@ msgstr "АКТИВНА"
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Аккаунт"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -155,28 +155,28 @@ msgstr "Продолжить в Blokada"
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Создание и настройка устройств, которые смогут подключаться."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "ОТКЛЮЧЕНО"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "ОТКЛЮЧЕНИЕ"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Устройства {counter}"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -204,7 +204,7 @@ msgstr "Получение информации об аккаунте {spinner}"
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Шлюз"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -215,7 +215,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Назад"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -229,7 +229,7 @@ msgstr "У меня есть кошелек Stellar"
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -264,28 +264,28 @@ msgstr "Убедитесь, что ваш кошелек доступен, пр�
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Название устройства"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "Новый аккаунт"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/Login.json
 msgid "New account"
-msgstr ""
+msgstr "Новый аккаунт"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Новое устройство"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -376,7 +376,7 @@ msgstr "Платеж не прошел. Подробнее в PayPal."
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Пожалуйста, проверьте ID вашего аккаунта на предыдущем экране."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -397,7 +397,7 @@ msgstr "Обработка {spinner}"
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Публичный ключ"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -425,7 +425,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Храните ID аккаунта в надежном месте. Он понадобится при подключении и активации вашего устройства."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -453,7 +453,7 @@ msgstr "Спасибо!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "ID аккаунта не совпал, убедитесь, что вы правильно его сохранили на предыдущем экране и повторите попытку."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -509,5 +509,5 @@ msgstr "Ваш платеж был отменен и деньги осталис
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "новое устройство"
 
