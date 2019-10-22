@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-22 20:14\n"
+"PO-Revision-Date: 2019-10-22 20:22\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -197,28 +197,28 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Днів до закінчення терміну дії: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Видалити"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Пристроїв {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Завантажити"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -246,7 +246,7 @@ msgstr "Отримання інформації про обліковий зап
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Шлюз"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -257,7 +257,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Назад"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -271,14 +271,14 @@ msgstr "У мене є гаманець Stellar"
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
 #. Keybase referrer
 #: build/messages/src/Checkout.json
 msgid "Keybase referrer"
-msgstr ""
+msgstr "Реферер Keybase"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
@@ -453,7 +453,7 @@ msgstr ""
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Зберегти"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
