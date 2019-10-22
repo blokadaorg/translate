@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-22 20:33\n"
+"PO-Revision-Date: 2019-10-22 20:43\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -126,7 +126,7 @@ msgstr "Обліковий запис Blokada"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr "Blokada VPN використовує {link}. Налаштування можна завантажити під час створення нових пристроїв."
+msgstr "Blokada VPN використовує {link}. Конфігурацію можна завантажити під час створення нових пристроїв."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -369,7 +369,7 @@ msgstr "Оплата через PayPal доступна лише у Blokada v{ve
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Оплата за допомогою Stellar Lumens доступна у версії Blokada не нижче v{version}"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -418,14 +418,14 @@ msgstr "Оплата не пройшла, будь ласка, перевірт�
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Не вдалося здійснити оплату, дивіться подробиці в PayPal."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Будь ласка, перевірте ID вашого облікового запису на попередньому екрані."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -467,7 +467,7 @@ msgstr "Вибачте"
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Сталася помилка. Будь ласка, спробуйте пізніше."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
@@ -544,7 +544,7 @@ msgstr ""
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Конфігурація WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
@@ -572,5 +572,5 @@ msgstr ""
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "новий пристрій"
 
