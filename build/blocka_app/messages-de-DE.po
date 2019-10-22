@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-10-22 17:25\n"
+"PO-Revision-Date: 2019-10-22 17:59\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -87,7 +87,7 @@ msgstr "Aktivierung abgebrochen"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Ein Fehler ist aufgetreten. Bitte versuch es später erneut."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -126,7 +126,7 @@ msgstr "Blokada-Konto"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN verwendet {link}. Einstellungen können heruntergeladen werden, wenn neue Geräte erstellt werden."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -190,21 +190,21 @@ msgstr "DEAKTIVIERE"
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Tage bis Ablauf: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -218,7 +218,7 @@ msgstr "Geräte {counter}"
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -292,7 +292,7 @@ msgstr "LADEN"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Limit erreicht"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -453,7 +453,7 @@ msgstr "Öffentlicher Schlüssel"
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -544,7 +544,7 @@ msgstr "Wir haben derzeit Probleme mit der VPN-Aktivierung auf F-Droid-Builds. D
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "WireGuard Konfiguration"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
