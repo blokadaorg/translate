@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-22 20:43\n"
+"PO-Revision-Date: 2019-10-22 21:07\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -292,7 +292,7 @@ msgstr "ЗАВАНТАЖЕННЯ"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Досягнуто ліміту"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -481,7 +481,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Зберігайте ID облікового запису у безпечному місці, він вам знадобиться під час підключення та активації вашого пристрою."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -495,7 +495,7 @@ msgstr "Підтримка"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "Занадто довго? Кнопка Підтримка знаходиться внизу зліва"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -509,35 +509,35 @@ msgstr "Дякуємо!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "ID облікового запису не збігається. Впевніться що ви зберегли його правильно на попередньому екрані та спробуйте знову."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Неможливо показати цю сторінку. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "Очікування підтвердження платежу від PayPal..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Очікування підтвердження платежу..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "Наразі спостерігаються проблеми з активацією VPN у версіях з F-Droid. Ми працюємо над розв'язанням цієї проблеми. Тим часом ви можете видалити версію з F-Droid і натомість завантажити додаток з blokada.org."
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
@@ -558,14 +558,14 @@ msgstr "Написати повідомлення..."
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Ваша оплата в обробці й обліковий запис буде активований найближчим часом. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Важ платіж скасований і кошти лишилися на вашому рахунку. Ваш обліковий запис неактивний. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
