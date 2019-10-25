@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-17T12:57:12.377Z\n"
+"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2019-10-18 02:32\n"
+"PO-Revision-Date: 2019-10-23 06:56\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -82,6 +82,13 @@ msgstr "帳號 ID"
 msgid "Activation cancelled"
 msgstr "已取消啟用"
 
+#. [manage.error] - Generic error alert shown on manage account errors
+#. defaultMessage is:
+#. An error occured, please try again later.
+#: build/messages/src/Manage.json
+msgid "An error occured, please try again later."
+msgstr "遇到錯誤，請稍後再試。"
+
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
 #. An error occured, please try later.
@@ -113,6 +120,13 @@ msgstr "到期時自動重新續訂：{status}"
 #: build/messages/src/Login.json
 msgid "Blokada Account"
 msgstr "Blokada 帳號"
+
+#. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
+#. defaultMessage is:
+#. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
+#: build/messages/src/Manage.json
+msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
+msgstr "Blokada VPN 使用 {link}。可以在建立新裝置時下載設定。"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -171,12 +185,40 @@ msgstr "已停用"
 msgid "DISABLING"
 msgstr "正在停用"
 
+#. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
+#. defaultMessage is:
+#. DNS
+#: build/messages/src/Manage.json
+msgid "DNS"
+msgstr "DNS"
+
+#. [account.days_until_expiry] - how many days that are left until the account is expired
+#. defaultMessage is:
+#. Days until expiry: {days}
+#: build/messages/src/Manage.json
+msgid "Days until expiry: {days}"
+msgstr "到過期前的日期：{days}"
+
+#. [manage.devices_delete] - Button for deleting a device
+#. defaultMessage is:
+#. Delete
+#: build/messages/src/Manage.json
+msgid "Delete"
+msgstr "刪除"
+
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
 msgstr "裝置 {counter}"
+
+#. [manage.devices_download] - Button for downloading wireguard configuration file
+#. defaultMessage is:
+#. Download
+#: build/messages/src/Manage.json
+msgid "Download"
+msgstr "下載"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -244,6 +286,13 @@ msgstr "Keybase 推薦來源"
 #: build/messages/src/Manage.json
 msgid "LOADING"
 msgstr "載入中"
+
+#. [manage.devices_limit_description] - New device Button label when max number of devices has been reached
+#. defaultMessage is:
+#. Limit reached
+#: build/messages/src/Manage.json
+msgid "Limit reached"
+msgstr "已達限制"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -400,6 +449,13 @@ msgstr "正在處理 {spinner}"
 msgid "Public Key"
 msgstr "公開金鑰"
 
+#. [manage.devices_save] - Button for saving changes for device configuration
+#. defaultMessage is:
+#. Save
+#: build/messages/src/Manage.json
+msgid "Save"
+msgstr "儲存"
+
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
@@ -483,6 +539,13 @@ msgstr "等待付款確認……"
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "目前在 F-Droid 上的 VPN 有問題，我們已經在著手處理。如果需要使用此功能，建議您解除安裝 F-Droid 上的版本，並從 blokada.org 下載。"
+
+#. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
+#. defaultMessage is:
+#. WireGuard Configuration
+#: build/messages/src/Manage.json
+msgid "WireGuard Configuration"
+msgstr "WireGuard 設定"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:

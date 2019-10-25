@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-17T12:57:12.377Z\n"
+"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-17 13:25\n"
+"PO-Revision-Date: 2019-10-22 21:07\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -66,7 +66,7 @@ msgstr "АКТИВНА"
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Обліковий запис"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -81,6 +81,13 @@ msgstr "ID облікового запису"
 #: build/messages/src/App.json
 msgid "Activation cancelled"
 msgstr "Активація скасована"
+
+#. [manage.error] - Generic error alert shown on manage account errors
+#. defaultMessage is:
+#. An error occured, please try again later.
+#: build/messages/src/Manage.json
+msgid "An error occured, please try again later."
+msgstr "Виникла помилка. Будь ласка, спробуйте пізніше."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -113,6 +120,13 @@ msgstr "Автоматичне поновлення після закінчен�
 #: build/messages/src/Login.json
 msgid "Blokada Account"
 msgstr "Обліковий запис Blokada"
+
+#. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
+#. defaultMessage is:
+#. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
+#: build/messages/src/Manage.json
+msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
+msgstr "Blokada VPN використовує {link}. Конфігурацію можна завантажити під час створення нових пристроїв."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -155,28 +169,56 @@ msgstr "Продовжити в додатку Blokada"
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Створення і налаштування пристроїв, які зможуть підключатися."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "ВИМКНЕНО"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "ВИМКНЕННЯ"
+
+#. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
+#. defaultMessage is:
+#. DNS
+#: build/messages/src/Manage.json
+msgid "DNS"
+msgstr "DNS"
+
+#. [account.days_until_expiry] - how many days that are left until the account is expired
+#. defaultMessage is:
+#. Days until expiry: {days}
+#: build/messages/src/Manage.json
+msgid "Days until expiry: {days}"
+msgstr "Днів до закінчення терміну дії: {days}"
+
+#. [manage.devices_delete] - Button for deleting a device
+#. defaultMessage is:
+#. Delete
+#: build/messages/src/Manage.json
+msgid "Delete"
+msgstr "Видалити"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Пристроїв {counter}"
+
+#. [manage.devices_download] - Button for downloading wireguard configuration file
+#. defaultMessage is:
+#. Download
+#: build/messages/src/Manage.json
+msgid "Download"
+msgstr "Завантажити"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -204,7 +246,7 @@ msgstr "Отримання інформації про обліковий зап
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Шлюз"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -215,7 +257,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Назад"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -229,14 +271,14 @@ msgstr "У мене є гаманець Stellar"
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
 #. Keybase referrer
 #: build/messages/src/Checkout.json
 msgid "Keybase referrer"
-msgstr ""
+msgstr "Реферер Keybase"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
@@ -244,6 +286,13 @@ msgstr ""
 #: build/messages/src/Manage.json
 msgid "LOADING"
 msgstr "ЗАВАНТАЖЕННЯ"
+
+#. [manage.devices_limit_description] - New device Button label when max number of devices has been reached
+#. defaultMessage is:
+#. Limit reached
+#: build/messages/src/Manage.json
+msgid "Limit reached"
+msgstr "Досягнуто ліміту"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -257,35 +306,35 @@ msgstr "Завантаження {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr ""
+msgstr "Перед тим як продовжити, впевніться, що гаманець доступний, поверніться сюди після завершення платежу."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Назва пристрою"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "Новий обліковий запис"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/Login.json
 msgid "New account"
-msgstr ""
+msgstr "Новий обліковий запис"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Новий пристрій"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -299,7 +348,7 @@ msgstr "Не знайдено"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Оплатити суму, еквівалентну €{price} за допомогою гаманця Stellar. Ми рекомендуємо користуватися {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -320,7 +369,7 @@ msgstr "Оплата через PayPal доступна лише у Blokada v{ve
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Оплата за допомогою Stellar Lumens доступна у версії Blokada не нижче v{version}"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -369,14 +418,14 @@ msgstr "Оплата не пройшла, будь ласка, перевірт�
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Не вдалося здійснити оплату, дивіться подробиці в PayPal."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Будь ласка, перевірте ID вашого облікового запису на попередньому екрані."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -397,7 +446,14 @@ msgstr "Обробка {spinner}"
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Відкритий ключ"
+
+#. [manage.devices_save] - Button for saving changes for device configuration
+#. defaultMessage is:
+#. Save
+#: build/messages/src/Manage.json
+msgid "Save"
+msgstr "Зберегти"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -411,7 +467,7 @@ msgstr "Вибачте"
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Сталася помилка. Будь ласка, спробуйте пізніше."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
@@ -425,7 +481,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Зберігайте ID облікового запису у безпечному місці, він вам знадобиться під час підключення та активації вашого пристрою."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -439,7 +495,7 @@ msgstr "Підтримка"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "Занадто довго? Кнопка Підтримка знаходиться внизу зліва"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -453,35 +509,42 @@ msgstr "Дякуємо!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "ID облікового запису не збігається. Впевніться що ви зберегли його правильно на попередньому екрані та спробуйте знову."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Неможливо показати цю сторінку. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "Очікування підтвердження платежу від PayPal..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Очікування підтвердження платежу..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "Наразі спостерігаються проблеми з активацією VPN у версіях з F-Droid. Ми працюємо над розв'язанням цієї проблеми. Тим часом ви можете видалити версію з F-Droid і натомість завантажити додаток з blokada.org."
+
+#. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
+#. defaultMessage is:
+#. WireGuard Configuration
+#: build/messages/src/Manage.json
+msgid "WireGuard Configuration"
+msgstr "Конфігурація WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
@@ -495,19 +558,19 @@ msgstr "Написати повідомлення..."
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Ваша оплата в обробці й обліковий запис буде активований найближчим часом. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Важ платіж скасований і кошти лишилися на вашому рахунку. Ваш обліковий запис неактивний. У разі виникнення будь-яких проблем звертайтеся до нас за адресою {email}."
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "новий пристрій"
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-17T12:57:12.377Z\n"
+"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-10-19 10:32\n"
+"PO-Revision-Date: 2019-10-22 18:23\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -82,6 +82,13 @@ msgstr "Kontokennung"
 msgid "Activation cancelled"
 msgstr "Aktivierung abgebrochen"
 
+#. [manage.error] - Generic error alert shown on manage account errors
+#. defaultMessage is:
+#. An error occured, please try again later.
+#: build/messages/src/Manage.json
+msgid "An error occured, please try again later."
+msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es später noch einmal."
+
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
 #. An error occured, please try later.
@@ -113,6 +120,13 @@ msgstr "Automatische Verlängerung nach Ablauf: {status}"
 #: build/messages/src/Login.json
 msgid "Blokada Account"
 msgstr "Blokada-Konto"
+
+#. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
+#. defaultMessage is:
+#. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
+#: build/messages/src/Manage.json
+msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
+msgstr "Blokada VPN verwendet {link}. Einstellungen können heruntergeladen werden, wenn neue Geräte erstellt werden."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -169,7 +183,28 @@ msgstr "DEAKTIVIERT"
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr "DEAKTIVIERE"
+msgstr "Deaktivieren"
+
+#. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
+#. defaultMessage is:
+#. DNS
+#: build/messages/src/Manage.json
+msgid "DNS"
+msgstr "DNS"
+
+#. [account.days_until_expiry] - how many days that are left until the account is expired
+#. defaultMessage is:
+#. Days until expiry: {days}
+#: build/messages/src/Manage.json
+msgid "Days until expiry: {days}"
+msgstr "Tage bis Ablauf: {days}"
+
+#. [manage.devices_delete] - Button for deleting a device
+#. defaultMessage is:
+#. Delete
+#: build/messages/src/Manage.json
+msgid "Delete"
+msgstr "Löschen"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -177,6 +212,13 @@ msgstr "DEAKTIVIERE"
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
 msgstr "Geräte {counter}"
+
+#. [manage.devices_download] - Button for downloading wireguard configuration file
+#. defaultMessage is:
+#. Download
+#: build/messages/src/Manage.json
+msgid "Download"
+msgstr "Download"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -244,6 +286,13 @@ msgstr "Keybase-Referrer"
 #: build/messages/src/Manage.json
 msgid "LOADING"
 msgstr "LADEN"
+
+#. [manage.devices_limit_description] - New device Button label when max number of devices has been reached
+#. defaultMessage is:
+#. Limit reached
+#: build/messages/src/Manage.json
+msgid "Limit reached"
+msgstr "Limit erreicht"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -399,6 +448,13 @@ msgstr "Bearbeitung {spinner}"
 msgid "Public Key"
 msgstr "Öffentlicher Schlüssel"
 
+#. [manage.devices_save] - Button for saving changes for device configuration
+#. defaultMessage is:
+#. Save
+#: build/messages/src/Manage.json
+msgid "Save"
+msgstr "Speichern"
+
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
@@ -482,6 +538,13 @@ msgstr "Warte auf Zahlungsbestätigung..."
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
 msgstr "Wir haben derzeit Probleme mit der VPN-Aktivierung auf F-Droid-Builds. Dieses Problem wird bearbeitet, in der Zwischenzeit kannst du die F-Droid-Version deinstallieren und stattdessen die App von blokada.org herunterladen."
+
+#. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
+#. defaultMessage is:
+#. WireGuard Configuration
+#: build/messages/src/Manage.json
+msgid "WireGuard Configuration"
+msgstr "WireGuard Konfiguration"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
