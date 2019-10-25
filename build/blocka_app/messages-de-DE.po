@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
+"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-10-22 18:23\n"
+"PO-Revision-Date: 2019-10-25 10:28\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -75,6 +75,13 @@ msgstr "Konto"
 msgid "Account ID"
 msgstr "Kontokennung"
 
+#. [account.activate] - Button shown on account manage if account has expired or is not activated
+#. defaultMessage is:
+#. Activate Account
+#: build/messages/src/Manage.json
+msgid "Activate Account"
+msgstr ""
+
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -87,7 +94,7 @@ msgstr "Aktivierung abgebrochen"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr "Es ist ein Fehler aufgetreten, bitte versuchen Sie es später noch einmal."
+msgstr "Ein Fehler ist aufgetreten. Bitte versuch es später erneut."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -117,7 +124,7 @@ msgstr "Automatische Verlängerung nach Ablauf: {status}"
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
 msgstr "Blokada-Konto"
 
@@ -142,6 +149,9 @@ msgstr "Abonnement beenden"
 msgid "Canceling {spinner}"
 msgstr "Beenden {spinner}"
 
+#. [success.continue] - Success page continue button to proceed to account manage
+#. defaultMessage is:
+#. Continue
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
@@ -151,7 +161,8 @@ msgstr "Beenden {spinner}"
 #. [signup.continue] - Button for confirming and continuing
 #. defaultMessage is:
 #. Continue
-#: build/messages/src/Login.json
+#: build/messages/src/App.json
+#: build/messages/src/AuthedRoute.json
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
@@ -227,17 +238,28 @@ msgstr "Download"
 msgid "E-mail"
 msgstr "EMail"
 
+#. [account.status_expired] - The account is not activated or has expired
+#. defaultMessage is:
+#. EXPIRED
+#: build/messages/src/Manage.json
+msgid "EXPIRED"
+msgstr ""
+
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
 msgstr "Gib hier deine Konto-ID ein, um fortzufahren"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
+#. [account.loading] - Shown before account info content as loaded
+#. defaultMessage is:
+#. Fetching account information {spinner}
 #: build/messages/src/Activate.json
+#: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
 msgstr "Kontoinformationen abrufen {spinner}"
 
@@ -325,7 +347,7 @@ msgstr "Neues Konto"
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "New account"
 msgstr "Neues Konto"
 
