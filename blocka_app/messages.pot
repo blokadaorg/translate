@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
+"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -67,6 +67,13 @@ msgstr ""
 msgid "Account ID"
 msgstr ""
 
+#: build/messages/src/Manage.json
+#. [account.activate] - Button shown on account manage if account has expired or is not activated
+#. defaultMessage is:
+#. Activate Account
+msgid "Activate Account"
+msgstr ""
+
 #: build/messages/src/App.json
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -106,7 +113,7 @@ msgstr ""
 msgid "Auto renew on expiry: {status}"
 msgstr ""
 
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
@@ -134,7 +141,11 @@ msgstr ""
 msgid "Canceling {spinner}"
 msgstr ""
 
-#: build/messages/src/Login.json
+#: build/messages/src/App.json
+#. [success.continue] - Success page continue button to proceed to account manage
+#. defaultMessage is:
+#. Continue
+#: build/messages/src/AuthedRoute.json
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
@@ -219,7 +230,14 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
-#: build/messages/src/Login.json
+#: build/messages/src/Manage.json
+#. [account.status_expired] - The account is not activated or has expired
+#. defaultMessage is:
+#. EXPIRED
+msgid "EXPIRED"
+msgstr ""
+
+#: build/messages/src/AuthedRoute.json
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
@@ -227,6 +245,10 @@ msgid "Enter your account ID to continue"
 msgstr ""
 
 #: build/messages/src/Activate.json
+#. [account.loading] - Shown before account info content as loaded
+#. defaultMessage is:
+#. Fetching account information {spinner}
+#: build/messages/src/AuthedRoute.json
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
@@ -314,7 +336,7 @@ msgstr ""
 msgid "New Account"
 msgstr ""
 
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
