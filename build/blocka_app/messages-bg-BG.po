@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-10-25 10:28\n"
+"PO-Revision-Date: 2019-10-25 12:11\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -94,7 +94,7 @@ msgstr "Активирането е отменено"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -133,7 +133,7 @@ msgstr "Blokada профил"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN използва {link}. Конфигурациите могат да бъдат изтеглени при създаване на нови устройства."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -201,21 +201,21 @@ msgstr "ДЕАКТИВИРАН"
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Дни до изтичане: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Изтриване"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -229,7 +229,7 @@ msgstr "Устройства {counter}"
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Изтегляне"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -314,7 +314,7 @@ msgstr "ЗАРЕЖДАНЕ"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Достигнат лимит"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -475,7 +475,7 @@ msgstr "Публичен ключ"
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Запази"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -566,7 +566,7 @@ msgstr "В момента имаме проблем с активирането 
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Конфигурация на WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
