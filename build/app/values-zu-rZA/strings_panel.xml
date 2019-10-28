@@ -130,6 +130,9 @@
     <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Lawula ukuthi imaphi amadivayisi wakho axhuma kwi-VPN.</string>
+    <string name="slot_lease_name_current">%s (le divayisi)</string>
+    <string name="slot_lease_description">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Le idivayisi oyisebenzisayo.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">phezulu</string>
     <!-- Gateway load -->
@@ -147,8 +150,23 @@
     <string name="slot_protection_active">I-Blokada ne-VPN ivuliwe</string>
     <string name="slot_protection_action">Izilungiselelo</string>
     <string name="slot_protection_ok">Idivayisi yakho ivikeliwe! I-VPN nokuvinjwa kwezikhangiso kuyasebenza.</string>
+    <string name="slot_protection_no_adblocking">Ukuvinjwa kwezikhangiso nama-tracker akhubaziwe okwamanje. Kufanele uyivume ukuze uvikele okuyimfihlo yakho kanye nedatha.</string>
+    <string name="slot_protection_no_vpn">Awuxhumekile kwiBlokada VPN. Kufanele uyicabangele ukuvikela okungcono kwemfihlo yakho nokuphepha.</string>
+    <string name="slot_protection_no_start_on_boot">I-Blokada ayilungiselelwe ukuqala kanye nedivayisi. Kufanele ugcine iBlokada njalo ivuliwe.</string>
+    <string name="slot_protection_no_battery_whitelist">I-Blokada ayikhululi ekusebenzeni kwebhethri ledivayisi yakho, ngakho-ke ingabulawa uhlelo lwedivayisi. Kufanele usebenzise okuncamelayo kuhlelo lwakho ukuze uvumele iBlokada ukuthi iqhubeke ivikele idivayisi yakho.</string>
+    <string name="slot_protection_description">Ukulungiselela izilungiselelo, vula imenyu engezansi.</string>
+    <string name="slot_start_on_boot_description">Ukunika amandla okuqala kanye nedivayisi kuvumela iBlokada ukuthi isebenze ngaso sonke isikhathi futhi ivikele nedivayisi yakho.</string>
+    <string name="slot_recommended_dns_label">Sebenzisa amaseva eDNS aphakamisiwe</string>
+    <string name="slot_recommended_dns_description">Uma inikwe amandla, iBlokada izokhetha ngokuzenzakalelayo amaseva aphakamisiwe we-DNS ukusiza ukusheshisa i-Intanethi yakho nokuvikela ubumfihlo bakho. Ngaphandle kwalokho, kusetshenziswa iziphakeli ze-DNS zenethiwekhi yakho ezenzakalelayo. Uma ukhetha amaseva we-DNS esigabeni Esithuthukisiwe, lokhu kulungiselelwa akunakwa.</string>
+    <string name="slot_update_no_updates">I-Blokada isesikhathini</string>
+    <string name="slot_about">Mayelana neBlokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Loba imidanti</string>
+    <string name="slot_help_label">Udinga usizo?</string>
+    <string name="slot_help_desc">Thepha inkinobho engezansi ukuvula ikhasi lethu losizo. Ungasebenzisa futhi imithombo yethu yezokuxhumana ukuthola usizo - siku-Telegram, ku-Facebook, ku-Reddit naku-Twitter.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Usizo</string>
+    <string name="slot_donate_label">Ujabulile ngeBlokada? Cabanga ngokusisekela, ukuze sikwazi ukuqhubeka nokwenza ngcono loluhlelo.</string>
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
