@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
+"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Bulgarian\n"
 "Language: bg_BG\n"
-"PO-Revision-Date: 2019-10-22 17:25\n"
+"PO-Revision-Date: 2019-10-25 12:31\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -75,6 +75,13 @@ msgstr "Профил"
 msgid "Account ID"
 msgstr "Профил ID"
 
+#. [account.activate] - Button shown on account manage if account has expired or is not activated
+#. defaultMessage is:
+#. Activate Account
+#: build/messages/src/Manage.json
+msgid "Activate Account"
+msgstr "Активиране на акаунта"
+
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -87,7 +94,7 @@ msgstr "Активирането е отменено"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -117,7 +124,7 @@ msgstr "Автоматично подновяване след изтичане:
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
 msgstr "Blokada профил"
 
@@ -126,7 +133,7 @@ msgstr "Blokada профил"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN използва {link}. Конфигурациите могат да бъдат изтеглени при създаване на нови устройства."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -142,6 +149,9 @@ msgstr "Отмяна на абонамента"
 msgid "Canceling {spinner}"
 msgstr "Отмяна {spinner}"
 
+#. [success.continue] - Success page continue button to proceed to account manage
+#. defaultMessage is:
+#. Continue
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
@@ -151,7 +161,8 @@ msgstr "Отмяна {spinner}"
 #. [signup.continue] - Button for confirming and continuing
 #. defaultMessage is:
 #. Continue
-#: build/messages/src/Login.json
+#: build/messages/src/App.json
+#: build/messages/src/AuthedRoute.json
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
@@ -190,21 +201,21 @@ msgstr "ДЕАКТИВИРАН"
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Дни до изтичане: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Изтриване"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -218,7 +229,7 @@ msgstr "Устройства {counter}"
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Изтегляне"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -227,17 +238,28 @@ msgstr ""
 msgid "E-mail"
 msgstr "E-mail"
 
+#. [account.status_expired] - The account is not activated or has expired
+#. defaultMessage is:
+#. EXPIRED
+#: build/messages/src/Manage.json
+msgid "EXPIRED"
+msgstr "ИЗТЕКЪЛ"
+
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
 msgstr "Въведете ID номер на профила за да продължите"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
+#. [account.loading] - Shown before account info content as loaded
+#. defaultMessage is:
+#. Fetching account information {spinner}
 #: build/messages/src/Activate.json
+#: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
 msgstr "Извличане на информация за профила {spinner}"
 
@@ -292,7 +314,7 @@ msgstr "ЗАРЕЖДАНЕ"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Достигнат лимит"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -325,7 +347,7 @@ msgstr "Нов профил"
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "New account"
 msgstr "Нов профил"
 
@@ -453,7 +475,7 @@ msgstr "Публичен ключ"
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Запази"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -544,7 +566,7 @@ msgstr "В момента имаме проблем с активирането 
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Конфигурация на WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
+"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2019-10-22 21:07\n"
+"PO-Revision-Date: 2019-10-25 10:28\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -75,6 +75,13 @@ msgstr "Обліковий запис"
 msgid "Account ID"
 msgstr "ID облікового запису"
 
+#. [account.activate] - Button shown on account manage if account has expired or is not activated
+#. defaultMessage is:
+#. Activate Account
+#: build/messages/src/Manage.json
+msgid "Activate Account"
+msgstr ""
+
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -117,7 +124,7 @@ msgstr "Автоматичне поновлення після закінчен�
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
 msgstr "Обліковий запис Blokada"
 
@@ -142,6 +149,9 @@ msgstr "Скасувати Підписку"
 msgid "Canceling {spinner}"
 msgstr "Скасування {spinner}"
 
+#. [success.continue] - Success page continue button to proceed to account manage
+#. defaultMessage is:
+#. Continue
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
@@ -151,7 +161,8 @@ msgstr "Скасування {spinner}"
 #. [signup.continue] - Button for confirming and continuing
 #. defaultMessage is:
 #. Continue
-#: build/messages/src/Login.json
+#: build/messages/src/App.json
+#: build/messages/src/AuthedRoute.json
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
@@ -227,17 +238,28 @@ msgstr "Завантажити"
 msgid "E-mail"
 msgstr "E-mail"
 
+#. [account.status_expired] - The account is not activated or has expired
+#. defaultMessage is:
+#. EXPIRED
+#: build/messages/src/Manage.json
+msgid "EXPIRED"
+msgstr ""
+
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
 msgstr "Для продовження введіть ID вашого облікового запису"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
+#. [account.loading] - Shown before account info content as loaded
+#. defaultMessage is:
+#. Fetching account information {spinner}
 #: build/messages/src/Activate.json
+#: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
 msgstr "Отримання інформації про обліковий запис {spinner}"
 
@@ -325,7 +347,7 @@ msgstr "Новий обліковий запис"
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "New account"
 msgstr "Новий обліковий запис"
 

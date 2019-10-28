@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-22T15:03:05.620Z\n"
+"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
-"PO-Revision-Date: 2019-10-25 05:13\n"
+"PO-Revision-Date: 2019-10-25 10:48\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -75,6 +75,13 @@ msgstr "Účet"
 msgid "Account ID"
 msgstr "ID účtu"
 
+#. [account.activate] - Button shown on account manage if account has expired or is not activated
+#. defaultMessage is:
+#. Activate Account
+#: build/messages/src/Manage.json
+msgid "Activate Account"
+msgstr "Aktivovať účet"
+
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
@@ -117,7 +124,7 @@ msgstr "Automatické obnovenie po uplynutí platnosti: {status}"
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
 msgstr "Účet Blokada"
 
@@ -126,7 +133,7 @@ msgstr "Účet Blokada"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN využíva {link}. Konfigurácie je možné stiahnuť pri vytváraní nových zariadení."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -142,6 +149,9 @@ msgstr "Zrušiť predplatné"
 msgid "Canceling {spinner}"
 msgstr "Rušenie {spinner}"
 
+#. [success.continue] - Success page continue button to proceed to account manage
+#. defaultMessage is:
+#. Continue
 #. [login.continue] - Button to submit account ID
 #. defaultMessage is:
 #. Continue
@@ -151,7 +161,8 @@ msgstr "Rušenie {spinner}"
 #. [signup.continue] - Button for confirming and continuing
 #. defaultMessage is:
 #. Continue
-#: build/messages/src/Login.json
+#: build/messages/src/App.json
+#: build/messages/src/AuthedRoute.json
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
@@ -190,21 +201,21 @@ msgstr "VYPÍNANIE"
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Dní do vypršania platnosti: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Odstrániť"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -218,7 +229,7 @@ msgstr "Zariadenia {counter}"
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Stiahnuť"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -227,17 +238,28 @@ msgstr ""
 msgid "E-mail"
 msgstr "E-mail"
 
+#. [account.status_expired] - The account is not activated or has expired
+#. defaultMessage is:
+#. EXPIRED
+#: build/messages/src/Manage.json
+msgid "EXPIRED"
+msgstr ""
+
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
 msgstr "Pokračujte zadaním ID vášho účtu"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
 #. Fetching account information {spinner}
+#. [account.loading] - Shown before account info content as loaded
+#. defaultMessage is:
+#. Fetching account information {spinner}
 #: build/messages/src/Activate.json
+#: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
 msgstr "Načítavanie informácií o účte {spinner}"
 
@@ -292,7 +314,7 @@ msgstr "NAČÍTAVANIE"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Limit dosiahnutý"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -325,7 +347,7 @@ msgstr "Nový účet"
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
-#: build/messages/src/Login.json
+#: build/messages/src/AuthedRoute.json
 msgid "New account"
 msgstr "Nový účet"
 
@@ -453,7 +475,7 @@ msgstr "Verejný kľúč"
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -544,7 +566,7 @@ msgstr "Momentálne máme problémy s aktiváciou VPN na F-Droid zostaveniach. N
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Konfigurácia WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
