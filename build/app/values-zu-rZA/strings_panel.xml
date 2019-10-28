@@ -18,6 +18,7 @@
     <string name="panel_section_apps_all">Izinhlelo Ezifakiwe</string>
     <string name="panel_section_apps_system">Izinhlelo ze-System</string>
     <string name="panel_section_advanced_settings">Izilungiselelo</string>
+    <string name="panel_section_app_settings">Izilungiselelo zohlelo</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Kuvunyelwe &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Le domain ivunyelwe. Ukuze uyivimbe, sebenzisa inkinobho esezansi.</string>
@@ -38,7 +39,9 @@
     <string name="slot_action_remove">Susa</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Yebo</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Cha</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">Isebenza kanjani? Thinta la ukuze ufunde.</string>
     <string name="slot_intro_new_header">Isebenza kanjani?</string>
@@ -58,6 +61,12 @@
     <string name="slot_enter_domain_desc">Faka izizinda ezihlukaniswe ngokhefana. Ungaphinda unamathisele isixhumanisi kunoma yiluphi uhla lomvakashelwa, noma ungenise ifayela lendawo yokusingatha indawo.</string>
     <string name="slot_enter_domain_error">Lokhu akubukeki sengathi kukhona kimi.</string>
     <string name="slot_enter_domain_file">Ifayela</string>
+    <string name="slot_enter_domain_no_file">Amafayela awatholakalanga ku-/Download/blokada/filters</string>
+    <string name="slot_enter_file_titel">Igama lefayela</string>
+    <string name="slot_enter_file_import">Faka</string>
+    <string name="slot_enter_file_desc">Faka igama lefayela eliyingxenye</string>
+    <string name="slot_enter_file_not_found">Alikho igama lefayela eliqukethe okufakiwe</string>
+    <string name="slot_enter_file_multi">Amafayela amaningi ahambelana nokufakiwe</string>
     <string name="slot_enter_name_title">Igama</string>
     <string name="slot_enter_name_desc">Faka igama lombhalo omusha. Ungakwazi futhi ukusebenzisa igama elakhiwe.</string>
     <string name="slot_enter_name_error">Lokhu akubukeki sengathi kukhona kimi.</string>
@@ -112,6 +121,7 @@
     <string name="slot_account_action_change_id">Buyisela i-akhawunti</string>
     <string name="slot_account_show">Isikhombi se-akhawunti</string>
     <string name="slot_account_action_copied">I-ID ye-akhawunti ikopishwe ebhodini lokunamathisela</string>
+    <string name="slot_account_action_unavailable">[ayisethiwe]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Xhumana ne-%s</string>
     <string name="slot_gateway_label_overloaded">[Full] Xhumana ne-%s</string>
@@ -119,6 +129,7 @@
     <string name="slot_gateway_description_current">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Leli isango lakho elikhethiwe.</string>
     <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Lawula ukuthi imaphi amadivayisi wakho axhuma kwi-VPN.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">phezulu</string>
     <!-- Gateway load -->
