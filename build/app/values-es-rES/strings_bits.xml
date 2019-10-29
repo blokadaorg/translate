@@ -5,16 +5,12 @@
     <string name="home_touch_to_turn_on">Toca para reanudar</string>
     <string name="home_touch_adblocking">Toca para bloquear anuncios</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">Toca para configurar el VPN</string>
     <string name="home_blokada_disabled">Blokada está pausado</string>
     <string name="home_activating">Activando</string>
     <string name="home_please_wait">Espera, por favor...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Modo sólo VPN</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Modo sólo DNS</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">Toca para configurar el DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s bloqueados</string>
     <string name="home_masterswitch_enabled">Blokada está activado</string>
@@ -34,14 +30,9 @@
     <string name="home_update_required">Actualización necesaria</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donar</string>
-    <string name="home_vpn_enabled">El VPN está activo</string>
-    <string name="home_vpn_disabled">El VPN está desactivado</string>
     <string name="home_account_active">Tu cuenta aún está activa</string>
-    <string name="home_connecting_vpn">Conectando al VPN</string>
     <string name="home_cleanup">Se recomienda una limpieza</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Conectado al VPN</string>
-    <string name="home_boringtun_not_loaded">Lo sentimos, tu dispositivo no es compatible con el VPN de Blokada. Aún puedes usar las otras funciones.</string>
     <string name="home_blocka_vpn_error">No se pudo conectar a la puerta de enlace. ¿Estás online?</string>
     <string name="home_account_error">No se pudo verificar la cuenta. ¿Tienes conexión?</string>
     <string name="home_permission_error">Por favor, concede el permiso de conexión VPN.</string>
@@ -56,21 +47,16 @@
     <string name="menu_ads_rules_label">Añade tus propias reglas para afinar el bloqueo.</string>
     <string name="menu_ads_log_label">Ve lo que ha sido bloqueado o permitido recientemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Por favor, activa tu cuenta primero.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecciona una puerta de enlace.</string>
-    <string name="menu_vpn_intro_button">¿Por qué un VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Cuenta</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Puertas de enlace</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gestiona la suscripción de tu cuenta</string>
     <string name="menu_vpn_manage_subscription_unavailable">Si tu cuenta es nueva, visita nuestra página web. No puedes comprar suscripción en Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Tu ID de cuenta es secreto y deberías mantenerlo para ti mismo. Anótalo en caso de que desinstales la aplicación.</string>
     <string name="menu_vpn_restore_label">Aquí puedes restaurar tu cuenta existente si, por ejemplo, reinstalaste la aplicación.</string>
-    <string name="menu_vpn_intro">Con un VPN tus datos son encriptados, tu dirección IP se oculta y tu ubicación se cambia.</string>
     <string name="menu_vpn_account_label">Para usar el VPN, necesitas una cuenta activa. Revisa o restaura tu cuenta aquí.</string>
     <string name="menu_vpn_gateways_label">Selecciona una de las puertas de enlace para conectarte. Tu dispositivo enviará tus datos cifrados de forma segura a través de esa puerta de enlace, y tu permanecerás anónimo.</string>
     <string name="menu_vpn_support_label">Si tienes problemas, no dudes en contactarnos.</string>
@@ -92,7 +78,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Aprender más</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Conocimiento</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Involúcrate</string>
     <string name="menu_telegram">Chat de Telegram</string>
