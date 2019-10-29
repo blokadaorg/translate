@@ -5,16 +5,12 @@
     <string name="home_touch_to_turn_on">Докоснете за да продължите</string>
     <string name="home_touch_adblocking">Докоснете за да блокирате рекламите</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">Докоснете за да настроите VPN</string>
     <string name="home_blokada_disabled">Блокада е на пауза</string>
     <string name="home_activating">Активиране</string>
     <string name="home_please_wait">Моля изчакайте...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Режим само за VPN</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Само DNS режим</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">Докоснете за да настроите DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s блокирани</string>
     <string name="home_masterswitch_enabled">Блокада е включена</string>
@@ -34,14 +30,9 @@
     <string name="home_update_required">Изисква се актуализация</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Дарение</string>
-    <string name="home_vpn_enabled">VPN е активна</string>
-    <string name="home_vpn_disabled">VPN е деактивирана</string>
     <string name="home_account_active">Профилът ви още е активен</string>
-    <string name="home_connecting_vpn">Свързване с VPN</string>
     <string name="home_cleanup">Препоръчително е почистване</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Свързан с VPN</string>
-    <string name="home_boringtun_not_loaded">За съжаление вашето устройство не се поддържа от Blokada VPN. Но все още можете да използвате други функции.</string>
     <string name="home_blocka_vpn_error">Не можа да се свърже с шлюза. Online ли сте?</string>
     <string name="home_account_error">Профилът не може да бъде потвърден. Online ли сте?</string>
     <string name="home_permission_error">Моля, дайте разрешения за VPN.</string>
@@ -56,21 +47,16 @@
     <string name="menu_ads_rules_label">Добавете свои собствени правила за фина настройка на блокирането.</string>
     <string name="menu_ads_log_label">Вижте какво е било блокирано или разрешено наскоро.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Моля, първо активирайте профила си.</string>
     <string name="menu_vpn_select_gateway">Моля, изберете шлюз.</string>
-    <string name="menu_vpn_intro_button">Защо VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Профил</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзове</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Устройства</string>
     <string name="menu_vpn_manage_subscription">Управление на вашият абонамент и профил</string>
     <string name="menu_vpn_manage_subscription_unavailable">Ако акаунтът ви е нов, посетете нашия уебсайт. Не можете да закупите абонамент в Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">ID на профила ви е секретен и трябва да го запазите. Запишете го в случай, че деинсталирате приложението.</string>
     <string name="menu_vpn_restore_label">Тук можете да възстановите сегашния си профил, ако например инсталиралите отново приложението.</string>
-    <string name="menu_vpn_intro">С VPN данните ви са в криптиран вид, вашият IP адрес е скрит и местоположението ви е променено.</string>
     <string name="menu_vpn_account_label">За да използвате VPN трябва да имате активен акаунт. Проверете или възстановете профила си тук.</string>
     <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви ще изпраща криптирани данни сигурно чрез този шлюз и ще останете анонимни.</string>
     <string name="menu_vpn_support_label">Ако имате някакви проблеми, не се колебайте да се свържете с нас.</string>
@@ -92,7 +78,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Научете повече</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Знание</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Присъединете се сега</string>
     <string name="menu_telegram">Telegram чат</string>
