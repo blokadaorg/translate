@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Domain ini telah disekat. Untuk membenarkannya dimasa hadapan, sila gunakan butang di bawah.</string>
     <string name="panel_domain_blocked_toast">Tambah kedalam senarai hitam.</string>
     <string name="panel_ruleset">Bilangan penapis</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Sekarang penapis memiliki %s peraturan.</string>
     <string name="panel_ruleset_updating">Mengemaskini penapis...</string>
     <string name="panel_ruleset_built">Sekarang filter ditetapkan dengan &lt;b&gt;%s&lt;/b&gt;aturan. Aturan hinga &lt;b&gt;%s&lt;/b&gt; dapat masuk kedalam memori peranti anda secara keseluruhan. Ingat, ini hanyalah anggaran dan boleh berubah bergantung pada aplikasi lain pada peranti anda, jadi anda hendaklan sentiasa berada di bawah batas ini untuk selamat.</string>
@@ -120,9 +121,7 @@
     <string name="slot_protection_disconnected">Peranti anda di luar talian</string>
     <string name="slot_protection_activating">Blokada sedang diaktifkan</string>
     <string name="slot_protection_active_warning">Blokada aktif, tetapi menambahbaikan konfigurasi boleh dibuat. Sentuh untuk butiran.</string>
-    <string name="slot_protection_active">Blokada dan VPN aktif</string>
     <string name="slot_protection_action">Tetapan</string>
-    <string name="slot_protection_ok">Peranti anda dilindungi sepenuhnya! Kedua-dua VPN dan penyekat iklan sedang aktif.</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
@@ -132,7 +131,6 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">Versi Blokada anda telah usang dan ia mungkin tidak berfungsi dengan baik. Sila muat turun versi baharu untuk sentiasa mendapatkan kemas kini.</string>
     <!-- A button to update the app. -->
-    <string name="account_inactive">VPN Blokada anda telah tamat tempoh. Anda tidak lagi berhubung dengan VPN.</string>
     <string name="slot_account_name_title">ID Akaun</string>
     <string name="slot_account_name_error">ID akaun hanya boleh mengandungi huruf dan nombor.</string>
     <string name="slot_account_name_api_error">ID akaun ini kelihatan tidak tepat.</string>
