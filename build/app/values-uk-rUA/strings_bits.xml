@@ -5,16 +5,12 @@
     <string name="home_touch_to_turn_on">Продовжити роботу</string>
     <string name="home_touch_adblocking">Натисніть для блокування реклами</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">Налаштувати VPN</string>
     <string name="home_blokada_disabled">Blokada призупинена</string>
     <string name="home_activating">Вмикається</string>
     <string name="home_please_wait">Зачекайте...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Тільки VPN</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Тільки DNS</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">Налаштувати DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s заблоковано</string>
     <string name="home_masterswitch_enabled">Blokada увімкнена</string>
@@ -34,14 +30,9 @@
     <string name="home_update_required">Потрібно оновити</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Фондувати</string>
-    <string name="home_vpn_enabled">VPN працює</string>
-    <string name="home_vpn_disabled">VPN вимкнено</string>
     <string name="home_account_active">Ваша підписка активна</string>
-    <string name="home_connecting_vpn">Приєднання до VPN</string>
     <string name="home_cleanup">Рекомендовано очищення</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Підключено до VPN</string>
-    <string name="home_boringtun_not_loaded">Нажаль ваш пристрій не підтримується Blokada VPN. Тим не менш, ви можете користуватися іншими функціями.</string>
     <string name="home_blocka_vpn_error">Неможливо підключитися до шлюзу. Ви онлайн?</string>
     <string name="home_account_error">Неможливо підтвердити обліковий запис. Ви онлайн?</string>
     <string name="home_permission_error">Будь ласка, надайте дозволи VPN.</string>
@@ -56,21 +47,16 @@
     <string name="menu_ads_rules_label">Додайте власні правила блокування, якщо потрібно.</string>
     <string name="menu_ads_log_label">Глянути, що було недавно блоковано чи дозволено.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Будь ласка, активуйте Вашу підписку.</string>
     <string name="menu_vpn_select_gateway">Оберіть шлюз для підключення.</string>
-    <string name="menu_vpn_intro_button">Чому VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Підписка</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзи</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Пристрої</string>
     <string name="menu_vpn_manage_subscription">Керувати підпискою</string>
     <string name="menu_vpn_manage_subscription_unavailable">Якщо у вас новий обліковий запис, завітайте на наш сайт. Купити підписку з Blokada Slim неможливо.</string>
-    <string name="menu_vpn_account_secret">Зберігайте Ваш ідентифікатор та не показуйте його нікому. Знадобиться при перевстановленні Blokada.</string>
     <string name="menu_vpn_restore_label">Тут Ви можете відновити наявну підписку, якщо Ви перевстановили додаток.</string>
-    <string name="menu_vpn_intro">Із VPN ваші дані шифруються, IP адреса приховується, а місцезнаходження змінюється.</string>
     <string name="menu_vpn_account_label">Щоб користуватися VPN, у вас має бути активний обліковий запис. Перевірити чи поновити його ви можете тут.</string>
     <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_vpn_support_label">У разі виникнення будь-яких проблем без вагань звертайтеся до нас.</string>
@@ -92,7 +78,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Дізнатись більше</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Знання</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Долучитися</string>
     <string name="menu_telegram">Telegram чат</string>
