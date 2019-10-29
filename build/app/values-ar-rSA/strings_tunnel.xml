@@ -25,6 +25,7 @@
     <string name="tunnel_config_reports_title">التقارير</string>
     <string name="tunnel_config_reports_description">قم بتفعيل هذا المفتاح للسماح للتطبيق بإرسال تقارير تساعدنا على إصلاح المشاكل و الإخطاء. يُرسل تقرير مرّة واحدة يوميّاً، أو عندما يَفشل التطبيق. بإلغائك هذا الإختيار قد يجعل من الصعب علينا إصلاح المشاكل التي قد تواجهك. قد تحتاج إلى إعادة تشغيل التطبيق حتى يتم تفعيل هذا الإختيار.</string>
     <string name="tunnel_config_wildcard_title">قواعد حَظْر الإعلانات المتقدّمة (تجريبيّة)</string>
+    <string name="tunnel_config_wildcard_description">قم بتنشيط رمز التبديل هذا إذا كنت ترغب في استخدام wildcards في قواعد الفلاتر. على سبيل المثال ، تؤدي إضافة قاعدة لـ *.google.com إلى حظر جميع المجالات من Google. قد يكون لهذا تأثير على عمر البطّاريّة.</string>
     <string name="tunnel_config_fallback_title">الـ DNS البديل</string>
     <string name="tunnel_config_fallback_description">قم بتفعيل هذا المفتاح إذا كان هناك فشل في الإتصال بالإنترنت في بعض الحالات، مثل ال WiFi. هذا الإختيار سيجعل التطبيق يستخدم Cloudflare DNS بشكل مؤقّت للحفاظ على إتصالك. قد تحتاج لإعادة إختيار الـ DNS المناسب لك من القائمة حتى يتمّ تفعيل هذا الإختيار.</string>
 </resources>
