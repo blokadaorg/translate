@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Geïnstalleerde apps</string>
     <string name="panel_section_apps_system">Systeem Apps</string>
     <string name="panel_section_advanced_settings">Instellingen</string>
-    <string name="panel_section_app_settings">App instellingen</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Toegestaan &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Dit domein is toegestaan. Gebruik de knop hieronder om het te blokkeren.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Dit domein is geblokkeerd. Gebruik de knop hieronder om het in de toekomst toe te staan.</string>
     <string name="panel_domain_blocked_toast">Toegevoegd aan de blacklist.</string>
     <string name="panel_ruleset">Filters teller</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filters hebben nu %s regels.</string>
     <string name="panel_ruleset_updating">Filters bijwerken...</string>
     <string name="panel_ruleset_built">Filters zijn nu geconfigureerd met &lt;b&gt;%s&lt;/b&gt; regels. Tot &lt;b&gt;%s&lt;/b&gt; regels passen in uw algehele systeemgeheugen. Onthoud, dit is slechts een schatting en kan veranderen afhankelijk van andere apps op uw apparaat, dus blijf ver onder deze limiet om veilig te zijn.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada is gepauzeerd omdat je apparaat de internetverbinding heeft verloren. Blokada zal automatisch opnieuw activeren zodra je weer online bent.</string>
     <string name="slot_protection_activating">Blokada is aan het activeren</string>
     <string name="slot_protection_active_warning">Blokada is actief, maar configuratie kan worden verbeterd. Tik voor details.</string>
-    <string name="slot_protection_active">Blokada en VPN zijn actief</string>
     <string name="slot_protection_action">Instellingen</string>
-    <string name="slot_protection_ok">Uw apparaat is volledig beschermd! Zowel VPN als adblokkering zijn actief.</string>
-    <string name="slot_protection_no_adblocking">Het blokkeren van advertenties &amp; trackers zijn momenteel uitgeschakeld. Je moet deze inschakelen om jouw privacy en gegevens te beschermen.</string>
-    <string name="slot_protection_no_vpn">Je bent niet verbonden met Blokada VPN. Je moet het overwegen voor een betere bescherming van jouw privacy en veiligheid.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada is niet geconfigureerd om te starten bij het opstarten. Je moet Blokada altijd aan blijven zetten voor betere bescherming.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada is niet uitgesloten van de accuoptimalisering van uw apparaat, dus het kan worden gestopt door het systeem. U moet uw systeemvoorkeuren gebruiken om de Blokada te whitelisten zodat het actief kan blijven en uw apparaat blijft beschermen.</string>
     <string name="slot_protection_description">Open het onderste menu om instellingen te configureren.</string>
     <string name="slot_start_on_boot_description">Het inschakelen van start bij opstarten laat Blokada altijd actief zijn en je apparaat beschermen.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Je versie van Blokada is verouderd en werkt mogelijk niet correct. Download de nieuwste versie om updates te blijven ontvangen.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Er lijken veel versies van Blokada geïnstalleerd te zijn op je apparaat. Wilt u de andere versies verwijderen en er één houden?</string>
-    <string name="account_inactive">Je Blokada VPN is verlopen. Je bent niet verbonden met de VPN.</string>
-    <string name="slot_lease_cant_connect">Kan geen verbinding maken met Blokada VPN. Probeer een andere gateway te selecteren.</string>
-    <string name="slot_account_cant_create">Kan je Blokada VPN-account niet aanmaken. Probeer het later opnieuw of neem contact op met ons op Telegram.</string>
     <string name="slot_account_name_title">Account ID</string>
     <string name="slot_account_name_desc">Voer je oude account ID in om je vorige abonnement te herstellen. Je kunt uw huidige account ID beter opschrijven voordat je datt doet, in het geval je een fout maakt.</string>
     <string name="slot_account_name_error">Account-ID kan alleen letters en cijfers bevatten.</string>
