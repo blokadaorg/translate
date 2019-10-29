@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Aquest domini s\'ha bloquejat. Per permetre\'l en el futur, utilitzeu el botó de sota.</string>
     <string name="panel_domain_blocked_toast">S\'ha afegit a la llista negra.</string>
     <string name="panel_ruleset">Comptador de filtres</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Ara els filtres tenen %s regles.</string>
     <string name="panel_ruleset_updating">S\'estan actualitzant els filtres...</string>
     <string name="panel_ruleset_built">Els filtres ara estan configurats amb &lt;b&gt;%s&lt;/b&gt; regles. Fins a &lt;b&gt;%s&lt;/b&gt; regles poden cabre en la memòria del vostre dispositiu en general. Recordeu, això és només una estimació i està subjecte a canvis depenent d\'altres aplicacions al dispositiu, pel que ha de mantenir-se per sota d\'aquest límit per estar segur.</string>
@@ -133,12 +134,7 @@
     <string name="slot_protection_disconnected_desc">El Blokada està en pausa perquè el dispositiu ha perdut la connexió a Internet. El Blokada es reactivarà automàticament quan la connexió torni.</string>
     <string name="slot_protection_activating">El Blokada s\'està activant</string>
     <string name="slot_protection_active_warning">El Blokada està actiu, però es pot millorar la configuració. Toqueu per obtenir més detalls.</string>
-    <string name="slot_protection_active">El Blokada i l\'VPN estan actives</string>
     <string name="slot_protection_action">Configuració</string>
-    <string name="slot_protection_ok">El vostre dispositiu està totalment protegit. Tant l\'VPN com el bloqueig d\'anuncis estan actius.</string>
-    <string name="slot_protection_no_adblocking">El bloqueig d\'anuncis i seguidors està desactivat actualment. Haureu d\'activar-lo per tal de protegir la vostra privadesa i dades.</string>
-    <string name="slot_protection_no_vpn">No esteu connectats a la VPN del Blokada. Tingueu-ho present per a una millor protecció de la vostra privadesa i seguretat.</string>
-    <string name="slot_protection_no_start_on_boot">El Blokada no està configurat per executar-se a l\'inici. Haureu de mantenir el Blokada sempre actiu per obtenir una millor protecció.</string>
     <string name="slot_protection_no_battery_whitelist">El Blokada no està exempt de l\'optimització de la bateria del dispositiu, per la qual cosa el sistema pot aturar-lo. Haureu d\'utilitzar les preferències del sistema per afegir a la llista blanca el Blokada perquè pugui mantenir-se actiu i protegir el dispositiu.</string>
     <string name="slot_protection_description">Per configurar els paràmetres, obriu el menú inferior.</string>
     <string name="slot_start_on_boot_description">En activar executar-se a l\'inici permet al Blokada estar sempre actiu i protegir el vostre dispositiu.</string>
@@ -169,9 +165,6 @@
     <string name="slot_obsolete_desc">La vostra versió del Blokada és obsoleta i és possible que no funcioni correctament. Baixeu la versió més recent per seguir rebent actualitzacions.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Sembla que hi ha moltes versions del Blokada instal·lades al dispositiu. Voleu eliminar les altres versions i mantenir-ne una només?</string>
-    <string name="account_inactive">La vostra VPN del Blokada ha caducat. No esteu connectats a la VPN.</string>
-    <string name="slot_lease_cant_connect">No s\'ha pogut connectar a la VPN del Blokada. Proveu de seleccionar una altra passarel·la.</string>
-    <string name="slot_account_cant_create">No s\'ha pogut crear el vostre compte VPN del Blokada. Torneu-ho a provar més tard o contacteu amb nosaltres al Telegram.</string>
     <string name="slot_account_name_title">ID del compte</string>
     <string name="slot_account_name_desc">Introduïu el vostre ID del compte antic per restaurar la vostra subscripció anterior. És possible que vulgueu escriure l\'ID del compte actual abans de fer-ho, en cas que cometeu un error.</string>
     <string name="slot_account_name_error">L\'ID del compte només pot contenir lletres i números.</string>
