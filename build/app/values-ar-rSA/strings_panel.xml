@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">التطبيقات المُثبَّتة</string>
     <string name="panel_section_apps_system">تطبيقات النظام</string>
     <string name="panel_section_advanced_settings">الإعدادات</string>
-    <string name="panel_section_app_settings">إعدادات التطبيق</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; مسموح</string>
     <string name="panel_domain_forwarded_desc">تَمَّ السّماح لهذا الموقع. لحَظْرِه ، استخدم الزرّ أدناه.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">تَمّ حَظْر هذا الموقع. للسماح به في المستقبل ، استخدم الزرّ أدناه.</string>
     <string name="panel_domain_blocked_toast">تَمَّت الإضافة إلى القائمة السوداء.</string>
     <string name="panel_ruleset">عدّاد الفلاتر</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">الفلاتر فيها الآن %s قاعدة.</string>
     <string name="panel_ruleset_updating">جارِ تحديث الفلاتر...</string>
     <string name="panel_ruleset_built">الآن تَمَّ تهيئة الفلاتر باستخدام &lt;b&gt;%s&lt;/b&gt; قاعدة. &lt;b&gt;%s&lt;/b&gt; يمكن أن تنسجم مع ذاكرة جهازك بشكل عام. تَذكّر أنّ هذا مُجرَّد تقدير و يخضع للتغيير اعتماداً على التطبيقات الأخرى على جهازك ، لذلك يجب أن تظلّ أقلّ من هذا الحد لتكون آمناً.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">بلوكادا متوقِّف مؤقّتاً لأنّ جهازك فقد اتصال الإنترنت. سيقوم بلوكادا بإعادة التنشيط تلقائيّاً بمجرّد عودة اتصال الإنترنت.</string>
     <string name="slot_protection_activating">يتمّ تفعيل بلوكادا</string>
     <string name="slot_protection_active_warning">بلوكادا نَشِط ، و لكن يمكن تحسين تكوين الإعدادات. انقر للحصول على التفاصيل.</string>
-    <string name="slot_protection_active">بلوكادا و الشبكة الإفتراضيّة الخاصّة مفعّلين</string>
     <string name="slot_protection_action">الإعدادات</string>
-    <string name="slot_protection_ok">جهازك محمي بالكامل! كل من VPN و حَظْر الإعلانات نَشِطان.</string>
-    <string name="slot_protection_no_adblocking">حاليّاً حَظْر الإعلانات &amp; و التعقُّب غير مُفعَّلين. يجب عليك تفعيلهم لحماية خصوصيَّتك و بياناتك.</string>
-    <string name="slot_protection_no_vpn">أنت غير متّصل بـ Blokada VPN. يجب عليك أن تأخذ ذلك بعين الاعتبار لحماية أفضل لخصوصيّتك و أمانك.</string>
-    <string name="slot_protection_no_start_on_boot">لم يتم تهيئة إعدادات بلوكادا للبدء عند إقلاع النظام. يجب عليك إبقاء بلوكادا قيد التشغيل دائماً لتوفير حماية أفضل.</string>
     <string name="slot_protection_no_battery_whitelist">لم يتمّ إستثناء بلوكادا من ميّزة تحسين البطّاريّة في جهازك ، لذلك يُمكِن تعطيله من قِبَل النظام. يجب عليك إستخدام إعدادات النظام لإضافة بلوكادا للقائمة البيضاء حتى يَتمكَّن من البقاء قيد التشغيل و حماية جهازك.</string>
     <string name="slot_protection_description">لتهيئة الإعدادات ، افتح القائمة السُفليّة.</string>
     <string name="slot_start_on_boot_description">يُتيح تمكين البدء عند إقلاع النظام لبلوكادا أنّ يكون نَشِطاً في جميع الأوقات و حماية جهازك.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">إصدار بلوكادا الخاص بك قديم و قد لا يعمل بشكل صحيح. يُرجَى تنزيل أحدث إصدار للحفاظ على تلقّي التحديثات.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">يبدو أنّ هناك العديد من إصدارات بلوكادا مُثبّتة على جهازك. هل ترغب في إزالة الإصدارات الأُخرى و الاحتفاظ بنسخة واحدة فقط؟</string>
-    <string name="account_inactive">انتهت صلاحيّة Blokada VPN الخاصّة بك. أنت غير مُتّصل بشبكة VPN.</string>
-    <string name="slot_lease_cant_connect">غير قادر على الإتصال بـ Blokada VPN. حاول إختيار بوابّة أُخرى.</string>
-    <string name="slot_account_cant_create">تَعذَّر إنشاء حساب Blokada VPN الخاص بك. الرجاء المحاولة مرّة أُخرى لاحقاً أو التواصل معنا على Telegram.</string>
     <string name="slot_account_name_title">مُعَرِّف الحساب</string>
     <string name="slot_account_name_desc">أدخِل مُعَرِّف حسابك القديم لاستعادة اشتراكك السابق. قبل القيام بذلك قدّ ترغب في كتابة مُعَرِّف حسابك الحالي ، في حالة إرتكاب خطأ.</string>
     <string name="slot_account_name_error">يمكن أن يحتوي مُعَرِّف الحساب على أحرف و أرقام فقط.</string>
