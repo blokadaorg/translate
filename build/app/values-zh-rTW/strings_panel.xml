@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">已安裝的應用程式</string>
     <string name="panel_section_apps_system">系統應用程式</string>
     <string name="panel_section_advanced_settings">設定</string>
-    <string name="panel_section_app_settings">應用程式設定</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">已允許 &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">已允許此網域。若要封鎖，請使用下方的按鈕。</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">這個網域已被阻擋。若未來要允許該網域，請使用下方按鈕。</string>
     <string name="panel_domain_blocked_toast">已加入黑名單。</string>
     <string name="panel_ruleset">過濾器計數器</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">過濾器現在有 %s 個規則。</string>
     <string name="panel_ruleset_updating">正在更新過濾器…</string>
     <string name="panel_ruleset_built">過濾器現在已設定 &lt;b&gt;%s&lt;/b&gt; 規則。依您的裝置記憶體，最多可以啟用 &lt;b&gt;%s&lt;/b&gt; 條規則。請記住，這只是估計值，可能會因為裝置上的應用程式而有所變化，因此您應維持遠低於此限制以保證安全。</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada 已暫停，因為您的裝置未連上網路。當重新連線時，Blokada 將會自動重新啟動。</string>
     <string name="slot_protection_activating">Blokada 正在啟動中</string>
     <string name="slot_protection_active_warning">Blokada 已啟動，但還有能改的設定。點選來檢視更多相關資訊。</string>
-    <string name="slot_protection_active">Blokada 以及 VPN 皆已啟用</string>
     <string name="slot_protection_action">設定</string>
-    <string name="slot_protection_ok">您的裝置已受到全面保護！ VPN 以及廣告阻擋皆已啟用。</string>
-    <string name="slot_protection_no_adblocking">廣告阻擋及追蹤器目前已停用。 您應該啟用它來保護您的隱私以及資料。</string>
-    <string name="slot_protection_no_vpn">您尚未連接到 Blokada VPN。 您應該考慮使用它，以獲取更好的隱私安全。</string>
-    <string name="slot_protection_no_start_on_boot">Blokada並沒有被設定成開機時啟動。 您應該保持 Blokada 永遠啟動來獲得更好的保護。</string>
     <string name="slot_protection_no_battery_whitelist">Blokada 無法忽略您裝置的電池最佳化功能，所以它可能會被系統砍除。您應該使用您的系統偏好設定來將 Blokada 加入白名單，這樣它就可以保持開啟來保護您的裝置。</string>
     <string name="slot_protection_description">若要設定，請打開底部選單。</string>
     <string name="slot_start_on_boot_description">啟用「開機時啟動」以讓 Blokada 可以一直保持啟用並保護您的裝置。</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">您的 Blokada 太舊了，可能沒辦法正常運作。請下載最新的版本以確保您可以繼續收到更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">您的裝置上似乎安裝了多個版本的 Blokada。您想要移除其他版本並只保留這個嗎？</string>
-    <string name="account_inactive">您的 Blokada VPN 已過期。您不能連線到 VPN 了。</string>
-    <string name="slot_lease_cant_connect">無法連線至 Blokada VPN。請嘗試選取其他閘道。</string>
-    <string name="slot_account_cant_create">無法建立您的 Blokada VPN 帳號。請稍候再試，或者在 Telegram 聯絡我們。</string>
     <string name="slot_account_name_title">帳號 ID</string>
     <string name="slot_account_name_desc">輸入您舊的帳號 ID 以復原您先前的訂閱。您可能會想要在這麼做之前先寫下您目前的帳號 ID，以免犯錯。</string>
     <string name="slot_account_name_error">帳號 ID 僅能包含字母與數字。</string>
