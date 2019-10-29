@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
+"POT-Creation-Date: 2019-10-28T10:08:40.816Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Zulu\n"
 "Language: zu_ZA\n"
-"PO-Revision-Date: 2019-10-25 10:29\n"
+"PO-Revision-Date: 2019-10-28 14:24\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -66,7 +66,7 @@ msgstr ""
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "I-Akhawunti"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -80,7 +80,7 @@ msgstr ""
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "Yenza i-akhawunti isebenze"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -94,7 +94,7 @@ msgstr ""
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Kuvele iphutha, sicela uzame futhi emuva kwesikhathi."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -106,6 +106,13 @@ msgstr ""
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
 msgstr ""
+
+#. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
+#. defaultMessage is:
+#. An error occured, please verify your ID and try again.
+#: build/messages/src/AuthedRoute.json
+msgid "An error occured, please verify your ID and try again."
+msgstr "Kuvele iphutha, sicela uqinisekise i-ID yakho bese uzama futhi."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
@@ -126,14 +133,14 @@ msgstr ""
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "I-Akhawunti ye-Blokada"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "IBlokada VPN isebenzisa {link}. Ukucushwa kungalandwa kwidivayisi entsha."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -166,7 +173,7 @@ msgstr ""
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
-msgstr ""
+msgstr "Qhubeka"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
@@ -180,56 +187,56 @@ msgstr ""
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Dala futhi ulungiselele amadivayisi angaxhuma."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "AKUSEBENZI"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "KUYAKHUBALA"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "I-DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Izinsuku kuze kuphele isikhathi: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Susa"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Amadivayisi {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Landa"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -243,14 +250,14 @@ msgstr ""
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr ""
+msgstr "KUPHELELWE ISIKHATHI"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
 #: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
-msgstr ""
+msgstr "Faka i-ID yakho ye-akhawunti ukuze uqhubeke"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -268,7 +275,7 @@ msgstr ""
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Isango"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -279,7 +286,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Buyela Emuva"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -293,14 +300,14 @@ msgstr ""
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "I-ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
 #. Keybase referrer
 #: build/messages/src/Checkout.json
 msgid "Keybase referrer"
-msgstr ""
+msgstr "Inkomba yeKeybase"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
@@ -314,7 +321,7 @@ msgstr ""
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Kufinyelelwe umkhawulo"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -335,28 +342,28 @@ msgstr ""
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Igama ledivayisi"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "I-akhawunti Entsha"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr ""
+msgstr "I-akhawunti entsha"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Idivayisi entsha"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -405,7 +412,7 @@ msgstr ""
 #. Pay with cryptocurrency
 #: build/messages/src/Checkout.json
 msgid "Pay with cryptocurrency"
-msgstr ""
+msgstr "Khokha nge-cryptocurrency"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
@@ -447,7 +454,7 @@ msgstr ""
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Sicela uqinisekise i-akhawunti yakho ye-akhawunti kusuka esikrinini esedlule."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -468,14 +475,14 @@ msgstr ""
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Ukhiye Womphakathi"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Gcina"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -503,7 +510,7 @@ msgstr ""
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Gcina i-ID ye-akhawunti yakho endaweni ephephile, kufanele ube nayo lapho uxhuma futhi uvula idivayisi yakho."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -531,7 +538,7 @@ msgstr ""
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "Ubunikazi be-akhawunti abuhambelani, qinisekisa ukuthi ulondoloze kahle esikrinini esedlule bese uyazama futhi."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -566,7 +573,7 @@ msgstr ""
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Ukucushwa kwe-WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
@@ -594,5 +601,5 @@ msgstr ""
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "idivayisi entsha"
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
+"POT-Creation-Date: 2019-10-28T10:08:40.816Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-10-25 13:00\n"
+"PO-Revision-Date: 2019-10-28 10:34\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -106,6 +106,13 @@ msgstr "Une erreur est survenue, veuillez réessayer plus tard."
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
 msgstr "Une erreur s'est produite, veuillez réessayer plus tard."
+
+#. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
+#. defaultMessage is:
+#. An error occured, please verify your ID and try again.
+#: build/messages/src/AuthedRoute.json
+msgid "An error occured, please verify your ID and try again."
+msgstr "Une erreur s'est produite, veuillez vérifier votre identifiant et réessayer."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
@@ -236,7 +243,7 @@ msgstr "Télécharger"
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr "Courriel"
+msgstr "Adresse e-mail"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
@@ -328,7 +335,7 @@ msgstr "Chargement {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr "Assurez-vous que votre portefeuille soit disponible avant de continuer. Revenez ici lorsque vous aurez expédié leur paiement."
+msgstr "Assurez-vous que votre portefeuille soit disponible avant de continuer. Revenez ici lorsque vous aurez expédié le paiement."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
@@ -370,7 +377,7 @@ msgstr "Introuvable"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr "Payez l'équivalent de {price}€ en utilisant un portefeuille Stellar. Nous vous recommandons d'utiliser {recommeded}."
+msgstr "Payez l'équivalent de {price} € en utilisant un portefeuille Stellar. Nous vous recommandons d'utiliser {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -384,7 +391,7 @@ msgstr "Payer avec PayPal"
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr "Payer avec PayPal est disponible depuis la v{version} de Blokada"
+msgstr "Payer avec PayPal est disponible depuis Blokada v{version}"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
@@ -419,14 +426,14 @@ msgstr "Payer {price}€"
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr "Payez {price}€ par période"
+msgstr "Payez {price} € par mois"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr "Payer {price}€ en utilisant PayPal"
+msgstr "Payer {price} € en utilisant PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -447,14 +454,14 @@ msgstr "Le paiement a échoué, consultez PayPal pour plus de détails."
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr "Veuillez vérifier votre ID de compte sur l'écran précédent."
+msgstr "Veuillez vérifier votre identifiant de compte sur l'écran précédent."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr "Procéder au portefeuille"
+msgstr "Procéder avec le portefeuille"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -552,7 +559,7 @@ msgstr "En attente de la confirmation du paiement par PayPal..."
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr "En attente de la confirmation du paiement..."
+msgstr "En attente de confirmation du paiement..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:

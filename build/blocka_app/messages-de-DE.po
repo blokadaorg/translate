@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-10-25T10:15:27.690Z\n"
+"POT-Creation-Date: 2019-10-28T10:08:40.816Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2019-10-25 10:48\n"
+"PO-Revision-Date: 2019-10-28 11:08\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -106,6 +106,13 @@ msgstr "Ein Fehler ist aufgetreten. Bitte versuch es später erneut."
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
 msgstr "Es trat ein Fehler auf, bitte später versuchen."
+
+#. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
+#. defaultMessage is:
+#. An error occured, please verify your ID and try again.
+#: build/messages/src/AuthedRoute.json
+msgid "An error occured, please verify your ID and try again."
+msgstr "Ein Fehler ist aufgetreten. Bitte überprüfe deine ID und probiere es erneut."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
