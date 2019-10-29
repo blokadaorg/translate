@@ -10,7 +10,7 @@
     <string name="home_activating">Ativando</string>
     <string name="home_please_wait">Por favor, aguarde...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">O túnel do Blokada está ativo sem bloqueio de anúncios.</string>
+    <string name="home_vpn_only">O Túnel do Blokada está ativo sem bloqueio de anúncios.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">O Blokada está ativo no modo DNS.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
@@ -35,9 +35,13 @@
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doar</string>
     <string name="home_vpn_enabled">O Túnel do Blokada está ativo</string>
+    <string name="home_vpn_disabled">O Túnel do Blokada está desativado</string>
     <string name="home_account_active">Sua conta ainda está ativa</string>
+    <string name="home_connecting_vpn">Conectando ao Túnel do Blokada</string>
     <string name="home_cleanup">Limpeza recomendada</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Conectado ao Túnel do Blokada</string>
+    <string name="home_boringtun_not_loaded">Desculpe, o seu dispositivo não é suportado pelo Túnel do Blokada. Mas você ainda pode usar outros recursos.</string>
     <string name="home_blocka_vpn_error">Não foi possível conetar ao gateway. Você está online?</string>
     <string name="home_account_error">Não foi possível verificar a conta. Você está online?</string>
     <string name="home_permission_error">Por favor conceda permissões de VPN.</string>
@@ -52,16 +56,21 @@
     <string name="menu_ads_rules_label">Adicione suas próprias regras para ajustar o bloqueio.</string>
     <string name="menu_ads_log_label">Veja o que foi bloqueado ou permitido recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Túnel do Blokada</string>
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecione um gateway.</string>
+    <string name="menu_vpn_intro_button">Por que eu preciso de Túnel do Blokada?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Meu Túnel do Blokada</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerenciar assinatura da sua conta</string>
     <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Você não pode comprar assinatura no Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Toque seu avatar acima para ver o ID da sua conta. Lembre-se, seu ID é secreto e você deve mantê-lo para si. Anote-o caso desinstale o aplicativo.</string>
     <string name="menu_vpn_restore_label">Aqui você pode restaurar sua conta existente se, por exemplo, você reinstalar o aplicativo.</string>
+    <string name="menu_vpn_intro">Com o Túnel do Blokada, seus dados são criptografados, seu endereço IP fica oculto, e sua localização é alterada.</string>
     <string name="menu_vpn_account_label">Para usar a VPN, você precisa de uma conta ativa. Verifique ou restaure sua conta aqui.</string>
     <string name="menu_vpn_gateways_label">Selecione um dos gateways para se conectar. Seu dispositivo enviará seus dados criptografados de forma segura através desse gateway e você permanecerá anônimo.</string>
     <string name="menu_vpn_support_label">Se você não puder resolver o problema, não hesite em contatar o suporte</string>
@@ -83,6 +92,7 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Saiba mais</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Obter Ajuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Participe</string>
     <string name="menu_telegram">Chat do Telegram</string>
