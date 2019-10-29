@@ -25,6 +25,7 @@
     <string name="panel_domain_blocked_desc">此域名已被屏蔽。要允许此域名，使用下面的按钮。</string>
     <string name="panel_domain_blocked_toast">已添加到黑名单。</string>
     <string name="panel_ruleset">过滤器计数器</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">筛选器现在有 %s 规则。</string>
     <string name="panel_ruleset_updating">正在更新过滤器...</string>
     <string name="panel_ruleset_built">过滤器现在配置为 &lt;b&gt;%s&lt;/b&gt; 规则。 &lt;b&gt;%s&lt;/b&gt; 规则可以全面地适应您的设备内存。记住，这只是一个估计，并且根据您的设备上的其他应用需要更改，所以你应该保持在这一限制之下，安全。</string>
@@ -119,12 +120,7 @@
     <string name="slot_protection_disconnected_desc">Blokada 被暂停，因为您的设备丢失了互联网连接。Blokada将在您返回在线时自动恢复。</string>
     <string name="slot_protection_activating">Blokada 正在激活</string>
     <string name="slot_protection_active_warning">Blokada 是活跃的，但可以改进配置。点击查看详细信息。</string>
-    <string name="slot_protection_active">Blokada和VPN 已启用</string>
     <string name="slot_protection_action">设置</string>
-    <string name="slot_protection_ok">您的设备完全受到保护！VPN和adblock都处于活动状态。</string>
-    <string name="slot_protection_no_adblocking">屏蔽广告 &amp; 跟踪器目前已禁用。您应该启用它，以保护您的隐私和数据。</string>
-    <string name="slot_protection_no_vpn">您未连接到Blokada VPN。您应该考虑它来保护您的隐私和安全。</string>
-    <string name="slot_protection_no_start_on_boot">Blokada 没有配置在启动时开始。你应该保持 Blokada 始终保持更好的保护。</string>
     <string name="slot_protection_no_battery_whitelist">Blokada 不受设备电池优化的影响，所以它可能被系统杀死。您应该使用您的系统偏好设置为白名单 Blokada，以便它能够继续并保护您的设备。</string>
     <string name="slot_protection_description">要配置设置，打开底部菜单。</string>
     <string name="slot_start_on_boot_description">启动时启用启动，允许 Blokada 随时激活并保护您的设备。</string>
@@ -153,9 +149,6 @@
     <string name="slot_obsolete_desc">您的 Blokada 版本已经过时，可能无法正常工作。请下载最新版本，以便继续接收更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">您的设备似乎有许多版本的 Blokada。您想删除其他版本，只保留一个版本吗？</string>
-    <string name="account_inactive">您的 Blokada VPN 已过期。您没有连接到 VPN。</string>
-    <string name="slot_lease_cant_connect">无法连接到 Blokada VPN。请尝试选择另一个网关。</string>
-    <string name="slot_account_cant_create">无法创建您的 Blokada VPN 帐户。请稍后再试，或在 Telegram 上联系我们。</string>
     <string name="slot_account_name_title">账户 ID</string>
     <string name="slot_account_name_desc">输入您的旧帐户ID，以恢复您以前的订阅。如果您犯错误，您可能想要在写下您的经常账户ID。</string>
     <string name="slot_account_name_error">帐户ID只能包含字母和数字。</string>
