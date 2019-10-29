@@ -5,16 +5,12 @@
     <string name="home_touch_to_turn_on">Tik om te hervatten</string>
     <string name="home_touch_adblocking">Tik om advertenties te blokkeren</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">Tik om VPN in te stellen</string>
     <string name="home_blokada_disabled">Blokada is gepauzeerd</string>
     <string name="home_activating">Activeren</string>
     <string name="home_please_wait">Even geduld...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Enkel VPN</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Enkel DNS</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">Tik om DNS in te stellen</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s geblokkeerd</string>
     <string name="home_masterswitch_enabled">Blokada is aan</string>
@@ -34,14 +30,9 @@
     <string name="home_update_required">Update vereist</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doneer</string>
-    <string name="home_vpn_enabled">VPN is actief</string>
-    <string name="home_vpn_disabled">VPN is gedeactiveerd</string>
     <string name="home_account_active">Uw account is nog steeds actief</string>
-    <string name="home_connecting_vpn">Verbinden met VPN</string>
     <string name="home_cleanup">Cleanup aanbevolen</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Verbonden met VPN</string>
-    <string name="home_boringtun_not_loaded">Sorry, je apparaat wordt niet ondersteund door Blokada VPN. Je kunt wel andere functies gebruiken.</string>
     <string name="home_blocka_vpn_error">Kan geen verbinding maken met de gateway. Bent je online?</string>
     <string name="home_account_error">Account kan niet worden geverifieerd. Ben je online?</string>
     <string name="home_permission_error">Verleen VPN-machtigingen.</string>
@@ -56,21 +47,16 @@
     <string name="menu_ads_rules_label">Voeg je eigen regels toe voor een betere persoonlijke blokkeering.</string>
     <string name="menu_ads_log_label">Zie wat onlangs geblokkeerd of toegestaan is.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Activeer eerst uw account aub.</string>
     <string name="menu_vpn_select_gateway">Selecteer een gateway.</string>
-    <string name="menu_vpn_intro_button">Waarom VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Account</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Apparaten</string>
     <string name="menu_vpn_manage_subscription">Beheer je abonnement</string>
     <string name="menu_vpn_manage_subscription_unavailable">Als uw account nieuw is, bezoek dan onze website. U kunt geen abonnement nemen in Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Uw account ID is geheim en u moet deze voor jezelf houden. Schrijf het op voor in het geval dat u de app verwijdert.</string>
     <string name="menu_vpn_restore_label">Hier kunt u uw bestaande account herstellen als u bijvoorbeeld de app opnieuw geïnstalleerd hebt.</string>
-    <string name="menu_vpn_intro">Met VPN is je data versleuteld, je IP-adres verborgen en je locatie gewijzigd.</string>
     <string name="menu_vpn_account_label">Om de VPN te gebruiken, heeft u een actieve account nodig. Controleer of herstel uw account hier.</string>
     <string name="menu_vpn_gateways_label">Selecteer een van de gateways om te verbinden. Uw apparaat stuurt uw versleutelde gegevens veilig via die gateway, en u blijft anoniem.</string>
     <string name="menu_vpn_support_label">Als je problemen ervaart, aarzel dan niet om contact met ons op te nemen.</string>
@@ -92,7 +78,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Meer weten</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Kennis</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Doe mee</string>
     <string name="menu_telegram">Telegram chat</string>
