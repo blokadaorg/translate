@@ -10,8 +10,11 @@
     <string name="home_activating">Mengaktifkan</string>
     <string name="home_please_wait">Harap tunggu...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Jalur Blokada aktif tanpa pemblokiran iklan.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada saat ini aktif dalam moda DNS.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_touch">Tekan untuk memilih DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s diblokir</string>
     <string name="home_masterswitch_enabled">Blokada aktif</string>
@@ -31,9 +34,14 @@
     <string name="home_update_required">Silakan perbarui</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donasi</string>
+    <string name="home_vpn_enabled">Jalur Blokada sedang aktif</string>
+    <string name="home_vpn_disabled">Jalur Blokada dinonaktifkan</string>
     <string name="home_account_active">Akun Anda masih aktif</string>
+    <string name="home_connecting_vpn">Menyambungkan ke Jalur Blokada</string>
     <string name="home_cleanup">Harap bersihkan memori Anda</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Tersambung ke Jalur Blokada</string>
+    <string name="home_boringtun_not_loaded">Maaf, saat ini perangkat Anda tidak didukung oleh jalur Blokada. Anda masih bisa menggunakan fitur lain yang ada di Blokada.</string>
     <string name="home_blocka_vpn_error">Tidak bisa tersambung ke gateway. Apakah Anda online?</string>
     <string name="home_account_error">Tidak dapat memverifikasi akun. Apakah Anda online?</string>
     <string name="home_permission_error">Harap berikan izin sambungan VPN.</string>
@@ -48,16 +56,21 @@
     <string name="menu_ads_rules_label">Tambahkan daftar yang Anda buat sendiri untuk pemblokiran yang lebih baik lagi.</string>
     <string name="menu_ads_log_label">Lihat permintaan/domain apa saja yang telah diizinkan atau diblokir.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Jalur Blokada</string>
     <string name="menu_vpn_activate_account">Harap aktifkan akun Anda terlebih dahulu.</string>
     <string name="menu_vpn_select_gateway">Silakan pilih gateway.</string>
+    <string name="menu_vpn_intro_button">Kenapa saya membutuhkan Blokada Tunnel?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Blokada Tunnel saya</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateway</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Perangkat</string>
     <string name="menu_vpn_manage_subscription">Kelola akun berlangganan Anda di sini</string>
     <string name="menu_vpn_manage_subscription_unavailable">Jika akun Anda baru, silakan kunjungi situs kami. Anda tidak bisa berlangganan melalui Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Tekan avatar di atas untuk melihat ID akun Anda. Harap diingat bahwa ID Anda bersifat rahasia dan tidak boleh diberikan kepada orang lain. Catat ID tersebut, jika sewaktu-waktu Anda menginstal Blokada.</string>
     <string name="menu_vpn_restore_label">Di sini Anda bisa memulihkan akun lama Anda, jika misalnya Anda menginstal Blokada kembali.</string>
+    <string name="menu_vpn_intro">Ketika Anda menggunakan Blokada Tunnel, data Anda dienkripsi, alamat IP Anda disembunyikan, dan lokasi Anda dirubah.</string>
     <string name="menu_vpn_account_label">Supaya bisa menggunakan VPN, Anda memerlukan akun aktif. Periksa apakah Anda sudah memiliki akun atau pulihkan akun Anda di sini.</string>
     <string name="menu_vpn_gateways_label">Pilih gateway yang Anda inginkan. Perangkat Anda akan mengirimkan data Anda yang telah dienkripsi secara aman melalui gateway tersebut, dan identitas Anda akan tetap tersembunyi.</string>
     <string name="menu_vpn_support_label">Jika Anda mengalami masalah, jangan ragu untuk menghubungi kami.</string>
@@ -79,6 +92,7 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Ketahui lebih lanjut</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Dapatkan bantuan</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Ikut terlibat</string>
     <string name="menu_telegram">Telegram chat</string>
