@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Встановлені додатки</string>
     <string name="panel_section_apps_system">Системні додатки</string>
     <string name="panel_section_advanced_settings">Налаштування</string>
-    <string name="panel_section_app_settings">Налаштування додатку</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Дозволено &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Цей домен був дозволений. Для блокування натисніть кнопку нижче.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Цей домен було заблоковано. Щоб надалі дозволяти його, натисніть кнопку нижче.</string>
     <string name="panel_domain_blocked_toast">Додано до чорного списку.</string>
     <string name="panel_ruleset">Лічильник фільтрів</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">У фільтрах зараз %s правил.</string>
     <string name="panel_ruleset_updating">Оновлення фільтрів...</string>
     <string name="panel_ruleset_built">Фільтри зараз працюють із &lt;b&gt;%s&lt;/b&gt; правил. Приблизно &lt;b&gt;%s&lt;/b&gt; правил може поміститися у пам\'ять Вашого пристрою. Намагайтеся, щоб кількість правил була меншою за цю цифру, щоб додаток працював добре.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada призупинена, оскільки пристрій зараз не має доступу до мережі. Blokada продовжить роботу одразу після приєднання.</string>
     <string name="slot_protection_activating">Blokada активується</string>
     <string name="slot_protection_active_warning">Blokada працює, але її налаштування можуть бути покращені. Натисніть для деталей.</string>
-    <string name="slot_protection_active">Blokada та VPN працюють</string>
     <string name="slot_protection_action">Налаштування</string>
-    <string name="slot_protection_ok">Ваш пристрій повністю захищено! VPN та блокування реклами працює.</string>
-    <string name="slot_protection_no_adblocking">Блокування реклами та слідкування зараз вимкнено. Вам варто увімкнути це, щоб захистити свою інформацію.</string>
-    <string name="slot_protection_no_vpn">Ви не приєднані до Blokada VPN. Вам варто розглянути це як додатковий рівень безпеки та приватності.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada не налаштована для запуску при завантаженні пристрою. Варто тримати Blokada увімкненою для кращого захисту.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada не виключена із оптимізації використання батареї на Вашому пристрої, тож може бути закрита системою. Вам варто дозволити Blokada працювати без оптимізації у налаштуваннях живлення пристрою.</string>
     <string name="slot_protection_description">Для налаштування відкрийте нижнє меню.</string>
     <string name="slot_start_on_boot_description">Увімкнення запуску при завантаженні пристрою дозволить Blokada захищати Вас постійно.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Ця версія Blokada застаріла і може працювати неправильно. Будь ласка, оновіть її.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Схоже, що на Вашому пристрої встановлено кілька версій Blokada. Видалити всі інші та залишити одну?</string>
-    <string name="account_inactive">Ваша підписка Blokada VPN закінчилася. Ви не підключені до VPN.</string>
-    <string name="slot_lease_cant_connect">Не вдалося приєднатися до Blokada VPN. Спробуйте інший шлюз.</string>
-    <string name="slot_account_cant_create">Не вдалося створити підписку Blokada VPN. Спробуйте пізніше або напишіть нам у Telegram.</string>
     <string name="slot_account_name_title">Ідентифікатор</string>
     <string name="slot_account_name_desc">Введіть ваш старий ідентифікатор, щоб відновити попередню підписку. Вам варто також записати поточний ідентифікатор на випадок помилки.</string>
     <string name="slot_account_name_error">Ідентифікатор може містити тільки букви та цифри.</string>
