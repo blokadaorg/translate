@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Aplicativos Instalados</string>
     <string name="panel_section_apps_system">Apps do Sistema</string>
     <string name="panel_section_advanced_settings">Configurações</string>
-    <string name="panel_section_app_settings">Configurações do Aplicativo</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Permitido &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Este domínio foi permitido. Para bloqueá-lo, use o botão abaixo.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Este domínio foi bloqueado. Para permiti-lo no futuro, use o botão abaixo.</string>
     <string name="panel_domain_blocked_toast">Adicionado à lista negra.</string>
     <string name="panel_ruleset">Contador de filtros</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Os filtros agora têm %s regras.</string>
     <string name="panel_ruleset_updating">Atualizando filtros...</string>
     <string name="panel_ruleset_built">Os filtros estão agora configurados com &lt;b&gt;%s&lt;/b&gt; regras. Até &lt;b&gt;%s&lt;/b&gt; regras podem ser armazenadas na memória do seu dispositivo em geral. Lembre-se, isso é apenas uma estimativa e está sujeita a alterações, dependendo de outros aplicativos no seu dispositivo, por isso você deve ficar bem abaixo desse limite para estar seguro.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">O Blokada está em pausa porque o seu dispositivo perdeu conexão com a Internet. O Blokada será automaticamente reativado quando você estiver online de novo.</string>
     <string name="slot_protection_activating">O Blokada está ativando</string>
     <string name="slot_protection_active_warning">O Blokada está ativo, mas a configuração pode ser melhorada. Toque para mais detalhes.</string>
-    <string name="slot_protection_active">O Blokada e a VPN estão ativas</string>
     <string name="slot_protection_action">Configurações</string>
-    <string name="slot_protection_ok">O seu dispositivo está totalmente protegido! Tanto a VPN como o bloqueio de anúncios estão ativos.</string>
-    <string name="slot_protection_no_adblocking">O bloqueio de anúncios &amp; rastreadores está desativado no momento. Você deve ativá-lo para proteger a sua privacidade e seus dados.</string>
-    <string name="slot_protection_no_vpn">Você não está conectado à VPN do Blokada. Você deve considerar isso para uma melhor proteção da sua privacidade e segurança.</string>
-    <string name="slot_protection_no_start_on_boot">O Blokada não está configurado para carregar na inicialização. Você deve manter o Blokada sempre ativado para uma proteção melhor.</string>
     <string name="slot_protection_no_battery_whitelist">O Blokada não está isento da otimização da bateria do seu dispositivo, portanto, ele pode ser encerrado pelo sistema. Você deve usar as preferências do sistema para colocar o Blokada na lista de permissões, daí ele poderá permanecer ativo e irá proteger o seu dispositivo.</string>
     <string name="slot_protection_description">Para definir as configurações, abra o menu inferior.</string>
     <string name="slot_start_on_boot_description">Habilitar o carregamento na inicialização permite que o Blokada esteja ativo o tempo todo e proteja seu dispositivo.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Sua versão do Blokada está obsoleta e pode não funcionar corretamente. Por favor, baixe a versão mais recente para continuar recebendo atualizações.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Parece que há muitas versões do Blokada instaladas no seu dispositivo. Gostaria de remover as outras versões e manter apenas uma?</string>
-    <string name="account_inactive">Sua VPN do Blokada expirou. Você não está conectado à VPN.</string>
-    <string name="slot_lease_cant_connect">Não foi possível conectar-se à VPN do Blokada. Tente selecionar outro gateway.</string>
-    <string name="slot_account_cant_create">Não foi possível criar sua conta da VPN do Blokada. Por favor, tente novamente mais tarde ou entre em contato conosco pelo Telegram.</string>
     <string name="slot_account_name_title">ID da conta</string>
     <string name="slot_account_name_desc">Insira seu ID de conta antigo para restaurar sua assinatura anterior. Você pode querer anotar o ID de sua conta atual antes de fazer isso, caso você cometa um erro.</string>
     <string name="slot_account_name_error">O ID da conta pode conter apenas letras e números.</string>
