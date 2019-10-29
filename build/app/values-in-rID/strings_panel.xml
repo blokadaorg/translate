@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Aplikasi Terpasang</string>
     <string name="panel_section_apps_system">Aplikasi Sistem</string>
     <string name="panel_section_advanced_settings">Pengaturan</string>
-    <string name="panel_section_app_settings">Pengaturan Aplikasi</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; diizinkan</string>
     <string name="panel_domain_forwarded_desc">Domain ini telah diperbolehkan. Gunakan tombol di bawah ini untuk memblokir domain tersebut.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Domain ini telah diblokir. Gunakan tombol di bawah ini jika Anda mengizinkan domain tersebut untuk diakses.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
     <string name="panel_ruleset">Penghitung filter</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filter sekarang memiliki %s aturan.</string>
     <string name="panel_ruleset_updating">Memperbaharui filter...</string>
     <string name="panel_ruleset_built">Filter telah dikonfigurasi dengan &lt;b&gt;%s&lt;/b&gt; aturan. Secara keseluruhan, memori perangkat Anda dapat memuat &lt;b&gt;%s&lt;/b&gt; aturan. Namun harap diingat bahwa angka tersebut hanya berupa perkiraan dan bisa saja berubah tergantung kepada jumalh aplikasi yang terinstal di perangkat Anda, sehingga sebaiknya Anda menjaga agar angka tersebut tetap berada di bawah ambang batas.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada terhenti sementara dikarenakan perangkat Anda tidak terkoneksi ke internet. Blokada akan kembali aktif secara otomatis saat perangkat Anda telah terkoneksi ke internet.</string>
     <string name="slot_protection_activating">Blokada sedang diaktifkan</string>
     <string name="slot_protection_active_warning">Blokada telah aktif, namun Anda masih bisa mengkonfigurasi lebih lanjut. Ketuk untuk melihat detailnya.</string>
-    <string name="slot_protection_active">Blokada dan VPN telah aktif</string>
     <string name="slot_protection_action">Pengaturan</string>
-    <string name="slot_protection_ok">Perangkat Anda terlindungi! VPN dan pemblokir iklan telah diaktifkan.</string>
-    <string name="slot_protection_no_adblocking">Pemblokiran iklan &amp; tracker nonaktif. Disarankan untuk mengaktifkannya agar privasi dan data Anda terlindungi.</string>
-    <string name="slot_protection_no_vpn">Anda tidak tersambung dengan Blokada VPN. Kami sarankan Anda menggunakan VPN untuk melindungi privasi dan keamanan Anda.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada tidak dikonfigurasi untuk aktif ketika perangkat dinyalakan. Kami sarankan Blokada tetap aktif sehingga perangkat Anda tetap terlindungi.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada tidak dikecualikan dari moda optimalisasi baterai perangkat Anda, sehingga bisa dimatikan oleh sistem. Disarankan agar Anda memasukkan Blokada ke dalam daftar pengecualian sehingga Blokada bisa tetap aktif dan melindungi perangkat Anda.</string>
     <string name="slot_protection_description">Untuk mengkonfigurasi pengaturan, silakan buka menu bawah.</string>
     <string name="slot_start_on_boot_description">Mengaktifkan Start on Boot memungkinkan Blokada untuk tetap aktif sepanjang waktu dan melindungi perangkat Anda.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Versi Blokada yang Anda gunakan sudah usang dan mungkin tidak bekerja sebagaimana mestinya. Silakan download versi terbaru untuk mendapatkan update.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Sepertinya ada beberapa versi Blokada tersimpan di perangkat Anda. Apakah Anda ingin menghapus versi-versi lainnya dan menyimpan salah satu saja?</string>
-    <string name="account_inactive">Akun Blokada VPN Anda telah kedaluwarsa. Perangkat Anda tidak terhubung ke VPN.</string>
-    <string name="slot_lease_cant_connect">Tidak dapat tersambung ke Blokada VPN. Silakan pilih gateway lain.</string>
-    <string name="slot_account_cant_create">Tidak bisa membuat akun Blokada VPN. Silakan coba kembali beberapa saat lagi atau hubungi kami di Telegram.</string>
     <string name="slot_account_name_title">ID Akun</string>
     <string name="slot_account_name_desc">Masukkan ID akun lama Anda untuk mengembalikan data langganan sebelumnya. Disarankan untuk mencatat ID akun baru sebelum Anda memasukkan ID akun lama, untuk berjaga-jaga jika ID akun yang Anda masukkan salah.</string>
     <string name="slot_account_name_error">ID akun hanya bisa terdiri dari huruf dan angka.</string>
