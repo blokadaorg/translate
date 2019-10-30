@@ -37,8 +37,11 @@
     <string name="home_vpn_enabled">Blokada Tunnel активирован</string>
     <string name="home_vpn_disabled">Blokada Tunnel деактивирован</string>
     <string name="home_account_active">Ваш аккаунт все еще активен</string>
+    <string name="home_connecting_vpn">Подключение к Blokada Tunnel</string>
     <string name="home_cleanup">Рекомендуется очистка</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Подключено к Blokada Tunnel</string>
+    <string name="home_boringtun_not_loaded">К сожалению, ваше устройство не поддерживается Blokada Tunnel. Вы можете воспользоваться другими функциями приложения.</string>
     <string name="home_blocka_vpn_error">Не удалось подключиться к шлюзу. Вы онлайн?</string>
     <string name="home_account_error">Не удалось верифицировать аккаунт. Вы онлайн?</string>
     <string name="home_permission_error">Пожалуйста, предоставьте разрешения VPN.</string>
@@ -53,16 +56,21 @@
     <string name="menu_ads_rules_label">Добавьте свои собственные правила для тонкой настройки блокировки.</string>
     <string name="menu_ads_log_label">Посмотрите, что недавно было заблокировано или разрешено.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Пожалуйста, активируйте сначала свой аккаунт.</string>
     <string name="menu_vpn_select_gateway">Пожалуйста, выберите шлюз.</string>
+    <string name="menu_vpn_intro_button">Почему вам нужен Blokada Tunnel?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Мой Blokada Tunnel</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзы</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Устройства</string>
     <string name="menu_vpn_manage_subscription">Управляйте подпиской вашего аккаунта</string>
     <string name="menu_vpn_manage_subscription_unavailable">Если ваш аккаунт новый, посетите наш веб-сайт. Вы не можете приобрести подписку в Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Нажмите на свой аватар выше, чтобы увидеть ID вашего аккаунта. Помните, что ваш ID необходимо хранить в тайне и хранить в надежном месте. Запишите его на случай удаления приложения.</string>
     <string name="menu_vpn_restore_label">Здесь вы можете восстановить существующий аккаунт, если, например, вы переустановили приложение.</string>
+    <string name="menu_vpn_intro">При использовании Blokada Tunnel передаваемые данные зашифрованы, реальный IP-адрес скрыт, местоположение изменено.</string>
     <string name="menu_vpn_account_label">Для того чтобы использовать VPN, вам нужна активная учетная запись. Проверьте или восстановите свою учетную запись здесь.</string>
     <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет осуществлять безопасную передачу зашифрованных данных через этот шлюз, и вы станете анонимным.</string>
     <string name="menu_vpn_support_label">Если у вас возникли проблемы, не стесняйтесь обращаться к нам.</string>
