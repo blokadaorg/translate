@@ -78,6 +78,9 @@
     <string name="slot_allapp_whitelisted">مُتجاوِز</string>
     <string name="slot_allapp_normal">غَير مُتجاوِز</string>
     <string name="slot_allapp_whitelist">تَجاوز</string>
+    <string name="slot_dns_name">الـ DNS نَشِط</string>
+    <string name="slot_dns_name_private">DNS خاص نَشِط</string>
+    <string name="slot_dns_name_disabled">الـ DNS غير نَشِط</string>
     <string name="slot_action_none">هذا الإجراء غير مُتاح حتّى الآن.</string>
     <string name="slot_action_unwhitelist">إلغاء</string>
     <string name="slot_action_author">حولَ</string>
@@ -123,6 +126,7 @@
     <string name="slot_account_action_unavailable">[لم يُعَيَّن]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">متَّصل إلى %s</string>
+    <string name="slot_gateway_section_partner">تُوفِّر بوّابات الشركاء مواقع إضافيّة. لا تتمّ إدارتها بشكل كامل بواسطة بلوكادا ، لكن ليس لديهم إمكانيّة الوصول إلى حركة المرور المشفّرة الخاصّة بك.</string>
     <string name="slot_gateway_description">الأداء: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;الإقليم: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">هذه البوّابة مشغولة و لا تَقبَل الإتصالات الجديدة.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
