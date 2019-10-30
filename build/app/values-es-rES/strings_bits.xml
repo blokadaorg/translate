@@ -5,12 +5,16 @@
     <string name="home_touch_to_turn_on">Toca para reanudar</string>
     <string name="home_touch_adblocking">Toca para bloquear anuncios</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_setup_vpn">Toca para mejorar tu protección</string>
     <string name="home_blokada_disabled">Blokada está pausado</string>
     <string name="home_activating">Activando</string>
     <string name="home_please_wait">Espera, por favor...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">El Túnel de Blokada está activo sin bloqueo de anuncios.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada está activo en modo DNS.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_touch">Toca para elegir DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s bloqueados</string>
     <string name="home_masterswitch_enabled">Blokada está activado</string>
@@ -30,6 +34,8 @@
     <string name="home_update_required">Actualización necesaria</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donar</string>
+    <string name="home_vpn_enabled">El Túnel de Blokada está activo</string>
+    <string name="home_vpn_disabled">El Túnel de Blokada está desactivado</string>
     <string name="home_account_active">Tu cuenta aún está activa</string>
     <string name="home_cleanup">Se recomienda una limpieza</string>
     <!-- A short text for the button to change VPN settings -->
@@ -78,6 +84,7 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Aprender más</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Obtener ayuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Involúcrate</string>
     <string name="menu_telegram">Chat de Telegram</string>
