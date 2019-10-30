@@ -18,6 +18,7 @@
     <string name="panel_section_apps_all">Установленные приложения</string>
     <string name="panel_section_apps_system">Системные приложения</string>
     <string name="panel_section_advanced_settings">Настройки</string>
+    <string name="panel_section_app_settings">Настройки приложения</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Разрешен &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Этот домен был разрешен. Чтобы заблокировать его, используйте кнопку ниже.</string>
@@ -178,6 +179,9 @@
     <string name="slot_obsolete_desc">Ваша версия Blokada устарела и может работать некорректно. Пожалуйста, загрузите самую новую версию, чтобы получать обновления.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Кажется, на вашем устройстве установлено много версий Blokada. Вы хотите удалить другие версии и оставить только одну?</string>
+    <string name="account_inactive">Для продолжения активируйте или восстановите свой аккаунт.</string>
+    <string name="slot_lease_cant_connect">Не удалось подключиться к Blokada Tunnel. Попробуйте выбрать другой шлюз.</string>
+    <string name="slot_account_cant_create">Не удалось создать аккаунт Blokada Tunnel. Пожалуйста, попробуйте позже или свяжитесь с нами в Telegram.</string>
     <string name="slot_account_name_title">ID аккаунта</string>
     <string name="slot_account_name_desc">Введите старый ID учетной записи, чтобы восстановить предыдущую подписку. Вы можете записать свой текущий ID аккаунта на случай ошибки.</string>
     <string name="slot_account_name_error">ID аккаунта может содержать только буквы и цифры.</string>
