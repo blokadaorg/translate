@@ -22,6 +22,8 @@
     <string name="tunnel_config_powersave_description">Aktivujte tento přepínač, pokud se setkáte s problémy způsobenými funkcemi úspory energie. Když aplikace rozpozná problémy s připojením ke komunikačnímu kanálu, pokusí se zvýšit svou prioritu, aby byla vyřazena z úsporného režimu.</string>
     <string name="tunnel_config_reports_title">Hlášení</string>
     <string name="tunnel_config_reports_description">Aktivováním tohoto přepínače dovolíte aplikaci odesílat hlášení, která nám pomáhají vyřešit problémy a chyby. Hlášení budou odesílána pouze jednou denně, nebo když dojde k selhání aplikace. Pokud tuto volbu vypnete, bude pro nás obtížné vyřešit problémy, se kterými se při používání aplikace setkáváte. Možná budete muset aplikaci restartovat, aby se toto nastavení projevilo.</string>
+    <string name="tunnel_config_wildcard_title">Pokročilá pravidla pro blokování reklam (beta)</string>
+    <string name="tunnel_config_wildcard_description">Aktivujte tento přepínač, pokud chcete v pravidlech filtrování použít zástupné znaky. Například přidání pravidla pro *.google.com by zablokovalo všechny domény od Googlu. To může mít vliv na životnost baterie.</string>
     <string name="tunnel_config_fallback_title">Záložní DNS</string>
     <string name="tunnel_config_fallback_description">Aktivujte tento přepínač, pokud v některých situacích ztrácíte přístup k internetu, jako je například WiFi. Díky tomuto aplikace dočasně přepne na službu Cloudflare DNS, aby byla zajištěna vaše konektivita. Možná budete muset opět vybrat své servery v sekci DNS, aby se toto nastavení projevilo.</string>
 </resources>
