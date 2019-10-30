@@ -78,8 +78,6 @@
     <string name="slot_allapp_whitelisted">Di bypass</string>
     <string name="slot_allapp_normal">Tidak di bypass</string>
     <string name="slot_allapp_whitelist">Bypass</string>
-    <string name="slot_dns_name">Custom DNS sedang aktif</string>
-    <string name="slot_dns_name_disabled">Custom DNS telah dinonaktifkan</string>
     <string name="slot_action_none">Tindakan ini belum bisa dilakukan.</string>
     <string name="slot_action_unwhitelist">Batal</string>
     <string name="slot_action_author">Info Aplikasi</string>
@@ -125,9 +123,7 @@
     <string name="slot_account_action_unavailable">[tidak diterapkan]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Sambungkan ke %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Tersambung ke %s</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ini adalah gateway pilihan Anda sekarang.</string>
     <string name="slot_gateway_overloaded">Gateway ini sedang sibuk dan tidak menerima koneksi baru.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Atur perangkat mana saja yang terhubung ke VPN.</string>
