@@ -18,6 +18,7 @@
     <string name="panel_section_apps_all">已安裝的應用程式</string>
     <string name="panel_section_apps_system">系統應用程式</string>
     <string name="panel_section_advanced_settings">設定</string>
+    <string name="panel_section_app_settings">應用程式設定</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">已允許 &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">已允許此網域。若要封鎖，請使用下方的按鈕。</string>
@@ -178,6 +179,9 @@
     <string name="slot_obsolete_desc">您的 Blokada 太舊了，可能沒辦法正常運作。請下載最新的版本以確保您可以繼續收到更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">您的裝置上似乎安裝了多個版本的 Blokada。您想要移除其他版本並只保留這個嗎？</string>
+    <string name="account_inactive">請啟用或恢復您的帳號以繼續。</string>
+    <string name="slot_lease_cant_connect">無法連線至 Blokada Tunnel。嘗試選取其他閘道。</string>
+    <string name="slot_account_cant_create">無法建立您的 Blokada Tunnel 帳號。請稍後再試或在 Telegram 上聯絡我們。</string>
     <string name="slot_account_name_title">帳號 ID</string>
     <string name="slot_account_name_desc">輸入您舊的帳號 ID 以復原您先前的訂閱。您可能會想要在這麼做之前先寫下您目前的帳號 ID，以免犯錯。</string>
     <string name="slot_account_name_error">帳號 ID 僅能包含字母與數字。</string>
