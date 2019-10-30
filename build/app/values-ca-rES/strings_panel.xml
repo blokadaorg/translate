@@ -69,8 +69,6 @@
     <string name="slot_allapp_whitelisted">Ignorada</string>
     <string name="slot_allapp_normal">No ignorada</string>
     <string name="slot_allapp_whitelist">Ignora</string>
-    <string name="slot_dns_name">El DNS personalitzat està actiu</string>
-    <string name="slot_dns_name_disabled">El DNS personalitzat està desactivat</string>
     <string name="slot_action_none">Aquesta acció encara no està disponible.</string>
     <string name="slot_action_unwhitelist">Cancel·la</string>
     <string name="slot_action_author">Quant a</string>
@@ -115,9 +113,7 @@
     <string name="slot_account_action_copied">L\'ID del compte s\'ha copiat al porta-retalls</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Connectat a %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Connecta a %s</string>
     <string name="slot_gateway_description">Rendiment: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regió: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Rendiment: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regió: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Aquesta és la vostra passarel·la seleccionada actualment.</string>
     <string name="slot_gateway_overloaded">Aquesta passarel·la està ocupada i no accepta noves connexions.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
