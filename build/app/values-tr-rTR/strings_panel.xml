@@ -78,8 +78,6 @@
     <string name="slot_allapp_whitelisted">Atlandı</string>
     <string name="slot_allapp_normal">Atlanmadı</string>
     <string name="slot_allapp_whitelist">Atla</string>
-    <string name="slot_dns_name">Özel DNS etkin</string>
-    <string name="slot_dns_name_disabled">Özel DNS devre dışı bırakıldı</string>
     <string name="slot_action_none">Bu işlem henüz mevcut değil.</string>
     <string name="slot_action_unwhitelist">İptal et</string>
     <string name="slot_action_author">Hakkında</string>
@@ -125,9 +123,7 @@
     <string name="slot_account_action_unavailable">[ayarlanmadı]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">%s’e bağlan</string>
-    <string name="slot_gateway_label_overloaded">[Dolu] %s’e bağlan</string>
     <string name="slot_gateway_description">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Bu, şu anda seçili ağ geçidinizdir.</string>
     <string name="slot_gateway_overloaded">Bu ağ geçidi meşgul ve yeni bağlantılar kabul etmiyor.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Hangi cihazlarınızın VPN\'e bağlandığını kontrol edin.</string>
