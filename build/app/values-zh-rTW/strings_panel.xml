@@ -78,8 +78,6 @@
     <string name="slot_allapp_whitelisted">已繞過</string>
     <string name="slot_allapp_normal">未繞過</string>
     <string name="slot_allapp_whitelist">繞過</string>
-    <string name="slot_dns_name">自訂 DNS 已啟用</string>
-    <string name="slot_dns_name_disabled">自訂 DNS 已停用</string>
     <string name="slot_action_none">這個動作尚未支援。</string>
     <string name="slot_action_unwhitelist">取消</string>
     <string name="slot_action_author">關於</string>
@@ -125,9 +123,7 @@
     <string name="slot_account_action_unavailable">[未設定]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">連線至 %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] 連線至 %s</string>
     <string name="slot_gateway_description">效能：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;區域：&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">效能：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;區域：&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;這是目前您所選擇的閘道。</string>
     <string name="slot_gateway_overloaded">這個閘道忙碌中，不接受任何新連線。</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">控制會連線到 VPN 的裝置。</string>
