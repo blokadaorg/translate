@@ -78,8 +78,6 @@
     <string name="slot_allapp_whitelisted">В обход</string>
     <string name="slot_allapp_normal">Не в обход</string>
     <string name="slot_allapp_whitelist">Обход</string>
-    <string name="slot_dns_name">Пользовательский DNS активирован</string>
-    <string name="slot_dns_name_disabled">Пользовательский DNS деактивирован</string>
     <string name="slot_action_none">Это действие пока не доступно.</string>
     <string name="slot_action_unwhitelist">Отмена</string>
     <string name="slot_action_author">О списке</string>
@@ -125,9 +123,7 @@
     <string name="slot_account_action_unavailable">[не установлено]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Подключиться к %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Подключиться к %s</string>
     <string name="slot_gateway_description">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваш выбранный шлюз.</string>
     <string name="slot_gateway_overloaded">Этот шлюз занят и не принимает новые подключения.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Управляйте вашими устройствами подключающимися к VPN.</string>
