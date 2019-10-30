@@ -18,7 +18,7 @@
     <string name="panel_section_apps_all">Yüklü Uygulamalar</string>
     <string name="panel_section_apps_system">Sistem Uygulamaları</string>
     <string name="panel_section_advanced_settings">Ayarlar</string>
-    <string name="panel_section_app_settings">Uygulama Ayarları</string>
+    <string name="panel_section_app_settings">Uygulama ayarları</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">İzin verilen &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Bu domain\'e izin verilmiştir. Engellemek için aşağıdaki butonu kullanın.</string>
@@ -28,6 +28,7 @@
     <string name="panel_domain_blocked_desc">Bu domain\'e izin verilmiştir. İzin vermek için aşağıdaki butonu kullanın.</string>
     <string name="panel_domain_blocked_toast">Kara listeye eklendi.</string>
     <string name="panel_ruleset">Filtre sayacı</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtrelerin artık %s kuralları var.</string>
     <string name="panel_ruleset_updating">Filtreler güncelleniyor...</string>
     <string name="panel_ruleset_built">Filtreler artık &lt;b&gt;%s&lt;/b&gt; kurallarla yapılandırılmıştır. Genel olarak &lt;b&gt;%s&lt;/b&gt; kural cihazınızın hafızasına sığabilir. Unutmayın, bu sadece bir tahmindir ve cihazınızdaki diğer uygulamalara bağlı olarak değişebilir, bu yüzden güvende olmak için bu limitin çok altında kalmalısınız.</string>
@@ -147,12 +148,7 @@
     <string name="slot_protection_disconnected_desc">Cihazınız İnternet bağlantısını kaybettiği için Blokada duraklatıldı. Blokada tekrar çevrimiçi olduğunuzda otomatik olarak yeniden devreye girecektir.</string>
     <string name="slot_protection_activating">Blokada aktive oluyor</string>
     <string name="slot_protection_active_warning">Blokada aktif, ancak konfigürasyon iyileştirilebilir. Ayrıntılar için dokunun.</string>
-    <string name="slot_protection_active">Blokada ve VPN aktif</string>
     <string name="slot_protection_action">Ayarlar</string>
-    <string name="slot_protection_ok">Cihazınız tamamen korumalı! Hem VPN hem de reklam engelleme etkindir.</string>
-    <string name="slot_protection_no_adblocking">Reklamları engelleme &amp; izleyiciler şu anda devre dışı. Gizliliğinizi ve verilerinizi korumak için etkinleştirmelisiniz.</string>
-    <string name="slot_protection_no_vpn">Blokada VPN\'e bağlı değilsiniz. Gizliliğinizi ve güvenliğinizi daha iyi korumak için göz önünde bulundurmalısınız.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada açılışta başlayacak şekilde yapılandırılmamış. Daha iyi koruma için Blokada\'yı her zaman açık tutmalısınız.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada, cihazınızın batarya optimizasyonundan muaf değil, bu nedenle sistem tarafından sonlandırılabilir. Sistem tercihlerinizi, Blokada\'yı beyaz listeye almak için kullanmalı, böylece cihazınızın üzerinde kalmasını ve korunmasını sağlar.</string>
     <string name="slot_protection_description">Ayarları yapılandırmak için alt menüyü açın.</string>
     <string name="slot_start_on_boot_description">Açılışta başlatmayı etkinleştirmek Blokada\'nın her zaman etkin olmasını ve cihazınızı korumasını sağlar.</string>
@@ -183,9 +179,9 @@
     <string name="slot_obsolete_desc">Blokada sürümünüz eskidir ve düzgün çalışmayabilir. Güncellemeleri almaya devam etmek için lütfen en yeni sürümü indirin.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Cihazınızda yüklü olan birçok Blokada sürümü var. Diğer sürümleri kaldırmak ve yalnızca bir tanesini tutmak ister misiniz?</string>
-    <string name="account_inactive">Blokada VPN\'inizin süresi doldu. VPN\'ye bağlı değilsiniz.</string>
-    <string name="slot_lease_cant_connect">Blokada VPN\'e bağlanılamadı. Başka bir ağ geçidi seçmeyi deneyin.</string>
-    <string name="slot_account_cant_create">Blokada VPN hesabınız oluşturulamadı. Lütfen daha sonra tekrar deneyin veya Telegram\'da bizimle iletişime geçin.</string>
+    <string name="account_inactive">Devam etmek için lütfen hesabınızı aktive edin ya da geri yükleyin.</string>
+    <string name="slot_lease_cant_connect">Blokada Tüneline bağlanılamadı. Başka bir ağ geçidi seçmeyi deneyin.</string>
+    <string name="slot_account_cant_create">Blokada Tüneli hesabınız oluşturulamadı. Lütfen daha sonra tekrar deneyin veya Telegram\'da bizimle iletişime geçin.</string>
     <string name="slot_account_name_title">Hesap kimliği</string>
     <string name="slot_account_name_desc">Önceki aboneliğinizi geri yüklemek için eski hesap kimliğinizi girin. Bir hata yapmanız durumunda, mevcut hesap kimliğinizi yapmadan önce yazmak isteyebilirsiniz.</string>
     <string name="slot_account_name_error">Hesap kimliği yalnızca harf ve rakam içerebilir.</string>

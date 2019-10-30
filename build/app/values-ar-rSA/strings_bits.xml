@@ -5,16 +5,16 @@
     <string name="home_touch_to_turn_on">إضغط للإستئناف</string>
     <string name="home_touch_adblocking">اظغط لحَظْر الإعلانات</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">إضغط لتهيئة الـ VPN</string>
+    <string name="home_setup_vpn">اضغط لترقية حمايتك</string>
     <string name="home_blokada_disabled">بلوكادا متوقِّف</string>
     <string name="home_activating">جارِ التفعيل</string>
     <string name="home_please_wait">الرجاء الإنتظار...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">وضعيّة VPN فقط</string>
+    <string name="home_vpn_only">Blokada Tunnel نَشِط دون حَظْر الإعلانات.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">وضعيّة DNS فقط</string>
+    <string name="home_dns_only">بلوكادا نَشِط في وضع DNS.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">إضغط لتهيئة الـ DNS</string>
+    <string name="home_dns_touch">اضغط لاختيار DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s تَمَّ حَظْر</string>
     <string name="home_masterswitch_enabled">بلوكادا قيد التشغيل</string>
@@ -34,14 +34,14 @@
     <string name="home_update_required">التحديث مطلوب</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">التَّبرُّع</string>
-    <string name="home_vpn_enabled">الـ VBN نَشِط</string>
-    <string name="home_vpn_disabled">الـ VPN غير نَشِط</string>
+    <string name="home_vpn_enabled">Blokada Tunnel نَشِط</string>
+    <string name="home_vpn_disabled">Blokada Tunnel مُعَطَّل</string>
     <string name="home_account_active">حسابك لا يزال نَشِطاً</string>
-    <string name="home_connecting_vpn">جارِ الإتصال بـ VPN</string>
+    <string name="home_connecting_vpn">جارِ الاتصال بـ Blokada Tunnel</string>
     <string name="home_cleanup">يُنصَح بالتنظيف</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">مُتَّصِل بـ VPN</string>
-    <string name="home_boringtun_not_loaded">عذرًا ، جهازك غير مدعوم من Blokada VPN. لا يزال بإمكانك استخدام ميّزات أُخرى.</string>
+    <string name="home_connected_vpn">مُتَّصل بـ Blokada Tunnel</string>
+    <string name="home_boringtun_not_loaded">عذرًا ، جهازك غير مدعوم من Blokada Tunnel. لا يزال بإمكانك استخدام ميّزات أُخرى.</string>
     <string name="home_blocka_vpn_error">لا يمكن الاتصال بالبوابة. هل أنت متّصل؟</string>
     <string name="home_account_error">فشل التأكّد مِن حسابك. هل أنت متصل؟</string>
     <string name="home_permission_error">يُرجى منْح التصريحات للـ VPN.</string>
@@ -56,21 +56,21 @@
     <string name="menu_ads_rules_label">أضِف القواعد الخاصّة بك لضبط الحَظْر.</string>
     <string name="menu_ads_log_label">تَعرَّف على ما تَمّ حَظْره أو السماح به مؤخّراً.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">الرجاء تنشيط حسابك أوّلاً.</string>
     <string name="menu_vpn_select_gateway">الرجاء إختيار بوّابة.</string>
-    <string name="menu_vpn_intro_button">لماذا VPN ؟</string>
+    <string name="menu_vpn_intro_button">لماذا أحتاج Blokada Tunnel ؟</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">الحساب</string>
+    <string name="menu_vpn_account">Blokada Tunnel الخاص بي</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">البوّابات</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">الأجهزة</string>
     <string name="menu_vpn_manage_subscription">إدارة اشتراك حسابك</string>
     <string name="menu_vpn_manage_subscription_unavailable">إذا كان حسابك جديداً ، فتفضل بزيارة موقعنا. لا يُمكِنك شراء اشتراك في Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">مُعرِّف حسابك سرّي و يجب عليك الإحتفاظ به لنفسك. قُم بكتابته في حال قمت بإلغاء تثبيت التطبيق.</string>
+    <string name="menu_vpn_account_secret">انقر فوق الصورة الرمزيّة أعلاه للإطلاع على مُعرِّف حسابك. تذكّر أنّ هويّتك سرّيّة و يجب عليك الإحتفاظ بها لنفسك. أكتبها في حال قمت بإلغاء تثبيت التطبيق.</string>
     <string name="menu_vpn_restore_label">هنا يمكنك إستعادة حسابك الحالي ، على سبيل المثال ، إذا قمت بإعادة تثبيت التطبيق.</string>
-    <string name="menu_vpn_intro">مع VPN تكون بياناتك مشفَّرة ، يَتمّ إخفاء عنوان الـ IP الخاصّ بك ، و يَتمّ تغيير موقعك.</string>
+    <string name="menu_vpn_intro">مع Blokada Tunnel تكون بياناتك مشفَّرة ، يَتمّ إخفاء عنوان الـ IP الخاصّ بك ، و يَتمّ تغيير موقعك.</string>
     <string name="menu_vpn_account_label">من أجل إستخدام الـ VPN ، تحتاج إلى حساب نَشِط. تَحقَّق أو استعد حِسابك هنا.</string>
     <string name="menu_vpn_gateways_label">حدِّد إحدى البوّابات للاتصال بها. سَيُرسِل جهازك بياناتك المشفَّرة بأمان عبر هذه البوابة ، و ستظل مجهول الهويّة.</string>
     <string name="menu_vpn_support_label">إذا واجهت أي مشاكل ، فلا تتردّد في الاتصال بنا.</string>
@@ -92,7 +92,7 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">لمعرفة المزيد</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">مَعرِفة</string>
+    <string name="menu_knowledge">الحصول على مساعدة</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">ساهِم</string>
     <string name="menu_telegram">دردشة تيليغرام</string>

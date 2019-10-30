@@ -18,7 +18,7 @@
     <string name="panel_section_apps_all">Installierte Apps</string>
     <string name="panel_section_apps_system">System-Apps</string>
     <string name="panel_section_advanced_settings">Einstellungen</string>
-    <string name="panel_section_app_settings">App-Einstellungen</string>
+    <string name="panel_section_app_settings">Appeinstellungen</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; zugelassen</string>
     <string name="panel_domain_forwarded_desc">Diese Domain wurde zugelassen. Um sie zu blockieren, benutze den Button unten.</string>
@@ -28,6 +28,7 @@
     <string name="panel_domain_blocked_desc">Diese Domain wurde blockiert. Um sie in Zukunft zu erlauben, benutze den Button unten.</string>
     <string name="panel_domain_blocked_toast">Zur Blacklist hinzugefügt.</string>
     <string name="panel_ruleset">Filterzähler</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filter enthalten jetzt %s Regeln.</string>
     <string name="panel_ruleset_updating">Filter aktualisieren...</string>
     <string name="panel_ruleset_built">Die Filterkonfiguration umfasst nun &lt;b&gt;%s&lt;/b&gt; Regeln. Bis zu &lt;b&gt;%s&lt;/b&gt; Regeln passen insgesamt in den Gerätespeicher. Bedenke, dass dies nur eine Schätzung ist und, abhängig von anderen Apps auf deinem Gerät, Änderungen unterworfen ist, daher solltest du zur Sicherheit, weit unter diesem Limit bleiben.</string>
@@ -147,12 +148,7 @@
     <string name="slot_protection_disconnected_desc">Blokada ist pausiert, weil das Gerät die Internetverbindung verloren hat. Blokada wird sich automatisch aktivieren, sobald die Verbindung wieder verfügbar ist.</string>
     <string name="slot_protection_activating">Blokada wird aktiviert</string>
     <string name="slot_protection_active_warning">Blokada ist aktiv, aber die Konfiguration könnte optimiert werden. Tippe für Details.</string>
-    <string name="slot_protection_active">Blokada und VPN sind aktiv</string>
     <string name="slot_protection_action">Einstellungen</string>
-    <string name="slot_protection_ok">Das Gerät ist vollständig geschützt! VPN und Adblocking sind aktiv.</string>
-    <string name="slot_protection_no_adblocking">Werbung &amp; Tracker blockierung sind derzeit deaktiviert. Du solltest es aktivieren, um deine Privatsphäre und Daten zu schützen.</string>
-    <string name="slot_protection_no_vpn">Du bist nicht mit Blokada VPN verbunden. Du solltest es für einen besseren Schutz deiner Privatsphäre und Sicherheit aktivieren.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada ist so eingestellt das es nicht automatisch mit deinem Gerät mitstartet. Du solltest Blokada für besseren Schutz immer aktiviert halten.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada ist nicht von der Akku-Optimierung deines Geräts ausgenommen, so dass es vom System beendet werden kann. Du solltest Blokada in den Systemeinstellungen von der Optimierung ausschließen, damit es fehlerfrei funktionieren kann.</string>
     <string name="slot_protection_description">Um Einstellungen vorzunehmen, benutze das untere Menü.</string>
     <string name="slot_start_on_boot_description">Die Aktivierung des Autostarts ermöglicht Blokada, jederzeit aktiv zu sein und dein Gerät zu schützen.</string>
@@ -183,9 +179,9 @@
     <string name="slot_obsolete_desc">Deine Version von Blokada ist veraltet und funktioniert evtl. nicht richtig. Bitte lade die neueste Version herunter, um weiterhin Updates zu erhalten.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Es scheint, dass viele Versionen von Blokada auf dem Gerät installiert sind. Sollen die anderen Versionen entfernt werden und nur eine bleiben?</string>
-    <string name="account_inactive">Dein Blokada-VPN ist abgelaufen. Du bist nicht mit dem VPN verbunden.</string>
-    <string name="slot_lease_cant_connect">Die Verbindung zu Blokada VPN konnte nicht hergestellt werden. Versuche ein anderes Gateway auszuwählen.</string>
-    <string name="slot_account_cant_create">Dein \"Blokada VPN\"-Konto konnte nicht erstellt werden. Bitte versuche es später erneut oder kontaktiere uns auf Telegram.</string>
+    <string name="account_inactive">Bitte aktiviere oder oder reaktiviere dein Konto, um fortzufahren.</string>
+    <string name="slot_lease_cant_connect">Konnte nicht mit Blokadas Tunnel verbinden. Probier es mit einem anderen Gateway.</string>
+    <string name="slot_account_cant_create">Ihr Blokada Tunnel Konto konnte nicht erstellt werden. Bitte versuchen es später noch einmal oder kontaktier uns auf Telegramm.</string>
     <string name="slot_account_name_title">Kontokennung</string>
     <string name="slot_account_name_desc">Gib deine alte Kontokennung ein, um dein früheres Abonnement wiederherzustellen. Schreib dir deine jetzige Kontokennung zur Sicherheit auf, falls ein Fehler auftreten sollte.</string>
     <string name="slot_account_name_error">Die Kontokennung kann nur Buchstaben und Nummern enthalten.</string>

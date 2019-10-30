@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Nainstalované aplikace</string>
     <string name="panel_section_apps_system">Systémové aplikace</string>
     <string name="panel_section_advanced_settings">Nastavení</string>
-    <string name="panel_section_app_settings">Nastavení aplikace</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Povoleno &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Tato doména byla povolena. Chcete-li jí zablokovat, použijte tlačítko níže.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Tato doména byla zablokována. Chcete-li ji pro příště povolit, použijte tlačítko níže.</string>
     <string name="panel_domain_blocked_toast">Přidáno do černé listiny.</string>
     <string name="panel_ruleset">Počítadlo filtrů</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtr má nyní %s pravidel.</string>
     <string name="panel_ruleset_updating">Aktualizování filtrů...</string>
     <string name="panel_ruleset_built">Filtry jsou nyní nakonfigurovány s &lt;b&gt;%s&lt;/b&gt; pravidly. Až &lt;b&gt;%s&lt;/b&gt; pravidel se vejde do paměti vašeho přístroje. Nezapomeňte, že se jedná pouze o odhad a může se měnit v závislosti na jiných aplikacích ve vašem zařízení, takže byste měli zůstat pod touto hranicí, abyste byli v bezpečí.</string>
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada je pozastavena, protože zařízení ztratilo internetové připojení. Blokada se automaticky znovu aktivuje, jakmile budete zpět online.</string>
     <string name="slot_protection_activating">Blokada se aktivuje</string>
     <string name="slot_protection_active_warning">Blokada je aktivní, ale konfigurace by mohla být vylepšena. Klepněte pro zobrazení podrobností.</string>
-    <string name="slot_protection_active">Blokada a VPN jsou aktivní</string>
     <string name="slot_protection_action">Nastavení</string>
-    <string name="slot_protection_ok">Vaše zařízení je plně chráněno! VPN i blokování reklam jsou aktivní.</string>
-    <string name="slot_protection_no_adblocking">Blokování reklam &amp; sledovačů je aktuálně zakázáno. Měli byste jej povolit, abyste chránili své soukromí a data.</string>
-    <string name="slot_protection_no_vpn">Nejste připojeni ke službě Blokada VPN. Měli byste zvážit připojení k Blokada VPN pro lepší ochranu vašeho soukromí a bezpečí.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada není nakonfigurován tak, aby se spustila po spouštění systému. Pro lepší ochranu byste měli vždy udržet Blokadu aktivní.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada není vyňata z optimalizace baterie vašeho zařízení, takže ji může systém ukončit. Měli byste použít systémové předvolby pro povolení Blokady, aby mohl váš přístroj zůstat chráněn po celou dobu jeho používání.</string>
     <string name="slot_protection_description">Chcete-li konfigurovat nastavení, otevřete spodní nabídku.</string>
     <string name="slot_start_on_boot_description">Povolení spuštění při startu systému umožňuje Blokadě být neustále aktivní a chránit vaše zařízení.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Vaše verze Blokady je zastaralá a nemusí fungovat správně. Chcete-li i nadále dostávat aktualizace, stáhněte si nejnovější verzi.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Zdá se, že na vašem zařízení je nainstalováno více verzí aplikace Blokada. Chcete odstranit jiné verze a ponechat si jen jednu?</string>
-    <string name="account_inactive">Platnost Blokada VPN vypršela. Nejste připojeni k VPN.</string>
-    <string name="slot_lease_cant_connect">Nelze se připojit k Blokada VPN. Zkuste vybrat jinou bránu.</string>
-    <string name="slot_account_cant_create">Pokud nelze účet Blokada VPN vytvořit, zkuste to prosím znovu později nebo nás kontaktujte na Telegramu.</string>
     <string name="slot_account_name_title">ID účtu</string>
     <string name="slot_account_name_desc">Chcete-li obnovit předchozí předplatné, zadejte své staré ID účtu. Možná budete chtít zapsat své ID účtu před tím, než to uděláte, v případě, že uděláte chybu.</string>
     <string name="slot_account_name_error">ID účtu může obsahovat pouze písmena a čísla.</string>

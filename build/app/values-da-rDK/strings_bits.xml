@@ -6,9 +6,7 @@
     <string name="home_activating">Aktivere</string>
     <string name="home_please_wait">Vent venligst...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Kun VPN mode</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Kun DNS mode</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s blokeret</string>
@@ -22,30 +20,22 @@
     <string name="home_update_required">Opdatering påkrævet</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doner</string>
-    <string name="home_vpn_enabled">VPN er aktiv</string>
-    <string name="home_vpn_disabled">VPN er ikke aktiv</string>
     <string name="home_account_active">Din konto er stadig aktiv</string>
-    <string name="home_connecting_vpn">Forbinder til VPN</string>
     <string name="home_cleanup">Oprydning anbefalet</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Forbundet til VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamer</string>
     <string name="menu_ads_lists_label">Vælg liste til blokering. Standard er god til de fleste folk.</string>
     <string name="menu_ads_rules_label">Tilføj dine egne regler for at fintune blokering.</string>
     <string name="menu_ads_log_label">Se hvad der er blokering og tilladt for nyligt.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Aktiver venligst din konto først.</string>
     <string name="menu_vpn_select_gateway">Vælg venligst en gateway.</string>
-    <string name="menu_vpn_intro_button">Hvorfor VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Konto</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Administrer din kontos abonnement</string>
-    <string name="menu_vpn_account_secret">Din kontos ID er hemmeligt og burde gemmes et sikkert sted. Skriv det ned i tilfælde af du afinstallere appen.</string>
     <string name="menu_vpn_restore_label">Her kan du gendanne din eksisterende konto hvis, for eksempel, du har geninstalleret appen.</string>
     <string name="menu_vpn_gateways_label">Vælg en af de gateways du vil forbinde til. Din enhed vil sende dit krypterede data sikkert til den gateway, og du vil forblive anonym.</string>
     <string name="menu_dns_recommended">Anbefalet DNS servere</string>
@@ -64,7 +54,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Lær mere</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Viden</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Bliv involveret</string>
     <string name="menu_telegram">Telegram chat</string>

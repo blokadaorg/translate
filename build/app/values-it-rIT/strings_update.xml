@@ -17,4 +17,9 @@
     <!-- A button that opens the changelog. -->
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">Avvio, si prega di attendere&#8230;</string>
+    <string name="update_progress">Download in corso: %s%%</string>
+    <string name="update_complete">Download terminato</string>
+    <string name="update_failed">Download fallito</string>
+    <string name="update_instruction">Al termine, ti verrà chiesto di consentire a Blokada di installare l\'aggiornamento.</string>
+    <string name="update_instruction_failed">Tocca qui per provare di nuovo, o tocca a lungo per scaricare con il tuo browser.</string>
 </resources>

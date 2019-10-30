@@ -5,16 +5,16 @@
     <string name="home_touch_to_turn_on">Devam etmek için dokunun</string>
     <string name="home_touch_adblocking">Reklamları engellemek için dokunun</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">VPN kurulumu için dokunun</string>
+    <string name="home_setup_vpn">Korumanızı yükseltmek için dokunun</string>
     <string name="home_blokada_disabled">Blokada duraklatıldı</string>
     <string name="home_activating">Etkinleştiriliyor</string>
     <string name="home_please_wait">Lütfen bekleyin...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Yalnızca VPN modu</string>
+    <string name="home_vpn_only">Blokada Tüneli, reklam engelleme olmadan etkin.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Yalnızca DNS modu</string>
+    <string name="home_dns_only">Blokada, DNS modunda aktif.</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">DNS kurulumu için dokunun</string>
+    <string name="home_dns_touch">DNS seçmek için dokunun</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s reklam engellendi</string>
     <string name="home_masterswitch_enabled">Blokada açık</string>
@@ -34,14 +34,14 @@
     <string name="home_update_required">Güncelleştirme gerekli</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Bağış</string>
-    <string name="home_vpn_enabled">VPN aktif</string>
-    <string name="home_vpn_disabled">VPN devre dışı bırakıldı</string>
+    <string name="home_vpn_enabled">Blokada Tüneli aktif</string>
+    <string name="home_vpn_disabled">Blokada Tüneli devre dışı bırakıldı</string>
     <string name="home_account_active">Hesabınız hala aktif</string>
-    <string name="home_connecting_vpn">VPN\'e bağlanıyor</string>
+    <string name="home_connecting_vpn">Blokada Tüneline bağlanıyor</string>
     <string name="home_cleanup">Temizleme önerilir</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">VPN\'e bağlı</string>
-    <string name="home_boringtun_not_loaded">Üzgünüz, cihazınız Blokada VPN tarafından desteklenmemektedir. Yine de diğer özellikleri kullanabilirsiniz.</string>
+    <string name="home_connected_vpn">Blokada Tüneline bağlandı</string>
+    <string name="home_boringtun_not_loaded">Üzgünüz, cihazınız Blokada Tüneli tarafından desteklenmemektedir. Yine de diğer özellikleri kullanabilirsiniz.</string>
     <string name="home_blocka_vpn_error">Ağ geçidine bağlanılamadı. Çevrimiçi misin?</string>
     <string name="home_account_error">Hesap doğrulanamadı. Çevrimiçi misin?</string>
     <string name="home_permission_error">Lütfen VPN izinleri verin.</string>
@@ -56,21 +56,21 @@
     <string name="menu_ads_rules_label">İnce ayar engellemeye kendi kurallarınızı ekleyin.</string>
     <string name="menu_ads_log_label">Son zamanlarda neyin engellendiğini veya izin verildiğini görün</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
+    <string name="menu_vpn">Blokada Tüneli</string>
     <string name="menu_vpn_activate_account">Lütfen önce hesabınızı etkinleştirin.</string>
     <string name="menu_vpn_select_gateway">Lütfen bir ağ geçidi seçin.</string>
-    <string name="menu_vpn_intro_button">Neden VPN?</string>
+    <string name="menu_vpn_intro_button">Neden Blokada Tüneline ihtiyacım var?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Hesap</string>
+    <string name="menu_vpn_account">Blokada Tünelim</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Ağ geçitleri</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Cihazlar</string>
     <string name="menu_vpn_manage_subscription">Hesap aboneliğinizi yönetin</string>
     <string name="menu_vpn_manage_subscription_unavailable">Hesabınız yeniyse, web sitemizi ziyaret edin. Blokada Slim\'e abonelik satın alamazsınız.</string>
-    <string name="menu_vpn_account_secret">Hesap kimliğiniz gizlidir ve kendinize saklamalısınız. Uygulamayı kaldırırsanız yazınız.</string>
+    <string name="menu_vpn_account_secret">Hesap kimliğinizi görmek için yukarıdaki avatarınıza dokunun. Unutmayın, kimliğiniz gizlidir ve kendinize saklamanız gerekmektedir. Uygulamayı kaldırma ihtimalinize karşı bir yerlere not edin.</string>
     <string name="menu_vpn_restore_label">Burada, örneğin uygulamayı yeniden yüklediyseniz, mevcut hesabınızı geri yükleyebilirsiniz.</string>
-    <string name="menu_vpn_intro">VPN ile verileriniz şifrelenir, IP adresiniz gizlenir ve konumunuz değiştirilir.</string>
+    <string name="menu_vpn_intro">Blokada Tüneli ile verileriniz şifrelenir, IP adresiniz gizlenir ve konumunuz değiştirilir.</string>
     <string name="menu_vpn_account_label">VPN\'i kullanmak için aktif bir hesaba ihtiyacınız var. Burada hesabınızı kontrol edin veya geri yükleyin.</string>
     <string name="menu_vpn_gateways_label">Bağlanılacak ağ geçitlerinden birini seçin. Cihazınız şifrelenmiş verilerinizi bu ağ geçidi üzerinden güvenli bir şekilde gönderir ve siz de isimsiz kalırsınız.</string>
     <string name="menu_vpn_support_label">Herhangi bir sorun yaşarsanız, bizimle iletişime geçmekten çekinmeyin.</string>
@@ -92,7 +92,7 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Daha fazla bilgi edin</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Bilgi</string>
+    <string name="menu_knowledge">Yardım alın</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Katılın</string>
     <string name="menu_telegram">Telegram sohbeti</string>

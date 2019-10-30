@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
-"PO-Revision-Date: 2019-10-28 10:16\n"
+"PO-Revision-Date: 2019-10-29 17:05\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -66,7 +66,7 @@ msgstr "ATIVO"
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -80,7 +80,7 @@ msgstr "ID da Conta"
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "Ativar Conta"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -94,7 +94,7 @@ msgstr "Ativação cancelada"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Ocorreu um erro. Por favor, tente novamente mais tarde."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -112,7 +112,7 @@ msgstr "Ocorreu um erro, por favor, tente novamente mais tarde."
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "Ocorreu um erro. Por favor, verifique seu ID e tente novamente."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
@@ -140,7 +140,7 @@ msgstr "Conta do Blokada"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "A VPN do Blokada usa {link}. As configurações podem ser baixadas ao criar novos dispositivos."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -187,56 +187,56 @@ msgstr "Continuar com o Aplicativo do Blokada"
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Crie e configure dispositivos que possam se conectar."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "DESATIVADO"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "DESATIVANDO"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Dias até expirar: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Excluir"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Dispositivos {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -250,7 +250,7 @@ msgstr "E-mail"
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr ""
+msgstr "EXPIRADO"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
@@ -275,7 +275,7 @@ msgstr "Obtendo informações da conta {spinner}"
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -286,7 +286,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Voltar"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -300,7 +300,7 @@ msgstr "Eu tenho uma carteira Stellar"
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -321,7 +321,7 @@ msgstr "CARREGANDO"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Limite atingido"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -342,28 +342,28 @@ msgstr "Certifique-se de que sua carteira está disponível antes de prosseguir 
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Nome do dispositivo"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "Nova Conta"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr ""
+msgstr "Nova Conta"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Novo dispositivo"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -454,7 +454,7 @@ msgstr "Falha no pagamento, verifique o PayPal para mais detalhes."
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Por favor, verifique o ID da sua conta na tela anterior."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -475,14 +475,14 @@ msgstr "Processando {spinner}"
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Chave Pública"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
@@ -510,7 +510,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Armazene o ID da conta em um local seguro, você precisa dele quando for conectar e ativar o seu dispositivo."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -538,7 +538,7 @@ msgstr "Obrigado!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "O ID da conta não corresponde, verifique se você o armazenou corretamente na tela anterior e tente novamente."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -573,7 +573,7 @@ msgstr "Estamos tendo problemas com a ativação da VPN em versões do F-Droid. 
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Configuração do WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
@@ -601,5 +601,5 @@ msgstr "O seu pagamento foi cancelado e você não será cobrado. Sua conta não
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "novo dispositivo"
 

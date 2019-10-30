@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Zainstalowane aplikacje</string>
     <string name="panel_section_apps_system">Aplikacje systemowe</string>
     <string name="panel_section_advanced_settings">Ustawienia</string>
-    <string name="panel_section_app_settings">Ustawienia aplikacji</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Zezwolono &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Ta domena została zaakceptowana. Aby ją zablokować, użyj przycisku poniżej.</string>
@@ -28,7 +27,8 @@
     <string name="panel_domain_blocked_desc">Ta domena została zablokowana. Aby ją zaakceptować w przyszłości, kliknij przycisk poniżej.</string>
     <string name="panel_domain_blocked_toast">Dodano do czarnej listy.</string>
     <string name="panel_ruleset">Filter liczników</string>
-    <string name="panel_ruleset_title">Filtry mają teraz zasady %s.</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_title">Filtry mają teraz %s zasad.</string>
     <string name="panel_ruleset_updating">Aktualizuję filtry...</string>
     <string name="panel_ruleset_built">Filtry zostały teraz skonfigurowane z zasadami &lt;b&gt;%s&lt;/b&gt;. Aż zasady do &lt;b&gt;%s&lt;/b&gt; może zmieścić się w ogólnej pamięci urządzenia. Pamiętaj, że jest to tylko szacunek i może ulec zmianie w zależności od innych aplikacji na twoim urządzeniu, więc powinieneś być znacznie poniżej tego limitu, aby być bezpiecznym.</string>
     <!-- Button to allow blocked domain -->
@@ -83,9 +83,9 @@
     <string name="slot_action_unwhitelist">Anuluj</string>
     <string name="slot_action_author">Więcej</string>
     <!-- A prefix for generated name for manually entered domain.  -->
-    <string name="slot_input_suggestion">Wejscie</string>
+    <string name="slot_input_suggestion">Wpis</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
-    <string name="slot_input_suggestion_for">Wejście dla %s</string>
+    <string name="slot_input_suggestion_for">Wpis dla %s</string>
     <string name="slot_dns_control_title">Lista serwerów DNS</string>
     <string name="slot_dns_control_description">Możesz zsynchronizować listę serwerów DNS z naszymi serwerami bez utraty własnych wpisów.&lt;br/&gt;&lt;br/&gt; Możesz też usunąć wszystkie wpisy (w tym swoje) i pobrać je ponownie.</string>
     <!-- A button to synchronize (fetch) lists  -->
@@ -147,12 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada została spauzowana ponieważ twoje urządzenie straciło łącze internetowe. Blokada automatycznie włączy się ponownie po połączeniu z siecią.</string>
     <string name="slot_protection_activating">Blokada jest uruchamiana</string>
     <string name="slot_protection_active_warning">Blokada jest aktywna, ale konfiguracja nie może zostać poprawiona. Kliknij po więcej.</string>
-    <string name="slot_protection_active">Blokada i VPN są aktywne</string>
     <string name="slot_protection_action">Ustawienia</string>
-    <string name="slot_protection_ok">Twoje urządzenie jest w pełni chronione! VPN oraz adblock jest aktywny.</string>
-    <string name="slot_protection_no_adblocking">Blokowqanie reklam &amp; trsckerów jest obecnie wyłączone. Włącz tę funkcję, aby chronić swoją prywatność i dane.</string>
-    <string name="slot_protection_no_vpn">Nie masz połączenia z Blokada VPN. Powinieneś to rozważyć, aby lepiej chronić swoją prywatność i bezpieczeństwo.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada nie jest skonfigurowana do uruchamiania podczas rozruchu. Blokada powinna być zawsze włączona dla lepszej ochrony.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada nie jest zwolniona z optymalizacji baterii twojego urządzenia, więc może zostać zabita przez system. Powinieneś użyć swoich preferencji systemowych do białej listy Blokada, aby mogła pozostać włączona i chronić twoje urządzenie.</string>
     <string name="slot_protection_description">Aby skonfigurować ustawienia, otwórz dolne menu.</string>
     <string name="slot_start_on_boot_description">Włączenie startu przy rozruchu pozwala Blokadzie być aktywnym przez cały czas i chronić twoje urządzenie.</string>
@@ -183,9 +178,6 @@
     <string name="slot_obsolete_desc">Twoja wersja Blokady jest przestarzała i może nie działać poprawnie. Pobierz najnowszą wersję, aby nadal otrzymywać aktualizacje.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Wygląda na to, że na twoim urządzeniu zainstalowanych jest wiele wersji Blokady. Czy chcesz usunąć pozostałe wersje i zachować tylko jedną?</string>
-    <string name="account_inactive">Twoja Blokada VPN wygasła. Nie masz połączenia z VPN.</string>
-    <string name="slot_lease_cant_connect">Nie można połączyć się z Blokada VPN. Spróbuj wybrać inną bramę.</string>
-    <string name="slot_account_cant_create">Nie można utworzyć konta Blokada VPN. Spróbuj ponownie później lub skontaktuj się z nami przez Telegram.</string>
     <string name="slot_account_name_title">ID konta</string>
     <string name="slot_account_name_desc">Wprowadź stary identyfikator konta, aby przywrócić poprzednią subskrypcję. Przed zrobieniem tego możesz zapisać swój bieżący identyfikator konta, na wypadek pomyłki.</string>
     <string name="slot_account_name_error">Identyfikator konta może zawierać tylko litery i cyfry.</string>

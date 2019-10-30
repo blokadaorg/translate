@@ -18,7 +18,6 @@
     <string name="panel_section_apps_all">Инсталирани приложения</string>
     <string name="panel_section_apps_system">Системни приложения</string>
     <string name="panel_section_advanced_settings">Настройки</string>
-    <string name="panel_section_app_settings">Настройки на приложението</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Позволен &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Този домейн е разрешен. За да го блокирате използвайте бутона по-долу.</string>
@@ -28,6 +27,7 @@
     <string name="panel_domain_blocked_desc">Този домейн беше блокиран. За да го разрешите за в бъдеще използвайте бутона по-долу.</string>
     <string name="panel_domain_blocked_toast">Добавен е в черния списък.</string>
     <string name="panel_ruleset">Брояч на филтри</string>
+    <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Сега филтрите имат %s правила.</string>
     <string name="panel_ruleset_updating">Филтрите се актуализират...</string>
     <string name="panel_ruleset_built">Сега филтрите са конфигурирани с &lt;b&gt;%s&lt;/b&gt; правила. До &lt;b&gt;%s&lt;/b&gt; правилата могат да се впишат в паметта на устройството като цяло. Не забравяйте, че това е само оценка и подлежи на промяна в зависимост от другите приложения на устройството ви, така че трябва да останете доста под това ограничение за да бъде безопасно.</string>
@@ -147,13 +147,7 @@
     <string name="slot_protection_disconnected_desc">Blokada е поставена на пауза защото устройството ви е загубило интернет връзка. Blokada автоматично ще се активира отново след като се върнете онлайн.</string>
     <string name="slot_protection_activating">Blokada се активира</string>
     <string name="slot_protection_active_warning">Blokada е активна, но конфигурацията може да бъде подобрена. Натиснете за подробности.</string>
-    <string name="slot_protection_active">Blokada и VPN са активни</string>
     <string name="slot_protection_action">Настройки</string>
-    <string name="slot_protection_ok">Вашето устройство е напълно защитено! Активни са както VPN, така и блокирането на реклами.</string>
-    <string name="slot_protection_no_adblocking">Блокирането на реклами &amp; тракерите понастоящем са деактивирани. Трябва да ги активирате за да защитите поверителността и данните си.</string>
-    <string name="slot_protection_no_vpn">Не сте свързани с Blokada VPN. Трябва да помислите за по-добра защита на личния си живот и сигурност.</string>
-    <string name="slot_protection_no_start_on_boot">Blokada не е конфигурирана да се активира при старт на системата.
-Трябва да се пазите, Blokada винаги е за по-добрата защита.</string>
     <string name="slot_protection_no_battery_whitelist">Blokada не е освободена от оптимизацията на батерията на устройството, така че може да бъде убита от системата. Трябва да използвате системните настройки за да включите Blokada в списъка с разрешени, така ще може тя да остане активна и да защитава устройството ви.</string>
     <string name="slot_protection_description">За да конфигурирате настройките, отворете долното меню.</string>
     <string name="slot_start_on_boot_description">Разрешаването на старт със системата позволява на Blokada да бъде активна по всяко време и да предпазва устройството ви.</string>
@@ -184,9 +178,6 @@
     <string name="slot_obsolete_desc">Вашата версия на Blokada е остаряла и може да не работи правилно. Моля, изтеглете най-новата версия за да получавате актуализации.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Изглежда, че на устройството ви са инсталирани няколко версии на Blokada. Искате ли да премахнете другите версии и да запазите само една?</string>
-    <string name="account_inactive">Вашият VPN Blokada, изтече. Не сте свързани с VPN.</string>
-    <string name="slot_lease_cant_connect">Не можа да се свърже с Blokada VPN. Опитайте да изберете друг шлюз.</string>
-    <string name="slot_account_cant_create">Не можахте да създадете профила си в Blokada VPN. Моля, опитайте отново по-късно, или се свържете с нас в Telegram.</string>
     <string name="slot_account_name_title">Профил ID</string>
     <string name="slot_account_name_desc">Въведете стария си идентификационен номер (ID) за да възстановите предишния си абонамент. Може да искате да запишете идентификационния номер на текущия си акаунт преди да възстановите стария, в случай че направите грешка.</string>
     <string name="slot_account_name_error">ID на профила може да съдържа само букви и цифри.</string>

@@ -7,9 +7,7 @@
     <string name="home_activating">Activating</string>
     <string name="home_please_wait">Please wait...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">VPN only mode</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">DNS only mode</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s blocked</string>
@@ -23,30 +21,22 @@
     <string name="home_update_required">Update required</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donate</string>
-    <string name="home_vpn_enabled">VPN is active</string>
-    <string name="home_vpn_disabled">VPN is deactivated</string>
     <string name="home_account_active">Your account is still active</string>
-    <string name="home_connecting_vpn">Connecting to VPN</string>
     <string name="home_cleanup">Cleanup recommended</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Connected to VPN</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Ads</string>
     <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
     <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
     <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">VPN</string>
     <string name="menu_vpn_activate_account">Please activate your account first.</string>
     <string name="menu_vpn_select_gateway">Please select a gateway.</string>
-    <string name="menu_vpn_intro_button">Why use VPN?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Account</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
-    <string name="menu_vpn_account_secret">Your account ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
     <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
     <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
     <string name="menu_dns_recommended">Recommended DNS servers</string>
@@ -65,7 +55,6 @@
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Learn more</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Knowledge</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Get involved</string>
     <string name="menu_telegram">Telegram chat</string>
