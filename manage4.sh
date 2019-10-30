@@ -10,7 +10,7 @@
 # - web-path - Where is Blokada website repo
 
 xml="filter main notification tunnel update dns gscore panel logger widget bits social"
-pages="cleanup.html donate.html help.html obsolete.html updated.html updated_dns.html help_dns.html vpn.html filters.properties dns.properties copyright.libraries.txt"
+pages="cleanup.html donate.html help.html obsolete.html updated.html updated_dns.html help_dns.html vpn.html filters.properties dns.properties"
 legacy=(ca cs de es fa fr he hr hu in it ms nl pl pt ru sl tr vi zh_CN zh_TW)
 legacy_mapped=(ca_ES cs_CZ de_DE es_ES fa_IR fr_FR he_IL hr_HR hu_HU id_ID it_IT ms_MY nl_NL pl_PL pt_PT ru_RU sl_SI tr_TR vi_VN zh_CN zh_TW)
 
