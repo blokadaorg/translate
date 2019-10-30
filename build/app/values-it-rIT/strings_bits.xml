@@ -5,14 +5,16 @@
     <string name="home_touch_to_turn_on">Riattiva</string>
     <string name="home_touch_adblocking">Tocca per bloccare le pubblicità</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_setup_vpn">Tocca per aggiornare la tua protezione</string>
+    <string name="home_setup_vpn">Tocca per migliorare la protezione</string>
     <string name="home_blokada_disabled">Blokada è in pausa</string>
     <string name="home_activating">Attivazione</string>
     <string name="home_please_wait">Attendere prego...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Tunnel è attivo senza blocco pubblicità</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada è attiva in modalità DNS</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_touch">Tocca per scegliere DNS</string>
+    <string name="home_dns_touch">Tocca per scegliere i DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s bloccate</string>
     <string name="home_masterswitch_enabled">Blokada è attiva</string>
@@ -32,14 +34,14 @@
     <string name="home_update_required">Aggiornamento necessario</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Dona</string>
-    <string name="home_vpn_enabled">Il Tunnel di Blokada è attivo</string>
-    <string name="home_vpn_disabled">Il Tunnel di Blokada è disattivato</string>
+    <string name="home_vpn_enabled">Blokada Tunnel è attivo</string>
+    <string name="home_vpn_disabled">Blokada Tunnel è disattivato</string>
     <string name="home_account_active">Il tuo account è ancora attivo</string>
-    <string name="home_connecting_vpn">Connessione al Tunnel di Blokada in corso</string>
+    <string name="home_connecting_vpn">Connessione a Blokada Tunnel</string>
     <string name="home_cleanup">È raccomandata una pulizia</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Collegato al Tunnel di Blokada</string>
-    <string name="home_boringtun_not_loaded">Spiacenti, il tuo dispositivo non supporta il Tunnel di Blokada. Puoi comunque utilizzare le altre funzionalità.</string>
+    <string name="home_connected_vpn">Collegato a Blokada Tunnel</string>
+    <string name="home_boringtun_not_loaded">Spiacenti, il tuo dispositivo non supporta Blokada Tunnel. Puoi comunque utilizzare le altre funzionalità.</string>
     <string name="home_blocka_vpn_error">Impossibile connettersi al gateway. Sei connesso ad una rete?</string>
     <string name="home_account_error">Non è stato possibile verificare l\'account. Sei connesso ad una rete?</string>
     <string name="home_permission_error">Si prega di concedere i permessi per la VPN.</string>
@@ -54,7 +56,7 @@
     <string name="menu_ads_rules_label">Aggiungi le tue regole per perfezionare il blocco.</string>
     <string name="menu_ads_log_label">Guarda cosa è stato bloccato o permesso di recente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">Tunnel di Blokada</string>
+    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Per favore, anzitutto attiva il tuo account.</string>
     <string name="menu_vpn_select_gateway">Per favore, seleziona un gateway.</string>
     <string name="menu_vpn_intro_button">Perché ho bisogno del Tunnel di Blokada?</string>
