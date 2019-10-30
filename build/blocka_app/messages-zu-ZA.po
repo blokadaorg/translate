@@ -13,35 +13,35 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Zulu\n"
 "Language: zu_ZA\n"
-"PO-Revision-Date: 2019-10-28 14:24\n"
+"PO-Revision-Date: 2019-10-30 13:30\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "Inyanga ey-1"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "Izinyanga ezi-12"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "Izinyanga ezi-6"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "Ukubhaliswa okusha kungenzeka kusebenze ngemuva kokuthi umjikelezo wamanje uphelelwe yisikhathi."
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -52,14 +52,14 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "Isiphequluli sangempela siyadingeka. Zama inkinobho ethi \"Vula esipheqululini\" ngezansi."
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "IYASEBENZA"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
@@ -73,7 +73,7 @@ msgstr "I-Akhawunti"
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "I-ID ye-akhawunti"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
@@ -87,7 +87,7 @@ msgstr "Yenza i-akhawunti isebenze"
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Ukusebenza kukhanseliwe"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
@@ -105,7 +105,7 @@ msgstr "Kuvele iphutha, sicela uzame futhi emuva kwesikhathi."
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Kuvele iphutha, sicela uzame futhi emuva kwesikhathi."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
@@ -119,14 +119,14 @@ msgstr "Kuvele iphutha, sicela uqinisekise i-ID yakho bese uzama futhi."
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Vuselela ngokuzenzakalela"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Vuselela ngokuzenzakalela ekupheleni kwesikhathi: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
@@ -147,14 +147,14 @@ msgstr "IBlokada VPN isebenzisa {link}. Ukucushwa kungalandwa kwidivayisi entsha
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Khansela okubhaliselwe"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Ukukhansela {spinner}"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -180,7 +180,7 @@ msgstr "Qhubeka"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Qhubeka nohlelo lokusebenza leBlokada"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
