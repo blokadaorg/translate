@@ -22,8 +22,8 @@
     <string name="tunnel_config_powersave_description">Attiva questa opzione se riscontri problemi causati dalle impostazioni di risparmio energetico del tuo dispositivo. Quando l\'app rileverà problemi di connessione al tunnel, tenterà di aumentare la sua priorità per scavalcare la modalità di risparmio energetico.</string>
     <string name="tunnel_config_reports_title">Rapporti</string>
     <string name="tunnel_config_reports_description">Attiva questa opzione per consentire all\'applicazione di inviarci dei rapporti per aiutarci a risolvere problemi e bug. L\'invio dei rapporti avverrà una sola volta al giorno, o in caso di crash dell\'app. Disabilitare questa opzione potrebbe renderci più difficile risolvere eventuali problemi in cui potresti incorrere. Per rendere effettiva questa impostazione, potresti dover riavviare l\'applicazione.</string>
-    <string name="tunnel_config_wildcard_title">Regole adblock avanzate (beta)</string>
-    <string name="tunnel_config_wildcard_description">Attiva l\'opzione se desideri utilizzare caratteri jolly nelle regole di filtraggio. Ad esempio, aggiungendo una regola per *.google.com bloccherebbe tutti i domini di Google. Questo potrebbe avere un impatto sulla durata della batteria.</string>
+    <string name="tunnel_config_wildcard_title">Regole blocco pubblicità avanzate (beta)</string>
+    <string name="tunnel_config_wildcard_description">Attiva l\'opzione se desideri utilizzare caratteri jolly nelle regole di filtraggio. Ad esempio, aggiungere una regola per *.google.com bloccherebbe tutti i domini di Google. Questo potrebbe avere un impatto sulla durata della batteria.</string>
     <string name="tunnel_config_fallback_title">DNS di riserva</string>
     <string name="tunnel_config_fallback_description">Attiva questa opzione se, in certe situazioni, come con il tuo WiFi, perdi l\'accesso ad Internet. Ciò farà passare temporaneamente l\'applicazione ai DNS di Cloudflare in modo da sostenere la connettività. Per rendere effettiva questa impostazione, potresti dover selezionare nuovamente i tuoi DNS nella sezione dedicata.</string>
 </resources>
