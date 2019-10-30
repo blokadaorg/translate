@@ -78,6 +78,9 @@
     <string name="slot_allapp_whitelisted">Omzeild</string>
     <string name="slot_allapp_normal">Niet omzeild</string>
     <string name="slot_allapp_whitelist">Omzeild</string>
+    <string name="slot_dns_name">DNS is actief</string>
+    <string name="slot_dns_name_private">Privé DNS is actief</string>
+    <string name="slot_dns_name_disabled">DNS is gedeactiveerd</string>
     <string name="slot_action_none">Deze actie is nog niet beschikbaar.</string>
     <string name="slot_action_unwhitelist">Annuleren</string>
     <string name="slot_action_author">Over</string>
@@ -123,6 +126,8 @@
     <string name="slot_account_action_unavailable">[niet ingesteld]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Verbinden met %s</string>
+    <string name="slot_gateway_section_partner">Partner gateways bieden extra locaties. Ze worden niet volledig beheerd door Blokada, maar ze hebben geen toegang tot uw versleuteld verkeer.</string>
+    <string name="slot_gateway_section_overloaded">Deze gateways zijn overbelast en tijdelijk niet beschikbaar.</string>
     <string name="slot_gateway_description">Prestatie: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regio: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Deze gateway is bezet en accepteert geen nieuwe verbindingen.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
