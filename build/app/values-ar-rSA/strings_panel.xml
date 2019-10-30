@@ -78,8 +78,6 @@
     <string name="slot_allapp_whitelisted">مُتجاوِز</string>
     <string name="slot_allapp_normal">غَير مُتجاوِز</string>
     <string name="slot_allapp_whitelist">تَجاوز</string>
-    <string name="slot_dns_name">الـ DNS المُخصَّص مُفعَّل</string>
-    <string name="slot_dns_name_disabled">الـ DNS المُخَصَّص مُعَطَّل</string>
     <string name="slot_action_none">هذا الإجراء غير مُتاح حتّى الآن.</string>
     <string name="slot_action_unwhitelist">إلغاء</string>
     <string name="slot_action_author">حولَ</string>
@@ -125,9 +123,7 @@
     <string name="slot_account_action_unavailable">[لم يُعَيَّن]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">متَّصل إلى %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] إتصل بـ %s</string>
     <string name="slot_gateway_description">الأداء: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;الإقليم: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">الأداء: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;الإقليم: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; هذه هي البوّابة المُحَدّدة حاليّاً.</string>
     <string name="slot_gateway_overloaded">هذه البوّابة مشغولة و لا تَقبَل الإتصالات الجديدة.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">تحكّم في إختيار أي من أجهزتك تتّصل بشبكة VPN.</string>
