@@ -77,8 +77,6 @@
     <string name="slot_allapp_whitelisted">Omitida</string>
     <string name="slot_allapp_normal">No omitida</string>
     <string name="slot_allapp_whitelist">Omitir</string>
-    <string name="slot_dns_name">DNS personalizado está activo</string>
-    <string name="slot_dns_name_disabled">El DNS personalizado está desactivado</string>
     <string name="slot_action_none">Esta acción aún no está disponible.</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
     <string name="slot_action_author">Acerca de</string>
@@ -126,9 +124,7 @@
     <string name="slot_account_action_unavailable">[sin definir]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Conectarse a %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Conectarse a %s</string>
     <string name="slot_gateway_description">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Rendimiento: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Región: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Esta es tu puerta de enlace actualmente seleccionada.</string>
     <string name="slot_gateway_overloaded">Esta puerta de enlace está ocupada y no acepta nuevas conexiones.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Controla qué dispositivos se conectan al VPN.</string>
