@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Zulu\n"
 "Language: zu_ZA\n"
-"PO-Revision-Date: 2019-10-30 13:54\n"
+"PO-Revision-Date: 2019-10-30 14:08\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -433,21 +433,21 @@ msgstr "Khokha €{price} isikhathi ngasinye"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Khokha €{price} usebenzisa i-PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Ukukhokha kwehlulekile, sicela uqinisekise imininingwane yekhadi."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Ukukhokha kwehlulekile, bona i-PayPal ukuthola imininingwane."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
@@ -461,14 +461,14 @@ msgstr "Sicela uqinisekise i-akhawunti yakho ye-akhawunti kusuka esikrinini esed
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Qhubeka esikhwameni"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Iyacubungula {spinner}"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
@@ -489,21 +489,21 @@ msgstr "Gcina"
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "Uxolo"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Uxolo, kuvele iphutha. Sicela uzame futhi emuva kwesikhathi."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "I-Stellar?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
@@ -517,21 +517,21 @@ msgstr "Gcina i-ID ye-akhawunti yakho endaweni ephephile, kufanele ube nayo laph
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "Ukusekelwa"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "Kuthatha isikhathi eside kunalokho obekulindelwe? Bona inkinobho yokusekelwa ngezansi kwesokunxele"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Siyabonga!"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:
@@ -545,28 +545,28 @@ msgstr "Ubunikazi be-akhawunti abuhambelani, qinisekisa ukuthi ulondoloze kahle 
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Leli khasi alikwazanga ukuvela. Uma uhlangabezana nezinkinga, sicela uxhumane nathi ku-{email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "Ilinde i-PayPal ukuze iqinisekise ukukhokha..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Ilinde ukuze iqinisekise ukukhokha..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "Njengamanje sinezinkinga nge-activation ye-VPN kwizinhlelo ze-F-Droid. Le nkinga iyalungiswa, okwamanje ungakhipha uhlelo le-F-Droid bese ulande uhlelo lokusebenza ku-blokada.org esikhundleni salokho."
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
@@ -580,21 +580,21 @@ msgstr "Ukucushwa kwe-WireGuard"
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Bhala umlayezo..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Inkokhelo yakho iyacutshungulwa futhi i-akhawunti yakho izosetshenziswa kungekudala. Uma uhlangabezana nezinkinga, sicela uxhumane nathi ku-{email}."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Inkokhelo yakho ikhanseliwe futhi ngeke uze ukhokhiswe. I-akhawunti yakho ayisebenzi. Uma uhlangabezana nezinkinga, sicela uxhumane nathi ku-{email}."
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
