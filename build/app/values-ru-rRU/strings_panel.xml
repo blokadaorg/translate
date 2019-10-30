@@ -126,6 +126,8 @@
     <string name="slot_account_action_unavailable">[не установлено]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Подключиться к %s</string>
+    <string name="slot_gateway_section_partner">Партнерские шлюзы добавляют дополнительные местоположения. Они управляются Blokada не полностью, но у них нет доступа к вашему зашифрованному трафику.</string>
+    <string name="slot_gateway_section_overloaded">Эти шлюзы перегружены и временно недоступны.</string>
     <string name="slot_gateway_description">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Этот шлюз занят и не принимает новые подключения.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
