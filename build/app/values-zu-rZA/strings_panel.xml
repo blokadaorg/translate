@@ -78,6 +78,9 @@
     <string name="slot_allapp_whitelisted">Ivunyelwe</string>
     <string name="slot_allapp_normal">Ayivunyelwe</string>
     <string name="slot_allapp_whitelist">Vumela</string>
+    <string name="slot_dns_name">I-DNS ivuliwe</string>
+    <string name="slot_dns_name_private">I-DNS yemfihlo ivuliwe</string>
+    <string name="slot_dns_name_disabled">I-DNS ivaliwe</string>
     <string name="slot_action_none">Lesi senzo asitholakali okwamanje.</string>
     <string name="slot_action_unwhitelist">Khansela</string>
     <string name="slot_action_author">Mayelana</string>
@@ -123,6 +126,8 @@
     <string name="slot_account_action_unavailable">[ayisethiwe]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Xhumana ne-%s</string>
+    <string name="slot_gateway_section_partner">Amasango ozakwethu ahlinzeka ngezindawo ezingeziwe. Awaphethwe ngokuphelele yiBlokada, kepha abanakho ukufinyelela kumthamo wakho obethelwe.</string>
+    <string name="slot_gateway_section_overloaded">Lawo masango alayishwe kakhulu futhi awatholakali okwesikhashana.</string>
     <string name="slot_gateway_description">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
