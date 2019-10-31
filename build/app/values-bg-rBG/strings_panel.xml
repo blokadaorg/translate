@@ -79,6 +79,8 @@
     <string name="slot_allapp_normal">Не е заобиколено</string>
     <string name="slot_allapp_whitelist">Заобикаляне</string>
     <string name="slot_dns_name">DNS е активен</string>
+    <string name="slot_dns_name_private">Частният DNS е активен</string>
+    <string name="slot_dns_name_disabled">DNS е деактивиран</string>
     <string name="slot_action_none">Това действие все още не е налице.</string>
     <string name="slot_action_unwhitelist">Отказ</string>
     <string name="slot_action_author">Относно</string>
@@ -124,6 +126,8 @@
     <string name="slot_account_action_unavailable">[не е зададено]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Свързване с %s</string>
+    <string name="slot_gateway_section_partner">Партньорските шлюзове предоставят допълнителни места. Те не се управляват напълно от Blokada, но нямат достъп до вашия криптиран трафик.</string>
+    <string name="slot_gateway_section_overloaded">Тези шлюзове са претоварени и временно недостъпни.</string>
     <string name="slot_gateway_description">Производителност: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Този шлюз е зает и не приема нови връзки.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
