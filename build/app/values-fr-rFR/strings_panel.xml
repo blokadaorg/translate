@@ -78,9 +78,9 @@
     <string name="slot_allapp_whitelisted">Autorisée à contourner</string>
     <string name="slot_allapp_normal">Non autorisée à contourner</string>
     <string name="slot_allapp_whitelist">Autoriser à contourner</string>
-    <string name="slot_dns_name">Le DNS est actif</string>
+    <string name="slot_dns_name">DNS actif</string>
     <string name="slot_dns_name_private">Le DNS privé est actif</string>
-    <string name="slot_dns_name_disabled">Le DNS est inactif</string>
+    <string name="slot_dns_name_disabled">DNS désactivé</string>
     <string name="slot_action_none">Cette action n\'est pas encore disponible.</string>
     <string name="slot_action_unwhitelist">Annuler</string>
     <string name="slot_action_author">À propos</string>
@@ -127,6 +127,7 @@
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Se connecter à %s</string>
     <string name="slot_gateway_section_partner">Les passerelles partenaires fournissent des emplacements supplémentaires. Elles ne sont pas entièrement gérées par Blokada, mais elles n\'ont pas accès à votre trafic chiffré.</string>
+    <string name="slot_gateway_section_overloaded">Ces passerelles sont surchargées et temporairement indisponibles.</string>
     <string name="slot_gateway_description">Performance : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP : &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Région : &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Ce serveur est surchargé et n\'accepte pas de nouvelles connexions.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
