@@ -40,9 +40,9 @@
     <string name="slot_action_remove">移除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
-    <string name="slot_switch_on">是</string>
+    <string name="slot_switch_on">確定</string>
     <!-- A state for switches (like notifications: off) -->
-    <string name="slot_switch_off">否</string>
+    <string name="slot_switch_off">取消</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">如何使用新的使用者介面？輕點這裡以取得簡介。</string>
     <string name="slot_intro_new_header">如何使用新的介面?</string>
@@ -62,12 +62,12 @@
     <string name="slot_enter_domain_desc">輸入網域，並以英文逗號分隔。您也可以貼上任何主機清單的連結，或是匯入本機主機清單的檔案。</string>
     <string name="slot_enter_domain_error">這看起來並不像任何東西。</string>
     <string name="slot_enter_domain_file">檔案</string>
-    <string name="slot_enter_domain_no_file">/Download/blokada/filters 中找不到檔案</string>
+    <string name="slot_enter_domain_no_file">未在 /Download/blokada/filters 找到檔案</string>
     <string name="slot_enter_file_titel">檔案名稱</string>
     <string name="slot_enter_file_import">匯入</string>
     <string name="slot_enter_file_desc">輸入部份檔名</string>
-    <string name="slot_enter_file_not_found">您的輸入中未包含檔案名稱</string>
-    <string name="slot_enter_file_multi">多個檔案符合您的輸入</string>
+    <string name="slot_enter_file_not_found">輸入未包含檔名</string>
+    <string name="slot_enter_file_multi">多個檔案符合輸入</string>
     <string name="slot_enter_name_title">名稱</string>
     <string name="slot_enter_name_desc">輸入新項目的名稱。您也可以產生建議名稱。</string>
     <string name="slot_enter_name_error">這看起來並不像任何東西。</string>
