@@ -118,7 +118,6 @@
     <string name="slot_account_label_active">Akun aktif sampai %s</string>
     <string name="slot_account_label_inactive">Akun tidak aktif</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Kelola</string>
     <string name="slot_account_action_manage_inactive">Aktifkan Akun Anda</string>
     <string name="slot_account_action_change_id">Pulihkan Akun</string>
     <string name="slot_account_show">ID Akun</string>
@@ -131,7 +130,6 @@
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Gateway ini sedang sibuk dan tidak menerima koneksi baru.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Atur perangkat mana saja yang terhubung ke VPN.</string>
     <string name="slot_lease_name_current">%s (perangkat ini)</string>
     <string name="slot_lease_description">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Ini adalah perangkat yang Anda gunakan saat ini.</string>
@@ -140,18 +138,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">rendah</string>
     <string name="subscription_success">Akun Anda sedang diaktifkan. Mungkin akan memakan sedikit waktu. Terima kasih!</string>
-    <string name="slot_protection_header">Status Blokada</string>
-    <string name="slot_protection_off">Blokada tidak aktif</string>
-    <string name="slot_protection_off_desc">Perangkat Anda tidak terlindungi.</string>
-    <string name="slot_protection_error">Blokada untuk sementara tidak aktif</string>
-    <string name="slot_protection_error_desc">Hal ini bisa disebabkan oleh masalah pada jaringan, perangkat atau software. Blokada akan aktif kembali secara otomatis, namun Anda bisa mencoba mengaktifkan Blokada secara manual atau merestart perangkat Anda. Jika masalah berlanjut, silakan hubungi kami di Telegram.</string>
-    <string name="slot_protection_disconnected">Perangkat Anda offline/tidak terkoneksi</string>
-    <string name="slot_protection_disconnected_desc">Blokada terhenti sementara dikarenakan perangkat Anda tidak terkoneksi ke internet. Blokada akan kembali aktif secara otomatis saat perangkat Anda telah terkoneksi ke internet.</string>
-    <string name="slot_protection_activating">Blokada sedang diaktifkan</string>
-    <string name="slot_protection_active_warning">Blokada telah aktif, namun Anda masih bisa mengkonfigurasi lebih lanjut. Ketuk untuk melihat detailnya.</string>
-    <string name="slot_protection_action">Pengaturan</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada tidak dikecualikan dari moda optimalisasi baterai perangkat Anda, sehingga bisa dimatikan oleh sistem. Disarankan agar Anda memasukkan Blokada ke dalam daftar pengecualian sehingga Blokada bisa tetap aktif dan melindungi perangkat Anda.</string>
-    <string name="slot_protection_description">Untuk mengkonfigurasi pengaturan, silakan buka menu bawah.</string>
     <string name="slot_start_on_boot_description">Mengaktifkan Start on Boot memungkinkan Blokada untuk tetap aktif sepanjang waktu dan melindungi perangkat Anda.</string>
     <string name="slot_recommended_dns_label">Gunakan server DNS yang disarankan</string>
     <string name="slot_recommended_dns_description">Jika diaktifkan, Blokada akan secara otomatis memilih server DNS terbaik yang bisa membantu mempercepat akses internet dan melindungi privasi Anda. Jika tidak diaktifkan, server DNS bawaan dari provider Anda yang akan digunakan. Jika Anda secara memilih server DNS secara manual, maka setting di atas akan diabaikan.</string>
