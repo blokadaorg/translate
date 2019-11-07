@@ -23,7 +23,10 @@
     <string name="tunnel_config_reports_title">Berichte</string>
     <string name="tunnel_config_reports_description">Aktiviere diese Einstellung, damit die App Berichte senden kann. Diese helfen uns dabei, Probleme und Fehler zu beheben. Das Senden geschieht nur einmal pro Tag bzw. dann, wenn die App abstürzt. Ist sie deaktiviert, fällt es uns eventuell schwer, alle Probleme zu lösen, die bei dir möglicherweise auftreten. Du musst die App neu starten, damit diese Einstellung wirksam wird.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Erweiterte Werbesperre-Regeln</string>
+    <string name="tunnel_config_wildcard_description">Aktiviere den Schalter, wenn du die Wildcard-Funktion zu deinen Filterregeln hinzufügen möchtest. Zum Beispiel werden alle Domains von Google blockiert, wenn du *.google.com deinen Regeln hinzufügst. Möglicherweise hat dies negative Auswirkungen auf deine Batterieladung. Bitte beachte, dass dies eine experimentelle Funktion ist und möglicherweise nicht richtig funktionieren könnte.</string>
     <string name="tunnel_config_fallback_title">DNS-Fallback</string>
     <string name="tunnel_config_fallback_description">Aktiviere diesen Schalter, wenn in bestimmten Situationen der Internetzugang, z. B. über WLAN, verloren geht. Die App wird dann vorübergehend zu Cloudflare DNS wechseln, um die Verbindung aufrecht zu erhalten. Du musst möglicherweise deine Server im DNS-Bereich neu auswählen, damit diese Einstellung wirksam wird.</string>
+    <string name="tunnel_config_smartlist_title">[BETA] Intelligente Liste</string>
+    <string name="tunnel_config_disable_wildcard">Deaktiviere zuerst erweiterte Adblocking-Regeln.</string>
     <string name="tunnel_config_disable_smartlist">Intelligente Liste zuerst deaktivieren.</string>
 </resources>
