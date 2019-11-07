@@ -22,6 +22,11 @@
     <string name="tunnel_config_powersave_description">Activeer deze schakelaar indien u problemen ondervindt door het accubesparings feature van uw aparaat. Als de app tunnel verbindingsproblemen dedecteert wordt er geprobeerd de prioriteit te verhogen om hem uit accubesparing te brengen.</string>
     <string name="tunnel_config_reports_title">Rapporten</string>
     <string name="tunnel_config_reports_description">Activeer deze schakelaar om de app toe te staan om rapporten te sturen die ons helpen problemen en bugs op te lossen. Dit zal slechts één keer per dag gebeuren, of wanneer de app crasht. Het uitschakelen van deze functie kan het voor ons moeilijk maken om problemen op te lossen die u kunt ondervinden. U moet de app opnieuw opstarten om deze instelling uit te voeren.</string>
+    <string name="tunnel_config_wildcard_title">[BETA] Geavanceerde adblocking regels</string>
+    <string name="tunnel_config_wildcard_description">Activeer deze schakelaar als je wildcards wilt gebruiken in je filterregels. Bijvoorbeeld, het toevoegen van een regel voor *.google.com zal alle domeinen van Google blokkeren. Dit kan negatieve gevolgen hebben voor de levensduur van de batterij. Houd er rekening mee dat dit een experimentele functie is en mogelijk niet goed werkt.</string>
     <string name="tunnel_config_fallback_title">DNS fallback</string>
     <string name="tunnel_config_fallback_description">Activeer deze schakelaar als u in soms internet toegang verliest, zoals uw WiFi. Dan schakelt de app tijdelijk over naar Cloudflare DNS om uw connectiviteit te behouden. U moet wellicht uw servers opnieuw selecteren in de DNS-sectie om deze instelling in werking te laten treden.</string>
+    <string name="tunnel_config_smartlist_title">[BETA] Slimme Lijst</string>
+    <string name="tunnel_config_disable_wildcard">Schakel de geavanceerde adblokkeringsregels eerst uit.</string>
+    <string name="tunnel_config_disable_smartlist">Schakel Slimme Lijst eerst uit.</string>
 </resources>
