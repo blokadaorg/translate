@@ -27,6 +27,7 @@
     <string name="tunnel_config_fallback_title">DNS-Fallback</string>
     <string name="tunnel_config_fallback_description">Aktiviere diesen Schalter, wenn in bestimmten Situationen der Internetzugang, z. B. über WLAN, verloren geht. Die App wird dann vorübergehend zu Cloudflare DNS wechseln, um die Verbindung aufrecht zu erhalten. Du musst möglicherweise deine Server im DNS-Bereich neu auswählen, damit diese Einstellung wirksam wird.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Intelligente Liste</string>
+    <string name="tunnel_config_smartlist_description">Aktivieren sie diesen Schalter um das Smart-List-Feature zu aktivieren, was die Anzahl an Regeln deutlich reduzieren und den Batterieverbrauch und die RAM-Nutzung senken wird. Ist die Einstellung aktiviert wird Blokada deinen Request-Log durchsuchen und eine Liste erstellen, die alle Regeln enthält, die mindestens einmal gebraucht wurden. Die Smart-List updated sich jede Nacht. Bitte beachte, dass möglicherweise während des Anlernprozesses (dauert einige Tage) mehr ungewollte Anfragen erlaubt werden. Ebenso ist dies ein experiemtelles Feature und funktioniert möglicherweise nicht richtig.</string>
     <string name="tunnel_config_disable_wildcard">Deaktiviere zuerst erweiterte Adblocking-Regeln.</string>
     <string name="tunnel_config_disable_smartlist">Intelligente Liste zuerst deaktivieren.</string>
 </resources>
