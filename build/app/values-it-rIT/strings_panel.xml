@@ -118,7 +118,6 @@
     <string name="slot_account_label_active">Account attivo fino al %s</string>
     <string name="slot_account_label_inactive">Account inattivo</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Gestisci</string>
     <string name="slot_account_action_manage_inactive">Attiva account</string>
     <string name="slot_account_action_change_id">Recupera account</string>
     <string name="slot_account_show">ID account</string>
@@ -131,7 +130,6 @@
     <string name="slot_gateway_description">Prestazioni: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regione: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Questo gateway è pieno e non accetta nuove connessioni.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Controlla quale dei tuoi dispositivi è connesso alla VPN.</string>
     <string name="slot_lease_name_current">%s (questo dispositivo)</string>
     <string name="slot_lease_description">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Questo è il tuo dispositivo attuale.</string>
@@ -140,18 +138,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">basso</string>
     <string name="subscription_success">Il tuo account è in fase di attivazione. Questo potrebbe richiedere alcuni secondi. Grazie!</string>
-    <string name="slot_protection_header">Stato Blokada</string>
-    <string name="slot_protection_off">Blokada è inattiva</string>
-    <string name="slot_protection_off_desc">Il tuo dispositivo non è protetto.</string>
-    <string name="slot_protection_error">Blokada è temporaneamente disabilitata</string>
-    <string name="slot_protection_error_desc">Ciò potrebbe essere causato da problemi di rete temporanei, da problemi con il tuo dispositivo o con il software. Blokada si riattiverà in automatico a breve, ma potresti provare a riattivare l\'app manualmente o riavviare il telefono. Se continui ad avere problemi, per favore contattaci su Telegram.</string>
-    <string name="slot_protection_disconnected">Il tuo dispositivo è offline</string>
-    <string name="slot_protection_disconnected_desc">Blokada è in pausa perché il tuo dispositivo ha perso la connessione ad Internet. Blokada si riattiverà automaticamente non appena tornerai online.</string>
-    <string name="slot_protection_activating">Blokada si sta attivando</string>
-    <string name="slot_protection_active_warning">Blokada è attiva, ma la configurazione potrebbe essere migliorata. Clicca per dettagli.</string>
-    <string name="slot_protection_action">Impostazioni</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada non è esente dall\'ottimizzazione batteria del tuo dispositivo, perciò può essere terminata dal sistema. Dovresti modificare le impostazioni del tuo dispositivo per aggiungere Blokada alla whitelist in modo che possa restare attiva e proteggerti.</string>
-    <string name="slot_protection_description">Per modificare le impostazioni, apri il menù in basso.</string>
     <string name="slot_start_on_boot_description">Abilitare l\'avvio al boot permette a Blokada di rimanere sempre attiva e proteggere il tuo dispositivo.</string>
     <string name="slot_recommended_dns_label">Usa i server DNS raccomandati</string>
     <string name="slot_recommended_dns_description">Quando abilitata, Blokada sceglierà in automatico i server DNS raccomandati per velocizzare la tua connessione Internet e proteggere la tua privacy. Altrimenti, verranno utilizzati i server DNS di default della tua rete. Se scegli manualmente i server DNS nella sezione Avanzate, questa impostazione sarà ignorata.</string>
