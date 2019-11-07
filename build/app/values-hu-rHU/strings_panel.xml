@@ -115,7 +115,6 @@
     <string name="slot_account_label_active">A fiók eddig aktív: %s</string>
     <string name="slot_account_label_inactive">Fiók inaktív</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Kezelés</string>
     <string name="slot_account_action_manage_inactive">Fiók aktiválása</string>
     <string name="slot_account_action_change_id">Fiók visszaállítása</string>
     <string name="slot_account_show">Fiókazonosító</string>
@@ -126,7 +125,6 @@
     <string name="slot_gateway_description">Teljesítmény: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Régió: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Ez az átjáró foglalt, és nem fogad új csatlakozásokat.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Vezérelheted, hogy melyik készülékek csatlakozzanak a VPN-hez.</string>
     <string name="slot_lease_name_current">%s (ez a készülék)</string>
     <string name="slot_lease_description">Készülék azonosító: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">Készülék azonosító: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Ez az aktuális készüléked.</string>
@@ -135,18 +133,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">alacsony</string>
     <string name="subscription_success">Fiókod aktiválva van. Ez eltarthat néhány másodpercig. Köszönjük!</string>
-    <string name="slot_protection_header">Blokada állapota</string>
-    <string name="slot_protection_off">Blokada inaktív</string>
-    <string name="slot_protection_off_desc">A készüléked nem védett.</string>
-    <string name="slot_protection_error">A Blokada ideiglenesen inaktív</string>
-    <string name="slot_protection_error_desc">Ezt az ideiglenes hálózati problémák, készülék- vagy a szoftverproblémák okozzák. A Blokada automatikusan újraaktiválódik, de megpróbálhatod újraindítani az alkalmazást, vagy újraindítani a telefont. Ha továbbra is problémáid vannak, kérjük, lépj velünk kapcsolatba a Telegram csatornánkon.</string>
-    <string name="slot_protection_disconnected">A készüléked offline állapotban van</string>
-    <string name="slot_protection_disconnected_desc">A Blokada szüneteltetésre került, mert a készüléked elveszítette az internetkapcsolatot. A Blokada automatikusan újraaktiválódik, ha újra online leszel.</string>
-    <string name="slot_protection_activating">Blokada aktiválása</string>
-    <string name="slot_protection_active_warning">A Blokada aktív, de a konfigurációja javítható. Érintsd meg a részletekért.</string>
-    <string name="slot_protection_action">Beállítások</string>
-    <string name="slot_protection_no_battery_whitelist">A Blokada nem mentesül a készüléked akkumulátoroptimalizálása alól, így a rendszer kilövi. A rendszerbeállításokban add a Blokada-t a kivételekhez, hogy életben maradhasson és védje a készüléked.</string>
-    <string name="slot_protection_description">A beállítások konfigurálásához nyisd meg az alsó menüt.</string>
     <string name="slot_start_on_boot_description">Az bootoláskor indul engedély lehetővé teszi, hogy a Blokada mindig aktív legyen és védje a készüléket.</string>
     <string name="slot_recommended_dns_label">Az ajánlott DNS-kiszolgálók használata</string>
     <string name="slot_recommended_dns_description">Ha ez a funkció engedélyezve van, a Blokada automatikusan kiválasztja az ajánlott DNS-kiszolgálókat, hogy felgyorsítsa az internetet és védje az adatait. Ellenkező esetben a hálózat alapértelmezett DNS-kiszolgálóit használja. Ha a Haladó részben manuálisan választod ki a DNS-kiszolgálókat, ez a beállítás figyelmen kívül marad.</string>
