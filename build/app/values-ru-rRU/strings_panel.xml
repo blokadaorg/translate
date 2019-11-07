@@ -118,6 +118,7 @@
     <string name="slot_account_label_active">Аккаунт активен до %s</string>
     <string name="slot_account_label_inactive">Аккаунт не активен</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Управление подпиской</string>
     <string name="slot_account_action_manage_inactive">Активировать аккаунт</string>
     <string name="slot_account_action_change_id">Восстановить аккаунт</string>
     <string name="slot_account_show">ID аккаунта</string>
@@ -129,7 +130,10 @@
     <string name="slot_gateway_section_overloaded">Эти шлюзы перегружены и временно недоступны.</string>
     <string name="slot_gateway_description">Производительность: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регион: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Этот шлюз занят и не принимает новые подключения.</string>
+    <string name="slot_gateway_learn_more">Узнайте больше о шлюзах</string>
+    <string name="slot_gateway_info_partner">Что такое партнерские шлюзы?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Контролируйте, какие из ваших устройств подключаются к Blokada Tunnel.</string>
     <string name="slot_lease_name_current">%s (это устройство)</string>
     <string name="slot_lease_description">ID устройства: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID устройства: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Это ваше текущее устройство.</string>
