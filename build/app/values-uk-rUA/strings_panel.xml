@@ -114,7 +114,6 @@
     <string name="slot_account_label_active">Підписка активна до %s</string>
     <string name="slot_account_label_inactive">Підписка неактивна</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Керувати</string>
     <string name="slot_account_action_manage_inactive">Активувати підписку</string>
     <string name="slot_account_action_change_id">Відновити підписку</string>
     <string name="slot_account_show">Ідентифікатор</string>
@@ -125,7 +124,6 @@
     <string name="slot_gateway_description">Швидкість: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Регіон: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Цей шлюз надто навантажений і не приймає нові з\'єднання.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Керуйте пристроями, що підключаються до VPN.</string>
     <string name="slot_lease_name_current">%s (цей пристрій)</string>
     <string name="slot_lease_description">ID пристрою: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID пристрою: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Це ваш поточний пристрій.</string>
@@ -134,18 +132,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">низька</string>
     <string name="subscription_success">Ваша підписка активується. Це може тривати кілька секунд. Дякуємо!</string>
-    <string name="slot_protection_header">Статус Blokada</string>
-    <string name="slot_protection_off">Blokada неактивна</string>
-    <string name="slot_protection_off_desc">Ваш пристрій не захищено.</string>
-    <string name="slot_protection_error">Blokada тимчасово неактивна</string>
-    <string name="slot_protection_error_desc">Це може бути спричинено тимчасовими проблемами мережі, пристрою чи його програмного забезпечення. Blokada скоро знов активується, але Ви також можете спробувати перезапустити додаток або пристрій. Якщо проблема не зникне, напишіть нам у Telegram для допомоги.</string>
-    <string name="slot_protection_disconnected">Пристрій поза мережею</string>
-    <string name="slot_protection_disconnected_desc">Blokada призупинена, оскільки пристрій зараз не має доступу до мережі. Blokada продовжить роботу одразу після приєднання.</string>
-    <string name="slot_protection_activating">Blokada активується</string>
-    <string name="slot_protection_active_warning">Blokada працює, але її налаштування можуть бути покращені. Натисніть для деталей.</string>
-    <string name="slot_protection_action">Налаштування</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada не виключена із оптимізації використання батареї на Вашому пристрої, тож може бути закрита системою. Вам варто дозволити Blokada працювати без оптимізації у налаштуваннях живлення пристрою.</string>
-    <string name="slot_protection_description">Для налаштування відкрийте нижнє меню.</string>
     <string name="slot_start_on_boot_description">Увімкнення запуску при завантаженні пристрою дозволить Blokada захищати Вас постійно.</string>
     <string name="slot_recommended_dns_label">Використовувати бажані DNS</string>
     <string name="slot_recommended_dns_description">Коли увімкнено, Blokada буде автоматично обирати бажані DNS сервери, щоб покращити приватність та прискорити доступ до ресурсів. Інакше будуть використовуватися типові DNS вашої мережі. Якщо Ви самостійно оберете сервери у розширених налаштуваннях, це налаштування не буде застосовуватися.</string>
