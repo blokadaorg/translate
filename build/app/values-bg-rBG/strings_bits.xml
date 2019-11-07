@@ -39,6 +39,7 @@
     <string name="home_blocka_vpn_error">Не можа да се свърже с шлюза. Online ли сте?</string>
     <string name="home_account_error">Профилът не може да бъде потвърден. Online ли сте?</string>
     <string name="home_permission_error">Моля, дайте разрешения за VPN.</string>
+    <string name="home_zero_filters_error">Нямате конфигурирани филтри. Проверете настройките за блокиране на рекламите и wifi.</string>
     <string name="home_filters_memory_error">Не може да се заредят всички филтри в паметта. Проверете настройките си за блокиране.</string>
     <string name="tasker_switch_label">Докоснете една от опциите за да го конфигурирате и да включите (или изключите) процеса.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
@@ -47,6 +48,7 @@
     <string name="menu_ads_clear_log">Изчистване на дневника с хостове</string>
     <string name="menu_ads_lists_label">Изберете списъци, които да използвате за блокиране. По подразбиране е добре за повечето хора.</string>
     <string name="menu_ads_rules_label">Добавете свои собствени правила за фина настройка на блокирането.</string>
+    <string name="menu_ads_log_label">Вижте какво е блокирано или разрешено наскоро.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Моля, първо активирайте профила си.</string>
@@ -54,6 +56,7 @@
     <string name="menu_vpn_intro_button">Защо ми трябва Blokada Tunnel?</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">Моят Blokada Tunnel</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзове</string>
     <!-- A button opening VPN leases (devices) settings -->
@@ -67,6 +70,13 @@
     <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви ще изпраща криптирани данни сигурно чрез този шлюз и ще останете анонимни.</string>
     <string name="menu_vpn_support_label">Ако имате някакви проблеми, не се колебайте да се свържете с нас.</string>
     <string name="menu_vpn_support_button">Поддръжка</string>
+    <string name="menu_vpn_tunnel_settings">Настройки на Blokada Tunnel</string>
+    <string name="menu_vpn_tunnel_learn_more">Научете повече за Blokada Tunnel</string>
+    <string name="menu_vpn_info_account_label">Имам ли профил?</string>
+    <string name="menu_vpn_info_account_line1">Да! Вашият профил се създава автоматично при първото пускане. Не е необходимо да се регистрирате.</string>
+    <string name="menu_vpn_info_account_line2">Докоснете аватара си по-горе за да видите ID на профила си.</string>
+    <string name="menu_vpn_info_account_line3">Идентификационният номер (ID) на профила ви е секретен и не трябва да го показвате на никого.</string>
+    <string name="menu_vpn_info_account_line4">Запишете идентификационния номер на акаунта си, в случай че трябва да преинсталирате приложението.</string>
     <string name="menu_dns_recommended">Препоръчителни DNS сървъри</string>
     <string name="menu_dns_intro">DNS отговаря за свързването на устройството ви с уеб сайтове и приложения, които използвате. Изборът на добър DNS може да ускори устройството и ще спомогне за защитата на вашата поверителност.</string>
     <string name="menu_dns_select">Изберете един от DNS сървърите.</string>
