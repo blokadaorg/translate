@@ -48,6 +48,7 @@
     <string name="menu_ads_clear_log">Pulisci cronologia host</string>
     <string name="menu_ads_lists_label">Seleziona le liste da utilizzare per il blocco. I valori predefiniti sono validi per la maggior parte delle persone.</string>
     <string name="menu_ads_rules_label">Aggiungi le tue regole per perfezionare il blocco.</string>
+    <string name="menu_ads_log_label">Guarda cosa è stato bloccato o consentito recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Per favore, anzitutto attiva il tuo account.</string>
@@ -55,6 +56,7 @@
     <string name="menu_vpn_intro_button">Perché ho bisogno di Blokada Tunnel?</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">Il mio Blokada Tunnel</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateway</string>
     <!-- A button opening VPN leases (devices) settings -->
@@ -68,12 +70,20 @@
     <string name="menu_vpn_gateways_label">Seleziona uno dei gateway a cui connetterti. Il dispositivo invierà i tuoi dati crittografati in modo sicuro attraverso quel gateway, garantendo l\'anonimato.</string>
     <string name="menu_vpn_support_label">Per qualsiasi problema, non esitare a contattarci.</string>
     <string name="menu_vpn_support_button">Supporto</string>
+    <string name="menu_vpn_tunnel_settings">Impostazioni tunnel Blokada</string>
+    <string name="menu_vpn_tunnel_learn_more">Ulteriori informazioni sul Tunnel Blokada</string>
+    <string name="menu_vpn_info_account_label">Ho un account?</string>
+    <string name="menu_vpn_info_account_line1">Sì! Il tuo account viene creato automaticamente al primo avvio. Non è necessario registrarsi.</string>
+    <string name="menu_vpn_info_account_line2">Tocca il tuo avatar qui sopra per vedere l\'ID del tuo account.</string>
+    <string name="menu_vpn_info_account_line3">L\'ID del tuo account è segreto e non dovresti mostrarlo a nessuno.</string>
+    <string name="menu_vpn_info_account_line4">Annota l\'ID del tuo account nel caso in cui sia necessario reinstallare l\'app.</string>
     <string name="menu_dns_recommended">Server DNS consigliati</string>
     <string name="menu_dns_intro">I DNS sono responsabili della connessione del tuo dispositivo ai siti web e alle applicazioni che usi. Scegliere dei buoni DNS può velocizzare il tuo dispositivo e aiuterà a proteggere la tua privacy.</string>
     <string name="menu_dns_select">Seleziona uno dei server DNS.</string>
     <string name="menu_apps_intro">Alcune applicazioni potrebbero non funzionare correttamente con Blokada. Ad esempio, potrebbero avere problemi di connessione.\n\nL\'attivazione della VPN è spesso d\'aiuto in questi casi.\n\nAltrimenti, è possibile far eludere a queste app il controllo di Blokada. Ricorda, le app che eludono il controllo di Blokada comunicano al di fuori della VPN.</string>
     <string name="menu_apps_system_label">Le app di sistema sono quelle preinstallate con il tuo dispositivo. Alcune di esse sono nascoste. Modificale solo se sai cosa stai facendo.</string>
     <string name="menu_host_list_intro">Le liste degli host contengono regole per bloccare annunci e tracker. Cerca di mantenere basso il numero di liste attive.</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
     <string name="menu_host_adblocking_settings">Impostazioni blocco pubblicità</string>
     <string name="menu_host_list_status">Stato lista</string>
     <string name="menu_host_list_download">Impostazioni download lista</string>
