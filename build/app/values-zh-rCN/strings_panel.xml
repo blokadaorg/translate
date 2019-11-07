@@ -95,7 +95,6 @@
     <string name="slot_adblocking_label">屏蔽广告 &amp; 跟踪器</string>
     <string name="slot_adblocking_text">启用时，Blokada将屏蔽广告、跟踪器和其他不想要的内容。这有助于保护您的隐私，加速您的设备并保存您的数据。</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">管理</string>
     <string name="slot_account_action_manage_inactive">激活帐户</string>
     <string name="slot_account_action_change_id">恢复帐户</string>
     <string name="slot_account_action_copied">帐户ID已复制到剪贴板</string>
@@ -109,18 +108,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
     <string name="subscription_success">您的帐户正在激活。这可能需要几秒钟。谢谢！</string>
-    <string name="slot_protection_header">Blokada 状态</string>
-    <string name="slot_protection_off">Blokada 处于不活动状态</string>
-    <string name="slot_protection_off_desc">您的设备没有受到保护。</string>
-    <string name="slot_protection_error">Blokada 暂时处于活动状态</string>
-    <string name="slot_protection_error_desc">这可能是由于临时网络问题、设备或软件问题造成的。Blokada会自动重启，但是您也可以尝试再次打开应用程序或重启您的手机。如果您仍然存在问题，请联系我们在 Telegram 上帮助。</string>
-    <string name="slot_protection_disconnected">您的设备离线</string>
-    <string name="slot_protection_disconnected_desc">Blokada 被暂停，因为您的设备丢失了互联网连接。Blokada将在您返回在线时自动恢复。</string>
-    <string name="slot_protection_activating">Blokada 正在激活</string>
-    <string name="slot_protection_active_warning">Blokada 是活跃的，但可以改进配置。点击查看详细信息。</string>
-    <string name="slot_protection_action">设置</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada 不受设备电池优化的影响，所以它可能被系统杀死。您应该使用您的系统偏好设置为白名单 Blokada，以便它能够继续并保护您的设备。</string>
-    <string name="slot_protection_description">要配置设置，打开底部菜单。</string>
     <string name="slot_start_on_boot_description">启动时启用启动，允许 Blokada 随时激活并保护您的设备。</string>
     <string name="slot_recommended_dns_label">使用推荐的 DNS 服务器</string>
     <string name="slot_recommended_dns_description">启用时，Blokada将自动选择推荐的 DNS 服务器来帮助加速您的互联网和保护您的隐私。否则，使用了您的网络的默认DNS服务器。如果您手动选择高级部分的DNS服务器，此设置被忽略。</string>
