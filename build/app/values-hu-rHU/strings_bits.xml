@@ -25,6 +25,7 @@
     <string name="home_update_required">Frissítés szükséges</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Támogatás</string>
+    <string name="home_vpn_enabled">Blokada Tunnel aktív</string>
     <string name="home_account_active">A fiókod még aktív</string>
     <string name="home_cleanup">Tisztítás ajánlott</string>
     <!-- A short text for the button to change VPN settings -->
@@ -32,6 +33,7 @@
     <string name="home_blocka_vpn_error">Nem sikerült csatlakozni az átjáróhoz. Online vagy?</string>
     <string name="home_account_error">Fiók hitelesítése sikertelen. Online vagy?</string>
     <string name="home_permission_error">Kérjük, add meg a VPN engedélyeket.</string>
+    <string name="home_zero_filters_error">Nincs szűrő konfigurálva. Ellenőrizd a hirdetés blokkolás és a Wi-Fi beállításait.</string>
     <string name="home_filters_memory_error">Az összes szűrő nem tölthető a memóriába. Ellenőrizd a hirdetés blokkolás beállításait.</string>
     <string name="tasker_switch_label">Érintsd meg az egyik lehetőséget az aktiválás (vagy deaktiválás) konfigurálásához.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
@@ -40,12 +42,14 @@
     <string name="menu_ads_clear_log">Hoszt napló törlése</string>
     <string name="menu_ads_lists_label">Válaszd ki a blokkoláshoz használt listákat. Az alapértelmezett szerintiek a legtöbb ember számára megfelelőek.</string>
     <string name="menu_ads_rules_label">Add hozzá saját szabályaidat a blokkolás finomhangolásához.</string>
+    <string name="menu_ads_log_label">Nézd meg, hogy mi került blokkolásra vagy engedélyezésre a közelmúltban.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Kérjük, először aktiváld a fiókodat.</string>
     <string name="menu_vpn_select_gateway">Kérjük, válassz egy átjárót.</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">Saját Blokada Tunnel</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Átjárók</string>
     <!-- A button opening VPN leases (devices) settings -->
@@ -57,6 +61,12 @@
     <string name="menu_vpn_gateways_label">Válaszd ki az egyik átjárót. A készüléked a titkosított adatokat ezen az átjárón keresztül küldi biztonságosan, és így névtelen maradsz.</string>
     <string name="menu_vpn_support_label">Ha bármilyen problémát tapasztalsz, ne habozz kapcsolatba lépni velünk.</string>
     <string name="menu_vpn_support_button">Támogatás</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Tunnel beállításai</string>
+    <string name="menu_vpn_info_account_label">Van már fiókom?</string>
+    <string name="menu_vpn_info_account_line1">Igen! Az első futtatáskor a fiók automatikusan létrejön. Nem kell regisztrálnod.</string>
+    <string name="menu_vpn_info_account_line2">A fiókazonosítód megtekintéséhez érintsd meg a fenti avatart.</string>
+    <string name="menu_vpn_info_account_line3">Fiókazonosítód titkos, ezért senkinek nem kéne megmutatnod.</string>
+    <string name="menu_vpn_info_account_line4">Írd fel valahova a fiókazonosítódat arra az esetre, ha újra kellene telepítened az alkalmazást.</string>
     <string name="menu_dns_recommended">Ajánlott DNS-kiszolgálók</string>
     <string name="menu_dns_intro">A DNS felelős a használt weboldalak és alkalmazások IP-címeinek fordításáért. A jó DNS kiválasztása felgyorsíthatja a készüléket, és segít megvédeni az adataidat.</string>
     <string name="menu_dns_select">Válaszd ki az egyik DNS-kiszolgálót.</string>
