@@ -118,7 +118,6 @@
     <string name="slot_account_label_active">I-Akhawunti izosebenza kuze kube %s</string>
     <string name="slot_account_label_inactive">I-akhawunti ayisebenzi</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Lawula</string>
     <string name="slot_account_action_manage_inactive">Yenza i-akhawunti isebenze</string>
     <string name="slot_account_action_change_id">Buyisela i-akhawunti</string>
     <string name="slot_account_show">Isikhombi se-akhawunti</string>
@@ -131,7 +130,6 @@
     <string name="slot_gateway_description">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Lawula ukuthi imaphi amadivayisi wakho axhuma kwi-VPN.</string>
     <string name="slot_lease_name_current">%s (le divayisi)</string>
     <string name="slot_lease_description">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Le idivayisi oyisebenzisayo.</string>
@@ -140,18 +138,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">phansi</string>
     <string name="subscription_success">I-Akhawunti yakho iyavulwa. Kuzothatha imizuzwana. Siyabonga!</string>
-    <string name="slot_protection_header">Isimo se-Blokada</string>
-    <string name="slot_protection_off">I-Blokada ivaliwe</string>
-    <string name="slot_protection_off_desc">Idivayisi yakho ayivikelwe.</string>
-    <string name="slot_protection_error">I-Blokada ivaliwe okwesikhashana</string>
-    <string name="slot_protection_error_desc">Lokhu kungahle kudalwe yizinkinga zenethiwekhi zesikhashana, izinto zedivayisi noma zesoftware. I-Blokada izosebenza ngokuzenzakalela kungekudala, kepha futhi ungazama ukuvula uhlelo kabusha noma uqale ifoni yakho kabusha. Uma izinkinga ziqhubeka, sicela uxhumane nathi ku-Telegram ukuze uthole usizo.</string>
-    <string name="slot_protection_disconnected">Idivayisi yakho ayixhunyiwe kwi-inthanethi</string>
-    <string name="slot_protection_disconnected_desc">I-Blokada isamisiwe ngoba idivayisi yakho ayixhunyiwe kwi-intanethi. I-Blokada izophinda isebenze uma usuxhunyiwe kwi-intanethi.</string>
-    <string name="slot_protection_activating">I-Blokada iyavuleka</string>
-    <string name="slot_protection_active_warning">I-Blokada iyasebenza, kepha izilungiselelo zingathuthukiswa. Thola imininingwane.</string>
-    <string name="slot_protection_action">Izilungiselelo</string>
-    <string name="slot_protection_no_battery_whitelist">I-Blokada ayikhululi ekusebenzeni kwebhethri ledivayisi yakho, ngakho-ke ingabulawa uhlelo lwedivayisi. Kufanele usebenzise okuncamelayo kuhlelo lwakho ukuze uvumele iBlokada ukuthi iqhubeke ivikele idivayisi yakho.</string>
-    <string name="slot_protection_description">Ukulungiselela izilungiselelo, vula imenyu engezansi.</string>
     <string name="slot_start_on_boot_description">Ukunika amandla okuqala kanye nedivayisi kuvumela iBlokada ukuthi isebenze ngaso sonke isikhathi futhi ivikele nedivayisi yakho.</string>
     <string name="slot_recommended_dns_label">Sebenzisa amaseva eDNS aphakamisiwe</string>
     <string name="slot_recommended_dns_description">Uma inikwe amandla, iBlokada izokhetha ngokuzenzakalelayo amaseva aphakamisiwe we-DNS ukusiza ukusheshisa i-Intanethi yakho nokuvikela ubumfihlo bakho. Ngaphandle kwalokho, kusetshenziswa iziphakeli ze-DNS zenethiwekhi yakho ezenzakalelayo. Uma ukhetha amaseva we-DNS esigabeni Esithuthukisiwe, lokhu kulungiselelwa akunakwa.</string>
