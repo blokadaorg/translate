@@ -118,7 +118,6 @@
     <string name="slot_account_label_active">%s\'ye kadar aktif hesap</string>
     <string name="slot_account_label_inactive">Hesap aktif değil</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Yönet</string>
     <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
     <string name="slot_account_action_change_id">Hesabı geri yükle</string>
     <string name="slot_account_show">Hesap kimliği</string>
@@ -131,7 +130,6 @@
     <string name="slot_gateway_description">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Bu ağ geçidi meşgul ve yeni bağlantılar kabul etmiyor.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Hangi cihazlarınızın VPN\'e bağlandığını kontrol edin.</string>
     <string name="slot_lease_name_current">%s (bu cihaz)</string>
     <string name="slot_lease_description">Cihaz kimliği: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">Cihaz kimliği: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Bu mevcut cihazınız.</string>
@@ -140,18 +138,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">düşük</string>
     <string name="subscription_success">Hesabınız aktif hale getirildi. Bu bir kaç saniye alabilir. Teşekkür ederim!</string>
-    <string name="slot_protection_header">Blokada durumu</string>
-    <string name="slot_protection_off">Blokada etkin değil</string>
-    <string name="slot_protection_off_desc">Cihazınız korumalı değil.</string>
-    <string name="slot_protection_error">Blokada geçici olarak etkin değil</string>
-    <string name="slot_protection_error_desc">Buna geçici ağ sorunları, cihaz veya yazılım sorunları neden olabilir. Blokada yakında otomatik olarak yeniden devreye girecek, ancak uygulamayı tekrar açmayı veya telefonunuzu yeniden başlatmayı deneyebilirsiniz. Sorun yaşamaya devam ederseniz, lütfen yardım için Telegram\'da bizimle iletişime geçin.</string>
-    <string name="slot_protection_disconnected">Cihazınız çevrimdışı</string>
-    <string name="slot_protection_disconnected_desc">Cihazınız İnternet bağlantısını kaybettiği için Blokada duraklatıldı. Blokada tekrar çevrimiçi olduğunuzda otomatik olarak yeniden devreye girecektir.</string>
-    <string name="slot_protection_activating">Blokada aktive oluyor</string>
-    <string name="slot_protection_active_warning">Blokada aktif, ancak konfigürasyon iyileştirilebilir. Ayrıntılar için dokunun.</string>
-    <string name="slot_protection_action">Ayarlar</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada, cihazınızın batarya optimizasyonundan muaf değil, bu nedenle sistem tarafından sonlandırılabilir. Sistem tercihlerinizi, Blokada\'yı beyaz listeye almak için kullanmalı, böylece cihazınızın üzerinde kalmasını ve korunmasını sağlar.</string>
-    <string name="slot_protection_description">Ayarları yapılandırmak için alt menüyü açın.</string>
     <string name="slot_start_on_boot_description">Açılışta başlatmayı etkinleştirmek Blokada\'nın her zaman etkin olmasını ve cihazınızı korumasını sağlar.</string>
     <string name="slot_recommended_dns_label">Önerilen DNS sunucularını kullanın</string>
     <string name="slot_recommended_dns_description">Etkinleştirildiğinde, Blokada, İnternet\'inizi hızlandırmak ve gizliliğinizi korumak için otomatik olarak önerilen DNS sunucularını seçer. Aksi takdirde, ağınızın varsayılan DNS sunucuları kullanılır. Gelişmiş bölümünde DNS sunucularını el ile seçerseniz, bu ayar yoksayılır.</string>
