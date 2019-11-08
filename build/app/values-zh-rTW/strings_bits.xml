@@ -39,6 +39,7 @@
     <string name="home_blocka_vpn_error">無法連線到閘道。您連上網了嗎？</string>
     <string name="home_account_error">無法驗證帳號。您連上網了嗎？</string>
     <string name="home_permission_error">請授予 VPN 權限。</string>
+    <string name="home_zero_filters_error">您尚未設定過濾規則。請檢查您的廣告阻擋與 WiFi 設定。</string>
     <string name="home_filters_memory_error">無法將所有過濾條件載入到記憶體中。請檢查您的廣告封鎖設定。</string>
     <string name="tasker_switch_label">點擊其中一個選項以設定觸發條件來開啟（或關閉）特定功能。</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
@@ -47,6 +48,7 @@
     <string name="menu_ads_clear_log">清除主機紀錄</string>
     <string name="menu_ads_lists_label">選取要用於阻擋的清單。預設選項對大多數人來說就夠用了。</string>
     <string name="menu_ads_rules_label">可以藉由新增自己的列表來微調封鎖。</string>
+    <string name="menu_ads_log_label">檢視最近有什麼東西被阻擋或是允許。</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">請先啟用您的帳號。</string>
@@ -54,6 +56,7 @@
     <string name="menu_vpn_intro_button">為什麼我需要 Blokada Tunnel？</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">我的 Blokada Tunnel</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">閘道</string>
     <!-- A button opening VPN leases (devices) settings -->
@@ -67,12 +70,20 @@
     <string name="menu_vpn_gateways_label">選取其中一個要連線的閘道。您的裝置將會透過該閘道安全地傳送您已加密的資料，您也將會保持匿名。</string>
     <string name="menu_vpn_support_label">如果您遇到任何問題，請隨時與我們聯絡。</string>
     <string name="menu_vpn_support_button">支援</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Tunnel 設定</string>
+    <string name="menu_vpn_tunnel_learn_more">取得更多關於 Blokada Tunnel 的資訊</string>
+    <string name="menu_vpn_info_account_label">我有帳號嗎？</string>
+    <string name="menu_vpn_info_account_line1">是的！您的帳號已於首次執行時自動建立。您不需要註冊。</string>
+    <string name="menu_vpn_info_account_line2">在上方點擊您的大頭貼以檢視您的帳號 ID。</string>
+    <string name="menu_vpn_info_account_line3">您的帳號 ID 是祕密，您不應該將其給任何人看。</string>
+    <string name="menu_vpn_info_account_line4">寫下您的帳號 ID，這樣您要重新安裝應用程式時就能用到。</string>
     <string name="menu_dns_recommended">推薦的 DNS 伺服器</string>
     <string name="menu_dns_intro">DNS 負責翻譯網頁與您所使用應用程式的 IP 位置。選擇好的 DNS 可以讓您的裝置加速並協助保護您的隱私。</string>
     <string name="menu_dns_select">選取其中一個 DNS 伺服器。</string>
     <string name="menu_apps_intro">某些應用程式可能沒辦法與 Blokada 一同正常運作。舉例來說，它們可能會沒辦法正常連線。\n\n啟用 VPN 通常在這些例子中會有用。\n\n否則您可以讓這些應用程式繞過 Blokada 的檢查。請記住，繞過的應用程式會在 VPN 的管轄之外通訊。</string>
     <string name="menu_apps_system_label">系統應用程式是預先安裝在您的裝置上的應用程式。有些是隱藏的。僅當您知道你在幹嘛的時候才改這邊的東西。</string>
     <string name="menu_host_list_intro">主機清單包含了阻擋廣告與追蹤器的規則。請試著把啟用的清單數保持在較低的數量。</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
     <string name="menu_host_adblocking_settings">廣告阻擋設定</string>
     <string name="menu_host_list_status">列表狀態</string>
     <string name="menu_host_list_download">列表下載設定</string>
