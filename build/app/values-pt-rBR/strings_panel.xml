@@ -78,6 +78,9 @@
     <string name="slot_allapp_whitelisted">Ignorado</string>
     <string name="slot_allapp_normal">Não ignorado</string>
     <string name="slot_allapp_whitelist">Ignorar</string>
+    <string name="slot_dns_name">O DNS está ativo</string>
+    <string name="slot_dns_name_private">O DNS privado está ativo</string>
+    <string name="slot_dns_name_disabled">O DNS está desativado</string>
     <string name="slot_action_none">Esta ação ainda não está disponível.</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
     <string name="slot_action_author">Sobre</string>
@@ -115,6 +118,7 @@
     <string name="slot_account_label_active">Conta ativa até %s</string>
     <string name="slot_account_label_inactive">Conta inativa</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Gerenciar assinatura</string>
     <string name="slot_account_action_manage_inactive">Ativar conta</string>
     <string name="slot_account_action_change_id">Restaurar conta</string>
     <string name="slot_account_show">ID da conta</string>
@@ -122,9 +126,14 @@
     <string name="slot_account_action_unavailable">[não definido]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Conectar-se a %s</string>
+    <string name="slot_gateway_section_partner">Os gateways de parceiros fornecem localizações adicionais. Eles não são totalmente gerenciados pelo Blokada, mas não têm acesso ao seu tráfego criptografado.</string>
+    <string name="slot_gateway_section_overloaded">Estes gateways estão sobrecarregados e indisponíveis temporariamente.</string>
     <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Região: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Este gateway está ocupado e não aceita novas conexões.</string>
+    <string name="slot_gateway_learn_more">Aprenda mais sobre os gateways</string>
+    <string name="slot_gateway_info_partner">O que são gateways de parceiros?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Controle quais dos seus dispositivos se conectam ao Túnel do Blokada.</string>
     <string name="slot_lease_name_current">%s (este dispositivo)</string>
     <string name="slot_lease_description">ID do dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID do dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Este é seu dispositivo atual.</string>
