@@ -18,7 +18,7 @@
     <string name="panel_section_apps_all">App installate</string>
     <string name="panel_section_apps_system">App di sistema</string>
     <string name="panel_section_advanced_settings">Impostazioni</string>
-    <string name="panel_section_app_settings">Impostazioni Applicazione</string>
+    <string name="panel_section_app_settings">Impostazioni App</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Consentito &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Questo dominio è stato autorizzato. Per bloccarlo, usa il pulsante sotto.</string>
@@ -78,8 +78,9 @@
     <string name="slot_allapp_whitelisted">Ignora</string>
     <string name="slot_allapp_normal">Non ignorare</string>
     <string name="slot_allapp_whitelist">Ignora</string>
-    <string name="slot_dns_name">DNS personalizzati attivi</string>
-    <string name="slot_dns_name_disabled">DNS personalizzati disattivati</string>
+    <string name="slot_dns_name">DNS attivi</string>
+    <string name="slot_dns_name_private">DNS privati attivi</string>
+    <string name="slot_dns_name_disabled">DNS disattivati</string>
     <string name="slot_action_none">Questa azione non è ancora possibile.</string>
     <string name="slot_action_unwhitelist">Rimuovi</string>
     <string name="slot_action_author">Info</string>
@@ -117,7 +118,7 @@
     <string name="slot_account_label_active">Account attivo fino al %s</string>
     <string name="slot_account_label_inactive">Account inattivo</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">Gestisci</string>
+    <string name="slot_account_action_manage">Gestisci abbonamento</string>
     <string name="slot_account_action_manage_inactive">Attiva account</string>
     <string name="slot_account_action_change_id">Recupera account</string>
     <string name="slot_account_show">ID account</string>
@@ -125,12 +126,14 @@
     <string name="slot_account_action_unavailable">[non impostato]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Connetti a %s</string>
-    <string name="slot_gateway_label_overloaded">[Full] Connetti a %s</string>
+    <string name="slot_gateway_section_partner">I gateway dei nostri partner forniscono località aggiuntive. Questi non sono sotto il completo controllo di Blokada, ma non hanno alcun accesso al tuo traffico criptato.</string>
+    <string name="slot_gateway_section_overloaded">Questi gateway sono sovraccarichi e temporaneamente non disponibili.</string>
     <string name="slot_gateway_description">Prestazioni: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regione: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_description_current">Prestazioni: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regione: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Questo è il tuo gateway attualmente selezionato.</string>
     <string name="slot_gateway_overloaded">Questo gateway è pieno e non accetta nuove connessioni.</string>
+    <string name="slot_gateway_learn_more">Ulteriori informazioni sui gateway</string>
+    <string name="slot_gateway_info_partner">Cosa sono i gateway partner?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Controlla quale dei tuoi dispositivi è connesso alla VPN.</string>
+    <string name="slot_leases_info">Controlla quale dei tuoi dispositivi è connesso a Blokada Tunnel.</string>
     <string name="slot_lease_name_current">%s (questo dispositivo)</string>
     <string name="slot_lease_description">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Questo è il tuo dispositivo attuale.</string>
@@ -139,18 +142,6 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">basso</string>
     <string name="subscription_success">Il tuo account è in fase di attivazione. Questo potrebbe richiedere alcuni secondi. Grazie!</string>
-    <string name="slot_protection_header">Stato Blokada</string>
-    <string name="slot_protection_off">Blokada è inattiva</string>
-    <string name="slot_protection_off_desc">Il tuo dispositivo non è protetto.</string>
-    <string name="slot_protection_error">Blokada è temporaneamente disabilitata</string>
-    <string name="slot_protection_error_desc">Ciò potrebbe essere causato da problemi di rete temporanei, da problemi con il tuo dispositivo o con il software. Blokada si riattiverà in automatico a breve, ma potresti provare a riattivare l\'app manualmente o riavviare il telefono. Se continui ad avere problemi, per favore contattaci su Telegram.</string>
-    <string name="slot_protection_disconnected">Il tuo dispositivo è offline</string>
-    <string name="slot_protection_disconnected_desc">Blokada è in pausa perché il tuo dispositivo ha perso la connessione ad Internet. Blokada si riattiverà automaticamente non appena tornerai online.</string>
-    <string name="slot_protection_activating">Blokada si sta attivando</string>
-    <string name="slot_protection_active_warning">Blokada è attiva, ma la configurazione potrebbe essere migliorata. Clicca per dettagli.</string>
-    <string name="slot_protection_action">Impostazioni</string>
-    <string name="slot_protection_no_battery_whitelist">Blokada non è esente dall\'ottimizzazione batteria del tuo dispositivo, perciò può essere terminata dal sistema. Dovresti modificare le impostazioni del tuo dispositivo per aggiungere Blokada alla whitelist in modo che possa restare attiva e proteggerti.</string>
-    <string name="slot_protection_description">Per modificare le impostazioni, apri il menù in basso.</string>
     <string name="slot_start_on_boot_description">Abilitare l\'avvio al boot permette a Blokada di rimanere sempre attiva e proteggere il tuo dispositivo.</string>
     <string name="slot_recommended_dns_label">Usa i server DNS raccomandati</string>
     <string name="slot_recommended_dns_description">Quando abilitata, Blokada sceglierà in automatico i server DNS raccomandati per velocizzare la tua connessione Internet e proteggere la tua privacy. Altrimenti, verranno utilizzati i server DNS di default della tua rete. Se scegli manualmente i server DNS nella sezione Avanzate, questa impostazione sarà ignorata.</string>
@@ -179,9 +170,9 @@
     <string name="slot_obsolete_desc">La tua versione di Blokada è obsoleta e potrebbe non funzionare correttamente. Per favore, scarica la versione più recente per continuare a ricevere aggiornamenti.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Sembra che sul tuo dispositivo siano installate più versioni di Blokada. Vuoi rimuovere le altre versioni e tenerne solo una?</string>
-    <string name="account_inactive">Per favore attiva o ripristina il tuo account per continuare.</string>
-    <string name="slot_lease_cant_connect">Impossibile connettersi al Tunnel di Blokada. Prova a selezionare un altro gateway.</string>
-    <string name="slot_account_cant_create">Impossibile creare il tuo account per il Tunnel di Blokada. Riprova più tardi o contattaci su Telegram.</string>
+    <string name="account_inactive">Per favore, attiva o ripristina il tuo account per continuare.</string>
+    <string name="slot_lease_cant_connect">Impossibile connettersi a Blokada Tunnel. Prova a selezionare un altro gateway.</string>
+    <string name="slot_account_cant_create">Impossibile creare il tuo account Blokada Tunnel. Riprova più tardi o contattaci su Telegram.</string>
     <string name="slot_account_name_title">ID account</string>
     <string name="slot_account_name_desc">Inserisci il tuo vecchio ID account per ripristinare il tuo abbonamento precedente. Potresti volerti segnare il tuo ID account corrente prima di farlo, nel caso tu commetta qualche errore.</string>
     <string name="slot_account_name_error">L\'ID account può contenere solo lettere e numeri.</string>
