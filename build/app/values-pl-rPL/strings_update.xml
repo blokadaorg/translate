@@ -17,4 +17,9 @@
     <!-- A button that opens the changelog. -->
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">Aktualizuję, proszę czekać&#8230;</string>
+    <string name="update_progress">Pobieranie: %s%%</string>
+    <string name="update_complete">Pobieranie ukończone</string>
+    <string name="update_failed">Pobieranie nieudane</string>
+    <string name="update_instruction">Po zakończeniu zostaniesz poproszony o zezwolenie Blokadzie na zainstalowanie aktualizacji.</string>
+    <string name="update_instruction_failed">Stuknij tutaj, aby spróbować ponownie, lub stuknij długo, aby pobrać za pomocą przeglądarki.</string>
 </resources>
