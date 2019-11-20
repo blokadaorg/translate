@@ -14,9 +14,11 @@
     <string name="tunnel_config_refetch_frequency_2">2x w tygodniu</string>
     <string name="tunnel_config_refetch_frequency_3">Raz w tygodniu</string>
     <string name="tunnel_config_refetch_frequency_4">Raz w miesiącu</string>
+    <string name="tunnel_config_refetch_frequency_5">Nigdy</string>
     <string name="tunnel_config_wifi_only_title">Pobieraj tylko na wifi</string>
     <string name="tunnel_config_wifi_only_description">Aktywuj jeśli chcesz aby aplikacja pobierała listy tylko gdy urządzenie jest połączone z wifi. W przeciwnym przypadku, listy mogą być pobrane nawet na sieci mobilnej co może zużyć Twój pakiet danych.</string>
     <string name="tunnel_config_watchdog_title">Watchdog</string>
+    <string name="tunnel_config_watchdog_description">Aktywuj ten przełącznik, jeśli chcesz, aby aplikacja aktywowała VPN tylko wtedy, gdy istnieje połączenie z Internetem oraz restartowała tunel w przypadku problemów z łącznością. Może to pomóc w przypadku niektórych urządzeń.</string>
     <string name="tunnel_config_powersave_title">Agresywny wakeup</string>
     <string name="tunnel_config_powersave_description">Aktywuj jeśli doświadczasz problemów spowodowanych oszczędzaniem baterii. Gdy aplikacja wykryje problemy z połączeniem tunelu, będzie próbować podnieść swój priorytet w systemie aby wyjść z ograniczonego trybu oszczędzania energii.</string>
     <string name="tunnel_config_reports_title">Raporty</string>
