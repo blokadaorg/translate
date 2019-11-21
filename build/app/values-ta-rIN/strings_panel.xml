@@ -21,9 +21,16 @@
     <string name="panel_section_app_settings">செயலி அமைப்புகள்</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">அனுமதிக்கப்பட்டவை &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">இந்த Domain அனுமதிக்கப்பட்டது. இதை முடக்க கீழே உள்ள Button-ஐ தட்டவும்.</string>
+    <string name="panel_domain_forwarded_toast">அனுமதிக்கப்பட்டது.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">முடக்கப்பட்டது&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_desc">இந்த Domain முடக்கப்பட்டது. இதை அனுமதிக்க கீழே உள்ள Button-ஐ தட்டவும்.</string>
+    <string name="panel_domain_blocked_toast">முடக்கப்பட்டது.</string>
+    <string name="panel_ruleset">Filters counter</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_title">Filterகளுக்கு %s விதிகள் உள்ளன.</string>
+    <string name="panel_ruleset_updating">Updating filters...</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">அனுமதி</string>
     <!-- Button to block allowed domain -->
@@ -36,10 +43,19 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">இல்லை</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_intro_new">புதிய UI எப்படி உள்ளது? அறிமுகத்துக்கு இங்கே தட்டவும்.</string>
+    <string name="slot_intro_new_header">புதிய UI எப்படி உள்ளது?</string>
+    <string name="slot_new_filter">புதிய Hostஐ முடக்குதல் பட்டியலுக்குள் சேர்</string>
+    <string name="slot_new_filter_list">புதிய Host பட்டியலை சேர்</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">நீக்கு</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">வை</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">அர்த்தமற்றது</string>
     <string name="slot_continue">அடுத்து</string>
+    <string name="slot_enter_domain_title">Domain(s)</string>
+    <string name="slot_enter_domain_error">இது எதுபோன்றும் தெரியவில்லை.</string>
     <string name="slot_enter_domain_file">கோப்பு</string>
     <string name="slot_enter_domain_no_file">/Download/blokada/filters எந்த கோப்புகளும் காணவில்லை</string>
     <string name="slot_enter_file_titel">கோப்பின்பெயர்</string>
