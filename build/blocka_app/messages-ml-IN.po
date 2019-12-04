@@ -13,7 +13,7 @@ msgstr ""
 "Last-Translator: Karol (kargs)\n"
 "Language-Team: Malayalam\n"
 "Language: ml_IN\n"
-"PO-Revision-Date: 2019-12-04 14:53\n"
+"PO-Revision-Date: 2019-12-04 15:04\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -426,187 +426,187 @@ msgstr "ക്രിപ്‌റ്റോകറൻസി ഉപയോഗിച�
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "€{price} പണമടയ്‌ക്കുക"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "ഓരോ കാലയളവിലും €{price} പണമടയ്‌ക്കുക"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "പേപാൽ ഉപയോഗിച്ച് €{price} പണമടയ്‌ക്കുക"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "പേയ്‌മെന്റ് പരാജയപ്പെട്ടു, കാർഡ് വിശദാംശങ്ങൾ സാധൂകരിക്കുക."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "പേയ്‌മെന്റ് പരാജയപ്പെട്ടു, വിശദാംശങ്ങൾക്ക് പേപാൽ കാണുക."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "മുമ്പത്തെ സ്ക്രീനിൽ നിന്ന് നിങ്ങളുടെ അക്കൗണ്ട് ഐഡി പരിശോധിക്കുക."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "വാലറ്റിലേക്ക് പോകുക"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "പ്രോസസ്സിംഗ് {spinner}"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "പബ്ലിക് കീ"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "സേവ്"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "ക്ഷമിക്കണം"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "അപ്രതീക്ഷിതമായ തകരാറ് സംഭവിച്ചിരിക്കുന്നു. ദയവായി പിന്നീട് ശ്രമിക്കുക."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "സ്റ്റെല്ലാർ?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "അക്കൗണ്ട് ഐഡി ഒരു സുരക്ഷിത സ്ഥലത്ത് സൂക്ഷിക്കുക, നിങ്ങളുടെ ഉപകരണം കണക്റ്റുചെയ്യുമ്പോഴും സജീവമാക്കുമ്പോഴും നിങ്ങൾക്കത് ആവശ്യമാണ്."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "പിന്തുണ"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "പ്രതീക്ഷിച്ചതിലും കൂടുതൽ സമയമെടുക്കുന്നുണ്ടോ? ചുവടെ ഇടത് പിന്തുണ ബട്ടൺ കാണുക"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "നന്ദി!"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "അക്കൗണ്ട് ഐഡി പൊരുത്തപ്പെടുന്നില്ല, മുമ്പത്തെ സ്ക്രീനിൽ നിങ്ങൾ ഇത് ശരിയായി സംഭരിച്ചുവെന്ന് പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "ഈ പേജ് പ്രദർശിപ്പിക്കാൻ കഴിഞ്ഞില്ല. നിങ്ങൾക്ക് എന്തെങ്കിലും പ്രശ്‌നങ്ങൾ നേരിടുന്നുണ്ടെങ്കിൽ, ഞങ്ങളെ {email} എന്ന വിലാസത്തിൽ ബന്ധപ്പെടുക."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "പേപാൽ പേയ്‌മെന്റ് സ്ഥിരീകരിക്കുന്നതിനായി കാത്തിരിക്കുന്നു..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "പേയ്‌മെന്റ് സ്ഥിരീകരണത്തിനായി കാത്തിരിക്കുന്നു..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "എഫ്-ഡ്രോയിഡ് ബിൽഡുകളിലെ വിപിഎൻ സജീവമാക്കുന്നതിൽ ഞങ്ങൾക്ക് നിലവിൽ പ്രശ്‌നങ്ങളുണ്ട്. ഈ പ്രശ്നം പരിഹരിക്കുന്നു, അതിനിടയിൽ നിങ്ങൾക്ക് എഫ്-ഡ്രോയിഡ് പതിപ്പ് അൺ‌ഇൻസ്റ്റാൾ ചെയ്യാനും പകരം blokada.org ൽ നിന്ന് അപ്ലിക്കേഷൻ ഡൗണ്ലോഡ് ചെയ്യാനും കഴിയും."
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "വയർഗാർഡ് കോൺഫിഗറേഷൻ"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "ഒരു സന്ദേശം എഴുതുക..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "നിങ്ങളുടെ പേയ്‌മെന്റ് പ്രോസസ്സ് ചെയ്യുന്നു, നിങ്ങളുടെ അക്കൗണ്ട് ഉടൻ തന്നെ സജീവമാകും. നിങ്ങൾക്ക് എന്തെങ്കിലും പ്രശ്‌നങ്ങൾ നേരിടുന്നുണ്ടെങ്കിൽ, ഞങ്ങളെ {email} എന്ന വിലാസത്തിൽ ബന്ധപ്പെടുക."
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "നിങ്ങളുടെ പേയ്‌മെന്റ് റദ്ദാക്കി, നിങ്ങളിൽ നിന്ന് നിരക്ക് ഈടാക്കില്ല. നിങ്ങളുടെ അക്കൗണ്ട് സജീവമല്ല. നിങ്ങൾക്ക് എന്തെങ്കിലും പ്രശ്‌നങ്ങൾ നേരിടുന്നുണ്ടെങ്കിൽ, ഞങ്ങളെ {email} എന്ന വിലാസത്തിൽ ബന്ധപ്പെടുക."
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "പുതിയ ഉപകരണം"
 
