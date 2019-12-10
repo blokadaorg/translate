@@ -118,6 +118,7 @@
     <string name="slot_account_label_active">%s\'ye kadar aktif hesap</string>
     <string name="slot_account_label_inactive">Hesap aktif değil</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Aboneliği yönet</string>
     <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
     <string name="slot_account_action_change_id">Hesabı geri yükle</string>
     <string name="slot_account_show">Hesap kimliği</string>
@@ -129,7 +130,10 @@
     <string name="slot_gateway_section_overloaded">Bu ağ geçitleri aşırı yüklenmiş ve geçici olarak kullanılamıyor.</string>
     <string name="slot_gateway_description">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Bu ağ geçidi meşgul ve yeni bağlantılar kabul etmiyor.</string>
+    <string name="slot_gateway_learn_more">Ağ geçitleri hakkında daha fazla bilgi edinin</string>
+    <string name="slot_gateway_info_partner">Partner ağ geçitleri nedir?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Hangi cihazlarınızın Blokada Tüneline bağlandığını kontrol edin.</string>
     <string name="slot_lease_name_current">%s (bu cihaz)</string>
     <string name="slot_lease_description">Cihaz kimliği: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">Cihaz kimliği: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Bu mevcut cihazınız.</string>
@@ -138,6 +142,7 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">düşük</string>
     <string name="subscription_success">Hesabınız aktif hale getirildi. Bu bir kaç saniye alabilir. Teşekkür ederim!</string>
+    <string name="slot_start_on_boot_description">Açılışta başlatmayı etkinleştirmek Blokada\'nın her zaman aktif olmasını ve cihazınızı korumasını sağlar. Lütfen sistemin her zaman daha yüksek önceliğe sahip olduğunu ve bu seçeneği geçersiz kılabileceğini unutmayın; bu nedenle, eğer Blokada başlatılmazsa, sistem ayarlarına bir göz atın.</string>
     <string name="slot_recommended_dns_label">Önerilen DNS sunucularını kullanın</string>
     <string name="slot_recommended_dns_description">Etkinleştirildiğinde, Blokada, İnternet\'inizi hızlandırmak ve gizliliğinizi korumak için otomatik olarak önerilen DNS sunucularını seçer. Aksi takdirde, ağınızın varsayılan DNS sunucuları kullanılır. Gelişmiş bölümünde DNS sunucularını el ile seçerseniz, bu ayar yoksayılır.</string>
     <string name="slot_update_no_updates">Blokada güncel</string>
