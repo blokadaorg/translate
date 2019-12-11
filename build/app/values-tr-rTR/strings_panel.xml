@@ -20,12 +20,12 @@
     <string name="panel_section_advanced_settings">Ayarlar</string>
     <string name="panel_section_app_settings">Uygulama ayarları</string>
     <!-- When a domain is allowed (not blocked) -->
-    <string name="panel_domain_forwarded">İzin verilen &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="panel_domain_forwarded_desc">Bu domain\'e izin verilmiştir. Engellemek için aşağıdaki butonu kullanın.</string>
+    <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; izin verildi</string>
+    <string name="panel_domain_forwarded_desc">Bu etki alanına izin verilmiştir. Engellemek için aşağıdaki düğmeyi kullanın.</string>
     <string name="panel_domain_forwarded_toast">Beyaz listeye eklendi.</string>
     <!-- When a domain is blocked -->
-    <string name="panel_domain_blocked">Engellenen &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="panel_domain_blocked_desc">Bu domain\'e izin verilmiştir. İzin vermek için aşağıdaki butonu kullanın.</string>
+    <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; engellendi</string>
+    <string name="panel_domain_blocked_desc">Bu etki alanı engellenmiştir. İzin vermek için aşağıdaki düğmeyi kullanın.</string>
     <string name="panel_domain_blocked_toast">Kara listeye eklendi.</string>
     <string name="panel_ruleset">Filtre sayacı</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
@@ -44,8 +44,8 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Hayır</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_intro_new">Yeni Arayüz nasıl kullanılır? Giriş için buraya dokunun.</string>
-    <string name="slot_intro_new_header">Yeni Arayüz nasıl kullanılır?</string>
+    <string name="slot_intro_new">Yeni arayüz nasıl kullanılır? Tanıtım için buraya dokunun.</string>
+    <string name="slot_intro_new_header">Yeni arayüz nasıl kullanılır?</string>
     <string name="slot_intro_desc">Şu anda Giriş bölümünde bulunuyorsunuz, sağa kaydırırsanız daha fazlası var. Her birinin kendi alt menüsü vardır - yukarı kaydırarak açın. &lt;br/&gt;&lt;br/&gt;Android TV\'de, Arayüz’de dpad ile gezinin. Alt menüyü veya seçtiğiniz herhangi bir öğeyi açmak için ortadaki tuşu kullanın. Düğmeler yukarı, aşağı, sol veya sağ oklarla işaretlenmiştir - tıklamak için yön tuşlarını kullanın.</string>
     <string name="slot_intro_info">Hatırlatma... Bazı öğelerin üzerinde soru işareti simgesi bulunur. Dokunulduğunda, bunun gibi kısa bir yardım mesajı görüntülenir!</string>
     <string name="slot_new_filter">Engellenen listeye yeni bir host ekle</string>
