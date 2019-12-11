@@ -6,7 +6,7 @@
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
     <string name="tunnel_config_refetch_now_title">Listeleri indir</string>
     <string name="tunnel_config_refetch_now">Listeleri şimdi indir</string>
-    <string name="tunnel_config_refetch_toast">Listeleri indirmeye başla</string>
+    <string name="tunnel_config_refetch_toast">Listeler indirilmeye başlandı</string>
     <string name="tunnel_config_refetch_now_description">Önbelleği kaldırmak ve listelerinizi tekrar indirmek için aşağıdaki düğmeyi kullanın. Filtrenizle ilgili herhangi bir sorun yaşarsanız bu yardımcı olabilir.</string>
     <string name="tunnel_config_refetch_frequency_title">Listeleri indirme sıklığı</string>
     <string name="tunnel_config_refetch_frequency_description">Uygulamanın listelerinizi ne sıklıkla indirmesi gerektiğini yapılandırmak için seçeneklerden birini seçin.</string>
@@ -18,7 +18,7 @@
     <string name="tunnel_config_wifi_only_title">Sadece kablosuz bağlantı ile indir</string>
     <string name="tunnel_config_wifi_only_description">Uygulamanın yalnızca cihazınız WiFi\'ye bağlı olduğunda listeleri indirmesini isterseniz, bu anahtarı etkinleştirin. Aksi takdirde, uygulama, cihazınız bir mobil ağa bağlı olduğunda ve veri planınızı kullanırken de listeleri indirebilir.</string>
     <string name="tunnel_config_watchdog_title">Watchdog</string>
-    <string name="tunnel_config_watchdog_description">Uygulamanın VPN\'i yalnızca İnternet bağlantısı varsa etkinleştirmesini ve bağlantı sorunlarının olması durumunda tüneli yeniden başlatmasını isterseniz, bu anahtarı etkinleştirin. Bu bazı cihazlar için yardımcı olabilir.</string>
+    <string name="tunnel_config_watchdog_description">Uygulamanın yalnızca İnternet bağlantısı varsa VPN\'i etkinleştirmesini istiyorsanız, bu anahtarı etkinleştirin ve bağlantı sorunları olması durumunda tüneli yeniden başlatın. Bu, bazı cihazlar için yardımcı olabilir.</string>
     <string name="tunnel_config_powersave_title">Agresif uyandırma</string>
     <string name="tunnel_config_powersave_description">Cihazınızın güç tasarrufu özelliğinden kaynaklanan sorunla karşılaşırsanız bu anahtarı etkinleştirin. Uygulama tünel bağlantı sorunlarını tespit ettiğinde, güç tasarrufu modundan çıkarmak için önceliğini yükseltmeye çalışacaktır.</string>
     <string name="tunnel_config_reports_title">Raporlar</string>
