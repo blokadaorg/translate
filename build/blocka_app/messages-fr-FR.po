@@ -4,16 +4,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: react-intl-po\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: blokada\n"
 "X-Crowdin-Language: fr\n"
 "X-Crowdin-File: /master/blocka_app/messages.pot\n"
 "Project-Id-Version: blokada\n"
-"Last-Translator: Karol (kargs)\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-11-20 15:38\n"
+"PO-Revision-Date: 2019-12-21 15:32\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -161,7 +160,7 @@ msgstr "Annulation {spinner}"
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr "Modifier"
+msgstr "Changer"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -433,7 +432,7 @@ msgstr "Payer {price}€"
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr "Payez {price} € par mois"
+msgstr "Payez {price} €"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
