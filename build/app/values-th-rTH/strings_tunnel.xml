@@ -4,4 +4,12 @@
     <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
+    <string name="tunnel_config_refetch_now_title">รายการดาวน์โหลด</string>
+    <string name="tunnel_config_refetch_now">ดาวน์โหลดรายการ</string>
+    <string name="tunnel_config_refetch_toast">เริ่มดาวน์โหลดรายการแล้ว</string>
+    <string name="tunnel_config_refetch_now_description">ใช้ปุ่มด้านล่างเพื่อลบแคชและดาวน์โหลดรายการของคุณอีกครั้ง  วิธีนี้อาจช่วยได้หากคุณประสบปัญหาเกี่ยวกับการกรองของคุณ</string>
+    <string name="tunnel_config_refetch_frequency_title">ความถี่ในการโหลดรายการ</string>
+    <string name="tunnel_config_refetch_frequency_description">เลือกหนึ่งในตัวเลือกนี้เพื่อกำหนดความถี่ให้แอพดาวน์โหลดรายการของคุณ</string>
+    <string name="tunnel_config_refetch_frequency_1">วันละครั้ง</string>
+    <string name="tunnel_config_refetch_frequency_2">2/สัปดาห์</string>
 </resources>
