@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-12-28 18:52\n"
+"PO-Revision-Date: 2019-12-28 19:02\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -404,14 +404,14 @@ msgstr "PayPal ile ödeme Blokada v{version} ve üstü için geçerlidir"
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr "Stellar Lumens ile ödeme, Blokada v{version} ve üstü sürümlerde mevcuttur"
+msgstr "Stellar Lumens ile ödeme Blokada v{version} ve üstü için geçerlidir"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr "Kartla öde"
+msgstr "Kart ile öde"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
@@ -425,35 +425,35 @@ msgstr "Kripto para ile öde"
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr "€{price} ödeyin"
+msgstr "{price} € ödeyin"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr "Her dönem €{price} ödeyin"
+msgstr "Her dönem {price} € ödeyin"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr "PayPal kullanarak €{price} ödeyin"
+msgstr "PayPal kullanarak {price} € ödeyin"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr "Ödeme başarısız oldu, lütfen kart ayrıntılarını doğrulayın."
+msgstr "Ödeme başarısız oldu. Llütfen kart ayrıntılarını doğrulayın."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr "Ödeme başarısız oldu, ayrıntılar için PayPal'a bakın."
+msgstr "Ödeme başarısız oldu. Ayrıntılar için PayPal'a bakın."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
@@ -467,7 +467,7 @@ msgstr "Lütfen önceki ekrandan hesap kimliğinizi doğrulayın."
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr "M-cüzdan'a geç"
+msgstr "Cüzdana gidin"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -502,7 +502,7 @@ msgstr "Üzgünüz"
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr "Maalesef, bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+msgstr "Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
@@ -516,7 +516,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr "Hesap kimliğinizi güvenli bir yerde saklayın, cihazınızı bağlarken ve etkinleştirirken bulundurmanız gerekecektir."
+msgstr "Hesap kimliğini güvenli bir yerde saklayın, cihazınızı bağlarken ve etkinleştirirken buna sahip olmanız gerekir."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
