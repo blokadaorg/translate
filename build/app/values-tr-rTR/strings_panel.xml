@@ -78,8 +78,8 @@
     <string name="slot_allapp_whitelisted">Atlandı</string>
     <string name="slot_allapp_normal">Atlanmadı</string>
     <string name="slot_allapp_whitelist">Atla</string>
-    <string name="slot_dns_name">DNS aktif</string>
-    <string name="slot_dns_name_private">Özel DNS aktif</string>
+    <string name="slot_dns_name">DNS etkin</string>
+    <string name="slot_dns_name_private">Özel DNS etkin</string>
     <string name="slot_dns_name_disabled">DNS devre dışı bırakıldı</string>
     <string name="slot_action_none">Bu işlem henüz mevcut değil.</string>
     <string name="slot_action_unwhitelist">İptal et</string>
@@ -88,13 +88,13 @@
     <string name="slot_input_suggestion">Bir giriş</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">%s için bir giriş</string>
-    <string name="slot_dns_control_title">DNS sunucuları listesi</string>
+    <string name="slot_dns_control_title">DNS sunucular listesi</string>
     <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
     <!-- A button to synchronize (fetch) lists  -->
-    <string name="slot_action_refresh">Senkronizasyon</string>
-    <string name="slot_action_refresh_toast">Senkronizasyon başladı</string>
+    <string name="slot_action_refresh">Eşitle</string>
+    <string name="slot_action_refresh_toast">Eşitleme başladı</string>
     <string name="slot_action_restore">Bırak</string>
-    <string name="slot_export_title">Konumu ayarla</string>
+    <string name="slot_export_title">Ayarlar konumu</string>
     <string name="slot_export_description">Yapılandırmanın kaydedildiği yeri (ve nereden yüklendiğini) değiştirebilirsiniz. Mevcut ayarları içe aktarıyorsanız, lütfen önce İçe Aktar\'ı seçin, aksi takdirde bunların üzerine yazılır.</string>
     <string name="slot_action_import">İçe aktar</string>
     <string name="slot_action_internal">Dahili Depolama</string>
@@ -121,7 +121,7 @@
     <string name="slot_account_action_manage">Aboneliği yönet</string>
     <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
     <string name="slot_account_action_change_id">Hesabı geri yükle</string>
-    <string name="slot_account_show">Hesap kimliği</string>
+    <string name="slot_account_show">Hesap Kimliği</string>
     <string name="slot_account_action_copied">Hesap kimliği panoya kopyalandı</string>
     <string name="slot_account_action_unavailable">[ayarlanmadı]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
@@ -149,19 +149,19 @@
     <string name="slot_about">Blokada Hakkında</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Günlük</string>
-    <string name="slot_help_label">Yardıma mı ihtiyacınız var?</string>
+    <string name="slot_help_label">Yardım mı gerekli?</string>
     <string name="slot_help_desc">Yardım sayfamızı açmak için aşağıdaki düğmeye dokunun. Sosyal medyayı yardım almak için de kullanabilirsiniz - Telegram, Facebook, Reddit ve Twitter\'dayız.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Yardım</string>
     <string name="slot_donate_label">Blokada’dan zevk alıyor musunuz? Bizi desteklemeyi düşünün, böylece uygulamayı geliştirmeye devam edebiliriz.</string>
     <string name="slot_donate_desc">Yeni özellikler sunmamıza yardım edin! Daha fazlası için buraya dokunun.</string>
     <!-- A button to donate -->
-    <string name="slot_donate_action">Bağış</string>
+    <string name="slot_donate_action">Bağış yapın</string>
     <string name="slot_cta_label">Hatırlatma! Fikrinizi bilmek istiyoruz.</string>
     <string name="slot_cta_desc">Anketlerimize ve diğer etkinliklere katılarak desteğinizi gösterin. Görmek istediğiniz şey üzerinde çalıştığımızdan emin olmak için fikir ve yeni gelişmeler hakkında geri bildirim için topluluğumuza düzenli olarak ulaşıyoruz.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Aç</string>
-    <string name="slot_blog_label">Geliştirme blogumuza göz atın!</string>
+    <string name="slot_blog_label">Geliştirme blog\'umuza göz atın!</string>
     <string name="slot_blog_desc">Blok, projenin gelişimi, gelecek planları ve fikirleri tartışmak için yazdığımız yerdir.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Aç</string>
