@@ -21,11 +21,11 @@
     <string name="panel_section_app_settings">Uygulama ayarları</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">&lt;b&gt;%s&lt;/b&gt; izin verildi</string>
-    <string name="panel_domain_forwarded_desc">Bu alan alanına izin verilmiştir. Engellemek için aşağıdaki düğmeyi kullanın.</string>
+    <string name="panel_domain_forwarded_desc">Bu alan adına izin verilmiştir. Engellemek için aşağıdaki düğmeyi kullanın.</string>
     <string name="panel_domain_forwarded_toast">Beyaz listeye eklendi.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; engellendi</string>
-    <string name="panel_domain_blocked_desc">Bu etki alanı engellenmiştir. İzin vermek için aşağıdaki düğmeyi kullanın.</string>
+    <string name="panel_domain_blocked_desc">Bu alan adı engellenmiştir. İzin vermek için aşağıdaki düğmeyi kullanın.</string>
     <string name="panel_domain_blocked_toast">Kara listeye eklendi.</string>
     <string name="panel_ruleset">Filtre sayacı</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
@@ -58,8 +58,8 @@
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">geçersiz</string>
     <string name="slot_continue">Devam et</string>
-    <string name="slot_enter_domain_title">Etki alanları</string>
-    <string name="slot_enter_domain_desc">Etki alanlarını virgülle ayırarak girin. Ayrıca herhangi bir ana makine listesine bağlantı yapıştırabilir veya yerel bir ana makine listesi dosyasını içe aktarabilirsiniz.</string>
+    <string name="slot_enter_domain_title">Alan adları</string>
+    <string name="slot_enter_domain_desc">Alan adlarını virgülle ayırarak girin. Ayrıca herhangi bir ana makine listesine bağlantı yapıştırabilir veya yerel bir ana makine listesi dosyasını içe aktarabilirsiniz.</string>
     <string name="slot_enter_domain_error">Bu bana hiçbir şey gibi gelmiyor.</string>
     <string name="slot_enter_domain_file">Dosya</string>
     <string name="slot_enter_domain_no_file">/Download/blokada/filters içinde dosya bulunamadı</string>
@@ -89,19 +89,19 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">%s için bir giriş</string>
     <string name="slot_dns_control_title">DNS sunucular listesi</string>
-    <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
+    <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkiler dahil) bırakabilir ve tekrar indirebilirsiniz.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Eşitle</string>
     <string name="slot_action_refresh_toast">Eşitleme başladı</string>
     <string name="slot_action_restore">Bırak</string>
     <string name="slot_export_title">Ayarlar konumu</string>
-    <string name="slot_export_description">Yapılandırmanın kaydedildiği yeri (ve nereden yüklendiğini) değiştirebilirsiniz. Mevcut ayarları içe aktarıyorsanız, lütfen önce İçe Aktar\'ı seçin, aksi takdirde bunların üzerine yazılır.</string>
+    <string name="slot_export_description">Yapılandırmanın nereye kaydedileceğini (ve nereden yükleneceğini) değiştirebilirsiniz. Mevcut ayarları içe aktarıyorsanız, lütfen önce İçe Aktar\'ı seçin. Aksi takdirde bunların üzerine yazılır.</string>
     <string name="slot_action_import">İçe aktar</string>
     <string name="slot_action_internal">Dahili Depolama</string>
     <string name="slot_action_external">Harici Depolama</string>
     <string name="slot_filters_title">Filtreler listesi</string>
-    <string name="slot_filters_description">Özel girişlerinizi kaybetmeden, filtreler listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
-    <string name="slot_blocked_title">Etki alanı engellendi</string>
+    <string name="slot_filters_description">Özel girişlerinizi kaybetmeden filtre listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkiler dahil) bırakıp tekrar indirebilirsiniz.</string>
+    <string name="slot_blocked_title">Alan adı engellendi</string>
     <string name="slot_forwarded_title">Alan adı yönlendirildi</string>
     <string name="slot_whitelist_title">Beyaz listedeki uygulama</string>
     <string name="slot_list_no_desc">Bu girişin herhangi bir açıklaması yok.</string>
