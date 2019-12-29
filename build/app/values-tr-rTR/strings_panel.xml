@@ -58,7 +58,7 @@
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">geçersiz</string>
     <string name="slot_continue">Devam et</string>
-    <string name="slot_enter_domain_title">Alan(lar)</string>
+    <string name="slot_enter_domain_title">Etki alanları</string>
     <string name="slot_enter_domain_desc">Virgülle ayrılmış alanları girin. Bir bağlantıyı herhangi bir host listesine yapıştırabilir veya yerel bir host listesi dosyasını içe aktarabilirsiniz.</string>
     <string name="slot_enter_domain_error">Bu bana bir şey gibi görünmüyor.</string>
     <string name="slot_enter_domain_file">Dosya</string>
@@ -73,7 +73,7 @@
     <string name="slot_enter_name_error">Bu bana bir şey gibi görünmüyor.</string>
     <string name="slot_enter_name_generate">Oluştur</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; beyaz listeye alındı</string>
-    <string name="slot_app_desc">Bu uygulama beyaz listeye eklenmiştir, yani üzerinde herhangi bir engelleme veya filtreleme yapılmaz.</string>
+    <string name="slot_app_desc">Bu uygulama beyaz listeye eklenmiştir. Yani üzerinde herhangi bir engelleme veya filtreleme yapılmaz.</string>
     <string name="slot_allapp_desc">Bu uygulamayı, herhangi bir trafiği engellemeyi durdurmak için Blokada\'yı atlayarak yapabilirsiniz. Unutmayın, atlanan uygulamalar VPN dışında iletişim kurar.</string>
     <string name="slot_allapp_whitelisted">Atlandı</string>
     <string name="slot_allapp_normal">Atlanmadı</string>
@@ -103,8 +103,8 @@
     <string name="slot_filters_description">Özel girişlerinizi kaybetmeden, filtreler listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkini de içeren) bırakıp tekrar indirebilirsiniz.</string>
     <string name="slot_blocked_title">Etki alanı engellendi</string>
     <string name="slot_forwarded_title">Alan adı iletildi</string>
-    <string name="slot_whitelist_title">Beyaz listeye eklenen uygulama</string>
-    <string name="slot_list_no_desc">Bu girişin açıklaması yok.</string>
+    <string name="slot_whitelist_title">Beyaz listedeki uygulama</string>
+    <string name="slot_list_no_desc">Bu girişin herhangi bir açıklaması yok.</string>
     <string name="slot_status_info">Uygulama Etkin olduğunda, ekranın üst kısmındaki bildirim çubuğunda anahtar simgesini görürsünüz; bu, cihazınızın korunduğu anlamına gelir. Uygulamayı aşağıdaki düğmeyi kullanarak veya alt menüyü kaydırarak kapatabilirsiniz.</string>
     <string name="slot_action_deactivate">Kapat</string>
     <string name="slot_action_activate">Aç</string>
@@ -115,8 +115,8 @@
     <string name="slot_dropped_share_title">Şununla paylaş</string>
     <string name="slot_adblocking_label">Reklamları engelle &amp; izleyiciler</string>
     <string name="slot_adblocking_text">Etkinleştirildiğinde, Blokada reklamları, izleyicileri ve diğer istenmeyen içerikleri engeller. Bu gizliliğinizi korumanıza, cihazınızı hızlandırmanıza ve verilerinizi kaydetmenize yardımcı olur.</string>
-    <string name="slot_account_label_active">%s\'ye kadar aktif hesap</string>
-    <string name="slot_account_label_inactive">Hesap aktif değil</string>
+    <string name="slot_account_label_active">Hesap %s tarihine kadar etkin</string>
+    <string name="slot_account_label_inactive">Hesap etkin değil</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">Aboneliği yönet</string>
     <string name="slot_account_action_manage_inactive">Hesabı etkinleştir</string>
@@ -125,7 +125,7 @@
     <string name="slot_account_action_copied">Hesap kimliği panoya kopyalandı</string>
     <string name="slot_account_action_unavailable">[ayarlanmadı]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
-    <string name="slot_gateway_label">%s’e bağlan</string>
+    <string name="slot_gateway_label">%s ağ geçidine bağlan</string>
     <string name="slot_gateway_section_partner">Partner ağ geçitleri ek konumlar sağlar. Bunlar tam olarak Blokada tarafından yönetilmezler, ancak şifreli trafiğinize erişimleri bulunmamaktadır.</string>
     <string name="slot_gateway_section_overloaded">Bu ağ geçitleri aşırı yüklenmiş ve geçici olarak kullanılamıyor.</string>
     <string name="slot_gateway_description">Performans: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Bölge: &lt;b&gt;%s&lt;/b&gt;</string>
@@ -144,17 +144,17 @@
     <string name="subscription_success">Hesabınız aktif hale getirildi. Bu bir kaç saniye alabilir. Teşekkür ederim!</string>
     <string name="slot_start_on_boot_description">Açılışta başlatmayı etkinleştirmek Blokada\'nın her zaman aktif olmasını ve cihazınızı korumasını sağlar. Lütfen sistemin her zaman daha yüksek önceliğe sahip olduğunu ve bu seçeneği geçersiz kılabileceğini unutmayın; bu nedenle, eğer Blokada başlatılmazsa, sistem ayarlarına bir göz atın.</string>
     <string name="slot_recommended_dns_label">Önerilen DNS sunucularını kullanın</string>
-    <string name="slot_recommended_dns_description">Etkinleştirildiğinde, Blokada, İnternet\'inizi hızlandırmak ve gizliliğinizi korumak için otomatik olarak önerilen DNS sunucularını seçer. Aksi takdirde, ağınızın varsayılan DNS sunucuları kullanılır. Gelişmiş bölümünde DNS sunucularını el ile seçerseniz, bu ayar yoksayılır.</string>
+    <string name="slot_recommended_dns_description">Etkinleştirildiğinde, Blokada internetinizi hızlandırmanıza ve gizliliğinizi korumanıza yardımcı olmak için önerilen DNS sunucularını otomatik olarak seçecektir. Aksi takdirde, ağınızın varsayılan DNS sunucuları kullanılır. Gelişmiş bölümünden elle DNS sunucularını seçerseniz, bu ayar yok sayılır.</string>
     <string name="slot_update_no_updates">Blokada güncel</string>
-    <string name="slot_about">Blokada Hakkında</string>
+    <string name="slot_about">Blokada hakkında</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Günlük</string>
     <string name="slot_help_label">Yardım mı gerekli?</string>
-    <string name="slot_help_desc">Yardım sayfamızı açmak için aşağıdaki düğmeye dokunun. Sosyal medyayı yardım almak için de kullanabilirsiniz - Telegram, Facebook, Reddit ve Twitter\'dayız.</string>
+    <string name="slot_help_desc">Yardım sayfamızı açmak için aşağıdaki düğmeye dokunun. Sosyal medya adreslerimizi yardım almak için de kullanabilirsiniz. Telegram, Facebook, Reddit ve Twitter\'dayız.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Yardım</string>
-    <string name="slot_donate_label">Blokada’dan zevk alıyor musunuz? Bizi desteklemeyi düşünün, böylece uygulamayı geliştirmeye devam edebiliriz.</string>
-    <string name="slot_donate_desc">Yeni özellikler sunmamıza yardım edin! Daha fazlası için buraya dokunun.</string>
+    <string name="slot_donate_label">Blokada\'yı seviyor musunuz? Uygulamayı geliştirmeye devam edebilmemiz için bizi desteklemeyi düşünün.</string>
+    <string name="slot_donate_desc">Yeni özellikler sunmamıza yardımcı olun! Daha fazla bilgi için buraya dokunun.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Bağış yapın</string>
     <string name="slot_cta_label">Hatırlatma! Fikrinizi bilmek istiyoruz.</string>
