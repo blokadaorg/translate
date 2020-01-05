@@ -69,17 +69,17 @@
 
 <h4><a name="vpn">VPN</a></h4>
   <p>Blokada v4'te yeni bir hizmet tanıtıldı, Blokada'nın kendi VPN hizmeti. Nerede olursanız olun, ne yaparsanız yapın, internette güvenliğinizi ve anonimliğinizi sağlamak için bu hizmet size sunulmaktadır. Bu özellik hakkında daha fazla bilgi için lütfen <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">buradaki</a> blog makalemize bakın.
-  Bu hizmetin ücreti aylık 5 €'dur. Lütfen kaydolmadan önce <a href="https://vpn.blocka.net/tos.html">burada</a> Hizmet Şartlarımızı ve Gizlilik Politikasını <a href="https://vpn.blocka.net/privacy.html">buradan</a> okuyun.
-  Bu bölümde VPN hesabınızı yönetebileceksiniz. Buradan yapabilecekleriniz:</p>
+  Bu hizmetin ücreti aylık 5 €'dur. Lütfen kaydolmadan önce <a href="https://vpn.blocka.net/tos.html">buradaki</a> Hizmet Şartlarımızı ve <a href="https://vpn.blocka.net/privacy.html">buradaki</a> Gizlilik Politikamızı okuyun.
+  Bu bölümde VPN hesabınızı yönetebileceksiniz. Buradan şunları yapabilirsiniz:</p>
   <p><ul>
-    <li>Bir hesap etkinleştir</li>
-    <li>Hesabını geri yükle</li>
-    <li>Bağlanılacak ağ geçidini seçin</li>
+    <li>Bir hesabı etkinleştirin</li>
+    <li>Hesabınızı geri yükleyin</li>
+    <li>Bağlanmak için ağ geçidini seçin</li>
   </ul></p>
-  <p>Ödeme mekanizmasına gelince, Stripe kullanıyoruz ve bu süreçte kaydedilen bilgiler yalnızca ödemeleri doğrulamak ve hesabı etkinleştirmek ve aboneliğinizi güvenli bir şekilde yönetmenize izin vermek için yeterli bilgileri tutmak için kullanılıyor.</p>
+  <p>Ödeme mekanizmasına gelince, Stripe kullanıyoruz. Bu süreçte kaydedilen bilgiler yalnızca ödemeleri doğrulamak, hesabı etkinleştirmek ve aboneliğinizi güvenli bir şekilde yönetmenize izin vermek için gerekli bilgiyi tutmak için kullanılıyor.</p>
 
-<h4><a name="dns">DNS’yi değiştirme</a></h4>
-  <p>Blokada'da yaygın olarak kullanılan diğer bir fonksiyon ise DNS sunucusunu değiştirmektir. Uygulama, aralarından seçim yapabileceğiniz önceden tanımlanmış DNS sunucularının bir listesini sağlar.<br>
+<h4><a name="dns">DNS değiştiriliyor</a></h4>
+  <p>Blokada'da yaygın olarak kullanılan diğer bir işlev ise DNS sunucusunu değiştirmektir. Uygulama, aralarından seçim yapabileceğiniz önceden tanımlanmış DNS sunucularının bir listesini sağlar.<br>
   DNS kısaltması Etki Alanı Adı Sistemi anlamına gelir ve bu sunucular etki alanı adlarını (örneğin: <i>myexample.com</i>) IP adreslerine, makinelerin iletişim kurmak için kullandıklarına çözümlemekten sorumludur. İnternet servis sağlayıcınızın kendi DNS sunucuları vardır; Blokada, sistem varsayılanlarını kullanacak şekilde yapılandırılmıştır. ISP'nizin internet kullanımınızla ilgili günlükleri topladığından şüpheleniyorsanız, bazı gizlilik risklerinden korkuyorsanız veya bazı web siteleri veya hizmetler sizin için engelleniyorsa, bu listedeki makineler kullanılmalıdır. "En iyisi" yoktur, her şey tercihlerinize ve bulunduğunuz yere bağlıdır, bu nedenle özel DNS sunucuları kullanmak istiyorsanız, lütfen açıklamalarını okuyun, internetten arayın ve geri bildirimleri okuyun.<br>
   Bu DNS bölümü aktif veya VPN olmadan çalışır, bu nedenle seçtiğiniz DNS, VPN servisi ile veya VPN servisi olmadan kullanılacaktır. Ayrıca v4'ten itibaren düşünün Blokada henüz DoH/DoT'u desteklemiyor, ancak bu v4'ün yayınlanmasından kısa bir süre sonra uygulanacak.
 </p>
@@ -100,12 +100,12 @@
 <h4><a name="startup">Kurduktan sonra Blokada'yı başlatamıyorum.</a></h4>
 <p>Böyle bir durumun ortak iki nedeni vardır. Öncelikle, aktif bir VPN bağlantınız olup olmadığını ve bunun <i>Her Zaman Açık VPN</i> seçeneğinin etkin olup olmadığını kontrol edin. Bunu yapmak için, telefonunuzun Ayarlar bölümüne gidin, şebeke bölümünde VPN'i arayın, mevcut VPN'in yanındaki donanıma dokunun. Devre dışı bırakın, etkin VPN bağlantısından çıkarın ve Blokada'yı yeniden başlatmayı deneyin.</p>
 
-<p>Başka bir VPN bağlantınız yoksa, Gelişmiş Ayarlar'da <i>Watchdog</i>'un etkin olup olmadığını Blokada'da kontrol edin ve evet ise, internete hem wifi hem de mobil verilerle bağlı olup olmadığınızı kontrol edin. Blokada, <i>Watchdog</i> etkinse ve aktif bir internet bağlantınız yoksa başlamaz.</p>
+<p>Başka bir VPN bağlantınız yoksa, Gelişmiş Ayarlar'da <i>Watchdog</i>'un etkin olup olmadığını Blokada'da kontrol edin. Eğer evet ise, internete kablosuz veya mobil veri ile bağlı olup olmadığınızı kontrol edin. Blokada, <i>Watchdog</i> etkinse ve aktif bir internet bağlantınız yoksa başlamaz.</p>
 
-<p>Yardım etmezse, telefonunuzu yeniden başlatın, bazen de yardımcı olur.</p>
+<p>Eğer işe yaramadıysa, telefonunuzu yeniden başlatın. Bu bazen işe yarar.</p>
 
-<h4><a name="refresh">Blokada daha az reklam engeller.</a></h4>
-<p>Blokada'nın eskisinden daha az reklamı engellediğinden şüpheleniyorsanız, lütfen listelerinizi yenileyin. Bunu yapmak için, <i>Kara listeye</i> dokunun, ardından ekolayzırın sağ üst köşesinde, <i>Filtreleri yenile</i> öğesini seçin ve <i>Devam et</i> üzerine dokunun. Genelde, yeni sunucuların (henüz) tanımlanmamış ve kara listeye eklenmiş olan sunuculara eklenmesi veya yeni listenin telefonunuza indirilmediğinden, bu nedenle (henüz) engellenmediğinden olur.<br>
+<h4><a name="refresh">Blokada eskisine göre daha az reklam engelliyor.</a></h4>
+<p>Blokada'nın öncekinden daha az reklamı engellediğinden şüpheleniyorsanız, lütfen listelerinizi yenileyin. Bunu yapmak için <i>Kara liste</i> üzerine dokunun, ardından ekolayzırın sağ üst köşesindeki <i>Filtreleri yenile</i> seçeneğini seçin ve <i>Devam et</i> tuşuna dokunun. Genelde, yeni sunucuların (henüz) tanımlanmamış ve kara listeye eklenmiş olan sunuculara eklenmesi veya yeni listenin telefonunuza indirilmediğinden, bu nedenle (henüz) engellenmediğinden olur.<br>
 Alternatif olarak, <i>Kara liste</i> menüsünde daha fazla host listesini etkinleştirebilir veya daha fazla kısıtlayıcı filtre ekleyebilirsiniz.</p>
 
 <p>Lütfen Blokada'nın 3. taraf listelerini kullandığını unutmayın; bu nedenle, uygulamanın kendisi daha önce çalışmış ve reklamları engellemişse, değişiklik yapmadan aynı şekilde davranması gerekir.</p>
