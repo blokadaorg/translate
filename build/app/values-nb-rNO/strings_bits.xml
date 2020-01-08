@@ -39,6 +39,7 @@
     <string name="menu_ads_clear_log">Tøm vertslogg</string>
     <string name="menu_ads_lists_label">Velg lister du vil bruke for blokkering. Standard er bra for de fleste.</string>
     <string name="menu_ads_rules_label">Legg til dine egne regler for å finjustere blokkering.</string>
+    <string name="menu_ads_log_label">Se hva som har blitt blokkert eller tillatt nylig.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Vennligst aktiver kontoen din først.</string>
@@ -54,7 +55,11 @@
     <string name="menu_dns_recommended">Anbefalte DNS-servere</string>
     <string name="menu_dns_intro">DNS er ansvarlig for å oversette IP-adresser til nettsteder og apper du bruker. Hvis du velger en god DNS, kan det øke hastigheten på enheten din og vil beskytte personvernet ditt.</string>
     <string name="menu_dns_select">Velg en av DNS-serverne.</string>
-    <string name="menu_host_list_status">Liste status</string>
+    <string name="menu_host_list_intro">Vertslister inneholder oppføringer for å blokkere reklamer, sporere, og annet. Prøv å hold antallet aktive lister lavt.</string>
+    <string name="menu_host_adblocking_features">Blokada-laboratoriet</string>
+    <string name="menu_host_adblocking_settings">Annonseblokkeringsinnstillinger</string>
+    <string name="menu_host_list_status">Listestatus</string>
+    <string name="menu_host_list_download">Listenedlastingsinnstillinger</string>
     <string name="menu_host_whitelist">Verter du legger til her, vil aldri bli blokkert. Bruk denne listen når for eksempel et nettsted du besøker er feilaktig blokkert.</string>
     <string name="menu_host_blacklist">Verter du legger til her, vil alltid blokkeres. For eksempel kan du legge til nettsteder som ikke er blokkert av standardlistene, men bør være det.</string>
     <!-- A section of other settings in menu -->
