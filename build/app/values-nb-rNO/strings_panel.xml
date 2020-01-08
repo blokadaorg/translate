@@ -18,6 +18,7 @@
     <string name="panel_section_apps_all">Installerte apper</string>
     <string name="panel_section_apps_system">System apper</string>
     <string name="panel_section_advanced_settings">Innstillinger</string>
+    <string name="panel_section_app_settings">App-innstillinger</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">Tillatt &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">Dette domenet har blitt tillatt. For å blokkere det, bruk knappen nedenfor.</string>
@@ -38,7 +39,9 @@
     <string name="slot_action_remove">Fjern</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Ja</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Nei</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new_header">Hvordan bruke den nye brukergrensesnittet?</string>
     <string name="slot_intro_info">Psst... Noen elementer har spørsmålstegnikonet på dem. Hvis du trykker på den, vises en kort hjelpemelding, som denne!</string>
@@ -65,6 +68,9 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_export_title">Innstillingsplassering</string>
+    <string name="slot_action_internal">Intern lagring</string>
+    <string name="slot_action_external">Ekstern lagring</string>
     <string name="slot_action_deactivate">Slå av</string>
     <string name="slot_action_activate">Slå på</string>
     <string name="slot_update_action_refresh">Sjekk igjen</string>
@@ -118,7 +124,7 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Avanserte innstillinger</string>
     <string name="slot_whitelist_updating">Oppdaterer konfigurasjon, vennligst vent...</string>
-    <string name="slot_background_animation">Bakgrunns animasjon</string>
+    <string name="slot_background_animation">Bakgrunnsanimasjon</string>
     <string name="slot_background_animation_description">Når på, vil bølger animere hver gang en DNS-forespørsel er blokkert eller tillatt. Slå av hvis du opplever nedbremsing.</string>
     <string name="slot_reset_counter_action">Tilbakestill</string>
 </resources>
