@@ -6,7 +6,7 @@
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
     <string name="tunnel_config_refetch_now_title">Pobierz listy</string>
     <string name="tunnel_config_refetch_now">Pobierz listy teraz</string>
-    <string name="tunnel_config_refetch_toast">Rozpoczęto pobieranie list</string>
+    <string name="tunnel_config_refetch_toast">Download of lists started</string>
     <string name="tunnel_config_refetch_now_description">Użyj poniższego przycisku aby usunąć cache i pobrać listy ponownie. To może pomóc jeśli doświadczasz problemów z filtrowaniem.</string>
     <string name="tunnel_config_refetch_frequency_title">Częstotliwość pobierania list</string>
     <string name="tunnel_config_refetch_frequency_description">Wybierz jedną z opcji aby skonfigurować jak często aplikacja powinna pobierać Twoje listy.</string>
@@ -18,7 +18,7 @@
     <string name="tunnel_config_wifi_only_title">Pobieraj tylko na wifi</string>
     <string name="tunnel_config_wifi_only_description">Aktywuj jeśli chcesz aby aplikacja pobierała listy tylko gdy urządzenie jest połączone z wifi. W przeciwnym przypadku, listy mogą być pobrane nawet na sieci mobilnej co może zużyć Twój pakiet danych.</string>
     <string name="tunnel_config_watchdog_title">Watchdog</string>
-    <string name="tunnel_config_watchdog_description">Aktywuj ten przełącznik, jeśli chcesz, aby aplikacja aktywowała VPN tylko wtedy, gdy istnieje połączenie z Internetem oraz restartowała tunel w przypadku problemów z łącznością. Może to pomóc w przypadku niektórych urządzeń.</string>
+    <string name="tunnel_config_watchdog_description">Aktywuj ten przełącznik, jeśli chcesz, aby aplikacja aktywowała VPN tylko wtedy, gdy istnieje łączność z Internetem, i zrestartuj tunel w przypadku problemów z połączeniem. Może to pomóc niektórym urządzeniom.</string>
     <string name="tunnel_config_powersave_title">Agresywny wakeup</string>
     <string name="tunnel_config_powersave_description">Aktywuj jeśli doświadczasz problemów spowodowanych oszczędzaniem baterii. Gdy aplikacja wykryje problemy z połączeniem tunelu, będzie próbować podnieść swój priorytet w systemie aby wyjść z ograniczonego trybu oszczędzania energii.</string>
     <string name="tunnel_config_reports_title">Raporty</string>
