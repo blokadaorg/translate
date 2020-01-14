@@ -40,6 +40,7 @@
     <string name="home_account_error">Das Konto konnte nicht bestätigt werden. Bist du mit dem Internet verbunden?</string>
     <string name="home_permission_error">Bitte gewähre dem VPN die Berechtigung.</string>
     <string name="home_zero_filters_error">Du hast keine Filter konfiguriert. Überprüfe deine Werbeblocker- und WLAN-Einstellungen.</string>
+    <string name="home_filters_memory_error">Einige Listen konnten nicht geladen werden; wähle weniger Listen in den Werbeblockereinstellungen.</string>
     <string name="tasker_switch_label">Wähle eine der Optionen, um sie so zu konfigurieren, dass Blokada für Ihren Trigger ein- oder ausgeschaltet wird.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Anzeigen</string>
@@ -69,7 +70,16 @@
     <string name="menu_vpn_gateways_label">Wähle eines der Gateways, um dich mit ihm zu verbinden. Dein Gerät wird deine verschlüsselten Daten sicher durch dieses Gateway leiten und du bleibst anonym.</string>
     <string name="menu_vpn_support_label">Wenn du auf Probleme stößt, kontaktiere uns umgehend.</string>
     <string name="menu_vpn_support_button">Support</string>
+    <string name="menu_vpn_support_email">Email eingeben</string>
+    <string name="menu_vpn_support_email_desc">Wenn du Unterstützung brauchst, gib bitte deine Email hier ein. Wir werden sie nutzen, um uns mit dir in Verbindung zu setzen.</string>
+    <string name="menu_vpn_support_name">Namen eingeben (optional)</string>
+    <string name="menu_vpn_support_name_desc">Lass uns wissen wie wir mit dir in Kontakt treten sollen.</string>
+    <string name="menu_vpn_support_messages_label">Support Posteingang</string>
+    <string name="menu_vpn_support_messages_new">Frage nach Hilfe</string>
+    <string name="menu_vpn_support_messages_all">Meine Chats</string>
+    <string name="menu_vpn_support_messages_nothing">Du hast bisher noch nach keiner Hilfe gefragt.</string>
     <string name="menu_vpn_tunnel_settings">Blokada-Tunnel-Einstellungen</string>
+    <string name="menu_vpn_tunnel_learn_more">Erfahre mehr über Blokada-Tunnel</string>
     <string name="menu_vpn_info_account_label">Habe ich ein Konto?</string>
     <string name="menu_vpn_info_account_line1">Ja. Dein Konto wird beim ersten Start automatisch erstellt. Du brauchst dich nicht registrieren.</string>
     <string name="menu_vpn_info_account_line2">Tippe oben auf deinen Avatar, um dir deine Konto-ID anzeigen zu lassen.</string>
