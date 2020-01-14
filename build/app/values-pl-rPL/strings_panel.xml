@@ -31,6 +31,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtry mają teraz %s zasad.</string>
     <string name="panel_ruleset_updating">Aktualizuję filtry...</string>
+    <string name="panel_ruleset_canfit">Filtry są teraz skonfigurowane z regułami &lt;b&gt;%s&lt;/b&gt;.Twoje urządzenie pozwala maksymalnie na &lt;b&gt;%s&lt;/b&gt; MB pamięci dla każdej aplikacji oraz do &lt;b&gt;%s&lt;/b&gt; reguł, które mogą się pomieścić.&lt;br&gt;Pamiętaj, że jest to tylko szacunek i Blokada wykorzystuje największą ilość pamięci podczas łączenia list. Jeśli włączyłeś kilka z nich, odczekaj kilka minut aż system zwolni pamięć.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Zezwól</string>
     <!-- Button to block allowed domain -->
@@ -192,4 +193,5 @@
     <string name="slot_reset_counter_action">Przywróć domyślne</string>
     <string name="label_workarounds">Obejścia specyficzne dla urządzenia</string>
     <string name="slot_dns_answer_label">Alternatywna odpowiedź DNS</string>
+    <string name="slot_dns_answer_description">Zmieniając odpowiedź, Blokada wysyła do zablokowanych żądań z \"nie znaleziono hosta\" na nieprawidłowy IP. Może to pomóc na niektórych ROM-ach, które zapytują inne serwery DNS, jeśli otrzymają odpowiedź \"nie znaleziono hosta\". Należy pamiętać, że może to spowolnić niektóre aplikacje, które próbują połączyć się z nieprawidłowym adresem.</string>
 </resources>
