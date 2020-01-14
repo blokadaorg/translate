@@ -40,6 +40,7 @@
     <string name="home_account_error">Impossible de vérifier le compte. Êtes-vous en ligne ?</string>
     <string name="home_permission_error">Veuillez accorder les autorisations VPN.</string>
     <string name="home_zero_filters_error">Vous n\'avez aucun filtre configuré. Vérifiez vos paramètres de blocage de publicités et votre connexion wifi.</string>
+    <string name="home_filters_memory_error">Certaines listes n\'ont pas pu être chargées ; sélectionnez moins de listes dans les paramètres de blocage des publicités.</string>
     <string name="tasker_switch_label">Cliquez sur une des options à configurer pour activer (ou désactiver) votre déclencheur.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Publicités</string>
@@ -69,6 +70,10 @@
     <string name="menu_vpn_gateways_label">Sélectionnez le serveur VPN auquel vous souhaitez vous connecter. Votre appareil enverra vos données chiffrées à travers ce serveur, et vous resterez anonyme.</string>
     <string name="menu_vpn_support_label">Si vous rencontrez le moindre problème, n\'hésitez pas à nous contacter.</string>
     <string name="menu_vpn_support_button">Assistance</string>
+    <string name="menu_vpn_support_email">Entrez l\'adresse email</string>
+    <string name="menu_vpn_support_email_desc">Si vous avez besoin d\'aide, veuillez entrer votre adresse email ici. Nous l\'utiliserons pour vous rappeler.</string>
+    <string name="menu_vpn_support_name">Entrez le nom (facultatif)</string>
+    <string name="menu_vpn_support_name_desc">Faites-nous savoir comment nous devons nous adresser à vous.</string>
     <string name="menu_vpn_tunnel_settings">Paramètres de Blokada Tunnel</string>
     <string name="menu_vpn_info_account_label">Avez-vous un compte ?</string>
     <string name="menu_vpn_info_account_line1">Oui ! Votre compte est automatiquement créé au premier démarrage. Vous n\'avez pas besoin de vous inscrire.</string>
