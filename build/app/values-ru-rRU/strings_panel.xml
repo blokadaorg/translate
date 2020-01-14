@@ -65,7 +65,7 @@
     <string name="slot_enter_domain_no_file">Файлов в расположении /Download/blokada/filters не найдено</string>
     <string name="slot_enter_file_titel">Имя файла</string>
     <string name="slot_enter_file_import">Импорт</string>
-    <string name="slot_enter_file_desc">Введите часть имени файла</string>
+    <string name="slot_enter_file_desc">Введите частичное имя файла</string>
     <string name="slot_enter_file_not_found">Нет имен файлов, содержащих введенные символы</string>
     <string name="slot_enter_file_multi">Несколько файлов соответствуют введенным вами символам</string>
     <string name="slot_enter_name_title">Имя</string>
@@ -191,7 +191,7 @@
     <string name="slot_reset_counter_label">Сброс счетчика заблокированных хостов</string>
     <string name="slot_reset_counter_description">Устанавливает счетчик, показывающий, сколько запросов было заблокировано на 0.</string>
     <string name="slot_reset_counter_action">Сброс</string>
-    <string name="label_workarounds">Обходные пути для конкретных устройств</string>
+    <string name="label_workarounds">Специфичные для устройства методы работы</string>
     <string name="slot_dns_answer_label">Альтернативный ответ DNS</string>
     <string name="slot_dns_answer_description">Изменяет ответ, который Blokada отправляет для заблокированных запросов с «хост не найден» на недействительный ip. Это может помочь на некоторых прошивках, которые запрашивают другие DNS-серверы, если они получают ответ «хост не найден». обратите внимание, что это может привести к замедлению работы некоторых приложений, которые пытаются подключиться к неверному адресу.</string>
 </resources>
