@@ -40,6 +40,7 @@
     <string name="home_account_error">Не удалось верифицировать аккаунт. Вы онлайн?</string>
     <string name="home_permission_error">Пожалуйста, предоставьте разрешения VPN.</string>
     <string name="home_zero_filters_error">У вас нет настроенных фильтров. Проверьте настройки блокировки рекламы и Wi-Fi.</string>
+    <string name="home_filters_memory_error">Некоторые списки не могут быть загружены; выберите меньше списков в настройках блокировки рекламы.</string>
     <string name="tasker_switch_label">Нажмите на один из параметров, чтобы настроить его для включения (или выключения) триггера.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклама</string>
@@ -69,6 +70,9 @@
     <string name="menu_vpn_gateways_label">Выберите один из шлюзов для подключения. Устройство будет осуществлять безопасную передачу зашифрованных данных через этот шлюз, и вы станете анонимным.</string>
     <string name="menu_vpn_support_label">Если у вас возникли проблемы, не стесняйтесь обращаться к нам.</string>
     <string name="menu_vpn_support_button">Поддержка</string>
+    <string name="menu_vpn_support_email">Введите email</string>
+    <string name="menu_vpn_support_email_desc">Если вам нужна помощь, пожалуйста, введите ваш адрес электронной почты здесь. Мы будем использовать его, чтобы связаться с вами.</string>
+    <string name="menu_vpn_support_name">Введите имя (необязательно)</string>
     <string name="menu_vpn_tunnel_settings">Настройки Blokada Tunnel</string>
     <string name="menu_vpn_info_account_label">Есть ли у меня аккаунт?</string>
     <string name="menu_vpn_info_account_line1">Да! Ваша учетная запись автоматически создается при первом запуске. Вам не нужно регистрироваться.</string>
