@@ -31,6 +31,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filter sekarang memiliki %s aturan.</string>
     <string name="panel_ruleset_updating">Memperbaharui filter...</string>
+    <string name="panel_ruleset_canfit">Filter sekarang telah dikonfigurasikan dengan &lt;b&gt;%s&lt;/b&gt; aturan. Perangkat Anda bisa menggunakan memori sebesar &lt;b&gt;%s&lt;/b&gt; MB untuk setiap aplikasi, dan bisa memuat hingga &lt;b&gt;%s&lt;/b&gt; aturan. &lt;br&gt; Harap diingat bahwa angka-angka tersebut hanya perkiraan dan Blokada menggunakan memori ketika menggabungkan list. Jika Anda mengaktifkan beberapa list sekaligus, harap bersabar dan tunggu beberapa saat agar perangkat Anda bisa membebaskan memori.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Izinkan</string>
     <!-- Button to block allowed domain -->
@@ -190,4 +191,6 @@
     <string name="slot_reset_counter_label">Reset penghitung host</string>
     <string name="slot_reset_counter_description">Mengembalikan jumlah host yang telah diblokir ke angka 0.</string>
     <string name="slot_reset_counter_action">Reset</string>
+    <string name="label_workarounds">Solusi alternatif berdasarkan merk perangkat</string>
+    <string name="slot_dns_answer_label">Jawaban DNS alternatif</string>
 </resources>
