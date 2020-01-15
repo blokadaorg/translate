@@ -59,7 +59,7 @@
     <string name="slot_invalid">geçersiz</string>
     <string name="slot_continue">Devam et</string>
     <string name="slot_enter_domain_title">Alan adları</string>
-    <string name="slot_enter_domain_desc">Alan adlarını virgülle ayırarak girin. Ayrıca herhangi bir ana makine listesine bağlantı yapıştırabilir veya yerel bir ana makine listesi dosyasını içe aktarabilirsiniz.</string>
+    <string name="slot_enter_domain_desc">Alan adlarını virgülle ayırarak girin. Ayrıca herhangi bir host listesine bağlantı yapıştırabilir veya yerel bir host listesi dosyasını içe aktarabilirsiniz.</string>
     <string name="slot_enter_domain_error">Bu bana hiçbir şey gibi gelmiyor.</string>
     <string name="slot_enter_domain_file">Dosya</string>
     <string name="slot_enter_domain_no_file">/Download/blokada/filters içinde dosya bulunamadı</string>
@@ -87,7 +87,7 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">Bir giriş</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
-    <string name="slot_input_suggestion_for">%s için bir giriş</string>
+    <string name="slot_input_suggestion_for">%s için giriş</string>
     <string name="slot_dns_control_title">DNS sunucular listesi</string>
     <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkiler dahil) bırakabilir ve tekrar indirebilirsiniz.</string>
     <!-- A button to synchronize (fetch) lists  -->
@@ -193,5 +193,5 @@
     <string name="slot_reset_counter_action">Sıfırla</string>
     <string name="label_workarounds">Cihaza özgü geçici çözümler</string>
     <string name="slot_dns_answer_label">Alternatif DNS yanıtı</string>
-    <string name="slot_dns_answer_description">Blokada\'nın engellenen istekler için \"ana makine bulunamadı\" ifadesinden geçersiz bir IP\'ye gönderdiği yanıtı değiştirir. Bu, \"ana bilgisayar bulunamadı\" yanıtı alırsa diğer DNS sunucularını sorgulayan bazı ROM\'larda yardımcı olabilir. Bunun, geçersiz adrese bağlanmaya çalışan bazı uygulamaları yavaşlatabileceğini lütfen unutmayın.</string>
+    <string name="slot_dns_answer_description">Blokada\'nın engellenen istekler için \"host bulunamadı\" ifadesinden geçersiz bir IP\'ye gönderdiği yanıtı değiştirir. Bu, \"host bulunamadı\" yanıtı alırsa diğer DNS sunucularını sorgulayan bazı ROM\'larda yardımcı olabilir. Bunun, geçersiz adrese bağlanmaya çalışan bazı uygulamaları yavaşlatabileceğini lütfen unutmayın.</string>
 </resources>
