@@ -40,7 +40,7 @@
     <string name="home_account_error">Nie można zweryfikować Twojego konta. Jesteś online?</string>
     <string name="home_permission_error">Proszę przyznać uprawnienia VPN.</string>
     <string name="home_zero_filters_error">Nie masz skonfigurowanych filtrów. Sprawdź ustawienia blokowania reklam i Wi-Fi.</string>
-    <string name="home_filters_memory_error">Nie udało się załadować wszystkich filtrów. Sprawdź ustawienia list.</string>
+    <string name="home_filters_memory_error">Niektóre listy nie mogły zostać załadowane; wybierz mniej list w ustawieniach blokowania reklam.</string>
     <string name="tasker_switch_label">Dotknij jedną z opcji aby skonfigurować jej włączanie (lub wyłączanie).</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamy</string>
@@ -70,6 +70,14 @@
     <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
     <string name="menu_vpn_support_label">Jeśli wystąpią jakiekolwiek problemy, nie wahaj się skontaktować z nami.</string>
     <string name="menu_vpn_support_button">Wsparcie</string>
+    <string name="menu_vpn_support_email">Wpisz e-mail</string>
+    <string name="menu_vpn_support_email_desc">Jeśli potrzebujesz pomocy, wpisz tutaj swój e-mail. Użyjemy go, aby się z tobą skontaktować.</string>
+    <string name="menu_vpn_support_name">Wpisz imię (opcjonalnie)</string>
+    <string name="menu_vpn_support_name_desc">Daj nam znać, jak powinniśmy się do ciebie zwracać.</string>
+    <string name="menu_vpn_support_messages_label">Skrzynka odbiorcza pomocy technicznej</string>
+    <string name="menu_vpn_support_messages_new">Poproś o pomoc techniczną</string>
+    <string name="menu_vpn_support_messages_all">Moje czaty</string>
+    <string name="menu_vpn_support_messages_nothing">Jeszcze nie skontaktowałeś się z pomocą techniczną.</string>
     <string name="menu_vpn_tunnel_settings">Ustawienia Tunelu Blokada</string>
     <string name="menu_vpn_tunnel_learn_more">Dowiedz się więcej o Tunelu Blokada</string>
     <string name="menu_vpn_info_account_label">Czy mam konto?</string>

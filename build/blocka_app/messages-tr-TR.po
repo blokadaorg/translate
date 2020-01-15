@@ -4,16 +4,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: react-intl-po\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: blokada\n"
 "X-Crowdin-Language: tr\n"
 "X-Crowdin-File: /master/blocka_app/messages.pot\n"
 "Project-Id-Version: blokada\n"
-"Last-Translator: Karol (kargs)\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2019-11-20 15:01\n"
+"PO-Revision-Date: 2019-12-29 15:42\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -52,14 +51,14 @@ msgstr "Geçerli döngü sona erdikten sonra yeni bir abonelik etkinleştirilebi
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr "Gerçek bir tarayıcı gereklidir. Aşağıdaki \"Tarayıcıda aç\" düğmesini deneyin."
+msgstr "Gerçek bir tarayıcı gerekir. Aşağıdaki \"Tarayıcıda aç\" düğmesini deneyin."
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr "AKTİF"
+msgstr "ETKİN"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
@@ -73,7 +72,7 @@ msgstr "Hesap"
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr "Hesap kimliği"
+msgstr "Hesap Kimliği"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
@@ -87,14 +86,14 @@ msgstr "Hesabı Etkinleştir"
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr "Aktivasyon iptal edildi"
+msgstr "Etkinleştirme iptal edildi"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
+msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -105,14 +104,14 @@ msgstr "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr "Bir hata oluştu, lütfen daha sonra tekrar deneyin."
+msgstr "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr "Bir hata oluştu, lütfen kimliğinizi doğrulayın ve tekrar deneyin."
+msgstr "Bir hata oluştu. Lütfen kimliğinizi doğrulayın ve tekrar deneyin."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
@@ -140,7 +139,7 @@ msgstr "Blokada Hesabı"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr "Blokada VPN {link} kullanmaktadır. Yapılandırmalar yeni cihazlar oluştururken indirilebilir."
+msgstr "Blokada VPN {link} kullanıyor. Yeni cihazlar oluşturulurken yapılandırmalar indirilebilir."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -161,7 +160,7 @@ msgstr "İptal ediliyor {spinner}"
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Değiştir"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -187,14 +186,14 @@ msgstr "Devam et"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr "Blokada Uygulaması ile devam edin"
+msgstr "Blokada uygulaması ile devam edin"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr "Bağlanabilecek cihazları oluşturun ve yapılandırın."
+msgstr "Bağlanabilecek cihazlar oluşturun ve yapılandırın."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
@@ -293,7 +292,7 @@ msgstr "Ağ geçidi"
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr "Geri Dön"
+msgstr "Geri dön"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -328,7 +327,7 @@ msgstr "YÜKLENİYOR"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr "Limite ulaşıldı"
+msgstr "Sınıra ulaşıldı"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -342,7 +341,7 @@ msgstr "Yükleniyor {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent they payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent they payment."
-msgstr "Devam etmeden önce cüzdanınızın uygun olduğundan emin olun, ödeme gönderdiklerinde buraya geri dönün."
+msgstr "Devam etmeden önce cüzdanınızın kullanılabilir olduğundan emin olun. Ödeme gönderdiğinizde buraya geri dönün."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
@@ -384,7 +383,7 @@ msgstr "Bulunamadı"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr "Stellar cüzdanını kullanarak €{price} tutarında bir ödeme yapın. {recommeded} kullanmanızı öneririz."
+msgstr "Stellar cüzdanını kullanarak {price} € tutarında bir ödeme yapın. {recommeded} kullanmanızı öneririz."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -398,21 +397,21 @@ msgstr "PayPal ile öde"
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr "PayPal ile ödeme, Blokada v{version} ve üstü sürümlerde mevcuttur"
+msgstr "PayPal ile ödeme Blokada v{version} ve üstü için geçerlidir"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr "Stellar Lumens ile ödeme, Blokada v{version} ve üstü sürümlerde mevcuttur"
+msgstr "Stellar Lumens ile ödeme Blokada v{version} ve üstü için geçerlidir"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr "Kartla öde"
+msgstr "Kart ile öde"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
@@ -426,35 +425,35 @@ msgstr "Kripto para ile öde"
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr "€{price} ödeyin"
+msgstr "{price} € ödeyin"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr "Her dönem €{price} ödeyin"
+msgstr "Her dönem {price} € ödeyin"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr "PayPal kullanarak €{price} ödeyin"
+msgstr "PayPal kullanarak {price} € ödeyin"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr "Ödeme başarısız oldu, lütfen kart ayrıntılarını doğrulayın."
+msgstr "Ödeme başarısız oldu. Llütfen kart ayrıntılarını doğrulayın."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr "Ödeme başarısız oldu, ayrıntılar için PayPal'a bakın."
+msgstr "Ödeme başarısız oldu. Ayrıntılar için PayPal'a bakın."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
@@ -468,7 +467,7 @@ msgstr "Lütfen önceki ekrandan hesap kimliğinizi doğrulayın."
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr "M-cüzdan'a geç"
+msgstr "Cüzdana gidin"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -503,7 +502,7 @@ msgstr "Üzgünüz"
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr "Maalesef, bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+msgstr "Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
@@ -517,7 +516,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr "Hesap kimliğinizi güvenli bir yerde saklayın, cihazınızı bağlarken ve etkinleştirirken bulundurmanız gerekecektir."
+msgstr "Hesap kimliğini güvenli bir yerde saklayın, cihazınızı bağlarken ve etkinleştirirken buna sahip olmanız gerekir."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -545,7 +544,7 @@ msgstr "Teşekkürler!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr "Hesap kimliği eşleşmedi, önceki ekranda düzgün bir şekilde sakladığınızı doğrulayın ve tekrar deneyin."
+msgstr "Hesap kimliği eşleşmedi. Önceki ekranda doğru şekilde sakladığınızı doğrulayın ve tekrar deneyin."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -573,7 +572,7 @@ msgstr "Ödeme onayı bekleniyor..."
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr "Şu anda F-Droid yapılarında VPN aktivasyonu ile ilgili sorunlarımız var. Bu sorun üzerinde çalışılmaktadır, bu arada F-Droid sürümünü kaldırabilir ve uygulamayı blokada.org adresinden indirebilirsiniz."
+msgstr "Şu anda F-Droid derlemelerinde VPN etkinleştirmesiyle ilgili sorunlar yaşıyoruz. Bu sorun üzerinde çalışılıyor, bu arada F-Droid sürümünü kaldırabilir ve bunun yerine uygulamayı blokada.org'dan indirebilirsiniz."
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
@@ -587,7 +586,7 @@ msgstr "WireGuard Yapılandırması"
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr "Bir mesaj yaz..."
+msgstr "Bir mesaj yazın..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
@@ -601,7 +600,7 @@ msgstr "Ödemeniz işleme alındı ve hesabınız kısa süre içinde etkinleşt
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr "Ödemeniz iptal edildi ve sizden ücret alınmayacak. Hesabınız aktif değil. Herhangi bir sorunla karşılaşırsanız, lütfen {email} adresinden bize ulaşın."
+msgstr "Ödemeniz iptal edildi ve sizden ödeme alınmayacak. Hesabınız etkin değil. Herhangi bir sorunla karşılaşırsanız, lütfen {email} adresinden bize ulaşın."
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
