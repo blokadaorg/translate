@@ -29,6 +29,11 @@
     <string name="tunnel_config_fallback_description">WiFi gibi, bazı durumlarda internet erişimini kaybediyorsanız; bu anahtarı etkinleştirin. Bu, uygulama bağlantısının sürdürebilmesi için Cloudflare DNS\'e geçici olarak geçiş yapar. Bu ayarın geçerli olması için, DNS bölümünden sunucularınızı yeniden seçmeniz gerekebilir.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Akıllı Liste</string>
     <string name="tunnel_config_smartlist_reset_btn">Sıfırla</string>
+    <string name="tunnel_config_smartlist_clean_btn">Temizle</string>
+    <string name="tunnel_config_smartlist_clean_none">Temizlenecek bir şey yok</string>
+    <string name="tunnel_config_smartlist_clean_inactive">Akıllı Liste etkin değil</string>
+    <string name="tunnel_config_smartlist_clean_done">Akıllı Liste eski kurallardan temizlendi</string>
+    <string name="tunnel_config_smartlist_reset_done">Akıllı Liste sıfırlandı</string>
     <string name="tunnel_config_smartlist_description">Filtrelerinizdeki kural sayısını önemli ölçüde azaltan, pil ömrünü uzatan ve RAM kullanımını azaltan Akıllı Liste özelliğini etkinleştirmek için bu anahtarı etkinleştirin. Etkinleştirildiğinde, Blokada istek günlüğünüze bakar ve fiilen en az bir isteği engelleyen kurallardan oluşan bir listeyi dinamik olarak oluşturur. Akıllı Liste günde bir kez geceleri güncellenmektedir. Lütfen öğrenme döneminde (birkaç gün) fazla sayıda istenmeyen isteklere izin verilebileceğini unutmayın. Lütfen bunun deneysel bir özellik olduğunu ve düzgün çalışmayabileceğini unutmayın.</string>
     <string name="tunnel_config_disable_wildcard">Önce gelişmiş reklam engelleme kurallarını devre dışı bırakın.</string>
     <string name="tunnel_config_disable_smartlist">Önce Akıllı Listeyi devre dışı bırakın.</string>
