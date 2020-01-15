@@ -193,4 +193,5 @@
     <string name="slot_reset_counter_action">Azzera</string>
     <string name="label_workarounds">Soluzioni specifiche per dispositivo</string>
     <string name="slot_dns_answer_label">Risposta DNS alternativa</string>
+    <string name="slot_dns_answer_description">Cambia la risposta che Blokada invia per le richieste bloccate, da \"host non trovato\" ad un indirizzo IP non valido. Questo può essere d\'aiuto su alcune ROM che, in caso di risposta \"host non trovato\", interrogano altri DNS. Si prega di notare che questa impostazione potrebbe rallentare quelle app che provano a collegarsi all\'indirizzo non valido.</string>
 </resources>
