@@ -190,4 +190,7 @@
     <string name="slot_reset_counter_label">Нулиране брояча на блокирани хостове</string>
     <string name="slot_reset_counter_description">Задава на брояча, който показва колко заявки са блокирани да бъде 0.</string>
     <string name="slot_reset_counter_action">Нулиране</string>
+    <string name="label_workarounds">Устройство-специфични решения</string>
+    <string name="slot_dns_answer_label">Алтернативно DNS решение</string>
+    <string name="slot_dns_answer_description">Променя отговора, който Blokada изпраща за блокирани заявки от „хост не е намерен“ на невалиден ip. Това може да помогне на някои ROM, които питат други DNS сървъри, ако получат отговор \"хост не е намерен\". Моля, обърнете внимание, че това може да забави някои приложения, които се опитват да се свържат с невалиден адрес.</string>
 </resources>
