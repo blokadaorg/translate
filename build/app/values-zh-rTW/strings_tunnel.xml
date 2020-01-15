@@ -31,6 +31,9 @@
     <string name="tunnel_config_smartlist_reset_btn">重設</string>
     <string name="tunnel_config_smartlist_clean_btn">清理</string>
     <string name="tunnel_config_smartlist_clean_none">沒有東西可清理</string>
+    <string name="tunnel_config_smartlist_clean_inactive">智慧型清單已停用</string>
+    <string name="tunnel_config_smartlist_clean_done">智慧型清單已清除舊規則</string>
+    <string name="tunnel_config_smartlist_reset_done">智慧型清單已重設</string>
     <string name="tunnel_config_smartlist_description">啟用此開關以啟用智慧清單功能，此功能可顯著減少您的過濾規則的數量，可能改善電池壽命並降低 RAM 使用量。啟用時，Blokada 將會查看您的請求紀錄，並動態生成阻擋過至少一個請求的規則清單。智慧清單每天晚上更新。請注意，您可能會在一開始的幾天內遇到大量不想要的請求被允許。請注意，這是實驗性功能，可能無法正常運作。</string>
     <string name="tunnel_config_disable_wildcard">先停用進階廣告阻擋規則。</string>
     <string name="tunnel_config_disable_smartlist">先停用智慧清單。</string>
