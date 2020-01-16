@@ -193,4 +193,5 @@
     <string name="slot_reset_counter_action">Obnovit</string>
     <string name="label_workarounds">Řešení pro konkrétní zařízení</string>
     <string name="slot_dns_answer_label">Alternativní odpověď DNS</string>
+    <string name="slot_dns_answer_description">Změní odpověď, kterou Blokada odešle pro blokované požadavky z „host nenalezen“, na neplatné IP. To může pomoci na některých ROMkách, které dotazují jiné servery DNS, pokud dostanou odpověď „host nebyl nalezen“. Upozorňujeme, že by to mohlo zpomalit některé aplikace, které se pokusí připojit k neplatné adrese.</string>
 </resources>
