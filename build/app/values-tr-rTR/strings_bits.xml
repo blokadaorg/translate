@@ -40,6 +40,7 @@
     <string name="home_account_error">Hesap doğrulanamadı. Çevrimiçi misiniz?</string>
     <string name="home_permission_error">Lütfen VPN izinleri verin.</string>
     <string name="home_zero_filters_error">Yapılandırılmış filtreniz yok. Reklam engelleme ve kablosuz ağ ayarlarınızı kontrol edin.</string>
+    <string name="home_filters_memory_error">Bazı listeler yüklenemedi. Reklam engelleme ayarlarından daha az liste seçin.</string>
     <string name="tasker_switch_label">Tetikleyicinizi açmak (veya kapatmak) için yapılandırmak üzere seçeneklerden birine dokunun.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklamlar</string>
@@ -69,7 +70,16 @@
     <string name="menu_vpn_gateways_label">Bağlanmak için ağ geçitlerinden birini seçin. Cihazınız şifrelenmiş verilerinizi bu ağ geçidi üzerinden güvenli bir şekilde gönderir ve anonim kalırsınız.</string>
     <string name="menu_vpn_support_label">Herhangi bir sorunla karşılaşırsanız, bizimle iletişime geçmekten çekinmeyin.</string>
     <string name="menu_vpn_support_button">Destek</string>
+    <string name="menu_vpn_support_email">E-posta girin</string>
+    <string name="menu_vpn_support_email_desc">Yardıma ihtiyacınız varsa, lütfen e-postanızı buraya girin. Size geri dönmek için kullanacağız.</string>
+    <string name="menu_vpn_support_name">Adınızı girin (isteğe bağlı)</string>
+    <string name="menu_vpn_support_name_desc">Size nasıl hitap edeceğimizi bize bildirin.</string>
+    <string name="menu_vpn_support_messages_label">Destek Gelen Kutusu</string>
+    <string name="menu_vpn_support_messages_new">Destek isteyin</string>
+    <string name="menu_vpn_support_messages_all">Sohbetlerim</string>
+    <string name="menu_vpn_support_messages_nothing">Henüz destek ekibiyle iletişim kurmadınız.</string>
     <string name="menu_vpn_tunnel_settings">Blokada Tüneli ayarları</string>
+    <string name="menu_vpn_tunnel_learn_more">Blokada Tüneli hakkında daha fazla bilgi edinin</string>
     <string name="menu_vpn_info_account_label">Bir hesabım var mı?</string>
     <string name="menu_vpn_info_account_line1">Evet! Hesabınız ilk çalıştırmada otomatik olarak oluşturulmaktadır. Kayıt olmaya ihtiyacınız yoktur.</string>
     <string name="menu_vpn_info_account_line2">Hesap kimliğinizi görmek için yukarıdaki avatarınıza dokunun.</string>
@@ -85,8 +95,8 @@
     <string name="menu_host_adblocking_settings">Reklam Engelleme Ayarları</string>
     <string name="menu_host_list_status">Liste durumu</string>
     <string name="menu_host_list_download">Liste indirme ayarları</string>
-    <string name="menu_host_whitelist">Buraya eklediğiniz ana makineler hiçbir zaman engellenmez. Örneğin, ziyaret ettiğiniz bir web sitesi yanlışlıkla engellendiğinde bu listeyi kullanın.</string>
-    <string name="menu_host_blacklist">Buraya eklediğiniz ana makineler her zaman engellenir. Örneğin, standart listeler tarafından engellenmeyen, ancak olması gereken web sitelerini ekleyebilirsiniz.</string>
+    <string name="menu_host_whitelist">Buraya eklediğiniz hostlar hiçbir zaman engellenmez. Örneğin, ziyaret ettiğiniz bir web sitesi yanlışlıkla engellendiğinde bu listeyi kullanın.</string>
+    <string name="menu_host_blacklist">Buraya eklediğiniz hostlar her zaman engellenir. Örneğin, standart listeler tarafından engellenmeyen, ancak olması gereken web sitelerini ekleyebilirsiniz.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Diğer</string>
     <string name="menu_share_log_label">Günlüğü paylaşmak, sorunun nedenini keşfetmemizi sağlar. Blokada çekirdek ekip üyelerinden birine özel olarak gönderdiğinizden emin olun.</string>

@@ -4,16 +4,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: react-intl-po\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: blokada\n"
 "X-Crowdin-Language: pl\n"
 "X-Crowdin-File: /master/blocka_app/messages.pot\n"
 "Project-Id-Version: blokada\n"
-"Last-Translator: Karol (kargs)\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2019-11-21 08:54\n"
+"PO-Revision-Date: 2020-01-16 16:06\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -194,7 +193,7 @@ msgstr "Kontynuuj do aplikacji Blokada"
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr "Dodaj i skonfguiuj urządzenia które mogą się łączyć."
+msgstr "Dodaj i skonfiguruj urządzenia które mogą się łączyć."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
@@ -314,7 +313,7 @@ msgstr "ID"
 #. Keybase referrer
 #: build/messages/src/Checkout.json
 msgid "Keybase referrer"
-msgstr "Polecający bazę kluczy"
+msgstr "Referrer keybase"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:

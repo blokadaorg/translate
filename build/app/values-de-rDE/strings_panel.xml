@@ -193,5 +193,5 @@
     <string name="slot_reset_counter_action">Zurücksetzen</string>
     <string name="label_workarounds">Gerätespezifische Workarounds</string>
     <string name="slot_dns_answer_label">Alternative DNS-Antwort</string>
-    <string name="slot_dns_answer_description">Ändert die Antwort, die Blokada für blockierte Anfragen von \"Host nicht gefunden\" auf eine ungültige IP sendet. Dies kann bei einigen ROMs helfen, die andere DNS-Server abfragen, wenn sie eine \"Host nicht gefunden\" Antwort erhalten. Bitte beachte, dass dies einige Apps verlangsamen könnte, die versuchen, sich mit der ungültigen Adresse zu verbinden.</string>
+    <string name="slot_dns_answer_description">Ändert die Anwort, die Blokada an blockierte Anfragen sendet, von \"host not found\" in eine ungültige IP-Adresse. Dies kann bei einigen ROMs helfen, die weitere DNS-Server abfragen, wenn sie eine \"host not found\"-Antwort bekommen. Bitte beachte das dies einige Apps verlangsamen könnte, wenn sie versuchen, sich mit der ungültigen IP-Adresse zu verbinden.</string>
 </resources>

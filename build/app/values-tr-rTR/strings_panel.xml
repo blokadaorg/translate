@@ -10,7 +10,7 @@
     <string name="panel_section_apps">Uygulamalar</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Yardım</string>
-    <string name="panel_section_ads_lists">Host Listesi</string>
+    <string name="panel_section_ads_lists">Host Listeleri</string>
     <string name="panel_section_ads_log">Host Kaydı</string>
     <string name="panel_section_ads_blacklist">Engellenen Host Listesi</string>
     <string name="panel_section_ads_whitelist">İzin Verilen Host Listesi</string>
@@ -31,6 +31,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtrelerin artık %s kuralları var.</string>
     <string name="panel_ruleset_updating">Filtreler güncelleniyor...</string>
+    <string name="panel_ruleset_canfit">Filtreler artık &lt;b&gt;%s&lt;/b&gt; kuralla yapılandırılmıştır. Cihazınız her uygulama için maksimum &lt;b&gt;%s&lt;/b&gt; MB belleğe izin verir ve en fazla &lt;b&gt;%s&lt;/b&gt; kural sığabilir.&lt;br&gt;Unutmayın, bu sadece bir tahmindir ve Blokada en fazla belleği listeleri birleştirirken kullanır. Son zamanlarda birkaçını etkinleştirdiyseniz, sistemin belleği boşaltması için birkaç dakika bekleyin.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">İzin ver</string>
     <!-- Button to block allowed domain -->
@@ -58,7 +59,7 @@
     <string name="slot_invalid">geçersiz</string>
     <string name="slot_continue">Devam et</string>
     <string name="slot_enter_domain_title">Alan adları</string>
-    <string name="slot_enter_domain_desc">Alan adlarını virgülle ayırarak girin. Ayrıca herhangi bir ana makine listesine bağlantı yapıştırabilir veya yerel bir ana makine listesi dosyasını içe aktarabilirsiniz.</string>
+    <string name="slot_enter_domain_desc">Alan adlarını virgülle ayırarak girin. Ayrıca herhangi bir host listesine bağlantı yapıştırabilir veya yerel bir host listesi dosyasını içe aktarabilirsiniz.</string>
     <string name="slot_enter_domain_error">Bu bana hiçbir şey gibi gelmiyor.</string>
     <string name="slot_enter_domain_file">Dosya</string>
     <string name="slot_enter_domain_no_file">/Download/blokada/filters içinde dosya bulunamadı</string>
@@ -86,7 +87,7 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <string name="slot_input_suggestion">Bir giriş</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
-    <string name="slot_input_suggestion_for">%s için bir giriş</string>
+    <string name="slot_input_suggestion_for">%s için giriş</string>
     <string name="slot_dns_control_title">DNS sunucular listesi</string>
     <string name="slot_dns_control_description">Özel girişlerinizi kaybetmeden DNS sunucuları listesini sunucularımızla senkronize edebilirsiniz. &lt;br/&gt;&lt;br/&gt;Alternatif olarak, tüm girişleri (sizinkiler dahil) bırakabilir ve tekrar indirebilirsiniz.</string>
     <!-- A button to synchronize (fetch) lists  -->
@@ -190,4 +191,7 @@
     <string name="slot_reset_counter_label">Engellenen host sayacını sıfırla</string>
     <string name="slot_reset_counter_description">Engellenen yerde kaç tane istek olduğunu 0 olarak gösteren sayacı ayarlar.</string>
     <string name="slot_reset_counter_action">Sıfırla</string>
+    <string name="label_workarounds">Cihaza özgü geçici çözümler</string>
+    <string name="slot_dns_answer_label">Alternatif DNS yanıtı</string>
+    <string name="slot_dns_answer_description">Blokada\'nın engellenen istekler için \"host bulunamadı\" ifadesinden geçersiz bir IP\'ye gönderdiği yanıtı değiştirir. Bu, \"host bulunamadı\" yanıtı alırsa diğer DNS sunucularını sorgulayan bazı ROM\'larda yardımcı olabilir. Bunun, geçersiz adrese bağlanmaya çalışan bazı uygulamaları yavaşlatabileceğini lütfen unutmayın.</string>
 </resources>
