@@ -29,11 +29,19 @@
     <string name="panel_domain_blocked_toast">Додато на црну листу.</string>
     <string name="panel_ruleset">Бројач филтера</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_title">Филтери сада имају %s правила.</string>
+    <string name="panel_ruleset_updating">Ажурирање филтера...</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Дозволи</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Блокирај</string>
+    <string name="slot_action_close">Затвори</string>
+    <string name="slot_action_remove">Уклони</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Да</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Не</string>
     <!-- An action to toggle a switch -->
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
