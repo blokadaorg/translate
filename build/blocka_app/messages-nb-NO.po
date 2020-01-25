@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
-"PO-Revision-Date: 2020-01-08 09:19\n"
+"PO-Revision-Date: 2020-01-25 19:22\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -51,7 +51,7 @@ msgstr "Et nytt abonnement kan aktiveres etter at den nåværende syklusen er ut
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "Det kreves en ekte nettleser. Prøv knappen \"Åpne i nettleser\" nedenfor."
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
@@ -65,7 +65,7 @@ msgstr "AKTIV"
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
@@ -79,7 +79,7 @@ msgstr "Konto-ID"
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "Aktiver Konto"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -93,7 +93,7 @@ msgstr "Aktivering avbrutt"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Det oppstod en feil. Prøv igjen senere."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -111,28 +111,28 @@ msgstr "Det oppstod en feil. Prøv senere."
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "Det oppstod en feil. Bekreft IDen din og prøv igjen."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Automatisk fornyelse"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Forny automatisk ved utløp: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Blokada-konto"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
@@ -160,7 +160,7 @@ msgstr "Avbryter {spinner}"
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Endre"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -228,7 +228,7 @@ msgstr ""
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Slett"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -242,7 +242,7 @@ msgstr ""
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Last ned"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
