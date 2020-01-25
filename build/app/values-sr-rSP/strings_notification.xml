@@ -15,8 +15,19 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Задржи упаљено</string>
+    <string name="notification_keepalive_description">Држите укључено уколико имате проблема да одржите апликацију укључену у позадини. Блокада ће укљичити обавештење које ће спречити систем да искључи апликацију. Можете га сакрити тако што ћете отићи на обавештење горе и искључити у подешавањима.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
+    <string name="notification_keepalive_title_new">Држи укључено (тапни да сакријеш)</string>
+    <string name="notification_keepalive_text_new">Андроид захтева да се приказује обавештење да би се држала апликација укључена, али га ви можете искључити у подешавањима система.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
+    <string name="notification_keepalive_title">%d блокираних</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
+    <string name="notification_keepalive_content">Последње: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
+    <string name="notification_keepalive_none">надгледање</string>
+    <string name="notification_keepalive_activate">Активирај</string>
+    <string name="notification_keepalive_activating">Блокада креће са радом, то може потрајати пар тренутака.</string>
+    <string name="notification_keepalive_deactivate">Деактивирај</string>
+    <string name="notification_keepalive_deactivating">Блокада је искључена!</string>
+    <string name="notification_expired_title">Блокада Тунел је искључен</string>
 </resources>
