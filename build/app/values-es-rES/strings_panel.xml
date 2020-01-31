@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; bloqueado</string>
     <string name="panel_domain_blocked_desc">Este dominio ha sido bloqueado. Para permitirlo en el futuro, utiliza el botón de abajo.</string>
     <string name="panel_domain_blocked_toast">Añadido a la lista negra.</string>
+    <!-- Action to copy domain name to clipboard -->
     <string name="panel_ruleset">Contador de filtros</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Los filtros ahora tienen %s reglas.</string>
@@ -78,7 +79,6 @@
     <string name="slot_allapp_normal">No omitida</string>
     <string name="slot_allapp_whitelist">Omitir</string>
     <string name="slot_dns_name">DNS está activo</string>
-    <string name="slot_dns_name_private">DNS Privado está activo</string>
     <string name="slot_dns_name_disabled">DNS está desactivado</string>
     <string name="slot_action_none">Esta acción aún no está disponible.</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
