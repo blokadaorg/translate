@@ -193,4 +193,7 @@
     <string name="slot_reset_counter_label">Blokkolt hosztszámláló nullázása</string>
     <string name="slot_reset_counter_description">A számlálót, amely megmutatja, hogy hány kérelem került blokkolásra, visszaállítja 0-ra.</string>
     <string name="slot_reset_counter_action">Nullázás</string>
+    <string name="label_workarounds">Készülék-specifikus megoldások</string>
+    <string name="slot_dns_answer_label">Alternatív DNS válasz</string>
+    <string name="slot_dns_answer_description">Megváltoztatja a Blokada által a blokkolt kérelmekre küldött válaszát, a \"hoszt nem található\" helyett érvénytelen IP-címre. Ez segíthet olyan ROM-okon, amelyek más DNS-kiszolgálókról kérnek adatot, és erre \"hoszt nem található\" választ kapnak. Felhívjuk figyelmedet, hogy ez lelassíthat egyes alkalmazásokat, amelyek megpróbálnak csatlakozni az érvénytelen címhez.</string>
 </resources>
