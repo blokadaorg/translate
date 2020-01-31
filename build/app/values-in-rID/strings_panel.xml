@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
     <string name="panel_domain_blocked_desc">Domain ini telah diblokir. Gunakan tombol di bawah ini jika Anda mengizinkan domain tersebut untuk diakses.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
+    <!-- Action to copy domain name to clipboard -->
     <string name="panel_ruleset">Penghitung filter</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filter sekarang memiliki %s aturan.</string>
@@ -79,7 +80,6 @@
     <string name="slot_allapp_normal">Tidak di bypass</string>
     <string name="slot_allapp_whitelist">Bypass</string>
     <string name="slot_dns_name">DNS aktif</string>
-    <string name="slot_dns_name_private">Private DNS aktif</string>
     <string name="slot_dns_name_disabled">DNS dinonaktifkan</string>
     <string name="slot_action_none">Tindakan ini belum bisa dilakukan.</string>
     <string name="slot_action_unwhitelist">Batal</string>
