@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; geblokkeerd</string>
     <string name="panel_domain_blocked_desc">Dit domein is geblokkeerd. Gebruik de knop hieronder om het in de toekomst toe te staan.</string>
     <string name="panel_domain_blocked_toast">Toegevoegd aan de blacklist.</string>
+    <!-- Action to copy domain name to clipboard -->
     <string name="panel_ruleset">Filters teller</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filters hebben nu %s regels.</string>
@@ -78,7 +79,6 @@
     <string name="slot_allapp_normal">Niet omzeild</string>
     <string name="slot_allapp_whitelist">Omzeild</string>
     <string name="slot_dns_name">DNS is actief</string>
-    <string name="slot_dns_name_private">Privé DNS is actief</string>
     <string name="slot_dns_name_disabled">DNS is gedeactiveerd</string>
     <string name="slot_action_none">Deze actie is nog niet beschikbaar.</string>
     <string name="slot_action_unwhitelist">Annuleren</string>
