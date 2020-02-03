@@ -41,6 +41,7 @@
     <string name="home_permission_error">Por favor conceda permissões de VPN.</string>
     <string name="home_zero_filters_error">Você não tem filtros configurados. Verifique as configurações do bloqueio de anúncios e WiFi.</string>
     <string name="home_filters_memory_error">Algumas listas não puderam ser carregadas; selecione menos listas nas configurações de bloqueio de anúncios.</string>
+    <string name="tasker_switch_label">Toque em uma das opções para configurar para ativá-lo (ou desativar) o seu gatilho.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Anúncios</string>
     <string name="menu_ads_live_label">Registro de host de pedidos permitidos e bloqueados</string>
@@ -49,9 +50,12 @@
     <string name="menu_ads_rules_label">Adicione suas próprias regras para ajustar o bloqueio.</string>
     <string name="menu_ads_log_label">Veja o que foi bloqueado ou permitido recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecione um gateway.</string>
+    <string name="menu_vpn_intro_button">Por que eu preciso do Blokada Tunnel?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Meu Blokada Tunnel</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
@@ -61,10 +65,12 @@
     <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Você não pode comprar assinatura no Blokada Slim.</string>
     <string name="menu_vpn_account_secret">Toque seu avatar acima para ver o ID da sua conta. Lembre-se, seu ID é secreto e você deve mantê-lo para si. Anote-o caso desinstale o aplicativo.</string>
     <string name="menu_vpn_restore_label">Aqui você pode restaurar sua conta existente se, por exemplo, você reinstalar o aplicativo.</string>
+    <string name="menu_vpn_intro">Com o Blokada Tunnel, seus dados são criptografados, seu endereço IP fica oculto, e sua localização é alterada.</string>
     <string name="menu_vpn_account_label">Para usar a VPN, você precisa de uma conta ativa. Verifique ou restaure sua conta aqui.</string>
     <string name="menu_vpn_gateways_label">Selecione um dos gateways para se conectar. Seu dispositivo enviará seus dados criptografados de forma segura através desse gateway e você permanecerá anônimo.</string>
     <string name="menu_vpn_support_label">Se você não puder resolver o problema, não hesite em contatar o suporte</string>
     <string name="menu_vpn_support_button">Suporte</string>
+    <string name="menu_vpn_tunnel_settings">Configurações do Blokada Tunnel</string>
     <string name="menu_vpn_tunnel_learn_more">Saiba mais sobre o Blokada Tunnel</string>
     <string name="menu_vpn_info_account_label">Eu tenho uma conta?</string>
     <string name="menu_vpn_info_account_line1">Sim! Sua conta foi criada automaticamente na primeira execução. Você não precisa se registrar.</string>
