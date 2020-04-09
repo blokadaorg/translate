@@ -69,8 +69,19 @@
     <string name="slot_enter_file_not_found">Nenhum ficheiro contém o que introduziu</string>
     <string name="slot_enter_file_multi">Vários ficheiros correspondem ao que introduziu</string>
     <string name="slot_enter_name_title">Nome</string>
+    <string name="slot_enter_name_generate">Gerar</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista de aprovados</string>
+    <string name="slot_app_desc">Este aplicação está na lista de permitidas, o que significa que nenhum bloqueio ou filtragem será realizado.</string>
+    <string name="slot_dns_name">DNS está ativo</string>
+    <string name="slot_dns_name_disabled">DNS está desativado</string>
+    <string name="slot_action_none">Esta ação ainda não está disponível.</string>
+    <string name="slot_action_unwhitelist">Cancelar</string>
+    <string name="slot_action_author">Sobre</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Uma entrada</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Uma entrada para %s</string>
+    <string name="slot_dns_control_title">Lista de servidores de DNS</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Sincronizar</string>
     <string name="slot_action_refresh_toast">Sincronização começou</string>
@@ -110,14 +121,26 @@
     <string name="slot_gateway_load_high">baixo</string>
     <string name="slot_recommended_dns_label">Utilizar servidores de DNS recomendados</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_help_label">Precisa de ajuda?</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Ajuda</string>
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Abrir</string>
+    <string name="slot_blog_label">Veja o nosso Blog de desenvolvimento!</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Abrir</string>
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
+    <string name="slot_account_name_title">ID da conta</string>
+    <string name="slot_account_name_restore">Restaurar</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Definições principais</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Definições avançadas</string>
+    <string name="slot_whitelist_updating">A atualizar as configurações, por favor aguarde...</string>
+    <string name="slot_too_many_leases">Por favor, remova o dispositivo antigo da sua lista de dispositivos.</string>
+    <string name="slot_background_animation">Animação de fundo</string>
 </resources>
