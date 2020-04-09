@@ -3,6 +3,17 @@
     <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
+    <string name="tunnel_config_refetch_now_title">Transferir listas</string>
+    <string name="tunnel_config_refetch_now">Transferir listas agora</string>
+    <string name="tunnel_config_refetch_toast">Transferência de listas começou</string>
+    <string name="tunnel_config_refetch_frequency_title">Frequência de transferência das listas</string>
+    <string name="tunnel_config_refetch_frequency_description">Selecione uma das opções para configurar com que frequência a aplicação deve fazer transferência das suas listas.</string>
+    <string name="tunnel_config_refetch_frequency_1">Uma vez por dia</string>
+    <string name="tunnel_config_refetch_frequency_2">Duas vezes por semana</string>
+    <string name="tunnel_config_refetch_frequency_3">Uma vez por semana</string>
+    <string name="tunnel_config_refetch_frequency_4">Uma vez por mês</string>
+    <string name="tunnel_config_refetch_frequency_5">Nunca</string>
+    <string name="tunnel_config_wifi_only_title">Transferir apenas por Wi-Fi</string>
     <string name="tunnel_config_smartlist_reset_btn">Pré-definições</string>
     <string name="tunnel_config_smartlist_clean_btn">Limpar</string>
     <string name="tunnel_config_smartlist_clean_none">Nada para limpar</string>
