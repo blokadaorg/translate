@@ -128,6 +128,7 @@ elif [ "$choice" = "e" ]; then
 		mv $D/help_dns.html $D/help.html
 		mv $D/updated_dns.html $D/updated.html
 		mv $D/filters_dns.txt $D/filters.txt
+		mv $D/dns_dns.txt $D/dns.txt
 	done
 
 	# English is not exported by default
