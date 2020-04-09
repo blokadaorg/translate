@@ -14,7 +14,9 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Manter ativo</string>
+    <string name="notification_keepalive_description">Active esta opção se encontrar algum problema em a aplicação ficar ligada em segundo plano. Blokada irá ativar uma notificação permanente para prevenir que o sistema o termine; esta pode ser escondida escolhendo Notificações a cima e em Definições.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
+    <string name="notification_keepalive_title_new">Manter Vivo (toque para esconder)</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d bloqueado</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
@@ -28,4 +30,7 @@
     <string name="notification_expired_title">O Túnel do Blokada está desactivado</string>
     <string name="notification_expired_description">A sua conta ainda não está activa, e o Túnel do Blokada está desligado. As definições Padrão do Blokada funcionam bem sem o Túnel. De qualquer forma, por favor considere activar a sua conta para uma melhor proteção e para apoiar o projecto.</string>
     <string name="notification_lease_expired_title">O Túnel do Blokada está desactivado</string>
+    <string name="notification_channel_announcements">Comunicados</string>
+    <string name="notification_channel_vpn">Túnel Blokada</string>
+    <string name="notification_channel_other">Outro</string>
 </resources>
