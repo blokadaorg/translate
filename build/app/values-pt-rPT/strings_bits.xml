@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_touch">Pressione ou aguente para configurar</string>
+    <string name="home_blokada_disabled">Blokada está parado</string>
     <string name="home_activating">A activar</string>
     <string name="home_please_wait">Por favor, aguarde...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">O Túnel Blokada está activado sem bloqueio de publicidade</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada está activo em modo de DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked">%s bloqueado</string>
     <string name="home_masterswitch_enabled">Blokada está ligado</string>
@@ -14,7 +18,10 @@
     <string name="home_share_state">Partilhe a sua pontuação do Blokada</string>
     <string name="home_share_state_google">Ajude outros a conhecer sobre o Blokada</string>
     <!-- A short text for the item that displays update information -->
+    <string name="home_whats_new">O que há de novo?</string>
+    <string name="home_update_required">Actualização necessária</string>
     <!-- A short text for the item that displays donate link -->
+    <string name="home_donate">Doar</string>
     <!-- A short text for the button to change VPN settings -->
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <!-- VPN section header in menu (for configuring VPN) -->
