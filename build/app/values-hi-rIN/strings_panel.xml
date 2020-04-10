@@ -65,13 +65,19 @@
     <string name="slot_action_internal">आंतरिक संग्रहण</string>
     <string name="slot_action_external">बाह्य संग्रहण</string>
     <string name="slot_filters_title">फ़िल्टर सूची</string>
-    <string name="slot_account_label_active">खाता %s तक चालू</string>
+    <string name="slot_account_label_active">खाता %s तक सक्रिय</string>
+    <string name="slot_account_label_inactive">खाता निष्क्रिय</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage_inactive">खाते को सक्रिय करें</string>
+    <string name="slot_account_show">खाता ID</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">%s से जोड़े</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">कम</string>
+    <string name="subscription_success">आपका खाता सक्रिय किया जा रहा है। इस प्रयास में कुछ समय लग सकता है। धन्यवाद!</string>
+    <string name="slot_update_no_updates">Blokada अद्यतन है</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
