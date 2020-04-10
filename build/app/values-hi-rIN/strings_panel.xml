@@ -34,15 +34,21 @@
     <string name="slot_action_remove">हटाएं</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">हां</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">नहीं</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_intro_new">नया UI कैसे इस्तेमाल करें? इधर टैप करके जानें।</string>
     <string name="slot_intro_new_header">नए संस्करण का उपयोग कैसे करें?</string>
+    <string name="slot_new_filter_list">नई मेजबान सूची जोड़ें</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_invalid">अमान्य</string>
     <string name="slot_continue">जारी रखें</string>
     <string name="slot_enter_domain_file">फ़ाइल</string>
+    <string name="slot_enter_file_titel">फ़ाइल का नाम</string>
+    <string name="slot_enter_file_import">आयात</string>
     <string name="slot_enter_name_title">शीर्षक</string>
     <string name="slot_enter_name_generate">उत्पन्न</string>
     <string name="slot_dns_name_private">आपका DNS चालू है</string>
@@ -52,12 +58,16 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">सिंक</string>
+    <string name="slot_action_refresh_toast">सिंक चालू किया गया</string>
     <string name="slot_action_restore">छोड़ें</string>
     <string name="slot_action_import">आयात</string>
     <string name="slot_action_internal">आंतरिक संग्रहण</string>
     <string name="slot_action_external">बाह्य संग्रहण</string>
     <string name="slot_filters_title">फ़िल्टर सूची</string>
+    <string name="slot_account_label_active">खाता %s तक चालू</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage_inactive">खाते को सक्रिय करें</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
