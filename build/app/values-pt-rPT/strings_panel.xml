@@ -69,6 +69,7 @@
     <string name="slot_enter_file_not_found">Nenhum ficheiro contém o que introduziu</string>
     <string name="slot_enter_file_multi">Vários ficheiros correspondem ao que introduziu</string>
     <string name="slot_enter_name_title">Nome</string>
+    <string name="slot_enter_name_error">Isto parece a ser nada para mim.</string>
     <string name="slot_enter_name_generate">Gerar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista de aprovados</string>
     <string name="slot_app_desc">Este aplicação está na lista de permitidas, o que significa que nenhum bloqueio ou filtragem será realizado.</string>
@@ -98,6 +99,7 @@
     <string name="slot_blocked_title">Domínio bloqueado</string>
     <string name="slot_forwarded_title">Domínio reencaminhado</string>
     <string name="slot_whitelist_title">Aplicações permitidas</string>
+    <string name="slot_list_no_desc">Esta entrada não tem nenhuma descrição.</string>
     <string name="slot_action_deactivate">Desligar</string>
     <string name="slot_action_activate">Ligar</string>
     <string name="slot_update_action_refresh">Verificar novamente</string>
@@ -136,6 +138,7 @@
     <string name="slot_help_action">Ajuda</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Doar</string>
+    <string name="slot_cta_label">Psst! Gostaríamos de saber a sua opinião.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Abrir</string>
     <string name="slot_blog_label">Veja o nosso Blog de desenvolvimento!</string>
@@ -147,6 +150,7 @@
     <string name="account_inactive">Por favor, ative ou restaure a sua conta para continuar.</string>
     <string name="slot_lease_cant_connect">Não foi possível ligar-se ao Túnel do Blokada. Tente selecionar outro gateway.</string>
     <string name="slot_account_name_title">ID da conta</string>
+    <string name="slot_account_name_error">O ID da conta só pode conter letras e números.</string>
     <string name="slot_account_name_api_error">O ID desta conta parece não estar correto.</string>
     <string name="slot_account_name_restore">Restaurar</string>
     <!-- A section in advanced settings. -->
@@ -159,6 +163,7 @@
     <string name="slot_too_many_leases">Por favor, remova o dispositivo antigo da sua lista de dispositivos.</string>
     <string name="slot_background_animation">Animação de fundo</string>
     <string name="slot_reset_counter_label">Redefinir contador de endereços bloqueados</string>
+    <string name="slot_reset_counter_description">Define o contador que apresenta quantos pedidos foram bloqueados novamente a 0.</string>
     <string name="slot_reset_counter_action">Redefinir</string>
     <string name="label_workarounds">Soluções específicas do dispositivo</string>
     <string name="slot_dns_answer_label">Resposta alternativa do DNS</string>
