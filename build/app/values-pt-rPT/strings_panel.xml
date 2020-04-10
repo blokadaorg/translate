@@ -9,10 +9,10 @@
     <string name="panel_section_apps">Apps</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Ajuda</string>
-    <string name="panel_section_ads_lists">Listas de Hosts</string>
-    <string name="panel_section_ads_log">Log do Host</string>
-    <string name="panel_section_ads_blacklist">Hosts Bloqueados</string>
-    <string name="panel_section_ads_whitelist">Hosts Permitidos</string>
+    <string name="panel_section_ads_lists">Listas de Endereços</string>
+    <string name="panel_section_ads_log">Registo de Endereços</string>
+    <string name="panel_section_ads_blacklist">Endereços Bloqueados</string>
+    <string name="panel_section_ads_whitelist">Endereços Permitidos</string>
     <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Apps Instalados</string>
     <string name="panel_section_apps_system">Apps do Sistema</string>
@@ -134,6 +134,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">Ajuda</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Doar</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Abrir</string>
     <string name="slot_blog_label">Veja o nosso Blog de desenvolvimento!</string>
@@ -152,4 +153,9 @@
     <string name="slot_whitelist_updating">A atualizar as configurações, por favor aguarde...</string>
     <string name="slot_too_many_leases">Por favor, remova o dispositivo antigo da sua lista de dispositivos.</string>
     <string name="slot_background_animation">Animação de fundo</string>
+    <string name="slot_reset_counter_label">Redefinir contador de endereços bloqueados</string>
+    <string name="slot_reset_counter_action">Redefinir</string>
+    <string name="label_workarounds">Soluções específicas do dispositivo</string>
+    <string name="slot_dns_answer_label">Resposta alternativa do DNS</string>
+    <string name="slot_dns_answer_description">Altera a resposta que o Blokada envia a pedidos bloqueadas de \"endereço não encontrado\" para um ip inválido. Isto pode ajudar com algumas ROMs que consultam outros servidores de DNS e se obtiverem uma resposta \"endereço não encontrado\". Por favor, note que isto pode diminuir a velocidade de algumas aplicações que tentam se ligar a um endereço inválido.</string>
 </resources>
