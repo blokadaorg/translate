@@ -28,6 +28,8 @@
     <!-- A short text for the button to change VPN settings -->
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Publicidades</string>
+    <string name="menu_ads_live_label">Registo de pedidos aceites e bloqueados a endereços</string>
+    <string name="menu_ads_clear_log">Limpar registo de endereços</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Túnel Blokada</string>
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
@@ -41,10 +43,26 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerir a sua subscrição da sua conta</string>
+    <string name="menu_vpn_support_button">Ajuda</string>
+    <string name="menu_vpn_tunnel_settings">Configurações do Túnel do Blokada</string>
+    <string name="menu_vpn_tunnel_learn_more">Aprenda mais sobre o Túnel do Blokada</string>
+    <string name="menu_host_list_intro">Lista de Endereços que contêm regras para bloquear publicidade e localizadores. Tente manter o número de listas ativas baixo.</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
+    <string name="menu_host_adblocking_settings">Configurações de bloqueio de publicidade</string>
+    <string name="menu_host_list_status">Estado da Lista</string>
+    <string name="menu_host_list_download">Listar configurações de download</string>
+    <string name="menu_host_whitelist">Endereços que adicionar aqui nunca serão bloqueados. Use esta lista quando, por exemplo, quiser visitar um site que foi bloqueado por engano.</string>
+    <string name="menu_host_blacklist">Endereços adicionados aqui serão sempre bloqueados. Por exemplo, pode adicionar sites que não são bloqueados pelas listas padrão, mas devia ser.</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Outro</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Aprenda mais</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Obter ajuda</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_configure">Configurar funcionalidades do Blokada</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Gerir</string>
+    <string name="menu_ok">OK</string>
 </resources>
