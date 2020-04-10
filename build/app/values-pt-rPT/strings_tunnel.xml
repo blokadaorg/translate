@@ -25,5 +25,6 @@
     <string name="tunnel_config_smartlist_clean_inactive">Lista Inteligente inativa</string>
     <string name="tunnel_config_smartlist_clean_done">Lista Inteligente foi limpa de regras antigas</string>
     <string name="tunnel_config_smartlist_reset_done">A Lista Inteligente foi redefinida</string>
+    <string name="tunnel_config_smartlist_description">Ative esta opção para ativar a funcionalidade Lista Inteligente, que diminui drasticamente o número de regras nos seus filtros, potencialmente aumentando a duração da bateria e diminui a utilização da memória RAM. Quando ativado, o Blokada irá analisar o registo de pedidos, e gerar dinamicamente uma lista que contém apenas as regras que realmente bloquearam pelo menos um pedido. A Lista Inteligente é atualizada diariamente à noite. Por favor, note que pode obter um número maior de pedidos indesejadas autorizados durante o período de aprendizagem (alguns dias). Por favor, note que esta é uma funcionalidade experimental, e pode não funcionar corretamente.</string>
     <string name="tunnel_config_disable_smartlist">Desativar primeiro a Lista Inteligente.</string>
 </resources>
