@@ -72,7 +72,11 @@
     <string name="slot_enter_name_generate">Gerar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista de aprovados</string>
     <string name="slot_app_desc">Este aplicação está na lista de permitidas, o que significa que nenhum bloqueio ou filtragem será realizado.</string>
+    <string name="slot_allapp_whitelisted">Ignorado</string>
+    <string name="slot_allapp_normal">Não ignorado</string>
+    <string name="slot_allapp_whitelist">Ignorar</string>
     <string name="slot_dns_name">DNS está ativo</string>
+    <string name="slot_dns_name_private">DNS personalizado está ativo</string>
     <string name="slot_dns_name_disabled">DNS está desativado</string>
     <string name="slot_action_none">Esta ação ainda não está disponível.</string>
     <string name="slot_action_unwhitelist">Cancelar</string>
@@ -111,6 +115,7 @@
     <string name="slot_account_action_unavailable">[não definido]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Ligar a %s</string>
+    <string name="slot_gateway_info_partner">O que são gateways parceiro?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_lease_name_current">%s (este dispositivo)</string>
     <string name="slot_lease_description">ID do dispositivo: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
@@ -120,7 +125,10 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">baixo</string>
     <string name="slot_recommended_dns_label">Utilizar servidores de DNS recomendados</string>
+    <string name="slot_update_no_updates">Blokada está atualizado</string>
+    <string name="slot_about">Sobre Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Registo</string>
     <string name="slot_help_label">Precisa de ajuda?</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Ajuda</string>
