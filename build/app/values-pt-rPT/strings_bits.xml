@@ -30,6 +30,8 @@
     <string name="menu_ads">Publicidades</string>
     <string name="menu_ads_live_label">Registo de pedidos aceites e bloqueados a endereços</string>
     <string name="menu_ads_clear_log">Limpar registo de endereços</string>
+    <string name="menu_ads_rules_label">Adicione as suas regras para melhor ajustar o bloqueio.</string>
+    <string name="menu_ads_log_label">Veja o que foi bloqueado ou permitido recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Túnel Blokada</string>
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
@@ -43,9 +45,16 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerir a sua subscrição da sua conta</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Não consegue comprar uma assinatura no Blokada Slim.</string>
     <string name="menu_vpn_support_button">Ajuda</string>
     <string name="menu_vpn_tunnel_settings">Configurações do Túnel do Blokada</string>
     <string name="menu_vpn_tunnel_learn_more">Aprenda mais sobre o Túnel do Blokada</string>
+    <string name="menu_vpn_info_account_label">Eu tenho uma conta?</string>
+    <string name="menu_vpn_info_account_line1">Sim! A sua conta é automaticamente criada na sua primeira execução. Não precisa de se registar.</string>
+    <string name="menu_vpn_info_account_line2">Pressione o seu avatar acima para ver o ID da sua conta.</string>
+    <string name="menu_vpn_info_account_line3">O ID da sua conta é secreto e não deve mostrá-lo para ninguém.</string>
+    <string name="menu_dns_recommended">Servidores de DNS recomendados</string>
+    <string name="menu_dns_select">Selecione um dos servidores de DNS.</string>
     <string name="menu_host_list_intro">Lista de Endereços que contêm regras para bloquear publicidade e localizadores. Tente manter o número de listas ativas baixo.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
     <string name="menu_host_adblocking_settings">Configurações de bloqueio de publicidade</string>
@@ -60,9 +69,13 @@
     <!-- A section informational content in menu -->
     <string name="menu_knowledge">Obter ajuda</string>
     <!-- A section content promoting participating in our project -->
+    <string name="menu_get_involved">Participar</string>
+    <string name="menu_telegram">Conversar no Telegram</string>
     <string name="menu_configure">Configurar funcionalidades do Blokada</string>
+    <string name="menu_exclude">Excluir aplicações que não funcionam corretamente</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Gerir</string>
     <string name="menu_ok">OK</string>
+    <string name="menu_dns_remove_default">O DNS de padrão não pode ser removido.</string>
 </resources>
