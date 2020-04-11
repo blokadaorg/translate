@@ -38,10 +38,14 @@
     <string name="home_blocka_vpn_error">Não foi possível ligar ao gateway. Está online?</string>
     <string name="home_account_error">Não foi possível verificar a conta. Está online?</string>
     <string name="home_permission_error">Por favor, autorize as permissões de VPN.</string>
+    <string name="home_zero_filters_error">Não tem filtros configurados. Verifique as suas configurações de bloqueio de publicidade e as suas configurações de Wi-Fi.</string>
+    <string name="home_filters_memory_error">Algumas listas não puderam ser carregadas; selecione menos listas nas configurações de bloqueio de publicidade.</string>
+    <string name="tasker_switch_label">Pressione em uma das opções para configurar para ligá-lo (ou desligá-lo) para o seu trigger.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Publicidades</string>
     <string name="menu_ads_live_label">Registo de pedidos aceites e bloqueados a endereços</string>
     <string name="menu_ads_clear_log">Limpar registo de endereços</string>
+    <string name="menu_ads_lists_label">Selecione listas para utilizar para bloquear. O padrão serve para a maioria das pessoas.</string>
     <string name="menu_ads_rules_label">Adicione as suas regras para melhor ajustar o bloqueio.</string>
     <string name="menu_ads_log_label">Veja o que foi bloqueado ou permitido recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
@@ -58,6 +62,7 @@
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerir a sua subscrição da sua conta</string>
     <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Não consegue comprar uma assinatura no Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Pressione no seu avatar acima para ver o ID da sua conta. Lembre-se, o seu ID é secreto e mais ninguém o deve conhecer. Tome nota para o caso de desinstalar a aplicação.</string>
     <string name="menu_vpn_support_button">Ajuda</string>
     <string name="menu_vpn_tunnel_settings">Configurações do Túnel do Blokada</string>
     <string name="menu_vpn_tunnel_learn_more">Aprenda mais sobre o Túnel do Blokada</string>
