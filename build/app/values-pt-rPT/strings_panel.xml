@@ -33,6 +33,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Os filtros agora têm regras de %s.</string>
     <string name="panel_ruleset_updating">Atualizando filtros...</string>
+    <string name="panel_ruleset_canfit">Os filtros estão agora configurados com as regras &lt;b&gt;%s&lt;/b&gt;. O seu dispositivo permite no máximo &lt;b&gt;%s&lt;/b&gt; MB de memória para cada aplicação e até &lt;b&gt;%s&lt;/b&gt; regras pode caber nela.&lt;br&gt;Lembre-se, isto é apenas uma estimativa e o Blokada utiliza a maior parte da memória quando junta as listas. Se ativou alguns deles recentemente, espere alguns minutos para que o sistema liberte memória.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Permitir</string>
     <!-- Button to block allowed domain -->
@@ -48,6 +49,7 @@
     <string name="slot_intro_new">Como usar a nova interface do usuário. Toque aqui para introdução</string>
     <string name="slot_intro_new_header">Como usar a nova interface do usuário</string>
     <string name="slot_intro_desc">Você está atualmente na seção Início, há mais se deslizar para a direita. Cada um deles tem seu próprio menu inferior – abra-o deslizando para cima. &amp; lt; br / &amp; gt; &amp; lt; br / &amp; gt; Na Android TV, navegue pela interface do usuário como controle direcional. Use a tecla central para abrir o menu inferior ou qualquer item selecionado. Os botões são marcados com as setas para cima, para baixo, esquerda ou direita - use as teclas de direção para clicá-los.</string>
+    <string name="slot_intro_info">Psst... Alguns itens têm um ícone de interrogação neles. Pressionar nele irá apresentar uma pequena mensagem de ajuda, como esta!</string>
     <string name="slot_new_filter">Adicionar um novo endereço à lista dos bloqueados</string>
     <string name="slot_new_filter_list">Adicionar uma nova lista de endereços</string>
     <string name="slot_new_filter_whitelist">Adicionar um novo endereço à lista dos permitidos</string>
@@ -69,6 +71,7 @@
     <string name="slot_enter_file_not_found">Nenhum ficheiro contém o que introduziu</string>
     <string name="slot_enter_file_multi">Vários ficheiros correspondem ao que introduziu</string>
     <string name="slot_enter_name_title">Nome</string>
+    <string name="slot_enter_name_desc">Introduza o nome para a nova entrada. Também pode gerar um nome sugerido.</string>
     <string name="slot_enter_name_error">Isto parece a ser nada para mim.</string>
     <string name="slot_enter_name_generate">Gerar</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; está na lista de aprovados</string>
