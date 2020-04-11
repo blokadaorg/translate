@@ -4,37 +4,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: react-intl-po\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: blokada\n"
 "X-Crowdin-Language: pt-PT\n"
 "X-Crowdin-File: /master/blocka_app/messages.pot\n"
 "Project-Id-Version: blokada\n"
-"Last-Translator: Karol (kargs)\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
-"PO-Revision-Date: 2019-11-20 15:01\n"
+"PO-Revision-Date: 2020-04-11 13:21\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "1 Mês"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12 Meses"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6 Meses"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
@@ -59,42 +58,42 @@ msgstr ""
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "ATIVO"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "ID da Conta"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "Ativar Conta"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Ativação cancelada"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Ocorreu um erro, por favor, tente novamente mais tarde."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -105,7 +104,7 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Ocorreu um erro, por favor, tente mais tarde."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
@@ -119,21 +118,21 @@ msgstr ""
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Renovação automática"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Renovação automática ao expirar: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Conta do Blokada"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
@@ -161,7 +160,7 @@ msgstr ""
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Alterar"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
