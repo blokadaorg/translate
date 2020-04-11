@@ -130,24 +130,32 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">baixo</string>
     <string name="subscription_success">Sua conta está a ser ativada. Isto pode demorar alguns segundos. Obrigado!</string>
+    <string name="slot_start_on_boot_description">Ativar Arranque ao Iniciar permite que o Blokada esteja sempre ativo e que proteja o seu dispositivo. Por favor, note que o sistema tem sempre a prioridade mais alta e pode substituir esta opção, então, se o Blokada não arrancar, verifique as configurações do seu sistema.</string>
     <string name="slot_recommended_dns_label">Utilizar servidores de DNS recomendados</string>
+    <string name="slot_recommended_dns_description">Quando ativado, o Blokada irá automaticamente escolher os servidores de DNS recomendados para ajudar a acelerar a sua Internet e proteger a sua privacidade. Caso contrário, serão utilizados os servidores de DNS padrão da sua rede. Se escolher os servidores de DNS manualmente na Secção Avançada, esta configuração será ignorada.</string>
     <string name="slot_update_no_updates">Blokada está atualizado</string>
     <string name="slot_about">Sobre Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Registo</string>
     <string name="slot_help_label">Precisa de ajuda?</string>
+    <string name="slot_help_desc">Pressione o botão abaixo para abrir a nossa página de ajuda. Também pode utilizar as nossas redes sociais para obter ajuda - nós estamos no Telegram, Facebook, Reddit e Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Ajuda</string>
+    <string name="slot_donate_label">Está a gostar do Blokada? Considere apoiar-nos, para que possamos continuar a melhorar a aplicação.</string>
+    <string name="slot_donate_desc">Ajude-nos a introduzir novas funcionalidades! Pressione aqui para saber mais.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Doar</string>
     <string name="slot_cta_label">Psst! Gostaríamos de saber a sua opinião.</string>
+    <string name="slot_cta_desc">Mostre o seu apoio participando nos nossos questionários e nos outros eventos. Regularmente entramos em contacto com a nossa comunidade para receber opiniões sobre ideias e novos desenvolvimentos, de forma a garantir que estamos a trabalhar no que pretende ver.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Abrir</string>
     <string name="slot_blog_label">Veja o nosso Blog de desenvolvimento!</string>
+    <string name="slot_blog_desc">O Block é onde escrevemos sobre o desenvolvimento do projeto, planos futuros, e discutimos ideias.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Abrir</string>
     <string name="slot_updated_desc">Pressione aqui para uma introdução a esta versão.</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">A sua versão do Blokada é antiga e pode não funcionar corretamente. Por favor, transfira a versão mais recente para continuar a receber atualizações.</string>
     <!-- A button to update the app. -->
     <string name="account_inactive">Por favor, ative ou restaure a sua conta para continuar.</string>
     <string name="slot_lease_cant_connect">Não foi possível ligar-se ao Túnel do Blokada. Tente selecionar outro gateway.</string>
