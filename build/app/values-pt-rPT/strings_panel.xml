@@ -157,9 +157,12 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">A sua versão do Blokada é antiga e pode não funcionar corretamente. Por favor, transfira a versão mais recente para continuar a receber atualizações.</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">Parece haver muitas versões do Blokada instaladas no seu dispositivo. Gostaria de remover as outras versões e manter apenas uma?</string>
     <string name="account_inactive">Por favor, ative ou restaure a sua conta para continuar.</string>
     <string name="slot_lease_cant_connect">Não foi possível ligar-se ao Túnel do Blokada. Tente selecionar outro gateway.</string>
+    <string name="slot_account_cant_create">Não foi possível criar a sua conta do Túnel do Blokada. Por favor, tente novamente mais tarde ou entre em contacto connosco pelo Telegram.</string>
     <string name="slot_account_name_title">ID da conta</string>
+    <string name="slot_account_name_desc">Insira ID da sua conta antigo para restaurar a sua subscrição anterior. Pode querer tomar nota do ID da sua conta atual antes de fazer isto, para o caso de cometer algum erro.</string>
     <string name="slot_account_name_error">O ID da conta só pode conter letras e números.</string>
     <string name="slot_account_name_api_error">O ID desta conta parece não estar correto.</string>
     <string name="slot_account_name_restore">Restaurar</string>
@@ -172,6 +175,7 @@
     <string name="slot_whitelist_updating">A atualizar as configurações, por favor aguarde...</string>
     <string name="slot_too_many_leases">Por favor, remova o dispositivo antigo da sua lista de dispositivos.</string>
     <string name="slot_background_animation">Animação de fundo</string>
+    <string name="slot_background_animation_description">Quando ligado, haverá uma animação de ondas cada vez que um pedido de DNS for bloqueado ou permitido. Desligue se encontrar lentidão.</string>
     <string name="slot_reset_counter_label">Redefinir contador de endereços bloqueados</string>
     <string name="slot_reset_counter_description">Define o contador que apresenta quantos pedidos foram bloqueados novamente a 0.</string>
     <string name="slot_reset_counter_action">Redefinir</string>
