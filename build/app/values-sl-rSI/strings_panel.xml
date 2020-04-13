@@ -9,25 +9,42 @@
     <string name="panel_section_apps">Aplikacije</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Pomoč</string>
+    <string name="panel_section_ads_lists">Seznam strežnikov</string>
+    <string name="panel_section_ads_log">Dnevnik strežnikov</string>
     <string name="panel_section_ads_blacklist">Blokirani strežniki</string>
     <string name="panel_section_ads_whitelist">Dovoljeni strežniki</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">Nameščene aplikacije</string>
     <string name="panel_section_apps_system">Sistemske aplikacije</string>
     <string name="panel_section_advanced_settings">Nastavitve</string>
     <string name="panel_section_app_settings">Nastavitve aplikacije</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">&lt;/b&gt;%s&lt;/b&gt; dovoljeno</string>
+    <string name="panel_domain_forwarded_desc">Ta domena je dovoljena. Za blokiranje uporabite spodnji gumb.</string>
+    <string name="panel_domain_forwarded_toast">Dodano na seznam dovoljenih.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; blokirano</string>
+    <string name="panel_domain_blocked_desc">Ta domena je blokirana. Če želite do nje dostopati, uporabite spodnji gumb.</string>
+    <string name="panel_domain_blocked_toast">Dodano na seznam prepovedanih.</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">Kopiraj</string>
+    <string name="panel_domain_copied">Kopirano v odložišče</string>
+    <string name="panel_ruleset">Število filtrov</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtri vsebujejo %s pravil.</string>
     <string name="panel_ruleset_updating">Posodabljanje filtrov...</string>
     <string name="panel_ruleset_canfit">Filtri vsebujejo &lt;b&gt;%s&lt;/b&gt; pravil. Vaša naprava dovoljuje največ &lt;b&gt;%s&lt;/b&gt; MB pomnilnika vsaki aplikaciji, kamor je mogoče shraniti do &lt;b&gt;%s&lt;/b&gt; pravil.&lt;br&gt;To je samo ocena. Blokada uporablja največ pomnilnika kadar združuje sezname. Če ste jih pred kratkim vključili več, počakajte nekaj minut, da sistem sprosti pomnilnik.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Dovoli</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Blokiraj</string>
+    <string name="slot_action_close">Zapri</string>
+    <string name="slot_action_remove">Odstrani</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">Da</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Ne</string>
     <!-- An action to toggle a switch -->
     <string name="slot_new_filter">Dodaj nov strežnik na seznam blokiranih</string>
     <string name="slot_new_filter_list">Dodaj nov seznam strežnikov</string>
