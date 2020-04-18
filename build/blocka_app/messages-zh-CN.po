@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2020-04-18 21:50\n"
+"PO-Revision-Date: 2020-04-18 22:04\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -383,7 +383,7 @@ msgstr "未找到"
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "使用 Stellar 钱包支付相当于 €{price} 。我们建议使用 {recommeded}。"
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
@@ -467,7 +467,7 @@ msgstr "请从上一个画面验证您的帐号 ID。"
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "继续到钱包"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -516,7 +516,7 @@ msgstr "Stellar？"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "将账号 ID 存储在一个安全的地方，您需要在连接和激活您的设备时用到它。"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -530,7 +530,7 @@ msgstr "支持"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "比预期时间长吗？请查看左下方的支持按钮"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
@@ -544,35 +544,35 @@ msgstr "谢谢 ！"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "帐户 ID 不匹配，请确认您已正确地将其存放在上一个画面上，然后重试。"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "无法显示此页面。如果您遇到任何问题，请通过 {email} 联系我们。"
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "正在等待 PayPal 确认付款..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "正在等待付款确认..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "我们目前在 F-Droid 上的构建的 VPN 激活有问题。此问题正在处理中，同时您可以卸载 F-Droid 版本并从 blokada.org 下载应用程序。"
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
@@ -593,14 +593,14 @@ msgstr "留下消息..."
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "您的付款正在处理中，您的帐号将很快被激活。如果您遇到任何问题，请通过 {email} 联系我们。"
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "您的付款已被取消，您将不会被收取费用。您的帐号未激活。如果您遇到任何问题，请通过 {email} 联系我们。"
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
