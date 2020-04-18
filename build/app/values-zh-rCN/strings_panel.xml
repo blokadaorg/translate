@@ -127,11 +127,14 @@
     <string name="slot_account_action_unavailable">[未设定]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">连接到 %s</string>
+    <string name="slot_gateway_section_partner">合作伙伴网关提供了额外的位置。他们不完全由 Blokada 管理，但他们无法访问您的加密流量。</string>
+    <string name="slot_gateway_section_overloaded">那些网关已过载，暂不可用。</string>
     <string name="slot_gateway_description">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">此网关忙，不接受新的连接。</string>
     <string name="slot_gateway_learn_more">了解更多关于网关的信息</string>
     <string name="slot_gateway_info_partner">什么是合作伙伴网关？</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">控制您的哪个设备连接到 Blokada 隧道。</string>
     <string name="slot_lease_name_current">%s (此设备)</string>
     <string name="slot_lease_description">设备 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">设备 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; 这是您当前的设备。</string>
@@ -151,6 +154,7 @@
     <!-- A button to open help -->
     <string name="slot_help_action">帮助</string>
     <string name="slot_donate_label">喜欢 Blokada？想支持我们，所以我们可以继续改进应用。</string>
+    <string name="slot_donate_desc">帮助我们引进新功能！点击这里了解更多。</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">捐赠</string>
     <string name="slot_cta_label">最灵魂！我们想知道你的意见。</string>
