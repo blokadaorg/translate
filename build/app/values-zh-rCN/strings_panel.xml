@@ -116,7 +116,10 @@
     <string name="slot_dropped_share_title">分享到</string>
     <string name="slot_adblocking_label">屏蔽广告 &amp; 跟踪器</string>
     <string name="slot_adblocking_text">启用时，Blokada将屏蔽广告、跟踪器和其他不想要的内容。这有助于保护您的隐私，加速您的设备并保存您的数据。</string>
+    <string name="slot_account_label_active">帐号有效期至 %s</string>
+    <string name="slot_account_label_inactive">帐号未激活</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">管理订阅</string>
     <string name="slot_account_action_manage_inactive">激活帐户</string>
     <string name="slot_account_action_change_id">恢复帐户</string>
     <string name="slot_account_show">账户 ID</string>
@@ -126,6 +129,8 @@
     <string name="slot_gateway_label">连接到 %s</string>
     <string name="slot_gateway_description">性能: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;区域: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">此网关忙，不接受新的连接。</string>
+    <string name="slot_gateway_learn_more">了解更多关于网关的信息</string>
+    <string name="slot_gateway_info_partner">什么是合作伙伴网关？</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_lease_name_current">%s (此设备)</string>
     <string name="slot_lease_description">设备 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
@@ -160,6 +165,8 @@
     <string name="slot_obsolete_desc">您的 Blokada 版本已经过时，可能无法正常工作。请下载最新版本，以便继续接收更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">您的设备似乎有许多版本的 Blokada。您想删除其他版本，只保留一个版本吗？</string>
+    <string name="slot_lease_cant_connect">无法连接到 Blokada 隧道。请尝试选择另一个网关。</string>
+    <string name="slot_account_cant_create">无法创建您的 Blokada 隧道帐户。请稍后再试或在 Telegram 上与我们联系。</string>
     <string name="slot_account_name_title">账户 ID</string>
     <string name="slot_account_name_desc">输入您的旧帐户ID，以恢复您以前的订阅。如果您犯错误，您可能想要在写下您的经常账户ID。</string>
     <string name="slot_account_name_error">帐户ID只能包含字母和数字。</string>
@@ -171,5 +178,11 @@
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <string name="label_advanced">高级设置</string>
+    <string name="slot_whitelist_updating">正在更新配置，请等待...</string>
+    <string name="slot_too_many_leases">请从您的设备列表中移除旧设备。</string>
+    <string name="slot_background_animation">背景动画</string>
+    <string name="slot_reset_counter_label">重置已拦截的主机的计数器</string>
     <string name="slot_reset_counter_action">重置</string>
+    <string name="label_workarounds">特定设备的工作区</string>
+    <string name="slot_dns_answer_label">备选 DNS 回答</string>
 </resources>
