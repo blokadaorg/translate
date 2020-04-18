@@ -13,9 +13,11 @@
     <string name="panel_section_ads_log">主机日志</string>
     <string name="panel_section_ads_blacklist">已屏蔽的主机</string>
     <string name="panel_section_ads_whitelist">允许的主机</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_apps_all">已安装应用</string>
     <string name="panel_section_apps_system">系统应用</string>
     <string name="panel_section_advanced_settings">设置</string>
+    <string name="panel_section_app_settings">应用设置</string>
     <!-- When a domain is allowed (not blocked) -->
     <string name="panel_domain_forwarded">允许 &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_forwarded_desc">此域名已被允许。要屏蔽它，请使用下面的按钮。</string>
@@ -25,6 +27,8 @@
     <string name="panel_domain_blocked_desc">此域名已被屏蔽。要允许此域名，使用下面的按钮。</string>
     <string name="panel_domain_blocked_toast">已添加到黑名单。</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">复制</string>
+    <string name="panel_domain_copied">复制到剪贴板</string>
     <string name="panel_ruleset">过滤器计数器</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">筛选器现在有 %s 规则。</string>
@@ -37,12 +41,17 @@
     <string name="slot_action_remove">移除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">是</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">否</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">如何使用新的界面？点击这里展开介绍。</string>
     <string name="slot_intro_new_header">如何使用新界面？</string>
     <string name="slot_intro_desc">您目前位于主页部分，如果你滑到右侧，还有更多。每部分都有相应的底部菜单 - 上滑打开。 &lt;br/&gt;&lt;br/&gt; 在 Android TV 上，使用十字键（上下左右）操作。使用确定键（OK 键）打开底部菜单，或者打开您选中的任何一项。各按钮都被标有上、下、左、右箭头 - 使用方向键去点击它们。</string>
     <string name="slot_intro_info">Pst... 一些项目在其上面有问题标记。点击将会显示一个短帮助信息，就像这个消息！</string>
+    <string name="slot_new_filter">添加一个新host到黑名单</string>
+    <string name="slot_new_filter_list">新建一个host列表</string>
+    <string name="slot_new_filter_whitelist">添加新的host添加到允许列表</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">未设置</string>
     <!-- A state of input form when correct input is entered  -->
@@ -97,6 +106,7 @@
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage_inactive">激活帐户</string>
     <string name="slot_account_action_change_id">恢复帐户</string>
+    <string name="slot_account_show">账户 ID</string>
     <string name="slot_account_action_copied">帐户ID已复制到剪贴板</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">连接到 %s</string>
@@ -144,4 +154,5 @@
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <string name="label_advanced">高级设置</string>
+    <string name="slot_reset_counter_action">重置</string>
 </resources>
