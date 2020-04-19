@@ -144,6 +144,7 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
     <string name="subscription_success">您的帐户正在激活。这可能需要几秒钟。谢谢！</string>
+    <string name="slot_start_on_boot_description">启用开机自启功能让 Blokada 时刻激活并保护您的设备。请注意，系统总是拥有较高的权限且能覆盖此选项。因此，如果 Blokada 没有启动，请查看您的系统设置。</string>
     <string name="slot_recommended_dns_label">使用推荐的 DNS 服务器</string>
     <string name="slot_recommended_dns_description">启用时，Blokada将自动选择推荐的 DNS 服务器来帮助加速您的互联网和保护您的隐私。否则，使用了您的网络的默认DNS服务器。如果您手动选择高级部分的DNS服务器，此设置被忽略。</string>
     <string name="slot_update_no_updates">Blokada 已更新</string>
@@ -194,4 +195,5 @@
     <string name="slot_reset_counter_action">重置</string>
     <string name="label_workarounds">特定设备的工作区</string>
     <string name="slot_dns_answer_label">备选 DNS 回答</string>
+    <string name="slot_dns_answer_description">将 Blokada 给被拦截域名的回应从”主机未找到“更改为无效IP。这能使一些如果收到”主机未找到“会在其他 DNS 服务器继续查询的 ROM 不再查询。请注意，这可能会减慢某些尝试连接无效地址的应用。</string>
 </resources>
