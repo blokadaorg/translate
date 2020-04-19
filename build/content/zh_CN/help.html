@@ -35,7 +35,7 @@
   <li><a href="#settings">设置</a></li>
 </ol>
 
-<h4>已知的限制</h4>
+<h4>已知的情况</h4>
 <ol>
   <li><a href="#startup">安装后无法启动 Blokada。</a></li>
   <li><a href="#refresh">Blokada 屏蔽的广告比较少。</a></li>
@@ -88,10 +88,10 @@
 <p>正如你肯定看到的那样，Blokada在设置屏幕上有一些选项。 你可以看到以下内容</p>
 <p><ul>
     <li><b>通知</b>：启用后，您会在广告被屏蔽时收到通知。 默认开启，但如果您收到太多通知，可以关掉它。</li>
-    <li><b>Start on boot</b>: when enabled, Blokada will start after the system boots up. Please note there are system level configurations for this option, therefore it cannot be guaranteed Blokada can start on boot. In this case, please check your phone’s settings. The default configuration is enabled, if you want to start Blokada manually, disable this option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storege? If you choose external, the files are available in /Download/Blokada directory.</li>
-    <li><b>Background animation</b>: you can enable or disable the background animations, showing the waves. White waves represent the allowed host queries while the orange ones are the blocked ones.</li>
-    <li><b>Request logger</b>: when enabled, Blokada will generate a CSV file and log requests that have been allowd and/or blocked by the app.</li>
+    <li><b>开机启动</b>: 启用后， Blokada 将会在系统启动后自动开启。 请注意，此选项有系统级配置。因此，无法保证 Blokada 可以开机启动。 在这种情况下，请检查您手机的设置。 默认配置已启用，如果您想手动启动Blokada，请禁用此选项。</li>
+    <li><b>设置位置</b>：您想要在哪里储存配置：在内部或外部存储？ 如果您选择外部存储，文件可以在 /Download/Blokada 目录中找到。</li>
+    <li><b>背景动画</b>：您可以启用或禁用背景动画及波浪显示。 白色波浪代表被允许的主机查询，而橙色的波浪则代表被拦截的查询。</li>
+    <li><b>请求日志记录器</b>：启用时， Blokada 将生成一个 CSV 文件并记录被应用允许或拦截的请求。</li>
     <li><b>Keep alive</b>: this option is to ensure Blokada is not paused or stopped by the system. Please note your system can overwrite it, make sure your settings will let Blokada run in the background.</li>
     <li><b>Watchdog</b>: when enabled, Blokada will exit if there is no active connection, and start again whenever connection comes back. If disabled, Blokada will always run in the background (even if no network is available). Please note this option may not work on every device.</li>
     <li><b>Aggressive wakeup</b>: enable this option if your device stops or kills Blokada due to the system's powersaver feature. Even though this option aims to keep Blokada alive on most of the devices, the system will always have higher priority and can stop the app if it isn't excluded for memory- or battery optimisation.
