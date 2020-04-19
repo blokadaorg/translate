@@ -98,20 +98,19 @@
 </ul></p>
 
 <h4><a name="startup">安装后无法启动 Blokada。</a></h4>
-<p>造成这种情况通常有两个原因。 首先，请检查您是否有活动的VPN连接，以及是否启用了<i>VPN永久在线</i>选项。 To do it, go to the Settings of your phone, search for VPN in the network section, tap on the gear next to the existing VPN. Disable it, disconnect from the active VPN connection and try to restart Blokada.</p>
+<p>造成这种情况通常有两个原因。 首先，请检查您是否有活动的VPN连接，以及是否启用了<i>VPN永久在线</i>选项。 要做到这一点，请转到手机的设置，在网络部分搜索 VPN ，点击现有 VPN 旁边的设备。 将其禁用，断开与活动VPN的连接并尝试重新启动 Blokada 。</p>
 
-<p>If you don’t have other VPN connection, check in Blokada if <i>Watchdog</i> is enabled in the Advanced Settings, and if yes, check if you are connected to the internet either with wifi or with mobile data. Blokada won’t start if the <i>Watchdog</i> is enabled and you don’t have an active internet connection.</p>
+<p>如果您没有其他 VPN 连接，请在 Blokada 的高级设置中检查 <i>看门狗</i>是否启用，如果已经启用，请检查您是否已通过无线网络或移动数据连接到互联网。 如果<i>看门狗</i> 已被启用而您没有网络连接，Blokada 不会启动。</p>
 
-<p>If it doesn’t help, restart your phone, it also helps sometimes.</p>
+<p>如果这没有用，请重启您的手机，这有时也会有所帮助。</p>
 
 <h4><a name="refresh">Blokada 屏蔽的广告比较少。</a></h4>
-<p>If you suspect that Blokada blocks less advertisements than earlier, please refresh your lists. To do it, tap on <i>Blacklist</i>, then in the top right corner on the equaliser, choose <i>Refresh filters</i> and tap on <i>Continue</i>. Usually it happens because new servers are added to the existing ones that are not (yet) identified and added to the blacklists, or the new list is not downloaded to your phone, therefore they are not (yet) blocked.<br>
-Alternatively you can enable more host lists or add more restrictive filters in the <i>Blacklist</i> menu.</p>
+<p>如果您怀疑 Blokada 屏蔽的广告比之前变少了，请刷新您的屏蔽列表。 要执行此操作，请点击 <i> 黑名单 </i>，然后在均衡器的右上角选择 <i> 刷新过滤器 </i> 并点击 <i> 继续 </i>。 通常这是因为新服务器被添加到尚未标识列表并添加到黑名单, 或是因为新列表还未下载到您的手机上，因此这些广告还未被拦截。<br>或者, 您可以在<i>黑名单</i>菜单中启用更多 host 列表或添加更多过滤器。</p>
 
-<p>Please note that Blokada uses 3rd party lists, therefore if the app itself worked earlier and blocked ads, without changes it should behave the same way.</p>
+<p>请注意， Blokada 使用第三方列表。因此，如果此前应用正常工作且拦截了广告，那么在没有改变的情况下，应用的行为应当相同。</p>
 
 <h4><a name="chrome">Blokada 屏蔽不了 Chrome 中的广告。</a></h4>
-<p>If you're using Google Chrome, you need to disable Data Saver and Async DNS. Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
+<p>如果您正在使用 Google Chrome，您需要禁用精简模式和 Async DNS 。 Google uses those two technologies by default and they interfere with Blokada's host blocking.<br>
 1. To disable Data Saver, tap the three vertical dots in Google Chrome, go to Settings, search for "data saver" or "lite mode" and disable it.<br>
 2. To disable Async DNS, open the page "chrome://flags" in your browser, search for DNS and disable the Asynchronous DNS feature.<br>
 3. On your device, go to Settings -> Applications -> Chrome -> Storage and clear cache.<br>
