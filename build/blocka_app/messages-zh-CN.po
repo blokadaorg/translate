@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2020-04-18 22:04\n"
+"PO-Revision-Date: 2020-04-20 10:05\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -72,7 +72,7 @@ msgstr "帐号"
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr "账户 ID"
+msgstr "帐号 ID"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
@@ -132,7 +132,7 @@ msgstr "到期时自动更新: {status}"
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr "Blokada 帐户"
+msgstr "Blokada 帐号"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
@@ -263,7 +263,7 @@ msgstr "结束时间"
 #. Enter your account ID to continue
 #: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
-msgstr "输入您的帐户 ID 以继续"
+msgstr "输入您的帐号 ID 以继续"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -274,7 +274,7 @@ msgstr "输入您的帐户 ID 以继续"
 #: build/messages/src/Activate.json
 #: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
-msgstr "获取帐户信息 {spinner}"
+msgstr "获取帐号信息 {spinner}"
 
 #. [manage.devices_gateway_select] - Label for selecting which VPN gateway to use for a device
 #. defaultMessage is:
@@ -355,14 +355,14 @@ msgstr "设备名称"
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr "新帐户"
+msgstr "新帐号"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr "新账户"
+msgstr "新帐号"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
