@@ -121,10 +121,10 @@
     <string name="slot_account_label_inactive">帐号未激活</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">管理订阅</string>
-    <string name="slot_account_action_manage_inactive">激活帐户</string>
-    <string name="slot_account_action_change_id">恢复帐户</string>
-    <string name="slot_account_show">账户 ID</string>
-    <string name="slot_account_action_copied">帐户ID已复制到剪贴板</string>
+    <string name="slot_account_action_manage_inactive">激活帐号</string>
+    <string name="slot_account_action_change_id">恢复帐号</string>
+    <string name="slot_account_show">账号 ID</string>
+    <string name="slot_account_action_copied">帐号 ID 已复制到剪贴板</string>
     <string name="slot_account_action_unavailable">[未设定]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">连接到 %s</string>
@@ -172,10 +172,10 @@
     <string name="slot_obsolete_desc">您的 Blokada 版本已经过时，可能无法正常工作。请下载最新版本，以便继续接收更新。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">您的设备似乎有许多版本的 Blokada。您想删除其他版本，只保留一个版本吗？</string>
-    <string name="account_inactive">请启用或恢复您的帐户以继续。</string>
+    <string name="account_inactive">请激活或恢复您的帐号以继续。</string>
     <string name="slot_lease_cant_connect">无法连接到 Blokada 隧道。请尝试选择另一个网关。</string>
-    <string name="slot_account_cant_create">无法创建您的 Blokada 隧道帐户。请稍后再试或在 Telegram 上与我们联系。</string>
-    <string name="slot_account_name_title">账户 ID</string>
+    <string name="slot_account_cant_create">无法创建您的 Blokada 隧道帐号。请稍后再试或在 Telegram 上与我们联系。</string>
+    <string name="slot_account_name_title">账号 ID</string>
     <string name="slot_account_name_desc">输入您的旧帐户ID，以恢复您以前的订阅。如果您犯错误，您可能想要在写下您的经常账户ID。</string>
     <string name="slot_account_name_error">帐户ID只能包含字母和数字。</string>
     <string name="slot_account_name_api_error">此帐户ID似乎不正确。</string>
