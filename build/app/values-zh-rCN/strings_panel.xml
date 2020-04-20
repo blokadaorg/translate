@@ -143,7 +143,7 @@
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
-    <string name="subscription_success">您的帐户正在激活。这可能需要几秒钟。谢谢！</string>
+    <string name="subscription_success">您的帐号正在激活。这可能需要几秒钟。谢谢！</string>
     <string name="slot_start_on_boot_description">启用开机自启功能让 Blokada 时刻激活并保护您的设备。请注意，系统总是拥有较高的权限且能覆盖此选项。因此，如果 Blokada 没有启动，请查看您的系统设置。</string>
     <string name="slot_recommended_dns_label">使用推荐的 DNS 服务器</string>
     <string name="slot_recommended_dns_description">启用时，Blokada将自动选择推荐的 DNS 服务器来帮助加速您的互联网和保护您的隐私。否则，使用了您的网络的默认DNS服务器。如果您手动选择高级部分的DNS服务器，此设置被忽略。</string>
@@ -176,9 +176,9 @@
     <string name="slot_lease_cant_connect">无法连接到 Blokada 隧道。请尝试选择另一个网关。</string>
     <string name="slot_account_cant_create">无法创建您的 Blokada 隧道帐号。请稍后再试或在 Telegram 上与我们联系。</string>
     <string name="slot_account_name_title">账号 ID</string>
-    <string name="slot_account_name_desc">输入您的旧帐户ID，以恢复您以前的订阅。如果您犯错误，您可能想要在写下您的经常账户ID。</string>
-    <string name="slot_account_name_error">帐户ID只能包含字母和数字。</string>
-    <string name="slot_account_name_api_error">此帐户ID似乎不正确。</string>
+    <string name="slot_account_name_desc">输入您的旧帐号 ID，以恢复您以前的订阅。在此之前，您可能想要写下当前的帐号 ID 以防出错。</string>
+    <string name="slot_account_name_error">帐号 ID 只能包含字母和数字。</string>
+    <string name="slot_account_name_api_error">此帐号 ID 似乎不正确。</string>
     <string name="slot_account_name_restore">还原</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">主设置</string>
