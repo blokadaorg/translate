@@ -115,8 +115,21 @@
     <string name="slot_telegram_desc">Obiščite naš kanal na Telegramu za pomoč ali pa se samo pridružite skupnosti.</string>
     <string name="slot_telegram_action">Odpri</string>
     <string name="slot_dropped_share_title">Deli</string>
+    <string name="slot_adblocking_label">Blokiraj oglase &amp; sledilnike</string>
+    <string name="slot_adblocking_text">Ta funkcija bo blokirala oglase, sledilnike in drugo neželjeno vsebino. To pomaga zaščititi vašo zasebnost,  pohitri delovanje naprave in zmanjša prenos podatkov.</string>
+    <string name="slot_account_label_active">Račun je aktiven do %s</string>
+    <string name="slot_account_label_inactive">Račun ni aktiven</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Upravljanje naročnine</string>
+    <string name="slot_account_action_manage_inactive">Aktivirajte račun</string>
+    <string name="slot_account_action_change_id">Obnovite račun</string>
+    <string name="slot_account_show">ID računa</string>
+    <string name="slot_account_action_copied">ID računa je kopiran na odložišče</string>
+    <string name="slot_account_action_unavailable">[ni nastavljeno]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Poveži v:</string>
+    <string name="slot_gateway_section_partner">Prehodi naših partnerjev omogočajo dodatne lokacije. Niso pod Blokadinim upravljanjem, a nimajo dostopa do vašega zakriptiranega prometa.</string>
+    <string name="slot_gateway_section_overloaded">Ti prehodi so preobremenjeni in začasno niso na voljo.</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
