@@ -171,10 +171,29 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">Vaša verzija Blokade je zastarela in morda ne deluje več pravilno. Prosimo, da si naložite najnovejšo kopijo.</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">Izgleda, da je na vaši napravi več verzij Blokad. Želite odstraniti ostale verzije in obdržati zgolj eno?</string>
+    <string name="account_inactive">Prosimo aktivirajte ali obnovite račun.</string>
+    <string name="slot_lease_cant_connect">Povezava do Blokadinega Tunela ni mogoča. Izberite drug prehod.</string>
+    <string name="slot_account_cant_create">Vašega računa za Blokadin Tunel ni mogoče narediti. Poskusite ponovno kasneje ali pa  stopite v stik z nami na Telegramu.</string>
+    <string name="slot_account_name_title">ID računa</string>
+    <string name="slot_account_name_desc">Vnesite ID starega računa za obnovitev prejšnjih naročnin. Zapišite si trenutni ID računa za vsak slučaj, če pride do napake.</string>
+    <string name="slot_account_name_error">ID računa lahko vsebuje le črke in številke.</string>
+    <string name="slot_account_name_api_error">Ta ID računa ni veljaven.</string>
+    <string name="slot_account_name_restore">Obnovi</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Osnovne nastavitve</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Napredne nastavitve</string>
+    <string name="slot_whitelist_updating">Posodabljam konfiguracijo, prosimo počakajte...</string>
+    <string name="slot_too_many_leases">Prosimo odstranite staro napravo s seznama naprav.</string>
+    <string name="slot_background_animation">Animacija odzadja</string>
+    <string name="slot_background_animation_description">Ta funkcija prikaže animacijo (valovi) ob vsaki dovoljeni ali blokirani poizvedbi DNS. Izklopite, če opazite upočasnitev delovanja.</string>
+    <string name="slot_reset_counter_label">Ponastavi števec blokiranih strežnikov</string>
+    <string name="slot_reset_counter_description">Nastavi števec blokiranih zahtev na 0.</string>
+    <string name="slot_reset_counter_action">Ponastavi</string>
+    <string name="label_workarounds">Posebne nastavitve</string>
+    <string name="slot_dns_answer_label">Alternativni odgovor DNS</string>
+    <string name="slot_dns_answer_description">Spremeni odgovor Blokade za blokirane poizvedbe iz \"strežnik ni najden\" v \"napačen IP\". To lahko pomaga v nekaterih sistemih, ki v primeru napake \"strežnik ni najden\" pošljejo poizvedbo na drug strežnik. Bodite pozorni, ker lahko napaka \"napačen IP\"  upočasni določene aplikacije.</string>
 </resources>
