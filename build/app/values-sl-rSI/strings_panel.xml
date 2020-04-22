@@ -49,12 +49,28 @@
     <string name="slot_intro_new">Kako uporabljati nov UI? Tapnite sem za uvod.</string>
     <string name="slot_intro_new_header">Kako uporabljati nov UI?</string>
     <string name="slot_intro_desc">Ste na začetnem zaslonu, za več strani podrsajte v desno. Vsaka ima svoj meni na dnu  odprite ga s podrsanjem gor. &lt;br/&gt;&lt;br/&gt;Na Android TV se po UI premikajte z dpadom. Uporabite centralno tipko za spodnji meni ali kak drug izbran element. Gumbi so označeni s puščicami gor, dol, levo in desno - uporabite smerne tipke.</string>
+    <string name="slot_intro_info">Psst... Nekateri objekti imajo ob sebi vprašajček. S tapom nanj dobite kratko pomoč, kot je tale!</string>
     <string name="slot_new_filter">Dodaj nov strežnik na seznam blokiranih</string>
     <string name="slot_new_filter_list">Dodaj nov seznam strežnikov</string>
     <string name="slot_new_filter_whitelist">Dodaj nov strežnik na seznam dovoljenih</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">nenastavljeno</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">nastavljeno</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">neveljavno</string>
+    <string name="slot_continue">Nadaljuj</string>
+    <string name="slot_enter_domain_title">Domena/e</string>
+    <string name="slot_enter_domain_desc">Vnesi domene ločene z vejico. Lahko tudi prilepite povezavo do seznama strežnikov ali preberete datoteko s strežniki.</string>
+    <string name="slot_enter_domain_error">Ne najdem ničesar.</string>
+    <string name="slot_enter_domain_file">Datoteka</string>
+    <string name="slot_enter_domain_no_file">V /Download/blokada/filters ni datotek</string>
+    <string name="slot_enter_file_titel">Ime datoteke</string>
+    <string name="slot_enter_file_import">Uvozi</string>
+    <string name="slot_enter_file_desc">Vnesi delno ime</string>
+    <string name="slot_enter_file_not_found">Ni takih datotek</string>
+    <string name="slot_enter_file_multi">Več datotek ustreza</string>
+    <string name="slot_enter_name_title">Ime</string>
     <string name="slot_allapp_whitelisted">Izvzeto</string>
     <string name="slot_allapp_normal">Nadzorovano</string>
     <string name="slot_dns_name">DNS je aktiven</string>
