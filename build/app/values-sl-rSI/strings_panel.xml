@@ -130,9 +130,22 @@
     <string name="slot_gateway_label">Poveži v:</string>
     <string name="slot_gateway_section_partner">Prehodi naših partnerjev omogočajo dodatne lokacije. Niso pod Blokadinim upravljanjem, a nimajo dostopa do vašega zakriptiranega prometa.</string>
     <string name="slot_gateway_section_overloaded">Ti prehodi so preobremenjeni in začasno niso na voljo.</string>
+    <string name="slot_gateway_description">Zmogljivost: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP:&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Regija:&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">Ta prehod je zaseden in ne sprejema novih povezav.</string>
+    <string name="slot_gateway_learn_more">Več o prehodih</string>
+    <string name="slot_gateway_info_partner">Kaj so partnerski prehodi?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Izberite, katere vaše naprave se priključijo v Blokadin Tunel.</string>
+    <string name="slot_lease_name_current">%s (ta naprava)</string>
+    <string name="slot_lease_description">ID naprave: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID naprave: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;To je vaša trenutna naprava.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">visoka</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">nizka</string>
+    <string name="subscription_success">Vač račun se aktivira. To lahko traja nekaj sekund. Hvala!</string>
+    <string name="slot_start_on_boot_description">Izbira zagona ob vklopu dovoli Blokadi da je vedno aktivna in zaščiti vašo napravo. Vedite, da ima operacijski sistem sicer vedno višjo prioriteto in lahko izklopi to možnost. Če se Blokada ne požene, preverite še enkrat sistemske nastavitve.</string>
+    <string name="slot_recommended_dns_label">Uporabi priporočene strežnike DNS</string>
     <string name="slot_update_no_updates">Blokada je posodobljena</string>
     <string name="slot_about">O Blokadi</string>
     <!-- A button to share debug log. Keep it short. -->
