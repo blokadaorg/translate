@@ -71,18 +71,50 @@
     <string name="slot_enter_file_not_found">Ni takih datotek</string>
     <string name="slot_enter_file_multi">Več datotek ustreza</string>
     <string name="slot_enter_name_title">Ime</string>
+    <string name="slot_enter_name_desc">Vnesite ime za nov vpis ali uporabite predlaganega.</string>
+    <string name="slot_enter_name_error">Ne najdem ničesar.</string>
+    <string name="slot_enter_name_generate">Predlagaj</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; je na seznamu dovoljenih</string>
+    <string name="slot_app_desc">Ta aplikacija je na seznamu dovoljenih, kar pomeni da ni blokirana ali filtrirana.</string>
+    <string name="slot_allapp_desc">To aplikacijo lahko uporabljate mimo Blokade, njen promet bo potekal izven VPN.</string>
     <string name="slot_allapp_whitelisted">Izvzeto</string>
     <string name="slot_allapp_normal">Nadzorovano</string>
+    <string name="slot_allapp_whitelist">Brez blokiranja</string>
     <string name="slot_dns_name">DNS je aktiven</string>
     <string name="slot_dns_name_private">Uporabnikov DNS je aktiven</string>
     <string name="slot_dns_name_disabled">DNS ni aktiven</string>
+    <string name="slot_action_none">Ta funkcija še ni na voljo.</string>
     <string name="slot_action_unwhitelist">Prekliči</string>
     <string name="slot_action_author">O aplikaciji</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Vnos</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Vnos za %s</string>
     <string name="slot_dns_control_title">Seznam strežnikov DNS</string>
+    <string name="slot_dns_control_description">Seznam strežnikov DNS lahko uskladite z našim brez izgube dodatno vnešenih.&lt;br/&gt;&lt;br/&gt;Druga možnost je, da počitite seznam (vključno z dodatnimi) in ponovno prenesete.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Uskladi</string>
+    <string name="slot_action_refresh_toast">Usklajevanje poteka</string>
+    <string name="slot_action_restore">Počisti</string>
+    <string name="slot_export_title">Lokacija nastavitev</string>
+    <string name="slot_export_description">Nastavite, kam se shranijo (in preberejo) nastavitve. Če uvažate obstoječe nastavitve, najprej izberite Uvozi, sicer se bodo povozile z obstoječimi.</string>
+    <string name="slot_action_import">Uvozi</string>
+    <string name="slot_action_internal">Notranja shramba</string>
+    <string name="slot_action_external">Zunanja shramba</string>
     <string name="slot_filters_title">Seznam filtrov</string>
+    <string name="slot_filters_description">Seznam filtrov lahko uskladite z našim brez izgube dodatno vnešenih.&lt;br/&gt;&lt;br/&gt;Druga možnost je, da počitite seznam (vključno z dodatnimi) in ponovno prenesete.</string>
+    <string name="slot_blocked_title">Blokirana domena</string>
+    <string name="slot_forwarded_title">Preusmerjena domena</string>
+    <string name="slot_whitelist_title">Dovoljena aplikacija</string>
+    <string name="slot_list_no_desc">Ta vnos nima opisa.</string>
+    <string name="slot_status_info">Ko je aplikacija aktivna, boste v vrstici obvestil na vrhu zaslona opazili sliko ključka, kar pomeni, da je vaša naprava zaščitena. Aplikacijo lahko izključite s spodnjim gumbom ali s spodnjim menijem.</string>
+    <string name="slot_action_deactivate">Izklopi</string>
+    <string name="slot_action_activate">Vklopi</string>
+    <string name="slot_update_action_refresh">Preveri znova</string>
+    <string name="slot_telegram_title">Pridružite se nam na Telegramu!</string>
+    <string name="slot_telegram_desc">Obiščite naš kanal na Telegramu za pomoč ali pa se samo pridružite skupnosti.</string>
+    <string name="slot_telegram_action">Odpri</string>
+    <string name="slot_dropped_share_title">Deli</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
