@@ -146,19 +146,30 @@
     <string name="subscription_success">Vač račun se aktivira. To lahko traja nekaj sekund. Hvala!</string>
     <string name="slot_start_on_boot_description">Izbira zagona ob vklopu dovoli Blokadi da je vedno aktivna in zaščiti vašo napravo. Vedite, da ima operacijski sistem sicer vedno višjo prioriteto in lahko izklopi to možnost. Če se Blokada ne požene, preverite še enkrat sistemske nastavitve.</string>
     <string name="slot_recommended_dns_label">Uporabi priporočene strežnike DNS</string>
+    <string name="slot_recommended_dns_description">Vklop te možnosti dovoli Blokadi samodejno izbiro strežnikov DNS za hitrejšo internet povezavo in zaščito vaše zasebnosti. Sicer bodo uporabljeni privzeti strežniki DNS za vaše omrežje. Kadar ročno vpišete strežnike DNS v naprednih nastavitvah, se ta nastavitev ne upošteva.</string>
     <string name="slot_update_no_updates">Blokada je posodobljena</string>
     <string name="slot_about">O Blokadi</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Dnevnik</string>
+    <string name="slot_help_label">Potrebujete pomoč?</string>
+    <string name="slot_help_desc">S spodnjim gumbom odprete našo stran za pomoč. Lahko stopite v stik z nami tudi preko socialnih omrežij - smo na Telegramu, Facebooku, Redditu in Twitterju.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Pomoč</string>
+    <string name="slot_donate_label">Vam je Blokada všeč? Podprite nas, da lahko nadaljujemo z izboljšavami.</string>
     <string name="slot_donate_desc">Pomagajte nam do novih funkcionalnosti! Tapnite sem za več informacij.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Prispevajte</string>
+    <string name="slot_cta_label">Psst! Zanima nas vaše mnenje.</string>
     <string name="slot_cta_desc">Pokažite svojo podporo s sodelovanjem v anketah in drugih dogodkih. Redno se obračamo na skupnost po povratne informacije o novih idejah in izboljšavah, da razvijemo čim bolj uporabne funkcije.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Odpri</string>
+    <string name="slot_blog_label">Oglejte si naš razvijalski blog!</string>
+    <string name="slot_blog_desc">Block je naš blog, kjer pišemo o razvoju projekta, prihodnjih načrtih in debatiramo o idejah.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Odpri</string>
     <string name="slot_updated_desc">Tapnite za več informacij o trenutni verziji.</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">Vaša verzija Blokade je zastarela in morda ne deluje več pravilno. Prosimo, da si naložite najnovejšo kopijo.</string>
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
     <string name="label_basic">Osnovne nastavitve</string>
