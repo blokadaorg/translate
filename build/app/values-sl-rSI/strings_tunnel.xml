@@ -23,5 +23,17 @@
     <string name="tunnel_config_reports_title">Poročila</string>
     <string name="tunnel_config_reports_description">Vključite to nastavitev, da dovolite pošiljanje poročil, s katerimi si bomo pomagali pri odpravi težav in napak. To se bo dogajalo le enkrat dnevno ali ob sesutju programa. Izklop te nastavitve nam bo otežil reševanje težav. Ob spremembi nastavitve boste mogoče morali ponovno zagnati aplikacijo.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Napredna pravila blokiranja oglasov</string>
+    <string name="tunnel_config_wildcard_description">Vključite to možnost če želite uporabljati nadomestne znake v filtrirnih pravilih. Na primer, pravilo *.google.com blokira vse Googlove domene. Opozarjamo, da lahko taka pravila povzročijo hitrejšo porabo baterije. Ta funkcija je še v razvoju in lahko da ne deluje pravilno.</string>
+    <string name="tunnel_config_fallback_title">Zasilni DNS</string>
+    <string name="tunnel_config_fallback_description">Vklopite to možnost če izgubljate dostop do interneta pri nekaterih povezavah, npr. vašem WiFi. Aplikacija bo začasno preklopila na Cloudflare-ov DNS in obdržala povezljivost. Morda boste morali ponovno izbrati strežnike v razdelku DNS za aktivacijo te funkcije.</string>
+    <string name="tunnel_config_smartlist_title">[BETA] Pametni seznam</string>
+    <string name="tunnel_config_smartlist_reset_btn">Ponastavi</string>
+    <string name="tunnel_config_smartlist_clean_btn">Počisti</string>
+    <string name="tunnel_config_smartlist_clean_none">Nobenih pametnih seznamov za čiščenje</string>
+    <string name="tunnel_config_smartlist_clean_inactive">Pametni seznam ni aktiven</string>
+    <string name="tunnel_config_smartlist_clean_done">Iz pametnega seznama so počiščena stara pravila</string>
+    <string name="tunnel_config_smartlist_reset_done">Pametni seznam je ponastavljen</string>
+    <string name="tunnel_config_smartlist_description">Vključite to možnost za pametne sezname, ki močno zmanjšajo število pravil v vaših filtrih in s tem zmanjšajo porabo baterije in pomnilnika. Ko je ta možnost vključena, bo Blokada preverila dnevnik zahtev in dinamično ustvarila seznam, ki vsebuje samo tista pravila, ki so se vsaj enkrat aktivirala. Morda bo v prvih nekaj dneh (med učenjem) več nezaželenih zahtev zato vseeno dovoljenih. Ta funkcija je še vedno v razvoju in lahko ne dela pravilno.</string>
     <string name="tunnel_config_disable_wildcard">Najprej izključite napredna pravila blokiranja oglasov.</string>
+    <string name="tunnel_config_disable_smartlist">Najprej izključite pametni seznam.</string>
 </resources>
