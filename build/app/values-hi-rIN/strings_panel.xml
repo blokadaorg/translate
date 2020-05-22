@@ -71,7 +71,7 @@
     <string name="slot_enter_file_desc">आंशिक फ़ाइल नाम डाले</string>
     <string name="slot_enter_file_not_found">आपके इनपुट से कोई फ़ाइल नाम नहीं</string>
     <string name="slot_enter_file_multi">एकाधिक फाइलें आपके इनपुट से मेल खाती हैं</string>
-    <string name="slot_enter_name_title">शीर्षक</string>
+    <string name="slot_enter_name_title">नाम</string>
     <string name="slot_enter_name_desc">नई प्रविष्टि के लिए नाम दर्ज करें। आप सुझाया गया नाम भी जनरेट कर सकते हैं।</string>
     <string name="slot_enter_name_error">यह मुझे कुछ भी नहीं लग राहा है।</string>
     <string name="slot_enter_name_generate">उत्पन्न</string>
@@ -160,13 +160,38 @@
     <string name="slot_help_desc">हमारे सहायता पृष्ठ को खोलने के लिए नीचे दिए गए बटन पर टैप करें। आप सहायता प्राप्त करने के लिए हमारे सोशल मीडिया का भी उपयोग कर सकते हैं - हम टेलीग्राम, फेसबुक, रेडिट और ट्विटर पर हैं।</string>
     <!-- A button to open help -->
     <string name="slot_help_action">सहायता</string>
+    <string name="slot_donate_label">ब्लोकाडा का आनंद ले रहे हैं? हमें समर्थन देने पर विचार करें, इसलिए हम ऐप को बेहतर बना सकते हैं।</string>
+    <string name="slot_donate_desc">नई सुविधाओं को पेश करने में हमारी मदद करें! अधिक के लिए यहां स्पर्श करें।</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">दान करें</string>
+    <string name="slot_cta_label">श्श्श! हम आपकी राय जानना चाहेंगे।</string>
+    <string name="slot_cta_desc">हमारे सर्वेक्षण और अन्य घटनाओं में भाग लेकर अपना समर्थन दिखाएं। हम विचारों और नए विकास के बारे में प्रतिक्रिया के लिए नियमित रूप से हमारे समुदाय तक पहुंचते हैं, ताकि हम यह सुनिश्चित कर सकें कि आप जो देखना चाहते हैं, उस पर हम काम कर रहे हैं।</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">खोलें</string>
+    <string name="slot_blog_label">हमारे विकास ब्लॉग की जाँच करें!</string>
+    <string name="slot_blog_desc">ब्लॉक वह है जहां हम परियोजना के विकास, भविष्य की योजनाओं और विचारों पर चर्चा करते हैं।</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">खोलें</string>
+    <string name="slot_updated_desc">इस रिलीज के लिए परिचय के लिए यहां टच करें।</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">ब्लोकाडा का आपका संस्करण अप्रचलित है और सही ढंग से काम नहीं कर सकता है। अपडेट प्राप्त करने के लिए कृपया नवीनतम संस्करण डाउनलोड करें।</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">लगता है आपके डिवाइस पर ब्लोकाडा के कई संस्करण स्थापित हैं। क्या आप अन्य संस्करणों को निकालना और सिर्फ एक रखना चाहेंगे?</string>
+    <string name="account_inactive">जारी रखने के लिए कृपया अपना खाता सक्रिय करें या पुनर्स्थापित करें</string>
+    <string name="slot_lease_cant_connect">ब्लोकडा टनल से जुड़ नहीं सका। दूसरे गेटवे का चयन करने का प्रयास करें।</string>
+    <string name="slot_account_cant_create">आपका ब्लोकाडा सुरंग खाता नहीं बनाया जा सका। कृपया बाद में पुनः प्रयास करें या टेलीग्राम पर हमसे संपर्क करें।</string>
+    <string name="slot_account_name_title">खाता आईडी</string>
+    <string name="slot_account_name_desc">अपनी पिछली सदस्यता को पुनर्स्थापित करने के लिए अपनी पुरानी खाता आईडी दर्ज करें। यदि आप गलती करते हैं, तो ऐसा करने से पहले आप अपना करंट अकाउंट आईडी लिखना चाहते हैं।</string>
+    <string name="slot_account_name_error">खाता आईडी में केवल अक्षर और संख्याएं हो सकती हैं।</string>
+    <string name="slot_account_name_api_error">यह खाता आईडी सही नहीं लगता है।</string>
+    <string name="slot_account_name_restore">पुनर्स्थापित करें</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">प्राथमिक सेटिंग्स</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">एडवांस्ड सेटिंग</string>
+    <string name="slot_whitelist_updating">कॉन्फ़िगरेशन अपडेट हो रहा है, कृपया प्रतीक्षा करें...</string>
+    <string name="slot_too_many_leases">कृपया पुराने डिवाइस को अपनी डिवाइस की सूची से हटा दें।</string>
+    <string name="slot_background_animation">पृष्ठभूमि एनीमेशन</string>
 </resources>
