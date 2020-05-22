@@ -130,6 +130,9 @@ elif [ "$choice" = "e" ]; then
 		mv $D/filters_dns.txt $D/filters.txt
 	done
 
+	# Also export html content from v5 to v4 (needs to run manage4 after)
+	cp $web/api/v5/canonical/strings/*.html $web/api/v4/canonical/strings/
+
 	# English is not exported by default
 	rm -rf $web/api/v5/content_dns/en_US
 
