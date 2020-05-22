@@ -86,7 +86,7 @@ elif [ "$choice" = "e" ]; then
 		y=${legacy_mapped[$i]}
 		echo "legacy from $x to $y"
 		rm -rf $web/$x
-		mkdir $web/$x
+		mkdir -p $web/$x
 		cp -r $web/css $web/$x/
 		cp -r $web/js $web/$x/
 		ln -s ../static $web/$x/static
@@ -97,7 +97,7 @@ elif [ "$choice" = "e" ]; then
 	echo "Exporting content..."
 	rm -rf $web/api/v5/content/*
 
-	mkdir $web/api/v5/content/en
+	mkdir -p $web/api/v5/content/en
 	cp -r $web/api/v5/canonical/css $web/api/v5/content/en/
 	cp $web/api/v5/canonical/strings/* $web/api/v5/content/en/
 	cp $web/api/v5/canonical/defaults/* $web/api/v5/content/en/
@@ -115,7 +115,7 @@ elif [ "$choice" = "e" ]; then
 	echo "Exporting web (dns)..."
 	rm -rf $web/api/v5/content_dns/*
 
-	mkdir $web/api/v5/content_dns/en
+	mkdir -p $web/api/v5/content_dns/en
 	cp -r $web/api/v5/canonical/css $web/api/v5/content_dns/en/
 	cp $web/api/v5/canonical/strings/* $web/api/v5/content_dns/en/
 	cp $web/api/v5/canonical/defaults/* $web/api/v5/content_dns/en/
