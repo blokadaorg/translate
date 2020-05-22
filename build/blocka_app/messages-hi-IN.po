@@ -12,35 +12,35 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
-"PO-Revision-Date: 2020-04-30 09:28\n"
+"PO-Revision-Date: 2020-05-22 12:22\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "1 महीना"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12 महीने"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6 महीने"
 
 #. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
 #. defaultMessage is:
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr ""
+msgstr "वर्तमान चक्र समाप्त हो जाने के बाद एक नई सदस्यता सक्रिय हो सकती है।"
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -51,49 +51,49 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "एक वास्तविक ब्राउज़र की आवश्यकता है। नीचे \"ब्राउज़र में खोलें\" बटन को आज़माएं।"
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "सक्रिय"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "खाता"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "खाता आईडी"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "खाते को सक्रिय करें"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "सक्रियण रद्द कर दिया गया"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "एक त्रुटि हुई। कृपया बाद में फिर से कोशिश करें।"
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -104,63 +104,63 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "एक त्रुटि हुई। कृपया बाद में फिर से कोशिश करें।"
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "एक त्रुटि हुई, कृपया अपनी आईडी सत्यापित करें और पुनः प्रयास करें।"
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "स्वतः नवीनीकृत"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "एक्सपायरी पर अपने आप नवीनीकरण करें: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "ब्लोकाडा खाता"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "ब्लोकाडा वीपीएन {link} का उपयोग करता है। नए डिवाइस बनाते समय कॉन्फ़िगरेशन डाउनलोड किया जा सकता है।"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "सदस्यता रद्द करें"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "रद्द हो है {spinner}"
 
 #. [account.gpay_change] - Button for changing from Google Pay to manual card input
 #. defaultMessage is:
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "बदलें"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -179,35 +179,35 @@ msgstr ""
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
-msgstr ""
+msgstr "जारी रखें"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "ब्लोकाडा ऐप के साथ जारी रखें"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "कनेक्ट करने वाले डिवाइस बनाएं और कॉन्फ़िगर करें।"
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "अक्षम"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "अशक्त हो रहा है"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
