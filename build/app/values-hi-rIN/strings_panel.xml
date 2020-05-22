@@ -82,20 +82,39 @@
     <string name="slot_allapp_normal">नजरअंदाज नहीं हुआ</string>
     <string name="slot_allapp_whitelist">नजरअंदाज</string>
     <string name="slot_action_set">सेट</string>
+    <string name="slot_whitelist_all">सभी एप्लिकेशन को श्वेतसूची करें</string>
+    <string name="slot_blacklist_all">सभी ऐप्स को ब्लैकलिस्ट करें</string>
+    <string name="slot_dns_name">डीएनएस चालू है</string>
     <string name="slot_dns_name_private">आपका DNS चालू है</string>
+    <string name="slot_dns_name_disabled">डीएनएस चालू नहीं है</string>
     <string name="slot_action_none">यह कार्रवाई अभी उपलब्ध नहीं है।</string>
     <string name="slot_action_unwhitelist">रद्द करें</string>
     <string name="slot_action_author">विवरण</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">एक प्रवेश</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">एक प्रवेश %s के लिए</string>
+    <string name="slot_dns_control_title">डीएनएस सर्वर सूची</string>
+    <string name="slot_dns_control_description">आप अपने कस्टम प्रविष्टियों को खोए बिना हमारे सर्वर के साथ DNS सर्वर सूची को सिंक कर सकते हैं। &lt;br/&gt;&lt;br/&gt;वैकल्पिक रूप से, आप सभी प्रविष्टियों (आपके सहित) को छोड़ सकते हैं, और उन्हें फिर से डाउनलोड कर सकते हैं</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">सिंक</string>
     <string name="slot_action_refresh_toast">सिंक चालू किया गया</string>
     <string name="slot_action_restore">छोड़ें</string>
+    <string name="slot_export_title">लोकेशन समायोजन</string>
+    <string name="slot_export_description">आप बदल सकते हैं जहां कॉन्फ़िगरेशन (और से लोड) में सहेजा गया है। यदि आप मौजूदा सेटिंग्स आयात कर रहे हैं, तो कृपया पहले आयात का चयन करें, अन्यथा वे अधिलेखित हो जाएंगे।</string>
     <string name="slot_action_import">आयात</string>
     <string name="slot_action_internal">आंतरिक संग्रहण</string>
     <string name="slot_action_external">बाह्य संग्रहण</string>
     <string name="slot_filters_title">फ़िल्टर सूची</string>
+    <string name="slot_filters_description">आप अपने कस्टम प्रविष्टियों को खोए बिना हमारे सर्वर के साथ फ़िल्टर सूची को सिंक कर सकते हैं। &lt;br/&gt;&lt;br/&gt;वैकल्पिक रूप से, आप सभी प्रविष्टियों (आपके सहित) को छोड़ सकते हैं, और उन्हें फिर से डाउनलोड कर सकते हैं</string>
+    <string name="slot_blocked_normal_title">डोमेन ब्लॉक</string>
+    <string name="slot_blocked_answer_title">डोमेन हल नहीं हुआ</string>
+    <string name="slot_forwarded_title">डोमेन अग्रेषित किया गया</string>
+    <string name="slot_whitelist_title">एप्लिकेशन की श्वेतसूची</string>
+    <string name="slot_list_no_desc">इस रोल को कोई अनुमतियाँ नहीं है|</string>
+    <string name="slot_status_info">जब एप्लिकेशन सक्रिय होता है, तो आपको स्क्रीन के शीर्ष पर सूचना पट्टी में कुंजी आइकन दिखाई देगा, जिसका अर्थ है कि आपका डिवाइस सुरक्षित है। आप नीचे दिए गए बटन का उपयोग करके या नीचे के मेनू को स्वाइप करके ऐप को बंद कर सकते हैं।</string>
+    <string name="slot_action_deactivate">बंद करे</string>
+    <string name="slot_action_activate">चालू करें</string>
     <string name="slot_account_label_active">खाता %s तक सक्रिय</string>
     <string name="slot_account_label_inactive">खाता निष्क्रिय</string>
     <!-- Action to manage active subscription. Keep it short -->
