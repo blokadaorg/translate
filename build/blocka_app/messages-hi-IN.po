@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hindi\n"
 "Language: hi_IN\n"
-"PO-Revision-Date: 2020-05-22 13:13\n"
+"PO-Revision-Date: 2020-05-22 13:22\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -439,154 +439,154 @@ msgstr "{price} इस अवधि का भुगतान करें"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "पेपाल का उपयोग करके {price} का भुगतान करें"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "भुगतान विफल हो गया, कृपया कार्ड का विवरण मान्य करें।"
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "भुगतान विफल हो गया, कृपया पेपाल का विवरण करें।"
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "कृपया पिछली स्क्रीन से अपनी खाता आईडी सत्यापित करें।"
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "भुगतान के लिए आगे बढ़ें"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "हो रहा है {spinner}"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "सार्वजनिक चाबी"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr ""
+msgstr "सेव करें"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "क्षमा करें!"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "क्षमा करें, एक त्रुटि हो गई है। कृपया बाद में फिर से कोशिश करें।"
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "स्टेलर?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "एक सुरक्षित जगह में खाता आईडी स्टोर, आप कनेक्ट करते हैं और अपने डिवाइस को सक्रिय करने में यह आवश्यक है।"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "सहायता"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "अपेक्षा से अधिक समय लग रहा है? समर्थन बटन नीचे बाईं ओर का उपयोग करें"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "धन्यवाद!"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "खाता आईडी मेल नहीं खाता, सत्यापित करें कि आपने इसे पिछली स्क्रीन पर ठीक से संग्रहीत किया है और पुनः प्रयास करें।"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "यह पृष्ठ प्रदर्शित नहीं किया जा सका। यदि आप किसी भी समस्या का अनुभव करते हैं, तो कृपया हमसे संपर्क करें {email} पर।"
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "भुगतान की पुष्टि के लिए पेपाल की प्रतीक्षा की जा रही है ..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "भुगतान की पुष्टि के लिए प्रतीक्षा की जा रही है ..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "वर्तमान में F-Droid बिल्ड पर वीपीएन सक्रियण के साथ हमारे पास समस्याएँ हैं। इस मुद्दे पर काम किया जा रहा है, इस बीच आप F-Droid संस्करण की स्थापना रद्द कर सकते हैं और इसके बजाय blokada.org से ऐप डाउनलोड कर सकते हैं।"
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "वायरगार्ड कॉन्फ़िगरेशन"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "एक संदेश लिखो..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
