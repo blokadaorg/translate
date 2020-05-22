@@ -24,6 +24,8 @@
     <string name="panel_domain_forwarded_toast">Добавен е към белия списък.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">Блокиран &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_normal_desc">Този домейн е блокиран. За да го разрешите в бъдеще, използвайте бутона по-долу.</string>
+    <string name="panel_domain_blocked_answer_desc">Този домейн не е разрешен правилно от DNS сървъра. Или сървърът блокира домейна, или той не съществува.</string>
     <string name="panel_domain_blocked_toast">Добавен е в черния списък.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Копирай</string>
@@ -79,6 +81,7 @@
     <string name="slot_allapp_whitelisted">Заобиколено</string>
     <string name="slot_allapp_normal">Не е заобиколено</string>
     <string name="slot_allapp_whitelist">Заобикаляне</string>
+    <string name="slot_action_set">Приложи</string>
     <string name="slot_dns_name">DNS е активен</string>
     <string name="slot_dns_name_private">Персонализираният DNS е активен</string>
     <string name="slot_dns_name_disabled">DNS е деактивиран</string>
