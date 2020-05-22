@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Main screen section -->
-    <string name="panel_section_home">मुखपृष्ठ</string>
+    <string name="panel_section_home">होम</string>
     <string name="panel_section_menu">मेन्यू</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">विज्ञापन अवरोधन</string>
@@ -13,7 +13,7 @@
     <string name="panel_section_ads_log">होस्ट लॉग</string>
     <string name="panel_section_ads_blacklist">अवरोधित मेजबान</string>
     <string name="panel_section_ads_whitelist">स्वीकृत स्रोत</string>
-    <string name="panel_section_advanced_dns">DNS</string>
+    <string name="panel_section_advanced_dns">डीएनएस</string>
     <string name="panel_section_apps_all">स्थापित किए गए ऐप्प</string>
     <string name="panel_section_apps_system">सिस्टम ऐप्स</string>
     <string name="panel_section_advanced_settings">सैटिंग्स</string>
@@ -152,7 +152,7 @@
     <string name="slot_start_on_boot_description">बूट पर आरंभ सक्षम करने से ब्लोकाडा हर समय सक्रिय रहता है और आपके डिवाइस की सुरक्षा करता है। कृपया ध्यान दें कि सिस्टम में हमेशा उच्च प्राथमिकता होती है और इस विकल्प को अधिलेखित कर सकता है, इस प्रकार, यदि ब्लोकाडा शुरू नहीं होता है, तो अपने सिस्टम की सेटिंग्स पर एक नज़र डालें।</string>
     <string name="slot_recommended_dns_label">अनुशंसित डीएनएस सर्वर का प्रयोग करें</string>
     <string name="slot_recommended_dns_description">जब सक्षम किया जाता है, तो ब्लोकाडा स्वचालित रूप से आपके इंटरनेट की गति बढ़ाने और आपकी गोपनीयता की सुरक्षा के लिए अनुशंसित DNS सर्वरों का चयन करेगा। अन्यथा, आपके नेटवर्क के डिफ़ॉल्ट DNS सर्वर का उपयोग किया जाता है। यदि आप मैन्युअल रूप से उन्नत अनुभाग में DNS सर्वर चुनते हैं, तो यह सेटिंग अनदेखा कर दी जाती है।</string>
-    <string name="slot_update_no_updates">Blokada अद्यतन है</string>
+    <string name="slot_update_no_updates">ब्लोकाडा अद्यतन है</string>
     <string name="slot_about">ब्लोकाडा के बारे में</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">लॉग</string>
@@ -194,4 +194,10 @@
     <string name="slot_whitelist_updating">कॉन्फ़िगरेशन अपडेट हो रहा है, कृपया प्रतीक्षा करें...</string>
     <string name="slot_too_many_leases">कृपया पुराने डिवाइस को अपनी डिवाइस की सूची से हटा दें।</string>
     <string name="slot_background_animation">पृष्ठभूमि एनीमेशन</string>
+    <string name="slot_background_animation_description">हर बार, जब DNS अनुरोध अवरुद्ध या अनुमत होता है, तो हर बार तरंगें चेतन होंगी। यदि आप मंदी का अनुभव करते हैं तो बंद करें।</string>
+    <string name="slot_reset_counter_label">अवरुद्ध होस्ट काउंटर रीसेट करें</string>
+    <string name="slot_reset_counter_description">काउंटर को दर्शाता है कि कितने अनुरोध जहां 0 पर वापस अवरुद्ध हो गए हैं।</string>
+    <string name="slot_reset_counter_action">रीसेट</string>
+    <string name="label_workarounds">डिवाइस-विशिष्ट वर्कअराउंड</string>
+    <string name="slot_dns_answer_label">वैकल्पिक DNS उत्तर</string>
 </resources>
