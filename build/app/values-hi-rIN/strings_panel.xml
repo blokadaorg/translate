@@ -115,21 +115,51 @@
     <string name="slot_status_info">जब एप्लिकेशन सक्रिय होता है, तो आपको स्क्रीन के शीर्ष पर सूचना पट्टी में कुंजी आइकन दिखाई देगा, जिसका अर्थ है कि आपका डिवाइस सुरक्षित है। आप नीचे दिए गए बटन का उपयोग करके या नीचे के मेनू को स्वाइप करके ऐप को बंद कर सकते हैं।</string>
     <string name="slot_action_deactivate">बंद करे</string>
     <string name="slot_action_activate">चालू करें</string>
+    <string name="slot_update_action_refresh">फिर से जांचें</string>
+    <string name="slot_telegram_title">टेलीग्राम पर हमसे जुड़ें!</string>
+    <string name="slot_telegram_desc">मदद के लिए या हमारे समुदाय का हिस्सा बनने के लिए हमारे टेलीग्राम चैनल पर जाएं।</string>
+    <string name="slot_telegram_action">खोलें</string>
+    <string name="slot_dropped_share_title">पर साझा करें</string>
+    <string name="slot_adblocking_label">ब्लॉक विज्ञापन &amp; ट्रैकर</string>
+    <string name="slot_adblocking_text">सक्षम होने पर, ब्लोकाडा विज्ञापन, ट्रैकर्स और अन्य अवांछित सामग्री को रोक देगा। यह आपकी गोपनीयता को सुरक्षित रखने, आपके डिवाइस को गति देने और आपके डेटा को बचाने में मदद करता है।</string>
     <string name="slot_account_label_active">खाता %s तक सक्रिय</string>
     <string name="slot_account_label_inactive">खाता निष्क्रिय</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">सदस्यताओं को प्रबंधित करें</string>
     <string name="slot_account_action_manage_inactive">खाते को सक्रिय करें</string>
+    <string name="slot_account_action_change_id">अकाउंट रिस्टोर करें</string>
     <string name="slot_account_show">खाता ID</string>
+    <string name="slot_account_action_copied">क्लिपबोर्ड पर खाता आईडी कॉपी की गई</string>
+    <string name="slot_account_action_unavailable">सेट नहीं</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">%s से जोड़े</string>
+    <string name="slot_gateway_section_partner">साथी द्वार अतिरिक्त स्थान प्रदान करते हैं। वे ब्लोकाडा द्वारा पूरी तरह से प्रबंधित नहीं हैं, लेकिन आपके एन्क्रिप्टेड ट्रैफ़िक तक उनकी पहुंच नहीं है</string>
+    <string name="slot_gateway_section_overloaded">वे प्रवेश द्वार ओवरलोड और अस्थायी रूप से अनुपलब्ध हैं।</string>
+    <string name="slot_gateway_description">प्रदर्शन&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;आईपी&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;जगा&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">यह प्रवेश द्वार व्यस्त है और नए कनेक्शन स्वीकार नहीं करता है।</string>
+    <string name="slot_gateway_learn_more">गेटवे के बारे में अधिक जानें</string>
+    <string name="slot_gateway_info_partner">पार्टनर गेटवे क्या हैं?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">नियंत्रण करें कि आपके कौन से उपकरण ब्लोकाडा सुरंग से जुड़े हैं।</string>
+    <string name="slot_lease_name_current">इस डिवाइस के लिए %s</string>
+    <string name="slot_lease_description">डिवाइस आईडी:&lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">डिवाइस आईडी:&lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;यह आपका वर्तमान उपकरण है।</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">ऊंचा</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">कम</string>
     <string name="subscription_success">आपका खाता सक्रिय किया जा रहा है। इस प्रयास में कुछ समय लग सकता है। धन्यवाद!</string>
+    <string name="slot_start_on_boot_description">बूट पर आरंभ सक्षम करने से ब्लोकाडा हर समय सक्रिय रहता है और आपके डिवाइस की सुरक्षा करता है। कृपया ध्यान दें कि सिस्टम में हमेशा उच्च प्राथमिकता होती है और इस विकल्प को अधिलेखित कर सकता है, इस प्रकार, यदि ब्लोकाडा शुरू नहीं होता है, तो अपने सिस्टम की सेटिंग्स पर एक नज़र डालें।</string>
+    <string name="slot_recommended_dns_label">अनुशंसित डीएनएस सर्वर का प्रयोग करें</string>
+    <string name="slot_recommended_dns_description">जब सक्षम किया जाता है, तो ब्लोकाडा स्वचालित रूप से आपके इंटरनेट की गति बढ़ाने और आपकी गोपनीयता की सुरक्षा के लिए अनुशंसित DNS सर्वरों का चयन करेगा। अन्यथा, आपके नेटवर्क के डिफ़ॉल्ट DNS सर्वर का उपयोग किया जाता है। यदि आप मैन्युअल रूप से उन्नत अनुभाग में DNS सर्वर चुनते हैं, तो यह सेटिंग अनदेखा कर दी जाती है।</string>
     <string name="slot_update_no_updates">Blokada अद्यतन है</string>
+    <string name="slot_about">ब्लोकाडा के बारे में</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">लॉग</string>
+    <string name="slot_help_label">सहायता की आवश्यकता है?</string>
+    <string name="slot_help_desc">हमारे सहायता पृष्ठ को खोलने के लिए नीचे दिए गए बटन पर टैप करें। आप सहायता प्राप्त करने के लिए हमारे सोशल मीडिया का भी उपयोग कर सकते हैं - हम टेलीग्राम, फेसबुक, रेडिट और ट्विटर पर हैं।</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">सहायता</string>
     <!-- A button to donate -->
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
