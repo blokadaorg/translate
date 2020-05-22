@@ -31,10 +31,21 @@
     <string name="home_vpn_disabled">Blokada Tunnel निष्क्रिय है</string>
     <string name="home_account_active">आपका खाता अभी भी सक्रिय है</string>
     <string name="home_connecting_vpn">ब्लोकाडा सुरंग से जुड़ रहे हैं</string>
+    <string name="home_cleanup">सफाई की सलाह दी जाती है</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">ब्लोकाडा सुरंग से जुड़े हुए हैं</string>
+    <string name="home_boringtun_not_loaded">क्षमा करें, आपका उपकरण ब्लोकडा सुरंग द्वारा समर्थित नहीं है। आप अभी भी अन्य सुविधाओं का उपयोग कर सकते हैं।</string>
+    <string name="home_blocka_vpn_error">गेटवे से कनेक्ट नहीं हो पाय। क्या आप ऑनलाइन हैं?</string>
+    <string name="home_account_error">खाता सत्यापित नहीं किया जा सका। क्या आप ऑनलाइन हैं?</string>
     <string name="home_permission_error">कृपया VPN की अनुमति दें।</string>
+    <string name="home_zero_filters_error">आपके पास कोई फ़िल्टर कॉन्फ़िगर नहीं हुआ हैं। अपने विज्ञापन अवरोधन और वाईफाई सेटिंग की जांच करें।</string>
+    <string name="home_filters_memory_error">कुछ सूचियाँ लोड नहीं की जा सकीं; विज्ञापन अवरोधन सेटिंग में कम सूचियों का चयन करें।</string>
+    <string name="tasker_switch_label">अपने ट्रिगर के लिए इसे चालू (या बंद) करने के लिए कॉन्फ़िगर करने के विकल्पों में से एक पर टैप करें।</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">विज्ञापन</string>
+    <string name="menu_ads_live_label">अनुमत और अवरुद्ध अनुरोधों के मेजबान लॉग</string>
+    <string name="menu_ads_clear_log">होस्ट लॉग साफ़ करें</string>
+    <string name="menu_ads_lists_label">अवरुद्ध करने के लिए उपयोग होने वाली सूचियों का चयन करें। अधिकांश लोगों के लिए डिफॉल्ट ठीक हैं।</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">कृपया पहले अपने खाते को सक्रिय करें।</string>
