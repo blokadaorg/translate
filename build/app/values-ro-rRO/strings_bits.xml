@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_touch">Tineti apasat pentru a configura</string>
+    <string name="home_touch">Atingeți sau țineți apăsat pentru a configura</string>
     <string name="home_blokada_disabled">Blockada este in pauza</string>
     <string name="home_activating">Se activeaza</string>
     <string name="home_please_wait">Vă rugăm așteptați...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada este activ fara ad-blocking</string>
+    <string name="home_vpn_only">Tunelul Blokada este activ fara ad-blocking</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada este activ in modul DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -14,7 +14,7 @@
     <string name="home_masterswitch_enabled">Blokada este pornit</string>
     <string name="home_masterswitch_waiting">Așteptare rețea...</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Spune-le prietenilor</string>
+    <string name="home_share">Spune-le si prietenilor tăi</string>
     <string name="home_share_state">Lauda-te cu scorul tau</string>
     <string name="home_share_state_google">Ajuta-ti prietenii sa afle despre Blokada</string>
     <string name="home_share_msg_google">Incearca Blokada Slim si ramai in siguranta! Descarca din Magazinul Play.</string>
@@ -94,6 +94,11 @@
     <string name="menu_knowledge">Solicitați ajutor</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Implicați-vă</string>
+    <string name="menu_telegram">Canal Chat Telegram</string>
+    <string name="menu_configure">Configurare caracteristici Blokada</string>
+    <string name="menu_exclude">Exclude aplicațiile care nu funcționează corect</string>
     <!-- A section in menu for additional buttons  -->
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Gestionare</string>
+    <string name="menu_dns_remove_default">DNS-ul implicit nu poate fi eliminat.</string>
 </resources>
