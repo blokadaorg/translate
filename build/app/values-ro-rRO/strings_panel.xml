@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Main screen section -->
+    <string name="panel_section_home">Pagină de pornire</string>
+    <string name="panel_section_menu">Meniu</string>
     <!-- Main screen section -->
+    <string name="panel_section_ads">Blocare reclame</string>
     <!-- Main screen section -->
+    <string name="panel_section_apps">Aplicații</string>
     <!-- Main screen section -->
+    <string name="panel_section_home_help">Asistență</string>
+    <string name="panel_section_advanced_dns">DNS</string>
+    <string name="panel_section_apps_all">Aplicații instalate</string>
+    <string name="panel_section_apps_system">Aplicații de sistem</string>
+    <string name="panel_section_advanced_settings">Setări</string>
+    <string name="panel_section_app_settings">Setări aplicație</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">Permis &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">Acest domeniu a fost permis. Pentru a-l bloca, utilizaţi butonul de mai jos.</string>
     <!-- When a domain is blocked -->
     <!-- Action to copy domain name to clipboard -->
     <!-- How many rules are configured. Parameters is number of rules. -->
