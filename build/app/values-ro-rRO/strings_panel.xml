@@ -21,6 +21,7 @@
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Copiere</string>
     <string name="panel_domain_copied">Copiat în clipboard</string>
+    <string name="panel_ruleset">Contor filtre</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_updating">Se actualizează filtrele...</string>
     <!-- Button to allow blocked domain -->
@@ -39,12 +40,21 @@
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_continue">Continuă</string>
+    <string name="slot_enter_domain_title">Domenii</string>
     <string name="slot_enter_domain_file">Fișier</string>
+    <string name="slot_enter_file_titel">Nume fișier</string>
+    <string name="slot_enter_file_import">Importă</string>
+    <string name="slot_enter_name_title">Denumire</string>
+    <string name="slot_enter_name_generate">Generează</string>
     <string name="slot_whitelist_all">Ocolește toate aplicațiile</string>
     <string name="slot_blacklist_all">Nu ocoli nicio aplicație</string>
+    <string name="slot_action_author">Despre</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">O intrare</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Sincronizează</string>
+    <string name="slot_action_refresh_toast">Sincronizare începută</string>
     <string name="slot_action_deactivate">Oprește</string>
     <string name="slot_action_activate">Porneşte</string>
     <string name="slot_update_action_refresh">Verificați din nou</string>
