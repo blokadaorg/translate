@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2020-05-25 18:42\n"
+"PO-Revision-Date: 2020-05-26 01:02\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -58,21 +58,21 @@ msgstr ""
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "ACTIV"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
 #. Account
 #: build/messages/src/Manage.json
 msgid "Account"
-msgstr ""
+msgstr "Cont"
 
 #. [account.title] - long version of account id input
 #. defaultMessage is:
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "ID Cont"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
@@ -132,7 +132,7 @@ msgstr ""
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Cont Blokada"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
@@ -146,21 +146,21 @@ msgstr ""
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Anulare abonament"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Se anulează {spinner}"
 
 #. [account.gpay_change] - Button for changing from Google Pay to manual card input
 #. defaultMessage is:
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Modifică"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -179,7 +179,7 @@ msgstr ""
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
-msgstr ""
+msgstr "Continuă"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
@@ -200,7 +200,7 @@ msgstr ""
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "DEZACTIVAT"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
@@ -214,49 +214,49 @@ msgstr ""
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Zile până la expirare: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Ştergere"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Dispozitive {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Descarcă"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "Adresă de e-mail"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr ""
+msgstr "EXPIRAT"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
@@ -281,7 +281,7 @@ msgstr ""
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -292,7 +292,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Înapoi"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -306,7 +306,7 @@ msgstr ""
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -320,14 +320,14 @@ msgstr ""
 #. LOADING
 #: build/messages/src/Manage.json
 msgid "LOADING"
-msgstr ""
+msgstr "SE ÎNCARCĂ"
 
 #. [manage.devices_limit_description] - New device Button label when max number of devices has been reached
 #. defaultMessage is:
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Limită atinsă"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -348,7 +348,7 @@ msgstr ""
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Denumire dispozitiv"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
