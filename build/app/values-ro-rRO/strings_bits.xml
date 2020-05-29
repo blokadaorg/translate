@@ -18,9 +18,9 @@
     <string name="home_masterswitch_waiting">Așteptare rețea...</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Spune-le și prietenilor tăi</string>
-    <string name="home_share_state">Lauda-te cu scorul tau</string>
+    <string name="home_share_state">Laudă-te cu scorul tau</string>
     <string name="home_share_state_google">Ajută-i si pe alții să afle despre Blokada</string>
-    <string name="home_share_msg_google">Incearca Blokada Slim si ramai in siguranta! Descarca din Magazinul Play.</string>
+    <string name="home_share_msg_google">Încearcă Blokada Slim și păstrează-ți intimitatea protejată! Descarcă-l din Google Play.</string>
     <string name="home_adblocking_enabled">Adblocking-ul este activ</string>
     <string name="home_adblocking_disabled">Adblocking-ul este dezactivat</string>
     <string name="home_blokadaorg">Folosiți Blokada Slim</string>
@@ -34,11 +34,11 @@
     <string name="home_vpn_disabled">Tunelul Blokada este dezactivat</string>
     <string name="home_account_active">Contul dvs. este incă activ</string>
     <string name="home_connecting_vpn">Se conectează la tunelul Blokada</string>
-    <string name="home_cleanup">Curatare recomendata</string>
+    <string name="home_cleanup">Curățare recomandată</string>
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">Conectat la tunelul Blokada</string>
     <string name="home_boringtun_not_loaded">Ne pare rau, dar dispozitivul dumneavoastră nu este compatibil cu tunelul Blokada. Puteți insă să folosiți restul funcțiilor.</string>
-    <string name="home_blocka_vpn_error">Conexiune inexistenta. Sunteti conectat la internet?</string>
+    <string name="home_blocka_vpn_error">Nu s-a putut conecta la gateway. Ești conectat la internet?</string>
     <string name="home_account_error">Nu s-a putut verifica contul. Sunteți conectat la internet?</string>
     <string name="home_permission_error">Vă rugăm acordați permisiunile VPN de conectare.</string>
     <string name="home_zero_filters_error">Nu aveti filtre configurate. Verificati sectiune adblocking si setarile wifi.</string>
@@ -82,6 +82,7 @@
     <string name="menu_dns_recommended">Servere recomandate DNS</string>
     <string name="menu_dns_intro">DNS este responsabil pentru traducerea adreselor IP ale site-urilor web și aplicațiilor pe care le folosiți. Alegerea unui DNS bun vă poate accelera dispozitivul și vă va proteja confidențialitatea.</string>
     <string name="menu_dns_select">Selectați unul dintre serverele DNS.</string>
+    <string name="menu_apps_intro">Este posibil ca unele aplicații sa nu funcționeze corect cu Blokada. De exemplu, s-ar putea să aibă probleme de conexiune.\n\nActivarea VPN-ului poate ajuta în unele cazuri.\n\nÎn caz contrar, poți face acele aplicații să treacă de inspecția Blokada întru totul. Rețineți că aplicațiile ocolite pot comunica în afara tunelului Blokada.</string>
     <string name="menu_apps_system_label">Aplicațiile de sistem sunt cele preinstalate pe dispozitiv. Unele dintre ele sunt ascunse. Modificați-le doar dacă știți ce faceți.</string>
     <string name="menu_host_list_intro">Listele de găzduire conţin reguli pentru blocarea reclamelor şi trackerelor. Încercaţi să păstraţi numărul de liste active la un nivel scăzut.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
@@ -103,6 +104,7 @@
     <string name="menu_configure">Configurare caracteristici Blokada</string>
     <string name="menu_exclude">Exclude aplicațiile care nu funcționează corect</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Scufundați-vă mai adânc</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Gestionează</string>
     <string name="menu_ok">OK</string>
