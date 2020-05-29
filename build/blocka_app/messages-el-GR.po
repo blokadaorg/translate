@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2020-05-29 15:43\n"
+"PO-Revision-Date: 2020-05-29 15:53\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -72,28 +72,28 @@ msgstr "Λογαριασμός"
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr ""
+msgstr "Αναγνωριστικό λογαριασμού"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "Ενεργοποίηση λογαριασμού"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Η ενεργοποίηση ακυρώθηκε"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα. Παρακαλώ προσπαθήστε αργότερα."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -104,63 +104,63 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα. Δοκιμάστε αργότερα."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα, επαληθεύστε το αναγνωριστικό σας και δοκιμάστε ξανά."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Αυτόματη ανανέωση"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Αυτόματη ανανέωση κατά τη λήξη:"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Λογαριασμός Blokada"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Το Blokada VPN χρησιμοποιεί {link}. Μπορείτε να κατεβάσετε διαμορφώσεις κατά τη δημιουργία νέων συσκευών."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Ακύρωση συνδρομής"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Ακύρωση {spinner}"
 
 #. [account.gpay_change] - Button for changing from Google Pay to manual card input
 #. defaultMessage is:
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Αλλαγή"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -179,49 +179,49 @@ msgstr ""
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
-msgstr ""
+msgstr "Να συνεχίσει"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Συνεχίστε με την εφαρμογή Blokada"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Δημιουργήστε και διαμορφώστε συσκευές που μπορούν να συνδεθούν."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Ημέρες έως τη λήξη: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
