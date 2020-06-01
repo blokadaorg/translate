@@ -23,6 +23,10 @@
     <string name="panel_domain_forwarded_desc">Acest domeniu a fost permis. Pentru a-l bloca, utilizaţi butonul de mai jos.</string>
     <string name="panel_domain_forwarded_toast">Adăugat la Lista de excluderi.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">Blocat &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_normal_desc">Acest domeniu a fost blocat. Pentru a-i acorda permisiune în viitor, folosiți butonul de mai jos.</string>
+    <string name="panel_domain_blocked_answer_desc">Acest domeniu nu a fost rezolvat corect de serverul DNS. Fie serverul a blocat domeniul, fie acesta nu există.</string>
+    <string name="panel_domain_blocked_toast">Adăugat în lista de includeri.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Copiază</string>
     <string name="panel_domain_copied">Copiat în clipboard</string>
@@ -43,12 +47,14 @@
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new_header">Cum se utilizează noua interfață?</string>
     <string name="slot_new_filter_list">Adăugați o noua lista de host-uri</string>
+    <string name="slot_new_filter_whitelist">Adăugați un nou host in lista de excluderi</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_continue">Continuă</string>
     <string name="slot_enter_domain_title">Domenii</string>
     <string name="slot_enter_domain_file">Fișier</string>
+    <string name="slot_enter_domain_no_file">Nu s-au găsit fișiere în /Download/blokada/filtre</string>
     <string name="slot_enter_file_titel">Nume fișier</string>
     <string name="slot_enter_file_import">Importă</string>
     <string name="slot_enter_name_title">Denumire</string>
