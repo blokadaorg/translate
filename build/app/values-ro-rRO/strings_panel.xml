@@ -100,12 +100,16 @@
     <string name="slot_action_external">Memorie externă</string>
     <string name="slot_filters_title">Listă filtre</string>
     <string name="slot_blocked_normal_title">Domeniu blocat</string>
+    <string name="slot_whitelist_title">Aplicație in lista de excluderi</string>
+    <string name="slot_list_no_desc">Această intrare nu are nici o descriere.</string>
     <string name="slot_action_deactivate">Oprește</string>
     <string name="slot_action_activate">Porneşte</string>
     <string name="slot_update_action_refresh">Verificați din nou</string>
     <string name="slot_telegram_title">Alătură-te nouă pe Telegram!</string>
     <string name="slot_telegram_desc">Vizitați canalul nostru de Telegram pentru ajutor sau doar pentru a face parte din comunitatea noastră.</string>
     <string name="slot_telegram_action">Deschideți</string>
+    <string name="slot_adblocking_label">Blochează reclame &amp; trackere</string>
+    <string name="slot_adblocking_text">Când este activată, Blokada va bloca reclame, trackere și alte conținuturi nedorite. Acest lucru vă ajută să vă protejați confidențialitatea, să vă accelereze dispozitivul și să vă salvați datele.</string>
     <string name="slot_account_label_active">Cont activ până la %s</string>
     <string name="slot_account_label_inactive">Cont inactiv</string>
     <!-- Action to manage active subscription. Keep it short -->
@@ -117,6 +121,7 @@
     <string name="slot_account_action_unavailable">[nu este setat]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Conectare la %s</string>
+    <string name="slot_gateway_section_partner">Portalurile partenerilor vă oferă locații suplimentare. Acestea nu sunt pe deplin gestionate de Blokada, dar nu au acces la traficul dvs. criptat.</string>
     <string name="slot_gateway_overloaded">Acest gateway este ocupat şi nu acceptă conexiuni noi.</string>
     <string name="slot_gateway_learn_more">Află mai multe despre gateway-uri</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
