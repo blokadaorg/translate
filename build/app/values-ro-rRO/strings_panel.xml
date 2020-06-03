@@ -93,6 +93,7 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">O intrare pentru %s</string>
     <string name="slot_dns_control_title">Listă servere DNS</string>
+    <string name="slot_dns_control_description">Puteți sincroniza lista de servere DNS cu serverele noastre fără a vă pierde intrările personalizate. &lt;br/&gt;&lt;br/&gt;Alternativ, puteți să renunți la toate intrările (inclusiv ale dvs.) și să le descărcați din nou.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Sincronizează</string>
     <string name="slot_action_refresh_toast">Sincronizare începută</string>
@@ -140,12 +141,14 @@
     <!-- Gateway load -->
     <!-- Gateway load -->
     <string name="subscription_success">Contul dvs. este in curs de activare. Acest lucru poate dura câteva secunde. Vă mulțumim!</string>
+    <string name="slot_start_on_boot_description">Activarea la pornire permite aplicației Blokada să fie activă în orice moment și să vă protejeze dispozitivul. Vă rugăm să reţineţi că sistemul are întotdeauna o prioritate mai mare şi poate suprascrie această opţiune, prin urmare, dacă Blokada nu pornește, aruncați o privire în setările sistemului dvs.</string>
     <string name="slot_recommended_dns_label">Folosește serverele DNS recomandate</string>
     <string name="slot_update_no_updates">Blokada este actualizată la zi</string>
     <string name="slot_about">Despre Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Raport</string>
     <string name="slot_help_label">Aveţi nevoie de ajutor?</string>
+    <string name="slot_help_desc">Atingeți butonul de mai jos pentru a deschide pagina noastră de ajutor. Poți folosi, de asemenea, rețelele noastre sociale pentru a obține ajutor - suntem pe Telegram, Facebook, Reddit și Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Ajutor</string>
     <string name="slot_donate_label">Vă place Blokada? Luați în considerare a ne sprijini, ca să putem continua să îmbunătățim aplicația.</string>
@@ -153,6 +156,7 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">Donează</string>
     <string name="slot_cta_label">Psst! Am dori să vă cunoaştem opinia.</string>
+    <string name="slot_cta_desc">Arătați-vă sprijinul prin a participa la chestionare și alte evenimente. Ne adresăm în mod regulat comunității noastre pentru informații despre idei și noi dezvoltări, pentru a ne asigura că lucrăm la ceea ce doriţi să vedeţi.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Deschideți</string>
     <string name="slot_blog_label">Vizitați Blog-ul nostru de dezvoltare!</string>
@@ -185,5 +189,6 @@
     <string name="slot_reset_counter_label">Resetează contorul de blocare al host-urilor</string>
     <string name="slot_reset_counter_description">Setează contorul care arată câte cereri sunt blocate înapoi la 0.</string>
     <string name="slot_reset_counter_action">Resetare</string>
+    <string name="label_workarounds">Rezolvări specifice dispozitivului</string>
     <string name="slot_dns_answer_label">Răspuns DNS alternativ</string>
 </resources>
