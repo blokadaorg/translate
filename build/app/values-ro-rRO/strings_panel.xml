@@ -57,9 +57,11 @@
     <!-- A state of input form when correct input is entered  -->
     <string name="slot_set">setează</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">incorect</string>
     <string name="slot_continue">Continuă</string>
     <string name="slot_enter_domain_title">Domenii</string>
     <string name="slot_enter_domain_desc">Introduceți domenile separate prin virgulă. Puteți adăuga și un link către orice listă de host-uri, sau să importați un fișier local pentru lista de host-uri.</string>
+    <string name="slot_enter_domain_error">Acest lucru nu mi se pare a fi nimic.</string>
     <string name="slot_enter_domain_file">Fișier</string>
     <string name="slot_enter_domain_no_file">Nu s-au găsit fișiere în /Download/blokada/filtre</string>
     <string name="slot_enter_file_titel">Nume fișier</string>
@@ -69,6 +71,7 @@
     <string name="slot_enter_file_multi">Mai multe fișiere se potrivesc cu intrarea dvs.</string>
     <string name="slot_enter_name_title">Denumire</string>
     <string name="slot_enter_name_desc">Introduceți un nume pentru noua intrare. De asemenea, puteți genera un nume sugerat.</string>
+    <string name="slot_enter_name_error">Acest lucru nu mi se pare a fi nimic.</string>
     <string name="slot_enter_name_generate">Generează</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; este permis</string>
     <string name="slot_app_desc">Această aplicație se află pe lista de excluderi, ceea ce înseamnă că nu este efectuată nicio blocare sau filtrare pe ea.</string>
@@ -151,6 +154,7 @@
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Deschideți</string>
     <string name="slot_blog_label">Vizitați Blog-ul nostru de dezvoltare!</string>
+    <string name="slot_blog_desc">Blogul este locul unde scriem despre dezvoltarea proiectului, despre planurile de viitor şi discutăm idei.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Deschideți</string>
     <string name="slot_updated_desc">Atingeţi aici pentru o introducere ale aceastei versiuni.</string>
