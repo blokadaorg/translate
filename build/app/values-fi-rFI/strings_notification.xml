@@ -14,8 +14,13 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Pidä päällä</string>
+    <string name="notification_keepalive_description">Aktivoi tämä kytkin, jos sinulla on ongelmia sovelluksen pysymisessä aktiivisena taustalla. Blokada aktivoi pysyvän ilmoituksen estääkseen järjestelmää lopettamasta sitä; voit piilottaa sen valitsemalla Ilmoitukset ylhäältä ja sieltä Asetukset.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
+    <string name="notification_keepalive_title_new">Pidä Päällä (piilota napauttamalla)</string>
+    <string name="notification_keepalive_text_new">Android vaatii ilmoituksen näyttämisen sovelluksen toiminnan jatkamiseksi, mutta voit poistaa sen käytöstä järjestelmäasetuksista.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
+    <string name="notification_keepalive_title">%d estetty</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
+    <string name="notification_keepalive_content">Viimeisin: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
 </resources>
