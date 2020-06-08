@@ -46,10 +46,23 @@
     <string name="tasker_switch_label">Napauta yhtä vaihtoehdoista määrittääksesi sen päälle (tai pois päältä) sinun laukaisijallesi.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Mainokset</string>
+    <string name="menu_ads_live_label">Sallittujen ja estettyjen pyyntöjen isäntäloki</string>
+    <string name="menu_ads_clear_log">Tyhjennä isäntaloki</string>
+    <string name="menu_ads_lists_label">Valitse estoja varten käytettävät listat. Oletusarvot sopivat useimmille ihmisille.</string>
+    <string name="menu_ads_rules_label">Lisää omia sääntöjäsi hienosäätääksesi estämistä.</string>
+    <string name="menu_ads_log_label">Katso, mitä viime aikoina on estetty tai sallittu.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Tunneli</string>
+    <string name="menu_vpn_activate_account">Ole hyvä ja aktivoi ensin tilisi.</string>
+    <string name="menu_vpn_select_gateway">Ole hyvä ja valitse yhdyskäytävä.</string>
+    <string name="menu_vpn_intro_button">Miksi tarvitsen Blokada Tunnelin?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Oma Blokada Tunneli</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Yhdyskäytävät</string>
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Laitteet</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
