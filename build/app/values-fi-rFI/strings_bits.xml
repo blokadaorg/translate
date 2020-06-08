@@ -4,12 +4,12 @@
     <string name="home_touch">Napauta tai pidä pohjassa muokataksesi</string>
     <string name="home_blokada_disabled">Blokada on keskeytetty</string>
     <string name="home_blokada_active">Blokada on aktiivinen</string>
-    <string name="home_blokada_active_protected">Blokada Tunnel on aktiivinen ja Internet-yhteytesi on suojattu</string>
+    <string name="home_blokada_active_protected">Blokada Tunneli on aktiivinen ja Internet-yhteytesi on suojattu</string>
     <string name="home_blokada_inactive">Blokada on pois päältä</string>
     <string name="home_activating">Aktivoidaan</string>
     <string name="home_please_wait">Ole hyvä ja odota...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Tunnel on aktiivinen ilman mainosten estämistä</string>
+    <string name="home_vpn_only">Blokada Tunneli on aktiivinen ilman mainosten estämistä</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada on aktiivinen DNS-tilassa</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -20,11 +20,23 @@
     <string name="home_share">Kerro ystävillesi</string>
     <string name="home_share_state">Jaa Blokada tuloksesi</string>
     <string name="home_share_state_google">Auta muita oppimaan Blokadasta</string>
-    <string name="home_share_msg_google">Kokeile Blokada Slimiä ja pidä sinun yksityisyys suojattuna! Hanki se Google Playsta.</string>
+    <string name="home_share_msg_google">Kokeile Blokada Slim-sovellusta ja pidä sinun yksityisyys suojattuna! Hanki se Google Playsta.</string>
     <string name="home_adblocking_enabled">Mainosten esto on aktiivinen</string>
+    <string name="home_adblocking_disabled">Mainosten esto on poissa käytöstä</string>
+    <string name="home_blokadaorg">Käytät Blokada Slim-sovellusta</string>
+    <string name="home_blokadaorg_state">Napauta saadaksesi avoimen lähdekoodin version</string>
     <!-- A short text for the item that displays update information -->
+    <string name="home_whats_new">Mitä uutta?</string>
+    <string name="home_update_required">Päivitys vaaditaan</string>
     <!-- A short text for the item that displays donate link -->
+    <string name="home_donate">Lahjoita</string>
+    <string name="home_vpn_enabled">Blokada Tunneli on aktiivinen</string>
+    <string name="home_vpn_disabled">Blokada Tunneli on poissa käytöstä</string>
+    <string name="home_account_active">Tilisi on edelleen aktiivinen</string>
+    <string name="home_connecting_vpn">Yhdistetään Blokada Tunneliin</string>
+    <string name="home_cleanup">Siivousta suositellaan</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Yhdistetty Blokada Tunneliin</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <!-- VPN section header in menu (for configuring VPN) -->
     <!-- A button opening VPN account settings -->
