@@ -34,14 +34,24 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Suodattimilla on nyt %s sääntöä.</string>
     <string name="panel_ruleset_updating">Päivitetään suodattimia...</string>
+    <string name="panel_ruleset_canfit">Suodattimet on nyt määritetty seuraavilla &lt;b&gt;%s&lt;/b&gt; säännöillä. Laitteesi sallii enimmillään &lt;b&gt;%s&lt;/b&gt; Mt muistia jokaiselle sovellukselle ja jopa &lt;b&gt;%s&lt;/b&gt; sääntöä mahtuu siihen.&lt;br&gt;Muista, että tämä on vain arvio ja Blokada käyttää eniten muistia yhdistäessään listat. Jos otit käyttöön muutaman niistä äskettäin, odota muutama minuutti, kunnes järjestelmä vapauttaa muistia.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Salli</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Estä</string>
+    <string name="slot_action_close">Sulje</string>
+    <string name="slot_action_remove">Poista</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">Kyllä</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">Ei</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_intro_new">Kuinka käyttää uutta käyttöliittymää? Napauta tätä saadaksesi esittely.</string>
+    <string name="slot_intro_new_header">Kuinka käyttää uutta käyttöliittymää?</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">asetettu</string>
     <!-- A state of input form when incorrect input is entered  -->
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
