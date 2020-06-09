@@ -181,8 +181,23 @@
     <string name="slot_lease_cant_connect">Blokadan Tunneliin ei saatu yhteyttä. Yritä valita toinen yhdyskäytävä.</string>
     <string name="slot_account_cant_create">Blokada Tunnel -tiliäsi ei voitu luoda. Yritä myöhemmin uudelleen tai ota meihin yhteyttä Telegrammissa.</string>
     <string name="slot_account_name_title">Käyttäjätunnus</string>
+    <string name="slot_account_name_desc">Anna vanha käyttäjätunnuksesi palauttaaksesi aiemman tilauksesi. Sinun kannattaa ehkä kirjoittaa nykyinen käyttäjätunnuksesi ylös ennen kuin teet sen virheen sattumisen varalta.</string>
+    <string name="slot_account_name_error">Käyttäjätunnus voi sisältää vain kirjaimia ja numeroita.</string>
+    <string name="slot_account_name_api_error">Tämä käyttäjätunnus ei vaikuta olevan oikea.</string>
+    <string name="slot_account_name_restore">Palauta</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Ensisijaiset asetukset</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Lisäasetukset</string>
+    <string name="slot_whitelist_updating">Päivitetään asetuksia, ole hyvä ja odota...</string>
+    <string name="slot_too_many_leases">Ole hyvä ja poista vanha laite laiteluettelostasi.</string>
+    <string name="slot_background_animation">Taustaanimaatio</string>
+    <string name="slot_background_animation_description">Päällä ollessaan, aallot liikkuvat joka kerta, kun DNS-pyyntö estetään tai sallitaan. Ota pois käytöstä, jos koet hidastumisia.</string>
+    <string name="slot_reset_counter_label">Nollaa estetyt-isännät-laskuri</string>
+    <string name="slot_reset_counter_description">Asettaa laskurin, joka näyttää kuinka monta pyyntöä on estetty takaisin arvoon 0.</string>
+    <string name="slot_reset_counter_action">Nollaa</string>
+    <string name="label_workarounds">Laitekohtaiset kiertotavat</string>
+    <string name="slot_dns_answer_label">Vaihtoehtoinen DNS-vastaus</string>
 </resources>
