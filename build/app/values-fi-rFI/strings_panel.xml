@@ -49,10 +49,23 @@
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">Kuinka käyttää uutta käyttöliittymää? Napauta tätä saadaksesi esittely.</string>
     <string name="slot_intro_new_header">Kuinka käyttää uutta käyttöliittymää?</string>
+    <string name="slot_intro_info">Psst... Joissakin kohteissa on kysymysmerkki-kuvake. Napauttamalla sitä näytetään lyhyt ohjeviesti, kuten tämä!</string>
+    <string name="slot_new_filter">Lisää uusi isäntä estetyt-listaan</string>
+    <string name="slot_new_filter_list">Lisää uusi isäntälista</string>
+    <string name="slot_new_filter_whitelist">Lisää uusi isäntä sallitut-listaan</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">ei asetettu</string>
     <!-- A state of input form when correct input is entered  -->
     <string name="slot_set">asetettu</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">virheellinen</string>
+    <string name="slot_continue">Jatka</string>
+    <string name="slot_enter_domain_title">Verkkotunnus(kset)</string>
+    <string name="slot_enter_domain_desc">Kirjoita verkkotunnukset pilkulla erotettuna. Voit myös liittää linkin mihin tahansa isäntälistaan tai tuoda paikallisen isäntälistatiedoston.</string>
+    <string name="slot_enter_domain_error">Tämä ei näytä minusta miltään.</string>
+    <string name="slot_enter_domain_file">Tiedosto</string>
+    <string name="slot_enter_domain_no_file">Tiedostoja ei löytynyt hakemistosta /Download/blokada/filters</string>
+    <string name="slot_enter_file_titel">Tiedostonimi</string>
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
