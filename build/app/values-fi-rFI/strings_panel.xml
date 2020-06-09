@@ -133,9 +133,21 @@
     <string name="slot_account_action_unavailable">[ei asetettu]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Yhdistä kohteeseen %s</string>
+    <string name="slot_gateway_section_partner">Kumppanin yhdyskäytävät tarjoavat lisäsijainteja. Blokada ei hallitse niitä kokonaan, mutta niillä ole pääsyä salattuun liikenteesi.</string>
+    <string name="slot_gateway_section_overloaded">Nämä yhdyskäytävät ovat ylikuormitetut ja ovat väliaikaisesti poissa käytöstä.</string>
+    <string name="slot_gateway_description">Suorituskyky: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP-osoite: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Alue: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">Tämä yhdyskäytävä on varattu eikä hyväksy uusia yhteyksiä.</string>
+    <string name="slot_gateway_learn_more">Lisätietoja yhdyskäytävistä</string>
+    <string name="slot_gateway_info_partner">Mitä ovat kumppaneiden yhdyskäytävät?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Hallitse, mitkä laitteesi yhdistävät Blokadan Tunneliin.</string>
+    <string name="slot_lease_name_current">%s (tämä laite)</string>
+    <string name="slot_lease_description">Laitetunnus: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">korkea</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">matala</string>
+    <string name="subscription_success">Tiliäsi aktivoidaan. Tämä voi viedä muutaman sekunnin. Kiitos!</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <!-- A button to donate -->
