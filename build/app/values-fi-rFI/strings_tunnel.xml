@@ -3,4 +3,20 @@
     <!-- How many hosts is configured to be blocked (the blacklist). Parameter: number of hosts. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being processed. -->
     <!-- Shown on the Home screen instead of the Hosts count whenever hosts are being downloaded. -->
+    <string name="tunnel_config_refetch_now_title">Lataa listat</string>
+    <string name="tunnel_config_refetch_now">Lataa listat nyt</string>
+    <string name="tunnel_config_refetch_toast">Listojen lataaminen alkoi</string>
+    <string name="tunnel_config_refetch_now_description">Poista välimuisti ja lataa listat uudelleen alla olevan painikkeen avulla. Tästä voi olla apua, jos suodatuksessa ilmenee ongelmia.</string>
+    <string name="tunnel_config_refetch_frequency_title">Listojen lataustiheys</string>
+    <string name="tunnel_config_refetch_frequency_description">Valitse yksi vaihtoehdoista määrittääksesi, kuinka usein sovelluksen tulisi ladata listasi.</string>
+    <string name="tunnel_config_refetch_frequency_1">Kerran päivässä</string>
+    <string name="tunnel_config_refetch_frequency_2">Kahdesti viikossa</string>
+    <string name="tunnel_config_refetch_frequency_3">Kerran viikossa</string>
+    <string name="tunnel_config_refetch_frequency_4">Kerran kuukaudessa</string>
+    <string name="tunnel_config_refetch_frequency_5">Ei koskaan</string>
+    <string name="tunnel_config_wifi_only_title">Lataa vain WiFi:llä</string>
+    <string name="tunnel_config_wifi_only_description">Aktivoi tämä kytkin, jos haluat sovelluksen lataavan listoja vain, kun laitteesi on yhteydessä WiFi-verkkoon. Muutoin sovellus saattaa ladata listoja myös, kun laite on yhteydessä matkapuhelinverkkoon ja käyttää datapakettiasi.</string>
+    <string name="tunnel_config_watchdog_title">Päivystysvahti</string>
+    <string name="tunnel_config_watchdog_description">Aktivoi tämä kytkin, jos haluat sovelluksen aktivoivan VPN:n vain, jos Internet-yhteys on käytettävissä, ja käynnistävän tunnelin uudelleen, jos yhteysongelmia ilmenee. Tästä voi olla apua joillekin laitteille.</string>
+    <string name="tunnel_config_powersave_title">Aggressiivinen herätys</string>
 </resources>
