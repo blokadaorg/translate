@@ -94,7 +94,19 @@
     <string name="slot_input_suggestion">Merkintä</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">Merkintä osoitteelle %s</string>
+    <string name="slot_dns_control_title">DNS-palvelinluettelo</string>
+    <string name="slot_dns_control_description">Voit synkronoida DNS-palvelinluettelon palvelimiemme kanssa menettämättä mukautettuja merkintöjä. &lt;br/&gt;&lt;br/&gt;Vaihtoehtoisesti voit poistaa kaikki merkinnät (mukaan lukien omasi) ja ladata ne uudelleen.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Synkronoi</string>
+    <string name="slot_action_refresh_toast">Synkronointi aloitettu</string>
+    <string name="slot_action_restore">Poista</string>
+    <string name="slot_export_title">Asetusten sijainti</string>
+    <string name="slot_export_description">Voit muuttaa, mihin asetukset tallennetaan (ja mistä ladataan). Jos tuot nykyisiä asetuksia, valitse Tuo ensin, muuten niiden päälle kirjoitetaan.</string>
+    <string name="slot_action_import">Tuo</string>
+    <string name="slot_action_internal">Sisäinen tallennustila</string>
+    <string name="slot_action_external">Ulkoinen tallennustila</string>
+    <string name="slot_filters_title">Suodatinluettelo</string>
+    <string name="slot_filters_description">Voit synkronoida suodatinluettelon palvelimiemme kanssa menettämättä mukautettuja merkintöjä. &lt;br/&gt;&lt;br/&gt;Vaihtoehtoisesti voit poistaa kaikki merkinnät (mukaan lukien omasi) ja ladata ne uudelleen.</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
