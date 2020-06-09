@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-06-09 23:22\n"
+"PO-Revision-Date: 2020-06-09 23:32\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -86,14 +86,14 @@ msgstr "Aktivoi käyttäjätili"
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "Aktivointi peruutettu"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "Tapahtui virhe. Yritä myöhemmin uudelleen."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -104,63 +104,63 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "Tapahtui virhe. Yritä myöhemmin."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "Tapahtui virhe, tarkista käyttäjätunnus ja yritä uudelleen."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Uusi automaattisesti"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Automaattinen uusiminen vanhentuessa: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr ""
+msgstr "Blokada-käyttäjätili"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN käyttää {link}. Määrityksiä voi ladata luotaessa uusia laitteita."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr ""
+msgstr "Peruuta tilaus"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
 #. Canceling {spinner}
 #: build/messages/src/Manage.json
 msgid "Canceling {spinner}"
-msgstr ""
+msgstr "Peruutetaan {spinner}"
 
 #. [account.gpay_change] - Button for changing from Google Pay to manual card input
 #. defaultMessage is:
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "Vaihda"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -179,84 +179,84 @@ msgstr ""
 #: build/messages/src/Signup.json
 #: build/messages/src/Signup.json
 msgid "Continue"
-msgstr ""
+msgstr "Jatka"
 
 #. [callback.continue] - Shown when opening Blokada app callbacks
 #. defaultMessage is:
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr ""
+msgstr "Jatka Blokada-sovelluksella"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
 #. Create and configure devices that can connect.
 #: build/messages/src/Manage.json
 msgid "Create and configure devices that can connect."
-msgstr ""
+msgstr "Luo ja määritä laitteet, jotka voivat muodostaa yhteyden."
 
 #. [account.subscription_status_disabled] - Automatically paying when account expired is disabled
 #. defaultMessage is:
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr ""
+msgstr "POISSA KÄYTÖSTÄ"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "OTETAAN POIS KÄYTÖSTÄ"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
 #. DNS
 #: build/messages/src/Manage.json
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #. [account.days_until_expiry] - how many days that are left until the account is expired
 #. defaultMessage is:
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Päiviä voimassaolon päättymiseen asti: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Poista"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Laitteet {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Lataa"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "Sähköposti"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr ""
+msgstr "VANHENTUNUT"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
