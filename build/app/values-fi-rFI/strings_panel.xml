@@ -76,8 +76,24 @@
     <string name="slot_enter_name_error">Tämä ei näytä minusta miltään.</string>
     <string name="slot_enter_name_generate">Luo</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; on sallittujen listoissa</string>
+    <string name="slot_app_desc">Tämä sovellus on sallittujen listoissa, mikä tarkoittaa, että sitä ei suodateta tai estetä.</string>
+    <string name="slot_allapp_desc">Voit asettaa tämän sovelluksen ohittamaan Blokadan, jotta sen liikennettä ei estetä. Muista, että ohitetut sovellukset kommunikoivat VPN:n ulkopuolella.</string>
+    <string name="slot_allapp_whitelisted">Ohitettu</string>
+    <string name="slot_allapp_normal">Ei ohitettu</string>
+    <string name="slot_allapp_whitelist">Ohita</string>
+    <string name="slot_action_set">Aseta</string>
+    <string name="slot_whitelist_all">Ohita kaikki sovellukset</string>
+    <string name="slot_blacklist_all">Älä ohita mitään sovellusta</string>
+    <string name="slot_dns_name">DNS on päällä</string>
+    <string name="slot_dns_name_private">Mukautettu DNS on päällä</string>
+    <string name="slot_dns_name_disabled">DNS on pois päältä</string>
+    <string name="slot_action_none">Tämä toiminto ei ole vielä käytettävissä.</string>
+    <string name="slot_action_unwhitelist">Peruuta</string>
+    <string name="slot_action_author">Tietoa</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Merkintä</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Merkintä osoitteelle %s</string>
     <!-- A button to synchronize (fetch) lists  -->
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
