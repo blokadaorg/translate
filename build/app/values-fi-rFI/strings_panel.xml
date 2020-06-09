@@ -151,9 +151,20 @@
     <string name="subscription_success">Tiliäsi aktivoidaan. Tämä voi viedä muutaman sekunnin. Kiitos!</string>
     <string name="slot_start_on_boot_description">\"Aloita käynnistettäessä\" salliminen mahdollistaa Blokadan olevan aktiivinen koko ajan ja suojaamaan laitteesi. Huomaa, että järjestelmällä on aina korkeampi prioriteetti ja se voi korvata tämän vaihtoehdon, joten jos Blokada ei käynnisty, vilkaise järjestelmäsi asetuksia.</string>
     <string name="slot_recommended_dns_label">Käytä suositeltuja DNS-palvelimia</string>
+    <string name="slot_recommended_dns_description">Kun toiminto on käytössä, Blokada valitsee automaattisesti suositellut DNS-palvelimet nopeuttaaksesi Internetiäsi ja suojatakseen yksityisyyttäsi. Muussa tapauksessa käytetään verkkosi oletus DNS-palvelimia. Jos valitset DNS-palvelimet manuaalisesti Lisäasetukset-osiosta, tätä asetusta ei huomioida.</string>
+    <string name="slot_update_no_updates">Blokada on ajan tasalla</string>
+    <string name="slot_about">Tietoa Blokadasta</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Kirjaa</string>
+    <string name="slot_help_label">Tarvitsetko apua?</string>
+    <string name="slot_help_desc">Napauta alla olevaa painiketta avataksesi ohjesivumme. Voit käyttää myös sosiaalista mediaamme saadaksesi apua - olemme Telegramissa, Facebookissa, Redditissä ja Twitterissä.</string>
     <!-- A button to open help -->
+    <string name="slot_help_action">Ohje</string>
+    <string name="slot_donate_label">Nautitko Blokadasta? Harkitse tukemistamme, jotta voimme jatkaa sovelluksen parantamista.</string>
+    <string name="slot_donate_desc">Auta meitä ottamaan käyttöön uusia ominaisuuksia! Kosketa tätä saadaksesi lisää tietoa.</string>
     <!-- A button to donate -->
+    <string name="slot_donate_action">Lahjoita</string>
+    <string name="slot_cta_label">Psst! Haluaisimme kuulla mielipiteesi.</string>
     <!-- A button to open something (a website) -->
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
