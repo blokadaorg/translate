@@ -120,8 +120,19 @@
     <string name="slot_telegram_desc">Vieraile Telegram-kanavallamme saadaksesi apua tai vain ollaksesi osa yhteisöämme.</string>
     <string name="slot_telegram_action">Avaa</string>
     <string name="slot_dropped_share_title">Jaa</string>
+    <string name="slot_adblocking_label">Estä mainokset &amp; seurantapalvelimet</string>
+    <string name="slot_adblocking_text">Kun tämä on käytössä, Blokada estää mainoksia, seurantapalvelimia ja muuta ei-toivottua sisältöä. Tämä auttaa suojaamaan yksityisyyttäsi, nopeuttamaan laitettasi ja säästämään dataasi.</string>
+    <string name="slot_account_label_active">Tili aktiivinen, kunnes %s</string>
+    <string name="slot_account_label_inactive">Tili ei ole aktiivinen</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Hallitse tilausta</string>
+    <string name="slot_account_action_manage_inactive">Aktivoi tili</string>
+    <string name="slot_account_action_change_id">Palauta tili</string>
+    <string name="slot_account_show">Käyttäjätunnus</string>
+    <string name="slot_account_action_copied">Käyttäjätunnus kopioitiin leikepöydälle</string>
+    <string name="slot_account_action_unavailable">[ei asetettu]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Yhdistä kohteeseen %s</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
