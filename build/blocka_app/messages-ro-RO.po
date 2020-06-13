@@ -7,12 +7,14 @@ msgstr ""
 "X-Generator: react-intl-po\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
 "X-Crowdin-Project: blokada\n"
+"X-Crowdin-Project-ID: 303156\n"
 "X-Crowdin-Language: ro\n"
 "X-Crowdin-File: /master/blocka_app/messages.pot\n"
+"X-Crowdin-File-ID: 46\n"
 "Project-Id-Version: blokada\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2020-06-12 00:11\n"
+"PO-Revision-Date: 2020-06-13 13:52\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -118,14 +120,14 @@ msgstr "A apărut o eroare, vă rugăm să vă verificați ID-ul și să încerc
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "Auto reînnoire"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr ""
+msgstr "Reînnoire automată la expirare: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
@@ -139,7 +141,7 @@ msgstr "Cont Blokada"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr ""
+msgstr "Blokada VPN folosește {link}. Configurațiile pot fi descărcate când se creează dispozitive noi."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -404,7 +406,7 @@ msgstr "Plata prin PayPal este disponibilă în Blokada v{version} și mai sus"
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Plata prin Stellar Lumens este disponibilă în Blokada v{version} și mai nou"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
@@ -467,7 +469,7 @@ msgstr "Vă rugăm să verificați ID-ul contului dvs. de pe ecranul anterior."
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Continuați spre portofel"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -544,14 +546,14 @@ msgstr "Mulţumim!"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "ID-ul contului nu s-a potrivit, verificați dacă l-ați stocat corect pe ecranul anterior și încercați din nou."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Această pagină nu a putut fi afișată. Dacă întâmpinați probleme, vă rugăm să ne contactați la {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
@@ -565,7 +567,7 @@ msgstr "Se așteaptă ca PayPal să confirme plata..."
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Se așteaptă confirmarea plății..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
