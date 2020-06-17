@@ -93,15 +93,23 @@
 "activity action copy to clipboard" = "Скопировать имя в буфер обмена";
 "activity domain name" = "Полное имя";
 "activity time of occurrence" = "Время";
+"activity number of occurrences" = "Количество";
+"activity state modified" = "изменено";
 "activity state blocked" = "заблокировано";
+"activity state allowed" = "разрешено";
 "activity happened one time" = "1 раз";
+"activity happened many times" = "%@ раз";
 "activity category recent" = "Недавние";
+"activity category top" = "Рейтинг";
+"activity category top blocked" = "Топ заблокированных";
+"activity category top allowed" = "Топ разрешенных";
 "activity filter header" = "Какие записи вы хотели бы видеть?";
 "activity filter show all" = "Показать все записи";
 "activity filter show blocked" = "Показать только заблокированные";
 "activity filter show allowed" = "Показать только разрешенные";
 
 "account section header settings" = "Настройки";
+"account status text" = "Ваш аккаунт BLOKADA %@ активен до %@.";
 "account section header other" = "Другое";
 "account action my account" = "Мой аккаунт";
 "account action encryption" = "Шифрование";
@@ -111,8 +119,19 @@
 "account action about" = "О приложении";
 
 "account section header my subscription" = "Моя подписка";
+"account section header subscription" = "Подписка";
 "account label id" = "ID аккаунта";
+"account label type" = "Тип аккаунта";
+"account label active until" = "Активна до";
 "account action manage subscription" = "Управление подпиской";
+"account action why upgrade" = "Зачем мне платная подписка?";
+
+"account unlock to show" = "Разблокируйте, чтобы показать ID аккаунта";
+
+"account header logout" = "Выйти";
+"account logout description" = "Пожалуйста, введите другой ID аккаунта или вернитесь, чтобы продолжить использовать существующий (это приложение не может быть использовано без ID).";
+"account id status unchanged" = "(без изменений)";
+"account action how to restore" = "Как мне восстановить мой старый аккаунт?";
 
 "account encrypt level low" = "Низкий";
 "account encrypt level medium" = "Средний";
@@ -120,8 +139,15 @@
 "account encrypt label dns only" = "Шифрование DNS";
 "account encrypt label everything" = "Шифрование всего";
 "account encrypt action turn on" = "Включить BLOKADA";
+"account encrypt header level" = "Уровень шифрования";
+"account encrypt label level" = "Уровень";
+"account encrypt label level low" = "Низкий: без шифрования";
+"account encrypt label level medium" = "Средний: шифрование DNS";
+"account encrypt label level high" = "Высокий: шифрование всего";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Что такое DNS?";
 "account lease label devices" = "Устройства";
+"account lease label this device" = " (это устройство)";
 "payment alert error header" = "Сообщение из App Store";
 
 "payment subscription 1 month" = "1 месяц";
