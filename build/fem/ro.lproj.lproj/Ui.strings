@@ -17,6 +17,9 @@
 "error vpn too many leases" = "Ați atins limita maximă de dispozitive. Vă rugăm să eliminați unul dintre dispozitivele dvs. și să încercați din nou.";
 "error vpn expired" = "VPN-ul este dezactivat. Vă rugăm să vă actualizezi abonamentul pentru a continua să folosiți BLOKADA+";
 "error payment inactive after restore" = "Plata dvs. anterioară a fost restituită, dar abonamentul a expirat deja. Dacă credeți că este o greșeală, vă rugăm să ne contactați atingând pictograma de ajutor din partea de sus.";
+"error pack install" = "Nu s-a putut instala (sau dezinstala) această caracteristică. Vă rugăm să încercaţi din nou mai târziu.";
+"error location failed fetching" = "Nu s-au putut prelua locațiile.";
+"error unknown" = "A apărut o problemă necunoscută. Vă rugăm să încercați din nou. Dacă problema persistă, vă rugăm să ne contactezi apăsând pe pictograma de ajutor din partea de sus.";
 
 "universal action continue" = "Continuă";
 "universal action cancel" = "Revocare";
@@ -65,9 +68,11 @@
 "home power action turn off" = "Oprește";
 "home power action pause" = "Pauză pentru 5 minute";
 
-"home status paused" = "IN PAUZĂ";
+"home status paused" = "ÎN PAUZĂ";
 "home status active" = "ACTIV";
 "home status deactivated" = "DEZACTIVAT";
+"home action tap to activate" = "atinge pentru a activa";
+"home status detail paused" = "în pauză până se termină cronometrul";
 "home status detail progress" = "vă rugăm așteptați...";
 "home plus button select location" = "Selectați locația";
 "home plus button location" = "Locație: *%@*";
@@ -75,6 +80,7 @@
 "pack section header" = "Caracteristici Avansate";
 "pack action install" = "OBȚINE";
 "pack action update" = "ACTUALIZARE";
+"pack action uninstall" = "ȘTERGE";
 "pack author" = "Autor";
 "pack configurations header" = "Configurații";
 "pack information header" = "Mai multe";
@@ -87,9 +93,29 @@
 "account section header other" = "Altele";
 "account action devices" = "Dispozitive";
 "account action about" = "Despre";
+"account section header subscription" = "Abonament";
 "account label id" = "ID Cont";
+"account label type" = "Tipul de cont";
+"account label active until" = "Activ până la";
 "account action manage subscription" = "Gestionare abonament";
+
+"account header logout" = "Iesire din cont";
+"account id status unchanged" = "(neschimbat)";
+"account action how to restore" = "Cum îmi pot recupera contul meu vechi?";
+
+"account encrypt level low" = "Scăzut";
+"account encrypt level medium" = "Mediu";
+"account encrypt level high" = "Ridicat";
+"account encrypt label dns only" = "Criptare DNS";
+"account encrypt label everything" = "Totul este criptat";
+"account encrypt action turn on" = "Porniți BLOKADA";
+"account encrypt header level" = "Nivel de criptare";
+"account encrypt label level" = "Nivel";
+"account encrypt label level low" = "Scăzut: Fără criptare";
+"account encrypt label level medium" = "Mediu: Criptare DNS";
+"account encrypt label level high" = "Ridicat: Se Criptează tot";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Ce este DNS?";
 "account lease label devices" = "Dispozitive";
 
 "payment subscription 1 month" = "1 Lună";
