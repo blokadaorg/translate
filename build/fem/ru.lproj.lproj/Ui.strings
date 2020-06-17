@@ -11,15 +11,29 @@
 "universal action continue" = "Продолжить";
 "universal action cancel" = "Отмена";
 "universal action close" = "Закрыть";
+"universal action try again" = "Попробуйте еще раз";
 "universal action learn more" = "Подробнее";
 "universal action help" = "Помощь";
+"universal action show log" = "Журналы";
 "universal action share log" = "Отправить журнал";
 "universal action copy" = "Копировать";
 "universal action save" = "Сохранить";
 "universal action contact us" = "Связаться с нами";
 "universal action support" = "Поддержка";
+"universal action upgrade" = "Обновите до BLOKADA+";
 
 "universal label help" = "Помощь";
+"universal status processing" = "Обработка... Пожалуйста, подождите.";
+
+"alert error header" = "Ой!";
+"alert vpn expired header" = "Срок действия BLOKADA+ истек";
+
+"account active forever" = "Навсегда";
+
+"main ask for permissions header" = "Еще один шаг";
+"main ask for permissions description" = "Blokada использует конфигурацию VPN для блокировки рекламы. Вас попросят разрешить это на следующем шаге.";
+
+"main rate us header" = "Оцените нас!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Домой";
@@ -27,13 +41,22 @@
 "main tab advanced" = "Дополнительно";
 // Make sure each tab name has a similar length
 "main tab settings" = "Настройки";
+"home power off menu header" = "Что бы вы хотели сделать?";
 "home power action turn on" = "Включить";
 "home power action turn off" = "Отключить";
+"home power action pause" = "Остановить на 5 минут";
+
+"home status paused" = "ПАУЗА";
 "home status active" = "АКТИВНА";
+"home status deactivated" = "ДЕАКТИВИРОВАНА";
+"home action tap to activate" = "нажмите для активации";
+"home status detail paused" = "приостановлена до окончания таймера";
 "home status detail progress" = "подождите пожалуйста...";
+
+"home plus button deactivated" = "BLOKADA+ деактивирована";
 "pack information header" = "Подробнее";
 "pack category active" = "Активно";
-"activity state blocked" = "реклама заблокирована";
+"activity state blocked" = "заблокировано";
 "activity happened one time" = "1 раз";
 "activity category recent" = "Недавние";
 "activity filter header" = "Какие записи вы хотели бы видеть?";
