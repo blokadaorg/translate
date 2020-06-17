@@ -10,3 +10,5 @@ files:
     translation: /build/blocka_app/%file_name%-%locale%.po
   - source: /web/*.html
     translation: /build/web/%locale_with_underscore%/%original_file_name%
+  - source: /fem/*.strings
+    translation: /build/fem/%two_letters_code%.lproj/%original_file_name%
