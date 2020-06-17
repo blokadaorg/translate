@@ -164,6 +164,8 @@
 "account encrypt level medium" = "Mittel";
 "account encrypt level high" = "Hoch";
 "account encrypt label dns only" = "Verschlüssel DNS";
+"account encrypt desc dns only" = "Domain-Name-System ist woher dein Gerät weiß wo es die Webseite findet, die du besuchen möchtest. Leider benutzt der Großteil im Internet unverschlüsselte DNS, weshalb deine Browserhistorie einem großem Risiko ausgesetzt ist, ausgespäht zu werden. Wenn dies aktiviert ist, zwingt Blokada dein Gerät dazu, sich nur mit verschlüsselten DNS-Servern (auch DNS über HTTPS genannt) zu verbinden.";
+"account encrypt label everything" = "Alles verschlüsseln";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Geräte";
 
