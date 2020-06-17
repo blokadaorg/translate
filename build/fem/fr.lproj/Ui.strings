@@ -8,7 +8,9 @@
 
 "error device offline" = "Votre appareil est hors ligne";
 "error account inactive" = "Votre compte est inactif. Veuillez activer votre compte pour continuer avec BLOKADA+.";
+"error account inactive after restore" = "Ce compte ne semble pas être valide ou actif. Si vous pensez qu'il s'agit d'une erreur, contactez-nous en cliquant sur l'icône d'aide en haut de l'écran.";
 "error creating account" = "Impossible de créer un nouveau compte. Veuillez réessayer plus tard.";
+"error fetching data" = "Cette action n'a pas pu être menée à bien. Assurez-vous d'être en ligne, et réessayez plus tard. Si le problème persiste, contactez-nous en cliquant sur l'icône d'aide en haut de l'écran.";
 "error tunnel" = "Impossible d'établir le VPN. Veuillez redémarrer votre appareil, ou retirer le profil VPN Blokada dans vos paramètres système, et réessayer.";
 "error vpn" = "Impossible d'établir le VPN. Veuillez redémarrer votre appareil, ou retirer le profil VPN Blokada dans vos paramètres système, et réessayer.";
 "error vpn perms" = "Aucune permission accordée pour créer un profil VPN.";
@@ -16,11 +18,41 @@
 "error vpn too many leases" = "Vous avez atteint votre limite d'appareils. Veuillez retirer l'un de vos appareils et réessayer.";
 "error vpn expired" = "Le VPN est désactivé. Veuillez mettre votre abonnement à jour pour continuer d'utiliser BLOKADA+";
 "error payment inactive after restore" = "Votre paiement précédent a été restauré, mais l'abonnement a déjà expiré. Si vous pensez que c'est une erreur, veuillez nous contacter en cliquant sur le bouton d'aide en haut de l'écran.";
+"error payment failed" = "Les paiements sont actuellement indisponibles. Assurez-vous d'être en ligne, et réessayez plus tard. Si le problème persiste, contactez-nous en cliquant sur l'icône d'aide en haut de l'écran.";
+"error payment not available" = "Les paiements sont indisponibles sur cet appareil. Soit vous n'avez pas activé Apple Pay, soit nous ne prenons pas encore en charge les paiements dans votre pays.";
+"error payment canceled" = "Paiement annulé. Vous n'avez pas été débité.";
+"error pack install" = "Impossible d'installer (ou désinstaller) cette fonctionnalité. Veuillez réessayer plus tard.";
 
 "universal action continue" = "Continuer";
 "universal action cancel" = "Annuler";
 "universal action close" = "Fermer";
 "universal action done" = "Terminé";
+"universal action try again" = "Réessayer";
+"universal action learn more" = "En savoir plus";
+"universal action help" = "Aide";
+"universal action copy" = "Copier";
+"universal action save" = "Sauver";
+"universal action contact us" = "Nous contacter";
+"universal action support" = "Support";
+"universal action upgrade" = "Mise à niveau vers BLOKADA+";
+
+"universal label help" = "Aide";
+"universal status processing" = "Traitement en cours... Veuillez patienter.";
+
+"alert error header" = "Oups !";
+"alert vpn expired header" = "BLOKADA+ a expiré";
+
+"account active forever" = "Pour toujours";
+
+"main ask for permissions header" = "Plus qu'une étape";
+"main ask for permissions description" = "Blokada utilise une configuration VPN pour bloquer les pubs. Nous vous demanderons d'activer la permission VPN lors de la prochaine étape.";
+
+"main share message" = "Blokada pour iOS m'a aidé à bloquer %@ pubs et trackers !";
+
+"main rate us header" = "Notez-nous !";
+"main rate us description" = "Appréciez-vous Blokada ?";
+"main rate us on app store" = "Voudriez-vous nous aider en notant Blokada sur l'App Store ?";
+"main rate us action sure" = "Bien sûr !";
 
 "main tab home" = "Accueil";
 "main tab activity" = "Activité";
@@ -31,11 +63,14 @@
 "home power off menu header" = "Que souhaitez-vous faire ?";
 "home power action turn on" = "Activer";
 "home power action turn off" = "Désactiver";
+"home action tap to activate" = "cliquez pour activer";
 "home status detail progress" = "veuillez patienter...";
 
 "home plus button deactivated" = "BLOKADA+ désactivé";
 "home plus button select location" = "Choisir l'emplacement";
 "home plus button location" = "Emplacement : *%@*";
+
+"pack section header" = "Fonctionnalités avancées";
 "pack author" = "Auteur";
 "pack configurations header" = "Configurations";
 "pack information header" = "Plus";
@@ -46,11 +81,15 @@
 "activity section header" = "Activité";
 "activity actions header" = "Actions";
 "activity information header" = "Information";
+"activity action copy to clipboard" = "Copier le nom dans le presse-papier";
 "activity domain name" = "Nom complet";
 "activity time of occurrence" = "Heure";
+"activity number of occurrences" = "Nombre d'occurrences";
 "activity happened one time" = "1 fois";
 "activity happened many times" = "%@ fois";
 "activity category recent" = "Récent";
+
+"account section header settings" = "Paramètres";
 "account status text" = "Votre compte BLOKADA %@ est actif jusqu'au %@.";
 "account section header other" = "Autre";
 "account action my account" = "Mon compte";
@@ -67,6 +106,7 @@
 "account label type" = "Type de compte";
 "account label active until" = "Actif jusqu'au";
 "account action manage subscription" = "Gérer mon abonnement";
+"account action why upgrade" = "Pourquoi devrais-je me mettre à niveau ?";
 
 "account header logout" = "Déconnexion";
 "account id status unchanged" = "(inchangé)";
@@ -99,6 +139,8 @@
 "payment header activated" = "Activé !";
 "payment activated description" = "Blokada va maintenant passer en mode Plus et vous connecter grâce à l'un de nos emplacements sécurisés. Si vous ne savez pas lequel choisir, nous vous recommandons de sélectionner le plus proche.";
 "payment action choose location" = "Sélectionnez un emplacement";
+
+"payment title" = "Mettez-vous à niveau avec notre service VPN pour garder le contrôle de *votre vie privée*.";
 "payment feature title change location" = "Changez de localisation";
 "payment feature desc change location" = "Masquez votre adresse IP et apparaissez dans un autre pays. Cela protégera votre identité.";
 "payment feature title encrypt data" = "Chiffrement des données";
@@ -108,6 +150,7 @@
 "payment feature title devices" = "Jusqu'à 5 appareils";
 "payment feature desc devices" = "Utilisez un seul compte pour partager votre abonnement avec 5 appareils à la fois : iOS, Android ou PC.";
 "payment feature title no ads" = "Pas de pubs";
+"payment feature desc no ads" = "Continuez d'utiliser le célèbre bloqueur de pubs Blokada tout en améliorant votre niveau de protection et en gardant vos données privées... privées.";
 "payment action restore" = "Restaurer les achats";
 "payment action terms" = "Conditions d'utilisation";
 "payment action policy" = "Politique de confidentialité";
