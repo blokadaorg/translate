@@ -17,6 +17,7 @@
 "universal action continue" = "Продолжить";
 "universal action cancel" = "Отмена";
 "universal action close" = "Закрыть";
+"universal action done" = "Готово";
 "universal action try again" = "Попробуйте еще раз";
 "universal action learn more" = "Подробнее";
 "universal action help" = "Помощь";
@@ -39,14 +40,23 @@
 "main ask for permissions header" = "Еще один шаг";
 "main ask for permissions description" = "Blokada использует конфигурацию VPN для блокировки рекламы. Вас попросят разрешить это на следующем шаге.";
 
+"main share message" = "Blokada для iOS помогла мне заблокировать %@ рекламы и трекеров!";
+
 "main rate us header" = "Оцените нас!";
+"main rate us description" = "Вам понравилась Blokada?";
+"main rate us on app store" = "Не могли бы вы помочь нам с рейтингом Blokada в App Store?";
+"main rate us action sure" = "Конечно!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Домой";
 // Make sure each tab name has a similar length
+"main tab activity" = "Активность";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Дополнительно";
 // Make sure each tab name has a similar length
 "main tab settings" = "Настройки";
+
+"home ads counter footnote" = "рекламы и трекеров заблокировано с момента установки";
 "home power off menu header" = "Что бы вы хотели сделать?";
 "home power action turn on" = "Включить";
 "home power action turn off" = "Отключить";
@@ -57,6 +67,9 @@
 "home status deactivated" = "ДЕАКТИВИРОВАНА";
 "home action tap to activate" = "нажмите для активации";
 "home status detail paused" = "приостановлена до окончания таймера";
+"home status detail active" = "блокировано *рекламы* и *трекеров*";
+"home status detail active with counter" = "блокировано *%@* рекламы и трекеров";
+"home status detail plus" = "*+* защищающий вашу *приватность*";
 "home status detail progress" = "подождите пожалуйста...";
 
 "home plus button deactivated" = "BLOKADA+ деактивирована";
@@ -72,6 +85,7 @@
 "pack information header" = "Подробнее";
 "pack tags header" = "Теги";
 "pack tags none" = "Нет";
+"pack category highlights" = "Основные моменты";
 "pack category active" = "Активно";
 "pack category all" = "Все";
 
@@ -166,7 +180,16 @@
 "payment feature title encrypt data" = "Данные зашифрованы";
 "payment feature desc encrypt data" = "Данные, передаваемые через наш VPN-туннель, шифруются при помощи сложных алгоритмов для защиты от перехвата посторонними лицами.";
 "payment feature title faster connection" = "Более быстрое соединение";
+"payment feature desc faster connection" = "Высокие скорости до 100 Мбит/с с серверами в различных частях света.";
+"payment feature title devices" = "До 5 устройств";
 "payment feature title no ads" = "Без рекламы";
+"payment feature title support" = "Отличная поддержка";
+"payment feature desc support" = "Получите быстрый ответ на любые вопросы через нашу службу поддержки клиентов и активное сообщество разработчиков По с открытым исходным кодом.";
+"payment action see all features" = "Посмотреть все функции";
+"payment action restore" = "Восстановить покупки";
+"payment action terms and privacy" = "Условия и политика конфиденциальности";
+"payment action terms" = "Условия предоставления услуг";
+"payment action policy" = "Политика конфиденциальности";
 "payment alert error header" = "Сообщение из App Store";
 
 "payment subscription 1 month" = "1 месяц";
