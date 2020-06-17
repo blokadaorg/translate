@@ -159,3 +159,26 @@
 "account encrypt level low" = "Rendah";
 "account encrypt level medium" = "Sedang";
 "account encrypt level high" = "Tinggi";
+"account encrypt label dns only" = "DNS terenkripsi";
+"account encrypt desc dns only" = "Domain Name System adalah cara perangkat Anda mengetahui di mana mencari situs yang ingin Anda kunjungi. Sayangnya, sebagian besar masih menggunakan DNS yang tidak dienkripsi, yang memungkinkan browsing history Anda dilihat pihak lain. Jika diaktifkan, Blokada memaksa perangkat Anda untuk terkoneksi hanya dengan server DNS yang terenkripsi (disebut juga dengan DNS over HTTPS).";
+"account encrypt label everything" = "Mengenkripsi semua";
+"account encrypt desc everything" = "Perangkat Anda terhubung melalui server VPN kami yang aman, dan semua komunikasi, dari dan menuju perangkat Anda, dienkripsi dengan algoritma kuat. Ini menjadikan data pribadi Anda, seperti data perbankan atau foto-foto pribadi, aman dari pihak-pihak yang ingin mencurinya jika Anda mengakses internet di tempat yang tidak aman, misalnya jaringan WiFi sebuah kedai kopi.";
+"account encrypt action turn on" = "Aktifkan BLOKADA";
+"account encrypt header level" = "Tingkat Enkripsi";
+"account encrypt label level" = "Tingkatan";
+"account encrypt label level low" = "Rendah: Tanpa Enkripsi";
+"account encrypt label level medium" = "Sedang: DNS terenkripsi";
+"account encrypt label level high" = "Tinggi: Enkripsi Semuanya";
+"account encrypt header explanation" = "DNS memungkinkan perangkat Anda menemukan situs yang ingin Anda akses. BLOKADA hanya mendukung DNS yang terenkripsi.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Apakah DNS itu?";
+"account encrypt section header" = "Enkripsi";
+
+"account lease label devices list" = "Perangkat-perangkat ini terhubung dengan akun Anda.";
+"account lease label devices" = "Perangkat";
+"account lease label this device" = " (perangkat ini)";
+
+"account support action how help" = "Bagaimana kami dapat membantu Anda?";
+"account support action kb" = "Buka Knowledge Base";
+
+"payment header activated" = "Diaktifkan!";
