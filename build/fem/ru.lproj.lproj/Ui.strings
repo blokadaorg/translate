@@ -7,6 +7,12 @@
 */
 
 "error device offline" = "Ваше устройство не в сети";
+"error tunnel" = "Не удалось запустить VPN. Пожалуйста, перезагрузите устройство или удалите профиль Blokada VPN в системных настройках и повторите попытку.";
+"error vpn" = "Не удалось запустить VPN. Пожалуйста, перезагрузите устройство или удалите профиль Blokada VPN в системных настройках и повторите попытку.";
+"error vpn perms" = "Нет разрешений для создания профиля VPN.";
+"error vpn no current lease" = "Пожалуйста, сначала выберите местоположение.";
+"error vpn too many leases" = "Вы достигли ограничения по количеству устройств. Пожалуйста, отключите одно из ваших устройств и повторите попытку.";
+"error vpn expired" = "VPN отключен. Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
 
 "universal action continue" = "Продолжить";
 "universal action cancel" = "Отмена";
@@ -54,8 +60,39 @@
 "home status detail progress" = "подождите пожалуйста...";
 
 "home plus button deactivated" = "BLOKADA+ деактивирована";
+"home plus button select location" = "Выберите местоположение";
+"home plus button location" = "Местоположение: *%@*";
+
+"pack section header" = "Расширенные возможности";
+"pack action install" = "ПОЛУЧИТЬ";
+"pack action update" = "ОБНОВИТЬ";
+"pack action uninstall" = "УДАЛИТЬ";
+"pack author" = "Автор";
+"pack configurations header" = "Настройки";
 "pack information header" = "Подробнее";
+"pack tags header" = "Теги";
+"pack tags none" = "Нет";
 "pack category active" = "Активно";
+"pack category all" = "Все";
+
+"location choice header" = "Выберите местоположение";
+
+"activity section header" = "Активность";
+"activity request blocked" = "Этот запрос был заблокирован.";
+"activity request allowed" = "Этот запрос был разрешен.";
+"activity request allowed whitelisted" = "Этот запрос был разрешен, потому что он находится в вашем списке разрешенных";
+"activity request blocked blacklisted" = "Этот запрос был заблокирован, потому что он находится в вашем списке заблокированных";
+"activity actions header" = "Действия";
+"activity information header" = "Информация";
+"activity action add to whitelist" = "Добавить в разрешенные";
+"activity action remove from whitelist" = "Удалить из разрешенных";
+"activity action added to whitelist" = "Добавлен в разрешенные";
+"activity action add to blacklist" = "Добавить в заблокированные";
+"activity action remove from blacklist" = "Удалить из заблокированных";
+"activity action added to blacklist" = "Добавлен в заблокированные";
+"activity action copy to clipboard" = "Скопировать имя в буфер обмена";
+"activity domain name" = "Полное имя";
+"activity time of occurrence" = "Время";
 "activity state blocked" = "заблокировано";
 "activity happened one time" = "1 раз";
 "activity category recent" = "Недавние";
