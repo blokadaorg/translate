@@ -1,6 +1,21 @@
+/*
+  Localizable.strings
+  IOS
+
+  Created by Karol Gusak on 09/06/2020.
+  Copyright © 2020 Blocka AB. All rights reserved.
+*/
+
+"error device offline" = "Votre appareil est hors ligne";
+"error account inactive" = "Votre compte est inactif. Veuillez activer votre compte pour continuer avec BLOKADA+.";
 "error creating account" = "Impossible de créer un nouveau compte. Veuillez réessayer plus tard.";
+"error tunnel" = "Impossible d'établir le VPN. Veuillez redémarrer votre appareil, ou retirer le profil VPN Blokada dans vos paramètres système, et réessayer.";
+"error vpn" = "Impossible d'établir le VPN. Veuillez redémarrer votre appareil, ou retirer le profil VPN Blokada dans vos paramètres système, et réessayer.";
+"error vpn perms" = "Aucune permission accordée pour créer un profil VPN.";
 "error vpn no current lease" = "Veuillez d'abord saisir un emplacement.";
+"error vpn too many leases" = "Vous avez atteint votre limite d'appareils. Veuillez retirer l'un de vos appareils et réessayer.";
 "error vpn expired" = "Le VPN est désactivé. Veuillez mettre votre abonnement à jour pour continuer d'utiliser BLOKADA+";
+"error payment inactive after restore" = "Votre paiement précédent a été restauré, mais l'abonnement a déjà expiré. Si vous pensez que c'est une erreur, veuillez nous contacter en cliquant sur le bouton d'aide en haut de l'écran.";
 
 "universal action continue" = "Continuer";
 "universal action cancel" = "Annuler";
@@ -11,6 +26,8 @@
 "main tab activity" = "Activité";
 "main tab advanced" = "Avancé";
 "main tab settings" = "Paramètres";
+
+"home ads counter footnote" = "pubs et trackers bloqués depuis l'installation";
 "home power off menu header" = "Que souhaitez-vous faire ?";
 "home power action turn on" = "Activer";
 "home power action turn off" = "Désactiver";
@@ -23,12 +40,21 @@
 "pack configurations header" = "Configurations";
 "pack information header" = "Plus";
 "pack tags none" = "Aucun";
+"pack category active" = "Actif";
+"pack category all" = "Tous";
 
 "activity section header" = "Activité";
 "activity actions header" = "Actions";
 "activity information header" = "Information";
 "activity domain name" = "Nom complet";
 "activity time of occurrence" = "Heure";
+"activity happened one time" = "1 fois";
+"activity happened many times" = "%@ fois";
+"activity category recent" = "Récent";
+"account status text" = "Votre compte BLOKADA %@ est actif jusqu'au %@.";
+"account section header other" = "Autre";
+"account action my account" = "Mon compte";
+"account action encryption" = "Chiffrement";
 "account action devices" = "Appareils";
 "account action inbox" = "Messagerie";
 "account action logout" = "Déconnexion";
@@ -43,19 +69,23 @@
 "account action manage subscription" = "Gérer mon abonnement";
 
 "account header logout" = "Déconnexion";
+"account id status unchanged" = "(inchangé)";
 "account action how to restore" = "Comment puis-je restaurer mon ancien compte ?";
 
 "account encrypt level low" = "Faible";
 "account encrypt level medium" = "Moyen";
 "account encrypt level high" = "Élevé";
 "account encrypt label dns only" = "Chiffrement DNS";
+"account encrypt desc dns only" = "Le \"Domain Name System\" permet à votre appareil de trouver les sites web que vous souhaitez consulter. Malheureusement, la majorité des sites web utilisent encore le DNS non-chiffré. Votre historique risque d'être espionné. Lorsque cette option est activée, Blokada force votre appareil à ne se connecter qu'aux serveurs utilisant le DNS chiffré (aussi appelé DNS par HTTPS).";
 "account encrypt label everything" = "Chiffrement universel";
+"account encrypt desc everything" = "Votre appareil se connecte grâce à nos serveurs VPN sécurisés, et toutes les communications émises ou reçues par votre appareil sont chiffrées avec de puissants algorithmes. Cela protège vos informations personnelles, comme vos photos privées ou données bancaires, lorsque vous vous connectez à un endroit peu sécurisé comme le WiFi d'un café.";
 "account encrypt action turn on" = "Activer BLOKADA";
 "account encrypt header level" = "Niveau de chiffrement";
 "account encrypt label level" = "Niveau";
 "account encrypt label level low" = "Faible : pas de chiffrement";
 "account encrypt label level medium" = "Moyen : chiffrement DNS";
 "account encrypt label level high" = "Élevé : chiffrement universel";
+"account encrypt header explanation" = "Le DNS permet à votre appareil de trouver les différents sites web. BLOKADA ne prend en charge que les serveurs chiffrés.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Qu'est-ce que le DNS ?";
 "account encrypt section header" = "Chiffrement";
@@ -69,5 +99,21 @@
 "payment header activated" = "Activé !";
 "payment activated description" = "Blokada va maintenant passer en mode Plus et vous connecter grâce à l'un de nos emplacements sécurisés. Si vous ne savez pas lequel choisir, nous vous recommandons de sélectionner le plus proche.";
 "payment action choose location" = "Sélectionnez un emplacement";
-"payment feature title change location" = "Modifier l'emplacement";
+"payment feature title change location" = "Changez de localisation";
+"payment feature desc change location" = "Masquez votre adresse IP et apparaissez dans un autre pays. Cela protégera votre identité.";
 "payment feature title encrypt data" = "Chiffrement des données";
+"payment feature desc encrypt data" = "Les données transitant par notre tunnel VPN sont chiffrées avec de puissants algorithmes pour les prémunir d'une interception par de tierces parties.";
+"payment feature title faster connection" = "Connexion plus rapide";
+"payment feature desc faster connection" = "Des vitesses exceptionnelles allant jusqu'à 100 Mbps avec des serveurs partout dans le monde.";
+"payment feature title devices" = "Jusqu'à 5 appareils";
+"payment feature desc devices" = "Utilisez un seul compte pour partager votre abonnement avec 5 appareils à la fois : iOS, Android ou PC.";
+"payment feature title no ads" = "Pas de pubs";
+"payment action restore" = "Restaurer les achats";
+"payment action terms" = "Conditions d'utilisation";
+"payment action policy" = "Politique de confidentialité";
+"payment alert error header" = "Un message de l'App Store";
+
+"payment subscription 1 month" = "1 mois";
+"payment subscription many months" = "%@ mois";
+"payment subscription per month" = "%@ par mois";
+"payment subscription offer" = "Économisez %@";
