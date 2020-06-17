@@ -166,7 +166,27 @@
 "account encrypt label dns only" = "Verschlüssel DNS";
 "account encrypt desc dns only" = "Domain-Name-System ist woher dein Gerät weiß wo es die Webseite findet, die du besuchen möchtest. Leider benutzt der Großteil im Internet unverschlüsselte DNS, weshalb deine Browserhistorie einem großem Risiko ausgesetzt ist, ausgespäht zu werden. Wenn dies aktiviert ist, zwingt Blokada dein Gerät dazu, sich nur mit verschlüsselten DNS-Servern (auch DNS über HTTPS genannt) zu verbinden.";
 "account encrypt label everything" = "Alles verschlüsseln";
+"account encrypt desc everything" = "Dein Gerät greift über unsere sicheren VPN-Servern auf das Internet zu und jegliche Kommumikation von oder zu deinem Gerät ist durch starke Algorithmen verschlüsselt. Dies schützt deine persöhnlichen Informationen wie zum Beispiel Bankdaten oder persöhnliche Fotos davor, gestohlen zu werden, auch an unsicheren Orten wie einem Coffe-Shop-WLan.";
+"account encrypt action turn on" = "Schalte BLOKADA ein";
+"account encrypt header level" = "Verschlüsselungsstufe";
+"account encrypt label level" = "Stufe";
+"account encrypt label level low" = "Niedrig: Keine Verschlüsselung";
+"account encrypt label level medium" = "Medium: Verschlüsseltes DNS";
+"account encrypt label level high" = "Hoch: Alles verschlüsselt";
+"account encrypt header explanation" = "DNS ist woher dein Gerät weiß, wo die Webseiten zu finden sind. BLOKADA unterstützt nur verschlüsselte Server.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Was ist DNS?";
+"account encrypt section header" = "Verschlüsselung";
+
+"account lease label devices list" = "Diese Geräte sind mit deinem Konto verbunden.";
 "account lease label devices" = "Geräte";
+"account lease label this device" = " (Dieses Gerät)";
+
+"account support action how help" = "Wie können wir helfen?";
+"account support action kb" = "Wissensdatenbank öffnen";
+
+"payment header activated" = "Aktiviert!";
+"payment activated description" = "Blokada wechselt nun in den Plus-Modus und verbindet sich mit einem unserer sicheren Standorte. Wenn du dir nicht sicher bist, welchen du wählen solltest, der dir am nähesten liegende ist empfohlen.";
+"payment action choose location" = "Standort wählen";
 
 "payment subscription 1 month" = "1 Monat";
