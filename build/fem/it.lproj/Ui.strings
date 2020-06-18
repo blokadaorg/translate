@@ -13,7 +13,10 @@
 "error fetching data" = "Questa azione non può essere completata. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
 "error tunnel" = "Impossibile stabilire la VPN. Riavvia il dispositivo o rimuovi il profilo VPN Blokada nelle impostazioni di sistema e riprova.";
 "error vpn" = "Impossibile stabilire la VPN. Riavvia il dispositivo o rimuovi il profilo VPN Blokada nelle impostazioni di sistema e riprova.";
-"error vpn perms" = "Nessun permesso per creare un profilo VPN.";
+"error vpn perms" = "Non è stato concesso nessun permesso per creare un profilo VPN.";
+"error vpn no current lease" = "Si prega di selezionare prima la posizione.";
+"error vpn too many leases" = "Hai raggiunto il limite dei tuoi dispositivi. Rimuovi uno dei tuoi dispositivi e riprova.";
+"error vpn expired" = "La VPN è disabilitata. Aggiorna il tuo abbonamento per continuare a utilizzare BLOKADA+";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Annulla";
@@ -38,16 +41,68 @@
 "home power action turn off" = "Disabilita";
 "home status active" = "ATTIVO";
 "home status detail progress" = "attendere prego...";
+"pack action install" = "OTTIENI";
+"pack action update" = "AGGIORNA";
+"pack action uninstall" = "RIMUOVI";
 "pack information header" = "Più info";
 "pack category active" = "Attiva";
+"activity information header" = "Informazioni";
+"activity action add to whitelist" = "Aggiungi ai consentiti";
+"activity action remove from whitelist" = "Rimuovi dai consentiti";
+"activity action added to whitelist" = "Aggiunto ai consentiti";
+"activity action add to blacklist" = "Aggiunto ai bloccati";
+"activity action remove from blacklist" = "Rimuovi dai bloccati";
+"activity action added to blacklist" = "Aggiunto ai bloccati";
+"activity action copy to clipboard" = "Copia il nome negli appunti";
+"activity domain name" = "Nome e Cognome";
+"activity time of occurrence" = "Tempo";
+"activity number of occurrences" = "Numero di volte";
+"activity state modified" = "modificato";
 "activity state blocked" = "ad bloccati";
+"activity state allowed" = "permesso";
+"activity happened one time" = "1 volta";
+"activity happened many times" = "%@ volte";
+"activity category recent" = "Recenti";
+"activity category top" = "Più usati";
+"activity category top blocked" = "Più Bloccati";
+"activity category top allowed" = "Più Consentiti";
+"activity filter header" = "Quali voci vorresti vedere?";
+"activity filter show all" = "Mostra tutto";
+"activity filter show blocked" = "Mostra solo bloccati";
+"activity filter show allowed" = "Mostra solo consentiti";
 
 "account section header settings" = "Impostazioni";
+"account status text" = "Il tuo account BLOKADA %@ è attivo fino a %@.";
+"account section header primary" = "Primario";
 "account section header other" = "Altro";
+"account action my account" = "Il mio account";
+"account action encryption" = "Crittografia";
 "account action devices" = "Dispositivi";
+"account action inbox" = "Inbox";
+"account action logout" = "Disconnetti";
 "account action about" = "Info";
+
+"account section header my subscription" = "Il mio abbonamento";
+"account section header general" = "Generale";
+"account section header subscription" = "Abbonamento";
 "account label id" = "ID account";
+"account label type" = "Tipo di account";
+"account label active until" = "Attivo fino al";
 "account action manage subscription" = "Gestisci abbonamento";
+"account action why upgrade" = "Perché dovrei aggiornare?";
+
+"account unlock to show" = "Sblocca per mostrare l'ID del tuo account";
+
+"account header logout" = "Esci";
+"account logout description" = "Inserisci un altro account ID, o torna a utilizzare l'account esistente (non è possibile utilizzare questa app senza un account).";
+"account id status unchanged" = "(invariato)";
+"account action how to restore" = "Come posso ripristinare il mio vecchio account?";
+
+"account encrypt level low" = "Bassa";
+"account encrypt level medium" = "Media";
+"account encrypt level high" = "Alta";
+"account encrypt label dns only" = "Cifratura DNS";
+"account encrypt desc dns only" = "Domain Name System è il metodo che il dispositivo usa per trovare i nomi dei siti web che si desidera visitare. Purtroppo, la maggior parte di Internet utilizza ancora DNS non crittografati, che mette la tua cronologia di navigazione a rischio di essere spiata. Se abilitata, Blokada costringe il dispositivo a connettersi solo ai server DNS crittografati (chiamati anche DNS over HTTPS).";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Dispositivi";
 
