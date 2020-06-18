@@ -1,33 +1,204 @@
+/*
+  Localizable.strings
+  IOS
+
+  Created by Karol Gusak on 09/06/2020.
+  Copyright © 2020 Blocka AB. All rights reserved.
+*/
+
+"error device offline" = "Dispozitivul dumneavoastră este oprit";
+"error account inactive" = "Contul dvs. este inactiv. Vă rugăm să vă activați contul pentru a putea continua să folosiți BLOKADA+.";
+"error account inactive after restore" = "Acesta nu pare a fi un cont activ valid. Dacă credeți că este o greșeală, vă rugăm să ne contactați atingând pictograma de ajutor din partea de sus.";
+"error creating account" = "Nu s-a putut crea un cont nou. Vă rugăm să încercați din nou mai târziu.";
+"error fetching data" = "Această acțiune nu a putut fi finalizată. Asigurați-vă că sunteți online și încearcați din nou mai târziu. Dacă problema persistă, vă rugăm să ne contactați prin apăsarea pictogramei de ajutor din partea de sus.";
+"error tunnel" = "VPN-ul nu a putut fi stabilit. Vă rugăm să reporniți dispozitivul sau să ștergeți profilul Blokada VPN din setările de sistem și să încercați din nou.";
+"error vpn" = "VPN-ul nu a putut fi stabilit. Vă rugăm să reporniți dispozitivul sau să ștergeți profilul Blokada VPN din setările de sistem și să încercați din nou.";
+"error vpn perms" = "Nicio permisiune acordată pentru a crea un profil VPN.";
+"error vpn no current lease" = "Vă rugăm să selectaţi mai întâi o locaţie.";
+"error vpn too many leases" = "Ați atins limita maximă de dispozitive. Vă rugăm să eliminați unul dintre dispozitivele dvs. și să încercați din nou.";
+"error vpn expired" = "VPN-ul este dezactivat. Vă rugăm să vă actualizezi abonamentul pentru a continua să folosiți BLOKADA+";
+"error payment inactive after restore" = "Plata dvs. anterioară a fost restituită, dar abonamentul a expirat deja. Dacă credeți că este o greșeală, vă rugăm să ne contactați atingând pictograma de ajutor din partea de sus.";
+"error payment failed" = "Plățile nu sunt disponibile în acest moment. Asigurați-vă că sunteți online și încearcați din nou mai târziu. Dacă problema persistă, vă rugăm să ne contactați prin apăsarea pictogramei de ajutor din partea de sus.";
+"error payment not available" = "Plățile nu sunt disponibile pentru acest dispozitiv. Fie Apple Pay nu este activat, fie nu ne ocupăm încă de achizițiile din țara dvs.";
+"error payment canceled" = "Plata a fost anulată. Nu ați fost taxat.";
+"error pack install" = "Nu s-a putut instala (sau dezinstala) această caracteristică. Vă rugăm să încercaţi din nou mai târziu.";
+"error location failed fetching" = "Nu s-au putut prelua locațiile.";
+"error unknown" = "A apărut o problemă necunoscută. Vă rugăm să încercați din nou. Dacă problema persistă, vă rugăm să ne contactezi apăsând pe pictograma de ajutor din partea de sus.";
 
 "universal action continue" = "Continuă";
-"universal action cancel" = "Revocare";
-"universal action close" = "Închideţi";
+"universal action cancel" = "Anulare";
+"universal action close" = "Închide";
+"universal action done" = "Efectuat";
+"universal action try again" = "Încercați din nou";
 "universal action learn more" = "Aflați mai multe";
 "universal action help" = "Ajutor";
-"universal action share log" = "Împarte log";
+"universal action show log" = "Jurnale";
+"universal action share log" = "Partajează jurnalul";
 "universal action copy" = "Copiază";
-"universal action save" = "Salvați";
-"universal action contact us" = "Contactează-ne";
+"universal action save" = "Salvează";
+"universal action contact us" = "Contactați-ne";
 "universal action support" = "Asistenţă";
+"universal action upgrade" = "Treceți la BLOKADA+";
 
 "universal label help" = "Ajutor";
+"universal status processing" = "Se procesează... Vă rugăm așteptați.";
 
+"alert error header" = "Ooops!";
+"alert vpn expired header" = "BLOKADA+ a expirat";
+
+"account active forever" = "Pentru totdeauna";
+
+"main ask for permissions header" = "Doar încă un pas";
+"main ask for permissions description" = "Blokada folosește o configurație VPN pentru a bloca reclamele. Vi se va cere să îi acordați permisie în pasul următor.";
+
+"main share message" = "Blokada pentru iOS m-a ajutat să blochez %@ reclame și trackere!";
+
+"main rate us header" = "Acordați-ne o notă!";
+"main rate us description" = "Cum vă place Blokada până acum?";
+"main rate us on app store" = "Ne ajutați prin a evalua aplicața Blokada în App Store?";
+"main rate us action sure" = "Desigur!";
+
+// Make sure each tab name has a similar length
 "main tab home" = "Pagină de pornire";
+// Make sure each tab name has a similar length
+"main tab activity" = "Activitate";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Avansat";
+// Make sure each tab name has a similar length
 "main tab settings" = "Setări";
+
+"home ads counter footnote" = "reclame și trackere blocate de la instalare";
+"home power off menu header" = "Ce ați dori să faceți?";
 "home power action turn on" = "Porneşte";
 "home power action turn off" = "Oprește";
+"home power action pause" = "Pauză pentru 5 minute";
+
+"home status paused" = "ÎN PAUZĂ";
 "home status active" = "ACTIV";
+"home status deactivated" = "DEZACTIVAT";
+"home action tap to activate" = "atinge pentru a activa";
+"home status detail paused" = "în pauză până se termină cronometrul";
+"home status detail active with counter" = "blocat *%@* reclame și trackere";
+"home status detail plus" = "*+* îți protejează *intimitatea*";
 "home status detail progress" = "vă rugăm așteptați...";
+
+"home plus button deactivated" = "BLOKADA+ dezactivat";
+"home plus button select location" = "Selectați locația";
+"home plus button location" = "Locație: *%@*";
+
+"pack section header" = "Caracteristici Avansate";
+"pack action install" = "OBȚINE";
+"pack action update" = "ACTUALIZARE";
+"pack action uninstall" = "ȘTERGE";
+"pack author" = "Autor";
+"pack configurations header" = "Configurații";
+"pack information header" = "Mai multe";
+"pack tags header" = "Etichete";
+"pack tags none" = "Nici unul";
 "pack category active" = "Activ";
+"pack category all" = "Toate";
+
+"location choice header" = "Selectați o locație";
+
+"activity section header" = "Activitate";
+"activity request blocked" = "Această solicitare a fost blocată.";
+"activity request allowed" = "Această solicitare a fost permisă.";
+"activity request allowed whitelisted" = "Această solicitare a fost permisă, deoarece se află pe lista de permisii";
+"activity request blocked blacklisted" = "Această solicitare a fost blocată, deoarece se află în lista de restricții";
+"activity actions header" = "Acțiuni";
+"activity information header" = "Informaţii";
+"activity action add to whitelist" = "Adaugă la Permise";
+"activity action remove from whitelist" = "Elimină din Permise";
+"activity action added to whitelist" = "Adăugat la Permise";
+"activity action add to blacklist" = "Adaugă la Restricții";
+"activity action remove from blacklist" = "Elimină din Restricții";
+"activity action added to blacklist" = "Adăugat la Restricții";
+"activity action copy to clipboard" = "Copiază numele în clipboard";
+"activity domain name" = "Denumirea completă";
+"activity time of occurrence" = "Oră";
+"activity number of occurrences" = "Numărul de apariții";
+"activity state modified" = "modificat";
 "activity state blocked" = "blocat";
+"activity state allowed" = "permis";
+"activity happened one time" = "o dată";
+"activity happened many times" = "%@ ori";
+"activity category recent" = "Recent(e)";
+"activity category top blocked" = "Top blocate";
+"activity category top allowed" = "Top Permise";
+"activity filter header" = "Ce intrări ați dori să vedeţi?";
+"activity filter show all" = "Arată toate intrările";
+"activity filter show blocked" = "Arată doar blocate";
+"activity filter show allowed" = "Arată doar permise";
 
 "account section header settings" = "Setări";
+"account status text" = "Contul dvs. BLOKADA %@ este activ până la %@.";
+"account section header primary" = "Principal";
 "account section header other" = "Altele";
+"account action my account" = "Contul meu";
+"account action encryption" = "Criptare";
 "account action devices" = "Dispozitive";
+"account action inbox" = "Mesaje";
+"account action logout" = "Ieșire din cont";
 "account action about" = "Despre";
+
+"account section header my subscription" = "Abonamentul meu";
+"account section header general" = "Preferințe generale";
+"account section header subscription" = "Abonament";
 "account label id" = "ID Cont";
+"account label type" = "Tipul de cont";
+"account label active until" = "Activ până la";
 "account action manage subscription" = "Gestionare abonament";
+"account action why upgrade" = "De ce ar trebui să trec la BLOKADA+?";
+
+"account unlock to show" = "Deblocați pentru a arăta ID-ul contului dvs.";
+
+"account header logout" = "Iesire din cont";
+"account id status unchanged" = "(neschimbat)";
+"account action how to restore" = "Cum îmi pot recupera contul meu vechi?";
+
+"account encrypt level low" = "Scăzut";
+"account encrypt level medium" = "Mediu";
+"account encrypt level high" = "Ridicat";
+"account encrypt label dns only" = "Criptare DNS";
+"account encrypt label everything" = "Totul este criptat";
+"account encrypt action turn on" = "Porniți BLOKADA";
+"account encrypt header level" = "Nivel de criptare";
+"account encrypt label level" = "Nivel";
+"account encrypt label level low" = "Scăzut: Fără criptare";
+"account encrypt label level medium" = "Mediu: Criptare DNS";
+"account encrypt label level high" = "Ridicat: Se Criptează tot";
+"account encrypt header explanation" = "DNS este modul în care dispozitivul dvs. știe unde să găsească site-uri web. BLOKADA suportă doar servere criptate.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Ce este DNS?";
+"account encrypt section header" = "Criptare";
+
+"account lease label devices list" = "Aceste dispozitive sunt conectate la contul dvs.";
 "account lease label devices" = "Dispozitive";
+"account lease label this device" = " (acest dispozitiv)";
+
+"account support action how help" = "Cum ce vă putem ajuta?";
+"account support action kb" = "Deschide Baza de Cunostințe";
+
+"payment header activated" = "Activat!";
+"payment action choose location" = "Alegeți o locație";
+
+"payment title" = "Treciți la serviciul nostru VPN pentru a rămâne in controlul *intimitați dvs.*.";
+"payment feature title change location" = "Schimbă locația";
+"payment feature title encrypt data" = "Criptare date";
+"payment feature title faster connection" = "Conexiune mai rapidă";
+"payment feature desc faster connection" = "Viteze mari de până la 100 Mbps cu servere în diferite părți ale lumii.";
+"payment feature title devices" = "Până la 5 dispozitive";
+"payment feature desc devices" = "Folosiți același cont pentru a partaja abonamentul cu până la 5 dispozitive: iOS, Android sau PC.";
+"payment feature title no ads" = "Fără Reclame";
+"payment feature title support" = "Asistență de Calitate";
+"payment action see all features" = "Vezi toate caracteristicile";
+"payment action restore" = "Restabilește achizițiile";
+"payment action terms and privacy" = "Termenii de utilizare și confidențialitate";
+"payment action terms" = "Termenii Serviciului";
+"payment action policy" = "Politica de confidenţialitate";
+"payment alert error header" = "Un mesaj de la App Store";
 
 "payment subscription 1 month" = "1 Lună";
+"payment subscription many months" = "%@ Luni";
+"payment subscription per month" = "%@ pe lună";
+"payment subscription offer" = "Economisești %@";
