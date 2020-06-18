@@ -7,6 +7,13 @@
 */
 
 "error device offline" = "Il tuo dispositivo è offline";
+"error account inactive" = "Il tuo account non è attivo. Si prega di attivare il tuo account per continuare a utilizzare BLOKADA+.";
+"error account inactive after restore" = "Questo non sembra essere un account attivo valido. Se credi che sia un errore, contattaci toccando l'icona di aiuto in alto.";
+"error creating account" = "Impossibile creare un nuovo account. Riprova più tardi.";
+"error fetching data" = "Questa azione non può essere completata. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
+"error tunnel" = "Impossibile stabilire la VPN. Riavvia il dispositivo o rimuovi il profilo VPN Blokada nelle impostazioni di sistema e riprova.";
+"error vpn" = "Impossibile stabilire la VPN. Riavvia il dispositivo o rimuovi il profilo VPN Blokada nelle impostazioni di sistema e riprova.";
+"error vpn perms" = "Nessun permesso per creare un profilo VPN.";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Annulla";
@@ -21,8 +28,11 @@
 
 "universal label help" = "Aiuto";
 
+// Make sure each tab name has a similar length
 "main tab home" = "Home";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avanzate";
+// Make sure each tab name has a similar length
 "main tab settings" = "Impostazioni";
 "home power action turn on" = "Attiva";
 "home power action turn off" = "Disabilita";
