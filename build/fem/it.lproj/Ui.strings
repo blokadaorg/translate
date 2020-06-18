@@ -103,6 +103,11 @@
 "account encrypt level high" = "Alta";
 "account encrypt label dns only" = "Cifratura DNS";
 "account encrypt desc dns only" = "Domain Name System è il metodo che il dispositivo usa per trovare i nomi dei siti web che si desidera visitare. Purtroppo, la maggior parte di Internet utilizza ancora DNS non crittografati, che mette la tua cronologia di navigazione a rischio di essere spiata. Se abilitata, Blokada costringe il dispositivo a connettersi solo ai server DNS crittografati (chiamati anche DNS over HTTPS).";
+"account encrypt label everything" = "Cripta tutto";
+"account encrypt desc everything" = "Il tuo dispositivo si sta connettendo attraverso i nostri server VPN sicuri e tutte le comunicazioni provenienti da o verso il tuo dispositivo vengono crittografate utilizzando algoritmi forti. Questo protegge i tuoi dati personali, come i dati bancari o le foto personali, da essere rubati in luoghi non sicuri, dove si usa una WiFi pubblica.";
+"account encrypt action turn on" = "Attiva BLOKADA";
+"account encrypt header level" = "Livello di Cifratura";
+"account encrypt label level" = "Livello";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Dispositivi";
 
