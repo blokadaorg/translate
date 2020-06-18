@@ -46,7 +46,7 @@
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ wygasła";
 
-"account active forever" = "Na zawsze";
+"account active forever" = "końca świata";
 
 "main ask for permissions header" = "Jeszcze jeden krok";
 "main ask for permissions description" = "Blokada używa profilu VPN do blokowania reklam. Zostaniesz poproszony o zezwolenie w następnym kroku.";
@@ -58,9 +58,13 @@
 "main rate us on app store" = "Czy mógłbyś nam pomóc, oceniając Blokadę w App Store?";
 "main rate us action sure" = "Jasne!";
 
+// Make sure each tab name has a similar length
 "main tab home" = "Start";
+// Make sure each tab name has a similar length
 "main tab activity" = "Aktywność";
-"main tab advanced" = "Zaawansowane";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Funkcje";
+// Make sure each tab name has a similar length
 "main tab settings" = "Ustawienia";
 
 "home ads counter footnote" = "reklamy i trackery zablokowane od czasu instalacji";
@@ -70,7 +74,7 @@
 "home power action pause" = "Wstrzymaj na 5 min";
 
 "home status paused" = "WSTRZYMANA";
-"home status active" = "AKTYWNE";
+"home status active" = "AKTYWNA";
 "home status deactivated" = "NIEAKTYWNA";
 "home action tap to activate" = "dotknij, aby aktywować";
 "home status detail paused" = "wstrzymano do zakończenia timera";
@@ -83,7 +87,7 @@
 "home plus button select location" = "Wybierz lokalizację";
 "home plus button location" = "Lokalizacja: *%@*";
 
-"pack section header" = "Funkcje Zaawansowane";
+"pack section header" = "Funkcje";
 "pack action install" = "POBIERZ";
 "pack action update" = "AKTUALIZUJ";
 "pack action uninstall" = "USUŃ";
@@ -93,7 +97,7 @@
 "pack tags header" = "Tagi";
 "pack tags none" = "Brak";
 "pack category highlights" = "Wyróżnione";
-"pack category active" = "Aktywna";
+"pack category active" = "Aktywne";
 "pack category all" = "Wszystkie";
 
 "location choice header" = "Wybierz lokalizację";
@@ -120,14 +124,14 @@
 "activity state allowed" = "zezwolone";
 "activity happened one time" = "1 raz";
 "activity happened many times" = "%@ razy(ów)";
-"activity category recent" = "Ostatnie";
-"activity category top" = "Częste";
-"activity category top blocked" = "Często Blokowane";
-"activity category top allowed" = "Często Zezwalane";
+"activity category recent" = "Ostatnia";
+"activity category top" = "Częsta";
+"activity category top blocked" = "Często Blokowana";
+"activity category top allowed" = "Często Zezwalana";
 "activity filter header" = "Jaką aktywność chcesz zobaczyć?";
 "activity filter show all" = "Pokaż wszystko";
-"activity filter show blocked" = "Pokaż tylko zablokowane";
-"activity filter show allowed" = "Pokaż tylko zezwolone";
+"activity filter show blocked" = "Pokaż tylko blokowaną";
+"activity filter show allowed" = "Pokaż tylko zezwoloną";
 
 "account section header settings" = "Ustawienia";
 "account status text" = "Twoje konto BLOKADA %@ jest aktywne do %@.";
@@ -185,7 +189,7 @@
 "payment activated description" = "Blokada przełączy się teraz w tryb Plus, i połączy się przez jedną z naszych bezpiecznych lokalizacji. Jeśli nie jesteś pewien, którą z nich wybrać, zalecamy wybranie najbliższej względem Ciebie.";
 "payment action choose location" = "Wybierz lokalizację";
 
-"payment title" = "Aktywuj nasz VPN, aby zachować kontrolę nad *Twoją prywatnością*.";
+"payment title" = "Aktywuj nasz VPN, aby zachować kontrolę nad *swoją prywatnością*.";
 "payment feature title change location" = "Zmień lokalizację";
 "payment feature desc change location" = "Ukryj swój adres IP i udawaj, że jesteś w innym kraju. To maskuje Cię od postronnych firm zbierających dane personalne, i pomoże chronić Twoją tożsamość.";
 "payment feature title encrypt data" = "Szyfruj dane";
@@ -198,7 +202,7 @@
 "payment feature desc no ads" = "Korzystaj ze słynnej technologii blokowania reklam Blokady, poprawiając poziom ochrony i dbając o prywatność Twoich danych.";
 "payment feature title support" = "Świetne wsparcie";
 "payment feature desc support" = "Uzyskaj szybką odpowiedź na wszelkie pytania dzięki naszej Obsłudze Klienta i aktywnej społeczności open source.";
-"payment action see all features" = "Pokaż wszystko";
+"payment action see all features" = "Pokaż wszystkie plusy";
 "payment action restore" = "Przywróć zakup";
 "payment action terms and privacy" = "Warunki i polityka prywatności";
 "payment action terms" = "Warunki usługi";

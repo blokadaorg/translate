@@ -30,6 +30,7 @@
 "universal action try again" = "Réessayer";
 "universal action learn more" = "En savoir plus";
 "universal action help" = "Aide";
+"universal action show log" = "Journaux";
 "universal action share log" = "Partager l'historique";
 "universal action copy" = "Copier";
 "universal action save" = "Sauver";
@@ -55,16 +56,24 @@
 "main rate us on app store" = "Voudriez-vous nous aider en notant Blokada sur l'App Store ?";
 "main rate us action sure" = "Bien sûr !";
 
+// Make sure each tab name has a similar length
 "main tab home" = "Accueil";
+// Make sure each tab name has a similar length
 "main tab activity" = "Activité";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avancé";
+// Make sure each tab name has a similar length
 "main tab settings" = "Paramètres";
 
 "home ads counter footnote" = "pubs et trackers bloqués depuis l'installation";
 "home power off menu header" = "Que souhaitez-vous faire ?";
 "home power action turn on" = "Activer";
 "home power action turn off" = "Désactiver";
+"home power action pause" = "Pause pour 5 min";
+
+"home status paused" = "EN PAUSE";
 "home status active" = "ACTIF";
+"home status deactivated" = "DÉSACTIVÉ";
 "home action tap to activate" = "cliquez pour activer";
 "home status detail progress" = "veuillez patienter...";
 
@@ -87,10 +96,15 @@
 "activity domain name" = "Nom complet";
 "activity time of occurrence" = "Heure";
 "activity number of occurrences" = "Nombre d'occurrences";
+"activity state modified" = "modifié";
 "activity state blocked" = "élément bloqué";
+"activity state allowed" = "autorisé";
 "activity happened one time" = "1 fois";
 "activity happened many times" = "%@ fois";
 "activity category recent" = "Récent";
+"activity filter show all" = "Afficher tous les éléments";
+"activity filter show blocked" = "N'afficher que les éléments bloqués";
+"activity filter show allowed" = "N'afficher que les éléments autorisés";
 
 "account section header settings" = "Paramètres";
 "account status text" = "Votre compte BLOKADA %@ est actif jusqu'au %@.";
@@ -138,6 +152,7 @@
 "account lease label this device" = " (cet appareil)";
 
 "account support action how help" = "Comment pouvons-nous aider ?";
+"account support action kb" = "Ouvrir la Base de connaissances";
 
 "payment header activated" = "Activé !";
 "payment activated description" = "Blokada va maintenant passer en mode Plus et vous connecter grâce à l'un de nos emplacements sécurisés. Si vous ne savez pas lequel choisir, nous vous recommandons de sélectionner le plus proche.";
@@ -154,7 +169,10 @@
 "payment feature desc devices" = "Utilisez un seul compte pour partager votre abonnement avec 5 appareils à la fois : iOS, Android ou PC.";
 "payment feature title no ads" = "Pas de pubs";
 "payment feature desc no ads" = "Continuez d'utiliser le célèbre bloqueur de pubs Blokada tout en améliorant votre niveau de protection et en gardant vos données privées... privées.";
+"payment feature title support" = "Excellent support";
+"payment action see all features" = "Voir toutes les fonctionnalités";
 "payment action restore" = "Restaurer les achats";
+"payment action terms and privacy" = "Conditions d'utilisation et Confidentialité";
 "payment action terms" = "Conditions d'utilisation";
 "payment action policy" = "Politique de confidentialité";
 "payment alert error header" = "Un message de l'App Store";

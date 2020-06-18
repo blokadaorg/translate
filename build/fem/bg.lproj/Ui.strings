@@ -130,12 +130,75 @@
 "activity filter show allowed" = "Показване само на разрешени";
 
 "account section header settings" = "Настройки";
+"account status text" = "Вашият BLOKADA акаунт %@ е активен до %@.";
+"account section header primary" = "Основен";
 "account section header other" = "Друго";
+"account action my account" = "Моят профил";
+"account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
+"account action inbox" = "Входяща кутия";
+"account action logout" = "Изход";
 "account action about" = "За приложението";
+
+"account section header my subscription" = "Моят абонамент";
+"account section header general" = "Основни";
+"account section header subscription" = "Абонамент";
 "account label id" = "Профил ID";
+"account label type" = "Тип на профила";
+"account label active until" = "Активен до";
 "account action manage subscription" = "Управление на абонамента";
+"account action why upgrade" = "Защо трябва да надстроя?";
+
+"account unlock to show" = "Отключете за да се покаже ID на акаунта";
+
+"account header logout" = "Изход от профила";
+"account logout description" = "Моля, въведете друг номер на акаунт или се върнете за да използвате съществуващия акаунт (това приложение не може да се използва без такъв).";
+"account id status unchanged" = "(непроменен)";
+"account action how to restore" = "Как да възстановя стария си акаунт?";
+
+"account encrypt level low" = "Ниско";
+"account encrypt level medium" = "Средно";
+"account encrypt level high" = "Високо";
+"account encrypt label dns only" = "Криптиран DNS";
+"account encrypt desc dns only" = "Системата за имена на домейни показва на вашето устройство къде да намери уеб сайтовете, които искате да посетите. За съжаление по-голямата част от Интернет все още използва некриптиран DNS, което излага историята на сърфирането ви в риск да бъде шпионирана. Когато е активирана, Blokada принуждава вашето устройство да се свързва само към криптирани DNS сървъри (наричани също DNS през HTTPS).";
+"account encrypt label everything" = "Криптиране на всичко";
+"account encrypt desc everything" = "Вашето устройство се свързва чрез нашите защитени VPN сървъри и цялата комуникация, идваща от или към вашето устройство се криптира чрез силни алгоритми. Това предпазва личната ви информация, като банкови данни или лични снимки от кражба на несигурни места, като WiFi в кафене.";
+"account encrypt action turn on" = "Включване на BLOKADA";
+"account encrypt header level" = "Ниво на криптиране";
+"account encrypt label level" = "Ниво";
+"account encrypt label level low" = "Ниско: Няма криптиране";
+"account encrypt label level medium" = "Средно: Криптиран DNS";
+"account encrypt label level high" = "Високо: Криптиране на всичко";
+"account encrypt header explanation" = "DNS е как вашето устройство знае къде да намира уеб сайтовете. BLOKADA поддържа само криптирани сървъри.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Какво е DNS?";
+"account encrypt section header" = "Криптиране";
+
+"account lease label devices list" = "Тези устройства са свързани с вашият акаунт.";
 "account lease label devices" = "Устройства";
+"account lease label this device" = " (това устройство)";
+
+"account support action how help" = "Как можем да помогнем?";
+"account support action kb" = "Отворена База Знания";
+
+"payment header activated" = "Активирано!";
+"payment activated description" = "Сега Blokada ще премине в режим Plus и ще се свърже чрез едно от нашите сигурни места. Ако не сте сигурни кое да изберете, препоръчва се най-близкото до вас.";
+"payment action choose location" = "Изберете местоположение";
+
+"payment title" = "Надстройте до нашата VPN услуга за да имате контрол над *вашата поверителност*.";
+"payment feature title change location" = "Промяна на местоположение";
+"payment feature desc change location" = "Скрийте своя IP адрес и се преструвайте, че сте в друга държава. Това ще ви маскира от трети страни и ще ви помогне да защитите вашата самоличност.";
+"payment feature title encrypt data" = "Криптиране на данни";
+"payment feature desc encrypt data" = "Данните, изпратени през нашия VPN тунел се криптират с помощта на силни алгоритми за да се защитят от прихващане от неоторизирани страни.";
+"payment feature title faster connection" = "По-бърза връзка";
+"payment feature desc faster connection" = "Големи скорости до 100Mbps със сървъри в различни части на света.";
+"payment feature title devices" = "До 5 устройства";
+"payment feature desc devices" = "Използвайте същия акаунт за да споделяте абонамента си с до 5 устройства: iOS, Android или компютър.";
+"payment feature title no ads" = "Без Реклами";
+"payment feature desc no ads" = "Използвайте световно известната технология на Blokada за блокиране на реклами, като същевременно подобрите нивото на защита и запазите данните си поверителни.";
+"payment feature title support" = "Страхотна поддръжка";
+"payment feature desc support" = "Получете бърз отговор на всякакви въпроси благодарение на нашата Поддръжка на клиенти и жизнената общност с отворен код.";
+"payment action see all features" = "Вижте всички функции";
+"payment action restore" = "Възстановяване на покупките";
 
 "payment subscription 1 month" = "1 Месец";
