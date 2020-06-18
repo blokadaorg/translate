@@ -17,19 +17,43 @@
 "error vpn no current lease" = "Si prega di selezionare prima la posizione.";
 "error vpn too many leases" = "Hai raggiunto il limite dei tuoi dispositivi. Rimuovi uno dei tuoi dispositivi e riprova.";
 "error vpn expired" = "La VPN è disabilitata. Aggiorna il tuo abbonamento per continuare a utilizzare BLOKADA+";
+"error payment inactive after restore" = "Il pagamento precedente è stato ripristinato, ma l'abbonamento è già scaduto. Se credi che questo sia un errore, contattaci toccando l'icona di aiuto in alto.";
+"error payment failed" = "Al momento i pagamenti non sono disponibili. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
+"error payment not available" = "I pagamenti non sono disponibili per questo dispositivo. O Apple Pay non è attivato, o non gestiamo ancora gli acquisti nel tuo paese.";
+"error payment canceled" = "Il pagamento è stato annullato. Non ti è stato addebitato nulla.";
+"error pack install" = "Impossibile installare (o disinstallare) questa funzione. Riprova più tardi.";
+"error location failed fetching" = "Impossibile ottenere la posizione.";
+"error unknown" = "Si è verificato un problema sconosciuto. Si prega di riprovare. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Annulla";
 "universal action close" = "Chiudi";
+"universal action done" = "Fatto";
+"universal action try again" = "Riprova";
 "universal action learn more" = "Scopri di più";
 "universal action help" = "Aiuto";
+"universal action show log" = "Log";
 "universal action share log" = "Condividi Log";
 "universal action copy" = "Copia";
 "universal action save" = "Salva";
 "universal action contact us" = "Contattaci";
 "universal action support" = "Supporto";
+"universal action upgrade" = "Aggiorna a BLOKADA+";
 
 "universal label help" = "Aiuto";
+"universal status processing" = "Elaborazione in corso, attendere prego...";
+
+"alert error header" = "Ooops!";
+"alert vpn expired header" = "BLOKADA+ scaduto";
+
+"account active forever" = "Per sempre";
+
+"main ask for permissions header" = "Solo un altro passo";
+"main ask for permissions description" = "Blokada usa una configurazione VPN per bloccare gli annunci. Ti verrà chiesto di consentirla nel prossimo passo.";
+
+"main share message" = "Blokada per iOS mi ha aiutato a bloccare %@ annunci e tracker!";
+
+"main rate us header" = "Valutaci!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Home";
