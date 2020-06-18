@@ -54,22 +54,60 @@
 "main share message" = "Blokada per iOS mi ha aiutato a bloccare %@ annunci e tracker!";
 
 "main rate us header" = "Valutaci!";
+"main rate us description" = "Quanto ti piace Blokada finora?";
+"main rate us on app store" = "Ci aiuteresti valutando Blokada su App Store?";
+"main rate us action sure" = "Certo!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Home";
 // Make sure each tab name has a similar length
+"main tab activity" = "Attività";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avanzate";
 // Make sure each tab name has a similar length
 "main tab settings" = "Impostazioni";
+
+"home ads counter footnote" = "pubblicità e tracker bloccati dall'installazione";
+"home power off menu header" = "Cosa vorresti fare?";
 "home power action turn on" = "Attiva";
 "home power action turn off" = "Disabilita";
+"home power action pause" = "Pausa per 5 min";
+
+"home status paused" = "IN PAUSA";
 "home status active" = "ATTIVO";
+"home status deactivated" = "DISATTIVATO";
+"home action tap to activate" = "tocca per attivare";
+"home status detail paused" = "in pausa fino alla fine del timer";
+"home status detail active" = "sto bloccando *pubblicità* e *tracker*";
+"home status detail active with counter" = "ho bloccato *%@* pubblicità e tracker";
+"home status detail plus" = "*+* proteggendo la tua *privacy*";
 "home status detail progress" = "attendere prego...";
+
+"home plus button deactivated" = "BLOKADA+ disattivato";
+"home plus button select location" = "Seleziona la località";
+"home plus button location" = "Località: *%@*";
+
+"pack section header" = "Funzioni Avanzate";
 "pack action install" = "OTTIENI";
 "pack action update" = "AGGIORNA";
 "pack action uninstall" = "RIMUOVI";
+"pack author" = "Autore";
+"pack configurations header" = "Configurazioni";
 "pack information header" = "Più info";
+"pack tags header" = "Tag";
+"pack tags none" = "Nessuno";
+"pack category highlights" = "In evidenza";
 "pack category active" = "Attiva";
+"pack category all" = "Tutti";
+
+"location choice header" = "Scegli una località";
+
+"activity section header" = "Attività";
+"activity request blocked" = "Questa richiesta è stata bloccata.";
+"activity request allowed" = "Questa richiesta è stata consentita.";
+"activity request allowed whitelisted" = "Questa richiesta è stata consentita, perché è nella tua lista di Consentiti";
+"activity request blocked blacklisted" = "Questa richiesta è stata bloccata, perché è nella tua lista di Bloccati";
+"activity actions header" = "Azioni";
 "activity information header" = "Informazioni";
 "activity action add to whitelist" = "Aggiungi ai consentiti";
 "activity action remove from whitelist" = "Rimuovi dai consentiti";
@@ -132,7 +170,29 @@
 "account encrypt action turn on" = "Attiva BLOKADA";
 "account encrypt header level" = "Livello di Cifratura";
 "account encrypt label level" = "Livello";
+"account encrypt label level low" = "Basso: Nessuna Crittografia";
+"account encrypt label level medium" = "Medio: Cifratura DNS";
+"account encrypt label level high" = "Alto: Crittografare Tutto";
+"account encrypt header explanation" = "DNS è come il tuo dispositivo sa dove trovare i siti web. BLOKADA supporta solo server crittografati.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Che cos’è il DNS?";
+"account encrypt section header" = "Crittografia";
+
+"account lease label devices list" = "Questi dispositivi sono connessi al tuo account.";
 "account lease label devices" = "Dispositivi";
+"account lease label this device" = " (questo dispositivo)";
+
+"account support action how help" = "Come possiamo aiutarti?";
+"account support action kb" = "Apri Knowledge Base";
+
+"payment header activated" = "Attivata!";
+"payment activated description" = "Blokada passerà ora in modalità Plus e si connetterà attraverso una delle nostre posizioni sicure. Se non sei sicuro di quale scegliere, si raccomanda quella più vicina.";
+"payment action choose location" = "Scegli una località";
+
+"payment title" = "Aggiorna al nostro servizio VPN per mantenere il controllo della *tua privacy*.";
+"payment feature title change location" = "Modifica località";
+"payment feature desc change location" = "Nascondi il tuo indirizzo IP e finge di essere in un altro paese. Questo ti maschererà da terze parti e ti aiuterà a proteggere la tua identità.";
+"payment feature title encrypt data" = "Crittografia dei dati";
+"payment feature desc encrypt data" = "I dati inviati attraverso il nostro tunnel VPN sono crittografati utilizzando algoritmi forti per proteggere dalle intercettazioni da parte di soggetti non autorizzati.";
 
 "payment subscription 1 month" = "1 Mese";
