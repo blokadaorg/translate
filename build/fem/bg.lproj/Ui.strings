@@ -7,6 +7,8 @@
 */
 
 "error device offline" = "Устройството ви е офлайн";
+"error account inactive" = "Вашият акаунт не е активен. Моля, активирайте акаунта си за да продължите да използвате BLOKADA +.";
+"error account inactive after restore" = "Изглежда, че това не е валиден активен акаунт. Ако смятате това за грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 
 "universal action continue" = "Продължи";
 "universal action cancel" = "Отказ";
@@ -21,8 +23,11 @@
 
 "universal label help" = "Помощ";
 
+// Make sure each tab name has a similar length
 "main tab home" = "Начало";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Разширени";
+// Make sure each tab name has a similar length
 "main tab settings" = "Настройки";
 "home power action turn on" = "Включване";
 "home power action turn off" = "Изключване";
