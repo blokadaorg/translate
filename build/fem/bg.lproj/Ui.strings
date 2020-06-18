@@ -22,19 +22,41 @@
 "error payment not available" = "Плащанията не са активни за това устройство. Или Apple Pay не е активиран, или все още не обработваме плащания от вашата страна.";
 "error payment canceled" = "Плащането бе анулирано. Не сте таксувани.";
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
+"error location failed fetching" = "Локациите не можаха да бъдат получени.";
+"error unknown" = "Възникна неизвестен проблем. Моля, опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 
 "universal action continue" = "Продължи";
 "universal action cancel" = "Отказ";
 "universal action close" = "Затвори";
+"universal action done" = "Готово";
+"universal action try again" = "Опитайте отново";
 "universal action learn more" = "Научете повече";
 "universal action help" = "Помощ";
+"universal action show log" = "Логове";
 "universal action share log" = "Сподели дневника";
 "universal action copy" = "Копирай";
 "universal action save" = "Запази";
 "universal action contact us" = "Свържете се с нас";
 "universal action support" = "Поддръжка";
+"universal action upgrade" = "Надстройте до BLOKADA +";
 
 "universal label help" = "Помощ";
+"universal status processing" = "Обработка... Моля, изчакайте.";
+
+"alert error header" = "Ами сега!";
+"alert vpn expired header" = "BLOKADA+ е изтекла";
+
+"account active forever" = "Завинаги";
+
+"main ask for permissions header" = "Само още една стъпка";
+"main ask for permissions description" = "Blokada използва VPN конфигурация за блокиране на рекламите. Ще бъдете помолени в следващата стъпка да бъде разрешено.";
+
+"main share message" = "Blokada за iOS ми помогна да блокирам %@ реклами и тракери!";
+
+"main rate us header" = "Оценете ни!";
+"main rate us description" = "Как ви харесва досега Blokada?";
+"main rate us on app store" = "Бихте ли ни помогнали като оцените Blokada в App Store?";
+"main rate us action sure" = "Разбира се!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Начало";
@@ -42,9 +64,19 @@
 "main tab advanced" = "Разширени";
 // Make sure each tab name has a similar length
 "main tab settings" = "Настройки";
+
+"home ads counter footnote" = "рекламите и тракерите са блокирани след инсталирането";
+"home power off menu header" = "Какво искате да направите?";
 "home power action turn on" = "Включване";
 "home power action turn off" = "Изключване";
+"home power action pause" = "Пауза за 5 мин";
+
+"home status paused" = "ПАУЗА";
 "home status active" = "АКТИВЕН";
+"home status deactivated" = "ДЕАКТИВИРАН";
+"home action tap to activate" = "докоснете за да активирате";
+"home status detail paused" = "пауза докато приключи таймерът";
+"home status detail active" = "блокиране на *реклами* и *тракери*";
 "home status detail progress" = "моля изчакайте...";
 "pack information header" = "Още";
 "pack category active" = "Е активна";
