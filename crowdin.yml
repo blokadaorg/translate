@@ -11,4 +11,4 @@ files:
   - source: /web/*.html
     translation: /build/web/%locale_with_underscore%/%original_file_name%
   - source: /fem/*.strings
-    translation: /build/fem/%osx_code%.lproj/%original_file_name%
+    translation: /build/fem/%osx_code%/%original_file_name%
