@@ -44,7 +44,7 @@
 "universal status processing" = "Elaborazione in corso, attendere prego...";
 
 "alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ scaduto";
+"alert vpn expired header" = "BLOKADA+ è scaduto";
 
 "account active forever" = "Per sempre";
 
@@ -67,23 +67,23 @@
 // Make sure each tab name has a similar length
 "main tab settings" = "Impostazioni";
 
-"home ads counter footnote" = "pubblicità e tracker bloccati dall'installazione";
+"home ads counter footnote" = "pubblicità e tracker bloccati fin dall'installazione";
 "home power off menu header" = "Cosa vorresti fare?";
 "home power action turn on" = "Attiva";
 "home power action turn off" = "Disabilita";
 "home power action pause" = "Pausa per 5 min";
 
 "home status paused" = "IN PAUSA";
-"home status active" = "ATTIVO";
-"home status deactivated" = "DISATTIVATO";
+"home status active" = "ATTIVA";
+"home status deactivated" = "DISATTIVATA";
 "home action tap to activate" = "tocca per attivare";
 "home status detail paused" = "in pausa fino alla fine del timer";
 "home status detail active" = "sto bloccando *pubblicità* e *tracker*";
-"home status detail active with counter" = "ho bloccato *%@* pubblicità e tracker";
+"home status detail active with counter" = "*%@* pubblicità e tracker bloccati";
 "home status detail plus" = "*+* proteggendo la tua *privacy*";
 "home status detail progress" = "attendere prego...";
 
-"home plus button deactivated" = "BLOKADA+ disattivato";
+"home plus button deactivated" = "BLOKADA+ è disattivato";
 "home plus button select location" = "Seleziona la località";
 "home plus button location" = "Località: *%@*";
 
@@ -105,16 +105,16 @@
 "activity section header" = "Attività";
 "activity request blocked" = "Questa richiesta è stata bloccata.";
 "activity request allowed" = "Questa richiesta è stata consentita.";
-"activity request allowed whitelisted" = "Questa richiesta è stata consentita, perché è nella tua lista di Consentiti";
-"activity request blocked blacklisted" = "Questa richiesta è stata bloccata, perché è nella tua lista di Bloccati";
+"activity request allowed whitelisted" = "Questa richiesta è stata consentita, perché è nella tua lista Consentiti";
+"activity request blocked blacklisted" = "Questa richiesta è stata bloccata, perché è nella tua lista Bloccati";
 "activity actions header" = "Azioni";
 "activity information header" = "Informazioni";
-"activity action add to whitelist" = "Aggiungi ai consentiti";
-"activity action remove from whitelist" = "Rimuovi dai consentiti";
-"activity action added to whitelist" = "Aggiunto ai consentiti";
-"activity action add to blacklist" = "Aggiunto ai bloccati";
-"activity action remove from blacklist" = "Rimuovi dai bloccati";
-"activity action added to blacklist" = "Aggiunto ai bloccati";
+"activity action add to whitelist" = "Aggiungi ai Consentiti";
+"activity action remove from whitelist" = "Rimuovi dai Consentiti";
+"activity action added to whitelist" = "Aggiunto ai Consentiti";
+"activity action add to blacklist" = "Aggiungi ai Bloccati";
+"activity action remove from blacklist" = "Rimuovi dai Bloccati";
+"activity action added to blacklist" = "Aggiunto ai Bloccati";
 "activity action copy to clipboard" = "Copia il nome negli appunti";
 "activity domain name" = "Nome e Cognome";
 "activity time of occurrence" = "Tempo";
@@ -173,9 +173,9 @@
 "account encrypt label level low" = "Basso: Nessuna Crittografia";
 "account encrypt label level medium" = "Medio: Cifratura DNS";
 "account encrypt label level high" = "Alto: Crittografare Tutto";
-"account encrypt header explanation" = "DNS è come il tuo dispositivo sa dove trovare i siti web. BLOKADA supporta solo server crittografati.";
+"account encrypt header explanation" = "Un DNS permette al tuo dispositivo di localizzare i siti web. BLOKADA supporta solo server crittografati.";
 "account encrypt label dns" = "DNS";
-"account encrypt action what is dns" = "Che cos’è il DNS?";
+"account encrypt action what is dns" = "Cos’è un DNS?";
 "account encrypt section header" = "Crittografia";
 
 "account lease label devices list" = "Questi dispositivi sono connessi al tuo account.";
@@ -183,7 +183,7 @@
 "account lease label this device" = " (questo dispositivo)";
 
 "account support action how help" = "Come possiamo aiutarti?";
-"account support action kb" = "Apri Knowledge Base";
+"account support action kb" = "Apri Conoscenza di Base";
 
 "payment header activated" = "Attivata!";
 "payment activated description" = "Blokada passerà ora in modalità Plus e si connetterà attraverso una delle nostre posizioni sicure. Se non sei sicuro di quale scegliere, si raccomanda quella più vicina.";
