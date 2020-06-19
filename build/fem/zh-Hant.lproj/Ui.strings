@@ -166,13 +166,34 @@
 "account encrypt label dns only" = "加密 DNS";
 "account encrypt desc dns only" = "域名系統是您的裝置知道如何找到您想造訪的網站的方式。不幸的是，網際網路大部份的流量都還是使用未加密的 DNS，這讓您的瀏覽歷史有被竊取的風險。啟用後，Blokada 會強制您的裝置僅連線至加密的 DNS 伺服器（又稱為 DNS over HTTPS）。";
 "account encrypt label everything" = "全部加密";
+"account encrypt desc everything" = "您的裝置正透過我們的安全 VPN 伺服器連線至網際網路，並使用強大的加密演算法保護您裝置所有的通訊。這樣可以防止您的個人資訊（如銀行資料或個人照片）在不安全的地方（如咖啡廳的 WiFi）被盜。";
 "account encrypt action turn on" = "開啟 BLOKADA";
 "account encrypt header level" = "加密級別";
 "account encrypt label level" = "級別";
 "account encrypt label level low" = "低：不加密";
 "account encrypt label level medium" = "中：加密 DNS";
 "account encrypt label level high" = "高：全部加密";
+"account encrypt header explanation" = "DNS 是您的裝置知道如何找到您想造訪的網站的方式。BLOKADA 僅支援加密的伺服器。";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS 是什麼？";
+"account encrypt section header" = "加密";
+
+"account lease label devices list" = "這些裝置已連結至您的帳號。";
 "account lease label devices" = "裝置";
+"account lease label this device" = " （此裝置）";
+
+"account support action how help" = "我們能幫您什麼嗎？";
+"account support action kb" = "開啟知識庫";
+
+"payment header activated" = "已啟用！";
+"payment activated description" = "Blokada 將會切換到 Plus 模式，並透過我們的其中一個安全位置進行連線。如果不確定要怎麼選擇的話，就選最近的一個。";
+"payment action choose location" = "選擇位置";
+
+"payment title" = "升級至我們的 VPN 服務以控制 *您的隱私*。";
+"payment feature title change location" = "變更位置";
+"payment feature desc change location" = "隱藏您的 IP 位置並假裝您在其他國家。這將讓您降低被第三方攻擊的機會，並協助您保護您的身份。";
+"payment feature title encrypt data" = "加密資料";
+"payment feature desc encrypt data" = "透過我們的 VPN 隧道傳送的資料使用強大的演算法來加密以防止未經授權的人員攔截。";
+"payment feature title faster connection" = "較快速的連線";
 
 "payment subscription 1 month" = "1 個月";
