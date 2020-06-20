@@ -24,7 +24,7 @@
 
 <h4>Situaţii cunoscute</h4>
 <ol>
-  <li><a href="#lista de excluderi">O aplicație nu funcționează conform așteptărilor.</a></li>
+  <li><a href="#lista albă">O aplicație nu funcționează conform așteptărilor.</a></li>
   <li><a href="#unsupported">Nu pot porni Blokada după instalare.</a></li>
   <li><a href="#kill">Blokada se oprește din funcționare după o vreme.</li>
 </ol>
@@ -47,7 +47,7 @@
 </ol>
 
 <h4><a name="whitelist">O aplicație nu funcționează conform așteptărilor.</a></h4>
-<p>Dacă vedeți că o aplicație nu funcționează conform așteptărilor, nu se încarcă sau observați alte funcționări defectuoase, vă rugăm mergeți pe ecranul principal, alegeți <i>Excludere</i>, în partea de jos a ecranului apăsați pe +, alegeți <i>Aplicație</i> și tastați numele aplicației. Apăsaţi pe <i>Salvează</i> la sfârşit. Prin aceasta, Blokada nu va mai filtra URL-urile din această aplicație.</p>
+<p>Dacă vedeți că o aplicație nu funcționează conform așteptărilor, nu se încarcă sau observați alte funcționări defectuoase, vă rugăm mergeți pe ecranul principal, alegeți <i>Lista Albă</i>, în partea de jos a ecranului apăsați pe +, alegeți <i>Aplicație</i> și tastați numele aplicației. Apăsaţi pe <i>Salvează</i> la sfârşit. Prin aceasta, Blokada nu va mai filtra URL-urile din această aplicație.</p>
 
 <h4><a name="unsupported">Nu pot porni Blokada după ce l-am instalat.</a></h4>
 <p>Există două cauze frecvente pentru această situație. În primul rând, vă rugăm să verificaţi dacă aveţi o conexiune VPN activă şi dacă este activată opţiunea <i>Rețea VPN activată permanent</i>. Pentru asta, mergeți la setările telefonului, căutați VPN în secțiunea rețea, apăsați pe rotița de lângă VPN. Dezactivați-o, deconectați-vă de la conexiunea VPN activă și încercați să reporniți Blokada.</p>
@@ -57,7 +57,7 @@
 <p>În cazul în care asta nu ajută, reporniţi telefonul, în unele cazuri ajută.</p>
 
 <h4><a name="kill">Blokada se oprește din funcționare după o vreme.</h4>
-<p>Ca și prim pas, bifați <i>Păstrează activ</i> în Blokada. În acest caz, Blokada va încerca să rămână online, dar rețineți că sistemul dumneavoastră poate totuși influența acest comportament. Dacă ați bifat și totusi observați că Blokada este oprit din când în când, verificați în setările de sistem și opriți toate optimizările de baterie și memorie pentru Blokada. Din păcate este diferit pentru fiecare sistem, deci nu putem spune de unde se face mai exact. Vă rugăm să vă verificaţi setările telefonului. O altă cauză pentru un astfel de comportament poate fi o aplicație pentru curățarea memoriei. Vă rugăm să setaţi Blokada pe Whitelist (Lista de excluderi). Dacă nici unul dintre acești pași nu v-au fost de ajutor, vă rugăm să raportați un bug (vedeți mai jos cum).</p>
+<p>Ca și prim pas, bifați <i>Păstrează activ</i> în Blokada. În acest caz, Blokada va încerca să rămână online, dar rețineți că sistemul dumneavoastră poate totuși influența acest comportament. Dacă ați bifat și totusi observați că Blokada este oprit din când în când, verificați în setările de sistem și opriți toate optimizările de baterie și memorie pentru Blokada. Din păcate este diferit pentru fiecare sistem, deci nu putem spune de unde se face mai exact. Vă rugăm să vă verificaţi setările telefonului. O altă cauză pentru un astfel de comportament poate fi o aplicație pentru curățarea memoriei. Vă rugăm să setaţi Blokada pe Lista Albă. Dacă nici unul dintre acești pași nu v-au fost de ajutor, vă rugăm să raportați un bug (vedeți mai jos cum).</p>
 
 <h4><a name="howitworks">Cum funcționează Blokada?</a></h4>
 <p>Blokada este un strat subţire între interfaţa de reţea (wifi sau date mobile) și aplicațiile pe care le utilizaţi. Pentru a putea schimba adresele serverelor DNS ale dispozitivului, acesta generează o conexiune VPN. Blokada nu vă trimite datele nicăieri, VPN-ul este utilizat numai pentru a crea o conexiune locală pentru a face aplicațiile să creadă că trebuie să folosească servere DNS diferite. Blokada DNS nu filtrează conexiunea dumneavoastră în niciun fel, dar în funcție de serverele DNS pe care le alegeți, acestea pot filtra conexiunea.</p>
@@ -68,7 +68,7 @@
 <h4><a name="options">Care sunt opțiunile din Blokada?</a></h4>
 <p>După cum ați văzut cu siguranță, Blokada are câteva opțiuni pe ecranul principal care nu sunt detaliate la prima pornire. Vă rugăm să ne lăsa-ți să o facem acum. Puteți vedea următoarele:</p>
 <p><ul>
-    <li><b>Lista de excluderi</b>: lista de excluderi este lista de excepții, aici puteți defini aplicațiile pentru care Blokada nu va schimba DNS-ul. Blokada este instalată cu mai multe aplicații permise în mod implicit.</li>
+    <li><b>Lista Albă</b>: lista de excluderi este lista de excepții, aici puteți defini aplicațiile pentru care Blokada nu va schimba DNS-ul. Blokada este instalată cu mai multe aplicații permise în mod implicit.</li>
     <li><b>Păstrează activ</b>: această opțiune este să vă asigurați că Blokada nu este întrerupt sau oprit de sistem. Vă rugăm să rețineți că sistemul dvs. le poate suprascrie, asigurați-vă că setările dvs. vor permite aplicației Blokada să ruleze în fundal.</li>
     <li><b>Doar Online</b>: atunci când este activată, Blokada va ieși dacă nu există o conexiune activă și va începe din nou de fiecare dată când conexiunea revine. Dacă este dezactivat, Blokada va rula întotdeauna în fundal (chiar dacă nu este disponibilă nicio rețea). Vă rugăm să reţineţi că această opţiune ar putea să nu funcţioneze pe orice dispozitiv.</li>
     <li><b>Lansează la pornire</b>: când este activă, Blokada va porni imediat după pornirea sistemului. Vă rugăm să rețineți că există configurații de nivel de sistem pentru această opțiune, prin urmare nu poate fi garantat că Blokada poate porni la pornire. În acest caz, vă rugăm să verificaţi setările telefonului dvs. Configurația implicită este activată, dacă doriți să porniți manual Blokada, dezactivați această opțiune.</li>
