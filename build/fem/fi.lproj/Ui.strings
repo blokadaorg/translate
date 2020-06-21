@@ -7,7 +7,23 @@
 */
 
 "error device offline" = "Laitteesi on offline-tilassa";
+"error account inactive" = "Tilisi on toimeton. Aktivoi tilisi jatkaaksesi BLOKADA+:n käyttöä.";
+"error account inactive after restore" = "Tämä ei vaikuta olevan kelvollinen aktiivinen tili. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
+"error creating account" = "Uutta tiliä ei voitu luoda. Yritä uudelleen myöhemmin.";
+"error fetching data" = "Tätä toimintoa ei voitu suorittaa. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error tunnel" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn perms" = "VPN-profiilin luomiseen ei ole oikeuksia.";
 "error vpn no current lease" = "Ole hyvä, ja valitse sijainti.";
+"error vpn too many leases" = "Saavutit laitteiden enimmäisrajan. Poista yksi laitteistasi ja yritä uudelleen.";
+"error vpn expired" = "VPN on poistettu käytöstä. Päivitä tilauksesi jatkaaksesi BLOKADA+ -sovelluksen käyttöä";
+"error payment inactive after restore" = "Aikaisempi maksusi palautettiin, mutta tilauksesi on jo vanhentunut. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
+"error payment failed" = "Maksut eivät ole tällä hetkellä käytettävissä. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error payment not available" = "Maksut eivät ole käytettävissä tällä laitteella. Joko Apple Pay ei ole aktivoitu tai emme vielä käsittele ostoksia maassasi.";
+"error payment canceled" = "Maksu peruutettiin. Sinua ei ole laskutettu.";
+"error pack install" = "Tätä ominaisuutta ei voitu asentaa (tai poistaa). Yritä uudelleen myöhemmin.";
+"error location failed fetching" = "Sijainteja ei voitu hakea.";
+"error unknown" = "Tuntematon ongelma tapahtui. Yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
 
 "universal action continue" = "Jatka";
 "universal action cancel" = "Peruuta";
@@ -22,8 +38,10 @@
 "universal action save" = "Tallenna";
 "universal action contact us" = "Ota yhteyttä";
 "universal action support" = "Tuki";
+"universal action upgrade" = "Päivitä BLOKADA+:aan";
 
 "universal label help" = "Ohje";
+"universal status processing" = "Käsitellään... odota hetki.";
 
 "alert error header" = "Hups!";
 
