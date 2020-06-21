@@ -44,8 +44,18 @@
 "universal status processing" = "Käsitellään... odota hetki.";
 
 "alert error header" = "Hups!";
+"alert vpn expired header" = "BLOKADA+ erääntyi";
+
+"account active forever" = "Ikuisesti";
+
+"main ask for permissions header" = "Vielä yksi askel";
+"main ask for permissions description" = "Blokada estää mainoksia VPN-konfiguraatiolla. Sinua pyydetään sallimaan se seuraavassa vaiheessa.";
+
+"main share message" = "Blokada iOS:ille auttoi minua estämään %@ mainosta ja seurantaohjelmaa!";
 
 "main rate us header" = "Arvostele meidät!";
+"main rate us description" = "Mitä pidät Blokadasta toistaiseksi?";
+"main rate us on app store" = "Auttaisitko meitä arvioimalla Blokadan App Storesta?";
 "main rate us action sure" = "Toki!";
 
 // Make sure each tab name has a similar length
@@ -56,21 +66,51 @@
 "main tab advanced" = "Lisäasetukset";
 // Make sure each tab name has a similar length
 "main tab settings" = "Asetukset";
+
+"home ads counter footnote" = "mainosta ja seurantaohjelmaa on estetty asennuksen jälkeen";
 "home power off menu header" = "Mitä haluaisit tehdä?";
 "home power action turn on" = "Ota käyttöön";
 "home power action turn off" = "Kytke pois";
+"home power action pause" = "Pysäytä viideksi minuutiksi";
+
+"home status paused" = "PYSÄYTETTY";
 "home status active" = "AKTIIVINEN";
+"home status deactivated" = "DEAKTIVOITU";
 "home action tap to activate" = "napauta aktivoidaksesi";
+"home status detail paused" = "pysäytetty kunnes ajastin loppuu";
+"home status detail active" = "estetään *mainoksia* ja *seurantaohjelmia*";
+"home status detail active with counter" = "estetty *%@* mainosta ja seurantaohjelmaa";
+"home status detail plus" = "*+* suojataan *yksityisyyttäsi*";
 "home status detail progress" = "ole hyvä ja odota...";
+
+"home plus button deactivated" = "BLOKADA+ deaktivoitu";
 "home plus button select location" = "Valitse sijainti";
+"home plus button location" = "Sijainti: *%@*";
 
 "pack section header" = "Edistyneet ominaisuudet";
+"pack action install" = "HAE";
 "pack action update" = "PÄIVITÄ";
 "pack action uninstall" = "POISTA";
 "pack author" = "Tekijä";
 "pack configurations header" = "Konfiguraatiot";
 "pack information header" = "Lisää";
+"pack tags header" = "Tagit";
+"pack tags none" = "Ei mitään";
+"pack category highlights" = "Kohokohdat";
 "pack category active" = "Aktiivinen";
+"pack category all" = "Kaikki";
+
+"location choice header" = "Valitse sijainti";
+
+"activity section header" = "Tapahtumat";
+"activity request blocked" = "Tämä pyyntö on estetty.";
+"activity request allowed" = "Tämä pyyntö on sallittu.";
+"activity request allowed whitelisted" = "Tämä pyyntö on sallittu, koska se on sallittujen listassa";
+"activity request blocked blacklisted" = "Tämä pyyntö on estetty, koska se on estettyjen listassa";
+"activity actions header" = "Toiminnot";
+"activity information header" = "Tiedot";
+"activity action add to whitelist" = "Lisää Sallittuihin";
+"activity action remove from whitelist" = "Poista Sallituista";
 "activity action added to whitelist" = "Lisätty Sallittuihin";
 "activity action add to blacklist" = "Lisää Estettyihin";
 "activity action remove from blacklist" = "Poista Estetyistä";
@@ -94,5 +134,6 @@
 "account action manage subscription" = "Hallitse tilausta";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Laitteet";
+"payment feature title encrypt data" = "Salaa tiedot";
 
 "payment subscription 1 month" = "1 kuukausi";
