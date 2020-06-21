@@ -65,7 +65,7 @@
   <p>Fitur Blokada yang paling dikenal adalah kemampuannya untuk memblokir iklan. Blokada adalah lapisan tipis antara antarmuka jaringan (wifi atau mobile telepon) dan aplikasi yang Anda gunakan. Agar dapat menyaring setiap trafik keluar, Blokada akan membuat koneksi VPN lokal (tanpa layanan pihak ketiga) dan hanya memblokir setiap permintaan ke host yang ditentukan dalam filter yang ada di dalam blacklist. Pemblokiran iklan ini dilakukan dengan cara menghasilkan laporan sederhana berisi "Nama host tidak ditemukan" jika suatu aplikasi mencoba mengakses sebuah host yang telah tercantum di dalam blacklist. Dengan cara ini, Blokada menghemat paket data, baterai, dan waktu Anda: tidak ada pengalihan data yang terjadi. Filter diperbarui secara otomatis. Anda dapat mengkonfigurasi Blokada dengan filter dan whitelist buatan Anda sendiri untuk memastikan layanan dan/atau aplikasi yang Anda ingin gunakan tidak diblokir dan Anda tidak mengalami gangguan dalam menggunakan perangkat Anda.<br>
   Fitur ini tersedia secara gratis, dan akan tetap gratis untuk selamanya. Selamat menggunakan Blokada!</p>
   <p><a name="allowlist"></a>Jika suatu aplikasi tidak bekerja sebagaimana mestinya, tidak memunculkan kontennya atau Anda mengalami perilaku tidak lazim lainnya, silakan buka menu Blokada dengan cara menggeser ke atas, tekan <i>Pemblokiran Iklan</i> kemudian pilih <i>Host yang Diizinkan</i>, tekan tanda "+" di bagian atas dan tambahkan nama host atau file berisi daftar semua host yang Anda ingin izinkan untuk diakses.</p>
-  <p><a name="blocklist"></a> You can block an individual website what isn't on a host list. Untuk melakukannya, buka menu Blokada dengan cara menggeser ke atas, tekan <i>Pemblokiran Iklan</i>, pilih <i>Host yang Diblokir</i> kemudian tekan tanda "+" di bagian atas layar. Di sini Anda dapat menambahkan satu nama host atau file berisi daftar semua host yang ingin Anda blokir.</p>
+  <p><a name="blocklist"></a> Anda dapat memblokir situs yang tidak ada dalam daftar host satu per satu secara manual. Untuk melakukannya, buka menu Blokada dengan cara menggeser ke atas, tekan <i>Pemblokiran Iklan</i>, pilih <i>Host yang Diblokir</i> kemudian tekan tanda "+" di bagian atas layar. Di sini Anda dapat menambahkan satu nama host atau file berisi daftar semua host yang ingin Anda blokir.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>Di Blokada v4 kami memperkenalkan layanan baru, yaitu VPN yang dikelola oleh kami sendiri. Layanan ini kami perkenalkan untuk memastikan keamanan dan anonimitas Anda ketika berselancar di internet, di manapun Anda berada, apapun yang Anda lakukan. Silakan lihat artikel di <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">blog kami</a> untuk mempelajari lebih jauh mengenai VPN.<br>
@@ -89,7 +89,7 @@ DNS adalah singkatan dari Domain Name Server dan server inilah yang bertanggung 
 <p><ul>
     <li><b>Notifikasi</b>: jika diaktifkan, Anda akan diberi tahu saat iklan diblokir. Notifikasi ini diaktifkan secara otomatis, tetapi bisa dinonaktifkan jika Anda merasa notifikasi yang muncul terlalu banyak.</li>
     <li><b>Mulai saat boot</b>: ketika diaktifkan, Blokada akan mulai bekerja setelah sistem melakukan boot. Harap diingat ada konfigurasi di tingkat sistem untuk pilihan ini, oleh karena itu kami tidak dapat menjamin Blokada bisa langsung aktif saat boot. Jika hal ini terjadi, periksa pengaturan ponsel Anda. Konfigurasi standar diaktifkan, jika Anda ingin memulai Blokada secara manual, nonaktifkan pilihan ini.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storage? Jika Anda memilih penyimpanan eksternal, file konfigurasi Anda akan tersimpan di direktori /Download/Blokada.</li>
+    <li><b>Lokasi Penyimpanan Pengaturan</b>: di mana Anda ingin menyimpan konfigurasi yang telah Anda buat: penyimpanan internal atau eksternal? Jika Anda memilih penyimpanan eksternal, file konfigurasi Anda akan tersimpan di direktori /Download/Blokada.</li>
     <li><b>Animasi latar belakang</b>: animasi gelombang di latar belakang ini bisa Anda aktifkan atau nonaktifkan. Gelombang berwarna putih mewakili nama-nama host yang diizinkan, sementara gelombang berwarna oranye adalah host yang diblokir.</li>
     <li><b>Permintaan Log</b>: jika diaktifkan, Blokada akan membuat file berformat CSV berisi log permintaan akses yang telah diblokir dan/atau diizinkan untuk diakses oleh Blokada.</li>
     <li><b>Keep Alive</b>: pilihan ini berfungsi untuk memastikan Blokada tidak berhenti atau dihentikan oleh sistem. Harap diingat sistem Anda dapat mengambil alih pengaturan ini, pastikan pengaturan Anda akan mengizinkan Blokada untuk aktif di latar belakang.</li>
@@ -98,7 +98,7 @@ DNS adalah singkatan dari Domain Name Server dan server inilah yang bertanggung 
 </ul></p>
 
 <h4><a name="startup">Saya tidak bisa mengaktifkan Blokada setelah saya menginstalnya.</a></h4>
-<p>Ada dua penyebab umum untuk situasi seperti ini. Pertama, periksa apakah Anda memiliki koneksi VPN yang aktif dan apakah pilihan <i>VPN selalu-hidup</i> diaktifkan. To do it, go to your phone's Settings and search for VPN in the network section, tap on the gear next to the existing VPN. Nonaktifkan, kemudian lepaskan dari sambungan VPN aktif dan cobalah untuk me-restart Blokada.</p>
+<p>Ada dua penyebab umum untuk situasi seperti ini. Pertama, periksa apakah Anda memiliki koneksi VPN yang aktif dan apakah pilihan <i>VPN selalu-hidup</i> diaktifkan. Untuk melakukannya, buka pengaturan smartphone Anda, cari VPN di bagian jaringan, tekan ikon roda gigi di sebelah nama VPN pilihan Anda. Nonaktifkan, kemudian lepaskan dari sambungan VPN aktif dan cobalah untuk me-restart Blokada.</p>
 
 <p>Jika Anda tidak memiliki koneksi VPN lain yang sedang aktif, periksa apakah <i>Watchdog</i> diaktifkan di Pengaturan Lanjut, jika pengaturan tersebut aktif, periksa kembali apakah Anda tersambung ke jaringan seluler/Wi-Fi. Blokada tidak bekerja ketika <i>Watchdog</i> sudah diaktifkan dan Anda tidak terkoneksi ke internet.</p>
 
@@ -128,7 +128,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 
 <p>Hal-hal yang tidak dapat dikonfigurasi:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see this, you are running the most recent version of Blokada. Terus perbarui Blokada karena versi terbaru memiliki lebih sedikit bug dan lebih kaya fitur!</li>
+    <li><b>Terkini</b>: jika Anda melihat ini, berarti Anda sedang menggunakan Blokada versi terbaru. Terus perbarui Blokada karena versi terbaru memiliki lebih sedikit bug dan lebih kaya fitur!</li>
     <li><b># iklan diblokir</b>: jumlah konten yang tidak diinginkan yang sudah diblokir oleh Blokada sejak pertama kali diaktifkan</li>
     <li><b># host</b>: jumlah server yang menyajikan iklan, malware, dan konten yang tidak diinginkan lainnya</li>
 </ul></p>
@@ -143,7 +143,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
     <li>Coba mengatur ulang filter Anda: buka 'Ad blocking', kemudian pilih 'Pengaturan Daftar', pilih 'Daftar filter' (bukan Sinkronkan), pilih BUANG.</li>
     <li>Jika Anda melihat iklan di browser Anda, nonaktifkan segala jenis kompresi data atau pengoptimalan di pengaturan browser.</li>
     <li>Nonaktifkan Blokada, tutup (dengan menggesernya keluar dari layar Baru), dan aktifkan kembali.</li>
-    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes some time before the new configuration starts to take effect. Tunggu sebentar.</li>
+    <li>Jika Anda belakangan ini mengubah setelan (filter, whitelist, dll.), harap diingat bahwa perlu waktu sebelum konfigurasi yang baru mulai aktif dan bekerja. Tunggu sebentar.</li>
     <li>Hapus data aplikasi untuk Blokada (dalam pengaturan sistem), atau instal ulang.</li>
     <li>Mulai ulang/reboot perangkat Anda.</li>
     <li>Jika langkah-langkah di atas tetap tidak membantu, laporkan bug (lihat di bawah).</li>
@@ -162,7 +162,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <p>Jika pertanyaan Anda tidak bisa terjawab di sini, silakan bergabung dengan grup Telegram kami di tautan <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, komunitas kami siap membantu Anda. Atau cukup pilih Umpan Balik dari menu di sudut kanan atas dan ikuti petunjuknya. Harap sediakan sebanyak mungkin informasi dan sebutkan langkah-langkah yang telah Anda lakukan untuk mereproduksi masalah yang sama - hal itu akan sangat membantu kami dalam memecahkan masalah Anda! Jika Anda adalah pengguna mahir, Anda bisa juga langsung membuka pelacak masalah di GitHub.</p>
 
 <h4><a name="private">Bisakah Blokada melihat data pribadi saya?</a></h4>
-<p>Tidak. Blokada tidak membaca atau mengutak-atik informasi pribadi Anda, hanya memonitor host mana yang mengajukan permintaan koneksi di perangkat Anda dan memblokir host yang terdaftar di filter. Every time Blokada blocks anything, you will see a notification (that you can turn off). Blokada tidak dapat mengakses lalu lintas data terenkripsi Anda.</p>
+<p>Tidak. Blokada tidak membaca atau mengutak-atik informasi pribadi Anda, hanya memonitor host mana yang mengajukan permintaan koneksi di perangkat Anda dan memblokir host yang terdaftar di filter. Setiap kali Blokada memblokir apa pun, Anda akan mendapat pemberitahuan (yang bisa Anda matikan kapan saja). Blokada tidak dapat mengakses lalu lintas data terenkripsi Anda.</p>
 
 <h4><a name="battery">Apakah Blokada boros baterai?</a></h4>
 <p>Tidak. Blokada hanya menggunakan sedikit daya, namun hal ini tergantung pada pengaturan Anda, dan pada sebagian besar perangkat baru, terutama pada Marshmallow (Android 6) atau yang lebih baru, Anda tidak akan mengalami penurunan baterai yang signifikan. Namun, beberapa perangkat yang tidak beruntung mungkin mengalami pengurangan daya baterai yang cukup signifikan.
@@ -177,7 +177,7 @@ Sebagai alternatif, Anda dapat mengaktifkan lebih banyak daftar host atau menamb
 <p>Ada banyak cara untuk mendukung Blokada, baik secara finansial ataupun cara-cara lainnya. Bantuan dalam bentuk apapun sangat penting untuk memastikan proyek ini dapat tetap berjalan. <a href="contribute.html">Silakan buka halaman ini untuk informasi lebih lanjut</a>, atau <a href="http://go.blokada.org/chat">bergabung dengan obrolan kami</a>.</p>
 
 <h4><a name="other">Saya punya pertanyaan lain, kemana saya bisa bertanya?</a></h4>
-<p>If your question is not answered here, please join our Telegram chat channel, our community will be there to help you. Jika Anda tidak berkenan menggunakan Telegram, silakan gunakan opsi Umpan Balik dari menu atas, atau jika Anda memiliki pertanyaan yang lebih teknis, Anda bisa langsung menuju ke pelacak masalah di GitHub.</p>
+<p>Jika Anda tidak menemukan solusi untuk masalah Anda, silakan bergabung dengan kanal Telegram kami. Komunitas Blokada siap membantu Anda. Jika Anda tidak berkenan menggunakan Telegram, silakan gunakan opsi Umpan Balik dari menu atas, atau jika Anda memiliki pertanyaan yang lebih teknis, Anda bisa langsung menuju ke pelacak masalah di GitHub.</p>
         </section>
     </div>
 </div>
