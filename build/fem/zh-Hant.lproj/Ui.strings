@@ -100,15 +100,60 @@
 "pack category active" = "作用中";
 "pack category all" = "全部";
 
+"location choice header" = "選擇位置";
+
 "activity section header" = "活動";
+"activity request blocked" = "此請求已被封鎖。";
+"activity request allowed" = "此請求已被允許。";
+"activity request allowed whitelisted" = "此請求已被允許，因為其在您的允許清單中";
+"activity request blocked blacklisted" = "此請求已被封鎖，因為其在您的封鎖清單中";
+"activity actions header" = "動作";
+"activity information header" = "資訊";
+"activity action add to whitelist" = "新增至允許";
+"activity action remove from whitelist" = "從允許移除";
+"activity action added to whitelist" = "已新增至允許";
+"activity action add to blacklist" = "新增至封鎖";
+"activity action remove from blacklist" = "從封鎖移除";
+"activity action added to blacklist" = "已新增至封鎖";
+"activity action copy to clipboard" = "複製名稱到剪貼簿";
+"activity domain name" = "完整名稱";
+"activity time of occurrence" = "時間";
+"activity number of occurrences" = "出現次數";
+"activity state modified" = "已修改";
 "activity state blocked" = "已阻擋";
+"activity state allowed" = "已允許";
+"activity happened one time" = "1 次";
+"activity happened many times" = "%@ 次";
+"activity category recent" = "最近";
+"activity category top" = "最多";
+"activity category top blocked" = "最多封鎖";
+"activity category top allowed" = "最多允許";
+"activity filter header" = "您想查看哪些項目？";
+"activity filter show all" = "顯示所有項目";
+"activity filter show blocked" = "僅顯示已封鎖";
+"activity filter show allowed" = "僅顯示已允許";
 
 "account section header settings" = "設定";
+"account status text" = "您的 BLOKADA %@ 帳號有效日期至 %@ 為止。";
+"account section header primary" = "主要";
 "account section header other" = "其他";
+"account action my account" = "我的帳號";
+"account action encryption" = "加密";
 "account action devices" = "裝置";
+"account action inbox" = "Inbox";
+"account action logout" = "登出";
 "account action about" = "關於";
+
+"account section header my subscription" = "我的訂閱";
+"account section header general" = "一般";
+"account section header subscription" = "訂閱";
 "account label id" = "帳號 ID";
+"account label type" = "帳號類型";
+"account label active until" = "使用到";
 "account action manage subscription" = "管理訂閱";
+"account action why upgrade" = "為什麼要升級？";
+
+"account unlock to show" = "解鎖以顯示您的帳號 ID";
 
 "account header logout" = "登出";
 "account logout description" = "請輸入其他帳號 ID，或是返回使用現有帳號（此 App 需要帳號才可使用）";
@@ -119,14 +164,52 @@
 "account encrypt level medium" = "中";
 "account encrypt level high" = "高";
 "account encrypt label dns only" = "加密 DNS";
+"account encrypt desc dns only" = "域名系統是您的裝置知道如何找到您想造訪的網站的方式。不幸的是，網際網路大部份的流量都還是使用未加密的 DNS，這讓您的瀏覽歷史有被竊取的風險。啟用後，Blokada 會強制您的裝置僅連線至加密的 DNS 伺服器（又稱為 DNS over HTTPS）。";
 "account encrypt label everything" = "全部加密";
+"account encrypt desc everything" = "您的裝置正透過我們的安全 VPN 伺服器連線至網際網路，並使用強大的加密演算法保護您裝置所有的通訊。這樣可以防止您的個人資訊（如銀行資料或個人照片）在不安全的地方（如咖啡廳的 WiFi）被盜。";
 "account encrypt action turn on" = "開啟 BLOKADA";
 "account encrypt header level" = "加密級別";
 "account encrypt label level" = "級別";
 "account encrypt label level low" = "低：不加密";
 "account encrypt label level medium" = "中：加密 DNS";
 "account encrypt label level high" = "高：全部加密";
+"account encrypt header explanation" = "DNS 是您的裝置知道如何找到您想造訪的網站的方式。BLOKADA 僅支援加密的伺服器。";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS 是什麼？";
+"account encrypt section header" = "加密";
+
+"account lease label devices list" = "這些裝置已連結至您的帳號。";
 "account lease label devices" = "裝置";
+"account lease label this device" = " （此裝置）";
+
+"account support action how help" = "我們能幫您什麼嗎？";
+"account support action kb" = "開啟知識庫";
+
+"payment header activated" = "已啟用！";
+"payment activated description" = "Blokada 將會切換到 Plus 模式，並透過我們的其中一個安全位置進行連線。如果不確定要怎麼選擇的話，就選最近的一個。";
+"payment action choose location" = "選擇位置";
+
+"payment title" = "升級至我們的 VPN 服務以控制 *您的隱私*。";
+"payment feature title change location" = "變更位置";
+"payment feature desc change location" = "隱藏您的 IP 位置並假裝您在其他國家。這將讓您降低被第三方攻擊的機會，並協助您保護您的身份。";
+"payment feature title encrypt data" = "加密資料";
+"payment feature desc encrypt data" = "透過我們的 VPN 隧道傳送的資料使用強大的演算法來加密以防止未經授權的人員攔截。";
+"payment feature title faster connection" = "較快速的連線";
+"payment feature desc faster connection" = "在世界各地的伺服器上最高可達 100Mbps。";
+"payment feature title devices" = "最多 5 個裝置";
+"payment feature desc devices" = "使用相同的帳號以在最多 5 個裝置上分享您的訂閱：iOS、Android 或 PC。";
+"payment feature title no ads" = "無廣告";
+"payment feature desc no ads" = "繼續使用世界知名的 Blokada 廣告封鎖技術，同時提升保護等級並保護您資料的隱私。";
+"payment feature title support" = "最佳支援";
+"payment feature desc support" = "歸功能我們的客戶支援與充滿活力的開放原始碼社群，您的任何問題都可以得到很迅速的答覆。";
+"payment action see all features" = "檢視所有功能";
+"payment action restore" = "還原購買";
+"payment action terms and privacy" = "條款與隱私";
+"payment action terms" = "服務條款";
+"payment action policy" = "隱私權政策";
+"payment alert error header" = "來自 App Store 的訊息";
 
 "payment subscription 1 month" = "1 個月";
+"payment subscription many months" = "%@ 個月";
+"payment subscription per month" = "每月 %@";
+"payment subscription offer" = "省下 %@";

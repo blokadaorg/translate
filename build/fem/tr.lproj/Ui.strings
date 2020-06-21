@@ -7,8 +7,12 @@
 */
 
 "error device offline" = "Cihazınız çevrimdışı";
+"error account inactive" = "Hesabınız etkin değil. BLOKADA+ sürümünü kullanmaya devam etmek için lütfen hesabınızı etkinleştirin.";
+"error account inactive after restore" = "Bu geçerli bir etkin hesap gibi görünmüyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error creating account" = "Yeni bir hesap oluşturulamadı. Lütfen daha sonra tekrar deneyin.";
+"error fetching data" = "Bu işlem tamamlanamadı. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, üstteki yardım simgesine dokunarak lütfen bize ulaşın.";
 
-"universal action continue" = "İleri";
+"universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
 "universal action close" = "Kapat";
 "universal action learn more" = "Daha fazla bilgi edin";
@@ -29,19 +33,49 @@
 "main tab settings" = "Ayarlar";
 "home power action turn on" = "Aç";
 "home power action turn off" = "Kapat";
+"home power action pause" = "5 dakika duraklat";
+
+"home status paused" = "DURAKLATILDI";
 "home status active" = "ETKİN";
 "home status detail progress" = "lütfen bekleyin...";
-"pack information header" = "Daha";
+"pack action update" = "GÜNCELLE";
+"pack action uninstall" = "KALDIR";
+"pack information header" = "Daha fazla";
 "pack category active" = "Aktif";
 "activity state blocked" = "engellendi";
 
 "account section header settings" = "Ayarlar";
 "account section header other" = "Diğer";
+"account action my account" = "Hesabım";
+"account action encryption" = "Şifreleme";
 "account action devices" = "Cihazlar";
+"account action inbox" = "Gelen Kutusu";
+"account action logout" = "Çıkış yap";
 "account action about" = "Hakkında";
+
+"account section header my subscription" = "Aboneliğim";
+"account section header general" = "Genel";
+"account section header subscription" = "Abonelik";
 "account label id" = "Hesap Kimliği";
+"account label type" = "Hesap türü";
 "account action manage subscription" = "Aboneliği yönet";
+
+"account header logout" = "Oturumu kapat";
+
+"account encrypt level low" = "Düşük";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS nedir?";
+
+"account lease label devices list" = "Bu cihazlar hesabınıza bağlı.";
 "account lease label devices" = "Cihazlar";
+"account lease label this device" = " (bu cihaz)";
+
+"account support action how help" = "Size nasıl yardımcı olabiliriz?";
+"account support action kb" = "Açık Bilgi Bankası";
+
+"payment header activated" = "Etkinleştirildi!";
 
 "payment subscription 1 month" = "1 ay";
+"payment subscription many months" = "%@ ay";
+"payment subscription per month" = "Aylık %@";
+"payment subscription offer" = "%@ indirim";

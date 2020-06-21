@@ -78,6 +78,7 @@
 "home status deactivated" = "DEZACTIVAT";
 "home action tap to activate" = "atinge pentru a activa";
 "home status detail paused" = "în pauză până se termină cronometrul";
+"home status detail active" = "în curs de blocare *reclame* și *trackere*";
 "home status detail active with counter" = "blocat *%@* reclame și trackere";
 "home status detail plus" = "*+* îți protejează *intimitatea*";
 "home status detail progress" = "vă rugăm așteptați...";
@@ -95,6 +96,7 @@
 "pack information header" = "Mai multe";
 "pack tags header" = "Etichete";
 "pack tags none" = "Nici unul";
+"pack category highlights" = "Evidențieri";
 "pack category active" = "Activ";
 "pack category all" = "Toate";
 
@@ -123,6 +125,7 @@
 "activity happened one time" = "o dată";
 "activity happened many times" = "%@ ori";
 "activity category recent" = "Recent(e)";
+"activity category top" = "Top";
 "activity category top blocked" = "Top blocate";
 "activity category top allowed" = "Top Permise";
 "activity filter header" = "Ce intrări ați dori să vedeţi?";
@@ -153,6 +156,7 @@
 "account unlock to show" = "Deblocați pentru a arăta ID-ul contului dvs.";
 
 "account header logout" = "Iesire din cont";
+"account logout description" = "Vă rugăm să introduceți un alt ID de cont sau mergiți înapoi pentru a păstra contul existent (această aplicație nu poate fi folosită fără cont).";
 "account id status unchanged" = "(neschimbat)";
 "account action how to restore" = "Cum îmi pot recupera contul meu vechi?";
 
@@ -180,17 +184,22 @@
 "account support action kb" = "Deschide Baza de Cunostințe";
 
 "payment header activated" = "Activat!";
+"payment activated description" = "Blokada va trece acum la modul Plus și se va conecta prin una dintre locațiile noastre sigure. Dacă nu sunteţi sigur pe care să o alegeţi, se recomandă locația cea mai apropiat de dvs.";
 "payment action choose location" = "Alegeți o locație";
 
 "payment title" = "Treciți la serviciul nostru VPN pentru a rămâne in controlul *intimitați dvs.*.";
 "payment feature title change location" = "Schimbă locația";
+"payment feature desc change location" = "Ascundeți-vă adresa IP și pretindeți că sunteți în altă țară. Acest lucru vă va masca de la terțe părți și vă va ajuta să vă protejați identitatea.";
 "payment feature title encrypt data" = "Criptare date";
+"payment feature desc encrypt data" = "Datele trimise prin tunelul nostru VPN sunt criptate folosind algoritmi puternici pentru a fi protejate împotriva interceptării de către părți neautorizate.";
 "payment feature title faster connection" = "Conexiune mai rapidă";
 "payment feature desc faster connection" = "Viteze mari de până la 100 Mbps cu servere în diferite părți ale lumii.";
 "payment feature title devices" = "Până la 5 dispozitive";
 "payment feature desc devices" = "Folosiți același cont pentru a partaja abonamentul cu până la 5 dispozitive: iOS, Android sau PC.";
 "payment feature title no ads" = "Fără Reclame";
+"payment feature desc no ads" = "Continuați să folosiți faimoasa tehnologie Blokada în timp ce vă îmbunătățiți nivelul de protecție și păstrați-vă datele în mod privat.";
 "payment feature title support" = "Asistență de Calitate";
+"payment feature desc support" = "Obțineți un răspuns prompt la orice întrebări datorită Asistenței noastre menită pentru clienți și comunității noastre open source.";
 "payment action see all features" = "Vezi toate caracteristicile";
 "payment action restore" = "Restabilește achizițiile";
 "payment action terms and privacy" = "Termenii de utilizare și confidențialitate";
