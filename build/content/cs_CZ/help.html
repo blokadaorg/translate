@@ -65,7 +65,7 @@
   <p>Nejznámější vlastností Blokady je blokování reklam. Je to tenká vrstva mezi síťovým rozhraním (WiFi nebo mobilním) telefonu a aplikací, kterou používáte. Aby bylo možné filtrovat všechny odchozí provozy, používá se rozhraní VPN, které jednoduše blokuje požadavky na hostitele definované ve filtrech černé listiny. Toto blokování se provádí pomocí jednoduché sestavy "Hostname not found" pro aplikaci, která se pokouší o přístup k názvu hostitele, který je blokován. Díky tomu Blokada šetří vaše mobilní data, životnost baterie i čas: nedochází k přesměrování. Filtry se aktualizují automaticky. Blokadu můžete nakonfigurovat pomocí vlastních filtrů a Seznamu povolených, abyste zajistili, že služba, kterou chcete používat, nebude zablokována.<br>
   Tato funkce je k dispozici zdarma a zůstane zdarma. Užívejte si Blokadu!</p>
   <p><a name="allowlist"></a>Pokud aplikace nefunguje podle očekávání, nenačte se její obsah, nebo se vyskytne nějak podobně špatné chování, otevřete nabídku Blokady posunutím nahoru, klepněte na položku <i>Blokování reklam</i>, vyberte možnost <i>Povolení hostitelé </i>, klepněte nahoře na znaménko + a přidejte jeden název hostitele nebo soubor obsahující seznam všech hostitelů, které chcete filtrovat.</p>
-  <p><a name="blocklist"></a> Můžete blokovat i jednotlivé webové stránky, které nejsou na seznamu blocklistů. Chcete-li to provést, přejděte do nabídky Blokady posunutím nahoru, klepněte na položku <i>Blokování reklam</i>, vyberte možnost <i>Blokovaní hostitelé</i> a klepněte na znak + v horní části obrazovky. Zde můžete přidat jeden název hostitele nebo soubor obsahující seznam všech hostitelů, které chcete blokovat.</p>
+  <p><a name="blocklist"></a> You can block an individual website what isn't on a host list. Chcete-li to provést, přejděte do nabídky Blokady posunutím nahoru, klepněte na položku <i>Blokování reklam</i>, vyberte možnost <i>Blokovaní hostitelé</i> a klepněte na znak + v horní části obrazovky. Zde můžete přidat jeden název hostitele nebo soubor obsahující seznam všech hostitelů, které chcete blokovat.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>V Blokadě v4 je zavedena nová služba, je to vlastní VPN. Tato služba vám přináší zabezpečení a anonymitu na internetu bez ohledu na to, kde se nacházíte a co děláte. Více informací o této funkci naleznete v článku <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">zde</a> na našem blogu.<br>
@@ -89,7 +89,7 @@
 <p><ul>
     <li><b>Oznámení</b>: Pokud je povoleno, budete upozorněni při každém zablokování reklamy. To je ve výchozím stavu zapnuté, ale pokud budete dostávat spoustu oznámení, raději jej vypněte.</li>
     <li><b>Spustit při spuštění systému</b>: Pokud je povoleno, Blokada začne fungovat ihned po spuštění systému. Vezměte prosím na vědomí, že pro tuto volbu existují konfigurace na úrovni systému, proto nelze zaručit, že Blokada bude spuštěna po spuštění operačního systému. V tomto případě prosím zkontrolujte nastavení vašeho telefonu. Ve výchozí konfiguraci je tato funkce povolena, pokud chcete Blokadu spustit ručně, deaktivujte tuto možnost.</li>
-    <li><b>Nastavení umístění</b>: kde chcete uložit konfiguraci: do interního nebo externího úložiště? Pokud si zvolíte externí, soubory budou dostupné v adresáři /Download/Blokada.</li>
+    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storage? Pokud si zvolíte externí, soubory budou dostupné v adresáři /Download/Blokada.</li>
     <li><b>Animace na pozadí</b>: můžete povolit nebo zakázat animace na pozadí, zobrazující vlny. Bílé vlny představují povolené dotazy hostitele, zatímco oranžové jsou blokované.</li>
     <li><b>Protokolování požadavků</b>: pokud je tato možnost povolena, Blokada vygeneruje soubor CSV a požadavky protokolu, které byly povoleny a/nebo blokovány aplikací.</li>
     <li><b>Udržet naživu</b>: tato možnost zajistí, že Blokada nebude systémem pozastavena nebo zastavena. Vezměte prosím na vědomí, že váš systém jej může přepsat, ujistěte se, že vaše nastavení umožní aplikaci Blokada běh na pozadí.</li>
@@ -98,7 +98,7 @@
 </ul></p>
 
 <h4><a name="startup">Blokada nejde po instalaci spustit.</a></h4>
-<p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a aby možnost <i>Vždy VPN zapnutá</i> byla povolena. Chcete-li to provést, přejděte do Nastavení telefonu, vyhledejte VPN v části nastavení sítě a klepněte na "ozubené kolečko" vedle existující sítě VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
+<p>Existují dvě možné příčiny proč se tak děje. Nejprve prosím zkontrolujte, zda máte aktivní připojení VPN a aby možnost <i>Vždy VPN zapnutá</i> byla povolena. To do it, go to your phone's Settings and search for VPN in the network section, tap on the gear next to the existing VPN. Deaktivujte jej, odpojte od aktivního připojení VPN a pokuste se Blokadu restartovat.</p>
 
 <p>Pokud nemáte jiné VPN připojení, zkontrolujte, zda je v sekci Pokročilá nastavení povolena volba <i>Hlídací pes</i>. Pokud ano, zkontrolujte, zda jste připojeni k internetu, a to buď prostřednictvím WiFi nebo mobilní sítě. Blokada se nespustí, pokud je volba <i>Hlídací pes</i> povolena a nemáte aktivní připojení k internetu.</p>
 
@@ -127,7 +127,7 @@
 
 <p>Nekonfigurovatelné věci:</p>
 <p><ul>
-    <li><b>Aktuální</b>: pokud toto vidíte, používáte nejnovější verzi Blokady. Udržujte aplikaci aktualizovanou, protože nejnovější verze má vždy méně chyb a více funkcí!</li>
+    <li><b>Up to date</b>: if you see this, you are running the most recent version of Blokada. Udržujte aplikaci aktualizovanou, protože nejnovější verze má vždy méně chyb a více funkcí!</li>
     <li><b># reklam zablokováno</b>: počet nežádoucího obsahu, který blokuje Blokada od jejího prvního spuštění</li>
     <li><b># hostitelů</b>: počet serverů, které evidují reklamy, škodlivý software a další nežádoucí obsah</li>
 </ul></p>
@@ -142,7 +142,7 @@
     <li>Zkuste resetovat filtry: přejděte na „Blokování reklam“, klepněte na „Nastavení seznamu“, klepněte na „Seznam filtrů“ (nikoli na Synchronizovat), zvolte ZRUŠIT.</li>
     <li>Pokud se v prohlížeči zobrazují reklamy, deaktivujte v nastavení prohlížeče jakýkoli druh komprese nebo optimalizace provozu.</li>
     <li>Deaktivujte Blokadu, zavřete ji (odstraněním z obrazovky běžících aplikací) a opět ji zapněte.</li>
-    <li>Pokud jste nedávno změnili nastavení (filtry, seznam povolených, atd.), Nezapomeňte, že trvá určitou dobu, než začne nová konfigurace fungovat. Dejte tomu nějaký čas.</li>
+    <li>If you recently changed your settings (filters, allowlist, etc), remember it takes some time before the new configuration starts to take effect. Dejte tomu nějaký čas.</li>
     <li>Vymažte data aplikace Blokada (v systémových nastaveních) nebo ji znovu nainstalujte.</li>
     <li>Restartujte zařízení.</li>
     <li>Pokud žádný z těchto kroků nepomohl, nahlaste chybu (viz níže).</li>
@@ -161,7 +161,7 @@
 <p>Pokud máte potíže, připojte se k našemu chatu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kde vám naše komunita ráda pomůže. Můžete také zvolit možnost Zpětné vazby z nabídky v pravém horním rohu a postupovat podle pokynů. Uveďte co nejvíce informací a kroky k reprodukci stejného problému - to nám velmi pomůže při řešení problému! Pokud jste profesionálním uživatelem, můžete jít přímo na web nástroje GitHub pro sledování problémů.</p>
 
 <h4><a name="private">Může Blokada vidět moje soukromá data?</a></h4>
-<p>Ne. Blokada nečte ani nemanipuluje s vašimi osobními informacemi, ale pouze monitoruje, kteří hostitelé na vašem zařízení podávají žádosti a blokuje ty, které odpovídají vámi zvoleným filtrům. Pokaždé, když Blokada zablokuje reklamu, uvidíte oznámení (to můžete vypnout). Blokada nemá přístup k šifrovaným přenosům.</p>
+<p>Ne. Blokada nečte ani nemanipuluje s vašimi osobními informacemi, ale pouze monitoruje, kteří hostitelé na vašem zařízení podávají žádosti a blokuje ty, které odpovídají vámi zvoleným filtrům. Every time Blokada blocks anything, you will see a notification (that you can turn off). Blokada nemá přístup k šifrovaným přenosům.</p>
 
 <h4><a name="battery">Má Blokada velkou spotřebu energie?</a></h4>
 <p>Ne. V závislosti na vašich nastaveních je dopad na baterii minimální a na většině nových zařízení, zejména na zařízeních se systémem ve verzi Marshmallow (Android 6) nebo novějším, nezaznamenáte žádný úbytek baterie. Některé přístroje mohou zaznamenat zvýšené vybíjení baterie. To bývá však výjimkou.
@@ -176,7 +176,7 @@
 <p>Existuje mnoho způsobů, jak podpořit Blokadu, finančně či jinak. Všechny způsoby pomoci jsou pro projekt velmi důležité. <a href="contribute.html">Přejděte prosím na tuto stránku pro více informací</a>, nebo se jen <a href="http://go.blokada.org/chat">připojte k chatu </a>.</p>
 
 <h4><a name="other">Mám další otázky, kde se mohu zeptat?</a></h4>
-<p>Pokud jste zde nenašli odpovědi na vaše další otázky, připojte se k našemu chatu na Telegramu na adrese <a href="http://go.blokada.org/chat">go.blokada.org/chat</a>, kde vám naše komunita ráda pomůže. Pokud to není pro vás vhodná cesta, použijte možnost Zpětné vazby z horního menu, nebo máte-li otázku technického rázu, přejděte prosím přímo na GitHub.</p>
+<p>If your question is not answered here, please join our Telegram chat channel, our community will be there to help you. Pokud to není pro vás vhodná cesta, použijte možnost Zpětné vazby z horního menu, nebo máte-li otázku technického rázu, přejděte prosím přímo na GitHub.</p>
         </section>
     </div>
 </div>
