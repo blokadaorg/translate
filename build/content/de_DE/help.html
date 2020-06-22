@@ -65,7 +65,7 @@
   <p>Blokadas bekannteste Funktion ist das Blockieren von Werbung. Es richtet zwischen der Netzwerkschnittstelle (WLAN oder Mobilfunknetz) deines Geräts und den Anwendungen, die du verwendest, eine Zwischenebene ein. Um jeden ausgehenden Datenverkehr filtern zu können, wird eine lokale VPN-Verbindung aufgebaut, über die alle Anfragen, die in den Filterlisten oder auf deiner Blacklist stehen, einfach blockiert werden. Erreicht wird diese Blockade durch eine einfache "Hostname nicht gefunden"-Meldung an die Anwendung, die versucht, auf einen blockierten Hostnamen zuzugreifen. Damit spart Blokada sowohl Datenvolumen als auch Akkukapazität und Zeit, da keine Weiterleitung durchgeführt wird. Die Filter werden automatisch aktualisiert. Du kannst Blokada mit deinen eigenen benutzerdefinierten Filtern und Whitelists konfigurieren, um sicherzustellen, dass der Dienst, den du verwenden möchtest, nicht blockiert wird und keine Unterbrechungen auftreten.<br>
  Diese Funktion steht kostenlos zur Verfügung und wird kostenlos bleiben. Viel Spaß mit Blokada!</p>
   <p><a name="allowlist"></a>Wenn eine App nicht wie erwartet funktioniert, Inhalte nicht lädt oder ein ähnliches Fehlverhalten auftritt, öffne bitte das Menü, indem du von unten nach oben wischst, tippe dann auf <i>Werbeblocker</i>, wähle <i>Erlaubte Hosts</i>, tippe auf das +-Zeichen und füge einen einzelnen Hostnamen oder eine Listendatei hinzu, die alle Hosts enthält, die an der Filterung vorbeigeleitet werden sollen.</p>
-  <p><a name="blocklist"></a> You can block an individual website what isn't on a host list. Dafür öffne das Menu von Blokada, indem du von unten nach oben wischst, tippe auf <i>Werbeblocker</i>, dann auf <i>Blockierte Hosts</i> und schließlich auf das +-Zeichen. Dort kannst du dann einzelne Hosts oder eine Liste mit mehreren Hosts, die du blockieren möchtest, hinzufügen.</p>
+  <p><a name="blocklist"></a> Du kannst einzelne Webseiten blockieren, die sich nicht auf einer Hostliste befinden. Dafür öffne das Menu von Blokada, indem du von unten nach oben wischst, tippe auf <i>Werbeblocker</i>, dann auf <i>Blockierte Hosts</i> und schließlich auf das +-Zeichen. Dort kannst du dann einzelne Hosts oder eine Liste mit mehreren Hosts, die du blockieren möchtest, hinzufügen.</p>
 
 <h4><a name="vpn">VPN</a></h4>
   <p>Seit Blokada Version 4 gibt es einen neuen Service, ein von Blokada bereitgestelltes VPN. Dieser Service wird dir zur Verfügung gestellt, um deine Sicherheit und Anonymität im Internet zu gewährleisten, unabhängig davon, wo du dich befindest und was du tust. Bitte besuche unseren Blog-Artikel <a href="https://block.blokada.org/post/2019/07/11/what-is-vpn/">hier</a>, um mehr über diese Funktion zu erfahren.<br>
@@ -89,7 +89,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
 <p><ul>
     <li><b>Benachrichtigungen</b>: Wenn aktiviert, wirst du benachrichtigt, wenn eine Anzeige blockiert wird. Sie ist standardmäßig aktiviert, aber wenn du viele Benachrichtigungen erhältst, schalte sie aus.</li>
     <li><b>Autostart</b>: Wenn diese Option aktiviert ist, wird Blokada nach dem Hochfahren des Systems gestartet. Bitte beachte, dass es für diese Option Einstellungen auf Systemebene gibt, weshalb nicht garantiert werden kann, dass Blokada beim Booten gestartet werden kann. Überprüfe in diesem Fall die Einstellungen deines Geräts. Die Standardkonfiguration ist aktiviert. Wenn du Blokada manuell starten möchtest, deaktiviere diese Option.</li>
-    <li><b>Settings location</b>: where do you want to store the configuration: in the internal or external storage? Wenn du den externen wählst, liegen die Dateien im Verzeichnis /Download/Blokada.</li>
+    <li><b>Speicherort für Einstellungen</b>: Wo soll deine Konfiguration gespeichert werden: im internen oder externen Speicher? Wenn du den externen wählst, liegen die Dateien im Verzeichnis /Download/Blokada.</li>
     <li><b>Hintergrundanimation</b>: Die Hintergrundanimation in Form von Wellen kann aktiviert oder deaktiviert werden. Weiße Wellen stellen die erlaubten Host-Anfragen dar, während die orangen die blockierten sind.</li>
     <li><b>Protokollierung anfordern</b>: Wenn aktiviert, generiert Blokada eine CSV-Datei und protokolliert Anfragen, die von der App genehmigt und/oder blockiert wurden.</li>
     <li><b>Aktiv halten</b>: Mit dieser Option wird sichergestellt, dass Blokada nicht vom System angehalten oder beendet wird. Bitte beachte, dass dein System es überschreiben kann, stelle sicher, dass deine Einstellungen Blokada im Hintergrund laufen lassen.</li>
@@ -98,7 +98,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
 </ul></p>
 
 <h4><a name="startup">Ich kann Blokada nicht starten, nachdem ich es installiert habe.</a></h4>
-<p>Für diese Situation gibt es zwei mögliche Ursachen. Überprüfe zuerst, ob du eine aktive VPN-Verbindung hast und ob die Option <i>Durchgehend aktives VPN</i> aktiviert ist. To do it, go to your phone's Settings and search for VPN in the network section, tap on the gear next to the existing VPN. Trenne die aktive VPN-Verbindung und versuche Blokada neu zu starten.</p>
+<p>Für diese Situation gibt es zwei mögliche Ursachen. Überprüfe zuerst, ob du eine aktive VPN-Verbindung hast und ob die Option <i>Durchgehend aktives VPN</i> aktiviert ist. Um dies zu tun, geh zu den Einstellungen deines Telefons und suchen im Netzwerkbereich nach VPN, tippen dann auf die Einstellungen neben dem vorhandenen VPN. Trenne die aktive VPN-Verbindung und versuche Blokada neu zu starten.</p>
 
 <p>Wenn du keine andere VPN-Verbindung hast, kannst du in den Blokada-Einstellungen überprüfen, ob <i>Watchdog</i> aktiviert ist. Falls das der Fall ist, überprüfe bitte, ob du mit dem Internet (WLAN oder mobile Daten) verbunden bist. Blokada kann nicht starten, wenn <i>Watchdog</i> aktiviert ist und du keine Internetverbindung hast.</p>
 
@@ -125,7 +125,7 @@ Dieser Service kostet 5€/Monat. Bitte lese unsere Allgemeinen Geschäftsbeding
 
 <p>Nicht konfigurierbare Dinge:</p>
 <p><ul>
-    <li><b>Up to date</b>: if you see this, you are running the most recent version of Blokada. Halte die App auf dem neuesten Stand, da neue Versionen weniger Bugs und mehr Funktionen enthalten!</li>
+    <li><b>Aktuell</b>: Wenn du dies siehst, verwendest du die aktuellste Version von Blokada. Halte die App auf dem neuesten Stand, da neue Versionen weniger Bugs und mehr Funktionen enthalten!</li>
     <li><b># Anzeigen blockiert</b>: Die Anzahl der unerwünschten Inhalte, die Blokada seit dem ersten Start blockiert hat</li>
     <li><b># hosts</b>: Anzahl der Server, auf denen Werbung, Malware und andere unerwünschte Inhalte geschaltet werden</li>
 </ul></p>
