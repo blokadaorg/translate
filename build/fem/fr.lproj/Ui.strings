@@ -22,6 +22,7 @@
 "error payment not available" = "Les paiements sont indisponibles sur cet appareil. Soit vous n'avez pas activé Apple Pay, soit nous ne prenons pas encore en charge les paiements dans votre pays.";
 "error payment canceled" = "Paiement annulé. Vous n'avez pas été débité.";
 "error pack install" = "Impossible d'installer (ou désinstaller) cette fonctionnalité. Veuillez réessayer plus tard.";
+"error unknown" = "Un problème inconnu est survenu. Veuillez réessayer. Si le problème persiste, contactez-nous en cliquant sur l'icône d'aide en haut.";
 
 "universal action continue" = "Continuer";
 "universal action cancel" = "Annuler";
@@ -75,6 +76,10 @@
 "home status active" = "ACTIF";
 "home status deactivated" = "DÉSACTIVÉ";
 "home action tap to activate" = "cliquez pour activer";
+"home status detail paused" = "mis en pause jusqu'à la fin du timer";
+"home status detail active" = "bloque les *pubs* et *trackers*";
+"home status detail active with counter" = "a bloqué *%@* pubs et trackers";
+"home status detail plus" = "*+* protège votre *vie privée*";
 "home status detail progress" = "veuillez patienter...";
 
 "home plus button deactivated" = "BLOKADA+ désactivé";
@@ -82,6 +87,7 @@
 "home plus button location" = "Emplacement : *%@*";
 
 "pack section header" = "Fonctionnalités avancées";
+"pack action install" = "AVOIR";
 "pack author" = "Auteur";
 "pack configurations header" = "Configurations";
 "pack information header" = "Plus";
@@ -108,6 +114,7 @@
 
 "account section header settings" = "Paramètres";
 "account status text" = "Votre compte BLOKADA %@ est actif jusqu'au %@.";
+"account section header primary" = "Principal";
 "account section header other" = "Autre";
 "account action my account" = "Mon compte";
 "account action encryption" = "Chiffrement";
@@ -124,6 +131,8 @@
 "account label active until" = "Actif jusqu'au";
 "account action manage subscription" = "Gérer mon abonnement";
 "account action why upgrade" = "Pourquoi devrais-je me mettre à niveau ?";
+
+"account unlock to show" = "Débloquez pour afficher l'ID de votre compte";
 
 "account header logout" = "Déconnexion";
 "account id status unchanged" = "(inchangé)";
