@@ -200,4 +200,5 @@
     <string name="slot_reset_counter_action">Resetare</string>
     <string name="label_workarounds">Rezolvări specifice dispozitivului</string>
     <string name="slot_dns_answer_label">Răspuns DNS alternativ</string>
+    <string name="slot_dns_answer_description">Modifică răspunsul pe care Blokada îl trimite pentru cererile blocate de la \"host-ul nu a fost găsit\" la un ip nevalid. Acest lucru poate fi de ajutor pentru unele ROM-uri care interogează alte servere DNS dacă primesc un răspuns \"host negăsit\". Vă rugăm să reţineţi că acest lucru ar putea încetini unele aplicaţii care încearcă să se conecteze la adresa invalidă.</string>
 </resources>
