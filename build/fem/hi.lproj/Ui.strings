@@ -131,6 +131,7 @@
 "activity filter header" = "आप कौन सी प्रविष्टियाँ देखना चाहेंगे?";
 "activity filter show all" = "सभी प्रविष्टियाँ दिखाएँ";
 "activity filter show blocked" = "केवल अवरुद्ध दिखाएं";
+"activity filter show allowed" = "केवल दिखाने की अनुमति है";
 
 "account section header settings" = "सैटिंग्स";
 "account status text" = "आपका BLOKADA%@ खाता %@ तक सक्रिय है।";
@@ -166,9 +167,18 @@
 "account encrypt desc dns only" = "डोमेन नेम सिस्टम यह है कि आपकी डिवाइस को पता है कि आप जिन वेबसाइटों पर जाना चाहते हैं, उन्हें कहां खोजें। दुर्भाग्य से, अधिकांश इंटरनेट अभी भी अनएन्क्रिप्टेड डीएनएस का उपयोग करता है, जो आपके ब्राउज़िंग इतिहास को जासूसी करने के जोखिम में डालता है। जब सक्षम किया जाता है, तो Blokada आपके डिवाइस को केवल एन्क्रिप्टेड DNS सर्वर (जिसे DNS को HTTPS भी कहा जाता है) से कनेक्ट करने के लिए मजबूर कर रहा है।";
 "account encrypt label everything" = "सब कुछ एन्क्रिप्ट करें";
 "account encrypt desc everything" = "आपका डिवाइस हमारे सुरक्षित वीपीएन सर्वर, और सभी संचार से आने वाले या, आपके डिवाइस को मजबूत एल्गोरिदम का उपयोग करके एन्क्रिप्ट किया जा रहा है। यह आपकी व्यक्तिगत जानकारी को सुरक्षित रखता है, जैसे बैंकिंग विवरण या व्यक्तिगत फ़ोटो, असुरक्षित स्थानों में चोरी होने से, कॉफी शॉप वाईफाई की तरह।";
+"account encrypt action turn on" = "BLOKADA चालू करें";
+"account encrypt header level" = "एन्क्रिप्शन स्तर";
 "account encrypt label level" = "स्तर";
+"account encrypt label level low" = "निम्न: कोई एन्क्रिप्शन नहीं";
+"account encrypt label level medium" = "माध्यम: डीएनएस को एन्क्रिप्ट करना";
+"account encrypt label level high" = "उच्च: सब कुछ एन्क्रिप्ट करना";
+"account encrypt header explanation" = "DNS है कि आपका डिवाइस जानता है कि वेबसाइटों को कहां खोजना है। BLOKADA केवल एन्क्रिप्टेड सर्वर का समर्थन करता है।";
 "account encrypt label dns" = "डीएनएस";
+"account encrypt action what is dns" = "DNS क्या है?";
 "account encrypt section header" = "एन्क्रिप्शन";
+
+"account lease label devices list" = "ये उपकरण आपके खाते से जुड़े हैं।";
 "account lease label devices" = "उपकरण";
 "account lease label this device" = " (यह डिवाइस)";
 
@@ -176,9 +186,22 @@
 "account support action kb" = "ज्ञान कोष";
 
 "payment header activated" = "सक्रिय!";
+"payment activated description" = "ब्लोकडा अब प्लस मोड में बदल जाएगा, और हमारे सुरक्षित स्थानों में से एक के माध्यम से कनेक्ट होगा। यदि आप अनिश्चित हैं कि किसे चुनना है, तो आपके लिए सबसे निकटतम एक की सिफारिश की जाती है।";
 "payment action choose location" = "स्थान चुनें";
+
+"payment title" = "*आपकी गोपनीयता* के नियंत्रण में रहने के लिए हमारी वीपीएन सेवा को अपग्रेड करें।";
 "payment feature title change location" = "स्थान बदलें";
+"payment feature desc change location" = "अपना आईपी पता छिपाएं और दिखावा करें कि आप दूसरे देश में हैं। यह आपको तृतीय-पक्ष से मुखौटा देगा और आपकी पहचान की रक्षा करने में मदद करेगा।";
+"payment feature title encrypt data" = "डेटा एन्क्रिप्ट करें";
+"payment feature desc encrypt data" = "हमारे वीपीएन सुरंग के माध्यम से भेजे गए डेटा को अनधिकृत पार्टियों द्वारा अवरोधन से बचाने के लिए मजबूत एल्गोरिदम का उपयोग करके एन्क्रिप्ट किया गया है।";
+"payment feature title faster connection" = "तेज़ कनेक्शन";
+"payment feature desc faster connection" = "दुनिया के विभिन्न हिस्सों में सर्वर के साथ 100Mbps तक की महान गति।";
+"payment feature title devices" = "5 उपकरणों तक";
+"payment feature desc devices" = "5 उपकरणों के साथ अपनी सदस्यता साझा करने के लिए एक ही खाते का उपयोग करें: iOS, Android, या PC।";
 "payment feature title no ads" = "कोई विज्ञापन नहीं";
+"payment feature desc no ads" = "अपने संरक्षण स्तर में सुधार करते हुए और अपने डेटा को निजी रखते हुए विश्व प्रसिद्ध ब्लोकडा एड ब्लॉकिंग तकनीक का उपयोग करें।";
+"payment feature title support" = "शानदार समर्थन";
+"payment feature desc support" = "ग्राहक सहायता और जीवंत ओपन सोर्स समुदाय से किसी भी प्रश्न का तुरंत जवाब प्राप्त करें।";
 "payment action see all features" = "सभी सुविधाएँ देखें";
 "payment action restore" = "खरीदारी रीस्टोर करें";
 "payment action terms and privacy" = "शर्तें और गोपनीयता नीति";
