@@ -7,28 +7,57 @@
 */
 
 "error device offline" = "O seu dispositivo está offline";
+"error account inactive" = "Sua conta está inativa. Por favor, ative sua conta para continuar a usar o BLOKADA+.";
+"error vpn no current lease" = "Por favor, selecione uma localidade primeiro.";
+"error vpn too many leases" = "Você atingiu o seu limite de dispositivos. Por favor, remova um dos seus dispositivos e tente novamente.";
+"error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
 "universal action close" = "Fechar";
+"universal action done" = "Concluído";
+"universal action try again" = "Tente novamente";
 "universal action learn more" = "Saiba mais";
 "universal action help" = "Ajuda";
+"universal action show log" = "Registros";
 "universal action share log" = "Compartilhar log";
 "universal action copy" = "Copiar";
 "universal action save" = "Salvar";
 "universal action contact us" = "Contate-nos";
 "universal action support" = "Suporte";
+"universal action upgrade" = "Atualize para o BLOKADA+";
 
 "universal label help" = "Ajuda";
+"universal status processing" = "Processando... Por favor, aguarde.";
+
+"alert error header" = "Opa!";
+"alert vpn expired header" = "O BLOKADA+ expirou";
+
+"account active forever" = "Para sempre";
+
+"main ask for permissions header" = "Só mais um passo";
+
+"main rate us header" = "Avalie-nos!";
+"main rate us description" = "Como você está gostando do Blokada até agora?";
+"main rate us on app store" = "Você nos ajudaria avaliando o Blokada na App Store?";
+"main rate us action sure" = "Claro!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Início";
 // Make sure each tab name has a similar length
+"main tab activity" = "Atividade";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avançado";
 // Make sure each tab name has a similar length
 "main tab settings" = "Configurações";
+
+"home ads counter footnote" = "anúncios e rastreadores bloqueados desde a instalação";
+"home power off menu header" = "O que você gostaria de fazer?";
 "home power action turn on" = "Ativar";
 "home power action turn off" = "Desativar";
+"home power action pause" = "Pausar por 5 min";
+
+"home status paused" = "PAUSADO";
 "home status active" = "ATIVO";
 "home status detail progress" = "por favor, aguarde...";
 "pack information header" = "Mais";
