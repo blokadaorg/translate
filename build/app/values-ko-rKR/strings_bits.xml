@@ -6,7 +6,6 @@
     <string name="home_activating">활성화 중</string>
     <string name="home_please_wait">잠시만 기다리세요...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">광고 차단 없이 Blokada Tunnel 활성화됨</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada DNS 모드 활성화됨</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -27,14 +26,9 @@
     <string name="home_update_required">업데이트 필요</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">후원하기</string>
-    <string name="home_vpn_enabled">Blokada Tunnel 활성화됨</string>
-    <string name="home_vpn_disabled">Blokada Tunnel 비활성화됨</string>
     <string name="home_account_active">계정 활성화됨</string>
-    <string name="home_connecting_vpn">Blokada Tunnel에 연결 중</string>
     <string name="home_cleanup">정리 필요</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Blokada Tunnel에 연결됨</string>
-    <string name="home_boringtun_not_loaded">죄송합니다. Blokada Tunnel이 지원되지 않는 기기입니다. 다른 기능은 사용하실 수 있습니다.</string>
     <string name="home_blocka_vpn_error">게이트웨이 연결 실패. 인터넷에 연결되어 있나요?</string>
     <string name="home_account_error">계정 확인 실패. 인터넷에 연결되어 있나요?</string>
     <string name="home_permission_error">VPN 권한을 허용하세요.</string>
@@ -42,12 +36,9 @@
     <string name="home_filters_memory_error">일부 목록을 불러오지 못할 수 있습니다. 광고 차단 설정에서 더 적은 목록을 선택하세요.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">먼저 계정을 활성화하세요.</string>
     <string name="menu_vpn_select_gateway">게이트웨이를 선택하세요.</string>
-    <string name="menu_vpn_intro_button">Blokada Tunnel이 필요한 이유가 뭔가요?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">내 Blokada Tunnel</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">게이트웨이</string>
@@ -62,7 +53,6 @@
     <string name="menu_knowledge">도움받기</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">함께하기</string>
-    <string name="menu_telegram">텔레그램 채팅</string>
     <string name="menu_configure">Blokada 기능 설정</string>
     <string name="menu_exclude">정상 작동하지 않는 앱 제외</string>
     <!-- A section in menu for additional buttons  -->
