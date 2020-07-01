@@ -11,6 +11,7 @@
 "error vpn no current lease" = "Por favor, selecione uma localidade primeiro.";
 "error vpn too many leases" = "Você atingiu o seu limite de dispositivos. Por favor, remova um dos seus dispositivos e tente novamente.";
 "error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
+"error location failed fetching" = "Não foi possível buscar as localizações.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -75,9 +76,46 @@
 "pack action install" = "OBTER";
 "pack action update" = "ATUALIZAR";
 "pack action uninstall" = "REMOVER";
+"pack author" = "Autor";
+"pack configurations header" = "Configurações";
 "pack information header" = "Mais";
+"pack tags header" = "Tags";
+"pack tags none" = "Nenhuma";
+"pack category highlights" = "Destaques";
 "pack category active" = "Ativo";
+"pack category all" = "Todas";
+
+"location choice header" = "Escolha um Local";
+
+"activity section header" = "Atividade";
+"activity request blocked" = "Esta solicitação foi bloqueada.";
+"activity request allowed" = "Esta solicitação foi permitida.";
+"activity request allowed whitelisted" = "Esta solicitação foi permitida, porque está na sua lista de Permitidos";
+"activity request blocked blacklisted" = "Esta solicitação foi permitida, porque está na sua lista de Bloqueados";
+"activity actions header" = "Ações";
+"activity information header" = "Informação";
+"activity action add to whitelist" = "Adicionar aos Permitidos";
+"activity action remove from whitelist" = "Remover dos Permitidos";
+"activity action added to whitelist" = "Adicionado aos Permitidos";
+"activity action add to blacklist" = "Adicionar aos Bloqueados";
+"activity action remove from blacklist" = "Remover dos Bloqueados";
+"activity action added to blacklist" = "Adicionado aos Bloqueados";
+"activity action copy to clipboard" = "Copiar nome para a Área de Transferência";
+"activity domain name" = "Nome completo";
+"activity time of occurrence" = "Hora";
+"activity number of occurrences" = "Número de ocorrências";
+"activity state modified" = "modificado";
 "activity state blocked" = "bloqueado";
+"activity state allowed" = "permitido";
+"activity happened one time" = "1 vez";
+"activity happened many times" = "%@ vezes";
+"activity category recent" = "Recente";
+"activity category top" = "Mais vezes";
+"activity category top blocked" = "Mais Bloqueados";
+"activity category top allowed" = "Mais Permitidos";
+"activity filter header" = "Quais entradas você gostaria de ver?";
+"activity filter show all" = "Mostrar todas as entradas";
+"activity filter show blocked" = "Mostrar somente bloqueados";
 "activity filter show allowed" = "Mostrar somente permitidos";
 
 "account section header settings" = "Configurações";
@@ -124,5 +162,13 @@
 "account lease label this device" = " (este dispositivo)";
 
 "account support action how help" = "Como podemos ajudar?";
+"account support action kb" = "Base de Conhecimento Aberta";
+
+"payment header activated" = "Ativado!";
+"payment action choose location" = "Escolha um local";
+"payment feature title change location" = "Alterar Localização";
+"payment feature title encrypt data" = "Criptografe seus dados";
+"payment feature title faster connection" = "Conexão mais rápida";
+"payment feature title devices" = "Até 5 dispositivos";
 
 "payment subscription 1 month" = "1 Mês";
