@@ -8,9 +8,11 @@
 
 "error device offline" = "O seu dispositivo está offline";
 "error account inactive" = "Sua conta está inativa. Por favor, ative sua conta para continuar a usar o BLOKADA+.";
+"error vpn perms" = "Nenhuma permissão concedida para criar um perfil de VPN.";
 "error vpn no current lease" = "Por favor, selecione uma localidade primeiro.";
 "error vpn too many leases" = "Você atingiu o seu limite de dispositivos. Por favor, remova um dos seus dispositivos e tente novamente.";
 "error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
+"error payment canceled" = "O pagamento foi cancelado. Você não foi cobrado.";
 "error location failed fetching" = "Não foi possível buscar as localizações.";
 
 "universal action continue" = "Continuar";
@@ -158,6 +160,8 @@
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "O que é DNS?";
 "account encrypt section header" = "Criptografia";
+
+"account lease label devices list" = "Estes dispositivos estão conectados à sua conta.";
 "account lease label devices" = "Dispositivos";
 "account lease label this device" = " (este dispositivo)";
 
@@ -170,5 +174,16 @@
 "payment feature title encrypt data" = "Criptografe seus dados";
 "payment feature title faster connection" = "Conexão mais rápida";
 "payment feature title devices" = "Até 5 dispositivos";
+"payment feature title no ads" = "Sem anúncios";
+"payment feature title support" = "Ótimo suporte";
+"payment action see all features" = "Ver Todos os Recursos";
+"payment action restore" = "Restaurar Compras";
+"payment action terms and privacy" = "Termos e Privacidade";
+"payment action terms" = "Termos de Serviço";
+"payment action policy" = "Política de Privacidade";
+"payment alert error header" = "Uma mensagem da App Store";
 
 "payment subscription 1 month" = "1 Mês";
+"payment subscription many months" = "%@ Meses";
+"payment subscription per month" = "%@ por mês";
+"payment subscription offer" = "Salvar %@";
