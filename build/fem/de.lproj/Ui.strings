@@ -8,11 +8,11 @@
 
 "error device offline" = "Dein Gerät ist offline";
 "error account inactive" = "Dein Konto ist inaktiv. Bitte aktiviere dein Konto, damit du weiterhin BLOKADA+ nutzen kannst.";
-"error account inactive after restore" = "Dies scheint kein gültiges Konto zu sein. Wenn du denkst, das dies ein Fehler ist, kontaktiere und bitte, indem du den Hilfe-Knopf oben tippen.";
+"error account inactive after restore" = "Dies scheint kein gültiges Konto zu sein. Wenn du denkst, das dies ein Fehler ist, kontaktiere uns bitte, indem du den Hilfe-Knopf oben tippst.";
 "error creating account" = "Konnte kein neues Konto erstellen. Bitte probiere es später nochmal.";
-"error fetching data" = "Diese Aktion konnte nicht fertiggestellt werden. Stelle sicher, dass du online bist und versuche es später nochmal. Wenn das Problem weiterhin besteht, kontaktiere und bitte, indem du auf den Hilfe-Knopf oben tippst.";
+"error fetching data" = "Diese Aktion konnte nicht fertiggestellt werden. Stelle sicher, dass du online bist und versuche es später nochmal. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du auf den Hilfe-Knopf oben tippst.";
 "error tunnel" = "VPN konnte nicht eingerichter werden. Bitte starte dein Gerät neu oder entferne Blokadas VPN-Profio in den Systemeinstellungen und versuche es erneut.";
-"error vpn" = "VPN konnte nicht eingerichter werden. Bitte starte dein Gerät neu oder entferne Blokadas VPN-Profio in den Systemeinstellungen und versuche es erneut.";
+"error vpn" = "VPN konnte nicht eingerichtet werden. Bitte starte dein Gerät neu oder entferne Blokadas VPN-Profio in den Systemeinstellungen und versuche es erneut.";
 "error vpn perms" = "Keine Berechtigung zum erstellen eines VPN-Profils erteilt.";
 "error vpn no current lease" = "Bitte wähle zuerst einen Ort aus.";
 "error vpn too many leases" = "Du hast die maximale Anzahl an Geräten erreicht. Bitte entferne eines deiner Geräte und versuche es erneut.";
@@ -21,7 +21,7 @@
 "error payment failed" = "Zahlungen sind derzeit nicht erreichbar. Stelle sicher, dass du online bist und probiere es später nochmal. Wenn das Problem weiterhin besteht, kontaktiere und bitte, indem du den Hilfe-Knopf oben drückst.";
 "error payment not available" = "Zahlungen sind für dieses Gerät nicht möglich. Entweder ist Apple Pay nicht aktiviert oder wir akzeptieren noch keine Zahlungen aus deinem Land.";
 "error payment canceled" = "Deine Zahlung wurde storniert. Dein Konto wurde nicht belastet.";
-"error pack install" = "Konnte diese Funktion nicht installieren (oder deinstallieren). Bitte probiere es später nochmal.";
+"error pack install" = "Diese Funktion konnte nicht installiert (oder deinstalliert) werden. Bitte versuch es später erneut.";
 "error location failed fetching" = "Standort konnte nicht abgerufen werden.";
 "error unknown" = "Ein unbekanntes Problem ist aufgetreten. Bitte versuche es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du auf den Hilfe-Knopf oben tippst.";
 
@@ -164,16 +164,16 @@
 "account encrypt level medium" = "Mittel";
 "account encrypt level high" = "Hoch";
 "account encrypt label dns only" = "Verschlüssel DNS";
-"account encrypt desc dns only" = "Domain-Name-System ist woher dein Gerät weiß wo es die Webseite findet, die du besuchen möchtest. Leider benutzt der Großteil im Internet unverschlüsselte DNS, weshalb deine Browserhistorie einem großem Risiko ausgesetzt ist, ausgespäht zu werden. Wenn dies aktiviert ist, zwingt Blokada dein Gerät dazu, sich nur mit verschlüsselten DNS-Servern (auch DNS über HTTPS genannt) zu verbinden.";
+"account encrypt desc dns only" = "Ein Domain-Name-System wird genutzt damit dein Gerät weiß wo es die Webseite findet, die du besuchen möchtest. Leider benutzt der Großteil im Internet unverschlüsselte DNS, weshalb deine Browserhistorie einem großem Risiko ausgesetzt ist, ausgespäht zu werden. Wenn dies aktiviert ist, zwingt Blokada dein Gerät dazu, sich nur mit verschlüsselten DNS-Servern (auch DNS über HTTPS genannt) zu verbinden.";
 "account encrypt label everything" = "Alles verschlüsseln";
-"account encrypt desc everything" = "Dein Gerät greift über unsere sicheren VPN-Servern auf das Internet zu und jegliche Kommumikation von oder zu deinem Gerät ist durch starke Algorithmen verschlüsselt. Dies schützt deine persöhnlichen Informationen wie zum Beispiel Bankdaten oder persöhnliche Fotos davor, gestohlen zu werden, auch an unsicheren Orten wie einem Coffe-Shop-WLan.";
+"account encrypt desc everything" = "Dein Gerät greift über unsere sicheren VPN-Server auf das Internet zu und jegliche Kommumikation von oder zu deinem Gerät ist durch starke Algorithmen verschlüsselt. Dies schützt deine persöhnlichen Informationen wie zum Beispiel Bankdaten oder persöhnliche Fotos davor, gestohlen zu werden, auch an unsicheren Orten wie einem Coffe-Shop-WLAN.";
 "account encrypt action turn on" = "Schalte BLOKADA ein";
 "account encrypt header level" = "Verschlüsselungsstufe";
 "account encrypt label level" = "Stufe";
 "account encrypt label level low" = "Niedrig: Keine Verschlüsselung";
 "account encrypt label level medium" = "Medium: Verschlüsseltes DNS";
 "account encrypt label level high" = "Hoch: Alles verschlüsselt";
-"account encrypt header explanation" = "DNS ist woher dein Gerät weiß, wo die Webseiten zu finden sind. BLOKADA unterstützt nur verschlüsselte Server.";
+"account encrypt header explanation" = "Ein DNS wird genutzt, damit dein Gerät weiß, wo die Webseiten zu finden sind. BLOKADA unterstützt nur verschlüsselte Server.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Was ist DNS?";
 "account encrypt section header" = "Verschlüsselung";
@@ -197,11 +197,11 @@
 "payment feature title faster connection" = "Schnellere Verbindung";
 "payment feature desc faster connection" = "Schnelle Verbindungen mit bis zu 100 Mbit/s mit Servern überall auf der Welt verteilt.";
 "payment feature title devices" = "Bis zu 5 Geräte";
-"payment feature desc devices" = "Nutze das gleiche Konto und teile dein Abo mit bis zun5 Geräten: egal ob iOS, Android oder PC.";
-"payment feature title no ads" = "Keine Werbungen";
+"payment feature desc devices" = "Nutze das gleiche Konto und teile dein Abo mit bis zu 5 Geräten: egal ob iOS, Android oder PC.";
+"payment feature title no ads" = "Keine Werbung";
 "payment feature desc no ads" = "Benutze weiterhin die weltberühmte Blokada-Werbeblockertechnologie, verbessere gleichzeitig deine Sicherheit und halte deine Daten privat.";
 "payment feature title support" = "Großartiger Support";
-"payment feature desc support" = "Bekomme eine schnelle Antwort auf jede Frage dank unserem Kundensupport und der lebendigen Open-Source-Kommunity.";
+"payment feature desc support" = "Bekomme eine schnelle Antwort auf jede Frage, dank unserem Kundensupport und der lebendigen Open-Source-Kommunity.";
 "payment action see all features" = "Alle Funktionen anzeigen";
 "payment action restore" = "Käufe wiederherstellen";
 "payment action terms and privacy" = "AGB & Datenschutz";

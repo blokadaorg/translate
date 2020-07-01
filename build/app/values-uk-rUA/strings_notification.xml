@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">Сповіщення</string>
+    <string name="notification_on_description">При увімкненні Blokada буде показувати сповіщення щоразу при блокуванні реклами. Зверніть увагу, що це не сповіщення про активний VPN на деяких пристроях, які неможливо вимкнути.&lt;br/&gt;Ви можете налаштувати, які сповіщення будуть відображатись у налаштуваннях нижче.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Заблоковано</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
@@ -13,6 +14,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Підтримка активності</string>
+    <string name="notification_keepalive_description">Активуйте цей перемикач у разі виникнення проблем при роботі додатку у фоновому режимі. Blokada увімкне постійне сповіщення для запобігання примусового закриття Blokada системою; ви можете приховати його, вибравши пункт Сповіщення вище і в ньому кнопка Налаштування.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">Підтримувати увімкненим (натисніть щоб сховати)</string>
     <string name="notification_keepalive_text_new">Для роботи програми в фоні Android необхідно показувати сповіщення, але ви можете вимкнути його в системних налаштуваннях.</string>

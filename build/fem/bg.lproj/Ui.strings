@@ -17,12 +17,12 @@
 "error vpn no current lease" = "Моля, първо изберете местоположение.";
 "error vpn too many leases" = "Достигнат е лимита на устройствата. Моля, премахнете едно от устройствата си и опитайте отново.";
 "error vpn expired" = "VPN е деактивиран. Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA +";
-"error payment inactive after restore" = "Предишното плащане е възстановено защото абонаментът ви е изтекъл. Ако смятате, че това е грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error payment inactive after restore" = "Плащането не е прието защото абонаментът ви е изтекъл. Ако смятате, че това е грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment failed" = "В момента няма налично плащане. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment not available" = "Плащанията не са активни за това устройство. Или Apple Pay не е активиран, или все още не обработваме плащания от вашата страна.";
 "error payment canceled" = "Плащането бе анулирано. Не сте таксувани.";
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
-"error location failed fetching" = "Локациите не можаха да бъдат получени.";
+"error location failed fetching" = "Не могат да бъдат получени локациите.";
 "error unknown" = "Възникна неизвестен проблем. Моля, опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 
 "universal action continue" = "Продължи";
@@ -32,36 +32,36 @@
 "universal action try again" = "Опитайте отново";
 "universal action learn more" = "Научете повече";
 "universal action help" = "Помощ";
-"universal action show log" = "Логове";
+"universal action show log" = "Регистри";
 "universal action share log" = "Сподели дневника";
 "universal action copy" = "Копирай";
 "universal action save" = "Запази";
 "universal action contact us" = "Свържете се с нас";
 "universal action support" = "Поддръжка";
-"universal action upgrade" = "Надстройте до BLOKADA +";
+"universal action upgrade" = "Надстройте до BLOKADA+";
 
 "universal label help" = "Помощ";
-"universal status processing" = "Обработка... Моля, изчакайте.";
+"universal status processing" = "В процес... Моля, изчакайте.";
 
-"alert error header" = "Ами сега!";
+"alert error header" = "Ооопс!";
 "alert vpn expired header" = "BLOKADA+ е изтекла";
 
 "account active forever" = "Завинаги";
 
 "main ask for permissions header" = "Само още една стъпка";
-"main ask for permissions description" = "Blokada използва VPN конфигурация за блокиране на рекламите. Ще бъдете помолени в следващата стъпка да бъде разрешено.";
+"main ask for permissions description" = "Blokada използва VPN конфигурация за блокиране на рекламите. Ще бъдете помолени в следващата стъпка това да бъде разрешено.";
 
 "main share message" = "Blokada за iOS ми помогна да блокирам %@ реклами и тракери!";
 
 "main rate us header" = "Оценете ни!";
-"main rate us description" = "Как ви харесва досега Blokada?";
+"main rate us description" = "Харесва ли ви Blokada до сега?";
 "main rate us on app store" = "Бихте ли ни помогнали като оцените Blokada в App Store?";
 "main rate us action sure" = "Разбира се!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Начало";
 // Make sure each tab name has a similar length
-"main tab activity" = "Дейност";
+"main tab activity" = "Активност";
 // Make sure each tab name has a similar length
 "main tab advanced" = "Разширени";
 // Make sure each tab name has a similar length
@@ -74,16 +74,16 @@
 "home power action pause" = "Пауза за 5 мин";
 
 "home status paused" = "ПАУЗА";
-"home status active" = "АКТИВЕН";
-"home status deactivated" = "ДЕАКТИВИРАН";
+"home status active" = "АКТИВНА";
+"home status deactivated" = "ДЕАКТИВИРАНА";
 "home action tap to activate" = "докоснете за да активирате";
-"home status detail paused" = "пауза докато приключи таймерът";
+"home status detail paused" = "на пауза докато приключи таймерът";
 "home status detail active" = "блокиране на *реклами* и *тракери*";
 "home status detail active with counter" = "блокирани *%@* реклами и тракери";
 "home status detail plus" = "*+* защитава вашата *поверителност*";
 "home status detail progress" = "моля изчакайте...";
 
-"home plus button deactivated" = "BLOKADA+ деактивиране";
+"home plus button deactivated" = "BLOKADA+ деактивирана";
 "home plus button select location" = "Избор на местоположение";
 "home plus button location" = "Местоположение: *%@*";
 
@@ -95,14 +95,14 @@
 "pack configurations header" = "Конфигурация";
 "pack information header" = "Още";
 "pack tags header" = "Маркери";
-"pack tags none" = "Няма";
+"pack tags none" = "Нищо";
 "pack category highlights" = "Акценти";
 "pack category active" = "Е активна";
 "pack category all" = "Всички";
 
 "location choice header" = "Избор на местоположение";
 
-"activity section header" = "Дейност";
+"activity section header" = "Активност";
 "activity request blocked" = "Тази заявка е блокирана.";
 "activity request allowed" = "Тази заявка е разрешена.";
 "activity request allowed whitelisted" = "Тази заявка е разрешена, защото е в списъка ви с Позволени";
@@ -124,8 +124,8 @@
 "activity state allowed" = "разрешени";
 "activity happened one time" = "1 път";
 "activity happened many times" = "%@ пъти";
-"activity category recent" = "Скорошни";
-"activity category top" = "Горе";
+"activity category recent" = "Последни";
+"activity category top" = "Най";
 "activity category top blocked" = "Най-много блокирани";
 "activity category top allowed" = "Най-много разрешени";
 "activity filter header" = "Кои записи искате да видите?";
@@ -134,7 +134,7 @@
 "activity filter show allowed" = "Показване само на разрешени";
 
 "account section header settings" = "Настройки";
-"account status text" = "Вашият BLOKADA акаунт %@ е активен до %@.";
+"account status text" = "Вашият BLOKADA %@ профил е активен до %@.";
 "account section header primary" = "Основен";
 "account section header other" = "Друго";
 "account action my account" = "Моят профил";
@@ -142,7 +142,7 @@
 "account action devices" = "Устройства";
 "account action inbox" = "Входяща кутия";
 "account action logout" = "Изход";
-"account action about" = "За приложението";
+"account action about" = "Относно";
 
 "account section header my subscription" = "Моят абонамент";
 "account section header general" = "Основни";
@@ -163,7 +163,7 @@
 "account encrypt level low" = "Ниско";
 "account encrypt level medium" = "Средно";
 "account encrypt level high" = "Високо";
-"account encrypt label dns only" = "Криптиран DNS";
+"account encrypt label dns only" = "Криптиране на DNS";
 "account encrypt desc dns only" = "Системата за имена на домейни показва на вашето устройство къде да намери уеб сайтовете, които искате да посетите. За съжаление по-голямата част от Интернет все още използва некриптиран DNS, което излага историята на сърфирането ви в риск да бъде шпионирана. Когато е активирана, Blokada принуждава вашето устройство да се свързва само към криптирани DNS сървъри (наричани също DNS през HTTPS).";
 "account encrypt label everything" = "Криптиране на всичко";
 "account encrypt desc everything" = "Вашето устройство се свързва чрез нашите защитени VPN сървъри и цялата комуникация, идваща от или към вашето устройство се криптира чрез силни алгоритми. Това предпазва личната ви информация, като банкови данни или лични снимки от кражба на несигурни места, като WiFi в кафене.";
@@ -191,17 +191,17 @@
 
 "payment title" = "Надстройте до нашата VPN услуга за да имате контрол над *вашата поверителност*.";
 "payment feature title change location" = "Промяна на местоположение";
-"payment feature desc change location" = "Скрийте своя IP адрес и се преструвайте, че сте в друга държава. Това ще ви маскира от трети страни и ще ви помогне да защитите вашата самоличност.";
+"payment feature desc change location" = "Скрийте своя IP адрес и се преструвайте, че сте в друга държава. Това ще ви маскира пред трети страни и ще ви помогне да защитите вашата самоличност.";
 "payment feature title encrypt data" = "Криптиране на данни";
-"payment feature desc encrypt data" = "Данните, изпратени през нашия VPN тунел се криптират с помощта на силни алгоритми за да се защитят от прихващане от неоторизирани страни.";
+"payment feature desc encrypt data" = "Данните изпратени през нашия VPN тунел се криптират с помощта на силни алгоритми за да се защитят от прихващане от неоторизирани страни.";
 "payment feature title faster connection" = "По-бърза връзка";
 "payment feature desc faster connection" = "Големи скорости до 100Mbps със сървъри в различни части на света.";
 "payment feature title devices" = "До 5 устройства";
-"payment feature desc devices" = "Използвайте същия акаунт за да споделяте абонамента си с до 5 устройства: iOS, Android или компютър.";
+"payment feature desc devices" = "Използвайте един профил за да споделяте абонамента си с до 5 устройства: iOS, Android или компютър.";
 "payment feature title no ads" = "Без Реклами";
 "payment feature desc no ads" = "Използвайте световно известната технология на Blokada за блокиране на реклами, като същевременно подобрите нивото на защита и запазите данните си поверителни.";
 "payment feature title support" = "Страхотна поддръжка";
-"payment feature desc support" = "Получете бърз отговор на всякакви въпроси благодарение на нашата Поддръжка на клиенти и жизнената общност с отворен код.";
+"payment feature desc support" = "Получете бърз отговор на всякакви въпроси благодарение на нашата Поддръжка за клиенти и енергичната общност с отворен код.";
 "payment action see all features" = "Вижте всички функции";
 "payment action restore" = "Възстановяване на покупките";
 "payment action terms and privacy" = "Условия & Поверителност";

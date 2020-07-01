@@ -3,6 +3,9 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_touch">Натисніть чи утримуйте, щоб налаштувати</string>
     <string name="home_blokada_disabled">Blokada зупинена</string>
+    <string name="home_blokada_active">Blokada активна</string>
+    <string name="home_blokada_active_protected">Тунель Blokada активний, доступ до менежі Інтернет захищений</string>
+    <string name="home_blokada_inactive">Blokada неактивна</string>
     <string name="home_activating">Вмикається</string>
     <string name="home_please_wait">Зачекайте...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
@@ -39,6 +42,7 @@
     <string name="home_account_error">Неможливо підтвердити обліковий запис. Ви онлайн?</string>
     <string name="home_permission_error">Будь ласка, надайте дозволи VPN.</string>
     <string name="home_zero_filters_error">У вас немає налаштованих фільтрів. Перевірте налаштування блокування реклами та Wi-Fi.</string>
+    <string name="home_filters_memory_error">Не вдалося завантажити деякі списки; виберіть менше списків в налаштуваннях блокування реклами.</string>
     <string name="tasker_switch_label">Натисніть одну з опцій щоб налашувати її для увімкнення (чи вимкнення) тригера.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклама</string>
@@ -69,6 +73,7 @@
     <string name="menu_vpn_support_label">У разі виникнення будь-яких проблем без вагань звертайтеся до нас.</string>
     <string name="menu_vpn_support_button">Підтримка</string>
     <string name="menu_vpn_tunnel_settings">Налаштування тунелю Blokada</string>
+    <string name="menu_vpn_tunnel_learn_more">Дізнатися більше про тунель Blokada</string>
     <string name="menu_vpn_info_account_label">Чи є у мене обліковий запис?</string>
     <string name="menu_vpn_info_account_line1">Так! Ваш обліковий запис створюється автоматично під час першого запуску. Вам не потрібно реєструватися.</string>
     <string name="menu_vpn_info_account_line2">Натисніть на аватар вище, щоб побачити ID вашого облікового запису.</string>

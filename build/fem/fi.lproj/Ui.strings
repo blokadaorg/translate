@@ -7,7 +7,23 @@
 */
 
 "error device offline" = "Laitteesi on offline-tilassa";
+"error account inactive" = "Tilisi on toimeton. Aktivoi tilisi jatkaaksesi BLOKADA+:n käyttöä.";
+"error account inactive after restore" = "Tämä ei vaikuta olevan kelvollinen aktiivinen tili. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
+"error creating account" = "Uutta tiliä ei voitu luoda. Yritä uudelleen myöhemmin.";
+"error fetching data" = "Tätä toimintoa ei voitu suorittaa. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error tunnel" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn perms" = "VPN-profiilin luomiseen ei ole oikeuksia.";
 "error vpn no current lease" = "Ole hyvä, ja valitse sijainti.";
+"error vpn too many leases" = "Saavutit laitteiden enimmäisrajan. Poista yksi laitteistasi ja yritä uudelleen.";
+"error vpn expired" = "VPN on poistettu käytöstä. Päivitä tilauksesi jatkaaksesi BLOKADA+ -sovelluksen käyttöä";
+"error payment inactive after restore" = "Aikaisempi maksusi palautettiin, mutta tilauksesi on jo vanhentunut. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
+"error payment failed" = "Maksut eivät ole tällä hetkellä käytettävissä. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error payment not available" = "Maksut eivät ole käytettävissä tällä laitteella. Joko Apple Pay ei ole aktivoitu tai emme vielä käsittele ostoksia maassasi.";
+"error payment canceled" = "Maksu peruutettiin. Sinua ei ole laskutettu.";
+"error pack install" = "Tätä ominaisuutta ei voitu asentaa (tai poistaa). Yritä uudelleen myöhemmin.";
+"error location failed fetching" = "Sijainteja ei voitu hakea.";
+"error unknown" = "Tuntematon ongelma tapahtui. Yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
 
 "universal action continue" = "Jatka";
 "universal action cancel" = "Peruuta";
@@ -22,27 +38,147 @@
 "universal action save" = "Tallenna";
 "universal action contact us" = "Ota yhteyttä";
 "universal action support" = "Tuki";
+"universal action upgrade" = "Päivitä BLOKADA+:aan";
 
 "universal label help" = "Ohje";
+"universal status processing" = "Käsitellään... odota hetki.";
+
+"alert error header" = "Hups!";
+"alert vpn expired header" = "BLOKADA+ erääntyi";
+
+"account active forever" = "Ikuisesti";
+
+"main ask for permissions header" = "Vielä yksi askel";
+"main ask for permissions description" = "Blokada estää mainoksia VPN-konfiguraatiolla. Sinua pyydetään sallimaan se seuraavassa vaiheessa.";
+
+"main share message" = "Blokada iOS:ille auttoi minua estämään %@ mainosta ja seurantaohjelmaa!";
+
+"main rate us header" = "Arvostele meidät!";
+"main rate us description" = "Mitä pidät Blokadasta toistaiseksi?";
+"main rate us on app store" = "Auttaisitko meitä arvioimalla Blokadan App Storesta?";
+"main rate us action sure" = "Toki!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Etusivu";
 // Make sure each tab name has a similar length
+"main tab activity" = "Toiminta";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Lisäasetukset";
+// Make sure each tab name has a similar length
 "main tab settings" = "Asetukset";
+
+"home ads counter footnote" = "mainosta ja seurantaohjelmaa on estetty asennuksen jälkeen";
+"home power off menu header" = "Mitä haluaisit tehdä?";
 "home power action turn on" = "Ota käyttöön";
 "home power action turn off" = "Kytke pois";
+"home power action pause" = "Pysäytä viideksi minuutiksi";
+
+"home status paused" = "PYSÄYTETTY";
 "home status active" = "AKTIIVINEN";
+"home status deactivated" = "DEAKTIVOITU";
+"home action tap to activate" = "napauta aktivoidaksesi";
+"home status detail paused" = "pysäytetty kunnes ajastin loppuu";
+"home status detail active" = "estetään *mainoksia* ja *seurantaohjelmia*";
+"home status detail active with counter" = "estetty *%@* mainosta ja seurantaohjelmaa";
+"home status detail plus" = "*+* suojataan *yksityisyyttäsi*";
 "home status detail progress" = "ole hyvä ja odota...";
+
+"home plus button deactivated" = "BLOKADA+ deaktivoitu";
+"home plus button select location" = "Valitse sijainti";
+"home plus button location" = "Sijainti: *%@*";
+
+"pack section header" = "Edistyneet ominaisuudet";
+"pack action install" = "HAE";
+"pack action update" = "PÄIVITÄ";
+"pack action uninstall" = "POISTA";
+"pack author" = "Tekijä";
+"pack configurations header" = "Konfiguraatiot";
+"pack information header" = "Lisää";
+"pack tags header" = "Tagit";
+"pack tags none" = "Ei mitään";
+"pack category highlights" = "Kohokohdat";
 "pack category active" = "Aktiivinen";
+"pack category all" = "Kaikki";
+
+"location choice header" = "Valitse sijainti";
+
+"activity section header" = "Tapahtumat";
+"activity request blocked" = "Tämä pyyntö on estetty.";
+"activity request allowed" = "Tämä pyyntö on sallittu.";
+"activity request allowed whitelisted" = "Tämä pyyntö on sallittu, koska se on sallittujen listassa";
+"activity request blocked blacklisted" = "Tämä pyyntö on estetty, koska se on estettyjen listassa";
+"activity actions header" = "Toiminnot";
+"activity information header" = "Tiedot";
+"activity action add to whitelist" = "Lisää Sallittuihin";
+"activity action remove from whitelist" = "Poista Sallituista";
+"activity action added to whitelist" = "Lisätty Sallittuihin";
+"activity action add to blacklist" = "Lisää Estettyihin";
+"activity action remove from blacklist" = "Poista Estetyistä";
+"activity action added to blacklist" = "Lisätty Estettyihin";
+"activity action copy to clipboard" = "Kopioi nimi leikepöydälle";
+"activity domain name" = "Koko nimi";
+"activity time of occurrence" = "Aika";
+"activity number of occurrences" = "Tapahtumien lukumäärä";
+"activity state modified" = "muokattu";
 "activity state blocked" = "estetty";
+"activity state allowed" = "sallittu";
+"activity happened one time" = "1 kerran";
+"activity happened many times" = "%@ kertaa";
+"activity category recent" = "Viimeisimmät";
 
 "account section header settings" = "Asetukset";
+"account section header primary" = "Ensisijainen";
 "account section header other" = "Muu";
+"account action my account" = "Tilini";
+"account action encryption" = "Salaus";
 "account action devices" = "Laitteet";
+"account action inbox" = "Saapuneet";
+"account action logout" = "Kirjaudu ulos";
 "account action about" = "Tietoa";
+
+"account section header my subscription" = "Tilaukseni";
+"account section header general" = "Yleiset";
+"account section header subscription" = "Tilaus";
 "account label id" = "Käyttäjätunnus";
+"account label type" = "Tilin tyyppi";
 "account action manage subscription" = "Hallitse tilausta";
+"account action why upgrade" = "Miksi minun kannattaa päivittää?";
+
+"account header logout" = "Kirjaudu ulos";
+"account id status unchanged" = "(ei muutettu)";
+
+"account encrypt level low" = "Matala";
+"account encrypt level medium" = "Keskitaso";
+"account encrypt level high" = "Korkea";
+"account encrypt label level" = "Taso";
 "account encrypt label dns" = "DNS";
+"account encrypt section header" = "Salaus";
 "account lease label devices" = "Laitteet";
+"account lease label this device" = " (tämä laite)";
+
+"account support action how help" = "Kuinka voimme auttaa?";
+
+"payment header activated" = "Aktivoitu!";
+"payment action choose location" = "Valitse sijainti";
+"payment feature title change location" = "Muuta sijaintia";
+"payment feature title encrypt data" = "Salaa tiedot";
+"payment feature desc encrypt data" = "VPN-tunnelimme kautta lähetetyt tiedot on salattu vahvoilla algoritmeilla suojaamaan tietojen sieppausta vastaan luvattomien osapuolien toimesta.";
+"payment feature title faster connection" = "Nopeampi yhteys";
+"payment feature desc faster connection" = "Suuri nopeuksia jopa 100Mbps asti palvelimilla eri puolilla maailmaa.";
+"payment feature title devices" = "Jopa 5 laitetta";
+"payment feature desc devices" = "Käytä samaa tiliä jakaaksesi tilauksesi enintään viiden laitteen kanssa: iOS, Android tai PC.";
+"payment feature title no ads" = "Ei mainoksia";
+"payment feature desc no ads" = "Jatka maailmankuulua Blokadan mainostenesto-teknologian käyttöä samalla parantaen suojaustasoa ja pitämällä tietosi yksityisinä.";
+"payment feature title support" = "Mahtava tuki";
+"payment feature desc support" = "Saa nopea vastaus kaikkiin kysymyksiin, kiitos meidän asíakastukemme ja elinvoimaisen avoimen yhteisömme takia.";
+"payment action see all features" = "Näe kaikki ominaisuudet";
+"payment action restore" = "Palauta ostokset";
+"payment action terms and privacy" = "Ehdot ja yksityisyys";
+"payment action terms" = "Käyttöehdot";
+"payment action policy" = "Tietosuojakäytäntö";
+"payment alert error header" = "Viesti App Storesta";
 
 "payment subscription 1 month" = "1 kuukausi";
+"payment subscription many months" = "%@ kuukautta";
+"payment subscription per month" = "%@ kuukaudessa";
+"payment subscription offer" = "Säästä %@";

@@ -26,6 +26,8 @@
     <string name="panel_domain_blocked">Заблоковано &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_toast">Додано до чорного списку.</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">Копіювати</string>
+    <string name="panel_domain_copied">Скопійовано до буферу обміну</string>
     <string name="panel_ruleset">Лічильник фільтрів</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">У фільтрах зараз %s правил.</string>
@@ -76,7 +78,9 @@
     <string name="slot_allapp_whitelisted">Пропускається</string>
     <string name="slot_allapp_normal">Не пропускається</string>
     <string name="slot_allapp_whitelist">Пропустити</string>
+    <string name="slot_action_set">Встановити</string>
     <string name="slot_dns_name">DNS активований</string>
+    <string name="slot_dns_name_private">Власний DNS активний</string>
     <string name="slot_dns_name_disabled">DNS деактивований</string>
     <string name="slot_action_none">Функція поки недоступна.</string>
     <string name="slot_action_unwhitelist">Скасувати</string>
@@ -98,6 +102,8 @@
     <string name="slot_action_external">Зовнішня пам\'ять</string>
     <string name="slot_filters_title">Список фільтрів</string>
     <string name="slot_filters_description">Ви можете синхронізувати фільтри із нашими серверами без втрати власних пунктів.&lt;br/&gt;&lt;br/&gt;Або Ви можете видалити всі пункти (включаючи власні), а тоді завантажити їх знову.</string>
+    <string name="slot_blocked_normal_title">Домен заблоковано</string>
+    <string name="slot_blocked_answer_title">Не вдається перетворити доменне ім\'я</string>
     <string name="slot_forwarded_title">Домен пропущено</string>
     <string name="slot_whitelist_title">Дозволений додаток</string>
     <string name="slot_list_no_desc">Цей пункт не має ніякого опису.</string>
@@ -186,4 +192,6 @@
     <string name="slot_reset_counter_label">Скинути лічильник заблокованих хостів</string>
     <string name="slot_reset_counter_description">Скидає лічильник заблокованих запитів на 0.</string>
     <string name="slot_reset_counter_action">Скинути</string>
+    <string name="label_workarounds">Рішення для конкретних пристроїв</string>
+    <string name="slot_dns_answer_label">Відповідь альтернативного DNS сервера</string>
 </resources>
