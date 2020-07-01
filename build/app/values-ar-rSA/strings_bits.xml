@@ -4,12 +4,10 @@
     <string name="home_touch">اضغط للتهيئة</string>
     <string name="home_blokada_disabled">بلوكادا متوقِّف</string>
     <string name="home_blokada_active">بلوكادا نَشِط</string>
-    <string name="home_blokada_active_protected">Blokada Tunnel نَشِط ، والإنترنت الخاصّ بك محمي</string>
     <string name="home_blokada_inactive">بلوكادا مُعَطَّل</string>
     <string name="home_activating">جارِ التفعيل</string>
     <string name="home_please_wait">الرجاء الإنتظار...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Tunnel نَشِط دون حَظْر الإعلانات</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">بلوكادا نَشِط في وضع DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -30,14 +28,9 @@
     <string name="home_update_required">التحديث مطلوب</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">التَّبرُّع</string>
-    <string name="home_vpn_enabled">Blokada Tunnel نَشِط</string>
-    <string name="home_vpn_disabled">Blokada Tunnel مُعَطَّل</string>
     <string name="home_account_active">حسابك لا يزال نَشِطاً</string>
-    <string name="home_connecting_vpn">جارِ الاتصال بـ Blokada Tunnel</string>
     <string name="home_cleanup">يُنصَح بالتنظيف</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">مُتَّصل بـ Blokada Tunnel</string>
-    <string name="home_boringtun_not_loaded">عذرًا ، جهازك غير مدعوم من Blokada Tunnel. لا يزال بإمكانك استخدام ميّزات أُخرى.</string>
     <string name="home_blocka_vpn_error">لا يمكن الاتصال بالبوابة. هل أنت متّصل؟</string>
     <string name="home_account_error">فشل التأكّد مِن حسابك. هل أنت متصل؟</string>
     <string name="home_permission_error">يُرجى منْح التصريحات للـ VPN.</string>
@@ -52,12 +45,9 @@
     <string name="menu_ads_rules_label">أضِف القواعد الخاصّة بك لضبط الحَظْر.</string>
     <string name="menu_ads_log_label">تَعرَّف على ما تَمّ حَظْره أو السماح به مؤخَّراً.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">Blokada Tunnel</string>
     <string name="menu_vpn_activate_account">الرجاء تنشيط حسابك أوّلاً.</string>
     <string name="menu_vpn_select_gateway">الرجاء إختيار بوّابة.</string>
-    <string name="menu_vpn_intro_button">لماذا أحتاج Blokada Tunnel ؟</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Blokada Tunnel الخاص بي</string>
     <string name="menu_vpn_account_id">المُعَرِّف: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">البوّابات</string>
@@ -66,13 +56,10 @@
     <string name="menu_vpn_manage_subscription">إدارة اشتراك حسابك</string>
     <string name="menu_vpn_account_secret">انقر فوق الصورة الرمزيّة أعلاه للإطلاع على مُعرِّف حسابك. تذكّر أنّ هويّتك سرّيّة و يجب عليك الإحتفاظ بها لنفسك. أكتبها في حال قمت بإلغاء تثبيت التطبيق.</string>
     <string name="menu_vpn_restore_label">هنا يمكنك إستعادة حسابك الحالي ، على سبيل المثال ، إذا قمت بإعادة تثبيت التطبيق.</string>
-    <string name="menu_vpn_intro">مع Blokada Tunnel تكون بياناتك مشفَّرة ، يَتمّ إخفاء عنوان الـ IP الخاصّ بك ، و يَتمّ تغيير موقعك.</string>
     <string name="menu_vpn_account_label">من أجل إستخدام الـ VPN ، تحتاج إلى حساب نَشِط. تَحقَّق أو استعد حِسابك هنا.</string>
     <string name="menu_vpn_gateways_label">حدِّد إحدى البوّابات للاتصال بها. سَيُرسِل جهازك بياناتك المشفَّرة بأمان عبر هذه البوابة ، و ستظل مجهول الهويّة.</string>
     <string name="menu_vpn_support_label">إذا واجهت أي مشاكل ، فلا تتردّد في الاتصال بنا.</string>
     <string name="menu_vpn_support_button">الدعم</string>
-    <string name="menu_vpn_tunnel_settings">إعدادات Blokada Tunnel</string>
-    <string name="menu_vpn_tunnel_learn_more">إعرف المزيد حول Blokada Tunnel</string>
     <string name="menu_vpn_info_account_label">هل لديك حساب ؟</string>
     <string name="menu_vpn_info_account_line1">نعم ! تمَّ إنشاء حسابك تلقائيّاً عند أوّل تشغيل. لا تحتاج إلى تسجيل.</string>
     <string name="menu_vpn_info_account_line2">انقر فوق الصورة الرمزيّة أعلاه للإطلاع على مُعَرِّف حسابك.</string>
@@ -81,7 +68,6 @@
     <string name="menu_dns_recommended">خوادِم DNS الموصى بها</string>
     <string name="menu_dns_intro">الـ DNS مسؤول عن ترجمة عناوين IP المواقع و التطبيقات التي تستخدمها. قد يؤدي إختيار DNS جيّد إلى تسريع جهازك و سيساعد في حماية خصوصيّتك.</string>
     <string name="menu_dns_select">حدِّد أحّد خوادِم DNS.</string>
-    <string name="menu_apps_intro">بعض التطبيقات قد لا تعمل بشكل صحيح مع بلوكادا. على سبيل المثال ، قد يكون لديهم مشكلة في الإتصال.\n\nتنشيط VPN غالباً ما يساعد في تلك الحالات.\n\nخلاف ذلك ، يُمكِنك جعل هذه التطبيقات تتجاوز مراقبة بلوكادا تماماً. تَذكَّر أنّ التطبيقات التي تمّ تجاوزها تتواصل خارج Blokada Tunnel.</string>
     <string name="menu_apps_system_label">تطبيقات النظام هي التطبيقات التي تأتي مثبّتة مُسبقاً على جهازك. بعضها مخفي. قُم بتعديلها فقط إذا كنت على علمٍ بما تفعله.</string>
     <string name="menu_host_list_intro">تحتوي قوائم المُستضيفين على قواعد لحظر الإعلانات و التعقُّب. حاول إبقاء عدد القوائم النَشِطة منخفض.</string>
     <string name="menu_host_adblocking_features">مختبرات بلوكادا</string>
@@ -99,7 +85,6 @@
     <string name="menu_knowledge">الحصول على مساعدة</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">ساهِم</string>
-    <string name="menu_telegram">دردشة تيليغرام</string>
     <string name="menu_configure">تهيئة مَيِّزات بلوكادا</string>
     <string name="menu_exclude">استبعاد التطبيقات التي لا تعمل بشكل صحيح</string>
     <!-- A section in menu for additional buttons  -->
