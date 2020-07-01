@@ -28,6 +28,8 @@
     <string name="home_update_required">Atualização necessária</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doar</string>
+    <string name="home_vpn_enabled">O Blokada Plus está ativo</string>
+    <string name="home_vpn_disabled">O Blokada Plus está desativado</string>
     <string name="home_account_active">Sua conta ainda está ativa</string>
     <string name="home_cleanup">Limpeza recomendada</string>
     <!-- A short text for the button to change VPN settings -->
@@ -47,7 +49,9 @@
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecione um gateway.</string>
+    <string name="menu_vpn_intro_button">Por que eu preciso do Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Meu Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
@@ -60,6 +64,8 @@
     <string name="menu_vpn_gateways_label">Selecione um dos gateways para se conectar. Seu dispositivo enviará seus dados criptografados de forma segura através desse gateway e você permanecerá anônimo.</string>
     <string name="menu_vpn_support_label">Se você não puder resolver o problema, não hesite em contatar o suporte</string>
     <string name="menu_vpn_support_button">Suporte</string>
+    <string name="menu_vpn_tunnel_settings">Configurações do Blokada Plus</string>
+    <string name="menu_vpn_tunnel_learn_more">Saiba mais sobre o Blokada Plus</string>
     <string name="menu_vpn_info_account_label">Eu tenho uma conta?</string>
     <string name="menu_vpn_info_account_line1">Sim! Sua conta foi criada automaticamente na primeira execução. Você não precisa se registrar.</string>
     <string name="menu_vpn_info_account_line2">Toque no seu avatar acima para ver o ID da sua conta.</string>
@@ -85,6 +91,7 @@
     <string name="menu_knowledge">Obter Ajuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Participe</string>
+    <string name="menu_telegram">Comunidade</string>
     <string name="menu_configure">Configurar recursos do Blokada</string>
     <string name="menu_exclude">Excluir apps que não funcionam corretamente</string>
     <!-- A section in menu for additional buttons  -->
