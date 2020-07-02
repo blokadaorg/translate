@@ -46,6 +46,10 @@
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
 
+"notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
+"notification vpn expired subtitle" = "VPN отключен";
+"notification vpn expired body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
+
 "account active forever" = "Навсегда";
 
 "main ask for permissions header" = "Еще один шаг";
@@ -156,6 +160,7 @@
 "account unlock to show" = "Разблокируйте, чтобы показать ID аккаунта";
 
 "account header logout" = "Выйти";
+"account logout description" = "Пожалуйста, введите другой ID аккаунта или вернитесь, чтобы продолжить использовать существующий (это приложение не может быть использовано без ID).";
 "account id status unchanged" = "(без изменений)";
 "account action how to restore" = "Как мне восстановить мой старый аккаунт?";
 
@@ -180,6 +185,8 @@
 "account lease label devices list" = "Эти устройства подключены к вашему аккаунту.";
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (это устройство)";
+
+"account support action how help" = "Чем мы можем вам помочь?";
 "account support action kb" = "Открытая база знаний";
 
 "payment header activated" = "Активировано!";
