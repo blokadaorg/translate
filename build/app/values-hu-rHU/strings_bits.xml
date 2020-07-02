@@ -4,10 +4,12 @@
     <string name="home_touch">A konfiguráláshoz érintsd meg</string>
     <string name="home_blokada_disabled">Blokada szüneteltetve</string>
     <string name="home_blokada_active">Blokada aktív</string>
+    <string name="home_blokada_active_protected">A Blokada Plus aktív, és az Interneted védett</string>
     <string name="home_blokada_inactive">Blokada deaktiválva</string>
     <string name="home_activating">Aktiválás</string>
     <string name="home_please_wait">Kérlek, várj...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">A Blokada Plus aktív hirdetésblokkolás nélkül</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada aktív a DNS módban</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -28,6 +30,7 @@
     <string name="home_update_required">Frissítés szükséges</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Támogatás</string>
+    <string name="home_vpn_enabled">A Blokada Plus aktív</string>
     <string name="home_account_active">A fiókod még aktív</string>
     <string name="home_cleanup">Tisztítás ajánlott</string>
     <!-- A short text for the button to change VPN settings -->
@@ -45,6 +48,7 @@
     <string name="menu_ads_rules_label">Add hozzá saját szabályaidat a blokkolás finomhangolásához.</string>
     <string name="menu_ads_log_label">Nézd meg, hogy mi került blokkolásra vagy engedélyezésre a közelmúltban.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Kérjük, először aktiváld a fiókodat.</string>
     <string name="menu_vpn_select_gateway">Kérjük, válassz egy átjárót.</string>
     <!-- A button opening VPN account settings -->
@@ -61,6 +65,7 @@
     <string name="menu_vpn_gateways_label">Válaszd ki az egyik átjárót. A készüléked a titkosított adatokat ezen az átjárón keresztül küldi biztonságosan, és így névtelen maradsz.</string>
     <string name="menu_vpn_support_label">Ha bármilyen problémát tapasztalsz, ne habozz kapcsolatba lépni velünk.</string>
     <string name="menu_vpn_support_button">Támogatás</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus beállítások</string>
     <string name="menu_vpn_info_account_label">Van már fiókom?</string>
     <string name="menu_vpn_info_account_line1">Igen! Az első futtatáskor a fiók automatikusan létrejön. Nem kell regisztrálnod.</string>
     <string name="menu_vpn_info_account_line2">A fiókazonosítód megtekintéséhez érintsd meg a fenti avatart.</string>
@@ -86,6 +91,7 @@
     <string name="menu_knowledge">Súgó</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Vegyél részt benne</string>
+    <string name="menu_telegram">Közösség</string>
     <string name="menu_configure">A Blokada funkciók beállítása</string>
     <string name="menu_exclude">Alkalmazások kizárása, amelyek nem működnek megfelelően</string>
     <!-- A section in menu for additional buttons  -->
