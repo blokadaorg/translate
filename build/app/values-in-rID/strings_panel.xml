@@ -24,7 +24,7 @@
     <string name="panel_domain_forwarded_toast">Ditambahkan ke whitelist.</string>
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
-    <string name="panel_domain_blocked_normal_desc">Domain ini telah diblokir. Untuk mengijinkan domain tersebut di kemudian hari, gunakan tombol di bawah ini.</string>
+    <string name="panel_domain_blocked_normal_desc">Domain ini telah diblokir. Untuk mengizinkan domain tersebut di kemudian hari, gunakan tombol di bawah ini.</string>
     <string name="panel_domain_blocked_answer_desc">Domain ini tidak diselesaikan dengan benar oleh server DNS. Hal ini bisa dikarenakan oleh domain yang diblokir atau domain tersebut tidak ada.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
     <!-- Action to copy domain name to clipboard -->
@@ -116,8 +116,8 @@
     <string name="slot_action_deactivate">Nonaktifkan</string>
     <string name="slot_action_activate">Aktifkan</string>
     <string name="slot_update_action_refresh">Periksa kembali</string>
-    <string name="slot_telegram_title">Bergabung bersama kami di Telegram!</string>
-    <string name="slot_telegram_desc">Kunjungi channel Telegram kami untuk meminta bantuan atau bergabung dengan komunitas.</string>
+    <string name="slot_telegram_title">Bergabunglah bersama kami!</string>
+    <string name="slot_telegram_desc">Kunjungi dan bergabung dengan komunitas kami di Discourse untuk mendapatkan bantuan.</string>
     <string name="slot_telegram_action">Buka</string>
     <string name="slot_dropped_share_title">Bagikan ke</string>
     <string name="slot_adblocking_label">Memblokir iklan &amp; tracker</string>
@@ -140,7 +140,7 @@
     <string name="slot_gateway_learn_more">Ketahui lebih lanjut tentang gateways</string>
     <string name="slot_gateway_info_partner">Apakah itu partner gateways?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Atur perangkat mana saja yang terhubung ke Blokada Tunnel.</string>
+    <string name="slot_leases_info">Atur perangkat mana saja yang terhubung ke Blokada Plus.</string>
     <string name="slot_lease_name_current">%s (perangkat ini)</string>
     <string name="slot_lease_description">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID Perangkat: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; Ini adalah perangkat yang Anda gunakan saat ini.</string>
@@ -178,8 +178,8 @@
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Sepertinya ada beberapa versi Blokada tersimpan di perangkat Anda. Apakah Anda ingin menghapus versi-versi lainnya dan menyimpan salah satu saja?</string>
     <string name="account_inactive">Silakan aktifkan atau pulihkan akun Anda untuk melanjutkan.</string>
-    <string name="slot_lease_cant_connect">Tidak dapat tersambung ke Blokada Tunnel. Silakan pilih gateway lain.</string>
-    <string name="slot_account_cant_create">Tidak dapat membuat akun Blokada Tunnel. Silakan coba kembali beberapa saat lagi atau hubungi kami di Telegram.</string>
+    <string name="slot_lease_cant_connect">Tidak dapat tersambung ke Blokada Plus. Silakan pilih gateway lain.</string>
+    <string name="slot_account_cant_create">Tidak dapat membuat akun Blokada Plus. Silakan coba kembali beberapa saat lagi atau hubungi kami.</string>
     <string name="slot_account_name_title">ID Akun</string>
     <string name="slot_account_name_desc">Masukkan ID akun lama Anda untuk mengembalikan data langganan sebelumnya. Disarankan untuk mencatat ID akun baru sebelum Anda memasukkan ID akun lama, untuk berjaga-jaga jika ID akun yang Anda masukkan salah.</string>
     <string name="slot_account_name_error">ID akun hanya bisa terdiri dari huruf dan angka.</string>

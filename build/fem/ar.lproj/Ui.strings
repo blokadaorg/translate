@@ -34,34 +34,186 @@
 "universal action help" = "المُساعَدة";
 "universal action show log" = "السِجلّات";
 "universal action share log" = "مُشاركة السِجلّ";
-"universal action copy" = "نسخ";
+"universal action copy" = "نَسْخ";
 "universal action save" = "حِفْظ";
-"universal action contact us" = "اتصل بنا";
+"universal action contact us" = "إتصل بنا";
 "universal action support" = "الدعم";
+"universal action upgrade" = "الترقية إلى BLOKADA+";
 
 "universal label help" = "المُساعَدة";
+"universal status processing" = "جارِ المعالجة... انتظر من فضلك.";
+
+"alert error header" = "عُذراً !";
+"alert vpn expired header" = "إنتهت صلاحيّة BLOKADA+";
+
+"notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
+"notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
+"notification vpn expired body" = "الرجاء تحديث إشتراكك للإستمرار في إستخدام BLOKADA+";
+
+"account active forever" = "للأبد";
+
+"main ask for permissions header" = "تبقّى خطوة واحدة فقط";
+"main ask for permissions description" = "يستخدم بلوكادا إعدادات VPN لمنع الإعلانات. سوف يُطلب منك السماح له في الخطوة التالية.";
+
+"main share message" = "بلوكادا لنظام التشغيل iOS ساعدني على حَظْر %@ الإعلانات و المتعقِّبين !";
+
+"main rate us header" = "قيِّمنا !";
+"main rate us description" = "كم يعجبك بلوكادا حتى الآن؟";
+"main rate us on app store" = "هل ستساعدنا من خلال تقييم بلوكادا على متجر التطبيقات؟";
+"main rate us action sure" = "بالتأكيد !";
 
 // Make sure each tab name has a similar length
 "main tab home" = "الرئيسيَّة";
 // Make sure each tab name has a similar length
+"main tab activity" = "الأنشطة";
+// Make sure each tab name has a similar length
 "main tab advanced" = "إعدادات مُتقَدِّمة";
 // Make sure each tab name has a similar length
 "main tab settings" = "الإعدادات";
+
+"home ads counter footnote" = "الإعلانات و المتعقّبين المحظورين منذ التثبيت";
+"home power off menu header" = "ماذا تريد أن تفعل؟";
 "home power action turn on" = "تشغيل";
 "home power action turn off" = "إيقاف التشغيل";
+"home power action pause" = "إيقاف مؤقَّت لمدّة 5 دقائق";
+
+"home status paused" = "تمّ الإيقاف مؤقّتاً";
 "home status active" = "نَشِط";
+"home status deactivated" = "مُعطَّل";
+"home action tap to activate" = "اضغط للتفعيل";
+"home status detail paused" = "متوقّف مؤقّتاً حتّى ينتهي المؤقِّت";
+"home status detail active" = "حَظْر *الإعلانات* و *المتعقِّبين*";
+"home status detail active with counter" = "تمّ حَظْر *%@* إعلانات و متعقِّبين";
+"home status detail plus" = "*+* حماية *خصوصيّتك*";
 "home status detail progress" = "الرجاء الإنتظار...";
+
+"home plus button deactivated" = "معطَّل BLOKADA+";
+"home plus button select location" = "حدِّد الموقع";
+"home plus button location" = "الموقع: *%@*";
+
+"pack section header" = "الميّزات المتقدّمة";
+"pack action install" = "إحصل";
+"pack action update" = "تحديث";
+"pack action uninstall" = "إزالة";
+"pack author" = "المالك";
+"pack configurations header" = "التكوين";
 "pack information header" = "المزيد";
+"pack tags header" = "الكلمات الدلاليّة";
+"pack tags none" = "لا يوجد";
+"pack category highlights" = "الملامح";
 "pack category active" = "مُفَعَّل";
+"pack category all" = "الكل";
+
+"location choice header" = "اختر موقع";
+
+"activity section header" = "الأنشطة";
+"activity request blocked" = "تمّ حَظْر هذا الطلب.";
+"activity request allowed" = "تمّ السماح لهذا الطلب.";
+"activity request allowed whitelisted" = "تمّ السماح لهذا الطلب، لأنّه موجود في قائمة السماح";
+"activity request blocked blacklisted" = "تمّ حَظْر هذا الطلب، لأنّه موجود في قائمة الحَظْر";
+"activity actions header" = "الإجراءات";
+"activity information header" = "معلومات";
+"activity action add to whitelist" = "إضافة إلى قائمة السماح";
+"activity action remove from whitelist" = "إزالة من قائمة السماح";
+"activity action added to whitelist" = "تمّت الإضافة إلى قائمة السماح";
+"activity action add to blacklist" = "إضافة إلى قائمة الحَظْر";
+"activity action remove from blacklist" = "إزالة من قائمة الحَظْر";
+"activity action added to blacklist" = "تمّت الإضافة إلى قائمة الحَظْر";
+"activity action copy to clipboard" = "نسخْ الاسم إلى الحافظة";
+"activity domain name" = "الاسم الكامل";
+"activity time of occurrence" = "الوقت";
+"activity number of occurrences" = "عدد الأحداث";
+"activity state modified" = "مُعدَّل";
 "activity state blocked" = "مَحظور";
+"activity state allowed" = "مسموح به";
+"activity happened one time" = "مرّة واحدة";
+"activity happened many times" = "%@ مرّات";
+"activity category recent" = "حديثاً";
+"activity category top" = "الأعلى";
+"activity category top blocked" = "الأكثر حَظراً";
+"activity category top allowed" = "الأكثر سماحاً";
+"activity filter header" = "ما هي الإدخالات التي ترغب في رؤيتها؟";
+"activity filter show all" = "إظهار كافّة الإدخالات";
+"activity filter show blocked" = "إظهار المحظور فقط";
+"activity filter show allowed" = "إظهار المسموح به فقط";
 
 "account section header settings" = "الإعدادات";
+"account status text" = "حسابك في BLOKADA %@ نَشِط حتّى %@.";
+"account section header primary" = "الأساسي";
 "account section header other" = "غير ذلك";
+"account action my account" = "حسابي";
+"account action encryption" = "التشفير";
 "account action devices" = "الأجهزة";
+"account action inbox" = "صندوق الوارد";
+"account action logout" = "تسجيل خروج";
 "account action about" = "حوْلَ";
+
+"account section header my subscription" = "اشتراكي";
+"account section header general" = "عام";
+"account section header subscription" = "الإشتراك";
 "account label id" = "مُعَرِّف الحساب";
+"account label type" = "نوع الحساب";
+"account label active until" = "نَشِط حتّى";
 "account action manage subscription" = "إدارة الإشتراك";
+"account action why upgrade" = "لماذا ينبغي عليّ الترقية؟";
+
+"account unlock to show" = "افتح لإظهار معرِّف حسابك";
+
+"account header logout" = "تسجيل الخروج";
+"account logout description" = "الرجاء إدخال معرِّف حساب آخر، أو العودة للإستمرار في إستخدام حسابك الحالي (لا يمكن إستخدام هذا التطبيق بدون حساب).";
+"account id status unchanged" = "(دون تغيير)";
+"account action how to restore" = "كيف يُمكنني استعادة حسابي القديم؟";
+
+"account encrypt level low" = "ضعيف";
+"account encrypt level medium" = "متوسِّط";
+"account encrypt level high" = "قُصوى";
+"account encrypt label dns only" = "تشفير الـ DNS";
+"account encrypt desc dns only" = "نظام اسم النطاق هو كيف يعرف جهازك أين يمكن العثور على المواقع التي تريد زيارتها. لسوء الحظ، لا يزال معظم الإنترنت يستخدم DNS غير مشفر، ممّا يُعَرِّض سجل التصفح الخاص بك لخطر التجسّس. عند التمكين، يُجبِر بلوكادا جهازك على الإتصال فقط بخوادم DNS المشفرة (تُسمّى أيضاً DNS عبر HTTPS).";
+"account encrypt label everything" = "تشفير كل شيء";
+"account encrypt desc everything" = "جهازك يتصل عبر خوادم VPN الآمنة الخاصّة بنا، وجميع الإتصالات القادمة من جهازك أو إليه يتمّ تشفيرها باستخدام خوارزميات قويّة. هذا يحمي معلوماتك الشخصيّة، مثل التفاصيل المصرفيّة أو الصور الشخصيّة، من السرقة في أماكن غير آمنة، مثل WiFi.";
+"account encrypt action turn on" = "تشغيل BLOKADA";
+"account encrypt header level" = "مستوى التشفير";
+"account encrypt label level" = "المستوى";
+"account encrypt label level low" = "ضعيف: لا تشفير";
+"account encrypt label level medium" = "متوسّط: تشفير DNS";
+"account encrypt label level high" = "مرتفِع: تشفير كل شيء";
+"account encrypt header explanation" = "DNS هو كيف يعرف جهازك أين يمكن العثور على المواقع. BLOKADA يَدعم الخوادم المشفَّرة فقط.";
 "account encrypt label dns" = "نظام أسماء النطاقات (DNS)";
+"account encrypt action what is dns" = "ما هو الـ DNS؟";
+"account encrypt section header" = "التشفير";
+
+"account lease label devices list" = "هذه الأجهزة متّصلة بحسابك.";
 "account lease label devices" = "الأجهزة";
+"account lease label this device" = " (هذا الجهاز)";
+
+"account support action how help" = "كيف يمكن أن نساعدك؟";
+"account support action kb" = "فتح قاعدة الإضطلاع";
+
+"payment header activated" = "مفَعَّل!";
+"payment activated description" = "سيتحول بلوكادا الآن إلى وضع Plus ، و سيتّصل عبر أحد مواقعنا الآمنة. إذا لم تكن متأكّداً من الإختيار، فيُنصح بالموقع الأقرب إليك.";
+"payment action choose location" = "إختيار موقع";
+
+"payment title" = "قم بالترقية إلى خدمة VPN الخاصّة بنا لكي تبقى مسيطر على *خصوصيّتك*.";
+"payment feature title change location" = "تغيير الموقع";
+"payment feature desc change location" = "إخفاء عنوان IP الخاص بك و التظاهر بأنّك في بلد آخر. ذلك سوف يخفيك من أطراف ثالثة و يساعد على حماية هويّتك.";
+"payment feature title encrypt data" = "تشفير البيانات";
+"payment feature desc encrypt data" = "يتم تشفير البيانات المرسلة من خلال نفق VPN الخاص بنا باستخدام خوارزميات قويّة من أجل الحماية من اعتراض الأطراف غير المصرّح لها.";
+"payment feature title faster connection" = "إتصال أسرع";
+"payment feature desc faster connection" = "سرعة كبيرة تصل إلى 100 ميغابايت مع خوادِم في مختلف أنحاء العالم.";
+"payment feature title devices" = "حتّى 5 أجهزة";
+"payment feature desc devices" = "إستخدم نفس الحساب لمشاركة إشتراكك مع 5 أجهزة: iOS أو Android أو PC.";
+"payment feature title no ads" = "إزالة الإعلانات";
+"payment feature desc no ads" = "استمر في استخدام تكنولوجيا Blokada المشهورة في العالم لحَظْر الإعلانات مع تحسين مستوى حمايتك و الحفاظ على خصوصيّة بياناتك.";
+"payment feature title support" = "دعم كبير";
+"payment feature desc support" = "إحصل على رد فوري على أيّ أسئلة بفضل دعم العملاء لدينا و مجتمع نَشِط مفتوح المصدر.";
+"payment action see all features" = "مشاهدة جميع الميّزات";
+"payment action restore" = "إستعادة عمليّات الشراء";
+"payment action terms and privacy" = "الشروط و الخصوصيّة";
+"payment action terms" = "شروط الخدمة";
+"payment action policy" = "سياسة الخصوصيّة";
+"payment alert error header" = "رسالة من متجر التطبيقات";
 
 "payment subscription 1 month" = "شهر واحد";
+"payment subscription many months" = "%@ أشهر";
+"payment subscription per month" = "%@ في الشهر";
+"payment subscription offer" = "توفير %@";

@@ -20,7 +20,7 @@
 "error payment inactive after restore" = "Votre paiement précédent a été restauré, mais l'abonnement a déjà expiré. Si vous pensez que c'est une erreur, veuillez nous contacter en cliquant sur le bouton d'aide en haut de l'écran.";
 "error payment failed" = "Les paiements sont actuellement indisponibles. Assurez-vous d'être en ligne, et réessayez plus tard. Si le problème persiste, contactez-nous en cliquant sur l'icône d'aide en haut de l'écran.";
 "error payment not available" = "Les paiements sont indisponibles sur cet appareil. Soit vous n'avez pas activé Apple Pay, soit nous ne prenons pas encore en charge les paiements dans votre pays.";
-"error payment canceled" = "Paiement annulé. Vous n'avez pas été débité.";
+"error payment canceled" = "Le paiement a été annulé. Vous n'avez pas été débité.";
 "error pack install" = "Impossible d'installer (ou désinstaller) cette fonctionnalité. Veuillez réessayer plus tard.";
 "error unknown" = "Un problème inconnu est survenu. Veuillez réessayer. Si le problème persiste, contactez-nous en cliquant sur l'icône d'aide en haut.";
 
@@ -44,6 +44,10 @@
 
 "alert error header" = "Oups !";
 "alert vpn expired header" = "BLOKADA+ a expiré";
+
+"notification vpn expired header" = "L'abonnement BLOKADA+ a expiré";
+"notification vpn expired subtitle" = "Le VPN est désactivé";
+"notification vpn expired body" = "Veuillez mettre à jour votre abonnement pour continuer à utiliser BLOKADA+";
 
 "account active forever" = "Pour toujours";
 
@@ -97,11 +101,21 @@
 "pack category active" = "Actif";
 "pack category all" = "Tous";
 
+"location choice header" = "Choisissez une localisation";
+
 "activity section header" = "Activité";
 "activity request blocked" = "Cette requête a été bloquée.";
 "activity request allowed" = "Cette requête a été autorisée.";
+"activity request allowed whitelisted" = "Cette requête a été autorisée, car elle figure dans votre liste d'autorisations";
+"activity request blocked blacklisted" = "Cette requête a été bloquée, car elle figure dans votre liste d'interdictions";
 "activity actions header" = "Actions";
 "activity information header" = "Information";
+"activity action add to whitelist" = "Ajouter à Autorisé";
+"activity action remove from whitelist" = "Supprimer de Autorisé";
+"activity action added to whitelist" = "Ajouté à Autorisé";
+"activity action add to blacklist" = "Ajouter à Bloqué";
+"activity action remove from blacklist" = "Supprimer de Bloqué";
+"activity action added to blacklist" = "Ajouté à Bloqué";
 "activity action copy to clipboard" = "Copier le nom dans le presse-papier";
 "activity domain name" = "Nom complet";
 "activity time of occurrence" = "Heure";
@@ -112,6 +126,8 @@
 "activity happened one time" = "1 fois";
 "activity happened many times" = "%@ fois";
 "activity category recent" = "Récent";
+"activity category top blocked" = "Top de Bloqué";
+"activity category top allowed" = "Top de Autorisé";
 "activity filter header" = "Quelles entrées voulez-vous voir ?";
 "activity filter show all" = "Afficher tous les éléments";
 "activity filter show blocked" = "N'afficher que les éléments bloqués";
@@ -166,7 +182,7 @@
 "account lease label devices" = "Appareils";
 "account lease label this device" = " (cet appareil)";
 
-"account support action how help" = "Comment pouvons-nous aider ?";
+"account support action how help" = "Comment pouvons-nous vous aider ?";
 "account support action kb" = "Ouvrir la Base de connaissances";
 
 "payment header activated" = "Activé !";

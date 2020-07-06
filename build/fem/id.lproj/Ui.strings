@@ -13,7 +13,7 @@
 "error fetching data" = "Pendaftaran akun tidak bisa dilanjutkan. Harap pastikan perangkat Anda terhubung dengan internet, dan coba kembali. Jika masalah berlanjut, silakan hubungi kami dengan cara mengetuk ikon Bantuan di atas.";
 "error tunnel" = "Tidak dapat terhubung dengan VPN. Silakan me-restart perangkat Anda, atau hapus profil Blokada VPN di pengaturan sistem, dan coba kembali.";
 "error vpn" = "Tidak dapat terhubung dengan VPN. Silakan me-restart perangkat Anda, atau hapus profil Blokada VPN di pengaturan sistem, dan coba kembali.";
-"error vpn perms" = "Ijin tidak diberikan untuk membuat profil VPN.";
+"error vpn perms" = "Izin tidak diberikan untuk membuat profil VPN.";
 "error vpn no current lease" = "Silakan pilih lokasi terlebih dahulu.";
 "error vpn too many leases" = "Jumlah perangkat yang bisa menggunakan VPN telah terlampaui. Silakan hapus salah satu perangkat Anda dan coba kembali.";
 "error vpn expired" = "VPN dinonaktifkan. Silakan perbarui langganan Anda agar BLOKADA+ dapat digunakan kembali";
@@ -46,10 +46,14 @@
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ kedaluwarsa";
 
+"notification vpn expired header" = "Langganan BLOKADA+ Anda telah berakhir";
+"notification vpn expired subtitle" = "VPN dinonaktifkan";
+"notification vpn expired body" = "Silakan perbarui langganan Anda agar BLOKADA+ dapat digunakan kembali";
+
 "account active forever" = "Selamanya";
 
 "main ask for permissions header" = "Satu langkah lagi";
-"main ask for permissions description" = "Blokada menggunakan konfigurasi VPN untuk memblokir iklan. Anda akan diminta untuk memberikan ijin di langkah selanjutnya.";
+"main ask for permissions description" = "Blokada menggunakan konfigurasi VPN untuk memblokir iklan. Anda akan diminta untuk memberikan izin di langkah selanjutnya.";
 
 "main share message" = "Blokada iOS membantu saya memblokir %@ iklan dan pelacak!";
 
@@ -104,8 +108,8 @@
 
 "activity section header" = "Aktifitas";
 "activity request blocked" = "Permintaan ini telah diblokir.";
-"activity request allowed" = "Permintaan ini telah diijinkan.";
-"activity request allowed whitelisted" = "Permintaan ini telah diijinkan, karena domain tersebut ada di dalam whitelist";
+"activity request allowed" = "Permintaan ini telah diizinkan.";
+"activity request allowed whitelisted" = "Permintaan ini telah diizinkan, karena domain tersebut ada di dalam whitelist";
 "activity request blocked blacklisted" = "Permintaan ini telah diblokir, karena domain tersebut ada di dalam blacklist";
 "activity actions header" = "Tindakan";
 "activity information header" = "Informasi";
@@ -121,17 +125,17 @@
 "activity number of occurrences" = "Jumlah kejadian";
 "activity state modified" = "diubah";
 "activity state blocked" = "diblokir";
-"activity state allowed" = "diijinkan";
+"activity state allowed" = "diizinkan";
 "activity happened one time" = "1 kali";
 "activity happened many times" = "%@ kali";
 "activity category recent" = "Terbaru";
 "activity category top" = "Teratas";
 "activity category top blocked" = "Paling sering diblokir";
-"activity category top allowed" = "Paling sering diijinkan";
+"activity category top allowed" = "Paling sering diizinkan";
 "activity filter header" = "Entri mana yang ingin Anda lihat?";
 "activity filter show all" = "Tampilkan semua entri";
 "activity filter show blocked" = "Tampilkan yang diblokir saja";
-"activity filter show allowed" = "Tampilkan yang diijinkan saja";
+"activity filter show allowed" = "Tampilkan yang diizinkan saja";
 
 "account section header settings" = "Pengaturan";
 "account status text" = "%@ Akun BLOKADA Anda aktif sampai %@.";

@@ -7,41 +7,180 @@
 */
 
 "error device offline" = "O seu dispositivo está offline";
+"error account inactive" = "Sua conta está inativa. Por favor, ative sua conta para continuar a usar o BLOKADA+.";
+"error vpn perms" = "Nenhuma permissão concedida para criar um perfil de VPN.";
+"error vpn no current lease" = "Por favor, selecione uma localidade primeiro.";
+"error vpn too many leases" = "Você atingiu o seu limite de dispositivos. Por favor, remova um dos seus dispositivos e tente novamente.";
+"error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
+"error location failed fetching" = "Não foi possível buscar as localizações.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
 "universal action close" = "Fechar";
+"universal action done" = "Concluído";
+"universal action try again" = "Tente novamente";
 "universal action learn more" = "Saiba mais";
 "universal action help" = "Ajuda";
+"universal action show log" = "Registros";
 "universal action share log" = "Compartilhar log";
 "universal action copy" = "Copiar";
 "universal action save" = "Salvar";
 "universal action contact us" = "Contate-nos";
 "universal action support" = "Suporte";
+"universal action upgrade" = "Atualize para o BLOKADA+";
 
 "universal label help" = "Ajuda";
+"universal status processing" = "Processando... Por favor, aguarde.";
+
+"alert error header" = "Opa!";
+"alert vpn expired header" = "O BLOKADA+ expirou";
+
+"account active forever" = "Para sempre";
+
+"main ask for permissions header" = "Só mais um passo";
+
+"main rate us header" = "Avalie-nos!";
+"main rate us description" = "Como você está gostando do Blokada até agora?";
+"main rate us on app store" = "Você nos ajudaria avaliando o Blokada na App Store?";
+"main rate us action sure" = "Claro!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Início";
 // Make sure each tab name has a similar length
+"main tab activity" = "Atividade";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avançado";
 // Make sure each tab name has a similar length
 "main tab settings" = "Configurações";
+
+"home ads counter footnote" = "anúncios e rastreadores bloqueados desde a instalação";
+"home power off menu header" = "O que você gostaria de fazer?";
 "home power action turn on" = "Ativar";
 "home power action turn off" = "Desativar";
+"home power action pause" = "Pausar por 5 min";
+
+"home status paused" = "PAUSADO";
 "home status active" = "ATIVO";
+"home status deactivated" = "DESATIVADO";
+"home action tap to activate" = "toque para ativar";
+"home status detail paused" = "pausado até o tempo terminar";
+"home status detail active" = "bloqueando *anúncios* e *rastreadores*";
+"home status detail active with counter" = "bloqueou *%@* anúncios e rastreadores";
+"home status detail plus" = "*+* protegendo sua *privacidade*";
 "home status detail progress" = "por favor, aguarde...";
+
+"home plus button deactivated" = "BLOKADA+ desativado";
+"home plus button select location" = "Selecionar local";
+"home plus button location" = "Localização: *%@*";
+
+"pack section header" = "Recursos Avançados";
+"pack action install" = "OBTER";
+"pack action update" = "ATUALIZAR";
+"pack action uninstall" = "REMOVER";
+"pack author" = "Autor";
+"pack configurations header" = "Configurações";
 "pack information header" = "Mais";
+"pack tags header" = "Tags";
+"pack tags none" = "Nenhuma";
+"pack category highlights" = "Destaques";
 "pack category active" = "Ativo";
+"pack category all" = "Todas";
+
+"location choice header" = "Escolha um Local";
+
+"activity section header" = "Atividade";
+"activity request blocked" = "Esta solicitação foi bloqueada.";
+"activity request allowed" = "Esta solicitação foi permitida.";
+"activity request allowed whitelisted" = "Esta solicitação foi permitida, porque está na sua lista de Permitidos";
+"activity request blocked blacklisted" = "Esta solicitação foi permitida, porque está na sua lista de Bloqueados";
+"activity actions header" = "Ações";
+"activity information header" = "Informação";
+"activity action add to whitelist" = "Adicionar aos Permitidos";
+"activity action remove from whitelist" = "Remover dos Permitidos";
+"activity action added to whitelist" = "Adicionado aos Permitidos";
+"activity action add to blacklist" = "Adicionar aos Bloqueados";
+"activity action remove from blacklist" = "Remover dos Bloqueados";
+"activity action added to blacklist" = "Adicionado aos Bloqueados";
+"activity action copy to clipboard" = "Copiar nome para a Área de Transferência";
+"activity domain name" = "Nome completo";
+"activity time of occurrence" = "Hora";
+"activity number of occurrences" = "Número de ocorrências";
+"activity state modified" = "modificado";
 "activity state blocked" = "bloqueado";
+"activity state allowed" = "permitido";
+"activity happened one time" = "1 vez";
+"activity happened many times" = "%@ vezes";
+"activity category recent" = "Recente";
+"activity category top" = "Mais vezes";
+"activity category top blocked" = "Mais Bloqueados";
+"activity category top allowed" = "Mais Permitidos";
+"activity filter header" = "Quais entradas você gostaria de ver?";
+"activity filter show all" = "Mostrar todas as entradas";
+"activity filter show blocked" = "Mostrar somente bloqueados";
+"activity filter show allowed" = "Mostrar somente permitidos";
 
 "account section header settings" = "Configurações";
+"account status text" = "Sua conta BLOKADA %@ está ativa até %@.";
+"account section header primary" = "Primário";
 "account section header other" = "Outros";
+"account action my account" = "Minha conta";
+"account action encryption" = "Criptografia";
 "account action devices" = "Dispositivos";
+"account action inbox" = "Caixa de entrada";
+"account action logout" = "Sair da conta";
 "account action about" = "Sobre";
+
+"account section header my subscription" = "Minha Assinatura";
+"account section header general" = "Geral";
+"account section header subscription" = "Assinatura";
 "account label id" = "ID da conta";
+"account label type" = "Tipo de conta";
+"account label active until" = "Ativo até";
 "account action manage subscription" = "Gerenciar assinatura";
+"account action why upgrade" = "Por que devo fazer o upgrade?";
+
+"account unlock to show" = "Desbloqueie para mostrar o ID da sua conta";
+
+"account header logout" = "Encerrar sessão";
+"account id status unchanged" = "(inalterado)";
+"account action how to restore" = "Como faço para restaurar minha conta antiga?";
+
+"account encrypt level low" = "Baixa";
+"account encrypt level medium" = "Média";
+"account encrypt level high" = "Alta";
+"account encrypt label dns only" = "Criptografando DNS";
+"account encrypt label everything" = "Criptografando tudo";
+"account encrypt action turn on" = "Ativar o BLOKADA";
+"account encrypt header level" = "Nível de Criptografia";
+"account encrypt label level" = "Nível";
+"account encrypt label level low" = "Baixa: Sem criptografia";
+"account encrypt label level medium" = "Média: Criptografando DNS";
+"account encrypt label level high" = "Alta: Criptografando tudo";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "O que é DNS?";
+"account encrypt section header" = "Criptografia";
+
+"account lease label devices list" = "Estes dispositivos estão conectados à sua conta.";
 "account lease label devices" = "Dispositivos";
+"account lease label this device" = " (este dispositivo)";
+"account support action kb" = "Base de Conhecimento Aberta";
+
+"payment header activated" = "Ativado!";
+"payment action choose location" = "Escolha um local";
+"payment feature title change location" = "Alterar Localização";
+"payment feature title encrypt data" = "Criptografe seus dados";
+"payment feature title faster connection" = "Conexão mais rápida";
+"payment feature title devices" = "Até 5 dispositivos";
+"payment feature title no ads" = "Sem anúncios";
+"payment feature title support" = "Ótimo suporte";
+"payment action see all features" = "Ver Todos os Recursos";
+"payment action restore" = "Restaurar Compras";
+"payment action terms and privacy" = "Termos e Privacidade";
+"payment action terms" = "Termos de Serviço";
+"payment action policy" = "Política de Privacidade";
+"payment alert error header" = "Uma mensagem da App Store";
 
 "payment subscription 1 month" = "1 Mês";
+"payment subscription many months" = "%@ Meses";
+"payment subscription per month" = "%@ por mês";
+"payment subscription offer" = "Salvar %@";

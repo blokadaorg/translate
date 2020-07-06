@@ -4,12 +4,12 @@
     <string name="home_touch">Toque ou segure para configurar</string>
     <string name="home_blokada_disabled">Blokada em pausa</string>
     <string name="home_blokada_active">O Blokada está ativo</string>
-    <string name="home_blokada_active_protected">O Blokada Tunnel está ativo, e sua Internet está protegida</string>
+    <string name="home_blokada_active_protected">O Blokada Plus está ativo, e sua Internet está protegida</string>
     <string name="home_blokada_inactive">O Blokada está desativado</string>
     <string name="home_activating">Ativando</string>
     <string name="home_please_wait">Por favor, aguarde...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">O Blokada Tunnel está ativo sem bloqueio de anúncios </string>
+    <string name="home_vpn_only">O Blokada Plus está ativo sem bloqueio de anúncios</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">O Blokada está ativo no modo de DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -30,14 +30,14 @@
     <string name="home_update_required">Atualização necessária</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doar</string>
-    <string name="home_vpn_enabled">O Blokada Tunnel está ativo</string>
-    <string name="home_vpn_disabled">O Blokada Tunnel está desativado</string>
+    <string name="home_vpn_enabled">O Blokada Plus está ativo</string>
+    <string name="home_vpn_disabled">O Blokada Plus está desativado</string>
     <string name="home_account_active">Sua conta ainda está ativa</string>
-    <string name="home_connecting_vpn">Conectando ao Blokada Tunnel</string>
+    <string name="home_connecting_vpn">Conectando ao Blokada Plus</string>
     <string name="home_cleanup">Limpeza recomendada</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Conectado ao Blokada Tunnel</string>
-    <string name="home_boringtun_not_loaded">Desculpe, o seu dispositivo não é suportado pela VPN do Blokada. Mas você ainda pode usar outros recursos.</string>
+    <string name="home_connected_vpn">Conectado ao Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Desculpe, o seu dispositivo não é suportado pelo Blokada Plus. Mas você ainda pode usar outros recursos.</string>
     <string name="home_blocka_vpn_error">Não foi possível conetar ao gateway. Você está online?</string>
     <string name="home_account_error">Não foi possível verificar a conta. Você está online?</string>
     <string name="home_permission_error">Por favor conceda permissões de VPN.</string>
@@ -52,27 +52,28 @@
     <string name="menu_ads_rules_label">Adicione suas próprias regras para ajustar o bloqueio.</string>
     <string name="menu_ads_log_label">Veja o que foi bloqueado ou permitido recentemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">Blokada Tunnel</string>
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Por favor, ative sua conta primeiro.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecione um gateway.</string>
-    <string name="menu_vpn_intro_button">Por que eu preciso do Blokada Tunnel?</string>
+    <string name="menu_vpn_intro_button">Por que eu preciso do Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Meu Blokada Tunnel</string>
+    <string name="menu_vpn_account">Meu Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gerenciar assinatura da sua conta</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Se sua conta é nova, visite nosso site. Você não pode comprar uma assinatura no Blokada Slim.</string>
     <string name="menu_vpn_account_secret">Toque seu avatar acima para ver o ID da sua conta. Lembre-se, seu ID é secreto e você deve mantê-lo para si. Anote-o caso desinstale o aplicativo.</string>
     <string name="menu_vpn_restore_label">Aqui você pode restaurar sua conta existente se, por exemplo, você reinstalar o aplicativo.</string>
-    <string name="menu_vpn_intro">Com o Blokada Tunnel, seus dados são criptografados, seu endereço IP fica oculto, e sua localização é alterada.</string>
+    <string name="menu_vpn_intro">Com o Blokada Plus, seus dados são criptografados, seu endereço IP fica oculto, e sua localização é alterada.</string>
     <string name="menu_vpn_account_label">Para usar a VPN, você precisa de uma conta ativa. Verifique ou restaure sua conta aqui.</string>
     <string name="menu_vpn_gateways_label">Selecione um dos gateways para se conectar. Seu dispositivo enviará seus dados criptografados de forma segura através desse gateway e você permanecerá anônimo.</string>
     <string name="menu_vpn_support_label">Se você não puder resolver o problema, não hesite em contatar o suporte</string>
     <string name="menu_vpn_support_button">Suporte</string>
-    <string name="menu_vpn_tunnel_settings">Configurações do Blokada Tunnel</string>
-    <string name="menu_vpn_tunnel_learn_more">Saiba mais sobre o Blokada Tunnel</string>
+    <string name="menu_vpn_tunnel_settings">Configurações do Blokada Plus</string>
+    <string name="menu_vpn_tunnel_learn_more">Saiba mais sobre o Blokada Plus</string>
     <string name="menu_vpn_info_account_label">Eu tenho uma conta?</string>
     <string name="menu_vpn_info_account_line1">Sim! Sua conta foi criada automaticamente na primeira execução. Você não precisa se registrar.</string>
     <string name="menu_vpn_info_account_line2">Toque no seu avatar acima para ver o ID da sua conta.</string>
@@ -81,7 +82,7 @@
     <string name="menu_dns_recommended">Servidores DNS recomendados</string>
     <string name="menu_dns_intro">O DNS é responsável por traduzir endereços IP de sites e aplicativos que você usa. A escolha de um bom DNS pode acelerar o seu dispositivo e ajudará a proteger sua privacidade.</string>
     <string name="menu_dns_select">Selecione um dos servidores DNS.</string>
-    <string name="menu_apps_intro">Alguns aplicativos podem não funcionar corretamente com o Blokada. Por exemplo, eles podem ter problemas para se conectar.\n\nA ativação de uma VPN geralmente ajuda nesses casos.\n\nCaso contrário, você pode fazer com que esses aplicativos ignorem totalmente a inspeção do Blokada. Lembre-se, os aplicativos ignorados se comunicam fora do Blokada Tunnel.</string>
+    <string name="menu_apps_intro">Alguns aplicativos podem não funcionar corretamente com o Blokada. Por exemplo, eles podem ter problemas para se conectar.\n\nA ativação de uma VPN geralmente ajuda nesses casos.\n\nCaso contrário, você pode fazer com que esses aplicativos ignorem totalmente a inspeção do Blokada. Lembre-se, os aplicativos ignorados se comunicam fora do Blokada Plus.</string>
     <string name="menu_apps_system_label">Os aplicativos do sistema são os que vêm pré-instalados com o seu dispositivo. Alguns deles estão escondidos. Modifique-os somente se você souber o que está fazendo.</string>
     <string name="menu_host_list_intro">As listas de endereços contêm regras para bloquear anúncios e rastreadores. Tente manter o número de listas ativas baixo.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
@@ -99,7 +100,7 @@
     <string name="menu_knowledge">Obter Ajuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Participe</string>
-    <string name="menu_telegram">Chat do Telegram</string>
+    <string name="menu_telegram">Comunidade</string>
     <string name="menu_configure">Configurar recursos do Blokada</string>
     <string name="menu_exclude">Excluir apps que não funcionam corretamente</string>
     <!-- A section in menu for additional buttons  -->

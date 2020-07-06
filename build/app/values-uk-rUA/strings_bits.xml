@@ -4,12 +4,10 @@
     <string name="home_touch">Натисніть чи утримуйте, щоб налаштувати</string>
     <string name="home_blokada_disabled">Blokada зупинена</string>
     <string name="home_blokada_active">Blokada активна</string>
-    <string name="home_blokada_active_protected">Тунель Blokada активний, доступ до менежі Інтернет захищений</string>
     <string name="home_blokada_inactive">Blokada неактивна</string>
     <string name="home_activating">Вмикається</string>
     <string name="home_please_wait">Зачекайте...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Тунель Blokada активований без блокування реклами</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada активована в режимі DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -30,14 +28,9 @@
     <string name="home_update_required">Потрібно оновити</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Фондувати</string>
-    <string name="home_vpn_enabled">Тунель Blokada активований</string>
-    <string name="home_vpn_disabled">Тунель Blokada деактивований</string>
     <string name="home_account_active">Ваша підписка активна</string>
-    <string name="home_connecting_vpn">Підключення до тунелю Blokada</string>
     <string name="home_cleanup">Рекомендовано очищення</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Під\'єднано до тунелю Blokada</string>
-    <string name="home_boringtun_not_loaded">На жаль, тунель Blokada не підтримує ваш пристрій. Ви все ще можете використовувати інші функції.</string>
     <string name="home_blocka_vpn_error">Неможливо підключитися до шлюзу. Ви онлайн?</string>
     <string name="home_account_error">Неможливо підтвердити обліковий запис. Ви онлайн?</string>
     <string name="home_permission_error">Будь ласка, надайте дозволи VPN.</string>
@@ -52,12 +45,9 @@
     <string name="menu_ads_rules_label">Додайте власні правила блокування, якщо потрібно.</string>
     <string name="menu_ads_log_label">Переглянути що було заблоковано чи дозволено нещодавно.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
-    <string name="menu_vpn">Тунель Blokada</string>
     <string name="menu_vpn_activate_account">Будь ласка, активуйте Вашу підписку.</string>
     <string name="menu_vpn_select_gateway">Оберіть шлюз для підключення.</string>
-    <string name="menu_vpn_intro_button">Навіщо мені тунель Blokada?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">Мій тунель Blokada</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзи</string>
@@ -67,13 +57,10 @@
     <string name="menu_vpn_manage_subscription_unavailable">Якщо у вас новий обліковий запис, завітайте на наш сайт. Купити підписку з Blokada Slim неможливо.</string>
     <string name="menu_vpn_account_secret">Торкніться вашого аватару, щоб побачити ID вашого облікового запису. Пам\'ятайте, ваш ID є секретним, і ви повинні зберігати його у надійному місці. Запишіть його на випадок, якщо ви видалите додаток.</string>
     <string name="menu_vpn_restore_label">Тут Ви можете відновити наявну підписку, якщо Ви перевстановили додаток.</string>
-    <string name="menu_vpn_intro">З тунелем Blokada ваші дані, що передаються, шифруються, ваша IP адреса та місцезнаходження змінюються.</string>
     <string name="menu_vpn_account_label">Щоб користуватися VPN, у вас має бути активний обліковий запис. Перевірити чи поновити його ви можете тут.</string>
     <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_vpn_support_label">У разі виникнення будь-яких проблем без вагань звертайтеся до нас.</string>
     <string name="menu_vpn_support_button">Підтримка</string>
-    <string name="menu_vpn_tunnel_settings">Налаштування тунелю Blokada</string>
-    <string name="menu_vpn_tunnel_learn_more">Дізнатися більше про тунель Blokada</string>
     <string name="menu_vpn_info_account_label">Чи є у мене обліковий запис?</string>
     <string name="menu_vpn_info_account_line1">Так! Ваш обліковий запис створюється автоматично під час першого запуску. Вам не потрібно реєструватися.</string>
     <string name="menu_vpn_info_account_line2">Натисніть на аватар вище, щоб побачити ID вашого облікового запису.</string>
@@ -82,7 +69,6 @@
     <string name="menu_dns_recommended">Рекомендовані DNS сервери</string>
     <string name="menu_dns_intro">DNS відповідає за визначення адрес IP для сайтів та додатків, які Ви використовуєте. Хороший DNS може пришвидшити пристрій та допоможе захистити приватність.</string>
     <string name="menu_dns_select">Оберіть один з DNS серверів.</string>
-    <string name="menu_apps_intro">Деякі додатки можуть працювати неправильно із Blokada. Наприклад, вони можуть мати проблеми зі з\'єднанням.\n\nАктивація VPN часто допомагає у таких ситуаціях.\n\nАбо ж Ви можете пропустити блокування для них повністю. Але пам\'ятайте, що тоді ці додатки працюють поза VPN.</string>
     <string name="menu_apps_system_label">Системні додатки – це ті додатки, що були попередньо встановлені на пристрої виробником. Деякі з них приховані. Змінюйте це тільки якщо точно розумієте свої дії.</string>
     <string name="menu_host_list_intro">Списки хостів містять правила для блокування реклами та стеження. Слідкуйте, щоб їх було не надто багато.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
@@ -100,7 +86,6 @@
     <string name="menu_knowledge">Отримати допомогу</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Долучитися</string>
-    <string name="menu_telegram">Telegram чат</string>
     <string name="menu_configure">Налаштувати Blokada</string>
     <string name="menu_exclude">Пропустити додатки, що працюють неправильно</string>
     <!-- A section in menu for additional buttons  -->
