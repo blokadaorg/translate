@@ -8,7 +8,6 @@
     <string name="tunnel_config_refetch_toast">Pengunduhan list dimulai</string>
     <string name="tunnel_config_refetch_now_description">Gunakan tombol di bawah ini untuk menghapus cache dan mengunduh daftar Anda lagi. Ini dapat membantu jika Anda mengalami masalah dengan filter yang Anda gunakan.</string>
     <string name="tunnel_config_refetch_frequency_title">Frekuensi pengunduhan daftar</string>
-    <string name="tunnel_config_refetch_frequency_description">Pilih salah satu opsi untuk mengkonfigurasi seberapa sering Blokada harus mengunduh daftar Anda.</string>
     <string name="tunnel_config_refetch_frequency_1">Sekali sehari</string>
     <string name="tunnel_config_refetch_frequency_2">Dua kali seminggu</string>
     <string name="tunnel_config_refetch_frequency_3">Seminggu sekali</string>
@@ -25,7 +24,6 @@
     <string name="tunnel_config_wildcard_title">[BETA] Pengaturan pemblokiran iklan lanjutan</string>
     <string name="tunnel_config_wildcard_description">Aktifkan tombol ini jika Anda ingin menggunakan wildcard dalam pengaturan filter Anda. Misalnya, menambahkan *.google.com akan memblokir semua domain Google. Pengaturan ini mungkin mempengaruhi daya tahan baterai. Harap diingat bahwa fitur ini masih dalam tahap percobaan, dan mungkin tidak berfungsi sebagaimana mestinya.</string>
     <string name="tunnel_config_fallback_title">DNS cadangan</string>
-    <string name="tunnel_config_fallback_description">Aktifkan switch ini jika setelah mengaktifkan Blokada koneksi internet Anda mengalami gangguan dalam beberapa situasi, misalnya ketika tersambung ke jaringan Wi-Fi. Pengaktifan switch ini akan membuat Blokada beralih sementara ke Cloudflare DNS untuk mempertahankan koneksi. Anda mungkin harus kembali memilih server yang sesuai di bagian DNS supaya pengaturan ini bisa diterapkan.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Smart List</string>
     <string name="tunnel_config_smartlist_reset_btn">Reset</string>
     <string name="tunnel_config_smartlist_clean_btn">Bersihkan</string>
