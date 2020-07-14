@@ -64,12 +64,16 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositivos</string>
     <string name="menu_vpn_manage_subscription">Gestiona la suscripción de tu cuenta</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Si tu cuenta es nueva, visita nuestro sitio web. No puedes comprar una suscripción desde Blokada Slim.</string>
     <string name="menu_vpn_account_secret">Toca tu avatar arriba para ver tu ID de cuenta. Recuerda, tu ID es secreto y deberías guardarlo para ti mismo. Anótalo en caso de que desinstales la aplicación.</string>
     <string name="menu_vpn_restore_label">Aquí puedes restaurar tu cuenta existente si, por ejemplo, reinstalaste la aplicación.</string>
+    <string name="menu_vpn_intro">Con Blokada Plus, tus datos se encriptan, tu IP se oculta y tu ubicación se modifica.</string>
     <string name="menu_vpn_account_label">Para usar el VPN, necesitas una cuenta activa. Revisa o restaura tu cuenta aquí.</string>
     <string name="menu_vpn_gateways_label">Selecciona una de las puertas de enlace para conectarte. Tu dispositivo enviará tus datos cifrados de forma segura a través de esa puerta de enlace, y tu permanecerás anónimo.</string>
     <string name="menu_vpn_support_label">Si tienes problemas, no dudes en contactarnos.</string>
     <string name="menu_vpn_support_button">Soporte</string>
+    <string name="menu_vpn_tunnel_settings">Ajustes de Blokada Plus</string>
+    <string name="menu_vpn_tunnel_learn_more">Aprende más sobre Blokada Plus</string>
     <string name="menu_vpn_info_account_label">¿Tengo una cuenta?</string>
     <string name="menu_vpn_info_account_line1">¡Sí! Tu cuenta se crea automáticamente en la primera ejecución. No necesitas registrarte.</string>
     <string name="menu_vpn_info_account_line2">Toca tu avatar arriba para ver el ID de tu cuenta.</string>
@@ -78,6 +82,7 @@
     <string name="menu_dns_recommended">Servidores DNS recomendados</string>
     <string name="menu_dns_intro">El DNS es responsable de traducir las direcciones IP de los sitios web y aplicaciones que usas. Elegir un buen servidor DNS puede acelerar tu dispositivo y ayudará a proteger tu privacidad.</string>
     <string name="menu_dns_select">Selecciona uno de los servidores DNS.</string>
+    <string name="menu_apps_intro">Algunas aplicaciones pueden no funcionar correctamente con Blokada. Por ejemplo, pueden tener problemas para conectarse.\n\nActivar la VPN a menudo ayuda en estos casos.\n\nDe lo contrario, puedes hacer que esas aplicaciones pasen por alto la inspección de Blokada por completo. Recuerda que las aplicaciones puenteadas se comunican fuera de Blokada Plus.</string>
     <string name="menu_apps_system_label">Las aplicaciones del sistema son las que vienen pre-instaladas con tu dispositivo. Algunas están ocultas. Modifícalas sólo si sabes lo que estás haciendo.</string>
     <string name="menu_host_list_intro">Las listas de hosts contienen reglas para bloquear anuncios y rastreadores. Intenta mantener el número de listas activas bajo.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
@@ -95,6 +100,7 @@
     <string name="menu_knowledge">Obtener ayuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Involúcrate</string>
+    <string name="menu_telegram">Comunidad</string>
     <string name="menu_configure">Configurar las funciones de Blokada</string>
     <string name="menu_exclude">Excluir aplicaciones que no funcionan correctamente</string>
     <!-- A section in menu for additional buttons  -->
