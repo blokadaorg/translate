@@ -4,10 +4,12 @@
     <string name="home_touch">Toca o mantén pulsado para configurar</string>
     <string name="home_blokada_disabled">Blokada está pausado</string>
     <string name="home_blokada_active">Blokada está activo</string>
+    <string name="home_blokada_active_protected">Blokada Plus está activo y tú conexión está protegida</string>
     <string name="home_blokada_inactive">Blokada está desactivado</string>
     <string name="home_activating">Activando</string>
     <string name="home_please_wait">Espera, por favor...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus está activo sin bloquear anuncios</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada está activo en modo DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -28,9 +30,14 @@
     <string name="home_update_required">Actualización necesaria</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donar</string>
+    <string name="home_vpn_enabled">Blokada Plus está activo</string>
+    <string name="home_vpn_disabled">Blokada Plus está desactivado</string>
     <string name="home_account_active">Tu cuenta aún está activa</string>
+    <string name="home_connecting_vpn">Conectando a Blokada Plus</string>
     <string name="home_cleanup">Se recomienda una limpieza</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Conexión establecida con Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Lo sentimos, tú dispositivo no es soportado por Blokada Plus. Aún así, puedes usar otras características.</string>
     <string name="home_blocka_vpn_error">No se pudo conectar a la puerta de enlace. ¿Estás en línea?</string>
     <string name="home_account_error">No se pudo verificar la cuenta. ¿Tienes conexión?</string>
     <string name="home_permission_error">Por favor, concede el permiso de conexión VPN.</string>
@@ -45,9 +52,12 @@
     <string name="menu_ads_rules_label">Añade tus propias reglas para afinar el bloqueo.</string>
     <string name="menu_ads_log_label">Ve lo que ha sido bloqueado o permitido recientemente.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Por favor, activa tu cuenta primero.</string>
     <string name="menu_vpn_select_gateway">Por favor, selecciona una puerta de enlace.</string>
+    <string name="menu_vpn_intro_button">¿Por qué necesito Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Mi Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Puertas de enlace</string>
