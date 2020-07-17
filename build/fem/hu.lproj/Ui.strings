@@ -11,6 +11,13 @@
 "error account inactive after restore" = "Nem tűnik érvényes aktív fióknak. Ha úgy gondolod, hogy a hiba nálunk van, kérjük, vedd fel velünk a kapcsolatot a súgó ikon megérintésével.";
 "error creating account" = "Nem sikerült új fiókot létrehozni. Kérjük, próbáld újra később.";
 "error fetching data" = "Ezt a műveletet nem lehetett befejezni. Ellenőrizd, hogy online vagy-e, és próbálkozz később újra. Ha a probléma továbbra is fennáll, kérjük, vedd fel velünk a kapcsolatot súgó ikon megérintésével.";
+"error tunnel" = "A VPN létrehozása sikertelen. Indítsd újra a készüléket, vagy távolítsd el a Blokada VPN profilt a rendszerbeállításokból, és próbáld újra.";
+"error vpn" = "A VPN létrehozása sikertelen. Indítsd újra a készüléket, vagy távolítsd el a Blokada VPN profilt a rendszerbeállításokból, és próbáld újra.";
+"error vpn perms" = "Nincs engedély a VPN profil létrehozására.";
+"error vpn no current lease" = "Kérjük, először válaszd ki a helyet.";
+"error vpn too many leases" = "Elérted a készülékek számának korlátját. Kérjük, távolítsd el az egyik eszközt, és próbáld újra.";
+"error vpn expired" = "A VPN le van tiltva. Kérjük, frissítsd előfizetésed a BLOKADA+ további használatához";
+"error payment inactive after restore" = "Az előző befizetésed visszaállítottuk, de az előfizetésed már lejárt. Ha úgy gondolod, hogy a hiba nálunk van, kérjük, vedd fel velünk a kapcsolatot a súgó ikon megérintésével.";
 
 "universal action continue" = "Tovább";
 "universal action cancel" = "Mégse";
@@ -27,9 +34,12 @@
 "universal action support" = "Támogatás";
 
 "universal label help" = "Segítség";
+"universal status processing" = "Feldolgozás... Kérjük, várj.";
 
 "alert error header" = "Hoppá!";
 "alert vpn expired header" = "BLOKADA+ lejárt";
+
+"notification vpn expired header" = "BLOKADA+ előfizetés lejárt";
 
 "account active forever" = "Örökre";
 
@@ -75,6 +85,7 @@
 "account section header other" = "Egyéb";
 "account action my account" = "Fiókom";
 "account action devices" = "Készülékek";
+"account action logout" = "Kijelentkezés";
 "account action about" = "Névjegy";
 
 "account section header my subscription" = "Előfizetésem";
@@ -88,6 +99,7 @@
 "account encrypt level low" = "Alacsony";
 "account encrypt level medium" = "Közepes";
 "account encrypt level high" = "Magas";
+"account encrypt label level" = "Szint";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Készülékek";
 "account lease label this device" = " (ez a készülék)";
