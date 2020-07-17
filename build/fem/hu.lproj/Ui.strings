@@ -18,6 +18,12 @@
 "error vpn too many leases" = "Elérted a készülékek számának korlátját. Kérjük, távolítsd el az egyik eszközt, és próbáld újra.";
 "error vpn expired" = "A VPN le van tiltva. Kérjük, frissítsd előfizetésed a BLOKADA+ további használatához";
 "error payment inactive after restore" = "Az előző befizetésed visszaállítottuk, de az előfizetésed már lejárt. Ha úgy gondolod, hogy a hiba nálunk van, kérjük, vedd fel velünk a kapcsolatot a súgó ikon megérintésével.";
+"error payment failed" = "A kifizetések jelenleg nem érhetők el. Győződj meg arról, hogy online vagy és próbálkozz később újra. Ha a probléma továbbra is fennáll, vedd fel velünk a kapcsolatot a fenti súgó gomb megnyomásával.";
+"error payment not available" = "A készülékhez nem érhető el a kifizetés. Vagy az Apple Pay nincs aktiválva, vagy még nem fogadunk el kifizetéseket az adott országból.";
+"error payment canceled" = "A fizetés visszavonásra került. A terhelés nem történt meg.";
+"error pack install" = "Ezt a szolgáltatást nem lehetett telepíteni (vagy eltávolítani). Kérlek, próbáld újra később.";
+"error location failed fetching" = "Nem sikerült lekérdezni a helyet.";
+"error unknown" = "Ismeretlen probléma merült fel. Kérjük, próbáld újra. Ha a probléma továbbra is fennáll, vedd fel velünk a kapcsolatot a fenti súgó gomb megnyomásával.";
 
 "universal action continue" = "Tovább";
 "universal action cancel" = "Mégse";
@@ -82,12 +88,27 @@
 "location choice header" = "Válassz ki egy helyet";
 
 "activity section header" = "Tevékenység";
+"activity request blocked" = "Ez a kérelem blokkolásra került.";
+"activity request allowed" = "Ez a kérelem engedélyezésre került.";
+"activity request allowed whitelisted" = "Ez a kérelem engedélyezésre került, mert az Engedélyezett listádban szerepel";
+"activity request blocked blacklisted" = "Ez a kérelem blokkolásra került, mert a Blokkolt listádban szerepel";
 "activity information header" = "Információ";
+"activity action add to whitelist" = "Engedélyezetthez ad";
+"activity action remove from whitelist" = "Engedélyezettből eltávolít";
+"activity action added to whitelist" = "Engedélyezetthez adva";
+"activity action add to blacklist" = "Blokkolthoz ad";
+"activity action remove from blacklist" = "Blokkoltból eltávolít";
+"activity action added to blacklist" = "Blokkolthoz adva";
+"activity action copy to clipboard" = "Név másolása a vágólapra";
 "activity domain name" = "Teljes név";
 "activity time of occurrence" = "Idő";
+"activity number of occurrences" = "Események száma";
+"activity state modified" = "módosítva";
 "activity state blocked" = "reklám szűrve";
+"activity state allowed" = "engedélyezve";
 "activity happened one time" = "1 alkalommal";
 "activity happened many times" = "%@ alkalommal";
+"activity category recent" = "Legutóbbi";
 "activity filter header" = "Melyik bejegyzéseket szeretnéd látni?";
 "activity filter show all" = "Minden bejegyzést";
 "activity filter show blocked" = "Csak a blokkoltat";
