@@ -79,12 +79,19 @@
 "activity state blocked" = "reklám szűrve";
 "activity happened one time" = "1 alkalommal";
 "activity happened many times" = "%@ alkalommal";
+"activity filter header" = "Melyik bejegyzéseket szeretnéd látni?";
+"activity filter show all" = "Minden bejegyzést";
+"activity filter show blocked" = "Csak a blokkoltat";
+"activity filter show allowed" = "Csak az engedélyezettet";
 
 "account section header settings" = "Beállítások";
+"account status text" = "A BLOKADA %@ fiókod aktív eddig: %@.";
 "account section header primary" = "Elsődleges";
 "account section header other" = "Egyéb";
 "account action my account" = "Fiókom";
+"account action encryption" = "Titkosítás";
 "account action devices" = "Készülékek";
+"account action inbox" = "Bejövő";
 "account action logout" = "Kijelentkezés";
 "account action about" = "Névjegy";
 
@@ -93,7 +100,11 @@
 "account section header subscription" = "Előfizetés";
 "account label id" = "Fiókazonosító";
 "account label type" = "Fiók típusa";
+"account label active until" = "Aktív eddig";
 "account action manage subscription" = "Előfizetés kezelése";
+"account action why upgrade" = "Miért kellene bővítenem?";
+
+"account header logout" = "Kijelentkezés";
 "account id status unchanged" = "(változatlan)";
 
 "account encrypt level low" = "Alacsony";
