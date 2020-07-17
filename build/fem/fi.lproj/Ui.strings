@@ -129,10 +129,16 @@
 "activity happened one time" = "1 kerran";
 "activity happened many times" = "%@ kertaa";
 "activity category recent" = "Viimeisimmät";
+"activity category top" = "Top";
+"activity category top blocked" = "Top Estetyt";
+"activity category top allowed" = "Top Sallitut";
+"activity filter header" = "Mitä merkintöjä haluaisit nähdä?";
+"activity filter show all" = "Näytä kaikki merkinnät";
 "activity filter show blocked" = "Näytä vain estetyt";
 "activity filter show allowed" = "Näytä vain sallitut";
 
 "account section header settings" = "Asetukset";
+"account status text" = "BLOKADA %@ tilisi on aktiivinen, kunnes %@.";
 "account section header primary" = "Ensisijainen";
 "account section header other" = "Muu";
 "account action my account" = "Tilini";
@@ -151,15 +157,22 @@
 "account action manage subscription" = "Hallitse tilausta";
 "account action why upgrade" = "Miksi minun kannattaa päivittää?";
 
+"account unlock to show" = "Avaa nähdäksesi tilitunnuksesi";
+
 "account header logout" = "Kirjaudu ulos";
 "account logout description" = "Anna toinen tilitunnus tai palaa jatkaaksesi nykyisen tilisi käyttöä (tätä sovellusta ei voi käyttää ilman sellaista).";
 "account id status unchanged" = "(ei muutettu)";
+"account action how to restore" = "Kuinka voin palauttaa vanhan tilini?";
 
 "account encrypt level low" = "Matala";
 "account encrypt level medium" = "Keskitaso";
 "account encrypt level high" = "Korkea";
+"account encrypt label dns only" = "Salataan DNS";
+"account encrypt desc dns only" = "Verkkotunnusjärjestelmä (DNS) on miten laite tietää mistä löytää verkkosivustot, joissa haluat käydä. Valitettavasti suurin osa Internetistä käyttää edelleen salaamatonta DNS:ää, mikä vaarantaa selaushistorian vakoilun. Kun tämä asetus on käytössä, Blokada pakottaa laitteen muodostamaan yhteyden vain salattuihin DNS-palvelimiin (jota kutsutaan myös DNS HTTPS:n kautta).";
+"account encrypt label everything" = "Salataan kaikki";
 "account encrypt desc everything" = "Laitteesi muodostaa yhteyden suojattujen VPN-palvelimiemme kautta ja kaikki laitteestasi tuleva tai siihen tuleva kommunikaatio on salattu vahvoilla algoritmeilla. Tämä suojaa henkilökohtaisia tietojasi, kuten pankkitietoja tai henkilökohtaisia valokuvia varastamiselta turvattomissa paikoissa, kuten kahvilan WiFi:ssä.";
 "account encrypt action turn on" = "Käynnistä BLOKADA";
+"account encrypt header level" = "Salaustaso";
 "account encrypt label level" = "Taso";
 "account encrypt label level low" = "Matala: Ei salausta";
 "account encrypt label level medium" = "Keskiverto: Salataan DNS";
