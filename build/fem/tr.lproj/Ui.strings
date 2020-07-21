@@ -15,10 +15,21 @@
 "error vpn" = "VPN kurulamadı. Lütfen cihazınızı yeniden başlatın veya sistem ayarlarında BLOKADA VPN profilini kaldırın ve tekrar deneyin.";
 "error vpn perms" = "VPN profili oluşturmak için izin verilmedi.";
 "error vpn no current lease" = "Lütfen önce bir konum seçin.";
+"error vpn too many leases" = "Cihazlarınızın sınırına ulaştınız. Lütfen cihazlarınızdan birini kaldırın ve tekrar deneyin.";
+"error vpn expired" = "VPN devre dışı bırakıldı. BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
+"error payment inactive after restore" = "Önceki ödemeniz geri yüklendi, ancak aboneliğin süresi doldu. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error payment failed" = "Ödemeler şu anda mevcut değil. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error payment not available" = "Bu cihaz için ödemeler mevcut değil. Apple Pay etkinleştirilmedi veya ülkenizdeki satın alımları henüz işlemiyoruz.";
+"error payment canceled" = "Ödeme iptal edildi. Sizden ücret alınmadı.";
+"error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
+"error location failed fetching" = "Yerler getiremedi.";
+"error unknown" = "Bilinmeyen bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 
 "universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
 "universal action close" = "Kapat";
+"universal action done" = "Bitti";
+"universal action try again" = "Tekrar deneyin";
 "universal action learn more" = "Daha fazla bilgi edin";
 "universal action help" = "Yardım";
 "universal action show log" = "Günlükler";
@@ -27,8 +38,13 @@
 "universal action save" = "Kaydet";
 "universal action contact us" = "Bize Ulaşın";
 "universal action support" = "Destek";
+"universal action upgrade" = "BLOKADA+ yükselt";
 
 "universal label help" = "Yardım";
+"universal status processing" = "İşeniyor... Lütfen bekleyin.";
+
+"alert error header" = "Hay aksi!";
+"alert vpn expired header" = "BLOKADA+ süresi doldu";
 
 "notification vpn expired header" = "BLOKADA+ aboneliğinin süresi doldu";
 "notification vpn expired subtitle" = "VPN devre dışı";
@@ -71,6 +87,10 @@
 "activity domain name" = "Tam adı";
 "activity time of occurrence" = "Zaman";
 "activity state blocked" = "engellendi";
+"activity happened one time" = "1 kez";
+"activity happened many times" = "%@ kez";
+"activity category recent" = "En son";
+"activity filter header" = "Hangi girişleri görmek istersiniz?";
 "activity filter show all" = "Tüm girdileri göster";
 
 "account section header settings" = "Ayarlar";
@@ -101,6 +121,8 @@
 "account encrypt level low" = "Düşük";
 "account encrypt level medium" = "Orta";
 "account encrypt level high" = "Yüksek";
+"account encrypt label everything" = "Her şey şifreleniyor";
+"account encrypt action turn on" = "BLOKADA'yı aç";
 "account encrypt header level" = "Şifreleme Seviyesi";
 "account encrypt label level" = "Seviye";
 "account encrypt label level low" = "Düşük: Şifreleme Yok";
@@ -124,6 +146,7 @@
 
 "payment title" = "*Gizliliğinizi* kontrol altında kalmak için VPN hizmetimize yükseltin.";
 "payment feature title change location" = "Konumu Değiştirme";
+"payment feature desc change location" = "IP adresinizi gizleyin ve başka bir ülkede olduğunuzu iddia edin. Bu sizi üçüncü taraflardan maskeleyecek ve kimliğinizi korumaya yardımcı olacaktır.";
 "payment feature title encrypt data" = "Verileri Şifreleme";
 "payment feature desc encrypt data" = "VPN tünelimizden gönderilen veriler, yetkisiz tarafların müdahalesine karşı korunması için güçlü algoritmalar kullanılarak şifrelenir.";
 "payment feature title faster connection" = "Daha Hızlı Bağlantı";
