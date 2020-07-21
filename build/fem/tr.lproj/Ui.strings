@@ -11,6 +11,10 @@
 "error account inactive after restore" = "Bu geçerli bir etkin hesap gibi görünmüyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 "error creating account" = "Yeni bir hesap oluşturulamadı. Lütfen daha sonra tekrar deneyin.";
 "error fetching data" = "Bu işlem tamamlanamadı. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, üstteki yardım simgesine dokunarak lütfen bize ulaşın.";
+"error tunnel" = "VPN kurulamadı. Lütfen cihazınızı yeniden başlatın veya sistem ayarlarında BLOKADA VPN profilini kaldırın ve tekrar deneyin.";
+"error vpn" = "VPN kurulamadı. Lütfen cihazınızı yeniden başlatın veya sistem ayarlarında BLOKADA VPN profilini kaldırın ve tekrar deneyin.";
+"error vpn perms" = "VPN profili oluşturmak için izin verilmedi.";
+"error vpn no current lease" = "Lütfen önce bir konum seçin.";
 
 "universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
@@ -25,6 +29,16 @@
 "universal action support" = "Destek";
 
 "universal label help" = "Yardım";
+
+"notification vpn expired header" = "BLOKADA+ aboneliğinin süresi doldu";
+"notification vpn expired subtitle" = "VPN devre dışı";
+"notification vpn expired body" = "BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
+
+"account active forever" = "Sonsuza kadar";
+
+"main ask for permissions header" = "Sadece bir adım daha";
+
+"main rate us header" = "Bizi değerlendirin!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Ana Sayfa";
@@ -86,9 +100,19 @@
 "account support action kb" = "Açık Bilgi Bankası";
 
 "payment header activated" = "Etkinleştirildi!";
+"payment action choose location" = "Bir konum seçin";
+"payment feature title change location" = "Konumu Değiştir";
+"payment feature title faster connection" = "Daha Hızlı Bağlantı";
+"payment feature title devices" = "5 cihaza kadar";
+"payment feature title no ads" = "Reklamsız";
+"payment feature title support" = "Mükemmel Destek";
+"payment feature desc support" = "Müşteri desteğimiz ve canlı açık kaynak topluluğumuz sayesinde herhangi bir soruya hızlı bir yanıt alın.";
+"payment action see all features" = "Tüm Özellikleri Gör";
+"payment action restore" = "Satın Almaları Geri Yükle";
 "payment action terms and privacy" = "Şartlar ve Gizlilik";
 "payment action terms" = "Hizmet Koşulları";
 "payment action policy" = "Gizlilik Politikası";
+"payment alert error header" = "App Store'dan mesaj";
 
 "payment subscription 1 month" = "1 ay";
 "payment subscription many months" = "%@ ay";
