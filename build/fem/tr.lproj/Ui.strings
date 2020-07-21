@@ -66,7 +66,12 @@
 "pack category highlights" = "Öne çıkanlar";
 "pack category active" = "Aktif";
 "pack category all" = "Tümü";
+"activity actions header" = "Eylemler";
+"activity information header" = "Bilgi";
+"activity domain name" = "Tam adı";
+"activity time of occurrence" = "Zaman";
 "activity state blocked" = "engellendi";
+"activity filter show all" = "Tüm girdileri göster";
 
 "account section header settings" = "Ayarlar";
 "account section header other" = "Diğer";
@@ -84,10 +89,24 @@
 "account label type" = "Hesap türü";
 "account label active until" = "Aktiflik süresi:";
 "account action manage subscription" = "Aboneliği yönet";
+"account action why upgrade" = "Neden yükseltmeliyim?";
+
+"account unlock to show" = "Hesap kimliğinizi göstermek için kilidi açın";
 
 "account header logout" = "Oturumu kapat";
+"account logout description" = "Lütfen başka bir hesap kimliği girin veya mevcut hesabınızı kullanmaya devam etmek için geri dönün (bu uygulama olmadan kullanılamaz).";
+"account id status unchanged" = "(değişmemiş)";
+"account action how to restore" = "Eski hesabımı nasıl geri yükleyebilirim?";
 
 "account encrypt level low" = "Düşük";
+"account encrypt level medium" = "Orta";
+"account encrypt level high" = "Yüksek";
+"account encrypt header level" = "Şifreleme Seviyesi";
+"account encrypt label level" = "Seviye";
+"account encrypt label level low" = "Düşük: Şifreleme Yok";
+"account encrypt label level medium" = "Orta: DNS Şifreleniyor";
+"account encrypt label level high" = "Yüksek: Her Şey Şifreleniyor";
+"account encrypt header explanation" = "DNS, cihazınızın web sitelerini nerede bulacağını nasıl bildiğidir. BLOKADA sadece şifreli sunucuları destekler.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "DNS nedir?";
 "account encrypt section header" = "Şifreleme";
@@ -100,11 +119,19 @@
 "account support action kb" = "Açık Bilgi Bankası";
 
 "payment header activated" = "Etkinleştirildi!";
+"payment activated description" = "Blokada şimdi Plus moduna geçecek ve güvenli konumlarımızdan biri üzerinden bağlanacak. Hangisini seçeceğinizden emin değilseniz, size en yakın olanı kullanmanız önerilir.";
 "payment action choose location" = "Bir konum seçin";
-"payment feature title change location" = "Konumu Değiştir";
+
+"payment title" = "*Gizliliğinizi* kontrol altında kalmak için VPN hizmetimize yükseltin.";
+"payment feature title change location" = "Konumu Değiştirme";
+"payment feature title encrypt data" = "Verileri Şifreleme";
+"payment feature desc encrypt data" = "VPN tünelimizden gönderilen veriler, yetkisiz tarafların müdahalesine karşı korunması için güçlü algoritmalar kullanılarak şifrelenir.";
 "payment feature title faster connection" = "Daha Hızlı Bağlantı";
+"payment feature desc faster connection" = "Dünyanın çeşitli yerlerindeki sunucularla 100 Mbps'ye kadar yüksek hızlar.";
 "payment feature title devices" = "5 cihaza kadar";
+"payment feature desc devices" = "Aboneliğinizi en fazla 5 cihazla paylaşmak için aynı hesabı kullanın: iOS, Android veya PC.";
 "payment feature title no ads" = "Reklamsız";
+"payment feature desc no ads" = "Koruma düzeyinizi geliştirirken ve verilerinizi gizli tutarken dünyaca ünlü Blokada reklam engelleme teknolojisini kullanmaya devam edin.";
 "payment feature title support" = "Mükemmel Destek";
 "payment feature desc support" = "Müşteri desteğimiz ve canlı açık kaynak topluluğumuz sayesinde herhangi bir soruya hızlı bir yanıt alın.";
 "payment action see all features" = "Tüm Özellikleri Gör";
