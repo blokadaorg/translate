@@ -49,13 +49,63 @@
 "home status active" = "ACTIVA";
 "home status detail active" = "bloqueando *anuncios* y *rastreadores*";
 "home status detail active with counter" = "*%@* anuncios y rastreadores bloqueados";
+"home status detail plus" = "*+* protegiendo tu *privacidad*";
 "home status detail progress" = "por favor espera...";
+
+"home plus button deactivated" = "BLOKADA+ desactivado";
+"home plus button select location" = "Elegir ubicación";
+"home plus button location" = "Ubicación: *%@*";
+
+"pack section header" = "Características avanzadas";
+"pack action install" = "OBTENER";
+"pack action update" = "ACTUALIZAR";
+"pack action uninstall" = "DESINSTALAR";
+"pack author" = "Autor";
+"pack configurations header" = "Configuraciones";
 "pack information header" = "Más detalles";
+"pack tags header" = "Etiquetas";
+"pack tags none" = "Ninguna";
+"pack category highlights" = "Destacados";
 "pack category active" = "Activo";
+"pack category all" = "Todo";
+
+"location choice header" = "Elige una ubicación";
+
+"activity section header" = "Actividad";
+"activity request blocked" = "Esta solicitud ha sido bloqueada.";
+"activity request allowed" = "Esta solicitud ha sido permitida.";
+"activity request allowed whitelisted" = "Esta solicitud ha sido permitida porque se encuentra entre tus Hosts permitidos";
+"activity request blocked blacklisted" = "Esta solicitud ha sido bloqueada porque se encuentra entre tus Hosts bloqueados";
+"activity actions header" = "Acciones";
+"activity information header" = "Información";
+"activity action add to whitelist" = "Añadir a Permitidos";
+"activity action remove from whitelist" = "Eliminar de Permitidos";
+"activity action added to whitelist" = "Añadido a Permitidos";
+"activity action add to blacklist" = "Añadir a Bloqueados";
+"activity action remove from blacklist" = "Eliminar de Bloqueados";
+"activity action added to blacklist" = "Añadido a Bloqueados";
+"activity action copy to clipboard" = "Copiar nombre al portapapeles";
+"activity domain name" = "Nombre completo";
+"activity time of occurrence" = "Hora";
+"activity number of occurrences" = "Sucesos";
+"activity state modified" = "modificado";
 "activity state blocked" = "bloqueado";
+"activity state allowed" = "permitido";
+"activity happened one time" = "1 vez";
+"activity happened many times" = "%@ veces";
+"activity category recent" = "Recientes";
+"activity category top" = "Recurrentes";
+"activity category top blocked" = "Más bloqueadas";
+"activity category top allowed" = "Más permitidas";
+"activity filter header" = "¿Qué entradas te gustaría ver?";
+"activity filter show all" = "Mostrar todas las entradas";
+"activity filter show blocked" = "Mostrar solo bloqueadas";
+"activity filter show allowed" = "Mostrar solo permitidas";
 
 "account section header settings" = "Configuración";
+"account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
 "account section header other" = "Otros";
+"account action my account" = "Mi cuenta";
 "account action devices" = "Dispositivos";
 "account action about" = "Acerca de";
 "account label id" = "ID de cuenta";
