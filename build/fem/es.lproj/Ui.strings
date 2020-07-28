@@ -16,8 +16,11 @@
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
 "universal action close" = "Cerrar";
+"universal action done" = "Hecho";
+"universal action try again" = "Inténtalo de nuevo";
 "universal action learn more" = "Aprender más";
 "universal action help" = "Ayuda";
+"universal action show log" = "Registros";
 "universal action share log" = "Enviar registro";
 "universal action copy" = "Copiar";
 "universal action save" = "Guardar";
@@ -104,13 +107,23 @@
 
 "account section header settings" = "Configuración";
 "account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
+"account section header primary" = "Principal";
 "account section header other" = "Otros";
 "account action my account" = "Mi cuenta";
+"account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
 "account action about" = "Acerca de";
 "account label id" = "ID de cuenta";
 "account action manage subscription" = "Gestionar suscripción";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Dispositivos";
+"payment action restore" = "Restaurar compras";
+"payment action terms and privacy" = "Términos y privacidad";
+"payment action terms" = "Condiciones del servicio";
+"payment action policy" = "Política de privacidad";
+"payment alert error header" = "Un mensaje de App Store";
 
 "payment subscription 1 month" = "1 mes";
+"payment subscription many months" = "%@ meses";
+"payment subscription per month" = "%@ por mes";
+"payment subscription offer" = "Ahorra %@";
