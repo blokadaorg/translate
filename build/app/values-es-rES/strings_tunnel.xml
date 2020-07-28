@@ -31,9 +31,9 @@
     <string name="tunnel_config_smartlist_clean_btn">Limpiar</string>
     <string name="tunnel_config_smartlist_clean_none">Nada que limpiar</string>
     <string name="tunnel_config_smartlist_clean_inactive">La Lista inteligente está inactiva</string>
-    <string name="tunnel_config_smartlist_clean_done">La Lista inteligente se limpió de reglas antiguas</string>
+    <string name="tunnel_config_smartlist_clean_done">La lista inteligente se ha limpiado de reglas antiguas</string>
     <string name="tunnel_config_smartlist_reset_done">La Lista inteligente ha sido restablecida</string>
-    <string name="tunnel_config_smartlist_description">Activa este interruptor para activar la función de Lista Inteligente, la cual reduce drásticamente el número de reglas en tus filtros, potencialmente mejorando la vida de la batería y reduciendo el uso de la RAM. Cuando está activado, Blokada mirará el registro de peticiones y dinámicamente generará una lista que sólo contenga reglas que realmente han bloqueado al menos una solicitud. La Lista Inteligente se actualiza todos los días por la noche. Puede que experimentes un mayor número de peticiones no deseadas permitidas durante el período de aprendizaje (unos pocos días). Por favor, ten en cuenta que esta es una característica experimental y puede que no funcione correctamente.</string>
+    <string name="tunnel_config_smartlist_description">Activa este interruptor para activar la Lista inteligente, la cual reduce drásticamente el número de reglas en tus filtros, consiguiendo prolongar la vida de la batería y reducir el uso de la RAM. Cuando está activada, Blokada observará el registro de peticiones y dinámicamente generará una lista que solo contenga reglas que realmente han bloqueado al menos una solicitud. La Lista inteligente se actualiza cada noche. Puede que experimentes un mayor número de peticiones no deseadas permitidas durante el período de aprendizaje (unos pocos días). Por favor, ten en cuenta que esta es una característica experimental y puede no funcionar correctamente.</string>
     <string name="tunnel_config_disable_wildcard">Primero desactiva las Reglas avanzadas de bloqueo.</string>
-    <string name="tunnel_config_disable_smartlist">Primero desactiva la Lista Inteligente.</string>
+    <string name="tunnel_config_disable_smartlist">Primero desactiva la lista inteligente.</string>
 </resources>
