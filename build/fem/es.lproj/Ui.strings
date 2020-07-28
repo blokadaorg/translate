@@ -10,6 +10,8 @@
 "error account inactive" = "Tu cuenta está inactiva. Activa tu cuenta para continuar usando BLOKADA+.";
 "error account inactive after restore" = "Esta no parece ser una cuenta activa válida. Si crees que se trata de un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
 "error creating account" = "No se ha podido crear la cuenta. Inténtalo de nuevo más tarde.";
+"error fetching data" = "No se ha podido completar esta acción. Asegúrate de tener conexión e inténtalo de nuevo más tarde. Si el problema persiste, contacta con nosotros tocando el icono de ayuda en la parte superior.";
+"error vpn no current lease" = "Por favor, primero elige una ubicación.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -22,6 +24,16 @@
 "universal action support" = "Soporte";
 
 "universal label help" = "Ayuda";
+
+"alert error header" = "¡Vaya!";
+"alert vpn expired header" = "BLOKADA+ ha caducado";
+
+"notification vpn expired header" = "Suscripción de BLOKADA+ expirada";
+"notification vpn expired subtitle" = "El VPN está desactivado";
+
+"account active forever" = "Para siempre";
+
+"main rate us header" = "¡Califícanos!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Inicio";
