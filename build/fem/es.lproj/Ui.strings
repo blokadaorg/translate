@@ -11,7 +11,12 @@
 "error account inactive after restore" = "Esta no parece ser una cuenta activa válida. Si crees que se trata de un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
 "error creating account" = "No se ha podido crear la cuenta. Inténtalo de nuevo más tarde.";
 "error fetching data" = "No se ha podido completar esta acción. Asegúrate de tener conexión e inténtalo de nuevo más tarde. Si el problema persiste, contacta con nosotros tocando el icono de ayuda en la parte superior.";
+"error vpn perms" = "No se han concedido permisos para crear un perfil VPN.";
 "error vpn no current lease" = "Por favor, primero elige una ubicación.";
+"error vpn too many leases" = "Has alcanzado el límite de dispositivos. Por favor, elimina uno de tus dispositivos e inténtalo de nuevo.";
+"error vpn expired" = "El VPN está desactivado. Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
+"error payment inactive after restore" = "Tu pago anterior se ha restaurado, pero la suscripción ya ha caducado. Si crees que esto es un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
+"error location failed fetching" = "No se ha encontrado tu ubicación.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -50,11 +55,19 @@
 // Make sure each tab name has a similar length
 "main tab home" = "Inicio";
 // Make sure each tab name has a similar length
+"main tab activity" = "Actividad";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avanzado";
 // Make sure each tab name has a similar length
 "main tab settings" = "Configuración";
+
+"home ads counter footnote" = "anuncios y rastreadores bloqueados desde la instalación";
+"home power off menu header" = "¿Qué te gustaría hacer?";
 "home power action turn on" = "Activar";
 "home power action turn off" = "Desactivar";
+"home power action pause" = "Pausar 5 min";
+
+"home status paused" = "EN PAUSA";
 "home status active" = "ACTIVA";
 "home status deactivated" = "DESACTIVADO";
 "home action tap to activate" = "toca para activar";
@@ -137,6 +150,20 @@
 "account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
 
 "account header logout" = "Cerrar sesión";
+"account logout description" = "Por favor, introduce otro ID de cuenta, o vuelve atrás para seguir usando la cuenta existente (esta aplicación no se puede utilizar sin una).";
+"account id status unchanged" = "(no modificada)";
+"account action how to restore" = "¿Cómo recupero mi antigua cuenta?";
+
+"account encrypt level low" = "Baja";
+"account encrypt level medium" = "Media";
+"account encrypt level high" = "Alta";
+"account encrypt label dns only" = "Encriptando DNS";
+"account encrypt desc dns only" = "El Sistema de Nombres de Dominio (DNS, por sus siglas en inglés) es la forma por la que tu dispositivo sabe dónde encontrar los sitios web que quieres visitar. Desafortunadamente, la mayoría de los sitios de internet siguen sin usar DNS cifrados, lo que pone tu historial de navegación expuesto. Cuando está activado, Blokada obliga al dispositivo a conectarse solo a servidores DNS cifrados (también llamados DNS sobre HTTPS).";
+"account encrypt label everything" = "Cifrando todo";
+"account encrypt action turn on" = "Activar BLOKADA";
+"account encrypt header level" = "Nivel de encriptación";
+"account encrypt label level" = "Nivel";
+"account encrypt label level low" = "Baja: Sin encriptar";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Dispositivos";
 
