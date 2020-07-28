@@ -24,17 +24,23 @@
 "universal action share log" = "Enviar registro";
 "universal action copy" = "Copiar";
 "universal action save" = "Guardar";
+"universal action contact us" = "Contacta con nosotros";
 "universal action support" = "Soporte";
+"universal action upgrade" = "Actualizar a BLOKADA+";
 
 "universal label help" = "Ayuda";
+"universal status processing" = "Procesando... espera por favor.";
 
 "alert error header" = "¡Vaya!";
 "alert vpn expired header" = "BLOKADA+ ha caducado";
 
 "notification vpn expired header" = "Suscripción de BLOKADA+ expirada";
 "notification vpn expired subtitle" = "El VPN está desactivado";
+"notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 
 "account active forever" = "Para siempre";
+
+"main ask for permissions header" = "Solo un paso más";
 
 "main rate us header" = "¡Califícanos!";
 "main rate us description" = "Hasta ahora, ¿cuánto te gusta Blokada?";
@@ -50,6 +56,9 @@
 "home power action turn on" = "Activar";
 "home power action turn off" = "Desactivar";
 "home status active" = "ACTIVA";
+"home status deactivated" = "DESACTIVADO";
+"home action tap to activate" = "toca para activar";
+"home status detail paused" = "pausado hasta que el temporizador termine";
 "home status detail active" = "bloqueando *anuncios* y *rastreadores*";
 "home status detail active with counter" = "*%@* anuncios y rastreadores bloqueados";
 "home status detail plus" = "*+* protegiendo tu *privacidad*";
@@ -112,11 +121,43 @@
 "account action my account" = "Mi cuenta";
 "account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
+"account action inbox" = "Bandeja de entrada";
+"account action logout" = "Cerrar sesión";
 "account action about" = "Acerca de";
+
+"account section header my subscription" = "Mi suscripción";
+"account section header general" = "General";
+"account section header subscription" = "Suscripción";
 "account label id" = "ID de cuenta";
+"account label type" = "Tipo de cuenta";
+"account label active until" = "Activa hasta";
 "account action manage subscription" = "Gestionar suscripción";
+"account action why upgrade" = "¿Por qué deberías actualizar?";
+
+"account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
+
+"account header logout" = "Cerrar sesión";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Dispositivos";
+
+"payment header activated" = "¡Activado!";
+"payment activated description" = "Ahora Blokada cambiará al modo Plus y se conectará a través de una de nuestros servidores seguros. Si no sabes cuál elegir, te recomendamos que elijas el más cercano a ti.";
+"payment action choose location" = "Elige una ubicación";
+
+"payment title" = "Actualiza a nuestro servicio VPN para mantener el control de tu *privacidad*.";
+"payment feature title change location" = "Cambiar ubicación";
+"payment feature desc change location" = "Oculta tu dirección IP y finge que estás en otro país. Esto te hará una máscara a terceros y ayudará a proteger tu identidad.";
+"payment feature title encrypt data" = "Encripta tus datos";
+"payment feature desc encrypt data" = "Los datos enviados a través de nuestro túnel VPN son cifrados usando algoritmos fuertes para protegerlos contra la interceptación por parte de partes no autorizadas.";
+"payment feature title faster connection" = "Conexión más rápida";
+"payment feature desc faster connection" = "Alcanza velocidades de hasta 100Mbps gracias a servidores alrededor del mundo.";
+"payment feature title devices" = "Hasta 5 dispositivos";
+"payment feature desc devices" = "Utiliza la misma cuenta para compartir tu suscripción con hasta 5 dispositivos: iOS, Android o PC.";
+"payment feature title no ads" = "Sin anuncios";
+"payment feature desc no ads" = "Sigue utilizando la mundialmente famosa tecnología de bloqueo de Blokada mientras mejoras tu nivel de protección y mantienes tus datos a buen recaudo.";
+"payment feature title support" = "Buen soporte";
+"payment feature desc support" = "Obtén una respuesta rápida a cualquier pregunta gracias a nuestro Servicio de Atención al Cliente y a nuestra activa comunidad.";
+"payment action see all features" = "Ver todas las características";
 "payment action restore" = "Restaurar compras";
 "payment action terms and privacy" = "Términos y privacidad";
 "payment action terms" = "Condiciones del servicio";
