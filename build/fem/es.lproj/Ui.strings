@@ -16,7 +16,10 @@
 "error vpn too many leases" = "Has alcanzado el límite de dispositivos. Por favor, elimina uno de tus dispositivos e inténtalo de nuevo.";
 "error vpn expired" = "El VPN está desactivado. Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 "error payment inactive after restore" = "Tu pago anterior se ha restaurado, pero la suscripción ya ha caducado. Si crees que esto es un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
+"error payment canceled" = "El pago se ha cancelado. No se ha cobrado nada.";
+"error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
 "error location failed fetching" = "No se ha encontrado tu ubicación.";
+"error unknown" = "Ha ocurrido un problema desconocido. Por favor, inténtelo de nuevo. Si el problema persiste, por favor contáctanos tocando el icono de ayuda en la parte superior.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -46,6 +49,9 @@
 "account active forever" = "Para siempre";
 
 "main ask for permissions header" = "Solo un paso más";
+"main ask for permissions description" = "Blokada está usando una configuración VPN para bloquear anuncios. Se te pedirá una confirmación a continuación.";
+
+"main share message" = "¡Blokada para iOS me ha ayudado a bloquear %@ anuncios y rastreadores!";
 
 "main rate us header" = "¡Califícanos!";
 "main rate us description" = "Hasta ahora, ¿cuánto te gusta Blokada?";
@@ -154,18 +160,29 @@
 "account id status unchanged" = "(no modificada)";
 "account action how to restore" = "¿Cómo recupero mi antigua cuenta?";
 
-"account encrypt level low" = "Baja";
-"account encrypt level medium" = "Media";
-"account encrypt level high" = "Alta";
-"account encrypt label dns only" = "Encriptando DNS";
+"account encrypt level low" = "Bajo";
+"account encrypt level medium" = "Medio";
+"account encrypt level high" = "Alto";
+"account encrypt label dns only" = "Cifrando DNS";
 "account encrypt desc dns only" = "El Sistema de Nombres de Dominio (DNS, por sus siglas en inglés) es la forma por la que tu dispositivo sabe dónde encontrar los sitios web que quieres visitar. Desafortunadamente, la mayoría de los sitios de internet siguen sin usar DNS cifrados, lo que pone tu historial de navegación expuesto. Cuando está activado, Blokada obliga al dispositivo a conectarse solo a servidores DNS cifrados (también llamados DNS sobre HTTPS).";
 "account encrypt label everything" = "Cifrando todo";
 "account encrypt action turn on" = "Activar BLOKADA";
-"account encrypt header level" = "Nivel de encriptación";
+"account encrypt header level" = "Nivel de cifrado";
 "account encrypt label level" = "Nivel";
-"account encrypt label level low" = "Baja: Sin encriptar";
+"account encrypt label level low" = "Bajo: Sin cifrar";
+"account encrypt label level medium" = "Medio: Se cifra el DNS";
+"account encrypt label level high" = "Alto: Se cifra todo";
+"account encrypt header explanation" = "A través de DNS es cómo tu dispositivo sabe dónde encontrar sitios web. BLOKADA solo soporta servidores cifrados.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "¿Qué es el DNS?";
+"account encrypt section header" = "Cifrado";
+
+"account lease label devices list" = "Estos dispositivos están conectados a tu cuenta.";
 "account lease label devices" = "Dispositivos";
+"account lease label this device" = " (este dispositivo)";
+
+"account support action how help" = "¿Cómo podemos ayudarte?";
+"account support action kb" = "Nuestra base de conocimientos";
 
 "payment header activated" = "¡Activado!";
 "payment activated description" = "Ahora Blokada cambiará al modo Plus y se conectará a través de una de nuestros servidores seguros. Si no sabes cuál elegir, te recomendamos que elijas el más cercano a ti.";
