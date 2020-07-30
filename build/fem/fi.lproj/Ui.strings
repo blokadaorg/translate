@@ -129,8 +129,16 @@
 "activity happened one time" = "1 kerran";
 "activity happened many times" = "%@ kertaa";
 "activity category recent" = "Viimeisimmät";
+"activity category top" = "Top";
+"activity category top blocked" = "Top Estetyt";
+"activity category top allowed" = "Top Sallitut";
+"activity filter header" = "Mitä merkintöjä haluaisit nähdä?";
+"activity filter show all" = "Näytä kaikki merkinnät";
+"activity filter show blocked" = "Näytä vain estetyt";
+"activity filter show allowed" = "Näytä vain sallitut";
 
 "account section header settings" = "Asetukset";
+"account status text" = "BLOKADA %@ tilisi on aktiivinen, kunnes %@.";
 "account section header primary" = "Ensisijainen";
 "account section header other" = "Muu";
 "account action my account" = "Tilini";
@@ -145,27 +153,49 @@
 "account section header subscription" = "Tilaus";
 "account label id" = "Käyttäjätunnus";
 "account label type" = "Tilin tyyppi";
+"account label active until" = "Aktiivinen kunnes";
 "account action manage subscription" = "Hallitse tilausta";
 "account action why upgrade" = "Miksi minun kannattaa päivittää?";
+
+"account unlock to show" = "Avaa nähdäksesi tilitunnuksesi";
 
 "account header logout" = "Kirjaudu ulos";
 "account logout description" = "Anna toinen tilitunnus tai palaa jatkaaksesi nykyisen tilisi käyttöä (tätä sovellusta ei voi käyttää ilman sellaista).";
 "account id status unchanged" = "(ei muutettu)";
+"account action how to restore" = "Kuinka voin palauttaa vanhan tilini?";
 
 "account encrypt level low" = "Matala";
 "account encrypt level medium" = "Keskitaso";
 "account encrypt level high" = "Korkea";
+"account encrypt label dns only" = "Salataan DNS";
+"account encrypt desc dns only" = "Verkkotunnusjärjestelmä (DNS) on miten laite tietää mistä löytää verkkosivustot, joissa haluat käydä. Valitettavasti suurin osa Internetistä käyttää edelleen salaamatonta DNS:ää, mikä vaarantaa selaushistorian vakoilun. Kun tämä asetus on käytössä, Blokada pakottaa laitteen muodostamaan yhteyden vain salattuihin DNS-palvelimiin (jota kutsutaan myös DNS HTTPS:n kautta).";
+"account encrypt label everything" = "Salataan kaikki";
+"account encrypt desc everything" = "Laitteesi muodostaa yhteyden suojattujen VPN-palvelimiemme kautta ja kaikki laitteestasi tuleva tai siihen tuleva kommunikaatio on salattu vahvoilla algoritmeilla. Tämä suojaa henkilökohtaisia tietojasi, kuten pankkitietoja tai henkilökohtaisia valokuvia varastamiselta turvattomissa paikoissa, kuten kahvilan WiFi:ssä.";
+"account encrypt action turn on" = "Käynnistä BLOKADA";
+"account encrypt header level" = "Salaustaso";
 "account encrypt label level" = "Taso";
+"account encrypt label level low" = "Matala: Ei salausta";
+"account encrypt label level medium" = "Keskiverto: Salataan DNS";
+"account encrypt label level high" = "Korkea: Salataan kaikki";
+"account encrypt header explanation" = "DNS mahdollistaa sen kuinka laite tietää, mistä verkkosivut löytyvät. BLOKADA tukee vain salattuja palvelimia.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Mikä on DNS?";
 "account encrypt section header" = "Salaus";
+
+"account lease label devices list" = "Nämä laitteet on kytketty tiliisi.";
 "account lease label devices" = "Laitteet";
 "account lease label this device" = " (tämä laite)";
 
 "account support action how help" = "Kuinka voimme auttaa sinua?";
+"account support action kb" = "Avaa Tietokeskus";
 
 "payment header activated" = "Aktivoitu!";
+"payment activated description" = "Blokada siirtyy nyt Plus-tilaan ja muodostaa yhteyden turvallisen sijaintimme kautta. Jos et ole varma mitä valita niin suosittelemme ottamaan sen, joka on lähimpänä sinua.";
 "payment action choose location" = "Valitse sijainti";
+
+"payment title" = "Päivitä VPN-palveluumme, jotta pystyt hallitsemaan *yksityisyyttäsi*.";
 "payment feature title change location" = "Muuta sijaintia";
+"payment feature desc change location" = "Piilota IP-osoitteesi ja teeskentele, että olet toisessa maassa. Tämä peittää sinut kolmansilta osapuolilta ja auttaa suojaamaan henkilöllisyyttäsi.";
 "payment feature title encrypt data" = "Salaa tiedot";
 "payment feature desc encrypt data" = "VPN-tunnelimme kautta lähetetyt tiedot on salattu vahvoilla algoritmeilla suojaamaan tietojen sieppausta vastaan luvattomien osapuolien toimesta.";
 "payment feature title faster connection" = "Nopeampi yhteys";

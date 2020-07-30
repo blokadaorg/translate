@@ -7,40 +7,213 @@
 */
 
 "error device offline" = "Tu dispositivo está desconectado";
+"error account inactive" = "Tu cuenta está inactiva. Activa tu cuenta para continuar usando BLOKADA+.";
+"error account inactive after restore" = "Esta no parece ser una cuenta activa válida. Si crees que se trata de un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
+"error creating account" = "No se ha podido crear la cuenta. Inténtalo de nuevo más tarde.";
+"error fetching data" = "No se ha podido completar esta acción. Asegúrate de tener conexión e inténtalo de nuevo más tarde. Si el problema persiste, contacta con nosotros tocando el icono de ayuda en la parte superior.";
+"error tunnel" = "No ha podido establecer el VPN. Reinicia tu dispositivo o elimine el perfil VPN de Blokada en la configuración del sistema, e inténtalo de nuevo.";
+"error vpn" = "No ha podido establecer el VPN. Reinicia tu dispositivo o elimine el perfil VPN de Blokada en la configuración del sistema, e inténtalo de nuevo.";
+"error vpn perms" = "No se han concedido permisos para crear un perfil VPN.";
+"error vpn no current lease" = "Por favor, primero elige una ubicación.";
+"error vpn too many leases" = "Has alcanzado el límite de dispositivos. Por favor, elimina uno de tus dispositivos e inténtalo de nuevo.";
+"error vpn expired" = "El VPN está desactivado. Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
+"error payment inactive after restore" = "Tu pago anterior se ha restaurado, pero la suscripción ya ha caducado. Si crees que esto es un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
+"error payment failed" = "Pagos no disponibles actualmente. Asegúrate de tener conexión e inténtalo de nuevo más tarde. Si el problema persiste, contacta con nosotros tocando el icono de ayuda en la parte superior.";
+"error payment not available" = "Los pagos no están disponibles para este dispositivo. O Apple Pay no está activado, o todavía no gestionamos las compras en tu país.";
+"error payment canceled" = "El pago se ha cancelado. No se ha cobrado nada.";
+"error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
+"error location failed fetching" = "No se ha encontrado tu ubicación.";
+"error unknown" = "Ha ocurrido un problema desconocido. Por favor, inténtelo de nuevo. Si el problema persiste, por favor contáctanos tocando el icono de ayuda en la parte superior.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
 "universal action close" = "Cerrar";
+"universal action done" = "Hecho";
+"universal action try again" = "Inténtalo de nuevo";
 "universal action learn more" = "Aprender más";
 "universal action help" = "Ayuda";
+"universal action show log" = "Registros";
 "universal action share log" = "Enviar registro";
 "universal action copy" = "Copiar";
 "universal action save" = "Guardar";
+"universal action contact us" = "Contacta con nosotros";
 "universal action support" = "Soporte";
+"universal action upgrade" = "Actualizar a BLOKADA+";
 
 "universal label help" = "Ayuda";
+"universal status processing" = "Procesando... espera por favor.";
+
+"alert error header" = "¡Vaya!";
+"alert vpn expired header" = "BLOKADA+ ha caducado";
+
+"notification vpn expired header" = "Suscripción de BLOKADA+ expirada";
+"notification vpn expired subtitle" = "El VPN está desactivado";
+"notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
+
+"account active forever" = "Para siempre";
+
+"main ask for permissions header" = "Solo un paso más";
+"main ask for permissions description" = "Blokada está usando una configuración VPN para bloquear anuncios. Se te pedirá una confirmación a continuación.";
+
+"main share message" = "¡Blokada para iOS me ha ayudado a bloquear %@ anuncios y rastreadores!";
+
+"main rate us header" = "¡Califícanos!";
+"main rate us description" = "Hasta ahora, ¿cuánto te gusta Blokada?";
+"main rate us on app store" = "¿Te importaría ayudarnos valorando Blokada en App Store?";
+"main rate us action sure" = "¡Claro!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Inicio";
 // Make sure each tab name has a similar length
+"main tab activity" = "Actividad";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avanzado";
 // Make sure each tab name has a similar length
 "main tab settings" = "Configuración";
+
+"home ads counter footnote" = "anuncios y rastreadores bloqueados desde la instalación";
+"home power off menu header" = "¿Qué te gustaría hacer?";
 "home power action turn on" = "Activar";
 "home power action turn off" = "Desactivar";
+"home power action pause" = "Pausar 5 min";
+
+"home status paused" = "EN PAUSA";
 "home status active" = "ACTIVA";
+"home status deactivated" = "DESACTIVADO";
+"home action tap to activate" = "toca para activar";
+"home status detail paused" = "pausado hasta que el temporizador termine";
+"home status detail active" = "bloqueando *anuncios* y *rastreadores*";
+"home status detail active with counter" = "*%@* anuncios y rastreadores bloqueados";
+"home status detail plus" = "*+* protegiendo tu *privacidad*";
 "home status detail progress" = "por favor espera...";
+
+"home plus button deactivated" = "BLOKADA+ desactivado";
+"home plus button select location" = "Elegir ubicación";
+"home plus button location" = "Ubicación: *%@*";
+
+"pack section header" = "Características avanzadas";
+"pack action install" = "OBTENER";
+"pack action update" = "ACTUALIZAR";
+"pack action uninstall" = "DESINSTALAR";
+"pack author" = "Autor";
+"pack configurations header" = "Configuraciones";
 "pack information header" = "Más detalles";
+"pack tags header" = "Etiquetas";
+"pack tags none" = "Ninguna";
+"pack category highlights" = "Destacados";
 "pack category active" = "Activo";
+"pack category all" = "Todo";
+
+"location choice header" = "Elige una ubicación";
+
+"activity section header" = "Actividad";
+"activity request blocked" = "Esta solicitud ha sido bloqueada.";
+"activity request allowed" = "Esta solicitud ha sido permitida.";
+"activity request allowed whitelisted" = "Esta solicitud ha sido permitida porque se encuentra entre tus Hosts permitidos";
+"activity request blocked blacklisted" = "Esta solicitud ha sido bloqueada porque se encuentra entre tus Hosts bloqueados";
+"activity actions header" = "Acciones";
+"activity information header" = "Información";
+"activity action add to whitelist" = "Añadir a Permitidos";
+"activity action remove from whitelist" = "Eliminar de Permitidos";
+"activity action added to whitelist" = "Añadido a Permitidos";
+"activity action add to blacklist" = "Añadir a Bloqueados";
+"activity action remove from blacklist" = "Eliminar de Bloqueados";
+"activity action added to blacklist" = "Añadido a Bloqueados";
+"activity action copy to clipboard" = "Copiar nombre al portapapeles";
+"activity domain name" = "Nombre completo";
+"activity time of occurrence" = "Hora";
+"activity number of occurrences" = "Sucesos";
+"activity state modified" = "modificado";
 "activity state blocked" = "bloqueado";
+"activity state allowed" = "permitido";
+"activity happened one time" = "1 vez";
+"activity happened many times" = "%@ veces";
+"activity category recent" = "Recientes";
+"activity category top" = "Recurrentes";
+"activity category top blocked" = "Más bloqueadas";
+"activity category top allowed" = "Más permitidas";
+"activity filter header" = "¿Qué entradas te gustaría ver?";
+"activity filter show all" = "Mostrar todas las entradas";
+"activity filter show blocked" = "Mostrar solo bloqueadas";
+"activity filter show allowed" = "Mostrar solo permitidas";
 
 "account section header settings" = "Configuración";
+"account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
+"account section header primary" = "Principal";
 "account section header other" = "Otros";
+"account action my account" = "Mi cuenta";
+"account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
+"account action inbox" = "Bandeja de entrada";
+"account action logout" = "Cerrar sesión";
 "account action about" = "Acerca de";
+
+"account section header my subscription" = "Mi suscripción";
+"account section header general" = "General";
+"account section header subscription" = "Suscripción";
 "account label id" = "ID de cuenta";
+"account label type" = "Tipo de cuenta";
+"account label active until" = "Activa hasta";
 "account action manage subscription" = "Gestionar suscripción";
+"account action why upgrade" = "¿Por qué deberías actualizar?";
+
+"account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
+
+"account header logout" = "Cerrar sesión";
+"account logout description" = "Por favor, introduce otro ID de cuenta, o vuelve atrás para seguir usando la cuenta existente (esta aplicación no se puede utilizar sin una).";
+"account id status unchanged" = "(no modificada)";
+"account action how to restore" = "¿Cómo recupero mi antigua cuenta?";
+
+"account encrypt level low" = "Bajo";
+"account encrypt level medium" = "Medio";
+"account encrypt level high" = "Alto";
+"account encrypt label dns only" = "Cifrando DNS";
+"account encrypt desc dns only" = "El Sistema de Nombres de Dominio (DNS, por sus siglas en inglés) es la forma por la que tu dispositivo sabe dónde encontrar los sitios web que quieres visitar. Desafortunadamente, la mayoría de los sitios de internet siguen sin usar DNS cifrados, lo que pone tu historial de navegación expuesto. Cuando está activado, Blokada obliga al dispositivo a conectarse solo a servidores DNS cifrados (también llamados DNS sobre HTTPS).";
+"account encrypt label everything" = "Cifrando todo";
+"account encrypt desc everything" = "Tu dispositivo se está conectando a través de nuestros servidores VPN seguros, y toda la comunicación saliente o entrante de él está siendo cifrado mediante algoritmos. Esto protege tu información personal, así como tus datos bancarios o fotografías personales, de ser obtenidas en lugares inseguros, como una cafetería WiFi.";
+"account encrypt action turn on" = "Activar BLOKADA";
+"account encrypt header level" = "Nivel de cifrado";
+"account encrypt label level" = "Nivel";
+"account encrypt label level low" = "Bajo: Sin cifrar";
+"account encrypt label level medium" = "Medio: Se cifra el DNS";
+"account encrypt label level high" = "Alto: Se cifra todo";
+"account encrypt header explanation" = "A través de DNS es cómo tu dispositivo sabe dónde encontrar sitios web. BLOKADA solo soporta servidores cifrados.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "¿Qué es el DNS?";
+"account encrypt section header" = "Cifrado";
+
+"account lease label devices list" = "Estos dispositivos están conectados a tu cuenta.";
 "account lease label devices" = "Dispositivos";
+"account lease label this device" = " (este dispositivo)";
+
+"account support action how help" = "¿Cómo podemos ayudarte?";
+"account support action kb" = "Nuestra base de conocimientos";
+
+"payment header activated" = "¡Activado!";
+"payment activated description" = "Ahora Blokada cambiará al modo Plus y se conectará a través de una de nuestros servidores seguros. Si no sabes cuál elegir, te recomendamos que elijas el más cercano a ti.";
+"payment action choose location" = "Elige una ubicación";
+
+"payment title" = "Actualiza a nuestro servicio VPN para mantener el control de tu *privacidad*.";
+"payment feature title change location" = "Cambiar ubicación";
+"payment feature desc change location" = "Oculta tu dirección IP y finge que estás en otro país. Esto te hará una máscara a terceros y ayudará a proteger tu identidad.";
+"payment feature title encrypt data" = "Encripta tus datos";
+"payment feature desc encrypt data" = "Los datos enviados a través de nuestro túnel VPN son cifrados usando algoritmos fuertes para protegerlos contra la interceptación por parte de partes no autorizadas.";
+"payment feature title faster connection" = "Conexión más rápida";
+"payment feature desc faster connection" = "Alcanza velocidades de hasta 100Mbps gracias a servidores alrededor del mundo.";
+"payment feature title devices" = "Hasta 5 dispositivos";
+"payment feature desc devices" = "Utiliza la misma cuenta para compartir tu suscripción con hasta 5 dispositivos: iOS, Android o PC.";
+"payment feature title no ads" = "Sin anuncios";
+"payment feature desc no ads" = "Sigue utilizando la mundialmente famosa tecnología de bloqueo de Blokada mientras mejoras tu nivel de protección y mantienes tus datos a buen recaudo.";
+"payment feature title support" = "Buen soporte";
+"payment feature desc support" = "Obtén una respuesta rápida a cualquier pregunta gracias a nuestro Servicio de Atención al Cliente y a nuestra activa comunidad.";
+"payment action see all features" = "Ver todas las características";
+"payment action restore" = "Restaurar compras";
+"payment action terms and privacy" = "Términos y privacidad";
+"payment action terms" = "Condiciones del servicio";
+"payment action policy" = "Política de privacidad";
+"payment alert error header" = "Un mensaje de App Store";
 
 "payment subscription 1 month" = "1 mes";
+"payment subscription many months" = "%@ meses";
+"payment subscription per month" = "%@ por mes";
+"payment subscription offer" = "Ahorra %@";
