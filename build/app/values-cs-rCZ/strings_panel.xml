@@ -26,6 +26,8 @@
     <string name="panel_domain_blocked">Blokováno &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Tato doména byla zablokována. Chcete-li ji pro příště povolit, použijte tlačítko níže.</string>
     <string name="panel_domain_blocked_nxdomain_desc">Tato doména nebyla serverem DNS správně vyřešena. Buď server doménu zablokoval nebo neexistuje.</string>
+    <string name="panel_domain_blocked_error_desc">Při otevírání této domény došlo k chybě. DNS server odpověděl chybovým kódem.</string>
+    <string name="panel_domain_blocked_cname_desc">Tato doména byla zablokována, protože se jedná o CName pro blokovanou doménu. Chcete-li jí v budoucnu povolit, můžete k povoleným hostitelům přidat CName nebo samotnou doménu.</string>
     <string name="panel_domain_blocked_toast">Přidáno do černé listiny.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Kopírovat</string>
