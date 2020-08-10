@@ -26,6 +26,8 @@
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; blockiert</string>
     <string name="panel_domain_blocked_normal_desc">Diese Domain wurde blockiert. Um sie in Zukunft zu erlauben, benutze den Button unten.</string>
     <string name="panel_domain_blocked_nxdomain_desc">Diese Domain wurde vom DNS-Server nicht korrekt aufgelöst, entweder der Server blockiert die Domain oder sie existiert nicht.</string>
+    <string name="panel_domain_blocked_error_desc">Beim Auflösen dieser Domain ist etwas schief gelaufen. Der DNS-Server antwortete mit einem Fehlercode.</string>
+    <string name="panel_domain_blocked_cname_desc">Diese Domain wurde gesperrt, da es sich um einen CName für eine blockierte Domain handelt. Um sie künftig zuzulassen, kannst du entweder den CName oder die Domain selbst zu den zugelassenen Hosts hinzufügen.</string>
     <string name="panel_domain_blocked_toast">Zur Blacklist hinzugefügt.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Kopieren</string>
@@ -38,9 +40,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Erlauben</string>
     <!-- Button to allow blocked cname -->
-    <string name="slot_action_allow_cname">CName erlauben</string>
+    <string name="slot_action_allow_cname">CName zulassen</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
-    <string name="slot_action_allow_domain">Domain erlauben</string>
+    <string name="slot_action_allow_domain">Domain zulassen</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Blockieren</string>
     <string name="slot_action_close">Schließen</string>
