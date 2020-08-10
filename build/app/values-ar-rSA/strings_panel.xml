@@ -25,6 +25,8 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; محظور</string>
     <string name="panel_domain_blocked_normal_desc">تَمّ حَظْر هذا الموقع. للسماح به في المستقبل ، إستخدم الزرّ أدناه.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">لم يَتمّ معالجة هذا النطاق بشكل صحيح من قبل خادم الـ DNS. إمّا قام الخادم بحظر النطاق أو أنّه غير موجود.</string>
+    <string name="panel_domain_blocked_error_desc">حدث خطأ أثناء معالجة هذا النطاق، أجاب خادم الـ DNS برمز خطأ.</string>
     <string name="panel_domain_blocked_toast">تَمَّت الإضافة إلى القائمة السوداء.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">نسخ</string>
