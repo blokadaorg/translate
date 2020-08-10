@@ -25,7 +25,6 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; blockiert</string>
     <string name="panel_domain_blocked_normal_desc">Diese Domain wurde blockiert. Um sie in Zukunft zu erlauben, benutze den Button unten.</string>
-    <string name="panel_domain_blocked_answer_desc">Diese Domain wurde vom DNS-Server nicht korrekt aufgelöst, entweder der Server blockiert die Domain oder sie existiert nicht.</string>
     <string name="panel_domain_blocked_toast">Zur Blacklist hinzugefügt.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Kopieren</string>
@@ -37,6 +36,8 @@
     <string name="panel_ruleset_canfit">Die Filter sind jetzt mit &lt;b&gt;%s&lt;/b&gt; Regeln konfiguriert. Dein Gerät erlaubt maximal &lt;b&gt;%s&lt;/b&gt; MB Arbeitsspeicher für jede Anwendung und bis zu &lt;b&gt;%s&lt;/b&gt; Regeln passen dort hinein.&lt;br&gt;Bedenke, dies ist nur eine Schätzung und Blokada nutzt den meisten Speicher für die Zusammenführung der Listen. Wenn einige von ihnen kürzlich aktiviert wurden, warte ein paar Minuten, bis das System mehr Speicher freigibt.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Erlauben</string>
+    <!-- Button to allow blocked cname -->
+    <!-- Button to allow blocked domain that was blocked by a cname -->
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Blockieren</string>
     <string name="slot_action_close">Schließen</string>
