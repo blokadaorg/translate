@@ -25,7 +25,6 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
     <string name="panel_domain_blocked_normal_desc">Domain ini telah diblokir. Untuk mengizinkan domain tersebut di kemudian hari, gunakan tombol di bawah ini.</string>
-    <string name="panel_domain_blocked_answer_desc">Domain ini tidak diselesaikan dengan benar oleh server DNS. Hal ini bisa dikarenakan oleh domain yang diblokir atau domain tersebut tidak ada.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Salin</string>
@@ -37,6 +36,8 @@
     <string name="panel_ruleset_canfit">Filter sekarang telah dikonfigurasikan dengan &lt;b&gt;%s&lt;/b&gt; aturan. Perangkat Anda bisa menggunakan memori sebesar &lt;b&gt;%s&lt;/b&gt; MB untuk setiap aplikasi, dan bisa memuat hingga &lt;b&gt;%s&lt;/b&gt; aturan. &lt;br&gt; Harap diingat bahwa angka-angka tersebut hanya perkiraan dan Blokada menggunakan memori ketika menggabungkan list. Jika Anda mengaktifkan beberapa list sekaligus, harap bersabar dan tunggu beberapa saat agar perangkat Anda bisa membebaskan memori.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Izinkan</string>
+    <!-- Button to allow blocked cname -->
+    <!-- Button to allow blocked domain that was blocked by a cname -->
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Blokir</string>
     <string name="slot_action_close">Tutup</string>
