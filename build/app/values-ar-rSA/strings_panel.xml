@@ -25,7 +25,6 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; محظور</string>
     <string name="panel_domain_blocked_normal_desc">تَمّ حَظْر هذا الموقع. للسماح به في المستقبل ، إستخدم الزرّ أدناه.</string>
-    <string name="panel_domain_blocked_answer_desc">لم يتم معالجو هذا المجال بشكل صحيح من قِبَل خادِم DNS. إمّا أنّ الخادِم حَظرَ المجال أو أنّه غير موجود.</string>
     <string name="panel_domain_blocked_toast">تَمَّت الإضافة إلى القائمة السوداء.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">نسخ</string>
@@ -37,6 +36,8 @@
     <string name="panel_ruleset_canfit">يَتمّ تكوين الفلاتر الآن باستخدام &lt;b&gt;%s&lt;/b&gt; قاعدة. يسمح جهازك بحد أقصى &lt;b&gt;%s&lt;/b&gt; ميجابايت من الذاكرة لكل تطبيق ، و يمكن أن يصل عدد قواعده إلى &lt;b&gt;%s&lt;/b&gt; قاعدة.&lt;br&gt;تَذكّر ، هذا مجرّد تقدير و يَستخدم بلوكادا معظم الذاكرة عند دمج القوائم. إذا قمت بتمكين القليل منها مؤخراً ، فانتظر بضع دقائق حتى يقوم النظام بتحرير الذاكرة.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">سماح</string>
+    <!-- Button to allow blocked cname -->
+    <!-- Button to allow blocked domain that was blocked by a cname -->
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">حَظْر</string>
     <string name="slot_action_close">إغلاق</string>
