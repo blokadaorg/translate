@@ -39,9 +39,16 @@
 "universal action contact us" = "Contact us";
 "universal action support" = "Support";
 "universal action upgrade" = "Upgrade to BLOKADA+";
+"universal action yes" = "Yes";
+"universal action no" = "No";
+"universal action donate" = "Donate";
+"universal action community" = "Community";
+"universal action open in browser" = "Open in browser";
 
 "universal label help" = "Help";
 "universal status processing" = "Processing... Please wait.";
+"universal status copied to clipboard" = "Copied to Clipboard";
+"universal status restart required" = "Please restart your device for the changes to take effect."
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ expired";
@@ -92,6 +99,7 @@
 "home plus button location" = "Location: *%@*";
 
 "pack section header" = "Advanced Features";
+"pack section header details" = "Feature Details";
 "pack action install" = "GET";
 "pack action update" = "UPDATE";
 "pack action uninstall" = "REMOVE";
@@ -107,6 +115,7 @@
 "location choice header" = "Choose a Location";
 
 "activity section header" = "Activity";
+"activity section header details" = "Activity Details";
 "activity request blocked" = "This request has been blocked.";
 "activity request allowed" = "This request has been allowed.";
 "activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
@@ -147,6 +156,8 @@
 "account action inbox" = "Inbox";
 "account action logout" = "Logout";
 "account action about" = "About";
+"account action tap to show" = "Tap to show";
+"account action restoring" = "Restoring account: %@"
 
 "account section header my subscription" = "My Subscription";
 "account section header general" = "General";
@@ -217,3 +228,32 @@
 "payment subscription many months" = "%@ Months";
 "payment subscription per month" = "%@ per month";
 "payment subscription offer" = "Save %@";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installed";
+"apps label system" = "System";
+"apps status bypassed" = "(bypassed)";
+"apps filter header" = "Which apps would you like to see?";
+"apps filter action show all" = "Show all apps";
+"apps filter action show bypassed" = "Show bypassed only";
+"apps filter action show not bypassed" = "Show not bypassed only";
+"apps filter action toggle system" = "Toggle all system apps";
+
+"app settings section header" = "This device";
+"app settings language label" = "Language";
+"app settings theme label" = "App theme";
+"app settings theme light" = "Light";
+"app settings theme dark" = "Dark";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Redirect links to";
+"app settings browser internal" = "Internal browser";
+"app settings browser external" = "External browser (if possible)";
+"app settings ipv6 label" = "Allow IPv6";
+"app settings section system" = "System";
+"app settings action app info" = "Open App Information";
+"app settings action vpn profile" = "Open VPN Profile";
+"app settings section details" = "Details";
+"app settings status default" = "System default";
+
+"intro header" = "Blokada is Active!";
+"intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, Like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
