@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked_normal_desc">Acest domeniu a fost blocat. Pentru a-i acorda permisiune în viitor, folosiți butonul de mai jos.</string>
     <string name="panel_domain_blocked_nxdomain_desc">Acest domeniu nu a fost rezolvat corect de serverul DNS. Fie serverul a blocat domeniul, fie acesta nu există.</string>
     <string name="panel_domain_blocked_error_desc">Ceva nu a mers bine în rezolvarea acestui domeniu, serverul DNS a răspuns cu un cod de eroare.</string>
+    <string name="panel_domain_blocked_cname_desc">Acest domeniu a fost blocat deoarece este un CName pentru un domeniu blocat. Pentru a permite acest lucru în viitor, puteți adăuga CName sau domeniul însuși la host-urile permise.</string>
     <string name="panel_domain_blocked_toast">Adăugat pe Lista Neagră.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Copiază</string>
