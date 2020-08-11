@@ -25,7 +25,6 @@
     <string name="tunnel_config_wildcard_title">[BETA] Regras avançadas de bloqueio</string>
     <string name="tunnel_config_wildcard_description">Ative essa opção se desejar usar caracteres curinga nas suas regras de filtragem. Por exemplo, adicionar uma regra para *.google.com bloquearia todos os domínios do Google. Isso pode ter um impacto negativo na vida útil da bateria. Observe que esse é um recurso experimental e pode não funcionar corretamente.</string>
     <string name="tunnel_config_cname_title">[BETA] CName-Blocking</string>
-    <string name="tunnel_config_cname_description">Ative esta opção se você quiser bloquear todos os CNames para os domínios em suas listas de bloqueio. O CName é um alias para um domínio, que é usado por algum anunciante para esconder seu domínio por trás de um domínio frequentemente alterado ou menos óbvio. Esta tática pode ser contornada bloqueando todos os CNames que resolveriam o domínio bloqueado. Por favor, note que este é um recurso experimental, e pode não funcionar corretamente.</string>
     <string name="tunnel_config_fallback_title">Recuar DNS</string>
     <string name="tunnel_config_fallback_description">Ative essa opção se você estiver perdendo o acesso à Internet em algumas situações, como seu Wi-Fi. Isto fará o app alternar temporariamente para o DNS do Cloudflare, para sustentar sua conectividade. Talvez você precise selecionar novamente seus servidores na seção de DNS para que essa configuração tenha efeito.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Lista Inteligente</string>
