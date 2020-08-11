@@ -25,6 +25,9 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; diblokir</string>
     <string name="panel_domain_blocked_normal_desc">Domain ini telah diblokir. Untuk mengizinkan domain tersebut di kemudian hari, gunakan tombol di bawah ini.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">Domain ini tidak diselesaikan dengan benar oleh DNS server. Hal ini terjadi karena DNS server tersebut memblokir domain yang dituju, atau domain tersebut tidak ada.</string>
+    <string name="panel_domain_blocked_error_desc">Telah terjadi kesalahan ketika menuju domain ini, DNS server yang Anda pakai menghasilkan kode error saat mencoba mengaksesnya.</string>
+    <string name="panel_domain_blocked_cname_desc">Domain ini diblokir karena terdeteksi sebagai CName dari sebuah domain yang telah diblokir. Untuk bisa mengakses domain ini Anda dapat memasukkan CName ini atau domain aslinya ke dalam Allowed Hosts.</string>
     <string name="panel_domain_blocked_toast">Ditambahkan ke blacklist.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Salin</string>
@@ -37,7 +40,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Izinkan</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Izinkan CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Izinkan Domain</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Blokir</string>
     <string name="slot_action_close">Tutup</string>
