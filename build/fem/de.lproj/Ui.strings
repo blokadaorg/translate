@@ -58,6 +58,7 @@
 "notification vpn expired body" = "Bitte aktualisiere Dein Abonnement um BLOKADA+ weiter nutzen zu können";
 
 "notification update header" = "Es ist eine Aktualisierung erhältlich";
+"alert update body" = "Blokada %@ steht zum Herunterladen bereit. Wir empfehlen, die App auf dem neuesten Stand zu halten und sie nur von unseren offiziellen Quellen herunterzuladen.";
 
 "account active forever" = "Für immer";
 
@@ -101,6 +102,7 @@
 "home plus button location" = "Standort: *%@*";
 
 "pack section header" = "Erweiterte Funktionen";
+"pack section header details" = "Ausstattungsdetails";
 "pack action install" = "ERHALTEN";
 "pack action update" = "AKTUALISIEREN";
 "pack action uninstall" = "ENTFERNEN";
@@ -156,6 +158,8 @@
 "account action inbox" = "Inbox";
 "account action logout" = "Abmelden";
 "account action about" = "Über";
+"account action tap to show" = "Zum Anzeigen tippen";
+"account action restoring" = "Wiederherstellung des Kontos: %@";
 
 "account section header my subscription" = "Mein Abo";
 "account section header general" = "Allgemein";
@@ -226,3 +230,31 @@
 "payment subscription many months" = "%@ Monate";
 "payment subscription per month" = "%@ pro Monat";
 "payment subscription offer" = "Spare %@";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installiert";
+"apps label system" = "System";
+"apps status bypassed" = "(umgeleitet)";
+"apps filter header" = "Welche Apps möchtest du sehen?";
+"apps filter action show all" = "Alle Apps anzeigen";
+"apps filter action show bypassed" = "Nur umgeleitete anzeigen";
+"apps filter action show not bypassed" = "Nur nicht umgeleitete anzeigen";
+
+"app settings section header" = "Dieses Gerät";
+"app settings language label" = "Sprache";
+"app settings theme label" = "App-Design";
+"app settings theme light" = "Hell";
+"app settings theme dark" = "Dunkel";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Links umleiten zu";
+"app settings browser internal" = "Interner Browser";
+"app settings browser external" = "Externer Browser (falls möglich)";
+"app settings ipv6 label" = "IPv6 zulassen";
+"app settings section system" = "System";
+"app settings action app info" = "App-Info öffnen";
+"app settings action vpn profile" = "VPN-Profil öffnen";
+"app settings action notifications" = "Benachrichtigungseinstellungen öffnen";
+"app settings section details" = "Details";
+"app settings status default" = "Systemvorgabe";
+
+"intro header" = "Blokada ist aktiv!";
