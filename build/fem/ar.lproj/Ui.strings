@@ -41,9 +41,14 @@
 "universal action upgrade" = "الترقية إلى BLOKADA+";
 "universal action yes" = "نعم";
 "universal action no" = "لا";
+"universal action donate" = "التَّبَرُّع";
+"universal action community" = "المُجتَمَع";
+"universal action open in browser" = "فتح في المتصفِّح";
 
 "universal label help" = "المُساعَدة";
 "universal status processing" = "جارِ المعالجة... انتظر من فضلك.";
+"universal status copied to clipboard" = "تَمّ النسخ إلى الحافظة";
+"universal status restart required" = "الرجاء إعادة تشغيل التطبيق لتصبح التغييرات سارية المفعول.";
 
 "alert error header" = "عُذراً !";
 "alert vpn expired header" = "إنتهت صلاحيّة BLOKADA+";
@@ -51,6 +56,9 @@
 "notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
 "notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
 "notification vpn expired body" = "الرجاء تحديث إشتراكك للإستمرار في إستخدام BLOKADA+";
+
+"notification update header" = "يوجد تحديث";
+"alert update body" = "Blokada %@ متاح الآن للتنزيل. نوصي بتحديث التطبيق باستمرار و تنزيله فقط من مصادرنا الرسميّة.";
 
 "account active forever" = "للأبد";
 
@@ -94,6 +102,7 @@
 "home plus button location" = "الموقع: *%@*";
 
 "pack section header" = "الميّزات المتقدّمة";
+"pack section header details" = "تفاصيل المَيِّزة";
 "pack action install" = "إحصل";
 "pack action update" = "تحديث";
 "pack action uninstall" = "إزالة";
@@ -109,6 +118,7 @@
 "location choice header" = "اختر موقع";
 
 "activity section header" = "الأنشطة";
+"activity section header details" = "تفاصيل النشاط";
 "activity request blocked" = "تمّ حَظْر هذا الطلب.";
 "activity request allowed" = "تمّ السماح لهذا الطلب.";
 "activity request allowed whitelisted" = "تمّ السماح لهذا الطلب، لأنّه موجود في قائمة السماح";
@@ -149,6 +159,8 @@
 "account action inbox" = "صندوق الوارد";
 "account action logout" = "تسجيل خروج";
 "account action about" = "حوْلَ";
+"account action tap to show" = "انقر لإظهار";
+"account action restoring" = "استعادة الحساب: %@";
 
 "account section header my subscription" = "اشتراكي";
 "account section header general" = "عام";
@@ -219,3 +231,5 @@
 "payment subscription many months" = "%@ أشهر";
 "payment subscription per month" = "%@ في الشهر";
 "payment subscription offer" = "توفير %@";
+
+"apps section header" = "التطبيقات";
