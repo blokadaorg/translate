@@ -38,9 +38,16 @@
 "universal action contact us" = "Nous contacter";
 "universal action support" = "Support";
 "universal action upgrade" = "Mise à niveau vers BLOKADA+";
+"universal action yes" = "Oui";
+"universal action no" = "Non";
+"universal action donate" = "Faire un don";
+"universal action community" = "Communauté";
+"universal action open in browser" = "Ouvrir dans votre navigateur";
 
 "universal label help" = "Aide";
 "universal status processing" = "Traitement en cours... Veuillez patienter.";
+"universal status copied to clipboard" = "Copié dans le presse-papier";
+"universal status restart required" = "Veuillez redémarrer l'application pour que les modifications prennent effet.";
 
 "alert error header" = "Oups !";
 "alert vpn expired header" = "BLOKADA+ a expiré";
@@ -48,6 +55,8 @@
 "notification vpn expired header" = "L'abonnement BLOKADA+ a expiré";
 "notification vpn expired subtitle" = "Le VPN est désactivé";
 "notification vpn expired body" = "Veuillez mettre à jour votre abonnement pour continuer à utiliser BLOKADA+";
+
+"notification update header" = "Une mise à jour est disponible";
 
 "account active forever" = "Pour toujours";
 
@@ -91,6 +100,7 @@
 "home plus button location" = "Emplacement : *%@*";
 
 "pack section header" = "Fonctionnalités avancées";
+"pack section header details" = "Détails de la fonctionnalité";
 "pack action install" = "AVOIR";
 "pack action update" = "MISE À JOUR";
 "pack action uninstall" = "SUPPRIMER";
@@ -104,6 +114,7 @@
 "location choice header" = "Choisissez une localisation";
 
 "activity section header" = "Activité";
+"activity section header details" = "Détails de l'activité";
 "activity request blocked" = "Cette requête a été bloquée.";
 "activity request allowed" = "Cette requête a été autorisée.";
 "activity request allowed whitelisted" = "Cette requête a été autorisée, car elle figure dans votre liste d'autorisations";
@@ -213,3 +224,8 @@
 "payment subscription many months" = "%@ mois";
 "payment subscription per month" = "%@ par mois";
 "payment subscription offer" = "Économisez %@";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installé";
+"apps label system" = "Système";
+"apps filter action show all" = "Afficher toutes les apps";
