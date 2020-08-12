@@ -58,6 +58,7 @@
 "notification vpn expired body" = "Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA+";
 
 "notification update header" = "Налична е актуализация";
+"alert update body" = "Blokada %@ вече е достъпна за изтегляне. Препоръчваме да поддържате приложението актуално и да го изтегляте само от нашите официални източници.";
 
 "account active forever" = "Завинаги";
 
@@ -101,6 +102,7 @@
 "home plus button location" = "Местоположение: *%@*";
 
 "pack section header" = "Разширени функции";
+"pack section header details" = "Подробности Детайли";
 "pack action install" = "ВЗЕМИ";
 "pack action update" = "АКТУАЛИЗАЦИЯ";
 "pack action uninstall" = "ПРЕМАХВАНЕ";
@@ -116,6 +118,7 @@
 "location choice header" = "Избор на местоположение";
 
 "activity section header" = "Активност";
+"activity section header details" = "Подробности за дейността";
 "activity request blocked" = "Тази заявка е блокирана.";
 "activity request allowed" = "Тази заявка е разрешена.";
 "activity request allowed whitelisted" = "Тази заявка е разрешена, защото е в списъка ви с Позволени";
@@ -156,6 +159,8 @@
 "account action inbox" = "Входяща кутия";
 "account action logout" = "Изход";
 "account action about" = "Относно";
+"account action tap to show" = "Докоснете за да се покаже";
+"account action restoring" = "Възстановяване на акаунт: %@";
 
 "account section header my subscription" = "Моят абонамент";
 "account section header general" = "Основни";
@@ -226,3 +231,12 @@
 "payment subscription many months" = "%@ Месеца";
 "payment subscription per month" = "%@ на месец";
 "payment subscription offer" = "Запази %@";
+
+"apps section header" = "Приложения";
+"apps label installed" = "Инсталирани";
+"apps label system" = "Система";
+"apps status bypassed" = "(заобиколено)";
+"apps filter header" = "Кои приложения искате да видите?";
+"apps filter action show all" = "Показване на всички приложения";
+"apps filter action show bypassed" = "Показване само на заобиколени";
+"apps filter action show not bypassed" = "Показване само на не заобиколени";
