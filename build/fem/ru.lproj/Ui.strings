@@ -39,9 +39,16 @@
 "universal action contact us" = "Связаться с нами";
 "universal action support" = "Поддержка";
 "universal action upgrade" = "Обновите до BLOKADA+";
+"universal action yes" = "Да";
+"universal action no" = "Нет";
+"universal action donate" = "Пожертвовать";
+"universal action community" = "Сообщество";
+"universal action open in browser" = "Открыть в браузере";
 
 "universal label help" = "Помощь";
 "universal status processing" = "Обработка... Пожалуйста, подождите.";
+"universal status copied to clipboard" = "Скопировано в буфер обмена";
+"universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
 
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
 "notification vpn expired subtitle" = "VPN отключен";
 "notification vpn expired body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
+
+"notification update header" = "Доступно обновление";
+"alert update body" = "Blokada %@ теперь доступна для скачивания. Мы рекомендуем поддерживать актуальную версию приложения, и скачивать его только из наших официальных источников.";
 
 "account active forever" = "Навсегда";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "Местоположение: *%@*";
 
 "pack section header" = "Расширенные возможности";
+"pack section header details" = "Описание функции";
 "pack action install" = "ПОЛУЧИТЬ";
 "pack action update" = "ОБНОВИТЬ";
 "pack action uninstall" = "УДАЛИТЬ";
@@ -107,6 +118,7 @@
 "location choice header" = "Выберите местоположение";
 
 "activity section header" = "Активность";
+"activity section header details" = "Описание действия";
 "activity request blocked" = "Этот запрос был заблокирован.";
 "activity request allowed" = "Этот запрос был разрешен.";
 "activity request allowed whitelisted" = "Этот запрос был разрешен, потому что он находится в вашем списке разрешенных";
