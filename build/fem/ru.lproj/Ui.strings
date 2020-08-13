@@ -39,9 +39,16 @@
 "universal action contact us" = "Связаться с нами";
 "universal action support" = "Поддержка";
 "universal action upgrade" = "Обновите до BLOKADA+";
+"universal action yes" = "Да";
+"universal action no" = "Нет";
+"universal action donate" = "Пожертвовать";
+"universal action community" = "Сообщество";
+"universal action open in browser" = "Открыть в браузере";
 
 "universal label help" = "Помощь";
 "universal status processing" = "Обработка... Пожалуйста, подождите.";
+"universal status copied to clipboard" = "Скопировано в буфер обмена";
+"universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
 
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
 "notification vpn expired subtitle" = "VPN отключен";
 "notification vpn expired body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
+
+"notification update header" = "Доступно обновление";
+"alert update body" = "Blokada %@ теперь доступна для скачивания. Мы рекомендуем поддерживать актуальную версию приложения, и скачивать его только из наших официальных источников.";
 
 "account active forever" = "Навсегда";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "Местоположение: *%@*";
 
 "pack section header" = "Расширенные возможности";
+"pack section header details" = "Описание функции";
 "pack action install" = "ПОЛУЧИТЬ";
 "pack action update" = "ОБНОВИТЬ";
 "pack action uninstall" = "УДАЛИТЬ";
@@ -107,6 +118,7 @@
 "location choice header" = "Выберите местоположение";
 
 "activity section header" = "Активность";
+"activity section header details" = "Описание действия";
 "activity request blocked" = "Этот запрос был заблокирован.";
 "activity request allowed" = "Этот запрос был разрешен.";
 "activity request allowed whitelisted" = "Этот запрос был разрешен, потому что он находится в вашем списке разрешенных";
@@ -147,6 +159,8 @@
 "account action inbox" = "Входящие";
 "account action logout" = "Выход";
 "account action about" = "О приложении";
+"account action tap to show" = "Нажмите, чтобы показать";
+"account action restoring" = "Восстановление аккаунта: %@";
 
 "account section header my subscription" = "Моя подписка";
 "account section header general" = "Общее";
@@ -217,3 +231,33 @@
 "payment subscription many months" = "%@ месяцев";
 "payment subscription per month" = "%@ в месяц";
 "payment subscription offer" = "Сэкономить %@";
+
+"apps section header" = "Приложения";
+"apps label installed" = "Установленные";
+"apps label system" = "Системные";
+"apps status bypassed" = "(в обход)";
+"apps filter header" = "Какие приложения вы хотели бы видеть?";
+"apps filter action show all" = "Показать все приложения";
+"apps filter action show bypassed" = "В обход";
+"apps filter action show not bypassed" = "Не в обход";
+"apps filter action toggle system" = "Скрыть/показать все системные приложения";
+
+"app settings section header" = "Это устройство";
+"app settings language label" = "Язык";
+"app settings theme label" = "Тема приложения";
+"app settings theme light" = "Светлая";
+"app settings theme dark" = "Темная";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Перенаправлять ссылки во";
+"app settings browser internal" = "встроенный браузер";
+"app settings browser external" = "внешний браузер (если возможно)";
+"app settings ipv6 label" = "Разрешить IPv6";
+"app settings section system" = "Системные";
+"app settings action app info" = "Сведения о приложении";
+"app settings action vpn profile" = "Открыть профиль VPN";
+"app settings action notifications" = "Открыть настройки уведомлений";
+"app settings section details" = "Подробнее";
+"app settings status default" = "По умолчанию системы";
+
+"intro header" = "Blokada активна!";
+"intro text" = "Синее кольцо означает, что Blokada работает.\n\nПомните, что некоторая реклама, например, YouTube, не может быть заблокирована. Тем не менее, вы заметите разницу в большинстве других приложений.\n\nМы рекомендуем вам активировать VPN всегда включен / Подключение по требованию в настройках вашей системы.";

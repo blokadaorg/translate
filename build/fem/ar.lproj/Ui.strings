@@ -39,9 +39,16 @@
 "universal action contact us" = "إتصل بنا";
 "universal action support" = "الدعم";
 "universal action upgrade" = "الترقية إلى BLOKADA+";
+"universal action yes" = "نعم";
+"universal action no" = "لا";
+"universal action donate" = "التَّبَرُّع";
+"universal action community" = "المُجتَمَع";
+"universal action open in browser" = "فتح في المتصفِّح";
 
 "universal label help" = "المُساعَدة";
 "universal status processing" = "جارِ المعالجة... انتظر من فضلك.";
+"universal status copied to clipboard" = "تَمّ النسخ إلى الحافظة";
+"universal status restart required" = "الرجاء إعادة تشغيل التطبيق لتصبح التغييرات سارية المفعول.";
 
 "alert error header" = "عُذراً !";
 "alert vpn expired header" = "إنتهت صلاحيّة BLOKADA+";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
 "notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
 "notification vpn expired body" = "الرجاء تحديث إشتراكك للإستمرار في إستخدام BLOKADA+";
+
+"notification update header" = "يوجد تحديث";
+"alert update body" = "Blokada %@ متاح الآن للتنزيل. نوصي بتحديث التطبيق باستمرار و تنزيله فقط من مصادرنا الرسميّة.";
 
 "account active forever" = "للأبد";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "الموقع: *%@*";
 
 "pack section header" = "الميّزات المتقدّمة";
+"pack section header details" = "تفاصيل المَيِّزة";
 "pack action install" = "إحصل";
 "pack action update" = "تحديث";
 "pack action uninstall" = "إزالة";
@@ -107,6 +118,7 @@
 "location choice header" = "اختر موقع";
 
 "activity section header" = "الأنشطة";
+"activity section header details" = "تفاصيل النشاط";
 "activity request blocked" = "تمّ حَظْر هذا الطلب.";
 "activity request allowed" = "تمّ السماح لهذا الطلب.";
 "activity request allowed whitelisted" = "تمّ السماح لهذا الطلب، لأنّه موجود في قائمة السماح";
@@ -147,6 +159,8 @@
 "account action inbox" = "صندوق الوارد";
 "account action logout" = "تسجيل خروج";
 "account action about" = "حوْلَ";
+"account action tap to show" = "انقر لإظهار";
+"account action restoring" = "استعادة الحساب: %@";
 
 "account section header my subscription" = "اشتراكي";
 "account section header general" = "عام";
@@ -217,3 +231,33 @@
 "payment subscription many months" = "%@ أشهر";
 "payment subscription per month" = "%@ في الشهر";
 "payment subscription offer" = "توفير %@";
+
+"apps section header" = "التطبيقات";
+"apps label installed" = "مُثَبَّت";
+"apps label system" = "النظام";
+"apps status bypassed" = "(تمَّ التجاوز)";
+"apps filter header" = "ما هي التطبيقات التي ترغب في رؤيتها؟";
+"apps filter action show all" = "إظهار جميع التطبيقات";
+"apps filter action show bypassed" = "إظهار التجاوز فقط";
+"apps filter action show not bypassed" = "إظهار عدم التجاوز فقط";
+"apps filter action toggle system" = "تحديد كافة تطبيقات النظام";
+
+"app settings section header" = "هذا الجهاز";
+"app settings language label" = "اللُّغة";
+"app settings theme label" = "مَظهر التطبيق";
+"app settings theme light" = "فاتح";
+"app settings theme dark" = "داكن";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "إعادة توجيه الروابط إلى";
+"app settings browser internal" = "المتصفِّح الداخلي";
+"app settings browser external" = "المتصفِّح الخارجي (إن أمكن)";
+"app settings ipv6 label" = "السماح IPv6";
+"app settings section system" = "النظام";
+"app settings action app info" = "فتح معلومات التطبيق";
+"app settings action vpn profile" = "فتح مَلَف VPN الشخصي";
+"app settings action notifications" = "فتح إعدادات الإشعارات";
+"app settings section details" = "التفاصيل";
+"app settings status default" = "الإفتراضي للنظام";
+
+"intro header" = "بلوكادا نَشِط!";
+"intro text" = "الدائرة الزرقاء تعني أن بلوكادا يعمل.\n\nتذكّر، بعض الإعلانات، مثل يوتيوب، لا يمكن حظرها. ومع ذلك، ستلاحظ وجود فرق في العديد من التطبيقات الأُخرى.\n\nننصحك بتفعيل ميَّزة ابقاء VPN مُفَعَّل / الإتصال إثناء الطلب، الموجودان في إعدادات النظام الخاص بك.";

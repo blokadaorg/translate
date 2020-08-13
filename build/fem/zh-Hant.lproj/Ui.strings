@@ -39,9 +39,16 @@
 "universal action contact us" = "聯絡我們";
 "universal action support" = "支援";
 "universal action upgrade" = "升級至 BLOKADA+";
+"universal action yes" = "是";
+"universal action no" = "否";
+"universal action donate" = "捐助";
+"universal action community" = "社群";
+"universal action open in browser" = "在瀏覽器開啟";
 
 "universal label help" = "協助";
 "universal status processing" = "處理中… 請稍候。";
+"universal status copied to clipboard" = "已複製到剪貼簿";
+"universal status restart required" = "請重新啟動 App 以套用變更。";
 
 "alert error header" = "哎呀！";
 "alert vpn expired header" = "BLOKADA+ 到期";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "BLOKADA+ 訂閱過期";
 "notification vpn expired subtitle" = "VPN 已停用";
 "notification vpn expired body" = "請更新您的訂閱以繼續使用 BLOKADA+";
+
+"notification update header" = "有更新可用";
+"alert update body" = "現在可以下載 Blokada %@。我們建議將 App 保持在最新版本，並只從我們的官方來源下載。";
 
 "account active forever" = "永遠";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "位置：*%@*";
 
 "pack section header" = "進階功能";
+"pack section header details" = "功能詳細資訊";
 "pack action install" = "取得";
 "pack action update" = "更新";
 "pack action uninstall" = "移除";
@@ -107,6 +118,7 @@
 "location choice header" = "選擇位置";
 
 "activity section header" = "活動";
+"activity section header details" = "活動詳細資訊";
 "activity request blocked" = "此請求已被封鎖。";
 "activity request allowed" = "此請求已被允許。";
 "activity request allowed whitelisted" = "此請求已被允許，因為其在您的允許清單中";
@@ -147,6 +159,8 @@
 "account action inbox" = "Inbox";
 "account action logout" = "登出";
 "account action about" = "關於";
+"account action tap to show" = "點一下顯示";
+"account action restoring" = "還原帳號：%@";
 
 "account section header my subscription" = "我的訂閱";
 "account section header general" = "一般";
@@ -217,3 +231,33 @@
 "payment subscription many months" = "%@ 個月";
 "payment subscription per month" = "每月 %@";
 "payment subscription offer" = "省下 %@";
+
+"apps section header" = "應用程式";
+"apps label installed" = "已安裝";
+"apps label system" = "系統";
+"apps status bypassed" = "(已繞過)";
+"apps filter header" = "您想查看哪些應用程式？";
+"apps filter action show all" = "顯示所有應用程式";
+"apps filter action show bypassed" = "只顯示繞過的應用程式";
+"apps filter action show not bypassed" = "只顯示未繞過的應用程式";
+"apps filter action toggle system" = "切換所有系統 App";
+
+"app settings section header" = "這台裝置";
+"app settings language label" = "語言";
+"app settings theme label" = "App 主題";
+"app settings theme light" = "亮色";
+"app settings theme dark" = "暗色";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "重新導向連結至";
+"app settings browser internal" = "內建瀏覽器";
+"app settings browser external" = "外部瀏覽器 (如果有)";
+"app settings ipv6 label" = "允許 IPv6";
+"app settings section system" = "系統";
+"app settings action app info" = "開啟應用程式資訊";
+"app settings action vpn profile" = "開啟 VPN 設定檔";
+"app settings action notifications" = "開啟通知設定";
+"app settings section details" = "詳細資料";
+"app settings status default" = "系統預設值";
+
+"intro header" = "Blokada 已啟用!";
+"intro text" = "藍色環代表 Blokada 正在執行。\n\n請記住，某些廣告（如 YouTube）無法被阻擋。但您會在其他許多的應用程式注意到不同之處。\n\n我們建議您在您的系統設定中啟用「永久連線的 VPN」／「需要時連線」。";

@@ -39,9 +39,16 @@
 "universal action contact us" = "Ota yhteyttä";
 "universal action support" = "Tuki";
 "universal action upgrade" = "Päivitä BLOKADA+:aan";
+"universal action yes" = "Kyllä";
+"universal action no" = "Ei";
+"universal action donate" = "Lahjoita";
+"universal action community" = "Yhteisö";
+"universal action open in browser" = "Avaa selaimessa";
 
 "universal label help" = "Ohje";
 "universal status processing" = "Käsitellään... odota hetki.";
+"universal status copied to clipboard" = "Kopioitu leikepöydälle";
+"universal status restart required" = "Käynnistä ohjelma uudelleen, jotta muutokset astuvat voimaan.";
 
 "alert error header" = "Hups!";
 "alert vpn expired header" = "BLOKADA+ erääntyi";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "BLOKADA+-tilaus vanhentui";
 "notification vpn expired subtitle" = "VPN on poistettu käytöstä";
 "notification vpn expired body" = "Päivitä tilauksesi jatkaaksesi BLOKADA+ käyttöä";
+
+"notification update header" = "Päivitys on saatavilla";
+"alert update body" = "Blokada %@ on nyt ladattavissa. Suosittelemme pitämään sovelluksen ajan tasalla ja lataamaan sen vain virallisista lähteistämme.";
 
 "account active forever" = "Ikuisesti";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "Sijainti: *%@*";
 
 "pack section header" = "Edistyneet ominaisuudet";
+"pack section header details" = "Ominaisuuden yksityiskohdat";
 "pack action install" = "HAE";
 "pack action update" = "PÄIVITÄ";
 "pack action uninstall" = "POISTA";
@@ -107,6 +118,7 @@
 "location choice header" = "Valitse sijainti";
 
 "activity section header" = "Tapahtumat";
+"activity section header details" = "Aktiviteettien yksityiskohdat";
 "activity request blocked" = "Tämä pyyntö on estetty.";
 "activity request allowed" = "Tämä pyyntö on sallittu.";
 "activity request allowed whitelisted" = "Tämä pyyntö on sallittu, koska se on sallittujen listassa";
@@ -147,6 +159,8 @@
 "account action inbox" = "Saapuneet";
 "account action logout" = "Kirjaudu ulos";
 "account action about" = "Tietoa";
+"account action tap to show" = "Napauta näyttääksesi";
+"account action restoring" = "Palautetaan tiliä: %@";
 
 "account section header my subscription" = "Tilaukseni";
 "account section header general" = "Yleiset";
@@ -217,3 +231,32 @@
 "payment subscription many months" = "%@ kuukautta";
 "payment subscription per month" = "%@ kuukaudessa";
 "payment subscription offer" = "Säästä %@";
+
+"apps section header" = "Sovellukset";
+"apps label installed" = "Asennettu";
+"apps label system" = "Järjestelmä";
+"apps status bypassed" = "(ohitettu)";
+"apps filter header" = "Mitä sovelluksia haluaisit nähdä?";
+"apps filter action show all" = "Näytä kaikki sovellukset";
+"apps filter action show bypassed" = "Näytä vain ohitetut";
+"apps filter action toggle system" = "Vaihda kaikki järjestelmän sovellukset";
+
+"app settings section header" = "Tämä laite";
+"app settings language label" = "Kieli";
+"app settings theme label" = "Sovelluksen teema";
+"app settings theme light" = "Vaalea";
+"app settings theme dark" = "Tumma";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Ohjaa linkit";
+"app settings browser internal" = "Sisäinen selain";
+"app settings browser external" = "Ulkoinen selain (jos mahdollista)";
+"app settings ipv6 label" = "Salli IPv6";
+"app settings section system" = "Järjestelmä";
+"app settings action app info" = "Avaa sovellustiedot";
+"app settings action vpn profile" = "Avaa VPN-profiili";
+"app settings action notifications" = "Avaa ilmoitusasetukset";
+"app settings section details" = "Yksityiskohdat";
+"app settings status default" = "Järjestelmän oletus";
+
+"intro header" = "Blokada on aktiivinen!";
+"intro text" = "Sininen rengas tarkoittaa, että Blokada toimii.\n\nMuista, että joitain mainoksia kuten YouTubessa, ei voida estää. Huomaat kuitenkin eron monissa muissa sovelluksissa.\n\nSuosittelemme, että aktivoit järjestelmäasetuksista VPN Aina Päällä / Yhdistä Pyytäessä -kohdan.";

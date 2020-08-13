@@ -38,9 +38,16 @@
 "universal action contact us" = "Nous contacter";
 "universal action support" = "Support";
 "universal action upgrade" = "Mise à niveau vers BLOKADA+";
+"universal action yes" = "Oui";
+"universal action no" = "Non";
+"universal action donate" = "Faire un don";
+"universal action community" = "Communauté";
+"universal action open in browser" = "Ouvrir dans votre navigateur";
 
 "universal label help" = "Aide";
 "universal status processing" = "Traitement en cours... Veuillez patienter.";
+"universal status copied to clipboard" = "Copié dans le presse-papier";
+"universal status restart required" = "Veuillez redémarrer l'application pour que les modifications prennent effet.";
 
 "alert error header" = "Oups !";
 "alert vpn expired header" = "BLOKADA+ a expiré";
@@ -48,6 +55,8 @@
 "notification vpn expired header" = "L'abonnement BLOKADA+ a expiré";
 "notification vpn expired subtitle" = "Le VPN est désactivé";
 "notification vpn expired body" = "Veuillez mettre à jour votre abonnement pour continuer à utiliser BLOKADA+";
+
+"notification update header" = "Une mise à jour est disponible";
 
 "account active forever" = "Pour toujours";
 
@@ -91,6 +100,7 @@
 "home plus button location" = "Emplacement : *%@*";
 
 "pack section header" = "Fonctionnalités avancées";
+"pack section header details" = "Détails de la fonctionnalité";
 "pack action install" = "AVOIR";
 "pack action update" = "MISE À JOUR";
 "pack action uninstall" = "SUPPRIMER";
@@ -104,6 +114,7 @@
 "location choice header" = "Choisissez une localisation";
 
 "activity section header" = "Activité";
+"activity section header details" = "Détails de l'activité";
 "activity request blocked" = "Cette requête a été bloquée.";
 "activity request allowed" = "Cette requête a été autorisée.";
 "activity request allowed whitelisted" = "Cette requête a été autorisée, car elle figure dans votre liste d'autorisations";
@@ -143,6 +154,7 @@
 "account action inbox" = "Messagerie";
 "account action logout" = "Déconnexion";
 "account action about" = "À propos";
+"account action tap to show" = "Appuyer pour afficher";
 
 "account section header my subscription" = "Mon abonnement";
 "account section header general" = "Général";
@@ -213,3 +225,25 @@
 "payment subscription many months" = "%@ mois";
 "payment subscription per month" = "%@ par mois";
 "payment subscription offer" = "Économisez %@";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installé";
+"apps label system" = "Système";
+"apps filter action show all" = "Afficher toutes les apps";
+"apps filter action toggle system" = "Activer/désactiver toutes les applications système";
+
+"app settings section header" = "Cet appareil";
+"app settings language label" = "Langue";
+"app settings theme label" = "Thème de l'application";
+"app settings theme light" = "Clair";
+"app settings theme dark" = "Sombre";
+"app settings browser internal" = "Navigateur interne";
+"app settings browser external" = "Navigateur externe (si possible)";
+"app settings ipv6 label" = "Autoriser l'IPV6";
+"app settings section system" = "Système";
+"app settings action app info" = "Ouvrir les informations de l'application";
+"app settings action vpn profile" = "Ouvrir le profil VPN";
+"app settings action notifications" = "Ouvrir les paramètres de notification";
+"app settings section details" = "Plus d'informations";
+
+"intro header" = "Blokada est actif";

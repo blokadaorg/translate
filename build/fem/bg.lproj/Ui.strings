@@ -39,9 +39,16 @@
 "universal action contact us" = "Свържете се с нас";
 "universal action support" = "Поддръжка";
 "universal action upgrade" = "Надстройте до BLOKADA+";
+"universal action yes" = "Да";
+"universal action no" = "Не";
+"universal action donate" = "Дарение";
+"universal action community" = "Общност";
+"universal action open in browser" = "Отвори в браузър";
 
 "universal label help" = "Помощ";
 "universal status processing" = "В процес... Моля, изчакайте.";
+"universal status copied to clipboard" = "Копирано в клипборда";
+"universal status restart required" = "Моля, рестартирайте приложението за да влязат в сила промените.";
 
 "alert error header" = "Ооопс!";
 "alert vpn expired header" = "BLOKADA+ е изтекла";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "Изтекъл срок на абонамента за BLOKADA+";
 "notification vpn expired subtitle" = "VPN е деактивиран";
 "notification vpn expired body" = "Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA+";
+
+"notification update header" = "Налична е актуализация";
+"alert update body" = "Blokada %@ вече е достъпна за изтегляне. Препоръчваме да поддържате приложението актуално и да го изтегляте само от нашите официални източници.";
 
 "account active forever" = "Завинаги";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "Местоположение: *%@*";
 
 "pack section header" = "Разширени функции";
+"pack section header details" = "Подробности Детайли";
 "pack action install" = "ВЗЕМИ";
 "pack action update" = "АКТУАЛИЗАЦИЯ";
 "pack action uninstall" = "ПРЕМАХВАНЕ";
@@ -107,6 +118,7 @@
 "location choice header" = "Избор на местоположение";
 
 "activity section header" = "Активност";
+"activity section header details" = "Подробности за дейността";
 "activity request blocked" = "Тази заявка е блокирана.";
 "activity request allowed" = "Тази заявка е разрешена.";
 "activity request allowed whitelisted" = "Тази заявка е разрешена, защото е в списъка ви с Позволени";
@@ -147,6 +159,8 @@
 "account action inbox" = "Входяща кутия";
 "account action logout" = "Изход";
 "account action about" = "Относно";
+"account action tap to show" = "Докоснете за да се покаже";
+"account action restoring" = "Възстановяване на акаунт: %@";
 
 "account section header my subscription" = "Моят абонамент";
 "account section header general" = "Основни";
@@ -217,3 +231,33 @@
 "payment subscription many months" = "%@ Месеца";
 "payment subscription per month" = "%@ на месец";
 "payment subscription offer" = "Запази %@";
+
+"apps section header" = "Приложения";
+"apps label installed" = "Инсталирани";
+"apps label system" = "Система";
+"apps status bypassed" = "(заобиколено)";
+"apps filter header" = "Кои приложения искате да видите?";
+"apps filter action show all" = "Показване на всички приложения";
+"apps filter action show bypassed" = "Показване само на заобиколени";
+"apps filter action show not bypassed" = "Показване само на не заобиколени";
+"apps filter action toggle system" = "Превключване към всички системни приложения";
+
+"app settings section header" = "Това устройство";
+"app settings language label" = "Език";
+"app settings theme label" = "Тема на приложението";
+"app settings theme light" = "Светла";
+"app settings theme dark" = "Тъмна";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Пренасочване на връзки към";
+"app settings browser internal" = "Вътрешен браузър";
+"app settings browser external" = "Външен браузър (ако е възможно)";
+"app settings ipv6 label" = "Разрешаване на IPv6";
+"app settings section system" = "Система";
+"app settings action app info" = "Отваряне на информацията за приложението";
+"app settings action vpn profile" = "Отваряне на VPN профила";
+"app settings action notifications" = "Отваряне на настройките за известия";
+"app settings section details" = "Подробности";
+"app settings status default" = "Система по подразбиране";
+
+"intro header" = "Blokada е активна!";
+"intro text" = "Син пръстен означава, че Blokada работи.\n\nНе забравяйте, че някои реклами като YouTube не могат да бъдат блокирани. Въпреки това ще забележите разлика в много други приложения.\n\nПрепоръчваме ви да активирате Винаги включена VPN / Свързване по поръчка в системните настройки.";

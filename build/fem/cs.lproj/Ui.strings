@@ -39,9 +39,16 @@
 "universal action contact us" = "Kontaktujte nás";
 "universal action support" = "Podpora";
 "universal action upgrade" = "Upgradovat na BLOKADA+";
+"universal action yes" = "Ano";
+"universal action no" = "Ne";
+"universal action donate" = "Podpořit";
+"universal action community" = "Komunita";
+"universal action open in browser" = "Otevřít v prohlížeči";
 
 "universal label help" = "Nápověda";
 "universal status processing" = "Zpracovávám... Čekejte prosím.";
+"universal status copied to clipboard" = "Zkopírováno do schránky";
+"universal status restart required" = "Restartujte prosím aplikaci, aby se změny projevily.";
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "Platnost služby BLOKADA+ vypršela";
@@ -49,6 +56,9 @@
 "notification vpn expired header" = "Předplatné služby BLOKADA+ vypršelo";
 "notification vpn expired subtitle" = "VPN je zakázáno";
 "notification vpn expired body" = "Aktualizujte vaše předplatné a pokračujte v používání služby BLOKADA+";
+
+"notification update header" = "K dispozici je aktualizace";
+"alert update body" = "Blokada %@ je nyní k dispozici ke stažení. Doporučujeme aplikaci aktualizovat a stahovat pouze z našich oficiálních zdrojů.";
 
 "account active forever" = "Navždy";
 
@@ -92,6 +102,7 @@
 "home plus button location" = "Umístění: *%@*";
 
 "pack section header" = "Pokročilé funkce";
+"pack section header details" = "Podrobnosti o funkci";
 "pack action install" = "ZÍSKAT";
 "pack action update" = "AKTUALIZOVAT";
 "pack action uninstall" = "ODSTRANIT";
@@ -107,6 +118,7 @@
 "location choice header" = "Zvolte umístění";
 
 "activity section header" = "Aktivita";
+"activity section header details" = "Podrobnosti o aktivitě";
 "activity request blocked" = "Tento požadavek byl zablokován.";
 "activity request allowed" = "Tento požadavek byl povolen.";
 "activity request allowed whitelisted" = "Tento požadavek byl povolen, protože je na vašem Seznamu povolených";
@@ -147,6 +159,8 @@
 "account action inbox" = "Novinky";
 "account action logout" = "Odhlásit se";
 "account action about" = "O aplikaci";
+"account action tap to show" = "Klepněte pro zobrazení";
+"account action restoring" = "Obnovuji účet: %@";
 
 "account section header my subscription" = "Moje předplatné";
 "account section header general" = "Obecné";
@@ -217,3 +231,33 @@
 "payment subscription many months" = "%@ měsíců";
 "payment subscription per month" = "%@ měsíčně";
 "payment subscription offer" = "Ušetříte %@";
+
+"apps section header" = "Aplikace";
+"apps label installed" = "Nainstalované";
+"apps label system" = "Systémové";
+"apps status bypassed" = "(vyloučené)";
+"apps filter header" = "Které aplikace chcete vidět?";
+"apps filter action show all" = "Zobrazit všechny aplikace";
+"apps filter action show bypassed" = "Zobrazit pouze vyloučené";
+"apps filter action show not bypassed" = "Zobrazit pouze nevyloučené";
+"apps filter action toggle system" = "Přepnout všechny systémové aplikace";
+
+"app settings section header" = "Toto zařízení";
+"app settings language label" = "Jazyk";
+"app settings theme label" = "Motiv aplikace";
+"app settings theme light" = "Světlý";
+"app settings theme dark" = "Tmavý";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Přesměrovat odkazy na";
+"app settings browser internal" = "Interní prohlížeč";
+"app settings browser external" = "Externí prohlížeč (je-li to možné)";
+"app settings ipv6 label" = "Povolit IPv6";
+"app settings section system" = "Systémové";
+"app settings action app info" = "Otevřít informace o aplikaci";
+"app settings action vpn profile" = "Otevřít VPM profil";
+"app settings action notifications" = "Otevřít nastavení oznámení";
+"app settings section details" = "Podrobnosti";
+"app settings status default" = "Výchozí nastavení";
+
+"intro header" = "Blokada je aktivní!";
+"intro text" = "Modrý kruh znamená, že Blokada funguje.\n\nPamatujte, že některé reklamy, například na YouTube, nelze blokovat. V mnoha jiných aplikacích si však všimnete rozdílu.\n\nVždy doporučujeme aktivovat VPN / Připojit na vyžádání v systémovém nastavení.";
