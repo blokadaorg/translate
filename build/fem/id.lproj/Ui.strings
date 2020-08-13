@@ -47,6 +47,8 @@
 
 "universal label help" = "Bantuan";
 "universal status processing" = "Sedang diproses... Harap tunggu.";
+"universal status copied to clipboard" = "Disalin ke clipboard";
+"universal status restart required" = "Silakan restart Blokada agar perubahan bisa diterapkan.";
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ kedaluwarsa";
@@ -54,6 +56,9 @@
 "notification vpn expired header" = "Langganan BLOKADA+ Anda telah berakhir";
 "notification vpn expired subtitle" = "VPN dinonaktifkan";
 "notification vpn expired body" = "Silakan perbarui langganan Anda agar BLOKADA+ dapat digunakan kembali";
+
+"notification update header" = "Pembaruan tersedia";
+"alert update body" = "Blokada %@ telah tersedia untuk diunduh. Kami menyarankan agar Anda terus memperbarui Blokada, dan hanya mengunduhnya dari sumber-sumber resmi.";
 
 "account active forever" = "Selamanya";
 
@@ -97,6 +102,7 @@
 "home plus button location" = "Lokasi: *%@*";
 
 "pack section header" = "Fitur lanjutan";
+"pack section header details" = "Detail Fitur";
 "pack action install" = "DAPATKAN";
 "pack action update" = "UPDATE";
 "pack action uninstall" = "HAPUS";
@@ -112,6 +118,7 @@
 "location choice header" = "Pilih lokasi";
 
 "activity section header" = "Aktifitas";
+"activity section header details" = "Detail Aktivitas";
 "activity request blocked" = "Permintaan ini telah diblokir.";
 "activity request allowed" = "Permintaan ini telah diizinkan.";
 "activity request allowed whitelisted" = "Permintaan ini telah diizinkan, karena domain tersebut ada di dalam whitelist";
@@ -152,6 +159,8 @@
 "account action inbox" = "Kotak Masuk";
 "account action logout" = "Keluar";
 "account action about" = "Info Aplikasi";
+"account action tap to show" = "Tekan untuk melihat";
+"account action restoring" = "Memulihkan akun: %@";
 
 "account section header my subscription" = "Status Berlangganan";
 "account section header general" = "Umum";
