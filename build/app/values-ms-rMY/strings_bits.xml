@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_touch">Tekan atau sentuh untuk mengubah</string>
     <string name="home_blokada_disabled">Blokada sedang ditangguhkan</string>
+    <string name="home_blokada_active">Blokada sedang aktif</string>
+    <string name="home_blokada_active_protected">Blokada Plus sedang aktif, dan sambungan internet anda dilindungi</string>
+    <string name="home_blokada_inactive">Blokada dinyahaktifkan</string>
     <string name="home_activating">Sedang Diaktifkan</string>
     <string name="home_please_wait">Sila tunggu...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus sedang aktif tetapi tidak menyekat iklan</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada sedang aktif pada mod DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s disekat sejak %s</string>
     <string name="home_masterswitch_enabled">Blokada sedang berjalan</string>
+    <string name="home_masterswitch_waiting">Menunggu sambungan rangkaian...</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Beritahu rakan anda</string>
     <string name="home_share_state">Kongsi markah Blokada anda</string>
+    <string name="home_share_state_google">Bantu yang lain untuk belajar tentang Blokada</string>
     <string name="home_adblocking_enabled">Penyekat iklan sedang aktif</string>
     <string name="home_adblocking_disabled">Penyekat iklan tidak diaktifkan</string>
     <!-- A short text for the item that displays update information -->
