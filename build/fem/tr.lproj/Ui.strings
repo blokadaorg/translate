@@ -122,18 +122,36 @@
 "activity request blocked" = "Bu istek engellendi.";
 "activity request allowed" = "Bu isteğe izin verildi.";
 "activity request allowed whitelisted" = "Bu isteğe, izin verilen listenizde olduğu için izin verildi";
+"activity request blocked blacklisted" = "Bu istek, engellenen listenizde olduğu için engellendi";
 "activity actions header" = "Eylemler";
 "activity information header" = "Bilgi";
+"activity action add to whitelist" = "İzin verilenlere ekle";
+"activity action remove from whitelist" = "İzin verilenlerden kaldır";
+"activity action added to whitelist" = "İzin verilenlere eklendi";
+"activity action add to blacklist" = "Engellenenlere ekle";
+"activity action remove from blacklist" = "Engellenenlerden kaldır";
+"activity action added to blacklist" = "Engellenenlere eklendi";
+"activity action copy to clipboard" = "Dosya ismini panoya kopyala";
 "activity domain name" = "Tam adı";
 "activity time of occurrence" = "Zaman";
+"activity number of occurrences" = "Oluşum sayısı";
+"activity state modified" = "düzenlendi";
 "activity state blocked" = "engellendi";
+"activity state allowed" = "izin verildi";
 "activity happened one time" = "1 kez";
 "activity happened many times" = "%@ kez";
 "activity category recent" = "En son";
+"activity category top" = "En Çok";
+"activity category top blocked" = "En Çok Engellenen";
+"activity category top allowed" = "En Çok İzin Verilen";
 "activity filter header" = "Hangi girişleri görmek istersiniz?";
 "activity filter show all" = "Tüm girdileri göster";
+"activity filter show blocked" = "Yalnızca engellenenleri göster";
+"activity filter show allowed" = "Yalnızca izin verilenleri göster";
 
 "account section header settings" = "Ayarlar";
+"account status text" = "BLOKADA %@ hesabınız %@ kadar etkindir.";
+"account section header primary" = "Birincil";
 "account section header other" = "Diğer";
 "account action my account" = "Hesabım";
 "account action encryption" = "Şifreleme";
@@ -141,6 +159,8 @@
 "account action inbox" = "Gelen Kutusu";
 "account action logout" = "Çıkış yap";
 "account action about" = "Hakkında";
+"account action tap to show" = "Göstermek için dokunun";
+"account action restoring" = "Hesap geri yükleniyor: %@";
 
 "account section header my subscription" = "Aboneliğim";
 "account section header general" = "Genel";
@@ -161,7 +181,10 @@
 "account encrypt level low" = "Düşük";
 "account encrypt level medium" = "Orta";
 "account encrypt level high" = "Yüksek";
+"account encrypt label dns only" = "DNS şifreleniyor";
+"account encrypt desc dns only" = "Alan Adı Sistemi, cihazınızın ziyaret etmek istediğiniz web sitelerini nerede bulacağını bilme şeklidir. Ne yazık ki, İnternet'in çoğu hala şifrelenmemiş DNS kullanıyor, bu da tarama geçmişinizi casusluk riskiyle karşı karşıya bırakıyor. Etkinleştirildiğinde Blokada, cihazınızı yalnızca şifrelenmiş DNS sunucularına (HTTPS üzerinden DNS olarak da adlandırılır) bağlanmaya zorlar.";
 "account encrypt label everything" = "Her şey şifreleniyor";
+"account encrypt desc everything" = "Cihazınız güvenli VPN sunucularımız üzerinden bağlanıyor ve cihazınızdan gelen tüm iletişim, güçlü algoritmalar kullanılarak şifreleniyor. Bu, banka bilgileri veya kişisel fotoğraflar gibi kişisel bilgilerinizin, kahve dükkanındaki WiFi gibi güvenli olmayan yerlerde çalınmasını önler.";
 "account encrypt action turn on" = "BLOKADA'yı aç";
 "account encrypt header level" = "Şifreleme Seviyesi";
 "account encrypt label level" = "Seviye";
@@ -210,3 +233,24 @@
 "payment subscription offer" = "%@ indirim";
 
 "apps section header" = "Uygulamalar";
+"apps label installed" = "Yüklü";
+"apps label system" = "Sistem";
+"apps status bypassed" = "(atlandı)";
+"apps filter header" = "Hangi uygulamaları görmek istersiniz?";
+"apps filter action show all" = "Tüm uygulamaları göster";
+"apps filter action show bypassed" = "Yalnızca atlananları göster";
+"apps filter action show not bypassed" = "Yalnızca atlanmayanları göster";
+"apps filter action toggle system" = "Tüm sistem uygulamalarını değiştir";
+
+"app settings section header" = "Bu cihaz";
+"app settings language label" = "Dil";
+"app settings theme label" = "Uygulama teması";
+"app settings theme light" = "Açık";
+"app settings theme dark" = "Koyu";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Bağlantıları yönlendir";
+"app settings browser internal" = "Dahili tarayıcı";
+"app settings browser external" = "Harici tarayıcı (mümkünse)";
+"app settings ipv6 label" = "IPv6'ya izin ver";
+"app settings section system" = "Sistem";
+"app settings action app info" = "Uygulama bilgisini aç";
