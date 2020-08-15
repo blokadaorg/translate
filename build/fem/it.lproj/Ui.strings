@@ -47,6 +47,8 @@
 
 "universal label help" = "Aiuto";
 "universal status processing" = "Elaborazione in corso, attendere prego...";
+"universal status copied to clipboard" = "Copiato negli Appunti";
+"universal status restart required" = "Per favore, riavvia l'app per rendere effettive le modifiche.";
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ è scaduto";
@@ -54,6 +56,9 @@
 "notification vpn expired header" = "L'abbonamento a BLOKADA+ è scaduto";
 "notification vpn expired subtitle" = "La VPN è disabilitata";
 "notification vpn expired body" = "Per favore, aggiorna il tuo abbonamento per continuare ad utilizzare BLOKADA+";
+
+"notification update header" = "È disponibile un aggiornamento";
+"alert update body" = "Blokada %@ è ora disponibile per il download. Ti raccomandiamo di mantenere l'app aggiornata e di scaricarla solo dalle nostre fonti ufficiali.";
 
 "account active forever" = "Per sempre";
 
@@ -97,6 +102,7 @@
 "home plus button location" = "Località: *%@*";
 
 "pack section header" = "Funzioni Avanzate";
+"pack section header details" = "Dettagli delle funzionalità";
 "pack action install" = "OTTIENI";
 "pack action update" = "AGGIORNA";
 "pack action uninstall" = "RIMUOVI";
@@ -112,6 +118,7 @@
 "location choice header" = "Scegli una località";
 
 "activity section header" = "Attività";
+"activity section header details" = "Dettagli dell'attività";
 "activity request blocked" = "Questa richiesta è stata bloccata.";
 "activity request allowed" = "Questa richiesta è stata consentita.";
 "activity request allowed whitelisted" = "Questa richiesta è stata consentita, perché è nella tua lista Consentite";
@@ -152,6 +159,8 @@
 "account action inbox" = "Messaggi";
 "account action logout" = "Disconnetti";
 "account action about" = "Info";
+"account action tap to show" = "Tocca per mostrare";
+"account action restoring" = "Ripristino account: %@";
 
 "account section header my subscription" = "Il mio abbonamento";
 "account section header general" = "Generale";
@@ -224,3 +233,31 @@
 "payment subscription offer" = "Risparmia %@";
 
 "apps section header" = "Applicazioni";
+"apps label installed" = "Installata";
+"apps label system" = "Sistema";
+"apps status bypassed" = "(ignorata)";
+"apps filter header" = "Quali app vorresti vedere?";
+"apps filter action show all" = "Mostra tutte le app";
+"apps filter action show bypassed" = "Mostra solo le ignorate";
+"apps filter action show not bypassed" = "Mostra solo le non ignorate";
+"apps filter action toggle system" = "Seleziona tutte le app di sistema";
+
+"app settings section header" = "Questo dispositivo";
+"app settings language label" = "Lingua";
+"app settings theme label" = "Tema dell'app";
+"app settings theme light" = "Chiaro";
+"app settings theme dark" = "Scuro";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Apri link con";
+"app settings browser internal" = "Browser integrato";
+"app settings browser external" = "Browser esterno (se possibile)";
+"app settings ipv6 label" = "Consenti IPv6";
+"app settings section system" = "Sistema";
+"app settings action app info" = "Apri Informazioni App";
+"app settings action vpn profile" = "Apri Profilo VPN";
+"app settings action notifications" = "Apri Impostazioni delle Notifiche";
+"app settings section details" = "Dettagli";
+"app settings status default" = "Default di sistema";
+
+"intro header" = "Blokada è attiva!";
+"intro text" = "Un anello blu significa che Blokada è in funzione.\n\nRicorda, alcune pubblicità, come quelle su YouTube, non possono essere bloccate. Tuttavia, noterai la differenza in molte altre applicazioni.\n\nTi consigliamo di attivare \"VPN sempre attiva\" (Android) / \"Connetti su richiesta\" (iOS) nelle impostazioni di sistema.";

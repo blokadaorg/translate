@@ -23,6 +23,7 @@
 "error payment canceled" = "Ödeme iptal edildi. Sizden ücret alınmadı.";
 "error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
 "error location failed fetching" = "Yerler getiremedi.";
+"error unknown" = "Bilinmeyen bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 
 "universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
@@ -46,6 +47,8 @@
 
 "universal label help" = "Yardım";
 "universal status processing" = "İşeniyor... Lütfen bekleyin.";
+"universal status copied to clipboard" = "Panoya kopyalandı";
+"universal status restart required" = "Değişikliklerin etkili olması için lütfen programı yeniden başlatın.";
 
 "alert error header" = "Hay aksi!";
 "alert vpn expired header" = "BLOKADA+ süresi doldu";
@@ -54,31 +57,56 @@
 "notification vpn expired subtitle" = "VPN devre dışı";
 "notification vpn expired body" = "BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
 
+"notification update header" = "Bir güncelleme mevcut";
+"alert update body" = "Blokada %@ artık indirilebilir durumda. Uygulamayı güncel tutmanızı ve yalnızca resmi kaynaklarımızdan indirmenizi öneririz.";
+
 "account active forever" = "Sonsuza kadar";
 
 "main ask for permissions header" = "Sadece bir adım daha";
+"main ask for permissions description" = "Blokada reklamları engellemek için bir VPN yapılandırması kullanıyor. Bir sonraki adımda buna izin vermeniz istenecektir.";
+
+"main share message" = "iOS için Blokada, %@ reklamlarını ve izleyicilerini engellememe yardımcı oldu!";
 
 "main rate us header" = "Bizi değerlendirin!";
+"main rate us description" = "Şu ana kadar Blokada'yı nasıl buldunuz?";
+"main rate us on app store" = "App Store'da Blokada'yı puanlayarak bize yardımcı olur musunuz?";
+"main rate us action sure" = "Tabii ki!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Ana Sayfa";
 // Make sure each tab name has a similar length
+"main tab activity" = "Etkinlik";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Gelişmiş";
 // Make sure each tab name has a similar length
 "main tab settings" = "Ayarlar";
+
+"home ads counter footnote" = "kurulumdan bu yana engellenen reklamlar ve izleyiciler";
+"home power off menu header" = "Ne yapmak istiyorsunuz?";
 "home power action turn on" = "Aç";
 "home power action turn off" = "Kapat";
 "home power action pause" = "5 dakika duraklat";
 
 "home status paused" = "DURAKLATILDI";
 "home status active" = "ETKİN";
+"home status deactivated" = "ETKİN DEĞİL";
+"home action tap to activate" = "etkinleştirmek için dokunun";
+"home status detail paused" = "zamanlayıcı bitene kadar duraklatıldı";
+"home status detail active" = "*reklamlar* ve *izleyiciler* engelleniyor";
+"home status detail active with counter" = "*%@* reklamları ve izleyicileri engellendi";
+"home status detail plus" = "*+* *gizliliğinizi* koruyor";
 "home status detail progress" = "lütfen bekleyin...";
+
+"home plus button deactivated" = "BLOKADA+ devre dışı";
 "home plus button select location" = "Konum seçin";
 "home plus button location" = "Konum: *%@*";
 
 "pack section header" = "Gelişmiş Özellikler";
+"pack section header details" = "Özellik Ayrıntıları";
+"pack action install" = "YÜKLE";
 "pack action update" = "GÜNCELLE";
 "pack action uninstall" = "KALDIR";
+"pack author" = "Yazar";
 "pack configurations header" = "Yapılandırmalar";
 "pack information header" = "Daha fazla";
 "pack tags header" = "Etiketler";
@@ -86,18 +114,44 @@
 "pack category highlights" = "Öne çıkanlar";
 "pack category active" = "Aktif";
 "pack category all" = "Tümü";
+
+"location choice header" = "Bir konum seçin";
+
+"activity section header" = "Etkinlik";
+"activity section header details" = "Etkinlik Ayrıntıları";
+"activity request blocked" = "Bu istek engellendi.";
+"activity request allowed" = "Bu isteğe izin verildi.";
+"activity request allowed whitelisted" = "Bu isteğe, izin verilen listenizde olduğu için izin verildi";
+"activity request blocked blacklisted" = "Bu istek, engellenen listenizde olduğu için engellendi";
 "activity actions header" = "Eylemler";
 "activity information header" = "Bilgi";
+"activity action add to whitelist" = "İzin verilenlere ekle";
+"activity action remove from whitelist" = "İzin verilenlerden kaldır";
+"activity action added to whitelist" = "İzin verilenlere eklendi";
+"activity action add to blacklist" = "Engellenenlere ekle";
+"activity action remove from blacklist" = "Engellenenlerden kaldır";
+"activity action added to blacklist" = "Engellenenlere eklendi";
+"activity action copy to clipboard" = "Dosya ismini panoya kopyala";
 "activity domain name" = "Tam adı";
 "activity time of occurrence" = "Zaman";
+"activity number of occurrences" = "Oluşum sayısı";
+"activity state modified" = "düzenlendi";
 "activity state blocked" = "engellendi";
+"activity state allowed" = "izin verildi";
 "activity happened one time" = "1 kez";
 "activity happened many times" = "%@ kez";
 "activity category recent" = "En son";
+"activity category top" = "En Çok";
+"activity category top blocked" = "En Çok Engellenen";
+"activity category top allowed" = "En Çok İzin Verilen";
 "activity filter header" = "Hangi girişleri görmek istersiniz?";
 "activity filter show all" = "Tüm girdileri göster";
+"activity filter show blocked" = "Yalnızca engellenenleri göster";
+"activity filter show allowed" = "Yalnızca izin verilenleri göster";
 
 "account section header settings" = "Ayarlar";
+"account status text" = "BLOKADA %@ hesabınız %@ kadar etkindir.";
+"account section header primary" = "Birincil";
 "account section header other" = "Diğer";
 "account action my account" = "Hesabım";
 "account action encryption" = "Şifreleme";
@@ -105,6 +159,8 @@
 "account action inbox" = "Gelen Kutusu";
 "account action logout" = "Çıkış yap";
 "account action about" = "Hakkında";
+"account action tap to show" = "Göstermek için dokunun";
+"account action restoring" = "Hesap geri yükleniyor: %@";
 
 "account section header my subscription" = "Aboneliğim";
 "account section header general" = "Genel";
@@ -125,7 +181,10 @@
 "account encrypt level low" = "Düşük";
 "account encrypt level medium" = "Orta";
 "account encrypt level high" = "Yüksek";
+"account encrypt label dns only" = "DNS şifreleniyor";
+"account encrypt desc dns only" = "Alan Adı Sistemi, cihazınızın ziyaret etmek istediğiniz web sitelerini nerede bulacağını bilme şeklidir. Ne yazık ki, İnternet'in çoğu hala şifrelenmemiş DNS kullanıyor, bu da tarama geçmişinizi casusluk riskiyle karşı karşıya bırakıyor. Etkinleştirildiğinde Blokada, cihazınızı yalnızca şifrelenmiş DNS sunucularına (HTTPS üzerinden DNS olarak da adlandırılır) bağlanmaya zorlar.";
 "account encrypt label everything" = "Her şey şifreleniyor";
+"account encrypt desc everything" = "Cihazınız güvenli VPN sunucularımız üzerinden bağlanıyor ve cihazınızdan gelen tüm iletişim, güçlü algoritmalar kullanılarak şifreleniyor. Bu, banka bilgileri veya kişisel fotoğraflar gibi kişisel bilgilerinizin, kahve dükkanındaki WiFi gibi güvenli olmayan yerlerde çalınmasını önler.";
 "account encrypt action turn on" = "BLOKADA'yı aç";
 "account encrypt header level" = "Şifreleme Seviyesi";
 "account encrypt label level" = "Seviye";
@@ -174,3 +233,31 @@
 "payment subscription offer" = "%@ indirim";
 
 "apps section header" = "Uygulamalar";
+"apps label installed" = "Yüklü";
+"apps label system" = "Sistem";
+"apps status bypassed" = "(atlandı)";
+"apps filter header" = "Hangi uygulamaları görmek istersiniz?";
+"apps filter action show all" = "Tüm uygulamaları göster";
+"apps filter action show bypassed" = "Yalnızca atlananları göster";
+"apps filter action show not bypassed" = "Yalnızca atlanmayanları göster";
+"apps filter action toggle system" = "Tüm sistem uygulamalarını değiştir";
+
+"app settings section header" = "Bu cihaz";
+"app settings language label" = "Dil";
+"app settings theme label" = "Uygulama teması";
+"app settings theme light" = "Açık";
+"app settings theme dark" = "Koyu";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Bağlantıları yönlendir";
+"app settings browser internal" = "Dahili tarayıcı";
+"app settings browser external" = "Harici tarayıcı (mümkünse)";
+"app settings ipv6 label" = "IPv6'ya izin ver";
+"app settings section system" = "Sistem";
+"app settings action app info" = "Uygulama bilgisini aç";
+"app settings action vpn profile" = "VPN profilini aç";
+"app settings action notifications" = "Bildirim ayarlarını aç";
+"app settings section details" = "Ayrıntılar";
+"app settings status default" = "Sistem varsayılanı";
+
+"intro header" = "Blokada etkin!";
+"intro text" = "Mavi halka, Blokada'nın çalıştığı anlamına gelir.\n\nUnutmayın, YouTube'daki gibi bazı reklamlar engellenemez. Ancak, diğer birçok uygulamada farkı göreceksiniz.\n\nSistem ayarlarınızdan Her zaman VPN/Talep üzerine bağlan seçeneğini etkinleştirmenizi öneririz.";
