@@ -23,6 +23,7 @@
 "error payment canceled" = "Ödeme iptal edildi. Sizden ücret alınmadı.";
 "error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
 "error location failed fetching" = "Yerler getiremedi.";
+"error unknown" = "Bilinmeyen bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 
 "universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
@@ -46,6 +47,8 @@
 
 "universal label help" = "Yardım";
 "universal status processing" = "İşeniyor... Lütfen bekleyin.";
+"universal status copied to clipboard" = "Panoya kopyalandı";
+"universal status restart required" = "Değişikliklerin etkili olması için lütfen programı yeniden başlatın.";
 
 "alert error header" = "Hay aksi!";
 "alert vpn expired header" = "BLOKADA+ süresi doldu";
@@ -54,31 +57,56 @@
 "notification vpn expired subtitle" = "VPN devre dışı";
 "notification vpn expired body" = "BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
 
+"notification update header" = "Bir güncelleme mevcut";
+"alert update body" = "Blokada %@ artık indirilebilir durumda. Uygulamayı güncel tutmanızı ve yalnızca resmi kaynaklarımızdan indirmenizi öneririz.";
+
 "account active forever" = "Sonsuza kadar";
 
 "main ask for permissions header" = "Sadece bir adım daha";
+"main ask for permissions description" = "Blokada reklamları engellemek için bir VPN yapılandırması kullanıyor. Bir sonraki adımda buna izin vermeniz istenecektir.";
+
+"main share message" = "iOS için Blokada, %@ reklamlarını ve izleyicilerini engellememe yardımcı oldu!";
 
 "main rate us header" = "Bizi değerlendirin!";
+"main rate us description" = "Şu ana kadar Blokada'yı nasıl buldunuz?";
+"main rate us on app store" = "App Store'da Blokada'yı puanlayarak bize yardımcı olur musunuz?";
+"main rate us action sure" = "Tabii ki!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Ana Sayfa";
 // Make sure each tab name has a similar length
+"main tab activity" = "Etkinlik";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Gelişmiş";
 // Make sure each tab name has a similar length
 "main tab settings" = "Ayarlar";
+
+"home ads counter footnote" = "kurulumdan bu yana engellenen reklamlar ve izleyiciler";
+"home power off menu header" = "Ne yapmak istiyorsunuz?";
 "home power action turn on" = "Aç";
 "home power action turn off" = "Kapat";
 "home power action pause" = "5 dakika duraklat";
 
 "home status paused" = "DURAKLATILDI";
 "home status active" = "ETKİN";
+"home status deactivated" = "ETKİN DEĞİL";
+"home action tap to activate" = "etkinleştirmek için dokunun";
+"home status detail paused" = "zamanlayıcı bitene kadar duraklatıldı";
+"home status detail active" = "*reklamlar* ve *izleyiciler* engelleniyor";
+"home status detail active with counter" = "*%@* reklamları ve izleyicileri engellendi";
+"home status detail plus" = "*+* *gizliliğinizi* koruyor";
 "home status detail progress" = "lütfen bekleyin...";
+
+"home plus button deactivated" = "BLOKADA+ devre dışı";
 "home plus button select location" = "Konum seçin";
 "home plus button location" = "Konum: *%@*";
 
 "pack section header" = "Gelişmiş Özellikler";
+"pack section header details" = "Özellik Ayrıntıları";
+"pack action install" = "YÜKLE";
 "pack action update" = "GÜNCELLE";
 "pack action uninstall" = "KALDIR";
+"pack author" = "Yazar";
 "pack configurations header" = "Yapılandırmalar";
 "pack information header" = "Daha fazla";
 "pack tags header" = "Etiketler";
@@ -86,6 +114,14 @@
 "pack category highlights" = "Öne çıkanlar";
 "pack category active" = "Aktif";
 "pack category all" = "Tümü";
+
+"location choice header" = "Bir konum seçin";
+
+"activity section header" = "Etkinlik";
+"activity section header details" = "Etkinlik Ayrıntıları";
+"activity request blocked" = "Bu istek engellendi.";
+"activity request allowed" = "Bu isteğe izin verildi.";
+"activity request allowed whitelisted" = "Bu isteğe, izin verilen listenizde olduğu için izin verildi";
 "activity actions header" = "Eylemler";
 "activity information header" = "Bilgi";
 "activity domain name" = "Tam adı";
