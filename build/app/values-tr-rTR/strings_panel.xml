@@ -25,8 +25,8 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; engellendi</string>
     <string name="panel_domain_blocked_normal_desc">Bu alan adı engellenmiştir. İzin vermek için aşağıdaki düğmeyi kullanın.</string>
-    <string name="panel_domain_blocked_nxdomain_desc">Bu alan adı, DNS sunucusu tarafından doğru şekilde çözümlenemedi. Sunucu alan adı engellenmiş veya mevcut değil.</string>
-    <string name="panel_domain_blocked_error_desc">Bu etki alanını çözerken bir şeyler ters gitti, DNS sunucusu bir hata koduyla yanıt verdi.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">Bu etki alanı, DNS sunucusu tarafından doğru şekilde çözümlenmedi. Sunucu etki alanını engelledi veya mevcut değil.</string>
+    <string name="panel_domain_blocked_error_desc">Bu etki alanını çözümlerken bir şeyler ters gitti, DNS sunucusu bir hata koduyla yanıt verdi.</string>
     <string name="panel_domain_blocked_cname_desc">Bu etki alanı, engellenen bir etki alanı için bir CName olduğu için engellendi. Gelecekte izin vermek için, izin verilen hostlara CName veya etki alanının kendisini ekleyebilirsiniz.</string>
     <string name="panel_domain_blocked_toast">Kara listeye eklendi.</string>
     <!-- Action to copy domain name to clipboard -->
