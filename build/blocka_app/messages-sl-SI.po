@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
-"PO-Revision-Date: 2020-08-17 10:04\n"
+"PO-Revision-Date: 2020-08-17 10:14\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -497,28 +497,28 @@ msgstr "Shrani"
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "Žal"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "Žal je prišlo do napake. Prosimo poskusite znova kasneje."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Kaj je Stellar?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "Shranite svoj ID na varno mesto, potrebovali ga boste za prijavo in aktivacijo nove naprave."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -532,63 +532,63 @@ msgstr "Podpora"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "Traja dlje kot bi moralo? Uporabite gumb za podporo spodaj levo"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "Hvala!"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "ID računa ne ustreza, preverite da ste ga v prejšnjem koraku pravilno shranili in poskusite ponovno."
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "Te strani ni mogoče pokazati. V primeru težav nas lahko kontaktirate na {email}."
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "Čakanje na potrditev PayPal..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "Čakanje na potrditev plačila..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "Trenutno imamo težave z aktivacijo VPN na F-Droid verzijah. Delamo na odpravi težav, medtem lahko odstranite F-Droid verzijo in naložite aplikacijo iz blokada.org."
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "Nastavitve WireGuard"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "Vpišite sporočilo..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
