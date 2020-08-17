@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
-"PO-Revision-Date: 2020-08-17 09:54\n"
+"PO-Revision-Date: 2020-08-17 10:04\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -209,7 +209,7 @@ msgstr "ONEMOGOČENO"
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr ""
+msgstr "ONEMOGOČAM"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
@@ -223,49 +223,49 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "Dni do izteka: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr ""
+msgstr "Število naprav: {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "Prenesi"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr ""
+msgstr "E-pošta"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr ""
+msgstr "POTEKEL"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
 #. Enter your account ID to continue
 #: build/messages/src/AuthedRoute.json
 msgid "Enter your account ID to continue"
-msgstr ""
+msgstr "Vnesi ID svojega računa za nadaljevanje"
 
 #. [account.loading] - Shown before account info content as loaded
 #. defaultMessage is:
@@ -276,14 +276,14 @@ msgstr ""
 #: build/messages/src/Activate.json
 #: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
-msgstr ""
+msgstr "Pridobivanje informacij o računu {spinner}"
 
 #. [manage.devices_gateway_select] - Label for selecting which VPN gateway to use for a device
 #. defaultMessage is:
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr ""
+msgstr "Prehod"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -294,21 +294,21 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "Nazaj"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr ""
+msgstr "Imam denarnico Stellar"
 
 #. [account.title_short] - short version of account ID input
 #. defaultMessage is:
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. [account.stellar_referrer] - Label next to Stellar referer input
 #. defaultMessage is:
@@ -322,168 +322,168 @@ msgstr ""
 #. LOADING
 #: build/messages/src/Manage.json
 msgid "LOADING"
-msgstr ""
+msgstr "NALAGANJE"
 
 #. [manage.devices_limit_description] - New device Button label when max number of devices has been reached
 #. defaultMessage is:
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr ""
+msgstr "Meja je dosežena"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
 #. Loading {spinner}
 #: build/messages/src/Checkout.json
 msgid "Loading {spinner}"
-msgstr ""
+msgstr "Nalaganje {spinner}"
 
 #. [account.activate_once_stellar_proceed_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
 #. Make sure that your wallet is available before proceeding, return to here when you've sent the payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent the payment."
-msgstr ""
+msgstr "Pred nadaljevanjem se prepričajte, da je denarnica pripravljena za uporabo. Po plačilu se vrnite na to stran."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "Ime naprave"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "Nov račun"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr ""
+msgstr "Now račun"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "Nova naprava"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "Ni najdeno"
 
 #. [account.activate_once_stellar_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Plačajte {price}€ z ustrezno količino valute Stellar. Priporočamo uporabo {recommeded}."
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "Plačajte s PayPal"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Plačevanje s PayPalom je na voljo v Blokadi v{version} in novejših"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Plačevanje s Stellar Lumens je na voljo v Blokadi v{version} in novejših"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "Plačilo s kartico"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
 #. Pay with cryptocurrency
 #: build/messages/src/Checkout.json
 msgid "Pay with cryptocurrency"
-msgstr ""
+msgstr "Plačilo s kriptovalutami"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "Plačaj {price}€"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "Redno plačuj {price}€"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "Plačaj {price}€ s PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "Plačilo ni uspelo, preverite podatke o kartici."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "Plačilo ni uspelo, podrobnosti so na PayPal spletišču."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "Prosimo preverite svoj ID računa iz prejšnjega koraka."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "Nadaljujte k denarnici"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "Procesiranje {spinner}"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "Javni ključ"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
