@@ -53,6 +53,7 @@
 
 "alert error header" = "عُذراً !";
 "alert vpn expired header" = "إنتهت صلاحيّة BLOKADA+";
+"alert download link body" = "لأسباب أمنيّة، لتنزيل ملف، نحتاج إلى فتح هذا الموقع في متصفّحك. ثم، الرجاء الضغط على رابط التنزيل مرّة أُخرى.";
 
 "notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
 "notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
@@ -60,6 +61,7 @@
 
 "notification update header" = "يوجد تحديث";
 "alert update body" = "Blokada %@ متاح الآن للتنزيل. نوصي بتحديث التطبيق باستمرار و تنزيله فقط من مصادرنا الرسميّة.";
+"update label updated" = "تَمّ التحديث !";
 
 "account active forever" = "للأبد";
 
@@ -95,6 +97,7 @@
 "home status detail paused" = "متوقّف مؤقّتاً حتّى ينتهي المؤقِّت";
 "home status detail active" = "حَظْر *الإعلانات* و *المتعقِّبين*";
 "home status detail active with counter" = "تمّ حَظْر *%@* إعلانات و متعقِّبين";
+"home status detail active slim" = "Blokada *Slim* نَشِط";
 "home status detail plus" = "*+* حماية *خصوصيّتك*";
 "home status detail progress" = "الرجاء الإنتظار...";
 
@@ -115,6 +118,8 @@
 "pack category highlights" = "الملامح";
 "pack category active" = "مُفَعَّل";
 "pack category all" = "الكل";
+
+"advanced section header packs" = "قوائم الحَظْر";
 
 "location choice header" = "اختر موقع";
 
