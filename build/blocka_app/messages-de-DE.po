@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2020-08-08 11:43\n"
+"PO-Revision-Date: 2020-08-16 12:02\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -223,7 +223,7 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr "Tage bis Ablauf: {days}"
+msgstr "Tage bis zum Ablauf: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
@@ -343,7 +343,7 @@ msgstr "Laden {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent the payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent the payment."
-msgstr "Stelle sicher, dass dein Wallet verfügbar ist bevor du fortfährst. Komme hierher zurück, wenn du die Bezahlung gesendet hast."
+msgstr "Stelle sicher, dass dein Wallet verfügbar ist, bevor du fortfährst. Komme hierher zurück, wenn du die Bezahlung gesendet hast."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
@@ -427,7 +427,7 @@ msgstr "Mit Kryptowährungen bezahlen"
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr "€{price} bezahlen"
+msgstr "{price} € bezahlen"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
@@ -441,7 +441,7 @@ msgstr "{price} € pro Zeitraum zahlen"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr "Zahle €{price} via PayPal"
+msgstr "Zahle {price} € via PayPal"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -476,7 +476,7 @@ msgstr "Weiter zum Wallet"
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr "Bearbeitung {spinner}"
+msgstr "Verarbeiten {spinner}"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
@@ -588,7 +588,7 @@ msgstr "WireGuard Konfiguration"
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr "Nachricht schreiben ..."
+msgstr "Schreibe eine Nachricht..."
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
