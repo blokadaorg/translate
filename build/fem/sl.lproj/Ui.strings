@@ -15,6 +15,8 @@
 "universal action open in browser" = "Odpri v brskalniku";
 
 "universal label help" = "Pomoč";
+"alert download link body" = "Zaradi varnosti pri prenosu datotek je potrebno odpreti povezavo v brskalniku. Prosimo, da tam ponovno izberete povezavo za prenos.";
+"update label updated" = "Posodobljeno!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Domov";
@@ -22,13 +24,21 @@
 "main tab settings" = "Nastavitve";
 "home power action turn on" = "Vklopi";
 "home power action turn off" = "Izklopi";
+"home status detail active slim" = "Blokada *Slim* je aktivna";
 "home status detail progress" = "prosimo počakajte...";
 "pack category active" = "Aktivni";
+
+"advanced section header packs" = "Seznam blokiranih";
+"advanced section slugline packs" = "Vključite za odločnejše blokiranje";
+"advanced section slugline apps" = "Izberite aplikacije, ki ne bodo nikoli blokirane";
+"advanced section slugline encryption" = "Nastavite nivo kriptiranja in DNS";
+"advanced action slim migrate to full" = "Uporabljate Blokado Slim. Več o tem";
 "activity state blocked" = "blokiran oglas";
 
 "account section header settings" = "Nastavitve";
 "account section header other" = "Ostalo";
 "account action devices" = "Naprave";
+"account action logout" = "Odjava / Ponastavitev računa";
 "account action about" = "O aplikaciji";
 "account label id" = "ID računa";
 "account action manage subscription" = "Upravljanje naročnine";
