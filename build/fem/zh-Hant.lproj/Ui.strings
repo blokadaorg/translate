@@ -24,6 +24,7 @@
 "error pack install" = "無法安裝或解安裝此功能。請稍候再試。";
 "error location failed fetching" = "無法取得地點。";
 "error unknown" = "發生未知錯誤，請重試。如仍有問題，請按一下上方的協助圖示聯絡我們。";
+"error blocka dns in filtering mode" = "Blokada DNS 目前僅在 Plus 模式中支援。請選擇其他 DNS 並再試一次。";
 
 "universal action continue" = "繼續";
 "universal action cancel" = "取消";
@@ -52,6 +53,7 @@
 
 "alert error header" = "哎呀！";
 "alert vpn expired header" = "BLOKADA+ 到期";
+"alert download link body" = "因為安全因素，要下載檔案，我們必須在您的瀏覽器中開啟此網站。然後，請再次點擊下載連結。";
 
 "notification vpn expired header" = "BLOKADA+ 訂閱過期";
 "notification vpn expired subtitle" = "VPN 已停用";
@@ -59,6 +61,7 @@
 
 "notification update header" = "有更新可用";
 "alert update body" = "現在可以下載 Blokada %@。我們建議將 App 保持在最新版本，並只從我們的官方來源下載。";
+"update label updated" = "已更新！";
 
 "account active forever" = "永遠";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "暫停至計時結束";
 "home status detail active" = "阻擋 *廣告* 及 *追蹤器*";
 "home status detail active with counter" = "已阻擋 *%@* 個廣告及追蹤器";
+"home status detail active slim" = "Blokada *Slim* 已啟用";
 "home status detail plus" = "*+* 保護您的 *隱私權*";
 "home status detail progress" = "請稍候……";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "標示區域";
 "pack category active" = "作用中";
 "pack category all" = "全部";
+
+"advanced section header packs" = "封鎖清單";
+"advanced section slugline packs" = "啟用以進行更嚴格的封鎖";
+"advanced section slugline apps" = "選擇要不要被封鎖的應用程式";
+"advanced section slugline encryption" = "調整您的加密等級與 DNS";
+"advanced action slim migrate to full" = "您正在使用 Blokada Slim。取得更多資訊";
 
 "location choice header" = "選擇位置";
 
@@ -157,6 +167,7 @@
 "account action encryption" = "加密";
 "account action devices" = "裝置";
 "account action inbox" = "Inbox";
+"account action logout" = "登出／恢復帳號";
 "account action about" = "關於";
 "account action tap to show" = "點一下顯示";
 "account action restoring" = "還原帳號：%@";
@@ -257,6 +268,7 @@
 "app settings action notifications" = "開啟通知設定";
 "app settings section details" = "詳細資料";
 "app settings status default" = "系統預設值";
+"app settings start on boot" = "開機時啟動";
 
 "intro header" = "Blokada 已啟用!";
 "intro text" = "藍色環代表 Blokada 正在執行。\n\n請記住，某些廣告（如 YouTube）無法被阻擋。但您會在其他許多的應用程式注意到不同之處。\n\n我們建議您在您的系統設定中啟用「永久連線的 VPN」／「需要時連線」。";
