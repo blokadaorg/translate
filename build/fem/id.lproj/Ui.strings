@@ -24,6 +24,7 @@
 "error pack install" = "Tidak bisa menginstal (atau uninstall) fitur ini. Silakan coba kembali beberapa saat lagi.";
 "error location failed fetching" = "Tidak bisa mendapatkan data lokasi.";
 "error unknown" = "Telah terjadi masalah yang tidak diketahui. Silakan coba lagi. Jika masalah ini berlanjut, silakan hubungi kami dengan cara mengetuk ikon Bantuan di atas.";
+"error blocka dns in filtering mode" = "Saat ini Blokada DNS hanya bisa diaktifkan di mode Plus. Silahkan pilih server DNS yang lain dan coba kembali.";
 
 "universal action continue" = "Lanjut";
 "universal action cancel" = "Batal";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ kedaluwarsa";
+"alert download link body" = "Untuk alasan keamanan, untuk mengunduh file ini, Blokada harus membuka situs yang dituju di browser Anda. Silahkan tekan tautan download kembali.";
 
 "notification vpn expired header" = "Langganan BLOKADA+ Anda telah berakhir";
 "notification vpn expired subtitle" = "VPN dinonaktifkan";
@@ -59,6 +61,7 @@
 
 "notification update header" = "Pembaruan tersedia";
 "alert update body" = "Blokada %@ telah tersedia untuk diunduh. Kami menyarankan agar Anda terus memperbarui Blokada, dan hanya mengunduhnya dari sumber-sumber resmi.";
+"update label updated" = "Diperbarui!";
 
 "account active forever" = "Selamanya";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "dihentikan sementara sampai pengatur waktu berhenti";
 "home status detail active" = "memblokir *iklan* dan *pelacak*";
 "home status detail active with counter" = "memblokir *%@* iklan dan pelacak";
+"home status detail active slim" = "Blokada *Slim* telah diaktifkan";
 "home status detail plus" = "*+* melindungi *privasi* Anda";
 "home status detail progress" = "harap tunggu...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "Highlights";
 "pack category active" = "Aktif";
 "pack category all" = "Semua";
+
+"advanced section header packs" = "Blocklist";
+"advanced section slugline packs" = "Aktifkan untuk pemblokiran yang lebih ketat";
+"advanced section slugline apps" = "Pilih aplikasi yang tidak boleh diblokir";
+"advanced section slugline encryption" = "Atur tingkat enkripsi dan pilih server DNS";
+"advanced action slim migrate to full" = "Anda sedang menggunakan Blokada Slim. Pelajari lebih lanjut";
 
 "location choice header" = "Pilih lokasi";
 
@@ -157,7 +167,7 @@
 "account action encryption" = "Enkripsi";
 "account action devices" = "Perangkat";
 "account action inbox" = "Kotak Masuk";
-"account action logout" = "Keluar";
+"account action logout" = "Logout/Pulihkan akun";
 "account action about" = "Info Aplikasi";
 "account action tap to show" = "Tekan untuk melihat";
 "account action restoring" = "Memulihkan akun: %@";
@@ -258,5 +268,7 @@
 "app settings action notifications" = "Buka Pengaturan Notifikasi";
 "app settings section details" = "Detail";
 "app settings status default" = "Bawaan sistem";
+"app settings start on boot" = "Aktifkan saat boot";
 
 "intro header" = "Blokada Aktif!";
+"intro text" = "Lingkaran biru menandakan Blokada sedang aktif \n\nIngat, beberapa iklan, seperti yang ada di YouTube, tidak bisa diblokir. Namun Anda bisa saja melihat perbedaan di aplikasi yang lain.\n\nKami sarankan Anda untuk mengaktifkan Always On VPN/Connect on Demand di pengaturan perangkat Anda.";

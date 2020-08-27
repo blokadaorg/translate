@@ -23,6 +23,7 @@
 "error payment canceled" = "Le paiement a été annulé. Vous n'avez pas été débité.";
 "error pack install" = "Impossible d'installer (ou désinstaller) cette fonctionnalité. Veuillez réessayer plus tard.";
 "error unknown" = "Un problème inconnu est survenu. Veuillez réessayer. Si le problème persiste, contactez-nous en appuyant sur l'icône d'aide en haut.";
+"error blocka dns in filtering mode" = "Blokada DNS n'est actuellement pris en charge que dans le mode Plus. Veuillez choisir un autre DNS et réessayez.";
 
 "universal action continue" = "Continuer";
 "universal action cancel" = "Annuler";
@@ -51,12 +52,15 @@
 
 "alert error header" = "Oups !";
 "alert vpn expired header" = "BLOKADA+ a expiré";
+"alert download link body" = "Pour des raisons de sécurité, nous devons d'abord ouvrir ce site web dans votre navigateur. Ensuite, cliquez de nouveau sur le lien de téléchargement.";
 
 "notification vpn expired header" = "L'abonnement BLOKADA+ a expiré";
 "notification vpn expired subtitle" = "Le VPN est désactivé";
 "notification vpn expired body" = "Veuillez mettre à jour votre abonnement pour continuer à utiliser BLOKADA+";
 
 "notification update header" = "Une mise à jour est disponible";
+"alert update body" = "Blokada %@ est maintenant disponible au téléchargement. Nous vous recommandons de garder l'appli à jour, et de ne la télécharger que depuis nos sources officielles.";
+"update label updated" = "Mis à jour !";
 
 "account active forever" = "Pour toujours";
 
@@ -92,6 +96,7 @@
 "home status detail paused" = "mis en pause jusqu'à la fin du timer";
 "home status detail active" = "bloque les *pubs* et *trackers*";
 "home status detail active with counter" = "a bloqué *%@* pubs et trackers";
+"home status detail active slim" = "Blokada * Slim* est actif";
 "home status detail plus" = "*+* protège votre *vie privée*";
 "home status detail progress" = "veuillez patienter...";
 
@@ -110,6 +115,9 @@
 "pack tags none" = "Aucun";
 "pack category active" = "Actif";
 "pack category all" = "Tous";
+"advanced section slugline apps" = "Choisissez les applications qui ne doivent jamais être bloquées";
+"advanced section slugline encryption" = "Ajustez votre niveau de chiffrement et de DNS";
+"advanced action slim migrate to full" = "Vous utilisez Blokada Slim. En savoir plus";
 
 "location choice header" = "Choisissez une localisation";
 
@@ -152,9 +160,9 @@
 "account action encryption" = "Chiffrement";
 "account action devices" = "Appareils";
 "account action inbox" = "Messagerie";
-"account action logout" = "Déconnexion";
 "account action about" = "À propos";
 "account action tap to show" = "Appuyer pour afficher";
+"account action restoring" = "Restauration du compte : %@";
 
 "account section header my subscription" = "Mon abonnement";
 "account section header general" = "Général";
@@ -245,5 +253,6 @@
 "app settings action vpn profile" = "Ouvrir le profil VPN";
 "app settings action notifications" = "Ouvrir les paramètres de notification";
 "app settings section details" = "Plus d'informations";
+"app settings start on boot" = "Lancer au démarrage";
 
 "intro header" = "Blokada est actif";

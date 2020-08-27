@@ -24,6 +24,7 @@
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
 "error location failed fetching" = "Не могат да бъдат получени локациите.";
 "error unknown" = "Възникна неизвестен проблем. Моля, опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error blocka dns in filtering mode" = "Понастоящем Blokada DNS се поддържа само в режим Plus. Моля, изберете друг DNS и опитайте отново.";
 
 "universal action continue" = "Продължи";
 "universal action cancel" = "Отказ";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Ооопс!";
 "alert vpn expired header" = "BLOKADA+ е изтекла";
+"alert download link body" = "От съображения за сигурност за да изтеглите файл ще трябва този уебсайт да се отвори във вашия браузър. След това, моля докоснете отново връзката за изтегляне.";
 
 "notification vpn expired header" = "Изтекъл срок на абонамента за BLOKADA+";
 "notification vpn expired subtitle" = "VPN е деактивиран";
@@ -59,6 +61,7 @@
 
 "notification update header" = "Налична е актуализация";
 "alert update body" = "Blokada %@ вече е достъпна за изтегляне. Препоръчваме да поддържате приложението актуално и да го изтегляте само от нашите официални източници.";
+"update label updated" = "Обновено!";
 
 "account active forever" = "Завинаги";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "на пауза докато приключи таймерът";
 "home status detail active" = "блокиране на *реклами* и *тракери*";
 "home status detail active with counter" = "блокирани *%@* реклами и тракери";
+"home status detail active slim" = "Blokada *Slim* е активна";
 "home status detail plus" = "*+* защитава вашата *поверителност*";
 "home status detail progress" = "моля изчакайте...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "Акценти";
 "pack category active" = "Активни";
 "pack category all" = "Всички";
+
+"advanced section header packs" = "Списък с блокирани";
+"advanced section slugline packs" = "Активирайте за по-ограничително блокиране";
+"advanced section slugline apps" = "Изберете приложения, които никога да не бъдат блокирани";
+"advanced section slugline encryption" = "Регулирайте нивото си на криптиране и DNS";
+"advanced action slim migrate to full" = "Използвате Blokada Slim. Научете повече";
 
 "location choice header" = "Избор на местоположение";
 
@@ -157,7 +167,7 @@
 "account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
 "account action inbox" = "Входяща кутия";
-"account action logout" = "Изход";
+"account action logout" = "Изход / Възстановяване на профила";
 "account action about" = "Относно";
 "account action tap to show" = "Докоснете за да се покаже";
 "account action restoring" = "Възстановяване на акаунт: %@";
@@ -258,6 +268,7 @@
 "app settings action notifications" = "Отваряне на настройките за известия";
 "app settings section details" = "Подробности";
 "app settings status default" = "Система по подразбиране";
+"app settings start on boot" = "Старт със системата";
 
 "intro header" = "Blokada е активна!";
 "intro text" = "Син пръстен означава, че Blokada работи.\n\nНе забравяйте, че някои реклами, като в YouTube, не могат да бъдат блокирани. Въпреки това, ще забележите разлика в много други приложения.\n\nПрепоръчваме ви да активирате Винаги включен VPN / Свързване при поискване в системните настройки.";

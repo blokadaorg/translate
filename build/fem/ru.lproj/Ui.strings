@@ -24,6 +24,7 @@
 "error pack install" = "Не удалось установить (или удалить) эту функцию. Пожалуйста, попробуйте позже.";
 "error location failed fetching" = "Не удалось получить местоположения.";
 "error unknown" = "Возникла неизвестная проблема. Пожалуйста, попробуйте еще раз. Если проблема сохраняется, пожалуйста, свяжитесь с нами, нажав на значок справки в верхней части.";
+"error blocka dns in filtering mode" = "Blokada DNS в настоящее время поддерживается только в режиме Plus. Пожалуйста, выберите другой DNS и повторите попытку.";
 
 "universal action continue" = "Продолжить";
 "universal action cancel" = "Отмена";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
+"alert download link body" = "Из соображений безопасности для загрузки файла нам необходимо открыть этот сайт в вашем браузере. После этого нажмите на ссылку для скачивания еще раз.";
 
 "notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
 "notification vpn expired subtitle" = "VPN отключен";
@@ -59,6 +61,7 @@
 
 "notification update header" = "Доступно обновление";
 "alert update body" = "Blokada %@ теперь доступна для скачивания. Мы рекомендуем поддерживать актуальную версию приложения, и скачивать его только из наших официальных источников.";
+"update label updated" = "Обновлено!";
 
 "account active forever" = "Навсегда";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "приостановлена до окончания таймера";
 "home status detail active" = "блокировано *рекламы* и *трекеров*";
 "home status detail active with counter" = "блокировано *%@* рекламы и трекеров";
+"home status detail active slim" = "Blokada *Slim* активна";
 "home status detail plus" = "*+* защищающий вашу *приватность*";
 "home status detail progress" = "подождите пожалуйста...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "Основные моменты";
 "pack category active" = "Активно";
 "pack category all" = "Все";
+
+"advanced section header packs" = "Списки блокировки";
+"advanced section slugline packs" = "Активируйте для более строгой блокировки";
+"advanced section slugline apps" = "Выберите приложения, которые никогда не следует блокировать";
+"advanced section slugline encryption" = "Настройте уровень шифрования и DNS";
+"advanced action slim migrate to full" = "Вы используете Blokada Slim. Узнайте больше";
 
 "location choice header" = "Выберите местоположение";
 
@@ -157,7 +167,7 @@
 "account action encryption" = "Шифрование";
 "account action devices" = "Устройства";
 "account action inbox" = "Входящие";
-"account action logout" = "Выход";
+"account action logout" = "Выход / Восстановление учетной записи";
 "account action about" = "О приложении";
 "account action tap to show" = "Нажмите, чтобы показать";
 "account action restoring" = "Восстановление аккаунта: %@";
@@ -258,6 +268,7 @@
 "app settings action notifications" = "Открыть настройки уведомлений";
 "app settings section details" = "Подробнее";
 "app settings status default" = "По умолчанию системы";
+"app settings start on boot" = "Запуск при загрузке";
 
 "intro header" = "Blokada активна!";
 "intro text" = "Синее кольцо означает, что Blokada работает.\n\nПомните, что некоторая реклама, например, YouTube, не может быть заблокирована. Тем не менее, вы заметите разницу в большинстве других приложений.\n\nМы рекомендуем вам активировать VPN всегда включен / Подключение по требованию в настройках вашей системы.";

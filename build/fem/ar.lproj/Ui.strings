@@ -24,6 +24,7 @@
 "error pack install" = "تعذر تثبيت (أو الغاء) هذه الميّزة. الرجاء المحاولة مرة أُخرى لاحقاً.";
 "error location failed fetching" = "تعذَّر جلب المواقع.";
 "error unknown" = "حدثت مشكلة غير معروفة. الرجاء المحاولة مرّة أُخرى. إذا استمرت المشكلة، الرجاء الاتصال بنا بالنقر على أيقونة المساعدة في الأعلى.";
+"error blocka dns in filtering mode" = "Blokada DNS مدعوم حاليّاً في وضع Plus فقط. الرجاء اختيار DNS آخر و حاول مرّة أُخرى.";
 
 "universal action continue" = "واصِلْ";
 "universal action cancel" = "إلغاء";
@@ -52,6 +53,7 @@
 
 "alert error header" = "عُذراً !";
 "alert vpn expired header" = "إنتهت صلاحيّة BLOKADA+";
+"alert download link body" = "لأسباب أمنيّة، لتنزيل ملف، نحتاج إلى فتح هذا الموقع في متصفّحك. ثم، الرجاء الضغط على رابط التنزيل مرّة أُخرى.";
 
 "notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
 "notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
@@ -59,6 +61,7 @@
 
 "notification update header" = "يوجد تحديث";
 "alert update body" = "Blokada %@ متاح الآن للتنزيل. نوصي بتحديث التطبيق باستمرار و تنزيله فقط من مصادرنا الرسميّة.";
+"update label updated" = "تَمّ التحديث !";
 
 "account active forever" = "للأبد";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "متوقّف مؤقّتاً حتّى ينتهي المؤقِّت";
 "home status detail active" = "حَظْر *الإعلانات* و *المتعقِّبين*";
 "home status detail active with counter" = "تمّ حَظْر *%@* إعلانات و متعقِّبين";
+"home status detail active slim" = "Blokada *Slim* نَشِط";
 "home status detail plus" = "*+* حماية *خصوصيّتك*";
 "home status detail progress" = "الرجاء الإنتظار...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "الملامح";
 "pack category active" = "مُفَعَّل";
 "pack category all" = "الكل";
+
+"advanced section header packs" = "قوائم الحَظْر";
+"advanced section slugline packs" = "تفعيل لحظْر أكثر تقييداً";
+"advanced section slugline apps" = "اختر التطبيقات التي لا يجب حظرها أبداً";
+"advanced section slugline encryption" = "ضبط مستوى التشفير الخاصّ بك و DNS";
+"advanced action slim migrate to full" = "أنت تستخدم Blokada Slim. تعرّف على المزيد";
 
 "location choice header" = "اختر موقع";
 
@@ -157,7 +167,7 @@
 "account action encryption" = "التشفير";
 "account action devices" = "الأجهزة";
 "account action inbox" = "صندوق الوارد";
-"account action logout" = "تسجيل خروج";
+"account action logout" = "تسجيل الخروج / استعادة الحساب";
 "account action about" = "حوْلَ";
 "account action tap to show" = "انقر لإظهار";
 "account action restoring" = "استعادة الحساب: %@";
@@ -258,6 +268,7 @@
 "app settings action notifications" = "فتح إعدادات الإشعارات";
 "app settings section details" = "التفاصيل";
 "app settings status default" = "الإفتراضي للنظام";
+"app settings start on boot" = "إطلاق التطبيق عند إقلاع النظام";
 
 "intro header" = "بلوكادا نَشِط!";
 "intro text" = "الدائرة الزرقاء تعني أن بلوكادا يعمل.\n\nتذكّر، بعض الإعلانات، مثل يوتيوب، لا يمكن حظرها. ومع ذلك، ستلاحظ وجود فرق في العديد من التطبيقات الأُخرى.\n\nننصحك بتفعيل ميَّزة ابقاء VPN مُفَعَّل / الإتصال إثناء الطلب، الموجودان في إعدادات النظام الخاص بك.";
