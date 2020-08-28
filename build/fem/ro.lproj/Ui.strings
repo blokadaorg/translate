@@ -52,6 +52,7 @@
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ a expirat";
+"alert download link body" = "Din motive de securitate, pentru a descărca un fișier, trebuie să deschidem acest website în browser-ul dvs. Apoi, vă rugăm să accesați din nou link-ul de descărcare.";
 
 "notification vpn expired header" = "Abonamentul BLOKADA+ a expirat";
 "notification vpn expired subtitle" = "VPN-ul este dezactivat";
@@ -59,6 +60,7 @@
 
 "notification update header" = "Este disponibilă o actualizare";
 "alert update body" = "Blokada %@ este acum disponibilă pentru descărcare. Vă recomandăm să păstrați aplicația la zi și să o descărcați doar din sursele noastre oficiale.";
+"update label updated" = "Actualizat!";
 
 "account active forever" = "Pentru totdeauna";
 
@@ -94,6 +96,7 @@
 "home status detail paused" = "în pauză până se termină cronometrul";
 "home status detail active" = "în curs de blocare *reclame* și *trackere*";
 "home status detail active with counter" = "blocat *%@* reclame și trackere";
+"home status detail active slim" = "Blokada *Slim* este activă";
 "home status detail plus" = "*+* îți protejează *intimitatea*";
 "home status detail progress" = "vă rugăm așteptați...";
 
@@ -114,6 +117,9 @@
 "pack category highlights" = "Evidențieri";
 "pack category active" = "Activ";
 "pack category all" = "Toate";
+"advanced section slugline apps" = "Alegeți aplicațiile ce nu ar trebui să fie blocate niciodată";
+"advanced section slugline encryption" = "Ajustați nivelul de criptare şi DNS";
+"advanced action slim migrate to full" = "Folosiți Blokada Slim. Aflați mai multe";
 
 "location choice header" = "Selectați o locație";
 
@@ -157,6 +163,7 @@
 "account action encryption" = "Criptare";
 "account action devices" = "Dispozitive";
 "account action inbox" = "Mesaje";
+"account action logout" = "Ieșire din cont / Recuperare cont";
 "account action about" = "Despre";
 "account action tap to show" = "Atingeți pentru a afișa";
 "account action restoring" = "Recuperare cont: %@";
@@ -257,6 +264,7 @@
 "app settings action notifications" = "Deschide setările notificărilor";
 "app settings section details" = "Detalii";
 "app settings status default" = "Setări implicite ale sistemului";
+"app settings start on boot" = "Lansare la pornire";
 
 "intro header" = "Blokada este Activ!";
 "intro text" = "Un inel albastru înseamnă că Blokada funcționează.\n\nRețineți că unele reclame, precum YouTube, nu pot fi blocate. Cu toate acestea, veţi observa o diferenţă în multe alte aplicaţii.\n\nVă recomandăm să activați opțiunea Mereu pe VPN / Conectare la cerere în setările sistemului dvs.";
