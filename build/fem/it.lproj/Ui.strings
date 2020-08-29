@@ -24,6 +24,7 @@
 "error pack install" = "Impossibile installare (o disinstallare) questa funzione. Riprova più tardi.";
 "error location failed fetching" = "Impossibile ottenere la posizione.";
 "error unknown" = "Si è verificato un problema sconosciuto. Si prega di riprovare. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
+"error blocka dns in filtering mode" = "Attualmente, Blokada DNS è supportato soltanto in modalità Plus. Seleziona un altro DNS e riprova.";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Annulla";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ è scaduto";
+"alert download link body" = "Per motivi di sicurezza, per scaricare un file dobbiamo aprire questo sito nel tuo browser. Tocca nuovamente il link di download.";
 
 "notification vpn expired header" = "L'abbonamento a BLOKADA+ è scaduto";
 "notification vpn expired subtitle" = "La VPN è disabilitata";
@@ -59,6 +61,7 @@
 
 "notification update header" = "È disponibile un aggiornamento";
 "alert update body" = "Blokada %@ è ora disponibile per il download. Ti raccomandiamo di mantenere l'app aggiornata e di scaricarla solo dalle nostre fonti ufficiali.";
+"update label updated" = "Aggiornato!";
 
 "account active forever" = "Per sempre";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "in pausa fino alla fine del timer";
 "home status detail active" = "sto bloccando *pubblicità* e *tracker*";
 "home status detail active with counter" = "*%@* pubblicità e tracker bloccati";
+"home status detail active slim" = "Blokada *Slim* è attiva";
 "home status detail plus" = "*+* proteggendo la tua *privacy*";
 "home status detail progress" = "attendere prego...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "In evidenza";
 "pack category active" = "Attiva";
 "pack category all" = "Tutti";
+
+"advanced section header packs" = "Liste di blocco";
+"advanced section slugline packs" = "Attiva per un blocco più restrittivo";
+"advanced section slugline apps" = "Scegli le app che non dovranno mai essere bloccate";
+"advanced section slugline encryption" = "Regola il tuo livello di crittografia e DNS";
+"advanced action slim migrate to full" = "Stai usando Blokada Slim. Per saperne di più";
 
 "location choice header" = "Scegli una località";
 
