@@ -24,6 +24,7 @@
 "error pack install" = "Tätä ominaisuutta ei voitu asentaa (tai poistaa). Yritä uudelleen myöhemmin.";
 "error location failed fetching" = "Sijainteja ei voitu hakea.";
 "error unknown" = "Tuntematon ongelma tapahtui. Yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error blocka dns in filtering mode" = "Blokada DNS on tällä hetkellä tuettu vain Plus-tilassa. Valitse toinen DNS ja yritä uudelleen.";
 
 "universal action continue" = "Jatka";
 "universal action cancel" = "Peruuta";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Hups!";
 "alert vpn expired header" = "BLOKADA+ erääntyi";
+"alert download link body" = "Turvallisuussyistä tiedoston lataamiseksi, meidän on avattava tämä sivusto selaimessasi. Napauta sitten latauslinkkiä uudelleen.";
 
 "notification vpn expired header" = "BLOKADA+-tilaus vanhentui";
 "notification vpn expired subtitle" = "VPN on poistettu käytöstä";
@@ -59,6 +61,7 @@
 
 "notification update header" = "Päivitys on saatavilla";
 "alert update body" = "Blokada %@ on nyt ladattavissa. Suosittelemme pitämään sovelluksen ajan tasalla ja lataamaan sen vain virallisista lähteistämme.";
+"update label updated" = "Päivitetty!";
 
 "account active forever" = "Ikuisesti";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "pysäytetty kunnes ajastin loppuu";
 "home status detail active" = "estetään *mainoksia* ja *seurantaohjelmia*";
 "home status detail active with counter" = "estetty *%@* mainosta ja seurantaohjelmaa";
+"home status detail active slim" = "Blokada *Slim* on aktiivinen";
 "home status detail plus" = "*+* suojataan *yksityisyyttäsi*";
 "home status detail progress" = "ole hyvä ja odota...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "Kohokohdat";
 "pack category active" = "Aktiivinen";
 "pack category all" = "Kaikki";
+
+"advanced section header packs" = "Estolistat";
+"advanced section slugline packs" = "Aktivoi rajoittavampi estäminen";
+"advanced section slugline apps" = "Valitse sovellukset joita ei pitäisi koskaan estää";
+"advanced section slugline encryption" = "Säädä DNS:n ja salauksen tasoa";
+"advanced action slim migrate to full" = "Käytät Blokada Slimiä. Lisätietoja";
 
 "location choice header" = "Valitse sijainti";
 
@@ -157,6 +167,7 @@
 "account action encryption" = "Salaus";
 "account action devices" = "Laitteet";
 "account action inbox" = "Saapuneet";
+"account action logout" = "Kirjaudu ulos / Palauta tili";
 "account action about" = "Tietoa";
 "account action tap to show" = "Napauta näyttääksesi";
 "account action restoring" = "Palautetaan tiliä: %@";
@@ -257,6 +268,7 @@
 "app settings action notifications" = "Avaa ilmoitusasetukset";
 "app settings section details" = "Yksityiskohdat";
 "app settings status default" = "Järjestelmän oletus";
+"app settings start on boot" = "Aloita käynnistettäessä";
 
 "intro header" = "Blokada on aktiivinen!";
 "intro text" = "Sininen rengas tarkoittaa, että Blokada toimii.\n\nMuista, että joitain mainoksia kuten YouTubessa, ei voida estää. Huomaat kuitenkin eron monissa muissa sovelluksissa.\n\nSuosittelemme, että aktivoit järjestelmäasetuksista VPN Aina Päällä / Yhdistä Pyytäessä -kohdan.";

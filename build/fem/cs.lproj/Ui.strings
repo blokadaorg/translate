@@ -24,6 +24,7 @@
 "error pack install" = "Tuto funkci nelze nainstalovat (nebo odinstalovat). Opakujte akci později.";
 "error location failed fetching" = "Nelze načíst umístění.";
 "error unknown" = "Došlo k neznámému problému. Zkuste to prosím znovu. Pokud problém přetrvává, kontaktujte nás kliknutím na ikonu nápovědy nahoře.";
+"error blocka dns in filtering mode" = "Blokada DNS je aktuálně podporována pouze v režimu Plus. Vyberte jiné DNS a zkuste to znovu.";
 
 "universal action continue" = "Pokračovat";
 "universal action cancel" = "Zrušit";
@@ -52,6 +53,7 @@
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "Platnost služby BLOKADA+ vypršela";
+"alert download link body" = "Pro stažení souboru musíme z bezpečnostních důvodů otevřít tento web ve vašem prohlížeči. Poté prosím klepněte na odkaz pro stažení.";
 
 "notification vpn expired header" = "Předplatné služby BLOKADA+ vypršelo";
 "notification vpn expired subtitle" = "VPN je zakázáno";
@@ -59,6 +61,7 @@
 
 "notification update header" = "K dispozici je aktualizace";
 "alert update body" = "Blokada %@ je nyní k dispozici ke stažení. Doporučujeme aplikaci aktualizovat a stahovat pouze z našich oficiálních zdrojů.";
+"update label updated" = "Aktualizováno!";
 
 "account active forever" = "Navždy";
 
@@ -94,6 +97,7 @@
 "home status detail paused" = "pozastaveno, do konce časovače";
 "home status detail active" = "blokuje *reklamy* a *sledovače*";
 "home status detail active with counter" = "zablokováno *%@* reklam a sledovačů";
+"home status detail active slim" = "Blokada *Slim* je aktivní";
 "home status detail plus" = "*+* chrání vaše *soukromí*";
 "home status detail progress" = "čekejte prosím...";
 
@@ -114,6 +118,12 @@
 "pack category highlights" = "Zvýraznění";
 "pack category active" = "Aktivní";
 "pack category all" = "Vše";
+
+"advanced section header packs" = "Seznamy blokovaných";
+"advanced section slugline packs" = "Aktivujte pro restriktivnější blokování";
+"advanced section slugline apps" = "Vyberte aplikace, které by nikdy neměly být blokovány";
+"advanced section slugline encryption" = "Upravte svou úroveň šifrování a DNS";
+"advanced action slim migrate to full" = "Používáte Blokadu Slim. Zjistěte více";
 
 "location choice header" = "Zvolte umístění";
 
@@ -157,6 +167,7 @@
 "account action encryption" = "Šifrování";
 "account action devices" = "Zařízení";
 "account action inbox" = "Novinky";
+"account action logout" = "Odhlášení / Obnovení účtu";
 "account action about" = "O aplikaci";
 "account action tap to show" = "Klepněte pro zobrazení";
 "account action restoring" = "Obnovuji účet: %@";
@@ -257,6 +268,7 @@
 "app settings action notifications" = "Otevřít nastavení oznámení";
 "app settings section details" = "Podrobnosti";
 "app settings status default" = "Výchozí nastavení";
+"app settings start on boot" = "Spustit při spuštění systému";
 
 "intro header" = "Blokada je aktivní!";
 "intro text" = "Modrý kruh znamená, že Blokada funguje.\n\nPamatujte, že některé reklamy, například na YouTube, nelze blokovat. V mnoha jiných aplikacích si však všimnete rozdílu.\n\nVždy doporučujeme aktivovat VPN / Připojit na vyžádání v systémovém nastavení.";
