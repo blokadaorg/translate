@@ -27,6 +27,7 @@
     <string name="panel_domain_blocked_normal_desc">यह डोमेन रोक दी गई है। भविष्य में इसे अनुमति देने के लिए नीचे दिया गया बटन इस्तेमाल करें।</string>
     <string name="panel_domain_blocked_nxdomain_desc">यह डोमेन डीएनएस सर्वर द्वारा सही ढंग से समाधान नहीं किया गया था। या तो सर्वर ने डोमेन को ब्लॉक कर दिया है या यह मौजूद नहीं है।</string>
     <string name="panel_domain_blocked_error_desc">इस डोमेन को समाधान करते समय कुछ गलत हुआ, DNS सर्वर ने एक त्रुटि कोड के साथ उत्तर दिया।</string>
+    <string name="panel_domain_blocked_cname_desc">इस डोमेन को अवरुद्ध कर दिया गया था क्योंकि यह एक अवरुद्ध डोमेन के लिए एक CName है। बाद में इसे अनुमति देने के लिए आप या तो CName या डोमेन को अनुमति प्राप्त होस्ट में जोड़ सकते हैं।</string>
     <string name="panel_domain_blocked_toast">ब्लैकलिस्ट में जोड़ा गया।</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">कॉपी करें</string>
