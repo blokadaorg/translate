@@ -24,6 +24,7 @@
 "error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
 "error location failed fetching" = "Yerler getiremedi.";
 "error unknown" = "Bilinmeyen bir sorun oluştu. Lütfen tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error blocka dns in filtering mode" = "Blokada DNS şu anda sadece Plus modunda desteklenmektedir. Lütfen başka bir DNS seçin ve tekrar deneyin.";
 
 "universal action continue" = "Devam et";
 "universal action cancel" = "Vazgeç";
@@ -44,6 +45,7 @@
 "universal action donate" = "Bağış Yap";
 "universal action community" = "Topluluk";
 "universal action open in browser" = "Tarayıcıda aç";
+"universal action more" = "Daha Fazla";
 
 "universal label help" = "Yardım";
 "universal status processing" = "İşeniyor... Lütfen bekleyin.";
@@ -52,6 +54,7 @@
 
 "alert error header" = "Hay aksi!";
 "alert vpn expired header" = "BLOKADA+ süresi doldu";
+"alert download link body" = "Güvenlik nedeniyle, bir dosya indirmek için bu web sitesini tarayıcınızda açmamız gerekiyor. Ardından, lütfen indirme bağlantısına tekrar dokunun.";
 
 "notification vpn expired header" = "BLOKADA+ aboneliğinin süresi doldu";
 "notification vpn expired subtitle" = "VPN devre dışı";
@@ -59,6 +62,7 @@
 
 "notification update header" = "Bir güncelleme mevcut";
 "alert update body" = "Blokada %@ artık indirilebilir durumda. Uygulamayı güncel tutmanızı ve yalnızca resmi kaynaklarımızdan indirmenizi öneririz.";
+"update label updated" = "Güncellendi!";
 
 "account active forever" = "Sonsuza kadar";
 
@@ -94,6 +98,7 @@
 "home status detail paused" = "zamanlayıcı bitene kadar duraklatıldı";
 "home status detail active" = "*reklamlar* ve *izleyiciler* engelleniyor";
 "home status detail active with counter" = "*%@* reklamları ve izleyicileri engellendi";
+"home status detail active slim" = "Blokada *Slim* etkin";
 "home status detail plus" = "*+* *gizliliğinizi* koruyor";
 "home status detail progress" = "lütfen bekleyin...";
 
@@ -114,6 +119,12 @@
 "pack category highlights" = "Öne çıkanlar";
 "pack category active" = "Aktif";
 "pack category all" = "Tümü";
+
+"advanced section header packs" = "Engelleme listeleri";
+"advanced section slugline packs" = "Daha kısıtlayıcı engelleme için etkinleştirin";
+"advanced section slugline apps" = "Asla engellenmemesi gereken uygulamaları seçin";
+"advanced section slugline encryption" = "Şifreleme seviyenizi ve DNS'nizi ayarlayın";
+"advanced action slim migrate to full" = "Blokada Slim'i kullanıyorsunuz. Daha fazla bilgi edinin";
 
 "location choice header" = "Bir konum seçin";
 
@@ -148,6 +159,7 @@
 "activity filter show all" = "Tüm girdileri göster";
 "activity filter show blocked" = "Yalnızca engellenenleri göster";
 "activity filter show allowed" = "Yalnızca izin verilenleri göster";
+"activity empty text" = "Cihazınızı kullanmayı deneyin ve cihazınızın nereye bağlandığını görmek için daha sonra buraya tekrar gelin.";
 
 "account section header settings" = "Ayarlar";
 "account status text" = "BLOKADA %@ hesabınız %@ kadar etkindir.";
@@ -157,6 +169,7 @@
 "account action encryption" = "Şifreleme";
 "account action devices" = "Cihazlar";
 "account action inbox" = "Gelen Kutusu";
+"account action logout" = "Oturumu kapat / Hesabı geri yükle";
 "account action about" = "Hakkında";
 "account action tap to show" = "Göstermek için dokunun";
 "account action restoring" = "Hesap geri yükleniyor: %@";
