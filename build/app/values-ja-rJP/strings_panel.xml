@@ -56,11 +56,34 @@
     <string name="slot_intro_new">新しい UI の使用方法：ここをタップして表示します。</string>
     <string name="slot_intro_new_header">新しいUIの使い方は？</string>
     <string name="slot_intro_desc">あなたは現在ホームセクションにいますが、右にスワイプするとさらに多くのことができます。 それぞれの下部にメニューがあります - 上にスワイプして開きます。 &lt;br/&gt;&lt;br/&gt;Android TVでは、dpadでUIをナビゲートします。 中央キーを使用して、下部のメニューや選択した項目を開きます。 ボタンは、上、下、左または右の矢印でマークされています - 方向キーを使用してボタンをクリックします。</string>
+    <string name="slot_intro_info">大事な話ではありませんが... 一部のアイテムにはクエッションマークアイコンが付いています。 それをタップすると、このような短いヘルプメッセージが表示されます。</string>
+    <string name="slot_new_filter">ブロックされたリストに新しいホストを追加</string>
+    <string name="slot_new_filter_list">新しいホストリストを追加</string>
+    <string name="slot_new_filter_whitelist">許可されたリストに新しいホストを追加</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">未設定</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">設定</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">無効</string>
     <string name="slot_continue">続行</string>
+    <string name="slot_enter_domain_title">ドメイン</string>
+    <string name="slot_enter_domain_desc">ドメインはカンマで区切って入力してください。 また、任意のホストリストへのリンクを貼り付けたり、ローカルホストリストファイルをインポートしたりすることもできます。</string>
+    <string name="slot_enter_domain_error">確認できません</string>
     <string name="slot_enter_domain_file">ファイル</string>
+    <string name="slot_enter_domain_no_file">/Download/blokada/filters にファイルが確認できません</string>
+    <string name="slot_enter_file_titel">ファイル名</string>
+    <string name="slot_enter_file_import">インポート</string>
+    <string name="slot_enter_file_desc">ファイル名の一部を入力してください</string>
+    <string name="slot_enter_file_not_found">入力内容を含むファイル名がありません</string>
+    <string name="slot_enter_file_multi">入力内容に一致する複数のファイルがあります</string>
+    <string name="slot_enter_name_title">名前</string>
+    <string name="slot_enter_name_desc">新しいエントリの名前を入力します。希望の名前を作成することもできます。</string>
+    <string name="slot_enter_name_error">何も確認できません</string>
+    <string name="slot_enter_name_generate">生成</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; がホワイトリストに登録されています</string>
+    <string name="slot_app_desc">このアプリはホワイトリストに登録されているため、ブロックやフィルタリングは実行されません。</string>
+    <string name="slot_allapp_desc">このアプリでBlokadaをバイパスして、トラフィックのブロックを停止できます。 バイパスされたアプリはVPN外で通信することを忘れないでください。</string>
     <string name="slot_allapp_whitelisted">バイパス済み</string>
     <string name="slot_allapp_normal">バイパスされていない</string>
     <string name="slot_allapp_whitelist">バイパス</string>
@@ -118,6 +141,9 @@
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">%s に接続</string>
     <string name="slot_gateway_section_partner">Partner ゲートウェイは追加の場所を提供します。Blokada によって完全に管理されていませんが、暗号化されたトラフィックにアクセスすることはできません。</string>
+    <string name="slot_gateway_section_overloaded">これらのゲートウェイはオーバーロードされ、一時的に利用できません。</string>
+    <string name="slot_gateway_description">パフォーマンス: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;地域: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">このゲートウェイはビジー状態で、新しい接続は受け付けていません。</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
