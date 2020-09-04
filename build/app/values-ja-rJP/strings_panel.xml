@@ -17,17 +17,41 @@
     <string name="panel_section_apps_all">インストール済みアプリ</string>
     <string name="panel_section_apps_system">システムアプリ</string>
     <string name="panel_section_advanced_settings">設定</string>
+    <string name="panel_section_app_settings">アプリの設定</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">許可された &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">このドメインは許可されています。ブロックするには以下のボタンを使用してください。</string>
+    <string name="panel_domain_forwarded_toast">ホワイトリストに追加しました</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; をブロックしました</string>
+    <string name="panel_domain_blocked_normal_desc">このドメインはブロックされています。許可するには以下のボタンを使用してください。</string>
+    <string name="panel_domain_blocked_nxdomain_desc">このドメインはDNSサーバーによって正しく解決されませんでした。サーバーがドメインをブロックしているか、存在しません。</string>
+    <string name="panel_domain_blocked_error_desc">このドメインの解決中に問題が発生しました。DNSサーバーはエラーコードで応答しました。</string>
+    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインの CName であるためブロックされています。 許可するには、CNameまたはドメイン自体を追加することができます。</string>
+    <string name="panel_domain_blocked_toast">ブラックリストに追加しました。</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">コピー</string>
+    <string name="panel_domain_copied">クリップボードにコピーされました</string>
+    <string name="panel_ruleset">フィルターカウンター</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_title">フィルターには %s 個のルールがあります。</string>
+    <string name="panel_ruleset_updating">フィルターを更新しています...</string>
+    <string name="panel_ruleset_canfit">フィルタは&lt;b&gt;%s&lt;/b&gt;ルールで構成されています。 お使いのデバイスでは、すべてのアプリケーションに最大&lt;b&gt;%s&lt;/b&gt;MBのメモリが許可されており、最大&lt;b&gt;%s&lt;/b&gt;のルールをデバイスに適用できます。&lt;br&gt;これは単なる見積もりであり、Blokadaです。 リストをマージするときに、最も多くのメモリを使用します。 それらのいくつかを最近有効にした場合は、システムがメモリを解放するまで数分待ちます。</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">許可する</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">CName を許可する</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">ドメインを許可する</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">ブロック</string>
+    <string name="slot_action_close">閉じる</string>
+    <string name="slot_action_remove">削除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
+    <string name="slot_switch_on">はい</string>
     <!-- A state for switches (like notifications: off) -->
+    <string name="slot_switch_off">いいえ</string>
     <!-- An action to toggle a switch -->
     <!-- A state of input form when no input is entered (think: empty)  -->
     <!-- A state of input form when correct input is entered  -->
