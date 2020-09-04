@@ -24,6 +24,7 @@
 "error pack install" = "Nu s-a putut instala (sau dezinstala) această caracteristică. Vă rugăm să încercaţi din nou mai târziu.";
 "error location failed fetching" = "Nu s-au putut prelua locațiile.";
 "error unknown" = "A apărut o problemă necunoscută. Vă rugăm să încercați din nou. Dacă problema persistă, contactați-ne apăsând pe pictograma de ajutor din partea de sus.";
+"error blocka dns in filtering mode" = "Blokada DNS funcționează în prezent doar în modul Plus. Vă rugăm să alegeți un alt DNS și să încercați din nou.";
 
 "universal action continue" = "Continuă";
 "universal action cancel" = "Anulare";
@@ -44,6 +45,7 @@
 "universal action donate" = "Donează";
 "universal action community" = "Comunitate";
 "universal action open in browser" = "Deschide în browser";
+"universal action more" = "Mai multe";
 
 "universal label help" = "Ajutor";
 "universal status processing" = "Se procesează... Vă rugăm așteptați.";
@@ -117,6 +119,7 @@
 "pack category highlights" = "Evidențieri";
 "pack category active" = "Activ";
 "pack category all" = "Toate";
+"advanced section slugline packs" = "Activați pentru o blocare mai restrictivă";
 "advanced section slugline apps" = "Alegeți aplicațiile ce nu ar trebui să fie blocate niciodată";
 "advanced section slugline encryption" = "Ajustați nivelul de criptare şi DNS";
 "advanced action slim migrate to full" = "Folosiți Blokada Slim. Aflați mai multe";
@@ -154,6 +157,7 @@
 "activity filter show all" = "Arată toate intrările";
 "activity filter show blocked" = "Arată doar blocate";
 "activity filter show allowed" = "Arată doar permise";
+"activity empty text" = "Încercaţi să utilizaţi dispozitivul şi reveniţi aici mai târziu pentru a vedea unde se conectează dispozitivul dvs.";
 
 "account section header settings" = "Setări";
 "account status text" = "Contul dvs. BLOKADA %@ este activ până la %@.";
@@ -265,6 +269,13 @@
 "app settings section details" = "Detalii";
 "app settings status default" = "Setări implicite ale sistemului";
 "app settings start on boot" = "Lansare la pornire";
+"app settings use dns over https" = "Utilizați DNS prin HTTPS";
+"app settings backup" = "Folosește copia de rezervă din cloud";
+"app settings section advanced" = "Avansat";
 
 "intro header" = "Blokada este Activ!";
 "intro text" = "Un inel albastru înseamnă că Blokada funcționează.\n\nRețineți că unele reclame, precum YouTube, nu pot fi blocate. Cu toate acestea, veţi observa o diferenţă în multe alte aplicaţii.\n\nVă recomandăm să activați opțiunea Mereu pe VPN / Conectare la cerere în setările sistemului dvs.";
+
+"location region america" = "America";
+"location region europe" = "Europa";
+"location region asia" = "Asia";

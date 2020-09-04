@@ -27,12 +27,19 @@
     <!-- A menu option to open Patron of the month -->
     <!-- A menu option to open Patron voting screen -->
     <!-- A menu option to open the Call to Action screen (inviting user to do something to help Blokada). -->
+    <string name="main_cta">あなたのご意見をお聞かせください</string>
     <!-- A menu option to open changelog -->
     <string name="main_changelog">更新履歴</string>
     <!-- A menu option to open credits screen -->
     <string name="main_credits">クレジット</string>
+    <string name="main_legal">法的情報</string>
+    <string name="main_licenses">サードパーティライセンス</string>
+    <string name="main_terms">利用規約</string>
+    <string name="main_privacy">プライバシーポリシー</string>
     <!-- An overlay header on top of Patron page -->
     <string name="main_log">ログを共有</string>
     <!-- To display a big number in short way, eg. 1.69 million -->
+    <string name="core_format_million">%d00万</string>
     <!-- To display a big number in short way, eg. 420 thousand -->
+    <string name="core_format_thousand">%s ,000</string>
 </resources>

@@ -44,6 +44,7 @@
 "universal action donate" = "Spenden";
 "universal action community" = "Community";
 "universal action open in browser" = "Im Browser öffnen";
+"universal action more" = "Mehr";
 
 "universal label help" = "Hilfe";
 "universal status processing" = "Verarbeitung... Bitte warten.";
@@ -59,6 +60,7 @@
 
 "notification update header" = "Es ist eine Aktualisierung erhältlich";
 "alert update body" = "Blokada %@ steht zum Herunterladen bereit. Wir empfehlen, die App auf dem neuesten Stand zu halten und sie nur von unseren offiziellen Quellen herunterzuladen.";
+"update label updated" = "Aktualisiert!";
 
 "account active forever" = "Für immer";
 
@@ -115,6 +117,8 @@
 "pack category active" = "Aktiv";
 "pack category all" = "Alle";
 
+"advanced section header packs" = "Sperrlisten";
+
 "location choice header" = "Wähle einen Standort";
 
 "activity section header" = "Aktivität";
@@ -148,6 +152,7 @@
 "activity filter show all" = "Alle Einträge zeigen";
 "activity filter show blocked" = "Nur blockierte anzeigen";
 "activity filter show allowed" = "Nur erlaubte anzeigen";
+"activity empty text" = "Benutze dein Gerät einfach weiter und komm später hierher zurück um zu sehen, womit sich dein Gerät verbunden hat.";
 
 "account section header settings" = "Einstellungen";
 "account status text" = "Dein BLOKADA %@ Konto ist aktiv bis zum %@.";
@@ -157,6 +162,7 @@
 "account action encryption" = "Verschlüsselung";
 "account action devices" = "Geräte";
 "account action inbox" = "Inbox";
+"account action logout" = "Abmelden / Konto wiederherstellen";
 "account action about" = "Über";
 "account action tap to show" = "Zum Anzeigen tippen";
 "account action restoring" = "Wiederherstellung des Kontos: %@";
@@ -257,6 +263,13 @@
 "app settings action notifications" = "Benachrichtigungseinstellungen öffnen";
 "app settings section details" = "Details";
 "app settings status default" = "Systemvorgabe";
+"app settings use dns over https" = "DNS über HTTPS verwenden";
+"app settings backup" = "Benutze das Cloud-Backup";
+"app settings section advanced" = "Erweitert";
 
 "intro header" = "Blokada ist aktiv!";
 "intro text" = "Ein blauer Ring bedeutet, dass Blokada aktiv ist.\n\nDenke daran, dass teilweise Werbung, wie z. B. bei YouTube, nicht blockiert werden kann. Allerdings wirst du in vielen anderen Apps einen Unterschied bemerken.\n\nWir empfehlen dir, »Durchgehend aktives VPN / Verbindung zu VPN immer beibehalten« in deinen Systemeinstellungen zu aktivieren.";
+
+"location region america" = "Amerika";
+"location region europe" = "Europa";
+"location region asia" = "Asien";
