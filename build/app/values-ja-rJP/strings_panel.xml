@@ -14,6 +14,9 @@
     <string name="panel_section_ads_blacklist">ブロックされたホスト</string>
     <string name="panel_section_ads_whitelist">許可されたホスト</string>
     <string name="panel_section_advanced_dns">DNS</string>
+    <string name="panel_section_apps_all">インストール済みアプリ</string>
+    <string name="panel_section_apps_system">システムアプリ</string>
+    <string name="panel_section_advanced_settings">設定</string>
     <!-- When a domain is allowed (not blocked) -->
     <!-- When a domain is blocked -->
     <!-- Action to copy domain name to clipboard -->
@@ -31,11 +34,41 @@
     <!-- A state of input form when incorrect input is entered  -->
     <string name="slot_continue">続行</string>
     <string name="slot_enter_domain_file">ファイル</string>
+    <string name="slot_allapp_whitelisted">バイパス済み</string>
+    <string name="slot_allapp_normal">バイパスされていない</string>
+    <string name="slot_allapp_whitelist">バイパス</string>
+    <string name="slot_action_set">設定</string>
+    <string name="slot_whitelist_all">すべてのアプリをバイパスする</string>
+    <string name="slot_blacklist_all">アプリをバイパスしない</string>
+    <string name="slot_dns_name">DNS が有効です</string>
+    <string name="slot_dns_name_private">カスタム DNS が有効です</string>
+    <string name="slot_dns_name_disabled">DNSが無効になっています</string>
+    <string name="slot_action_none">この操作はまだ利用できません。</string>
     <string name="slot_action_unwhitelist">キャンセル</string>
     <string name="slot_action_author">アプリについて</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">エントリ</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">%s のエントリ</string>
+    <string name="slot_dns_control_title">DNS サーバーリスト</string>
+    <string name="slot_dns_control_description">DNSサーバーリストは、カスタムエントリを失うことなくサーバーと同期できます。 &lt;br/&gt;&lt;br/&gt;または、あなたのものを含むすべてのエントリをドロップして、もう一度ダウンロードすることもできます。</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">同期</string>
+    <string name="slot_action_refresh_toast">同期を開始</string>
+    <string name="slot_action_restore">ドロップ</string>
+    <string name="slot_export_title">場所を設定</string>
+    <string name="slot_export_description">構成が保存される場所を変更することができます(そして、そこからロードされます)。 既存の設定をインポートする場合は、先にインポートを選択してください。そうでない場合は上書きされます。</string>
+    <string name="slot_action_import">インポート</string>
+    <string name="slot_action_internal">内部ストレージ</string>
+    <string name="slot_action_external">外部ストレージ</string>
+    <string name="slot_filters_title">フィルターリスト</string>
+    <string name="slot_filters_description">カスタム エントリを失うことなく、フィルターリストをサーバーと同期できます。 &lt;br/&gt;&lt;br/&gt;または、あなたのものを含むすべてのエントリをドロップして、もう一度ダウンロードすることもできます。</string>
+    <string name="slot_blocked_normal_title">ドメインがブロックされました</string>
+    <string name="slot_blocked_answer_title">ドメインが解決されていません</string>
+    <string name="slot_blocked_cname_title">CName がブロックされました</string>
+    <string name="slot_forwarded_title">ドメイン転送済み</string>
+    <string name="slot_whitelist_title">ホワイトリストに登録したアプリ</string>
+    <string name="slot_list_no_desc">このエントリには説明がありません。</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
