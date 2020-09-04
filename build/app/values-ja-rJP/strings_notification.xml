@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">通知</string>
+    <string name="notification_on_description">ONの場合、何かがブロックされるたびにBlokadaの通知が表示されます。 これは、一部のデバイスで表示されるVPN通知とは異なり、オフにすることはできません。
+&lt;br/&gt;から表示する通知を設定できます。</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">をブロック</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
@@ -9,6 +11,7 @@
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
     <string name="notification_blocked_whitelist">ホワイトリスト</string>
     <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
+    <string name="notification_blocked_whitelist_applied">設定完了　変更には数秒かかることがあります。</string>
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">スリープモードにしない</string>
