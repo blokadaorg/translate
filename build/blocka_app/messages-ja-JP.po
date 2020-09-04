@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-09-04 07:33\n"
+"PO-Revision-Date: 2020-09-04 13:02\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -553,61 +553,61 @@ msgstr ""
 #. This page could not be displayed. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "This page could not be displayed. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "このページを表示できませんでした。問題が発生した場合は、 {email} までご連絡ください。"
 
 #. [account.activate_paypal_processing] - Shown while waiting for paypal confirmation progress
 #. defaultMessage is:
 #. Waiting for PayPal to confirm payment...
 #: build/messages/src/Checkout.json
 msgid "Waiting for PayPal to confirm payment..."
-msgstr ""
+msgstr "PayPalが支払いを確認するのを待っています..."
 
 #. [account.activate_stellar_processing] - Shown while waiting for stellar confirmation progress
 #. defaultMessage is:
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr ""
+msgstr "お支払い確認を待っています..."
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
 #. We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead.
 #: build/messages/src/Activate.json
 msgid "We're currently having issues with the VPN activation on F-Droid builds. This issue is being worked on, in the meantime you can uninstall the F-Droid version and download the app from blokada.org instead."
-msgstr ""
+msgstr "現在、F-DroidビルドでVPNのアクティベーションに問題が発生しています。 この問題は、その間にF-Droidバージョンをアンインストールし、代わりにblokada.orgからアプリをダウンロードすることで解決できます。"
 
 #. [manage.devices_wireguard_header] - Header above WireGuard download link and descripiton
 #. defaultMessage is:
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr ""
+msgstr "WireGuard 設定"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:
 #. Write a message...
 #: build/messages/src/Support.json
 msgid "Write a message..."
-msgstr ""
+msgstr "メッセージを入力してください…"
 
 #. [success.message] - Message after subscription success
 #. defaultMessage is:
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "お支払いを処理しています。間もなくアカウントが有効になります。 問題が発生した場合は、{email} までご連絡ください。"
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr ""
+msgstr "お支払いはキャンセルされ、請求は行われません。 あなたのアカウントはアクティブではありません。 問題が発生した場合は、{email} までご連絡ください。"
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:
 #. new device
 #: build/messages/src/Manage.json
 msgid "new device"
-msgstr ""
+msgstr "新しいデバイス"
 
