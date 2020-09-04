@@ -69,8 +69,28 @@
     <string name="slot_forwarded_title">ドメイン転送済み</string>
     <string name="slot_whitelist_title">ホワイトリストに登録したアプリ</string>
     <string name="slot_list_no_desc">このエントリには説明がありません。</string>
+    <string name="slot_status_info">アプリがアクティブな場合、画面上部の通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリをオフにできます。</string>
+    <string name="slot_action_deactivate">OFFにする</string>
+    <string name="slot_action_activate">ONにする</string>
+    <string name="slot_update_action_refresh">もう一度確認</string>
+    <string name="slot_telegram_title">ご参加ください！</string>
+    <string name="slot_telegram_desc">私たちのコミュニティを訪れて、手助けをするか、コミュニティのメンバーになってください。</string>
+    <string name="slot_telegram_action">開く</string>
+    <string name="slot_dropped_share_title">共有先：</string>
+    <string name="slot_adblocking_label">広告 &amp; トラッカーをブロック</string>
+    <string name="slot_adblocking_text">有効にすると、Blokadaは広告、トラッカー、その他の不要なコンテンツをブロックします。これにより、プライバシーを保護し、デバイスをスピードアップし、データ使用を削減できます。</string>
+    <string name="slot_account_label_active">アカウントは %sまで有効です</string>
+    <string name="slot_account_label_inactive">アクティブでないアカウント</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">サブスクリプションの管理</string>
+    <string name="slot_account_action_manage_inactive">アカウントを有効にする</string>
+    <string name="slot_account_action_change_id">アカウントを復元する</string>
+    <string name="slot_account_show">アカウントID</string>
+    <string name="slot_account_action_copied">アカウントIDがクリップボードにコピーされました</string>
+    <string name="slot_account_action_unavailable">[未設定]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">%s に接続</string>
+    <string name="slot_gateway_section_partner">Partner ゲートウェイは追加の場所を提供します。Blokada によって完全に管理されていませんが、暗号化されたトラフィックにアクセスすることはできません。</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
     <!-- Gateway load -->
@@ -87,4 +107,5 @@
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
+    <string name="slot_dns_answer_description">Blokada がブロックされたリクエストに対して、「ホストが見つかりません」から無効な ip への回答を変更します。 これは、「ホストが見つかりません」回答を得た場合、他のDNSサーバーに問い合わせ、ROMを助けることができます。 無効なアドレスに接続しようとする一部のアプリが遅くなる可能性があることにご注意ください。</string>
 </resources>
