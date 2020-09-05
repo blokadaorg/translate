@@ -18,12 +18,26 @@
 "error vpn too many leases" = "デバイス数の上限に達しました。いずれかのデバイスを削除して、もう一度やり直してください。";
 "error vpn expired" = "VPNが無効になっています。BLOKADA+ を引き続き使用するには、サブスクリプションを更新してください";
 "error payment inactive after restore" = "以前の支払いは復元されましたが、サブスクリプションの有効期限が切れています。 これが間違いであると思われる場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error payment failed" = "現在、支払いが利用できません。オンラインであることを確認して、後でもう一度お試しください。 問題が解決しない場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error payment not available" = "このデバイスではお支払いはご利用いただけません。Apple Pay が有効になっていないか、お住まいの国での購入はまだ処理されていません。";
+"error payment canceled" = "支払いがキャンセルされました。課金されていません。";
+"error pack install" = "この機能をインストール(またはアンインストール)できませんでした。後でもう一度お試しください。";
+"error location failed fetching" = "場所を取得できませんでした。";
+"error unknown" = "不明な問題が発生しました。もう一度やり直してください。問題が解決しない場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error blocka dns in filtering mode" = "Blokada DNSは現在Plusモードでのみサポートされています。別のDNSを選択して再度お試し下さい。";
 
 "universal action continue" = "続行";
 "universal action cancel" = "キャンセル";
+"universal action close" = "閉じる";
+"universal action done" = "完了";
+"universal action try again" = "もう一度やり直してください";
+"universal action learn more" = "詳細";
 "universal action help" = "ヘルプ";
+"universal action show log" = "ログ";
 "universal action share log" = "ログを共有";
+"universal action copy" = "コピー";
 "universal action save" = "保存";
+"universal action contact us" = "お問い合わせ";
 "universal action support" = "サポート";
 "universal action upgrade" = "BLOKADA+ にアップグレード";
 "universal action yes" = "はい";
@@ -171,3 +185,43 @@
 "account encrypt label dns only" = "暗号化されたDNS";
 "account encrypt desc dns only" = "DNSは、デバイスがアクセスしたいWebサイトの場所を見つける方法です。 残念ながら、ほとんどのインターネットはまだ暗号化されていないDNSを使用しているため、閲覧履歴がスパイされる危険性があります。 有効にすると、Blokadaはデバイスに暗号化されたDNSサーバー（DNS over HTTPSとも呼ばれます）のみに接続するように強制します。";
 "account encrypt label everything" = "通信は暗号化されています";
+"payment subscription per month" = "月額%@";
+"payment subscription offer" = "%@ を保存";
+
+"apps section header" = "アプリ";
+"apps label installed" = "インストール済み";
+"apps label system" = "システム";
+"apps status bypassed" = "(バイパス済み)";
+"apps filter header" = "どのアプリを表示しますか？";
+"apps filter action show all" = "すべてのアプリを表示";
+"apps filter action show bypassed" = "バイパスされたもののみ表示";
+"apps filter action show not bypassed" = "バイパスされていないもののみを表示";
+"apps filter action toggle system" = "すべてのシステムアプリを切り替える";
+
+"app settings section header" = "このデバイス";
+"app settings language label" = "言語";
+"app settings theme label" = "アプリのテーマ";
+"app settings theme light" = "ライト";
+"app settings theme dark" = "ダーク";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "リンクをリダイレクトする";
+"app settings browser internal" = "内部ブラウザー";
+"app settings browser external" = "外部ブラウザー (可能な場合)";
+"app settings ipv6 label" = "IPv6 を許可";
+"app settings section system" = "システム";
+"app settings action app info" = "アプリ情報を開く";
+"app settings action vpn profile" = "VPNプロファイルを開く";
+"app settings action notifications" = "通知設定を開く";
+"app settings section details" = "詳細";
+"app settings status default" = "システムのデフォルト";
+"app settings start on boot" = "起動時に開始";
+"app settings use dns over https" = "DNS over HTTPSを使用する";
+"app settings backup" = "クラウドバックアップを使用する";
+"app settings section advanced" = "詳細";
+
+"intro header" = "Blokadaは実行中です!";
+"intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定でAlways on VPN / Connect on Demandを有効にすることをお勧めします。";
+
+"location region america" = "アメリカ";
+"location region europe" = "ヨーロッパ";
+"location region asia" = "アジア";
