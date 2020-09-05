@@ -7,10 +7,78 @@
 "universal action support" = "サポート";
 "universal action upgrade" = "BLOKADA+ にアップグレード";
 "universal action yes" = "はい";
+"universal action no" = "いいえ";
 "universal action donate" = "寄付";
+"universal action community" = "コミュニティ";
 "universal action open in browser" = "ブラウザで開く";
+"universal action more" = "もっと見る";
 
 "universal label help" = "ヘルプ";
+"universal status processing" = "処理中char@@0お待ちください。";
+"universal status copied to clipboard" = "クリップボードにコピーしました";
+"universal status restart required" = "変更を反映するにはアプリを再起動してください。";
+
+"alert error header" = "おっと！";
+"alert vpn expired header" = "BLOKADA+ の有効期限が切れました";
+"alert download link body" = "セキュリティ上の理由から, ファイルをダウンロードするには, お使いのブラウザでこのウェブサイトを開く必要があります. それから, もう一度ダウンロードリンクをタップしてください.";
+
+"notification vpn expired header" = "BLOKADA+ サブスクリプションの有効期限が切れました";
+"notification vpn expired subtitle" = "VPN は無効になっています";
+"notification vpn expired body" = "BLOKADA+ を引き続き使用するには、サブスクリプションを更新してください";
+
+"notification update header" = "アップデートが利用可能です";
+"alert update body" = "Blokada %@ がダウンロード可能になりました。アプリを最新の状態に保ち、公式ソースからのみダウンロードすることをお勧めします。";
+"update label updated" = "更新されました！";
+
+"account active forever" = "無期限";
+
+"main ask for permissions header" = "もう一歩だけ";
+"main ask for permissions description" = "Blokadaは広告をブロックするためにVPN設定を使用しています。次のステップで広告を許可するよう求められます。";
+
+"main share message" = "iOS 用の Blokada は、 %@ の広告とトラッカーをブロックするのに役立ちました！";
+
+"main rate us header" = "評価してください";
+"main rate us description" = "これまでのBlokadaはどうですか？";
+"main rate us on app store" = "App StoreでBlokadaを評価していただけませんか？";
+"main rate us action sure" = "もちろん！";
+
+// Make sure each tab name has a similar length
+"main tab home" = "ホーム";
+// Make sure each tab name has a similar length
+"main tab activity" = "アクティビティ";
+// Make sure each tab name has a similar length
+"main tab advanced" = "詳細";
+// Make sure each tab name has a similar length
+"main tab settings" = "設定";
+
+"home ads counter footnote" = "インストール後にブロックされた広告とトラッカー";
+"home power off menu header" = "何をしたいですか？";
+"home power action turn on" = "オンにする";
+"home power action turn off" = "オフにする";
+"home power action pause" = "5分間一時停止";
+
+"home status paused" = "一時停止";
+"home status active" = "アクティブにする";
+"home status deactivated" = "無効になっています";
+"home action tap to activate" = "タップして有効化";
+"home status detail paused" = "タイマーが終了するまで一時停止中";
+"home status detail active" = "*広告*と*トラッカー*をブロック";
+"home status detail active with counter" = "ブロックされた *%@* の広告とトラッカー";
+"home status detail active slim" = "Blokada *スリム*がアクティブです";
+"home status detail plus" = "*プライバシーを保護する*+*";
+"home status detail progress" = "お待ちください…";
+
+"home plus button deactivated" = "BLOKADA+無効";
+"home plus button select location" = "場所を選択";
+"home plus button location" = "場所: *%@*";
+
+"pack section header" = "詳細機能";
+"pack section header details" = "機能の詳細";
 "pack category active" = "有効";
 "activity state blocked" = "ブロック中";
+"account section header other" = "その他";
+"account action my account" = "マイアカウント";
+"account action encryption" = "暗号化";
+"account action devices" = "デバイス";
+"account action inbox" = "受信トレイ";
 "account action about" = "アプリについて";
