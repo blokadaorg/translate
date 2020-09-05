@@ -74,8 +74,51 @@
 
 "pack section header" = "詳細機能";
 "pack section header details" = "機能の詳細";
+"pack action install" = "取得";
+"pack action update" = "更新";
+"pack action uninstall" = "削除";
+"pack author" = "作成者";
+"pack configurations header" = "構成";
+"pack information header" = "もっと見る";
+"pack tags header" = "タグ";
+"pack tags none" = "未設定";
+"pack category highlights" = "ハイライト";
 "pack category active" = "有効";
+"pack category all" = "すべて";
+
+"advanced section header packs" = "ブロックリスト";
+"advanced section slugline packs" = "より制限的なブロックを有効にする";
+"advanced section slugline apps" = "ブロックしないアプリを選択してください";
+"advanced section slugline encryption" = "暗号化レベルとDNSを調整してください";
+"advanced action slim migrate to full" = "Blokada Slimを使用しています。詳細はこちら";
+
+"location choice header" = "場所を選択";
+
+"activity section header" = "アクティビティ";
+"activity section header details" = "アクティビティの詳細";
+"activity request blocked" = "このリクエストはブロックされています。";
+"activity request allowed" = "このリクエストは許可されています。";
+"activity request allowed whitelisted" = "許可されたリストにあるため、このリクエストは許可されています";
+"activity request blocked blacklisted" = "ブロックリストにあるため、このリクエストはブロックされています。";
+"activity actions header" = "アクション";
+"activity information header" = "情報";
+"activity action add to whitelist" = "許可されたものに追加";
+"activity action remove from whitelist" = "許可されたものから削除";
+"activity action added to whitelist" = "許可されたものに追加しました";
+"activity action add to blacklist" = "ブロックに追加";
+"activity action remove from blacklist" = "ブロックから削除";
+"activity action added to blacklist" = "ブロックに追加しました";
+"activity action copy to clipboard" = "クリップボードに名前をコピー";
+"activity domain name" = "フルネーム";
+"activity time of occurrence" = "時刻";
+"activity number of occurrences" = "発生回数";
+"activity state modified" = "修正";
 "activity state blocked" = "ブロック中";
+"activity state allowed" = "許可";
+"activity happened one time" = "1回";
+"activity happened many times" = "%@ 回";
+"activity category recent" = "新着";
+"activity category top" = "上部";
 "account section header other" = "その他";
 "account action my account" = "マイアカウント";
 "account action encryption" = "暗号化";
