@@ -183,9 +183,29 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">ご使用のBlokadaのバージョンは最新ではないため、正しく機能しない可能性があります。 アップデートを導入するには、最新バージョンをダウンロードしてください。</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">お使いのデバイスに Blokada の多くのバージョンがインストールされているようです。他のバージョンを削除して、1つだけ保持しますか？</string>
+    <string name="account_inactive">続行するにはアカウントをアクティベートまたは復元してください。</string>
+    <string name="slot_lease_cant_connect">Blokada Plusに接続できませんでした。別のゲートウェイを選択してください。</string>
+    <string name="slot_account_cant_create">Blokada Plusアカウントを作成できませんでした。後でもう一度お試しいただくか、お問い合わせください。</string>
+    <string name="slot_account_name_title">アカウントID</string>
+    <string name="slot_account_name_desc">以前のサブスクリプションを復元するには、古いアカウントIDを入力してください。 間違えた場合に備えて、現在のアカウントIDを書き留めておきます。</string>
+    <string name="slot_account_name_error">アカウント IDには文字と数字のみを使用できます。</string>
+    <string name="slot_account_name_api_error">間違ったアカウントIDが入力されています</string>
+    <string name="slot_account_name_restore">復元</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">初期設定</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">詳細設定</string>
+    <string name="slot_whitelist_updating">設定を更新しています。しばらくお待ちください...</string>
+    <string name="slot_too_many_leases">デバイスのリストから古いデバイスを削除してください。</string>
+    <string name="slot_background_animation">バックグラウンドアニメーション</string>
+    <string name="slot_background_animation_description">オンの場合、DNSリクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。端末の動作に遅延が発生した場合はオフにします。</string>
+    <string name="slot_reset_counter_label">ブロックされたホストカウンターをリセット</string>
+    <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
+    <string name="slot_reset_counter_action">リセット</string>
+    <string name="label_workarounds">デバイス固有の回避策</string>
+    <string name="slot_dns_answer_label">代替DNS応答</string>
     <string name="slot_dns_answer_description">Blokada がブロックされたリクエストに対して、「ホストが見つかりません」から無効な ip への回答を変更します。 これは、「ホストが見つかりません」回答を得た場合、他のDNSサーバーに問い合わせ、ROMを助けることができます。 無効なアドレスに接続しようとする一部のアプリが遅くなる可能性があることにご注意ください。</string>
 </resources>
