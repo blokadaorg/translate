@@ -81,4 +81,30 @@
 "account action encryption" = "暗号化";
 "account action devices" = "デバイス";
 "account action inbox" = "受信トレイ";
+"account action logout" = "ログアウト/アカウントの復元";
 "account action about" = "アプリについて";
+"account action tap to show" = "タップして表示";
+"account action restoring" = "アカウントを復元中: %@";
+
+"account section header my subscription" = "私のサブスクリプション";
+"account section header general" = "全般";
+"account section header subscription" = "サブスクリプション";
+"account label id" = "アカウントID";
+"account label type" = "アカウントの種類";
+"account label active until" = "まで有効";
+"account action manage subscription" = "サブスクリプションの管理";
+"account action why upgrade" = "アップグレードする理由は?";
+
+"account unlock to show" = "ロックを解除してアカウントIDを表示する";
+
+"account header logout" = "ログアウト";
+"account logout description" = "別のアカウントIDを入力するか、戻って既存のアカウントを引き続き使用してください（このアプリを使用できません）。";
+"account id status unchanged" = "(変更なし)";
+"account action how to restore" = "古いアカウントを復元するにはどうすればいいですか?";
+
+"account encrypt level low" = "低い";
+"account encrypt level medium" = "標準";
+"account encrypt level high" = "高";
+"account encrypt label dns only" = "暗号化されたDNS";
+"account encrypt desc dns only" = "DNSは、デバイスがアクセスしたいWebサイトの場所を見つける方法です。 残念ながら、ほとんどのインターネットはまだ暗号化されていないDNSを使用しているため、閲覧履歴がスパイされる危険性があります。 有効にすると、Blokadaはデバイスに暗号化されたDNSサーバー（DNS over HTTPSとも呼ばれます）のみに接続するように強制します。";
+"account encrypt label everything" = "通信は暗号化されています";
