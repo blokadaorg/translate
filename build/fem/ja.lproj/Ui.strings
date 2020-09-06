@@ -66,12 +66,12 @@
 
 "account active forever" = "無期限";
 
-"main ask for permissions header" = "もう一歩だけ";
-"main ask for permissions description" = "Blokadaは広告をブロックするためにVPN設定を使用しています。次のステップで広告を許可するよう求められます。";
+"main ask for permissions header" = "完了まであともう一歩です";
+"main ask for permissions description" = "Blokadaは広告をブロックするためにVPN設定を使用しています。次のステップでVPN権限を許可するよう求められます。";
 
-"main share message" = "iOS 用の Blokada は、 %@ の広告とトラッカーをブロックするのに役立ちました！";
+"main share message" = "Blokada for iOSは、%@の広告とトラッカーをブロックしました！";
 
-"main rate us header" = "評価してください";
+"main rate us header" = "アプリを評価してください";
 "main rate us description" = "これまでのBlokadaはいかがですか？";
 "main rate us on app store" = "App StoreでBlokadaを評価していただけませんか？";
 "main rate us action sure" = "もちろん！";
@@ -92,21 +92,21 @@
 "home power action pause" = "5分間一時停止";
 
 "home status paused" = "一時停止";
-"home status active" = "アクティブにする";
+"home status active" = "有効にする";
 "home status deactivated" = "無効になっています";
 "home action tap to activate" = "タップして有効化";
 "home status detail paused" = "タイマーが終了するまで一時停止中";
 "home status detail active" = "*広告*と*トラッカー*をブロック";
 "home status detail active with counter" = "ブロックされた *%@* の広告とトラッカー";
-"home status detail active slim" = "Blokada *スリム*がアクティブです";
-"home status detail plus" = "*プライバシーを保護する*+*";
+"home status detail active slim" = "Blokada *Slim*がアクティブです";
+"home status detail plus" = "*+* *プライバシー*を保護する";
 "home status detail progress" = "お待ちください…";
 
-"home plus button deactivated" = "BLOKADA+無効";
+"home plus button deactivated" = "BLOKADA+は無効です";
 "home plus button select location" = "場所を選択";
 "home plus button location" = "場所: *%@*";
 
-"pack section header" = "詳細機能";
+"pack section header" = "高度な機能";
 "pack section header details" = "機能の詳細";
 "pack action install" = "取得";
 "pack action update" = "更新";
@@ -132,16 +132,16 @@
 "activity section header details" = "アクティビティの詳細";
 "activity request blocked" = "このリクエストはブロックされています。";
 "activity request allowed" = "このリクエストは許可されています。";
-"activity request allowed whitelisted" = "許可されたリストにあるため、このリクエストは許可されています";
-"activity request blocked blacklisted" = "ブロックリストにあるため、このリクエストはブロックされています。";
+"activity request allowed whitelisted" = "許可リストにあるため、このリクエストは通信を許可されています";
+"activity request blocked blacklisted" = "ブロックリストにあるため、このリクエストは通信をブロックされています。";
 "activity actions header" = "アクション";
 "activity information header" = "情報";
-"activity action add to whitelist" = "許可されたものに追加";
-"activity action remove from whitelist" = "許可されたものから削除";
-"activity action added to whitelist" = "許可されたものに追加しました";
+"activity action add to whitelist" = "許可リストに追加";
+"activity action remove from whitelist" = "許可リストから削除";
+"activity action added to whitelist" = "許可リストに追加しました";
 "activity action add to blacklist" = "ブロックリストに追加";
 "activity action remove from blacklist" = "ブロックリストから削除";
-"activity action added to blacklist" = "ブロックに追加しました";
+"activity action added to blacklist" = "ブロックリストに追加しました";
 "activity action copy to clipboard" = "クリップボードに名前をコピー";
 "activity domain name" = "フルネーム";
 "activity time of occurrence" = "時刻";
@@ -179,7 +179,7 @@
 "account section header subscription" = "サブスクリプション";
 "account label id" = "アカウントID";
 "account label type" = "アカウントの種類";
-"account label active until" = "まで有効";
+"account label active until" = "有効期限";
 "account action manage subscription" = "サブスクリプションの管理";
 "account action why upgrade" = "アップグレードする理由は?";
 
@@ -190,7 +190,7 @@
 "account id status unchanged" = "(変更なし)";
 "account action how to restore" = "古いアカウントを復元するにはどうすればいいですか?";
 
-"account encrypt level low" = "低い";
+"account encrypt level low" = "低";
 "account encrypt level medium" = "標準";
 "account encrypt level high" = "高";
 "account encrypt label dns only" = "暗号化されたDNS";
