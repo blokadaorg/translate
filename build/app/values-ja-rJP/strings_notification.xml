@@ -4,7 +4,7 @@
     <string name="notification_on_description">ONの場合、何かがブロックされるたびにBlokadaの通知が表示されます。 これは、一部のデバイスで表示されるVPN通知とは異なり、オフにすることはできません。
 &lt;br/&gt;から表示する通知を設定できます。</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
-    <string name="notification_blocked_title">ブロック</string>
+    <string name="notification_blocked_title">ブロック済み</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">表示しない</string>
@@ -26,7 +26,7 @@
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">モニタリング</string>
     <string name="notification_keepalive_activate">有効にする</string>
-    <string name="notification_keepalive_activating">Blokada が起動しています。少し時間がかかる場合があります。</string>
+    <string name="notification_keepalive_activating">Blokadaが起動しています。少し時間がかかる場合があります。</string>
     <string name="notification_keepalive_deactivate">無効にする</string>
     <string name="notification_keepalive_deactivating">Blokadaが無効になりました</string>
     <string name="notification_expired_title">Blokada Plusが無効になりました</string>
