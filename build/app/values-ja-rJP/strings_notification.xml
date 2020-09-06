@@ -15,7 +15,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">スリープモードにしない</string>
-    <string name="notification_keepalive_description">アプリがバックグラウンドで起動している状態で問題が発生した場合は、このスイッチをオンにします。 Blokadaは通知を表示させつづけることで、システムによって強制終了されることを防ぎます。上の通知または設定から非表示にできます。</string>
+    <string name="notification_keepalive_description">アプリがバックグラウンドで起動している状態で問題が発生した場合は、このスイッチをONにします。 Blokadaは通知を表示させつづけることで、システムによって強制終了されることを防ぎます。上の通知または設定から非表示にできます。</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">表示を続ける（タップで非表示）</string>
     <string name="notification_keepalive_text_new">Androidではアプリを動作させ続けるために通知を表示する必要がありますが、システム設定で無効にすることができます。</string>
@@ -25,13 +25,13 @@
     <string name="notification_keepalive_content">前回: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">モニタリング</string>
-    <string name="notification_keepalive_activate">起動する</string>
+    <string name="notification_keepalive_activate">有効にする</string>
     <string name="notification_keepalive_activating">Blokada が起動しています。少し時間がかかる場合があります。</string>
     <string name="notification_keepalive_deactivate">無効にする</string>
     <string name="notification_keepalive_deactivating">Blokadaが無効になりました</string>
     <string name="notification_expired_title">Blokada Plusが無効になりました</string>
     <string name="notification_expired_description">あなたのアカウントはBlokada Plusではありません。Blokadaの基本的な機能はBlokada Plusなしで正常に動作します。 
-しかしBlokada Plusへアップグレードすることで、高度な保護が利用可能となり、このプロジェクトへのサポートにもなります。</string>
+しかしBlokada Plusへアップグレードすることで、高度な保護が利用可能となり、このプロジェクトへのサポートとなります。</string>
     <string name="notification_lease_expired_title">Blokada Plusが無効になりました</string>
     <string name="notification_lease_expired_description">Blokada Plusへの接続に問題がありました。別のゲートウェイを選択してください。問題が解決しない場合は、お問い合わせください。</string>
     <string name="notification_channel_filtered">広告ブロック</string>
