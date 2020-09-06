@@ -191,13 +191,13 @@
 "account action how to restore" = "古いアカウントを復元するにはどうすればいいですか?";
 
 "account encrypt level low" = "低";
-"account encrypt level medium" = "標準";
+"account encrypt level medium" = "中";
 "account encrypt level high" = "高";
 "account encrypt label dns only" = "暗号化されたDNS";
 "account encrypt desc dns only" = "DNSは、デバイスがアクセスしたいWebサイトの場所を見つける方法です。 残念ながら、ほとんどのインターネットはまだ暗号化されていないDNSを使用しているため、閲覧履歴がスパイされる危険性があります。 有効にすると、Blokadaはデバイスに暗号化されたDNSサーバー（DNS over HTTPSとも呼ばれます）のみに接続するように強制します。";
 "account encrypt label everything" = "通信は暗号化されています";
 "account encrypt desc everything" = "デバイスは安全なVPNサーバーを介して接続されており、デバイスとの間のすべての通信は強力なアルゴリズムを使用して暗号化されています。 これにより、銀行取引やプライベートな写真などの個人情報が、コーヒーショップのWi-Fiなどの安全でない場所で盗まれるのを防ぎます。";
-"account encrypt action turn on" = "BLOKADAをオンにする";
+"account encrypt action turn on" = "BLOKADAをONにする";
 "account encrypt header level" = "暗号化レベル";
 "account encrypt label level" = "レベル";
 "account encrypt label level low" = "低：暗号化なし";
@@ -239,8 +239,8 @@
 "payment action policy" = "プライバシーポリシー";
 "payment alert error header" = "App Storeからのメッセージ";
 
-"payment subscription 1 month" = "1 ヶ月";
-"payment subscription many months" = "%@ ヶ月";
+"payment subscription 1 month" = "1ヶ月";
+"payment subscription many months" = "%@ヶ月";
 "payment subscription per month" = "月額%@";
 "payment subscription offer" = "%@ を保存";
 
@@ -270,7 +270,7 @@
 "app settings action notifications" = "通知設定を開く";
 "app settings section details" = "詳細";
 "app settings status default" = "システムのデフォルト";
-"app settings start on boot" = "起動時に開始";
+"app settings start on boot" = "端末起動時にblokadaを実行";
 "app settings use dns over https" = "DNS over HTTPSを使用する";
 "app settings backup" = "クラウドバックアップを使用する";
 "app settings section advanced" = "詳細";
