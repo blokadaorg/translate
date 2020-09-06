@@ -14,21 +14,21 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-09-05 03:22\n"
+"PO-Revision-Date: 2020-09-06 12:32\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr "1 ヶ月"
+msgstr "1ヶ月"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr "12 ヶ月"
+msgstr "12ヶ月"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
@@ -53,7 +53,7 @@ msgstr "現在のサイクルの有効期限が切れた後、新しいサブス
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr "実際のブラウザが必要です。下の「ブラウザで開く」ボタンを試してみてください。"
+msgstr "外部ブラウザでの操作が必要です。下の「ブラウザで開く」ボタンを試してみてください。"
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
@@ -88,7 +88,7 @@ msgstr "アカウントを有効にする"
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr "アクティベーションをキャンセルしました"
+msgstr "アカウントの有効化をキャンセルしました"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
@@ -301,7 +301,7 @@ msgstr "戻る"
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr "Stellar wallet を利用しています"
+msgstr "Stellar wallet を利用している"
 
 #. [account.title_short] - short version of account ID input
 #. defaultMessage is:
@@ -511,7 +511,7 @@ msgstr "申し訳ありませんが、エラーが発生しました。後でも
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr "Stellar?"
+msgstr "Stellarとは?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
