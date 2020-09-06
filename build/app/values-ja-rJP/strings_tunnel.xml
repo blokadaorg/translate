@@ -27,7 +27,7 @@
     <string name="tunnel_config_cname_title">[BETA] CNameブロック</string>
     <string name="tunnel_config_cname_description">ブロックリストにあるドメインのすべてのCNameをブロックする場合は、このスイッチをアクティブにします。 CNameはドメインのエイリアスであり、一部の広告主がこのドメインを、頻繁に変化するドメインまたはあまり目立たないドメインの背後に隠すために使用します。 この方法は、ブロックされたドメインに解決されるすべてのCNameをブロックすることで回避できます。 これは実験的な機能であり、正常に動作しない可能性があることに注意してください。</string>
     <string name="tunnel_config_fallback_title">DNS フォールバック</string>
-    <string name="tunnel_config_fallback_description">Wi-Fi使用時などでインターネット接続が出来なくなる場合は、このスイッチを有効にしてください。 これにより、アプリが一時的にCloudflareまたはGoogle DNSに切り替わり、接続を維持することができます。 この設定を有効にするには、DNSセクションでサーバーを再選択する必要がある場合があります。</string>
+    <string name="tunnel_config_fallback_description">Wi-Fi使用時などでインターネット接続が出来なくなる場合は、このスイッチを有効にしてください。 これにより、アプリが一時的にCloudflareまたはGoogle DNSへ切り替え、接続を維持します。 この設定を有効にするには、DNSセクションでサーバーを再選択する必要がある場合があります。</string>
     <string name="tunnel_config_smartlist_title">[BETA] スマートリスト</string>
     <string name="tunnel_config_smartlist_reset_btn">リセット</string>
     <string name="tunnel_config_smartlist_clean_btn">クリーンアップ</string>
