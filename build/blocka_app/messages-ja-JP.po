@@ -14,21 +14,21 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2020-09-04 13:02\n"
+"PO-Revision-Date: 2020-09-07 10:45\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr "1 ヶ月"
+msgstr "1ヶ月"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr "12 ヶ月"
+msgstr "12ヶ月"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
@@ -53,7 +53,7 @@ msgstr "現在のサイクルの有効期限が切れた後、新しいサブス
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr "実際のブラウザが必要です。下の「ブラウザで開く」ボタンを試してみてください。"
+msgstr "外部ブラウザでの操作が必要です。下の「ブラウザで開く」ボタンを試してみてください。"
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
@@ -81,14 +81,14 @@ msgstr "アカウントID"
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr "アカウントを有効にする"
+msgstr "アカウントを有効化する"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr "アクティベーションをキャンセルしました"
+msgstr "アカウントの有効化をキャンセルしました"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
@@ -134,14 +134,14 @@ msgstr "有効期限の自動更新: {status}"
 #. Blokada Account
 #: build/messages/src/AuthedRoute.json
 msgid "Blokada Account"
-msgstr "Blokada アカウント"
+msgstr "Blokadaアカウント"
 
 #. [manage.devices_wireguard_description] - Short description of what WireGuard is shown next to download link
 #. defaultMessage is:
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr "Blokada VPNは {link}を使用しています。新しいデバイスを作成するときに設定をダウンロードできます。"
+msgstr "Blokada VPNは {link} を使用しています。新しいデバイスを作成するときに設定をダウンロードできます。"
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
@@ -188,7 +188,7 @@ msgstr "続行"
 #. Continue with the Blokada App
 #: build/messages/src/Callback.json
 msgid "Continue with the Blokada App"
-msgstr "Blokada アプリで続ける"
+msgstr "Blokadaアプリで続ける"
 
 #. [manage.devices_description] - Header of top level manage devices
 #. defaultMessage is:
@@ -202,14 +202,14 @@ msgstr "接続できるデバイスを作成および設定します。"
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr "無効"
+msgstr "無効になりました"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr "無効"
+msgstr "無効化しています"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
@@ -251,7 +251,7 @@ msgstr "ダウンロード"
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "Eメール"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
@@ -301,7 +301,7 @@ msgstr "戻る"
 #. I have a Stellar wallet
 #: build/messages/src/Checkout.json
 msgid "I have a Stellar wallet"
-msgstr "Stellar wallet を利用しています"
+msgstr "Stellar walletを利用している方はこちら"
 
 #. [account.title_short] - short version of account ID input
 #. defaultMessage is:
@@ -315,7 +315,7 @@ msgstr "ID"
 #. Keybase referrer
 #: build/messages/src/Checkout.json
 msgid "Keybase referrer"
-msgstr "キーベースリファラー"
+msgstr "Keybase referrer"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
@@ -357,133 +357,133 @@ msgstr "デバイス名"
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "新規アカウント"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr ""
+msgstr "新規アカウント"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "新しいデバイス"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
 #. Not found
 #: build/messages/src/App.json
 msgid "Not found"
-msgstr ""
+msgstr "見つかりません"
 
 #. [account.activate_once_stellar_description] - Shown above Stellar button for paying one time
 #. defaultMessage is:
 #. Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}.
 #: build/messages/src/Checkout.json
 msgid "Pay equivalent of €{price} using a Stellar wallet. We recommend using {recommeded}."
-msgstr ""
+msgstr "Stellar walletを使用して€{price} 相当の支払いを行います。 {recommeded} を使用することをお勧めします。"
 
 #. [account.activate_once_paypal] - Header for paying with PayPal
 #. defaultMessage is:
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "PayPalで支払う"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
 #. Pay with PayPal is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal is available in Blokada v{version} and up"
-msgstr ""
+msgstr "PayPalでの支払いはBlokada v{version} 以降で可能です"
 
 #. [account.activate_once_stellar_disabled] - Header for paying with Stellar when disabled
 #. defaultMessage is:
 #. Pay with Stellar Lumens is available in Blokada v{version} and up
 #: build/messages/src/Checkout.json
 msgid "Pay with Stellar Lumens is available in Blokada v{version} and up"
-msgstr ""
+msgstr "Stellar Lumensでの支払いはBlokada v{version} 以降で可能です。"
 
 #. [account.subscription_card_header] - Title above credit card input
 #. defaultMessage is:
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "カードで支払う"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
 #. Pay with cryptocurrency
 #: build/messages/src/Checkout.json
 msgid "Pay with cryptocurrency"
-msgstr ""
+msgstr "暗号通貨で支払う"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
 #. Pay €{price}
 #: build/messages/src/Checkout.json
 msgid "Pay €{price}"
-msgstr ""
+msgstr "€{price} を支払う"
 
 #. [account.activate_subscription] - Button for subscribing to recurring payment for activating an account
 #. defaultMessage is:
 #. Pay €{price} each period
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} each period"
-msgstr ""
+msgstr "各期間に{price} € 支払う"
 
 #. [account.activate_once_paypal_description] - Shown above PayPal button for paying one time
 #. defaultMessage is:
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr ""
+msgstr "PayPalで€{price} を支払う"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr ""
+msgstr "支払いに失敗しました。カードの詳細を確認してください。"
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr ""
+msgstr "支払いに失敗しました。詳細はPayPalをご覧ください。"
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr ""
+msgstr "前の画面からアカウントIDを確認してください。"
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr ""
+msgstr "ウォレットに進む"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
 #. Processing {spinner}
 #: build/messages/src/Checkout.json
 msgid "Processing {spinner}"
-msgstr ""
+msgstr "{spinner} を処理中"
 
 #. [manage.devices_public_key] - Label for device public key
 #. defaultMessage is:
 #. Public Key
 #: build/messages/src/Manage.json
 msgid "Public Key"
-msgstr ""
+msgstr "公開鍵"
 
 #. [manage.devices_save] - Button for saving changes for device configuration
 #. defaultMessage is:
@@ -497,56 +497,56 @@ msgstr "保存"
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr ""
+msgstr "申し訳ありません"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr ""
+msgstr "申し訳ありませんが、エラーが発生しました。後でもう一度お試しください。"
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
 #. Stellar?
 #: build/messages/src/Checkout.json
 msgid "Stellar?"
-msgstr ""
+msgstr "Stellarとは?"
 
 #. [signup.new_description] - Description of the signup when displaying a new account ID
 #. defaultMessage is:
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr ""
+msgstr "アカウントIDを安全な場所に保管してください。デバイスを接続してアクティブにする際に、アカウントIDが必要です。"
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
 #. Support
 #: build/messages/src/Support.json
 msgid "Support"
-msgstr ""
+msgstr "サポート"
 
 #. [account.activate_paypal_processing_stalled] - Shown while waiting for paypal confirmation more than a minute
 #. defaultMessage is:
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr ""
+msgstr "予想以上に時間がかかっている場合には左下のサポートボタンからお問い合わせください"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "ありがとうございます！"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr ""
+msgstr "アカウントIDが一致しませんでした。前の画面に正しく保存していることを確認し、もう一度お試しください。"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -581,7 +581,7 @@ msgstr "現在、F-DroidビルドでVPNのアクティベーションに問題�
 #. WireGuard Configuration
 #: build/messages/src/Manage.json
 msgid "WireGuard Configuration"
-msgstr "WireGuard 設定"
+msgstr "WireGuard設定"
 
 #. [support.input] - Shown on support popup message input
 #. defaultMessage is:

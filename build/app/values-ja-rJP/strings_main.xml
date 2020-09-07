@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="main_loading">読み込み中です。しばらくお待ちください…</string>
+    <string name="main_loading">読み込み中。しばらくお待ちください…</string>
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
@@ -10,7 +10,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Label for the Quick Settings toggle -->
-    <string name="main_quicksettings_toggle">ブロック中</string>
+    <string name="main_quicksettings_toggle">ブロック</string>
     <!-- Active status for the Quick Settings toggle -->
     <!-- Disabled status for the Quick Settings toggle -->
     <!-- App status, as in: Blokada is Active -->
@@ -18,11 +18,11 @@
     <!-- App status, as in: Blokada is Disabled -->
     <string name="main_status_disabled">無効</string>
     <!-- App status, always displayed without the "Blokada is" part. -->
-    <string name="main_status_activating">有効になっています</string>
+    <string name="main_status_activating">有効にしています…</string>
     <!-- App status, always displayed without the "Blokada is" part. -->
-    <string name="main_status_deactivating">無効になっています</string>
+    <string name="main_status_deactivating">停止しています</string>
     <string name="main_blog_text">ニュース</string>
-    <string name="main_autostart_text">起動時に実行</string>
+    <string name="main_autostart_text">端末起動時にblokadaを実行</string>
     <!-- A menu option to send feedback or contact us -->
     <!-- A menu option to open Patron of the month -->
     <!-- A menu option to open Patron voting screen -->
@@ -39,7 +39,7 @@
     <!-- An overlay header on top of Patron page -->
     <string name="main_log">ログを共有</string>
     <!-- To display a big number in short way, eg. 1.69 million -->
-    <string name="core_format_million">%d00万</string>
+    <string name="core_format_million">%s00万</string>
     <!-- To display a big number in short way, eg. 420 thousand -->
-    <string name="core_format_thousand">%s ,000</string>
+    <string name="core_format_thousand">%s, 000</string>
 </resources>

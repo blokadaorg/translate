@@ -1,13 +1,283 @@
+/*
+  Localizable.strings
+  IOS
+
+  Created by Karol Gusak on 09/06/2020.
+  Copyright © 2020 Blocka AB. All rights reserved.
+*/
+
+"error device offline" = "インターネットに接続されていません";
+"error account inactive" = "あなたのアカウントはアクティブではありません。BLOKADA+を使用するにはアカウントをアクティベートしてください。";
+"error account inactive after restore" = "有効なアカウントではありません。 これが間違いであると思われる場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error creating account" = "新しいアカウントを作成できませんでした。後でもう一度お試しください。";
+"error fetching data" = "この操作は完了できませんでした。オンラインであることを確認し、時間を置いてもう一度やり直してください。 問題が解決しない場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error tunnel" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokada VPNプロファイルを削除して再度お試しください。";
+"error vpn" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokada VPNプロファイルを削除して再度お試しください。";
+"error vpn perms" = "VPN プロファイルを作成する権限がありません。";
+"error vpn no current lease" = "場所を選択してください。";
+"error vpn too many leases" = "デバイス数の上限に達しました。いずれかのデバイスを削除して、もう一度やり直してください。";
+"error vpn expired" = "VPNが無効になっています。BLOKADA+ を引き続き使用するには、サブスクリプションを更新してください";
+"error payment inactive after restore" = "以前の支払いは復元されましたが、サブスクリプションの有効期限が切れています。 これが間違いであると思われる場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error payment failed" = "現在、支払いが利用できません。オンラインであることを確認して、時間を置いてもう一度お試しください。 問題が解決しない場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error payment not available" = "このデバイスではお支払いはご利用いただけません。Apple Pay が有効になっていないか、お住まいの国での購入はまだ処理されていません。";
+"error payment canceled" = "支払いがキャンセルされました。課金されていません。";
+"error pack install" = "この機能をインストール(またはアンインストール) できませんでした。後でもう一度お試しください。";
+"error location failed fetching" = "場所を取得できませんでした。";
+"error unknown" = "不明な問題が発生しました。もう一度やり直してください。問題が解決しない場合は、上部にあるヘルプアイコンをタップしてご連絡ください。";
+"error blocka dns in filtering mode" = "Blokada DNSは現在Plusモードでのみサポートされています。別のDNSを選択して再度お試し下さい。";
 
 "universal action continue" = "続行";
 "universal action cancel" = "キャンセル";
+"universal action close" = "閉じる";
+"universal action done" = "完了";
+"universal action try again" = "もう一度やり直してください";
+"universal action learn more" = "詳細";
 "universal action help" = "ヘルプ";
+"universal action show log" = "ログ";
 "universal action share log" = "ログを共有";
+"universal action copy" = "コピー";
 "universal action save" = "保存";
+"universal action contact us" = "お問い合わせ";
+"universal action support" = "サポート";
+"universal action upgrade" = "BLOKADA+ にアップグレード";
+"universal action yes" = "はい";
+"universal action no" = "いいえ";
 "universal action donate" = "寄付";
+"universal action community" = "コミュニティ";
 "universal action open in browser" = "ブラウザで開く";
+"universal action more" = "もっと見る";
 
 "universal label help" = "ヘルプ";
+"universal status processing" = "処理中です。しばらくお待ちください…";
+"universal status copied to clipboard" = "クリップボードにコピーしました";
+"universal status restart required" = "変更を反映するにはアプリを再起動してください。";
+
+"alert error header" = "エラーが発生しました！";
+"alert vpn expired header" = "BLOKADA+ の有効期限が切れました";
+"alert download link body" = "セキュリティ上の理由から、ファイルをダウンロードするにはお使いのブラウザでこのウェブサイトを開く必要があります。ブラウザでウェブサイトを開き、もう一度ダウンロードリンクをタップしてください。";
+
+"notification vpn expired header" = "BLOKADA+ サブスクリプションの有効期限が切れました";
+"notification vpn expired subtitle" = "VPN は無効になっています";
+"notification vpn expired body" = "BLOKADA+ を引き続き使用するには、サブスクリプションを更新してください";
+
+"notification update header" = "アップデートが利用可能です";
+"alert update body" = "Blokada %@ がダウンロード可能になりました。アプリを最新の状態に保ち、公式ソースからのみダウンロードすることをお勧めします。";
+"update label updated" = "更新されました！";
+
+"account active forever" = "無期限";
+
+"main ask for permissions header" = "完了まであともう一歩です";
+"main ask for permissions description" = "Blokadaは広告をブロックするためにVPN設定を使用しています。次のステップでVPN権限を許可するよう求められます。";
+
+"main share message" = "Blokada for iOSは、%@の広告とトラッカーをブロックしました！";
+
+"main rate us header" = "アプリを評価してください";
+"main rate us description" = "これまでのBlokadaはいかがですか？";
+"main rate us on app store" = "App StoreでBlokadaを評価していただけませんか？";
+"main rate us action sure" = "もちろん！";
+
+// Make sure each tab name has a similar length
+"main tab home" = "ホーム";
+// Make sure each tab name has a similar length
+"main tab activity" = "アクティビティ";
+// Make sure each tab name has a similar length
+"main tab advanced" = "詳細";
+// Make sure each tab name has a similar length
+"main tab settings" = "設定";
+
+"home ads counter footnote" = "インストール後にブロックされた広告とトラッカー";
+"home power off menu header" = "何をしたいですか？";
+"home power action turn on" = "オンにする";
+"home power action turn off" = "オフにする";
+"home power action pause" = "5分間一時停止";
+
+"home status paused" = "一時停止";
+"home status active" = "有効";
+"home status deactivated" = "無効になっています";
+"home action tap to activate" = "タップして有効化";
+"home status detail paused" = "タイマーが終了するまで一時停止中";
+"home status detail active" = "*広告*と*トラッカー*をブロック";
+"home status detail active with counter" = "ブロックされた *%@* の広告とトラッカー";
+"home status detail active slim" = "Blokada *Slim*がアクティブです";
+"home status detail plus" = "*+* *プライバシー*を保護する";
+"home status detail progress" = "お待ちください…";
+
+"home plus button deactivated" = "BLOKADA+は無効です";
+"home plus button select location" = "場所を選択";
+"home plus button location" = "場所: *%@*";
+
+"pack section header" = "高度な機能";
+"pack section header details" = "機能の詳細";
+"pack action install" = "取得";
+"pack action update" = "更新";
+"pack action uninstall" = "削除";
+"pack author" = "作成者";
+"pack configurations header" = "構成";
+"pack information header" = "もっと見る";
+"pack tags header" = "タグ";
+"pack tags none" = "未設定";
+"pack category highlights" = "ハイライト";
 "pack category active" = "有効";
-"activity state blocked" = "ブロック中";
+"pack category all" = "すべて";
+
+"advanced section header packs" = "ブロックリスト";
+"advanced section slugline packs" = "より制限的なブロックを有効にする";
+"advanced section slugline apps" = "ブロックしないアプリを選択してください";
+"advanced section slugline encryption" = "暗号化レベルとDNSを調整してください";
+"advanced action slim migrate to full" = "Blokada Slimを使用しています。詳細はこちら";
+
+"location choice header" = "場所を選択";
+
+"activity section header" = "アクティビティ";
+"activity section header details" = "アクティビティの詳細";
+"activity request blocked" = "このリクエストはブロックされています。";
+"activity request allowed" = "このリクエストは許可されています。";
+"activity request allowed whitelisted" = "許可リストにあるため、このリクエストは通信を許可されています";
+"activity request blocked blacklisted" = "ブロックリストにあるため、このリクエストは通信をブロックされています。";
+"activity actions header" = "アクション";
+"activity information header" = "情報";
+"activity action add to whitelist" = "許可リストに追加";
+"activity action remove from whitelist" = "許可リストから削除";
+"activity action added to whitelist" = "許可リストに追加しました";
+"activity action add to blacklist" = "ブロックリストに追加";
+"activity action remove from blacklist" = "ブロックリストから削除";
+"activity action added to blacklist" = "ブロックリストに追加しました";
+"activity action copy to clipboard" = "クリップボードに名前をコピー";
+"activity domain name" = "フルネーム";
+"activity time of occurrence" = "時刻";
+"activity number of occurrences" = "発生回数";
+"activity state modified" = "修正";
+"activity state blocked" = "ブロック済";
+"activity state allowed" = "許可済";
+"activity happened one time" = "1回";
+"activity happened many times" = "%@回";
+"activity category recent" = "新着";
+"activity category top" = "上部";
+"activity category top blocked" = "ブロック回数が多い";
+"activity category top allowed" = "許可回数が多い";
+"activity filter header" = "どのエントリを見たいですか？";
+"activity filter show all" = "すべての項目を表示";
+"activity filter show blocked" = "ブロックされたもののみ表示";
+"activity filter show allowed" = "許可されたもののみ表示";
+"activity empty text" = "デバイスを使用してみて、後でここに戻って、デバイスの接続先を確認してください。";
+
+"account section header settings" = "設定";
+"account status text" = "BLOKADA %@ アカウントはまで有効 %@です。";
+"account section header primary" = "プライマリ";
+"account section header other" = "その他";
+"account action my account" = "マイアカウント";
+"account action encryption" = "暗号化";
+"account action devices" = "デバイス";
+"account action inbox" = "受信トレイ";
+"account action logout" = "ログアウト/アカウントの復元";
 "account action about" = "アプリについて";
+"account action tap to show" = "タップして表示";
+"account action restoring" = "アカウントを復元中: %@";
+
+"account section header my subscription" = "私のサブスクリプション";
+"account section header general" = "全般";
+"account section header subscription" = "サブスクリプション";
+"account label id" = "アカウントID";
+"account label type" = "アカウントの種類";
+"account label active until" = "有効期限";
+"account action manage subscription" = "サブスクリプションの管理";
+"account action why upgrade" = "アップグレードする理由は?";
+
+"account unlock to show" = "ロックを解除してアカウントIDを表示する";
+
+"account header logout" = "ログアウト";
+"account logout description" = "別のアカウントIDを入力するか、戻って既存のアカウントを引き続き使用してください (アカウントを利用せずこのアプリを使用することはできません)";
+"account id status unchanged" = "(変更なし)";
+"account action how to restore" = "古いアカウントを復元するにはどうすればいいですか?";
+
+"account encrypt level low" = "低";
+"account encrypt level medium" = "中";
+"account encrypt level high" = "高";
+"account encrypt label dns only" = "暗号化されたDNS";
+"account encrypt desc dns only" = "DNSは、デバイスがアクセスしたいWebサイトの場所を見つける方法です。 残念ながら、ほとんどのインターネットはまだ暗号化されていないDNSを使用しているため、閲覧履歴がスパイされる危険性があります。 有効にすると、Blokadaはデバイスに暗号化されたDNSサーバー (DNS over HTTPSとも呼ばれます) のみに接続するように強制します。";
+"account encrypt label everything" = "通信は暗号化されています";
+"account encrypt desc everything" = "デバイスは安全なVPNサーバーを介して接続されており、デバイスとの間のすべての通信は強力なアルゴリズムを使用して暗号化されています。 これにより、銀行取引やプライベートな写真などの個人情報が、コーヒーショップのWi-Fiなどの安全でない場所で盗まれるのを防ぎます。";
+"account encrypt action turn on" = "BLOKADAをONにする";
+"account encrypt header level" = "暗号化レベル";
+"account encrypt label level" = "レベル";
+"account encrypt label level low" = "低：暗号化なし";
+"account encrypt label level medium" = "中: DNS の暗号化";
+"account encrypt label level high" = "高: すべての暗号化";
+"account encrypt header explanation" = "DNSとは、あなたのデバイスがウェブサイトのある場所を知る方法です。BLOKADAは暗号化されたサーバーのみをサポートしています。";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNSとは？";
+"account encrypt section header" = "暗号化";
+
+"account lease label devices list" = "これらのデバイスはあなたのアカウントに接続されています。";
+"account lease label devices" = "デバイス";
+"account lease label this device" = " (このデバイス)";
+
+"account support action how help" = "お困りですか？";
+"account support action kb" = "サポートFAQ";
+
+"payment header activated" = "アクティベートしました！";
+"payment activated description" = "BlokadaがPlusモードに切り替わり、安全な場所の1つを介して接続します。 どれを選択すればよいかわからない場合は、最も近いものをお勧めします。";
+"payment action choose location" = "場所を選択";
+
+"payment title" = "VPNサービスにアップグレードして、*あなたのプライバシー*を管理し続けましょう。";
+"payment feature title change location" = "場所の変更";
+"payment feature desc change location" = "あなたのIPアドレスを非表示にして、あなたが他の国に居るように見せかけます。これは第三者からあなたを隠し、身元を保護するのに役立ちます。";
+"payment feature title encrypt data" = "データを暗号化";
+"payment feature desc encrypt data" = "当社のVPNトンネルを通じて送信されるデータは、権限のない当事者による傍受から保護するために強力なアルゴリズムを使用して暗号化されます。";
+"payment feature title faster connection" = "より高速な接続";
+"payment feature desc faster connection" = "世界のさまざまな地域のサーバーで最高100Mbpsのスピードを実現します。";
+"payment feature title devices" = "最大 5 台のデバイス";
+"payment feature desc devices" = "同じアカウントを使用して、最大5つのデバイス (iOS、Android、PC) でサブスクリプションを共有できます。";
+"payment feature title no ads" = "広告なし";
+"payment feature desc no ads" = "世界的に有名な Blokada の広告ブロック技術を使用し、保護レベルを向上させ、データをプライベートに保ちます。";
+"payment feature title support" = "丁寧なサポート";
+"payment feature desc support" = "当社のカスタマーサポートと活気のあるオープンソースコミュニティのおかげで、質問に迅速に対応できます。";
+"payment action see all features" = "すべての機能を見る";
+"payment action restore" = "購入を復元する";
+"payment action terms and privacy" = "利用規約とプライバシー";
+"payment action terms" = "利用規約";
+"payment action policy" = "プライバシーポリシー";
+"payment alert error header" = "App Storeからのメッセージ";
+
+"payment subscription 1 month" = "1ヶ月";
+"payment subscription many months" = "%@ヶ月";
+"payment subscription per month" = "月額%@";
+"payment subscription offer" = "%@を保存";
+
+"apps section header" = "アプリ";
+"apps label installed" = "インストール済み";
+"apps label system" = "システム";
+"apps status bypassed" = "(バイパス済み)";
+"apps filter header" = "どのアプリを表示しますか？";
+"apps filter action show all" = "すべてのアプリを表示";
+"apps filter action show bypassed" = "バイパスされたもののみ表示";
+"apps filter action show not bypassed" = "バイパスされていないもののみを表示";
+"apps filter action toggle system" = "すべてのシステムアプリを切り替える";
+
+"app settings section header" = "このデバイス";
+"app settings language label" = "言語";
+"app settings theme label" = "アプリのテーマ";
+"app settings theme light" = "ライト";
+"app settings theme dark" = "ダーク";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "リンクをリダイレクトする";
+"app settings browser internal" = "内部ブラウザー";
+"app settings browser external" = "外部ブラウザー (可能な場合)";
+"app settings ipv6 label" = "IPv6 を許可";
+"app settings section system" = "システム";
+"app settings action app info" = "アプリ情報を開く";
+"app settings action vpn profile" = "VPNプロファイルを開く";
+"app settings action notifications" = "通知設定を開く";
+"app settings section details" = "詳細";
+"app settings status default" = "システムのデフォルト";
+"app settings start on boot" = "端末起動時にblokadaを実行する";
+"app settings use dns over https" = "DNS over HTTPSを使用する";
+"app settings backup" = "クラウドバックアップを使用する";
+"app settings section advanced" = "詳細";
+
+"intro header" = "Blokadaは実行中です!";
+"intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定でAlways on VPN / Connect on Demandを有効にすることをお勧めします。";
+
+"location region america" = "アメリカ";
+"location region europe" = "ヨーロッパ";
+"location region asia" = "アジア";
