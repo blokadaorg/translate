@@ -27,7 +27,7 @@
     <string name="panel_domain_blocked_normal_desc">このドメインはブロックされています。許可するには以下のボタンを使用してください。</string>
     <string name="panel_domain_blocked_nxdomain_desc">このドメインはDNSサーバーによって正しく解決されませんでした。サーバーがドメインをブロックしているか、存在しないドメインです。</string>
     <string name="panel_domain_blocked_error_desc">このドメインの解決中に問題が発生しました。DNSサーバーはエラーコードで応答しました。</string>
-    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインの CName であるためブロックされています。 許可するには、CNameまたはドメイン自体を許可されたホストに追加してください。</string>
+    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインのCNameであるためブロックされています。 許可するには、CNameまたはドメイン自体を許可されたホストに追加してください。</string>
     <string name="panel_domain_blocked_toast">ブラックリストに追加しました。</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">コピー</string>
@@ -49,9 +49,9 @@
     <string name="slot_action_remove">削除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
-    <string name="slot_switch_on">はい</string>
+    <string name="slot_switch_on">Yes</string>
     <!-- A state for switches (like notifications: off) -->
-    <string name="slot_switch_off">いいえ</string>
+    <string name="slot_switch_off">No</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">新しい UI の使用方法：ここをタップして表示します。</string>
     <string name="slot_intro_new_header">新しいUIの使い方は？</string>
