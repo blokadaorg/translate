@@ -77,10 +77,10 @@
     <string name="menu_vpn_info_account_label">私はアカウントを持っていますか？</string>
     <string name="menu_vpn_info_account_line1">はい！あなたのアカウントは最初の実行時に自動的に作成されます。登録する必要はありません。</string>
     <string name="menu_vpn_info_account_line2">アカウントIDを表示するには、上のアバターをタップしてください。</string>
-    <string name="menu_vpn_info_account_line3">あなたのアカウントIDは秘密であり、誰にも表示しないでください。</string>
+    <string name="menu_vpn_info_account_line3">あなたのアカウントIDは秘密であり、誰にも教えないでください。</string>
     <string name="menu_vpn_info_account_line4">アプリを再インストールする必要がある場合に備えて、アカウントIDを書き留めてください。</string>
     <string name="menu_dns_recommended">推奨されるDNSサーバー</string>
-    <string name="menu_dns_intro">DNSは、使用するWebサイトおよびアプリのIPアドレスの変換を担当します。 適切なDNSを選択すると、デバイスの速度が向上し、プライバシーの保護に役立ちます。</string>
+    <string name="menu_dns_intro">DNSは、使用するWebサイトおよびアプリのIPアドレスへの変換を担当します。 適切なDNSを選択すると、デバイスの速度が向上し、プライバシーの保護に役立ちます。</string>
     <string name="menu_dns_select">DNSサーバーを1つ選択します。</string>
     <string name="menu_apps_intro">一部のアプリはBlokadaで正しく動作しない場合があります。 たとえば、接続に問題がある可能性があります。\n\nこのような場合、VPNをアクティブにすると解決することがよくあります。\n\nそれ以外の場合は、これらのアプリにBlokadaを完全にバイパスさせることができます。 バイパスされたアプリはBlokada Plusの外部で通信することを覚えておいてください。</string>
     <string name="menu_apps_system_label">システムアプリは、お使いのデバイスでプリインストールされているものです。それらのいくつかは隠されています。これらのアプリが何をしているか分かっている場合にのみ、変更してください。</string>
@@ -90,7 +90,7 @@
     <string name="menu_host_list_status">リストの状態</string>
     <string name="menu_host_list_download">リストのダウンロード設定</string>
     <string name="menu_host_whitelist">ここに追加したホストがブロックされることはありません。 このリストは、たとえば、アクセスするWebサイトが誤ってブロックされた場合に使用します。 これはバイパスされたアプリには適用されないことに注意してください。</string>
-    <string name="menu_host_blacklist">ここに追加したホストは常にブロックされます。 たとえば、標準リストによってブロックされていないが、ブロックされる必要があるWebサイトを追加できます。 これはバイパスされたアプリには適用されないことに注意してください。</string>
+    <string name="menu_host_blacklist">ここに追加したホストは常にブロックされます。たとえば、標準リストによってブロックされていないが、ブロックされる必要があるWebサイトを追加できます。これはバイパスされたアプリには適用されないことに注意してください。</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">その他</string>
     <string name="menu_share_log_label">ログを共有することで、問題の理由を発見できます。 Blokadaコアチームメンバーの1人に非公開で送信します。</string>
@@ -104,7 +104,7 @@
     <string name="menu_configure">Blokadaの機能を設定</string>
     <string name="menu_exclude">正しく動作しないアプリを除外</string>
     <!-- A section in menu for additional buttons  -->
-    <string name="menu_dive_in">もっと深く学ぶ</string>
+    <string name="menu_dive_in">もっと見る</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">管理</string>
     <string name="menu_ok">OK</string>
