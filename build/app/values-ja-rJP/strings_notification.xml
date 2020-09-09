@@ -11,7 +11,7 @@
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
     <string name="notification_blocked_whitelist">ホワイトリスト</string>
     <!-- Toast message that shows up once user adds a host to the whitelist, using a button from the notification. -->
-    <string name="notification_blocked_whitelist_applied">設定完了　変更には数秒かかることがあります。</string>
+    <string name="notification_blocked_whitelist_applied">設定完了 変更には少し時間がかかることがあります。</string>
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">スリープモードにしない</string>
@@ -20,7 +20,7 @@
     <string name="notification_keepalive_title_new">表示を続ける(タップで非表示)</string>
     <string name="notification_keepalive_text_new">Androidではアプリを動作させ続けるために通知を表示する必要がありますが、システム設定で無効にすることができます。</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
-    <string name="notification_keepalive_title">%d をブロック</string>
+    <string name="notification_keepalive_title">ブロック済み：%d</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
     <string name="notification_keepalive_content">前回: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->

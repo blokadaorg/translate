@@ -14,7 +14,7 @@
     <string name="panel_section_ads_blacklist">ブロックされたホスト</string>
     <string name="panel_section_ads_whitelist">許可されたホスト</string>
     <string name="panel_section_advanced_dns">DNS</string>
-    <string name="panel_section_apps_all">インストールしたアプリ</string>
+    <string name="panel_section_apps_all">インストールされているアプリ</string>
     <string name="panel_section_apps_system">システムアプリ</string>
     <string name="panel_section_advanced_settings">設定</string>
     <string name="panel_section_app_settings">アプリの設定</string>
@@ -27,7 +27,7 @@
     <string name="panel_domain_blocked_normal_desc">このドメインはブロックされています。許可するには以下のボタンを使用してください。</string>
     <string name="panel_domain_blocked_nxdomain_desc">このドメインはDNSサーバーによって正しく解決されませんでした。サーバーがドメインをブロックしているか、存在しないドメインです。</string>
     <string name="panel_domain_blocked_error_desc">このドメインの解決中に問題が発生しました。DNSサーバーはエラーコードで応答しました。</string>
-    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインの CName であるためブロックされています。 許可するには、CNameまたはドメイン自体を許可されたホストに追加してください。</string>
+    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインのCNameであるためブロックされています。 許可するには、CNameまたはドメイン自体を許可されたホストに追加してください。</string>
     <string name="panel_domain_blocked_toast">ブラックリストに追加しました。</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">コピー</string>
@@ -49,9 +49,9 @@
     <string name="slot_action_remove">削除</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
-    <string name="slot_switch_on">はい</string>
+    <string name="slot_switch_on">Yes</string>
     <!-- A state for switches (like notifications: off) -->
-    <string name="slot_switch_off">いいえ</string>
+    <string name="slot_switch_off">No</string>
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">新しい UI の使用方法：ここをタップして表示します。</string>
     <string name="slot_intro_new_header">新しいUIの使い方は？</string>
@@ -79,13 +79,13 @@
     <string name="slot_enter_file_multi">入力内容に一致する複数のファイルがあります</string>
     <string name="slot_enter_name_title">名前</string>
     <string name="slot_enter_name_desc">新しいエントリの名前を入力します。希望の名前を作成することもできます。</string>
-    <string name="slot_enter_name_error">何も確認できません</string>
+    <string name="slot_enter_name_error">確認できません</string>
     <string name="slot_enter_name_generate">生成</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; がホワイトリストに登録されています</string>
     <string name="slot_app_desc">このアプリはホワイトリストに登録されているため、ブロックやフィルタリングは実行されません。</string>
-    <string name="slot_allapp_desc">このアプリでBlokadaをバイパスして、トラフィックのブロックを停止できます。 バイパスされたアプリはVPN外で通信することを忘れないでください。</string>
+    <string name="slot_allapp_desc">このアプリでBlokadaをバイパスして、トラフィックのブロックを停止できます。 バイパスされたアプリはVPN外で通信することにご注意ください。</string>
     <string name="slot_allapp_whitelisted">バイパス済み</string>
-    <string name="slot_allapp_normal">バイパスされていない</string>
+    <string name="slot_allapp_normal">未バイパス (ノーマル)</string>
     <string name="slot_allapp_whitelist">バイパス</string>
     <string name="slot_action_set">設定</string>
     <string name="slot_whitelist_all">すべてのアプリをバイパスする</string>
@@ -119,7 +119,7 @@
     <string name="slot_forwarded_title">ドメイン転送済み</string>
     <string name="slot_whitelist_title">ホワイトリストに登録したアプリ</string>
     <string name="slot_list_no_desc">このエントリには説明がありません。</string>
-    <string name="slot_status_info">アプリがアクティブな場合、画面上部の通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリをオフにできます。</string>
+    <string name="slot_status_info">アプリがアクティブな場合、画面上部の通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリをOFFにできます。</string>
     <string name="slot_action_deactivate">OFFにする</string>
     <string name="slot_action_activate">ONにする</string>
     <string name="slot_update_action_refresh">もう一度確認</string>
@@ -147,10 +147,10 @@
     <string name="slot_gateway_learn_more">ゲートウェイについての詳細</string>
     <string name="slot_gateway_info_partner">パートナーゲートウェイとは何ですか?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Blokada Plusに接続するデバイスを制御します。</string>
+    <string name="slot_leases_info">Blokada Plusに接続するデバイスをコントロールします。</string>
     <string name="slot_lease_name_current">%s (このデバイス)</string>
     <string name="slot_lease_description">デバイス ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_lease_description_current">デバイス ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;これは現在のデバイスです。</string>
+    <string name="slot_lease_description_current">デバイス ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; これは現在のデバイスです。</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
@@ -164,7 +164,7 @@
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">ログ</string>
     <string name="slot_help_label">お困りですか?</string>
-    <string name="slot_help_desc">下のボタンをタップしてヘルプページを開きます。 私たちにはTelegram、Facebook、Reddit、Twitterのアカウントがある、ソーシャルメディアを利用することもできます。</string>
+    <string name="slot_help_desc">下のボタンをタップしてヘルプページを開きます。 私たちにはTelegram、Facebook、Reddit、Twitterのアカウントがあり、ソーシャルメディアを利用することもできます。</string>
     <!-- A button to open help -->
     <string name="slot_help_action">ヘルプ</string>
     <string name="slot_donate_label">Blokadaを楽しんでいますか？私たちをサポートすることを検討してください。アプリを改善し続けることができます。</string>
@@ -188,7 +188,7 @@
     <string name="slot_lease_cant_connect">Blokada Plusに接続できませんでした。別のゲートウェイを選択してください。</string>
     <string name="slot_account_cant_create">Blokada Plusアカウントを作成できませんでした。後でもう一度お試しいただくか、お問い合わせください。</string>
     <string name="slot_account_name_title">アカウントID</string>
-    <string name="slot_account_name_desc">以前のサブスクリプションを復元するには、古いアカウントIDを入力してください。 間違えた場合に備えて、現在のアカウントIDを書き留めておきます。</string>
+    <string name="slot_account_name_desc">以前のサブスクリプションを復元するには、古いアカウントIDを入力してください。 間違えた場合に備えて、現在のアカウントIDを書き留めておいてください。</string>
     <string name="slot_account_name_error">アカウント IDには文字と数字のみを使用できます。</string>
     <string name="slot_account_name_api_error">間違ったアカウントIDが入力されています</string>
     <string name="slot_account_name_restore">復元</string>
@@ -207,5 +207,5 @@
     <string name="slot_reset_counter_action">リセット</string>
     <string name="label_workarounds">デバイス固有の回避策</string>
     <string name="slot_dns_answer_label">代替DNS応答</string>
-    <string name="slot_dns_answer_description">Blokada がブロックされたリクエストに対して、「ホストが見つかりません」から無効な ip への回答を変更します。 これは、「ホストが見つかりません」回答を得た場合、他のDNSサーバーに問い合わせ、ROMを助けることができます。 無効なアドレスに接続しようとする一部のアプリが遅くなる可能性があることにご注意ください。</string>
+    <string name="slot_dns_answer_description">Blokada がブロックされたリクエストに対して、「ホストが見つかりません」から無効なIPへの回答を変更します。 これは、「ホストが見つかりません」回答を得た場合、他のDNSサーバーに問い合わせ、ROMを助けることができます。 無効なアドレスに接続しようとする一部のアプリが遅くなる可能性があることにご注意ください。</string>
 </resources>
