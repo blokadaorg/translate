@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-09-10 12:53\n"
+"PO-Revision-Date: 2020-09-10 13:15\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -456,14 +456,14 @@ msgstr "付款失敗，請檢查信用卡是否仍然有效。"
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr "付款失敗，請見 PayPal 以取得更多資訊。"
+msgstr "付款失敗，請從 PayPal 獲得更多資訊。"
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr "請從前一個畫面驗證您的帳號 ID。"
+msgstr "請從上一個畫面驗證您的帳號 ID。"
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -547,7 +547,7 @@ msgstr "謝謝！"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr "帳號 ID 不對，請驗證您是否在前一個畫面上正確儲存了 ID，然後再試一次。"
+msgstr "帳號 ID 不對，請確認您是否在上一個畫面正確儲存，並重試一次。"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
