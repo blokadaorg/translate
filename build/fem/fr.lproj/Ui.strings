@@ -244,6 +244,7 @@
 "apps section header" = "Apps";
 "apps label installed" = "Installé";
 "apps label system" = "Système";
+"apps filter header" = "Quelles applis voulez-vous voir ?";
 "apps filter action show all" = "Afficher toutes les apps";
 "apps filter action toggle system" = "Activer/désactiver toutes les applications système";
 
@@ -252,6 +253,8 @@
 "app settings theme label" = "Thème de l'application";
 "app settings theme light" = "Clair";
 "app settings theme dark" = "Sombre";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Rediriger les liens vers";
 "app settings browser internal" = "Navigateur interne";
 "app settings browser external" = "Navigateur externe (si possible)";
 "app settings ipv6 label" = "Autoriser l'IPV6";
@@ -260,12 +263,14 @@
 "app settings action vpn profile" = "Ouvrir le profil VPN";
 "app settings action notifications" = "Ouvrir les paramètres de notification";
 "app settings section details" = "Plus d'informations";
+"app settings status default" = "Par défaut";
 "app settings start on boot" = "Lancer au démarrage";
 "app settings use dns over https" = "Utiliser le DNS sur HTTPS";
 "app settings backup" = "Sauvegarder sur le Cloud";
 "app settings section advanced" = "Avancé";
 
 "intro header" = "Blokada est actif";
+"intro text" = "Un anneau bleu signifie que Blokada est actif.\n\nRappelez-vous que certaines publicités, comme celles de YouTube, ne peuvent être bloquées. Toutefois, vous verrez la différence dans la majorité des autres applications.\n\nNous vous recommandons d'activer \"VPN toujours actif\" / \"Connexion à la demande\" dans vos paramètres système.";
 
 "location region america" = "Amérique";
 "location region europe" = "Europe";
