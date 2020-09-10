@@ -207,5 +207,5 @@
     <string name="slot_reset_counter_action">リセット</string>
     <string name="label_workarounds">デバイス固有の回避策</string>
     <string name="slot_dns_answer_label">DNS代理不在応答 (DNSブロック)</string>
-    <string name="slot_dns_answer_description">Blokada がブロックされたリクエストに対して、「ホストが見つかりません」から無効なIPへの回答を変更します。 これは、「ホストが見つかりません」回答を得た場合、他のDNSサーバーに問い合わせ、ROMを助けることができます。 無効なアドレスに接続しようとする一部のアプリが遅くなる可能性があることにご注意ください。</string>
+    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへのBlokadaの回答を「ホストが見つかりません」から「無効なIP」へと回答を変更します。 デフォルトの回答をした場合、一部のアプリが他のDNSサーバーに再度リクエストを送信することがあり、不必要にROMが使用されます。この設定を有効にすると、ROMは開放されますが、一部のアプリの動作が遅くなる可能性があることにご注意ください。</string>
 </resources>
