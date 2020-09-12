@@ -107,14 +107,14 @@
 "home power action pause" = "暫停 5 分鐘";
 
 "home status paused" = "已暫停";
-"home status active" = "已啟用";
-"home status deactivated" = "已停用";
-"home action tap to activate" = "按一下啟用";
+"home status active" = "運作中";
+"home status deactivated" = "已關閉";
+"home action tap to activate" = "按一下啟動";
 "home status detail paused" = "暫停至計時結束";
 "home status detail active" = "阻擋 *廣告* 及 *追蹤器*";
 "home status detail active with counter" = "已阻擋 *%@* 個廣告及追蹤器";
 "home status detail active slim" = "Blokada *Slim* 已啟用";
-"home status detail plus" = "*+* 保護您的 *隱私權*";
+"home status detail plus" = "*+* 保護您的 *隱私*";
 "home status detail progress" = "請稍候……";
 
 "home plus button deactivated" = "已停用 BLOKADA+";
@@ -136,7 +136,7 @@
 "pack category all" = "全部";
 
 "advanced section header packs" = "阻擋清單";
-"advanced section slugline packs" = "啟用以進行更嚴格的封鎖";
+"advanced section slugline packs" = "啟用以進行更嚴格的阻擋";
 "advanced section slugline apps" = "選擇不要被阻擋的 APP";
 "advanced section slugline encryption" = "調整您的加密等級與 DNS";
 "advanced action slim migrate to full" = "您正在使用 Blokada Slim。取得更多資訊";
@@ -151,9 +151,9 @@
 "activity request blocked blacklisted" = "此請求已被阻擋，因為其在您的阻擋清單中";
 "activity actions header" = "動作";
 "activity information header" = "資訊";
-"activity action add to whitelist" = "新增至允許";
-"activity action remove from whitelist" = "從允許移除";
-"activity action added to whitelist" = "已新增至允許";
+"activity action add to whitelist" = "加入至允許清單";
+"activity action remove from whitelist" = "從允許清單移除";
+"activity action added to whitelist" = "已加入到允許清單";
 "activity action add to blacklist" = "加入到阻擋清單";
 "activity action remove from blacklist" = "從阻擋清單移除";
 "activity action added to blacklist" = "已加入到阻擋清單";
@@ -168,8 +168,8 @@
 "activity happened many times" = "%@ 次";
 "activity category recent" = "最近";
 "activity category top" = "最多";
-"activity category top blocked" = "最多封鎖";
-"activity category top allowed" = "最多允許";
+"activity category top blocked" = "阻擋最多次";
+"activity category top allowed" = "允許最多次";
 "activity filter header" = "您想查看哪些項目？";
 "activity filter show all" = "顯示所有項目";
 "activity filter show blocked" = "僅顯示已阻擋";
