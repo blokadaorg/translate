@@ -1,10 +1,23 @@
-/*
-  Localizable.strings
-  IOS
-
-  Created by Karol Gusak on 09/06/2020.
-  Copyright © 2020 Blocka AB. All rights reserved.
-*/
+//
+//  This file is part of Blokada.
+//
+//  Blokada is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  Blokada is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
 
 "error device offline" = "Votre appareil est hors ligne";
 "error account inactive" = "Votre compte est inactif. Veuillez activer votre compte pour continuer avec BLOKADA+.";
@@ -45,6 +58,7 @@
 "universal action community" = "Communauté";
 "universal action open in browser" = "Ouvrir dans votre navigateur";
 "universal action more" = "Plus";
+"universal action download" = "Télécharger";
 
 "universal label help" = "Aide";
 "universal status processing" = "Traitement en cours... Veuillez patienter.";
@@ -62,6 +76,7 @@
 "notification update header" = "Une mise à jour est disponible";
 "alert update body" = "Blokada %@ est maintenant disponible au téléchargement. Nous vous recommandons de garder l'appli à jour, et de ne la télécharger que depuis nos sources officielles.";
 "update label updated" = "Mis à jour !";
+"update downloading description" = "La mise à jour est en cours de téléchargement, la fenêtre d'installation devrait bientôt s'afficher.";
 
 "account active forever" = "Pour toujours";
 
@@ -242,6 +257,7 @@
 "apps section header" = "Apps";
 "apps label installed" = "Installé";
 "apps label system" = "Système";
+"apps filter header" = "Quelles applis voulez-vous voir ?";
 "apps filter action show all" = "Afficher toutes les apps";
 "apps filter action toggle system" = "Activer/désactiver toutes les applications système";
 
@@ -250,6 +266,8 @@
 "app settings theme label" = "Thème de l'application";
 "app settings theme light" = "Clair";
 "app settings theme dark" = "Sombre";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Rediriger les liens vers";
 "app settings browser internal" = "Navigateur interne";
 "app settings browser external" = "Navigateur externe (si possible)";
 "app settings ipv6 label" = "Autoriser l'IPV6";
@@ -258,12 +276,14 @@
 "app settings action vpn profile" = "Ouvrir le profil VPN";
 "app settings action notifications" = "Ouvrir les paramètres de notification";
 "app settings section details" = "Plus d'informations";
+"app settings status default" = "Par défaut";
 "app settings start on boot" = "Lancer au démarrage";
 "app settings use dns over https" = "Utiliser le DNS sur HTTPS";
 "app settings backup" = "Sauvegarder sur le Cloud";
 "app settings section advanced" = "Avancé";
 
 "intro header" = "Blokada est actif";
+"intro text" = "Un anneau bleu signifie que Blokada est actif.\n\nRappelez-vous que certaines publicités, comme celles de YouTube, ne peuvent être bloquées. Toutefois, vous verrez la différence dans la majorité des autres applications.\n\nNous vous recommandons d'activer \"VPN toujours actif\" / \"Connexion à la demande\" dans vos paramètres système.";
 
 "location region america" = "Amérique";
 "location region europe" = "Europe";

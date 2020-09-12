@@ -1,10 +1,23 @@
-/*
-  Localizable.strings
-  IOS
-
-  Created by Karol Gusak on 09/06/2020.
-  Copyright © 2020 Blocka AB. All rights reserved.
-*/
+//
+//  This file is part of Blokada.
+//
+//  Blokada is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  Blokada is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
 
 "error device offline" = "Dein Gerät ist offline";
 "error account inactive" = "Dein Konto ist inaktiv. Bitte aktiviere dein Konto, damit du weiterhin BLOKADA+ nutzen kannst.";
@@ -24,6 +37,7 @@
 "error pack install" = "Diese Erweiterung konnte nicht installiert (oder deinstalliert) werden. Bitte versuch es später erneut.";
 "error location failed fetching" = "Standorte konnten nicht abgerufen werden.";
 "error unknown" = "Ein unbekanntes Problem ist aufgetreten. Bitte versuche es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du oben auf das Hilfe-Symbol tippst.";
+"error blocka dns in filtering mode" = "Blokada DNS wird derzeit nur im Plus-Modus unterstützt. Bitte wählen Sie einen anderen DNS und versuchen Sie es erneut.";
 
 "universal action continue" = "Fortsetzen";
 "universal action cancel" = "Abbrechen";
@@ -54,6 +68,7 @@
 
 "alert error header" = "Hoppla!";
 "alert vpn expired header" = "BLOKADA+ ist abgelaufen";
+"alert download link body" = "Aus Sicherheitsgründen, um eine Datei herunterzuladen, müssen wir diese Website in deinem Browser öffnen. Dann tippe bitte erneut auf den Download-Link.";
 
 "notification vpn expired header" = "BLOKADA+ Abo abgelaufen";
 "notification vpn expired subtitle" = "Das VPN ist deaktiviert";
@@ -98,6 +113,7 @@
 "home status detail paused" = "pausiert, bis der Timer abgelaufen ist";
 "home status detail active" = "*Werbungen* und *Tracker* blockieren";
 "home status detail active with counter" = "blockierte *%@* Werbungen und Tracker";
+"home status detail active slim" = "Blokada *Slim* ist aktiv";
 "home status detail plus" = "*+* beschützt deine *Privatsphäre*";
 "home status detail progress" = "bitte warte...";
 
@@ -120,6 +136,10 @@
 "pack category all" = "Alle";
 
 "advanced section header packs" = "Sperrlisten";
+"advanced section slugline packs" = "Aktivieren für restriktiveres Blockieren";
+"advanced section slugline apps" = "Wähle Apps, die nie geblockt werden sollen";
+"advanced section slugline encryption" = "Pass deine Verschlüsselungsstufe und DNS an";
+"advanced action slim migrate to full" = "Du verwendest Blokada Slim. Erfahre mehr";
 
 "location choice header" = "Wähle einen Standort";
 

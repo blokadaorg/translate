@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">通知</string>
-    <string name="notification_on_description">ONの場合、何かがブロックされるたびにBlokadaの通知が表示されます。 これは、一部のデバイスで表示されるVPN通知とは異なり、オフにすることはできません。
+    <string name="notification_on_description">有効にすると、何かがブロックされるたびにBlokadaの通知が表示されます。 これは、一部のデバイスで表示されるVPN通知とは異なり、無効にすることはできません。
 &lt;br/&gt;から表示する通知を設定できます。</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">ブロック済み</string>
@@ -15,7 +15,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">スリープモードにしない</string>
-    <string name="notification_keepalive_description">アプリがバックグラウンドで起動している状態で問題が発生した場合は、このスイッチをONにします。 Blokadaは通知を表示させつづけることで、システムによって強制終了されることを防ぎます。上の通知または設定から非表示にできます。</string>
+    <string name="notification_keepalive_description">このスイッチは、アプリをバックグラウンドで起動していて問題が発生した場合にONにしてください。Blokadaは通知を表示させつづけることで、システムによる強制終了を防ぎます。上の通知または設定から非表示にできます。</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">表示を続ける(タップで非表示)</string>
     <string name="notification_keepalive_text_new">Androidではアプリを動作させ続けるために通知を表示する必要がありますが、システム設定で無効にすることができます。</string>

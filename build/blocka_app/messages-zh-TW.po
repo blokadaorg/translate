@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-06-17 13:44\n"
+"PO-Revision-Date: 2020-09-10 13:15\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -42,7 +42,7 @@ msgstr "6 個月"
 #. A new subscription may be activated after the current cycle has expired.
 #: build/messages/src/Manage.json
 msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "當前訂閱週期已過期，可能會自動續訂"
+msgstr "目前的訂閱可能會在訂閱過期後自動續訂。"
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -53,7 +53,7 @@ msgstr "當前訂閱週期已過期，可能會自動續訂"
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr "需要真的瀏覽器。請嘗試下方的「在瀏覽器中開啟」按鈕。"
+msgstr "需要使用瀏覽器功能。請嘗試點選下方的「在瀏覽器中開啟」按鈕。"
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
@@ -127,7 +127,7 @@ msgstr "自動續訂"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr "到期時自動重新續訂：{status}"
+msgstr "自動重新續訂：{status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
@@ -442,7 +442,7 @@ msgstr "每個週期付 €{price}"
 #. Pay €{price} using PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay €{price} using PayPal"
-msgstr "使用 PayPal 支付 €{price}"
+msgstr "使用 PayPal 付款 €{price}"
 
 #. [account.activate_card_error] - Error displayed when card error is returned from payment processor
 #. defaultMessage is:
@@ -456,14 +456,14 @@ msgstr "付款失敗，請檢查信用卡是否仍然有效。"
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr "付款失敗，請見 PayPal 以取得更多資訊。"
+msgstr "付款失敗，請從 PayPal 獲得更多資訊。"
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr "請從前一個畫面驗證您的帳號 ID。"
+msgstr "請從上一個畫面驗證您的帳號 ID。"
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
@@ -547,7 +547,7 @@ msgstr "謝謝！"
 #. The account ID did not match, verify that you stored it properly on the previous screen and try again.
 #: build/messages/src/Signup.json
 msgid "The account ID did not match, verify that you stored it properly on the previous screen and try again."
-msgstr "帳號 ID 不對，請驗證您是否在前一個畫面上正確儲存了 ID，然後再試一次。"
+msgstr "帳號 ID 不對，請確認您是否在上一個畫面正確儲存，並重試一次。"
 
 #. [notfound.message] - Shown when accessing missing URL
 #. defaultMessage is:
@@ -568,7 +568,7 @@ msgstr "正在等待 PayPal 確認付款……"
 #. Waiting for payment confirmation...
 #: build/messages/src/Checkout.json
 msgid "Waiting for payment confirmation..."
-msgstr "等待付款確認……"
+msgstr "等待確認付款……"
 
 #. [account.blocked-fdroid] - Message when account activation is blocked because of bad F-droid app release
 #. defaultMessage is:
@@ -596,14 +596,14 @@ msgstr "撰寫訊息……"
 #. Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment is being processed and your account will be activated shortly. If you experience any problems, please contact us at {email}."
-msgstr "您的付款已處理完成，您的帳號很快就會啟用。如果您遇到任何問題，請透過 {email} 聯絡我們。"
+msgstr "付款成功，帳號很快就會啟用。如果您遇到任何問題，請透過 {email} 聯絡我們。"
 
 #. [canceled.message] - Message after canceling the intent to create a new subscription
 #. defaultMessage is:
 #. Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}.
 #: build/messages/src/App.json
 msgid "Your payment was cancelled and you will not be charged. Your account is not active. If you experience any problems, please contact us at {email}."
-msgstr "您的付款已取消，所以您將不會被收費。您的帳號並未啟用。如果您遇到任何問題，請透過 {email} 聯絡我們。"
+msgstr "已取消您的付款，所以不會產生費用。您的帳號已取消。如果您遇到任何問題，請透過 {email} 聯絡我們。"
 
 #. [manage.devices_current] - Badge shown on the most recent device created
 #. defaultMessage is:

@@ -1,10 +1,23 @@
-/*
-  Localizable.strings
-  IOS
-
-  Created by Karol Gusak on 09/06/2020.
-  Copyright © 2020 Blocka AB. All rights reserved.
-*/
+//
+//  This file is part of Blokada.
+//
+//  Blokada is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  Blokada is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
 
 "error device offline" = "Cihazınız çevrimdışı";
 "error account inactive" = "Hesabınız etkin değil. BLOKADA+ sürümünü kullanmaya devam etmek için lütfen hesabınızı etkinleştirin.";
@@ -46,6 +59,7 @@
 "universal action community" = "Topluluk";
 "universal action open in browser" = "Tarayıcıda aç";
 "universal action more" = "Daha Fazla";
+"universal action download" = "İndir";
 
 "universal label help" = "Yardım";
 "universal status processing" = "İşeniyor... Lütfen bekleyin.";
@@ -63,6 +77,7 @@
 "notification update header" = "Bir güncelleme mevcut";
 "alert update body" = "Blokada %@ artık indirilebilir durumda. Uygulamayı güncel tutmanızı ve yalnızca resmi kaynaklarımızdan indirmenizi öneririz.";
 "update label updated" = "Güncellendi!";
+"update downloading description" = "Güncelleme şu anda indiriliyor ve kısa bir süre sonra kurulum istemini görmelisiniz.";
 
 "account active forever" = "Sonsuza kadar";
 
@@ -96,7 +111,7 @@
 "home status deactivated" = "ETKİN DEĞİL";
 "home action tap to activate" = "etkinleştirmek için dokunun";
 "home status detail paused" = "zamanlayıcı bitene kadar duraklatıldı";
-"home status detail active" = "*reklamlar* ve *izleyiciler* engelleniyor";
+"home status detail active" = "*reklam* ve *izleyici* engelleniyor";
 "home status detail active with counter" = "*%@* reklamları ve izleyicileri engellendi";
 "home status detail active slim" = "Blokada *Slim* etkin";
 "home status detail plus" = "*+* *gizliliğinizi* koruyor";
@@ -117,7 +132,7 @@
 "pack tags header" = "Etiketler";
 "pack tags none" = "Hiçbiri";
 "pack category highlights" = "Öne çıkanlar";
-"pack category active" = "Aktif";
+"pack category active" = "Etkin";
 "pack category all" = "Tümü";
 
 "advanced section header packs" = "Engelleme listeleri";
