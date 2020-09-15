@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-05-26T06:45:53.349Z\n"
+"POT-Creation-Date: 2020-09-15T13:27:11.930Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -26,13 +26,6 @@ msgstr ""
 #. defaultMessage is:
 #. 6 Months
 msgid "6 Months"
-msgstr ""
-
-#: build/messages/src/Manage.json
-#. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
-#. defaultMessage is:
-#. A new subscription may be activated after the current cycle has expired.
-msgid "A new subscription may be activated after the current cycle has expired."
 msgstr ""
 
 #: build/messages/src/Checkout.json
@@ -72,6 +65,20 @@ msgstr ""
 #. defaultMessage is:
 #. Activate Account
 msgid "Activate Account"
+msgstr ""
+
+#: build/messages/src/Manage.json
+#. [account.activate_button] - Button for activating a subscription to auto renew payment before the account expires
+#. defaultMessage is:
+#. Activate Subscription
+msgid "Activate Subscription"
+msgstr ""
+
+#: build/messages/src/Manage.json
+#. [account.activating] - Shown on Button for activating a subscription while request is in progress
+#. defaultMessage is:
+#. Activating {spinner}
+msgid "Activating {spinner}"
 msgstr ""
 
 #: build/messages/src/App.json
@@ -299,13 +306,6 @@ msgstr ""
 #. defaultMessage is:
 #. ID
 msgid "ID"
-msgstr ""
-
-#: build/messages/src/Checkout.json
-#. [account.stellar_referrer] - Label next to Stellar referer input
-#. defaultMessage is:
-#. Keybase referrer
-msgid "Keybase referrer"
 msgstr ""
 
 #: build/messages/src/Manage.json
