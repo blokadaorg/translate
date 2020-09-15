@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-11-20T14:55:55.058Z\n"
+"POT-Creation-Date: 2020-09-15T13:27:11.930Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-08-13 10:30\n"
+"PO-Revision-Date: 2020-09-15 13:34\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -35,13 +35,6 @@ msgstr ""
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
-
-#. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
-#. defaultMessage is:
-#. A new subscription may be activated after the current cycle has expired.
-#: build/messages/src/Manage.json
-msgid "A new subscription may be activated after the current cycle has expired."
 msgstr ""
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
@@ -81,6 +74,20 @@ msgstr "מזהה משתמש"
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
+msgstr ""
+
+#. [account.activate_button] - Button for activating a subscription to auto renew payment before the account expires
+#. defaultMessage is:
+#. Activate Subscription
+#: build/messages/src/Manage.json
+msgid "Activate Subscription"
+msgstr ""
+
+#. [account.activating] - Shown on Button for activating a subscription while request is in progress
+#. defaultMessage is:
+#. Activating {spinner}
+#: build/messages/src/Manage.json
+msgid "Activating {spinner}"
 msgstr ""
 
 #. [canceled.title] - Canceled page title
@@ -308,13 +315,6 @@ msgstr ""
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
-
-#. [account.stellar_referrer] - Label next to Stellar referer input
-#. defaultMessage is:
-#. Keybase referrer
-#: build/messages/src/Checkout.json
-msgid "Keybase referrer"
 msgstr ""
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
