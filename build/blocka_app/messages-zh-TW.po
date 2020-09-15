@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-09-15 14:14\n"
+"PO-Revision-Date: 2020-09-15 14:24\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -230,7 +230,7 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr "到過期前的日期：{days}"
+msgstr "還有 {days} 天到期"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
@@ -258,7 +258,7 @@ msgstr "下載"
 #. E-mail
 #: build/messages/src/Checkout.json
 msgid "E-mail"
-msgstr "信箱"
+msgstr "電子郵件信箱"
 
 #. [account.status_expired] - The account is not activated or has expired
 #. defaultMessage is:
