@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-11-20T14:55:55.058Z\n"
+"POT-Creation-Date: 2020-09-15T13:27:11.930Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2020-09-10 13:15\n"
+"PO-Revision-Date: 2020-09-15 13:33\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -36,13 +36,6 @@ msgstr "12 個月"
 #: build/messages/src/Checkout.json
 msgid "6 Months"
 msgstr "6 個月"
-
-#. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
-#. defaultMessage is:
-#. A new subscription may be activated after the current cycle has expired.
-#: build/messages/src/Manage.json
-msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "目前的訂閱可能會在訂閱過期後自動續訂。"
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -82,6 +75,20 @@ msgstr "帳號 ID"
 #: build/messages/src/Manage.json
 msgid "Activate Account"
 msgstr "啟用帳號"
+
+#. [account.activate_button] - Button for activating a subscription to auto renew payment before the account expires
+#. defaultMessage is:
+#. Activate Subscription
+#: build/messages/src/Manage.json
+msgid "Activate Subscription"
+msgstr ""
+
+#. [account.activating] - Shown on Button for activating a subscription while request is in progress
+#. defaultMessage is:
+#. Activating {spinner}
+#: build/messages/src/Manage.json
+msgid "Activating {spinner}"
+msgstr ""
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -309,13 +316,6 @@ msgstr "我有 Stellar wallet"
 #: build/messages/src/Account.json
 msgid "ID"
 msgstr "ID"
-
-#. [account.stellar_referrer] - Label next to Stellar referer input
-#. defaultMessage is:
-#. Keybase referrer
-#: build/messages/src/Checkout.json
-msgid "Keybase referrer"
-msgstr "Keybase 推薦來源"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
