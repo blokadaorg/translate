@@ -32,8 +32,12 @@
 "error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
 "error payment inactive after restore" = "Seu pagamento anterior foi restaurado, mas a assinatura já expirou. Se você acredita que isso é um erro, entre em contato conosco tocando no ícone de ajuda na parte superior.";
 "error payment failed" = "Os pagamentos não estão disponíveis neste momento. Verifique se você está online e tente novamente mais tarde. Se o problema persistir, entre em contato conosco tocando no ícone de ajuda na parte superior.";
+"error payment not available" = "Pagamentos não estão disponíveis para este dispositivo. Ou o Apple Pay não está ativado, ou ainda não tratamos de compras em seu país.";
+"error payment canceled" = "O pagamento foi cancelado. Você não foi cobrado.";
+"error pack install" = "Não foi possível instalar (ou desinstalar) este recurso. Por favor, tente novamente mais tarde.";
 "error location failed fetching" = "Não foi possível buscar as localizações.";
 "error unknown" = "Ocorreu um problema desconhecido. Por favor, tente novamente. Se o problema persistir, entre em contato conosco tocando no ícone de ajuda no topo.";
+"error blocka dns in filtering mode" = "O Blokada DNS é atualmente suportado apenas no modo Plus. Por favor, escolha outro DNS e tente novamente.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -55,6 +59,7 @@
 "universal action community" = "Comunidade";
 "universal action open in browser" = "Abrir no navegador";
 "universal action more" = "Mais";
+"universal action download" = "Baixar";
 
 "universal label help" = "Ajuda";
 "universal status processing" = "Processando... Por favor, aguarde.";
@@ -63,13 +68,23 @@
 
 "alert error header" = "Opa!";
 "alert vpn expired header" = "O BLOKADA+ expirou";
+"alert download link body" = "Por motivos de segurança, para baixar um arquivo, precisamos abrir este site no seu navegador. Em seguida, toque no link de download novamente.";
+
+"notification vpn expired header" = "Assinatura BLOKADA+ expirada";
+"notification vpn expired subtitle" = "A VPN está desativada";
+"notification vpn expired body" = "Por favor, atualize sua assinatura para continuar usando o BLOKADA+";
 
 "notification update header" = "Atualização disponível";
 "alert update body" = "Blokada %@ está agora disponível para baixar. Recomendamos manter o aplicativo atualizado, e baixá-lo apenas de nossas fontes oficiais.";
+"update label updated" = "Atualizado!";
+"update downloading description" = "A atualização está sendo baixada, e você verá a solicitação de instalação em breve.";
 
 "account active forever" = "Para sempre";
 
 "main ask for permissions header" = "Só mais um passo";
+"main ask for permissions description" = "O Blokada está usando uma configuração de VPN para bloquear anúncios. Você será solicitado a permiti-lo na próxima etapa.";
+
+"main share message" = "O Blokada para iOS me ajudou a bloquear %@ anúncios e rastreadores!";
 
 "main rate us header" = "Avalie-nos!";
 "main rate us description" = "Como você está gostando do Blokada até agora?";
@@ -98,6 +113,7 @@
 "home status detail paused" = "pausado até o tempo terminar";
 "home status detail active" = "bloqueando *anúncios* e *rastreadores*";
 "home status detail active with counter" = "bloqueou *%@* anúncios e rastreadores";
+"home status detail active slim" = "O Blokada *Slim* está ativo";
 "home status detail plus" = "*+* protegendo sua *privacidade*";
 "home status detail progress" = "por favor, aguarde...";
 
