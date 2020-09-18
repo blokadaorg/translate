@@ -14,28 +14,28 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-09-15 13:34\n"
+"PO-Revision-Date: 2020-09-18 13:52\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "חודש אחד"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12 חודשים"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6 חודשים"
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -46,14 +46,14 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr ""
+msgstr "נדרש דפדפן אמיתי. נסה את לחצן \"פתח בדפדפן\" למטה."
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr ""
+msgstr "פעיל"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
@@ -74,35 +74,35 @@ msgstr "מזהה משתמש"
 #. Activate Account
 #: build/messages/src/Manage.json
 msgid "Activate Account"
-msgstr ""
+msgstr "הפעל חשבון"
 
 #. [account.activate_button] - Button for activating a subscription to auto renew payment before the account expires
 #. defaultMessage is:
 #. Activate Subscription
 #: build/messages/src/Manage.json
 msgid "Activate Subscription"
-msgstr ""
+msgstr "הפעל מנוי"
 
 #. [account.activating] - Shown on Button for activating a subscription while request is in progress
 #. defaultMessage is:
 #. Activating {spinner}
 #: build/messages/src/Manage.json
 msgid "Activating {spinner}"
-msgstr ""
+msgstr "מפעיל {spinner}"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
 #. Activation cancelled
 #: build/messages/src/App.json
 msgid "Activation cancelled"
-msgstr ""
+msgstr "הפעלה בוטלה"
 
 #. [manage.error] - Generic error alert shown on manage account errors
 #. defaultMessage is:
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "אירעה שגיאה, אנא נסה שוב מאוחר יותר."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -113,21 +113,21 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "אירעה שגיאה, אנא נסה מאוחר יותר."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr ""
+msgstr "אירעה שגיאה, אנא ודא את שם המשתמש שלך ונסה שוב."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
 #. Auto renew
 #: build/messages/src/Checkout.json
 msgid "Auto renew"
-msgstr ""
+msgstr "חידוש אוטומטי"
 
 #. [account.subscription] - Subscription status on info for active account
 #. defaultMessage is:
