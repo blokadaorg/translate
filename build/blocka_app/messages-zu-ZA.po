@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2019-11-20T14:55:55.058Z\n"
+"POT-Creation-Date: 2020-09-15T13:27:11.930Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Zulu\n"
 "Language: zu_ZA\n"
-"PO-Revision-Date: 2020-08-13 10:41\n"
+"PO-Revision-Date: 2020-09-15 13:33\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -36,13 +36,6 @@ msgstr "Izinyanga ezi-12"
 #: build/messages/src/Checkout.json
 msgid "6 Months"
 msgstr "Izinyanga ezi-6"
-
-#. [account.subscription_helptext] - Info about renewing cancelled subscriptions on info for active account
-#. defaultMessage is:
-#. A new subscription may be activated after the current cycle has expired.
-#: build/messages/src/Manage.json
-msgid "A new subscription may be activated after the current cycle has expired."
-msgstr "Ukubhaliswa okusha kungenzeka kusebenze ngemuva kokuthi umjikelezo wamanje uphelelwe yisikhathi."
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -82,6 +75,20 @@ msgstr "I-ID ye-akhawunti"
 #: build/messages/src/Manage.json
 msgid "Activate Account"
 msgstr "Yenza i-akhawunti isebenze"
+
+#. [account.activate_button] - Button for activating a subscription to auto renew payment before the account expires
+#. defaultMessage is:
+#. Activate Subscription
+#: build/messages/src/Manage.json
+msgid "Activate Subscription"
+msgstr ""
+
+#. [account.activating] - Shown on Button for activating a subscription while request is in progress
+#. defaultMessage is:
+#. Activating {spinner}
+#: build/messages/src/Manage.json
+msgid "Activating {spinner}"
+msgstr ""
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -309,13 +316,6 @@ msgstr "Nginesikhwama se-Stellar"
 #: build/messages/src/Account.json
 msgid "ID"
 msgstr "I-ID"
-
-#. [account.stellar_referrer] - Label next to Stellar referer input
-#. defaultMessage is:
-#. Keybase referrer
-#: build/messages/src/Checkout.json
-msgid "Keybase referrer"
-msgstr "Inkomba yeKeybase"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:

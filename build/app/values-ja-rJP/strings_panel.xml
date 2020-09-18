@@ -133,7 +133,7 @@
     <string name="slot_account_label_inactive">アクティブでないアカウント</string>
     <!-- Action to manage active subscription. Keep it short -->
     <string name="slot_account_action_manage">サブスクリプションの管理</string>
-    <string name="slot_account_action_manage_inactive">アカウントを有効にする</string>
+    <string name="slot_account_action_manage_inactive">アカウントをアクティベートする</string>
     <string name="slot_account_action_change_id">アカウントを復元する</string>
     <string name="slot_account_show">アカウントID</string>
     <string name="slot_account_action_copied">アカウントIDがクリップボードにコピーされました</string>
@@ -155,7 +155,8 @@
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
-    <string name="subscription_success">アカウントがアクティベートされています。数秒かかる場合があります。ありがとうございます！</string>
+    <string name="subscription_success">ご購入ありがとうございます！
+アカウントをアクティベートしています。もうしばらくお待ちください。</string>
     <string name="slot_start_on_boot_description">端末起動時のアプリ実行を有効にすると、Blokadaが常にアクティブになり、デバイスを保護できます。 システムは常に優先度が高く、このオプションを上書きできることに注意してください。したがって、Blokadaが起動しない場合は、システムの設定を確認してください。</string>
     <string name="slot_recommended_dns_label">おすすめのDNSサーバーを使用する</string>
     <string name="slot_recommended_dns_description">有効にすると、Blokadaは自動的に推奨されるDNSサーバーを選択し、インターネットのスピードを上げ、プライバシーを保護します。 そうでない場合は、ネットワークのデフォルトのDNSサーバーが使用されます。format@@0セクションで手動でDNSサーバーを選択した場合は、この設定は無視されます。</string>
