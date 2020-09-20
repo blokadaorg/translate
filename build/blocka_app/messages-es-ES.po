@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2020-09-15 13:34\n"
+"PO-Revision-Date: 2020-09-20 21:42\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -81,14 +81,14 @@ msgstr "Activar Cuenta"
 #. Activate Subscription
 #: build/messages/src/Manage.json
 msgid "Activate Subscription"
-msgstr ""
+msgstr "Activar suscripción"
 
 #. [account.activating] - Shown on Button for activating a subscription while request is in progress
 #. defaultMessage is:
 #. Activating {spinner}
 #: build/messages/src/Manage.json
 msgid "Activating {spinner}"
-msgstr ""
+msgstr "Activando {spinner}"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -102,7 +102,7 @@ msgstr "Activación cancelada"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr "Ha ocurrido un error, por favor inténtalo de nuevo más tarde."
+msgstr "Se ha producido un error. Por favor, inténtelo de nuevo más tarde."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -120,7 +120,7 @@ msgstr "Ha ocurrido un error, por favor inténtalo más tarde."
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr "Ocurrió un error, por favor verifica tu ID e inténtalo de nuevo."
+msgstr "Ha ocurrido un error, por favor verifique su ID y vuelva a intentarlo."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
