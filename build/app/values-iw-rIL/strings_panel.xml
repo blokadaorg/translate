@@ -205,4 +205,7 @@
     <string name="slot_reset_counter_label">אפס ספירת דומיינים חסומים</string>
     <string name="slot_reset_counter_description">מאפס את ספירת הבקשות שנחסמו.</string>
     <string name="slot_reset_counter_action">איפוס</string>
+    <string name="label_workarounds">התאמות פרטניות לסוגי מכשירים</string>
+    <string name="slot_dns_answer_label">תשובת DNS אלטרנטיבית</string>
+    <string name="slot_dns_answer_description">משנה את התשובה שBlokada שולחת לבקשות חסומות מ\"דומיין לא נמצא\" לכתובת איפי לא תיקנית. זה יכול לעזור במספר מקומות בהם המערכת מתשאלת שרתי DNS אחרים במידה והם מקבלים תשובת \"דומיין לא נמצא\". שים לב שאופציה זו יכולה להאט מספר אפליקציות שמנסות להתחבר לכתובות לא תיקניות.</string>
 </resources>
