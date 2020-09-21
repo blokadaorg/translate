@@ -25,5 +25,14 @@
     <string name="tunnel_config_wildcard_title">[BETA] חוקי חסימת פרסומות מתקדמים</string>
     <string name="tunnel_config_wildcard_description">הפעל מתג זה אם ברצונך להשתמש בwildcards בחוקי הסינון שלך. לדוגמה, הוספת חוק ל*.google.com יחסום את כל הדומיינים של גוגל. לפעולה זו יכולות השלכות שליליות על חיי הסוללה. שים לב שתכונה זו היא ניסיונית, ועלולה לא לעבוד היטב.</string>
     <string name="tunnel_config_cname_title">[BETA] חסימה על בסיס CName</string>
+    <string name="tunnel_config_cname_description">הפעל מתג זה אם ברצונך לחסום את כלל הCNames על הדומיינים שברשימת החסומים שלך. CName הינו כינוי לדומיין, אשר משומש על ידי מפרסים להסתרת הדומיין בעזרת דומיינים מתחלפים או פחות ברורים. הטקטיקה יכולה להיחסם על ידי חסימת כלל הCName שעונים על הדומיין החסום. שים לב שאופציה זו נסיונית, וייתכן שאינה עובדת כראוי.</string>
     <string name="tunnel_config_fallback_title">השבת DNS</string>
+    <string name="tunnel_config_fallback_description">הפעל מתג זה אם הינך מעבד גישה לאינטרנט בסיטוציות מסוימות, כמו בוויפי שלך. זה יגרום לאפליקציה להשתמש זמנית בשירותי בDNS של Cloudflare או גוגל על מנת לשמור לך על התקשורת. ייתכן שתצטרך לבחור מחדש את השרתים שלך בהגדרות ה- DNS כדי שהגדרה זו תיכנס לתוקף.</string>
+    <string name="tunnel_config_smartlist_title">[BETA] רשימה חכמה</string>
+    <string name="tunnel_config_smartlist_reset_btn">איפוס</string>
+    <string name="tunnel_config_smartlist_clean_btn">נקה</string>
+    <string name="tunnel_config_smartlist_clean_none">אין מה לנקות</string>
+    <string name="tunnel_config_smartlist_clean_inactive">רשימה חכמה אינה פעילה</string>
+    <string name="tunnel_config_smartlist_clean_done">רשימה חכמה נוקתה מהחוקים הישנים</string>
+    <string name="tunnel_config_smartlist_reset_done">הרשימה החכמה אופסה</string>
 </resources>
