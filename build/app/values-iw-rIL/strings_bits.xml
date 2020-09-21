@@ -3,13 +3,17 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_touch">הקש או החזק להגדרה</string>
     <string name="home_blokada_disabled">Blokada מושהית</string>
+    <string name="home_blokada_active">Blokada פעילה</string>
+    <string name="home_blokada_active_protected">Blokada פלוס פעילה, הגלישה שלך מוגנת</string>
     <string name="home_blokada_inactive">Blokada הושבתה</string>
     <string name="home_activating">מפעיל</string>
     <string name="home_please_wait">אנא המתן...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada פלוס פעילה ללא חסימת פרסומות</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada פעילה במצב DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s נחסם בגלל %s</string>
     <string name="home_masterswitch_enabled">Blokada מופעלת</string>
     <string name="home_masterswitch_waiting">ממתין לרשת...</string>
     <!-- A button to share the ads counter on social media -->
@@ -26,9 +30,14 @@
     <string name="home_update_required">נדרש עדכון</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">תרום</string>
+    <string name="home_vpn_enabled">Blokada פלוס פעילה</string>
+    <string name="home_vpn_disabled">Blokada פלוס הושבתה</string>
     <string name="home_account_active">החשבון שלך עדיין פעיל</string>
+    <string name="home_connecting_vpn">מתחבר לBlokada פלוס</string>
     <string name="home_cleanup">מומלץ לבצע ניקוי</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">מחובר לBlokada פלוס</string>
+    <string name="home_boringtun_not_loaded">מצטערים, המכשיר שלך אינו תומך בBlokada פלוס. אתה עדיין יכול להשתמש בתכונות אחרות.</string>
     <string name="home_blocka_vpn_error">לא התאפשר להתחבר לשער. האם הינך מחובר לאינטרנט?</string>
     <string name="home_account_error">לא התאפשר לאמת את החשבון. האם הינך מחובר לאינטרנט?</string>
     <string name="home_permission_error">אנא הענק הרשאות VPN.</string>
@@ -43,21 +52,28 @@
     <string name="menu_ads_rules_label">הוסף כללים משלך כדי לכוונן את החסימה.</string>
     <string name="menu_ads_log_label">ראה מה נחסם או הותר לאחרונה.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada פלוס</string>
     <string name="menu_vpn_activate_account">אנא הפעל תחילה את חשבונך.</string>
     <string name="menu_vpn_select_gateway">אנא בחר את השער.</string>
+    <string name="menu_vpn_intro_button">למה אני צריך את Blokada פלוס?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Blokada פלוס שלי</string>
     <string name="menu_vpn_account_id">מזהה חשבון: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">שערים</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">מכשירים</string>
     <string name="menu_vpn_manage_subscription">נהל את חשבון המנוי שלך</string>
+    <string name="menu_vpn_manage_subscription_unavailable">אם המנוי שלך חדש, בקר באתר שלנו. אינך יכול לרכוש מנוי בBlokada Slim.</string>
     <string name="menu_vpn_account_secret">לחץ על האווטאר שלך לעיל כדי לראות את מזהה החשבון שלך. זכור, המזהה שלך הינו סודי ועליך לשמור אותו לעצמך. רשום אותו למקרה שתסיר את היישום.</string>
     <string name="menu_vpn_restore_label">כאן תוכל לשחזר את החשבון הקיים שלך, לדוגמה, אם התקנת מחדש את היישום.</string>
+    <string name="menu_vpn_intro">עם Blokada פלוס המידע שלך מוצפן, כתובת האיפי שלך מוסתרת והמיקום שלך שונה.</string>
     <string name="menu_vpn_account_label">על מנת להשתמש בVPN, הינך זקוק לחשבון פעיל. בדוק או שחזר חשבונך כאן.</string>
     <string name="menu_vpn_gateways_label">בחר אחד משערי הכניסה שאליהם ברצונך להתחבר. המכשיר שלך ישלח את הנתונים המוצפנים שלך באופן מאובטח דרך שער זה, ותישאר אנונימי.</string>
     <string name="menu_vpn_support_label">אם הינך נתקל בבעיות, אל תהסס לפנות אלינו.</string>
     <string name="menu_vpn_support_button">תמיכה</string>
+    <string name="menu_vpn_tunnel_settings">הגדרות Blokada פלוס</string>
+    <string name="menu_vpn_tunnel_learn_more">למד עוד אודות Blokada פלוס</string>
     <string name="menu_vpn_info_account_label">יש לי חשבון?</string>
     <string name="menu_vpn_info_account_line1">כן! חשבונך נוצר באופן אוטומטי בהפעלה הראשונה. אין צורך להירשם.</string>
     <string name="menu_vpn_info_account_line2">לחץ על האווטאר שלך לעיל כדי לראות את מזהה החשבון שלך.</string>
@@ -66,12 +82,15 @@
     <string name="menu_dns_recommended">שרתי DNS מומלצים</string>
     <string name="menu_dns_intro">DNS אחראי לתרגום כתובות ה- IP של אתרים ויישומים שבהם אתה משתמש. בחירת DNS טוב עשוי להאיץ את מכשירך ויסייע להגן על הפרטיות שלך.</string>
     <string name="menu_dns_select">בחר אחד משרתי ה- DNS.</string>
+    <string name="menu_apps_intro">ייתכן כי מספר אפליקציות לא יעבדו כראוי עם Blokada. לדוגמא, יכולה להיות להן בעיה להתחבר.\n\nהפעלת VPN לעיתים תכופות עוזרת במקרים כאלו.\n\nאחרת, אתה יכול לתת לאפליקציות הללו לעקוף את הבדיקה של Blokada. זכור, אפליקציות שהוגדרו כעוקפות, עוקפות גם את Blokada פלוס.</string>
     <string name="menu_apps_system_label">יישומי מערכת הם אלה שהותקנו מראש על המכשיר. כמה מהם מוסתרים. שנה אותם רק אם אתה יודע מה אתה עושה.</string>
     <string name="menu_host_list_intro">רשימות שרתים מכילות כללים לחסימת מודעות ועוקבים. נסה לשמור את מספר הרשימות הפעילות נמוך.</string>
     <string name="menu_host_adblocking_features">מעבדות Blokada</string>
     <string name="menu_host_adblocking_settings">הגדרות חסימת פרסומות</string>
     <string name="menu_host_list_status">סטטוס רשימה</string>
     <string name="menu_host_list_download">הגדרות הורדת רשימה</string>
+    <string name="menu_host_whitelist">השרתים שתוסיף כאן לעולם לא ייחסמו. השתמש ברשימה זו כאשר, לדוגמה, אתר שבו אתה מבקר נחסם בטעות. שים לב שהגדרה זו לא חלה על אפליקציות עוקפות.</string>
+    <string name="menu_host_blacklist">השרתים שתוסיף כאן תמיד ייחסמו. לדוגמה, תוכל להוסיף אתרים שאינם נחסמים על ידי הרשימות הסטנדרטיות, אך צריכים להיחסם. שים לב שהגדרה זו לא חלה על אפליקציות עוקפות.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">אחר</string>
     <string name="menu_share_log_label">שיתוף יומן מאפשר לנו לגלות את הסיבה לבעיה שלך. הקפד לשלוח אותו באופן פרטי לאחד מחברי הליבה של Blokada.</string>
