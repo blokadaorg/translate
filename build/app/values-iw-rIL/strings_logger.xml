@@ -2,7 +2,9 @@
 <resources>
     <string name="logger_permission">אנא הענק הרשאת אחסון להתחלה.</string>
     <string name="logger_slot_title">רישומי יומן בקשות</string>
+    <string name="logger_slot_desc">כברירת מחדלף בקשות נשמרות בתוך Blokada בלבד. אם תכונה זו פעילה, Blokada תיצור קובץ CSV ותשמור בקשות שאושרו או נחסמו על ידי האפליקציה. חפש את תיקיית \"blokada\" באיחסון החיצוני. לחילופין, הינך יכול לבטל לחלוטין את שמירת המידע, מעבר למספר הדומיינים שנחסמו.</string>
     <string name="logger_slot_mode_off">כבוי</string>
+    <string name="logger_slot_mode_internal">שמור לאחסון פנימי בלבד</string>
     <string name="logger_slot_mode_allowed">רשום בקשות מאופשרות</string>
     <string name="logger_slot_mode_denied">רשום בקשות חסומות</string>
     <string name="logger_slot_mode_all">רשום את כל הבקשות</string>
