@@ -25,6 +25,9 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; חסום</string>
     <string name="panel_domain_blocked_normal_desc">דומיין זה חסום. כדי לאשר אותו בעתיד, השתמש בלחצן למטה.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">הדומיין לא תורגם כראוי בשרת הDNS. או שהשרת חסם את הדומיין או שאינו קיים.</string>
+    <string name="panel_domain_blocked_error_desc">משהו השתבש בזמן תירגום הדומיין, שרת הDNS החזיר שגיאה.</string>
+    <string name="panel_domain_blocked_cname_desc">הדומיין נחסם בגלל שהוא רשומת CName של דומיין חסום. על מנת לאשר אותו בעתיד אתה יכול להוסיף את הCName או הדומיין לרשימה המאושרת.</string>
     <string name="panel_domain_blocked_toast">נוסף לרשימת החסימה.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">העתק</string>
@@ -37,7 +40,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">אפשר</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">אפשר CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">אפשר דומיין</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">חסום</string>
     <string name="slot_action_close">סגור</string>
@@ -82,6 +87,9 @@
     <string name="slot_allapp_whitelisted">עוקפים</string>
     <string name="slot_allapp_normal">לא עוקפים</string>
     <string name="slot_allapp_whitelist">עוקף</string>
+    <string name="slot_action_set">הגדר</string>
+    <string name="slot_whitelist_all">עקוף את כל האפליקציות</string>
+    <string name="slot_blacklist_all">אל תעקוף אף אפליקציה</string>
     <string name="slot_dns_name">DNS מופעל</string>
     <string name="slot_dns_name_private">DNS מותאם אישית פעיל</string>
     <string name="slot_dns_name_disabled">DNS מושבת</string>
@@ -106,6 +114,8 @@
     <string name="slot_filters_title">רשימת מסננים</string>
     <string name="slot_filters_description">תוכל לסנכרן את רשימת המסננים עם השרתים שלנו מבלי לאבד את הערכים המותאמים אישית שהוספת.&lt;br/&gt;&lt;br/&gt;לחלופין, תוכל לאפס את כל הערכים (כולל מותאמים אישית) ולהוריד אותם מחדש.</string>
     <string name="slot_blocked_normal_title">דומיין חסום</string>
+    <string name="slot_blocked_answer_title">דומיין לא תורגם</string>
+    <string name="slot_blocked_cname_title">CName נחסם</string>
     <string name="slot_forwarded_title">הדומיין הועבר</string>
     <string name="slot_whitelist_title">יישום מאושר</string>
     <string name="slot_list_no_desc">רשומה זו אינה מכילה תיאור.</string>
@@ -113,6 +123,8 @@
     <string name="slot_action_deactivate">כבה</string>
     <string name="slot_action_activate">הפעל</string>
     <string name="slot_update_action_refresh">בדוק שוב</string>
+    <string name="slot_telegram_title">הצטרף אלינו!</string>
+    <string name="slot_telegram_desc">בקר בקהילה שלנו לעזרה או על מנת לקחת בה חלק.</string>
     <string name="slot_telegram_action">פתח</string>
     <string name="slot_dropped_share_title">שתף עם</string>
     <string name="slot_adblocking_label">חוסם פרסומות וגששים</string>
@@ -135,6 +147,7 @@
     <string name="slot_gateway_learn_more">למד עוד על שערים</string>
     <string name="slot_gateway_info_partner">מהם שערים של שותפים?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">שלוט אילו מהמכשירים שלך מחוברים לBlokada Plus.</string>
     <string name="slot_lease_name_current">%s (המכשיר הזה)</string>
     <string name="slot_lease_description">ID המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;זהו מכשירך הנוכחי.</string>
@@ -146,11 +159,19 @@
     <string name="slot_start_on_boot_description">הפעלת התחלה באתחול מאפשרת ל Blokada להיות פעילה בכל עת ולהגן על מכשירך. שים לב למערכת יש עדיפות גבוהה יותר והיא יכולה לשכתב אפשרות זו, אם כן, אם Blokada לא מתחילה, צפו בהגדרות המערכת.</string>
     <string name="slot_recommended_dns_label">השתמש בשרתי DNS מומלצים</string>
     <string name="slot_recommended_dns_description">כאשר מופעל, Blokada תיבחר באופן אוטומטי בשרתי DNS מומלצים שיסייעו להאיץ את האינטרנט שלך ולהגן על פרטיותך. אחרת, מכשירך ישתמש בשרתי DNS ברירת מחדל של הרשת שלך. אם תבחר ידנית בשרתי DNS בסעיף מתקדם, התעלם מהגדרה זו.</string>
+    <string name="slot_update_no_updates">Blokada מעודכנת</string>
+    <string name="slot_about">מידע על Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">לוג</string>
+    <string name="slot_help_label">צריך עזרה?</string>
+    <string name="slot_help_desc">הקש על הכפתור למטה על מנת לפתוח את עמוד העזרה. אתה גם יכול להשתמש בעמודי הרשתות החברתיות שלנו כדי להשיג עזרה - אנחנו בטלגרם, פייסבוק, רדיט וטוויטר.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">עזרה</string>
+    <string name="slot_donate_label">נהנה מBlokada? אנא שקול לתמוך בנו, על מנת שנוכל להמשיך לשפר את האפליקציה.</string>
+    <string name="slot_donate_desc">עזור לנו להציג תכונות חדשות! לחץ כאן לעוד מידע.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">תרום</string>
+    <string name="slot_cta_label">פססט! אנחנו רוצים לדעת את חוות הדעת שלך.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">פתח</string>
     <!-- A button to open a blog -->
