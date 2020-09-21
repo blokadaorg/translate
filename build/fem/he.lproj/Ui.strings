@@ -156,8 +156,28 @@
 "account encrypt level medium" = "בינוני";
 "account encrypt level high" = "גבוה";
 "account encrypt label dns only" = "מצפין DNS";
+"account encrypt desc dns only" = "DNS זו הדרך שבה המכשיר שלך יודע היכן למצוא אתרים שברצונך לבקר בהם.\nלרוע המזל, רוב האינטרנט עדיין משתמש בDNS שאינו מוצפן, מה שיכול לגורם להיסטוריית הגלישה שלך להיות בסיכון מפני מעקב. כאשר אופצייה זו מופעלת, Blokada מכריחה את המכשיר שלך להתחבר רק לשרתי DNS מוצפנים (נקרא גם DNS מעל HTTPS).";
+"account encrypt label everything" = "מצפין הכול";
+"account encrypt desc everything" = "המכשיר שלך מתחבר דרך שרתי הVPN המאובטחים שלנו, כל התקשורת שמגיעה, ואו יוצאת ממכשירך מוצפנת בעזרת אלגוריתמים חזקים. זה מגן על המידע האישי שלך, כמו פרטי בנק או תמונות אישיות מגניבה במקומות לא מאובטחים, כמו רשתות וויפי לא מוכרות.";
+"account encrypt action turn on" = "הפעל את BLOKADA";
+"account encrypt header level" = "רמת הצפנה";
+"account encrypt label level" = "רמה";
+"account encrypt label level low" = "נמוך: אינו מוצפן";
+"account encrypt label level medium" = "בינוני: מצפין DNS";
+"account encrypt label level high" = "גבוה: מצפין הכול";
+"account encrypt header explanation" = "DNS זו הדרך שבה המכשיר שלך יודע היכן ממוקמים אתרים. BLOKADA תומך רק בשרתים מוצפנים.";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "מה זה DNS?";
+"account encrypt section header" = "הצפנה";
+
+"account lease label devices list" = "המכשירים הללו מחוברים לשבונך.";
 "account lease label devices" = "מכשירים";
+"account lease label this device" = " (מכשיר זה)";
+
+"account support action how help" = "איך נוכל לעזור לך?";
+"account support action kb" = "מאגר ידע פתוח";
+
+"payment header activated" = "פעיל!";
 
 "apps section header" = "יישומים";
 "app settings start on boot" = "הפעל בזמן הדלקה";
