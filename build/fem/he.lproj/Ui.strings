@@ -29,23 +29,45 @@
 "error vpn perms" = "לא ניתנו הרשאות לייצירת פרופיל VPN.";
 "error vpn no current lease" = "אנא בחר מיקום תחילה.";
 "error vpn too many leases" = "הגעת למגבלת המכשירים שלך. אנא הסר את אחד המכשירים ונסה שוב.";
+"error vpn expired" = "הVPN מבוטל. אנא עדכן את המנוי על מנת להמשיך להשתמש בBLOKADA+";
+"error payment inactive after restore" = "התשלום האחרון שלך שוחזר, אבל המנוי אינו בתוקף. אם אתה מאמין שזו טעות, אנא פנה אליו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed" = "התשלום אינו זמין כרגע. אנא וודא שאתה מחובר לאינטרנט, ונסה שוב מאוחר יותר. אם הבעיה מתרחשת שוב, אנא פנה אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment not available" = "התשלום אינו זמין במכשיר זה. ייתכן שApple Pay אינו מופעל, או שאיננו תומכים בתשלומים במדינתך כעת.";
+"error payment canceled" = "התשלום בוטל. אינך מחוייב.";
+"error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסה שוב מאוחר יותר.";
+"error location failed fetching" = "לא ניתן לזהות מיקום.";
+"error unknown" = "בעיה לא מוכרת התרחשה. אנא נסה שוב. אם הבעיה מתרחשת שוב, אנא פנה אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error blocka dns in filtering mode" = "שירות הDNS של Blokada נתמך כעת רק במצב פלוס. אנא בחר שירות DNS אחר ונסה שוב.";
 
 "universal action continue" = "המשך";
 "universal action cancel" = "בטל";
 "universal action close" = "סגור";
+"universal action done" = "בוצע";
+"universal action try again" = "נסה שוב";
 "universal action learn more" = "למידע נוסף";
 "universal action help" = "עזרה";
+"universal action show log" = "לוגים";
 "universal action share log" = "שתף יומן";
 "universal action copy" = "העתק";
 "universal action save" = "שמור";
+"universal action contact us" = "צור קשר";
 "universal action support" = "תמיכה";
+"universal action upgrade" = "שדרג לBLOKADA+";
 "universal action yes" = "כן";
 "universal action no" = "לא";
 "universal action donate" = "תרום";
 "universal action community" = "קהילה";
 "universal action open in browser" = "פתח בדפדפן";
+"universal action more" = "עוד";
+"universal action download" = "הורד";
 
 "universal label help" = "עזרה";
+"universal status processing" = "מעבד... אנא המתן.";
+"universal status copied to clipboard" = "הועתק ללוח";
+"universal status restart required" = "אנא הפעל מחדש את היישום כדי שהשינויים יכנסו לתוקף.";
+
+"alert error header" = "אופס!";
+"alert vpn expired header" = "BLOKADA+ פג תוקף";
 
 // Make sure each tab name has a similar length
 "main tab home" = "ראשי";
