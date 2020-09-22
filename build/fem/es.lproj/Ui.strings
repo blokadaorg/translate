@@ -139,10 +139,12 @@
 "advanced section slugline packs" = "Activar para un bloqueo más restrictivo";
 "advanced section slugline apps" = "Elige las aplicaciones que nunca deben ser bloqueadas";
 "advanced section slugline encryption" = "Ajusta tu nivel de cifrado y DNS";
+"advanced action slim migrate to full" = "Estás usando Blokada Slim. Aprender más";
 
 "location choice header" = "Elige una ubicación";
 
 "activity section header" = "Actividad";
+"activity section header details" = "Detalles de la actividad";
 "activity request blocked" = "Esta solicitud ha sido bloqueada.";
 "activity request allowed" = "Esta solicitud ha sido permitida.";
 "activity request allowed whitelisted" = "Esta solicitud ha sido permitida porque se encuentra entre tus Hosts permitidos";
@@ -172,9 +174,11 @@
 "activity filter show all" = "Mostrar todas las entradas";
 "activity filter show blocked" = "Mostrar solo bloqueadas";
 "activity filter show allowed" = "Mostrar solo permitidas";
+"activity empty text" = "Intenta usar tu dispositivo y vuelve aquí más tarde, para ver a dónde se conecta tu dispositivo.";
 
 "account section header settings" = "Configuración";
 "account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
+"account status text libre" = "Tu cuenta de BLOKADA Libre está activa para siempre.";
 
 "account section header primary" = "Principal";
 "account section header other" = "Otros";
@@ -182,7 +186,10 @@
 "account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
 "account action inbox" = "Bandeja de entrada";
+"account action logout" = "Restaurar compra";
 "account action about" = "Acerca de";
+"account action tap to show" = "Toca para mostrar";
+"account action restoring" = "Restaurando cuenta: %@";
 
 "account section header my subscription" = "Mi suscripción";
 "account section header general" = "General";
@@ -194,6 +201,8 @@
 "account action why upgrade" = "¿Por qué deberías actualizar?";
 
 "account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
+
+"account header logout" = "Restaurar compra";
 "account logout description" = "Por favor, introduce otro ID de cuenta, o vuelve atrás para seguir usando la cuenta existente (esta aplicación no se puede utilizar sin una).";
 "account id status unchanged" = "(no modificada)";
 "account action how to restore" = "¿Cómo recupero mi antigua cuenta?";
@@ -253,5 +262,31 @@
 "payment subscription offer" = "Ahorra %@";
 
 "apps section header" = "Apps";
+"apps label installed" = "Instalado";
+"apps label system" = "Sistema";
+"apps status bypassed" = "(omitidas)";
+"apps filter header" = "¿Qué aplicaciones te gustaría ver?";
+"apps filter action show all" = "Mostrar todas";
+"apps filter action show bypassed" = "Solo mostrar omitidas";
+"apps filter action show not bypassed" = "Solo mostrar no omitidas";
+"apps filter action toggle system" = "Filtrar todas las aplicaciones del sistema";
+
+"app settings section header" = "Este dispositivo";
+"app settings language label" = "Idioma";
+"app settings theme label" = "Tema de la aplicación";
+"app settings theme light" = "Claro";
+"app settings theme dark" = "Oscuro";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Redirigir enlaces a";
+"app settings browser internal" = "Navegador interno";
+"app settings browser external" = "Navegador externo (si es posible)";
+"app settings ipv6 label" = "Permitir IPv6";
+"app settings section system" = "Sistema";
+"app settings action app info" = "Abrir información de aplicación";
+"app settings action vpn profile" = "Abrir perfil VPN";
+"app settings action notifications" = "Abrir configuración de notificaciones";
+"app settings section details" = "Detalles";
+"app settings status default" = "Predeterminado del sistema";
 "app settings start on boot" = "Arrancar al inicio";
+"app settings use dns over https" = "Usar DNS sobre HTTPS";
 "app settings section advanced" = "Avanzado";
