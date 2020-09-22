@@ -37,6 +37,7 @@
 "error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
 "error location failed fetching" = "No se ha encontrado tu ubicación.";
 "error unknown" = "Ha ocurrido un problema desconocido. Por favor, inténtelo de nuevo. Si el problema persiste, por favor contáctanos tocando el icono de ayuda en la parte superior.";
+"error blocka dns in filtering mode" = "Blokada DNS actualmente sólo está soportado en modo Plus. Por favor, elige otro DNS y vuelva a intentarlo.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -58,16 +59,25 @@
 "universal action community" = "Comunidad";
 "universal action open in browser" = "Abrir en el navegador";
 "universal action more" = "Más detalles";
+"universal action download" = "Descargar";
 
 "universal label help" = "Ayuda";
 "universal status processing" = "Procesando... espera por favor.";
+"universal status copied to clipboard" = "Copiado al portapapeles";
+"universal status restart required" = "Por favor, reinicia la aplicación para aplicar los cambios.";
 
 "alert error header" = "¡Vaya!";
 "alert vpn expired header" = "BLOKADA+ ha expirado";
+"alert download link body" = "Por razones de seguridad, para descargar un archivo, necesitamos abrir este sitio web en tu navegador. Luego, pulsa el enlace de descarga de nuevo.";
 
 "notification vpn expired header" = "Suscripción de BLOKADA+ expirada";
 "notification vpn expired subtitle" = "El VPN está desactivado";
 "notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
+
+"notification update header" = "Hay una actualización disponible";
+"alert update body" = "Blokada %@ ahora está disponible para descargar. Recomendamos descargar la aplicación solo desde nuestras fuentes oficiales y mantenerla actualizada.";
+"update label updated" = "¡Actualizado!";
+"update downloading description" = "La actualización se está descargando, deberías ver el aviso de instalación en breve.";
 
 "account active forever" = "Para siempre";
 
@@ -103,6 +113,7 @@
 "home status detail paused" = "pausado hasta que el temporizador termine";
 "home status detail active" = "bloqueando *anuncios* y *rastreadores*";
 "home status detail active with counter" = "*%@* anuncios y rastreadores bloqueados";
+"home status detail active slim" = "Blokada *Slim* está activo";
 "home status detail plus" = "*+* protegiendo tu *privacidad*";
 "home status detail progress" = "por favor espera...";
 
@@ -111,6 +122,7 @@
 "home plus button location" = "Ubicación: *%@*";
 
 "pack section header" = "Características avanzadas";
+"pack section header details" = "Detalles de la funcionalidad";
 "pack action install" = "OBTENER";
 "pack action update" = "ACTUALIZAR";
 "pack action uninstall" = "DESINSTALAR";
@@ -122,6 +134,11 @@
 "pack category highlights" = "Destacados";
 "pack category active" = "Activo";
 "pack category all" = "Todo";
+
+"advanced section header packs" = "Listas de bloqueo";
+"advanced section slugline packs" = "Activar para un bloqueo más restrictivo";
+"advanced section slugline apps" = "Elige las aplicaciones que nunca deben ser bloqueadas";
+"advanced section slugline encryption" = "Ajusta tu nivel de cifrado y DNS";
 
 "location choice header" = "Elige una ubicación";
 
