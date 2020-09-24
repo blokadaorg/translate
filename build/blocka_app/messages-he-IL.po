@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-09-24 08:11\n"
+"PO-Revision-Date: 2020-09-24 08:24\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -134,7 +134,7 @@ msgstr "חידוש אוטומטי"
 #. Auto renew on expiry: {status}
 #: build/messages/src/Manage.json
 msgid "Auto renew on expiry: {status}"
-msgstr "חידוש אוטומטי בתום התפוגה: {status}"
+msgstr "חידוש אוטומטי בתום תקופת המנוי: {status}"
 
 #. [login.header] - Header of login
 #. defaultMessage is:
@@ -148,14 +148,14 @@ msgstr "חשבון Blokada"
 #. Blokada VPN uses {link}. Configurations can be downloaded when creating new devices.
 #: build/messages/src/Manage.json
 msgid "Blokada VPN uses {link}. Configurations can be downloaded when creating new devices."
-msgstr "ה- VPN של Blokada משתמש ב- {link}. ניתן להוריד תצורות בעת יצירת מכשירים חדשים."
+msgstr "ה- VPN של Blokada משתמש ב- {link}. ההגדרות ניתנות להורדה בעת הוספת מכשירים חדשים."
 
 #. [account.cancel_button] - Button for canceling a subscription on info for active account
 #. defaultMessage is:
 #. Cancel Subscription
 #: build/messages/src/Manage.json
 msgid "Cancel Subscription"
-msgstr "בטל מנוי"
+msgstr "ביטול מנוי"
 
 #. [account.canceling] - Shown on Button for canceling a subscription while request is in progress
 #. defaultMessage is:
@@ -230,7 +230,7 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr "ימים עד לתפוגה: {days}"
+msgstr "ימים עד לפקיעת תוקף המנוי: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
@@ -251,7 +251,7 @@ msgstr "מכשירים {counter}"
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr "הורד"
+msgstr "הורדה"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -265,7 +265,7 @@ msgstr "אימייל"
 #. EXPIRED
 #: build/messages/src/Manage.json
 msgid "EXPIRED"
-msgstr "פג"
+msgstr "פג תוקפו של המנוי"
 
 #. [login.description] - Description shown when the account ID is unknown
 #. defaultMessage is:
@@ -283,14 +283,14 @@ msgstr "הזן את מזהה החשבון כדי להמשיך"
 #: build/messages/src/Activate.json
 #: build/messages/src/AuthedRoute.json
 msgid "Fetching account information {spinner}"
-msgstr "משיג פרטי חשבון {spinner}"
+msgstr "משיג את פרטי החשבון {spinner}"
 
 #. [manage.devices_gateway_select] - Label for selecting which VPN gateway to use for a device
 #. defaultMessage is:
 #. Gateway
 #: build/messages/src/Manage.json
 msgid "Gateway"
-msgstr "שער"
+msgstr "שרת יציאה"
 
 #. [manage.devices_back] - Button for going back one step when selecting devices
 #. defaultMessage is:
@@ -329,7 +329,7 @@ msgstr "טוען"
 #. Limit reached
 #: build/messages/src/Manage.json
 msgid "Limit reached"
-msgstr "הגעת למגבלה"
+msgstr "הגעת למגבלת המכשירים"
 
 #. [account.activate_loading] - Shown on account activate button while loading payment checkout page
 #. defaultMessage is:
@@ -343,14 +343,14 @@ msgstr "טוען {spinner}"
 #. Make sure that your wallet is available before proceeding, return to here when you've sent the payment.
 #: build/messages/src/Checkout.json
 msgid "Make sure that your wallet is available before proceeding, return to here when you've sent the payment."
-msgstr "אנא ודא שהארנק שלך זמין לפני שאתה ממשיך, חזור לכאן כששלחת את התשלום."
+msgstr "אנא ודא שהארנק שלך זמין לפני שאתה ממשיך, חזור לכאן כאשר שלחת את התשלום."
 
 #. [manage.devices_name] - Label for device name a.k.a. alias
 #. defaultMessage is:
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr "שם מכשיר"
+msgstr "שם המכשיר"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
