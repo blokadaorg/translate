@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-09-24 08:35\n"
+"PO-Revision-Date: 2020-09-24 08:42\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -448,28 +448,28 @@ msgstr "שלמו €{price} עם PayPal"
 #. Payment failed, please validate the card details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, please validate the card details."
-msgstr "תשלום נכשל, נא ודא את פרטי הכרטיס."
+msgstr "התשלום נכשל, אנא ודאו את פרטי כרטיס האשראי."
 
 #. [account.activate_paypal_error] - Generic error displayed when PayPal fails the charge
 #. defaultMessage is:
 #. Payment failed, see PayPal for details.
 #: build/messages/src/Checkout.json
 msgid "Payment failed, see PayPal for details."
-msgstr "תשלום נכשל, לפרטים ראה דרך PayPal."
+msgstr "התשלום נכשל, כנסו לPayPal על מנת לראות יותר מידע."
 
 #. [signup.verify_description] - Description on the verification step of creating a new account
 #. defaultMessage is:
 #. Please verify your account ID from the previous screen.
 #: build/messages/src/Signup.json
 msgid "Please verify your account ID from the previous screen."
-msgstr "נא ודא את מזהה המשתמש שלך מהמסך הקודם."
+msgstr "אנא ודאו את מזהה המשתמש שלכם מהמסך הקודם."
 
 #. [account.activate_once_stellar_proceed] - Payment button text for the Stellar option
 #. defaultMessage is:
 #. Proceed to wallet
 #: build/messages/src/Checkout.json
 msgid "Proceed to wallet"
-msgstr "המשך לארנק"
+msgstr "המשיכו לארנק"
 
 #. [account.activate_processing] - Shown on account activate button while in the process of doing a payment charge
 #. defaultMessage is:
@@ -490,21 +490,21 @@ msgstr "מפתח ציבורי"
 #. Save
 #: build/messages/src/Manage.json
 msgid "Save"
-msgstr "שמור"
+msgstr "שמירה"
 
 #. [account.blocked-header] - Header shown when account activation is blocked
 #. defaultMessage is:
 #. Sorry
 #: build/messages/src/Activate.json
 msgid "Sorry"
-msgstr "סליחה"
+msgstr "צר לנו"
 
 #. [account.error] - Generic error message when failing processing account info
 #. defaultMessage is:
 #. Sorry, an error occured. Please try again later.
 #: build/messages/src/Activate.json
 msgid "Sorry, an error occured. Please try again later."
-msgstr "מצטערים, אירעה שגיאה. נא נסו שוב מאוחר יותר."
+msgstr "מצטערים אירעה שגיאה. אנא נסו שוב מאוחר יותר."
 
 #. [account.activate_once_stellar_faq] - FAQ link describing what Stellar Lumens are
 #. defaultMessage is:
@@ -518,7 +518,7 @@ msgstr "Stellar?"
 #. Store the account ID in a safe place, you need to have it when connecting and activating your device.
 #: build/messages/src/Signup.json
 msgid "Store the account ID in a safe place, you need to have it when connecting and activating your device."
-msgstr "אחסן את מזהה המשתמש במקום בטוח, תצטרכו אותו בעת חיבור והפעלה של המכשיר שלכם."
+msgstr "אחסנו את מזהה המשתמש במקום בטוח, תצטרכו אותו בעת חיבור והפעלה של המכשיר שלכם."
 
 #. [support.header] - Shown on support popup header
 #. defaultMessage is:
@@ -532,7 +532,7 @@ msgstr "תמיכה"
 #. Taking longer than expected? See Support button bottom left
 #: build/messages/src/Checkout.json
 msgid "Taking longer than expected? See Support button bottom left"
-msgstr "לוקח יותר מדי זמן? ראה את לחצן התמיכה למטה בצד שמאל"
+msgstr "לוקח יותר מדי זמן? אנא לחצו על לחצן התמיכה למטה בצד שמאל"
 
 #. [success.title] - Success page title
 #. defaultMessage is:
