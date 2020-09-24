@@ -19,10 +19,10 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "המכשיר שלך אינו מחובר לאינטרנט";
-"error account inactive" = "החשבון שלך אינו פעיל. אנא הפעל את חשבונך על מנת להמשיך את השימוש בBLOKADA+.";
-"error account inactive after restore" = "חשבון זה נראה שאינו תקין. אם אתה מאמין שזו טעות, אנא פנה אלינו על ידי לחיצה על מקש העזרה למעלה.";
-"error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסה מאוחר יותר.";
+"error device offline" = "המכשיר שלכם אינו מחובר לאינטרנט";
+"error account inactive" = "החשבון שלכם אינו פעיל. אנא הפעילו את חשבונכם על מנת להמשיך את השימוש בBLOKADA+.";
+"error account inactive after restore" = "נראה שחשבון זה אינו תקין. אם אתם מאמינים שזו טעות, אנא פנו אלינו על ידי לחיצה על מקש העזרה למעלה.";
+"error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסו שוב מאוחר יותר.";
 "error fetching data" = "הפעולה נכשלה. אנא וודא שאתה מחובר לאינטרנט, ונסה שוב. במידה והבעיה ממשיכה פנה אלינו באמצעות לחיצה על מקש העזרה למעלה.";
 "error tunnel" = "לא היה ניתן להפעיל את הרשת הפרטית. אנא הפעל מחדש את מכשירך, או הסר את פרופיל Blokada VPN בהגדרות המערכת, ונסה שוב.";
 "error vpn" = "לא היה ניתן להפעיל את הרשת הפרטית. אנא הפעל מחדש את מכשירך, או הסר את פרופיל Blokada VPN בהגדרות המערכת, ונסה שוב.";
@@ -167,6 +167,9 @@
 "activity happened one time" = "פעם אחת";
 "activity happened many times" = "%@ פעמים";
 "activity category recent" = "לאחרונה";
+/* activity category top
+
+This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "הכי";
 "activity category top blocked" = "הכי חסומים";
 "activity category top allowed" = "הכי מאושרים";
