@@ -126,51 +126,51 @@
     <string name="slot_telegram_title">הצטרפ/י אלינו!</string>
     <string name="slot_telegram_desc">בקר/י בקהילה שלנו לעזרה או על מנת לקחת בה חלק.</string>
     <string name="slot_telegram_action">פתיחה</string>
-    <string name="slot_dropped_share_title">שתף עם</string>
-    <string name="slot_adblocking_label">חוסם פרסומות וגששים</string>
-    <string name="slot_adblocking_text">כאשר מופעלת, Blokada תחסום פרסומות, גששים ותכנים לא רצויים אחרים. זה עוזר להגן על פרטיותך, להאיץ את מכשירך ולשמור את הנתונים שלך.</string>
-    <string name="slot_account_label_active">החשבון פעיל עד %s</string>
-    <string name="slot_account_label_inactive">חשבון לא פעיל</string>
+    <string name="slot_dropped_share_title">שתפ/י עם</string>
+    <string name="slot_adblocking_label">חוסם פרסומות &amp; עוקבים</string>
+    <string name="slot_adblocking_text">כאשר מופעלת, Blokada תחסום פרסומות, עוקבים ותכנים לא רצויים אחרים. זה עוזר להגן על פרטיותך, להאיץ את מכשירך ולשמור את הנתונים שלך.</string>
+    <string name="slot_account_label_active">המנוי פעיל עד %s</string>
+    <string name="slot_account_label_inactive">המנוי אינו פעיל</string>
     <!-- Action to manage active subscription. Keep it short -->
-    <string name="slot_account_action_manage">נהל מנוי</string>
-    <string name="slot_account_action_manage_inactive">הפעל חשבון</string>
-    <string name="slot_account_action_change_id">שחזר חשבון</string>
-    <string name="slot_account_show">מזהה משתמש</string>
-    <string name="slot_account_action_copied">מזהה חשבון הועתק ללוח</string>
-    <string name="slot_account_action_unavailable">(לא מוגדר)</string>
+    <string name="slot_account_action_manage">ניהול מנוי</string>
+    <string name="slot_account_action_manage_inactive">הפעלת חשבון</string>
+    <string name="slot_account_action_change_id">שחזור חשבון</string>
+    <string name="slot_account_show">מזהה חשבון</string>
+    <string name="slot_account_action_copied">מזהה החשבון הועתק</string>
+    <string name="slot_account_action_unavailable">[לא מוגדר]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
-    <string name="slot_gateway_label">התחבר ל %s</string>
-    <string name="slot_gateway_section_partner">שערים של שותפים מספקים מיקומים נוספים. הם לא מנוהלים באופן מלא על ידי Blokada, אך אין להם גישה לתנועה המוצפנת שלך.</string>
-    <string name="slot_gateway_section_overloaded">שערים אלה עמוסים יתר על המידה ואינם זמינים באופן זמני.</string>
+    <string name="slot_gateway_label">התחבר/י ל %s</string>
+    <string name="slot_gateway_section_partner">שרתים של שותפים מספקים מיקומים נוספים. הם לא מנוהלים באופן מלא על ידי Blokada, אך אין להם גישה לתנועה המוצפנת שלך.</string>
+    <string name="slot_gateway_section_overloaded">שרתים אלו עמוסים יתר על המידה ואינם זמינים באופן זמני.</string>
     <string name="slot_gateway_description">ביצועים: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;כתובת IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;אזור: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_overloaded">שער זה עמוס ואינו מקבל חיבורים חדשים.</string>
-    <string name="slot_gateway_learn_more">למד עוד על שערים</string>
-    <string name="slot_gateway_info_partner">מהם שערים של שותפים?</string>
+    <string name="slot_gateway_overloaded">שרת זה עמוס ואינו מקבל חיבורים חדשים.</string>
+    <string name="slot_gateway_learn_more">למד/י עוד על שרתים</string>
+    <string name="slot_gateway_info_partner">מהם שרתים של שותפים?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">שלוט אילו מהמכשירים שלך מחוברים לBlokada Plus.</string>
+    <string name="slot_leases_info">שלטו אילו מהמכשירים שלכם מחוברים לBlokada Plus.</string>
     <string name="slot_lease_name_current">%s (המכשיר הזה)</string>
-    <string name="slot_lease_description">ID המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_lease_description_current">ID המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;זהו מכשירך הנוכחי.</string>
+    <string name="slot_lease_description">מזהה המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">מזהה המכשיר: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;זהו מכשירך הנוכחי.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">גדול</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">קטן</string>
     <string name="subscription_success">חשבונך מופעל. זה עשוי לארוך מספר שניות. תודה!</string>
-    <string name="slot_start_on_boot_description">הפעלת התחלה באתחול מאפשרת ל Blokada להיות פעילה בכל עת ולהגן על מכשירך. שים לב למערכת יש עדיפות גבוהה יותר והיא יכולה לשכתב אפשרות זו, אם כן, אם Blokada לא מתחילה, צפו בהגדרות המערכת.</string>
+    <string name="slot_start_on_boot_description">הפעלה בעת אתחול מאפשרת ל Blokada להיות פעילה בכל עת ולהגן על מכשירך. שימ/י לב למערכת יש עדיפות גבוהה יותר והיא יכולה לשכתב אפשרות זו, לכן, אם Blokada לא מתחילה, צפה/י בהגדרות המערכת.</string>
     <string name="slot_recommended_dns_label">השתמש בשרתי DNS מומלצים</string>
-    <string name="slot_recommended_dns_description">כאשר מופעל, Blokada תיבחר באופן אוטומטי בשרתי DNS מומלצים שיסייעו להאיץ את האינטרנט שלך ולהגן על פרטיותך. אחרת, מכשירך ישתמש בשרתי DNS ברירת מחדל של הרשת שלך. אם תבחר ידנית בשרתי DNS בסעיף מתקדם, התעלם מהגדרה זו.</string>
+    <string name="slot_recommended_dns_description">כאשר מופעל, Blokada תבחר באופן אוטומטי בשרתי DNS מומלצים שיסייעו להאיץ את האינטרנט שלך ולהגן על פרטיותך. אחרת, מכשירך ישתמש בשרתי DNS ברירת המחדל של הרשת שלך. אם את/ה מתכננ/ת לבחור ידנית בשרתי DNS בסעיף מתקדם, התעלמ/י מהגדרה זו.</string>
     <string name="slot_update_no_updates">Blokada מעודכנת</string>
-    <string name="slot_about">מידע על Blokada</string>
+    <string name="slot_about">אודות Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">לוג</string>
-    <string name="slot_help_label">צריך עזרה?</string>
-    <string name="slot_help_desc">הקש על הכפתור למטה על מנת לפתוח את עמוד העזרה. אתה גם יכול להשתמש בעמודי הרשתות החברתיות שלנו כדי להשיג עזרה - אנחנו בטלגרם, פייסבוק, רדיט וטוויטר.</string>
+    <string name="slot_help_label">צריכ/ה עזרה?</string>
+    <string name="slot_help_desc">הקש/י על הכפתור למטה על מנת לפתוח את עמוד העזרה. את/ה גם יכול/ה להשתמש בעמודי הרשתות החברתיות שלנו כדי להשיג עזרה - אנחנו בטלגרם, פייסבוק, רדיט וטוויטר.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">עזרה</string>
-    <string name="slot_donate_label">נהנה מBlokada? אנא שקול לתמוך בנו, על מנת שנוכל להמשיך לשפר את האפליקציה.</string>
-    <string name="slot_donate_desc">עזור לנו להציג תכונות חדשות! לחץ כאן לעוד מידע.</string>
+    <string name="slot_donate_label">נהנה/ת מBlokada? אנא שקול/י לתמוך בנו, על מנת שנוכל להמשיך לשפר את האפליקציה.</string>
+    <string name="slot_donate_desc">עזור/י לנו להציג תכונות חדשות! לחצ/י כאן לעוד מידע.</string>
     <!-- A button to donate -->
-    <string name="slot_donate_action">תרום</string>
+    <string name="slot_donate_action">תרמו</string>
     <string name="slot_cta_label">פססט! אנחנו רוצים לדעת את חוות הדעת שלך.</string>
     <string name="slot_cta_desc">הראה לנו את תמיכתך בהשתתפות בסקרים שלנו ואירועים שונים. אנחנו פונים כל הזמן לקהילה שלנו לחוות דעת על רעיונות ופיתוחים חדשים, על מנת להבטיח שאנחנו עובדים על מה שאתה רוצה לראות.</string>
     <!-- A button to open something (a website) -->
