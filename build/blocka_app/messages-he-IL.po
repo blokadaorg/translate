@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2020-09-18 14:23\n"
+"PO-Revision-Date: 2020-09-24 08:11\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -46,7 +46,7 @@ msgstr "6 חודשים"
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "A real browser is required. Try the \"Open in browser\" button below."
-msgstr "נדרש דפדפן אמיתי. נסה את לחצן \"פתח בדפדפן\" למטה."
+msgstr "נדרש דפדפן חיצוני. אנא נסו את לחצן \"פתח בדפדפן\" למטה."
 
 #. [account.subscription_status_active] - Automatically paying when account expires is enabled
 #. defaultMessage is:
@@ -67,7 +67,7 @@ msgstr "חשבון"
 #. Account ID
 #: build/messages/src/Account.json
 msgid "Account ID"
-msgstr "מזהה משתמש"
+msgstr "מזהה חשבון"
 
 #. [account.activate] - Button shown on account manage if account has expired or is not activated
 #. defaultMessage is:
@@ -102,7 +102,7 @@ msgstr "הפעלה בוטלה"
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr "אירעה שגיאה, אנא נסה שוב מאוחר יותר."
+msgstr "אירעה שגיאה, אנא נסו שוב מאוחר יותר."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -113,14 +113,14 @@ msgstr "אירעה שגיאה, אנא נסה שוב מאוחר יותר."
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr "אירעה שגיאה, אנא נסה מאוחר יותר."
+msgstr "אירעה שגיאה, אנא נסו מאוחר יותר."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
 #. An error occured, please verify your ID and try again.
 #: build/messages/src/AuthedRoute.json
 msgid "An error occured, please verify your ID and try again."
-msgstr "אירעה שגיאה, אנא ודא את מזהה המשתמש שלך ונסה שוב."
+msgstr "אירעה שגיאה, אנא ודאו את מזהה המשתמש שלכם ונסו שוב."
 
 #. [account.subscription_switch] - Label next to checkbox switch for selecting to activate recurring subscription or not
 #. defaultMessage is:
