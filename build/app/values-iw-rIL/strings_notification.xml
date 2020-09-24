@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">התראות</string>
-    <string name="notification_on_description">כאשר דולקת, Blokada תציג התראות בכול פעם שמשהו נחסם. שים לב שזה לא כמו התראות הVPN שחלק מהמכשירים מציגים, ואשר לא יכולים להתבטל.&lt;br/&gt;אתה יכול להגדיר איזה התראות יוצגו עם ההגדרות למטה.</string>
+    <string name="notification_on_description">כאשר דולקת, Blokada תציג התראות בכול פעם שמשהו נחסם. שימו לב שזה לא כמו התראות הVPN שחלק מהמכשירים מציגים, ואשר לא יכולים להתבטל.&lt;br/&gt;אתם יכולים להגדיר איזה התראות יוצגו בעזרת ההגדרות למטה.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">נחסם</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
+    <string name="notification_blocked_text">%s</string>
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">אל תציג</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
@@ -14,7 +15,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">השאר בחיים</string>
-    <string name="notification_keepalive_description">הפעל מתג זה אם אתה חווה בעיות בהשארת האפליקציה ברקע. Blokada תיצור התראה תמידית על מנת למנוע מהמערכת להרוג אותה; אתה יכול להסתיר זאת על ידי בחירה בהתראות למעלה ושם בהגדרות.</string>
+    <string name="notification_keepalive_description">הפעל/י מתג זה אם את/ה חווה בעיות בהשארת האפליקציה ברקע. Blokada תיצור התראה תמידית על מנת למנוע מהמערכת להרוג אותה; את/ה יכול/ה להסתיר זאת על ידי בחירה בהתראות למעלה ושם בהגדרות.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">השאר בחיים (הקש על מנת להסתיר)</string>
     <string name="notification_keepalive_text_new">אנדרואיד דורש להציג התראה על מנת לשמור על האפליקציה רצה, אבל אתה חופשי לבטל אותה בהגדרות המערכת.</string>
