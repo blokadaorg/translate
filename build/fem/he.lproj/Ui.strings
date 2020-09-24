@@ -206,50 +206,50 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account unlock to show" = "בטלו את הנעילה על מנת לראות את מזהה החשבון שלכם";
 
 "account header logout" = "שחזור רכישה";
-"account logout description" = "הכנס מזהה חשבון אחר, או חזור על מנת לשמור על חשבונך הנוכחי (אפליקציה זו אינה יכולה לעבוד ללא מזהה).";
+"account logout description" = "הכניסו מזהה חשבון אחר, או חזרו על מנת לשמור על חשבונכם הנוכחי (אפליקציה זו אינה יכולה לעבוד ללא מזהה).";
 "account id status unchanged" = "(ללא שינוי)";
-"account action how to restore" = "כיצד אני משחזר את החשבון הישן שלי?";
+"account action how to restore" = "כיצד אני משחזר/ת את החשבון הישן שלי?";
 
-"account encrypt level low" = "נמוך";
+"account encrypt level low" = "חלש";
 "account encrypt level medium" = "בינוני";
-"account encrypt level high" = "גבוה";
+"account encrypt level high" = "גבוהה";
 "account encrypt label dns only" = "מצפין DNS";
-"account encrypt desc dns only" = "DNS זו הדרך שבה המכשיר שלך יודע היכן למצוא אתרים שברצונך לבקר בהם.\nלרוע המזל, רוב האינטרנט עדיין משתמש בDNS שאינו מוצפן, מה שיכול לגורם להיסטוריית הגלישה שלך להיות בסיכון מפני מעקב. כאשר אופצייה זו מופעלת, Blokada מכריחה את המכשיר שלך להתחבר רק לשרתי DNS מוצפנים (נקרא גם DNS מעל HTTPS).";
+"account encrypt desc dns only" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן למצוא אתרים שברצונכם לבקר בהם.\nלרוע המזל, רוב האינטרנט עדיין משתמש בDNS שאינו מוצפן, מה שיכול לגורם להיסטוריית הגלישה שלכם להיות בסיכון מפני מעקב. כאשר אופציה זו מופעלת, Blokada מכריחה את המכשיר שלכם להתחבר רק לשרתי DNS מוצפנים (נקרא גם DNS מעל HTTPS).";
 "account encrypt label everything" = "מצפין הכול";
-"account encrypt desc everything" = "המכשיר שלך מתחבר דרך שרתי הVPN המאובטחים שלנו, כל התקשורת שמגיעה, ואו יוצאת ממכשירך מוצפנת בעזרת אלגוריתמים חזקים. זה מגן על המידע האישי שלך, כמו פרטי בנק או תמונות אישיות מגניבה במקומות לא מאובטחים, כמו רשתות וויפי לא מוכרות.";
+"account encrypt desc everything" = "המכשיר שלכם מתחבר דרך שרתי הVPN המאובטחים שלנו, כל התקשורת שמגיעה, ואו יוצאת ממכשירכם מוצפנת בעזרת אלגוריתמים חזקים. זה מגן על המידע האישי שלכם, כמו פרטי בנק או תמונות אישיות מגניבה במקומות לא מאובטחים, כמו רשתות wifi לא מוכרות.";
 "account encrypt action turn on" = "הפעל את BLOKADA";
 "account encrypt header level" = "רמת הצפנה";
 "account encrypt label level" = "רמה";
-"account encrypt label level low" = "נמוך: אינו מוצפן";
+"account encrypt label level low" = "חלש: אינו מוצפן";
 "account encrypt label level medium" = "בינוני: מצפין DNS";
 "account encrypt label level high" = "גבוה: מצפין הכול";
-"account encrypt header explanation" = "DNS זו הדרך שבה המכשיר שלך יודע היכן ממוקמים אתרים. BLOKADA תומך רק בשרתים מוצפנים.";
+"account encrypt header explanation" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן ממוקמים אתרים. BLOKADA תומך רק בשרתים מוצפנים.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "מה זה DNS?";
 "account encrypt section header" = "הצפנה";
 
-"account lease label devices list" = "המכשירים הללו מחוברים לשבונך.";
+"account lease label devices list" = "המכשירים הללו מחוברים לחשבונכם.";
 "account lease label devices" = "מכשירים";
 "account lease label this device" = " (מכשיר זה)";
 
 "account support action how help" = "איך נוכל לעזור לך?";
 "account support action kb" = "מאגר ידע פתוח";
 
-"payment header activated" = "פעיל!";
-"payment activated description" = "Blokada יעבור למצב פלוס, ויחובר דרך אחד המיקומים המאובטחים שלנו. אם אינך בטוח באיזה אחד לבחור, מומלץ לבחור את הקרוב ביותר.";
+"payment header activated" = "מופעל!";
+"payment activated description" = "Blokada יעבור למצב פלוס, ויחובר דרך אחד המיקומים המאובטחים שלנו. אם אינך בטוח/ה באיזה אחד לבחור, מומלץ לבחור את הקרוב ביותר.";
 "payment action choose location" = "בחירת מיקום";
 
-"payment title" = "שדרג את שירות הVPN שלנו כדי להישאר בשליטה על *פרטיותך*.";
-"payment feature title change location" = "שנה מיקום";
-"payment feature desc change location" = "הסתר את כתובת האיפי שלך והעמד פנים כאילו אתה במדינה אחרת. זה יסתיר אותך מגורמי צד שלישי ויעזור לשמור על זהותך.";
+"payment title" = "שדרגו את שירות הVPN שלנו כדי להישאר בשליטה על *פרטיותכם*.";
+"payment feature title change location" = "שינוי מיקום";
+"payment feature desc change location" = "הסתר/י את כתובת האיפי שלך והעמד/י פנים כאילו את/ה במדינה אחרת. זה יסתיר אותך מגורמי צד שלישי ויעזור לשמור על זהותך.";
 "payment feature title encrypt data" = "הצפן את המידע";
 "payment feature desc encrypt data" = "מידע שנשלח דרך הVPN שלנו מוצפן ומשתמש באלגוריתמים חזקים על מנת לשמור מפני יירוט על ידי גורמים לא מאושרים.";
-"payment feature title faster connection" = "חיבור מהיר";
+"payment feature title faster connection" = "חיבור מהיר יותר";
 "payment feature desc faster connection" = "מהירויות מעולות עד כ100Mbps עם שרתים במגוון חלקים בעולם.";
 "payment feature title devices" = "עד חמישה מכשירים";
-"payment feature desc devices" = "השתמש באותו חשבון עדי לשתף את המנוי שלך לעד כחמישה מכשירים: iOS, אנדרואיד, או במחשב.";
+"payment feature desc devices" = "השתמש/י באותו חשבון כדי לשתף את המנוי שלך לעד כחמישה מכשירים: iOS, אנדרואיד, או במחשב.";
 "payment feature title no ads" = "ללא פרסומות";
-"payment feature desc no ads" = "המשך להשתמש בטכנולוגיית חסימת הפרסומות העולמית Blokada על מנת לשפר את רמת ההגנה והפרטיות של המידע שלך.";
+"payment feature desc no ads" = "המשיכו להשתמש בטכנולוגיית חסימת הפרסומות העולמית Blokada על מנת לשפר את רמת ההגנה והפרטיות של המידע שלכם.";
 "payment feature title support" = "תמיכה מעולה";
 "payment feature desc support" = "קבלו תשובה מהירה על כל שאלה תודות לתמיכת לקוחות והקהילה הפתוחה התוססת שלנו.";
 "payment action see all features" = "הצג את כל התכונות";
