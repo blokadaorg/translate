@@ -37,6 +37,7 @@
 "error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
 "error location failed fetching" = "No se ha encontrado tu ubicación.";
 "error unknown" = "Ha ocurrido un problema desconocido. Por favor, inténtelo de nuevo. Si el problema persiste, por favor contáctanos tocando el icono de ayuda en la parte superior.";
+"error blocka dns in filtering mode" = "Blokada DNS actualmente sólo está soportado en modo Plus. Por favor, elige otro DNS y vuelva a intentarlo.";
 
 "universal action continue" = "Continuar";
 "universal action cancel" = "Cancelar";
@@ -58,16 +59,25 @@
 "universal action community" = "Comunidad";
 "universal action open in browser" = "Abrir en el navegador";
 "universal action more" = "Más detalles";
+"universal action download" = "Descargar";
 
 "universal label help" = "Ayuda";
 "universal status processing" = "Procesando... espera por favor.";
+"universal status copied to clipboard" = "Copiado al portapapeles";
+"universal status restart required" = "Por favor, reinicia la aplicación para aplicar los cambios.";
 
 "alert error header" = "¡Vaya!";
 "alert vpn expired header" = "BLOKADA+ ha expirado";
+"alert download link body" = "Por razones de seguridad, para descargar un archivo, necesitamos abrir este sitio web en tu navegador. Luego, pulsa el enlace de descarga de nuevo.";
 
 "notification vpn expired header" = "Suscripción de BLOKADA+ expirada";
 "notification vpn expired subtitle" = "El VPN está desactivado";
 "notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
+
+"notification update header" = "Hay una actualización disponible";
+"alert update body" = "Blokada %@ ahora está disponible para descargar. Recomendamos descargar la aplicación solo desde nuestras fuentes oficiales y mantenerla actualizada.";
+"update label updated" = "¡Actualizado!";
+"update downloading description" = "La actualización se está descargando, deberías ver el aviso de instalación en breve.";
 
 "account active forever" = "Para siempre";
 
@@ -103,6 +113,7 @@
 "home status detail paused" = "pausado hasta que el temporizador termine";
 "home status detail active" = "bloqueando *anuncios* y *rastreadores*";
 "home status detail active with counter" = "*%@* anuncios y rastreadores bloqueados";
+"home status detail active slim" = "Blokada *Slim* está activo";
 "home status detail plus" = "*+* protegiendo tu *privacidad*";
 "home status detail progress" = "por favor espera...";
 
@@ -111,6 +122,7 @@
 "home plus button location" = "Ubicación: *%@*";
 
 "pack section header" = "Características avanzadas";
+"pack section header details" = "Detalles de la funcionalidad";
 "pack action install" = "OBTENER";
 "pack action update" = "ACTUALIZAR";
 "pack action uninstall" = "DESINSTALAR";
@@ -123,9 +135,16 @@
 "pack category active" = "Activo";
 "pack category all" = "Todo";
 
+"advanced section header packs" = "Listas de bloqueo";
+"advanced section slugline packs" = "Activar para un bloqueo más restrictivo";
+"advanced section slugline apps" = "Elige las aplicaciones que nunca deben ser bloqueadas";
+"advanced section slugline encryption" = "Ajusta tu nivel de cifrado y DNS";
+"advanced action slim migrate to full" = "Estás usando Blokada Slim. Aprender más";
+
 "location choice header" = "Elige una ubicación";
 
 "activity section header" = "Actividad";
+"activity section header details" = "Detalles de la actividad";
 "activity request blocked" = "Esta solicitud ha sido bloqueada.";
 "activity request allowed" = "Esta solicitud ha sido permitida.";
 "activity request allowed whitelisted" = "Esta solicitud ha sido permitida porque se encuentra entre tus Hosts permitidos";
@@ -155,9 +174,11 @@
 "activity filter show all" = "Mostrar todas las entradas";
 "activity filter show blocked" = "Mostrar solo bloqueadas";
 "activity filter show allowed" = "Mostrar solo permitidas";
+"activity empty text" = "Intenta usar tu dispositivo y vuelve aquí más tarde, para ver a dónde se conecta tu dispositivo.";
 
 "account section header settings" = "Configuración";
 "account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
+"account status text libre" = "Tu cuenta de BLOKADA Libre está activa para siempre.";
 
 "account section header primary" = "Principal";
 "account section header other" = "Otros";
@@ -165,7 +186,10 @@
 "account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
 "account action inbox" = "Bandeja de entrada";
+"account action logout" = "Restaurar compra";
 "account action about" = "Acerca de";
+"account action tap to show" = "Toca para mostrar";
+"account action restoring" = "Restaurando cuenta: %@";
 
 "account section header my subscription" = "Mi suscripción";
 "account section header general" = "General";
@@ -177,6 +201,8 @@
 "account action why upgrade" = "¿Por qué deberías actualizar?";
 
 "account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
+
+"account header logout" = "Restaurar compra";
 "account logout description" = "Por favor, introduce otro ID de cuenta, o vuelve atrás para seguir usando la cuenta existente (esta aplicación no se puede utilizar sin una).";
 "account id status unchanged" = "(no modificada)";
 "account action how to restore" = "¿Cómo recupero mi antigua cuenta?";
@@ -236,5 +262,39 @@
 "payment subscription offer" = "Ahorra %@";
 
 "apps section header" = "Apps";
+"apps label installed" = "Instalado";
+"apps label system" = "Sistema";
+"apps status bypassed" = "(omitidas)";
+"apps filter header" = "¿Qué aplicaciones te gustaría ver?";
+"apps filter action show all" = "Mostrar todas";
+"apps filter action show bypassed" = "Solo mostrar omitidas";
+"apps filter action show not bypassed" = "Solo mostrar no omitidas";
+"apps filter action toggle system" = "Filtrar todas las aplicaciones del sistema";
+
+"app settings section header" = "Este dispositivo";
+"app settings language label" = "Idioma";
+"app settings theme label" = "Tema de la aplicación";
+"app settings theme light" = "Claro";
+"app settings theme dark" = "Oscuro";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Redirigir enlaces a";
+"app settings browser internal" = "Navegador interno";
+"app settings browser external" = "Navegador externo (si es posible)";
+"app settings ipv6 label" = "Permitir IPv6";
+"app settings section system" = "Sistema";
+"app settings action app info" = "Abrir información de aplicación";
+"app settings action vpn profile" = "Abrir perfil VPN";
+"app settings action notifications" = "Abrir configuración de notificaciones";
+"app settings section details" = "Detalles";
+"app settings status default" = "Predeterminado del sistema";
 "app settings start on boot" = "Arrancar al inicio";
+"app settings use dns over https" = "Usar DNS sobre HTTPS";
+"app settings backup" = "Usar copia de seguridad en la nube";
 "app settings section advanced" = "Avanzado";
+
+"intro header" = "¡Blokada está activo!";
+"intro text" = "Un anillo azul significa que Blokada está funcionando.\n\nRecuerda que algunos anuncios, como los de YouTube, no pueden ser bloqueados. Sin embargo, notarás una diferencia en muchas otras aplicaciones.\n\nTe recomendamos activar \"VPN siempre activada\" (Android) / \"Conectarse bajo demanda\" (iOS) en la configuración del sistema.";
+
+"location region america" = "América";
+"location region europe" = "Europa";
+"location region asia" = "Asia";
