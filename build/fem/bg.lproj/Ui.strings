@@ -167,6 +167,9 @@
 "activity happened one time" = "1 път";
 "activity happened many times" = "%@ пъти";
 "activity category recent" = "Последни";
+/* activity category top
+
+This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "Най";
 "activity category top blocked" = "Най-много блокирани";
 "activity category top allowed" = "Най-много разрешени";
@@ -178,6 +181,7 @@
 
 "account section header settings" = "Настройки";
 "account status text" = "Вашият BLOKADA %@ профил е активен до %@.";
+"account status text libre" = "Вашият акаунт в BLOKADA Libre е активен завинаги.";
 
 "account section header primary" = "Основен";
 "account section header other" = "Друго";
@@ -185,6 +189,7 @@
 "account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
 "account action inbox" = "Входяща кутия";
+"account action logout" = "Възстановяване на покупка";
 "account action about" = "Относно";
 "account action tap to show" = "Докоснете за да се покаже";
 "account action restoring" = "Възстановяване на акаунт: %@";
@@ -199,6 +204,8 @@
 "account action why upgrade" = "Защо трябва да надстроя?";
 
 "account unlock to show" = "Отключете за да се покаже ID на акаунта";
+
+"account header logout" = "Възстановяване на покупка";
 "account logout description" = "Моля, въведете друг идентификационен номер на акаунта или се върнете за да продължите да използвате съществуващия си акаунт (това приложение не може да се използва без такъв).";
 "account id status unchanged" = "(непроменен)";
 "account action how to restore" = "Как да възстановя стария си акаунт?";
