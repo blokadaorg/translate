@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2020-09-15 13:34\n"
+"PO-Revision-Date: 2020-10-01 10:33\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
@@ -53,7 +53,7 @@ msgstr "Oikea selain vaaditaan. Kokeile alla olevaa Avaa selaimessa -painiketta.
 #. ACTIVE
 #: build/messages/src/Manage.json
 msgid "ACTIVE"
-msgstr "AKTIIVINEN"
+msgstr "Aktiivinen"
 
 #. [manage.account_header] - Header of manage active account
 #. defaultMessage is:
@@ -81,14 +81,14 @@ msgstr "Aktivoi käyttäjätili"
 #. Activate Subscription
 #: build/messages/src/Manage.json
 msgid "Activate Subscription"
-msgstr ""
+msgstr "Aktivoi tilaus"
 
 #. [account.activating] - Shown on Button for activating a subscription while request is in progress
 #. defaultMessage is:
 #. Activating {spinner}
 #: build/messages/src/Manage.json
 msgid "Activating {spinner}"
-msgstr ""
+msgstr "Aktivoidaan {spinner}"
 
 #. [canceled.title] - Canceled page title
 #. defaultMessage is:
@@ -209,14 +209,14 @@ msgstr "Luo ja määritä laitteet, jotka voivat muodostaa yhteyden."
 #. DISABLED
 #: build/messages/src/Manage.json
 msgid "DISABLED"
-msgstr "POISSA KÄYTÖSTÄ"
+msgstr "Poissa käytöstä"
 
 #. [account.subscription_status_disabling] - Automatically paying when account expires is being disabled
 #. defaultMessage is:
 #. DISABLING
 #: build/messages/src/Manage.json
 msgid "DISABLING"
-msgstr "OTETAAN POIS KÄYTÖSTÄ"
+msgstr "Otetaan pois käytöstä"
 
 #. [manage.devices_dns_select] - Label for selecting which DNS server to use on a device
 #. defaultMessage is:
@@ -230,7 +230,7 @@ msgstr "DNS"
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr "Päiviä voimassaolon päättymiseen asti: {days}"
+msgstr "Päiviä umpeutumiseen: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
@@ -244,7 +244,7 @@ msgstr "Poista"
 #. Devices {counter}
 #: build/messages/src/Manage.json
 msgid "Devices {counter}"
-msgstr "Laitteet {counter}"
+msgstr "Laitteita {counter}"
 
 #. [manage.devices_download] - Button for downloading wireguard configuration file
 #. defaultMessage is:
