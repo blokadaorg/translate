@@ -136,9 +136,9 @@
 "pack category all" = "すべて";
 
 "advanced section header packs" = "ブロックリスト";
-"advanced section slugline packs" = "ブロックに利用するフィルターを選択する";
-"advanced section slugline apps" = "ブロックしないアプリを選択する";
-"advanced section slugline encryption" = "暗号化レベルとDNSを調整する";
+"advanced section slugline packs" = "ブロックに利用するリストを選択する";
+"advanced section slugline apps" = "Blokadaを利用しないアプリを選択する";
+"advanced section slugline encryption" = "暗号化レベルとDNSを選択する";
 "advanced action slim migrate to full" = "Blokada Slimを使用しています。詳細はこちら";
 
 "location choice header" = "場所を選択";
@@ -167,6 +167,9 @@
 "activity happened one time" = "1回";
 "activity happened many times" = "%@回";
 "activity category recent" = "新着順";
+/* activity category top
+
+This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "回数順";
 "activity category top blocked" = "ブロック回数順";
 "activity category top allowed" = "許可回数順";
@@ -287,7 +290,7 @@
 "app settings action notifications" = "通知設定";
 "app settings section details" = "詳細";
 "app settings status default" = "システムのデフォルト";
-"app settings start on boot" = "端末起動時にBlokadaを開始する";
+"app settings start on boot" = "デバイス起動時にBlokadaを開始する";
 "app settings use dns over https" = "DNS over HTTPSを利用する";
 "app settings backup" = "クラウドバックアップ";
 "app settings section advanced" = "詳細";
