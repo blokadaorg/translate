@@ -157,7 +157,7 @@
     <string name="slot_gateway_load_high">低</string>
     <string name="subscription_success">ご購入ありがとうございます！
 アカウントをアクティベートしています。もうしばらくお待ちください。</string>
-    <string name="slot_start_on_boot_description">端末起動時にBlokadaを開始すると、Blokadaが常にアクティブになり、デバイスを保護できます。 システムは常に優先度が高く、このオプションを上書きできることに注意してください。したがって、Blokadaが起動しない場合は、システムの設定を確認してください。</string>
+    <string name="slot_start_on_boot_description">デバイス起動時にBlokadaを開始すると、Blokadaが常にアクティブになり、デバイスを保護できます。 システムは常に優先度が高く、このオプションを上書きできることに注意してください。したがって、Blokadaが起動しない場合は、システムの設定を確認してください。</string>
     <string name="slot_recommended_dns_label">おすすめのDNSサーバーを使用する</string>
     <string name="slot_recommended_dns_description">有効にすると、Blokadaは自動的に推奨されるDNSサーバーを選択し、インターネットのスピードを上げ、プライバシーを保護します。 そうでない場合は、ネットワークのデフォルトのDNSサーバーが使用されます。format@@0セクションで手動でDNSサーバーを選択した場合は、この設定は無視されます。</string>
     <string name="slot_update_no_updates">Blokadaは最新です</string>
@@ -202,7 +202,7 @@
     <string name="slot_whitelist_updating">設定を更新しています。しばらくお待ちください...</string>
     <string name="slot_too_many_leases">デバイスのリストから古いデバイスを削除してください。</string>
     <string name="slot_background_animation">バックグラウンドアニメーション</string>
-    <string name="slot_background_animation_description">ONの場合、DNSリクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。端末の動作に遅延が発生した場合はOFFにしてください。</string>
+    <string name="slot_background_animation_description">ONの場合、DNSリクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。デバイスの動作に遅延が発生した場合はOFFにしてください。</string>
     <string name="slot_reset_counter_label">ブロックされたホストのカウンターをリセット</string>
     <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
     <string name="slot_reset_counter_action">リセット</string>
