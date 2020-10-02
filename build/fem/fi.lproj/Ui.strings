@@ -59,6 +59,7 @@
 "universal action community" = "Yhteisö";
 "universal action open in browser" = "Avaa selaimessa";
 "universal action more" = "Lisää";
+"universal action download" = "Lataa";
 
 "universal label help" = "Ohje";
 "universal status processing" = "Käsitellään... odota hetki.";
@@ -76,6 +77,7 @@
 "notification update header" = "Päivitys on saatavilla";
 "alert update body" = "Blokada %@ on nyt ladattavissa. Suosittelemme pitämään sovelluksen ajan tasalla ja lataamaan sen vain virallisista lähteistämme.";
 "update label updated" = "Päivitetty!";
+"update downloading description" = "Päivitystä ladataan nyt ja näet asennuskehotteen pian.";
 
 "account active forever" = "Ikuisesti";
 
@@ -104,9 +106,9 @@
 "home power action turn off" = "Kytke pois";
 "home power action pause" = "Pysäytä viideksi minuutiksi";
 
-"home status paused" = "PYSÄYTETTY";
-"home status active" = "AKTIIVINEN";
-"home status deactivated" = "DEAKTIVOITU";
+"home status paused" = "Pysäytetty";
+"home status active" = "Aktiivinen";
+"home status deactivated" = "Deaktivoitu";
 "home action tap to activate" = "napauta aktivoidaksesi";
 "home status detail paused" = "pysäytetty kunnes ajastin loppuu";
 "home status detail active" = "estetään *mainoksia* ja *seurantaohjelmia*";
@@ -150,11 +152,11 @@
 "activity actions header" = "Toiminnot";
 "activity information header" = "Tiedot";
 "activity action add to whitelist" = "Lisää Sallittuihin";
-"activity action remove from whitelist" = "Poista Sallituista";
-"activity action added to whitelist" = "Lisätty Sallittuihin";
-"activity action add to blacklist" = "Lisää Estettyihin";
-"activity action remove from blacklist" = "Poista Estetyistä";
-"activity action added to blacklist" = "Lisätty Estettyihin";
+"activity action remove from whitelist" = "Poista sallituista";
+"activity action added to whitelist" = "Lisätty sallittuihin";
+"activity action add to blacklist" = "Lisää estettyihin";
+"activity action remove from blacklist" = "Poista estetyistä";
+"activity action added to blacklist" = "Lisätty estettyihin";
 "activity action copy to clipboard" = "Kopioi nimi leikepöydälle";
 "activity domain name" = "Koko nimi";
 "activity time of occurrence" = "Aika";
@@ -165,16 +167,21 @@
 "activity happened one time" = "1 kerran";
 "activity happened many times" = "%@ kertaa";
 "activity category recent" = "Viimeisimmät";
+/* activity category top
+
+This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "Top";
-"activity category top blocked" = "Top Estetyt";
-"activity category top allowed" = "Top Sallitut";
+"activity category top blocked" = "Eniten estetyt";
+"activity category top allowed" = "Eniten sallitut";
 "activity filter header" = "Mitä merkintöjä haluaisit nähdä?";
 "activity filter show all" = "Näytä kaikki merkinnät";
 "activity filter show blocked" = "Näytä vain estetyt";
 "activity filter show allowed" = "Näytä vain sallitut";
+"activity empty text" = "Kokeile käyttää laitettasi ja palaa tänne myöhemmin nähdäksesi, mihin laitteesi yhdistää.";
 
 "account section header settings" = "Asetukset";
 "account status text" = "BLOKADA %@ tilisi on aktiivinen, kunnes %@.";
+"account status text libre" = "BLOKADA Libre -tilisi on käytössä ikuisesti.";
 
 "account section header primary" = "Ensisijainen";
 "account section header other" = "Muu";
@@ -182,6 +189,7 @@
 "account action encryption" = "Salaus";
 "account action devices" = "Laitteet";
 "account action inbox" = "Saapuneet";
+"account action logout" = "Palauta ostos";
 "account action about" = "Tietoa";
 "account action tap to show" = "Napauta näyttääksesi";
 "account action restoring" = "Palautetaan tiliä: %@";
@@ -196,6 +204,8 @@
 "account action why upgrade" = "Miksi minun kannattaa päivittää?";
 
 "account unlock to show" = "Avaa nähdäksesi tilitunnuksesi";
+
+"account header logout" = "Palauta ostokset";
 "account logout description" = "Anna toinen tilitunnus tai palaa jatkaaksesi nykyisen tilisi käyttöä (tätä sovellusta ei voi käyttää ilman sellaista).";
 "account id status unchanged" = "(ei muutettu)";
 "account action how to restore" = "Kuinka voin palauttaa vanhan tilini?";
