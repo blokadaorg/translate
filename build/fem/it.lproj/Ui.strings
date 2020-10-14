@@ -224,6 +224,11 @@
 "account id status unchanged" = "(invariato)";
 "account action how to restore" = "Come posso ripristinare il mio vecchio account?";
 
+"account subscription days remaining" = "Giorni rimanenti: %@";
+"account devices remaining" = "Dispositivi rimanenti: %@";
+"account devices not available" = "Non disponibile";
+"account devices out of" = "%@ su %@";
+
 "account encrypt level low" = "Bassa";
 "account encrypt level medium" = "Media";
 "account encrypt level high" = "Alta";
@@ -245,6 +250,15 @@
 "account lease label devices list" = "Questi dispositivi sono connessi al tuo account.";
 "account lease label devices" = "Dispositivi";
 "account lease label this device" = " (questo dispositivo)";
+"account lease label name" = "Nome del dispositivo";
+"account lease label location" = "Posizione";
+"account lease action generate" = "Genera Configurazione";
+"account lease action download" = "Scarica Configurazione";
+"account lease generated" = "Dispositivo aggiunto! Scarica la configurazione per usarla su qualsiasi dispositivo supportato da Wireguard.";
+"account lease wireguard desc" = "Blokada utilizza Wireguard. Le configurazioni possono essere scaricate quando si creano nuovi dispositivi.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Scegli un DNS";
+"account lease label public key" = "Chiave pubblica";
 
 "account support action how help" = "Come possiamo aiutarti?";
 "account support action kb" = "Apri Base di Conoscenza";
@@ -277,6 +291,18 @@
 "payment subscription many months" = "%@ Mesi";
 "payment subscription per month" = "%@ al mese";
 "payment subscription offer" = "Risparmia %@";
+
+"payment success label" = "Grazie!";
+"payment success desc" = "Adesso il tuo account è attivo! Ora puoi utilizzare tutte le funzionalità Blokada Plus su tutti i tuoi dispositivi.";
+
+"payment ongoing desc" = "Il tuo pagamento è in fase di elaborazione. In caso di PayPal, potrebbe richiedere fino a 24 ore. Altri metodi di pagamento non dovrebbero richiedere più di un'ora. Se impiega troppo tempo, contattaci.";
+"payment pay google" = "Paga con Google Pay";
+"payment pay apple" = "Paga con Apple Pay";
+"payment change method" = "Cambia";
+"payment action pay" = "Paga %@";
+"payment action pay period" = "Paga %@ a periodo";
+"payment label email" = "Email";
+"payment crypto desc" = "Per pagare con il tuo portafoglio di criptovalute, tocca il pulsante qui sotto.";
 
 "apps section header" = "Applicazioni";
 "apps label installed" = "Installata";
