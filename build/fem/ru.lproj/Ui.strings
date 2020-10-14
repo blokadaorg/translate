@@ -203,6 +203,7 @@
 "account label enter to continue" = "Для продолжения введите ID вашего аккаунта";
 "account restore description" = "Не волнуйтесь, если вы потеряли или забыли ID вашего аккаунта - мы сможем его восстановить. Пожалуйста, свяжитесь с нашей службой поддержки и предоставьте сведения, которые позволят нам идентифицировать вашу покупку (например, последние 4 цифры вашей кредитной карты, или электронная почта PayPal).";
 "account create description" = "Это ID вашего аккаунта. Вы должны записать его, так как это единственный способ получить доступ к вашей подписке. Также не делитесь им ни с кем, чтобы вашу учетную запись не украли.";
+"account create confirm" = "Я знаю ID моего аккаунта";
 
 "account section header my subscription" = "Моя подписка";
 "account section header general" = "Общее";
@@ -212,6 +213,9 @@
 "account label active until" = "Активна до";
 "account action manage subscription" = "Управление подпиской";
 "account action why upgrade" = "Зачем мне платная подписка?";
+"account subscription header renew" = "Продлять автоматически";
+"account subscription header payment method" = "Способ оплаты";
+"account subscription renew unsupported" = "Ваш способ оплаты не поддерживает автоматическое продление.";
 
 "account unlock to show" = "Разблокируйте, чтобы показать ID аккаунта";
 
@@ -273,6 +277,11 @@
 "payment subscription many months" = "%@ месяцев";
 "payment subscription per month" = "%@ в месяц";
 "payment subscription offer" = "Сэкономить %@";
+
+"payment success label" = "Спасибо!";
+"payment action pay" = "Оплатить %@";
+"payment action pay period" = "Оплачивать %@ каждый период";
+"payment label email" = "Email";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Установленные";
