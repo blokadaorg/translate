@@ -198,6 +198,9 @@
 "account action tap to show" = "Toque para mostrar";
 "account action restoring" = "Restaurando conta: %@";
 "account label enter to continue" = "Digite o ID da sua conta para continuar";
+"account restore description" = "Não se preocupe, se você perdeu ou esqueceu o seu ID de conta, poderemos recuperá-lo. Por favor, entre em contato com o nosso suporte e nos forneça informações que nos permitirão identificar sua compra (por exemplo, últimos 4 dígitos do seu cartão de crédito, ou e-mail do PayPal).";
+"account create description" = "Este é o ID da sua conta. Você deve anotá-lo, pois é o único modo de obter acesso a sua assinatura. Também, não compartilhe isso com ninguém, daí sua conta não pode ser roubada.";
+"account create confirm" = "Eu conheço o meu ID de conta";
 
 "account section header my subscription" = "Minha Assinatura";
 "account section header general" = "Geral";
@@ -207,6 +210,9 @@
 "account label active until" = "Ativo até";
 "account action manage subscription" = "Gerenciar assinatura";
 "account action why upgrade" = "Por que devo fazer o upgrade?";
+"account subscription header renew" = "Renovar automaticamente";
+"account subscription header payment method" = "Método de pagamento";
+"account subscription renew unsupported" = "Seu método de pagamento não suporta renovação automática.";
 
 "account unlock to show" = "Desbloqueie para mostrar o ID da sua conta";
 
@@ -214,6 +220,11 @@
 "account logout description" = "Por favor insira outro ID de conta, ou volte para continuar usando sua conta existente (este aplicativo não pode ser usado sem um ID).";
 "account id status unchanged" = "(inalterado)";
 "account action how to restore" = "Como faço para restaurar minha conta antiga?";
+
+"account subscription days remaining" = "Dias restantes: %@";
+"account devices remaining" = "Dispositivos restantes: %@";
+"account devices not available" = "Não disponível";
+"account devices out of" = "%@ de %@";
 
 "account encrypt level low" = "Baixa";
 "account encrypt level medium" = "Média";
@@ -236,6 +247,15 @@
 "account lease label devices list" = "Estes dispositivos estão conectados à sua conta.";
 "account lease label devices" = "Dispositivos";
 "account lease label this device" = " (este dispositivo)";
+"account lease label name" = "Nome do dispositivo";
+"account lease label location" = "Localização";
+"account lease action generate" = "Gerar Configuração";
+"account lease action download" = "Baixar Configuração";
+"account lease generated" = "Dispositivo adicionado! Baixe a configuração para usá-la em qualquer dispositivo suportado pelo Wireguard.";
+"account lease wireguard desc" = "O Blokada usa o Wireguard. As configurações podem ser baixadas ao criar novos dispositivos.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Escolha um DNS";
+"account lease label public key" = "Chave Pública";
 
 "account support action how help" = "Como podemos te ajudar?";
 "account support action kb" = "Base de Conhecimento Aberta";
@@ -268,6 +288,13 @@
 "payment subscription many months" = "%@ Meses";
 "payment subscription per month" = "%@ por mês";
 "payment subscription offer" = "Salvar %@";
+
+"payment success label" = "Obrigado!";
+"payment success desc" = "Sua conta agora está ativa! Agora você pode usar todos os recursos do Blokada Plus em todos os seus dispositivos.";
+
+"payment ongoing desc" = "Seu pagamento está sendo processado agora. No caso do PayPal, pode demorar até 24 horas. Outros métodos de pagamento não devem demorar mais que uma hora. Se você acha que está demorando muito, por favor, entre em contato conosco.";
+"payment pay google" = "Pagar com Google Pay";
+"payment pay apple" = "Pague com Apple Pay";
 
 "apps section header" = "Apps";
 "apps label installed" = "Instalado";
