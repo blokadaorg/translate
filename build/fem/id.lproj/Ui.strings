@@ -196,9 +196,14 @@
 "account action inbox" = "Kotak Masuk";
 "account action logout" = "Kembalikan pembelian";
 "account action logout only" = "Keluar";
+"account action create" = "Buat akun baru";
 "account action about" = "Info Aplikasi";
 "account action tap to show" = "Tekan untuk melihat";
 "account action restoring" = "Memulihkan akun: %@";
+"account label enter to continue" = "Masukkan ID akun Anda untuk melanjutkan";
+"account restore description" = "Jangan khawatir, jika Anda kehilangan atau lupa ID akun Anda, kami dapat memulihkannya. Silakan hubungi dukungan kami, dan berikan kami informasi yang memungkinkan kami mengidentifikasi pembelian Anda (mis. 4 digit terakhir kartu kredit Anda, atau email PayPal).";
+"account create description" = "Ini adalah ID akun Anda. Anda harus menuliskannya, karena ini adalah satu-satunya cara bagi Anda untuk mendapatkan akses ke langganan Anda. Selain itu, jangan membagikannya dengan siapa pun, agar akun Anda tidak dicuri.";
+"account create confirm" = "Saya tahu ID akun saya";
 
 "account section header my subscription" = "Status Berlangganan";
 "account section header general" = "Umum";
@@ -208,6 +213,9 @@
 "account label active until" = "Aktif hingga";
 "account action manage subscription" = "Kelola langganan";
 "account action why upgrade" = "Kenapa saya harus berlangganan?";
+"account subscription header renew" = "Perpanjang secara otomatis";
+"account subscription header payment method" = "Cara Pembayaran";
+"account subscription renew unsupported" = "Metode pembayaran Anda tidak mendukung perpanjangan otomatis.";
 
 "account unlock to show" = "Unlock untuk melihat ID akun Anda";
 
@@ -215,6 +223,11 @@
 "account logout description" = "Silakan masukkan ID akun yang lain, atau kembali untuk menggunakan akun yang sudah ada (aplikasi ini tidak bisa digunakan tanpa akun).";
 "account id status unchanged" = "(tidak berubah)";
 "account action how to restore" = "Bagaimana cara memulihkan akun lama saya?";
+
+"account subscription days remaining" = "Hari Tersisa: %@";
+"account devices remaining" = "Perangkat tersisa:%@";
+"account devices not available" = "Tidak tersedia";
+"account devices out of" = "%@ dari %@";
 
 "account encrypt level low" = "Rendah";
 "account encrypt level medium" = "Sedang";
@@ -237,6 +250,15 @@
 "account lease label devices list" = "Perangkat-perangkat ini terhubung dengan akun Anda.";
 "account lease label devices" = "Perangkat";
 "account lease label this device" = " (perangkat ini)";
+"account lease label name" = "Nama perangkat";
+"account lease label location" = "Lokasi";
+"account lease action generate" = "Hasilkan Config";
+"account lease action download" = "Unduh Config";
+"account lease generated" = "Perangkat ditambahkan! Unduh konfigurasi untuk menggunakannya di perangkat apa pun yang didukung oleh Wireguard.";
+"account lease wireguard desc" = "Blokada menggunakan Wireguard. Konfigurasi dapat diunduh saat membuat perangkat baru.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Pilih DNS";
+"account lease label public key" = "Kunci Publik";
 
 "account support action how help" = "Bagaimana kami dapat membantu Anda?";
 "account support action kb" = "Buka Knowledge Base";
@@ -269,6 +291,18 @@
 "payment subscription many months" = "%@ bulan";
 "payment subscription per month" = "%@ per bulan";
 "payment subscription offer" = "Hemat %@";
+
+"payment success label" = "Terima kasih!";
+"payment success desc" = "Akun Anda sekarang aktif! Sekarang Anda dapat menggunakan semua fitur Blokada Plus di semua perangkat Anda.";
+
+"payment ongoing desc" = "Pembayaran Anda sekarang sedang diproses. Dalam kasus PayPal, mungkin diperlukan waktu hingga 24 jam. Metode pembayaran lain tidak boleh lebih dari satu jam. Jika Anda merasa proses ini terlalu lama, silakan hubungi kami.";
+"payment pay google" = "Bayar dengan Google Pay";
+"payment pay apple" = "Bayar dengan Apple Pay";
+"payment change method" = "Ubah";
+"payment action pay" = "Bayar %@";
+"payment action pay period" = "Bayar %@ setiap periode";
+"payment label email" = "Email";
+"payment crypto desc" = "Untuk membayar dengan dompet cryptocurrency Anda, ketuk tombol di bawah ini.";
 
 "apps section header" = "Aplikasi";
 "apps label installed" = "Terinstal";
