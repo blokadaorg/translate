@@ -202,6 +202,8 @@
 "account action restoring" = "アカウントを復元中: %@";
 "account label enter to continue" = "続行するにはアカウントIDを入力してください";
 "account restore description" = "アカウントIDを紛失または忘れてしまった場合、 当社のサポートに連絡してください。その際、お客様の購入を確認するためにクレジットカードの下4桁またはPayPalメールを提供してください。";
+"account create description" = "これはあなたのアカウントIDです。サブスクリプションにアクセスするための唯一の方法ですので、書き留めておいてください。アカウントの盗難防止のため、IDは誰とも共有せずに保管してください。";
+"account create confirm" = "私のアカウントIDを知っています";
 
 "account section header my subscription" = "サブスクリプション";
 "account section header general" = "全般";
@@ -211,6 +213,9 @@
 "account label active until" = "有効期限";
 "account action manage subscription" = "サブスクリプションの管理";
 "account action why upgrade" = "アップグレードする理由は？";
+"account subscription header renew" = "自動更新";
+"account subscription header payment method" = "お支払い方法";
+"account subscription renew unsupported" = "自動更新をサポートしていないお支払い方法です。";
 
 "account unlock to show" = "ロックを解除してアカウントIDを表示する";
 
@@ -218,6 +223,11 @@
 "account logout description" = "別のアカウントIDを入力するか、戻って既存のアカウントを引き続き使用してください (アカウントを利用せずこのアプリを使用することはできません)";
 "account id status unchanged" = "(変更なし)";
 "account action how to restore" = "古いアカウントを復元する方法";
+
+"account subscription days remaining" = "残りの日数: %@";
+"account devices remaining" = "残りのデバイス: %@";
+"account devices not available" = "利用できません";
+"account devices out of" = "%@ / %@";
 
 "account encrypt level low" = "低";
 "account encrypt level medium" = "中";
@@ -240,6 +250,9 @@
 "account lease label devices list" = "これらのデバイスはあなたのアカウントに接続されています。";
 "account lease label devices" = "デバイス";
 "account lease label this device" = " (このデバイス)";
+"account lease label name" = "デバイス名";
+"account lease label location" = "場所";
+"account lease action generate" = "設定する";
 
 "account support action how help" = "お困りですか？";
 "account support action kb" = "サポートFAQ";
