@@ -22,6 +22,7 @@
 "error device offline" = "Il tuo dispositivo è offline";
 "error account inactive" = "Il tuo account non è attivo. Si prega di attivare il tuo account per continuare a utilizzare BLOKADA+.";
 "error account inactive after restore" = "Questo non sembra essere un account attivo valido. Se credi che sia un errore, contattaci toccando l'icona di aiuto in alto.";
+"error account invalid" = "Questo account ID non sembra valido.";
 "error creating account" = "Impossibile creare un nuovo account. Riprova più tardi.";
 "error fetching data" = "Questa azione non può essere completata. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
 "error tunnel" = "Impossibile stabilire la VPN. Riavvia il dispositivo o rimuovi il profilo VPN Blokada nelle impostazioni di sistema e riprova.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "La VPN è disabilitata. Aggiorna il tuo abbonamento per continuare a utilizzare BLOKADA+";
 "error payment inactive after restore" = "Il pagamento precedente è stato ripristinato, ma l'abbonamento è già scaduto. Se credi che questo sia un errore, contattaci toccando l'icona di aiuto in alto.";
 "error payment failed" = "Al momento i pagamenti non sono disponibili. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
+"error payment failed alternative" = "Impossibile completare il pagamento. Assicurati che i tuoi dati siano corretti e riprova. Se il problema persiste, si prega di contattarci toccando l'icona di aiuto in alto.";
 "error payment not available" = "I pagamenti non sono disponibili per questo dispositivo. O Apple Pay non è attivato, o non gestiamo ancora gli acquisti nel tuo paese.";
 "error payment canceled" = "Il pagamento è stato annullato. Non ti è stato addebitato nulla.";
 "error pack install" = "Impossibile installare (o disinstallare) questa funzione. Riprova più tardi.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Contattaci";
 "universal action support" = "Supporto";
 "universal action upgrade" = "Aggiorna a BLOKADA+";
+"universal action upgrade short" = "Aggiorna";
 "universal action yes" = "Sì";
 "universal action no" = "No";
 "universal action donate" = "Dona";
@@ -60,8 +63,11 @@
 "universal action open in browser" = "Apri nel browser";
 "universal action more" = "Altro";
 "universal action download" = "Scarica";
+"universal action news" = "Notizie";
+"universal action delete" = "Elimina";
 
 "universal label help" = "Aiuto";
+"universal label welcome" = "Benvenuto!";
 "universal status processing" = "Elaborazione in corso, attendere prego...";
 "universal status copied to clipboard" = "Copiato negli Appunti";
 "universal status restart required" = "Per favore, riavvia l'app per rendere effettive le modifiche.";
@@ -80,6 +86,7 @@
 "update downloading description" = "Aggiornamento in corso, a breve dovrebbe comparire la conferma per l'installazione.";
 
 "account active forever" = "Per sempre";
+"account active forever full" = "Attivo per sempre";
 
 "main ask for permissions header" = "Solo un altro passo";
 "main ask for permissions description" = "Blokada usa una configurazione VPN per bloccare gli annunci. Ti verrà chiesto di consentirla nel prossimo passo.";
@@ -185,11 +192,18 @@
 "account action my account" = "Il mio account";
 "account action encryption" = "Crittografia";
 "account action devices" = "Dispositivi";
+"account action new device" = "Nuovo dispositivo";
 "account action inbox" = "Messaggi";
 "account action logout" = "Ripristina acquisto";
+"account action logout only" = "Esci";
+"account action create" = "Genera un nuovo account";
 "account action about" = "Info";
 "account action tap to show" = "Tocca per mostrare";
 "account action restoring" = "Ripristino account: %@";
+"account label enter to continue" = "Inserisci l'ID del tuo account per continuare";
+"account restore description" = "Non ti preoccupare, se hai perso o dimenticato l'ID del tuo account, possiamo recuperarlo. Si prega di contattare il nostro supporto, e fornirci informazioni che ci permetteranno di identificare il vostro acquisto (ad es. ultime 4 cifre della tua carta di credito, o e-mail PayPal).";
+"account create description" = "Questo è il tuo account ID. Dovresti scrivertelo, perché è l'unico modo per ottenere l'accesso al tuo abbonamento. Inoltre, non condividerlo con nessuno, in modo che il tuo account non venga rubato.";
+"account create confirm" = "Conosco il mio account ID";
 
 "account section header my subscription" = "Il mio abbonamento";
 "account section header general" = "Generale";
@@ -199,6 +213,9 @@
 "account label active until" = "Attivo fino al";
 "account action manage subscription" = "Gestisci abbonamento";
 "account action why upgrade" = "Perché dovrei aggiornare?";
+"account subscription header renew" = "Rinnova automaticamente";
+"account subscription header payment method" = "Metodo di pagamento";
+"account subscription renew unsupported" = "Il tuo metodo di pagamento non supporta il rinnovo automatico.";
 
 "account unlock to show" = "Sblocca per mostrare l'ID del tuo account";
 
