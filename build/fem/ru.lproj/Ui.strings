@@ -196,7 +196,7 @@
 "account action inbox" = "Входящие";
 "account action logout" = "Восстановить покупку";
 "account action logout only" = "Выйти";
-"account action create" = "Сгенерировать новый аккаунт";
+"account action create" = "Создать новый аккаунт";
 "account action about" = "О приложении";
 "account action tap to show" = "Нажмите, чтобы показать";
 "account action restoring" = "Восстановление аккаунта: %@";
@@ -224,6 +224,11 @@
 "account id status unchanged" = "(без изменений)";
 "account action how to restore" = "Как мне восстановить мой старый аккаунт?";
 
+"account subscription days remaining" = "Осталось дней: %@";
+"account devices remaining" = "Осталось устройств: %@";
+"account devices not available" = "Недоступно";
+"account devices out of" = "%@ из %@";
+
 "account encrypt level low" = "Низкий";
 "account encrypt level medium" = "Средний";
 "account encrypt level high" = "Высокий";
@@ -245,6 +250,11 @@
 "account lease label devices list" = "Эти устройства подключены к вашему аккаунту.";
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (это устройство)";
+"account lease label name" = "Название устройства";
+"account lease label location" = "Местоположение";
+"account lease action generate" = "Создать конфигурацию";
+"account lease action download" = "Скачать конфигурацию";
+"account lease generated" = "Устройство добавлено! Скачайте конфигурацию, чтобы использовать ее на любом устройстве, которое поддерживается Wireguard.";
 
 "account support action how help" = "Чем мы можем вам помочь?";
 "account support action kb" = "Открытая база знаний";
@@ -279,9 +289,16 @@
 "payment subscription offer" = "Сэкономить %@";
 
 "payment success label" = "Спасибо!";
+"payment success desc" = "Ваш аккаунт теперь активен! Теперь вы можете использовать все функции Blokada Plus на всех своих устройствах.";
+
+"payment ongoing desc" = "Ваш платеж сейчас обрабатывается. В случае PayPal это может занять до 24 часов. Другие способы оплаты не должны занимать больше часа. Если вы полагаете, что это занимает слишком много времени, пожалуйста, свяжитесь с нами.";
+"payment pay google" = "Оплата через Google Pay";
+"payment pay apple" = "Оплата через Apple Pay";
+"payment change method" = "Изменить";
 "payment action pay" = "Оплатить %@";
 "payment action pay period" = "Оплачивать %@ каждый период";
 "payment label email" = "Email";
+"payment crypto desc" = "Чтобы заплатить с помощью своего кошелька для криптовалюты, нажмите кнопку ниже.";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Установленные";
