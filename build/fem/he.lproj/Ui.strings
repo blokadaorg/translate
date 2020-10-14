@@ -201,6 +201,9 @@
 "account action tap to show" = "לחצו להצגה";
 "account action restoring" = "משחזר חשבון: %@";
 "account label enter to continue" = "הזינו את מזהה החשבון כדי להמשיך";
+"account restore description" = "אל תדאגו, אם תאבדו או תשכחו את מזהה החשבון שלך, אנו יכולים לשחזרו. אנא צרו קשר עם התמיכה, וספקו לנו מידע שיאפשר לנו לזהות את הרכישה שלכם (לדוגמה: 4 ספרות אחרונות של כרטיס האשראי, מייל של חשבון הפייפל).";
+"account create description" = "זה מזהה החשבון שלך. כדאי שתכתוב אותו, מכיוון שזו הדרך היחידה לקבל גישה למנוי שלך. בנוסף, אל תשתף אותו עם אף אחד על מנת שחשבונך לא יגנב.";
+"account create confirm" = "אני יודע/ת את מזהה החשבון שלי";
 
 "account section header my subscription" = "המנוי שלי";
 "account section header general" = "כללי";
@@ -210,6 +213,9 @@
 "account label active until" = "פעיל עד";
 "account action manage subscription" = "ניהול מנוי";
 "account action why upgrade" = "למה כדאי לי לשדרג?";
+"account subscription header renew" = "חדש אוטומטית";
+"account subscription header payment method" = "אמצעי תשלום";
+"account subscription renew unsupported" = "סוג התשלום שלך אינו תומך בחידוש אוטומטי.";
 
 "account unlock to show" = "בטלו את הנעילה על מנת לראות את מזהה החשבון שלכם";
 
@@ -217,6 +223,11 @@
 "account logout description" = "הכניסו מזהה חשבון אחר, או חזרו על מנת לשמור על חשבונכם הנוכחי (אפליקציה זו אינה יכולה לעבוד ללא מזהה).";
 "account id status unchanged" = "(ללא שינוי)";
 "account action how to restore" = "כיצד אני משחזר/ת את החשבון הישן שלי?";
+
+"account subscription days remaining" = "ימים שנותרו: %@";
+"account devices remaining" = "מכשירים שנותרו: %@";
+"account devices not available" = "לא זמין";
+"account devices out of" = "%@ מתוך %@";
 
 "account encrypt level low" = "חלש";
 "account encrypt level medium" = "בינוני";
@@ -239,6 +250,15 @@
 "account lease label devices list" = "המכשירים הללו מחוברים לחשבונכם.";
 "account lease label devices" = "מכשירים";
 "account lease label this device" = " (מכשיר זה)";
+"account lease label name" = "שם המכשיר";
+"account lease label location" = "מיקום";
+"account lease action generate" = "יצירת קובץ הגדרות";
+"account lease action download" = "הורדת קובץ הגדרות";
+"account lease generated" = "מכשיר נוסף! הורד את ההגדרות ותוכל להשתמש בהם בכול מכשיר שתומך בWireguard.";
+"account lease wireguard desc" = "Blokada משתמש ב-Wireguard. ההגדרות ניתנות להורדה בעת הוספת מכשירים חדשים.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "בחר DNS";
+"account lease label public key" = "מפתח ציבורי";
 
 "account support action how help" = "איך נוכל לעזור לך?";
 "account support action kb" = "מאגר ידע פתוח";
@@ -271,6 +291,18 @@
 "payment subscription many months" = "%@ חודשים";
 "payment subscription per month" = "%@ לחודש";
 "payment subscription offer" = "חסוך %@";
+
+"payment success label" = "תודה!";
+"payment success desc" = "המנוי פעיל כעת. אתם רשאים להשתמש בכל התכונות של Blokada Plus בכול המכשירים שלכם.";
+
+"payment ongoing desc" = "התשלום שלכם בתהליך אישור. במקרה שבחרת באמצעי תשלום פייפל, זה יכול לקחת עד כ24 שעות. אמצעי תשלום אחרים לא אמורים לקחת יותר משעה. אם אתם מרגישים שזה לוקח יותר מדי זמן, אנא צרו איתנו קשר.";
+"payment pay google" = "תשלום באמצעות Google Pay";
+"payment pay apple" = "תשלום באמצעות Apple Pay";
+"payment change method" = "שינוי";
+"payment action pay" = "שלמו %@";
+"payment action pay period" = "שלמו %@ כל תקופה";
+"payment label email" = "אימייל";
+"payment crypto desc" = "לתשלום באמצעות מטבעות קריפטוגרפים, לחצו על המקש למטה.";
 
 "apps section header" = "אפליקציות";
 "apps label installed" = "מותקן";
