@@ -22,6 +22,7 @@
 "error device offline" = "O seu dispositivo está offline";
 "error account inactive" = "Sua conta está inativa. Por favor, ative sua conta para continuar a usar o BLOKADA+.";
 "error account inactive after restore" = "Esta não parece ser uma conta ativa válida. Se você acredita que isso é um erro, entre em contato conosco tocando no ícone de ajuda na parte superior.";
+"error account invalid" = "O ID dessa conta parece inválido.";
 "error creating account" = "Não foi possível criar uma conta nova. Por favor, tente novamente mais tarde.";
 "error fetching data" = "Esta ação não pôde ser concluída. Verifique se você está online e tente novamente mais tarde. Se o problema persistir, entre em contato conosco tocando no ícone de ajuda na parte superior.";
 "error tunnel" = "Não foi possível estabelecer a VPN. Por favor, reinicie seu dispositivo ou remova o perfil de VPN do Blokada nas configurações do sistema e tente novamente.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "A VPN está desativada. Atualize sua assinatura para continuar a utilizar o BLOKADA+";
 "error payment inactive after restore" = "Seu pagamento anterior foi restaurado, mas a assinatura já expirou. Se você acredita que isso é um erro, entre em contato conosco tocando no ícone de ajuda na parte superior.";
 "error payment failed" = "Os pagamentos não estão disponíveis neste momento. Verifique se você está online e tente novamente mais tarde. Se o problema persistir, entre em contato conosco tocando no ícone de ajuda na parte superior.";
+"error payment failed alternative" = "Não foi possível concluir seu pagamento. Por favor, certifique-se de que seus dados estão corretos e tente novamente. Se o problema persistir, por favor, entre em contato conosco tocando no ícone de ajuda na parte superior.";
 "error payment not available" = "Pagamentos não estão disponíveis para este dispositivo. Ou o Apple Pay não está ativado, ou ainda não tratamos de compras em seu país.";
 "error payment canceled" = "O pagamento foi cancelado. Você não foi cobrado.";
 "error pack install" = "Não foi possível instalar (ou desinstalar) este recurso. Por favor, tente novamente mais tarde.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Contate-nos";
 "universal action support" = "Suporte";
 "universal action upgrade" = "Atualize para o BLOKADA+";
+"universal action upgrade short" = "Atualizar";
 "universal action yes" = "Sim";
 "universal action no" = "Não";
 "universal action donate" = "Doar";
@@ -60,8 +63,11 @@
 "universal action open in browser" = "Abrir no navegador";
 "universal action more" = "Mais";
 "universal action download" = "Baixar";
+"universal action news" = "Novidades";
+"universal action delete" = "Excluir";
 
 "universal label help" = "Ajuda";
+"universal label welcome" = "Bem-vindo!";
 "universal status processing" = "Processando... Por favor, aguarde.";
 
 "alert error header" = "Opa!";
@@ -78,6 +84,7 @@
 "update downloading description" = "A atualização está sendo baixada, e você verá a solicitação de instalação em breve.";
 
 "account active forever" = "Para sempre";
+"account active forever full" = "Ativo para sempre";
 
 "main ask for permissions header" = "Só mais um passo";
 "main ask for permissions description" = "O Blokada está usando uma configuração de VPN para bloquear anúncios. Você será solicitado a permiti-lo na próxima etapa.";
@@ -182,11 +189,15 @@
 "account action my account" = "Minha conta";
 "account action encryption" = "Criptografia";
 "account action devices" = "Dispositivos";
+"account action new device" = "Novo dispositivo";
 "account action inbox" = "Caixa de entrada";
 "account action logout" = "Restaurar compras";
+"account action logout only" = "Encerrar sessão";
+"account action create" = "Gerar nova conta";
 "account action about" = "Sobre";
 "account action tap to show" = "Toque para mostrar";
 "account action restoring" = "Restaurando conta: %@";
+"account label enter to continue" = "Digite o ID da sua conta para continuar";
 
 "account section header my subscription" = "Minha Assinatura";
 "account section header general" = "Geral";
