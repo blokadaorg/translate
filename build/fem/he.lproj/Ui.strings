@@ -22,6 +22,7 @@
 "error device offline" = "המכשיר שלכם אינו מחובר לאינטרנט";
 "error account inactive" = "החשבון שלכם אינו פעיל. אנא הפעילו את חשבונכם על מנת להמשיך את השימוש בBLOKADA+.";
 "error account inactive after restore" = "נראה שחשבון זה אינו תקין. אם אתם מאמינים שזו טעות, אנא פנו אלינו על ידי לחיצה על מקש העזרה למעלה.";
+"error account invalid" = "מזהה חשבון זה אינו תקין.";
 "error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסו שוב מאוחר יותר.";
 "error fetching data" = "הפעולה נכשלה. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב. במידה והבעיה ממשיכה פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
 "error tunnel" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "הVPN מבוטל. אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
 "error payment inactive after restore" = "התשלום האחרון שלכם שוחזר, אבל המנוי פג תוקף. אם אתם מאמינים שזו טעות, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
 "error payment failed" = "התשלום אינו זמין כרגע. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב מאוחר יותר. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed alternative" = "לא היה ניתן לבצע את התשלום. אנא וודאו שהמידע שהכנסתם נכון, ונסו שוב. אם הבעיה נמשכת, אנא צרו איתנו קשר בעזרת לחיצה על מקש העזרה למעלה.";
 "error payment not available" = "התשלום אינו זמין במכשיר זה. ייתכן שApple Pay אינו מופעל, או שאיננו תומכים בתשלומים במדינתך כעת.";
 "error payment canceled" = "התשלום בוטל. אינכם מחוייבים.";
 "error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסו שוב מאוחר יותר.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "יצירת קשר";
 "universal action support" = "תמיכה";
 "universal action upgrade" = "שדרגו לBLOKADA+";
+"universal action upgrade short" = "שדרוג";
 "universal action yes" = "כן";
 "universal action no" = "לא";
 "universal action donate" = "תרמו";
@@ -60,8 +63,11 @@
 "universal action open in browser" = "פתח בדפדפן";
 "universal action more" = "עוד";
 "universal action download" = "הורדה";
+"universal action news" = "חדשות";
+"universal action delete" = "מחיקה";
 
 "universal label help" = "עזרה";
+"universal label welcome" = "ברוכים הבאים!";
 "universal status processing" = "מעבד... אנא המתינו.";
 "universal status copied to clipboard" = "הועתק ללוח";
 "universal status restart required" = "אנא הפעילו מחדש את היישום כדי שהשינויים יכנסו לתוקף.";
@@ -80,6 +86,7 @@
 "update downloading description" = "העדכון יורד כעת, ותוכלו לראות את חלון ההתקנה בקרוב.";
 
 "account active forever" = "לתמיד";
+"account active forever full" = "פעיל לנצח";
 
 "main ask for permissions header" = "רק עוד שלב אחד";
 "main ask for permissions description" = "Blokada משתמשת בהגדרות VPN כדי לחסום פרסומות. אתם תתבקשו לאשר זאת בשלב הבא.";
@@ -185,11 +192,15 @@
 "account action my account" = "החשבון שלי";
 "account action encryption" = "הצפנה";
 "account action devices" = "מכשירים";
+"account action new device" = "מכשיר חדש";
 "account action inbox" = "דואר נכנס";
 "account action logout" = "שחזור רכישה";
+"account action logout only" = "התנתקות";
+"account action create" = "יצירת חשבון חדש";
 "account action about" = "אודות";
 "account action tap to show" = "לחצו להצגה";
 "account action restoring" = "משחזר חשבון: %@";
+"account label enter to continue" = "הזינו את מזהה החשבון כדי להמשיך";
 
 "account section header my subscription" = "המנוי שלי";
 "account section header general" = "כללי";
