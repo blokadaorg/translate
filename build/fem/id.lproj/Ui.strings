@@ -252,13 +252,13 @@
 "account lease label this device" = " (perangkat ini)";
 "account lease label name" = "Nama perangkat";
 "account lease label location" = "Lokasi";
-"account lease action generate" = "Hasilkan Config";
-"account lease action download" = "Unduh Config";
-"account lease generated" = "Perangkat ditambahkan! Unduh konfigurasi untuk menggunakannya di perangkat apa pun yang didukung oleh Wireguard.";
-"account lease wireguard desc" = "Blokada menggunakan Wireguard. Konfigurasi dapat diunduh saat membuat perangkat baru.";
+"account lease action generate" = "Hasilkan file Config";
+"account lease action download" = "Unduh file Config";
+"account lease generated" = "Perangkat ditambahkan! Unduh file konfigurasi untuk menggunakannya di perangkat apa pun yang mendukung protokol Wireguard.";
+"account lease wireguard desc" = "Blokada menggunakan protokol Wireguard. Konfigurasi dapat diunduh saat menambahkan perangkat baru.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Pilih DNS";
-"account lease label public key" = "Kunci Publik";
+"account lease action dns" = "Pilih server DNS";
+"account lease label public key" = "Public Key";
 
 "account support action how help" = "Bagaimana kami dapat membantu Anda?";
 "account support action kb" = "Buka Knowledge Base";
@@ -293,9 +293,9 @@
 "payment subscription offer" = "Hemat %@";
 
 "payment success label" = "Terima kasih!";
-"payment success desc" = "Akun Anda sekarang aktif! Sekarang Anda dapat menggunakan semua fitur Blokada Plus di semua perangkat Anda.";
+"payment success desc" = "Akun Anda telah aktif! Sekarang Anda dapat menggunakan semua fitur Blokada Plus di semua perangkat Anda.";
 
-"payment ongoing desc" = "Pembayaran Anda sekarang sedang diproses. Dalam kasus PayPal, mungkin diperlukan waktu hingga 24 jam. Metode pembayaran lain tidak boleh lebih dari satu jam. Jika Anda merasa proses ini terlalu lama, silakan hubungi kami.";
+"payment ongoing desc" = "Pembayaran Anda sedang diproses. Jika Anda menggunakan PayPal, proses ini bisa memakan waktu hingga 24 jam. Metode pembayaran lain biasanya tidak lebih dari satu jam. Jika Anda merasa proses ini terlalu lama, silakan hubungi kami.";
 "payment pay google" = "Bayar dengan Google Pay";
 "payment pay apple" = "Bayar dengan Apple Pay";
 "payment change method" = "Ubah";
