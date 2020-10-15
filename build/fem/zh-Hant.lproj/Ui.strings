@@ -201,6 +201,9 @@
 "account action tap to show" = "點一下顯示";
 "account action restoring" = "還原帳號：%@";
 "account label enter to continue" = "輸入您的帳號 ID 已繼續";
+"account restore description" = "不用擔心，如果您遺失或忘記您的帳號 ID，我們可以將其復原。請聯絡我們的支援團隊，並向我們提供資訊，讓我們可以識別您的購買行為（例如您信用卡的最後 4 碼或 PayPal 電子郵件）。";
+"account create description" = "這是您的帳號 ID。您應該把它寫下來，因為這是您存取訂閱的唯一途徑。請不要將其與其他人分享，這樣您的帳號才不會被盜。";
+"account create confirm" = "我知道我的帳號 ID";
 
 "account section header my subscription" = "我的訂閱";
 "account section header general" = "一般";
@@ -210,6 +213,9 @@
 "account label active until" = "使用到";
 "account action manage subscription" = "管理訂閱";
 "account action why upgrade" = "為什麼要升級？";
+"account subscription header renew" = "自動續訂";
+"account subscription header payment method" = "付款方法";
+"account subscription renew unsupported" = "您的付款方式不支援自動續訂。";
 
 "account unlock to show" = "解鎖以顯示您的帳號 ID";
 
@@ -217,6 +223,11 @@
 "account logout description" = "請輸入其他帳號 ID，或是返回以繼續使用您現有的帳號（本 APP 需要帳號才可使用）。";
 "account id status unchanged" = "(未變更)";
 "account action how to restore" = "如何還原我的舊帳號？";
+
+"account subscription days remaining" = "剩餘天數：%@";
+"account devices remaining" = "剩餘裝置：%@";
+"account devices not available" = "不可用";
+"account devices out of" = "%@ 個，共 %@ 個";
 
 "account encrypt level low" = "低";
 "account encrypt level medium" = "中";
@@ -239,6 +250,10 @@
 "account lease label devices list" = "這些裝置已連結至您的帳號。";
 "account lease label devices" = "裝置";
 "account lease label this device" = "（此裝置）";
+"account lease label name" = "裝置名稱";
+"account lease label location" = "位置";
+"account lease action generate" = "生成設定";
+"account lease action download" = "下載設定";
 
 "account support action how help" = "我們可以怎麼協助您？";
 "account support action kb" = "開啟知識庫";
