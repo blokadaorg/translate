@@ -22,6 +22,7 @@
 "error device offline" = "您的裝置已離線";
 "error account inactive" = "您未啟用帳號。請啟用帳號，以便繼續使用 BLOKADA+。";
 "error account inactive after restore" = "這似乎不是一個有效的帳號。如果您認為其中有誤，請使用頂部的「輔助說明」來聯絡我們。";
+"error account invalid" = "此帳號 ID 似乎無效。";
 "error creating account" = "無法建立新帳號。請稍候再試。";
 "error fetching data" = "無法完成此動作。請確定您是否有連線網路，後稍候再試。如仍有問題，請按一下上方的協助圖示聯絡我們。";
 "error tunnel" = "無法建立 VPN。請重新開機，或移除系統設定中的 Blokada VPN 設定檔後重試。";
@@ -32,6 +33,7 @@
 "error vpn expired" = "已停用 VPN。請續訂訂閱以繼續使用 BLOKADA+。";
 "error payment inactive after restore" = "已還原您上個付款，但訂閱已經到期。如有任何問題，請按上方的協助按鈕聯絡我們。";
 "error payment failed" = "此刻尚無法付款。請確定您是否有連線網路，後稍候再試。如仍有問題，請按一下上方的協助圖示聯絡我們。";
+"error payment failed alternative" = "無法完成您的付款。請確保您的資料是正確的，然後重試。如果問題仍然持續，請透過點擊頂部的說明圖示聯絡我們。";
 "error payment not available" = "此裝置無法付款。可能是 Apple Pay 未啟用，或是我們尚不處理您所在地區的付款。";
 "error payment canceled" = "付款已取消。未收取您的費用。";
 "error pack install" = "無法安裝或解除安裝此功能。請稍候再試。";
@@ -53,6 +55,7 @@
 "universal action contact us" = "聯絡我們";
 "universal action support" = "支援";
 "universal action upgrade" = "升級至 BLOKADA+";
+"universal action upgrade short" = "升級";
 "universal action yes" = "是";
 "universal action no" = "否";
 "universal action donate" = "斗內";
@@ -60,8 +63,11 @@
 "universal action open in browser" = "在瀏覽器開啟";
 "universal action more" = "更多";
 "universal action download" = "下載";
+"universal action news" = "新聞";
+"universal action delete" = "刪除";
 
 "universal label help" = "協助";
+"universal label welcome" = "歡迎！";
 "universal status processing" = "處理中… 請稍候。";
 "universal status copied to clipboard" = "已複製到剪貼簿";
 "universal status restart required" = "請重新啟動 APP 以套用變更。";
@@ -80,6 +86,7 @@
 "update downloading description" = "正在下載更新，您稍後就會看到安裝提示框。";
 
 "account active forever" = "永遠";
+"account active forever full" = "永遠可用";
 
 "main ask for permissions header" = "只剩最後一步";
 "main ask for permissions description" = "Blokada 使用 VPN 設定以阻擋廣告。下一步您將被要求允許 Blokada。";
@@ -185,11 +192,15 @@
 "account action my account" = "我的帳號";
 "account action encryption" = "加密";
 "account action devices" = "裝置";
+"account action new device" = "新裝置";
 "account action inbox" = "Inbox";
 "account action logout" = "復原購買";
+"account action logout only" = "登出";
+"account action create" = "生成新帳號";
 "account action about" = "關於";
 "account action tap to show" = "點一下顯示";
 "account action restoring" = "還原帳號：%@";
+"account label enter to continue" = "輸入您的帳號 ID 已繼續";
 
 "account section header my subscription" = "我的訂閱";
 "account section header general" = "一般";
