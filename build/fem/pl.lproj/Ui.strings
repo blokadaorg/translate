@@ -65,6 +65,7 @@
 "universal action download" = "Pobierz";
 "universal action news" = "Wiadomości";
 "universal action delete" = "Usuń";
+"universal action hide" = "Ukryj";
 
 "universal label help" = "Pomoc";
 "universal label welcome" = "Witaj!";
@@ -79,10 +80,12 @@
 "notification vpn expired header" = "Subskrypcja BLOKADA+ wygasła";
 "notification vpn expired subtitle" = "VPN jest wyłączony";
 "notification vpn expired body" = "Zaktualizuj subskrypcję, aby kontynuować korzystanie z BLOKADA+";
+"notification desc settings" = "Przesuń powiadomienie w lewo lub w prawo, aby wyświetlić ustawienia.";
 
 "notification update header" = "Aktualizacja jest dostępna";
 "alert update body" = "Blokada %@ jest teraz dostępna do pobrania. Zalecamy szybką aktualizację aplikacji i pobieranie jej tylko z naszych oficjalnych źródeł.";
 "update label updated" = "Zaktualizowano!";
+"update desc updated" = "Korzystasz teraz z najnowszej wersji Blokady! Pamiętaj, że przekazanie darowizny lub zapisanie się do Blokada Plus pozwala nam na dalsze ulepszanie aplikacji.";
 "update downloading description" = "Aktualizacja jest teraz pobierana i wkrótce powinien pojawić się monit instalacji.";
 
 "account active forever" = "końca świata";
@@ -142,7 +145,7 @@
 "pack category active" = "Aktywne";
 "pack category all" = "Wszystkie";
 
-"advanced section header packs" = "Listy blokowanych";
+"advanced section header packs" = "Blocklisty";
 "advanced section slugline packs" = "Włącz, aby uzyskać bardziej restrykcyjne blokowanie";
 "advanced section slugline apps" = "Wybierz aplikacje, które nigdy nie powinny być blokowane";
 "advanced section slugline encryption" = "Dostosuj poziom szyfrowania oraz DNS";
@@ -251,7 +254,7 @@
 "account lease label devices" = "Urządzenia";
 "account lease label this device" = " (to urządzenie)";
 "account lease label name" = "Nazwa urządzenia";
-"account lease label location" = "Położenie";
+"account lease label location" = "Lokalizacja";
 "account lease action generate" = "Generuj konfigurację";
 "account lease action download" = "Pobierz konfigurację";
 "account lease generated" = "Dodano urządzenie! Pobierz konfigurację, aby użyć ją na dowolnym urządzeniu obsługiwanym przez Wireguard.";
