@@ -60,6 +60,8 @@
 "universal action open in browser" = "Отвори в браузър";
 "universal action more" = "Още";
 "universal action download" = "Изтегляне";
+"universal action news" = "Новини";
+"universal action delete" = "Изтриване";
 
 "universal label help" = "Помощ";
 "universal status processing" = "В процес... Моля, изчакайте.";
@@ -185,11 +187,14 @@
 "account action my account" = "Моят профил";
 "account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
+"account action new device" = "Ново устройство";
 "account action inbox" = "Входяща кутия";
 "account action logout" = "Възстановяване на покупка";
+"account action logout only" = "Изход от профила";
 "account action about" = "Относно";
 "account action tap to show" = "Докоснете за да се покаже";
 "account action restoring" = "Възстановяване на акаунт: %@";
+"account label enter to continue" = "Въведете ID номер на профила за да продължите";
 
 "account section header my subscription" = "Моят абонамент";
 "account section header general" = "Основни";
@@ -228,6 +233,9 @@
 "account lease label devices list" = "Тези устройства са свързани с вашият акаунт.";
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (това устройство)";
+"account lease label name" = "Име на устройството";
+"account lease label dns" = "DNS";
+"account lease label public key" = "Публичен ключ";
 
 "account support action how help" = "Как можем да ви помогнем?";
 "account support action kb" = "Отворена База Знания";
@@ -260,6 +268,9 @@
 "payment subscription many months" = "%@ Месеца";
 "payment subscription per month" = "%@ на месец";
 "payment subscription offer" = "Запази %@";
+
+"payment success label" = "Благодаря!";
+"payment change method" = "Промяна";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Инсталирани";
