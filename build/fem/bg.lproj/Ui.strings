@@ -22,6 +22,7 @@
 "error device offline" = "Устройството ви е офлайн";
 "error account inactive" = "Вашият акаунт не е активен. Моля, активирайте акаунта си за да продължите да използвате BLOKADA +.";
 "error account inactive after restore" = "Изглежда, че това не е валиден активен акаунт. Ако смятате това за грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error account invalid" = "Това ID на този профил изглежда невалидно.";
 "error creating account" = "Новият акаунт не можа да бъде създаден. Моля, опитайте отново по-късно.";
 "error fetching data" = "Действието не можа да приключи. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error tunnel" = "VPN не можа да бъде създаден. Моля, рестартирайте устройството си или премахнете профила на Blokada VPN в системните настройки и опитайте отново.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "VPN е деактивиран. Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA +";
 "error payment inactive after restore" = "Плащането не е прието защото абонаментът ви е изтекъл. Ако смятате, че това е грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment failed" = "В момента няма налично плащане. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error payment failed alternative" = "Не можахме да завършим плащането Ви. Моля уверете се, че вашите данни са верни и опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment not available" = "Плащанията не са активни за това устройство. Или Apple Pay не е активиран, или все още не обработваме плащания от вашата страна.";
 "error payment canceled" = "Плащането е анулирано. Не сте таксувани.";
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Свържете се с нас";
 "universal action support" = "Поддръжка";
 "universal action upgrade" = "Надстройте до BLOKADA+";
+"universal action upgrade short" = "Надграждане";
 "universal action yes" = "Да";
 "universal action no" = "Не";
 "universal action donate" = "Дарение";
@@ -62,8 +65,10 @@
 "universal action download" = "Изтегляне";
 "universal action news" = "Новини";
 "universal action delete" = "Изтриване";
+"universal action hide" = "Скриване";
 
 "universal label help" = "Помощ";
+"universal label welcome" = "Добре дошли!";
 "universal status processing" = "В процес... Моля, изчакайте.";
 "universal status copied to clipboard" = "Копирано в клипборда";
 "universal status restart required" = "Моля, рестартирайте приложението за да влязат в сила промените.";
@@ -75,13 +80,16 @@
 "notification vpn expired header" = "Изтекъл срок на абонамента за BLOKADA+";
 "notification vpn expired subtitle" = "VPN е деактивиран";
 "notification vpn expired body" = "Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA+";
+"notification desc settings" = "Плъзнете известието наляво или надясно за настройки.";
 
 "notification update header" = "Налична е актуализация";
 "alert update body" = "Blokada %@ вече е достъпна за изтегляне. Препоръчваме да поддържате приложението актуално и да го изтегляте само от нашите официални източници.";
 "update label updated" = "Обновено!";
+"update desc updated" = "Вече използвате най-новата версия на Blokada! Не забравяйте, че дарението или абонамента за Blokada Plus ни позволява да продължим да подобряваме приложението.";
 "update downloading description" = "Актуализацията вече се изтегля и след малко трябва да видите подкана за инсталиране.";
 
 "account active forever" = "Завинаги";
+"account active forever full" = "Активен завинаги";
 
 "main ask for permissions header" = "Само още една стъпка";
 "main ask for permissions description" = "Blokada използва VPN конфигурация за блокиране на рекламите. Ще бъдете помолени в следващата стъпка това да бъде разрешено.";
