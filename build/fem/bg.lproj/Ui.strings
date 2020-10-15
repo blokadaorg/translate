@@ -230,6 +230,7 @@
 "account subscription days remaining" = "Оставащи дни: %@";
 "account devices remaining" = "Оставащи устройства: %@";
 "account devices not available" = "Не е налично";
+"account devices out of" = "%@ от %@";
 
 "account encrypt level low" = "Ниско";
 "account encrypt level medium" = "Средно";
@@ -253,7 +254,13 @@
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (това устройство)";
 "account lease label name" = "Име на устройството";
+"account lease label location" = "Местоположение";
+"account lease action generate" = "Генериране на конфигурация";
+"account lease action download" = "Изтегляне на конфигурацията";
+"account lease generated" = "Устройството е добавено! Изтеглете конфигурацията за да я използвате на всяко устройство поддържано от Wireguard.";
+"account lease wireguard desc" = "Blokada използва Wireguard. Конфигурациите могат да бъдат изтеглени при създаване на нови устройства.";
 "account lease label dns" = "DNS";
+"account lease action dns" = "Изберете DNS";
 "account lease label public key" = "Публичен ключ";
 
 "account support action how help" = "Как можем да ви помогнем?";
@@ -289,6 +296,9 @@
 "payment subscription offer" = "Запази %@";
 
 "payment success label" = "Благодаря!";
+"payment success desc" = "Вашият акаунт е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
+
+"payment ongoing desc" = "Плащането Ви се обработва. В някои случай като при PayPal, това може да отнеме до 24 часа. Другите методи на плащане не би трябвало да отнемат повече от час. Ако смятате, че отнема твърде много време, моля свържете се с нас.";
 "payment change method" = "Промяна";
 
 "apps section header" = "Приложения";
