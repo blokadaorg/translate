@@ -60,6 +60,8 @@
 "universal action open in browser" = "Deschide în browser";
 "universal action more" = "Mai multe";
 "universal action download" = "Descarcă";
+"universal action news" = "Noutăți";
+"universal action delete" = "Ştergere";
 
 "universal label help" = "Ajutor";
 "universal status processing" = "Se procesează... Vă rugăm așteptați.";
@@ -185,11 +187,14 @@
 "account action my account" = "Contul meu";
 "account action encryption" = "Criptare";
 "account action devices" = "Dispozitive";
+"account action new device" = "Dispozitiv nou";
 "account action inbox" = "Mesaje";
 "account action logout" = "Restabilește achiziția";
+"account action logout only" = "Iesire din cont";
 "account action about" = "Despre";
 "account action tap to show" = "Atingeți pentru a afișa";
 "account action restoring" = "Recuperare cont: %@";
+"account label enter to continue" = "Introduceți ID-ul contului dvs. pentru a continua";
 
 "account section header my subscription" = "Abonamentul meu";
 "account section header general" = "Preferințe generale";
@@ -228,6 +233,9 @@
 "account lease label devices list" = "Aceste dispozitive sunt conectate la contul dvs.";
 "account lease label devices" = "Dispozitive";
 "account lease label this device" = " (acest dispozitiv)";
+"account lease label name" = "Denumire dispozitiv";
+"account lease label dns" = "DNS";
+"account lease label public key" = "Cheie publică";
 
 "account support action how help" = "Cu ce ​​vă putem ajuta?";
 "account support action kb" = "Deschide Baza de Cunostințe";
@@ -260,6 +268,9 @@
 "payment subscription many months" = "%@ Luni";
 "payment subscription per month" = "%@ pe lună";
 "payment subscription offer" = "Economisești %@";
+
+"payment success label" = "Mulţumim!";
+"payment change method" = "Modifică";
 
 "apps section header" = "Aplicații";
 "apps label installed" = "Instalat";
