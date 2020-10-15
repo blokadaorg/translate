@@ -60,6 +60,8 @@
 "universal action open in browser" = "فتح في المتصفِّح";
 "universal action more" = "المزيد";
 "universal action download" = "تحميل";
+"universal action news" = "المُستجِدّات";
+"universal action delete" = "حَذْف";
 
 "universal label help" = "المُساعَدة";
 "universal status processing" = "جارِ المعالجة... انتظر من فضلك.";
@@ -185,11 +187,14 @@
 "account action my account" = "حسابي";
 "account action encryption" = "التشفير";
 "account action devices" = "الأجهزة";
+"account action new device" = "جهاز جديد";
 "account action inbox" = "صندوق الوارد";
 "account action logout" = "استعادة الشراء";
+"account action logout only" = "تسجيل الخروج";
 "account action about" = "حوْلَ";
 "account action tap to show" = "انقر لإظهار";
 "account action restoring" = "استعادة الحساب: %@";
+"account label enter to continue" = "أدخل معرِّف حسابك للمتابعة";
 
 "account section header my subscription" = "اشتراكي";
 "account section header general" = "عام";
@@ -228,6 +233,9 @@
 "account lease label devices list" = "هذه الأجهزة متّصلة بحسابك.";
 "account lease label devices" = "الأجهزة";
 "account lease label this device" = " (هذا الجهاز)";
+"account lease label name" = "اسم الجهاز";
+"account lease label dns" = "نظام أسماء النطاقات (DNS)";
+"account lease label public key" = "المفتاح العام";
 
 "account support action how help" = "كيف يمكن أن نساعدك؟";
 "account support action kb" = "فتح قاعدة الإضطلاع";
@@ -260,6 +268,9 @@
 "payment subscription many months" = "%@ أشهر";
 "payment subscription per month" = "%@ في الشهر";
 "payment subscription offer" = "توفير %@";
+
+"payment success label" = "شكراً !";
+"payment change method" = "تغيير";
 
 "apps section header" = "التطبيقات";
 "apps label installed" = "مُثَبَّت";
