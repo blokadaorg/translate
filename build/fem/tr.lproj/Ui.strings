@@ -204,6 +204,9 @@
 "account action tap to show" = "Göstermek için dokunun";
 "account action restoring" = "Hesap geri yükleniyor: %@";
 "account label enter to continue" = "Devam etmek için hesap kimliğinizi girin";
+"account restore description" = "Endişelenmeyin, hesap kimliğinizi kaybettiyseniz veya unuttuysanız kurtarabiliriz. Lütfen desteğimizle iletişime geçin ve satın alma işleminizi belirlememizi sağlayacak bilgileri bize sağlayın (Örn. Kredi kartınızın son 4 hanesi veya PayPal e-postası).";
+"account create description" = "Bu sizin hesap kimliğinizdir. Aboneliğinize erişmenin tek yolu bu olduğu için bunu bir yere yazmalısınız. Ayrıca, kimseyle paylaşmayın, böylece hesabınız çalınmaz.";
+"account create confirm" = "Hesap kimliğimi biliyorum";
 
 "account section header my subscription" = "Aboneliğim";
 "account section header general" = "Genel";
@@ -213,6 +216,9 @@
 "account label active until" = "Aktiflik süresi:";
 "account action manage subscription" = "Aboneliği yönet";
 "account action why upgrade" = "Neden yükseltmeliyim?";
+"account subscription header renew" = "Otomatik olarak yenile";
+"account subscription header payment method" = "Ödeme yöntemi";
+"account subscription renew unsupported" = "Ödeme yönteminiz otomatik yenilemeyi desteklemiyor.";
 
 "account unlock to show" = "Hesap kimliğinizi göstermek için kilidi açın";
 
@@ -220,6 +226,11 @@
 "account logout description" = "Lütfen başka bir hesap kimliği girin veya mevcut hesabınızı kullanmaya devam etmek için geri dönün (bu uygulama olmadan kullanılamaz).";
 "account id status unchanged" = "(değişmemiş)";
 "account action how to restore" = "Eski hesabımı nasıl geri yükleyebilirim?";
+
+"account subscription days remaining" = "Kalan gün: %@";
+"account devices remaining" = "Kalan cihaz sayısı: %@";
+"account devices not available" = "Kullanılabilir değil";
+"account devices out of" = "%@ dışında %@";
 
 "account encrypt level low" = "Düşük";
 "account encrypt level medium" = "Orta";
@@ -246,7 +257,10 @@
 "account lease label location" = "Konum";
 "account lease action generate" = "Yapılandırma Oluştur";
 "account lease action download" = "Yapılandırmayı İndir";
+"account lease generated" = "Cihaz eklendi! Wireguard tarafından desteklenen herhangi bir cihazda kullanmak için yapılandırmayı indirin.";
+"account lease wireguard desc" = "Blokada, Wireguard kullanıyor. Yeni cihazlar oluştururken yapılandırmalar indirilebilir.";
 "account lease label dns" = "DNS";
+"account lease action dns" = "Bir DNS seçin";
 "account lease label public key" = "Genel Anahtar";
 
 "account support action how help" = "Size nasıl yardımcı olabiliriz?";
@@ -282,9 +296,16 @@
 "payment subscription offer" = "%@ indirim";
 
 "payment success label" = "Teşekkürler!";
+"payment success desc" = "Hesabınız artık etkin! Artık Blokada Plus özelliklerini tamamını tüm cihazlarınızda kullanabilirsiniz.";
+
+"payment ongoing desc" = "Ödemeniz şu anda işleniyor. PayPal söz konusu ise 24 saate kadar sürebilir. Diğer ödeme yöntemleri bir saatten fazla sürmemelidir. Çok uzun sürdüğünü düşünüyorsanız, lütfen bizimle iletişime geçin.";
+"payment pay google" = "Google Pay ile öde";
+"payment pay apple" = "Apple Pay ile öde";
 "payment change method" = "Değiştir";
 "payment action pay" = "%@ öde";
 "payment action pay period" = "Her dönem için %@ öde";
+"payment label email" = "E-posta";
+"payment crypto desc" = "Kripto para cüzdanınızla ödeme yapmak için aşağıdaki düğmeye dokunun.";
 
 "apps section header" = "Uygulamalar";
 "apps label installed" = "Yüklü";
