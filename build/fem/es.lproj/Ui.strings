@@ -33,6 +33,7 @@
 "error vpn expired" = "El VPN está desactivado. Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 "error payment inactive after restore" = "Tu pago anterior se ha restaurado, pero la suscripción ya ha caducado. Si crees que esto es un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
 "error payment failed" = "Pagos no disponibles actualmente. Asegúrate de tener conexión e inténtalo de nuevo más tarde. Si el problema persiste, contacta con nosotros tocando el icono de ayuda en la parte superior.";
+"error payment failed alternative" = "No se pudo completar el pago. Por favor, asegúrate de que tus datos son correctos e inténtalo de nuevo. Si el problema persiste, por favor ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
 "error payment not available" = "Los pagos no están disponibles para este dispositivo. O Apple Pay no está activado, o todavía no gestionamos las compras en tu país.";
 "error payment canceled" = "El pago se ha cancelado. No se ha cobrado nada.";
 "error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
@@ -54,6 +55,7 @@
 "universal action contact us" = "Contacta con nosotros";
 "universal action support" = "Soporte";
 "universal action upgrade" = "Actualizar a BLOKADA+";
+"universal action upgrade short" = "Mejorar";
 "universal action yes" = "Sí";
 "universal action no" = "No";
 "universal action donate" = "Donar";
@@ -66,6 +68,7 @@
 "universal action hide" = "Ocultar";
 
 "universal label help" = "Ayuda";
+"universal label welcome" = "¡Bienvenido!";
 "universal status processing" = "Procesando... espera por favor.";
 "universal status copied to clipboard" = "Copiado al portapapeles";
 "universal status restart required" = "Por favor, reinicia la aplicación para aplicar los cambios.";
@@ -86,6 +89,7 @@
 "update downloading description" = "La actualización se está descargando, deberías ver el aviso de instalación en breve.";
 
 "account active forever" = "Para siempre";
+"account active forever full" = "Activo para siempre";
 
 "main ask for permissions header" = "Solo un paso más";
 "main ask for permissions description" = "Blokada está usando una configuración VPN para bloquear anuncios. Se te pedirá una confirmación a continuación.";
@@ -195,10 +199,12 @@
 "account action inbox" = "Bandeja de entrada";
 "account action logout" = "Restaurar compra";
 "account action logout only" = "Cerrar sesión";
+"account action create" = "Generar nueva cuenta";
 "account action about" = "Acerca de";
 "account action tap to show" = "Toca para mostrar";
 "account action restoring" = "Restaurando cuenta: %@";
 "account label enter to continue" = "Introduce tu ID de cuenta para continuar";
+"account restore description" = "No te preocupes, si has perdido o olvidado tu ID de cuenta, podemos recuperarlo. Por favor, ponte en contacto con nuestro equipo de soporte y proporciónanos información que nos permita identificar tu compra (por ejemplo, los últimos 4 dígitos de tu tarjeta de crédito o tu e-mail de PayPal).";
 
 "account section header my subscription" = "Mi suscripción";
 "account section header general" = "General";
