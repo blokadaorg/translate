@@ -57,6 +57,9 @@
 "universal action community" = "समुदाय";
 "universal action open in browser" = "ब्राउज़र में खोलें";
 "universal action more" = "अधिक";
+"universal action download" = "डाउन्लोड";
+"universal action news" = "समाचार";
+"universal action delete" = "हटाएँ";
 
 "universal label help" = "मदद";
 "universal status processing" = "प्रॉसेस हो रहा हैं; कृपया प्रतीक्षा करें...";
@@ -163,8 +166,11 @@
 "account action my account" = "मेरा खाता";
 "account action encryption" = "एन्क्रिप्शन";
 "account action devices" = "उपकरण";
+"account action new device" = "नया उपकरण";
 "account action inbox" = "इनबॉक्स";
+"account action logout only" = "लोग आउट";
 "account action about" = "हमारे बारे में";
+"account label enter to continue" = "जारी रखने के लिए अपना खाता आईडी दर्ज करें";
 
 "account section header my subscription" = "मेरी सदस्यता";
 "account section header general" = "सामान्य";
@@ -201,6 +207,9 @@
 "account lease label devices list" = "ये उपकरण आपके खाते से जुड़े हैं।";
 "account lease label devices" = "उपकरण";
 "account lease label this device" = " (यह डिवाइस)";
+"account lease label name" = "उपकरण का नाम";
+"account lease label dns" = "डीएनएस";
+"account lease label public key" = "सार्वजनिक चाबी";
 
 "account support action how help" = "हम आपकी क्या मदद कर सकते हैं?";
 "account support action kb" = "ज्ञान कोष";
@@ -233,6 +242,9 @@
 "payment subscription many months" = "%@ महीने";
 "payment subscription per month" = "%@ प्रति माह";
 "payment subscription offer" = "बचाएं %@";
+
+"payment success label" = "धन्यवाद!";
+"payment change method" = "बदलें";
 
 "apps section header" = "ऐप्स";
 "app settings start on boot" = "बूट पर प्रारंभ करें";

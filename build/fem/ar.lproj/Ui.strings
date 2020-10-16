@@ -22,6 +22,7 @@
 "error device offline" = "جهازك غير متّصل بالإنترنت";
 "error account inactive" = "حسابك غير نَشِط. الرجاء تنشيط حسابك من أجل الإستمرار في استخدام BLOKADA+.";
 "error account inactive after restore" = "لا يبدو أن هذا حساب نَشِط صالح. إذا كنت تعتقد أن هذا خطأ، الرجاء الاتصال بنا بالنقر على أيقونة المساعدة في الأعلى.";
+"error account invalid" = "يبدو أنّ مُعرِّف الحساب هذا غير صالح.";
 "error creating account" = "تَعذَّر إنشاء حساب جديد. الرجاء المحاولة مرّة أُخرى لاحقاً.";
 "error fetching data" = "تَعذَّر إكمال هذا الإجراء. تأكّد من أنّك متّصل بالإنترنت، و حاول مرّة أُخرى لاحقاً. إذا استمرت المشكلة، الرجاء الاتصال بنا بالنقر على أيقونة المساعدة في الأعلى.";
 "error tunnel" = "تَعذَّر إنشاء VPN. الرجاء إعادة تشغيل جهازك، أو إزالة الملف الشخصي لـ Blokada VPN في إعدادات النظام، و حاول مرّة أُخرى.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "الـ VPN معطَّل. الرجاء تحديث اشتراكك للاستمرار في استخدام BLOKADA+";
 "error payment inactive after restore" = "تم استعادة الدفعة السابقة الخاصة بك، ولكن انتهت صلاحية الاشتراك بالفعل. إذا كنت تعتقد أن هذا خطأ، الرجاء الاتصال بنا بالنقر على أيقونة المساعدة في الأعلى.";
 "error payment failed" = "عمليات الدفع غير مُتاحة حاليّاً. تأكّد من أنّك متّصل بالإنترنت، و حاول مرّة أُخرى لاحقاً. إذا استمرت المشكلة، الرجاء الاتصال بنا بالنقر على أيقونة المساعدة في الأعلى.";
+"error payment failed alternative" = "تَعذّر إكمال الدفع الخاصّ بك. الرّجاء التأكُّد من صحّة بياناتك، وحاول مرّة أُخرى. إذا استمرت المشكلة، يُرجى الإتصال بنا بالنقر على أيقونة المساعَدة في الأعلى.";
 "error payment not available" = "عمليات الدفع غير مُتاحة لهذا الجهاز. أو أن دفع Apple غير مُفعَّل، أو أننا لا نتعامل مع المشتريات في بلدك حتى الآن.";
 "error payment canceled" = "تم إلغاء الدّفع. لم يتمّ تحصيل رسوم منك.";
 "error pack install" = "تعذر تثبيت (أو الغاء) هذه الميّزة. الرجاء المحاولة مرة أُخرى لاحقاً.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "إتصل بنا";
 "universal action support" = "الدعم";
 "universal action upgrade" = "الترقية إلى BLOKADA+";
+"universal action upgrade short" = "ترقية";
 "universal action yes" = "نعم";
 "universal action no" = "لا";
 "universal action donate" = "التَّبَرُّع";
@@ -60,8 +63,12 @@
 "universal action open in browser" = "فتح في المتصفِّح";
 "universal action more" = "المزيد";
 "universal action download" = "تحميل";
+"universal action news" = "المُستجِدّات";
+"universal action delete" = "حَذْف";
+"universal action hide" = "إخفاء";
 
 "universal label help" = "المُساعَدة";
+"universal label welcome" = "مرحباً !";
 "universal status processing" = "جارِ المعالجة... انتظر من فضلك.";
 "universal status copied to clipboard" = "تَمّ النسخ إلى الحافظة";
 "universal status restart required" = "الرجاء إعادة تشغيل التطبيق لتصبح التغييرات سارية المفعول.";
@@ -73,13 +80,16 @@
 "notification vpn expired header" = "انتهت صلاحيّة الإشتراك في BLOKADA+";
 "notification vpn expired subtitle" = "الـ VPN مُعَطَّل";
 "notification vpn expired body" = "الرجاء تحديث إشتراكك للإستمرار في إستخدام BLOKADA+";
+"notification desc settings" = "اسحب الإشعار إلى اليسار أو اليمين من أجل الإعدادات.";
 
 "notification update header" = "يوجد تحديث";
 "alert update body" = "Blokada %@ متاح الآن للتنزيل. نوصي بتحديث التطبيق باستمرار و تنزيله فقط من مصادرنا الرسميّة.";
 "update label updated" = "تَمّ التحديث !";
+"update desc updated" = "أنت الآن تستخدم أحدث إصدار من بلوكادا ! تَذكّر أنّ التَبَرُّع أو الإشتراك في Blokada Plus يَسمح لنا بمواصلة تحسين التطبيق.";
 "update downloading description" = "يَتمّ تحميل التحديث، و يجب أن يظهر طلب التثبيت قريباً.";
 
 "account active forever" = "للأبد";
+"account active forever full" = "نَشِط إلى الأبد";
 
 "main ask for permissions header" = "تبقّى خطوة واحدة فقط";
 "main ask for permissions description" = "يستخدم بلوكادا إعدادات VPN لمنع الإعلانات. سوف يُطلب منك السماح له في الخطوة التالية.";
@@ -185,11 +195,18 @@
 "account action my account" = "حسابي";
 "account action encryption" = "التشفير";
 "account action devices" = "الأجهزة";
+"account action new device" = "جهاز جديد";
 "account action inbox" = "صندوق الوارد";
 "account action logout" = "استعادة الشراء";
+"account action logout only" = "تسجيل الخروج";
+"account action create" = "إنشاء حساب جديد";
 "account action about" = "حوْلَ";
 "account action tap to show" = "انقر لإظهار";
 "account action restoring" = "استعادة الحساب: %@";
+"account label enter to continue" = "أدخل مُعرِّف حسابك للمتابعة";
+"account restore description" = "لا تقلق، إذا فقدت أو نسيت مُعرِّف حسابك، يُمكِننا استرداده. يُرجى الاتصال بدعمنا، وتوفير المعلومات التي سَتُمكّننا من التعرُّف على عمليّة الشراء الخاصّة بك (على سبيل المثال، آخر 4 أرقام لبطاقة الإئتمان الخاصّة بك، أو بريدك الإلكتروني في PayPal).";
+"account create description" = "هذا هو مُعَرِّف الحساب الخاص بك. يجب عليك كتابته، لأنّه الطريقة الوحيدة لك للوصول إلى اشتراكك. وأيضاً، لا تشاركه مع أي شخص، حتى لا يَتم سرقة حسابك.";
+"account create confirm" = "أنا أعرف مُعَرِّف حسابي";
 
 "account section header my subscription" = "اشتراكي";
 "account section header general" = "عام";
@@ -199,6 +216,9 @@
 "account label active until" = "نَشِط حتّى";
 "account action manage subscription" = "إدارة الإشتراك";
 "account action why upgrade" = "لماذا ينبغي عليّ الترقية؟";
+"account subscription header renew" = "تجديد تلقائي";
+"account subscription header payment method" = "طريقة الدفع";
+"account subscription renew unsupported" = "طريقة الدفع الخاصّة بك لا تدعم التجديد التلقائي.";
 
 "account unlock to show" = "افتح لإظهار معرِّف حسابك";
 
@@ -206,6 +226,11 @@
 "account logout description" = "الرجاء إدخال معرِّف حساب آخر، أو العودة للإستمرار في إستخدام حسابك الحالي (لا يمكن إستخدام هذا التطبيق بدون حساب).";
 "account id status unchanged" = "(دون تغيير)";
 "account action how to restore" = "كيف يُمكنني استعادة حسابي القديم؟";
+
+"account subscription days remaining" = "الأيّام المُتبقّية: %@";
+"account devices remaining" = "الأجهزة المُتبقّية: %@";
+"account devices not available" = "غير متوفّر";
+"account devices out of" = "%@ من أصل %@";
 
 "account encrypt level low" = "ضعيف";
 "account encrypt level medium" = "متوسِّط";
@@ -228,6 +253,15 @@
 "account lease label devices list" = "هذه الأجهزة متّصلة بحسابك.";
 "account lease label devices" = "الأجهزة";
 "account lease label this device" = " (هذا الجهاز)";
+"account lease label name" = "اسم الجهاز";
+"account lease label location" = "الموقع";
+"account lease action generate" = "إعدادات الإنشاء";
+"account lease action download" = "إعدادات التحميل";
+"account lease generated" = "تم إضافة الجهاز ! قُم بتحميل الإعدادات لاستخدامها على أي جهاز مدعوم من Wireguard.";
+"account lease wireguard desc" = "بلوكادا يستخدم Wireguard. يمكن تنزيل التهيئات عند إنشاء أجهزة جديدة.";
+"account lease label dns" = "نظام أسماء النطاقات (DNS)";
+"account lease action dns" = "اختر DNS";
+"account lease label public key" = "المفتاح العام";
 
 "account support action how help" = "كيف يمكن أن نساعدك؟";
 "account support action kb" = "فتح قاعدة الإضطلاع";
@@ -260,6 +294,18 @@
 "payment subscription many months" = "%@ أشهر";
 "payment subscription per month" = "%@ في الشهر";
 "payment subscription offer" = "توفير %@";
+
+"payment success label" = "شكراً !";
+"payment success desc" = "الآن حسابك نَشِط ! يُمكِنك الآن استخدام جميع ميّزات بلوكادا بلس على جميع أجهزتك.";
+
+"payment ongoing desc" = "يَتمّ الآن معالجة عمليّة الدفع الخاصّة بك. في حالة PayPal، قد تَستغرق مدّة تصل إلى 24 ساعة. طُرق الدفع الأُخرى لا يَنبغي أن تستغرق أكثر من ساعة. إذا كنت تشعر أنها تستغرق وقتاً طويلاً، يُرجى التواصل معنا.";
+"payment pay google" = "دفع باستخدام Google Pay";
+"payment pay apple" = "دفع باستخدام Apple Pay";
+"payment change method" = "تغيير";
+"payment action pay" = "دفع %@";
+"payment action pay period" = "دفع %@ في كل فترة";
+"payment label email" = "البريد الإلكتروني";
+"payment crypto desc" = "للدفع باستخدام محفظة العملات الرقميّة الخاصّة بك، انقر على الزر أدناه.";
 
 "apps section header" = "التطبيقات";
 "apps label installed" = "مُثَبَّت";

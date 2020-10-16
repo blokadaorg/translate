@@ -22,6 +22,7 @@
 "error device offline" = "Ваше устройство не в сети";
 "error account inactive" = "Ваш аккаунт неактивен. Пожалуйста, его, чтобы продолжить использовать BLOKADA+.";
 "error account inactive after restore" = "Похоже, что это недействительный аккаунт. Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами, нажав на значок помощи в верхней части.";
+"error account invalid" = "Этот ID аккаунта кажется недействительным.";
 "error creating account" = "Не удалось создать новый аккаунт. Пожалуйста, попробуйте позже.";
 "error fetching data" = "Это действие не могло быть завершено. Убедитесь, что вы в сети, и попробуйте позже. Если проблема сохраняется, пожалуйста, свяжитесь с нами, нажав на значок справки в верхней части.";
 "error tunnel" = "Не удалось запустить VPN. Пожалуйста, перезагрузите устройство или удалите профиль Blokada VPN в системных настройках и повторите попытку.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "VPN отключен. Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
 "error payment inactive after restore" = "Ваш предыдущий платеж был возмещен, но срок действия подписки уже истек. Если вы считаете, что это ошибка, пожалуйста, свяжитесь с нами, нажав на иконку справки в верхней части.";
 "error payment failed" = "Платежи в данный момент недоступны. Убедитесь, что вы в сети, и попробуйте позже. Если проблема сохраняется, пожалуйста, свяжитесь с нами, нажав на значок справки в верхней части.";
+"error payment failed alternative" = "Не удалось завершить платеж. Убедитесь, что ваши данные верны, и попробуйте еще раз. Если проблема не исчезнет, ​​свяжитесь с нами, нажав на значок справки вверху.";
 "error payment not available" = "Платежи для данного устройства недоступны. Либо Apple Pay не активирована, либо мы еще не обрабатываем покупки в вашей стране.";
 "error payment canceled" = "Платеж отменен. Сумма списана не была.";
 "error pack install" = "Не удалось установить (или удалить) эту функцию. Пожалуйста, попробуйте позже.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Связаться с нами";
 "universal action support" = "Поддержка";
 "universal action upgrade" = "Обновите до BLOKADA+";
+"universal action upgrade short" = "Улучшить";
 "universal action yes" = "Да";
 "universal action no" = "Нет";
 "universal action donate" = "Пожертвовать";
@@ -60,8 +63,12 @@
 "universal action open in browser" = "Открыть в браузере";
 "universal action more" = "Подробнее";
 "universal action download" = "Скачать";
+"universal action news" = "Новости";
+"universal action delete" = "Удалить";
+"universal action hide" = "Скрыть";
 
 "universal label help" = "Помощь";
+"universal label welcome" = "Добро пожаловать!";
 "universal status processing" = "Обработка... Пожалуйста, подождите.";
 "universal status copied to clipboard" = "Скопировано в буфер обмена";
 "universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
@@ -80,6 +87,7 @@
 "update downloading description" = "Обновление уже начало загружаться. Скоро появится запрос на установку.";
 
 "account active forever" = "Навсегда";
+"account active forever full" = "Активен всегда";
 
 "main ask for permissions header" = "Еще один шаг";
 "main ask for permissions description" = "Blokada использует конфигурацию VPN для блокировки рекламы. Вас попросят разрешить это на следующем шаге.";
@@ -185,11 +193,18 @@
 "account action my account" = "Мой аккаунт";
 "account action encryption" = "Шифрование";
 "account action devices" = "Устройства";
+"account action new device" = "Новое устройство";
 "account action inbox" = "Входящие";
 "account action logout" = "Восстановить покупку";
+"account action logout only" = "Выйти";
+"account action create" = "Создать новый аккаунт";
 "account action about" = "О приложении";
 "account action tap to show" = "Нажмите, чтобы показать";
 "account action restoring" = "Восстановление аккаунта: %@";
+"account label enter to continue" = "Для продолжения введите ID вашего аккаунта";
+"account restore description" = "Не волнуйтесь, если вы потеряли или забыли ID вашего аккаунта - мы сможем его восстановить. Пожалуйста, свяжитесь с нашей службой поддержки и предоставьте сведения, которые позволят нам идентифицировать вашу покупку (например, последние 4 цифры вашей кредитной карты, или электронная почта PayPal).";
+"account create description" = "Это ID вашего аккаунта. Вы должны записать его, так как это единственный способ получить доступ к вашей подписке. Также не делитесь им ни с кем, чтобы вашу учетную запись не украли.";
+"account create confirm" = "Я знаю ID моего аккаунта";
 
 "account section header my subscription" = "Моя подписка";
 "account section header general" = "Общее";
@@ -199,6 +214,9 @@
 "account label active until" = "Активна до";
 "account action manage subscription" = "Управление подпиской";
 "account action why upgrade" = "Зачем мне платная подписка?";
+"account subscription header renew" = "Продлять автоматически";
+"account subscription header payment method" = "Способ оплаты";
+"account subscription renew unsupported" = "Ваш способ оплаты не поддерживает автоматическое продление.";
 
 "account unlock to show" = "Разблокируйте, чтобы показать ID аккаунта";
 
@@ -206,6 +224,11 @@
 "account logout description" = "Пожалуйста, введите другой ID аккаунта или вернитесь, чтобы продолжить использовать существующий (это приложение не может быть использовано без ID).";
 "account id status unchanged" = "(без изменений)";
 "account action how to restore" = "Как мне восстановить мой старый аккаунт?";
+
+"account subscription days remaining" = "Осталось дней: %@";
+"account devices remaining" = "Осталось устройств: %@";
+"account devices not available" = "Недоступно";
+"account devices out of" = "%@ из %@";
 
 "account encrypt level low" = "Низкий";
 "account encrypt level medium" = "Средний";
@@ -228,6 +251,15 @@
 "account lease label devices list" = "Эти устройства подключены к вашему аккаунту.";
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (это устройство)";
+"account lease label name" = "Название устройства";
+"account lease label location" = "Местоположение";
+"account lease action generate" = "Создать конфигурацию";
+"account lease action download" = "Скачать конфигурацию";
+"account lease generated" = "Устройство добавлено! Скачайте конфигурацию, чтобы использовать ее на любом устройстве, которое поддерживается Wireguard.";
+"account lease wireguard desc" = "Blokada использует Wireguard. Конфигурации можно скачать при создании новых устройств.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Выберите DNS";
+"account lease label public key" = "Публичный ключ";
 
 "account support action how help" = "Чем мы можем вам помочь?";
 "account support action kb" = "Открытая база знаний";
@@ -260,6 +292,18 @@
 "payment subscription many months" = "%@ месяцев";
 "payment subscription per month" = "%@ в месяц";
 "payment subscription offer" = "Сэкономить %@";
+
+"payment success label" = "Спасибо!";
+"payment success desc" = "Ваш аккаунт теперь активен! Теперь вы можете использовать все функции Blokada Plus на всех своих устройствах.";
+
+"payment ongoing desc" = "Ваш платеж сейчас обрабатывается. В случае PayPal это может занять до 24 часов. Другие способы оплаты не должны занимать больше часа. Если вы полагаете, что это занимает слишком много времени, пожалуйста, свяжитесь с нами.";
+"payment pay google" = "Оплата через Google Pay";
+"payment pay apple" = "Оплата через Apple Pay";
+"payment change method" = "Изменить";
+"payment action pay" = "Оплатить %@";
+"payment action pay period" = "Оплачивать %@ каждый период";
+"payment label email" = "Email";
+"payment crypto desc" = "Чтобы заплатить с помощью своего кошелька для криптовалюты, нажмите кнопку ниже.";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Установленные";

@@ -22,6 +22,7 @@
 "error device offline" = "Устройството ви е офлайн";
 "error account inactive" = "Вашият акаунт не е активен. Моля, активирайте акаунта си за да продължите да използвате BLOKADA +.";
 "error account inactive after restore" = "Изглежда, че това не е валиден активен акаунт. Ако смятате това за грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error account invalid" = "Това ID на този профил изглежда невалидно.";
 "error creating account" = "Новият акаунт не можа да бъде създаден. Моля, опитайте отново по-късно.";
 "error fetching data" = "Действието не можа да приключи. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error tunnel" = "VPN не можа да бъде създаден. Моля, рестартирайте устройството си или премахнете профила на Blokada VPN в системните настройки и опитайте отново.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "VPN е деактивиран. Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA +";
 "error payment inactive after restore" = "Плащането не е прието защото абонаментът ви е изтекъл. Ако смятате, че това е грешка, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment failed" = "В момента няма налично плащане. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error payment failed alternative" = "Не можахме да завършим плащането Ви. Моля уверете се, че вашите данни са верни и опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
 "error payment not available" = "Плащанията не са активни за това устройство. Или Apple Pay не е активиран, или все още не обработваме плащания от вашата страна.";
 "error payment canceled" = "Плащането е анулирано. Не сте таксувани.";
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Свържете се с нас";
 "universal action support" = "Поддръжка";
 "universal action upgrade" = "Надстройте до BLOKADA+";
+"universal action upgrade short" = "Надграждане";
 "universal action yes" = "Да";
 "universal action no" = "Не";
 "universal action donate" = "Дарение";
@@ -60,8 +63,12 @@
 "universal action open in browser" = "Отвори в браузър";
 "universal action more" = "Още";
 "universal action download" = "Изтегляне";
+"universal action news" = "Новини";
+"universal action delete" = "Изтриване";
+"universal action hide" = "Скриване";
 
 "universal label help" = "Помощ";
+"universal label welcome" = "Добре дошли!";
 "universal status processing" = "В процес... Моля, изчакайте.";
 "universal status copied to clipboard" = "Копирано в клипборда";
 "universal status restart required" = "Моля, рестартирайте приложението за да влязат в сила промените.";
@@ -73,13 +80,16 @@
 "notification vpn expired header" = "Изтекъл срок на абонамента за BLOKADA+";
 "notification vpn expired subtitle" = "VPN е деактивиран";
 "notification vpn expired body" = "Моля, актуализирайте абонамента си за да продължите да използвате BLOKADA+";
+"notification desc settings" = "Плъзнете известието наляво или надясно за настройки.";
 
 "notification update header" = "Налична е актуализация";
 "alert update body" = "Blokada %@ вече е достъпна за изтегляне. Препоръчваме да поддържате приложението актуално и да го изтегляте само от нашите официални източници.";
 "update label updated" = "Обновено!";
+"update desc updated" = "Вече използвате най-новата версия на Blokada! Не забравяйте, че дарението или абонамента за Blokada Plus ни позволява да продължим да подобряваме приложението.";
 "update downloading description" = "Актуализацията вече се изтегля и след малко трябва да видите подкана за инсталиране.";
 
 "account active forever" = "Завинаги";
+"account active forever full" = "Активен завинаги";
 
 "main ask for permissions header" = "Само още една стъпка";
 "main ask for permissions description" = "Blokada използва VPN конфигурация за блокиране на рекламите. Ще бъдете помолени в следващата стъпка това да бъде разрешено.";
@@ -167,9 +177,6 @@
 "activity happened one time" = "1 път";
 "activity happened many times" = "%@ пъти";
 "activity category recent" = "Последни";
-/* activity category top
-
-This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "Най";
 "activity category top blocked" = "Най-много блокирани";
 "activity category top allowed" = "Най-много разрешени";
@@ -188,11 +195,18 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account action my account" = "Моят профил";
 "account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
+"account action new device" = "Ново устройство";
 "account action inbox" = "Входяща кутия";
 "account action logout" = "Възстановяване на покупка";
+"account action logout only" = "Изход от профила";
+"account action create" = "Генериране на нов профил";
 "account action about" = "Относно";
 "account action tap to show" = "Докоснете за да се покаже";
 "account action restoring" = "Възстановяване на акаунт: %@";
+"account label enter to continue" = "Въведете ID номер на профила за да продължите";
+"account restore description" = "Не се притеснявайте, ако сте загубили или забравили ID на профила си, можем да го възстановим. Моля, свържете се с нашата поддръжка и ни предоставете информация, която ще ни позволи да идентифицираме вашата покупка (напр. Последните 4 цифри на вашата кредитна карта или PayPal email).";
+"account create description" = "Това е идентификационният номер на вашия профил. Трябва да го запишете, тъй като това е единственият начин да получите достъп до абонамента си. Също така не го споделяйте с никого, така че акаунтът да не бъде откраднат.";
+"account create confirm" = "Знам моето ID профила";
 
 "account section header my subscription" = "Моят абонамент";
 "account section header general" = "Основни";
@@ -202,6 +216,9 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account label active until" = "Активен до";
 "account action manage subscription" = "Управление на абонамента";
 "account action why upgrade" = "Защо трябва да надстроя?";
+"account subscription header renew" = "Автоматично подновяване";
+"account subscription header payment method" = "Начин на плащане";
+"account subscription renew unsupported" = "Начинът на плащане не се поддържа за автоматично подновяване.";
 
 "account unlock to show" = "Отключете за да се покаже ID на акаунта";
 
@@ -209,6 +226,11 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account logout description" = "Моля, въведете друг идентификационен номер на акаунта или се върнете за да продължите да използвате съществуващия си акаунт (това приложение не може да се използва без такъв).";
 "account id status unchanged" = "(непроменен)";
 "account action how to restore" = "Как да възстановя стария си акаунт?";
+
+"account subscription days remaining" = "Оставащи дни: %@";
+"account devices remaining" = "Оставащи устройства: %@";
+"account devices not available" = "Не е налично";
+"account devices out of" = "%@ от %@";
 
 "account encrypt level low" = "Ниско";
 "account encrypt level medium" = "Средно";
@@ -231,6 +253,15 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account lease label devices list" = "Тези устройства са свързани с вашият акаунт.";
 "account lease label devices" = "Устройства";
 "account lease label this device" = " (това устройство)";
+"account lease label name" = "Име на устройството";
+"account lease label location" = "Местоположение";
+"account lease action generate" = "Генериране на конфигурация";
+"account lease action download" = "Изтегляне на конфигурацията";
+"account lease generated" = "Устройството е добавено! Изтеглете конфигурацията за да я използвате на всяко устройство поддържано от Wireguard.";
+"account lease wireguard desc" = "Blokada използва Wireguard. Конфигурациите могат да бъдат изтеглени при създаване на нови устройства.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Изберете DNS";
+"account lease label public key" = "Публичен ключ";
 
 "account support action how help" = "Как можем да ви помогнем?";
 "account support action kb" = "Отворена База Знания";
@@ -263,6 +294,18 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "payment subscription many months" = "%@ Месеца";
 "payment subscription per month" = "%@ на месец";
 "payment subscription offer" = "Запази %@";
+
+"payment success label" = "Благодаря!";
+"payment success desc" = "Вашият акаунт е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
+
+"payment ongoing desc" = "Плащането Ви се обработва. В някои случай като при PayPal, това може да отнеме до 24 часа. Другите методи на плащане не би трябвало да отнемат повече от час. Ако смятате, че отнема твърде много време, моля свържете се с нас.";
+"payment pay google" = "Плащане с Google Pay";
+"payment pay apple" = "Плащане с Apple Pay";
+"payment change method" = "Промяна";
+"payment action pay" = "Платете %@";
+"payment action pay period" = "Платете %@ за всеки един период";
+"payment label email" = "Имейл";
+"payment crypto desc" = "За да платите с криптовалута от портфейла си, натиснете бутона по-долу.";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Инсталирани";

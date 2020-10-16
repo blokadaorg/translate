@@ -22,6 +22,7 @@
 "error device offline" = "您的裝置已離線";
 "error account inactive" = "您未啟用帳號。請啟用帳號，以便繼續使用 BLOKADA+。";
 "error account inactive after restore" = "這似乎不是一個有效的帳號。如果您認為其中有誤，請使用頂部的「輔助說明」來聯絡我們。";
+"error account invalid" = "此帳號 ID 似乎無效。";
 "error creating account" = "無法建立新帳號。請稍候再試。";
 "error fetching data" = "無法完成此動作。請確定您是否有連線網路，後稍候再試。如仍有問題，請按一下上方的協助圖示聯絡我們。";
 "error tunnel" = "無法建立 VPN。請重新開機，或移除系統設定中的 Blokada VPN 設定檔後重試。";
@@ -32,6 +33,7 @@
 "error vpn expired" = "已停用 VPN。請續訂訂閱以繼續使用 BLOKADA+。";
 "error payment inactive after restore" = "已還原您上個付款，但訂閱已經到期。如有任何問題，請按上方的協助按鈕聯絡我們。";
 "error payment failed" = "此刻尚無法付款。請確定您是否有連線網路，後稍候再試。如仍有問題，請按一下上方的協助圖示聯絡我們。";
+"error payment failed alternative" = "無法完成您的付款。請確保您的資料是正確的，然後重試。如果問題仍然持續，請透過點擊頂部的說明圖示聯絡我們。";
 "error payment not available" = "此裝置無法付款。可能是 Apple Pay 未啟用，或是我們尚不處理您所在地區的付款。";
 "error payment canceled" = "付款已取消。未收取您的費用。";
 "error pack install" = "無法安裝或解除安裝此功能。請稍候再試。";
@@ -53,6 +55,7 @@
 "universal action contact us" = "聯絡我們";
 "universal action support" = "支援";
 "universal action upgrade" = "升級至 BLOKADA+";
+"universal action upgrade short" = "升級";
 "universal action yes" = "是";
 "universal action no" = "否";
 "universal action donate" = "斗內";
@@ -60,8 +63,11 @@
 "universal action open in browser" = "在瀏覽器開啟";
 "universal action more" = "更多";
 "universal action download" = "下載";
+"universal action news" = "新聞";
+"universal action delete" = "刪除";
 
 "universal label help" = "協助";
+"universal label welcome" = "歡迎！";
 "universal status processing" = "處理中… 請稍候。";
 "universal status copied to clipboard" = "已複製到剪貼簿";
 "universal status restart required" = "請重新啟動 APP 以套用變更。";
@@ -80,6 +86,7 @@
 "update downloading description" = "正在下載更新，您稍後就會看到安裝提示框。";
 
 "account active forever" = "永遠";
+"account active forever full" = "永遠可用";
 
 "main ask for permissions header" = "只剩最後一步";
 "main ask for permissions description" = "Blokada 使用 VPN 設定以阻擋廣告。下一步您將被要求允許 Blokada。";
@@ -185,11 +192,18 @@
 "account action my account" = "我的帳號";
 "account action encryption" = "加密";
 "account action devices" = "裝置";
+"account action new device" = "新裝置";
 "account action inbox" = "Inbox";
 "account action logout" = "復原購買";
+"account action logout only" = "登出";
+"account action create" = "生成新帳號";
 "account action about" = "關於";
 "account action tap to show" = "點一下顯示";
 "account action restoring" = "還原帳號：%@";
+"account label enter to continue" = "輸入您的帳號 ID 已繼續";
+"account restore description" = "不用擔心，如果您遺失或忘記您的帳號 ID，我們可以將其復原。請聯絡我們的支援團隊，並向我們提供資訊，讓我們可以識別您的購買行為（例如您信用卡的最後 4 碼或 PayPal 電子郵件）。";
+"account create description" = "這是您的帳號 ID。您應該把它寫下來，因為這是您存取訂閱的唯一途徑。請不要將其與其他人分享，這樣您的帳號才不會被盜。";
+"account create confirm" = "我知道我的帳號 ID";
 
 "account section header my subscription" = "我的訂閱";
 "account section header general" = "一般";
@@ -199,6 +213,9 @@
 "account label active until" = "使用到";
 "account action manage subscription" = "管理訂閱";
 "account action why upgrade" = "為什麼要升級？";
+"account subscription header renew" = "自動續訂";
+"account subscription header payment method" = "付款方法";
+"account subscription renew unsupported" = "您的付款方式不支援自動續訂。";
 
 "account unlock to show" = "解鎖以顯示您的帳號 ID";
 
@@ -206,6 +223,11 @@
 "account logout description" = "請輸入其他帳號 ID，或是返回以繼續使用您現有的帳號（本 APP 需要帳號才可使用）。";
 "account id status unchanged" = "(未變更)";
 "account action how to restore" = "如何還原我的舊帳號？";
+
+"account subscription days remaining" = "剩餘天數：%@";
+"account devices remaining" = "剩餘裝置：%@";
+"account devices not available" = "不可用";
+"account devices out of" = "%@ 個，共 %@ 個";
 
 "account encrypt level low" = "低";
 "account encrypt level medium" = "中";
@@ -228,6 +250,15 @@
 "account lease label devices list" = "這些裝置已連結至您的帳號。";
 "account lease label devices" = "裝置";
 "account lease label this device" = "（此裝置）";
+"account lease label name" = "裝置名稱";
+"account lease label location" = "位置";
+"account lease action generate" = "生成設定";
+"account lease action download" = "下載設定";
+"account lease generated" = "已新增裝置！下載設定以在任何支援 Wireguard 的裝置上使用。";
+"account lease wireguard desc" = "Blokada 使用 Wireguard。建立新裝置時可以下載設定。";
+"account lease label dns" = "DNS";
+"account lease action dns" = "選擇 DNS";
+"account lease label public key" = "公開金鑰";
 
 "account support action how help" = "我們可以怎麼協助您？";
 "account support action kb" = "開啟知識庫";
@@ -260,6 +291,18 @@
 "payment subscription many months" = "%@ 個月";
 "payment subscription per month" = "每月 %@";
 "payment subscription offer" = "省下 %@";
+
+"payment success label" = "謝謝！";
+"payment success desc" = "您的帳號已可使用！您現在可以在您的裝置上使用所有的 Blokada Plus 功能。";
+
+"payment ongoing desc" = "您的付款正在處理中。如果是使用 PayPal，那可能需要24小時。其他付款方式應該不用超過一個小時。如果您覺得時間太長，請聯絡我們。";
+"payment pay google" = "使用 Google Pay 付款";
+"payment pay apple" = "使用 Apple Pay 付款";
+"payment change method" = "變更";
+"payment action pay" = "支付 %@";
+"payment action pay period" = "每個週期付 %@";
+"payment label email" = "電子郵件";
+"payment crypto desc" = "使用您的加密貨幣錢包付款，點擊下方的按鈕。";
 
 "apps section header" = "應用程式";
 "apps label installed" = "已安裝";

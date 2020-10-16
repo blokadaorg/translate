@@ -60,6 +60,8 @@
 "universal action open in browser" = "Im Browser öffnen";
 "universal action more" = "Mehr";
 "universal action download" = "Herunterladen";
+"universal action news" = "Neuigkeiten";
+"universal action delete" = "Löschen";
 
 "universal label help" = "Hilfe";
 "universal status processing" = "Verarbeitung... Bitte warten.";
@@ -185,11 +187,14 @@
 "account action my account" = "Mein Konto";
 "account action encryption" = "Verschlüsselung";
 "account action devices" = "Geräte";
+"account action new device" = "Neues Gerät";
 "account action inbox" = "Inbox";
 "account action logout" = "Käufe wiederherstellen";
+"account action logout only" = "Abmelden";
 "account action about" = "Über";
 "account action tap to show" = "Zum Anzeigen tippen";
 "account action restoring" = "Wiederherstellung des Kontos: %@";
+"account label enter to continue" = "Gib hier deine Konto-ID ein, um fortzufahren";
 
 "account section header my subscription" = "Mein Abo";
 "account section header general" = "Allgemein";
@@ -228,6 +233,9 @@
 "account lease label devices list" = "Diese Geräte sind mit deinem Konto verbunden.";
 "account lease label devices" = "Geräte";
 "account lease label this device" = " (Dieses Gerät)";
+"account lease label name" = "Name des Gerätes";
+"account lease label dns" = "DNS";
+"account lease label public key" = "Öffentlicher Schlüssel";
 
 "account support action how help" = "Wie können wir dir helfen?";
 "account support action kb" = "Wissensdatenbank öffnen";
@@ -260,6 +268,9 @@
 "payment subscription many months" = "%@ Monate";
 "payment subscription per month" = "%@ pro Monat";
 "payment subscription offer" = "Spare %@";
+
+"payment success label" = "Danke!";
+"payment change method" = "Ändern";
 
 "apps section header" = "Apps";
 "apps label installed" = "Installiert";

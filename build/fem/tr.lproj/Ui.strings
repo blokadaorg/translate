@@ -22,6 +22,7 @@
 "error device offline" = "Cihazınız çevrimdışı";
 "error account inactive" = "Hesabınız etkin değil. BLOKADA+ sürümünü kullanmaya devam etmek için lütfen hesabınızı etkinleştirin.";
 "error account inactive after restore" = "Bu geçerli bir etkin hesap gibi görünmüyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error account invalid" = "Bu hesap kimliği geçersiz görünüyor.";
 "error creating account" = "Yeni bir hesap oluşturulamadı. Lütfen daha sonra tekrar deneyin.";
 "error fetching data" = "Bu işlem tamamlanamadı. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, üstteki yardım simgesine dokunarak lütfen bize ulaşın.";
 "error tunnel" = "VPN kurulamadı. Lütfen cihazınızı yeniden başlatın veya sistem ayarlarında BLOKADA VPN profilini kaldırın ve tekrar deneyin.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "VPN devre dışı bırakıldı. BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
 "error payment inactive after restore" = "Önceki ödemeniz geri yüklendi, ancak aboneliğin süresi doldu. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 "error payment failed" = "Ödemeler şu anda mevcut değil. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error payment failed alternative" = "Ödemeniz tamamlanamadı. Lütfen verilerinizin doğru olduğundan emin olun ve tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 "error payment not available" = "Bu cihaz için ödemeler mevcut değil. Apple Pay etkinleştirilmedi veya ülkenizdeki satın alımları henüz işlemiyoruz.";
 "error payment canceled" = "Ödeme iptal edildi. Sizden ücret alınmadı.";
 "error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Bize Ulaşın";
 "universal action support" = "Destek";
 "universal action upgrade" = "BLOKADA+ yükselt";
+"universal action upgrade short" = "Yükselt";
 "universal action yes" = "Evet";
 "universal action no" = "Hayır";
 "universal action donate" = "Bağış Yap";
@@ -60,8 +63,12 @@
 "universal action open in browser" = "Tarayıcıda aç";
 "universal action more" = "Daha Fazla";
 "universal action download" = "İndir";
+"universal action news" = "Haberler";
+"universal action delete" = "Sil";
+"universal action hide" = "Gizle";
 
 "universal label help" = "Yardım";
+"universal label welcome" = "Hoş geldiniz!";
 "universal status processing" = "İşeniyor... Lütfen bekleyin.";
 "universal status copied to clipboard" = "Panoya kopyalandı";
 "universal status restart required" = "Değişikliklerin etkili olması için lütfen programı yeniden başlatın.";
@@ -73,13 +80,16 @@
 "notification vpn expired header" = "BLOKADA+ aboneliğinin süresi doldu";
 "notification vpn expired subtitle" = "VPN devre dışı";
 "notification vpn expired body" = "BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
+"notification desc settings" = "Ayarlar için bildirimi sola veya sağa kaydırın.";
 
 "notification update header" = "Bir güncelleme mevcut";
 "alert update body" = "Blokada %@ artık indirilebilir durumda. Uygulamayı güncel tutmanızı ve yalnızca resmi kaynaklarımızdan indirmenizi öneririz.";
 "update label updated" = "Güncellendi!";
+"update desc updated" = "Şimdi Blokada'nın en yeni sürümünü kullanıyorsunuz! Unutmayın, Blokada Plus'a bağış yapmak veya abone olmak, uygulamayı geliştirmeye devam etmemizi sağlar.";
 "update downloading description" = "Güncelleme şu anda indiriliyor ve kısa bir süre sonra kurulum istemini görmelisiniz.";
 
 "account active forever" = "Sonsuza kadar";
+"account active forever full" = "Sonsuza kadar etkin";
 
 "main ask for permissions header" = "Sadece bir adım daha";
 "main ask for permissions description" = "Blokada reklamları engellemek için bir VPN yapılandırması kullanıyor. Bir sonraki adımda buna izin vermeniz istenecektir.";
@@ -185,11 +195,18 @@
 "account action my account" = "Hesabım";
 "account action encryption" = "Şifreleme";
 "account action devices" = "Cihazlar";
+"account action new device" = "Yeni cihaz";
 "account action inbox" = "Gelen Kutusu";
 "account action logout" = "Satın alımı geri yükle";
+"account action logout only" = "Oturumu kapat";
+"account action create" = "Yeni hesap oluştur";
 "account action about" = "Hakkında";
 "account action tap to show" = "Göstermek için dokunun";
 "account action restoring" = "Hesap geri yükleniyor: %@";
+"account label enter to continue" = "Devam etmek için hesap kimliğinizi girin";
+"account restore description" = "Endişelenmeyin, hesap kimliğinizi kaybettiyseniz veya unuttuysanız kurtarabiliriz. Lütfen desteğimizle iletişime geçin ve satın alma işleminizi belirlememizi sağlayacak bilgileri bize sağlayın (Örn. Kredi kartınızın son 4 hanesi veya PayPal e-postası).";
+"account create description" = "Bu sizin hesap kimliğinizdir. Aboneliğinize erişmenin tek yolu bu olduğu için bunu bir yere yazmalısınız. Ayrıca, kimseyle paylaşmayın, böylece hesabınız çalınmaz.";
+"account create confirm" = "Hesap kimliğimi biliyorum";
 
 "account section header my subscription" = "Aboneliğim";
 "account section header general" = "Genel";
@@ -199,6 +216,9 @@
 "account label active until" = "Aktiflik süresi:";
 "account action manage subscription" = "Aboneliği yönet";
 "account action why upgrade" = "Neden yükseltmeliyim?";
+"account subscription header renew" = "Otomatik olarak yenile";
+"account subscription header payment method" = "Ödeme yöntemi";
+"account subscription renew unsupported" = "Ödeme yönteminiz otomatik yenilemeyi desteklemiyor.";
 
 "account unlock to show" = "Hesap kimliğinizi göstermek için kilidi açın";
 
@@ -206,6 +226,11 @@
 "account logout description" = "Lütfen başka bir hesap kimliği girin veya mevcut hesabınızı kullanmaya devam etmek için geri dönün (bu uygulama olmadan kullanılamaz).";
 "account id status unchanged" = "(değişmemiş)";
 "account action how to restore" = "Eski hesabımı nasıl geri yükleyebilirim?";
+
+"account subscription days remaining" = "Kalan gün: %@";
+"account devices remaining" = "Kalan cihaz sayısı: %@";
+"account devices not available" = "Kullanılabilir değil";
+"account devices out of" = "%@ dışında %@";
 
 "account encrypt level low" = "Düşük";
 "account encrypt level medium" = "Orta";
@@ -228,6 +253,15 @@
 "account lease label devices list" = "Bu cihazlar hesabınıza bağlı.";
 "account lease label devices" = "Cihazlar";
 "account lease label this device" = " (bu cihaz)";
+"account lease label name" = "Cihaz adı";
+"account lease label location" = "Konum";
+"account lease action generate" = "Yapılandırma Oluştur";
+"account lease action download" = "Yapılandırmayı İndir";
+"account lease generated" = "Cihaz eklendi! Wireguard tarafından desteklenen herhangi bir cihazda kullanmak için yapılandırmayı indirin.";
+"account lease wireguard desc" = "Blokada, Wireguard kullanıyor. Yeni cihazlar oluştururken yapılandırmalar indirilebilir.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Bir DNS seçin";
+"account lease label public key" = "Genel Anahtar";
 
 "account support action how help" = "Size nasıl yardımcı olabiliriz?";
 "account support action kb" = "Açık Bilgi Bankası";
@@ -260,6 +294,18 @@
 "payment subscription many months" = "%@ ay";
 "payment subscription per month" = "Aylık %@";
 "payment subscription offer" = "%@ indirim";
+
+"payment success label" = "Teşekkürler!";
+"payment success desc" = "Hesabınız artık etkin! Artık Blokada Plus özelliklerini tamamını tüm cihazlarınızda kullanabilirsiniz.";
+
+"payment ongoing desc" = "Ödemeniz şu anda işleniyor. PayPal söz konusu ise 24 saate kadar sürebilir. Diğer ödeme yöntemleri bir saatten fazla sürmemelidir. Çok uzun sürdüğünü düşünüyorsanız, lütfen bizimle iletişime geçin.";
+"payment pay google" = "Google Pay ile öde";
+"payment pay apple" = "Apple Pay ile öde";
+"payment change method" = "Değiştir";
+"payment action pay" = "%@ öde";
+"payment action pay period" = "Her dönem için %@ öde";
+"payment label email" = "E-posta";
+"payment crypto desc" = "Kripto para cüzdanınızla ödeme yapmak için aşağıdaki düğmeye dokunun.";
 
 "apps section header" = "Uygulamalar";
 "apps label installed" = "Yüklü";

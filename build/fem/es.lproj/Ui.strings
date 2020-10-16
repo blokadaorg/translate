@@ -60,6 +60,8 @@
 "universal action open in browser" = "Abrir en el navegador";
 "universal action more" = "Más detalles";
 "universal action download" = "Descargar";
+"universal action news" = "Noticias";
+"universal action delete" = "Eliminar";
 
 "universal label help" = "Ayuda";
 "universal status processing" = "Procesando... espera por favor.";
@@ -167,9 +169,6 @@
 "activity happened one time" = "1 vez";
 "activity happened many times" = "%@ veces";
 "activity category recent" = "Recientes";
-/* activity category top
-
-This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "Recent". */
 "activity category top" = "Recurrentes";
 "activity category top blocked" = "Más bloqueadas";
 "activity category top allowed" = "Más permitidas";
@@ -188,11 +187,14 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account action my account" = "Mi cuenta";
 "account action encryption" = "Cifrado";
 "account action devices" = "Dispositivos";
+"account action new device" = "Nuevo dispositivo";
 "account action inbox" = "Bandeja de entrada";
 "account action logout" = "Restaurar compra";
+"account action logout only" = "Cerrar sesión";
 "account action about" = "Acerca de";
 "account action tap to show" = "Toca para mostrar";
 "account action restoring" = "Restaurando cuenta: %@";
+"account label enter to continue" = "Introduce tu ID de cuenta para continuar";
 
 "account section header my subscription" = "Mi suscripción";
 "account section header general" = "General";
@@ -231,6 +233,9 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "account lease label devices list" = "Estos dispositivos están conectados a tu cuenta.";
 "account lease label devices" = "Dispositivos";
 "account lease label this device" = " (este dispositivo)";
+"account lease label name" = "Nombre del dispositivo";
+"account lease label dns" = "DNS";
+"account lease label public key" = "Llave pública";
 
 "account support action how help" = "¿Cómo podemos ayudarte?";
 "account support action kb" = "Nuestra base de conocimientos";
@@ -263,6 +268,9 @@ This is the tab for most commonly blocked domains. There are 2 tabs, "Top" and "
 "payment subscription many months" = "%@ meses";
 "payment subscription per month" = "%@ por mes";
 "payment subscription offer" = "Ahorra %@";
+
+"payment success label" = "¡Gracias!";
+"payment change method" = "Cambiar";
 
 "apps section header" = "Apps";
 "apps label installed" = "Instalado";
