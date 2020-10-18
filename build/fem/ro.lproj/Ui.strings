@@ -79,6 +79,7 @@
 "notification vpn expired header" = "Abonamentul BLOKADA+ a expirat";
 "notification vpn expired subtitle" = "VPN-ul este dezactivat";
 "notification vpn expired body" = "Vă rugăm să vă actualizați abonamentul pentru a continua să utilizați BLOKADA+";
+"notification desc settings" = "Glisați notificarea înspre stânga sau dreapta pentru setări.";
 
 "notification update header" = "Este disponibilă o actualizare";
 "alert update body" = "Blokada %@ este acum disponibilă pentru descărcare. Vă recomandăm să păstrați aplicația la zi și să o descărcați doar din sursele noastre oficiale.";
@@ -251,6 +252,7 @@
 "account lease label location" = "Locatie";
 "account lease action generate" = "Genereaza configuratie";
 "account lease action download" = "Descarcă Configurație";
+"account lease generated" = "Dispozitiv adăugat! Descarcați configurația pentru a o utiliza pe orice dispozitiv suportat de Wireguard.";
 "account lease wireguard desc" = "Blokada folosește Wireguard. Configurațiile pot fi descărcate la crearea de dispozitive noi.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Alege un DNS";
@@ -294,6 +296,8 @@
 "payment pay apple" = "Plătește cu Apple Pay";
 "payment change method" = "Modifică";
 "payment action pay" = "Plătește %@";
+"payment action pay period" = "Plătiți%@ € în fiecare perioadă";
+"payment label email" = "E-mail";
 
 "apps section header" = "Aplicații";
 "apps label installed" = "Instalat";
