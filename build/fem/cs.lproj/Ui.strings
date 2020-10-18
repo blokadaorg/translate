@@ -229,6 +229,8 @@
 
 "account subscription days remaining" = "Zbývající dny: %@";
 "account devices remaining" = "Zbývající zařízení: %@";
+"account devices not available" = "Není k dispozici";
+"account devices out of" = "%@ z %@";
 
 "account encrypt level low" = "Nízký";
 "account encrypt level medium" = "Střední";
@@ -252,7 +254,13 @@
 "account lease label devices" = "Zařízení";
 "account lease label this device" = " (toto zařízení)";
 "account lease label name" = "Název zařízení";
+"account lease label location" = "Umístění";
+"account lease action generate" = "Generovat konfiguraci";
+"account lease action download" = "Stáhnout konfiguraci";
+"account lease generated" = "Zařízení přidáno! Stáhněte si konfiguraci, abyste jej mohli používat na jakémkoliv zařízení podporovaném službou Wireguard.";
+"account lease wireguard desc" = "Blokada používá službu Wireguard. Konfigurace lze stáhnout při vytváření nových zařízení.";
 "account lease label dns" = "DNS";
+"account lease action dns" = "Zvolte DNS";
 "account lease label public key" = "Veřejný klíč";
 
 "account support action how help" = "Jak Vám můžeme pomoci?";
@@ -288,7 +296,14 @@
 "payment subscription offer" = "Ušetříte %@";
 
 "payment success label" = "Děkujeme!";
+"payment success desc" = "Váš účet je nyní aktivní! Nyní můžete používat všechny funkce Blokada Plus na všech vašich zařízeních.";
+"payment pay google" = "Zaplatit pomocí Google Pay";
+"payment pay apple" = "Zaplatit pomocí Apple Pay";
 "payment change method" = "Změnit";
+"payment action pay" = "Zaplatit %@";
+"payment action pay period" = "Zaplatit %@ za každé období";
+"payment label email" = "E-mail";
+"payment crypto desc" = "Chcete-li zaplatit svou peněženkou s kryptoměnou, klepněte na tlačítko níže.";
 
 "apps section header" = "Aplikace";
 "apps label installed" = "Nainstalované";
