@@ -66,12 +66,15 @@
 "universal action news" = "Новости";
 "universal action delete" = "Удалить";
 "universal action hide" = "Скрыть";
+"universal action select" = "Выбор";
+"universal action selected" = "Выбрано";
 
 "universal label help" = "Помощь";
 "universal label welcome" = "Добро пожаловать!";
 "universal status processing" = "Обработка... Пожалуйста, подождите.";
 "universal status copied to clipboard" = "Скопировано в буфер обмена";
 "universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
+"universal status redirect" = "Продолжить в Blokada";
 
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
@@ -299,11 +302,14 @@
 "payment success desc" = "Ваш аккаунт теперь активен! Теперь вы можете использовать все функции Blokada Plus на всех своих устройствах.";
 
 "payment ongoing desc" = "Ваш платеж сейчас обрабатывается. В случае PayPal это может занять до 24 часов. Другие способы оплаты не должны занимать больше часа. Если вы полагаете, что это занимает слишком много времени, пожалуйста, свяжитесь с нами.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Изменить";
 "payment action pay" = "Оплатить %@";
 "payment action pay period" = "Оплачивать %@ каждый период";
 "payment label email" = "Email";
 "payment crypto desc" = "Чтобы заплатить с помощью своего кошелька для криптовалюты, нажмите кнопку ниже.";
+"payment label choose package" = "Выберите ваш пакет";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Установленные";
