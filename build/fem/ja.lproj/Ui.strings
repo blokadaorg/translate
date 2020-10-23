@@ -66,12 +66,15 @@
 "universal action news" = "ニュース";
 "universal action delete" = "削除";
 "universal action hide" = "非表示";
+"universal action select" = "選択";
+"universal action selected" = "選択済み";
 
 "universal label help" = "ヘルプ";
 "universal label welcome" = "ようこそ！";
 "universal status processing" = "処理中です… しばらくお待ちください。";
 "universal status copied to clipboard" = "クリップボードにコピーしました";
 "universal status restart required" = "変更を反映するにはアプリを再起動してください。";
+"universal status redirect" = "Blokadaアプリで続ける";
 
 "alert error header" = "エラーが発生しました！";
 "alert vpn expired header" = "BLOKADA+の有効期限が終了しました";
@@ -299,11 +302,24 @@
 "payment success desc" = "アカウントが有効になりました！すべてのデバイスでBlokada Plus機能を使用できます。";
 
 "payment ongoing desc" = "お支払いが処理されています。PayPalの場合、最大24時間かかる場合があります。 他の支払い方法は1時間以上かかることはありません。時間がかかりすぎると思われる場合は、お問い合わせください。";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "変更";
 "payment action pay" = "お支払い %@";
 "payment action pay period" = "各期間に %@ 支払う";
 "payment label email" = "Eメール";
 "payment crypto desc" = "暗号通貨ウォレットで支払うには、下のボタンをタップしてください。";
+"payment label choose package" = "パッケージを選択してください";
+"payment label choose payment method" = "支払い方法を選択してください";
+"payment label cheapest" = "最安";
+"payment label most popular" = "一番人気";
+"payment label pay with card" = "カードで支払う";
+"payment label pay with paypal" = "PayPalで支払う";
+"payment label pay with crypto" = "暗号通貨で支払う";
+"payment package 1 month" = "1ヶ月";
+"payment package 6 months" = "6ヶ月";
+"payment package 12 months" = "12ヶ月";
+"payment label discount" = "%@ を保存 (%@ / 月)";
 
 "apps section header" = "アプリ";
 "apps label installed" = "インストール済み";
