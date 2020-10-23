@@ -65,12 +65,16 @@
 "universal action download" = "下載";
 "universal action news" = "新聞";
 "universal action delete" = "刪除";
+"universal action hide" = "隱藏";
+"universal action select" = "選取";
+"universal action selected" = "已選取";
 
 "universal label help" = "協助";
 "universal label welcome" = "歡迎！";
 "universal status processing" = "處理中… 請稍候。";
 "universal status copied to clipboard" = "已複製到剪貼簿";
 "universal status restart required" = "請重新啟動 APP 以套用變更。";
+"universal status redirect" = "使用 Blokada 應用程式繼續";
 
 "alert error header" = "哎呀！";
 "alert vpn expired header" = "BLOKADA+ 已到期";
@@ -79,10 +83,12 @@
 "notification vpn expired header" = "BLOKADA+ 訂閱過期";
 "notification vpn expired subtitle" = "VPN 已停用";
 "notification vpn expired body" = "請更新您的訂閱以繼續使用 BLOKADA+";
+"notification desc settings" = "將通知向左或向右滑動以進行設定。";
 
 "notification update header" = "有更新版本";
 "alert update body" = "現在可以下載 Blokada %@。我們建議將本 APP 保持在最新版本，並只從我們的官方來源下載。";
 "update label updated" = "已更新！";
+"update desc updated" = "您正在使用最新版本的 Blokada！請記住，捐款或訂閱 Blokada Plus 讓我們可以繼續改進應用程式。";
 "update downloading description" = "正在下載更新，您稍後就會看到安裝提示框。";
 
 "account active forever" = "永遠";
@@ -296,13 +302,24 @@
 "payment success desc" = "您的帳號已可使用！您現在可以在您的裝置上使用所有的 Blokada Plus 功能。";
 
 "payment ongoing desc" = "您的付款正在處理中。如果是使用 PayPal，那可能需要24小時。其他付款方式應該不用超過一個小時。如果您覺得時間太長，請聯絡我們。";
-"payment pay google" = "使用 Google Pay 付款";
-"payment pay apple" = "使用 Apple Pay 付款";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "變更";
 "payment action pay" = "支付 %@";
 "payment action pay period" = "每個週期付 %@";
 "payment label email" = "電子郵件";
 "payment crypto desc" = "使用您的加密貨幣錢包付款，點擊下方的按鈕。";
+"payment label choose package" = "選擇套件";
+"payment label choose payment method" = "選擇付款方式";
+"payment label cheapest" = "最便宜";
+"payment label most popular" = "最熱門";
+"payment label pay with card" = "以信用卡付款";
+"payment label pay with paypal" = "使用 PayPal 支付";
+"payment label pay with crypto" = "使用加密貨幣付款";
+"payment package one month" = "1 個月";
+"payment package six months" = "6 個月";
+"payment package twelve months" = "12 個月";
+"payment label discount" = "省下 %@ (每個月 %@)";
 
 "apps section header" = "應用程式";
 "apps label installed" = "已安裝";

@@ -22,6 +22,7 @@
 "error device offline" = "Vaše zařízení je offline";
 "error account inactive" = "Váš není aktivní. Aktivujte prosím svůj účet, abyste mohli pokračovat v používání služby BLOKADA+.";
 "error account inactive after restore" = "Nezdá se, že by se jednalo o platný aktivní účet. Pokud se domníváte, že se jedná o chybu, kontaktujte nás prosím klepnutím na ikonu nápovědy v horní části.";
+"error account invalid" = "Toto ID účtu se zdá být neplatné.";
 "error creating account" = "Nelze vytvořit nový účet. Opakujte akci později.";
 "error fetching data" = "Tuto akci nelze dokončit. Ujistěte se, že jste online, a zkuste to znovu později. Pokud problém přetrvává, prosím kontaktujte nás klepnutím na ikonu nápovědy v horní části.";
 "error tunnel" = "Nelze vytvořit VPN. Restartujte zařízení nebo odstraňte profil Blokada VPN v systémovém nastavení a zkuste to znovu.";
@@ -32,6 +33,7 @@
 "error vpn expired" = "VPN je zakázána. Aktualizujte vaše předplatné a pokračujte v používání služby BLOKADA+";
 "error payment inactive after restore" = "Vaše předchozí platba byla obnovena, ale předplatné již vypršelo. Pokud se domníváte, že se jedná o chybu, kontaktujte nás kliknutím na ikonu nápovědy v horní části.";
 "error payment failed" = "Platby nejsou momentálně k dispozici. Ujistěte se, že jste online, a zkuste to znovu později. Pokud problém přetrvává, prosím kontaktujte nás klepnutím na ikonu nápovědy v horní části.";
+"error payment failed alternative" = "Nelze dokončit Vaši platbu. Ujistěte se, že jsou vaše údaje správné, a zkuste to znovu. Pokud problém přetrvává, prosím, kontaktujte nás klepnutím na ikonu nápovědy v horní části.";
 "error payment not available" = "Pro toto zařízení nejsou platby k dispozici. Buď není aktivován Apple Pay, nebo nákupy ve vaší zemi zatím nezpracováváme.";
 "error payment canceled" = "Platba byla zrušena. Nebyli vám účtovány žádné poplatky.";
 "error pack install" = "Tuto funkci nelze nainstalovat (nebo odinstalovat). Opakujte akci později.";
@@ -53,6 +55,7 @@
 "universal action contact us" = "Kontaktujte nás";
 "universal action support" = "Podpora";
 "universal action upgrade" = "Upgradovat na BLOKADA+";
+"universal action upgrade short" = "Aktualizovat";
 "universal action yes" = "Ano";
 "universal action no" = "Ne";
 "universal action donate" = "Podpořit";
@@ -62,11 +65,14 @@
 "universal action download" = "Stáhnout";
 "universal action news" = "Novinky";
 "universal action delete" = "Odstranit";
+"universal action hide" = "Skrýt";
 
 "universal label help" = "Nápověda";
+"universal label welcome" = "Vítejte!";
 "universal status processing" = "Zpracovávám... Čekejte prosím.";
 "universal status copied to clipboard" = "Zkopírováno do schránky";
 "universal status restart required" = "Restartujte prosím aplikaci, aby se změny projevily.";
+"universal status redirect" = "Pokračovat s aplikací Blokada";
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "Platnost služby BLOKADA+ vypršela";
@@ -75,13 +81,16 @@
 "notification vpn expired header" = "Předplatné služby BLOKADA+ vypršelo";
 "notification vpn expired subtitle" = "VPN je zakázáno";
 "notification vpn expired body" = "Aktualizujte vaše předplatné a pokračujte v používání služby BLOKADA+";
+"notification desc settings" = "Nastavení zobrazíte přejetím oznámení doleva nebo doprava.";
 
 "notification update header" = "K dispozici je aktualizace";
 "alert update body" = "Blokada %@ je nyní k dispozici ke stažení. Doporučujeme aplikaci aktualizovat a stahovat pouze z našich oficiálních zdrojů.";
 "update label updated" = "Aktualizováno!";
+"update desc updated" = "Nyní používáte nejnovější verzi Blokady! Pamatujte, že podpora nebo předplatné služby Blokada Plus nám umožňuje pokračovat zlepšování aplikace.";
 "update downloading description" = "Aktualizace se nyní stahuje a brzy byste měli vidět výzvu k instalaci.";
 
 "account active forever" = "Navždy";
+"account active forever full" = "Vždy aktivní";
 
 "main ask for permissions header" = "Již jen jeden krok";
 "main ask for permissions description" = "Blokada používá konfiguraci VPN k blokování reklam. V dalším kroku budete požádáni o její povolení.";
@@ -191,10 +200,14 @@
 "account action inbox" = "Novinky";
 "account action logout" = "Obnovit nákup";
 "account action logout only" = "Odhlásit se";
+"account action create" = "Vytvořit nový účet";
 "account action about" = "O aplikaci";
 "account action tap to show" = "Klepněte pro zobrazení";
 "account action restoring" = "Obnovuji účet: %@";
 "account label enter to continue" = "Pro pokračování zadejte ID vašeho účtu";
+"account restore description" = "Nemějte obavy, pokud jste ztratili nebo zapomněli ID účtu, můžeme jej obnovit. Kontaktujte naši podporu a poskytněte nám informace, které nám umožní identifikovat váš nákup (např. poslední 4 číslice vaší kreditní karty nebo e-mail k PayPalu).";
+"account create description" = "Toto je vaše ID účtu. Měli byste si ho zapsat, protože to je jediný způsob, jak získat přístup k vašemu předplatnému. Také jej s nikým nesdílejte, aby vám nebyl účet odcizen.";
+"account create confirm" = "Znám své ID účtu";
 
 "account section header my subscription" = "Moje předplatné";
 "account section header general" = "Obecné";
@@ -204,6 +217,9 @@
 "account label active until" = "Aktivní do";
 "account action manage subscription" = "Spravovat předplatné";
 "account action why upgrade" = "Proč bych měl upgradovat?";
+"account subscription header renew" = "Automaticky obnovit";
+"account subscription header payment method" = "Způsob platby";
+"account subscription renew unsupported" = "Vaše platební metoda nepodporuje automatické obnovení.";
 
 "account unlock to show" = "Odemkněte pro zobrazení ID vašeho účtu";
 
@@ -211,6 +227,11 @@
 "account logout description" = "Zadejte jiné ID účtu nebo se vraťte a pokračujte v používání stávajícího účtu (tuto aplikaci nelze použít bez jednoho).";
 "account id status unchanged" = "(nezměněno)";
 "account action how to restore" = "Jak obnovím svůj starý účet?";
+
+"account subscription days remaining" = "Zbývající dny: %@";
+"account devices remaining" = "Zbývající zařízení: %@";
+"account devices not available" = "Není k dispozici";
+"account devices out of" = "%@ z %@";
 
 "account encrypt level low" = "Nízký";
 "account encrypt level medium" = "Střední";
@@ -234,7 +255,13 @@
 "account lease label devices" = "Zařízení";
 "account lease label this device" = " (toto zařízení)";
 "account lease label name" = "Název zařízení";
+"account lease label location" = "Umístění";
+"account lease action generate" = "Generovat konfiguraci";
+"account lease action download" = "Stáhnout konfiguraci";
+"account lease generated" = "Zařízení přidáno! Stáhněte si konfiguraci, abyste jej mohli používat na jakémkoliv zařízení podporovaném službou Wireguard.";
+"account lease wireguard desc" = "Blokada používá službu Wireguard. Konfigurace lze stáhnout při vytváření nových zařízení.";
 "account lease label dns" = "DNS";
+"account lease action dns" = "Zvolte DNS";
 "account lease label public key" = "Veřejný klíč";
 
 "account support action how help" = "Jak Vám můžeme pomoci?";
@@ -270,7 +297,20 @@
 "payment subscription offer" = "Ušetříte %@";
 
 "payment success label" = "Děkujeme!";
+"payment success desc" = "Váš účet je nyní aktivní! Nyní můžete používat všechny funkce Blokada Plus na všech vašich zařízeních.";
+
+"payment ongoing desc" = "Vaše platba je nyní zpracovávána. V případě PayPalu to může trvat až 24 hodin. Zpracování platby prostřednictví ostatních platebních metod by nemělo trvat déle než hodinu. Pokud máte pocit, že to trvá příliš dlouho, kontaktujte nás.";
 "payment change method" = "Změnit";
+"payment action pay" = "Zaplatit %@";
+"payment action pay period" = "Zaplatit %@ za každé období";
+"payment label email" = "E-mail";
+"payment crypto desc" = "Chcete-li zaplatit svou peněženkou s kryptoměnou, klepněte na tlačítko níže.";
+"payment label pay with card" = "Zaplatit kartou";
+"payment label pay with paypal" = "Zaplatit přes PayPal";
+"payment label pay with crypto" = "Zaplatit pomocí kryptoměny";
+"payment package one month" = "1 měsíc";
+"payment package six months" = "6 měsíců";
+"payment package twelve months" = "12 měsíců";
 
 "apps section header" = "Aplikace";
 "apps label installed" = "Nainstalované";

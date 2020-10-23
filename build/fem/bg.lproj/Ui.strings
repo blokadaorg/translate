@@ -72,6 +72,7 @@
 "universal status processing" = "В процес... Моля, изчакайте.";
 "universal status copied to clipboard" = "Копирано в клипборда";
 "universal status restart required" = "Моля, рестартирайте приложението за да влязат в сила промените.";
+"universal status redirect" = "Продължете към приложението Blokada";
 
 "alert error header" = "Ооопс!";
 "alert vpn expired header" = "BLOKADA+ е изтекла";
@@ -299,13 +300,17 @@
 "payment success desc" = "Вашият акаунт е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
 
 "payment ongoing desc" = "Плащането Ви се обработва. В някои случай като при PayPal, това може да отнеме до 24 часа. Другите методи на плащане не би трябвало да отнемат повече от час. Ако смятате, че отнема твърде много време, моля свържете се с нас.";
-"payment pay google" = "Плащане с Google Pay";
-"payment pay apple" = "Плащане с Apple Pay";
 "payment change method" = "Промяна";
 "payment action pay" = "Платете %@";
 "payment action pay period" = "Платете %@ за всеки един период";
 "payment label email" = "Имейл";
 "payment crypto desc" = "За да платите с криптовалута от портфейла си, натиснете бутона по-долу.";
+"payment label pay with card" = "Платете с карта";
+"payment label pay with paypal" = "Платете с PayPal";
+"payment label pay with crypto" = "Платете с криптовалута";
+"payment package one month" = "1 Месец";
+"payment package six months" = "6 Месеца";
+"payment package twelve months" = "12 Месеца";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Инсталирани";

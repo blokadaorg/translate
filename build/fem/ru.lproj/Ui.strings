@@ -66,12 +66,15 @@
 "universal action news" = "Новости";
 "universal action delete" = "Удалить";
 "universal action hide" = "Скрыть";
+"universal action select" = "Выбор";
+"universal action selected" = "Выбрано";
 
 "universal label help" = "Помощь";
 "universal label welcome" = "Добро пожаловать!";
 "universal status processing" = "Обработка... Пожалуйста, подождите.";
 "universal status copied to clipboard" = "Скопировано в буфер обмена";
 "universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
+"universal status redirect" = "Продолжить в Blokada";
 
 "alert error header" = "Ой!";
 "alert vpn expired header" = "Срок действия BLOKADA+ истек";
@@ -80,10 +83,12 @@
 "notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
 "notification vpn expired subtitle" = "VPN отключен";
 "notification vpn expired body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
+"notification desc settings" = "Смахните уведомление влево или вправо для отображения настроек.";
 
 "notification update header" = "Доступно обновление";
 "alert update body" = "Blokada %@ теперь доступна для скачивания. Мы рекомендуем поддерживать актуальную версию приложения, и скачивать его только из наших официальных источников.";
 "update label updated" = "Обновлено!";
+"update desc updated" = "Теперь вы используете новейшую версию Blokada! Помните, что пожертвование или подписка на Blokada Plus позволяет нам продолжать улучшать приложение.";
 "update downloading description" = "Обновление уже начало загружаться. Скоро появится запрос на установку.";
 
 "account active forever" = "Навсегда";
@@ -297,13 +302,24 @@
 "payment success desc" = "Ваш аккаунт теперь активен! Теперь вы можете использовать все функции Blokada Plus на всех своих устройствах.";
 
 "payment ongoing desc" = "Ваш платеж сейчас обрабатывается. В случае PayPal это может занять до 24 часов. Другие способы оплаты не должны занимать больше часа. Если вы полагаете, что это занимает слишком много времени, пожалуйста, свяжитесь с нами.";
-"payment pay google" = "Оплата через Google Pay";
-"payment pay apple" = "Оплата через Apple Pay";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Изменить";
 "payment action pay" = "Оплатить %@";
 "payment action pay period" = "Оплачивать %@ каждый период";
 "payment label email" = "Email";
 "payment crypto desc" = "Чтобы заплатить с помощью своего кошелька для криптовалюты, нажмите кнопку ниже.";
+"payment label choose package" = "Выберите ваш пакет";
+"payment label choose payment method" = "Выберите способ оплаты";
+"payment label cheapest" = "Самый дешевый";
+"payment label most popular" = "Самый популярный";
+"payment label pay with card" = "Оплатить картой";
+"payment label pay with paypal" = "Оплатить через PayPal";
+"payment label pay with crypto" = "Оплатить криптовалютой";
+"payment package one month" = "1 месяц";
+"payment package six months" = "6 месяцев";
+"payment package twelve months" = "12 месяцев";
+"payment label discount" = "Сэкономить %@ (%@ / месяц)";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Установленные";
