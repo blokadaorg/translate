@@ -66,6 +66,8 @@
 "universal action news" = "Novinky";
 "universal action delete" = "Odstranit";
 "universal action hide" = "Skrýt";
+"universal action select" = "Vybrat";
+"universal action selected" = "Vybrané";
 
 "universal label help" = "Nápověda";
 "universal label welcome" = "Vítejte!";
@@ -86,7 +88,7 @@
 "notification update header" = "K dispozici je aktualizace";
 "alert update body" = "Blokada %@ je nyní k dispozici ke stažení. Doporučujeme aplikaci aktualizovat a stahovat pouze z našich oficiálních zdrojů.";
 "update label updated" = "Aktualizováno!";
-"update desc updated" = "Nyní používáte nejnovější verzi Blokady! Pamatujte, že podpora nebo předplatné služby Blokada Plus nám umožňuje pokračovat zlepšování aplikace.";
+"update desc updated" = "Nyní používáte nejnovější verzi Blokady! Pamatujte, že podpora nebo předplatné služby Blokada Plus nám umožňuje pokračovat ve zlepšování aplikace.";
 "update downloading description" = "Aktualizace se nyní stahuje a brzy byste měli vidět výzvu k instalaci.";
 
 "account active forever" = "Navždy";
@@ -300,17 +302,24 @@
 "payment success desc" = "Váš účet je nyní aktivní! Nyní můžete používat všechny funkce Blokada Plus na všech vašich zařízeních.";
 
 "payment ongoing desc" = "Vaše platba je nyní zpracovávána. V případě PayPalu to může trvat až 24 hodin. Zpracování platby prostřednictví ostatních platebních metod by nemělo trvat déle než hodinu. Pokud máte pocit, že to trvá příliš dlouho, kontaktujte nás.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Změnit";
 "payment action pay" = "Zaplatit %@";
 "payment action pay period" = "Zaplatit %@ za každé období";
 "payment label email" = "E-mail";
 "payment crypto desc" = "Chcete-li zaplatit svou peněženkou s kryptoměnou, klepněte na tlačítko níže.";
+"payment label choose package" = "Vyberte si balíček";
+"payment label choose payment method" = "Zvolte způsob platby";
+"payment label cheapest" = "Nejlevnější";
+"payment label most popular" = "Nejoblíbenější";
 "payment label pay with card" = "Zaplatit kartou";
 "payment label pay with paypal" = "Zaplatit přes PayPal";
 "payment label pay with crypto" = "Zaplatit pomocí kryptoměny";
 "payment package one month" = "1 měsíc";
 "payment package six months" = "6 měsíců";
 "payment package twelve months" = "12 měsíců";
+"payment label discount" = "Úspora %@ (%@ / měsíčně)";
 
 "apps section header" = "Aplikace";
 "apps label installed" = "Nainstalované";
