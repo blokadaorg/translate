@@ -53,8 +53,8 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">No</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_intro_new">新しい UI の使用方法：ここをタップして表示します。</string>
-    <string name="slot_intro_new_header">新しいUIの使い方は？</string>
+    <string name="slot_intro_new">タップして新しい UI の使用方法を表示</string>
+    <string name="slot_intro_new_header">新しいUIの使い方</string>
     <string name="slot_intro_desc">ここはホームセクションです。右にスワイプするとさらに多くのことができます。 それぞれの下部にメニューがあります - 上にスワイプして開きます。 &lt;br/&gt;&lt;br/&gt;Android TVでは、dpadでUIをナビゲートします。 中央キーを使用して、下部のメニューや選択した項目を開きます。 ボタンは、上下左右の4方向の矢印でマークされています - 方向キーを使用してボタンをクリックします。</string>
     <string name="slot_intro_info">一部のアイテムにはクエッションマークアイコンが付いています。 それをタップすると、このような短いヘルプメッセージが表示されます。</string>
     <string name="slot_new_filter">ブロックリストに新しいホストを追加</string>
@@ -89,10 +89,10 @@
     <string name="slot_allapp_whitelist">バイパス</string>
     <string name="slot_action_set">設定</string>
     <string name="slot_whitelist_all">すべてのアプリをバイパスする</string>
-    <string name="slot_blacklist_all">すべてのアプリをバイパスしない</string>
-    <string name="slot_dns_name">DNS：有効</string>
-    <string name="slot_dns_name_private">カスタムDNS：有効</string>
-    <string name="slot_dns_name_disabled">DNS：無効</string>
+    <string name="slot_blacklist_all">すべてのアプリをバイパス解除</string>
+    <string name="slot_dns_name">DNSが有効です</string>
+    <string name="slot_dns_name_private">カスタムDNSが有効です</string>
+    <string name="slot_dns_name_disabled">DNSが無効になっています</string>
     <string name="slot_action_none">この操作はまだ利用できません。</string>
     <string name="slot_action_unwhitelist">キャンセル</string>
     <string name="slot_action_author">アプリについて</string>
