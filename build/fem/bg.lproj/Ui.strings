@@ -66,6 +66,8 @@
 "universal action news" = "Новини";
 "universal action delete" = "Изтриване";
 "universal action hide" = "Скриване";
+"universal action select" = "Изберете";
+"universal action selected" = "Избрани";
 
 "universal label help" = "Помощ";
 "universal label welcome" = "Добре дошли!";
@@ -300,17 +302,24 @@
 "payment success desc" = "Вашият акаунт е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
 
 "payment ongoing desc" = "Плащането Ви се обработва. В някои случай като при PayPal, това може да отнеме до 24 часа. Другите методи на плащане не би трябвало да отнемат повече от час. Ако смятате, че отнема твърде много време, моля свържете се с нас.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Промяна";
 "payment action pay" = "Платете %@";
 "payment action pay period" = "Платете %@ за всеки един период";
 "payment label email" = "Имейл";
 "payment crypto desc" = "За да платите с криптовалута от портфейла си, натиснете бутона по-долу.";
+"payment label choose package" = "Изберете пакет";
+"payment label choose payment method" = "Изберете метод на плащане";
+"payment label cheapest" = "Най-евтин";
+"payment label most popular" = "Най - популярен";
 "payment label pay with card" = "Платете с карта";
 "payment label pay with paypal" = "Платете с PayPal";
 "payment label pay with crypto" = "Платете с криптовалута";
 "payment package one month" = "1 Месец";
 "payment package six months" = "6 Месеца";
 "payment package twelve months" = "12 Месеца";
+"payment label discount" = "Спестете %@ (%@ / mo)";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Инсталирани";
@@ -342,6 +351,7 @@
 "app settings use dns over https" = "Използване на DNS през HTTPS";
 "app settings backup" = "Използване на облачно архивиране";
 "app settings section advanced" = "Разширени";
+"app settings section use foreground" = "Винаги в активност";
 
 "intro header" = "Blokada е активна!";
 "intro text" = "Син пръстен означава, че Blokada работи.\n\nНе забравяйте, че някои реклами, като в YouTube, не могат да бъдат блокирани. Въпреки това, ще забележите разлика в много други приложения.\n\nПрепоръчваме ви да активирате Винаги включен VPN / Свързване при поискване в системните настройки.";

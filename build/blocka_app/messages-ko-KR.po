@@ -14,28 +14,28 @@ msgstr ""
 "Project-Id-Version: blokada\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2020-09-15 13:34\n"
+"PO-Revision-Date: 2020-10-30 04:12\n"
 
 #. [account.subscription_price_month] - Monthly payment option
 #. defaultMessage is:
 #. 1 Month
 #: build/messages/src/Checkout.json
 msgid "1 Month"
-msgstr ""
+msgstr "1개월"
 
 #. [account.subscription_price_12months] - Yearly payment option
 #. defaultMessage is:
 #. 12 Months
 #: build/messages/src/Checkout.json
 msgid "12 Months"
-msgstr ""
+msgstr "12개월"
 
 #. [account.subscription_price_6months] - 6-month payment option
 #. defaultMessage is:
 #. 6 Months
 #: build/messages/src/Checkout.json
 msgid "6 Months"
-msgstr ""
+msgstr "6개월"
 
 #. [account.activate_once_stellar_unsupported] - Error displayed when Stellar is loaded on a unsupported browser
 #. defaultMessage is:
@@ -102,7 +102,7 @@ msgstr ""
 #. An error occured, please try again later.
 #: build/messages/src/Manage.json
 msgid "An error occured, please try again later."
-msgstr ""
+msgstr "오류가 발생했으니, 잠시 후에 다시 시도해 주세요."
 
 #. [account.activate_error] - Shown on credit card payment option upon errors loading payment info
 #. defaultMessage is:
@@ -113,7 +113,7 @@ msgstr ""
 #: build/messages/src/Checkout.json
 #: build/messages/src/Checkout.json
 msgid "An error occured, please try later."
-msgstr ""
+msgstr "오류가 발생했으니, 잠시 후에 다시 시도해 주세요."
 
 #. [login.error] - Alert shown when the account ID failed the verification check or a network error occured
 #. defaultMessage is:
@@ -169,7 +169,7 @@ msgstr ""
 #. Change
 #: build/messages/src/Checkout.json
 msgid "Change"
-msgstr ""
+msgstr "변경"
 
 #. [success.continue] - Success page continue button to proceed to account manage
 #. defaultMessage is:
@@ -230,14 +230,14 @@ msgstr ""
 #. Days until expiry: {days}
 #: build/messages/src/Manage.json
 msgid "Days until expiry: {days}"
-msgstr ""
+msgstr "계정 만료까지 남은 기간: {days}"
 
 #. [manage.devices_delete] - Button for deleting a device
 #. defaultMessage is:
 #. Delete
 #: build/messages/src/Manage.json
 msgid "Delete"
-msgstr ""
+msgstr "제거"
 
 #. [manage.devices_header] - Header of top level manage devices with a counter of total devices
 #. defaultMessage is:
@@ -251,7 +251,7 @@ msgstr ""
 #. Download
 #: build/messages/src/Manage.json
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #. [account.subscription_email] - Label next to e-mail input
 #. defaultMessage is:
@@ -301,7 +301,7 @@ msgstr ""
 #: build/messages/src/Manage.json
 #: build/messages/src/Signup.json
 msgid "Go Back"
-msgstr ""
+msgstr "뒤로 가기"
 
 #. [account.activate_once_stellar_proceed_wallet] - Payment button text for the Stellar option before opening wallet
 #. defaultMessage is:
@@ -315,7 +315,7 @@ msgstr ""
 #. ID
 #: build/messages/src/Account.json
 msgid "ID"
-msgstr ""
+msgstr "아이디"
 
 #. [account.subscription_status_loading] - Status for automatically paying when account expires is loading
 #. defaultMessage is:
@@ -350,28 +350,28 @@ msgstr ""
 #. Name of device
 #: build/messages/src/Manage.json
 msgid "Name of device"
-msgstr ""
+msgstr "장치 이름"
 
 #. [signup.header] - Header of signup
 #. defaultMessage is:
 #. New Account
 #: build/messages/src/Signup.json
 msgid "New Account"
-msgstr ""
+msgstr "계정 생성"
 
 #. [login.signup] - Link to create a new account ID
 #. defaultMessage is:
 #. New account
 #: build/messages/src/AuthedRoute.json
 msgid "New account"
-msgstr ""
+msgstr "계정 생성"
 
 #. [manage.devices_new] - Button for creating a new device configuration
 #. defaultMessage is:
 #. New device
 #: build/messages/src/Manage.json
 msgid "New device"
-msgstr ""
+msgstr "새 장치 추가"
 
 #. [notfound.title] - Not Found page title
 #. defaultMessage is:
@@ -392,7 +392,7 @@ msgstr ""
 #. Pay with PayPal
 #: build/messages/src/Checkout.json
 msgid "Pay with PayPal"
-msgstr ""
+msgstr "페이팔로 결제"
 
 #. [account.activate_once_paypal_disabled] - Header for paying with PayPal when disabled
 #. defaultMessage is:
@@ -413,14 +413,14 @@ msgstr ""
 #. Pay with card
 #: build/messages/src/Checkout.json
 msgid "Pay with card"
-msgstr ""
+msgstr "카드로 결제"
 
 #. [account.activate_once_stellar] - Header for paying with Stellar
 #. defaultMessage is:
 #. Pay with cryptocurrency
 #: build/messages/src/Checkout.json
 msgid "Pay with cryptocurrency"
-msgstr ""
+msgstr "암호화폐로 지불하기"
 
 #. [account.activate_once] - Button for paying one time when activating an account
 #. defaultMessage is:
@@ -539,7 +539,7 @@ msgstr ""
 #. Thanks!
 #: build/messages/src/App.json
 msgid "Thanks!"
-msgstr ""
+msgstr "감사합니다!"
 
 #. [signup.verify_invalid] - Verification step of creating a new account failed
 #. defaultMessage is:

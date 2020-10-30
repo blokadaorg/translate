@@ -13,7 +13,7 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">BlokadaがDNSモードで有効です。広告ブロックは無効になっています</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s 個のリクエストがブロック（ %s 以降）</string>
+    <string name="home_requests_blocked_since">%s 個のリクエストをブロック（ %s 以降）</string>
     <string name="home_masterswitch_enabled">BlokadaがONです</string>
     <string name="home_masterswitch_waiting">ネットワーク接続の待機中...</string>
     <!-- A button to share the ads counter on social media -->
@@ -21,8 +21,8 @@
     <string name="home_share_state">Blokadaスコアを共有</string>
     <string name="home_share_state_google">Blokadaアプリを知り合いに教える</string>
     <string name="home_share_msg_google">Blokada Slimを試して、あなたのプライバシーを保護してください。Google Playでダウンロードします。</string>
-    <string name="home_adblocking_enabled">広告ブロック：有効</string>
-    <string name="home_adblocking_disabled">広告ブロック：無効</string>
+    <string name="home_adblocking_enabled">広告ブロックが有効です</string>
+    <string name="home_adblocking_disabled">広告ブロックが無効です</string>
     <string name="home_blokadaorg">Blokada Slimを使用しています</string>
     <string name="home_blokadaorg_state">タップしてオープンソース版を入手する</string>
     <!-- A short text for the item that displays update information -->
@@ -30,8 +30,8 @@
     <string name="home_update_required">更新が必要です</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">寄付</string>
-    <string name="home_vpn_enabled">Blokada Plus：有効</string>
-    <string name="home_vpn_disabled">Blokada Plus：無効</string>
+    <string name="home_vpn_enabled">Blokada Plusが有効です</string>
+    <string name="home_vpn_disabled">Blokada Plusが無効です</string>
     <string name="home_account_active">あなたのアカウントはまだ有効です</string>
     <string name="home_connecting_vpn">Blokada Plusに接続中</string>
     <string name="home_cleanup">クリーンアップを推奨します</string>
@@ -55,7 +55,7 @@
     <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">まずアカウントをアクティベートしてください。</string>
     <string name="menu_vpn_select_gateway">ゲートウェイを選択してください。</string>
-    <string name="menu_vpn_intro_button">なぜBlokada Plusが必要なのですか？</string>
+    <string name="menu_vpn_intro_button">Blokada Plusが必要な理由</string>
     <!-- A button opening VPN account settings -->
     <string name="menu_vpn_account">My Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>

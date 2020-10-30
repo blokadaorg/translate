@@ -33,7 +33,7 @@
 "error vpn expired" = "Das VPN ist deaktiviert. Bitte erneuere dein Abo um weiter BLOKADA+ nutzen zu können";
 "error payment inactive after restore" = "Deine bisherige Zahlung wurde wiederhergestellt, aber dein Abo ist bereits ausgelaufen. Wenn du denkst, dass dies ein Fehler ist, kontaktiere uns bitte, indem du auf den Hilfe-Knopf oben tippst.";
 "error payment failed" = "Zahlungen sind derzeit nicht möglich. Stelle sicher, dass du online bist und probiere es später erneut. Wenn das Problem weiterhin besteht, kontaktiere und bitte, indem du den Hilfe-Knopf oben drückst.";
-"error payment failed alternative" = "Deine Zahlung konnte nicht abgeschlossen werden. Bitte stell sicher, dass deine Daten korrekt sind, und versuch es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du auf das Hilfe-Symbol oben tippst.";
+"error payment failed alternative" = "Deine Zahlung konnte nicht abgeschlossen werden. Bitte stelle sicher, dass deine Daten korrekt sind, und versuch es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du auf das Hilfe-Symbol oben tippst.";
 "error payment not available" = "Die Zahlung ist mit deinem Gerät nicht möglich. Entweder ist Apple Pay nicht aktiviert oder wir akzeptieren noch keine Zahlungen aus deinem Land.";
 "error payment canceled" = "Der Zahlungsvorgang wurde abgebrochen. Die gewählte Zahlungsmethode wurde nicht belastet.";
 "error pack install" = "Diese Erweiterung konnte nicht installiert (oder deinstalliert) werden. Bitte versuch es später erneut.";
@@ -260,6 +260,7 @@
 "account lease label location" = "Standort";
 "account lease action generate" = "Konfiguration generieren";
 "account lease action download" = "Konfiguration herunterladen";
+"account lease generated" = "Gerät hinzugefügt! Lade die Konfiguration herunter, um sie auf jedem Gerät zu verwenden, dass von Wireguard unterstützt wird.";
 "account lease wireguard desc" = "Blokada verwendet Wireguard. Konfigurationen können heruntergeladen werden, wenn neue Geräte erstellt werden.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS auswählen";
@@ -299,6 +300,8 @@
 
 "payment success label" = "Danke!";
 "payment success desc" = "Ihr Konto ist jetzt aktiv! Du kannst jetzt alle Blokada Plus Funktionen auf all deinen Geräten verwenden.";
+
+"payment ongoing desc" = "Deine Zahlung wird jetzt bearbeitet. Im Falle von PayPal kann es bis zu 24 Stunden dauern. Andere Zahlungsmethoden sollten nicht länger als eine Stunde dauern. Wenn du das Gefühl hast, dass es zu lange dauert, kontaktiere uns bitte.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Ändern";
@@ -348,6 +351,7 @@
 "app settings use dns over https" = "DNS über HTTPS verwenden";
 "app settings backup" = "Benutze das Cloud-Backup";
 "app settings section advanced" = "Erweitert";
+"app settings section use foreground" = "Aktiv halten";
 
 "intro header" = "Blokada ist aktiv!";
 "intro text" = "Ein blauer Ring bedeutet, dass Blokada aktiv ist.\n\nDenke daran, dass teilweise Werbung, wie z. B. bei YouTube, nicht blockiert werden kann. Allerdings wirst du in vielen anderen Apps einen Unterschied bemerken.\n\nWir empfehlen dir, »Durchgehend aktives VPN / Verbindung zu VPN immer beibehalten« in deinen Systemeinstellungen zu aktivieren.";

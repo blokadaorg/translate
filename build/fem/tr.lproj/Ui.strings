@@ -66,6 +66,8 @@
 "universal action news" = "Haberler";
 "universal action delete" = "Sil";
 "universal action hide" = "Gizle";
+"universal action select" = "Seç";
+"universal action selected" = "Seçildi";
 
 "universal label help" = "Yardım";
 "universal label welcome" = "Hoş geldiniz!";
@@ -300,17 +302,24 @@
 "payment success desc" = "Hesabınız artık etkin! Artık Blokada Plus özelliklerini tamamını tüm cihazlarınızda kullanabilirsiniz.";
 
 "payment ongoing desc" = "Ödemeniz şu anda işleniyor. PayPal söz konusu ise 24 saate kadar sürebilir. Diğer ödeme yöntemleri bir saatten fazla sürmemelidir. Çok uzun sürdüğünü düşünüyorsanız, lütfen bizimle iletişime geçin.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Değiştir";
 "payment action pay" = "%@ öde";
 "payment action pay period" = "Her dönem için %@ öde";
 "payment label email" = "E-posta";
 "payment crypto desc" = "Kripto para cüzdanınızla ödeme yapmak için aşağıdaki düğmeye dokunun.";
+"payment label choose package" = "Paketinizi seçin";
+"payment label choose payment method" = "Ödeme yönteminizi seçin";
+"payment label cheapest" = "En ucuz";
+"payment label most popular" = "En popüler";
 "payment label pay with card" = "Kart ile öde";
 "payment label pay with paypal" = "PayPal ile öde";
 "payment label pay with crypto" = "Kripto para ile öde";
 "payment package one month" = "1 ay";
 "payment package six months" = "6 ay";
 "payment package twelve months" = "12 ay";
+"payment label discount" = "%@ (%@ / ay) indirim";
 
 "apps section header" = "Uygulamalar";
 "apps label installed" = "Yüklü";
@@ -342,6 +351,7 @@
 "app settings use dns over https" = "HTTPS üzerinden DNS kullan";
 "app settings backup" = "Bulut yedeklemesini kullan";
 "app settings section advanced" = "Gelişmiş";
+"app settings section use foreground" = "Sürekli çalış";
 
 "intro header" = "Blokada etkin!";
 "intro text" = "Mavi halka, Blokada'nın çalıştığı anlamına gelir.\n\nUnutmayın, YouTube'daki gibi bazı reklamlar engellenemez. Ancak, diğer birçok uygulamada farkı göreceksiniz.\n\nSistem ayarlarınızdan Her zaman VPN/Talep üzerine bağlan seçeneğini etkinleştirmenizi öneririz.";
