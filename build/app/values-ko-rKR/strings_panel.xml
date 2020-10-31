@@ -7,9 +7,14 @@
     <string name="panel_section_home_help">도움</string>
     <!-- When a domain is allowed (not blocked) -->
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked_toast">블랙리스트에 추가합니다.</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">복사</string>
+    <string name="panel_domain_copied">클립보드에 복사됨</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_updating">필터를 업데이트 하는 중...</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">허용</string>
     <!-- Button to allow blocked cname -->
     <!-- Button to allow blocked domain that was blocked by a cname -->
     <!-- Button to block allowed domain -->
