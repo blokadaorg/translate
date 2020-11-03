@@ -252,6 +252,8 @@
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Co to jest DNS?";
 "account encrypt section header" = "Szyfrowanie";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Użyj Blokady DNS w trybie Plus";
 
 "account lease label devices list" = "Te urządzenia są podłączone do Twojego konta.";
 "account lease label devices" = "Urządzenia";
@@ -317,9 +319,10 @@
 "payment label pay with paypal" = "Zapłać z PayPal";
 "payment label pay with crypto" = "Zapłać za pomocą kryptowaluty";
 "payment package one month" = "1 Miesiąc";
-"payment package six months" = "6 miesięcy";
+"payment package six months" = "6 Miesięcy";
 "payment package twelve months" = "12 Miesięcy";
 "payment label discount" = "Oszczędź %@ (%@ / mies.)";
+"payment label country" = "Kraj";
 
 "apps section header" = "Aplikacje";
 "apps label installed" = "Zainstalowane";
@@ -359,3 +362,64 @@
 "location region america" = "Ameryka";
 "location region europe" = "Europa";
 "location region asia" = "Azja";
+
+"homepage header what is blokada" = "Czym jest Blokada?";
+"homepage desc what is blokada" = "Poznaj podstawowe informacje o aplikacji.";
+"homepage desc download" = "Pobierz Blokadę na swoją platformę.";
+"homepage desc community" = "Dołącz do naszej niesamowitej społeczności.";
+"homepage header support" = "Wesprzyj nas";
+"homepage desc support" = "Wspomóż nas w kontynuowaniu projektu.";
+"homepage action authors" = "Autorzy";
+"homepage action source" = "Źródła";
+"homepage action forums" = "Fora";
+"homepage action dashboard" = "Pulpit";
+"homepage about footer" = "Zostańmy w kontakcie!";
+"homepage hero title" = "Aplikacja do ochrony prywatności";
+"homepage hero subtitle" = "darmowa i otwarta";
+"homepage hero desc" = "Blokada jest popularnym blokerem reklam i aplikacją do ochrony prywatności dla Androida i iOS. Jest wspierana i aktywnie rozwijana przez niesamowitą społeczność open source.";
+"homepage about title" = "Blokada 5, bloker reklam";
+"homepage about desc" = "Jeśli chcesz skutecznie blokować reklamy, moduły śledzące, złośliwe oprogramowanie, zaoszczędzić na transmisji danych, przyspieszyć urządzenie i chronić swoją prywatność za pomocą tylko jednej aplikacji, to Blokada jest dla Ciebie.";
+"homepage about point one" = "Blokuje reklamy i moduły śledzące";
+"homepage about point two" = "Działa we wszystkich aplikacjach i przeglądarkach";
+"homepage about point three" = "Nie wymaga dostępu root ani jailbreak";
+"homepage about point four" = "Wbudowany VPN dla lepszej ochrony";
+"homepage about action plus" = "Dowiedz się więcej o Blokadzie Plus";
+
+"homepage download header" = "Pobierz Blokadę";
+"homepage download subheader" = "Blokada jest dostępna dla kilku platform, wybierz swoją.";
+"homepage download option android five" = "Blokada 5 dla Androida";
+"homepage download option android slim" = "Blokada 5 Slim dla Androida";
+"homepage download option android four" = "Blokada 4 dla Androida";
+"homepage download option ios" = "Blokada 5 dla iOS";
+"homepage download option other" = "Blokada dla innych platform";
+"homepage download desc other" = "Obecnie nie zapewniamy Blokady dla innych platform. Jeśli jednak jesteś użytkownikiem Blokady Plus, możesz korzystać z naszego VPN w systemach Windows, Linux, Mac oraz na platformach, na których jest dostępny Wireguard.";
+"homepage download desc ios" = "Blokada 5 jest dostępna w App Store.";
+"homepage download action ios" = "Otwórz App Store";
+"homepage download desc android five" = "To jest nasza nowa, zalecana wersja <b>dla smartfonów i tabletów z Androidem 7 lub nowszym</b>. Jest prostsza i szybsza w porównaniu z Blokadą 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blokada Slim to <b>lekka wersja aplikacji</b>, która zawiera tylko funkcje dozwolone przez zasady Google Play.";
+"homepage download action android slim" = "Otwórz Google Play";
+"homepage download desc android four" = "Nadal utrzymujemy starszą wersję Blokady. Ma więcej funkcji i działa na starszych urządzeniach i telewizorach.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Otwórz F-Droid";
+
+"homepage community header" = "Społeczność";
+"homepage community desc" = "Blokada jest nie tylko aplikacją do ochrony prywatności. Jest to również społeczność ludzi, którzy dbają o swoją cyfrową prywatność i dobro. Znajdziesz nas na naszym forum, na którym możesz zadawać ewentualne pytania. Jesteśmy również obecni w innych mediach społecznościowych i na czatach.";
+"homepage community cta subheader" = "Dołącz do nas i przywitaj się!";
+"homepage community cta desc" = "Opieramy naszą pracę na opiniach naszych użytkowników. Powiedz nam, co myślisz, co powinniśmy poprawić lub po prostu spędź z nami czas.";
+"homepage community cta action" = "Przejdź do forów";
+"homepage community opinions" = "Oto niektóre opinie naszych użytkowników.";
+
+"homepage support header" = "Wesprzyj projekt";
+"homepage support desc" = "Jeśli lubisz to, co robimy, rozważ wsparcie nas, abyśmy mogli nadal rozwijać nowe funkcje i ulepszenia. W ten sposób Blokada może pozostać otwarta i wolna na zawsze.";
+"homepage support cta header" = "Blokada jest robiona przez ciebie";
+"homepage support cta desc" = "Blokada jest projektem open source, co oznacza, że możesz być pewien, że zawsze będzie darmowa, bezpieczna do używania i pozbawiona ukrytych zamiarów. Uważamy, że to jedyny słuszny sposób na stworzenie aplikacji do ochrony prywatności, której możesz zaufać.";
+"homepage support cta desc more" = "Jednak opracowanie wysokiej jakości aplikacji, takiej jak Blokada, wymaga znacznych zasobów. Ten projekt istnieje dzięki wsparciu niesamowitych ludzi, takich jak Ty!";
+"homepage support cta action" = "Dotacja (karta, Paypal)";
+"homepage support cta action alt" = "Dotacja (bank, krypto)";
+
+"homepage developer header" = "Jesteś programistą";
+"homepage developer subheader" = "i chcesz ulepszyć Blokadę?";
+"homepage developer desc" = "Blokada jest projektem open source poświęconym stworzeniu najlepszej aplikacji do blokowania reklam i ochrony prywatności dla Androida i iOS. Sprawdź nasz Github i daj nam znać, jeśli potrzebujesz pomocy przy stworzeniu pierwszego PR.";
+"homepage developer action" = "Przejdź do repozytorium";

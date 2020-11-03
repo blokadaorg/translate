@@ -175,7 +175,7 @@
 "activity time of occurrence" = "Време";
 "activity number of occurrences" = "Брой събития";
 "activity state modified" = "променено";
-"activity state blocked" = "блокирани";
+"activity state blocked" = "блокиран";
 "activity state allowed" = "разрешен";
 "activity happened one time" = "1 път";
 "activity happened many times" = "%@ пъти";
@@ -226,7 +226,7 @@
 "account unlock to show" = "Отключете за да се покаже ID на акаунта";
 
 "account header logout" = "Възстановяване на покупка";
-"account logout description" = "Моля, въведете друг идентификационен номер на акаунта или се върнете за да продължите да използвате съществуващия си акаунт (това приложение не може да се използва без такъв).";
+"account logout description" = "Моля, въведете друг идентификационен номер за потребителският профил или се върнете и продължете да използвате съществуващият си профил (това приложение не може да се използва без такъв).";
 "account id status unchanged" = "(непроменен)";
 "account action how to restore" = "Как да възстановя стария си акаунт?";
 
@@ -252,6 +252,8 @@
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Какво е DNS?";
 "account encrypt section header" = "Криптиране";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Използвайте Blokada DNS в режим Plus";
 
 "account lease label devices list" = "Тези устройства са свързани с вашият акаунт.";
 "account lease label devices" = "Устройства";
@@ -320,6 +322,7 @@
 "payment package six months" = "6 Месеца";
 "payment package twelve months" = "12 Месеца";
 "payment label discount" = "Спестете %@ (%@ / mo)";
+"payment label country" = "Държава";
 
 "apps section header" = "Приложения";
 "apps label installed" = "Инсталирани";
@@ -359,3 +362,64 @@
 "location region america" = "Америка";
 "location region europe" = "Европа";
 "location region asia" = "Азия";
+
+"homepage header what is blokada" = "Какво е Blokada?";
+"homepage desc what is blokada" = "Научете основната информация за приложението.";
+"homepage desc download" = "Изтеглете Blokada за вашата платформа.";
+"homepage desc community" = "Присъединете се към нашата страхотна общност.";
+"homepage header support" = "Подкрепи ни";
+"homepage desc support" = "Дарете за да ни помогнете да продължим проекта.";
+"homepage action authors" = "Автори";
+"homepage action source" = "Източник";
+"homepage action forums" = "Форуми";
+"homepage action dashboard" = "Табло";
+"homepage about footer" = "Нека поддържаме връзка!";
+"homepage hero title" = "Поверителност на приложението";
+"homepage hero subtitle" = "безплатно и с отворен код";
+"homepage hero desc" = "Blokada е популярно приложение за блокиране на реклами и защита на поверителността за Android и iOS. То се поддържа и активно развива от невероятната общност и е с отворен код.";
+"homepage about title" = "Blokada 5, рекламният блокер";
+"homepage about desc" = "Ако искате ефективно да блокирате реклами, тракери, злонамерен софтуер, да спестите от плана си за данни, да ускорите устройството си и да защитите поверителността си само с едно приложение, то тогава Blokada е за вас. Тя е безплатна, сигурна и с отворен код.";
+"homepage about point one" = "Блокира реклами & тракери";
+"homepage about point two" = "Работи с всички приложения и браузъри";
+"homepage about point three" = "Не изисква root или jailbreak";
+"homepage about point four" = "Вградена е VPN за по-добра защита";
+"homepage about action plus" = "Научете повече за Blokada Plus";
+
+"homepage download header" = "Изтегляне на Blokada";
+"homepage download subheader" = "Blokada се предлага за няколко платформи, изберете вашата.";
+"homepage download option android five" = "Blokada 5 за Android";
+"homepage download option android slim" = "Blokada 5 Slim за Android";
+"homepage download option android four" = "Blokada 4 за Android";
+"homepage download option ios" = "Blokada 5 за iOS";
+"homepage download option other" = "Blokada за други платформи";
+"homepage download desc other" = "Понастоящем не предлагаме Blokada за други платформи. Ако обаче сте потребител на Blokada Plus можете да използвате нашата VPN на Windows, Linux, Mac и други платформи, където е наличен Wireguard.";
+"homepage download desc ios" = "Blokada 5 просто е достъпна в App Store.";
+"homepage download action ios" = "Отваряне на Play Store";
+"homepage download desc android five" = "Това е новата ни препоръчителна версия <b>за смартфони и таблети с Android 7 или по-нова версия</b>. Тя е по-проста и по-бърза в сравнение с Blokada 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blokada Slim е <b>леката версия на приложението</b> и съдържа само функции, които са разрешени от правилата на Google Play.";
+"homepage download action android slim" = "Отваряне на Google Play";
+"homepage download desc android four" = "Все още поддържаме по-старата версия на Blokada. Тя има повече функции и работи на по-стари устройства и телевизори.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Отваряне на F-Droid";
+
+"homepage community header" = "Общността";
+"homepage community desc" = "Blokada е не само приложение за поверителност. Това е и общността на хората, които се грижат за тяхната дигитална неприкосновеност и благосъстояние. Ще ни намерите на нашия форум където можете да зададете всякакви въпроси, които имате. Присъстваме и в други социални медии и чатове.";
+"homepage community cta subheader" = "Присъединете се към нас и и кажете здравей!";
+"homepage community cta desc" = "В основата на нашата работа се основаваме на обратната връзка с нашите потребители. Кажете ни какво мислите, какво трябва да подобрим или просто да изключим.";
+"homepage community cta action" = "Към форумите";
+"homepage community opinions" = "Ето някои от мненията на нашите потребители.";
+
+"homepage support header" = "Подкрепете проекта";
+"homepage support desc" = "Ако ви харесва това, което правим помислете за Вашата подкрепа, така ще можем да продължим да разработваме нови функции и подобрения. По този начин Blokada може да остане с отворен код и безплатна завинаги.";
+"homepage support cta header" = "Blokada е направена от вас";
+"homepage support cta desc" = "Blokada е проект с отворен код, което означава, че можете да сте сигурни, че той винаги ще бъде безплатен, безопасен за използване и без никакви скрити програми. Вярваме, че това е единственият правилен начин за разработване на приложение за поверителност, на което можете да се доверите.";
+"homepage support cta desc more" = "Разработването на качествено приложение като Blokada обаче изисква значителен обем ресурси. Този проект съществува благодарение на подкрепата на страхотни хора като теб!.";
+"homepage support cta action" = "Дарете (карта, Paypal)";
+"homepage support cta action alt" = "Дарете (банка, crypto)";
+
+"homepage developer header" = "Вие сте разработчик";
+"homepage developer subheader" = "и искате да направите Blokada по-добра?";
+"homepage developer desc" = "Blokada е проект с отворен код посветен на разработването на най-добрия рекламен блокер и приложение за поверителност за Android и iOS. Проверете нашия Github и ни уведомете ако имате нужда от помощ за да направите първия си PR.";
+"homepage developer action" = "Към repo";

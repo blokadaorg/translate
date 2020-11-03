@@ -66,6 +66,8 @@
 "universal action news" = "חדשות";
 "universal action delete" = "מחיקה";
 "universal action hide" = "הסתרה";
+"universal action select" = "בחירה";
+"universal action selected" = "נבחר";
 
 "universal label help" = "עזרה";
 "universal label welcome" = "ברוכים הבאים!";
@@ -250,6 +252,8 @@
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "מה זה DNS?";
 "account encrypt section header" = "הצפנה";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "השתשמו בBlokada DNS במצב פלוס";
 
 "account lease label devices list" = "המכשירים הללו מחוברים לחשבונכם.";
 "account lease label devices" = "מכשירים";
@@ -300,17 +304,25 @@
 "payment success desc" = "המנוי פעיל כעת. אתם רשאים להשתמש בכל התכונות של Blokada Plus בכול המכשירים שלכם.";
 
 "payment ongoing desc" = "התשלום שלכם בתהליך אישור. במקרה שבחרת באמצעי תשלום פייפל, זה יכול לקחת עד כ24 שעות. אמצעי תשלום אחרים לא אמורים לקחת יותר משעה. אם אתם מרגישים שזה לוקח יותר מדי זמן, אנא צרו איתנו קשר.";
+"payment pay google short" = "גוגל פיי";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "שינוי";
 "payment action pay" = "שלמו %@";
 "payment action pay period" = "שלמו %@ כל תקופה";
 "payment label email" = "אימייל";
 "payment crypto desc" = "לתשלום באמצעות מטבעות קריפטוגרפים, לחצו על המקש למטה.";
+"payment label choose package" = "בחרו חבילה";
+"payment label choose payment method" = "בחרו באמצעי התשלום";
+"payment label cheapest" = "זול ביותר";
+"payment label most popular" = "הכי פופולרי";
 "payment label pay with card" = "תשלום באמצעות כרטיס";
 "payment label pay with paypal" = "שלמו עם PayPal";
-"payment label pay with crypto" = "תשלום באמצעות מטבעות מבוזרים";
+"payment label pay with crypto" = "תשלום באמצעות מטבעות קריפטוגרפיים";
 "payment package one month" = "חודש אחד";
-"payment package six months" = "6 חודשים";
-"payment package twelve months" = "12 חודשים";
+"payment package six months" = "שישה חודשים";
+"payment package twelve months" = "שנים עשר חודשים";
+"payment label discount" = "חסכו %@ (%@ / לחודש)";
+"payment label country" = "מדינה";
 
 "apps section header" = "אפליקציות";
 "apps label installed" = "מותקן";
@@ -350,3 +362,64 @@
 "location region america" = "אמריקה";
 "location region europe" = "אירופה";
 "location region asia" = "אסיה";
+
+"homepage header what is blokada" = "מה זה Blokada?";
+"homepage desc what is blokada" = "למדו את המידע הבסיסי על האפליקציה.";
+"homepage desc download" = "הורידו את Blokada לפלטפורמה שלכם.";
+"homepage desc community" = "הצטרפו לקהילה המדהימה שלנו.";
+"homepage header support" = "תמכו בנו";
+"homepage desc support" = "תרמו כדי לעזור לנו להמשיך את הפרוייקט.";
+"homepage action authors" = "יוצרים";
+"homepage action source" = "מקור";
+"homepage action forums" = "פורומים";
+"homepage action dashboard" = "לוח בקרה";
+"homepage about footer" = "בואו נשאר בקשר!";
+"homepage hero title" = "אפליקציית הפרטיות";
+"homepage hero subtitle" = "חינמי וקוד פתוח";
+"homepage hero desc" = "Blokada הוא חוסם פרסומות ואפליקציית פרטיות פופולרית לאנדרואיד וIOS. היא נתמכת ומפותחת על ידי קהילת הקוד הפתוח המדהימה.";
+"homepage about title" = "Blokada 5, חוסם הפרסומות";
+"homepage about desc" = "אם ברצונכם לחסום ביעילות פרסומות, עוקבים, נוזקות, לחסוך דאטא בחבילה, להאיץ את המכשיר ולהגן על הפרטיות בעזרת אפליקציה אחת בלבד, אז Blokada בדיוק בשבילך. זה חינם, מאובטח וקוד פתוח.";
+"homepage about point one" = "חוסם פרסומות ועוקבים";
+"homepage about point two" = "עובד עבור כל האפליקציות והדפדפנים";
+"homepage about point three" = "לא דורש רוט או ג'יילברייק";
+"homepage about point four" = "VPN מובנה להגנה טובה יותר";
+"homepage about action plus" = "למד/י עוד אודות Blokada פלוס";
+
+"homepage download header" = "הורד/י את Blokada";
+"homepage download subheader" = "Blokada זמינה במספר פלטפורמות, בחרו את שלכם.";
+"homepage download option android five" = "Blokada 5 לאנדרואיד";
+"homepage download option android slim" = "Blokada 5 Slim לאנדרואיד";
+"homepage download option android four" = "Blokada 4 לאנדרואיד";
+"homepage download option ios" = "Blokada 5 לIOS";
+"homepage download option other" = "Blokada לפלטפורמות אחרות";
+"homepage download desc other" = "כרגע, אנו לא מספקים את Blokada לפלטפורמות אחרות. אבל, אם אתה משתמש Blokada Plus, אתה יכול להשתמש בVPN שלך בווינדוס, לינוס ומק, ובכל הפלטפורמות בהן WireGuard זמין.";
+"homepage download desc ios" = "Blokada 5 פשוט זמינה בApp Store.";
+"homepage download action ios" = "פתח את App Store";
+"homepage download desc android five" = "זו הגרסה החדשה, והמומלצת שלנו <b>לטלפונים וטאבלטים המריצים אנדרואיד 7 ומעלה</b>. זה פשוט ומהיר יותר בהשוואה לBlokada 4.";
+"homepage download action android five" = "apk לBlokada 5";
+"homepage download action android five beta" = "בטא apk";
+"homepage download desc android slim" = "Blokada Slim, היא <b>גירסה קלילה של האפליקציה</b>, והיא מכילה רק תכונות שאושרו על ידי התקנון של Google Play.";
+"homepage download action android slim" = "פתח את Google Play";
+"homepage download desc android four" = "אנחנו עדיין מתחזקים את הגרסה הישנה של Blokada. יש לה יותר תכונות, והיא עובדת על מכשירים ישנים יותר וטלוויזיות.";
+"homepage download action android four" = "apk לBlokada 4";
+"homepage download action android four fdroid" = "פתיחת F-Droid";
+
+"homepage community header" = "הקהילה";
+"homepage community desc" = "Blokada היא לא רק אפליקציית הפרטיות. היא גם קהילה של אנשים שאכפת להם מהפרטיות הדיגיטלית שלהם. אתם תמצאו אותנו בפורום שלנו, שם תוכלו לשאול כל שאלה שיש לכם. אנחנו גם זמינים ברשתות חברתיות שונות וצ'אטים.";
+"homepage community cta subheader" = "הצטרפו אלינו ואמרו שלום!";
+"homepage community cta desc" = "אנו מבססים את כל העבודה שלנו על הפידבקים של המשתמשים שלנו. ספרו לנו מה אתם חושבים, מה כדאי לנו לשפר, או פשוט תהיו חלק מהקהילה.";
+"homepage community cta action" = "לפורומים";
+"homepage community opinions" = "הנה מספר חוות דעת של המשתמשים שלנו.";
+
+"homepage support header" = "תמכו בפרוייקט";
+"homepage support desc" = "אם אתם אוהבים את מה שאנחנו עושים, אנא שקלו לתמוך בנו, על מנת שנוכל להמשיך לפתח תכונות חדשות ושיפורים. ככה, Blokada יכולה להשאר קוד פתוח וחינמי לנצח.";
+"homepage support cta header" = "Blokada נוצרה בעזרתכם";
+"homepage support cta desc" = "Blokada היא פרוייקט קוד פתוח, מה שאומר שאתם יכולים להיות בטוחים שזה ישאר חינמי תמיד, בטוח לשימוש וללא אג'נדות סמויות. אנו מאמינים שזו הדרך הנכונה היחידה לפתח אפליקציית פרטיות שתסמכו עליה.";
+"homepage support cta desc more" = "אם זאת, פיתוח אפליקציה איכותית כמו Blokada דורשת כמויות נכבדות של משאבים. הפרוייקט קיים תודות לתמיכה של אנשים מדהימים כמוכם!.";
+"homepage support cta action" = "תרומה (כרטיס אשראי, PayPal)";
+"homepage support cta action alt" = "תרומה (העברה בנקאית, מטבעות קריפטוגרפיים)";
+
+"homepage developer header" = "האם אתם מפתחים";
+"homepage developer subheader" = "ורוצים להפוך את Blokada לטובה יותר?";
+"homepage developer desc" = "Blokada היא פרוייקט קוד פתוח המיועד לפיתוח אפליקציית הפרטיות וחוסם הפרסומות הטובים ביותר לאדרואיד וIOS. בדקו את הגיטהאב שלנו, וספרו לנו אם תצטרכו עזרה כלשהי ביצירת הPR הראשון שלכם.";
+"homepage developer action" = "לכו לריפוסיטורי";
