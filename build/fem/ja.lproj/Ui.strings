@@ -149,9 +149,9 @@
 "pack category all" = "すべて";
 
 "advanced section header packs" = "ブロックリスト";
-"advanced section slugline packs" = "ブロックに利用するリストを選択する";
-"advanced section slugline apps" = "バイパスするアプリを選択する";
-"advanced section slugline encryption" = "暗号化レベルとDNSを選択する";
+"advanced section slugline packs" = "ブロックに利用するリストを管理する";
+"advanced section slugline apps" = "アプリのバイパスを管理する";
+"advanced section slugline encryption" = "暗号化レベルとDNSを管理する";
 "advanced action slim migrate to full" = "Blokada Slimを使用しています。詳細はこちら";
 
 "location choice header" = "場所を選択";
@@ -182,10 +182,10 @@
 "activity state allowed" = "許可";
 "activity happened one time" = "1回";
 "activity happened many times" = "%@回";
-"activity category recent" = "新着順";
-"activity category top" = "回数順";
-"activity category top blocked" = "ブロック回数順";
-"activity category top allowed" = "許可回数順";
+"activity category recent" = "新着";
+"activity category top" = "回数";
+"activity category top blocked" = "ブロック回数";
+"activity category top allowed" = "許可回数";
 "activity filter header" = "表示するエントリを選択";
 "activity filter show all" = "すべてのエントリ";
 "activity filter show blocked" = "ブロックされたエントリ";
@@ -194,6 +194,10 @@
 
 "userdenied section header" = "マイ・ブロックリスト";
 "userdenied section slugline" = "特定のウェブサイトのブロックを管理する";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "許可されたホスト";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "ブロックさせたホスト";
 
 "account section header settings" = "設定";
 "account status text" = "BLOKADA %@ - アカウントの有効期限は %@ です。";
