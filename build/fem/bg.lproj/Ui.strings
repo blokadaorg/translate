@@ -192,6 +192,13 @@
 "activity filter show allowed" = "Показване само на разрешени";
 "activity empty text" = "Използвайте устройството и се върнете тук за да видите къде се свързва вашето устройство.";
 
+"userdenied section header" = "Моите списъци за блокиране";
+"userdenied section slugline" = "Управлявайте блокирането на определени уеб сайтове";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Разрешени";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Блокирани";
+
 "account section header settings" = "Настройки";
 "account status text" = "Вашият BLOKADA %@ профил е активен до %@.";
 "account status text libre" = "Вашият акаунт в BLOKADA Libre е активен завинаги.";
@@ -383,6 +390,7 @@
 "homepage about title" = "Blokada 5, рекламният блокер";
 "homepage about desc" = "Ако искате ефективно да блокирате реклами, тракери, злонамерен софтуер, да спестите от плана си за данни, да ускорите устройството си и да защитите поверителността си само с едно приложение, то тогава Blokada е за вас. Тя е безплатна, сигурна и с отворен код.";
 "homepage about point one" = "Блокира реклами & тракери";
+"homepage about point two" = "Работи с всички приложения и всички браузъри";
 "homepage about point three" = "Не изисква root или jailbreak";
 "homepage about point four" = "Вградена е VPN за по-добра защита";
 "homepage about action plus" = "Научете повече за Blokada Plus";
@@ -402,6 +410,7 @@
 "homepage download action android five beta" = "Beta .apk";
 "homepage download desc android slim" = "Blokada Slim е <b>леката версия на приложението</b> и съдържа само функции, които са разрешени от правилата на Google Play.";
 "homepage download action android slim" = "Отваряне на Google Play";
+"homepage download desc android four" = "Все още поддържаме по-старата версия на Blokada. Тя има повече функции и работи на по-стари устройства и телевизори.";
 "homepage download action android four" = "Blokada 4 .apk";
 "homepage download action android four fdroid" = "Отваряне на F-Droid";
 
@@ -414,7 +423,9 @@
 
 "homepage support header" = "Подкрепете проекта";
 "homepage support desc" = "Ако ви харесва това, което правим помислете за Вашата подкрепа, така ще можем да продължим да разработваме нови функции и подобрения. По този начин Blokada може да остане с отворен код и безплатна завинаги.";
+"homepage support cta header" = "Blokada зависи от вас";
 "homepage support cta desc" = "Blokada е проект с отворен код, което означава, че можете да сте сигурни, че той винаги ще бъде безплатен, безопасен за използване и без никакви скрити програми. Вярваме, че това е единственият правилен начин за разработване на приложение за поверителност, на което можете да се доверите.";
+"homepage support cta desc more" = "Разработването на качествено приложение като Blokada обаче изисква значителен обем ресурси. Този проект съществува благодарение на подкрепата на страхотни хора като теб!";
 "homepage support cta action" = "Дарете (карта, Paypal)";
 "homepage support cta action alt" = "Дарете (банка, crypto)";
 
