@@ -192,6 +192,13 @@
 "activity filter show allowed" = "Zobrazit pouze povolené";
 "activity empty text" = "Zkuste použít své zařízení a vraťte se sem později, abyste zjistili, kam se vaše zařízení připojuje.";
 
+"userdenied section header" = "Moje seznamy blokovaných";
+"userdenied section slugline" = "Spravovat blokování konkrétních webových stránek";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Povolené";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Blokované";
+
 "account section header settings" = "Nastavení";
 "account status text" = "Váš účet BLOKADA %@ je aktivní do %@.";
 "account status text libre" = "Váš účet BLOKADA Libre je aktivní navždy.";
@@ -383,8 +390,21 @@
 "homepage about title" = "Blokada 5, blokátor reklam";
 "homepage about desc" = "Pokud chcete efektivně blokovat reklamy, sledovače a malware, chcete šetřit vaše mobilní data, urychlit svůj přístroj a chránit své soukromí s jednou aplikací, pak je tu Blokada právě pro vás. Je bezplatná, bezpečná a s otevřeným zdrojovým kódem.";
 "homepage about point one" = "Blokuje reklamy a sledovače";
+"homepage about point two" = "Funguje ve všech aplikacích a všech prohlížečích";
 "homepage about point three" = "Nevyžaduje root ani jailbreak";
 "homepage about point four" = "Vestavěné VPN pro lepší ochranu";
 "homepage about action plus" = "Zjistěte více o službě Blokada Plus";
 
 "homepage download header" = "Stažení Blokady";
+"homepage download subheader" = "Blokada je k dispozici pro několik platforem, vyberte si.";
+"homepage download option android five" = "Blokada 5 pro Android";
+"homepage download option android slim" = "Blokada 5 Slim pro Android";
+"homepage download option android four" = "Blokada 4 pro Android";
+"homepage download option ios" = "Blokada 5 pro iOS";
+"homepage download option other" = "Blokada pro ostatní platformy";
+"homepage download desc other" = "V současné době nenabízíme Blokadu pro ostatní platformy. Jste-li však uživatelem Blokada Plus, můžete použít VPN na Windows, Linuxu, Macu a dalších platformách, kde je Wireguard k dispozici.";
+"homepage download desc ios" = "Blokada 5 je jednoduše k dispozici v App Store.";
+"homepage download action ios" = "Otevřít App Store";
+"homepage download desc android five" = "Toto je naše nová, doporučená verze <b>pro chytré telefony a tablety s Androidem 7 nebo novějším</b>. Ve srovnání s Blokadou 4 je to jednodušší a rychlejší.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
