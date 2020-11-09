@@ -78,7 +78,7 @@
 
 "alert error header" = "Hoppla!";
 "alert vpn expired header" = "BLOKADA+ ist abgelaufen";
-"alert download link body" = "Aus Sicherheitsgründen, um eine Datei herunterzuladen, müssen wir diese Website in deinem Browser öffnen. Dann tippe bitte erneut auf den Download-Link.";
+"alert download link body" = "Um diese Datei herunterzuladen müssen wir aus Sicherheitsgründen, diese Webseite in deinem Browser öffnen. Benutzte dort erneut den Downloadlink.";
 
 "notification vpn expired header" = "BLOKADA+ Abo abgelaufen";
 "notification vpn expired subtitle" = "Das VPN ist deaktiviert";
@@ -88,7 +88,7 @@
 "notification update header" = "Es ist eine Aktualisierung erhältlich";
 "alert update body" = "Blokada %@ steht zum Herunterladen bereit. Wir empfehlen, die App auf dem neuesten Stand zu halten und sie nur von unseren offiziellen Quellen herunterzuladen.";
 "update label updated" = "Aktualisiert!";
-"update desc updated" = "Du verwendest jetzt die neueste Version von Blokada! Denke daran, dass das Spenden oder Abonnieren von Blokada Plus es uns erlaubt, die App weiter zu verbessern.";
+"update desc updated" = "Du verwendest jetzt die neueste Version von Blokada! Denk daran, dass das Spenden oder Abonnieren von Blokada Plus es uns erlaubt, die App weiter zu verbessern.";
 "update downloading description" = "Das Update wird jetzt heruntergeladen, und Du solltest den Installationsdialog in Kürze sehen.";
 
 "account active forever" = "Für immer";
@@ -149,8 +149,8 @@
 "pack category all" = "Alle";
 
 "advanced section header packs" = "Sperrlisten";
-"advanced section slugline packs" = "Aktivieren für restriktiveres Blockieren";
-"advanced section slugline apps" = "Wähle Apps, die nie geblockt werden sollen";
+"advanced section slugline packs" = "Für restriktiveres Blockieren aktivieren";
+"advanced section slugline apps" = "Wähle Apps die nie geblockt werden sollen";
 "advanced section slugline encryption" = "Pass deine Verschlüsselungsstufe und DNS an";
 "advanced action slim migrate to full" = "Du verwendest Blokada Slim. Erfahre mehr";
 
@@ -174,8 +174,11 @@
 "activity domain name" = "Vollständiger Name";
 "activity time of occurrence" = "Zeit";
 "activity number of occurrences" = "Anzahl der Vorkommnisse";
+// As in sentence, "this item has been modified"
 "activity state modified" = "geändert";
+// As in sentence, "this host has been blocked"
 "activity state blocked" = "blockiert";
+// As in sentence, "this host has been allowed"
 "activity state allowed" = "erlaubt";
 "activity happened one time" = "1 Mal";
 "activity happened many times" = "%@ mal";
@@ -188,6 +191,13 @@
 "activity filter show blocked" = "Nur blockierte anzeigen";
 "activity filter show allowed" = "Nur erlaubte anzeigen";
 "activity empty text" = "Benutze dein Gerät einfach weiter und komm später hierher zurück um zu sehen, womit sich dein Gerät verbunden hat.";
+
+"userdenied section header" = "Meine Sperrlisten";
+"userdenied section slugline" = "Sperrung bestimmter Websites verwalten";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Erlaubt";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Blockiert";
 
 "account section header settings" = "Einstellungen";
 "account status text" = "Dein BLOKADA %@ Konto ist aktiv bis zum %@.";
@@ -221,7 +231,7 @@
 "account action why upgrade" = "Warum sollte ich upgraden?";
 "account subscription header renew" = "Automatisch erneuern";
 "account subscription header payment method" = "Zahlungsart";
-"account subscription renew unsupported" = "Ihre Zahlungsmethode unterstützt keine automatische Erneuerung.";
+"account subscription renew unsupported" = "Deine Zahlungsmethode unterstützt keine automatische Verlängerung.";
 
 "account unlock to show" = "Entsperren, um deine Konto-ID zu sehen";
 
@@ -230,7 +240,7 @@
 "account id status unchanged" = "(unverändert)";
 "account action how to restore" = "Wie stelle ich mein altes Konto wieder her?";
 
-"account subscription days remaining" = "Verbleibende Tage: %@";
+"account subscription days remaining" = "Tage verbleibend: %@";
 "account devices remaining" = "Verbleibende Geräte: %@";
 "account devices not available" = "Nicht verfügbar";
 "account devices out of" = "%@ von %@";

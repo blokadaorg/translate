@@ -174,8 +174,11 @@
 "activity domain name" = "Pełna nazwa";
 "activity time of occurrence" = "Czas";
 "activity number of occurrences" = "Liczba wystąpień";
+// As in sentence, "this item has been modified"
 "activity state modified" = "zmodyfikowane";
+// As in sentence, "this host has been blocked"
 "activity state blocked" = "zablokowano";
+// As in sentence, "this host has been allowed"
 "activity state allowed" = "zezwolone";
 "activity happened one time" = "1 raz";
 "activity happened many times" = "%@ razy(ów)";
@@ -188,6 +191,13 @@
 "activity filter show blocked" = "Pokaż tylko blokowaną";
 "activity filter show allowed" = "Pokaż tylko zezwoloną";
 "activity empty text" = "Spróbuj użyć swojego urządzenia i wróć tutaj później, aby sprawdzić, gdzie łączy się Twoje urządzenie.";
+
+"userdenied section header" = "Moje listy blokowania";
+"userdenied section slugline" = "Zarządzaj blokowaniem poszczególnych stron";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Dozwolone";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Zablokowane";
 
 "account section header settings" = "Ustawienia";
 "account status text" = "Twoje konto BLOKADA %@ jest aktywne do %@.";

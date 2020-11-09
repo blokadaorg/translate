@@ -174,8 +174,11 @@
 "activity domain name" = "Полное имя";
 "activity time of occurrence" = "Время";
 "activity number of occurrences" = "Количество";
+// As in sentence, "this item has been modified"
 "activity state modified" = "изменено";
+// As in sentence, "this host has been blocked"
 "activity state blocked" = "заблокировано";
+// As in sentence, "this host has been allowed"
 "activity state allowed" = "разрешено";
 "activity happened one time" = "1 раз";
 "activity happened many times" = "%@ раз";
@@ -188,6 +191,13 @@
 "activity filter show blocked" = "Показать только заблокированные";
 "activity filter show allowed" = "Показать только разрешенные";
 "activity empty text" = "Попробуйте использовать свое устройство, а впоследствии вернитесь сюда, чтобы посмотреть, к чему оно подключается.";
+
+"userdenied section header" = "Мои черные списки";
+"userdenied section slugline" = "Управление блокировкой определенных сайтов";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Разрешено";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Заблокировано";
 
 "account section header settings" = "Настройки";
 "account status text" = "Ваш аккаунт BLOKADA %@ активен до %@.";

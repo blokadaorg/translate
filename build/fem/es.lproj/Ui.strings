@@ -66,6 +66,8 @@
 "universal action news" = "Noticias";
 "universal action delete" = "Eliminar";
 "universal action hide" = "Ocultar";
+"universal action select" = "Seleccionar";
+"universal action selected" = "Seleccionado";
 
 "universal label help" = "Ayuda";
 "universal label welcome" = "¡Bienvenido!";
@@ -172,8 +174,11 @@
 "activity domain name" = "Nombre completo";
 "activity time of occurrence" = "Hora";
 "activity number of occurrences" = "Sucesos";
+// As in sentence, "this item has been modified"
 "activity state modified" = "modificado";
+// As in sentence, "this host has been blocked"
 "activity state blocked" = "bloqueado";
+// As in sentence, "this host has been allowed"
 "activity state allowed" = "permitido";
 "activity happened one time" = "1 vez";
 "activity happened many times" = "%@ veces";
@@ -186,6 +191,13 @@
 "activity filter show blocked" = "Mostrar solo bloqueadas";
 "activity filter show allowed" = "Mostrar solo permitidas";
 "activity empty text" = "Intenta usar tu dispositivo y vuelve aquí más tarde, para ver a dónde se conecta tu dispositivo.";
+
+"userdenied section header" = "Mis listas de bloqueo";
+"userdenied section slugline" = "Administrar bloqueo de sitios web particulares";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Permitido";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Bloqueado";
 
 "account section header settings" = "Configuración";
 "account status text" = "Tu cuenta de BLOKADA %@ está activa hasta %@.";
@@ -250,6 +262,8 @@
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "¿Qué es el DNS?";
 "account encrypt section header" = "Cifrado";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Usar Blokada DNS en modo Plus";
 
 "account lease label devices list" = "Estos dispositivos están conectados a tu cuenta.";
 "account lease label devices" = "Dispositivos";
@@ -300,17 +314,25 @@
 "payment success desc" = "¡Tu cuenta está activa! Ahora puedes usar todas las funciones de Blokada Plus en todos tus dispositivos.";
 
 "payment ongoing desc" = "Tu pago está siendo procesado. En caso de PayPal, puede tardar hasta 24 horas. Otros métodos de pago no deberían tomar más de una hora. Si crees que está tardando demasiado tiempo, por favor contáctanos.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Cambiar";
 "payment action pay" = "Pagar %@";
 "payment action pay period" = "Pagar %@ cada periodo";
 "payment label email" = "E-mail";
 "payment crypto desc" = "Para pagar con tu cartera de criptomonedas toca el botón de abajo.";
+"payment label choose package" = "Elige tu paquete";
+"payment label choose payment method" = "Elige tu método de pago";
+"payment label cheapest" = "Más barato";
+"payment label most popular" = "Más popular";
 "payment label pay with card" = "Pagar con tarjeta";
 "payment label pay with paypal" = "Pagar con Paypal";
 "payment label pay with crypto" = "Pagar con criptomoneda";
 "payment package one month" = "1 mes";
 "payment package six months" = "6 meses";
 "payment package twelve months" = "12 meses";
+"payment label discount" = "Ahorra %@ (%@ / mes)";
+"payment label country" = "País";
 
 "apps section header" = "Apps";
 "apps label installed" = "Instalado";
@@ -350,7 +372,64 @@
 "location region america" = "América";
 "location region europe" = "Europa";
 "location region asia" = "Asia";
+
+"homepage header what is blokada" = "¿Qué es Blokada?";
+"homepage desc what is blokada" = "Aprende la información básica sobre la aplicación.";
+"homepage desc download" = "Descarga Blokada para tu plataforma.";
+"homepage desc community" = "Únete a nuestra impresionante comunidad.";
+"homepage header support" = "Ayúdanos";
+"homepage desc support" = "Dona para ayudarnos a continuar el proyecto.";
+"homepage action authors" = "Autores";
+"homepage action source" = "Código fuente";
+"homepage action forums" = "Foros";
+"homepage action dashboard" = "Panel de control";
+"homepage about footer" = "¡Estemos en contacto!";
+"homepage hero title" = "La aplicación de privacidad";
 "homepage hero subtitle" = "gratis y de código abierto";
+"homepage hero desc" = "Blokada es la popular aplicación de bloqueo de anuncios y privacidad para Android e iOS. Está siendo soportada y desarrollada activamente por la increíble comunidad de código abierto.";
+"homepage about title" = "Blokada 5, el bloqueador de anuncios";
+"homepage about desc" = "Si deseas bloquear eficientemente anuncios, rastreadores, malware, ahorrar en tu plan de datos, acelerar tu dispositivo y proteger tu privacidad con solo una aplicación, Blokada es para ti. Es gratis, segura y de código abierto.";
+"homepage about point one" = "Bloquea anuncios y rastreadores";
+"homepage about point two" = "Funciona para todas las aplicaciones y todos los navegadores";
+"homepage about point three" = "No requiere root o jailbreak";
+"homepage about point four" = "VPN incorporado para una mejor protección";
 "homepage about action plus" = "Aprende más sobre Blokada Plus";
 
 "homepage download header" = "Descargar Blokada";
+"homepage download subheader" = "Blokada está disponible para varias plataformas, elige la tuya.";
+"homepage download option android five" = "Blokada 5 para Android";
+"homepage download option android slim" = "Blokada 5 Slim para Android";
+"homepage download option android four" = "Blokada 4 para Android";
+"homepage download option ios" = "Blokada 5 para iOS";
+"homepage download option other" = "Blokada para otras plataformas";
+"homepage download desc other" = "Actualmente, no proporcionamos Blokada para otras plataformas. Sin embargo, si eres un usuario de Blokada Plus, puedes usar nuestra VPN en Windows, Linux, Mac y otras plataformas donde Wireguard está disponible.";
+"homepage download desc ios" = "Blokada 5 está disponible en la App Store.";
+"homepage download action ios" = "Abrir la App Store";
+"homepage download desc android five" = "Esta es nuestra nueva versión recomendada <b>para teléfonos inteligentes y tabletas con Android 7 o más reciente</b>. Es más simple y rápida en comparación con Blokada 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blokada Slim es una <b>versión ligera de la aplicación</b> y solo contiene características permitidas por la política de Google Play.";
+"homepage download action android slim" = "Abrir Google Play";
+"homepage download desc android four" = "Todavía mantenemos la versión anterior de Blokada. Tiene más funciones, sirve en dispositivos más antiguos y TVs.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Abrir F-Droid";
+
+"homepage community header" = "La Comunidad";
+"homepage community desc" = "Blokada no es sólo la aplicación de privacidad. También es la comunidad de personas que se preocupan por su privacidad y bienestar digital. Nos encontrarás en nuestro foro, donde puedes hacer cualquier pregunta que puedas tener. También estamos presentes en otras redes sociales y chats.";
+"homepage community cta subheader" = "¡Únete a nosotros y di hola!";
+"homepage community cta desc" = "Basamos todo nuestro trabajo en la retroalimentación de nuestros usuarios. Dinos lo que piensas, lo que deberíamos mejorar, o simplemente pasa el rato.";
+"homepage community cta action" = "Ir a los foros";
+"homepage community opinions" = "Aquí están algunas de las opiniones de nuestros usuarios.";
+
+"homepage support header" = "Apoya el proyecto";
+"homepage support desc" = "Si te gusta lo que hacemos, considera apoyarnos para que podamos seguir desarrollando nuevas funciones y mejoras. De esta manera, Blokada puede permanecer gratis y de código abierto para siempre.";
+"homepage support cta header" = "Blokada depende de ti";
+"homepage support cta desc" = "Blokada es un proyecto de código abierto, lo que significa que puedes estar seguro de que siempre será gratis, seguro de usar y sin intenciones ocultas. Creemos que esta es la única forma correcta de desarrollar una aplicación de privacidad en la que puedes confiar.";
+"homepage support cta desc more" = "Sin embargo, desarrollar una aplicación de calidad como Blokada requiere una cantidad considerable de recursos. ¡Este proyecto existe gracias al apoyo de gente asombrosa como tú!";
+"homepage support cta action" = "Donar (tarjeta, Paypal)";
+"homepage support cta action alt" = "Donar (banco, cripto)";
+
+"homepage developer header" = "¿Eres un desarrollador";
+"homepage developer subheader" = "y quieres mejorar Blokada?";
+"homepage developer desc" = "Blokada es un proyecto de código abierto dedicado al desarrollo de la mejor aplicación de bloqueo de anuncios y privacidad para Android e iOS. Consulta nuestro Github y haznos saber si necesitas ayuda para hacer tu primera contribución.";
+"homepage developer action" = "Ir al repositorio";
