@@ -1,0 +1,428 @@
+//
+//  This file is part of Blokada.
+//
+//  Blokada is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  Blokada is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error device offline" = "המכשיר שלכם אינו מחובר לאינטרנט";
+"error account inactive" = "החשבון שלכם אינו פעיל. אנא הפעילו את חשבונכם על מנת להמשיך את השימוש בBLOKADA+.";
+"error account inactive after restore" = "נראה שחשבון זה אינו תקין. אם אתם מאמינים שזו טעות, אנא פנו אלינו על ידי לחיצה על מקש העזרה למעלה.";
+"error account invalid" = "מזהה חשבון זה אינו תקין.";
+"error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסו שוב מאוחר יותר.";
+"error fetching data" = "הפעולה נכשלה. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב. במידה והבעיה ממשיכה פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error tunnel" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn perms" = "לא ניתנו הרשאות ליצירת פרופיל VPN.";
+"error vpn no current lease" = "אנא בחרו מיקום תחילה.";
+"error vpn too many leases" = "הגעתם למגבלת המכשירים שלכם. אנא הסירו את אחד המכשירים ונסו שוב.";
+"error vpn expired" = "הVPN מבוטל. אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
+"error payment inactive after restore" = "התשלום האחרון שלכם שוחזר, אבל המנוי פג תוקף. אם אתם מאמינים שזו טעות, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed" = "התשלום אינו זמין כרגע. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב מאוחר יותר. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed alternative" = "לא היה ניתן לבצע את התשלום. אנא וודאו שהמידע שהכנסתם נכון, ונסו שוב. אם הבעיה נמשכת, אנא צרו איתנו קשר בעזרת לחיצה על מקש העזרה למעלה.";
+"error payment not available" = "התשלום אינו זמין במכשיר זה. ייתכן שApple Pay אינו מופעל, או שאיננו תומכים בתשלומים במדינתך כעת.";
+"error payment canceled" = "התשלום בוטל. אינכם מחוייבים.";
+"error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסו שוב מאוחר יותר.";
+"error location failed fetching" = "לא היה ניתן לקבל את רשימת המיקומים.";
+"error unknown" = "בעיה לא מוכרת התרחשה. אנא נסו שוב. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error blocka dns in filtering mode" = "שירות הDNS של Blokada נתמך כעת רק במצב פלוס. אנא בחרו שירות DNS אחר ונסו שוב.";
+
+"universal action continue" = "המשיכו";
+"universal action cancel" = "בטל";
+"universal action close" = "סגירה";
+"universal action done" = "בוצע";
+"universal action try again" = "נסו שוב";
+"universal action learn more" = "למידע נוסף";
+"universal action help" = "עזרה";
+"universal action show log" = "לוגים";
+"universal action share log" = "שתף לוג";
+"universal action copy" = "העתקה";
+"universal action save" = "שמור";
+"universal action contact us" = "יצירת קשר";
+"universal action support" = "תמיכה";
+"universal action upgrade" = "שדרגו לBLOKADA+";
+"universal action upgrade short" = "שדרוג";
+"universal action yes" = "כן";
+"universal action no" = "לא";
+"universal action donate" = "תרום";
+"universal action community" = "קהילה";
+"universal action open in browser" = "פתח בדפדפן";
+"universal action more" = "עוד";
+"universal action download" = "הורדה";
+"universal action news" = "חדשות";
+"universal action delete" = "מחיקה";
+"universal action hide" = "הסתרה";
+"universal action select" = "בחירה";
+"universal action selected" = "נבחר";
+
+"universal label help" = "עזרה";
+"universal label welcome" = "ברוכים הבאים!";
+"universal status processing" = "מעבד... אנא המתינו.";
+"universal status copied to clipboard" = "הועתק ללוח";
+"universal status restart required" = "אנא הפעילו מחדש את היישום כדי שהשינויים יכנסו לתוקף.";
+"universal status redirect" = "המשיכו עם אפליקציית Blokada";
+
+"alert error header" = "אופס!";
+"alert vpn expired header" = "מנוי הBLOKADA+ פג תוקף";
+"alert download link body" = "מסיבות אבטחה, על מנת להוריד קובץ אנו צריכים לפתוח את האתר בדפדפן שלכם. לאחר מכן, אנא לחצו על קישור ההורדה שוב.";
+
+"notification vpn expired header" = "מנוי BLOKADA+ פג תוקף";
+"notification vpn expired subtitle" = "הVPN מושבת";
+"notification vpn expired body" = "אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
+"notification desc settings" = "החלק את ההתראות ימינה או שמאלה להגדרתן.";
+
+"notification update header" = "קיים עדכון זמין";
+"alert update body" = "Blokada %@ זמין כעת להורדה. אנו ממליצים לשמור את האפליקציה מעודכנת, ולהוריד אותה רק מהמקורות הרישמיים שלנו.";
+"update label updated" = "עודכן!";
+"update desc updated" = "אתם משתמשים בגרסה החדשה ביותר של Blokada! זכרו, תרומה ומנוי לBlokada Plus מאפשרת לנו להמשיך לשפר את האפליקציה.";
+"update downloading description" = "העדכון יורד כעת, ותוכלו לראות את חלון ההתקנה בקרוב.";
+
+"account active forever" = "לתמיד";
+"account active forever full" = "פעיל לנצח";
+
+"main ask for permissions header" = "רק עוד שלב אחד";
+"main ask for permissions description" = "Blokada משתמשת בהגדרות VPN כדי לחסום פרסומות. אתם תתבקשו לאשר זאת בשלב הבא.";
+
+"main share message" = "Blokada לiOS עזרה לי לחסום %@ פרסומות ועוקבים!";
+
+"main rate us header" = "דרגו אותנו!";
+"main rate us description" = "כיצד הייתם מדרגים את Blokada עד כה?";
+"main rate us on app store" = "האם תרצו לעזור לנו על ידי דירוג Blokada בApp Store?";
+"main rate us action sure" = "בטח!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "ראשי";
+// Make sure each tab name has a similar length
+"main tab activity" = "פעילות";
+// Make sure each tab name has a similar length
+"main tab advanced" = "מתקדם";
+// Make sure each tab name has a similar length
+"main tab settings" = "הגדרות";
+
+"home ads counter footnote" = "פרסומות ועוקבים נחסמו מאז ההתקנה";
+"home power off menu header" = "מה תרצו לעשות?";
+"home power action turn on" = "הפעל";
+"home power action turn off" = "כבה";
+"home power action pause" = "עצור לחמש דקות";
+
+"home status paused" = "מופסק";
+"home status active" = "פעיל";
+"home status deactivated" = "מושבת";
+"home action tap to activate" = "לחצו להפעלה";
+"home status detail paused" = "מופסק עד לסוף הטיימר";
+"home status detail active" = "חוסם *פרסומות* ו*עוקבים*";
+"home status detail active with counter" = "חסם *%@* פרסומות ועוקבים";
+"home status detail active slim" = "Blokada *Slim* פעיל";
+"home status detail plus" = "*+* מגן על *פרטיותך*";
+"home status detail progress" = "אנא המתן...";
+
+"home plus button deactivated" = "BLOKADA+ מושבת";
+"home plus button select location" = "בחרו מיקום";
+"home plus button location" = "מיקום: *%@*";
+
+"pack section header" = "תכונות מתקדמות";
+"pack section header details" = "פרטי התכונה";
+"pack action install" = "התקן";
+"pack action update" = "עדכן";
+"pack action uninstall" = "הסר";
+"pack author" = "יוצר";
+"pack configurations header" = "הגדרות";
+"pack information header" = "עוד";
+"pack tags header" = "תגיות";
+"pack tags none" = "כלום";
+"pack category highlights" = "נקודות חשובות";
+"pack category active" = "פעיל";
+"pack category all" = "הכל";
+
+"advanced section header packs" = "רשימות חסימה";
+"advanced section slugline packs" = "הפעילו עבור חסימה יותר נוקשה";
+"advanced section slugline apps" = "בחרו אפליקציות שלא יחסמו לעולם";
+"advanced section slugline encryption" = "התאימו את רמת ההצפנה והDNS";
+"advanced action slim migrate to full" = "אתם משתמשים בBlokada Slim. למדו עוד";
+
+"location choice header" = "בחירת מיקום";
+
+"activity section header" = "פעילות";
+"activity section header details" = "פרטי הפעילות";
+"activity request blocked" = "בקשה זו נחסמה.";
+"activity request allowed" = "בקשה זו אושרה.";
+"activity request allowed whitelisted" = "הבקשה הזו אושרה, בעקבות הימצאותה ברשימות המאושרים";
+"activity request blocked blacklisted" = "הבקשה הזו נחסמה, בעקבות הימצאותה ברשימות החסומים";
+"activity actions header" = "פעולות";
+"activity information header" = "מידע";
+"activity action add to whitelist" = "הוסף לרשימת המאושרים";
+"activity action remove from whitelist" = "הסר מרשימת המאושרים";
+"activity action added to whitelist" = "נוסף לרשימת המאושרים";
+"activity action add to blacklist" = "הוסף לרשימת החסומים";
+"activity action remove from blacklist" = "הסר מרשימת החסומים";
+"activity action added to blacklist" = "נוסף לרשימת החסומים";
+"activity action copy to clipboard" = "העתק את השם";
+"activity domain name" = "שם מלא";
+"activity time of occurrence" = "זמן";
+"activity number of occurrences" = "מספר הופעות";
+// As in sentence, "this item has been modified"
+"activity state modified" = "שונה";
+// As in sentence, "this host has been blocked"
+"activity state blocked" = "נחסם";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "אושר";
+"activity happened one time" = "פעם אחת";
+"activity happened many times" = "%@ פעמים";
+"activity category recent" = "אחרונים";
+"activity category top" = "הכי";
+"activity category top blocked" = "הכי חסומים";
+"activity category top allowed" = "הכי מאושרים";
+"activity filter header" = "אילו רשומות ברצונכם לראות?";
+"activity filter show all" = "הצג את כל הרשומות";
+"activity filter show blocked" = "הצג חסומים בלבד";
+"activity filter show allowed" = "הצג מאושרים בלבד";
+"activity empty text" = "נסו להשתמש במכשירכם וחזרו לכאן אחר כך, על מנת לראות לאן מכשירכם מתחבר.";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "נחסם";
+
+"account section header settings" = "הגדרות";
+"account status text" = "מנוי הBLOKADA %@ שלכם פעיל עד ה%@.";
+"account status text libre" = "מנוי הBLOKADA Libre שלכם פעיל לנצח.";
+
+"account section header primary" = "ראשי";
+"account section header other" = "אחר";
+"account action my account" = "החשבון שלי";
+"account action encryption" = "הצפנה";
+"account action devices" = "מכשירים";
+"account action new device" = "מכשיר חדש";
+"account action inbox" = "דואר נכנס";
+"account action logout" = "שחזור רכישה";
+"account action logout only" = "התנתקות";
+"account action create" = "יצירת חשבון חדש";
+"account action about" = "אודות";
+"account action tap to show" = "לחצו להצגה";
+"account action restoring" = "משחזר חשבון: %@";
+"account label enter to continue" = "הזינו את מזהה החשבון כדי להמשיך";
+"account restore description" = "אל תדאגו, אם תאבדו או תשכחו את מזהה החשבון שלך, אנו יכולים לשחזרו. אנא צרו קשר עם התמיכה, וספקו לנו מידע שיאפשר לנו לזהות את הרכישה שלכם (לדוגמה: 4 ספרות אחרונות של כרטיס האשראי, מייל של חשבון הפייפל).";
+"account create description" = "זה מזהה החשבון שלך. כדאי שתכתוב אותו, מכיוון שזו הדרך היחידה לקבל גישה למנוי שלך. בנוסף, אל תשתף אותו עם אף אחד על מנת שחשבונך לא יגנב.";
+"account create confirm" = "אני יודע/ת את מזהה החשבון שלי";
+
+"account section header my subscription" = "המנוי שלי";
+"account section header general" = "כללי";
+"account section header subscription" = "מנוי";
+"account label id" = "מזהה חשבון";
+"account label type" = "סוג חשבון";
+"account label active until" = "פעיל עד";
+"account action manage subscription" = "ניהול מנוי";
+"account action why upgrade" = "למה כדאי לי לשדרג?";
+"account subscription header renew" = "חדש אוטומטית";
+"account subscription header payment method" = "אמצעי תשלום";
+"account subscription renew unsupported" = "סוג התשלום שלך אינו תומך בחידוש אוטומטי.";
+
+"account unlock to show" = "בטלו את הנעילה על מנת לראות את מזהה החשבון שלכם";
+
+"account header logout" = "שחזור רכישה";
+"account logout description" = "הכניסו מזהה חשבון אחר, או חזרו על מנת לשמור על חשבונכם הנוכחי (אפליקציה זו אינה יכולה לעבוד ללא מזהה).";
+"account id status unchanged" = "(ללא שינוי)";
+"account action how to restore" = "כיצד אני משחזר/ת את החשבון הישן שלי?";
+
+"account subscription days remaining" = "ימים שנותרו: %@";
+"account devices remaining" = "מכשירים שנותרו: %@";
+"account devices not available" = "לא זמין";
+"account devices out of" = "%@ מתוך %@";
+
+"account encrypt level low" = "חלש";
+"account encrypt level medium" = "בינוני";
+"account encrypt level high" = "גבוהה";
+"account encrypt label dns only" = "מצפין DNS";
+"account encrypt desc dns only" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן למצוא אתרים שברצונכם לבקר בהם.
+לרוע המזל, רוב האינטרנט עדיין משתמש בDNS שאינו מוצפן, מה שיכול לגורם להיסטוריית הגלישה שלכם להיות בסיכון מפני מעקב. כאשר אופציה זו מופעלת, Blokada מכריחה את המכשיר שלכם להתחבר רק לשרתי DNS מוצפנים (נקרא גם DNS מעל HTTPS).";
+"account encrypt label everything" = "מצפין הכול";
+"account encrypt desc everything" = "המכשיר שלכם מתחבר דרך שרתי הVPN המאובטחים שלנו, כל התקשורת שמגיעה, ואו יוצאת ממכשירכם מוצפנת בעזרת אלגוריתמים חזקים. זה מגן על המידע האישי שלכם, כמו פרטי בנק או תמונות אישיות מגניבה במקומות לא מאובטחים, כמו רשתות wifi לא מוכרות.";
+"account encrypt action turn on" = "הפעל את BLOKADA";
+"account encrypt header level" = "רמת הצפנה";
+"account encrypt label level" = "רמה";
+"account encrypt label level low" = "חלש: אינו מוצפן";
+"account encrypt label level medium" = "בינוני: מצפין DNS";
+"account encrypt label level high" = "גבוה: מצפין הכול";
+"account encrypt header explanation" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן ממוקמים אתרים. BLOKADA תומך רק בשרתים מוצפנים.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "מה זה DNS?";
+"account encrypt section header" = "הצפנה";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "השתשמו בBlokada DNS במצב פלוס";
+
+"account lease label devices list" = "המכשירים הללו מחוברים לחשבונכם.";
+"account lease label devices" = "מכשירים";
+"account lease label this device" = " (מכשיר זה)";
+"account lease label name" = "שם המכשיר";
+"account lease label location" = "מיקום";
+"account lease action generate" = "יצירת קובץ הגדרות";
+"account lease action download" = "הורדת קובץ הגדרות";
+"account lease generated" = "מכשיר נוסף! הורד את ההגדרות ותוכל להשתמש בהם בכול מכשיר שתומך בWireguard.";
+"account lease wireguard desc" = "Blokada משתמש ב-Wireguard. ההגדרות ניתנות להורדה בעת הוספת מכשירים חדשים.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "בחר DNS";
+"account lease label public key" = "מפתח ציבורי";
+
+"account support action how help" = "איך נוכל לעזור לך?";
+"account support action kb" = "מאגר ידע פתוח";
+
+"payment header activated" = "מופעל!";
+"payment activated description" = "Blokada יעבור למצב פלוס, ויחובר דרך אחד המיקומים המאובטחים שלנו. אם אינך בטוח/ה באיזה אחד לבחור, מומלץ לבחור את הקרוב ביותר.";
+"payment action choose location" = "בחירת מיקום";
+
+"payment title" = "שדרגו את שירות הVPN שלנו כדי להישאר בשליטה על *פרטיותכם*.";
+"payment feature title change location" = "שינוי מיקום";
+"payment feature desc change location" = "הסתר/י את כתובת האיפי שלך והעמד/י פנים כאילו את/ה במדינה אחרת. זה יסתיר אותך מגורמי צד שלישי ויעזור לשמור על זהותך.";
+"payment feature title encrypt data" = "הצפן את המידע";
+"payment feature desc encrypt data" = "מידע שנשלח דרך הVPN שלנו מוצפן ומשתמש באלגוריתמים חזקים על מנת לשמור מפני יירוט על ידי גורמים לא מאושרים.";
+"payment feature title faster connection" = "חיבור מהיר יותר";
+"payment feature desc faster connection" = "מהירויות מעולות עד כ100Mbps עם שרתים במגוון חלקים בעולם.";
+"payment feature title devices" = "עד חמישה מכשירים";
+"payment feature desc devices" = "השתמש/י באותו חשבון כדי לשתף את המנוי שלך לעד כחמישה מכשירים: iOS, אנדרואיד, או במחשב.";
+"payment feature title no ads" = "ללא פרסומות";
+"payment feature desc no ads" = "המשיכו להשתמש בטכנולוגיית חסימת הפרסומות העולמית Blokada על מנת לשפר את רמת ההגנה והפרטיות של המידע שלכם.";
+"payment feature title support" = "תמיכה מעולה";
+"payment feature desc support" = "קבלו תשובה מהירה על כל שאלה תודות לתמיכת לקוחות והקהילה הפתוחה התוססת שלנו.";
+"payment action see all features" = "הצג את כל התכונות";
+"payment action restore" = "שחזור רכישות";
+"payment action terms and privacy" = "תנאי שימוש ופרטיות";
+"payment action terms" = "תנאי שימוש";
+"payment action policy" = "מדיניות הפרטיות";
+"payment alert error header" = "הודעה מהApp Store";
+
+"payment subscription 1 month" = "חודש אחד";
+"payment subscription many months" = "%@ חודשים";
+"payment subscription per month" = "%@ לחודש";
+"payment subscription offer" = "חסוך %@";
+
+"payment success label" = "תודה!";
+"payment success desc" = "המנוי פעיל כעת. אתם רשאים להשתמש בכל התכונות של Blokada Plus בכול המכשירים שלכם.";
+
+"payment ongoing desc" = "התשלום שלכם בתהליך אישור. במקרה שבחרת באמצעי תשלום פייפל, זה יכול לקחת עד כ24 שעות. אמצעי תשלום אחרים לא אמורים לקחת יותר משעה. אם אתם מרגישים שזה לוקח יותר מדי זמן, אנא צרו איתנו קשר.";
+"payment pay google short" = "גוגל פיי";
+"payment pay apple short" = "Apple Pay";
+"payment change method" = "שינוי";
+"payment action pay" = "שלמו %@";
+"payment action pay period" = "שלמו %@ כל תקופה";
+"payment label email" = "אימייל";
+"payment crypto desc" = "לתשלום באמצעות מטבעות קריפטוגרפים, לחצו על המקש למטה.";
+"payment label choose package" = "בחרו חבילה";
+"payment label choose payment method" = "בחרו באמצעי התשלום";
+"payment label cheapest" = "זול ביותר";
+"payment label most popular" = "הכי פופולרי";
+"payment label pay with card" = "תשלום באמצעות כרטיס";
+"payment label pay with paypal" = "שלמו עם PayPal";
+"payment label pay with crypto" = "תשלום באמצעות מטבעות קריפטוגרפיים";
+"payment package one month" = "חודש אחד";
+"payment package six months" = "שישה חודשים";
+"payment package twelve months" = "שנים עשר חודשים";
+"payment label discount" = "חסכו %@ (%@ / לחודש)";
+"payment label country" = "מדינה";
+
+"apps section header" = "אפליקציות";
+"apps label installed" = "מותקן";
+"apps label system" = "מערכת";
+"apps status bypassed" = "(נעקף)";
+"apps filter header" = "אילו אפליקציות ברצונכם לראות?";
+"apps filter action show all" = "הצג את כל האפליקציות";
+"apps filter action show bypassed" = "הצג רק אפליקציות שנעקפו";
+"apps filter action show not bypassed" = "הצג רק אפליקציות שלא נעקפו";
+"apps filter action toggle system" = "הצג את כלל אפליקציות המערכת";
+
+"app settings section header" = "מכשיר זה";
+"app settings language label" = "שפה";
+"app settings theme label" = "עיצוב האפליקציה";
+"app settings theme light" = "בהיר";
+"app settings theme dark" = "כהה";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "מפנה קישורים ל";
+"app settings browser internal" = "דפדפן פנימי";
+"app settings browser external" = "דפדפן חיצוני (אם אפשרי)";
+"app settings ipv6 label" = "אפשר IPv6";
+"app settings section system" = "מערכת";
+"app settings action app info" = "הצג מידע על האפליקציה";
+"app settings action vpn profile" = "פתח את פרופיל הVPN";
+"app settings action notifications" = "פתח את הגדרות ההתראה";
+"app settings section details" = "פרטים";
+"app settings status default" = "ברירת המחדל של המערכת";
+"app settings start on boot" = "הפעל בעת הדלקת המכשיר";
+"app settings use dns over https" = "הפעל DNS מעל HTTPS";
+"app settings backup" = "הפעל גיבוי לענן";
+"app settings section advanced" = "מתקדם";
+"app settings section use foreground" = "השאר בחיים";
+
+"intro header" = "Blokada פעיל!";
+"intro text" = "טבעת כחולה אומרת שBlokada עובד.\n\nזכרו, חלק מהפרסומות, כמו יוטיוב, לא יכולות להיחסם. עם זאת, אתם תחוו שינוי בהמון אפליקציות אחרות.\n\nאנו ממליצים להפעיל VPN תמידי או VPN בעת הצורך בהגדרות המערכת שלכם.";
+
+"location region america" = "אמריקה";
+"location region europe" = "אירופה";
+"location region asia" = "אסיה";
+
+"homepage header what is blokada" = "מה זה Blokada?";
+"homepage desc what is blokada" = "למדו את המידע הבסיסי על האפליקציה.";
+"homepage desc download" = "הורידו את Blokada לפלטפורמה שלכם.";
+"homepage desc community" = "הצטרפו לקהילה המדהימה שלנו.";
+"homepage header support" = "תמכו בנו";
+"homepage desc support" = "תרמו כדי לעזור לנו להמשיך את הפרוייקט.";
+"homepage action authors" = "יוצרים";
+"homepage action source" = "מקור";
+"homepage action forums" = "פורומים";
+"homepage action dashboard" = "לוח בקרה";
+"homepage about footer" = "בואו נשאר בקשר!";
+"homepage hero title" = "אפליקציית הפרטיות";
+"homepage hero subtitle" = "חינמי וקוד פתוח";
+"homepage hero desc" = "Blokada הוא חוסם פרסומות ואפליקציית פרטיות פופולרית לאנדרואיד וIOS. היא נתמכת ומפותחת על ידי קהילת הקוד הפתוח המדהימה.";
+"homepage about title" = "Blokada 5, חוסם הפרסומות";
+"homepage about desc" = "אם ברצונכם לחסום ביעילות פרסומות, עוקבים, נוזקות, לחסוך דאטא בחבילה, להאיץ את המכשיר ולהגן על הפרטיות בעזרת אפליקציה אחת בלבד, אז Blokada בדיוק בשבילך. זה חינם, מאובטח וקוד פתוח.";
+"homepage about point one" = "חוסם פרסומות ועוקבים";
+"homepage about point three" = "לא דורש רוט או ג'יילברייק";
+"homepage about point four" = "VPN מובנה להגנה טובה יותר";
+"homepage about action plus" = "למד/י עוד אודות Blokada פלוס";
+
+"homepage download header" = "הורד/י את Blokada";
+"homepage download subheader" = "Blokada זמינה במספר פלטפורמות, בחרו את שלכם.";
+"homepage download option android five" = "Blokada 5 לאנדרואיד";
+"homepage download option android slim" = "Blokada 5 Slim לאנדרואיד";
+"homepage download option android four" = "Blokada 4 לאנדרואיד";
+"homepage download option ios" = "Blokada 5 לIOS";
+"homepage download option other" = "Blokada לפלטפורמות אחרות";
+"homepage download desc other" = "כרגע, אנו לא מספקים את Blokada לפלטפורמות אחרות. אבל, אם אתה משתמש Blokada Plus, אתה יכול להשתמש בVPN שלך בווינדוס, לינוס ומק, ובכל הפלטפורמות בהן WireGuard זמין.";
+"homepage download desc ios" = "Blokada 5 פשוט זמינה בApp Store.";
+"homepage download action ios" = "פתח את App Store";
+"homepage download desc android five" = "זו הגרסה החדשה, והמומלצת שלנו <b>לטלפונים וטאבלטים המריצים אנדרואיד 7 ומעלה</b>. זה פשוט ומהיר יותר בהשוואה לBlokada 4.";
+"homepage download action android five" = "apk לBlokada 5";
+"homepage download action android five beta" = "בטא apk";
+"homepage download desc android slim" = "Blokada Slim, היא <b>גירסה קלילה של האפליקציה</b>, והיא מכילה רק תכונות שאושרו על ידי התקנון של Google Play.";
+"homepage download action android slim" = "פתח את Google Play";
+"homepage download action android four" = "apk לBlokada 4";
+"homepage download action android four fdroid" = "פתיחת F-Droid";
+
+"homepage community header" = "הקהילה";
+"homepage community desc" = "Blokada היא לא רק אפליקציית הפרטיות. היא גם קהילה של אנשים שאכפת להם מהפרטיות הדיגיטלית שלהם. אתם תמצאו אותנו בפורום שלנו, שם תוכלו לשאול כל שאלה שיש לכם. אנחנו גם זמינים ברשתות חברתיות שונות וצ'אטים.";
+"homepage community cta subheader" = "הצטרפו אלינו ואמרו שלום!";
+"homepage community cta desc" = "אנו מבססים את כל העבודה שלנו על הפידבקים של המשתמשים שלנו. ספרו לנו מה אתם חושבים, מה כדאי לנו לשפר, או פשוט תהיו חלק מהקהילה.";
+"homepage community cta action" = "לפורומים";
+"homepage community opinions" = "הנה מספר חוות דעת של המשתמשים שלנו.";
+
+"homepage support header" = "תמכו בפרוייקט";
+"homepage support desc" = "אם אתם אוהבים את מה שאנחנו עושים, אנא שקלו לתמוך בנו, על מנת שנוכל להמשיך לפתח תכונות חדשות ושיפורים. ככה, Blokada יכולה להשאר קוד פתוח וחינמי לנצח.";
+"homepage support cta desc" = "Blokada היא פרוייקט קוד פתוח, מה שאומר שאתם יכולים להיות בטוחים שזה ישאר חינמי תמיד, בטוח לשימוש וללא אג'נדות סמויות. אנו מאמינים שזו הדרך הנכונה היחידה לפתח אפליקציית פרטיות שתסמכו עליה.";
+"homepage support cta desc more" = "אם זאת, פיתוח אפליקציה איכותית כמו Blokada דורשת כמויות נכבדות של משאבים. הפרוייקט קיים תודות לתמיכה של אנשים מדהימים כמוכם!";
+"homepage support cta action" = "תרומה (כרטיס אשראי, PayPal)";
+"homepage support cta action alt" = "תרומה (העברה בנקאית, מטבעות קריפטוגרפיים)";
+
+"homepage developer header" = "האם אתם מפתחים";
+"homepage developer subheader" = "ורוצים להפוך את Blokada לטובה יותר?";
+"homepage developer desc" = "Blokada היא פרוייקט קוד פתוח המיועד לפיתוח אפליקציית הפרטיות וחוסם הפרסומות הטובים ביותר לאדרואיד וIOS. בדקו את הגיטהאב שלנו, וספרו לנו אם תצטרכו עזרה כלשהי ביצירת הPR הראשון שלכם.";
+"homepage developer action" = "לכו לריפוסיטורי";
