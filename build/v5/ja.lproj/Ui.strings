@@ -25,8 +25,8 @@
 "error account invalid" = "アカウントを確認してください";
 "error creating account" = "新しいアカウントを作成できませんでした。後でもう一度お試しください。";
 "error fetching data" = "この操作は完了できませんでした。オンラインであることを確認し、時間を置いてもう一度やり直してください。 問題が解決しない場合は、ヘルプからご連絡ください。";
-"error tunnel" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokadaのVPNプロファイルを削除して再度お試しください。";
-"error vpn" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokadaのVPNプロファイルを削除して再度お試しください。";
+"error tunnel" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokada VPNプロファイルを削除して再度お試しください。";
+"error vpn" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokada VPNプロファイルを削除して再度お試しください。";
 "error vpn perms" = "VPNプロファイルを作成する権限がありません。";
 "error vpn no current lease" = "場所を選択してください。";
 "error vpn too many leases" = "デバイス数の上限に達しました。いずれかのデバイスを削除して、もう一度やり直してください。";
@@ -122,7 +122,7 @@
 
 "home status paused" = "一時停止されました";
 "home status active" = "有効";
-"home status deactivated" = "無効になっています";
+"home status deactivated" = "無効";
 "home action tap to activate" = "タップして有効化";
 "home status detail paused" = "タイマーが終了するまで一時停止中";
 "home status detail active" = "*広告*と*トラッカー*をブロック";
@@ -367,7 +367,7 @@
 "app settings section advanced" = "詳細";
 "app settings section use foreground" = "スリープモードにしない";
 
-"intro header" = "Blokadaは実行中です！";
+"intro header" = "Blokadaは有効です！";
 "intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定で常時接続VPN (Android) / オンデマンド接続 (iOS)を有効にすることをお勧めします。";
 
 "location region america" = "アメリカ";
