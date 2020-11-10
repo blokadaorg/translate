@@ -1,8 +1,8 @@
 files:
   - source: /v4/*.xml
-    translation: /build/app/values-%android_code%/%original_file_name%
+    translation: /build/v4/android/values-%android_code%/%original_file_name%
     translate_attributes: 0
   - source: /v4/*.properties
-    translation: /build/content/%locale_with_underscore%/%original_file_name%
+    translation: /build/v4/content/%locale_with_underscore%/%original_file_name%
   - source: /v5/*.strings
-    translation: /build/fem/%osx_code%/%original_file_name%
+    translation: /build/v5/%osx_code%/%original_file_name%
