@@ -1,14 +1,86 @@
+//
+//  This file is part of Blokada.
+//
+//  Blokada is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  Blokada is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error device offline" = "อุปกรณ์ของคุณออฟไลน์";
+"error account inactive" = "บัญชีของคุณปิดกาารใช้งาน กรุณาเปิดใช้งานบัญชีเพื่อใช้ BLOKADA+ ต่อ";
+"error account inactive after restore" = "บัญชีดูเหมือนว่าไม่สามารถใช้งานได้อย่างถูกต้อง หากคุณเชื่อว่านี่เป็นความผิดพลาดโปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error account invalid" = "หมายเลขบัญชีนี้ไม่ถูกต้อง";
+"error creating account" = "ไม่สามารถสร้างบัญชีใหม่ได้ กรุณาลองใหม่อีกครั้งในภายหลัง.";
+"error fetching data" = "ไม่สามารถดำเนินการนี้ได้ ตรวจสอบให้แน่ใจว่าคุณออนไลน์อยู่และลองอีกครั้งในภายหลัง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error tunnel" = "ไม่สามารถสร้าง VPN โปรดรีสตาร์ทอุปกรณ์ของคุณหรือลบโปรไฟล์ Blokada VPN ในการตั้งค่าระบบแล้วลองอีกครั้ง";
+"error vpn" = "ไม่สามารถสร้าง VPN โปรดรีสตาร์ทอุปกรณ์ของคุณหรือลบโปรไฟล์ Blokada VPN ในการตั้งค่าระบบแล้วลองอีกครั้ง";
+"error vpn perms" = "ไม่มีการอนุญาตให้สร้างโปรไฟล์ VPN";
+"error vpn no current lease" = "โปรดเลือกสถานที่ก่อน";
+"error vpn expired" = "VPN ถูกปิดการใช้งาน โปรดอัปเดตการสมัครของคุณเพื่อใช้ BLOKADA + ต่อไป";
+"error payment inactive after restore" = "การชำระเงินครั้งก่อนของคุณได้รับการกู้คืนแล้ว แต่การสมัครสมาชิกหมดอาย หากคุณเชื่อว่านี่เป็นความผิดพลาดโปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error payment failed" = "ไม่สามารถชำระเงินได้ในขณะนี้ ตรวจสอบว่าคุณออนไลน์อยู่และลองอีกครั้งในภายหลัง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error payment failed alternative" = "ไม่สามารถชำระเงินของคุณ โปรดตรวจสอบว่าข้อมูลของคุณถูกต้องแล้วลองอีกครั้ง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error payment not available" = "อุปกรณ์นี้ไม่สามารถชำระเงินได้ อาจเป็นเพราะ Apple Pay ไม่ได้เปิดใช้งานหรือเรายังไม่รับการชำระเงินในประเทศของคุณ";
+"error payment canceled" = "การชำระเงินถูกยกเลิก คุณไม่ได้ถูกเรียกเก็บเงิน";
+"error pack install" = "ไม่สามารถติดตั้ง (หรือถอนการติดตั้ง) ฟีเจอร์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง.";
+"error location failed fetching" = "ไม่สามารถดึงข้อมูลสถานที่ได้";
+"error unknown" = "เกิดปัญหาที่ไม่ทราบสาเหตุ กรุณาลองอีกครั้ง. หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error blocka dns in filtering mode" = "ในปัจจุบัน Blokada DNS ยังรองรับเฉพาะในโหมด Plus โปรดเลือก DNS อื่นแล้วลองอีกครั้ง";
 
 "universal action continue" = "ดำเนิน​การ";
 "universal action cancel" = "ยกเลิก";
+"universal action close" = "ปิด";
+"universal action done" = "ดำเนินการเรียบร้อย";
+"universal action try again" = "ลองใหม่อีกครั้ง";
+"universal action learn more" = "เรียน​รู้​เพิ่ม​เติม";
 "universal action help" = "ช่วยเหลือ";
+"universal action show log" = "บันทึกข้อมูลระบบ";
 "universal action share log" = "แชร์บันทึก";
+"universal action copy" = "คัดลอก";
 "universal action save" = "บันทึก";
+"universal action contact us" = "ติดต่อเรา";
+"universal action support" = "ช่วยเหลือ";
+"universal action upgrade" = "อัปเกรดเป็น BLOKADA+";
+"universal action upgrade short" = "อัปเกรด";
+"universal action yes" = "ใช่";
+"universal action no" = "ไม่";
 "universal action donate" = "บริจาค";
+"universal action community" = "ชุมชน";
 "universal action open in browser" = "เปิดในเบราเซอร์";
+"universal action more" = "เพิ่มขึ้น";
+"universal action download" = "ดาวน์โหลด";
 "universal action news" = "ข่าว";
+"universal action delete" = "ลบทิ้ง";
+"universal action hide" = "ซ่อน";
+"universal action select" = "เลือก";
+"universal action selected" = "ถูกเลือก";
 
 "universal label help" = "ช่วยเหลือ";
+"universal label welcome" = "ยินดีต้อนรับ!";
+"universal status processing" = "กำลังดำเนินการ... โปรดรอสักครู่";
+"universal status copied to clipboard" = "คัดลอกไปยังคลิปบอร์ดแล้ว";
+"universal status restart required" = "โปรดรีสตาร์ทแอปเพื่อให้การเปลี่ยนแปลงมีผล";
+"universal status redirect" = "ดำเนินการต่อด้วยแอป Blokada";
+
+"alert error header" = "อ๊ะ!";
+"alert vpn expired header" = "BLOKADA + หมดอายุแล้ว";
+"alert download link body" = "เพื่อความปลอดภัยในการดาวน์โหลดไฟล์เราจำเป็นต้องเปิดเว็บไซต์นี้ในเบราว์เซอร์ของคุณ จากนั้นโปรดแตะลิงก์ดาวน์โหลดอีกครั้ง";
+
+"notification vpn expired header" = "การสมัครสมาชิก BLOKADA+ หมดอายุแล้ว";
+"notification vpn expired subtitle" = "VPN ปิดใช้งาน";
 "home status active" = "ทำงานอยู่";
 "home status detail progress" = "กรุณารอสักครู่...";
 "pack category active" = "ทำงาน";
