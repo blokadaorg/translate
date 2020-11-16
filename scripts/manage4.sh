@@ -9,6 +9,8 @@
 # - app-path - Where is Blokada app repo
 # - web-path - Where is Blokada website repo
 
+# This script is obsolete and is being phased out
+
 xml="filter main notification tunnel update dns gscore panel logger widget bits social search"
 pages="filters.properties dns.properties"
 legacy=(ca cs de es fa fr he hr hu in it ms nl pl pt ru sl tr vi zh_CN zh_TW)
