@@ -118,7 +118,7 @@ def main(argv):
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
-        webSync(config["translate_dir"], config["darget_dir"])
+        webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
 
     print("Done")
