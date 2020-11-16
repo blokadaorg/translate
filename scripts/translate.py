@@ -48,8 +48,8 @@ def main(argv):
     # parse command line options
     base_path = "."
     config = {
-        "translate_dir": "../",
-        "target_dir": "../../",
+        "translate_dir": "..",
+        "target_dir": "../..",
         "action": None,
         "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl"],
         "langs-android": {
