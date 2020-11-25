@@ -119,9 +119,9 @@
 "home power action turn off" = "Изключване";
 "home power action pause" = "Пауза за 5 мин";
 
-"home status paused" = "ПАУЗА";
-"home status active" = "АКТИВНА";
-"home status deactivated" = "ДЕАКТИВИРАНА";
+"home status paused" = "На пауза";
+"home status active" = "Активен";
+"home status deactivated" = "Деактивиран";
 "home action tap to activate" = "докоснете за да активирате";
 "home status detail paused" = "на пауза докато приключи таймерът";
 "home status detail active" = "блокиране на *реклами* и *тракери*";
@@ -135,7 +135,7 @@
 "home plus button location" = "Местоположение: *%@*";
 
 "pack section header" = "Разширени функции";
-"pack section header details" = "Подробности Детайли";
+"pack section header details" = "Особености и Детайли";
 "pack action install" = "ВЗЕМИ";
 "pack action update" = "АКТУАЛИЗАЦИЯ";
 "pack action uninstall" = "ПРЕМАХВАНЕ";
@@ -206,7 +206,6 @@
 "account section header primary" = "Основен";
 "account section header other" = "Друг";
 "account action my account" = "Моят профил";
-"account action encryption" = "Криптиране";
 "account action devices" = "Устройства";
 "account action new device" = "Ново устройство";
 "account action inbox" = "Входяща кутия";
@@ -304,6 +303,7 @@
 "payment action terms" = "Условия за ползване";
 "payment action policy" = "Декларация за поверителност";
 "payment alert error header" = "Съобщение от App Store";
+"payment save text" = "Вие спестявате %@";
 
 "payment subscription 1 month" = "1 Месец";
 "payment subscription many months" = "%@ Месеца";
@@ -312,8 +312,6 @@
 
 "payment success label" = "Благодаря!";
 "payment success desc" = "Вашият профил е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
-
-"payment ongoing desc" = "Плащането Ви се обработва. В някои случай като при PayPal, това може да отнеме до 24 часа. Другите методи на плащане не би трябвало да отнемат повече от час. Ако смятате, че отнема твърде много време, моля свържете се с нас.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Промяна";
@@ -358,7 +356,7 @@
 "app settings action app info" = "Отваряне на информацията за приложението";
 "app settings action vpn profile" = "Отваряне на VPN профила";
 "app settings action notifications" = "Отваряне на настройките за известия";
-"app settings section details" = "Подробности";
+"app settings section details" = "Детайли";
 "app settings status default" = "Настройки по подразбиране";
 "app settings start on boot" = "Старт със системата";
 "app settings use dns over https" = "Използване на DNS през HTTPS";
