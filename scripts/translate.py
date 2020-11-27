@@ -202,7 +202,9 @@ def webImport(langs, translate, web):
 
 def web4Import(translate, web):
     print(f"  Importing v4 strings to web ({web})")
-    shutil.copytree(f"{translate}/build/v4/content", f"{web}/api/v4/")
+    dst = f"{web}/api/v4/content"
+    shutil.rmtree(dst)
+    shutil.copytree(f"{translate}/build/v4/content", dst)
 
 def outputAsAndroidXml(output_file, strings):
     with open(output_file, "w") as f:
