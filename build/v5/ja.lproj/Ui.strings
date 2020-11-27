@@ -207,6 +207,7 @@
 "account section header primary" = "メイン";
 "account section header other" = "その他";
 "account action my account" = "アカウント情報";
+"account action encryption" = "暗号化とDNS";
 "account action devices" = "デバイス管理";
 "account action new device" = "新しいデバイス";
 "account action inbox" = "受信トレイ";
@@ -219,7 +220,7 @@
 "account label enter to continue" = "続行するにはアカウントIDを入力してください";
 "account restore description" = "アカウントIDを紛失または忘れてしまった場合、 当社のサポートに連絡してください。その際、お客様の購入を確認するためにクレジットカードの下4桁またはPayPalメールを提供してください。";
 "account create description" = "これはあなたのアカウントIDです。サブスクリプションにアクセスするための唯一の方法ですので、書き留めておいてください。アカウントの盗難防止のため、IDは誰とも共有せずに保管してください。";
-"account create confirm" = "私のアカウントIDを知っています";
+"account create confirm" = "アカウントIDを確認しました";
 
 "account section header my subscription" = "サブスクリプション";
 "account section header general" = "全般";
@@ -231,7 +232,7 @@
 "account action why upgrade" = "アップグレードする理由は？";
 "account subscription header renew" = "自動更新";
 "account subscription header payment method" = "お支払い方法";
-"account subscription renew unsupported" = "自動更新をサポートしていないお支払い方法です。";
+"account subscription renew unsupported" = "指定のお支払い方法は、ここで自動更新を設定できません。";
 
 "account unlock to show" = "ロックを解除してアカウントIDを表示する";
 
@@ -304,6 +305,7 @@
 "payment action terms" = "利用規約";
 "payment action policy" = "プライバシーポリシー";
 "payment alert error header" = "App Storeからのメッセージ";
+// As in saving money: You are saving $5
 "payment save text" = "%@ 割引";
 
 "payment subscription 1 month" = "1ヶ月";
@@ -369,7 +371,7 @@
 "app settings section use foreground" = "スリープモードにしない";
 
 "intro header" = "Blokadaは有効です！";
-"intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定で常時接続VPN (Android) / オンデマンド接続 (iOS)を有効にすることをお勧めします。";
+"intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定で常時接続VPN (Android) / オンデマンド接続 (iOS) を有効にすることをお勧めします。";
 
 "location region america" = "アメリカ";
 "location region europe" = "ヨーロッパ";
