@@ -41,7 +41,7 @@ from os import path
 def main(argv):
     def usage():
         print("usage: translate -a action")
-        print("Actions: ios, android5, android4, landing, dashboard")
+        print("Actions: ios, android5, android4, landing, dashboard, landing-gp")
 
     print("Translate v0.4")
 
@@ -95,7 +95,7 @@ def main(argv):
             usage()
             return 2
 
-    if config["action"] not in ["ios", "android5", "android4", "landing", "dashboard"]:
+    if config["action"] not in ["ios", "android5", "android4", "landing", "dashboard", "landing-gp"]:
         print("  Unknown action")
         usage()
         return 1
@@ -117,6 +117,8 @@ def main(argv):
     elif config["action"] == "landing":
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
+    elif config["action"] == "landing-gp":
+        web4Import(config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
@@ -197,6 +199,10 @@ def webImport(langs, translate, web):
     for lang in langs:
         print(f"    importing {lang}")
         subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
+
+def web4Import(translate, web):
+    print(f"  Importing v4 strings to web ({web})")
+    shutil.copytree(f"{translate}/build/v4/content", f"{web}/api/v4/")
 
 def outputAsAndroidXml(output_file, strings):
     with open(output_file, "w") as f:
