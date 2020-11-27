@@ -118,7 +118,10 @@
 "home power action turn on" = "Activar";
 "home power action turn off" = "Desactivar";
 "home power action pause" = "Pausar 5 minutos";
+
+"home status paused" = "En pausa";
 "home status active" = "Activo";
+"home status deactivated" = "Desactivado";
 "home action tap to activate" = "toca para activar";
 "home status detail paused" = "en pausa hasta que el temporizador termine";
 "home status detail active" = "bloqueando *anuncios* y *rastreadores*";
@@ -203,6 +206,7 @@
 "account section header primary" = "Principal";
 "account section header other" = "Otros";
 "account action my account" = "Mi cuenta";
+"account action encryption" = "Encriptación y DNS";
 "account action devices" = "Dispositivos";
 "account action new device" = "Nuevo dispositivo";
 "account action inbox" = "Bandeja de entrada";
@@ -227,6 +231,7 @@
 "account action why upgrade" = "¿Por qué deberías actualizar?";
 "account subscription header renew" = "Renovar automáticamente";
 "account subscription header payment method" = "Método de pago";
+"account subscription renew unsupported" = "Su método de pago no permite controlar la configuración de renovación automática aquí.";
 
 "account unlock to show" = "Desbloquea para mostrar el ID de tu cuenta";
 
@@ -299,6 +304,8 @@
 "payment action terms" = "Condiciones del servicio";
 "payment action policy" = "Política de privacidad";
 "payment alert error header" = "Un mensaje de App Store";
+// As in saving money: You are saving $5
+"payment save text" = "Estás ahorrando %@";
 
 "payment subscription 1 month" = "1 mes";
 "payment subscription many months" = "%@ meses";
@@ -307,6 +314,8 @@
 
 "payment success label" = "¡Gracias!";
 "payment success desc" = "¡Tu cuenta está activa! Ahora puedes usar todas las funciones de Blokada Plus en todos tus dispositivos.";
+
+"payment ongoing title" = "Tu pago está siendo procesado.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Cambiar";
