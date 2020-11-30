@@ -139,7 +139,7 @@ def main(argv):
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing-gp":
-        web4Import(config["langs_web4"], config["translate_dir"], config["target_dir"])
+        web4Import(config["langs-web4"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
