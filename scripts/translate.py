@@ -223,6 +223,13 @@ def webImport(langs, translate, web):
 
 def web4Import(langs, langs_web4, translate, web):
     print(f"  Importing v4 strings to web ({web})")
+
+    print(f"    importing root: (en)")
+    dst = f"{web}/api/v4/content/en"
+    shutil.rmtree(dst)
+    shutil.copytree(f"{web}/api/v4/canonical/strings", dst, dirs_exist_ok = True)
+    shutil.copytree(f"{web}/api/v4/canonical/defaults", dst, dirs_exist_ok = True)
+
     for lang in langs:
         l = langs_web4[lang]
         print(f"    importing {l}")
