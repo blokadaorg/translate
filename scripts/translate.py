@@ -139,7 +139,7 @@ def main(argv):
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing-gp":
-        web4Import(config["langs-web4"], config["translate_dir"], config["target_dir"])
+        web4Import(config["langs"], config["langs-web4"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
@@ -221,15 +221,16 @@ def webImport(langs, translate, web):
         print(f"    importing {lang}")
         subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
 
-def web4Import(langs, translate, web):
+def web4Import(langs, langs_web4, translate, web):
     print(f"  Importing v4 strings to web ({web})")
     for lang in langs:
-        print(f"    importing {lang}")
-        dst = f"{web}/api/v4/content/{lang}"
+        l = langs_web4[lang]
+        print(f"    importing {l}")
+        dst = f"{web}/api/v4/content/{l}"
         shutil.rmtree(dst)
         shutil.copytree(f"{web}/api/v4/canonical/strings", dst, dirs_exist_ok = True)
         shutil.copytree(f"{web}/api/v4/canonical/defaults", dst, dirs_exist_ok = True)
-        shutil.copytree(f"{translate}/build/v4/content/{lang}", dst, dirs_exist_ok = True)
+        shutil.copytree(f"{translate}/build/v4/content/{l}", dst, dirs_exist_ok = True)
 
 def outputAsAndroidXml(output_file, strings):
     with open(output_file, "w") as f:
