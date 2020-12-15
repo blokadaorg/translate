@@ -25,7 +25,7 @@
     <string name="tunnel_config_wildcard_title">[BETA] 高度な広告ブロックルール</string>
     <string name="tunnel_config_wildcard_description">このスイッチを有効にすると、フィルタリングルールでワイルドカードを使用します。例えば、*.google.comのルールを追加すると、Googleからのすべてのドメインをブロックします。これはバッテリー寿命に悪影響を与える可能性があります。これは実験的な機能であり、正常に動作しない可能性がありますのでご注意ください。</string>
     <string name="tunnel_config_cname_title">[BETA] CNameブロック</string>
-    <string name="tunnel_config_cname_description">このスイッチを有効にすると、ブロックリストにあるドメインのすべてのCNameをブロックします。CNameはドメインのエイリアスであり、一部の広告主が広告のドメインを、頻繁に変化するドメインまたはあまり目立たないドメインの背後に隠すために使用します。 この方法は、ブロックされたドメインに解決されるすべてのCNameをブロックすることで回避できます。これは実験的な機能であり、正常に動作しない可能性がありますのでご注意ください。</string>
+    <string name="tunnel_config_cname_description">このスイッチを有効にすると、フィルターにあるドメインのすべてのCNameをブロックします。CNameはドメインのエイリアスであり、一部の広告主が広告のドメインを、頻繁に変化するドメインまたはあまり目立たないドメインの背後に隠すために使用します。 この方法は、ブロックされたドメインに解決されるすべてのCNameをブロックすることで回避できます。これは実験的な機能であり、正常に動作しない可能性がありますのでご注意ください。</string>
     <string name="tunnel_config_fallback_title">DNSフォールバック</string>
     <string name="tunnel_config_fallback_description">Wi-Fi使用時などでインターネット接続が出来なくなる場合は、このスイッチを有効にしてください。これにより、アプリが一時的にCloudflareまたはGoogle DNSへ切り替え、接続を維持します。この設定を有効にするには、DNSセクションでサーバーを再選択する必要がある場合があります。</string>
     <string name="tunnel_config_smartlist_title">[BETA] スマートリスト</string>
