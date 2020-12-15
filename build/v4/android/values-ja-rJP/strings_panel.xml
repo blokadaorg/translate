@@ -58,7 +58,7 @@
     <string name="slot_intro_desc">ここはホームセクションです。右にスワイプするとさらに多くのことができます。 それぞれの下部にメニューがあります - 上にスワイプして開きます。 &lt;br/&gt;&lt;br/&gt;Android TVでは、dpadでUIをナビゲートします。 中央キーを使用して、下部のメニューや選択した項目を開きます。 ボタンは、上下左右の4方向の矢印でマークされています - 方向キーを使用してボタンをクリックします。</string>
     <string name="slot_intro_info">一部のアイテムにはクエッションマークアイコンが付いています。 それをタップすると、このような短いヘルプメッセージが表示されます。</string>
     <string name="slot_new_filter">ブロックリストに新しいホストを追加</string>
-    <string name="slot_new_filter_list">新しいホストリストを追加</string>
+    <string name="slot_new_filter_list">新しいフィルターを追加</string>
     <string name="slot_new_filter_whitelist">許可リストに新しいホストを追加</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
     <string name="slot_unset">未設定</string>
@@ -101,7 +101,7 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">%s のエントリ</string>
     <string name="slot_dns_control_title">DNSサーバーリスト</string>
-    <string name="slot_dns_control_description">DNSサーバーリストは、カスタムエントリを失うことなくサーバーと同期できます。 &lt;br/&gt;&lt;br/&gt;ドロップを選択すると、(カスタムしたものを含む) すべてのDNSを削除して、もう一度ダウンロードします。</string>
+    <string name="slot_dns_control_description">カスタムDNSを失うことなくサーバーと同期できます。 &lt;br/&gt;&lt;br/&gt;ドロップを選択すると、(カスタムしたものを含む) すべてのDNSを削除して、もう一度ダウンロードします。</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">同期</string>
     <string name="slot_action_refresh_toast">同期を開始</string>
