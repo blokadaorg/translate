@@ -6,3 +6,5 @@ files:
     translation: /build/v4/content/%locale_with_underscore%/%original_file_name%
   - source: /v5/*.strings
     translation: /build/v5/%osx_code%/%original_file_name%
+  - source: /promo/*.md
+    translation: /build/promo/%locale_with_underscore%/%original_file_name%
