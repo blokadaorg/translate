@@ -9,9 +9,9 @@
 أهمّ الميّزات:
 
 - يدعم حظر الإعلانات لكلّ متصفّحات الويب و أيّ تطبيق آخر مثبَّت.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- يحظر المواقع التي توزّع محتوى خبيث و فيروسات و المواقع الاحتياليّة.
+- اعتراض DNS (وضع VPN) لجميع المتصفّحات الحديثة.
+- VPN سريع و موثوق يحمي خصوصيّتك و يشفّر بياناتك.
 
 The most compatible ad blocker on the market!
 
