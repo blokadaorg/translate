@@ -15,11 +15,11 @@ Blokada Slim Ad blocker هو تطبيق مجّاني يَستخدم خوادِم
 ----
 
 أهمّ الميّزات:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+- لا يتطلّب أذونات روت !
+- يدعم كل متصفّحات الويب و التطبيقات.
+- اعتراض DNS (وضع VPN) لجميع المتصفّحات الحديثة.
+- يحظُر المواقع التي توزّع محتوى خبيث و فيروسات و المواقع الاحتياليّة.
 
-The most compatible ad blocker on the market!
+مانع الإعلانات الأكثر توافقاً في السوق !
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• حَظْر الإعلانات • حِفْظ خطّة بياناتك • تصفّح أسرع عن طريق تحميل بيانات أقل • زيادة عمر البطاريّة
