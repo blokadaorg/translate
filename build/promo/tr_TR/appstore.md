@@ -17,8 +17,8 @@ Piyasadaki en uyumlu reklam engelleyici!
 
 • Reklamları engelleyin • Veri planınızdan tasarruf edin • Daha az veri yükleyerek DAHA HIZLI göz atın • Pil ömrünü uzatın
 
-Neler engellenebilir? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Neler engellenebilir? • Rahatsız edici reklamları engeller: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon vb. • Yetişkin web sitelerini engeller • Kumar sitelerini engeller • Sosyal medya izleyicilerini engeller: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Kötü amaçlı web sitelerini engeller: Virüs yüklemeleri, kötü amaçlı içerik, sahte web siteleri ve manipüle edilmiş uygulamalar • Blokada Plus Adblock iOS uygulaması.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Kullanım Koşulları: https://go.blokada.org/terms Gizlilik Politikası: https://go.blokada.org/privacy
