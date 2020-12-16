@@ -15,7 +15,7 @@ Join us on our Telegram chat if you have questions or feedback: https://go.bloka
 ----
 
 Best features:
-- NO root permissions required!
+- ROOT izni gerektirmez!
 - Supports every web browser and apps.
 - DNS based interception (VPN mode) for all modern browsers.
 - Blocks sites that distribute malicious content, viruses and fraudulent websites.
