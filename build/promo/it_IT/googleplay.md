@@ -2,24 +2,24 @@ Blokada Slim Ad blocker - No Ads, più batteria
 
 Proteggi la tua privacy gratuitamente con l'app ufficiale Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Questa è l'unica app ufficiale su Play Store dal progetto open source Blokada. Attenzione ai cloni, possono contenere codice dannoso.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker è un'applicazione gratuita che utilizza server DNS (Domain Name System) per consentire di avere un'esperienza di navigazione gratuita e per visualizzare solo i contenuti desiderati.
 
-There is also a built in VPN that is optional to use.
+E' disponibile anche una VPN integrata opzionale.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Il sito web del progetto è: https://blokada.org. La versione dal sito web ha più funzioni ed è sempre gratuita.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Se hai domande o feedback unisciti a noi nella nostra chat Telegram: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Caratteristiche migliori:
+- Nessuna autorizzazione root richiesta!
+- Supporta ogni browser e app.
+- Intercettazione basata su DNS (modalità VPN) per tutti i browser più recenti.
+- Blocca siti che distribuiscono contenuti dannosi, virus e siti web fraudolenti.
 
-The most compatible ad blocker on the market!
+L'Ad Blocker più compatibile sul mercato!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Blocca gli annunci • Risparmia il tuo piano dati • Naviga VELOCEMENTE caricando meno dati • Aumenta la durata della batteria
