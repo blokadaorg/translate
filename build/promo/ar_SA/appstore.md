@@ -17,7 +17,7 @@
 
 • حَظْر الإعلانات • حِفْظ خطّة بياناتك • تصفّح أسرع عن طريق تحميل بيانات أقل • زيادة عمر البطاريّة
 
-ما الذي يمكِن حَظْره؟ • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+ما الذي يمكِن حَظْره؟ • حَظْر الإعلانات المزعجة: Google AdWords, Google Invite Media, DoubleClick Bid Manag, Liftoff, Bing Ads, Amazon, إلخ • حَظْر مواقع الويب الإباحيّة • حَظْر مواقع القمار • حَظْر متعقّبي وسائط التواصل الاجتماعي: Google Analytics و Facebook Connect و DoubleClick وGoogle Publisher Tags و Google AdSense و Twitter Button و Yandex.Metrix و Comscore • حَظْر مواقع الويب الخبيثة: تحميل الفيروسات، المحتوى الخبيث، مواقع الويب الإحتياليّة و التطبيقات التي يتمّ التلاعب بها • تطبيق Blokada Plus Adblock لنظام iOS.
 
 ----
 
