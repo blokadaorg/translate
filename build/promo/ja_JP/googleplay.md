@@ -1,4 +1,4 @@
-Blokada Slim - 広告をブロック、バッテリー使用を削減
+Blokada Slim 広告ブロッカー - 広告なし、バッテリー使用を削減
 
 公式の Blokada アプリであなたのプライバシーを無料で保護します。
 
@@ -10,16 +10,16 @@ Blokada Slim は、DNS (Domain Name System) サーバーを使用して広告を
 
 プロジェクトのウェブサイトは https://blokada.org です。 ウェブサイトからダウンロードできるバージョンにはより多くの機能が搭載されており、こちらも無料です。
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+ご質問やフィードバックがあれば、Telegram チャットに参加してください: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+トップ機能：
+- root権限は必要ありません！
+- すべてのウェブブラウザとアプリをサポートします。
+- すべての最新ブラウザに対応したDNSベースの広告ブロック (VPNモード)。
+- 悪意のあるコンテンツ、ウイルス、不正なウェブサイトを配信するサイトをブロックします。
 
-The most compatible ad blocker on the market!
+市場で最も互換性のある広告ブロッカー！
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• 広告をブロック • データ使用量を節約 • 読み込むデータを削減し、高速ブラウジング • バッテリー使用量を削減
