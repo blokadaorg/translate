@@ -13,12 +13,12 @@
 - اعتراض DNS (وضع VPN) لجميع المتصفّحات الحديثة.
 - VPN سريع و موثوق يحمي خصوصيّتك و يشفّر بياناتك.
 
-The most compatible ad blocker on the market!
+مانع الإعلانات الأكثر توافقاً في السوق !
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• حَظْر الإعلانات • حِفْظ خطّة بياناتك • تصفّح أسرع عن طريق تحميل بيانات أقل • زيادة عمر البطاريّة
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+ما الذي يمكِن حَظْره؟ • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+شروط الاستخدام: https://go.blokada.org/terms سياسة الخصوصيّة: https://go.blokada.org/privacy
