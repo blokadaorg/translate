@@ -10,14 +10,14 @@ Blokada for iOS は、DNS (Domain Name System) サーバーを使用して広告
 
 - インストールされているすべてのウェブブラウザやその他のアプリの広告をブロックします。
 - 悪意のあるコンテンツ、ウイルス、不正なウェブサイトを配信するサイトをブロックします。
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- すべての最新ブラウザに対応したDNSベースのブロック (VPNモード)。
+- プライバシーを保護し、データを暗号化する高速で信頼性の高いVPN。
 
-The most compatible ad blocker on the market!
+市場で最も互換性のある広告ブロッカー！
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• 広告をブロック • データプランを節約 • 読み込むデータを削減し、高速ブラウジング • バッテリー使用を削減
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+何をブロックできますか? ・迷惑な広告：Google AdWords、Google Invite Media、DoubleClick Bid Manager、Liftoff、Bing Ads、Amazonなど ・アダルトWebサイト ・ギャンブルのウェブサイト ・ソーシャルメディアトラッカー：Google Analytics、Facebook Connect、DoubleClick、Google Publisherタグ、Google AdSense、Twitterボタン、Yandex.Metrix、Comscore ・悪意のあるWebサイト：ウイルスのダウンロード、悪意のあるコンテンツ、不正なWebサイト、操作されたアプリ ・Blokada Plus 広告ブロック iOS アプリ。
 
 ----
 
