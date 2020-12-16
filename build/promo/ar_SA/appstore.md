@@ -8,7 +8,7 @@
 
 أهمّ الميّزات:
 
-- Supports ad-blocking for every web browser and other app installed.
+- يدعم حظر الإعلانات لكلّ متصفّحات الويب و أيّ تطبيق آخر مثبَّت.
 - Blocks sites that distribute malicious content, viruses and fraudulent websites.
 - DNS based interception (VPN mode) for all modern browsers.
 - Fast and reliable VPN that protects your privacy and encrypts your data.
