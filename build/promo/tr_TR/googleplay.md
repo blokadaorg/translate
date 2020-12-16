@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Reklam Engelleyici - Reklam yok, daha iyi pil
 
-Protect your privacy for free with the official Blokada app.
+Resmi Blokada uygulaması ile gizliliğinizi ücretsiz olarak koruyun.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Bu, Blokada açık kaynak projesinin Play Store'daki tek resmi uygulamasıdır. Klonlara dikkat edin, kötü amaçlı kod içerebilirler.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Reklam Engelleyici, yalnızca istediğiniz içeriği görmeniz, reklamsız bir göz atma deneyimi yaşamanızı sağlamak için DNS (Alan Adı Sistemi) sunucularını kullanan ücretsiz bir uygulamadır.
 
-There is also a built in VPN that is optional to use.
+Ayrıca isteğe bağlı olarak kullanılabilen yerleşik bir VPN'e de sahiptir.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Projenin web sitesi: https://blokada.org. Web sitesindeki sürüm daha fazla özelliğe sahiptir ve ayrıca ücretsizdir.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Sorularınız veya geri bildirimleriniz varsa Telegram sohbetimizden bize katılın: https://go.blokada.org/chat
 
 ----
 
-Best features:
+En iyi özellikleri:
 - ROOT izni gerektirmez!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+- Tüm web tarayıcılarını ve uygulamaları destekler.
+- Tüm modern tarayıcılar için DNS tabanlı yakalama (VPN modu).
+- Kötü amaçlı içerik, virüs ve sahte web siteleri yayan siteleri engeller.
 
-The most compatible ad blocker on the market!
+Piyasadaki en uyumlu reklam engelleyici!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Reklamları engelleyin • Veri planınızdan tasarruf edin • Daha az veri yükleyerek DAHA HIZLI göz atın • Pil ömrünü uzatın
