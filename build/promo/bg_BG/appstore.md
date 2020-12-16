@@ -8,12 +8,12 @@ Blokada за iOS е безплатно приложение, което изпо
 
 Най-хубавите характеристики:
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Поддържа блокиране на реклами за всеки инсталиран уеб браузър и приложение.
+- Блокира сайтове, които разпространяват злонамерено съдържание, вируси и измамни уебсайтове.
+- DNS базирано прихващане (VPN режим) за всички съвременни браузъри.
+- Бърз и надежден VPN, който защитава вашата поверителност и криптира вашите данни.
 
-The most compatible ad blocker on the market!
+Най-съвместимият рекламен блокер на пазара!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
