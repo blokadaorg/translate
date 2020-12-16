@@ -4,17 +4,17 @@ Blokada Slim Ad blocker - لا إعلانات ، بطاريّة أفضل
 
 هذا هو التطبيق الرسمي الوحيد في متجر Play من مشروع بلوكادا مفتوح المصدر. احذر من الإصدارات المنسوخة ، فقد تحتوي على كودات برمجيّة ضارّة.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker هو تطبيق مجّاني يَستخدم خوادِم DNS (نظام أسماء النطاقات) لتمكينك من الحصول على تجربة تصفّح خالية من الإعلانات لمشاهدة المحتوى الذي تريده فقط.
 
-There is also a built in VPN that is optional to use.
+هناك أيضاً شبكة VPN مدمجة اختياريّة للإستخدام.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+موقع المشروع هو: https://blokada.org. الإصدار الموجود في الموقع يحتوي على المزيد من الميِّزات و هو مجّاني أيضاً.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+انضم إلينا في دردشة Telegram إذا كانت لديك أسئلة أو ملاحظات: https://go.blokada.org/chat
 
 ----
 
-Best features:
+أهمّ الميّزات:
 - NO root permissions required!
 - Supports every web browser and apps.
 - DNS based interception (VPN mode) for all modern browsers.
