@@ -6,7 +6,7 @@
 
 ----
 
-Top features:
+أهمّ الميّزات:
 
 - Supports ad-blocking for every web browser and other app installed.
 - Blocks sites that distribute malicious content, viruses and fraudulent websites.
