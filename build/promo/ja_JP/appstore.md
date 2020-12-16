@@ -21,4 +21,4 @@ Blokada for iOS は、DNS (Domain Name System) サーバーを使用して広告
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+利用規約：https://go.blokada.org/terms プライバシーポリシー：https://go.blokada.org/privacy
