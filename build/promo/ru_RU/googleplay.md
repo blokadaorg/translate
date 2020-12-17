@@ -8,18 +8,18 @@ Blokada Slim Ad blocker - это бесплатное приложение, ко
 
 Существует также встроенный VPN, который можно использовать опционально.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Сайт проекта: https://blokada.org. Версия с сайта имеет больше функций и также является бесплатной.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Присоединяйтесь к нам в чате Telegram, если у вас есть вопросы или отзывы: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Главные возможности:
+- НЕ требуются права root!
+- Поддерживает любой браузер и приложения.
+- DNS-перехват (VPN-режим) для всех современных браузеров.
+- Блокирует сайты, распространяющие вредоносный контент, вирусы и мошеннические сайты.
 
-The most compatible ad blocker on the market!
+Самый совершенный блокировщик рекламы на рынке!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Блокирует рекламу • Сохраняет трафик • БЫСТРЕЕ загружает сайты • Увеличивает время автономной работы
