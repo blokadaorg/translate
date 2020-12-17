@@ -1,24 +1,24 @@
-This is the official app on App Store from the Blokada open source project.
+Este é o aplicativo oficial na App Store do projeto de código aberto Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+O Blokada para iOS é um aplicativo gratuito que usa servidores DNS (Domain Name System) para permitir que você tenha uma experiência de navegação sem anúncios para ver apenas o conteúdo que você deseja.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
-
-----
-
-Top features:
-
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
-
-The most compatible ad blocker on the market!
-
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
-
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Também há uma VPN embutida que é opcional para uso. Com a VPN do Blokada Plus, você pode navegar na web com privacidade e proteger sua Internet contra ataques virtuais e hackers.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Principais recursos:
+
+- Suporta bloqueio de anúncios para todos os navegadores web e outros aplicativos instalados.
+- Bloqueia sites que distribuem conteúdos maliciosos, vírus e sites fraudulentos.
+- Interceptação baseada em DNS (modo VPN) para todos os navegadores modernos.
+- VPN rápida e confiável que protege sua privacidade e criptografa seus dados.
+
+O bloqueador de anúncios mais compatível no mercado!
+
+• Bloqueia anúncios • Economiza seu plano de dados • Navegue MAIS RÁPIDO por carregar menos dados • Aumente a duração da bateria
+
+O que pode ser bloqueado? • Blocos de anúncios irritantes: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Bloqueia sites adultos • Bloqueia sites de jogos de azar • Bloqueia rastreadores de mídia social: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Bloqueia sites maliciosos: Downloads de vírus, conteúdo malicioso, sites fraudulentos e aplicativos manipulados • Aplicativo Blokada Plus Bloqueador de Anúncios para iOS.
+
+----
+
+Termos de Uso: https://go.blokada.org/terms Política de Privacidade: https://go.blokada.org/privacy
