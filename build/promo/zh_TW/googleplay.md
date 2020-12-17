@@ -1,4 +1,4 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim 廣告封鎖程式 - 無廣告，更好的電池壽命
 
 Protect your privacy for free with the official Blokada app.
 
