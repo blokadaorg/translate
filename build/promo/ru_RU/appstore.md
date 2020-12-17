@@ -13,12 +13,12 @@ Blokada для iOS - это бесплатное приложение, кото�
 - DNS-перехват (VPN-режим) для всех современных браузеров.
 - Быстрый и надежный VPN, который защищает вашу конфиденциальность и шифрует ваши данные.
 
-The most compatible ad blocker on the market!
+Самый совершенный блокировщик рекламы на рынке!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Блокирует рекламу • Сохраняет трафик • БЫСТРЕЕ загружает сайты • Увеличивает время автономной работы
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Что можно заблокировать? • Блокирует надоедливую рекламу: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon и т.д. • Блокирует сайты для взрослых. • Блокирует сайты с азартными играми. • Блокирует трекеры социальных сетей: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Блокирует вредоносные веб-сайты: загрузку вирусов, вредоносный контент, мошеннические веб-сайты и манипулирующие приложения. • Приложение Blokada Plus Adblock для iOS.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Условия использования: https://go.blokada.org/terms Политика конфиденциальности: https://go.blokada.org/privacy
