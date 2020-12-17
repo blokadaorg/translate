@@ -2,23 +2,23 @@
 
 iOS 上的 Blokada 是免費的應用程式，它使用 DNS（網域名稱系統）伺服器來讓您獲得無廣告的瀏覽體驗，僅檢視您想要的內容。
 
-還有一個可以選擇使用的內建 VPN。 With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+還有一個可以選擇使用的內建 VPN。 使用 Blokada Plus VPN，您可以有隱私地瀏覽網路，並保護您的網既網路不受網路攻擊與駭客。
 
 ----
 
-Top features:
+主要功能：
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- 支援為每個網路瀏覽器與其他已安裝的應用程式阻擋廣告。
+- 封鎖散佈惡意內容、病毒與詐欺的網站。
+- 適用於所有現代瀏覽器的以 DNS 為基礎的攔截（VPN 模式）。
+- 快速可靠的 VPN，可保護您的隱私並加密您的資料。
 
-The most compatible ad blocker on the market!
+市場上相容性最高的廣告封鎖器！
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• 封鎖廣告 • 節省您的流量方案 • 透過載入更少的資料讓瀏覽更快 • 延長電池壽命
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+可以封鎖什麼？ • 封鎖惱人的廣告：Google AdWords、Google Invite Media、DoubleClick Bid Manager、Liftoff、Bing Ads、Amazon 等等 • 封鎖成人網站 • 封鎖賭博網站 • 封鎖社交媒體追蹤器：Google Analytics、Facebook Connect、DoubleClick、Google Publisher Tags、Google AdSense、Twitter Button、Yandex.Metrix、Comscore • 封鎖惡意網站：下載病毒、惡意內容、欺詐性網站與被操縱的應用程式 • Blokada Plus 廣告封鎖 iOS 應用程式。
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+使用條款：https://go.blokada.org/terms 隱私權政策：https://go.blokada.org/privacy
