@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim - Tak ada iklan, awet baterai
 
-Protect your privacy for free with the official Blokada app.
+Lindungi privasi Anda secara gratis dengan aplikasi resmi Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Aplikasi ini adalah satu-satunya aplikasi resmi Blokada di Play Store. Hati-hati terhadap aplikasi tiruan yang kemungkinan berisi kode yang bisa merusak perangkat Anda.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim adalah aplikasi gratis yang memanfaatkan server DNS (Domain Name Server) yang memungkinkan Anda untuk meramban dunia maya tanpa diganggu iklan.
 
-There is also a built in VPN that is optional to use.
+Kami juga menyediakan fungsionalitas VPN terintegrasi yang bersifat opsional.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Situs resmi Blokada adalah: https://blokada.org. Versi yang bisa Anda dapat di website kami memiliki lebih banyak fitur, dan tentu saja gratis.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Bergabunglah bersama grup Telegram kami jika Anda punya pertanyaan atau masukan: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Fitur-fitur terbaik:
+- Tidak perlu root!
+- Mendukung semua browser dan aplikasi.
+- Pencegatan berbasis DNS (VPN mode) untuk semua browser modern.
+- Memblokir situs-situs yang menebar konten berbahaya, virus, dan penipuan.
 
-The most compatible ad blocker on the market!
+Aplikasi pemblokir iklan paling sesuai yang ada di pasaran saat ini!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Memblokir iklan • Menghemat paket data Anda • Browsing LEBIH CEPAT dengan menggunakan data lebih sedikit • Meningkatkan daya tahan baterai
