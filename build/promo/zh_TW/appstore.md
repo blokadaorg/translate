@@ -1,8 +1,8 @@
-This is the official app on App Store from the Blokada open source project.
+這是 Blokada 開放原始碼專案在 App Store 上的官方應用程式。
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+iOS 上的 Blokada 是免費的應用程式，它使用 DNS（網域名稱系統）伺服器來讓您獲得無廣告的瀏覽體驗，僅檢視您想要的內容。
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+還有一個可以選擇使用的內建 VPN。 With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
 
 ----
 
