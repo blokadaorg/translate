@@ -1,8 +1,8 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Bloqueador de anúncios Blokada Slim - Sem Anúncios, bateria melhorada
 
-Protect your privacy for free with the official Blokada app.
+Proteja sua privacidade gratuitamente com o aplicativo oficial do Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Este é o único aplicativo oficial na Play Store do projeto de código aberto Blokada. Beware of clones, they may contain malicious code.
 
 Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
 
