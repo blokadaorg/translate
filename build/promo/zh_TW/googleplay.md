@@ -1,25 +1,25 @@
 Blokada Slim 廣告封鎖程式 - 無廣告，更好的電池壽命
 
-Protect your privacy for free with the official Blokada app.
+使用免費的官方 Blokada 應用程式來保護您的隱私。
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+這是 Blokada 開放原始碼專案在 Play 商店上唯一的官方應用程式。 當心複製品，它們可能包含惡意程式碼。
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker 是免費的應用程式，它使用 DNS（網域名稱系統）伺服器來讓您獲得無廣告的瀏覽體驗，僅檢視您想要的內容。
 
-There is also a built in VPN that is optional to use.
+還有一個可以選擇使用的內建 VPN。
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+專案的網站為：https://blokada.org. 網站上的版本功能更多，而且也是免費的。
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+如果您有問題或回饋的話，請在 Telegram 上加入我們：https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+最佳功能：
+- 不需要 root 權限！
+- 支援所有網路瀏覽器與應用程式。
+- 適用於所有現代瀏覽器的以 DNS 為基礎的攔截（VPN 模式）。
+- 封鎖散佈惡意內容、病毒與詐欺的網站。
 
-The most compatible ad blocker on the market!
+市場上相容性最高的廣告封鎖器！
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• 封鎖廣告 • 節省您的流量方案 • 透過載入更少的資料讓瀏覽更快 • 延長電池壽命
