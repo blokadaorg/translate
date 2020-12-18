@@ -17,7 +17,7 @@ Aplikasi pemblokir iklan paling sesuai yang ada di pasaran saat ini!
 
 • Memblokir iklan • Menghemat paket data Anda • Browsing LEBIH CEPAT dengan menggunakan data lebih sedikit • Meningkatkan daya tahan baterai
 
-Apa saja yang bisa diblokir? • Memblokir iklan menyebalkan dari: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, dll • Memblokir situs berisi konten dewasa • Memblokir situs perjudian • Memblokir tracker media sosial seperti: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Memblokir situs-situs mencurigakan: virus, konten berbahaya, situs penipuan dan aplikasi yang sudah dimanipulasi • Aplikasi iOS pemblokir iklan Blokada Plus.
+Apa saja yang bisa diblokir? • Memblokir iklan menyebalkan yang berasal dari: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, dll • Memblokir situs berisi konten dewasa • Memblokir situs perjudian • Memblokir tracker media sosial seperti: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Memblokir situs-situs mencurigakan: virus, konten berbahaya, situs penipuan dan aplikasi yang sudah dimanipulasi • Aplikasi iOS pemblokir iklan Blokada Plus.
 
 ----
 
