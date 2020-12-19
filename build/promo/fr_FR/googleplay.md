@@ -14,7 +14,7 @@ Rejoignez notre chat Telegram si vous avez des questions ou des commentaires : h
 
 ----
 
-Best features:
+Meilleures fonctionnalités :
 - NO root permissions required!
 - Prend en charge tous les navigateurs web et applis.
 - Interception DNS (mode VPN) pour tous les navigateurs modernes.
