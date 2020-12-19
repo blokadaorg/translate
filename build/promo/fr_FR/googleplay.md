@@ -18,8 +18,8 @@ Best features:
 - NO root permissions required!
 - Prend en charge tous les navigateurs web et applis.
 - Interception DNS (mode VPN) pour tous les navigateurs modernes.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+- Bloque les sites diffusant des contenus malveillants, virus et autres sites frauduleux.
 
 The most compatible ad blocker on the market!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Bloque les publicités • Économise votre forfait Internet • Naviguez PLUS VITE en chargeant moins de données • Diminue la consommation de la batterie
