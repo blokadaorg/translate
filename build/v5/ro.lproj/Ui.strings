@@ -225,6 +225,8 @@
 "account action restoring" = "Recuperare cont: %@";
 "account label enter to continue" = "Introduceți ID-ul contului dvs. pentru a continua";
 "account restore description" = "Nu-ți face griji, dacă ți-ai pierdut sau ai uitat ID-ul de cont, îl putem recupera. Te rugăm să contactezi asistența noastră și să ne furnizezi informații care ne vor permite să identificăm achiziția ta (de ex. ultimele 4 cifre ale cardului de credit sau e-mailul PayPal).";
+"account create description" = "Acesta este ID-ul contului dvs. Notați-l și păstrați-l secret. Este singurul mod de a vă accesa abonamentul.";
+"account create confirm" = "L-am notat";
 
 "account section header my subscription" = "Abonamentul meu";
 "account section header general" = "Preferințe generale";
@@ -324,12 +326,14 @@
 "payment redirect desc" = "Vă rugăm să așteptați. Acest lucru ar trebui să dureze doar un moment.";
 
 "payment ongoing title" = "Plata dvs. este acum în curs de procesare.";
+"payment ongoing desc" = "Plățile cu cardul de credit nu ar trebui să dureze mai mult de câteva minute. Plățile prin criptomonede durează de obicei până la o oră, în funcție de taxa de tranzacție pe care ați ales-o. În cazul PayPal, poate dura până la 24 de ore. Veți fi redirecționat odată ce contul dvs. este pregătit. Puteți închide acest ecran și să vă întoarceți mai târziu. Dacă vi se pare că tranzacția durează prea mult, vă rugăm să ne contactați.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Modifică";
 "payment action pay" = "Plătește %@";
 "payment action pay period" = "Plătiți%@ € în fiecare perioadă";
 "payment label email" = "E-mail";
+"payment crypto desc" = "Pentru a plăti cu portofelul de criptomonede, apăsați butonul de mai jos.";
 "payment label choose package" = "Alegeţi pachetul";
 "payment label choose payment method" = "Alege metoda de plată";
 "payment label cheapest" = "Cel mai ieftin";
@@ -342,6 +346,9 @@
 "payment package twelve months" = "12 Luni";
 "payment label discount" = "Salvează %@ (%@ / lună)";
 "payment label country" = "Țara";
+
+"payment euro desc" = "Suntem stabiliți în Europa, așadar acceptăm Euro: €10 sunt aproximativ $12.";
+"payment donate disclaimer" = "Aceasta nu vă va activa contul Blokada Plus. Dacă doriți să folosiți serviciul nostru VPN, vă rugăm să vă abonați în loc să donați.";
 
 "apps section header" = "Aplicații";
 "apps label installed" = "Instalat";
