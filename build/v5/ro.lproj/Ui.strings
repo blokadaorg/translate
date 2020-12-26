@@ -70,6 +70,8 @@
 "universal action selected" = "Selectat";
 // A verb "to search in the list"
 "universal action search" = "Căutare";
+// A verb "to filter the list"
+"universal action filter" = "Filtru";
 // A verb "to clear the list"
 "universal action clear" = "Curăță";
 
@@ -79,6 +81,7 @@
 "universal status copied to clipboard" = "Copiat în Clipboard";
 "universal status restart required" = "Vă rugăm să reporniţi aplicaţia pentru ca modificările să aibă efect.";
 "universal status redirect" = "Continuă cu aplicația Blokada";
+"universal status confirm" = "Sunteţi sigur că doriţi să continuaţi?";
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ a expirat";
@@ -195,6 +198,9 @@
 "activity filter show blocked" = "Arată doar blocate";
 "activity filter show allowed" = "Arată doar permise";
 "activity empty text" = "Încercaţi să utilizaţi dispozitivul şi reveniţi aici mai târziu pentru a vedea unde se conectează dispozitivul dvs.";
+
+"userdenied section header" = "Blocajele mele";
+"userdenied section slugline" = "Gestionați blocarea anumitor site-uri";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Permis";
 // A section name for the list of hosts blocked by user
