@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Ad Blocker - Keine Werbung, bessere Akkulaufzeit
 
-Protect your privacy for free with the official Blokada app.
+Schütze deine Privatsphäre kostenlos mit der offiziellen Blokada App.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Dies ist die einzige offizielle App im Play Store aus dem Open-Source-Projekt von Blokada. Vorsicht vor Fälschungen, sie können bösartigen Code enthalten.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker ist eine kostenlose App, die DNS-Server (Domain Name System) verwendet, um ein Werbefreies Surfen zu ermöglichen, um nur die gewünschten Inhalte zu zeigen.
 
-There is also a built in VPN that is optional to use.
+Es gibt auch ein eingebautes VPN, das optional verwendet werden kann.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Die Webseite des Projekts ist: https://blokada.org. Die Version von der Website hat mehr Funktionen und ist auch kostenlos.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Trete unserem Telegram-Chat bei Fragen oder Feedback bei: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Beste Funktionen:
+- KEINE Root-Berechtigungen erforderlich!
+- Unterstützt jeden Web-Browser und -Apps.
+- DNS-basiertes Abfangen (VPN-Modus) für alle modernen Browser.
+- Blockiert Websites, die schädliche Inhalte, Viren und betrügerische Websites verbreiten.
 
-The most compatible ad blocker on the market!
+Der kompatibelste Werbeblocker auf dem Markt!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Blockiert Werbung • Speichert deinen Datenplan • Surfe schneller, indem weniger Daten geladen werden • Verlängere die Akkulaufzeit
