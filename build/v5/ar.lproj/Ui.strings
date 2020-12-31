@@ -220,6 +220,13 @@
 "networks action use dns" = "استخدام DNS: %@";
 "networks action use network dns" = "استخدم DNS الذي توفّره الشبكة";
 "networks action deactivate plus" = "إلغاء تنشيط Blokada Plus (VPN)";
+"networks label specific network" = "اضبط ما يجب أن يحدث عندما يتّصل جهازك بهذه الشبكة.";
+"networks label network type" = "نوع الشبكة";
+"networks type wifi" = "شبكة WiFi";
+"networks type mobile" = "شبكة الهاتف";
+"networks alert no network dns" = "لم تحدِّد هذه الشبكة أي DNS. حاول إعادة الاتصال بهذه الشبكة.";
+"networks permission request" = "لاستخدام هذه الميّزة، تحتاج إلى منح الأذونات التي تسمح للتطبيق بالتعرّف على الشبكات.";
+"networks section choose dns" = "اختر DNS";
 
 
 "account section header settings" = "الإعدادات";
@@ -400,6 +407,8 @@
 
 "intro header" = "بلوكادا نَشِط!";
 "intro text" = "الدائرة الزرقاء تعني أن بلوكادا يعمل.\n\nتذكّر، بعض الإعلانات، مثل يوتيوب، لا يمكن حظرها. ومع ذلك، ستلاحظ وجود فرق في العديد من التطبيقات الأُخرى.\n\nننصحك بتفعيل ميِّزة إبقاء VPN مُفَعَّل / الإتصال إثناء الطلب، الموجودان في إعدادات النظام الخاص بك.";
+
+"location region worldwide" = "في كل مكان";
 "location region america" = "أمريكا";
 "location region europe" = "أوروبا";
 "location region asia" = "آسيا";
