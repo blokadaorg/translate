@@ -215,6 +215,19 @@
 "networks label configuration active" = "これらの設定は有効です";
 "networks label configuration enabled" = "このネットワークに接続されていません";
 "networks label configuration inactive" = "タップしてこのネットワークの設定を変更します";
+"networks label details default network" = "以下の設定は、すべてのネットワークにデフォルトで適用されます。任意のネットワークの設定を（前の画面で）上書きできます。";
+"networks action encrypt dns" = "利用可能な場合 DNS を暗号化する";
+"networks action never encrypt dns" = "DNS を暗号化しない";
+"networks action use dns" = "DNSを使用：%@";
+"networks action use network dns" = "ネットワークの DNS を使用する";
+"networks action deactivate plus" = "Blokada Plus VPN を無効にする";
+"networks label specific network" = "このネットワークに接続されたときの動作を設定します。";
+"networks label network type" = "ネットワークの種類";
+"networks type wifi" = "Wi-Fi ネットワーク";
+"networks type mobile" = "モバイルネットワーク";
+"networks alert no network dns" = "このネットワークは DNS を指定していません。再接続してみてください。";
+"networks permission request" = "この機能を使用するには、ネットワークを認識する権限を許可する必要があります。";
+"networks section choose dns" = "DNSを選択";
 
 
 "account section header settings" = "設定";
@@ -395,6 +408,8 @@
 
 "intro header" = "Blokadaは有効です！";
 "intro text" = "青いリングはBlokadaが動作していることを意味します。\n\n YouTubeなどの一部の広告はブロックできません。 ただし、他の多くのアプリには有効です。\n\n システム設定で常時接続VPN (Android) / オンデマンド接続 (iOS) を有効にすることをお勧めします。";
+
+"location region worldwide" = "すべての場所";
 "location region america" = "アメリカ";
 "location region europe" = "ヨーロッパ";
 "location region asia" = "アジア";
