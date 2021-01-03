@@ -217,11 +217,14 @@
 "networks label details default network" = "以下の設定は、すべてのネットワークにデフォルトで適用されます。任意のネットワークの設定を（前の画面で）上書きできます。";
 "networks action encrypt dns" = "DNSを暗号化";
 "networks action use dns" = "DNSを使用：%@";
-"networks action use network dns" = "ネットワークDNSを優先";
+"networks action use network dns" = "ネットワーク DNS";
 "networks label specific network" = "このネットワークに接続されたときの動作を設定します。";
 "networks label network type" = "ネットワークの種類";
 "networks type wifi" = "Wi-Fi ネットワーク";
 "networks type mobile" = "モバイルネットワーク";
+// As in "any (wifi) network"
+"networks match any" = "（任意）";
+"networks permission request" = "さらにコントロールするには、タップしてアプリにすべてのネットワークを認識させます。";
 "networks section choose dns" = "DNS を選択";
 
 
