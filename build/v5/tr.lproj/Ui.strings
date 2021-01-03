@@ -209,17 +209,21 @@
 "networks section header" = "Ağlar";
 "networks section label" = "Kablosuz ve mobil ağlar için ayarları yapın";
 "networks label all networks" = "Tüm ağlar";
+"networks action network specific" = "Varsayılan ayarları değiştirmek için buraya dokunun. Uygulamanın bazı ağlarda farklı davranmasını sağlamak için aşağıya dokunun.";
 "networks label configuration active" = "Bu ayarlar şu anda aktif";
 "networks label configuration enabled" = "Bu ağa bağlı değil";
 "networks label configuration inactive" = "Bu ağın ayarlarını değiştirmek için dokunun";
 "networks label details default network" = "Aşağıdaki ayarlar tüm ağlar için varsayılan olarak uygulanır. Seçili ağlar (önceki ekranda) için bunların üzerine yazabilirsiniz.";
-"networks action encrypt dns" = "DNS'i şifrele";
+"networks action encrypt dns" = "DNS'yi şifrele";
 "networks action use dns" = "DNS'i kullan: %@";
-"networks action use network dns" = "Ağ DNS'ini tercih et";
+"networks action use network dns" = "Ağ DNS'sini tercih et";
 "networks label specific network" = "Cihazınız bu ağa bağlandığında ne olacağını ayarlayın.";
 "networks label network type" = "Ağ türü";
 "networks type wifi" = "Kablosuz ağ";
 "networks type mobile" = "Mobil ağ";
+// As in "any (wifi) network"
+"networks match any" = "(herhangi)";
+"networks permission request" = "Daha fazla kontrole sahip olmak için buraya dokunun ve uygulamanın tüm ağları tanımasına izin verin.";
 "networks section choose dns" = "DNS seç";
 
 
