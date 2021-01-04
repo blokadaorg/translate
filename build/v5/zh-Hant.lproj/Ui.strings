@@ -213,6 +213,18 @@
 "networks label configuration active" = "這些設定目前正作用中";
 "networks label configuration enabled" = "未連線至此網路";
 "networks label configuration inactive" = "點擊以修改此網路設定";
+"networks label details default network" = "預設情況下，下方的設定會套用到所有網路。您可以在選定的網路上覆寫它們（在前一個畫面）。";
+"networks action encrypt dns" = "加密 DNS";
+"networks action use dns" = "使用 DNS：%@";
+"networks action use network dns" = "偏好網路 DNS";
+"networks label specific network" = "調整您的裝置連線到此網路時應該發生的狀況。";
+"networks label network type" = "網路類型";
+"networks type wifi" = "WiFi 網路";
+"networks type mobile" = "行動網路";
+// As in "any (wifi) network"
+"networks match any" = "（任何）";
+"networks permission request" = "要進行更多控制，請點擊此處並讓應用程式識別所有網路。";
+"networks section choose dns" = "選擇 DNS";
 
 
 "account section header settings" = "設定";
@@ -393,6 +405,8 @@
 
 "intro header" = "Blokada 運作中！";
 "intro text" = "藍色圈圈表示 Blokada 正在運作。\n\n注意，某些廣告（像是 YouTube）無法阻擋。但您會在其他 APP 發現多有不同。\n\n我們建議您在系統設定中啟用「永久連線的 VPN」／「需要時連線」。";
+
+"location region worldwide" = "到處";
 "location region america" = "美洲";
 "location region europe" = "歐洲";
 "location region asia" = "亞洲";
