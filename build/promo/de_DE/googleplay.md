@@ -2,7 +2,7 @@ Blokada Slim Ad Blocker - Keine Werbung, bessere Akkulaufzeit
 
 Schütze deine Privatsphäre kostenlos mit der offiziellen Blokada App.
 
-Dies ist die einzige offizielle App im Play Store aus dem Open-Source-Projekt von Blokada. Vorsicht vor Fälschungen, sie können bösartigen Code enthalten.
+Dies ist die einzige offizielle App im Play Store des Blokada-Open-Source-Projekts. Vorsicht vor Fälschungen, sie können bösartigen Code enthalten.
 
 Blokada Slim Ad blocker ist eine kostenlose App, die DNS-Server (Domain Name System) verwendet, um ein Werbefreies Surfen zu ermöglichen, um nur die gewünschten Inhalte zu zeigen.
 
@@ -22,4 +22,4 @@ Beste Funktionen:
 
 Der kompatibelste Werbeblocker auf dem Markt!
 
-• Blockiert Werbung • Speichert deinen Datenplan • Surfe schneller, indem weniger Daten geladen werden • Verlängere die Akkulaufzeit
+• Blockiert Werbung • Schont deinen Datentarif • Surfe schneller, indem weniger Daten geladen werden • Verlängere die Akkulaufzeit
