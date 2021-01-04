@@ -1,4 +1,4 @@
-Dies ist die offizielle App im App Store vom Blokada Open Source Projekt.
+Dies ist die offizielle App im App Store des Blokada-Open-Source-Projekts.
 
 Blokada für iOS ist eine kostenlose App, die DNS-Server (Domain Name System) verwendet, um dir ein werbefreies Surfen zu ermöglichen, damit du nur gewünschte Inhalte siehst.
 
@@ -15,9 +15,9 @@ Top-Funktionen:
 
 Der kompatibelste Werbeblocker auf dem Markt!
 
-• Blockiert Werbung • Speichert deinen Datenplan • Surfe schneller, indem weniger Daten geladen werden • Verlängere die Akkulaufzeit
+• Blockiert Werbung • Schont deinen Datentarif • Surfe schneller, indem weniger Daten geladen werden • Verlängere die Akkulaufzeit
 
-Was kann blockiert werden? • Blockieren von nerviger Werbung: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blockieren von Erwachsenen-Websites • Blockieren von Glücksspiel-Websites • Blockieren von Social Media Trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comscore • Blockieren von bösartigen Webseiten: Viren-Downloads, bösartige Inhalte, betrügerische Websites und manipulierte Apps • Blokada Plus Adblock iOS App.
+Was kann blockiert werden? • Blockieren von nerviger Werbung: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blockieren von Erwachsenen-Websites • Blockieren von Glücksspiel-Websites • Blockieren von Social Media-Trackern: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comscore • Blockieren von bösartigen Websites: Viren-Downloads, bösartige Inhalte, betrügerische Websites und manipulierte Apps • Blokada Plus Adblock iOS App.
 
 ----
 
