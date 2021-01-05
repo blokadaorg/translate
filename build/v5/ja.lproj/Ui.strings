@@ -24,7 +24,7 @@
 "error account inactive after restore" = "有効なアカウントではありません。これが間違いであると思われる場合は、ヘルプからご連絡ください。";
 "error account invalid" = "アカウントを確認してください";
 "error creating account" = "新しいアカウントを作成できませんでした。後でもう一度お試しください。";
-"error fetching data" = "この操作は完了できませんでした。オンラインであることを確認し、時間を置いてもう一度やり直してください。 問題が解決しない場合は、ヘルプからご連絡ください。";
+"error fetching data" = "この操作は完了できませんでした。オンラインであることを確認し、時間を置いてもう一度やり直してください。問題が解決しない場合は、ヘルプからご連絡ください。";
 "error tunnel" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokadaのVPNプロファイルを削除して再度お試しください。";
 "error vpn" = "VPN接続を確立できませんでした。デバイスを再起動するか、システム設定でBlokadaのVPNプロファイルを削除して再度お試しください。";
 "error vpn perms" = "VPNプロファイルを作成する権限がありません。";
@@ -33,10 +33,10 @@
 "error vpn expired" = "VPNは無効です。BLOKADA+を引き続き使用するには、サブスクリプションを更新してください。";
 "error payment inactive after restore" = "以前のお支払いは復元されましたが、サブスクリプションの有効期限が終了しています。これが間違いであると思われる場合は、ヘルプからご連絡ください。";
 "error payment failed" = "現在、お支払いいただくことができません。オンラインであることを確認して、時間を置いてもう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
-"error payment failed alternative" = "お支払いを完了できませんでした。入力内容が正しいことを確認して、もう一度やり直してください。 問題が解決しない場合は、ヘルプからご連絡ください。";
+"error payment failed alternative" = "お支払いを完了できませんでした。入力内容が正しいことを確認して、もう一度やり直してください。問題が解決しない場合は、ヘルプからご連絡ください。";
 "error payment not available" = "このデバイスではお支払いはご利用いただけません。Apple Pay が有効になっていないか、お住まいの国での購入はまだ処理されていません。";
 "error payment canceled" = "お支払いがキャンセルされました。入金されていません。";
-"error pack install" = "この機能をインストール(またはアンインストール) できませんでした。後でもう一度お試しください。";
+"error pack install" = "この機能をインストール（またはアンインストール）できませんでした。後でもう一度お試しください。";
 "error location failed fetching" = "場所を取得できませんでした。";
 "error unknown" = "不明な問題が発生しました。もう一度やり直してください。問題が解決しない場合は、ヘルプからご連絡ください。";
 "error blocka dns in filtering mode" = "Blokada DNSは現在Plusモードでのみサポートされています。別のDNSを選択して再度お試し下さい。";
@@ -213,7 +213,7 @@
 "userdenied tab blocked" = "ブロックリスト";
 
 "networks section header" = "ネットワーク";
-"networks section label" = "Wi-Fi とモバイルネットワークの設定を管理する";
+"networks section label" = "Wi-Fiとモバイルネットワークの設定を管理する";
 "networks label all networks" = "すべてのネットワーク";
 "networks action network specific" = "デフォルトの設定を変更するには、ここをタップしてください。一部のネットワークでアプリの動作を変更するには、下をタップしてください。";
 "networks label configuration active" = "これらの設定は有効です";
@@ -222,15 +222,15 @@
 "networks label details default network" = "以下の設定は、すべてのネットワークにデフォルトで適用されます。任意のネットワークの設定を（前の画面で）上書きできます。";
 "networks action encrypt dns" = "DNSを暗号化";
 "networks action use dns" = "DNSを使用：%@";
-"networks action use network dns" = "ネットワーク DNS";
+"networks action use network dns" = "ネットワークDNS";
 "networks label specific network" = "このネットワークに接続されたときの動作を設定します。";
 "networks label network type" = "ネットワークの種類";
-"networks type wifi" = "Wi-Fi ネットワーク";
+"networks type wifi" = "Wi-Fiネットワーク";
 "networks type mobile" = "モバイルネットワーク";
 // As in "any (wifi) network"
 "networks match any" = "（任意）";
 "networks permission request" = "さらにコントロールするには、タップしてアプリにすべてのネットワークを認識させます。";
-"networks section choose dns" = "DNS を選択";
+"networks section choose dns" = "DNSを選択";
 "networks alert network dns and plus mode" = "Blokadaは、ネットワークDNSが使用されるたびにBlokada Plus VPNを一時的に無効にします。これはVPNでネットワークDNSにアクセスできないためです。デバイスが別のネットワークに切り替わると、Blokada Plus VPNは自動的に復元されます。";
 
 
@@ -250,7 +250,7 @@
 "account action create" = "新しいアカウントを生成";
 "account action about" = "アプリについて";
 "account action tap to show" = "タップして表示";
-"account action restoring" = "アカウントを復元中: %@";
+"account action restoring" = "アカウントを復元中：%@";
 "account label enter to continue" = "続行するにはアカウントIDを入力してください";
 "account restore description" = "アカウントIDを紛失または忘れてしまった場合、 当社のサポートに連絡してください。その際、お客様の購入を確認するためにクレジットカードの下4桁またはPayPalメールを提供してください。";
 "account create description" = "これはあなたのアカウントIDです。サブスクリプションにアクセスする唯一の方法です。他の人から見られない場所で確実に保管してください。";
@@ -271,12 +271,12 @@
 "account unlock to show" = "ロックを解除してアカウントIDを表示する";
 
 "account header logout" = "購入を復元";
-"account logout description" = "別のアカウントIDを入力するか、戻って既存のアカウントを引き続き使用してください (アカウントを利用せずこのアプリを使用することはできません)";
+"account logout description" = "別のアカウントIDを入力するか、戻って既存のアカウントを引き続き使用してください（アカウントを利用せずこのアプリを使用することはできません）";
 "account id status unchanged" = "(変更なし)";
 "account action how to restore" = "古いアカウントを復元する方法";
 
 "account subscription days remaining" = "残りの日数：%@";
-"account devices remaining" = "残りのデバイス: %@";
+"account devices remaining" = "残りのデバイス：%@";
 "account devices not available" = "利用できません";
 "account devices out of" = "%@ / %@";
 
