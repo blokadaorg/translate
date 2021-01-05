@@ -166,7 +166,7 @@
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">ログ</string>
     <string name="slot_help_label">お困りですか？</string>
-    <string name="slot_help_desc">下のボタンをタップしてヘルプページを開きます。 私たちにはTelegram、Facebook、Reddit、Twitterのアカウントがあり、ソーシャルメディアを利用することもできます。</string>
+    <string name="slot_help_desc">下のボタンをタップしてヘルプページを開きます。私たちとTelegram、Facebook、Reddit、Twitterといったソーシャルメディアでコンタクトすることもできます。</string>
     <!-- A button to open help -->
     <string name="slot_help_action">ヘルプ</string>
     <string name="slot_donate_label">Blokadaを楽しんでいますか？私たちをサポートすることを検討してください。アプリを改善し続けることができます。</string>
@@ -174,7 +174,7 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">寄付</string>
     <string name="slot_cta_label">あなたの意見をお聞かせください</string>
-    <string name="slot_cta_desc">アンケートやその他のイベントに参加して私たちサポートしてください。 私たちはあなたのアイデアを聴き、必要とされる開発に取り組んでいることを確認するために定期的にコミュニティにフィードバックを提供しています。</string>
+    <string name="slot_cta_desc">アンケートやその他のイベントに参加して私たちサポートしてください。私たちはあなたのアイデアを聴き、必要とされる開発に取り組んでいることを確認するために定期的にコミュニティにフィードバックを提供しています。</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">開く</string>
     <string name="slot_blog_label">私たちの開発ブログをチェックしてください！</string>
@@ -183,14 +183,14 @@
     <string name="slot_blog_action">開く</string>
     <string name="slot_updated_desc">タップして今回のリリースの概要を確認</string>
     <!-- A button to open a description website of current app version after update. -->
-    <string name="slot_obsolete_desc">ご使用のBlokadaのバージョンは最新ではないため、正しく機能しない可能性があります。 アップデートを導入するには、最新バージョンをダウンロードしてください。</string>
+    <string name="slot_obsolete_desc">ご使用のBlokadaのバージョンは最新ではないため、正しく機能しない可能性があります。アップデートを導入するには、最新バージョンをダウンロードしてください。</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">お使いのデバイスにBlokadaの多くのバージョンがインストールされているようです。他のバージョンを削除して、1つだけ保持しますか？</string>
     <string name="account_inactive">続行するにはアカウントをアクティベートまたは復元してください。</string>
     <string name="slot_lease_cant_connect">Blokada Plusに接続できませんでした。別のゲートウェイを選択してください。</string>
     <string name="slot_account_cant_create">Blokada Plusアカウントを作成できませんでした。後でもう一度お試しいただくか、お問い合わせください。</string>
     <string name="slot_account_name_title">アカウントID</string>
-    <string name="slot_account_name_desc">以前のサブスクリプションを復元するには、古いアカウントIDを入力してください。 間違えた場合に備えて、現在のアカウントIDを書き留めておいてください。</string>
+    <string name="slot_account_name_desc">以前のサブスクリプションを復元するには、古いアカウントIDを入力してください。間違えた場合に備えて、現在のアカウントIDを書き留めておいてください。</string>
     <string name="slot_account_name_error">アカウントIDには文字と数字のみを使用できます。</string>
     <string name="slot_account_name_api_error">間違ったアカウントIDが入力されています</string>
     <string name="slot_account_name_restore">復元</string>
@@ -208,6 +208,6 @@
     <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
     <string name="slot_reset_counter_action">リセット</string>
     <string name="label_workarounds">デバイス固有の回避策</string>
-    <string name="slot_dns_answer_label">DNS代理不在応答 (DNSブロック)</string>
-    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへのBlokadaの回答を「ホストが見つかりません」から「無効なIP」へと回答を変更します。 デフォルトの回答をした場合、一部のアプリが他のDNSサーバーに再度リクエストを送信することがあり、不必要にROMが使用されます。この設定を有効にすると、ROMは開放されますが、一部のアプリの動作が遅くなる可能性があることにご注意ください。</string>
+    <string name="slot_dns_answer_label">DNS代理不在応答（DNSブロック）</string>
+    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへのBlokadaの回答を「ホストが見つかりません」から「無効なIP」へと回答を変更します。デフォルトの回答をした場合、一部のアプリが他のDNSサーバーに再度リクエストを送信することがあり、不必要にROMが使用されます。この設定を有効にすると、ROMは開放されますが、一部のアプリの動作が遅くなる可能性があることにご注意ください。</string>
 </resources>
