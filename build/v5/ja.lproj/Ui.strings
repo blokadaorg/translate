@@ -231,6 +231,7 @@
 "networks match any" = "（任意）";
 "networks permission request" = "さらにコントロールするには、タップしてアプリにすべてのネットワークを認識させます。";
 "networks section choose dns" = "DNS を選択";
+"networks alert network dns and plus mode" = "Blokadaは、ネットワークDNSが使用されるたびにBlokada Plus VPNを一時的に無効にします。これはVPNでネットワークDNSにアクセスできないためです。デバイスが別のネットワークに切り替わると、Blokada Plus VPNは自動的に復元されます。";
 
 
 "account section header settings" = "設定";
@@ -284,6 +285,7 @@
 "account encrypt level high" = "高";
 "account encrypt label dns only" = "暗号化されたDNS";
 "account encrypt desc dns only" = "DNSは、ドメイン名からWebサイトのあるサーバーの場所を検索するシステムです。ほとんどの場合、暗号化されていないDNSを使用しているため、閲覧履歴がスパイされる危険性があります。Blokadaはデバイスに暗号化されたDNSサーバー (DNS over HTTPSとも呼ばれます) のみに接続するように設定できます。";
+"account encrypt label everything" = "VPN経由で接続中";
 "account encrypt desc everything" = "デバイスは安全なVPNサーバーを介して接続されており、デバイスとの間のすべての通信は強力なアルゴリズムを使用して暗号化されています。 これにより、銀行取引やプライベートな写真などの個人情報が、コーヒーショップのWi-Fiなどの安全でない場所で盗まれるのを防ぎます。";
 "account encrypt action turn on" = "BLOKADAをONにする";
 "account encrypt header level" = "暗号化レベル";
