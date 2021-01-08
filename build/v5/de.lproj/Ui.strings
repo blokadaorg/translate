@@ -77,6 +77,8 @@
 
 "universal label help" = "Hilfe";
 "universal label welcome" = "Herzlich willkommen!";
+// Common label when some feature has no setting
+"universal label none" = "Nichts";
 "universal status processing" = "Verarbeitung... Bitte warten.";
 "universal status copied to clipboard" = "In die Zwischenablage kopiert";
 "universal status restart required" = "Bitte starte die App neu, damit die Änderungen wirksam werden.";
@@ -224,7 +226,7 @@
 "networks action use network dns" = "Netzwerk-DNS bevorzugen";
 "networks label specific network" = "Stellen Sie ein, was passieren soll, wenn Ihr Gerät eine Verbindung zu diesem Netzwerk herstellt.";
 "networks label network type" = "Netzwerk-Typ";
-"networks type wifi" = "WLAN-Netzwerk";
+"networks type wifi" = "WLAN Netzwerk";
 "networks type mobile" = "Mobiles Netzwerk";
 // As in "any (wifi) network"
 "networks match any" = "(alle)";
