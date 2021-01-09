@@ -30,23 +30,23 @@
 "error vpn perms" = "Keine Berechtigung zum erstellen eines VPN-Profils erhalten.";
 "error vpn no current lease" = "Bitte wähle zuerst einen Standort aus.";
 "error vpn too many leases" = "Du hast die maximale Anzahl an Geräten erreicht. Bitte entferne eines deiner Geräte und versuche es erneut.";
-"error vpn expired" = "Das VPN ist deaktiviert. Bitte erneuere dein Abo um weiterhin BLOKADA+ nutzen zu können";
+"error vpn expired" = "Das VPN ist deaktiviert. Bitte erneuere dein Abonnement, um BLOKADA+ weiter verwenden zu können";
 "error payment inactive after restore" = "Deine bisherige Zahlung wurde wiederhergestellt, aber dein Abo ist bereits ausgelaufen. Wenn du denkst, dass dies ein Fehler ist, kontaktiere uns bitte, indem du auf den Hilfe-Knopf oben tippst.";
 "error payment failed" = "Zahlungen sind derzeit nicht möglich. Stelle sicher, dass du online bist und probiere es später erneut. Wenn das Problem weiterhin besteht, kontaktiere und bitte, indem du den Hilfe-Knopf oben drückst.";
-"error payment failed alternative" = "Deine Zahlung konnte nicht abgeschlossen werden. Bitte stelle sicher, dass deine Daten korrekt sind, und versuch es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du auf das Hilfe-Symbol oben tippst.";
+"error payment failed alternative" = "Deine Zahlung konnte nicht abgeschlossen werden. Bitte stelle sicher, dass deine Daten korrekt sind, und versuche es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du oben auf das Hilfe-Symbol tippst.";
 "error payment not available" = "Die Zahlung ist mit deinem Gerät nicht möglich. Entweder ist Apple Pay nicht aktiviert oder wir akzeptieren noch keine Zahlungen aus deinem Land.";
 "error payment canceled" = "Der Zahlungsvorgang wurde abgebrochen. Die gewählte Zahlungsmethode wurde nicht belastet.";
 "error pack install" = "Diese Erweiterung konnte nicht installiert (oder deinstalliert) werden. Bitte versuch es später erneut.";
 "error location failed fetching" = "Standorte konnten nicht abgerufen werden.";
 "error unknown" = "Ein unbekanntes Problem ist aufgetreten. Bitte versuche es erneut. Wenn das Problem weiterhin besteht, kontaktiere uns bitte, indem du oben auf das Hilfe-Symbol tippst.";
-"error blocka dns in filtering mode" = "Blokada DNS wird derzeit nur im Plus-Modus unterstützt. Bitte wählen Sie einen anderen DNS und versuchen Sie es erneut.";
+"error blocka dns in filtering mode" = "Blokada DNS wird derzeit nur im Plus-Modus unterstützt. Bitte wähle einen anderen DNS und versuche es erneut.";
 
 "universal action continue" = "Fortsetzen";
 "universal action cancel" = "Abbrechen";
 "universal action close" = "Schließen";
 "universal action done" = "Fertig";
 "universal action try again" = "Erneut versuchen";
-"universal action learn more" = "Erfahre mehr";
+"universal action learn more" = "Mehr erfahren";
 "universal action help" = "Hilfe";
 "universal action show log" = "Protokolle";
 "universal action share log" = "Protokoll teilen";
@@ -55,7 +55,7 @@
 "universal action contact us" = "Kontaktiere uns";
 "universal action support" = "Support";
 "universal action upgrade" = "Upgrade zu BLOKADA+";
-"universal action upgrade short" = "Aufrüsten";
+"universal action upgrade short" = "Upgrade";
 "universal action yes" = "Ja";
 "universal action no" = "Nein";
 "universal action donate" = "Spenden";
@@ -87,26 +87,26 @@
 
 "alert error header" = "Hoppla!";
 "alert vpn expired header" = "BLOKADA+ ist abgelaufen";
-"alert download link body" = "Um diese Datei herunterzuladen müssen wir aus Sicherheitsgründen, diese Webseite in deinem Browser öffnen. Benutzte dort erneut den Downloadlink.";
+"alert download link body" = "Aus Sicherheitsgründen müssen wir zum Herunterladen einer Datei diese Website in deinem Browser öffnen. Tippe dann bitte erneut auf den Download-Link.";
 
 "notification vpn expired header" = "BLOKADA+ Abo abgelaufen";
 "notification vpn expired subtitle" = "Das VPN ist deaktiviert";
-"notification vpn expired body" = "Bitte aktualisiere Dein Abonnement um BLOKADA+ weiter nutzen zu können";
-"notification desc settings" = "Wische die Benachrichtigung nach links oder rechts für Einstellungen.";
+"notification vpn expired body" = "Bitte erneuere dein Abonnement, um BLOKADA+ weiter verwenden zu können";
+"notification desc settings" = "Wische die Benachrichtigung nach links oder rechts, um die Einstellungen aufzurufen.";
 
-"notification update header" = "Es ist eine Aktualisierung erhältlich";
+"notification update header" = "Eine Aktualisierung ist verfügbar";
 "alert update body" = "Blokada %@ steht zum Herunterladen bereit. Wir empfehlen, die App auf dem neuesten Stand zu halten und sie nur von unseren offiziellen Quellen herunterzuladen.";
 "update label updated" = "Aktualisiert!";
 "update desc updated" = "Du verwendest jetzt die neueste Version von Blokada! Denk daran, dass das Spenden oder Abonnieren von Blokada Plus es uns erlaubt, die App weiter zu verbessern.";
-"update downloading description" = "Das Update wird jetzt heruntergeladen, und Du solltest den Installationsdialog in Kürze sehen.";
+"update downloading description" = "Die Aktualisierung wird jetzt heruntergeladen, und du solltest in Kürze den Installationsdialog sehen.";
 
 "account active forever" = "Für immer";
 "account active forever full" = "Für immer aktiv";
 
 "main ask for permissions header" = "Nur noch ein Schritt";
-"main ask for permissions description" = "Blokada benutzt eine VPN-Konfiguration, um Werbungen zu blockieren. Du wirst im nächsten Schritt aufgefordert, dies zu erlauben.";
+"main ask for permissions description" = "Blokada benutzt eine VPN-Konfiguration, um Werbung zu blockieren. Du wirst im nächsten Schritt aufgefordert, dies zu erlauben.";
 
-"main share message" = "Blokada für iOS half mir %@ Werbungen und Tracker zu blockieren!";
+"main share message" = "Blokada für iOS hat mir geholfen, %@ Tracker und Werbeanzeigen zu blockieren!";
 
 "main rate us header" = "Bewerte uns!";
 "main rate us description" = "Wie gefällt dir Blokada bisher?";
@@ -118,23 +118,23 @@
 // Make sure each tab name has a similar length
 "main tab activity" = "Aktivität";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Mehr";
+"main tab advanced" = "Erweitert";
 // Make sure each tab name has a similar length
 "main tab settings" = "Einstellungen";
 
-"home ads counter footnote" = "werbungen und Tracker seit der Installation blockiert";
+"home ads counter footnote" = "Tracker und Werbeanzeigen seit der Installation blockiert";
 "home power off menu header" = "Was möchtest du machen?";
 "home power action turn on" = "Einschalten";
 "home power action turn off" = "Ausschalten";
-"home power action pause" = "Pausieren für 5 min";
+"home power action pause" = "Für 5 min pausieren";
 
-"home status paused" = "Pause";
+"home status paused" = "Pausiert";
 "home status active" = "Aktiv";
 "home status deactivated" = "Deaktiviert";
-"home action tap to activate" = "zum aktivieren tippen";
+"home action tap to activate" = "zum Aktivieren tippen";
 "home status detail paused" = "pausiert, bis der Timer abgelaufen ist";
-"home status detail active" = "*Werbungen* und *Tracker* blockieren";
-"home status detail active with counter" = "blockierte *%@* Werbungen und Tracker";
+"home status detail active" = "*Werbung* und *Tracker* blockieren";
+"home status detail active with counter" = "*%@* Werbeanzeigen und Tracker blockiert";
 "home status detail active slim" = "Blokada *Slim* ist aktiv";
 "home status detail plus" = "*+* beschützt deine *Privatsphäre*";
 "home status detail progress" = "bitte warte...";
@@ -164,9 +164,9 @@
 
 "advanced section header packs" = "Sperrlisten";
 "advanced section slugline packs" = "Für restriktiveres Blockieren aktivieren";
-"advanced section slugline apps" = "Wähle Apps die nie geblockt werden sollen";
-"advanced section slugline encryption" = "Pass deine Verschlüsselungsstufe und DNS an";
-"advanced action slim migrate to full" = "Du verwendest Blokada Slim. Erfahre mehr";
+"advanced section slugline apps" = "Wähle Apps, die niemals blockiert werden sollen";
+"advanced section slugline encryption" = "Passe die Verschlüsselungsstufe und DNS an";
+"advanced action slim migrate to full" = "Du verwendest Blokada Slim. Mehr erfahren";
 
 "location choice header" = "Wähle einen Standort";
 
@@ -174,17 +174,17 @@
 "activity section header details" = "Aktivitätsdetails";
 "activity request blocked" = "Diese Anfrage wurde blockiert.";
 "activity request allowed" = "Diese Anfrage wurde erlaubt.";
-"activity request allowed whitelisted" = "Diese Anfrage wurde erlaubt, weil es auf deiner erlaubten Liste ist";
-"activity request blocked blacklisted" = "Diese Anfrage wurde blockiert, weil sie auf deiner Blockierliste ist";
+"activity request allowed whitelisted" = "Diese Anfrage wurde zugelassen, da sie sich auf deiner erlaubten Liste befindet";
+"activity request blocked blacklisted" = "Diese Anfrage wurde blockiert, weil sie sich auf deiner Sperrliste befindet";
 "activity actions header" = "Aktionen";
 "activity information header" = "Informationen";
-"activity action add to whitelist" = "Zu den Erlaubten hinzufügen";
-"activity action remove from whitelist" = "Vom Erlaubten entfernen";
-"activity action added to whitelist" = "Wurde zum Erlaubten hinzugefügt";
-"activity action add to blacklist" = "Zum Blockierten hinzugefügt";
-"activity action remove from blacklist" = "Vom Blockierten entfernt";
-"activity action added to blacklist" = "Wurde zum Blockierten hinzugefügt";
-"activity action copy to clipboard" = "Name zur Zwischenablage hinzugefügt";
+"activity action add to whitelist" = "Zu erlaubten hinzufügen";
+"activity action remove from whitelist" = "Aus erlaubten entfernen";
+"activity action added to whitelist" = "Zu erlaubten hinzugefügt";
+"activity action add to blacklist" = "Zu gesperrten hinzufügen";
+"activity action remove from blacklist" = "Aus gesperrten entfernen";
+"activity action added to blacklist" = "Zu gesperrten hinzugefügt";
+"activity action copy to clipboard" = "Name in die Zwischenablage kopieren";
 "activity domain name" = "Vollständiger Name";
 "activity time of occurrence" = "Zeit";
 "activity number of occurrences" = "Anzahl der Vorkommnisse";
@@ -213,24 +213,24 @@
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Blockiert";
 
-"networks section header" = "Netzwerke";
-"networks section label" = "Passen Sie die Einstellungen für WLAN und Mobilfunknetze an";
+"networks section header" = "Netwerke";
+"networks section label" = "Passe die Einstellungen für WLAN und Mobilfunknetze an";
 "networks label all networks" = "Alle Netzwerke";
-"networks action network specific" = "Tippen Sie hier, um die Standardeinstellungen zu ändern. Tippen Sie unten auf, damit sich die App in einigen Netzwerken anders verhält.";
+"networks action network specific" = "Tippe hier, um die Standardeinstellungen zu ändern. Tippe unten auf, damit sich die App in einigen Netzwerken anders verhält.";
 "networks label configuration active" = "Diese Einstellungen sind derzeit aktiv";
 "networks label configuration enabled" = "Nicht mit diesem Netzwerk verbunden";
-"networks label configuration inactive" = "Tippen sie hier, um Einstellungen für dieses Netzwerk zu ändern";
-"networks label details default network" = "Die folgenden Einstellungen gelten standardmäßig für alle Netzwerke. Sie können sie für ausgewählte Netzwerke überschreiben (im vorherigen Bildschirm).";
+"networks label configuration inactive" = "Tippe hier, um Einstellungen für dieses Netzwerk zu ändern";
+"networks label details default network" = "Die folgenden Einstellungen gelten standardmäßig für alle Netzwerke. Du kannst sie für ausgewählte Netzwerke überschreiben (im vorherigen Bildschirm).";
 "networks action encrypt dns" = "DNS verschlüsseln";
-"networks action use dns" = "verwende DNS: %@";
+"networks action use dns" = "Verwende DNS: %@";
 "networks action use network dns" = "Netzwerk-DNS bevorzugen";
-"networks label specific network" = "Stellen Sie ein, was passieren soll, wenn Ihr Gerät eine Verbindung zu diesem Netzwerk herstellt.";
+"networks label specific network" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu diesem Netzwerk herstellt.";
 "networks label network type" = "Netzwerk-Typ";
 "networks type wifi" = "WLAN Netzwerk";
 "networks type mobile" = "Mobiles Netzwerk";
 // As in "any (wifi) network"
 "networks match any" = "(alle)";
-"networks permission request" = "Um mehr Kontrolle zu haben, tippen Sie hier und lassen Sie die App alle Netzwerke erkennen.";
+"networks permission request" = "Um mehr Kontrolle zu haben, tippe hier und lasse die App alle Netzwerke erkennen.";
 "networks section choose dns" = "Wähle DNS";
 "networks alert network dns and plus mode" = "Blokada deaktiviert vorübergehend den Plus-Modus, wenn Netzwerk-DNS verwendet wird. Dies liegt daran, dass im VPN der Zugriff auf Netzwerk-DNS nicht möglich ist. Der Plus-Modus wird automatisch wiederhergestellt, wenn dein Gerät in ein anderes Netzwerk wechselt.";
 
