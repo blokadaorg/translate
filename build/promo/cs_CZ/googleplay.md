@@ -4,22 +4,22 @@ Chraňte své soukromí zdarma pomocí oficiální aplikace Blokada.
 
 Toto je jediná oficiální aplikace v Obchodě Play z open source projektu Blokada. Pozor na klony, mohou obsahovat škodlivý kód.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker je bezplatná aplikace, která pomocí serverů DNS (Domain Name System) umožňuje procházení webu bez reklam, abyste viděli pouze požadovaný obsah.
 
-There is also a built in VPN that is optional to use.
+K dispozici je také vestavěná VPN, kterou lze volitelně použít.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Webová stránka projektu je: https://blokada.org. Varianta aplikace, kterou najdete na webu má více funkcí a je taktéž zdarma.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Připojte se k nám na našem telegramovém chatu, pokud máte nějaké dotazy nebo zpětnou vazbu: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Nejlepší funkce:
+- Nejsou vyžadována žádná root oprávnění!
+- Podporuje každý webový prohlížeč a aplikace.
+- Zachytávání založené na DNS (režim VPN) pro všechny moderní prohlížeče.
+- Blokuje stránky, které šíří škodlivý obsah, viry a podvodné webové stránky.
 
-The most compatible ad blocker on the market!
+Nejkompatibilnější blokování reklam na trhu!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Blokuje reklamy • Spoří váš datový plán • Rychlejší procházení webu díky načítání méně dat • Zvyšuje životnost baterie
