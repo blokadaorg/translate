@@ -1,24 +1,24 @@
-This is the official app on App Store from the Blokada open source project.
+Toto je jediná oficiální aplikace v App Store z open source projektu Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada pro iOS je bezplatná aplikace, která pomocí serverů DNS (Domain Name System) umožňuje procházení webu bez reklam, abyste viděli pouze požadovaný obsah.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
-
-----
-
-Top features:
-
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
-
-The most compatible ad blocker on the market!
-
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
-
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+K dispozici je také vestavěná VPN, kterou lze volitelně použít. S Blokada Plus VPN můžete procházet web s ochranou soukromí a zabezpečit vaše internetové připojení před kybernetickými útoky a hackery.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Nejlepší funkce:
+
+- Podporuje blokování reklam pro každý webový prohlížeč a ostatní nainstalované aplikace.
+- Blokuje stránky, které šíří škodlivý obsah, viry a podvodné webové stránky.
+- Zachytávání založené na DNS (režim VPN) pro všechny moderní prohlížeče.
+- Rychlá a spolehlivá VPN, která chrání vaše soukromí a šifruje vaše data.
+
+Nejkompatibilnější blokování reklam na trhu!
+
+• Blokuje reklamy • Spoří váš datový plán • Rychlejší procházení webu díky načítání méně dat • Zvyšuje životnost baterie
+
+Co lze blokovat? • Blokuje otravné reklamy: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, atd. • Blokuje internetové stránky pro dospělé • Blokuje webové stránky s hazardními hrami • Blokuje sledovače sociálních médií: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comskore • Blokuje škodlivé webové stránky: stažení virů, škodlivý obsah, podvodné webové stránky a manipulované aplikace • Blokada Plus Adblock iOS aplikace.
+
+----
+
+Podmínky užití: https://go.blokada.org/terms Zásady ochrany osobních údajů: https://go.blokada.org/privacy
