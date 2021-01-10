@@ -143,6 +143,10 @@
 "home plus button select location" = "Choisir l'emplacement";
 "home plus button location" = "Emplacement : *%@*";
 
+"home level low" = "Protection : Faible";
+"home level medium" = "Protection : Moyenne";
+"home level high" = "Protection : Forte";
+
 
 "pack section header" = "Fonctionnalités avancées";
 "pack section header details" = "Détails de la fonctionnalité";
@@ -208,9 +212,21 @@
 "userdenied tab allowed" = "Autorisé";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bloqué";
+
+"networks section header" = "Réseaux";
+"networks section label" = "Ajustez les paramètres des réseaux mobiles et Wi-Fi";
+"networks label all networks" = "Tous les réseaux";
+"networks action network specific" = "Appuyez ici pour modifier les paramètres par défaut. Pour que l'appli se comporte différemment sur des réseaux spécifiques, appuyez ci-dessous.";
+"networks label configuration active" = "Ces paramètres sont actuellement actifs";
+"networks label configuration enabled" = "Non connecté à ce réseau";
+"networks label configuration inactive" = "Appuyez pour modifier les paramètres de ce réseau";
+"networks action use dns" = "Utiliser le DNS : %@";
+"networks type wifi" = "Réseau WiFi";
+"networks type mobile" = "Réseau mobile";
 // As in "any (wifi) network"
 "networks match any" = "(tous)";
 "networks permission request" = "Pour avoir plus de contrôle, appuyez ici et laissez l'application découvrir tous les réseaux.";
+"networks section choose dns" = "Sélectionnez un DNS";
 
 
 "account section header settings" = "Paramètres";
@@ -390,6 +406,8 @@
 
 "intro header" = "Blokada est actif";
 "intro text" = "Un anneau bleu signifie que Blokada est actif.\n\nRappelez-vous que certaines publicités, comme celles de YouTube, ne peuvent être bloquées. Toutefois, vous verrez la différence dans la majorité des autres applications.\n\nNous vous recommandons d'activer \"VPN toujours actif\" / \"Connexion à la demande\" dans vos paramètres système.";
+
+"location region worldwide" = "Partout";
 "location region america" = "Amérique";
 "location region europe" = "Europe";
 "location region asia" = "Asie";
