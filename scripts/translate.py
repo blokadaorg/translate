@@ -139,6 +139,7 @@ def main(argv):
         webSync(config["translate_dir"], config["target_dir"])
         webImport(config["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing-gp":
+        web4Sync(config["translate_dir"], config["target_dir"])
         web4Import(config["langs"], config["langs-web4"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
         webSync(config["translate_dir"], config["target_dir"])
@@ -220,6 +221,11 @@ def webImport(langs, translate, web):
     for lang in langs:
         print(f"    importing {lang}")
         subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
+
+def web4Sync(translate, web):
+    print(f"  Syncing web v4 ({web})")
+    shutil.copy(f"{translate}/v4/dns.properties", f"{web}/api/v4/canonical/strings/dns.properties")
+    shutil.copy(f"{translate}/v4/filters.properties", f"{web}/api/v4/canonical/strings/filters.properties")
 
 def web4Import(langs, langs_web4, translate, web):
     print(f"  Importing v4 strings to web ({web})")
