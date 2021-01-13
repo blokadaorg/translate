@@ -70,6 +70,8 @@
 "universal action selected" = "Seleccionado";
 // A verb "to search in the list"
 "universal action search" = "Buscar";
+// A verb "to filter the list"
+"universal action filter" = "Filtrar";
 // A verb "to clear the list"
 "universal action clear" = "Limpiar";
 
@@ -81,6 +83,7 @@
 "universal status copied to clipboard" = "Copiado al portapapeles";
 "universal status restart required" = "Por favor, reinicia la aplicación para aplicar los cambios.";
 "universal status redirect" = "Continuar con Blokada";
+"universal status confirm" = "¿Deseas continuar?";
 
 "alert error header" = "¡Vaya!";
 "alert vpn expired header" = "BLOKADA+ ha expirado";
@@ -139,6 +142,10 @@
 "home plus button deactivated" = "BLOKADA+ desactivado";
 "home plus button select location" = "Elegir ubicación";
 "home plus button location" = "Ubicación: *%@*";
+
+"home level low" = "Protección: Baja";
+"home level medium" = "Protección: Media";
+"home level high" = "Protección: Alta";
 
 
 "pack section header" = "Características avanzadas";
@@ -205,6 +212,26 @@
 "userdenied tab allowed" = "Permitido";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bloqueado";
+
+"networks section header" = "Redes";
+"networks section label" = "Ajustar configuración de WiFi y redes móviles";
+"networks label all networks" = "Todas las redes";
+"networks label configuration active" = "Estos ajustes están actualmente activos";
+"networks label configuration enabled" = "No estás conectado a esta red";
+"networks label configuration inactive" = "Toca para modificar la configuración de esta red";
+"networks label details default network" = "Los siguientes ajustes se aplican por defecto para todas las redes. Puedes sobrescribirlos para las redes seleccionadas (en la pantalla anterior).";
+"networks action encrypt dns" = "Encriptar DNS";
+"networks action use dns" = "Usar DNS: %@";
+"networks action use network dns" = "Preferir red DNS";
+"networks label specific network" = "Ajusta lo que debería suceder cuando el dispositivo se conecte a esta red.";
+"networks label network type" = "Tipo de red";
+"networks type wifi" = "Red WiFi";
+"networks type mobile" = "Red móvil";
+// As in "any (wifi) network"
+"networks match any" = "(cualquiera)";
+"networks permission request" = "Para tener más control, pulsa aquí y deja que la aplicación reconozca todas las redes.";
+"networks section choose dns" = "Elegir DNS";
+"networks alert network dns and plus mode" = "Blokada desactivará temporalmente el modo Plus cuando se utilice DNS de red. Esto es porque no es posible acceder a DNS de red en VPN. El modo Plus se restaurará automáticamente cuando el dispositivo cambie a otra red.";
 "networks permission dialog" = "Blokada puede reconocer las redes a las que se conecta y le permite configurar configuraciones separadas. Sin embargo, para ello, se requiere permiso de ubicación. A veces se puede ver una notificación del sistema sobre el acceso a la ubicación, pero esto no es cierto - Blokada sólo leerá el nombre de la red.";
 
 
@@ -259,6 +286,7 @@
 "account encrypt level high" = "Alto";
 "account encrypt label dns only" = "Cifrando DNS";
 "account encrypt desc dns only" = "El Sistema de Nombres de Dominio (DNS, por sus siglas en inglés) es la forma por la que tu dispositivo sabe dónde encontrar los sitios web que quieres visitar. Desafortunadamente, la mayoría de los sitios de internet siguen sin usar DNS cifrados, lo que pone tu historial de navegación expuesto. Cuando está activado, Blokada obliga al dispositivo a conectarse solo a servidores DNS cifrados (también llamados DNS sobre HTTPS).";
+"account encrypt label everything" = "Conectando a través de VPN";
 "account encrypt desc everything" = "Tu dispositivo se está conectando a través de nuestros servidores VPN seguros, y toda la comunicación saliente o entrante de él está siendo cifrado mediante algoritmos. Esto protege tu información personal, así como tus datos bancarios o fotografías personales, de ser obtenidas en lugares inseguros, como una cafetería WiFi.";
 "account encrypt action turn on" = "Activar BLOKADA";
 "account encrypt header level" = "Nivel de cifrado";
@@ -385,6 +413,8 @@
 
 "intro header" = "¡Blokada está activo!";
 "intro text" = "Un anillo azul significa que Blokada está funcionando.\n\nRecuerda que algunos anuncios, como los de YouTube, no pueden ser bloqueados. Sin embargo, notarás una diferencia en muchas otras aplicaciones.\n\nTe recomendamos activar \"VPN siempre activada\" (Android) / \"Conectarse bajo demanda\" (iOS) en la configuración del sistema.";
+
+"location region worldwide" = "En todas partes";
 "location region america" = "América";
 "location region europe" = "Europa";
 "location region asia" = "Asia";
