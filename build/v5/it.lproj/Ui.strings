@@ -228,8 +228,15 @@
 "networks label network type" = "Tipo di rete";
 "networks type wifi" = "Rete WiFi";
 "networks type mobile" = "Rete mobile";
+// As in "any (wifi) network"
+"networks match any" = "(qualsiasi rete di questo tipo)";
+// As in "Use this settings for network ABC"
+"networks label match" = "Usa queste impostazioni per";
+"networks label any wifi" = "Qualsiasi rete WiFi";
+"networks label any mobile" = "Qualsiasi rete mobile";
 "networks permission request" = "Per avere più controllo, tocca qui e lascia che l'app riconosca tutte le reti.";
 "networks section choose dns" = "Scegli un DNS";
+"networks alert network dns" = "Blokada cercherà di utilizzare il DNS della rete, se possibile, o di tornare al DNS che hai selezionato sopra. Inoltre, le impostazioni di crittografia DNS verranno ignorate ogni volta che viene utilizzato un DNS di rete.";
 "networks permission dialog" = "Blokada può riconoscere le reti a cui ti connetti e consentire di configurare impostazioni separate per ognuna di loro. Tuttavia, per farlo, è necessario il permesso di localizzazione. Potrà capitare di vedere la notifica di sistema sull'accesso alla posizione, ma questo non è del tutto vero - Blokada leggerà solo il nome della rete.";
 
 
