@@ -225,10 +225,16 @@
 "networks action use dns" = "Verwende DNS: %@";
 "networks action use network dns" = "Netzwerk-DNS bevorzugen";
 "networks label specific network" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu diesem Netzwerk herstellt.";
+"networks label specific network type" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu einem Netzwerk dieser Art herstellt.";
 "networks label any wifi" = "Jedes WLAN-Netzwerk";
 "networks label any mobile" = "Jedes Mobilfunknetz";
 "networks permission request" = "Um mehr Kontrolle zu haben, tippe hier und lasse die App alle Netzwerke erkennen.";
 "networks section choose dns" = "Wähle DNS";
+"networks summary encrypt dns" = "Blokada verschlüsselt DNS, wenn möglich. Dies verbessert deine Sicherheit und verhindert, dass böswillige Akteure ausspionieren, welche Websites und Apps du verwendest.";
+"networks summary use dns" = "Blokada wird %@ als DNS für dein Gerät verwenden. Wenn du einen DNS auswählst, der eine Verschlüsselung zulässt (gekennzeichnet durch das Schlosssymbol) und sich in deiner Nähe befindet, kannst du deine Daten schützen und eine schnelle Verbindung herstellen.";
+"networks summary network dns" = "Blokada verwendet - sofern verfügbar - das DNS des Netzwerks und wechselt andernfalls zu %@. Außerdem werden die Einstellungen für \"DNS verschlüsseln\" ignoriert, wenn Netzwerk-DNS verwendet wird. Die Verwendung des Netzwerk-DNS hilft bei der Behebung von Verbindungsproblemen in fehlerhaften Netzwerken, lässt dich aber ungeschützt.";
+"networks summary network dns and plus mode" = "Blokada deaktiviert vorübergehend den Plus-Modus, wenn Netzwerk-DNS verwendet wird. Dies liegt daran, dass im VPN der Zugriff auf Netzwerk-DNS nicht möglich ist. Der Plus-Modus wird automatisch wiederhergestellt, wenn dein Gerät in ein anderes Netzwerk wechselt.";
+"networks summary blocka plus mode" = "Blokada verwendet Blokada DNS im Plus-Modus, um ein hohes Maß an Verschlüsselung und Geschwindigkeit zu gewährleisten. Du kannst diese Einstellung unten bei \"DNS auswählen\" ändern.";
 "networks permission dialog" = "Blokada kann Netzwerke erkennen, mit denen du dich verbindest und du kannst für diese Netzwerke individuelle Einstellungen konfigurieren. Um dies zu tun, ist jedoch eine Standortberechtigung erforderlich. Möglicherweise siehst du manchmal eine Systembenachrichtigung bezüglich des Standortzugriffs, aber das ist nicht korrekt. Blokada liest nur den Namen des Netzwerks.";
 
 
