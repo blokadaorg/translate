@@ -225,19 +225,10 @@
 "networks action use dns" = "Verwende DNS: %@";
 "networks action use network dns" = "Netzwerk-DNS bevorzugen";
 "networks label specific network" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu diesem Netzwerk herstellt.";
-"networks label network type" = "Netzwerk-Typ";
-"networks type wifi" = "WLAN Netzwerk";
-"networks type mobile" = "Mobiles Netzwerk";
-// As in "any (wifi) network"
-"networks match any" = "(jedes Netzwerk dieses Typs)";
-// As in "Use this settings for network ABC"
-"networks label match" = "Verwende diese Einstellungen für";
 "networks label any wifi" = "Jedes WLAN-Netzwerk";
 "networks label any mobile" = "Jedes Mobilfunknetz";
 "networks permission request" = "Um mehr Kontrolle zu haben, tippe hier und lasse die App alle Netzwerke erkennen.";
 "networks section choose dns" = "Wähle DNS";
-"networks alert network dns and plus mode" = "Blokada deaktiviert vorübergehend den Plus-Modus, wenn Netzwerk-DNS verwendet wird. Dies liegt daran, dass im VPN der Zugriff auf Netzwerk-DNS nicht möglich ist. Der Plus-Modus wird automatisch wiederhergestellt, wenn dein Gerät in ein anderes Netzwerk wechselt. Außerdem werden die \"DNS verschlüsseln\"-Einstellungen ignoriert, wenn Netzwerk-DNS verwendet wird.";
-"networks alert network dns" = "Blokada versucht, wenn möglich, das DNS des Netzwerks zu verwenden oder greift auf das DNS zurück, das du oben ausgewählt hast. Außerdem werden die \"DNS verschlüsseln\"-Einstellungen ignoriert, wenn Netzwerk-DNS verwendet wird.";
 "networks permission dialog" = "Blokada kann Netzwerke erkennen, mit denen du dich verbindest und du kannst für diese Netzwerke individuelle Einstellungen konfigurieren. Um dies zu tun, ist jedoch eine Standortberechtigung erforderlich. Möglicherweise siehst du manchmal eine Systembenachrichtigung bezüglich des Standortzugriffs, aber das ist nicht korrekt. Blokada liest nur den Namen des Netzwerks.";
 
 
