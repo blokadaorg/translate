@@ -228,8 +228,16 @@
 "networks label network type" = "Jenis jaringan";
 "networks type wifi" = "Jaringan WiFi";
 "networks type mobile" = "Jaringan selular";
+// As in "any (wifi) network"
+"networks match any" = "(jaringan sejenis)";
+// As in "Use this settings for network ABC"
+"networks label match" = "Gunakan pengaturan ini untuk";
+"networks label any wifi" = "Jaringan WiFi manapun";
+"networks label any mobile" = "Jaringan seluler manapun";
 "networks permission request" = "Ketuk di sini untuk mengijinkan Blokada mengenali semua jaringan.";
 "networks section choose dns" = "Pilih server DNS";
+"networks alert network dns and plus mode" = "Blokada akan menonaktifkan Plus Mode sementara ketika perangkat Anda menggunakan DNS jaringan. Hal ini dikarenakan VPN tidak mungkin diakses ketika tersambung ke DNS jaringan. Plus Mode akan kembali aktif secara otomatis ketika perangkat Anda beralih ke jaringan lain. Harap diperhatikan bahwa pengaturan Enkripsi DNS akan diabaikan ketika DNS jaringan dipakai.";
+"networks alert network dns" = "Blokada akan mencoba menggunakan DNS jaringan jika memungkinkan, atau DNS cadangan yang telah Anda pilih di atas. Harap diperhatikan bahwa pengaturan Enkripsi DNS akan diabaikan ketika DNS jaringan dipakai.";
 "networks permission dialog" = "Blokada mampu mengenali jaringan yang terhubung dengan perangkat Anda, dan kemudian memungkinkan Anda untuk mengkonfigurasi pengaturan terpisah untuk masih-masing jaringan. Namun supaya bisa melakukan hal tersebut, Blokada memerlukan ijin lokasi. Anda akan sesekali melihat pemberitahuan dari sistem mengenai akses lokasi, namun hal ini tidaklah akurat - Blokada hanya akan membaca nama jaringan Anda.";
 
 
