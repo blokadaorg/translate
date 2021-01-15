@@ -232,6 +232,7 @@
 "networks section choose dns" = "Pilih server DNS";
 "networks summary encrypt dns" = "Blokada akan mengenkripsi DNS jika memungkinkan. Hal ini akan memperkuat keamanan dan mencegah orang lain memata-matai situs Web dan aplikasi yang Anda pakai.";
 "networks summary use dns" = "Blokada akan mempergunakan %@ sebagai DNS gawai Anda. Memilih yang mendukung enkripsi (bertanda ikon kunci) dan juga dekat letaknya akan membantu melindungi serta mempercepat koneksi Anda.";
+"networks summary network dns" = "Blokada akan mempergunakan DNS dari jaringan jika tersedia atau bisa juga beralih ke %@. Penataan Enkripsi DNS akan diabaikan kapan pun DNS jaringan aktif. Penggunaan DNS dari jaringan membantu perbaikan kendala koneksi pada jaringan bermasalah, akan tetapi Anda menjadi tak terlindungi.";
 "networks summary network dns and plus mode" = "Blokada akan melumpuhkan Moda Plus untuk sementara waktu ketika DNS jaringan digunakan. Hal ini terjadi karena pengguna tidak akan mungkin mengakses DNS jaringan saat menggunakan VPN. Moda Plus akan kembali aktif secara otomatis ketika gawai Anda beralih ke jaringan lain.";
 "networks permission dialog" = "Blokada mampu mengenali jaringan yang terhubung dengan perangkat Anda, dan kemudian memungkinkan Anda untuk mengkonfigurasi pengaturan terpisah untuk masih-masing jaringan. Namun supaya bisa melakukan hal tersebut, Blokada memerlukan ijin lokasi. Anda akan sesekali melihat pemberitahuan dari sistem mengenai akses lokasi, namun hal ini tidaklah akurat - Blokada hanya akan membaca nama jaringan Anda.";
 
