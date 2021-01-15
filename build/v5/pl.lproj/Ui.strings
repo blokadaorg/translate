@@ -225,19 +225,10 @@
 "networks action use dns" = "Używaj DNS: %@";
 "networks action use network dns" = "Preferuj sieciowy DNS";
 "networks label specific network" = "Określ, co ma się stać, gdy urządzenie łączy się z tą siecią.";
-"networks label network type" = "Typ sieci";
-"networks type wifi" = "Sieć WiFi";
-"networks type mobile" = "Sieć komórkowa";
-// As in "any (wifi) network"
-"networks match any" = "(dowolna sieć tego typu)";
-// As in "Use this settings for network ABC"
-"networks label match" = "Używaj tych ustawień dla";
 "networks label any wifi" = "Dowolnej sieci WiFi";
 "networks label any mobile" = "Dowolnej sieci komórkowej";
 "networks permission request" = "Aby mieć większą kontrolę, stuknij tutaj i pozwól aplikacji rozpoznawać wszystkie sieci.";
 "networks section choose dns" = "Wybierz DNS";
-"networks alert network dns and plus mode" = "Blokada tymczasowo wyłączy tryb Plus za każdym razem, gdy używany jest sieciowy DNS. Dzieje się tak dlatego, że dostęp do sieciowego DNS w VPN nie jest możliwy. Tryb Plus zostanie automatycznie przywrócony, gdy urządzenie przełączy się na inną sieć. Ponadto ustawienia szyfrowania DNS będą ignorowane przy każdym użyciu sieciowego DNS.";
-"networks alert network dns" = "Blokada spróbuje użyć sieciowego DNS, jeśli to możliwe, lub powrócić do DNS wybranego powyżej. Ponadto ustawienia szyfrowania DNS będą ignorowane przy każdym użyciu sieciowego DNS.";
 "networks permission dialog" = "Blokada może rozpoznać sieci, z którymi się łączysz, i umożliwia skonfigurowanie ich osobnych ustawień. Jednak aby to zrobić, wymagane jest zezwolenie na lokalizację. Czasami można zobaczyć powiadomienie systemowe o dostępie do lokalizacji, ale nie jest one dokładne – Blokada odczyta tylko nazwę sieci.";
 
 
