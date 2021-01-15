@@ -225,19 +225,10 @@
 "networks action use dns" = "Използвайте DNS: %@";
 "networks action use network dns" = "Предпочитан мрежов DNS";
 "networks label specific network" = "Настройте поведението на устройството, когато се свърже с тази мрежа.";
-"networks label network type" = "Тип мрежа";
-"networks type wifi" = "WiFi мрежа";
-"networks type mobile" = "Мобилна мрежа";
-// As in "any (wifi) network"
-"networks match any" = "(всяка мрежа от този тип)";
-// As in "Use this settings for network ABC"
-"networks label match" = "Използване на тези настройки за";
 "networks label any wifi" = "Всяка WiFi мрежа";
 "networks label any mobile" = "Всяка мобилна мрежа";
 "networks permission request" = "За да имате повече контрол, докоснете тук и оставете приложението да разпознава всички мрежи.";
 "networks section choose dns" = "Изберете DNS";
-"networks alert network dns and plus mode" = "Blokada временно ще деактивира режим Плюс, когато се използва мрежов DNS. Това е така, защото не е възможен достъп до мрежовия DNS във VPN. Плюс режимът ще се възстанови автоматично, когато вашето устройство превключи към друга мрежа. Също така настройките за шифроване на DNS ще бъдат игнорирани, когато се използва мрежов DNS.";
-"networks alert network dns" = "Blokada ще се опита да използва DNS на мрежата, ако е възможно, или да се върне към DNS, който сте избрали по-горе. Също така настройките за шифроване на DNS ще бъдат игнорирани, когато се използва мрежов DNS.";
 "networks permission dialog" = "Blokada може да разпознава мрежите, към които се свързвате и ви позволява да конфигурирате отделни настройки за тях. За целта обаче е необходимо разрешение за местоположение. Понякога може да видите системно известие за достъп до местоположение, но това не е точно - Blokada ще прочете само името на мрежата.";
 
 
