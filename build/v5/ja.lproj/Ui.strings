@@ -233,7 +233,7 @@
 "networks section choose dns" = "DNSを選択";
 "networks summary encrypt dns" = "Blokadaは暗号化されたDNSを優先して接続します。これによりセキュリティが向上し、悪意のある人物があなたが使用するウェブサイトやアプリをスパイするのを防ぎます。";
 "networks summary use dns" = "BlokadaはデバイスのDNSとして %@ を使用します。ロックアイコン付きの暗号化されたDNSサーバーを選択すると、データを保護することができます。一般に、近くにあるサーバーの方が通信速度が速くなるとされています。";
-"networks summary network dns" = "BlokadaはネットワークDNSを使用し、使用できない場合は %@ に切り替えます。また、ネットワークDNSが使用すると、DNSの暗号化はされません。ネットワークDNSを使用すると、厄介なネットワーク上の接続の問題を解決するのに役立ちますが、保護されていない状態になります。";
+"networks summary network dns" = "BlokadaはネットワークDNSを使用し、使用できない場合は %@ に切り替えます。また、ネットワークDNSを使用すると、DNSは暗号化されません。ネットワークDNSを使用すると、ネットワーク上の接続の問題を解決するのに役立ちますが、保護されていない状態になります。";
 "networks summary network dns and plus mode" = "Blokadaは、ネットワークDNSが使用されるたびにBlokada Plus VPNを一時的に無効にします。これはVPNでネットワークDNSにアクセスできないためです。デバイスが別のネットワークに切り替わると、Blokada Plus VPNは自動的に復元されます。";
 "networks summary blocka plus mode" = "BlokadaはPlusモードでBlokada DNSを使用して、高いレベルの暗号化と速度を確保します。DNS選択画面の下部でこの設定を変更できます。";
 "networks permission dialog" = "Blokadaは、接続先のネットワークを認識して個別の設定を適用することができます。位置情報へのアクセス許可が必要ですが、Blokadaはネットワーク名のみを読み取りその他の情報は利用しません。";
