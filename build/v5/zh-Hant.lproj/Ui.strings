@@ -74,6 +74,8 @@
 "universal action filter" = "篩選";
 // A verb "to clear the list"
 "universal action clear" = "清除";
+// A verb "to revoke permissions"
+"universal action revoke" = "撤銷";
 
 "universal label help" = "協助";
 "universal label welcome" = "歡迎！";
@@ -229,6 +231,7 @@
 "networks label any wifi" = "任何無線網路";
 "networks label any mobile" = "任何行動網路";
 "networks permission request" = "要進行更多控制，請點擊此處並讓應用程式識別所有網路。";
+"networks permission request granted" = "當 Blokada 在背景讀取您的網路名稱時，您可能會看到一則通知。";
 "networks section choose dns" = "選擇 DNS";
 "networks summary encrypt dns" = "Blokada 將盡可能加密 DNS。這可以提升您的安全性，並防止有惡意的人窺探您使用的網站與應用程式。";
 "networks summary use dns" = "Blokada 將會使用 %@ 作為您裝置的 DNS。選擇可加密（有鎖的圖示的）且在您附近的，這有助於保護您的資料並讓連線更快。";
@@ -323,6 +326,7 @@
 "payment header activated" = "已啟用！";
 "payment activated description" = "Blokada 將會切換到 Plus 模式，並透過我們的其中一個安全位置進行連線。如果不確定要怎麼選擇的話，就選最近的一個。";
 "payment action choose location" = "選擇位置";
+"payment action see locations" = "我們的位置";
 
 "payment title" = "升級至我們的 VPN 服務以掌控 *您的隱私*。";
 "payment feature title change location" = "變更位置";
