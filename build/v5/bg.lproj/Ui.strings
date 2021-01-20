@@ -74,6 +74,8 @@
 "universal action filter" = "Филтър";
 // A verb "to clear the list"
 "universal action clear" = "Изчистване";
+// A verb "to revoke permissions"
+"universal action revoke" = "Анулирaне";
 
 "universal label help" = "Помощ";
 "universal label welcome" = "Добре дошли!";
@@ -229,6 +231,7 @@
 "networks label any wifi" = "Всяка WiFi мрежа";
 "networks label any mobile" = "Всяка мобилна мрежа";
 "networks permission request" = "За да имате повече контрол, докоснете тук и оставете приложението да разпознава всички мрежи.";
+"networks permission request granted" = "Може да видите известие, когато Blokada във фонов режим прочете името на вашата мрежа.";
 "networks section choose dns" = "Изберете DNS";
 "networks summary encrypt dns" = "Blokada ще шифрова DNS, ако е възможно. Това ще подобри вашата сигурност и ще предотврати злонамерени участници да шпионират какви уебсайтове и приложения използвате.";
 "networks summary use dns" = "Blokada ще използва %@ като DNS на вашето устройство. Изборът му позволява криптиране (има икона на ключ) и е близо до вас, това ще помогне за защита на вашите данни и за по-бърза връзка.";
