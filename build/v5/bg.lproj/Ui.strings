@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -231,7 +222,6 @@
 "networks label any wifi" = "Всяка WiFi мрежа";
 "networks label any mobile" = "Всяка мобилна мрежа";
 "networks permission request" = "За да имате повече контрол, докоснете тук и оставете приложението да разпознава всички мрежи.";
-"networks permission request granted" = "Може да видите известие, когато Blokada във фонов режим прочете името на вашата мрежа.";
 "networks section choose dns" = "Изберете DNS";
 "networks summary encrypt dns" = "Blokada ще шифрова DNS, ако е възможно. Това ще подобри вашата сигурност и ще предотврати злонамерени участници да шпионират какви уебсайтове и приложения използвате.";
 "networks summary use dns" = "Blokada ще използва %@ като DNS на вашето устройство. Изборът му позволява криптиране (има икона на ключ) и е близо до вас, това ще помогне за защита на вашите данни и за по-бърза връзка.";
