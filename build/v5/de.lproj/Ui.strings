@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -231,7 +222,6 @@
 "networks label any wifi" = "Jedes WLAN-Netzwerk";
 "networks label any mobile" = "Jedes Mobilfunknetz";
 "networks permission request" = "Um mehr Kontrolle zu haben, tippe hier und lasse die App alle Netzwerke erkennen.";
-"networks permission request granted" = "Du siehst möglicherweise eine Benachrichtigung, wenn Blokada im Hintergrund den Netzwerknamen ausliest.";
 "networks section choose dns" = "Wähle DNS";
 "networks summary encrypt dns" = "Blokada verschlüsselt DNS, wenn möglich. Dies verbessert deine Sicherheit und verhindert, dass böswillige Akteure ausspionieren, welche Websites und Apps du verwendest.";
 "networks summary use dns" = "Blokada wird %@ als DNS für dein Gerät verwenden. Wenn du einen DNS auswählst, der eine Verschlüsselung zulässt (gekennzeichnet durch das Schlosssymbol) und sich in deiner Nähe befindet, kannst du deine Daten schützen und eine schnelle Verbindung herstellen.";
