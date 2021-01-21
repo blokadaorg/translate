@@ -62,7 +62,7 @@
 // A verb "to search in the list"
 "universal action search" = "Buscar";
 // A verb "to filter the list"
-"universal action filter" = "Filtrar";
+"universal action filter" = "Filtro";
 // A verb "to clear the list"
 "universal action clear" = "Limpiar";
 // A verb "to revoke permissions"
@@ -226,6 +226,7 @@
 "networks summary use dns" = "Blokada usará %@ como DNS de tu dispositivo. Eligiendo el que permite el cifrado (tiene el icono de bloqueo), y está cerca de ti, ayudará a proteger sus datos y hará que su conexión sea rápida.";
 "networks summary network dns" = "Blokada utilizará el DNS de la red si está disponible, o cambiará a %@ de lo contrario. Además, la configuración de DNS cifrado se ignorará cuando se utilice DNS de red. Usar el DNS de la red ayuda a solucionar problemas de conectividad en redes problemáticas, pero te deja sin protección.";
 "networks summary network dns and plus mode" = "Blokada desactivará temporalmente el modo Plus cuando se utilice DNS de red. Esto es porque no es posible acceder a DNS de red en VPN. El modo Plus se restaurará automáticamente cuando el dispositivo cambie a otra red.";
+"networks summary blocka plus mode" = "Blokada usará Blokada DNS en modo Plus, para asegurar un alto nivel de cifrado y velocidad. Puede cambiar esta configuración en la parte inferior de la pantalla Elegir DNS.";
 "networks permission dialog" = "Blokada puede reconocer las redes a las que se conecta y le permite configurar configuraciones separadas. Sin embargo, para ello, se requiere permiso de ubicación. A veces se puede ver una notificación del sistema sobre el acceso a la ubicación, pero esto no es cierto - Blokada sólo leerá el nombre de la red.";
 
 
@@ -314,6 +315,7 @@
 "payment header activated" = "¡Activado!";
 "payment activated description" = "Ahora Blokada cambiará al modo Plus y se conectará a través de una de nuestros servidores seguros. Si no sabes cuál elegir, te recomendamos que elijas el más cercano a ti.";
 "payment action choose location" = "Elige una ubicación";
+"payment action see locations" = "Nuestras Ubicaciones";
 
 "payment title" = "Actualiza a nuestro servicio VPN para mantener el control de tu *privacidad*.";
 "payment feature title change location" = "Cambiar ubicación";
