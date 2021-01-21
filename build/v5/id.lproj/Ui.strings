@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -231,7 +222,6 @@
 "networks label any wifi" = "Jaringan WiFi manapun";
 "networks label any mobile" = "Jaringan seluler manapun";
 "networks permission request" = "Ketuk di sini untuk mengizinkan Blokada mengenali semua jaringan.";
-"networks permission request granted" = "Anda mungkin akan melihat pemberitahuan ketika Blokada memindai nama jaringan Anda di latar belakang.";
 "networks section choose dns" = "Pilih server DNS";
 "networks summary encrypt dns" = "Blokada akan mengenkripsi DNS jika memungkinkan. Hal ini akan memperkuat keamanan dan mencegah orang lain memata-matai situs web dan aplikasi yang Anda pakai.";
 "networks summary use dns" = "Blokada akan mempergunakan %@ sebagai DNS perangkat Anda. Memilih DNS yang mendukung enkripsi (bertanda ikon kunci) dan lokasi yang berdekatan dengan Anda akan membantu melindungi serta mempercepat koneksi Anda.";
