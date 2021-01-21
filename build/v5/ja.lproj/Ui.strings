@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -232,7 +223,6 @@
 "networks label any wifi" = "全てのWi-Fiネットワーク";
 "networks label any mobile" = "全てのモバイルネットワーク";
 "networks permission request" = "さらにコントロールするには、タップしてアプリにすべてのネットワークを認識させます。";
-"networks permission request granted" = "Blokada がネットワーク名をバックグラウンドで読み込むと通知が表示されることがあります。";
 "networks section choose dns" = "DNSを選択";
 "networks summary encrypt dns" = "Blokadaは暗号化されたDNSを優先して接続します。これによりセキュリティが向上し、悪意のある人物があなたが使用するウェブサイトやアプリをスパイするのを防ぎます。";
 "networks summary use dns" = "BlokadaはデバイスのDNSとして %@ を使用します。ロックアイコン付きの暗号化されたDNSサーバーを選択すると、データを保護することができます。一般に、近くにあるサーバーの方が通信速度が速くなるとされています。";
