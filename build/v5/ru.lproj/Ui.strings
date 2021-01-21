@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -231,7 +222,6 @@
 "networks label any wifi" = "Любая сеть WiFi";
 "networks label any mobile" = "Любая мобильная сеть";
 "networks permission request" = "Чтобы получить больше контроля, нажмите здесь и разрешите приложению распознавать все сети.";
-"networks permission request granted" = "Вы можете увидеть уведомление, когда Blokada будет считывать название вашей сети в фоновом режиме.";
 "networks section choose dns" = "Выбрать DNS";
 "networks summary encrypt dns" = "Blokada будет шифровать DNS, если это возможно. Это позволяет повысить безопасность и предотвратить слежку за используемыми вами веб-сайтами и приложениями со стороны злоумышленников.";
 "networks summary use dns" = "Blokada будет использовать %@ в качестве DNS вашего устройства. Выбор DNS, обеспечивающего шифрование (со значком замка) и находящегося рядом с вами, поможет защитить ваши данные и сделать ваше соединение более быстрым.";
