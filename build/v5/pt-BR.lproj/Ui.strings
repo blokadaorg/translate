@@ -1,18 +1,9 @@
 //
 //  This file is part of Blokada.
 //
-//  Blokada is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  Blokada is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
-//
-//  You should have received a copy of the GNU General Public License
-//  along with Blokada.  If not, see <https://www.gnu.org/licenses/>.
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
 //
 //  Copyright © 2020 Blocka AB. All rights reserved.
 //
@@ -77,6 +68,8 @@
 
 "universal label help" = "Ajuda";
 "universal label welcome" = "Bem-vindo!";
+// Common label when some feature has no setting
+"universal label none" = "Nenhuma";
 "universal status processing" = "Processando... Por favor, aguarde.";
 "universal status copied to clipboard" = "Copiado para a Área de Transferência";
 "universal status restart required" = "Por favor, reinicie o programa para que as alterações entrem em vigor.";
@@ -140,6 +133,10 @@
 "home plus button deactivated" = "BLOKADA+ desativado";
 "home plus button select location" = "Selecionar local";
 "home plus button location" = "Localização: *%@*";
+
+"home level low" = "Proteção: Baixa";
+"home level medium" = "Proteção: Média";
+"home level high" = "Proteção: Alta";
 
 
 "pack section header" = "Recursos Avançados";
@@ -219,13 +216,9 @@
 "networks action use dns" = "Usar DNS: %@";
 "networks action use network dns" = "Preferir DNS de rede";
 "networks label specific network" = "Ajuste o que deve acontecer quando o seu dispositivo se conectar a esta rede.";
-"networks label network type" = "Tipo de rede";
-"networks type wifi" = "Rede Wi-Fi";
-"networks type mobile" = "Rede móvel";
-// As in "any (wifi) network"
-"networks match any" = "(qualquer)";
 "networks permission request" = "Para ter mais controle, toque aqui e deixe o app reconhecer todas as redes.";
 "networks section choose dns" = "Escolher DNS";
+"networks permission dialog" = "O Blokada pode reconhecer as redes em que você se conecta, e permitir que você configure ajustes separados para elas. Para fazer isso, é necessária a permissão de localização. Às vezes, você pode ver uma notificação do sistema sobre o acesso à localização, mas isso não é correto - o Blokada só vai ler o nome da rede.";
 
 
 "account section header settings" = "Configurações";
@@ -279,6 +272,7 @@
 "account encrypt level high" = "Alta";
 "account encrypt label dns only" = "Criptografando DNS";
 "account encrypt desc dns only" = "O Sistema de Nomes de Domínio é como seu dispositivo sabe onde encontrar os sites que você deseja visitar. Infelizmente, a maior parte da Internet ainda usa DNS não criptografado, o que coloca seu histórico de navegação em risco de ser espionado. Quando ativado, o Blokada está forçando seu dispositivo a se conectar apenas a servidores DNS criptografados (também chamados de DNS sobre HTTPS).";
+"account encrypt label everything" = "Conectando através da VPN";
 "account encrypt desc everything" = "Seu dispositivo está se conectando por meio de nossos servidores VPN seguros, e todas as comunicações vindas de, ou para, seu dispositivo estão sendo criptografadas usando algoritmos fortes. Isso protege suas informações pessoais, como dados bancários ou fotos pessoais, de serem roubadas em locais inseguros, como o WiFi de uma cafeteria.";
 "account encrypt action turn on" = "Ativar o BLOKADA";
 "account encrypt header level" = "Nível de Criptografia";
