@@ -1,12 +1,12 @@
-This is the official app on App Store from the Blokada open source project.
+Esta es la aplicación oficial en App Store del proyecto de código abierto Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada para iOS es una aplicación gratuita que utiliza servidores DNS (Sistema de Nombres de Dominio) para permitirte tener una experiencia de navegación sin anuncios para ver sólo el contenido que quieras.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+También hay una VPN incorporada que es opcional para usar. Con Blokada Plus VPN puede navegar por la web con privacidad y proteger su Internet contra ciberataques y hackers.
 
 ----
 
-Top features:
+Mejores características:
 
 - Supports ad-blocking for every web browser and other app installed.
 - Blocks sites that distribute malicious content, viruses and fraudulent websites.
