@@ -15,10 +15,10 @@ Mejores características:
 
 ¡El bloqueador de anuncios más compatible en el mercado!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Bloquea anuncios • Ahorra tu plan de datos • Navega RÁPIDO cargando menos datos • Aumenta la vida de la batería
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+¿Qué se puede bloquear? • Bloquea anuncios molestos: Google AdWords, Google Invite Media, DobleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Bloquea sitios web para adultos • Bloquea sitios web de juegos de azar • Bloquea rastreadores de redes sociales: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Bloquea sitios web maliciosos: descargas de virus, contenido malicioso, sitios web fraudulentos y aplicaciones manipuladas • Aplicación Blokada Plus Adblock iOS.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Términos de uso: https://go.blokada.org/terms Política de privacidad: https://go.blokada.org/privacy
