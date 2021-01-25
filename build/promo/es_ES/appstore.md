@@ -8,12 +8,12 @@ También hay una VPN incorporada que es opcional para usar. Con Blokada Plus VPN
 
 Mejores características:
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Soporta bloqueo de anuncios para cada navegador web y otras aplicaciones instaladas.
+- Bloquea sitios que distribuyen contenido malicioso, virus y sitios web fraudulentos.
+- Intercepción basada en DNS (modo VPN) para todos los navegadores modernos.
+- VPN rápida y confiable que protege su privacidad y cifra sus datos.
 
-The most compatible ad blocker on the market!
+¡El bloqueador de anuncios más compatible en el mercado!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
