@@ -4,22 +4,22 @@ Protege tu privacidad de forma gratuita con la aplicación oficial de Blokada.
 
 Esta es la única aplicación oficial en Play Store del proyecto de código abierto Blokada. Tenga cuidado con las aplicaciones clones, pueden contener código malicioso.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker es una aplicación gratuita que utiliza servidores DNS (Sistema de Nombres de Dominio) para permitirte tener una experiencia de navegación sin anuncios para ver sólo el contenido que quieras.
 
-There is also a built in VPN that is optional to use.
+También hay una VPN incorporada que es opcional para usar.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+El sitio web del proyecto es: https://blokada.org. La versión del sitio web tiene más características y también es gratuita.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Únete a nosotros en nuestro chat de Telegram si tienes preguntas o comentarios: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Mejores características:
+- ¡No se requieren permisos de root!
+- Soporta todos los navegadores web y aplicaciones.
+- Intercepción basada en DNS (modo VPN) para todos los navegadores modernos.
+- Bloquea sitios que distribuyen contenido malicioso, virus y sitios web fraudulentos.
 
-The most compatible ad blocker on the market!
+¡El bloqueador de anuncios más compatible en el mercado!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Bloquea anuncios • Ahorra tu plan de datos • Navega RÁPIDO cargando menos datos • Aumenta la vida de la batería
