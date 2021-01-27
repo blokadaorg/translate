@@ -1,6 +1,7 @@
 "error creating account" = "새로운 계정을 생성할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다.";
 "error fetching data" = "이 작업을 완료할 수 없었습니다. 현재 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 help 버튼을 눌러 우리에게 알려주시기 바랍니다.";
-"error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작해주시거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
+"error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
+"error vpn" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 
 "universal action continue" = "계속";
 "universal action cancel" = "취소";
@@ -31,7 +32,10 @@
 
 "notification vpn expired header" = "BLOKADA+ 구독이 만료되었습니다";
 "notification vpn expired subtitle" = "VPN이 비활성화되었습니다";
+// Make sure each tab name has a similar length
+"main tab settings" = "설정";
 "home status active" = "활성화됨";
+"home status deactivated" = "비활성화됨";
 "home status detail progress" = "잠시만 기다리세요...";
 "pack category active" = "활성화됨";
 // As in sentence, "this host has been blocked"
