@@ -1,7 +1,11 @@
+"error creating account" = "새로운 계정을 생성할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다.";
+"error fetching data" = "이 작업을 완료할 수 없었습니다. 현재 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 help 버튼을 눌러 우리에게 알려주시기 바랍니다.";
+"error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작해주시거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 
 "universal action continue" = "계속";
 "universal action cancel" = "취소";
 "universal action close" = "닫기";
+"universal action try again" = "다시 시도해 보세요.";
 "universal action learn more" = "더 알아보기";
 "universal action help" = "도움";
 "universal action share log" = "로그 공유";
@@ -14,8 +18,19 @@
 "universal action download" = "다운로드";
 "universal action news" = "소식";
 "universal action delete" = "제거";
+"universal action select" = "선택";
 
 "universal label help" = "도움";
+"universal label welcome" = "환영합니다!";
+"universal status processing" = "처리 중입니다... 잠시만 기다려주세요.";
+"universal status copied to clipboard" = "클립보드에 복사됨";
+"universal status restart required" = "변경사항을 적용하려면 이 앱을 다시 시작해야 합니다.";
+
+"alert error header" = "이런!";
+"alert vpn expired header" = "BLOKADA+ 가 만료되었습니다.";
+
+"notification vpn expired header" = "BLOKADA+ 구독이 만료되었습니다";
+"notification vpn expired subtitle" = "VPN이 비활성화되었습니다";
 "home status active" = "활성화됨";
 "home status detail progress" = "잠시만 기다리세요...";
 "pack category active" = "활성화됨";
