@@ -25,9 +25,9 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">&lt;b&gt;%s&lt;/b&gt; をブロックしました</string>
     <string name="panel_domain_blocked_normal_desc">このドメインはブロックされています。許可するには以下のボタンを使用してください。</string>
-    <string name="panel_domain_blocked_nxdomain_desc">このドメインはDNSサーバーによって正しく解決されませんでした。サーバーがドメインをブロックしているか、存在しないドメインです。</string>
-    <string name="panel_domain_blocked_error_desc">このドメインの解決中に問題が発生しました。DNSサーバーはエラーコードで応答しました。</string>
-    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインのCNameであるためブロックされています。許可するには、CNameまたはドメイン自体を許可されたホストに追加してください。</string>
+    <string name="panel_domain_blocked_nxdomain_desc">このドメインは DNS サーバーによって正しく解決されませんでした。サーバーがドメインをブロックしているか、存在しないドメインです。</string>
+    <string name="panel_domain_blocked_error_desc">このドメインの解決中に問題が発生しました。DNS サーバーはエラーコードで応答しました。</string>
+    <string name="panel_domain_blocked_cname_desc">このドメインはブロックされたドメインの CName であるためブロックされています。許可するには、CName またはドメイン自体を許可されたホストに追加してください。</string>
     <string name="panel_domain_blocked_toast">ブラックリストに追加しました。</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">コピー</string>
@@ -36,11 +36,11 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">%s 個のルールを使用</string>
     <string name="panel_ruleset_updating">フィルターを更新しています...</string>
-    <string name="panel_ruleset_canfit">フィルタは&lt;b&gt;%s&lt;/b&gt;のルールで構成されています。お使いのデバイスでは、すべてのアプリケーションで最大&lt;b&gt;%s&lt;/b&gt;MBのメモリが許可されており、最大&lt;b&gt;%s&lt;/b&gt;のルールをデバイスに適用できます。&lt;br&gt;これは単なる推定値であり、Blokadaは複数のフィルターを併用するとより多くのメモリを使用します。新しいフィルターを有効にすると、処理に時間がかかる場合があります。</string>
+    <string name="panel_ruleset_canfit">フィルタは &lt;b&gt;%s&lt;/b&gt; のルールで構成されています。お使いのデバイスでは、すべてのアプリケーションで最大 &lt;b&gt;%s&lt;/b&gt; MB のメモリが許可されており、最大 &lt;b&gt;%s&lt;/b&gt; のルールをデバイスに適用できます。&lt;br&gt;これは単なる推定値であり、 Blokada は複数のフィルターを併用するとより多くのメモリを使用します。新しいフィルターを有効にすると、処理に時間がかかる場合があります。</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">許可</string>
     <!-- Button to allow blocked cname -->
-    <string name="slot_action_allow_cname">CNameを許可</string>
+    <string name="slot_action_allow_cname">CName を許可</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
     <string name="slot_action_allow_domain">ドメインを許可</string>
     <!-- Button to block allowed domain -->
@@ -53,9 +53,9 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">No</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_intro_new">タップして新しいUIの使用方法を表示</string>
-    <string name="slot_intro_new_header">新しいUIの使い方</string>
-    <string name="slot_intro_desc">ここはホームセクションです。右にスワイプするとさらに多くのことができます。 それぞれの下部にメニューがあります - 上にスワイプして開きます。&lt;br/&gt;&lt;br/&gt;Android TVでは、dpad で UI をナビゲートします。 中央キーを使用して、下部のメニューや選択した項目を開きます。 ボタンは、上下左右の4方向の矢印でマークされています - 方向キーを使用してボタンをクリックします。</string>
+    <string name="slot_intro_new">タップして新しい UI の使用方法を表示</string>
+    <string name="slot_intro_new_header">新しい UI の使い方</string>
+    <string name="slot_intro_desc">ここはホームセクションです。右にスワイプするとさらに多くのことができます。 それぞれの下部にメニューがあります - 上にスワイプして開きます。&lt;br/&gt;&lt;br/&gt; Android TV では、dpad で UI をナビゲートします。 中央キーを使用して、下部のメニューや選択した項目を開きます。 ボタンは、上下左右の4方向の矢印でマークされています - 方向キーを使用してボタンをクリックします。</string>
     <string name="slot_intro_info">一部のアイテムにはクエッションマークアイコンが付いています。 それをタップすると、このような短いヘルプメッセージが表示されます。</string>
     <string name="slot_new_filter">ブロックリストに新しいホストを追加</string>
     <string name="slot_new_filter_list">新しいフィルターを追加</string>
@@ -83,16 +83,16 @@
     <string name="slot_enter_name_generate">生成</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; がホワイトリストに登録されています</string>
     <string name="slot_app_desc">このアプリはホワイトリストに登録されているため、ブロックやフィルタリングは実行されません。</string>
-    <string name="slot_allapp_desc">このアプリがBlokadaをバイパスして、トラフィックのブロックを受けないように設定できます。バイパスされたアプリはVPN外で通信することにご注意ください。</string>
+    <string name="slot_allapp_desc">このアプリが Blokada をバイパスして、トラフィックのブロックを受けないように設定できます。バイパスされたアプリは VPN 外で通信することにご注意ください。</string>
     <string name="slot_allapp_whitelisted">バイパス済み</string>
     <string name="slot_allapp_normal">未バイパス（デフォルト）</string>
     <string name="slot_allapp_whitelist">バイパス</string>
     <string name="slot_action_set">設定</string>
     <string name="slot_whitelist_all">すべてのアプリをバイパスする</string>
     <string name="slot_blacklist_all">すべてのアプリをバイパス解除</string>
-    <string name="slot_dns_name">DNSが有効です</string>
-    <string name="slot_dns_name_private">カスタムDNSが有効です</string>
-    <string name="slot_dns_name_disabled">DNSが無効になっています</string>
+    <string name="slot_dns_name">DNS が有効です</string>
+    <string name="slot_dns_name_private">カスタム DNS が有効です</string>
+    <string name="slot_dns_name_disabled">DNS が無効になっています</string>
     <string name="slot_action_none">この操作はまだ利用できません。</string>
     <string name="slot_action_unwhitelist">キャンセル</string>
     <string name="slot_action_author">詳細</string>
@@ -100,7 +100,7 @@
     <string name="slot_input_suggestion">エントリ</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">%s のエントリ</string>
-    <string name="slot_dns_control_title">DNSサーバーリスト</string>
+    <string name="slot_dns_control_title">DNS サーバーリスト</string>
     <string name="slot_dns_control_description">カスタムDNSを失うことなくサーバーと同期できます。&lt;br/&gt;&lt;br/&gt;ドロップを選択すると、（カスタムしたものを含む）すべてのDNSを削除して、もう一度ダウンロードします。</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">同期</string>
