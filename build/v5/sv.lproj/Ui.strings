@@ -80,10 +80,64 @@
 
 "alert error header" = "Hoppsan!";
 "alert vpn expired header" = "BLOKADA+ löpte ut";
+"alert download link body" = "Av säkerhetsskäl, för att ladda ner en fil, måste vi öppna denna webbplats i din webbläsare. Klicka sedan på nedladdningslänken igen.";
+
+"notification vpn expired header" = "Prenumerationen för BLOKADA+ har löpt ut";
+"notification vpn expired subtitle" = "VPN är inaktiverat";
+"notification vpn expired body" = "Uppdatera din prenumeration för att fortsätta använda BLOKADA+";
+"notification desc settings" = "Svep aviseringen åt vänster eller höger för inställningar.";
+
+"notification update header" = "En uppdatering är tillgänglig";
+"alert update body" = "Blokada %@ är nu tillgänglig för nedladdning. Vi rekommenderar att du håller appen uppdaterad och endast laddar ner den från våra officiella källor.";
+"update label updated" = "Uppdaterad!";
+"update desc updated" = "Du använder nu den senaste versionen av Blokada! Kom ihåg, att donera eller prenumerera på Blokada Plus låter oss fortsätta förbättra appen.";
+"update downloading description" = "Uppdateringen laddas nu ner, du bör se installationsprompten inom kort.";
+
+"account active forever" = "För alltid";
+"account active forever full" = "Aktiv för alltid";
+
+"main ask for permissions header" = "Bara ett steg till";
+"main ask for permissions description" = "Blokada använder en VPN-konfiguration för att blockera annonser. Du kommer att bli ombedd att tillåta det i nästa steg.";
+
+"main share message" = "Blokada för iOS hjälpte mig att blockera %@ annonser och spårare!";
+
+"main rate us header" = "Betygsätt oss!";
+"main rate us description" = "Hur gillar du Blokada hittills?";
+"main rate us on app store" = "Skulle du kunna hjälpa oss genom att betygsätta Blokada på App Store?";
+"main rate us action sure" = "Visst!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Hem";
+// Make sure each tab name has a similar length
+"main tab activity" = "Aktivitet";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Avancerat";
 // Make sure each tab name has a similar length
 "main tab settings" = "Inställningar";
+
+"home ads counter footnote" = "annonser och spårare blockerade sedan installationen";
+"home power off menu header" = "Vad skulle du vilja göra?";
+"home power action turn on" = "Slå på";
+"home power action turn off" = "Stäng av";
+"home power action pause" = "Pausa i 5 minuter";
+
+"home status paused" = "Pausad";
 "home status active" = "Aktiv";
+"home status deactivated" = "Avaktiverad";
+"home action tap to activate" = "tryck för att aktivera";
+"home status detail paused" = "pausad tills timern slutar";
+"home status detail active" = "blockerar *annonser* och *spårare*";
+"home status detail active with counter" = "blockerade *%@* annonser och spårare";
+"home status detail active slim" = "Blokada *Slim* är aktiv";
+"home status detail plus" = "*+* skyddar din *sekretess*";
 "home status detail progress" = "var god vänta...";
+
+"home plus button deactivated" = "BLOKADA+ inaktiverad";
+"home plus button select location" = "Välj plats";
+"home plus button location" = "Plats: *%@*";
+
+"home level low" = "Skydd: Lågt";
+"home level medium" = "Skydd: Medium";
 "pack tags none" = "Inget";
 "pack category highlights" = "Höjdpunkter";
 "pack category active" = "Aktiv";
