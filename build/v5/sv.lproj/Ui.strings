@@ -269,6 +269,9 @@
 "account unlock to show" = "Lås upp för att visa ditt konto-ID";
 
 "account header logout" = "Återställ köp";
+"account logout description" = "Ange ett annat konto-ID eller gå tillbaka för att fortsätta använda ditt befintliga konto (denna app kan inte användas utan ett konto).";
+"account id status unchanged" = "(oförändrat)";
+"account action how to restore" = "Hur återställer jag mitt gamla konto?";
 
 "account subscription days remaining" = "Återstående dagar: %@";
 "account devices remaining" = "Återstående enheter: %@";
@@ -325,7 +328,37 @@
 "payment feature desc faster connection" = "Stora hastigheter upp till 100 Mbps med servrar i olika delar av världen.";
 "payment feature title devices" = "Upp till 5 enheter";
 "payment feature desc devices" = "Använd samma konto för att dela din prenumeration med upp till 5 enheter: iOS, Android eller PC.";
+"payment feature title no ads" = "Inga annonser";
+"payment feature desc no ads" = "Fortsätt använda den världsberömda Blokada annonsblockeringstekniken samtidigt som du förbättrar din integritetsnivå och håller dina data privat.";
+"payment feature title support" = "Bra support";
+"payment feature desc support" = "Få ett snabbt svar på alla frågor tack vare vår kundsupport och vår pulserande mötesplats.";
+"payment action see all features" = "Se alla funktioner";
+"payment action restore" = "Återställ köp";
+"payment action terms and privacy" = "Villkor & Integritet";
+"payment action terms" = "Användarvillkor";
+"payment action policy" = "Integritetspolicy";
+"payment alert error header" = "Ett meddelande från App Store";
+// As in saving money: You are saving $5
+"payment save text" = "Du sparar %@";
+"payment conversion note" = "Vi accepterar euro och de visade priserna är en uppskattning. En återbetalning är tillgänglig om dina bankavgifter blir för höga.";
+
+"payment subscription 1 month" = "1 Månad";
+"payment subscription many months" = "%@ Månader";
+"payment subscription per month" = "%@ per månad";
+"payment subscription offer" = "Spara %@";
+
+"payment success label" = "Tack!";
+"payment success desc" = "Ditt konto är nu aktivt! Du kan nu använda alla Blokada Plus-funktioner på alla dina enheter.";
+
+"payment redirect label" = "Omdirigerar...";
+"payment redirect desc" = "Vänligen vänta. Detta bör bara ta ett ögonblick.";
+
+"payment ongoing title" = "Din betalning behandlas.";
+"payment ongoing desc" = "Kreditkortsbetalningar bör inte ta mer än några minuter. Betalningar av kryptovaluta tar vanligtvis upp till en timme, beroende på vilken transaktionsavgift du valde. För PayPal, kan det ta upp till 24 timmar. Du kommer att omdirigeras när ditt konto är klart. Du kan också stänga denna skärm, och komma igen senare. Om du känner att din transaktion tar för lång tid, vänligen kontakta oss.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Ändra";
+"payment action pay" = "Betala %@";
 "payment action pay period" = "Betala %@ varje period";
 "payment label email" = "E-post";
 "payment crypto desc" = "För att betala med din kryptovalutaplånbok trycker du på knappen nedan.";
@@ -384,6 +417,47 @@
 "location region america" = "Amerika";
 "location region europe" = "Europa";
 "location region asia" = "Asien";
+
+"homepage header what is blokada" = "Vad är Blokada?";
+"homepage desc what is blokada" = "Lär dig grundläggande information om appen.";
+"homepage desc download" = "Ladda ner Blokada för din plattform.";
+"homepage desc community" = "Gå med i vår fantastiska mötesplats.";
+"homepage header support" = "Stöd oss";
+"homepage desc support" = "Donera för att hjälpa oss att fortsätta med projektet.";
+"homepage action faq" = "Vanliga frågor";
+"homepage action vpn" = "VPN";
+"homepage action opinions" = "Recensioner";
+"homepage action authors" = "Skapare";
+"homepage action source" = "Källa";
+"homepage action forums" = "Forum";
+"homepage action dashboard" = "Översikt";
+"homepage about footer" = "Låt oss hålla kontakten!";
+"homepage hero title" = "Integritetsappen";
+"homepage hero subtitle" = "gratis och öppen källkod";
+"homepage hero desc" = "Blokada är den populära annonsblockeraren och integritetsappen för Android och iOS. Den stöds och utvecklas aktivt med hjälp av den fantastiska open source-miljön.";
+"homepage about title" = "Blokada 5, annonsblockeraren";
+"homepage about desc" = "Om du effektivt vill blockera annonser, spårare, skadling kod, spara på din dataplan, snabba upp din enhet och skydda din integritet med bara en enda app, då är Blokada något för dig. Den är gratis, säker och har öppen källkod.";
+"homepage about point one" = "Blockerar annonser och spårare";
+"homepage about point two" = "Fungerar för alla appar och alla webbläsare";
+"homepage about point three" = "Kräver inte root eller jailbreak";
+"homepage about point four" = "Säker design (bryter inte kryptering)";
+"homepage about point five" = "Betrodd & gratis för alltid";
+
+"homepage about action faq" = "Se vanliga frågor";
+"homepage about action plus" = "Läs mer om Blokada Plus";
+
+"homepage vpn title" = "Blokada 5, VPN-tjänsten";
+"homepage vpn desc" = "För ultimat integritetsskydd, uppgradera till Blokada Plus och anslut via vårt VPN. Vi använder WireGuard®, det mest avancerade VPN-protokollet, för att kryptera din nätverksaktivitet och dölja din IP-adress.";
+"homepage vpn point one" = "Inga bandbreddsbegränsningar";
+"homepage vpn point two" = "Snabb & modern kryptering";
+"homepage vpn point three" = "Ingen loggning av din nätverksaktivitet";
+"homepage vpn point four" = "Anslut upp till 5 enheter";
+"homepage vpn credit" = "WireGuard är ett registrerat varumärke som tillhör Jason A. Donenfeld";
+
+"homepage faq header" = "Vanliga frågor";
+"homepage faq action more" = "Se fler vanliga frågor";
+"homepage faq title 1" = "Vilken information sparar Blokada?";
+"homepage faq desc 1" = "Blokada varken spårar eller delar något av dina nätverksaktiviteter. Om du använder Blokada Plus måste vi av tekniska skäl samla in den mest minimala informationen som krävs för att hålla tjänsten operativ. Läs vår integritetspolicy som finns i den översta menyn för detaljer.";
 "homepage download option android four" = "Blokada 4 för Android";
 "homepage download option ios" = "Blokada 5 för iOS";
 "homepage download option other" = "Blokada för andra plattformar";
