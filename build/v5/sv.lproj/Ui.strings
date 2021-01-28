@@ -100,15 +100,114 @@
 "activity section header" = "Aktivitet";
 "activity section header details" = "Aktivitetsinformation";
 "activity request blocked" = "Denna begäran har blockerats.";
+"activity request allowed" = "Denna begäran har tillåtits.";
+"activity request allowed whitelisted" = "Denna begäran har tillåtits, eftersom den finns på din lista över tillåtna";
+"activity request blocked blacklisted" = "Denna begäran har blockerats, eftersom den finns på din lista över blockerade";
+"activity actions header" = "Åtgärder";
+"activity information header" = "Information";
+"activity action add to whitelist" = "Lägg till i listan över tillåtna";
+"activity action remove from whitelist" = "Ta bort från listan över tillåtna";
+"activity action added to whitelist" = "Tillagd i listan över tillåtna";
+"activity action add to blacklist" = "Lägg till i listan över blockerade";
+"activity action remove from blacklist" = "Ta bort från listan över blockerade";
+"activity action added to blacklist" = "Lades till i listan över blockerade";
+"activity action copy to clipboard" = "Kopiera namn till urklipp";
+"activity domain name" = "Fullständigt namn";
+"activity time of occurrence" = "Tid";
+"activity number of occurrences" = "Antal förekomster";
+// As in sentence, "this item has been modified"
+"activity state modified" = "modifierad";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "blockerad";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "tillåten";
+"activity happened one time" = "1 gång";
+"activity happened many times" = "%@ gånger";
+"activity category recent" = "Nyligen";
+"activity category top" = "Topplista";
+"activity category top blocked" = "Topplista Blockerade";
+"activity category top allowed" = "Topplista Tillåtna";
+"activity filter header" = "Vilka poster skulle du vilja se?";
+"activity filter show all" = "Visa alla poster";
+"activity filter show blocked" = "Visa endast blockerade";
+"activity filter show allowed" = "Visa endast tillåtna";
+"activity empty text" = "Kom tillbaka hit när du har använt din enhet ett tag, för att se var din enhet ansluter.";
+
+"userdenied section header" = "Mina blocklistor";
+"userdenied section slugline" = "Hantera blockering av vissa webbplatser";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Tillåten";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Blockerad";
+
+"networks section header" = "Nätverk";
+"networks section label" = "Justera inställningar för WiFi och mobila nätverk";
+"networks label all networks" = "Alla nätverk";
+"networks action network specific" = "Tryck här för att ändra standardinställningarna. Om du vill att appen ska bete sig annorlunda på vissa nätverk, tryck nedan.";
+"networks label configuration active" = "Dessa inställningar är för närvarande aktiva";
+"networks label configuration enabled" = "Inte ansluten till detta nätverk";
+"networks label configuration inactive" = "Tryck för att ändra inställningar för detta nätverk";
 
 
 "account section header settings" = "Inställningar";
 "account section header other" = "Annat";
 "account action about" = "Om";
+
+"account subscription days remaining" = "Återstående dagar: %@";
+"account devices remaining" = "Återstående enheter: %@";
+"account devices not available" = "Inte tillgänglig";
+"account devices out of" = "%@ av %@";
+
+"account encrypt level low" = "Låg";
+"account encrypt level medium" = "Medel";
+"account encrypt level high" = "Hög";
+"account encrypt label dns only" = "Krypterar DNS";
+"account encrypt desc dns only" = "Domain Name System är hur din enhet vet var du hittar de webbplatser du vill besöka. Tyvärr så använder de flesta på internet fortfarande okrypterad DNS, som sätter din webbhistorik i riskzonen för att bli avlyssnad. När den är aktiverad tvingar Blokada din enhet att endast ansluta till krypterade DNS-servrar (även kallad DNS över HTTPS).";
+"account encrypt label everything" = "Ansluter via VPN";
+"account encrypt desc everything" = "Din enhet ansluter via våra säkra VPN-servrar och all kommunikation som kommer från, eller till, din enhet krypteras med hjälp av starka algoritmer. Detta skyddar din personliga information, som bankuppgifter eller personliga bilder, från att bli stulen på osäkra platser. T. ex. när du använder WiFi på ett kafé.";
+"account encrypt action turn on" = "Slå på BLOKADA";
+"account encrypt header level" = "Krypteringsnivå";
+"account encrypt label level" = "Nivå";
+"account encrypt label level low" = "Låg: Ingen kryptering";
+"account encrypt label level medium" = "Medium: Krypterar DNS";
+"account encrypt label level high" = "Hög: Krypterar allt";
+"account encrypt header explanation" = "DNS är hur din enhet vet var du hittar webbplatser. BLOKADA stöder endast krypterade servrar.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Vad är DNS?";
+"account encrypt section header" = "Kryptering";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Använd Blokada DNS i Plus-läge";
+
+"account lease label devices list" = "Dessa enheter är anslutna till ditt konto.";
+"account lease label devices" = "Enheter";
+"account lease label this device" = " (denna enhet)";
+"account lease label name" = "Enhetens namn";
+"account lease label location" = "Plats";
+"account lease action generate" = "Generera konfiguration";
+"account lease action download" = "Ladda ner konfiguration";
+"account lease generated" = "Enheten tillagd! Ladda ner konfigurationen för att använda den på alla enheter som stöds av Wireguard.";
+"account lease wireguard desc" = "Blokada använder Wireguard. Konfigurationer kan laddas ner när du skapar nya enheter.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Välj en DNS";
+"account lease label public key" = "Publik nyckel";
+
+"account support action how help" = "Hur kan vi hjälpa dig?";
+"account support action kb" = "Öppen kunskapsbas";
+
+"payment header activated" = "Aktiverad!";
+"payment activated description" = "Blokada kommer nu att växla till Plus-läge och ansluta via en av våra säkra platser. Om du är osäker på vilken du ska välja rekommenderas den som är närmast dig.";
+"payment action choose location" = "Välj en plats";
+"payment action see locations" = "Våra platser";
+
+"payment title" = "Uppgradera till vår VPN-tjänst för att hålla kontrollen över *din integritet*.";
+"payment feature title change location" = "Ändra plats";
+"payment feature desc change location" = "Dölj din IP-adress och låtsas att du är i ett annat land. Detta kommer att maskera dig från tredje part och skydda din identitet.";
+"payment feature title encrypt data" = "Kryptera data";
+"payment feature desc encrypt data" = "Data som skickas via vår VPN-tunnel krypteras med hjälp av starka algoritmer för att skydda mot avlyssning av obehöriga parter.";
+"payment feature title faster connection" = "Snabbare anslutning";
+"payment feature desc faster connection" = "Stora hastigheter upp till 100 Mbps med servrar i olika delar av världen.";
+"payment feature title devices" = "Upp till 5 enheter";
+"payment feature desc devices" = "Använd samma konto för att dela din prenumeration med upp till 5 enheter: iOS, Android eller PC.";
 "payment change method" = "Ändra";
 "app settings start on boot" = "Kör vid uppstart";
 "app settings section use foreground" = "Håll vaken";
