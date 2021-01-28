@@ -242,7 +242,33 @@
 "account action encryption" = "Kryptering & DNS";
 "account action devices" = "Enheter";
 "account action new device" = "Ny enhet";
+"account action inbox" = "Inkorg";
+"account action logout" = "Återställ köp";
+"account action logout only" = "Logga ut";
+"account action create" = "Skapa nytt konto";
 "account action about" = "Om";
+"account action tap to show" = "Tryck för att visa";
+"account action restoring" = "Återställer konto: %@";
+"account label enter to continue" = "Ange ditt konto-ID för att fortsätta";
+"account restore description" = "Oroa dig inte, om du har förlorat eller glömt ditt konto-ID kan vi återställa det. Vänligen kontakta vår support och ge oss information som gör det möjligt för oss att identifiera ditt köp (t. ex. sista 4 siffrorna i ditt kreditkort, eller din e-post på PayPal).";
+"account create description" = "Detta är ditt konto-ID. Skriv ner det och håll det privat. Det är det enda sättet att komma åt din prenumeration.";
+"account create confirm" = "Jag har skrivit ner det";
+
+"account section header my subscription" = "Min prenumeration";
+"account section header general" = "Allmänt";
+"account section header subscription" = "Prenumeration";
+"account label id" = "Konto ID";
+"account label type" = "Kontotyp";
+"account label active until" = "Aktiv tills";
+"account action manage subscription" = "Hantera prenumeration";
+"account action why upgrade" = "Varför ska jag uppgradera?";
+"account subscription header renew" = "Förnya automatiskt";
+"account subscription header payment method" = "Betalningsmetod";
+"account subscription renew unsupported" = "Din kan inte välja eller avsluta automatisk förnyelse för den valda betalningsmetoden här.";
+
+"account unlock to show" = "Lås upp för att visa ditt konto-ID";
+
+"account header logout" = "Återställ köp";
 
 "account subscription days remaining" = "Återstående dagar: %@";
 "account devices remaining" = "Återstående enheter: %@";
@@ -317,5 +343,78 @@
 "payment label country" = "Land";
 
 "payment euro desc" = "Vi är baserade i Europa, så vi accepterar Euro: € 10 är ungefär $ 12.";
+"payment donate disclaimer" = "Detta kommer inte att aktivera ditt Blokada Plus-konto. Om du vill använda vår VPN-tjänst, vänligen prenumerera istället för att donera.";
+
+"apps section header" = "Appar";
+"apps label installed" = "Installerad";
+"apps label system" = "System";
+"apps status bypassed" = "(förbigås)";
+"apps filter header" = "Vilka appar vill du se?";
+"apps filter action show all" = "Visa alla appar";
+"apps filter action show bypassed" = "Visa endast förbigångna";
+"apps filter action show not bypassed" = "Visa inte bara förbigågna";
+"apps filter action toggle system" = "Växla alla systemappar";
+
+"app settings section header" = "Denna enhet";
+"app settings language label" = "Språk";
+"app settings theme label" = "Apptema";
+"app settings theme light" = "Ljust";
+"app settings theme dark" = "Mörkt";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Omdirigera länkar till";
+"app settings browser internal" = "Intern webbläsare";
+"app settings browser external" = "Extern webbläsare (om möjligt)";
+"app settings ipv6 label" = "Tillåt IPv6";
+"app settings section system" = "System";
+"app settings action app info" = "Öppna appinformation";
+"app settings action vpn profile" = "Öppna VPN-profil";
+"app settings action notifications" = "Öppna aviseringsinställningar";
+"app settings section details" = "Detaljer";
+"app settings status default" = "Systemets inställning";
 "app settings start on boot" = "Kör vid uppstart";
+"app settings use dns over https" = "Använd DNS över HTTPS";
+"app settings backup" = "Gör säkerhetskopieringar till molnet";
+"app settings section advanced" = "Avancerat";
 "app settings section use foreground" = "Håll vaken";
+
+"intro header" = "Blokada är aktiv!";
+"intro text" = "En blå ring innebär att Blokada fungerar.\n\nKom ihåg att vissa annonser, som YouTube, inte kan blockeras. Du kommer dock att märka en skillnad i många andra appar.\n\nVi rekommenderar att du aktiverar Alltid VPN / Anslut på begäran i dina systeminställningar.";
+
+"location region worldwide" = "Överallt";
+"location region america" = "Amerika";
+"location region europe" = "Europa";
+"location region asia" = "Asien";
+"homepage download option android four" = "Blokada 4 för Android";
+"homepage download option ios" = "Blokada 5 för iOS";
+"homepage download option other" = "Blokada för andra plattformar";
+"homepage download desc other" = "För närvarande tillhandahåller vi inte Blokada för andra plattformar. Men om du är Blokada Plus-användare kan du använda vår VPN-tjänst på Windows, Linux, Mac och andra plattformar där Wireguard finns tillgänglig.";
+"homepage download desc ios" = "Blokada 5 är helt enkelt tillgänglig på App Store.";
+"homepage download action ios" = "Öppna App Store";
+"homepage download desc android five" = "Detta är vår nya, rekommenderade version <b>för smartphones och surfplattor med Android 7 eller nyare</b>. Den är enklare och snabbare jämfört med Blokada 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blokada Slim är en <b>lättviktig version av appen</b>, den innehåller endast funktioner som tillåts av Google Play-policyn.";
+"homepage download action android slim" = "Öppna Google Play";
+"homepage download desc android four" = "Vi upprätthåller fortfarande den äldre versionen av Blokada. Den har fler funktioner och fungerar på äldre enheter och TV-apparater.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Öppna F-Droid";
+
+"homepage community header" = "Mötesplatsen";
+"homepage community desc" = "Blokada är inte bara integritetsappen. Det är också en gemenskap med människor som bryr sig om sin digitala integritet och välbefinnande. Du hittar oss på vår mötesplats, där du kan ställa frågor som du kan ha. Vi finns också på andra sociala medier och chattar.";
+"homepage community cta subheader" = "Följ med oss och säg hej!";
+"homepage community cta desc" = "Vi bygger allt vårt arbete på feedback från våra användare. Berätta vad du tycker, vad vi ska förbättra, eller bara för att umgås.";
+"homepage community cta action" = "Gå till mötesplatsen";
+"homepage community opinions" = "Här är några av våra användares åsikter.";
+
+"homepage support header" = "Stöd projektet";
+"homepage support desc" = "Om du gillar det vi gör, överväg att stödja oss, så att vi kan fortsätta utveckla nya funktioner och förbättringar. På så sätt kan Blokada fortsätta ha öppen källkod och vara gratis för alltid.";
+"homepage support cta header" = "Blokada är beroende av ditt stöd";
+"homepage support cta desc" = "Blokada är ett projekt med öppen källkod, vilket innebär att du kan vara säker på att det alltid kommer att vara gratis, säkert att använda och utan någon dold agenda. Vi anser att detta är det enda rätta sättet att utveckla en integritetsapp som du kan lita på.";
+"homepage support cta desc more" = "Men att utveckla en kvalitetsapp som Blokada kräver en avsevärd mängd resurser. Detta projekt finns tack vare stöd av fantastiska människor som såna som dig själv!";
+"homepage support cta action" = "Donera (kort, Paypal)";
+"homepage support cta action alt" = "Donera (bank, krypto)";
+
+"homepage developer header" = "Är du en utvecklare";
+"homepage developer subheader" = "och vill göra Blokada bättre?";
+"homepage developer desc" = "Blokada är ett projekt med öppen källkod som är dedikerat till att utveckla den bästa annonsblockeraren och integritetsappen för Android och iOS. Kolla in vår GitHub, hör av dig om du behöver någon hjälp för att göra din första PR.";
+"homepage developer action" = "Gå till repo";
