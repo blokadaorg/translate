@@ -16,25 +16,90 @@
 "error account invalid" = "Detta konto-ID verkar ogiltigt.";
 "error creating account" = "Kunde inte skapa ett nytt konto. Försök igen senare.";
 "error fetching data" = "Denna åtgärd kunde inte slutföras. Se till att du är uppkopplad och försök igen senare. Om problemet kvarstår, vänligen kontakta oss genom att trycka på hjälp-ikonen högst upp.";
+"error tunnel" = "Kunde inte upprätta ett VPN. Starta om enheten eller ta bort VPN-profilen Blokada i systeminställningar och försök igen.";
+"error vpn" = "Kunde inte upprätta ett VPN. Starta om enheten eller ta bort VPN-profilen Blokada i systeminställningar och försök igen.";
+"error vpn perms" = "Inga behörigheter beviljade för att skapa en VPN-profil.";
+"error vpn no current lease" = "Välj en plats först.";
+"error vpn too many leases" = "Du har nått din enhetsgräns. Vänligen ta bort en av dina enheter och försök igen.";
+"error vpn expired" = "VPN är inaktiverat. Vänligen uppdatera din prenumeration för att fortsätta använda BLOKADA+";
+"error payment inactive after restore" = "Din tidigare betalning återställdes, men prenumerationen har redan löpt ut. Om du tror att detta är ett misstag, vänligen kontakta oss genom att trycka på hjälp-ikonen högst upp.";
+"error payment failed" = "Betalningar är inte tillgängliga just nu. Kolla så att du är uppkopplad och försök igen senare. Om problemet kvarstår, vänligen kontakta oss genom att trycka på hjälp-ikonen högst upp.";
+"error payment failed alternative" = "Det gick inte att slutföra din betalning. Kontrollera att dina detaljer är korrekta och försök igen. Om problemet kvarstår, vänligen kontakta oss genom att trycka på hjälp-ikonen högst upp.";
+"error payment not available" = "Betalningar är inte tillgängliga för den här enheten. Antingen är Apple Pay inte aktiverat, eller så kan vi inte hantera köp i ditt land ännu.";
+"error payment canceled" = "Betalningen har avbrutits. Du har inte debiterats.";
+"error pack install" = "Kunde inte installera (eller avinstallera) den här funktionen. Försök igen senare.";
+"error location failed fetching" = "Kunde inte hämta platser.";
+"error unknown" = "Ett okänt problem uppstod. Försök igen. Om problemet kvarstår, kontakta oss genom att trycka på hjälpikonen högst upp.";
+"error blocka dns in filtering mode" = "Blokada DNS stöds för närvarande endast i Plus-läge. Välj en annan DNS och försök igen.";
 
 "universal action continue" = "Fortsätt";
 "universal action cancel" = "Avbryt";
+"universal action close" = "Stäng";
+"universal action done" = "Klar";
+"universal action try again" = "Försök igen";
 "universal action learn more" = "Läs mer";
 "universal action help" = "Hjälp";
+"universal action show log" = "Loggar";
 "universal action share log" = "Dela logg";
+"universal action copy" = "Kopiera";
 "universal action save" = "Spara";
+"universal action contact us" = "Kontakta oss";
+"universal action support" = "Hjälp";
+"universal action upgrade" = "Uppgradera till BLOKADA+";
+"universal action upgrade short" = "Uppgradera";
 "universal action yes" = "Ja";
 "universal action no" = "Nej";
 "universal action donate" = "Donera";
+"universal action community" = "Mötesplats";
 "universal action open in browser" = "Öppna i webbläsare";
+"universal action more" = "Mer";
+"universal action download" = "Hämta";
 "universal action news" = "Nyheter";
+"universal action delete" = "Radera";
+"universal action hide" = "Dölj";
+"universal action select" = "Välj";
+"universal action selected" = "Vald";
+// A verb "to search in the list"
+"universal action search" = "Sök";
+// A verb "to filter the list"
+"universal action filter" = "Filter";
+// A verb "to clear the list"
+"universal action clear" = "Rensa";
+// A verb "to revoke permissions"
+"universal action revoke" = "Återkalla";
 
 "universal label help" = "Hjälp";
+"universal label welcome" = "Välkommen!";
+// Common label when some feature has no setting
+"universal label none" = "Inget";
+"universal status processing" = "Bearbetar... Var god vänta.";
+"universal status copied to clipboard" = "Kopierad till urklipp";
+"universal status restart required" = "Starta om appen för att ändringarna ska träda i kraft.";
+"universal status redirect" = "Fortsätt med Blokada-appen";
+"universal status confirm" = "Är du säker du vill fortsätta?";
+
+"alert error header" = "Hoppsan!";
+"alert vpn expired header" = "BLOKADA+ löpte ut";
 // Make sure each tab name has a similar length
 "main tab settings" = "Inställningar";
 "home status active" = "Aktiv";
 "home status detail progress" = "var god vänta...";
+"pack tags none" = "Inget";
+"pack category highlights" = "Höjdpunkter";
 "pack category active" = "Aktiv";
+"pack category all" = "Alla";
+
+"advanced section header packs" = "Blocklistor";
+"advanced section slugline packs" = "Aktivera för en mer restriktiv blockering";
+"advanced section slugline apps" = "Välj appar som aldrig ska blockeras";
+"advanced section slugline encryption" = "Justera din krypteringsnivå och DNS";
+"advanced action slim migrate to full" = "Du använder Blokada Slim. Läs mer";
+
+"location choice header" = "Välj en plats";
+
+"activity section header" = "Aktivitet";
+"activity section header details" = "Aktivitetsinformation";
+"activity request blocked" = "Denna begäran har blockerats.";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "blockerad";
 // A section name for the list of hosts blocked by user
