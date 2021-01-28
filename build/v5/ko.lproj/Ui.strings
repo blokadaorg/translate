@@ -2,6 +2,8 @@
 "error fetching data" = "이 작업을 완료할 수 없었습니다. 현재 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 help 버튼을 눌러 우리에게 알려주시기 바랍니다.";
 "error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 "error vpn" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
+"error vpn no current lease" = "먼저 지역을 선택하십시오.";
+"error vpn expired" = "VPN이 비활성화되었습니다. BLOKADA+를 계속 사용하고 싶다면 구독을 연장해주시기 바랍니다";
 
 "universal action continue" = "계속";
 "universal action cancel" = "취소";
@@ -37,6 +39,7 @@
 "main rate us header" = "이 앱을 평가해주세요!";
 // Make sure each tab name has a similar length
 "main tab settings" = "설정";
+"home power action pause" = "5분동안만 정지시킴";
 "home status active" = "활성화됨";
 "home status deactivated" = "비활성화됨";
 "home status detail progress" = "잠시만 기다리세요...";
@@ -50,6 +53,7 @@
 "account action my account" = "내 계정";
 "account action devices" = "기기";
 "account action new device" = "새 장치 추가";
+"account action logout only" = "로그아웃";
 "account action about" = "정보";
 "account lease label devices" = "기기";
 "account lease label name" = "장치 이름";
