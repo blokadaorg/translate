@@ -1,5 +1,5 @@
 export default {
-    "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl", "se"],
+    "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl", "sv"],
     "langs-android": {
         "id": "in",
         "zh-Hant": "zh",
@@ -25,7 +25,7 @@ export default {
         "fr": "fr-rFR",
         "hu": "hu-rHU",
         "nl": "nl-rNL",
-	"se": "se-rSE"
+	"sv": "sv-rSE"
     },
     "langs-web4": {
         "pl": "pl_PL",
@@ -47,6 +47,6 @@ export default {
         "fr": "fr_FR",
         "hu": "hu_HU",
         "nl": "nl_NL",
-	"se": "se_SE"
+	"sv": "sv_SE"
     }
 }
