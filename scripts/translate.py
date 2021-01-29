@@ -222,6 +222,13 @@ def outputAsJson(output_file, strings):
         f.write("} }\n")
 
 def makeAndroidKey(line):
+    # Android does not support numbers. Replace the common ones.
+    line = line.replace("1", "one")
+    line = line.replace("2", "two")
+    line = line.replace("3", "three")
+    line = line.replace("4", "four")
+    line = line.replace("5", "five")
+
     line = remove_chars(line, keep=ascii_letters + ' ')
     line = line.replace(" ", "_")
     return line.lower()
