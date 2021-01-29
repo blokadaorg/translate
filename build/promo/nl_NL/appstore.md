@@ -17,8 +17,8 @@ De meest compatibele advertentieblokker op de markt!
 
 • Blokkeert advertenties • Bespaar je dataplan • Surf SNELLER door minder gegevens te laden • Verhoog de batterijduur
 
-Wat kan worden geblokkeerd? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Wat kan worden geblokkeerd? • Blokkeert vervelende advertenties: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, enz. • Blokkeert websites voor volwassenen • Blokkeert gokwebsites • Blokkeert social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blokkeert kwaadaardige websites: Virus downloads, kwaadaardige inhoud, frauduleuze websites en gemanipuleerde apps • Blokada Plus Adblock iOS App.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Gebruiksvoorwaarden: https://go.blokada.org/terms Privacybeleid: https://go.blokada.org/privacy
