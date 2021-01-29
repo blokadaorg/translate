@@ -135,23 +135,75 @@
 "pack configurations header" = "Configuraties";
 "pack information header" = "Meer";
 "pack tags header" = "Labels";
+"pack tags none" = "Geen";
+"pack category highlights" = "Hoogtepunten";
 "pack category active" = "Actief";
+"pack category all" = "Alles";
+
+"advanced section header packs" = "Blokkeerlijsten";
+
+"location choice header" = "Kies een Locatie";
 
 "activity section header" = "Activiteit";
+"activity section header details" = "Activiteitendetails";
+"activity request blocked" = "Dit verzoek is geblokkeerd.";
+"activity request allowed" = "Dit verzoek is toegelaten.";
+"activity request allowed whitelisted" = "Dit verzoek is toegelaten, omdat het op uw Toegelaten lijst staat";
+"activity request blocked blacklisted" = "Dit verzoek is geblokkeerd, omdat het op je Blokkeer lijst staat";
+"activity actions header" = "Acties";
+"activity information header" = "Informatie";
+"activity action add to whitelist" = "Toevoegen aan Toegestaan";
+"activity action remove from whitelist" = "Verwijderen van Toegestaan";
+"activity action added to whitelist" = "Toegevoegd aan Toegestaan";
+"activity action add to blacklist" = "Toevoegen aan Geblokkeerd";
+"activity action remove from blacklist" = "Verwijderen uit Geblokkeerd";
+"activity action added to blacklist" = "Toegevoegd aan Geblokkeerd";
+"activity action copy to clipboard" = "Kopieer naam naar Klembord";
+"activity domain name" = "Volledige naam";
+"activity time of occurrence" = "Tijd";
+"activity number of occurrences" = "Aantal gebeurtenissen";
+// As in sentence, "this item has been modified"
+"activity state modified" = "gewijzigd";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "geblokkeerd";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "toegestaan";
+"activity happened one time" = "1 keer";
+"activity happened many times" = "%@ keer";
+"activity category recent" = "Recent";
+"activity category top" = "Top";
+"activity category top blocked" = "Top Geblokkeerd";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Adv. geblokkeerd";
 
 
 "account section header settings" = "Instellingen";
+"account status text libre" = "Je BLOKADA Libre account is voor altijd actief.";
+
+"account section header primary" = "Primair";
 "account section header other" = "Overige";
+"account action my account" = "Mijn account";
+"account action encryption" = "Encryptie & DNS";
 "account action devices" = "Apparaten";
 "account action new device" = "Nieuw apparaat";
+"account action inbox" = "Inbox";
+"account action logout" = "Herstel aankoop";
+"account action logout only" = "Uitloggen";
+"account action create" = "Genereer nieuw account";
 "account action about" = "Over";
+"account action tap to show" = "Druk om weer te geven";
+"account action restoring" = "Account herstellen: %@";
 "account label enter to continue" = "Voer je account ID in om door te gaan";
+"account create confirm" = "Ik heb het opgeschreven";
+
+"account section header my subscription" = "Mijn Abonnement";
+"account section header general" = "Algemeen";
+"account section header subscription" = "Abonnement";
 "account label id" = "Account ID";
+"account label type" = "Accounttype";
+"account label active until" = "Actief tot";
 "account action manage subscription" = "Abonnement beheren";
+"account action why upgrade" = "Waarom zou ik upgraden?";
 "account encrypt label dns" = "DNS";
 "account lease label devices" = "Apparaten";
 "account lease label name" = "Naam van apparaat";
