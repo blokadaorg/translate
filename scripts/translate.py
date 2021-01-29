@@ -202,45 +202,5 @@ def web4Import(langs, langs_web4, translate, web):
         shutil.copytree(f"{web}/api/v4/canonical/defaults", dst, dirs_exist_ok = True)
         shutil.copytree(f"{translate}/build/v4/content/{l}", dst, dirs_exist_ok = True)
 
-def outputAsAndroidXml(output_file, strings):
-    with open(output_file, "w") as f:
-        f.write("<resources>\n")
-        for key in strings:
-            f.write(f"    <string name=\"{makeAndroidKey(key)}\">{makeAndroidValue(strings[key])}</string>\n")
-        f.write("</resources>\n")
-
-def outputAsJson(output_file, strings):
-    with open(output_file, "w") as f:
-        f.write("{ \"strings\": {\n")
-        count = 0
-        for key in strings:
-            count += 1
-            f.write(f"    \"{key}\": \"{strings[key]}\"")
-            if count < len(strings):
-                f.write(",")
-            f.write("\n")
-        f.write("} }\n")
-
-def makeAndroidKey(line):
-    # Android does not support numbers. Replace the common ones.
-    line = line.replace("1", "one")
-    line = line.replace("2", "two")
-    line = line.replace("3", "three")
-    line = line.replace("4", "four")
-    line = line.replace("5", "five")
-
-    line = remove_chars(line, keep=ascii_letters + ' ')
-    line = line.replace(" ", "_")
-    return line.lower()
-
-def makeAndroidValue(line):
-    line = line.replace("&", "&amp;")
-    line = line.replace("'", "\\'")
-    return line
-
-def remove_chars(input_string, keep):
-    return ''.join([_ for _ in input_string if _ in keep])
-
-
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
