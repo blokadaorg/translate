@@ -22,4 +22,4 @@ Beste functies:
 
 De meest compatibele advertentieblokker op de markt!
 
-• Blokkeert advertenties • Bespaar je dataplan • Blader FASTER door minder gegevens te laden • Verhoog de batterijduur
+• Blokkeert advertenties • Bespaar je dataplan • Surf SNELLER door minder gegevens te laden • Verhoog de batterijduur
