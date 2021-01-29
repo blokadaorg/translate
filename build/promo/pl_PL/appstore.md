@@ -2,7 +2,7 @@ To jest jedyna oficjalna aplikacja projektu Blokada w App Store.
 
 Blokada jest darmową aplikacją, która korzysta z serwerów DNS (Domain Name System), aby umożliwić Ci korzystanie z wolnego od reklam Internetu.
 
-Istnieje również wbudowany opcjonalny VPN do użycia. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+Istnieje również wbudowany opcjonalny VPN do użycia. Dzięki Blokada Plus VPN możesz korzystać z Internetu prywatnie i zabezpieczyć się przed atakami cybernetycznymi i hakerami.
 
 ----
 
@@ -10,15 +10,15 @@ Najważniejsze funkcje:
 
 - Wspiera blokowanie reklam dla każdej zainstalowanej przeglądarki internetowej i dowolnej innej aplikacji.
 - Blokuje strony rozpowszechniające złośliwe treści, wirusy i nieuczciwe strony internetowe.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Przechwytywanie oparte na DNS (tryb VPN) dla wszystkich nowoczesnych przeglądarek.
+- Szybki i niezawodny VPN, który chroni Twoją prywatność i szyfruje Twoje dane.
 
 Najbardziej kompatybilny bloker reklam na rynku!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Blokuje reklamy • Oszczędza plan danych • SZYBSZY Internet przez wczytywanie mniejszej ilości danych • Zwiększa żywotność baterii
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Co można blokować? • Blokuje irytujące reklamy: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blokuje erotyczne strony internetowe • Blokuje gry hazardowe • Blokuje trackery śledzenie mediów: Google Analytics, Facebook Connect, DoubleClick, Tagi Google Publisher, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blokuje strony malware: pobieranie wirusów, złośliwe treści, itp • Aplikacja Blokada Plus Adblock iOS.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Warunki użytkowania: https://go.blokada.org/terms Polityka prywatności: https://go.blokada.org/privacy
