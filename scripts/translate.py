@@ -61,8 +61,9 @@ def main(argv):
         usage()
         return 1
 
-    with open('../langs.js') as langs_file:
-        langs = json.load(langs_file)
+    with open('../langs.js', 'r') as langs_file:
+        data = langs_file.read().replace('export default ', '')
+        langs = json.loads(data)
 
     for opt, arg in opts:
         if opt == "-a":
