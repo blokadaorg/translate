@@ -213,7 +213,6 @@
 "networks label configuration active" = "هذه الإعدادات نشطة حاليّاً";
 "networks label configuration enabled" = "غير متّصل بهذه الشبكة";
 "networks label configuration inactive" = "انقر لتعديل إعدادات هذه الشبكة";
-"networks label details default network" = "يتم تطبيق الإعدادات أدناه بشكل افتراضي على جميع الشبكات. يمكنك الكتابة فوقها للشبكات المحددة (في الشاشة السابقة).";
 "networks action encrypt dns" = "تشفير DNS";
 "networks action use dns" = "استخدام DNS: %@";
 "networks action use network dns" = "تفضيل شبكة DNS";
@@ -340,6 +339,7 @@
 "payment alert error header" = "رسالة من متجر التطبيقات";
 // As in saving money: You are saving $5
 "payment save text" = "إنت تقوم بحفظ %@";
+"payment conversion note" = "نحن نقبل اليورو ، و الأسعار المعروضة تقديريّة. استرداد المبلغ متاح إذا كان البنك الذي تستخدمه يفرض رسوماً كبيرة.";
 
 "payment subscription 1 month" = "شهر واحد";
 "payment subscription many months" = "%@ أشهر";
@@ -367,7 +367,7 @@
 "payment label most popular" = "الأكثر شعبيّة";
 "payment label pay with card" = "الدفع باستخدام البطاقة";
 "payment label pay with paypal" = "الدفع بواسطة PayPal";
-"payment label pay with crypto" = "الدفع بالعملة المشفَّرة";
+"payment label pay with crypto" = "الدفع بالعملات المشفّرة";
 "payment package one month" = "شهر واحد";
 "payment package six months" = "6 أشهر";
 "payment package twelve months" = "12 شهر";
