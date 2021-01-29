@@ -33,6 +33,7 @@ import sys
 import os
 import getopt
 import glob
+import json
 import shutil
 import re
 import subprocess
@@ -51,54 +52,6 @@ def main(argv):
         "translate_dir": "..",
         "target_dir": "../..",
         "action": None,
-        "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl"],
-        "langs-android": {
-            "id": "in",
-            "zh-Hant": "zh",
-            "pt-BR": "b+pt+BR"
-        },
-        "langs-android-res": {
-            "pl": "pl-rPL",
-            "de": "de-rDE",
-            "es": "es-rES",
-            "it": "it-rIT",
-            "hi": "hi-rIN",
-            "ru": "ru-rRU",
-            "bg": "bg-rBG",
-            "tr": "tr-rTR",
-            "ja": "ja-rJP",
-            "id": "in-rID",
-            "cs": "cs-rCZ",
-            "zh-Hant": "zh-rTW",
-            "ar": "ar-rSA",
-            "fi": "fi-rFI",
-            "ro": "ro-rRO",
-            "pt-BR": "pt-rBR",
-            "fr": "fr-rFR",
-            "hu": "hu-rHU",
-            "nl": "nl-rNL"
-        },
-        "langs-web4": {
-            "pl": "pl_PL",
-            "de": "de_DE",
-            "es": "es_ES",
-            "it": "it_IT",
-            "hi": "hi_IN",
-            "ru": "ru_RU",
-            "bg": "bg_BG",
-            "tr": "tr_TR",
-            "ja": "ja_JP",
-            "id": "id_ID",
-            "cs": "cs_CZ",
-            "zh-Hant": "zh_TW",
-            "ar": "ar_SA",
-            "fi": "fi_FI",
-            "ro": "ro_RO",
-            "pt-BR": "pt_BR",
-            "fr": "fr_FR",
-            "hu": "hu_HU",
-            "nl": "nl_NL"
-        }
     }
 
     try:
@@ -107,6 +60,9 @@ def main(argv):
         print("  Bad parameters")
         usage()
         return 1
+
+    with open('../langs.js') as langs_file:
+        langs = json.load(langs_file)
 
     for opt, arg in opts:
         if opt == "-a":
@@ -128,22 +84,22 @@ def main(argv):
     repo = path.join(base_path, config["translate_dir"])
     if config["action"] == "ios":
         iosSync(config["translate_dir"], config["target_dir"])
-        iosImport(config["langs"], config["translate_dir"], config["target_dir"])
+        iosImport(langs["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "android5":
         android5Sync(config["translate_dir"], config["target_dir"])
-        android5Import(config["langs"], config["langs-android"], config["translate_dir"], config["target_dir"])
+        android5Import(langs["langs"], langs["langs-android"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "android4":
         android4Sync(config["translate_dir"], config["target_dir"])
-        android4Import(config["langs"], config["langs-android-res"], config["translate_dir"], config["target_dir"])
+        android4Import(langs["langs"], langs["langs-android-res"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing":
         webSync(config["translate_dir"], config["target_dir"])
-        webImport(config["langs"], config["translate_dir"], config["target_dir"])
+        webImport(langs["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing-gp":
         web4Sync(config["translate_dir"], config["target_dir"])
-        web4Import(config["langs"], config["langs-web4"], config["translate_dir"], config["target_dir"])
+        web4Import(langs["langs"], langs["langs-web4"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "dashboard":
         webSync(config["translate_dir"], config["target_dir"])
-        webImport(config["langs"], config["translate_dir"], config["target_dir"])
+        webImport(langs["langs"], config["translate_dir"], config["target_dir"])
 
     print("Done")
 
