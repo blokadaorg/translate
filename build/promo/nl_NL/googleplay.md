@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Ad blocker - Geen advertenties, betere batterij
 
-Protect your privacy for free with the official Blokada app.
+Bescherm uw privacy voor niets met de officiële Blokada app.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Dit is de enige officiële app op de Play Store van het Blokada open source project. Pas op voor namaak, deze bevatten mogelijk kwaadaardige code.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker is een gratis app die gebruik maakt van DNS (Domain Name System) servers om u in staat te stellen een advertentievrije surfervaring te hebben zodat u alleen de inhoud ziet die u wilt.
 
-There is also a built in VPN that is optional to use.
+Er is ook een ingebouwde VPN die optioneel te gebruiken is.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+De website van het project is: https://blokada.org. De versie van de website heeft meer functies en is ook gratis.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Doe mee met ons via onze Telegram-chat als je vragen of feedback hebt: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Beste functies:
+- GEEN root-rechten vereist!
+- Ondersteunt alle webbrowsers en apps.
+- DNS-gebaseerde interceptie (VPN-modus) voor alle moderne browsers.
+- Blokkeert sites die kwaadaardige inhoud, virussen en frauduleuze websites verspreiden.
 
-The most compatible ad blocker on the market!
+De meest compatibele advertentieblokker op de markt!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Blokkeert advertenties • Bespaar je dataplan • Surf SNELLER door minder gegevens te laden • Verhoog de batterijduur
