@@ -194,7 +194,11 @@
 "activity category top blocked" = "Mais Bloqueados";
 "activity category top allowed" = "Mais Permitidos";
 "activity filter header" = "Quais entradas você gostaria de ver?";
+"activity filter show all" = "Todas as entradas";
+"activity filter show blocked" = "Somente bloqueados";
+"activity filter show allowed" = "Somente permitidos";
 "activity empty text" = "Tente usar o seu dispositivo e volte aqui mais tarde, para ver onde o seu dispositivo se conecta.";
+"activity device filter show all" = "Todos os dispositivos";
 
 "userdenied section header" = "Minhas listas de bloqueio";
 "userdenied section slugline" = "Gerenciar bloqueio de sites específicos";
@@ -299,6 +303,7 @@
 "account lease label this device" = " (este dispositivo)";
 "account lease label name" = "Nome do dispositivo";
 "account lease label location" = "Localização";
+"account lease label generate" = "Gerar um arquivo de configuração para usar com o WireGuard";
 "account lease action generate" = "Gerar Configuração";
 "account lease action download" = "Baixar Configuração";
 "account lease generated" = "Dispositivo adicionado! Baixe a configuração para usá-la em qualquer dispositivo suportado pelo Wireguard.";
@@ -379,6 +384,9 @@
 "apps label system" = "Sistema";
 "apps status bypassed" = "(ignorado)";
 "apps filter header" = "Quais aplicativos você gostaria de ver?";
+"apps filter action show all" = "Todos os aplicativos";
+"apps filter action show bypassed" = "Ignorados apenas";
+"apps filter action show not bypassed" = "Não ignorados apenas";
 "apps filter action toggle system" = "Alternar todos os aplicativos de sistema";
 
 "app settings section header" = "Este dispositivo";
@@ -445,6 +453,7 @@
 "homepage vpn point two" = "Criptografia rápida e moderna";
 "homepage vpn point three" = "Não há registro da sua atividade de rede";
 "homepage vpn point four" = "Conecte até 5 dispositivos";
+"homepage vpn credit" = "'WireGuard' e o logotipo 'Wireguard' são marcas registradas de Jason A. Donenfeld.";
 
 "homepage faq header" = "Perguntas Frequentes";
 "homepage faq action more" = "Veja mais FAQs";
