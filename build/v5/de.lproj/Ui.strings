@@ -218,6 +218,7 @@
 "networks action encrypt dns" = "DNS verschlüsseln";
 "networks action use dns" = "Verwende DNS: %@";
 "networks action use network dns" = "Netzwerk-DNS bevorzugen";
+"networks action force libre mode" = "Libre-Modus erzwingen";
 "networks label specific network" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu diesem Netzwerk herstellt.";
 "networks label specific network type" = "Stelle ein, was passieren soll, wenn dein Gerät eine Verbindung zu einem Netzwerk dieser Art herstellt.";
 "networks label any wifi" = "Jedes WLAN-Netzwerk";
@@ -230,6 +231,7 @@
 "networks summary network dns" = "Blokada verwendet - sofern verfügbar - das DNS des Netzwerks und wechselt andernfalls zu %@. Außerdem werden die Einstellungen für \"DNS verschlüsseln\" ignoriert, wenn Netzwerk-DNS verwendet wird. Die Verwendung des Netzwerk-DNS hilft bei der Behebung von Verbindungsproblemen in fehlerhaften Netzwerken, lässt dich aber ungeschützt.";
 "networks summary network dns and plus mode" = "Blokada deaktiviert vorübergehend den Plus-Modus, wenn Netzwerk-DNS verwendet wird. Dies liegt daran, dass im VPN der Zugriff auf Netzwerk-DNS nicht möglich ist. Der Plus-Modus wird automatisch wiederhergestellt, wenn dein Gerät in ein anderes Netzwerk wechselt.";
 "networks summary blocka plus mode" = "Blokada verwendet Blokada DNS im Plus-Modus, um ein hohes Maß an Verschlüsselung und Geschwindigkeit zu gewährleisten. Du kannst diese Einstellung unten bei \"DNS auswählen\" ändern.";
+"networks summary force libre mode" = "Blokada wird in diesem Netzwerk immer den Libre-Modus verwenden und deinen Blokada Plus-Standort ignorieren. Dies ist nützlich für Netzwerke, in denen du den zusätzlichen Schutz nicht möchtest.";
 "networks permission dialog" = "Blokada kann Netzwerke erkennen, mit denen du dich verbindest und du kannst für diese Netzwerke individuelle Einstellungen konfigurieren. Um diese Funktion zu aktivieren, erfasst diese App jedoch Standortdaten in Form des Netzwerknamens, auch wenn die App geschlossen oder nicht verwendet wird. Möglicherweise siehst du manchmal eine Systembenachrichtigung bezüglich des Standortzugriffs - Blokada liest nur den Namen des Netzwerks.";
 
 
