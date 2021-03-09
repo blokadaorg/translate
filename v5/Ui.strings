@@ -218,6 +218,7 @@
 "networks action encrypt dns" = "Encrypt DNS";
 "networks action use dns" = "Use DNS: %@";
 "networks action use network dns" = "Prefer network DNS";
+"networks action force libre mode" = "Force Libre mode";
 "networks label specific network" = "Adjust what should happen when your device connects to this network.";
 "networks label specific network type" = "Adjust what should happen when your device connects to a network of this type.";
 "networks label any wifi" = "Any WiFi network";
@@ -230,6 +231,7 @@
 "networks summary network dns" = "Blokada will use the network's DNS if available, or switch to %@ otherwise. Also, the Encrypt DNS settings will be ignored whenever network DNS is used. Using the network's DNS helps to fix connectivity problems on troublesome networks, but leaves you unprotected.";
 "networks summary network dns and plus mode" = "Blokada will temporarily disable Plus Mode whenever network DNS is used. This is because it is not possible to access network DNS in VPN. The Plus Mode will be automatically restored when your device switches to another network.";
 "networks summary blocka plus mode" = "Blokada will use Blokada DNS in Plus mode, to ensure high level of encryption and speed. You may change this setting at the bottom of the Choose DNS screen.";
+"networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
 "networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
 
 
