@@ -218,6 +218,7 @@
 "networks action encrypt dns" = "Cripta DNS";
 "networks action use dns" = "Usa DNS: %@";
 "networks action use network dns" = "Preferisci DNS di rete";
+"networks action force libre mode" = "Forza modalità Libre";
 "networks label specific network" = "Regola cosa dovrebbe accadere quando il dispositivo si connette a questa rete.";
 "networks label specific network type" = "Imposta cosa dovrebbe accadere quando il dispositivo si connette a una rete di questo tipo.";
 "networks label any wifi" = "Qualsiasi rete WiFi";
@@ -230,6 +231,7 @@
 "networks summary network dns" = "Se disponibile, Blokada userà i DNS della rete, altrimenti passerà a %@. Inoltre, le impostazioni di Crittografia DNS verranno ignorate se utilizzati i DNS di rete. L'utilizzo dei DNS di rete aiuta a risolvere i problemi di connettività su reti problematiche, ma non ti offre protezione.";
 "networks summary network dns and plus mode" = "Blokada disabiliterà temporaneamente la modalità Plus ogni volta che viene utilizzato il DNS di rete. Questo perché non è possibile accedere al DNS di rete in VPN. La modalità Plus verrà ripristinata automaticamente quando il dispositivo passerà ad un'altra rete.";
 "networks summary blocka plus mode" = "Blokada utilizzerà i DNS di Blokada in modalità Plus, per garantire un alto livello di crittografia e velocità. È possibile modificare questa impostazione nella parte inferiore della schermata Scegli DNS.";
+"networks summary force libre mode" = "Blokada userà sempre la modalità Libre su questa rete e ignorerà la tua posizione Blokada Plus. Utile per le reti in cui non si desidera la protezione aggiuntiva.";
 "networks permission dialog" = "Blokada può riconoscere le reti a cui ti connetti e consentire di configurare impostazioni separate per ognuna di loro. Tuttavia, per farlo, l'applicazione raccoglierà i dati della posizione per poter accedere al nome della rete, anche quando è chiusa o non in uso. Talvolta potresti vedere una notifica circa l'accesso alla posizione - Blokada leggerà solo il nome della rete.";
 
 
