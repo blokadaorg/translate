@@ -218,6 +218,7 @@
 "networks action encrypt dns" = "Enkripsikan DNS";
 "networks action use dns" = "Gunakan DNS: %@";
 "networks action use network dns" = "Utamakan DNS jaringan";
+"networks action force libre mode" = "Paksa Mode Libre";
 "networks label specific network" = "Atur apa yang terjadi ketika perangkat Anda tersambung dengan jaringan ini.";
 "networks label specific network type" = "Pengaturan ketika perangkat Anda tersambung dengan jaringan ini.";
 "networks label any wifi" = "Jaringan WiFi manapun";
@@ -230,6 +231,7 @@
 "networks summary network dns" = "Blokada akan mempergunakan DNS dari jaringan jika tersedia, jika tidak memungkinkan Blokada akan menggunakan %@. Pengaturan Enkripsi DNS akan diabaikan ketika DNS jaringan aktif. Penggunaan DNS dari jaringan membantu perbaikan kendala koneksi pada jaringan bermasalah, namun akan membuat koneksi Anda tak terlindungi.";
 "networks summary network dns and plus mode" = "Blokada akan menonaktifkan Mode Plus untuk sementara waktu ketika DNS jaringan digunakan. Hal ini terjadi karena pengguna tidak akan mungkin mengakses DNS jaringan saat menggunakan VPN. Mode Plus akan kembali aktif secara otomatis ketika perangkat Anda beralih ke jaringan lain.";
 "networks summary blocka plus mode" = "Blokada akan mempergunakan Blokada DNS dalam Mode Plus demi menjamin kecepatan dan tingkat enkripsi tinggi. Anda dapat mengubah pengaturan ini di bagian bawah layar Pilih DNS.";
+"networks summary force libre mode" = "Blokada akan selalu menggunakan Mode Libre dijaringan ini, dan mengabaikan lokasi Blokada Plus mu. Ini berguna untuk jaringan di mana Anda tidak menginginkan perlindungan tambahan.";
 "networks permission dialog" = "Blokada bisa mengenali jaringan apa saja yang terkoneksi dengan perangkat Anda, dan memungkinkan Anda untuk membuat pengaturan terpisah untuk masing-masing jaringan tersebut. Namun, Blokada akan mengumpulkan data lokasi dalam bentuk nama jaringan supaya fitur ini bisa berfungsi dengan baik, bahkan ketika Blokada sedang non aktif atau tidak digunakan. Anda sesekali akan mendapat notifikasi sistem tentang Blokada yang mengakses informasi lokasi, namun Blokada hanya membaca nama jaringan yang Anda gunakan.";
 
 
