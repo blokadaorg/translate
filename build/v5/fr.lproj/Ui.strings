@@ -219,7 +219,9 @@
 "networks action encrypt dns" = "Chiffrement DNS";
 "networks action use dns" = "Utiliser le DNS : %@";
 "networks permission request" = "Pour avoir plus de contrôle, appuyez ici et laissez l'application découvrir tous les réseaux.";
-"networks section choose dns" = "Sélectionnez un DNS";
+"networks section choose dns" = "Choisir un DNS";
+"networks summary encrypt dns" = "Blokada chiffrera les données DNS si possible. Cela renforce votre sécurité et empêche les acteurs malveillants d'espionner votre activité sur le net et sur les applis.";
+"networks summary blocka plus mode" = "Blokada utilisera Blokada DNS en mode Plus afin d'assurer un haut niveau de chiffrement avec de courts délais de calcul. Vous pouvez modifier ce paramètre en bas de l'écran Choisir un DNS.";
 
 
 "account section header settings" = "Paramètres";
@@ -433,7 +435,9 @@
 "homepage vpn title" = "Blokada 5, le VPN";
 "homepage vpn point one" = "Aucune restriction de bande passante";
 "homepage vpn point two" = "Chiffrement rapide et moderne";
+"homepage vpn point three" = "Pas d'archivage de votre activité réseau";
 "homepage vpn point four" = "Connectez jusqu'à 5 appareils";
+"homepage vpn credit" = "\"WireGuard\" et le logo \"WireGuard\" sont des marques déposées de Jason A. Donenfeld.";
 
 "homepage faq header" = "Foire aux Questions";
 "homepage faq action more" = "Voir plus de FAQs";
