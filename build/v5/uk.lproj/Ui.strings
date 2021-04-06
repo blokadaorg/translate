@@ -16,13 +16,17 @@
 "universal action continue" = "Продовжити";
 "universal action cancel" = "Скасувати";
 "universal action close" = "Закрити";
+"universal action done" = "Готово";
 "universal action learn more" = "Дізнатись більше";
 "universal action help" = "Допомога";
+"universal action show log" = "Журнали";
 "universal action share log" = "Надіслати журнал";
 "universal action copy" = "Копіювати";
 "universal action save" = "Зберегти";
 "universal action contact us" = "Зв'яжіться з нами";
 "universal action support" = "Підтримка";
+"universal action upgrade" = "Оновити до BLOKADA+";
+"universal action upgrade short" = "Оновити";
 "universal action yes" = "Так";
 "universal action no" = "Ні";
 "universal action donate" = "Фондувати";
@@ -32,9 +36,30 @@
 "universal action download" = "Завантажити";
 "universal action news" = "Новини";
 "universal action delete" = "Видалити";
+"universal action hide" = "Приховати";
+"universal action select" = "Вибрати";
+"universal action selected" = "Вибрано";
+// A verb "to search in the list"
+"universal action search" = "Пошук";
+// A verb "to filter the list"
+"universal action filter" = "Фільтр";
+// A verb "to clear the list"
+"universal action clear" = "Очистити";
 
 "universal label help" = "Допомога";
+"universal label welcome" = "Ласкаво просимо!";
+"universal status processing" = "Обробка, зачекайте, будь ласка...";
+"universal status copied to clipboard" = "Скопійовано до буфера обміну";
+"universal status restart required" = "Перезапустіть програму для застосування змін.";
 "universal status redirect" = "Продовжити в додатку Blokada";
+"universal status confirm" = "Ви справді хочете продовжити?";
+
+"alert error header" = "Упс!";
+"alert vpn expired header" = "Термін дії BLOKADA+ закінчився";
+
+"notification vpn expired header" = "Термін дії підписки на BLOKADA+ закінчився";
+"notification vpn expired subtitle" = "VPN вимкнено";
+"notification vpn expired body" = "Будь ласка, оновіть підписку, щоб продовжити використання BLOKADA+";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Головна";
@@ -85,3 +110,4 @@
 "homepage hero subtitle" = "безкоштовно та з відкритим програмним кодом";
 
 "homepage download header" = "Завантажити Blokada";
+"homepage developer action" = "Перейти до репозиторію";
