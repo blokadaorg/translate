@@ -61,6 +61,11 @@
 "notification vpn expired subtitle" = "VPN вимкнено";
 "notification vpn expired body" = "Будь ласка, оновіть підписку, щоб продовжити використання BLOKADA+";
 
+"notification update header" = "Доступне оновлення";
+"update label updated" = "Оновлено!";
+
+"account active forever" = "Назавжди";
+
 // Make sure each tab name has a similar length
 "main tab home" = "Головна";
 // Make sure each tab name has a similar length
@@ -71,10 +76,48 @@
 "home power action turn off" = "Вимкнути";
 "home status active" = "Працює";
 "home status detail progress" = "зачекайте...";
+"home plus button location" = "Розташування: *%@*";
+
+"home level low" = "Захист: низький";
+"home level medium" = "Захист: середній";
+"home level high" = "Захист: високий";
+
+
+"pack section header" = "Розширені можливості";
+"pack author" = "Автор";
+"pack configurations header" = "Налаштування";
 "pack information header" = "Більше";
+"pack tags header" = "Мітки";
+"pack tags none" = "Немає";
+"pack category highlights" = "Основні моменти";
 "pack category active" = "Працює";
+"pack category all" = "Усi";
+
+"advanced section header packs" = "Списки блокування";
+
+"activity section header" = "Активність";
+"activity actions header" = "Дії";
+"activity information header" = "Інформація";
+"activity action add to whitelist" = "Додати до дозволених";
+"activity action remove from whitelist" = "Видалити з дозволених";
+"activity action added to whitelist" = "Додано до дозволених";
+"activity action add to blacklist" = "Додати до заблокованих";
+"activity action remove from blacklist" = "Видалити з заблокованих";
+"activity action added to blacklist" = "Додано до заблокованих";
+"activity action copy to clipboard" = "Скопіювати ім'я в буфер обміну";
+"activity domain name" = "Повне ім'я";
+"activity time of occurrence" = "Час";
+"activity number of occurrences" = "Кількість";
+// As in sentence, "this item has been modified"
+"activity state modified" = "змінено";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "заблоковано";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "дозволено";
+"activity happened one time" = "1 раз";
+"activity happened many times" = "%@ разів";
+"activity category recent" = "Недавні";
+"activity filter show all" = "Усі записи";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Заблоковано";
 
