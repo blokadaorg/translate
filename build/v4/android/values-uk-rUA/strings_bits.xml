@@ -4,13 +4,16 @@
     <string name="home_touch">Натисніть чи утримуйте, щоб налаштувати</string>
     <string name="home_blokada_disabled">Blokada зупинена</string>
     <string name="home_blokada_active">Blokada активна</string>
+    <string name="home_blokada_active_protected">Blokada Plus активована - ваш інтернет захищений</string>
     <string name="home_blokada_inactive">Blokada неактивна</string>
     <string name="home_activating">Вмикається</string>
     <string name="home_please_wait">Зачекайте...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus активована без блокування реклами</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada активована в режимі DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s заблоковано з %s</string>
     <string name="home_masterswitch_enabled">Blokada увімкнена</string>
     <string name="home_masterswitch_waiting">Очікування мережі...</string>
     <!-- A button to share the ads counter on social media -->
@@ -27,10 +30,13 @@
     <string name="home_update_required">Потрібно оновити</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Фондувати</string>
+    <string name="home_vpn_enabled">Blokada Plus активована</string>
     <string name="home_vpn_disabled">Blokada Plus неактивна</string>
     <string name="home_account_active">Ваша підписка активна</string>
+    <string name="home_connecting_vpn">Підключення до Blokada Plus</string>
     <string name="home_cleanup">Рекомендовано очищення</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Підключено до Blokada Plus</string>
     <string name="home_boringtun_not_loaded">На жаль, ваш пристрій не підтримується Blokada Plus. Ви можете користуватися іншими функціями.</string>
     <string name="home_blocka_vpn_error">Неможливо підключитися до шлюзу. Ви онлайн?</string>
     <string name="home_account_error">Неможливо підтвердити обліковий запис. Ви онлайн?</string>
