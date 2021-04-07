@@ -31,6 +31,7 @@
     <string name="home_account_active">Ваша підписка активна</string>
     <string name="home_cleanup">Рекомендовано очищення</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_boringtun_not_loaded">На жаль, ваш пристрій не підтримується Blokada Plus. Ви можете користуватися іншими функціями.</string>
     <string name="home_blocka_vpn_error">Неможливо підключитися до шлюзу. Ви онлайн?</string>
     <string name="home_account_error">Неможливо підтвердити обліковий запис. Ви онлайн?</string>
     <string name="home_permission_error">Будь ласка, надайте дозволи VPN.</string>
@@ -45,9 +46,12 @@
     <string name="menu_ads_rules_label">Додайте власні правила блокування, якщо потрібно.</string>
     <string name="menu_ads_log_label">Переглянути що було заблоковано чи дозволено нещодавно.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Будь ласка, активуйте Вашу підписку.</string>
     <string name="menu_vpn_select_gateway">Оберіть шлюз для підключення.</string>
+    <string name="menu_vpn_intro_button">Навіщо мені Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Моя Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Шлюзи</string>
@@ -61,6 +65,8 @@
     <string name="menu_vpn_gateways_label">Оберіть один зі шлюзів для під\'єднання. Ваш пристрій надсилатиме зашифровані дані безпечно крізь цей шлюз, додаючи Вам анонімності.</string>
     <string name="menu_vpn_support_label">У разі виникнення будь-яких проблем без вагань звертайтеся до нас.</string>
     <string name="menu_vpn_support_button">Підтримка</string>
+    <string name="menu_vpn_tunnel_settings">Налаштування Blokada Plus</string>
+    <string name="menu_vpn_tunnel_learn_more">Дізнатися більше про Blokada Plus</string>
     <string name="menu_vpn_info_account_label">Чи є у мене обліковий запис?</string>
     <string name="menu_vpn_info_account_line1">Так! Ваш обліковий запис створюється автоматично під час першого запуску. Вам не потрібно реєструватися.</string>
     <string name="menu_vpn_info_account_line2">Натисніть на аватар вище, щоб побачити ID вашого облікового запису.</string>
@@ -69,12 +75,15 @@
     <string name="menu_dns_recommended">Рекомендовані DNS сервери</string>
     <string name="menu_dns_intro">DNS відповідає за визначення адрес IP для сайтів та додатків, які Ви використовуєте. Хороший DNS може пришвидшити пристрій та допоможе захистити приватність.</string>
     <string name="menu_dns_select">Оберіть один з DNS серверів.</string>
+    <string name="menu_apps_intro">Деякі додатки можуть не працювати належним чином з Blokada. Наприклад, вони можуть мати проблеми з підключенням.\n\nАктивація VPN часто допомагає у таких випадках.\n\nЯкщо проблема залишається - налаштуйте роботу програми в обхід Blokada. Пам\'ятайте, що в цьому випадку трафік додатка піде повз Blokada Plus.</string>
     <string name="menu_apps_system_label">Системні додатки – це ті додатки, що були попередньо встановлені на пристрої виробником. Деякі з них приховані. Змінюйте це тільки якщо точно розумієте свої дії.</string>
     <string name="menu_host_list_intro">Списки хостів містять правила для блокування реклами та стеження. Слідкуйте, щоб їх було не надто багато.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
     <string name="menu_host_adblocking_settings">Налаштування блокування реклами</string>
     <string name="menu_host_list_status">Стан списку</string>
     <string name="menu_host_list_download">Налаштування завантажень</string>
+    <string name="menu_host_whitelist">Хости, які ви додасте сюди, ніколи не блокуватимуться. Використовуйте цей список, коли, наприклад, сайт, який ви хочете відвідати, помилково заблокований. Зверніть увагу, що це не відноситься до додатків, які працюють в обхід.</string>
+    <string name="menu_host_blacklist">Хости, які ви додасте сюди завжди блокуватимуться. Наприклад, ви можете додати ті сайти, що не блокується стандартними списками. Зверніть увагу, що це не відноситься до додатків, які працюють в обхід.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Інше</string>
     <string name="menu_share_log_label">Поділившись журналом роботи, Ви дозволите нам знайти рішення для проблеми, що виникла. Переконайтеся, що надаєте його саме учаснику основної команди Blokada.</string>
