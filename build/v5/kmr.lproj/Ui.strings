@@ -103,6 +103,35 @@
 
 "main rate us header" = "Me binirxînin!";
 "main rate us description" = "Heta niha tu çawa ji Blokada hez dikî?";
+"main rate us on app store" = "Tu yê alîkariya me bikî ji bo nirxandina Blokada li App Store?";
+"main rate us action sure" = "Bêguman!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Mal";
+// Make sure each tab name has a similar length
+"main tab activity" = "Çalakî";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Pêşketî";
+// Make sure each tab name has a similar length
+"main tab settings" = "Mîhengên";
+
+"main label use side menu" = "Ji bo navîgasyonê menuya alî bikar bînin";
+
+"home ads counter footnote" = "reklam û şopînerên ji sazkirinê ve hatine asteng kirin";
+"home power off menu header" = "Tu dixwazî çi bikî?";
+"home power action turn on" = "Veke";
+"home power action turn off" = "Bitemirîne";
+"home power action pause" = "Ji bo 5 deqe biqede";
+
+"home status paused" = "Hatiye rawestandin";
+"home status active" = "Çalak";
+"home status deactivated" = "Bêçalakîkirin";
+"home action tap to activate" = "destlêdê ku çalak bikin";
+"home status detail paused" = "sekinî ta ku demjimêr biqede";
+"home status detail active" = "astengkirina *reklam* û *şopîner*";
+"home status detail active with counter" = "asteng kirin *%@* reklam û şopîner";
+"home status detail active slim" = "Blokada *Slim* çalak e";
+"home status detail plus" = "*+* parastina *nepenîtiya* xwe";
 "home status detail progress" = "ji kerema xwe bisekine...";
 
 "home plus button deactivated" = "BLOKADA+ HATE BÊÇALAKKIRIN";
@@ -117,3 +146,39 @@
 "pack section header" = "Taybetmendiyên Pêşketî";
 "pack section header details" = "Hûrguliyên Taybetiyê";
 "pack action install" = "STANDIN";
+
+"userdenied section header" = "Blokên min";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Destûr dan";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Astengkirî";
+
+"networks section header" = "Tor";
+"networks section label" = "Ji bo WiFi û tora mobîl mîhengan sererast bike";
+"networks label all networks" = "Hemû tor";
+"networks action network specific" = "Ji bo sererastkirina mîhengên pêşravekî li vir bike. Ji bo ku app li ser hin toreyan cuda be, li jêr ê lêbide.";
+"networks label configuration active" = "Ev mîheng niha çalak in";
+"networks label configuration enabled" = "Bi vê torê ve ne girêdayî ye";
+"networks label configuration inactive" = "Destlêda ji bo guhezandina mîhengên vê torê";
+"networks label details default network" = "Mîhengên li jêr ji bo hemû toreyan ji aliyê pêşdarazî ve tê tetbîqkirin. Tu dikarî wan ji bo torbendên bijartî (di ekrana berê) de binvîsî.";
+"networks action encrypt dns" = "DNS şîfre bikin";
+"networks action use dns" = "DNS bi kar bîne: %@";
+"networks action use network dns" = "DNS a torê tercîh bike";
+"networks action force libre mode" = "Moda Libre bi zorêkirin";
+"networks label specific network" = "Dema cîhaza we bi vê torê ve girêbide, çi dibe bila bibe sererast bikin.";
+"networks label specific network type" = "Dema cîhaza we bi toreke ji vî rengî ve girê bide, çi dibe bila bibe sererast bikin.";
+"networks label any wifi" = "Tu toreke WiFi";
+"networks label any mobile" = "Tu toreke mobîl";
+"networks permission request" = "Ji bo ku zêdetir kontrol ê bike, li vir bafirîne û bila sepan hemû toreyan bide tesbîtkirin.";
+"networks permission request granted" = "Tu dikarî agahdariyekê bibînî dema ku Blokada navê xwe yê torê li paşê dixwîne.";
+"networks section choose dns" = "DNS hilbijêre";
+"networks summary encrypt dns" = "Ger gengaz be Blokada dê DNS şîfre bike. Ev yek ewlehiya we baştir dike û pêşî li aktorên xerab digire ku li ser kîjan malper û karpên ku hûn bikar tînin sîxuriyê bikin.";
+"networks summary use dns" = "Blokada dê %@ wekî DNS ya cîhaza xwe bi kar bîne. Hilbijartina ku destûrê dide şerpêkirinê (xwediyê îkona kilîtê ye), û nêzîkî we ye, dê alîkariya parastina daneyên xwe bike û girêdana xwe zûtir bike.";
+"networks summary network dns" = "Blokada heke hebe wê DNS a torê bi kar bîne, an jî dê bibe %@ wekî din. Her wiha, her dema ku DNS a torê were bikaranîn mîhengên DNS ên koxûşkirî wê ji nedîtî ve bên. Bikaranîna DNS a torê alîkariya çareserkirina pirsgirêkên girêdanê li ser torbendên tengasdike, lê we bêparastin dike.";
+"networks summary network dns and plus mode" = "Blokada dema ku DNS a torê were bikaranîn wê Plus Mode bi demkî neçalak bike. Ev ji ber ku ne mumkun e ku di VPN'ê de bigihîje DNS a torê. Dema cîhaza te veguhere toreke din, Moda Plus wê bixweber were restorekirin.";
+"networks summary blocka plus mode" = "Blokada dê Blokada DNSê di moda Plusê de bikar bîne, da ku asta bilind a şîfrekirin û lezê piştrast bike. Hûn dikarin vê mîhengê li jêrî dîmendera DNS Hilbijêrin biguherînin.";
+"networks summary force libre mode" = "Blokada dê her dem li ser vê torê moda Libre bikar bîne, û cîhê Blokada Plusê paşguh bikin. Ev ji bo torgilokên ku hûn parastina zêde naxwazin kêrhatî ye.";
+"networks permission dialog" = "Blokada dikare toreyên ku hûn pê ve girê didin nas bike, û bihêle ku tu mîhengên cuda ji bo wan veava bikî. Lê belê, ev sepan dê daneyên cihan di forma navê torê de berhev bike da ku ev taybetmendî çalak bike, heta ku dema ku sepan girtî be an jî neyê bikaranîn. Carinan tu dikarî agahdariya pergalê di derbarê gihîştina cihan de bibînî - Blokada tenê wê navê torê bixwîne.";
+
+
+"account section header settings" = "Mîhengên";
