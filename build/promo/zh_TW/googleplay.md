@@ -1,4 +1,4 @@
-Blokada Slim 廣告封鎖 - 無廣告，更省電
+Blokada Slim 廣告封鎖——無廣告，更省電
 
 使用免費的官方 Blokada 應用程式來保護您的隱私。
 

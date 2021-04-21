@@ -25,6 +25,7 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">Заблоковано &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Цей домен було заблоковано. Щоб надалі дозволяти його, натисніть кнопку нижче.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">DNS-сервер некоректно розпізнав цей домен. Домен заблокований, або його не існує.</string>
     <string name="panel_domain_blocked_toast">Додано до чорного списку.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Копіювати</string>
@@ -36,7 +37,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Дозволити</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Дозволити CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Дозволити домен</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Блокувати</string>
     <string name="slot_action_close">Закрити</string>
@@ -82,6 +85,8 @@
     <string name="slot_allapp_normal">Не пропускається</string>
     <string name="slot_allapp_whitelist">Пропустити</string>
     <string name="slot_action_set">Встановити</string>
+    <string name="slot_whitelist_all">Обходити всі додатки</string>
+    <string name="slot_blacklist_all">Не обходити жодних додатків</string>
     <string name="slot_dns_name">DNS активований</string>
     <string name="slot_dns_name_private">Власний DNS активний</string>
     <string name="slot_dns_name_disabled">DNS деактивований</string>
@@ -107,6 +112,7 @@
     <string name="slot_filters_description">Ви можете синхронізувати фільтри із нашими серверами без втрати власних пунктів.&lt;br/&gt;&lt;br/&gt;Або Ви можете видалити всі пункти (включаючи власні), а тоді завантажити їх знову.</string>
     <string name="slot_blocked_normal_title">Домен заблоковано</string>
     <string name="slot_blocked_answer_title">Не вдається перетворити доменне ім\'я</string>
+    <string name="slot_blocked_cname_title">CName заблоковано</string>
     <string name="slot_forwarded_title">Домен пропущено</string>
     <string name="slot_whitelist_title">Дозволений додаток</string>
     <string name="slot_list_no_desc">Цей пункт не має ніякого опису.</string>
@@ -114,6 +120,8 @@
     <string name="slot_action_deactivate">Вимкнути</string>
     <string name="slot_action_activate">Увімкнути</string>
     <string name="slot_update_action_refresh">Перевірити знову</string>
+    <string name="slot_telegram_title">Приєднуйтесь до нас!</string>
+    <string name="slot_telegram_desc">Відвідайте нашу спільноту, щоб отримати допомогу або просто стати її частиною.</string>
     <string name="slot_telegram_action">Відкрити</string>
     <string name="slot_dropped_share_title">Поділитись</string>
     <string name="slot_adblocking_label">Блокувати реклами й трекери</string>
@@ -136,6 +144,7 @@
     <string name="slot_gateway_learn_more">Дізнатися більше про шлюзи</string>
     <string name="slot_gateway_info_partner">Що таке шлюзи партнерів?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Керуйте вашими пристроями, які підключаються до Blokada Plus.</string>
     <string name="slot_lease_name_current">%s (цей пристрій)</string>
     <string name="slot_lease_description">ID пристрою: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">ID пристрою: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Це ваш поточний пристрій.</string>

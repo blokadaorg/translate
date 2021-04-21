@@ -1,0 +1,297 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error device offline" = "Amûra we negirêdayî ye";
+"error account inactive" = "Hesabê we neçalak e. Ji kerema xwe hesabê xwe çalak bikin da ku hûn BLOKADA+ bikar bînin.";
+"error account inactive after restore" = "Xuya ye ev hesabeke aktîf a rast e. Heke hûn bawer dikin ku ev xeletiyek e, ji kerema xwe bi me re bi pêwendiya li ser îkona alîkariyê li jor.";
+"error account invalid" = "Nasnameya vê hesabê nerast e.";
+"error creating account" = "Nikarî hesabeke nû biafirîne. Ji kerema xwe paşê dîsa biceribîne.";
+"error fetching data" = "Ev çalakî nehate temamkirin. Bawer bin ku hûn serhêl in, û paşê dîsa biceribînin. Eger pirsgirêk berdewam bike, ji kerema xwe bi me re bi tikandina îkona alîkariyê li jor.";
+"error tunnel" = "VPN nehate avakirin. Ji kerema xwe cîhaza xwe ji nû ve bide destpêkirin, an jî profîla VPN a Blokada di mîhengên pergalê de rake û dîsa biceribîne.";
+"error vpn" = "VPN nehate avakirin. Ji kerema xwe cîhaza xwe ji nû ve bide destpêkirin, an jî profîla VPN a Blokada di mîhengên pergalê de rake û dîsa biceribîne.";
+"error vpn perms" = "Ji bo çêkirina profîla VPN destûr tune.";
+"error vpn no current lease" = "Ji kerema xwe pêşî cihekî hilbijêrin.";
+"error vpn too many leases" = "Te xwe gihand sînorê cîhazên xwe. Ji kerema xwe re yek ji cîhazên xwe rake û dîsa biceribîne.";
+"error vpn expired" = "VPN neçalak e. Ji kerema xwe abonetiya xwe nû bike da ku bikaranîna BLOKADA+ bidomîne";
+"error payment inactive after restore" = "Pereyê te yê berê hat restorekirin, lê abonetî ji xwe qediya. Heke hûn bawer dikin ku ev xeletiyek e, ji kerema xwe bi me re bi pêwendiya li ser îkona alîkariyê li jor.";
+"error payment failed" = "Di vê demê de berdêl nayê dayîn. Bawer bin ku hûn serhêl in, û paşê dîsa biceribînin. Eger pirsgirêk berdewam bike, ji kerema xwe bi me re bi tikandina îkona alîkariyê li jor.";
+"error payment failed alternative" = "Nekarî dayîna te temam bike. Ji kerema xwe piştrast bikin ku daneyên te rast in, û dîsa biceribînin. Eger pirsgirêk berdewam bike, ji kerema xwe bi me re bi tikandina îkona alîkariyê li jor.";
+"error payment not available" = "Ji bo vê cîhazê berdêl tune ne. Apple Pay nayê çalakkirin an jî em hîn li welatê we kirînan çêdikin.";
+"error payment canceled" = "Dayîna berdêlê betal kir. Te doz venekiriye.";
+"error pack install" = "Nekarî vê taybetiyê saz bike (an jî saz bike). Ji kerema xwe paşê dîsa biceribîne.";
+"error location failed fetching" = "Nekarî cîh bistîne.";
+"error unknown" = "Pirsgirêkek nediyar çêbû. Ji kerema xwe re dîsa biceribîne. Eger pirsgirêk berdewam bike, ji kerema xwe bi me re bi tikandina îkona alîkariyê li jor.";
+"error blocka dns in filtering mode" = "Blokada DNS niha tenê di moda Plus de tê piştgirî kirin. Ji kerema xwe DNS eke din hilbijêre û dîsa biceribîne.";
+
+"universal action continue" = "Berdewam";
+"universal action cancel" = "Betal kirin";
+"universal action close" = "Bigire";
+"universal action done" = "Biqede";
+"universal action try again" = "Dubare biceribîne";
+"universal action learn more" = "Bêtir hîn bibin";
+"universal action help" = "Alîkarî";
+"universal action show log" = "Tomar";
+"universal action share log" = "Têketinê parve bikin";
+"universal action copy" = "Kopî";
+"universal action save" = "Rizgarkirin";
+"universal action contact us" = "Bi me re têkiliyê deyne";
+"universal action support" = "Piştevanî";
+"universal action upgrade" = "Nûvekirina BLOKADA+";
+"universal action upgrade short" = "Bilindkirin";
+"universal action yes" = "Erê";
+"universal action no" = "Na";
+"universal action donate" = "Bexş bike";
+"universal action community" = "Civat";
+"universal action open in browser" = "Di gerokê de veke";
+"universal action more" = "Zêdetir";
+"universal action download" = "Dakêşe";
+"universal action news" = "Nûçe";
+"universal action delete" = "Jê birin";
+"universal action hide" = "Veşêre";
+"universal action select" = "Hilbijartin";
+"universal action selected" = "Hilbijartî";
+// A verb "to search in the list"
+"universal action search" = "Lê bigere";
+// A verb "to filter the list"
+"universal action filter" = "Fîlter";
+// A verb "to clear the list"
+"universal action clear" = "Paqij bike";
+// A verb "to revoke permissions"
+"universal action revoke" = "Betal kirin";
+
+"universal label help" = "Alîkarî";
+"universal label welcome" = "Bi xêr hatî!";
+// Common label when some feature has no setting
+"universal label none" = "Netû";
+"universal status processing" = "Tê pevkirin... Ji kerema xwe bisekine.";
+"universal status copied to clipboard" = "Ji bo panelê hate jibergirtin";
+"universal status restart required" = "Ji kerema xwe re serîlêdanek ji bo guhertinên ku wê bibandor bibin, ji nû ve bide destpêkirin.";
+"universal status redirect" = "Bi Blokada Sepan berdewam bike";
+"universal status confirm" = "Tu dixwazî berdewam bikî?";
+
+"alert error header" = "Ooops!";
+"alert vpn expired header" = "BLOKADA+ bidawî bû";
+"alert download link body" = "Ji ber sedemên ewlekariyê, ji bo daxistina dosyayekê, divê em vê malperê li geroka we vekin. Piştre, ji kerema xwe lînka daxistinê careke din pêlê bike.";
+
+"notification vpn expired header" = "BLOKADA+ abonetî qediya";
+"notification vpn expired subtitle" = "VPN neçalak e";
+"notification vpn expired body" = "Ji kerema xwe abonetiya xwe nû bike da ku bikaranîna BLOKADA+ bidomîne";
+"notification desc settings" = "Ji bo mîhengan agahdariya çepê yan jî rastê bişke.";
+
+"notification update header" = "Nûvekirinek heye";
+"alert update body" = "Blokada %@ niha ji bo daxistinê heye. Em pêşniyar dikin ku vê sepanê heta niha berdewam bikin û tenê ji çavkaniyên xwe yên fermî dakêşin.";
+"update label updated" = "Hat nûkirin!";
+"update desc updated" = "Tu niha versiyona herî nû ya Blokada bi kar tîne! Ji bîr bikin, bexşîn an jî ji blokada Plus re binivîsin, dihêlin ku em ji bo baştirkirina sepanê berdewam bikin.";
+"update downloading description" = "Nûvekirin niha dakêşe, û divê hûn sazkirinê di demek kurt de bibînin.";
+
+"account active forever" = "Heta hetayê";
+"account active forever full" = "Çalak e herdem";
+
+"main ask for permissions header" = "Tenê gavek din";
+"main ask for permissions description" = "Blokada ji bo astengkirina reklaman Mîfîgona VPN bi kar tîne. Ji we tê xwestin ku di pêngava pêş de destûrê bidin.";
+
+"main share message" = "Blokada ji bo iOS alîkariya min kir ku %@ reklamên û şopîner asteng bike!";
+
+"main rate us header" = "Me binirxînin!";
+"main rate us description" = "Heta niha tu çawa ji Blokada hez dikî?";
+"main rate us on app store" = "Tu yê alîkariya me bikî ji bo nirxandina Blokada li App Store?";
+"main rate us action sure" = "Bêguman!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Mal";
+// Make sure each tab name has a similar length
+"main tab activity" = "Çalakî";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Pêşketî";
+// Make sure each tab name has a similar length
+"main tab settings" = "Mîhengên";
+
+"main label use side menu" = "Ji bo navîgasyonê menuya alî bikar bînin";
+
+"home ads counter footnote" = "reklam û şopînerên ji sazkirinê ve hatine asteng kirin";
+"home power off menu header" = "Tu dixwazî çi bikî?";
+"home power action turn on" = "Veke";
+"home power action turn off" = "Bitemirîne";
+"home power action pause" = "Ji bo 5 deqe biqede";
+
+"home status paused" = "Hatiye rawestandin";
+"home status active" = "Çalak";
+"home status deactivated" = "Bêçalakîkirin";
+"home action tap to activate" = "destlêdê ku çalak bikin";
+"home status detail paused" = "sekinî ta ku demjimêr biqede";
+"home status detail active" = "astengkirina *reklam* û *şopîner*";
+"home status detail active with counter" = "asteng kirin *%@* reklam û şopîner";
+"home status detail active slim" = "Blokada *Slim* çalak e";
+"home status detail plus" = "*+* parastina *nepenîtiya* xwe";
+"home status detail progress" = "ji kerema xwe bisekine...";
+
+"home plus button deactivated" = "BLOKADA+ HATE BÊÇALAKKIRIN";
+"home plus button select location" = "Cih hilbijêre";
+"home plus button location" = "Cih: *%@*";
+
+"home level low" = "Parastin: Nizm";
+"home level medium" = "Parastin: Navîn";
+"home level high" = "Parastin: Bilind";
+
+
+"pack section header" = "Taybetmendiyên Pêşketî";
+"pack section header details" = "Hûrguliyên Taybetiyê";
+"pack action install" = "STANDIN";
+"pack action update" = "ROJANEKIRIN";
+"pack action uninstall" = "RAKIRIN";
+"pack author" = "Nivîskar";
+"pack configurations header" = "Vebijandinan";
+"pack information header" = "Zêdetir";
+"pack tags header" = "Etîketan";
+"pack tags none" = "Netû";
+"pack category highlights" = "Tiştên Pêşketî";
+"pack category active" = "Çalak";
+"pack category all" = "Hemû";
+
+"advanced section header packs" = "Lîsteya Astengker";
+"advanced section slugline packs" = "Ji bo astengkirina bêtir astengker çalak bikin";
+"advanced section slugline apps" = "Sepanên ku divê qet neyên asteng kirin hilbijêrin";
+"advanced section slugline encryption" = "Asta şîfrekirinê û DNSya xwe verast bikin";
+"advanced action slim migrate to full" = "Tu Blokada Slim bi kar tîne. Zêdetîr hîn bibe";
+
+"location choice header" = "Cihek hilbijêre";
+
+"activity section header" = "Çalakî";
+"activity section header details" = "Agahdariyên Çalakiyê";
+"activity request blocked" = "Ev daxwaz hate asteng kirin.";
+"activity request allowed" = "Vê daxwazê ​​destûr daye.";
+"activity request allowed whitelisted" = "Vê daxwazê ​​destûr daye, ji ber ku ew di nav lîsteya Destûrê de ye";
+"activity request blocked blacklisted" = "Ev daxwaz hate asteng kirin, ji ber ku ew di navnîşa weya blokkirî de ye";
+"activity actions header" = "Çalakîyên";
+"activity information header" = "Agahî";
+"activity action add to whitelist" = "Lê yên Destûrkirî Zêde Bike";
+"activity action remove from whitelist" = "Ji yên Destûrkirî Rake";
+"activity action added to whitelist" = "Hatin Destûr kirin";
+"activity action add to blacklist" = "Têxê Astengkirî";
+"activity action remove from blacklist" = "Ji Astengkirî Rake";
+"activity action added to blacklist" = "Zêdekirin li Astengkirî";
+"activity action copy to clipboard" = "Navê ji bo panelê ji ber binivîse";
+"activity domain name" = "Navê tam";
+"activity time of occurrence" = "Dem";
+"activity number of occurrences" = "Hejmara rûdanan";
+// As in sentence, "this item has been modified"
+"activity state modified" = "guherandî";
+// As in sentence, "this host has been blocked"
+"activity state blocked" = "astengkirî";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "destûr daye";
+"activity happened one time" = "1 dem";
+"activity happened many times" = "%@ deman";
+"activity category recent" = "Demek berê";
+"activity category top" = "Ser";
+"activity category top blocked" = "Ya herî astengkirî";
+"activity category top allowed" = "Yên herî destûrkirî";
+"activity filter header" = "Hûn dixwazin kîjan navnîşan bibînin?";
+"activity filter show all" = "Hemî navnîşan";
+"activity filter show blocked" = "Tenê astengkirî";
+"activity filter show allowed" = "Tenê destûrdayî";
+"activity empty text" = "Biceribîne cîhaza xwe bi kar bîne û paşê vegere vir, da ku bicîhanîna cîhaza xwe bi ku ve girê bide.";
+"activity device filter show all" = "Hemî amûr";
+
+"userdenied section header" = "Blokên min";
+"userdenied section slugline" = "Astengkirina malperên taybetî birêve bibin";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Destûr dan";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Astengkirî";
+
+"networks section header" = "Tor";
+"networks section label" = "Ji bo WiFi û tora mobîl mîhengan sererast bike";
+"networks label all networks" = "Hemû tor";
+"networks action network specific" = "Ji bo sererastkirina mîhengên pêşravekî li vir bike. Ji bo ku app li ser hin toreyan cuda be, li jêr ê lêbide.";
+"networks label configuration active" = "Ev mîheng niha çalak in";
+"networks label configuration enabled" = "Bi vê torê ve ne girêdayî ye";
+"networks label configuration inactive" = "Destlêda ji bo guhezandina mîhengên vê torê";
+"networks label details default network" = "Mîhengên li jêr ji bo hemû toreyan ji aliyê pêşdarazî ve tê tetbîqkirin. Tu dikarî wan ji bo torbendên bijartî (di ekrana berê) de binvîsî.";
+"networks action encrypt dns" = "DNS şîfre bikin";
+"networks action use dns" = "DNS bi kar bîne: %@";
+"networks action use network dns" = "DNS a torê tercîh bike";
+"networks action force libre mode" = "Moda Libre bi zorêkirin";
+"networks label specific network" = "Dema cîhaza we bi vê torê ve girêbide, çi dibe bila bibe sererast bikin.";
+"networks label specific network type" = "Dema cîhaza we bi toreke ji vî rengî ve girê bide, çi dibe bila bibe sererast bikin.";
+"networks label any wifi" = "Tu toreke WiFi";
+"networks label any mobile" = "Tu toreke mobîl";
+"networks permission request" = "Ji bo ku zêdetir kontrol ê bike, li vir bafirîne û bila sepan hemû toreyan bide tesbîtkirin.";
+"networks permission request granted" = "Tu dikarî agahdariyekê bibînî dema ku Blokada navê xwe yê torê li paşê dixwîne.";
+"networks section choose dns" = "DNS hilbijêre";
+"networks summary encrypt dns" = "Ger gengaz be Blokada dê DNS şîfre bike. Ev yek ewlehiya we baştir dike û pêşî li aktorên xerab digire ku li ser kîjan malper û karpên ku hûn bikar tînin sîxuriyê bikin.";
+"networks summary use dns" = "Blokada dê %@ wekî DNS ya cîhaza xwe bi kar bîne. Hilbijartina ku destûrê dide şerpêkirinê (xwediyê îkona kilîtê ye), û nêzîkî we ye, dê alîkariya parastina daneyên xwe bike û girêdana xwe zûtir bike.";
+"networks summary network dns" = "Blokada heke hebe wê DNS a torê bi kar bîne, an jî dê bibe %@ wekî din. Her wiha, her dema ku DNS a torê were bikaranîn mîhengên DNS ên koxûşkirî wê ji nedîtî ve bên. Bikaranîna DNS a torê alîkariya çareserkirina pirsgirêkên girêdanê li ser torbendên tengasdike, lê we bêparastin dike.";
+"networks summary network dns and plus mode" = "Blokada dema ku DNS a torê were bikaranîn wê Plus Mode bi demkî neçalak bike. Ev ji ber ku ne mumkun e ku di VPN'ê de bigihîje DNS a torê. Dema cîhaza te veguhere toreke din, Moda Plus wê bixweber were restorekirin.";
+"networks summary blocka plus mode" = "Blokada dê Blokada DNSê di moda Plusê de bikar bîne, da ku asta bilind a şîfrekirin û lezê piştrast bike. Hûn dikarin vê mîhengê li jêrî dîmendera DNS Hilbijêrin biguherînin.";
+"networks summary force libre mode" = "Blokada dê her dem li ser vê torê moda Libre bikar bîne, û cîhê Blokada Plusê paşguh bikin. Ev ji bo torgilokên ku hûn parastina zêde naxwazin kêrhatî ye.";
+"networks permission dialog" = "Blokada dikare toreyên ku hûn pê ve girê didin nas bike, û bihêle ku tu mîhengên cuda ji bo wan veava bikî. Lê belê, ev sepan dê daneyên cihan di forma navê torê de berhev bike da ku ev taybetmendî çalak bike, heta ku dema ku sepan girtî be an jî neyê bikaranîn. Carinan tu dikarî agahdariya pergalê di derbarê gihîştina cihan de bibînî - Blokada tenê wê navê torê bixwîne.";
+
+
+"account section header settings" = "Mîhengên";
+"account encrypt label level low" = "Kêm: Şîfre tune";
+"account encrypt label level high" = "Bilind: Her tişt şîfre kirin";
+"account encrypt header explanation" = "DNS ew e ku cîhaz we çawa dizane ku malperên ku bibînin. BLOKADA tenê pêşkêşkerên şîfrekirî piştgirî dike.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS çi ye?";
+"account encrypt section header" = "Şîfrekirin";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Di moda Plus de Blokada DNS bikar bînin";
+
+"account lease label devices list" = "Van alavan bi hesabê we ve girêdayî ne.";
+"account lease label devices" = "Amûrên";
+"account lease label this device" = " (ev cîhaz)";
+"account lease label name" = "Navê cîhazê";
+"account lease label location" = "Cîh";
+"account lease label generate" = "Li vir hilbijartina cîhek dê pelê mîheng çêbike ku hûn dikarin li her sepana VPNya ku Wireguard piştgirî dike bikar bînin. Ev ji bo platformên ku hîn sepanên me tune ne kêrhatî ye. Wekî din, em tewsiye dikin ku li şûna wê sepanên xweyên xwemalî bikar bînin.";
+"account lease action generate" = "Veavakirina çêbike";
+"account lease action download" = "Veavakirina Dakêşinê";
+"account lease generated" = "Cîhaz zêde kir! Veavakirina dakêşin ku li her cîhazê ku ji hêla Wireguard ve tê piştgirî kirin bikar bînin.";
+"account lease wireguard desc" = "Blokada Wireguard bikar tîne. Dema ku cîhazên nû diafirînin verastkirin têne dakêşandin.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "DNS hilbijêre";
+"account lease label public key" = "Mifteya Giştî";
+
+"account support action how help" = "Em çawa dikarin alîkariya we bikin?";
+"account support action kb" = "Bingeha Zanînê Veke";
+
+"payment header activated" = "Hate çalak kirin!";
+"payment activated description" = "Blokada wê niha bikeve moda Plus, û bi rêya yek ji cihên me yên ewle ve girê bide. Heke hûn ne bawer in ku kîjan hilbijêrin, ya herî nêzîk ji we re pêşniyar e.";
+"payment action choose location" = "Cihek hilbijêre";
+"payment action see locations" = "Cihên me";
+
+"payment title" = "Ji bo karûbarê meya VPNê nûve bikin ku di bin kontrola *nepeniya xwe* de bimînin.";
+"payment feature title change location" = "Ciyê biguherînin";
+"payment feature desc change location" = "Navnîşana IP ya xwe veşêrin û bikin ku hûn li welatekî din in. Ev ê we ji aliyên sêyemîn veşêre û alîkariya parastina nasnameya we dike.";
+"payment feature title encrypt data" = "Daneyên şîfre kirin";
+"payment feature desc encrypt data" = "Daneyên ku bi rêya tunela me ya VPN'ê hatine şandin, bi bikaranîna algorîtmên xurt ên ji bo parastina li dijî destlênedanê ji aliyê partiyên bêdestûr ve hatine şîfrekirin.";
+"payment feature title faster connection" = "Girêdana Zûtir";
+"payment feature desc faster connection" = "Leza mezin heta 100Mbps bi serverên li deverên cuda yên Cîhanê.";
+"payment feature title devices" = "Heta 5 cîhaz";
+"payment feature desc devices" = "Ji bo parvekirina abonetiya xwe bi 5 cîhazên: iOS, Android, an PC re heman hesabî bikar bînin.";
+"payment feature title no ads" = "Bê Reklam";
+"payment feature desc no ads" = "Dema ku hûn asta parastina xwe baştir dikin û daneyên xwe veşartî dikin teknolojiya adblockkirina Blokada ya navdar a cîhanê bikar bînin.";
+"payment feature title support" = "Piştgiriya Mezin";
+"payment feature desc support" = "Bi saya Piştgiriya Xerîdar û civaka çavkaniya vekirî ya zindî ji her pirsê re bersivek bilez bigirin.";
+"payment action see all features" = "Hemî Taybetmendiyan Bibînin";
+"payment action restore" = "Kirînên Vegerînin";
+"payment action terms and privacy" = "Şertên & Nepenîtiyê";
+"payment action terms" = "Mercên Xizmetê";
+"payment action policy" = "Polîtîkaya Nepenîtiyê";
+"payment alert error header" = "Ji App Storeê peyamek";
+// As in saving money: You are saving $5
+"payment save text" = "Hûn xilas dikin %@";
+"payment conversion note" = "Em Euro qebûl dikin, û bihayên têne xuyang texmînek in. Ger banka we pir zêde doz dike vegerînek heye.";
+
+"payment subscription 1 month" = "1 Meh";
+"payment subscription many months" = "%@ Mehan";
+"payment subscription per month" = "%@ her meh";
