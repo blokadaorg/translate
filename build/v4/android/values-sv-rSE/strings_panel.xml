@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Main screen section -->
+    <string name="panel_section_home">Hem</string>
     <!-- Main screen section -->
     <string name="panel_section_ads">Annonsblockering</string>
     <!-- Main screen section -->
+    <string name="panel_section_apps">Appar</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Hjälp</string>
+    <string name="panel_section_advanced_dns">DNS</string>
     <string name="panel_section_advanced_settings">Inställningar</string>
     <!-- When a domain is allowed (not blocked) -->
     <!-- When a domain is blocked -->
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">Kopiera</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <!-- Button to allow blocked domain -->
     <!-- Button to allow blocked cname -->
     <!-- Button to allow blocked domain that was blocked by a cname -->
     <!-- Button to block allowed domain -->
+    <string name="slot_action_close">Stäng</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">Ja</string>
@@ -31,11 +36,17 @@
     <!-- A prefix for generated name for manually entered domain.  -->
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_deactivate">Stäng av</string>
+    <string name="slot_action_activate">Slå på</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Hantera prenumeration</string>
+    <string name="slot_account_show">Konto ID</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">hög</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">låg</string>
     <!-- A button to share debug log. Keep it short. -->
     <!-- A button to open help -->
     <string name="slot_help_action">Hjälp</string>
@@ -45,6 +56,7 @@
     <!-- A button to open a blog -->
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
+    <string name="slot_account_name_title">Konto ID</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
