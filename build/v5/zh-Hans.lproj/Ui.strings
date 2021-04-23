@@ -11,6 +11,8 @@
 //
 
 "error device offline" = "您的设备离线";
+"error account inactive" = "您的帐户未激活。请激活您的帐户以继续使用 BLOKADA+。";
+"error account inactive after restore" = "这似乎不是一个有效的活跃帐户。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
 "error account invalid" = "此帐户 ID 似乎无效。";
 "error creating account" = "无法创建新帐户。请稍后再试。";
 "error fetching data" = "此操作无法完成。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
@@ -92,19 +94,81 @@
 "update downloading description" = "更新正在下载，您将很快看到安装提示。";
 
 "account active forever" = "长久生效";
+"account active forever full" = "永久激活";
+
+"main ask for permissions header" = "仅需一两步";
+"main ask for permissions description" = "Blokada正在使用 VPN 配置来屏蔽广告。需要您在下一步中允许它。";
+
+"main share message" = "Blokada iOS版帮助我屏蔽了 %@ 个广告和跟踪器！";
+
+"main rate us header" = "给我们评分！";
+"main rate us description" = "你有多喜欢Blokada？";
+"main rate us on app store" = "您会在 App Store 上给Blokada打分来帮助我们吗？";
+"main rate us action sure" = "当然！";
 
 // Make sure each tab name has a similar length
 "main tab home" = "主页";
 // Make sure each tab name has a similar length
+"main tab activity" = "活动记录";
+// Make sure each tab name has a similar length
 "main tab advanced" = "高级选项";
 // Make sure each tab name has a similar length
 "main tab settings" = "设置";
+
+"main label use side menu" = "使用侧边菜单来导航";
+
+"home ads counter footnote" = "自安装以来屏蔽的广告和追踪器";
+"home power off menu header" = "你想做什么？";
 "home power action turn on" = "开启";
 "home power action turn off" = "关闭";
+"home power action pause" = "暂停5分钟";
+
+"home status paused" = "已暂停";
 "home status active" = "已启用";
+"home status deactivated" = "已停用";
+"home action tap to activate" = "点击激活";
+"home status detail paused" = "暂停直到计时器结束";
+"home status detail active" = "正在屏蔽 *ads* 和 *Trackers*";
+"home status detail active with counter" = "屏蔽的 *%@* 广告和跟踪器";
+"home status detail active slim" = "Blokada *Slim* 已激活";
+"home status detail plus" = "*+* 正在保护您的 *隐私*";
 "home status detail progress" = "请稍候...";
+
+"home plus button deactivated" = "BLOKADA+ 已停用";
+"home plus button select location" = "选择位置";
+"home plus button location" = "位置: *%@*";
+
+"home level low" = "保护级别：低";
+"home level medium" = "保护级别：中";
+"home level high" = "保护级别：高";
+
+
+"pack section header" = "高级功能";
+"pack section header details" = "功能详情";
+"pack action install" = "获取";
+"pack action update" = "升级";
+"pack action uninstall" = "删除";
+"pack author" = "作者";
+"pack configurations header" = "配置";
 "pack information header" = "更多";
+"pack tags header" = "标签";
+"pack tags none" = "无";
+"pack category highlights" = "突出显示";
 "pack category active" = "已启用";
+"pack category all" = "全部";
+
+"advanced section header packs" = "屏蔽列表";
+"advanced section slugline packs" = "激活后屏蔽更严格";
+"advanced section slugline apps" = "选择不想屏蔽的应用";
+"advanced section slugline encryption" = "调整加密等级和 DNS";
+"advanced action slim migrate to full" = "您正在使用 Blokada Slim。了解更多";
+
+"location choice header" = "选择位置";
+
+"activity section header" = "活动";
+"activity section header details" = "活动详情";
+"activity request blocked" = "此请求已被屏蔽。";
+"activity request allowed" = "此请求已被允许。";
 "activity request allowed whitelisted" = "此请求已被允许，因为它在您允许的列表上";
 "activity request blocked blacklisted" = "此请求已被阻止，因为它在您的黑名单上";
 "activity actions header" = "动作";
@@ -240,6 +304,9 @@
 "payment redirect desc" = "请稍候。这只能花一点时间。";
 
 "payment ongoing title" = "您的付款正在处理中。";
+"payment ongoing desc" = "信用卡付款不应超过几分钟。 加密货币付款通常需要一个小时，取决于您选择的交易费用。 如果是PayPal，它可能需要24个小时。 一旦您的帐户准备就绪，您将被重定向。您也可以关闭此屏幕，以后再打开。 如果您觉得您的交易耗时太长，请联系我们。";
+"payment pay google short" = "谷歌支付";
+"payment pay apple short" = "苹果支付";
 "payment change method" = "变更";
 "payment label pay with card" = "通过银行卡支付";
 "payment label pay with paypal" = "通过 PayPal 支付";
