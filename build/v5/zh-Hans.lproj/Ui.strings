@@ -137,8 +137,33 @@
 "activity filter show allowed" = "仅已允许项目";
 "activity empty text" = "尝试使用您的设备，稍后再回到这里查看您的设备连接到哪里。";
 "activity device filter show all" = "所有设备";
+
+"userdenied section header" = "我的黑名单";
+"userdenied section slugline" = "管理关于特定网站的黑名单";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "已允许";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "广告已拦截";
+
+"networks section header" = "网络";
+"networks section label" = "修改WIFI和移动网络的设置";
+"networks label all networks" = "所有网络";
+"networks action network specific" = "点击此处修改默认设置。要使应用在某些网络上的行为不同，请点击下方。";
+"networks label configuration active" = "这些设置当前处于活动状态";
+"networks label configuration enabled" = "未连接到此网络";
+"networks label configuration inactive" = "点击修改此网络的设置";
+"networks label details default network" = "下面的设置默认适用于所有网络。您可以覆盖选定的网络 (在上一个屏幕)。";
+"networks action encrypt dns" = "加密DNS";
+"networks action use dns" = "使用 DNS： %@";
+"networks action use network dns" = "首选网络 DNS";
+"networks action force libre mode" = "强制Libre 模式";
+"networks label specific network" = "修改设备连接到此网络时应发生的事情。";
+"networks label specific network type" = "修改设备连接到此类型网络时应发生的事情。";
+"networks label any wifi" = "任何 WiFi 网络";
+"networks label any mobile" = "任何移动网络";
+"networks permission request" = "若要更多控制，请点击此处，然后让应用程序识别所有网络。";
+"networks permission request granted" = "当Blokada在后台读取您的网络名称时，您可能会看到一个通知。";
+"networks section choose dns" = "选择DNS";
 
 
 "account section header settings" = "设置";
@@ -149,11 +174,47 @@
 "account label enter to continue" = "输入您的帐号 ID 以继续";
 "account label id" = "帐号 ID";
 "account action manage subscription" = "管理订阅";
+"account encrypt label level medium" = "中级：加密DNS";
+"account encrypt label level high" = "高级：加密所有";
+"account encrypt header explanation" = "DNS 是您的设备如何知道在哪里查找网站。BLOKADA 只支持加密的服务器。";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "什么是 DNS？";
+"account encrypt section header" = "加密";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "在Plus模式下使用 Blokada DNS";
+
+"account lease label devices list" = "这些设备已连接到您的帐户。";
 "account lease label devices" = "设备";
+"account lease label this device" = " (此设备)";
 "account lease label name" = "设备名称";
+"account lease label location" = "地点";
+"account lease label generate" = "在此选择一个位置将生成一个配置文件，您可以在任何支持 Wireguard 的 VPN 应用程序中使用。 这对我们还没有应用的平台非常有用。否则，我们建议使用我们的原生应用。";
+"account lease action generate" = "生成配置";
+"account lease action download" = "下载配置";
+"account lease generated" = "设备已添加！下载配置以便在Wireguard支持的任何设备上使用。";
+"account lease wireguard desc" = "Blokada 使用 Wireguard。创建新设备时可以下载配置。";
 "account lease label dns" = "DNS";
+"account lease action dns" = "选择一个 DNS";
 "account lease label public key" = "公钥";
+
+"account support action how help" = "我们如何帮助你？";
+"account support action kb" = "打开知识库";
+
+"payment header activated" = "已激活！";
+"payment activated description" = "Blokada现在将切换到 Plus 模式，并通过我们的安全位置之一连接。 如果您不确定选择哪一个，推荐最接近您的一个。";
+"payment action choose location" = "选择一个位置";
+"payment action see locations" = "我们的位置";
+
+"payment title" = "升级到我们的 VPN 服务以保持对 *您的隐私*的控制。";
+"payment feature title change location" = "更改位置";
+"payment feature desc change location" = "隐藏您的 IP 地址并假装您在另一个国家。这将对第三方掩藏你，并帮助保护您的身份。";
+"payment feature title encrypt data" = "加密数据";
+"payment feature desc encrypt data" = "通过我们的 VPN 隧道发送的数据使用强有力的算法进行加密，以防止未经授权的当事方拦截。";
+"payment feature title faster connection" = "更快连接";
+"payment feature desc faster connection" = "在世界各地拥有服务器的超速100Mbps。";
+"payment feature title devices" = "最多5个设备";
+"payment feature desc devices" = "使用同一个帐户分享您的订阅，最多有5个设备：iOS、Android或PC。";
+"payment feature title no ads" = "去掉广告";
 
 "payment subscription 1 month" = "1 个月";
 
