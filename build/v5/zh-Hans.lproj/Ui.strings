@@ -74,6 +74,24 @@
 "universal status copied to clipboard" = "复制到剪贴板";
 "universal status restart required" = "请重新启动应用程序以使更改生效。";
 "universal status redirect" = "继续使用 Blokada 应用程序";
+"universal status confirm" = "您确定要继续吗？";
+
+"alert error header" = "哎呀！";
+"alert vpn expired header" = "BLOKADA+ 过期";
+"alert download link body" = "出于安全考虑，若要下载文件，我们需要在您的浏览器中打开此网站。然后，请再次点击下载链接。";
+
+"notification vpn expired header" = "BLOKADA+ 订阅已过期";
+"notification vpn expired subtitle" = "VPN 已禁用";
+"notification vpn expired body" = "请更新您的订阅以继续使用 BLOKADA+";
+"notification desc settings" = "向左或向右滑动通知来设置。";
+
+"notification update header" = "有可用的更新";
+"alert update body" = "Blokada %@ 现在可以下载。我们建议从我们的官方来源下载后更新。";
+"update label updated" = "更新成功！";
+"update desc updated" = "您现在正在使用最新版本的Blokada！记住，捐赠或订阅Blokada Plus可以帮助我们继续改进应用程序。";
+"update downloading description" = "更新正在下载，您将很快看到安装提示。";
+
+"account active forever" = "长久生效";
 
 // Make sure each tab name has a similar length
 "main tab home" = "主页";
@@ -87,8 +105,30 @@
 "home status detail progress" = "请稍候...";
 "pack information header" = "更多";
 "pack category active" = "已启用";
+"activity request allowed whitelisted" = "此请求已被允许，因为它在您允许的列表上";
+"activity request blocked blacklisted" = "此请求已被阻止，因为它在您的黑名单上";
+"activity actions header" = "动作";
+"activity information header" = "信息";
+"activity action add to whitelist" = "加入白名单";
+"activity action remove from whitelist" = "从白名单中移除";
+"activity action added to whitelist" = "加入白名单";
+"activity action add to blacklist" = "加入黑名单";
+"activity action remove from blacklist" = "从黑名单中移除";
+"activity action added to blacklist" = "加入黑名单";
+"activity action copy to clipboard" = "复制名称到剪贴板";
+"activity domain name" = "全名";
+"activity time of occurrence" = "时间";
+"activity number of occurrences" = "发生次数";
+// As in sentence, "this item has been modified"
+"activity state modified" = "已修改";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "广告已拦截";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "已允许";
+"activity happened one time" = "1次";
+"activity happened many times" = "%@ 次";
+"activity category recent" = "最近";
+"activity category top" = "顶部";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "广告已拦截";
 
