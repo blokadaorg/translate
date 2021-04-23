@@ -11,16 +11,40 @@
 //
 
 "error device offline" = "您的设备离线";
+"error account invalid" = "此帐户 ID 似乎无效。";
+"error creating account" = "无法创建新帐户。请稍后再试。";
+"error fetching data" = "此操作无法完成。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error tunnel" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
+"error vpn" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
+"error vpn perms" = "未授予创建 VPN 配置文件的权限。";
+"error vpn no current lease" = "请先选择一个位置。";
+"error vpn too many leases" = "您已达到您的设备上限。请删除您的设备之一，然后重试。";
+"error vpn expired" = "VPN 已禁用。请更新您的订阅以继续使用 BLOKADA+";
+"error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
+"error payment failed" = "此时付款不可用。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error payment failed alternative" = "无法完成您的付款。请确保您的数据正确，然后重试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error payment not available" = "此设备的付款不可用。苹果支付未激活，或者我们尚未处理您所在国家的购买。";
+"error payment canceled" = "付款已被取消。您尚未被收取费用。";
+"error pack install" = "无法安装(或卸载) 此功能。请稍后再试。";
+"error location failed fetching" = "无法获取位置。";
+"error unknown" = "出现未知问题。请再试一次。如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error blocka dns in filtering mode" = "Blokada DNS 目前仅在 Plus 模式中支持。请选择另一个DNS 然后重试。";
 
 "universal action continue" = "继续";
 "universal action cancel" = "取消";
 "universal action close" = "关闭";
+"universal action done" = "完成";
+"universal action try again" = "重试";
 "universal action learn more" = "了解更多";
 "universal action help" = "帮助";
+"universal action show log" = "日志";
 "universal action share log" = "分享日志";
 "universal action copy" = "复制";
 "universal action save" = "保存";
+"universal action contact us" = "联系我们";
 "universal action support" = "支持";
+"universal action upgrade" = "升级到 BLOKADA+";
+"universal action upgrade short" = "升级";
 "universal action yes" = "是";
 "universal action no" = "否";
 "universal action donate" = "捐赠";
@@ -30,12 +54,25 @@
 "universal action download" = "下载";
 "universal action news" = "新闻";
 "universal action delete" = "删除";
+"universal action hide" = "隐藏";
+"universal action select" = "选择";
+"universal action selected" = "已选择";
 // A verb "to search in the list"
 "universal action search" = "搜索​​​​";
+// A verb "to filter the list"
+"universal action filter" = "筛选器";
 // A verb "to clear the list"
 "universal action clear" = "清除";
+// A verb "to revoke permissions"
+"universal action revoke" = "撤消";
 
 "universal label help" = "帮助";
+"universal label welcome" = "欢迎！";
+// Common label when some feature has no setting
+"universal label none" = "无";
+"universal status processing" = "正在处理... 请稍候。";
+"universal status copied to clipboard" = "复制到剪贴板";
+"universal status restart required" = "请重新启动应用程序以使更改生效。";
 "universal status redirect" = "继续使用 Blokada 应用程序";
 
 // Make sure each tab name has a similar length
