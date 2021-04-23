@@ -228,6 +228,12 @@
 "networks permission request" = "若要更多控制，请点击此处，然后让应用程序识别所有网络。";
 "networks permission request granted" = "当Blokada在后台读取您的网络名称时，您可能会看到一个通知。";
 "networks section choose dns" = "选择DNS";
+"networks summary encrypt dns" = "如果可能，Blokada将加密DNS。这将提高您的安全性，防止来自您正使用的网站和应用程序的恶意行为。";
+"networks summary use dns" = "Blokada将使用 %@ 作为您设备的DNS。 选择一个靠近您的，可用的加密服务器(带锁形图标)，这将有助于保护您的数据并使您的连接更快。";
+"networks summary network dns" = "如果可用，Blokada将使用网络DNS，否则将切换到 %@ 。 此外，当使用网络DNS时，将忽略加密的DNS设置。 使用网络 DNS有助于修复网络连接故障，但将无法保护您。";
+"networks summary network dns and plus mode" = "当网络DNS被使用时，Blokada将暂时禁用+模式。这是因为在VPN中无法访问网络DNS。 当您的设备切换到另一个网络时，Plus模式将自动恢复。";
+"networks summary blocka plus mode" = "在 Plus 模式中，Blokada将使用 Blokada DNS 来确保高加密等级和速度。 您可以在选择DNS屏幕底部更改此设置。";
+"networks summary force libre mode" = "在此网络上，Blokada将总是使用Libre模式，并且忽略您的 Blokada Plus位置。 这对于您不想要额外保护的网络是有用的。";
 
 
 "account section header settings" = "设置";
@@ -400,5 +406,7 @@
 "homepage support cta action" = "捐助 (银行卡或Paypal)";
 "homepage support cta action alt" = "捐赠(银行，加密货币)";
 
-"homepage developer header" = "您是开发者吗";
+"homepage developer header" = "您是开发者";
 "homepage developer subheader" = "并想让Blokada变得更好？";
+"homepage developer desc" = "Blokada是一个开源项目，用于开发安卓和iOS上最佳广告拦截器和隐私保护应用。 如需任何帮助，请查看我们的 Github，并让我们知道。";
+"homepage developer action" = "转到repo";
