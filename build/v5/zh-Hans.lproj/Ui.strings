@@ -308,16 +308,69 @@
 "payment pay google short" = "谷歌支付";
 "payment pay apple short" = "苹果支付";
 "payment change method" = "变更";
+"payment action pay" = "支付 %@";
+"payment action pay period" = "每期支付 %@";
+"payment label email" = "邮箱";
+"payment crypto desc" = "要使用您的加密货币钱包付款，请点击下面的按钮。";
+"payment label choose package" = "选择您的钱包";
+"payment label choose payment method" = "选择您的付款方式";
+"payment label cheapest" = "最便宜";
+"payment label most popular" = "最受欢迎";
 "payment label pay with card" = "通过银行卡支付";
 "payment label pay with paypal" = "通过 PayPal 支付";
+"payment label pay with crypto" = "使用加密支付";
 "payment package one month" = "1 个月";
 "payment package six months" = "6 个月";
 "payment package twelve months" = "12 个月";
+"payment label discount" = "节省 %@ (%@ / mo)";
+"payment label country" = "国家";
+
+"payment euro desc" = "我们位于欧洲，因此我们接受欧元：10欧元约为12美元。";
+"payment donate disclaimer" = "这不会激活您的 Blokada + 帐户。如果您想使用我们的 VPN 服务，请订阅而不是捐赠。";
 
 "apps section header" = "应用程序";
+"apps label installed" = "已安装";
+"apps label system" = "系统";
+"apps status bypassed" = "(免予屏蔽)";
+"apps filter header" = "您想看到哪个应用？";
+"apps filter action show all" = "所有应用";
+"apps filter action show bypassed" = "仅免予屏蔽的应用";
+"apps filter action show not bypassed" = "除免予屏蔽的之外";
+"apps filter action toggle system" = "选中/取消选中所有系统应用";
+
+"app settings section header" = "此设备";
+"app settings language label" = "语言";
+"app settings theme label" = "应用主题";
+"app settings theme light" = "轻亮色调";
+"app settings theme dark" = "暗黑色调";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "重定向到";
+"app settings browser internal" = "内置浏览器";
+"app settings browser external" = "外部浏览器(如果可能)";
+"app settings ipv6 label" = "允许 IPv6";
+"app settings section system" = "系统";
+"app settings action app info" = "打开应用信息";
+"app settings action vpn profile" = "打开 VPN 配置文件";
+"app settings action notifications" = "打开通知设置";
+"app settings section details" = "详细信息";
+"app settings status default" = "系统默认";
 "app settings start on boot" = "开机自启动";
+"app settings use dns over https" = "在 HTTPS 上使用DNS";
+"app settings backup" = "使用云备份";
 "app settings section advanced" = "高级选项";
 "app settings section use foreground" = "常驻通知栏";
+
+"intro header" = "Blokada 正在运行！";
+"intro text" = "蓝色环意味着Blokada正在工作。\n\n记住，一些广告，如YouTube，不能被屏蔽。 然而，您将注意到许多其他应用中的差异。\n\n我们建议您在系统设置中始终启用 VPN / 连接需求。";
+
+"location region worldwide" = "所有地方";
+"location region america" = "美国";
+"location region europe" = "欧洲";
+"location region asia" = "亚洲";
+"location region australia" = "澳洲";
+
+"homepage header what is blokada" = "Blokada是什么？";
+"homepage desc what is blokada" = "了解有关此应用的基本信息。";
 "homepage desc download" = "为您的平台下载Blokada。";
 "homepage desc community" = "加入我们最棒的社区。";
 "homepage header support" = "支持我们";
@@ -344,3 +397,8 @@
 "homepage about action faq" = "查看常见问题";
 
 "homepage download header" = "下载 Blokada";
+"homepage support cta action" = "捐助 (银行卡或Paypal)";
+"homepage support cta action alt" = "捐赠(银行，加密货币)";
+
+"homepage developer header" = "您是开发者吗";
+"homepage developer subheader" = "并想让Blokada变得更好？";
