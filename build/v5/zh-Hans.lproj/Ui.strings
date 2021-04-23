@@ -234,16 +234,66 @@
 "networks summary network dns and plus mode" = "当网络DNS被使用时，Blokada将暂时禁用+模式。这是因为在VPN中无法访问网络DNS。 当您的设备切换到另一个网络时，Plus模式将自动恢复。";
 "networks summary blocka plus mode" = "在 Plus 模式中，Blokada将使用 Blokada DNS 来确保高加密等级和速度。 您可以在选择DNS屏幕底部更改此设置。";
 "networks summary force libre mode" = "在此网络上，Blokada将总是使用Libre模式，并且忽略您的 Blokada Plus位置。 这对于您不想要额外保护的网络是有用的。";
+"networks permission dialog" = "Blokada可以识别您连接的网络，并允许您为它们配置单独的设置。 然而，此应用将以网络名称的形式收集位置数据以启用此功能， 即使应用程序已关闭或未被使用。 有时您可能会看到一个关于位置访问的系统通知 - Blokada 将只读取网络名称。";
 
 
 "account section header settings" = "设置";
+"account status text" = "您的 BLOKADA %@ 帐户处于活动状态，直到 %@。";
+"account status text libre" = "您的 BLOKADA Libre 帐户一直处于活动状态，直到永久。";
+
+"account section header primary" = "首选";
 "account section header other" = "其它";
+"account action my account" = "我的帐户";
+"account action encryption" = "加密和 DNS";
 "account action devices" = "设备";
 "account action new device" = "新设备";
+"account action inbox" = "收件箱";
+"account action logout" = "恢复购买";
+"account action logout only" = "注销";
+"account action create" = "生成新账户";
 "account action about" = "关于";
+"account action tap to show" = "点击显示";
+"account action restoring" = "正在恢复帐户： %@";
 "account label enter to continue" = "输入您的帐号 ID 以继续";
+"account restore description" = "不要担心，如果您丢失或忘记了帐户ID，我们可以恢复它。 请联系我们的支持，并向我们提供信息(比如信用卡或 PayPal 电子邮件的最后4位数字)，使我们能够识别您的购买。";
+"account create description" = "这是您的帐户 ID。请将其写下并自己保存。这是访问您的订阅的唯一途径。";
+"account create confirm" = "我把它写下来了";
+
+"account section header my subscription" = "我的订阅";
+"account section header general" = "常规";
+"account section header subscription" = "订阅";
 "account label id" = "帐号 ID";
+"account label type" = "帐户类型";
+"account label active until" = "激活至";
 "account action manage subscription" = "管理订阅";
+"account action why upgrade" = "为什么要升级？";
+"account subscription header renew" = "自动续订";
+"account subscription header payment method" = "支付方式";
+"account subscription renew unsupported" = "您的付款方式不允许在此控制自动续订设置。";
+
+"account unlock to show" = "解锁以显示您的帐户 ID";
+
+"account header logout" = "恢复购买";
+"account logout description" = "请输入另一个帐户 ID，或返回以继续使用您现有的帐户 (无ID将无法使用此应用)。";
+"account id status unchanged" = "(未被修改)";
+"account action how to restore" = "如何恢复我的旧账户？";
+
+"account subscription days remaining" = "剩余天数： %@";
+"account devices remaining" = "剩余设备： %@";
+"account devices not available" = "不可用";
+"account devices out of" = "%@ 中的 %@";
+
+"account encrypt level low" = "低";
+"account encrypt level medium" = "中";
+"account encrypt level high" = "高";
+"account encrypt label dns only" = "正在加密DNS";
+"account encrypt desc dns only" = "域名系统是您的设备如何知道在哪里查找您想访问的网站。 不幸的是，大多数互联网仍然使用未加密的DNS，这使您的浏览历史面临被掩埋的风险。 启用时，Blokada强制您的设备仅连接到加密的DNS服务器(也通过 HTTPS 调用DNS)。";
+"account encrypt label everything" = "正在通过 VPN 连接";
+"account encrypt desc everything" = "您的设备正在通过我们安全的 VPN 服务器连接，来自或到您设备的所有通信正在使用强大的算法进行加密。 这将保护您的个人信息，例如银行细节或个人照片，免于在不安全的地方被盗，例如咖啡店WiFi。";
+"account encrypt action turn on" = "打开 BLOKADA";
+"account encrypt header level" = "加密级别";
+"account encrypt label level" = "级别";
+"account encrypt label level low" = "低：无加密";
 "account encrypt label level medium" = "中级：加密DNS";
 "account encrypt label level high" = "高级：加密所有";
 "account encrypt header explanation" = "DNS 是您的设备如何知道在哪里查找网站。BLOKADA 只支持加密的服务器。";
@@ -401,6 +451,27 @@
 "homepage about point five" = "信任和永远免费";
 
 "homepage about action faq" = "查看常见问题";
+"homepage about action plus" = "了解更多关于 Blokada Plus";
+
+"homepage vpn title" = "Blokada 5, VPN";
+"homepage vpn desc" = "为了最终保护隐私，升级到 Blokada Plus 并通过我们的 VPN连接。 我们使用 WireGuard®, 最先进的 VPN 协议, 来加密您的网络活动并隐藏您的 IP 地址。";
+"homepage vpn point one" = "无带宽限制";
+"homepage vpn point two" = "快速和现代加密";
+"homepage vpn point three" = "您的网络活动没有记录";
+"homepage vpn point four" = "连接最多5个设备";
+"homepage vpn credit" = "“WireGuard”和“Wireguard”标志是Jason A. Donenfeld注册的商标。";
+
+"homepage faq header" = "常见问题及解答";
+"homepage faq action more" = "查看更多常见问题解答";
+"homepage faq title 1" = "Blokada保存什么信息？";
+"homepage faq desc 1" = "Blokada没有跟踪或分享您的网络活动。 如果您使用 Blokada Plus，出于技术原因，我们需要收集最起码的数据来维持服务的运行。 详情请查阅我们的隐私政策在顶部菜单中可用。";
+"homepage faq title 2" = "如何保护我的隐私？";
+"homepage faq desc 2" = "Blokada阻止安装在您设备上的应用和浏览器向互联网发送您的私人数据 (称为跟踪指纹)。 它还会加密您的一些网络活动(DNS查询)。 如果您需要更多的保护，Blokada Plus通过我们的 VPN连接您的设备，并使用WireGuard® 协议来加密您的整个网络流量。";
+"homepage faq title 3" = "Blokada Plus是什么？";
+"homepage faq desc 3" = "Blokada Plus是我们安全和现代的VPN(虚拟私人网络) 服务。 它使用了Wire护盾®- 一个最佳类加密和低耗电量的快速协议。 Blokada Plus实时加密您所有的网络活动，为您提供最高级别的保护。 您也会得到最受欢迎的 VPN 功能 - 隐藏您的 IP 地址，更改您的位置，并取消屏蔽地理限制的内容。";
+"homepage faq title 4" = "我需要升级到Blokada Plus吗？";
+"homepage faq desc 4" = "不，升级是可选的。你可以永远坚持免费版本的Blokada。 如果您想要更多地增加您的隐私保护，或者需要任何受欢迎的VPN功能，建议升级此功能。";
+"homepage faq title 5" = "Blokada Plus 退款政策是什么？";
 
 "homepage download header" = "下载 Blokada";
 "homepage support cta action" = "捐助 (银行卡或Paypal)";
