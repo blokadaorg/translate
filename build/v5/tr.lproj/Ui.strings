@@ -216,16 +216,25 @@
 "networks label configuration active" = "Bu ayarlar şu anda aktif";
 "networks label configuration enabled" = "Bu ağa bağlı değil";
 "networks label configuration inactive" = "Bu ağın ayarlarını değiştirmek için dokunun";
+"networks label details default network" = "Aşağıdaki ayarlar varsayılan olarak tüm ağlar için uygulanır. Seçili ağlar için bunları geçersiz kılabilirsiniz (önceki ekranda).";
 "networks action encrypt dns" = "DNS'yi şifrele";
 "networks action use dns" = "DNS'i kullan: %@";
 "networks action use network dns" = "Ağ DNS'sini tercih et";
 "networks action force libre mode" = "Libre moduna zorla";
 "networks label specific network" = "Cihazınız bu ağa bağlandığında ne olacağını ayarlayın.";
+"networks label specific network type" = "Cihazınız bu ağa bağlandığında ne olacağını ayarlayın.";
 "networks label any wifi" = "Herhangi kablosuz ağ";
 "networks label any mobile" = "Herhangi mobil ağ";
 "networks permission request" = "Daha fazla kontrole sahip olmak için buraya dokunun ve uygulamanın tüm ağları tanımasına izin verin.";
+"networks permission request granted" = "Blokada arka planda ağ adınızı okuduğunda bir bildirim görebilirsiniz.";
 "networks section choose dns" = "DNS seç";
+"networks summary encrypt dns" = "Blokada, mümkün olduğunda DNS'yi şifreleyecektir. Bu, güvenliğinizi artırır ve kötü niyetli kişilerin hangi web sitelerini ve uygulamaları kullandığınız hakkında casusluk yapmasını engeller.";
+"networks summary use dns" = "Blokada, cihazınızın DNS'si olarak %@ kullanacaktır. Şifrelemeye izin veren (kilit simgesi olan) ve size yakın olanı seçmek, verilerinizin korunmasına ve bağlantınızın hızlı olmasına yardımcı olacaktır.";
+"networks summary network dns" = "Blokada, varsa ağın DNS'sini kullanacak veya aksi takdirde %@ geçecektir. Ayrıca, DNS'yi Şifrele ayarları, ağ DNS'si her kullanıldığında yok sayılacaktır. Ağın DNS'sini kullanmak, sorunlu ağlardaki bağlantı sorunlarını çözmenize yardımcı olur, ancak sizi korumasız bırakır.";
 "networks summary network dns and plus mode" = "Ağ DNS'si kullanıldığında Blokada geçici olarak Plus Modunu devre dışı bırakır. Bunun nedeni, VPN'de ağ DNS'sine erişmenin mümkün olmamasıdır. Cihazınız başka bir ağa geçtiğinde Plus Modu otomatik olarak geri yüklenir.";
+"networks summary blocka plus mode" = "Blokada, yüksek düzeyde şifreleme ve hız sağlamak için Blokada DNS'yi Plus modunda kullanacaktır. Bu ayarı DNS Seçin ekranının altında değiştirebilirsiniz.";
+"networks summary force libre mode" = "Blokada, bu ağda her zaman Libre modunu kullanacak ve Blokada Plus konumunuzu yok sayacaktır. Bu, ek koruma istemediğiniz ağlar için kullanışlıdır.";
+"networks permission dialog" = "Blokada, bağlandığınız ağları tanıyabilir ve onlar için ayrı ayarlar yapılandırmanıza izin verebilir. Ancak bu uygulama, uygulama kapalıyken veya kullanımda değilken bile bu özelliği etkinleştirmek için konum verilerini ağ adı biçiminde toplayacaktır. Bazen konum erişimi hakkında bir sistem bildirimi görebilirsiniz - Blokada yalnızca ağın adını okuyacaktır.";
 
 
 "account section header settings" = "Ayarlar";
