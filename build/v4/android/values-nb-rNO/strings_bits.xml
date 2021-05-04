@@ -3,6 +3,7 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_touch">Trykk eller hold inn for å sette opp</string>
     <string name="home_blokada_disabled">Blokada er satt på pause</string>
+    <string name="home_blokada_active">Blokada er aktiv</string>
     <string name="home_blokada_inactive">Blokada er deaktivert</string>
     <string name="home_activating">Aktiverer</string>
     <string name="home_please_wait">Vennligst vent...</string>
@@ -10,6 +11,7 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada er aktiv i DNS-modus</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s blokkert siden %s</string>
     <string name="home_masterswitch_enabled">Blokada er på</string>
     <string name="home_masterswitch_waiting">Venter på nettverk...</string>
     <!-- A button to share the ads counter on social media -->
@@ -36,8 +38,10 @@
     <string name="menu_ads_rules_label">Legg til dine egne regler for å finjustere blokkering.</string>
     <string name="menu_ads_log_label">Se hva som har blitt blokkert eller tillatt nylig.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Vennligst aktiver kontoen din først.</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Enheter</string>
