@@ -13,7 +13,11 @@
     <string name="dns_edit_next">Neste</string>
     <string name="dns_edit_last">Legg til</string>
     <!-- Displayed in the home screen when no custom dns is set, keep it short. -->
+    <string name="dns_text_none">Standard DNS</string>
     <!-- Deletes all dns suggestions and fetches default ones. -->
+    <string name="dns_generate_defaults">Gjenopprett standardinnstillinger</string>
     <!-- Forcefully refetch dns suggestions ignoring cache. -->
+    <string name="dns_generate_refetch">Oppdater DNS listen</string>
     <!-- Keep Alive notification for DNS. Parameter: addresses of active dns servers. -->
+    <string name="dns_keepalive_content">Aktiv: %s</string>
 </resources>
