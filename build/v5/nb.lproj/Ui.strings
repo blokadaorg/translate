@@ -15,60 +15,245 @@
 "universal action continue" = "Fortsett";
 "universal action cancel" = "Avbryt";
 "universal action close" = "Lukk";
+"universal action done" = "Ferdig";
+"universal action try again" = "Prøv igjen";
 "universal action learn more" = "Lær mer";
 "universal action help" = "Hjelp";
+"universal action show log" = "Logger";
 "universal action share log" = "Del loggen";
 "universal action copy" = "Kopier";
 "universal action save" = "Lagre";
 "universal action contact us" = "Kontakt oss";
 "universal action support" = "Brukerstøtte";
+"universal action upgrade short" = "Oppgrader";
 "universal action yes" = "Ja";
 "universal action no" = "Nei";
 "universal action donate" = "Doner";
 "universal action community" = "Nettsamfunn";
+"universal action open in browser" = "Åpne i nettleser";
 "universal action more" = "Mer";
 "universal action download" = "Last ned";
 "universal action news" = "Nyheter";
 "universal action delete" = "Slett";
+"universal action hide" = "Gjem";
+"universal action select" = "Velg";
+"universal action selected" = "Valgt";
+// A verb "to search in the list"
+"universal action search" = "Søk";
+// A verb "to filter the list"
+"universal action filter" = "Filter";
+// A verb "to clear the list"
+"universal action clear" = "Tøm";
+// A verb "to revoke permissions"
+"universal action revoke" = "Tilbakekall";
 
 "universal label help" = "Hjelp";
+"universal label welcome" = "Velkommen!";
+// Common label when some feature has no setting
+"universal label none" = "Ingen";
+
+"alert error header" = "Oisann!";
+
+"notification update header" = "En oppdatering er tilgjengelig";
+"update label updated" = "Oppdatert!";
+
+"account active forever" = "For alltid";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Hjem";
 // Make sure each tab name has a similar length
+"main tab activity" = "Aktivitet";
+// Make sure each tab name has a similar length
 "main tab advanced" = "Avansert";
 // Make sure each tab name has a similar length
 "main tab settings" = "Innstillinger";
+"home power off menu header" = "Hva vil du gjøre?";
 "home power action turn on" = "Slå på";
 "home power action turn off" = "Slå av";
+
+"home status paused" = "Satt på pause";
 "home status active" = "Aktiv";
+"home status deactivated" = "Deaktivert";
 "home status detail progress" = "vennligst vent...";
+"home plus button select location" = "Velg sted";
+"home plus button location" = "Sted: *%@*";
+
+
+"pack section header" = "Avanserte funksjoner";
+"pack action uninstall" = "FJERN";
+"pack author" = "Forfatter";
+"pack configurations header" = "Oppsett";
 "pack information header" = "Mer";
+"pack tags header" = "Tagger";
+"pack tags none" = "Ingen";
+"pack category highlights" = "Lyse toner";
 "pack category active" = "Aktiv";
+"pack category all" = "Alle";
+
+"advanced section header packs" = "Blokkeringslister";
+
+"activity section header" = "Aktivitet";
+"activity section header details" = "Aktivitetsdetaljer";
+"activity actions header" = "Handlinger";
+"activity information header" = "Informasjon";
+"activity domain name" = "Navn";
+"activity time of occurrence" = "Tid";
+"activity number of occurrences" = "Antall forekomster";
+// As in sentence, "this item has been modified"
+"activity state modified" = "endret";
+// As in sentence, "this host has been blocked"
+"activity state blocked" = "blokkert";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "tillatt";
+"activity happened one time" = "1 gang";
+"activity happened many times" = "%@ ganger";
+"activity category recent" = "Nylig";
+"activity category top" = "Topp";
+"activity filter show blocked" = "Kun blokkerte";
+"activity filter show allowed" = "Kun tillatte";
+"activity device filter show all" = "Alle enheter";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Tillatt";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Blokkert";
+
+"networks section header" = "Nettverk";
+"networks label all networks" = "Alle nettverk";
+"networks action use dns" = "Bruk DNS: %@";
+"networks label any wifi" = "Ethvert Wi-Fi-nettverk";
+"networks label any mobile" = "Ethvert mobilnettverk";
+"networks section choose dns" = "Velg DNS";
 
 
 "account section header settings" = "Innstillinger";
+
+"account section header primary" = "Primær";
 "account section header other" = "Annet";
+"account action my account" = "Min konto";
 "account action devices" = "Enheter";
+"account action new device" = "Ny enhet";
+"account action inbox" = "Innboks";
+"account action logout" = "Gjenopprett kjøp";
+"account action logout only" = "Logg ut";
 "account action about" = "Om";
+"account action tap to show" = "Trykk for å vise";
+"account action restoring" = "Gjenoppretter konto: %@";
+
+"account section header my subscription" = "Mitt abonnement";
+"account section header general" = "Generelt";
+"account section header subscription" = "Abonnement";
 "account label id" = "Konto-ID";
+"account label type" = "Kontotype";
+"account label active until" = "Aktiv frem til";
+"account action manage subscription" = "Behandle abonnement";
+"account subscription header renew" = "Forny automatisk";
+"account subscription header payment method" = "Betalingsmetode";
+
+"account header logout" = "Gjenopprett kjøp";
+
+"account subscription days remaining" = "Dager igjen: %@";
+"account devices remaining" = "Enheter igjen: %@";
+"account devices not available" = "Ikke tilgjengelig";
+"account devices out of" = "%@ av %@";
+
+"account encrypt level low" = "Lav";
+"account encrypt level medium" = "Middels";
+"account encrypt level high" = "Høy";
+"account encrypt label level" = "Nivå";
 "account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "Hva er DNS?";
+"account encrypt section header" = "Kryptering";
+"account encrypt section blocka dns" = "Blokada DNS";
 "account lease label devices" = "Enheter";
+"account lease label name" = "Enhetens navn";
+"account lease label location" = "Adresse";
 "account lease label dns" = "DNS";
+"account lease action dns" = "Velg en DNS";
+"account lease label public key" = "Offentlig nøkkel";
+
+"account support action how help" = "Hva kan vi hjelpe deg med?";
+
+"payment header activated" = "Aktivert!";
+"payment feature title change location" = "Endre posisjon";
+"payment feature title faster connection" = "Raskere tilkobling";
+"payment feature title devices" = "Opptil 5 enheter";
+"payment feature title no ads" = "Ingen reklamer";
+"payment action see all features" = "Se alle funksjoner";
+"payment action terms and privacy" = "Vilkår og personvern";
+"payment action terms" = "Vilkår for bruk";
+"payment action policy" = "Personvern";
 
 "payment subscription 1 month" = "1 måned";
+"payment subscription many months" = "%@ måneder";
 
 "payment success label" = "Takk!";
+
+"payment redirect label" = "Omdirigerer …";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
 "payment change method" = "Endre";
+"payment action pay" = "Betal %@";
+"payment label email" = "E-post";
+"payment label cheapest" = "Billigste";
+"payment label most popular" = "Mest populær";
 "payment label pay with card" = "Betal med kort";
 "payment label pay with paypal" = "Betal med PayPal";
+"payment label pay with crypto" = "Betal med kryptovaluta";
 "payment package one month" = "1 måned";
 "payment package six months" = "6 måneder";
 "payment package twelve months" = "12 måneder";
+"payment label country" = "Land";
 
 "apps section header" = "Apper";
+"apps label installed" = "Installert";
+"apps label system" = "System";
+"apps status bypassed" = "(hoppet over)";
+"apps filter action show all" = "Alle apper";
+"app settings language label" = "Språk";
+"app settings theme label" = "Apptema";
+"app settings theme light" = "Lys";
+"app settings theme dark" = "Mørk";
+"app settings browser internal" = "Intern nettleser";
+"app settings browser external" = "Ekstern nettleser (om mulig)";
+"app settings ipv6 label" = "Tillat IPv6";
+"app settings section system" = "System";
+"app settings action app info" = "Åpne appinformasjon";
+"app settings action vpn profile" = "Åpne VPN-profil";
+"app settings section details" = "Detaljer";
+"app settings status default" = "Systemforvalg";
+"app settings start on boot" = "Start ved systemoppstart";
+"app settings use dns over https" = "Bruk DNS-over-HTTPS";
 "app settings section advanced" = "Avansert";
+"app settings section use foreground" = "Hold i live";
+
+"location region worldwide" = "Overalt";
+"location region europe" = "Europa";
+"location region asia" = "Asia";
+"location region australia" = "Australia";
+
+"homepage header what is blokada" = "Hva er Blokada?";
+"homepage action faq" = "OSS";
 "homepage action vpn" = "VPN";
+"homepage action opinions" = "Tilbakemeldinger";
+"homepage action authors" = "Utviklere";
+"homepage action source" = "Kilde";
+"homepage action forums" = "Forumer";
+"homepage action dashboard" = "Kontrollpanel";
 "homepage hero subtitle" = "gratis og åpen kildekode";
+"homepage vpn point four" = "Koble til opptil 5 enheter";
+
+"homepage faq header" = "Ofte stilte spørsmål";
 
 "homepage download header" = "Last ned Blokada";
+"homepage download option android five" = "Blokada 5 for Android";
+"homepage download option android four" = "Blokada 4 for Android";
+"homepage download option ios" = "Blokada 5 for iOS";
+"homepage download action ios" = "Åpne App Store";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download action android slim" = "Åpne Google Play";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Åpne F-Droid";
+"homepage community cta action" = "Gå til forumene";
+
+"homepage support header" = "Støtt prosjektet";
