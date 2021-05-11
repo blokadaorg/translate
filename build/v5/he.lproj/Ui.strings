@@ -196,6 +196,7 @@
 "activity category top blocked" = "הכי חסומים";
 "activity category top allowed" = "הכי מאושרים";
 "activity filter header" = "אילו רשומות ברצונכם לראות?";
+"activity filter show all" = "כל הכניסות";
 "activity filter show blocked" = "חסומים בלבד";
 "activity filter show allowed" = "מאופשרים בלבד";
 "activity empty text" = "נסו להשתמש במכשירכם וחזרו לכאן אחר כך, על מנת לראות לאן מכשירכם מתחבר.";
@@ -226,6 +227,7 @@
 "networks permission request" = "כדי לקבל שליטה רבה יותר, הקש כאן ותן לאפליקציה לזהות את כל הרשתות.";
 "networks permission request granted" = "ייתכן שתראה התראה כאשר Blokada קורא את שם הרשת שלך ברקע.";
 "networks section choose dns" = "בחר DNS";
+"networks summary encrypt dns" = "Blokada תצפין DNS במידת האפשר. זה משפר את האבטחה שלך ומונע מגורמים זדוניים לרגל באילו אתרים ואפליקציות אתה משתמש.";
 
 
 "account section header settings" = "הגדרות";
@@ -235,6 +237,7 @@
 "account section header primary" = "ראשי";
 "account section header other" = "אחר";
 "account action my account" = "החשבון שלי";
+"account action encryption" = "הצפנה ו־DNS";
 "account action devices" = "מכשירים";
 "account action new device" = "מכשיר חדש";
 "account action inbox" = "דואר נכנס";
@@ -246,6 +249,7 @@
 "account action restoring" = "משחזר חשבון: %@";
 "account label enter to continue" = "הזינו את מזהה החשבון כדי להמשיך";
 "account restore description" = "אל תדאגו, אם תאבדו או תשכחו את מזהה החשבון שלך, אנו יכולים לשחזרו. אנא צרו קשר עם התמיכה, וספקו לנו מידע שיאפשר לנו לזהות את הרכישה שלכם (לדוגמה: 4 ספרות אחרונות של כרטיס האשראי, מייל של חשבון הפייפל).";
+"account create description" = "זה מזהה החשבון שלך. כתוב את זה ושמור על זה פרטי. זו הדרך היחידה לגשת למינוי שלך.";
 "account create confirm" = "רשמתי את זה";
 
 "account section header my subscription" = "המנוי שלי";
@@ -258,6 +262,7 @@
 "account action why upgrade" = "למה כדאי לי לשדרג?";
 "account subscription header renew" = "חדש אוטומטית";
 "account subscription header payment method" = "אמצעי תשלום";
+"account subscription renew unsupported" = "אמצעי התשלום שלך אינו מאפשר לשלוט בהגדרת החידוש האוטומטי כאן.";
 
 "account unlock to show" = "בטלו את הנעילה על מנת לראות את מזהה החשבון שלכם";
 
@@ -297,6 +302,7 @@
 "account lease label this device" = " (מכשיר זה)";
 "account lease label name" = "שם המכשיר";
 "account lease label location" = "מיקום";
+"account lease label generate" = "בחירת מיקום כאן תיצור קובץ תצורה בו תוכלו להשתמש בכל אפליקציית VPN שתומכת ב־Wireguard. זה שימושי לפלטפורמות שעדיין אין בהן את האפליקציות שלנו. אחרת, אנו ממליצים להשתמש במקום זאת באפליקציות המקוריות שלנו.";
 "account lease action generate" = "יצירת קובץ הגדרות";
 "account lease action download" = "הורדת קובץ הגדרות";
 "account lease generated" = "מכשיר נוסף! הורד את ההגדרות ותוכל להשתמש בהם בכול מכשיר שתומך בWireguard.";
@@ -332,6 +338,9 @@
 "payment action terms" = "תנאי שימוש";
 "payment action policy" = "מדיניות הפרטיות";
 "payment alert error header" = "הודעה מהApp Store";
+// As in saving money: You are saving $5
+"payment save text" = "חסכת %@";
+"payment conversion note" = "אנו מקבלים אירו והמחירים המוצגים הם הערכה. החזר כספי זמין אם הבנק שלך גובה יותר מדי.";
 
 "payment subscription 1 month" = "חודש אחד";
 "payment subscription many months" = "%@ חודשים";
@@ -340,6 +349,12 @@
 
 "payment success label" = "תודה!";
 "payment success desc" = "המנוי פעיל כעת. אתם רשאים להשתמש בכל התכונות של Blokada Plus בכול המכשירים שלכם.";
+
+"payment redirect label" = "מפנה מחדש...";
+"payment redirect desc" = "המתן בבקשה. זה צריך לקחת רק רגע.";
+
+"payment ongoing title" = "התשלום שלך מעובד כעת.";
+"payment ongoing desc" = "תשלומי כרטיסי אשראי לא צריכים לקחת יותר מכמה דקות. תשלומי מטבעות קריפטוגרפיים נמשכים בדרך כלל עד שעה, תלוי בדמי העסקה שבחרת. במקרה של PayPal, זה עלול לארוך עד 24 שעות. אתה תנותב מחדש לאחר שהחשבון שלך מוכן. אתה יכול גם לסגור את המסך הזה ולבוא שוב מאוחר יותר. אם אתה מרגיש שהעסקה שלך אורכת זמן רב מדי, אנא צור איתנו קשר.";
 "payment pay google short" = "גוגל פיי";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "שינוי";
@@ -353,17 +368,22 @@
 "payment label most popular" = "הכי פופולרי";
 "payment label pay with card" = "תשלום באמצעות כרטיס";
 "payment label pay with paypal" = "שלמו עם PayPal";
+"payment label pay with crypto" = "שלם באמצעות מטבע קריפטוגרפי";
 "payment package one month" = "חודש אחד";
 "payment package six months" = "שישה חודשים";
 "payment package twelve months" = "שנים עשר חודשים";
 "payment label discount" = "חסכו %@ (%@ / לחודש)";
 "payment label country" = "מדינה";
 
+"payment euro desc" = "אנו ממוקמים באירופה, ולכן אנו מקבלים אירו: €10 הם בערך 12$.";
+"payment donate disclaimer" = "פעולה זו לא תפעיל את חשבון Blokada Plus שלך. אם ברצונך להשתמש בשירות ה־VPN שלנו, אנא הירשם במקום לתרום.";
+
 "apps section header" = "אפליקציות";
 "apps label installed" = "מותקן";
 "apps label system" = "מערכת";
 "apps status bypassed" = "(נעקף)";
 "apps filter header" = "אילו אפליקציות ברצונכם לראות?";
+"apps filter action show all" = "כל היישומים";
 "apps filter action toggle system" = "הצג את כלל אפליקציות המערכת";
 
 "app settings section header" = "מכשיר זה";
@@ -390,9 +410,12 @@
 
 "intro header" = "Blokada פעיל!";
 "intro text" = "טבעת כחולה אומרת שBlokada עובד.\n\nזכרו, חלק מהפרסומות, כמו יוטיוב, לא יכולות להיחסם. עם זאת, אתם תחוו שינוי בהמון אפליקציות אחרות.\n\nאנו ממליצים להפעיל VPN תמידי או VPN בעת הצורך בהגדרות המערכת שלכם.";
+
+"location region worldwide" = "בכל מקום";
 "location region america" = "אמריקה";
 "location region europe" = "אירופה";
 "location region asia" = "אסיה";
+"location region australia" = "אוסטרליה";
 
 "homepage header what is blokada" = "מה זה Blokada?";
 "homepage desc what is blokada" = "למדו את המידע הבסיסי על האפליקציה.";
@@ -400,7 +423,9 @@
 "homepage desc community" = "הצטרפו לקהילה המדהימה שלנו.";
 "homepage header support" = "תמכו בנו";
 "homepage desc support" = "תרמו כדי לעזור לנו להמשיך את הפרוייקט.";
+"homepage action faq" = "שאלות נפוצות";
 "homepage action vpn" = "VPN";
+"homepage action opinions" = "ביקורות";
 "homepage action authors" = "יוצרים";
 "homepage action source" = "מקור";
 "homepage action forums" = "פורומים";
@@ -412,8 +437,32 @@
 "homepage about title" = "Blokada 5, חוסם הפרסומות";
 "homepage about desc" = "אם ברצונכם לחסום ביעילות פרסומות, עוקבים, נוזקות, לחסוך דאטא בחבילה, להאיץ את המכשיר ולהגן על הפרטיות בעזרת אפליקציה אחת בלבד, אז Blokada בדיוק בשבילך. זה חינם, מאובטח וקוד פתוח.";
 "homepage about point one" = "חוסם פרסומות ועוקבים";
+"homepage about point two" = "עובד עבור כל האפליקציות וכל הדפדפנים";
 "homepage about point three" = "לא דורש רוט או ג'יילברייק";
+"homepage about point four" = "עיצוב בטוח (לא מפר את ההצפנה)";
+"homepage about point five" = "מהימן וחופשי לנצח";
+
+"homepage about action faq" = "עיין בשאלות הנפוצות";
 "homepage about action plus" = "למד/י עוד אודות Blokada פלוס";
+
+"homepage vpn title" = "Blokada 5, ה־VPN";
+"homepage vpn desc" = "להגנת הפרטיות האולטימטיבית, שדרג ל־Blokada Plus והתחבר דרך ה־VPN שלנו. אנו משתמשים ב־WireGuard®, פרוטוקול ה–VPN המתקדם ביותר, כדי להצפין את פעילות הרשת שלך ולהסתיר את כתובת ה־IP שלך.";
+"homepage vpn point one" = "ללא הגבלות על רוחב הפס";
+"homepage vpn point two" = "הצפנה מהירה ומודרנית";
+"homepage vpn point three" = "אין רישום לפעילות הרשת שלך";
+"homepage vpn point four" = "חבר עד 5 מכשירים";
+"homepage vpn credit" = "'WireGuard' ולוגו 'Wireguard' הם סימנים מסחריים רשומים של Jason A. Donenfeld.";
+
+"homepage faq header" = "שאלות נפוצות";
+"homepage faq action more" = "ראה שאלות נפוצות נוספות";
+"homepage faq title 1" = "איזה מידע Blokada שומרת?";
+"homepage faq desc 1" = "Blokada אינה עוקבת או משתפת אף אחת מפעילות הרשת שלך. אם אתה משתמש ב־Blokada Plus, מסיבות טכניות עלינו לאסוף את הנתונים המינימליים ביותר הנדרשים כדי לשמור על השירות. אנא עיין במדיניות הפרטיות שלנו בתפריט העליון לפרטים נוספים.";
+"homepage faq title 2" = "כיצד מוגנת הפרטיות שלי?";
+"homepage faq desc 2" = "Blokada מונעת מאפליקציות ומדפדפנים המותקנים במכשיר שלך לשלוח את הנתונים הפרטיים שלך (המכונים מעקב אחר טביעות אצבע) לאינטרנט. היא גם מצפינה חלק מפעילות הרשת שלך (שאילתות DNS). אם אתה זקוק להגנה רבה יותר, Blokada Plus גורמת למכשיר שלך להתחבר דרך ה־VPN שלנו ומשתמשת בפרוטוקול WireGuard® כדי להצפין את כל תעבורת הרשת שלך.";
+"homepage faq title 3" = "מה זה Blokada Plus?";
+"homepage faq desc 3" = "Blokada Plus הוא שירות ה־VPN הבטוח והמודרני שלנו (רשת פרטית וירטואלית). הוא משתמש ב־WireGuard® – פרוטוקול מהיר עם הצפנה מהשורה הראשונה ושימוש נמוך בסוללה. Blokada Plus מצפין את כל פעילות הרשת שלך בזמן אמת, ומעניק לך את רמת ההגנה הגבוהה ביותר שיש. אתה מקבל גם את תכונות ה־VPN הפופולריות – הסתרת כתובת ה־IP שלך, שינוי המיקום שלך וביטול חסימה של תוכן מוגבל גיאוגרפית.";
+"homepage faq title 4" = "האם עליי לשדרג ל־Blokada Plus?";
+"homepage faq desc 4" = "לא, השדרוג הוא אופציונלי. אתה יכול להישאר עם הגרסה החינמית של Blokada, לנצח. זהו שדרוג מומלץ אם ברצונך להגביר את הגנת הפרטיות שלך עוד יותר, או אם אתה זקוק לאחת מהתכונות הפופולריות ש־VPN מספק.";
 "homepage faq title 5" = "מהי מדיניות ההחזרים של Blokada Plus?";
 "homepage faq desc 5" = "ביכולתכם לקבל את הכסף שלכם בחזרה תוך 7 ימים מרגע רכישת המינוי. צרו איתנו קשר דרך כל אחת מהאפליקציות שלנו, ופשוט ציינו שאתם רוצים החזר כספי.";
 "homepage faq title 6" = "היכן ממוקמת Blokada?";
