@@ -6,7 +6,7 @@ Blokada for iOSは、DNS（Domain Name System）を使用して広告を取り�
 
 ----
 
-トップ機能：
+トップ機能:
 
 - インストールされているすべてのウェブブラウザやその他のアプリの広告をブロックします。
 - 悪意のあるコンテンツ、ウイルス、不正なウェブサイトを配信するサイトをブロックします。
@@ -17,8 +17,8 @@ Blokada for iOSは、DNS（Domain Name System）を使用して広告を取り�
 
 • 広告をブロック • データ使用量を節約 • 読み込むデータを削減し、高速ブラウジング • バッテリー使用量を削減
 
-何をブロックできますか? ・迷惑な広告：Google AdWords、Google Invite Media、DoubleClick Bid Manager、Liftoff、Bing Ads、Amazon など ・アダルトウェブサイト ・ギャンブルのウェブサイト ・ソーシャルメディアトラッカー：Google Analytics、Facebook Connect、DoubleClick、Google Publisher タグ、Google AdSense、Twitter ボタン、Yandex.Metrix、Comscore ・悪意のあるウェブサイト：ウイルスのダウンロード、悪意のあるコンテンツ、不正なウェブサイト、操作されたアプリ ・Blokada Plus 広告ブロック iOS アプリ
+何をブロックできますか? ・迷惑な広告: Google AdWords、Google Invite Media、DoubleClick Bid Manager、Liftoff、Bing Ads、Amazon など ・アダルトウェブサイト ・ギャンブルのウェブサイト ・ソーシャルメディアトラッカー: Google Analytics、Facebook Connect、DoubleClick、Google Publisher タグ、Google AdSense、Twitter ボタン、Yandex.Metrix、Comscore ・悪意のあるウェブサイト: ウイルスのダウンロード、悪意のあるコンテンツ、不正なウェブサイト、操作されたアプリ ・Blokada Plus 広告ブロック iOS アプリ
 
 ----
 
-利用規約：https://go.blokada.org/terms プライバシーポリシー：https://go.blokada.org/privacy
+利用規約: https://go.blokada.org/terms プライバシーポリシー: https://go.blokada.org/privacy

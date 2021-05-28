@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+חוסם המודעות Blokada – ללא פרסומות, עם סוללה טובה יותר
 
-Protect your privacy for free with the official Blokada app.
+הגנו על פרטיותכם בחינם באמצעות אפליקציית Blokada הרשמית.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+זו האפליקציה הרשמית היחידה בחנות Play מפרויקט הקוד הפתוח של Blokada. היזהרו מחיקויים, הם עשויים להכיל קוד זדוני.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+חוסם המודעות Blokada הוא אפליקציה חינמית המשתמשת בשרתי DNS (Domain Name System) במטרה לאפשר לכם חווית גלישה ללא פרסומות, כדי שתוכלו לראות רק את התוכן שאתם רוצים.
 
-There is also a built in VPN that is optional to use.
+יש גם VPN מובנה שניתן להשתמש בו.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+אתר הפרויקט הוא: https://blokada.org. הגרסה מהאתר כוללת תכונות נוספות וגם היא בחינם.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+הצטרפו אלינו לצ'אט הטלגרם שלנו אם יש לכם שאלות או משוב: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+התכונות הטובות ביותר:
+- אין צורך בהרשאות Root!
+- תומך בכל דפדפן אינטרנט ובכל אפליקציה.
+- זיהוי ויירוט מודעות מבוסס DNS (מצב VPN) לכל הדפדפנים המודרניים.
+- חוסם אתרים המפיצים תכנים זדוניים, וירוסים ואתרי רמאות.
 
-The most compatible ad blocker on the market!
+חוסם המודעות התואם ביותר בשוק!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• חוסם מודעות • שומר על חבילת הגלישה שלכם • גלשו מהר יותר על־ידי טעינת נתונים פחותה • הגדילו את חיי הסוללה
