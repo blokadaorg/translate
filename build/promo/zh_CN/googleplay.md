@@ -2,24 +2,24 @@ Blokada Slim 广告拦截器 - 没有广告，续航更佳
 
 使用 Blokada 官方应用程序来免费保护您的隐私。
 
-这是 Blokada 开源项目在 Play Store 上的唯一官方应用程序。 Beware of clones, they may contain malicious code.
+这是 Blokada 开源项目在 Play Store 上的唯一官方应用程序。 请小心其他名称类似的软件，它们可能包含恶意代码！
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim 广告拦截器是一款使用 DNS（域名系统）服务器来让您的网上冲浪更加清爽的免费应用程序。
 
-There is also a built in VPN that is optional to use.
+同时，您也可使用我们内置的 VPN。
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+本项目的官方网站：https://blokada.org。 网站上的版本拥有更多功能特性，而且也是免费的。
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+若您有疑问或想要反馈问题，请加入我们的 Telegram 群组：https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+优点：
+- 无需 Root 权限！
+- 支持每款浏览器及应用。
+- 适用于所有现代浏览器的 DNS 拦截功能（VPN）模式。
+- 屏蔽传播恶意内容、病毒的网页和欺诈网站。
 
-The most compatible ad blocker on the market!
+市面上兼容性最佳的广告拦截器！
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• 屏蔽广告 • 节省流量 • 载入更快 • 续航更长
