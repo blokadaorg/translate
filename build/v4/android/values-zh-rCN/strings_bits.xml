@@ -4,13 +4,16 @@
     <string name="home_touch">点击或按住以配置</string>
     <string name="home_blokada_disabled">Blokada 已暂停使用</string>
     <string name="home_blokada_active">Blokada 已激活</string>
+    <string name="home_blokada_active_protected">Blokada Plus 已激活，您的互联网连接已受保护</string>
     <string name="home_blokada_inactive">Blokada 已停用</string>
     <string name="home_activating">正在启用</string>
     <string name="home_please_wait">请稍候...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus已激活，但未开启广告屏蔽</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada 以 DNS 模式启动</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s 被阻止，自 %s 以来</string>
     <string name="home_masterswitch_enabled">Blokada 已打开</string>
     <string name="home_masterswitch_waiting">等待网络...</string>
     <!-- A button to share the ads counter on social media -->
@@ -27,9 +30,14 @@
     <string name="home_update_required">需要更新</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">捐赠</string>
+    <string name="home_vpn_enabled">Blokada Plus 已激活</string>
+    <string name="home_vpn_disabled">Blokada Plus 已被禁用</string>
     <string name="home_account_active">您的帐户仍已激活</string>
+    <string name="home_connecting_vpn">正在连接到 Blokada Plus</string>
     <string name="home_cleanup">建议清理</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">已连接到 Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">抱歉，您的设备不被Blokada Plus支持。您仍可使用其他功能。</string>
     <string name="home_blocka_vpn_error">无法连接到网关。您在线吗？</string>
     <string name="home_account_error">无法验证帐号。您在线吗？</string>
     <string name="home_permission_error">请授予VPN权限。</string>
@@ -44,21 +52,27 @@
     <string name="menu_ads_rules_label">添加您自己的规则来调整屏蔽。</string>
     <string name="menu_ads_log_label">查看最近被拦截或允许的内容。</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">请先激活您的帐号。</string>
     <string name="menu_vpn_select_gateway">请选择一个网关。</string>
+    <string name="menu_vpn_intro_button">为什么我需要Blokada Plus？</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">我的Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">网关</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">设备</string>
     <string name="menu_vpn_manage_subscription">管理您的帐号订阅</string>
+    <string name="menu_vpn_manage_subscription_unavailable">如果您的帐户是新建立的，请访问我们的网站。您无法在Blokada Slim中购买订阅。</string>
     <string name="menu_vpn_account_secret">点击上面的头像来查看您的帐号ID。请记住，您的ID是保密的，您应该自己保留着它。如果您卸载应用程序，请将其记下。</string>
     <string name="menu_vpn_restore_label">如果您重新安装应用程序，您可以在此恢复您的现有帐号。</string>
+    <string name="menu_vpn_intro">使用Blokada Plus，您的数据已加密，您的IP地址已被隐藏，您的位置已更改。</string>
     <string name="menu_vpn_account_label">要使用 VPN，您需要一个可用帐号。在此检查或恢复您的帐号。</string>
     <string name="menu_vpn_gateways_label">选择一个网关进行连接。您的设备将通过这个网关安全地发送您的加密数据，并且您将保持匿名。</string>
     <string name="menu_vpn_support_label">如果您遇到任何问题，请毫不犹豫地与我们联系。</string>
     <string name="menu_vpn_support_button">支持</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus 设置</string>
     <string name="menu_vpn_tunnel_learn_more">了解更多关于 Blokada Plus</string>
     <string name="menu_vpn_info_account_label">我有帐号吗？</string>
     <string name="menu_vpn_info_account_line1">是的！您的帐号在首次运行时自动创建。您不需要注册。</string>
