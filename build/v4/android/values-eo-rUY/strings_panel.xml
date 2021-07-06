@@ -66,12 +66,27 @@
     <string name="slot_update_action_refresh">Rekontroli</string>
     <string name="slot_telegram_title">Aliĝu!</string>
     <string name="slot_telegram_action">Malfermi</string>
+    <string name="slot_adblocking_label">Bloki reklamojn &amp; ŝanĝospurilojn</string>
+    <string name="slot_account_label_active">Konto aktivas ĝis %s</string>
+    <string name="slot_account_label_inactive">Konto malaktivas</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Administri abonojn</string>
+    <string name="slot_account_action_manage_inactive">Aktivigi konton</string>
+    <string name="slot_account_action_change_id">Restarigi konton</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Konekti al %s</string>
+    <string name="slot_gateway_learn_more">Lerni pli pri kluzoj</string>
+    <string name="slot_gateway_info_partner">Kio estas partnerkluzoj?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Regi kiujn viajn aparatojn konektiĝas al Blokada Plus.</string>
+    <string name="slot_lease_name_current">%s (ĉi tiu aparato)</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">alta</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">malalta</string>
+    <string name="subscription_success">Via konto ekaktiviĝas. Eble bezonos momenton. Dankon!</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Protokolo</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Helpu</string>
     <!-- A button to donate -->
