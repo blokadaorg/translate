@@ -202,34 +202,34 @@
 "activity empty text" = "נסו להשתמש במכשירכם וחזרו לכאן אחר כך, על מנת לראות לאן מכשירכם מתחבר.";
 "activity device filter show all" = "כל ההתקנים";
 
-"userdenied section header" = "רשימות החסימות שלי";
+"userdenied section header" = "רשימות החסימה שלי";
 "userdenied section slugline" = "נהל חסימה של אתרים מסוימים";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "מאופשר";
+"userdenied tab allowed" = "מורשה";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "נחסם";
 
 "networks section header" = "רשתות";
-"networks section label" = "התאם הגדרות לרשתות WiFi ורשתות ניידות";
+"networks section label" = "התאם הגדרות לרשתות WiFi ורשתות סלולריות";
 "networks label all networks" = "כל הרשתות";
-"networks action network specific" = "הקש כאן כדי לשנות את הגדרות ברירת המחדל. כדי לגרום לאפליקציה להתנהג אחרת ברשתות מסוימות, הקש מטה.";
-"networks label configuration active" = "הגדרות אלה פעילות כרגע";
+"networks action network specific" = "הקש כאן לשינוי הגדרות ברירת המחדל. כדי לגרום לאפליקציה להתנהג אחרת ברשתות מסוימות, הקש מטה.";
+"networks label configuration active" = "הגדרות אלו פעילות כרגע";
 "networks label configuration enabled" = "לא מחובר לרשת זו";
-"networks label configuration inactive" = "הקש כדי לשנות את ההגדרות עבור רשת זו";
-"networks label details default network" = "ההגדרות שלהלן מוחלות כברירת מחדל בכל הרשתות. ניתן לעקוף אותן עבור רשתות נבחרות (במסך הקודם).";
+"networks label configuration inactive" = "הקש לשינוי הגדרות עבור רשת זו";
+"networks label details default network" = "הגדרות שלהלן מוחלות כברירת מחדל בכל הרשתות. ניתן לעקוף אותן עבור רשתות נבחרות (במסך הקודם).";
 "networks action encrypt dns" = "הצפן DNS";
 "networks action use dns" = "משתמש ב־DNS: %@";
 "networks action use network dns" = "העדף רשת DNS";
 "networks action force libre mode" = "כפה מצב Libre";
-"networks label specific network" = "התאם את מה שאמור לקרות כאשר המכשיר שלך מתחבר לרשת זו.";
-"networks label specific network type" = "התאם את מה שאמור לקרות כאשר המכשיר שלך מתחבר לרשת מסוג זה.";
+"networks label specific network" = "התאם מה יקרה כאשר מכשירך יתחבר לרשת זו.";
+"networks label specific network type" = "התאם מה יקרה כאשר מכשירך יתחבר לרשת מסוג זה.";
 "networks label any wifi" = "כל רשת WiFi";
 "networks label any mobile" = "כל רשת סלולרית";
-"networks permission request" = "כדי לקבל שליטה רבה יותר, הקש כאן ותן לאפליקציה לזהות את כל הרשתות.";
+"networks permission request" = "לקבלת שליטה רבה יותר, הקש כאן ותן ליישום לזהות את כל הרשתות.";
 "networks permission request granted" = "ייתכן שתראה התראה כאשר Blokada קורא את שם הרשת שלך ברקע.";
 "networks section choose dns" = "בחר DNS";
-"networks summary encrypt dns" = "Blokada תצפין DNS במידת האפשר. זה משפר את האבטחה שלך ומונע מגורמים זדוניים לרגל באילו אתרים ואפליקציות אתה משתמש.";
-"networks summary use dns" = "Blokada ישתמש ב־%@ כ־DNS של המכשיר שלך. בחירה באפשרות שמאפשרת הצפנה (בעלת סמל הנעילה) והיא קרובה אליך, תעזור להגן על הנתונים שלך ולהפוך את החיבור שלך למהיר.";
+"networks summary encrypt dns" = "Blokada תצפין DNS במידת האפשר. זה משפר את האבטחה שלך ומונע מגורמים זדוניים לרגל באילו אתרים ויישומים הנך משתמש.";
+"networks summary use dns" = "Blokada ישתמש ב־%@ כ־DNS של מכשירך. בחירה באופציה המאפשרת הצפנה (בעלת סמל מנעול) ואשר קרובה אליך, תעזור להגן על הנתונים שלך ולהפוך את החיבור שלך למהיר.";
 "networks summary network dns" = "Blokada תשתמש ב־DNS של הרשת אם הוא זמין, או תעבור ל־%@ אחרת. כמו כן, האפליקציה תתעלם מהגדרות הצפנת ה־DNS בכל פעם שנעשה שימוש ב־DNS ברשת. השימוש ב־DNS של הרשת עוזר לתקן בעיות קישוריות ברשתות בעייתיות, אך לא משאיר אותך מוגן.";
 "networks summary network dns and plus mode" = "Blokada תשבית באופן זמני את מצב Plus בכל פעם שנעשה שימוש ב־DNS ברשת. הסיבה לכך היא שלא ניתן לגשת ל־DNS ברשת ב־VPN. מצב Plus יופעל בחזרה אוטומטית כאשר המכשיר יעבור לרשת אחרת.";
 "networks summary blocka plus mode" = "Blokada תשתמש ב־Blokada DNS במצב Plus, כדי להבטיח הצפנה ומהירות גבוהה. תוכל לשנות הגדרה זו בתחתית המסך של בחירת DNS.";
