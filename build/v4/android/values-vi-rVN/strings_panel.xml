@@ -21,16 +21,64 @@
     <!-- An action to toggle a switch -->
     <string name="slot_intro_desc">Bạn hiện đang ở phần Trang chủ, sẽ có nhiều thứ hơn nếu bạn vuốt sang phải. Mỗi cái trong số chúng có menu dưới cùng của riêng nó - mở nó bằng cách vuốt lên.&lt;br/&gt;&lt;br/&gt;Trên Android TV, điều hướng giao diện người dùng bằng dpad. Sử dụng phím trung tâm để mở menu dưới cùng hoặc bất kỳ mục nào bạn chọn. Các nút được đánh dấu bằng mũi tên lên, xuống, trái hoặc phải - sử dụng các phím điều hướng để nhấn vào chúng.</string>
     <string name="slot_intro_info">Psst... Một số mục có biểu tượng dấu chấm hỏi trên đó. Nhấn vào nó sẽ hiển thị một thông báo trợ giúp ngắn, như thông báo này!</string>
+    <string name="slot_new_filter">Thêm máy chủ mới vào danh sách bị chặn</string>
+    <string name="slot_new_filter_list">Thêm một danh sách máy chủ mới</string>
+    <string name="slot_new_filter_whitelist">Thêm một máy chủ mới vào danh sách được phép</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">không đặt</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">đặt</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">không hợp lệ</string>
     <string name="slot_continue">Tiếp tục</string>
+    <string name="slot_enter_domain_title">(Các) tên miền</string>
+    <string name="slot_enter_domain_desc">Nhập các miền được phân tách bằng dấu phẩy. Bạn cũng có thể dán một liên kết đến bất kỳ danh sách máy chủ lưu trữ nào hoặc nhập tệp danh sách máy chủ lưu trữ cục bộ.</string>
+    <string name="slot_enter_domain_error">Điều này không giống bất cứ điều gì đối với tôi.</string>
     <string name="slot_enter_domain_file">Tập tin</string>
+    <string name="slot_enter_domain_no_file">Không tìm thấy tệp nào trong /Download/blokada/filters</string>
+    <string name="slot_enter_file_titel">Tên tệp</string>
+    <string name="slot_enter_file_import">Nhập</string>
+    <string name="slot_enter_file_desc">Nhập một phần tên tệp</string>
+    <string name="slot_enter_file_not_found">Không có tên tệp nào chứa thông tin đầu vào của bạn</string>
+    <string name="slot_enter_file_multi">Nhiều tệp phù hợp với đầu vào của bạn</string>
+    <string name="slot_enter_name_title">Tên</string>
+    <string name="slot_enter_name_desc">Nhập tên cho mục mới. Bạn cũng có thể tạo một tên gợi ý.</string>
+    <string name="slot_enter_name_error">Điều này không giống bất cứ điều gì đối với tôi.</string>
+    <string name="slot_enter_name_generate">Khởi tạo</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; đã được đưa vào danh sách trắng</string>
+    <string name="slot_app_desc">Ứng dụng này được đưa vào danh sách trắng, có nghĩa là không có quá trình chặn hoặc lọc nào được thực hiện trên nó.</string>
+    <string name="slot_allapp_desc">Bạn có thể làm cho ứng dụng này bỏ qua Blokada để ngăn chặn bất kỳ lưu lượng truy cập nào dành cho nó. Hãy nhớ rằng, các ứng dụng bị bỏ qua giao tiếp bên ngoài VPN.</string>
+    <string name="slot_allapp_whitelisted">Đã bỏ qua</string>
+    <string name="slot_allapp_normal">Không được bỏ qua</string>
+    <string name="slot_allapp_whitelist">Bỏ qua</string>
+    <string name="slot_action_set">Thiết lập</string>
+    <string name="slot_whitelist_all">Bỏ qua tất cả các ứng dụng</string>
+    <string name="slot_blacklist_all">Không bỏ qua bất kỳ ứng dụng nào</string>
+    <string name="slot_dns_name">DNS đang hoạt động</string>
+    <string name="slot_dns_name_private">DNS tùy chỉnh đang hoạt động</string>
+    <string name="slot_dns_name_disabled">DNS đã bị vô hiệu hóa</string>
+    <string name="slot_action_none">Hành động này chưa sẵn sàng.</string>
     <string name="slot_action_unwhitelist">Hủy</string>
     <string name="slot_action_author">Giới thiệu</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Một mục nhập</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Một mục nhập cho %s</string>
+    <string name="slot_dns_control_title">Danh sách máy chủ DNS</string>
+    <string name="slot_dns_control_description">Bạn có thể đồng bộ danh sách máy chủ DNS với máy chủ của chúng tôi mà không làm mất các mục nhập tùy chỉnh của mình.&lt;br/&gt;&lt;br/&gt;Ngoài ra, bạn có thể bỏ tất cả các mục nhập (bao gồm cả của bạn) và tải xuống lại.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Đồng bộ</string>
+    <string name="slot_action_refresh_toast">Đã bắt đầu đồng bộ</string>
+    <string name="slot_action_restore">Bỏ</string>
+    <string name="slot_export_title">Cài đặt vị trí</string>
+    <string name="slot_export_description">Bạn có thể thay đổi nơi lưu cấu hình vào (và tải từ đó). Nếu bạn đang nhập các cài đặt hiện có, vui lòng chọn Nhập trước, nếu không chúng sẽ bị ghi đè.</string>
+    <string name="slot_action_import">Nhập</string>
+    <string name="slot_action_internal">Bộ nhớ trong</string>
+    <string name="slot_action_external">Bộ nhớ ngoài</string>
+    <string name="slot_filters_title">Danh sách bộ lọc</string>
+    <string name="slot_filters_description">Bạn có thể đồng bộ danh sách bộ lọc với máy chủ của chúng tôi mà không làm mất các mục nhập tùy chỉnh của bạn.&lt;br/&gt;&lt;br/&gt;Ngoài ra, bạn có thể bỏ tất cả các mục nhập (bao gồm cả của bạn) và tải xuống lại.</string>
+    <string name="slot_blocked_normal_title">Tên miền đã chặn</string>
+    <string name="slot_blocked_answer_title">Tên miền chưa được giải quyết</string>
     <!-- Action to manage active subscription. Keep it short -->
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
@@ -42,7 +90,9 @@
     <!-- A button to donate -->
     <string name="slot_donate_action">Đóng góp</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_blog_desc">Block là nơi chúng tôi viết về sự phát triển của dự án, các kế hoạch trong tương lai và thảo luận về các ý tưởng.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Mở</string>
     <!-- A button to open a description website of current app version after update. -->
     <!-- A button to update the app. -->
     <!-- A section in advanced settings. -->
