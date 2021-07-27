@@ -26,19 +26,56 @@
 "error payment failed" = "Thanh toán không có sẵn tại thời điểm này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
 "error payment failed alternative" = "Không thể hoàn tất thanh toán của bạn. Vui lòng đảm bảo dữ liệu của bạn là chính xác và thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
 "error payment not available" = "Thanh toán không khả dụng cho thiết bị này. Apple Pay chưa được kích hoạt hoặc chúng tôi chưa xử lý được các giao dịch mua ở quốc gia của bạn.";
+"error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
+"error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
+"error location failed fetching" = "Không thể tìm nạp vị trí.";
+"error unknown" = "Đã xảy ra sự cố không xác định. Vui lòng thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error blocka dns in filtering mode" = "Blokada DNS hiện chỉ được hỗ trợ ở chế độ Plus. Vui lòng chọn một DNS khác và thử lại.";
 
 "universal action continue" = "Tiếp tục";
 "universal action cancel" = "Hủy";
+"universal action close" = "Đóng";
+"universal action done" = "Đã xong";
+"universal action try again" = "Thử lại";
+"universal action learn more" = "Tìm hiểu thêm";
 "universal action help" = "Trợ giúp";
+"universal action show log" = "Nhật ký";
 "universal action share log" = "Chia sẻ nhật ký hệ thống";
+"universal action copy" = "Sao chép";
 "universal action save" = "Lưu";
+"universal action contact us" = "Liên hệ với chúng tôi";
+"universal action support" = "Hỗ trợ";
+"universal action upgrade" = "Nâng cấp lên BLOKADA+";
+"universal action upgrade short" = "Nâng cấp";
 "universal action yes" = "Có";
 "universal action no" = "Không";
 "universal action donate" = "Đóng góp";
+"universal action community" = "Cộng đồng";
 "universal action open in browser" = "Mở trong trình duyệt";
+"universal action more" = "Xem thêm";
+"universal action download" = "Tải xuống";
 "universal action news" = "Tin tức";
+"universal action delete" = "Xóa";
+"universal action hide" = "Ẩn";
+"universal action select" = "Chọn";
+"universal action selected" = "Đã chọn";
+// A verb "to search in the list"
+"universal action search" = "Tìm kiếm";
+// A verb "to filter the list"
+"universal action filter" = "Bộ lọc";
+// A verb "to clear the list"
+"universal action clear" = "Xóa";
+// A verb "to revoke permissions"
+"universal action revoke" = "Thu hồi";
 
 "universal label help" = "Trợ giúp";
+"universal label welcome" = "Chào mừng!";
+// Common label when some feature has no setting
+"universal label none" = "Không có";
+"universal status processing" = "Đang tiến hành... Vui lòng chờ.";
+"universal status copied to clipboard" = "Đã sao chép vào bộ nhớ tạm";
+"universal status restart required" = "Vui lòng khởi động lại ứng dụng để các thay đổi có hiệu lực.";
+"universal status redirect" = "Tiếp tục với ứng dụng Blokada";
 "home status active" = "Bật";
 "pack category active" = "Bật";
 // As in sentence, "this host has been blocked"
