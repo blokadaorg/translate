@@ -38,11 +38,33 @@
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">Đã kết nối đến Blokada Plus</string>
     <string name="home_boringtun_not_loaded">Rất tiếc, thiết bị của bạn không được Blokada Plus hỗ trợ. Bạn vẫn có thể sử dụng các tính năng khác.</string>
+    <string name="home_blocka_vpn_error">Không thể kết nối với gateway. Bạn có trực tuyến không?</string>
+    <string name="home_account_error">Không thể xác minh tài khoản. Bạn có trực tuyến không?</string>
+    <string name="home_permission_error">Vui lòng cấp quyền VPN.</string>
+    <string name="home_zero_filters_error">Bạn không có bộ lọc nào được định cấu hình. Kiểm tra cài đặt chặn quảng cáo và Wifi của bạn.</string>
+    <string name="home_filters_memory_error">Không thể tải một số danh sách; chọn ít danh sách hơn trong cài đặt Chặn quảng cáo.</string>
+    <string name="tasker_switch_label">Nhấn vào một trong các tùy chọn để định cấu hình để bật (hoặc tắt) nó cho trình kích hoạt của bạn.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
+    <string name="menu_ads">Quảng cáo</string>
+    <string name="menu_ads_live_label">Nhật ký lưu trữ các yêu cầu được phép và bị chặn</string>
+    <string name="menu_ads_clear_log">Xóa nhật ký máy chủ</string>
+    <string name="menu_ads_lists_label">Chọn danh sách sử dụng để chặn. Mặc định là tốt cho hầu hết mọi người.</string>
+    <string name="menu_ads_rules_label">Thêm các quy tắc của riêng bạn để tinh chỉnh việc chặn.</string>
+    <string name="menu_ads_log_label">Xem những gì đã bị chặn hoặc được phép gần đây.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
+    <string name="menu_vpn_activate_account">Vui lòng kích hoạt tài khoản của bạn trước.</string>
+    <string name="menu_vpn_select_gateway">Vui lòng chọn một gateway.</string>
+    <string name="menu_vpn_intro_button">Vì sao tôi cần Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">Blokada Plus của tôi</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Thiết bị</string>
+    <string name="menu_vpn_manage_subscription">Quản lý đăng ký tài khoản của bạn</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Nếu tài khoản của bạn là mới, hãy truy cập trang web của chúng tôi. Bạn không thể mua đăng ký trong Blokada Slim.</string>
     <!-- A section of other settings in menu -->
     <!-- A section of help, telegram, and other buttons in menu -->
     <!-- A section informational content in menu -->
