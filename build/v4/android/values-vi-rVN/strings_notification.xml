@@ -5,6 +5,7 @@
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Bị chặn</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
+    <string name="notification_blocked_text">%s</string>
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">Không hiển thị</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
@@ -14,6 +15,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Giữ kích hoạt</string>
+    <string name="notification_keepalive_description">Kích hoạt công tắc này nếu bạn gặp sự cố với ứng dụng luôn hoạt động trong nền. Blokada sẽ kích hoạt thông báo vĩnh viễn để ngăn hệ thống đóng nó; bạn có thể ẩn nó bằng cách chọn Thông báo ở trên và Cài đặt ở đó.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d bị chặn</string>
