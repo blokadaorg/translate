@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_touch">Nhấn hoặc giữ để cấu hình</string>
+    <string name="home_blokada_disabled">Blokada đã tạm dừng</string>
+    <string name="home_blokada_active">Blokada đang hoạt động</string>
+    <string name="home_blokada_active_protected">Blokada Plus đang hoạt động, và Internet của bạn đã được bảo vệ</string>
+    <string name="home_blokada_inactive">Blokada đã dừng hoạt động</string>
     <string name="home_activating">Đang kích hoạt</string>
+    <string name="home_please_wait">Vui lòng chờ...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus đang chạy nhưng không chặn quảng cáo</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada đang hoạt động ở chế độ DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s bị chặn kể từ %s</string>
+    <string name="home_masterswitch_enabled">Blokada đang bật</string>
+    <string name="home_masterswitch_waiting">Đang chờ mạng...</string>
     <!-- A button to share the ads counter on social media -->
+    <string name="home_share">Giới thiệu với bạn bè của bạn</string>
+    <string name="home_share_state">Chia sẻ điểm số Blokada của bạn</string>
+    <string name="home_share_state_google">Giúp những người khác tìm hiểu về Blokada</string>
+    <string name="home_share_msg_google">Hãy dùng thử Blokada Slim và bảo vệ sự riêng tư của bạn! Tải xuống tại Google Play.</string>
     <!-- A short text for the item that displays update information -->
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Đóng góp</string>
