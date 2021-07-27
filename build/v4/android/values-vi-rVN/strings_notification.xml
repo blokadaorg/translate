@@ -26,4 +26,15 @@
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">đang giám sát</string>
     <string name="notification_keepalive_activate">Kích hoạt</string>
+    <string name="notification_keepalive_activating">Blokada đang khởi động. Điều này có thể mất một chút thời gian.</string>
+    <string name="notification_keepalive_deactivate">Hủy kích hoạt</string>
+    <string name="notification_keepalive_deactivating">Blokada đã bị vô hiệu hóa!</string>
+    <string name="notification_expired_title">Blokada Plus đã dừng hoạt động</string>
+    <string name="notification_expired_description">Tài khoản của bạn không hoạt động và Blokada Plus đã tắt. Các tính năng Blokada tiêu chuẩn hoạt động tốt mà không cần Blokada Plus VPN. Tuy nhiên, vui lòng xem xét việc kích hoạt tài khoản của bạn để được bảo vệ tốt hơn và hỗ trợ dự án.</string>
+    <string name="notification_lease_expired_title">Blokada Plus đã dừng hoạt động</string>
+    <string name="notification_lease_expired_description">Đã xảy ra sự cố với kết nối của bạn với Blokada Plus. Vui lòng thử chọn một gateway khác. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.</string>
+    <string name="notification_channel_filtered">Chặn quảng cáo</string>
+    <string name="notification_channel_announcements">Thông báo</string>
+    <string name="notification_channel_vpn">Blokada Plus</string>
+    <string name="notification_channel_other">Khác</string>
 </resources>
