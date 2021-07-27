@@ -191,6 +191,24 @@
 "account restore description" = "Đừng lo lắng, nếu bạn bị mất hoặc quên ID tài khoản của mình, chúng tôi có thể khôi phục nó. Vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi và cung cấp cho chúng tôi thông tin cho phép chúng tôi xác định giao dịch mua của bạn (ví dụ: 4 chữ số cuối của thẻ tín dụng hoặc email PayPal).";
 "account create description" = "Đây là ID tài khoản của bạn. Viết nó ra và giữ nó bí mật. Đó là cách duy nhất để truy cập đăng ký của bạn.";
 "account create confirm" = "Tôi đã ghi lại rồi";
+
+"account section header my subscription" = "Đăng ký của tôi";
+"account section header general" = "Chung";
+"account section header subscription" = "Đăng ký";
+"account label id" = "ID tài khoản";
+"account label type" = "Loại tài khoản";
+"account label active until" = "Hoạt động đến";
+"account action manage subscription" = "Quản lý đăng ký";
+"account action why upgrade" = "Vì sao tôi nên nâng cấp?";
+"account subscription header renew" = "Gia hạn tự động";
+"account subscription header payment method" = "Phương thức thanh toán";
+"account subscription renew unsupported" = "Phương thức thanh toán của bạn không cho phép kiểm soát cài đặt tự động gia hạn tại đây.";
+
+"account unlock to show" = "Mở khóa để hiển thị ID tài khoản của bạn";
+
+"account header logout" = "Khôi phục thanh toán";
+"account logout description" = "Vui lòng nhập ID tài khoản khác hoặc quay lại để tiếp tục sử dụng tài khoản hiện có của bạn (không thể sử dụng ứng dụng này nếu không có).";
+"account id status unchanged" = "(không thay đổi)";
 "account action how to restore" = "Làm cách nào để khôi phục tài khoản cũ của tôi?";
 
 "account subscription days remaining" = "Ngày còn lại: %@";
@@ -304,6 +322,42 @@
 "homepage about desc" = "Nếu bạn muốn chặn hiệu quả quảng cáo, trình theo dõi, phần mềm độc hại, tiết kiệm gói dữ liệu, tăng tốc thiết bị và bảo vệ quyền riêng tư của bạn chỉ với một ứng dụng, thì Blokada là dành cho bạn. Nó là miễn phí, an toàn và mã nguồn mở.";
 "homepage about point one" = "Chặn quảng cáo & trình theo dõi";
 "homepage about point two" = "Hoạt động cho tất cả các ứng dụng và tất cả các trình duyệt";
+"homepage about point three" = "Không cần root hoặc jailbreak";
+"homepage about point four" = "Thiết kế an toàn (không phá vỡ mã hóa)";
+"homepage about point five" = "Đáng tin cậy & miễn phí mãi mãi";
+
+"homepage about action faq" = "Xem Câu hỏi thường gặp";
+"homepage about action plus" = "Tìm hiểu thêm về Blokada Plus";
+
+"homepage vpn title" = "Blokada 5, VPN";
+"homepage vpn desc" = "Để được bảo vệ quyền riêng tư tối ưu, hãy nâng cấp lên Blokada Plus và kết nối thông qua VPN của chúng tôi. Chúng tôi sử dụng WireGuard®, giao thức VPN tiên tiến nhất, để mã hóa hoạt động mạng và ẩn địa chỉ IP của bạn.";
+"homepage vpn point one" = "Không hạn chế băng thông";
+"homepage vpn point two" = "Mã hóa nhanh & hiện đại";
+"homepage vpn point three" = "Không có nhật ký hoạt động mạng của bạn";
+"homepage vpn point four" = "Kết nối tối đa 5 thiết bị";
+"homepage vpn credit" = "'WireGuard' và logo 'Wireguard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
+
+"homepage faq header" = "Các câu hỏi thường gặp";
+"homepage faq action more" = "Xem thêm Câu hỏi thường gặp";
+"homepage faq title 1" = "Blokada lưu giữ thông tin gì?";
+"homepage faq desc 1" = "Blokada không theo dõi hoặc chia sẻ bất kỳ hoạt động mạng nào của bạn. Nếu bạn sử dụng Blokada Plus, vì lý do kỹ thuật, chúng tôi cần thu thập dữ liệu tối thiểu nhất cần thiết để duy trì hoạt động của dịch vụ. Vui lòng tham khảo Chính sách Quyền riêng tư của chúng tôi có sẵn trong menu trên cùng để biết chi tiết.";
+"homepage faq title 2" = "Quyền riêng tư của tôi được bảo vệ như thế nào?";
+"homepage faq desc 2" = "Blokada ngăn các ứng dụng và trình duyệt được cài đặt trên thiết bị của bạn gửi dữ liệu cá nhân của bạn (được gọi là theo dõi dấu vân tay) lên Internet. Nó cũng mã hóa một số hoạt động mạng của bạn (truy vấn DNS). Nếu bạn cần được bảo vệ nhiều hơn, Blokada Plus sẽ giúp thiết bị của bạn kết nối thông qua VPN của chúng tôi và sử dụng giao thức WireGuard® để mã hóa toàn bộ lưu lượng mạng của bạn.";
+"homepage faq title 3" = "Blokada Plus là gì?";
+"homepage faq desc 3" = "Blokada Plus là dịch vụ VPN (Mạng riêng ảo) an toàn và hiện đại của chúng tôi. Nó sử dụng WireGuard® - một giao thức nhanh với lớp mã hóa tốt nhất và sử dụng pin thấp. Blokada Plus mã hóa tất cả hoạt động mạng của bạn trong thời gian thực, mang đến cho bạn mức bảo vệ cao nhất hiện có. Bạn cũng nhận được các tính năng VPN phổ biến - ẩn địa chỉ IP, thay đổi vị trí của bạn và bỏ chặn nội dung bị giới hạn địa lý.";
+"homepage faq title 4" = "Tôi có cần nâng cấp lên Blokada Plus không?";
+"homepage faq desc 4" = "Không, nâng cấp là tùy chọn. Bạn có thể sử dụng phiên bản miễn phí của Blokada mãi mãi. Đây là bản nâng cấp được khuyến nghị nếu bạn muốn tăng cường khả năng bảo vệ quyền riêng tư của mình hơn nữa hoặc cần bất kỳ tính năng phổ biến nào mà VPN cung cấp.";
+"homepage faq title 5" = "Chính sách hoàn tiền của Blokada Plus là gì?";
+"homepage faq desc 5" = "Bạn có thể nhận lại tiền của mình trong vòng 7 ngày kể từ ngày mua đăng ký. Liên hệ với chúng tôi thông qua bất kỳ ứng dụng nào của chúng tôi và chỉ cần đề cập rằng bạn muốn được hoàn lại tiền.";
+"homepage faq title 6" = "Blokada tọa lạc ở đâu?";
+"homepage faq desc 6" = "Chúng tôi có trụ sở tại Thụy Điển, nơi quyền riêng tư được xử lý rất nghiêm túc. Máy chủ của chúng tôi có sẵn ở nhiều nơi trên thế giới.";
+
+"homepage download header" = "Tải xuống Blokada";
+"homepage download subheader" = "Blokada có sẵn cho một số nền tảng, hãy chọn cái của bạn.";
+"homepage download option android five" = "Blokada 5 cho Android";
+"homepage download option android slim" = "Blokada 5 Slim cho Android";
+"homepage download option android four" = "Blokada 4 cho Android";
+"homepage download option ios" = "Blokada 5 cho iOS";
 
 "homepage support header" = "Hỗ trợ dự án";
 "homepage support desc" = "Nếu bạn thích những gì chúng tôi làm, hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục phát triển các tính năng và cải tiến mới. Bằng cách này, Blokada có thể duy trì mã nguồn mở và miễn phí mãi mãi.";
