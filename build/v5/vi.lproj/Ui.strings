@@ -148,6 +148,55 @@
 "networks action network specific" = "Nhấn vào đây để sửa đổi cài đặt mặc định. Để làm cho ứng dụng hoạt động khác nhau trên một số mạng, hãy nhấn vào bên dưới.";
 "networks label configuration active" = "Các cài đặt này hiện đang hoạt động";
 "networks label configuration enabled" = "Không được kết nối với mạng này";
+"networks label configuration inactive" = "Nhấn để sửa đổi cài đặt cho mạng này";
+"networks label details default network" = "Các cài đặt bên dưới được áp dụng theo mặc định cho tất cả các mạng. Bạn có thể ghi đè chúng cho các mạng đã chọn (trong màn hình trước đó).";
+"networks action encrypt dns" = "Mã hóa DNS";
+"networks action use dns" = "Sử dụng DNS: %@";
 "account action about" = "Giới thiệu";
+"account action how to restore" = "Làm cách nào để khôi phục tài khoản cũ của tôi?";
+
+"account subscription days remaining" = "Ngày còn lại: %@";
+"account devices remaining" = "Thiết bị còn lại: %@";
+"account devices not available" = "Không khả dụng";
+"account devices out of" = "%@ của %@";
+
+"account encrypt level low" = "Thấp";
+"account encrypt level medium" = "Vừa";
+"account encrypt level high" = "Cao";
+"account encrypt label dns only" = "Đang mã hóa DNS";
+"account encrypt desc dns only" = "Hệ thống tên miền là cách thiết bị của bạn biết nơi để tìm các trang web bạn muốn truy cập. Thật không may, hầu hết Internet vẫn sử dụng DNS không được mã hóa, điều này khiến lịch sử duyệt web của bạn có nguy cơ bị theo dõi. Khi được bật, Blokada buộc thiết bị của bạn chỉ kết nối với các máy chủ DNS được mã hóa (còn được gọi là DNS qua HTTPS).";
+"account encrypt label everything" = "Kết nối qua VPN";
+"account encrypt desc everything" = "Thiết bị của bạn đang kết nối thông qua các máy chủ VPN an toàn của chúng tôi và tất cả thông tin liên lạc đến từ hoặc tới, thiết bị của bạn đang được mã hóa bằng các thuật toán mạnh. Điều này bảo vệ thông tin cá nhân của bạn, chẳng hạn như chi tiết ngân hàng hoặc ảnh cá nhân, khỏi bị đánh cắp ở những nơi không an toàn, chẳng hạn như WiFi ở quán cà phê.";
+"account encrypt action turn on" = "Bật BLOKADA";
+"account encrypt header level" = "Mức độ mã hóa";
+"account encrypt label level" = "Mức độ";
+"account encrypt label level low" = "Thấp: Không có mã hóa";
+"account encrypt label level medium" = "Vừa: Có mã hóa DNS";
+"account encrypt label level high" = "Cao: Mã hóa mọi thứ";
+"account encrypt header explanation" = "DNS là cách thiết bị của bạn biết nơi để tìm các trang web. BLOKADA chỉ hỗ trợ các máy chủ được mã hóa.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS là gì?";
+"account encrypt section header" = "Mã hóa";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Dùng Blokada DNS trong Chế độ Plus";
+
+"account lease label devices list" = "Các thiết bị này đã được kết nối với tài khoản của bạn.";
+"account lease label devices" = "Thiết bị";
+"account lease label this device" = " (thiết bị này)";
+"account lease label name" = "Tên của thiết bị";
+"account lease label location" = "Vị trí";
+"account lease label generate" = "Việc chọn vị trí ở đây sẽ tạo tệp cấu hình mà bạn có thể sử dụng trong bất kỳ ứng dụng VPN nào hỗ trợ Wireguard. Điều này rất hữu ích cho các nền tảng mà chúng tôi chưa có ứng dụng của mình. Nếu không, chúng tôi khuyên bạn nên sử dụng các ứng dụng gốc của chúng tôi thay thế.";
+"account lease action generate" = "Khởi tạo Cấu hình";
+"account lease action download" = "Tải xuống Cấu hình";
+"account lease generated" = "Đã thêm thiết bị! Tải xuống cấu hình để sử dụng trên bất kỳ thiết bị nào được Wireguard hỗ trợ.";
+"account lease wireguard desc" = "Blokada sử dụng Wireguard. Các cấu hình có thể được tải xuống khi tạo thiết bị mới.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Chọn một DNS";
+"account lease label public key" = "Khóa công khai";
+
+"account support action how help" = "Chúng tôi có thể giúp gì cho bạn?";
+"account support action kb" = "Cơ sở Kiến ​​thức Mở";
+
+"payment header activated" = "Đã kích hoạt!";
 "app settings start on boot" = "Bắt đầu khi khởi động";
 "app settings section use foreground" = "Giữ kích hoạt";
