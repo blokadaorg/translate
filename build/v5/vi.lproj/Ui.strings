@@ -127,7 +127,37 @@
 "home status active" = "Bật";
 "home status deactivated" = "Đã hủy kích hoạt";
 "home action tap to activate" = "nhấn để kích hoạt";
+"home status detail paused" = "đã tạm dừng cho đến khi bộ hẹn giờ kết thúc";
+"home status detail active" = "chặn *quảng cáo* và *trình theo dõi*";
+"home status detail active with counter" = "đã chặn *%@* quảng cáo và trình theo dõi";
+"home status detail active slim" = "Blokada *Slim* đang hoạt động";
+"home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
+"home status detail progress" = "vui lòng chờ...";
+
+"home plus button deactivated" = "BLOKADA+ đã ngừng hoạt động";
+"home plus button select location" = "Chọn vị trí";
+"home plus button location" = "Vị trí: *%@*";
+
+"home level low" = "Bảo vệ: Thấp";
+"home level medium" = "Bảo vệ: Vừa";
+"home level high" = "Bảo vệ: Cao";
+
+
+"pack section header" = "Tính năng nâng cao";
+"pack section header details" = "Chi tiết tính năng";
+"pack action install" = "NHẬN";
+"pack action update" = "CẬP NHẬT";
+"pack action uninstall" = "LOẠI BỎ";
+"pack author" = "Tác giả";
+"pack configurations header" = "Cấu hình";
+"pack information header" = "Xem thêm";
+"pack tags header" = "Thẻ";
+"pack tags none" = "Không có";
+"pack category highlights" = "Nổi bật";
 "pack category active" = "Bật";
+"pack category all" = "Tất cả";
+
+"advanced section header packs" = "Danh sách chặn";
 "advanced section slugline packs" = "Kích hoạt để chặn hạn chế hơn";
 "advanced section slugline apps" = "Chọn các ứng dụng không bao giờ bị chặn";
 "advanced section slugline encryption" = "Điều chỉnh mức mã hóa và DNS của bạn";
@@ -302,6 +332,63 @@
 "payment feature desc encrypt data" = "Dữ liệu được gửi qua đường hầm VPN của chúng tôi được mã hóa bằng các thuật toán mạnh để bảo vệ khỏi sự đánh chặn của các bên trái phép.";
 "payment feature title faster connection" = "Kết nối nhanh hơn";
 "payment feature desc faster connection" = "Tốc độ tuyệt vời lên đến 100Mbps với các máy chủ ở nhiều nơi khác nhau trên Thế giới.";
+"payment feature title devices" = "Lên đến 5 thiết bị";
+"payment feature desc devices" = "Sử dụng cùng một tài khoản để chia sẻ đăng ký của bạn với tối đa 5 thiết bị: iOS, Android hoặc PC.";
+"payment feature title no ads" = "Không quảng cáo";
+"payment feature desc no ads" = "Tiếp tục sử dụng công nghệ chặn quảng cáo Blokada nổi tiếng thế giới đồng thời cải thiện mức độ bảo vệ và giữ dữ liệu của bạn ở chế độ riêng tư.";
+"payment feature title support" = "Hỗ trợ tuyệt vời";
+"payment feature desc support" = "Nhận được phản hồi nhanh chóng cho bất kỳ câu hỏi nào nhờ bộ phận Hỗ trợ khách hàng và cộng đồng nguồn mở sôi động của chúng tôi.";
+"payment action see all features" = "Xem tất cả các tính năng";
+"payment action restore" = "Khôi phục thanh toán";
+"payment action terms and privacy" = "Điều khoản & Quyền riêng tư";
+"payment action terms" = "Điều khoản dịch vụ";
+"payment action policy" = "Chính sách quyền riêng tư";
+"payment alert error header" = "Một tin nhắn từ App Store";
+// As in saving money: You are saving $5
+"payment save text" = "Bạn đang tiết kiệm %@";
+"payment conversion note" = "Chúng tôi chấp nhận Euro và giá hiển thị là giá ước tính. Có thể hoàn lại tiền nếu ngân hàng của bạn tính phí quá cao.";
+
+"payment subscription 1 month" = "1 Tháng";
+"payment subscription many months" = "%@ Tháng";
+"payment subscription per month" = "%@ mỗi tháng";
+"payment subscription offer" = "Tiết kiệm %@";
+
+"payment success label" = "Cảm ơn!";
+"payment success desc" = "Tài khoản của bạn được kích hoạt! Giờ đây, bạn có thể sử dụng tất cả các tính năng của Blokada Plus trên tất cả các thiết bị của mình.";
+
+"payment redirect label" = "Đang chuyển hướng...";
+"payment redirect desc" = "Vui lòng chờ. Điều này sẽ chỉ mất một chút thời gian.";
+
+"payment ongoing title" = "Thanh toán của bạn hiện đang được xử lý.";
+"payment ongoing desc" = "Việc thanh toán bằng thẻ tín dụng sẽ không mất quá vài phút. Thanh toán tiền điện tử thường mất đến một giờ, tùy thuộc vào loại phí giao dịch bạn đã chọn. Trong trường hợp của PayPal, có thể mất đến 24 giờ. Bạn sẽ được chuyển hướng khi tài khoản của bạn đã sẵn sàng. Bạn cũng có thể đóng màn hình này và quay lại sau. Nếu bạn cảm thấy giao dịch của mình mất quá nhiều thời gian, vui lòng liên hệ với chúng tôi.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
+"payment change method" = "Đổi";
+"payment action pay" = "Thanh toán %@";
+"payment action pay period" = "Thanh toán %@ mỗi kỳ";
+"payment label email" = "Email";
+"payment crypto desc" = "Để thanh toán bằng ví tiền điện tử của bạn, hãy nhấn vào nút bên dưới.";
+"payment label choose package" = "Chọn gói của bạn";
+"payment label choose payment method" = "Chọn phương thức thanh toán của bạn";
+"payment label cheapest" = "Rẻ nhất";
+"payment label most popular" = "Phổ biến nhất";
+"payment label pay with card" = "Thanh toán bằng thẻ";
+"payment label pay with paypal" = "Thanh toán với PayPal";
+"payment label pay with crypto" = "Thanh toán bằng crypto";
+"payment package one month" = "1 Tháng";
+"payment package six months" = "6 Tháng";
+"payment package twelve months" = "12 Tháng";
+"payment label discount" = "Tiết kiệm %@ (%@ / tháng)";
+"payment label country" = "Quốc gia";
+
+"payment euro desc" = "Chúng tôi có trụ sở tại Châu Âu, vì vậy chúng tôi chấp nhận Euro: €10 tương đương với $12.";
+"payment donate disclaimer" = "Thao tác này sẽ không kích hoạt tài khoản Blokada Plus của bạn. Nếu bạn muốn sử dụng dịch vụ VPN của chúng tôi, vui lòng đăng ký thay vì ủng hộ.";
+
+"apps section header" = "Ứng dụng";
+"apps label installed" = "Đã cài đặt";
+"apps label system" = "Hệ thống";
+"apps status bypassed" = "(đã bỏ qua)";
+"apps filter header" = "Bạn muốn xem ứng dụng nào?";
 "apps filter action show all" = "Tất cả ứng dụng";
 "apps filter action show bypassed" = "Chỉ đã bỏ qua";
 "apps filter action show not bypassed" = "Chỉ chưa được bỏ qua";
