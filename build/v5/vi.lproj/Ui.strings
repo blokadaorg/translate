@@ -89,7 +89,44 @@
 
 "notification update header" = "Một bản cập nhật đã có sẵn";
 "alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
+"update label updated" = "Đã cập nhật!";
+"update desc updated" = "Bạn hiện đang sử dụng phiên bản mới nhất của Blokada! Hãy nhớ rằng, ủng hộ hoặc đăng ký Blokada Plus cho phép chúng tôi tiếp tục cải thiện ứng dụng.";
+"update downloading description" = "Bản cập nhật hiện đang được tải xuống và bạn sẽ sớm thấy lời nhắc cài đặt.";
+
+"account active forever" = "Mãi mãi";
+"account active forever full" = "Kích hoạt mãi mãi";
+
+"main ask for permissions header" = "Chỉ một bước nữa";
+"main ask for permissions description" = "Blokada đang sử dụng Cấu hình VPN để chặn quảng cáo. Bạn sẽ được yêu cầu cho phép nó trong bước tiếp theo.";
+
+"main share message" = "Blokada cho iOS đã giúp tôi chặn %@ quảng cáo và trình theo dõi!";
+
+"main rate us header" = "Đánh giá chúng tôi!";
+"main rate us description" = "Làm thế nào mà bạn thích Blokada cho đến nay?";
+"main rate us on app store" = "Bạn có thể giúp chúng tôi bằng cách xếp hạng Blokada trên App Store không?";
+"main rate us action sure" = "Chắc chắn rồi!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Trang chủ";
+// Make sure each tab name has a similar length
+"main tab activity" = "Hoạt động";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Nâng cao";
+// Make sure each tab name has a similar length
+"main tab settings" = "Cài đặt";
+
+"main label use side menu" = "Sử dụng menu bên cạnh để điều hướng";
+
+"home ads counter footnote" = "quảng cáo và trình theo dõi bị chặn kể từ khi cài đặt";
+"home power off menu header" = "Bạn muốn làm gì?";
+"home power action turn on" = "Bật";
+"home power action turn off" = "Tắt";
+"home power action pause" = "Tạm dừng trong 5 phút";
+
+"home status paused" = "Đã tạm dừng";
 "home status active" = "Bật";
+"home status deactivated" = "Đã hủy kích hoạt";
+"home action tap to activate" = "nhấn để kích hoạt";
 "pack category active" = "Bật";
 "advanced section slugline packs" = "Kích hoạt để chặn hạn chế hơn";
 "advanced section slugline apps" = "Chọn các ứng dụng không bao giờ bị chặn";
@@ -358,6 +395,25 @@
 "homepage download option android slim" = "Blokada 5 Slim cho Android";
 "homepage download option android four" = "Blokada 4 cho Android";
 "homepage download option ios" = "Blokada 5 cho iOS";
+"homepage download option other" = "Blokada cho các nền tảng khác";
+"homepage download desc other" = "Hiện tại, chúng tôi không cung cấp Blokada cho các nền tảng khác. Tuy nhiên, nếu bạn là người dùng Blokada Plus, bạn có thể sử dụng VPN của chúng tôi trên Windows, Linux, Mac và các nền tảng khác có Wireguard.";
+"homepage download desc ios" = "Blokada 5 chỉ có sẵn trên App Store.";
+"homepage download action ios" = "Mở App Store";
+"homepage download desc android five" = "Đây là phiên bản mới, được đề xuất của chúng tôi <b>dành cho điện thoại thông minh và máy tính bảng chạy Android 7 trở lên</b>. Nó đơn giản hơn và nhanh hơn so với Blokada 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blockade Slim là một <b>phiên bản nhẹ của ứng dụng</b>, và nó chỉ chứa các tính năng được chính sách Google Play cho phép.";
+"homepage download action android slim" = "Mở Cửa hàng Play";
+"homepage download desc android four" = "Chúng tôi vẫn duy trì phiên bản cũ hơn của Blokada. Nó có nhiều tính năng hơn, hoạt động trên các thiết bị và TV cũ hơn.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Mở F-Droid";
+
+"homepage community header" = "Cộng đồng";
+"homepage community desc" = "Blokada không chỉ là ứng dụng bảo mật. Nó cũng là cộng đồng của những người quan tâm đến quyền riêng tư và phúc lợi kỹ thuật số của họ. Bạn sẽ tìm thấy chúng tôi trên diễn đàn của chúng tôi, nơi bạn có thể hỏi bất kỳ câu hỏi nào bạn có thể có. Chúng tôi cũng có mặt trên các phương tiện truyền thông xã hội và các cuộc trò chuyện khác.";
+"homepage community cta subheader" = "Gia nhập cùng chúng tôi và nói xin chào!";
+"homepage community cta desc" = "Tất cả công việc của chúng tôi dựa trên phản hồi của người dùng. Hãy cho chúng tôi biết suy nghĩ của bạn, chúng tôi nên cải thiện điều gì hoặc chỉ ra ngoài đi chơi cho xong.";
+"homepage community cta action" = "Đi đến diễn đàn";
+"homepage community opinions" = "Dưới đây là một số ý kiến ​​từ người dùng của chúng tôi.";
 
 "homepage support header" = "Hỗ trợ dự án";
 "homepage support desc" = "Nếu bạn thích những gì chúng tôi làm, hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục phát triển các tính năng và cải tiến mới. Bằng cách này, Blokada có thể duy trì mã nguồn mở và miễn phí mãi mãi.";
