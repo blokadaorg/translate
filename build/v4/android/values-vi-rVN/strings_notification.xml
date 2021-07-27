@@ -17,10 +17,13 @@
     <string name="notification_keepalive_text">Giữ kích hoạt</string>
     <string name="notification_keepalive_description">Kích hoạt công tắc này nếu bạn gặp sự cố với ứng dụng luôn hoạt động trong nền. Blokada sẽ kích hoạt thông báo vĩnh viễn để ngăn hệ thống đóng nó; bạn có thể ẩn nó bằng cách chọn Thông báo ở trên và Cài đặt ở đó.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
+    <string name="notification_keepalive_title_new">Giữ hoạt động (nhấn để ẩn)</string>
+    <string name="notification_keepalive_text_new">Android yêu cầu hiển thị thông báo để tiếp tục chạy ứng dụng, nhưng bạn có thể vô hiệu hóa nó trong cài đặt hệ thống.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d bị chặn</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
     <string name="notification_keepalive_content">Lần cuối: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">đang giám sát</string>
+    <string name="notification_keepalive_activate">Kích hoạt</string>
 </resources>
