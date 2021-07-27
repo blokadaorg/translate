@@ -93,10 +93,33 @@
     <string name="slot_blog_desc">Block là nơi chúng tôi viết về sự phát triển của dự án, các kế hoạch trong tương lai và thảo luận về các ý tưởng.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Mở</string>
+    <string name="slot_updated_desc">Chạm vào đây để giới thiệu bản phát hành này.</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">Phiên bản Blokada của bạn đã lỗi thời và có thể không hoạt động bình thường. Vui lòng tải xuống phiên bản mới nhất để tiếp tục nhận được các bản cập nhật.</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">Có vẻ như có nhiều phiên bản Blokada được cài đặt trên thiết bị của bạn. Bạn có muốn xóa các phiên bản khác và chỉ giữ lại một phiên bản không?</string>
+    <string name="account_inactive">Vui lòng kích hoạt hoặc khôi phục tài khoản của bạn để tiếp tục.</string>
+    <string name="slot_lease_cant_connect">Không thể kết nối với Blokada Plus. Hãy thử chọn một gateway khác.</string>
+    <string name="slot_account_cant_create">Không thể tạo tài khoản Blokada Plus của bạn. Vui lòng thử lại sau hoặc liên hệ với chúng tôi.</string>
+    <string name="slot_account_name_title">ID tài khoản</string>
+    <string name="slot_account_name_desc">Nhập ID tài khoản cũ của bạn để khôi phục đăng ký trước đó của bạn. Bạn có thể ghi lại ID tài khoản hiện tại của mình trước khi thực hiện, phòng trường hợp bạn nhầm lẫn.</string>
+    <string name="slot_account_name_error">ID tài khoản chỉ có thể chứa các chữ cái và số.</string>
+    <string name="slot_account_name_api_error">ID tài khoản này có vẻ không đúng.</string>
+    <string name="slot_account_name_restore">Khôi phục</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Cài đặt chính</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Cài đặt nâng cao</string>
+    <string name="slot_whitelist_updating">Đang cập nhật cấu hình, vui lòng đợi...</string>
+    <string name="slot_too_many_leases">Vui lòng xóa thiết bị cũ khỏi danh sách thiết bị của bạn.</string>
+    <string name="slot_background_animation">Hoạt ảnh nền</string>
+    <string name="slot_background_animation_description">Khi bật, sóng sẽ hoạt động mỗi khi yêu cầu DNS bị chặn hoặc được cho phép. Tắt nếu bạn gặp phải lỗi chậm.</string>
+    <string name="slot_reset_counter_label">Đặt lại bộ đếm máy chủ bị chặn</string>
+    <string name="slot_reset_counter_description">Đặt bộ đếm hiển thị số lượng yêu cầu bị chặn trở lại 0.</string>
+    <string name="slot_reset_counter_action">Đặt lại</string>
+    <string name="label_workarounds">Cách giải quyết thiết bị-cụ thể</string>
+    <string name="slot_dns_answer_label">Hồi đáp DNS thay thế</string>
+    <string name="slot_dns_answer_description">Thay đổi câu trả lời mà Blokada gửi cho các yêu cầu bị chặn từ \"không tìm thấy máy chủ\" thành một IP không hợp lệ. Điều này có thể hữu ích trên một số ROM truy vấn máy chủ DNS khác nếu chúng nhận được câu trả lời \"không tìm thấy máy chủ\". Xin lưu ý rằng điều này có thể làm chậm một số ứng dụng cố gắng kết nối với địa chỉ không hợp lệ.</string>
 </resources>
