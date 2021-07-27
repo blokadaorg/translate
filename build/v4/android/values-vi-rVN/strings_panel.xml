@@ -115,17 +115,67 @@
     <string name="slot_filters_description">Bạn có thể đồng bộ danh sách bộ lọc với máy chủ của chúng tôi mà không làm mất các mục nhập tùy chỉnh của bạn.&lt;br/&gt;&lt;br/&gt;Ngoài ra, bạn có thể bỏ tất cả các mục nhập (bao gồm cả của bạn) và tải xuống lại.</string>
     <string name="slot_blocked_normal_title">Tên miền đã chặn</string>
     <string name="slot_blocked_answer_title">Tên miền chưa được giải quyết</string>
+    <string name="slot_blocked_cname_title">CName bị chặn</string>
+    <string name="slot_forwarded_title">Miền đã chuyển tiếp</string>
+    <string name="slot_whitelist_title">Ứng dụng đã thêm vào danh sách trắng</string>
+    <string name="slot_list_no_desc">Mục nhập này không có bất kỳ mô tả nào.</string>
+    <string name="slot_status_info">Khi ứng dụng đang Hoạt động, bạn sẽ thấy biểu tượng chìa khóa trên thanh thông báo ở đầu màn hình, có nghĩa là thiết bị của bạn đã được bảo vệ. Bạn có thể tắt ứng dụng bằng cách sử dụng nút bên dưới hoặc bằng cách vuốt xuống menu dưới cùng.</string>
+    <string name="slot_action_deactivate">Tắt</string>
+    <string name="slot_action_activate">Bật</string>
+    <string name="slot_update_action_refresh">Kiểm tra lại</string>
+    <string name="slot_telegram_title">Tham gia cùng chúng tôi!</string>
+    <string name="slot_telegram_desc">Ghé thăm cộng đồng của chúng tôi để được trợ giúp hoặc chỉ là một phần của nó.</string>
+    <string name="slot_telegram_action">Mở</string>
+    <string name="slot_dropped_share_title">Chia sẻ đến</string>
+    <string name="slot_adblocking_label">Chặn quảng cáo &amp; trình theo dõi</string>
+    <string name="slot_adblocking_text">Khi được bật, Blokada sẽ chặn quảng cáo, trình theo dõi và các nội dung không mong muốn khác. Điều này giúp bảo vệ quyền riêng tư của bạn, tăng tốc thiết bị và tiết kiệm dữ liệu của bạn.</string>
+    <string name="slot_account_label_active">Tài khoản hoạt động đến %s</string>
+    <string name="slot_account_label_inactive">Tài khoản không hoạt động</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Quản lý đăng ký</string>
+    <string name="slot_account_action_manage_inactive">Kích hoạt tài khoản</string>
+    <string name="slot_account_action_change_id">Phục hồi tài khoản</string>
+    <string name="slot_account_show">ID tài khoản</string>
+    <string name="slot_account_action_copied">Đã sao chép ID tài khoản vào bộ nhớ tạm</string>
+    <string name="slot_account_action_unavailable">[chưa đặt]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Kết nối đến %s</string>
+    <string name="slot_gateway_section_partner">Cổng đối tác cung cấp các vị trí bổ sung. Chúng không được quản lý hoàn toàn bởi Blokada, nhưng chúng không có quyền truy cập vào lưu lượng được mã hóa của bạn.</string>
+    <string name="slot_gateway_section_overloaded">Những cổng này đã quá tải và tạm thời không hoạt động.</string>
+    <string name="slot_gateway_description">Hiệu suất: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Vùng: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">Gateway đang bận và không chấp nhận các kết nối mới.</string>
+    <string name="slot_gateway_learn_more">Tìm hiểu thêm về gateway</string>
+    <string name="slot_gateway_info_partner">Gateway đối tác là gì?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Kiểm soát thiết bị nào của bạn kết nối với Blokada Plus.</string>
+    <string name="slot_lease_name_current">%s (thiết bị này)</string>
+    <string name="slot_lease_description">ID thiết bị: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID thiết bị: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Đây là thiết bị hiện tại của bạn.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">cao</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">thấp</string>
+    <string name="subscription_success">Tài khoản của bạn đang được kích hoạt. Điều này có thể mất một vài giây. Cảm ơn bạn!</string>
+    <string name="slot_start_on_boot_description">Bật tính năng tự chạy khi khởi động cho phép Blokada luôn hoạt động và bảo vệ thiết bị của bạn. Xin lưu ý rằng hệ thống luôn có mức độ ưu tiên cao hơn và có thể ghi đè tùy chọn này, do đó, nếu Blokada không khởi động, hãy xem cài đặt hệ thống của bạn.</string>
+    <string name="slot_recommended_dns_label">Sử dụng các máy chủ DNS được khuyến nghị</string>
+    <string name="slot_recommended_dns_description">Khi được bật, Blokada sẽ tự động chọn các máy chủ DNS được đề xuất để giúp tăng tốc Internet và bảo vệ quyền riêng tư của bạn. Nếu không, các máy chủ DNS mặc định trong mạng của bạn sẽ được sử dụng. Nếu bạn chọn máy chủ DNS theo cách thủ công trong phần Nâng cao, cài đặt này sẽ bị bỏ qua.</string>
+    <string name="slot_update_no_updates">Blokada đã được cập nhật</string>
+    <string name="slot_about">Thông tin về Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Nhật ký</string>
+    <string name="slot_help_label">Cần giúp đỡ?</string>
+    <string name="slot_help_desc">Nhấn vào nút bên dưới để mở trang trợ giúp của chúng tôi. Bạn cũng có thể sử dụng phương tiện truyền thông xã hội của chúng tôi để nhận trợ giúp - chúng tôi có mặt trên Telegram, Facebook, Reddit và Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Trợ giúp</string>
+    <string name="slot_donate_label">Bạn thích Blokada? Hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục cải thiện ứng dụng.</string>
+    <string name="slot_donate_desc">Giúp chúng tôi giới thiệu các tính năng mới! Chạm vào đây để biết thêm.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Đóng góp</string>
+    <string name="slot_cta_label">Psst! Chúng tôi muốn biết ý kiến ​​của bạn.</string>
+    <string name="slot_cta_desc">Thể hiện sự ủng hộ của bạn bằng cách tham gia vào các cuộc khảo sát của chúng tôi và các sự kiện khác. Chúng tôi thường xuyên liên hệ với cộng đồng của mình để nhận phản hồi về các ý tưởng và sự phát triển mới, nhằm đảm bảo rằng chúng tôi đang làm việc trên những gì bạn muốn thấy.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Mở</string>
+    <string name="slot_blog_label">Ghé thăm Blog phát triển của chúng tôi!</string>
     <string name="slot_blog_desc">Block là nơi chúng tôi viết về sự phát triển của dự án, các kế hoạch trong tương lai và thảo luận về các ý tưởng.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Mở</string>
