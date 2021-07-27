@@ -152,7 +152,45 @@
 "networks label details default network" = "Các cài đặt bên dưới được áp dụng theo mặc định cho tất cả các mạng. Bạn có thể ghi đè chúng cho các mạng đã chọn (trong màn hình trước đó).";
 "networks action encrypt dns" = "Mã hóa DNS";
 "networks action use dns" = "Sử dụng DNS: %@";
+"networks action use network dns" = "Mạng DNS ưu tiên";
+"networks action force libre mode" = "Chế độ bắt buộc Libre";
+"networks label specific network" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng này.";
+"networks label specific network type" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng loại này.";
+"networks label any wifi" = "Bất kỳ mạng WiFi nào";
+"networks label any mobile" = "Bất kỳ mạng di động nào";
+"networks permission request" = "Để có nhiều quyền kiểm soát hơn, hãy nhấn vào đây và để ứng dụng nhận dạng tất cả các mạng.";
+"networks permission request granted" = "Bạn có thể thấy thông báo khi Blokada đọc tên mạng của bạn trong nền.";
+"networks section choose dns" = "Chọn DNS";
+"networks summary encrypt dns" = "Blokada sẽ mã hóa DNS nếu có thể. Điều này cải thiện tính bảo mật của bạn và ngăn chặn các tác nhân độc hại theo dõi những trang web và ứng dụng bạn sử dụng.";
+"networks summary use dns" = "Blokada sẽ sử dụng %@ làm DNS của thiết bị của bạn. Chọn một trong những cái cho phép mã hóa (có biểu tượng khóa) và gần bạn, sẽ giúp bảo vệ dữ liệu của bạn và làm cho kết nối của bạn nhanh chóng hơn.";
+"networks summary network dns" = "Blokada sẽ sử dụng DNS của mạng nếu có sẵn hoặc chuyển sang %@ nếu cần. Ngoài ra, cài đặt Mã hóa DNS sẽ bị bỏ qua bất cứ khi nào DNS mạng được sử dụng. Sử dụng DNS của mạng giúp khắc phục sự cố kết nối trên các mạng rắc rối, nhưng khiến bạn không được bảo vệ.";
+"networks summary network dns and plus mode" = "Blokada sẽ tạm thời tắt Chế độ Plus bất cứ khi nào DNS mạng được sử dụng. Điều này là do không thể truy cập DNS mạng trong VPN. Chế độ Plus sẽ tự động được khôi phục khi thiết bị của bạn chuyển sang mạng khác.";
+"networks summary blocka plus mode" = "Blokada sẽ sử dụng Blokada DNS ở chế độ Plus, để đảm bảo tốc độ và mã hóa cao. Bạn có thể thay đổi cài đặt này ở cuối màn hình Chọn DNS.";
+"networks summary force libre mode" = "Blokada sẽ luôn sử dụng chế độ Libre trên mạng này và bỏ qua vị trí Blokada Plus của bạn. Điều này hữu ích cho các mạng mà bạn không muốn có thêm biện pháp bảo vệ.";
+"networks permission dialog" = "Blokada có thể nhận ra các mạng bạn kết nối và cho phép bạn định cấu hình các cài đặt riêng biệt cho chúng. Tuy nhiên, ứng dụng này sẽ thu thập dữ liệu vị trí dưới dạng tên mạng để kích hoạt tính năng này, ngay cả khi ứng dụng đã đóng hoặc không sử dụng. Đôi khi bạn có thể thấy thông báo của hệ thống về quyền truy cập vị trí - Blokada sẽ chỉ đọc tên mạng.";
+
+
+"account section header settings" = "Cài đặt";
+"account status text" = "Tài khoản BLOKADA %@ của bạn được kích hoạt cho đến %@.";
+"account status text libre" = "Tài khoản BLOKADA Libre của bạn sẽ hoạt động mãi mãi.";
+
+"account section header primary" = "Chính";
+"account section header other" = "Khác";
+"account action my account" = "Tài khoản của tôi";
+"account action encryption" = "Mã hóa & DNS";
+"account action devices" = "Thiết bị";
+"account action new device" = "Thiết bị mới";
+"account action inbox" = "Hộp thư đến";
+"account action logout" = "Khôi phục thanh toán";
+"account action logout only" = "Đăng xuất";
+"account action create" = "Khởi tạo tài khoản mới";
 "account action about" = "Giới thiệu";
+"account action tap to show" = "Nhấn để hiển thị";
+"account action restoring" = "Đang phục hồi tài khoản: %@";
+"account label enter to continue" = "Nhập ID tài khoản của bạn để tiếp tục";
+"account restore description" = "Đừng lo lắng, nếu bạn bị mất hoặc quên ID tài khoản của mình, chúng tôi có thể khôi phục nó. Vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi và cung cấp cho chúng tôi thông tin cho phép chúng tôi xác định giao dịch mua của bạn (ví dụ: 4 chữ số cuối của thẻ tín dụng hoặc email PayPal).";
+"account create description" = "Đây là ID tài khoản của bạn. Viết nó ra và giữ nó bí mật. Đó là cách duy nhất để truy cập đăng ký của bạn.";
+"account create confirm" = "Tôi đã ghi lại rồi";
 "account action how to restore" = "Làm cách nào để khôi phục tài khoản cũ của tôi?";
 
 "account subscription days remaining" = "Ngày còn lại: %@";
