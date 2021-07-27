@@ -86,11 +86,27 @@
     <string name="menu_apps_system_label">Ứng dụng hệ thống là những ứng dụng được cài đặt sẵn với thiết bị của bạn. Một số trong số chúng được ẩn. Chỉ sửa đổi những điều đó nếu bạn biết mình đang làm gì.</string>
     <string name="menu_host_list_intro">Danh sách máy chủ chứa các quy tắc để chặn quảng cáo và trình theo dõi. Cố gắng giữ cho số lượng danh sách hoạt động ở mức thấp.</string>
     <string name="menu_host_adblocking_features">Phòng thí nghiệm Blokada</string>
+    <string name="menu_host_adblocking_settings">Cài đặt chặn quảng cáo</string>
+    <string name="menu_host_list_status">Danh sách trạng thái</string>
+    <string name="menu_host_list_download">Tải xuống trạng thái cài đặt</string>
+    <string name="menu_host_whitelist">Máy chủ bạn thêm vào đây sẽ không bao giờ bị chặn. Ví dụ: sử dụng danh sách này khi một trang web bạn truy cập bị chặn do nhầm lẫn. Lưu ý rằng điều này không áp dụng cho các ứng dụng bị bỏ qua.</string>
+    <string name="menu_host_blacklist">Máy chủ bạn thêm vào đây sẽ luôn bị chặn. Ví dụ: bạn có thể thêm các trang web không bị chặn bởi danh sách tiêu chuẩn, nhưng nên được như vậy. Lưu ý rằng điều này không áp dụng cho các ứng dụng bị bỏ qua.</string>
     <!-- A section of other settings in menu -->
+    <string name="menu_other">Khác</string>
+    <string name="menu_share_log_label">Chia sẻ nhật ký cho phép chúng tôi khám phá lý do của sự cố của bạn. Đảm bảo rằng bạn gửi nó một cách riêng tư cho một trong những thành viên cốt lõi của Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
+    <string name="menu_learn_more">Tìm hiểu thêm</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Nhận trợ giúp</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Tham gia</string>
+    <string name="menu_telegram">Cộng đồng</string>
+    <string name="menu_configure">Định cấu hình tính năng Blokada</string>
+    <string name="menu_exclude">Loại trừ các ứng dụng không hoạt động chính xác</string>
     <!-- A section in menu for additional buttons  -->
+    <string name="menu_dive_in">Lặn sâu hơn</string>
     <!-- A section to manage some settings (generic)  -->
+    <string name="menu_manage">Quản lý</string>
+    <string name="menu_ok">OK</string>
+    <string name="menu_dns_remove_default">DNS mặc định không thể xóa được.</string>
 </resources>
