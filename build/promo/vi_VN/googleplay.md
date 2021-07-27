@@ -8,18 +8,18 @@ Trình chặn quảng cáo Blokada Slim là một ứng dụng miễn phí sử 
 
 Ngoài ra còn có một VPN được tích hợp sẵn có thể tùy ý sử dụng.
 
-Trang web của dự án là: https://blokada.org. The version from the website has more features and is also free.
+Trang web của dự án là: https://blokada.org. Phiên bản từ trang web có nhiều tính năng hơn và cũng miễn phí.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Tham gia với chúng tôi trên cuộc trò chuyện Telegram của chúng tôi nếu bạn có câu hỏi hoặc phản hồi: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Các tính năng tốt nhất:
+- KHÔNG yêu cầu quyền root!
+- Hỗ trợ mọi trình duyệt web và ứng dụng.
+- Chặn dựa trên DNS (chế độ VPN) cho tất cả các trình duyệt hiện đại.
+- Chặn các trang web phân phối nội dung độc hại, vi rút và các trang web lừa đảo.
 
-The most compatible ad blocker on the market!
+Trình chặn quảng cáo tương thích nhất trên thị trường!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Chặn quảng cáo • Tiết kiệm gói dữ liệu của bạn • Duyệt NHANH HƠN bằng cách tải ít dữ liệu hơn • Nâng cao tuổi thọ pin
