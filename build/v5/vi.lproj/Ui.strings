@@ -76,12 +76,78 @@
 "universal status copied to clipboard" = "Đã sao chép vào bộ nhớ tạm";
 "universal status restart required" = "Vui lòng khởi động lại ứng dụng để các thay đổi có hiệu lực.";
 "universal status redirect" = "Tiếp tục với ứng dụng Blokada";
+"universal status confirm" = "Bạn có chắc muốn tiếp tục?";
+
+"alert error header" = "Ooops!";
+"alert vpn expired header" = "BLOKADA+ đã hết hạn";
+"alert download link body" = "Vì lý do bảo mật, để tải xuống tệp, chúng tôi cần mở trang web này trong trình duyệt của bạn. Sau đó, vui lòng nhấn vào liên kết tải xuống một lần nữa.";
+
+"notification vpn expired header" = "Đăng ký BLOKADA+ đã hết hạn";
+"notification vpn expired subtitle" = "VPN đã bị tắt";
+"notification vpn expired body" = "Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
+"notification desc settings" = "Vuốt thông báo sang trái hoặc phải để cài đặt.";
+
+"notification update header" = "Một bản cập nhật đã có sẵn";
+"alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
 "home status active" = "Bật";
 "pack category active" = "Bật";
+"advanced section slugline packs" = "Kích hoạt để chặn hạn chế hơn";
+"advanced section slugline apps" = "Chọn các ứng dụng không bao giờ bị chặn";
+"advanced section slugline encryption" = "Điều chỉnh mức mã hóa và DNS của bạn";
+"advanced action slim migrate to full" = "Bạn đang sử dụng Blokada Slim. Tìm hiểu thêm";
+
+"location choice header" = "Chọn một vị trí";
+
+"activity section header" = "Hoạt động";
+"activity section header details" = "Chi tiết hoạt động";
+"activity request blocked" = "Yêu cầu này đã bị chặn.";
+"activity request allowed" = "Yêu cầu này đã được cho phép.";
+"activity request allowed whitelisted" = "Yêu cầu này đã được cho phép, vì nó nằm trong danh sách Được phép của bạn";
+"activity request blocked blacklisted" = "Yêu cầu này đã bị chặn vì nó nằm trong danh sách Bị chặn của bạn";
+"activity actions header" = "Hành động";
+"activity information header" = "Thông tin";
+"activity action add to whitelist" = "Thêm vào Được phép";
+"activity action remove from whitelist" = "Loại bỏ khỏi Được phép";
+"activity action added to whitelist" = "Đã thêm vào Được phép";
+"activity action add to blacklist" = "Thêm vào Bị chặn";
+"activity action remove from blacklist" = "Loại bỏ khỏi Bị chặn";
+"activity action added to blacklist" = "Đã thêm vào Bị chặn";
+"activity action copy to clipboard" = "Sao chép tên vào bộ nhớ tạm";
+"activity domain name" = "Tên đầy đủ";
+"activity time of occurrence" = "Thời gian";
+"activity number of occurrences" = "Số lần xuất hiện";
+// As in sentence, "this item has been modified"
+"activity state modified" = "đã sửa đổi";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "bị chặn";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "được phép";
+"activity happened one time" = "1 lần";
+"activity happened many times" = "%@ lần";
+"activity category recent" = "Gần đây";
+"activity category top" = "Trên cùng";
+"activity category top blocked" = "Bị chặn trên cùng";
+"activity category top allowed" = "Được phép trên cùng";
+"activity filter header" = "Bạn muốn xem mục nào?";
+"activity filter show all" = "Tất cả các mục";
+"activity filter show blocked" = "Chỉ bị chặn";
+"activity filter show allowed" = "Chỉ được phép";
+"activity empty text" = "Hãy thử sử dụng thiết bị của bạn và quay lại đây sau để xem nơi thiết bị của bạn kết nối với nó.";
+"activity device filter show all" = "Tất cả thiết bị";
+
+"userdenied section header" = "Danh sách chặn của tôi";
+"userdenied section slugline" = "Quản lý việc chặn các trang web cụ thể";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Được phép";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bị chặn";
+
+"networks section header" = "Mạng";
+"networks section label" = "Điều chỉnh cài đặt cho WiFi và mạng di động";
+"networks label all networks" = "Tất cả các mạng";
+"networks action network specific" = "Nhấn vào đây để sửa đổi cài đặt mặc định. Để làm cho ứng dụng hoạt động khác nhau trên một số mạng, hãy nhấn vào bên dưới.";
+"networks label configuration active" = "Các cài đặt này hiện đang hoạt động";
+"networks label configuration enabled" = "Không được kết nối với mạng này";
 "account action about" = "Giới thiệu";
 "app settings start on boot" = "Bắt đầu khi khởi động";
 "app settings section use foreground" = "Giữ kích hoạt";
