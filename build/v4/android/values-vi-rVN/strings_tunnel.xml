@@ -23,5 +23,14 @@
     <string name="tunnel_config_reports_title">Báo cáo</string>
     <string name="tunnel_config_reports_description">Kích hoạt lựa chọn này để cho phép ứng dụng gửi những báo cáo giúp chúng tôi sửa các vấn đề và lỗi. Điều này sẽ chỉ xảy ra một lần mỗi ngày, hoặc khi ứng dụng bị thoát đột ngột. Không kích hoạt lựa chọn này có thể làm cho việc sửa những lỗi bạn đang gặp trở nên khó khăn hơn. Bạn có thể sẽ cần khởi động lại ứng dụng để cài đặt này có hiệu lực.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Quy tắc chặn quảng cáo nâng cao</string>
+    <string name="tunnel_config_wildcard_description">Kích hoạt công tắc này nếu bạn muốn sử dụng ký tự đại diện trong các quy tắc lọc của mình. Ví dụ: thêm quy tắc cho *.google.com sẽ chặn tất cả các miền khỏi Google. Điều này có thể có tác động tiêu cực đến tuổi thọ của pin. Xin lưu ý rằng đây là một tính năng thử nghiệm và có thể không hoạt động bình thường.</string>
+    <string name="tunnel_config_cname_title">[BETA] Chặn-CName</string>
+    <string name="tunnel_config_cname_description">Kích hoạt công tắc này nếu bạn muốn chặn tất cả CName cho các miền trong danh sách chặn của mình. CName là một bí danh cho một miền, được một số nhà quảng cáo sử dụng để ẩn miền này sau một miền thường xuyên thay đổi hoặc ít rõ ràng hơn. Chiến thuật này có thể bị phá vỡ bằng cách chặn tất cả các CNames sẽ giải quyết cho miền bị chặn. Xin lưu ý rằng đây là một tính năng thử nghiệm và có thể không hoạt động bình thường.</string>
     <string name="tunnel_config_fallback_title">DNS dự phòng</string>
+    <string name="tunnel_config_fallback_description">Kích hoạt công tắc này nếu bạn mất quyền truy cập Internet trong một số trường hợp, chẳng hạn như WiFi. Điều này sẽ làm cho ứng dụng tạm thời chuyển sang Cloudflare hoặc Google DNS để duy trì kết nối của bạn. Bạn có thể cần chọn lại máy chủ của mình trong phần DNS để cài đặt này có hiệu lực.</string>
+    <string name="tunnel_config_smartlist_title">[BETA] Danh sách Thông minh</string>
+    <string name="tunnel_config_smartlist_reset_btn">Đặt lại</string>
+    <string name="tunnel_config_smartlist_clean_btn">Dọn dẹp</string>
+    <string name="tunnel_config_smartlist_clean_none">Không có gì để dọn dẹp</string>
+    <string name="tunnel_config_smartlist_clean_inactive">Danh sách Thông minh không hoạt động</string>
 </resources>
