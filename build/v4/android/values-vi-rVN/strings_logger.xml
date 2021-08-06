@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="logger_permission">Vui lòng cấp quyền lưu trữ trước.</string>
+    <string name="logger_slot_title">Trình ghi nhật ký yêu cầu</string>
+    <string name="logger_slot_desc">Theo mặc định, các yêu cầu chỉ được lưu trữ nội bộ trong Blokada. Nếu tính năng này được bật, Blokada sẽ tạo tệp CSV và ghi nhật ký các yêu cầu đã được ứng dụng cho phép và / hoặc bị chặn. Tìm thư mục \"blokada\" trên bộ nhớ ngoài của bạn. Ngoài ra, ghi nhật ký yêu cầu có thể bị vô hiệu hóa hoàn toàn, chỉ với số lượng miền bị chặn được lưu trữ.</string>
     <string name="logger_slot_mode_off">Tắt</string>
+    <string name="logger_slot_mode_internal">Chỉ đăng nhập vào bộ nhớ trong</string>
+    <string name="logger_slot_mode_allowed">Nhật ký ghi các yêu cầu được phép</string>
+    <string name="logger_slot_mode_denied">Nhật ký ghi các yêu cầu bị chặn</string>
+    <string name="logger_slot_mode_all">Nhật ký ghi tất cả các yêu cầu</string>
 </resources>

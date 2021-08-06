@@ -1,50 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Main screen section -->
+    <string name="panel_section_home">Trang chủ</string>
+    <string name="panel_section_menu">Menu</string>
     <!-- Main screen section -->
+    <string name="panel_section_ads">Chặn quảng cáo</string>
     <!-- Main screen section -->
+    <string name="panel_section_apps">Ứng dụng</string>
     <!-- Main screen section -->
     <string name="panel_section_home_help">Trợ giúp</string>
+    <string name="panel_section_ads_lists">Danh sách máy chủ</string>
+    <string name="panel_section_ads_log">Nhật ký máy chủ</string>
+    <string name="panel_section_ads_blacklist">Máy chủ đã chặn</string>
+    <string name="panel_section_ads_whitelist">Máy chủ đã cho phép</string>
+    <string name="panel_section_advanced_dns">DNS</string>
+    <string name="panel_section_apps_all">Ứng dụng đã cài đặt</string>
+    <string name="panel_section_apps_system">Ứng dụng hệ thống</string>
+    <string name="panel_section_advanced_settings">Cài đặt</string>
+    <string name="panel_section_app_settings">Cài đặt ứng dụng</string>
     <!-- When a domain is allowed (not blocked) -->
+    <string name="panel_domain_forwarded">Đã cho phép &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_forwarded_desc">Miền này đã được cho phép. Để chặn nó, hãy sử dụng nút bên dưới.</string>
+    <string name="panel_domain_forwarded_toast">Đã thêm vào danh sách trắng.</string>
     <!-- When a domain is blocked -->
+    <string name="panel_domain_blocked">Đã chặn &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="panel_domain_blocked_normal_desc">Miền này đã bị khóa. Để cho phép nó trong tương lai, hãy sử dụng nút bên dưới.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">Miền này không được máy chủ DNS phân giải chính xác. Máy chủ đã chặn miền hoặc miền đó không tồn tại.</string>
+    <string name="panel_domain_blocked_error_desc">Đã xảy ra sự cố khi giải quyết miền này, Máy chủ DNS đã trả lời bằng một mã lỗi.</string>
+    <string name="panel_domain_blocked_cname_desc">Miền này đã bị chặn vì đó là CName cho miền bị chặn. Để cho phép nó trong tương lai, bạn có thể thêm CName hoặc chính miền đó vào các máy chủ được phép.</string>
+    <string name="panel_domain_blocked_toast">Đã thêm vào danh sách đen.</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">Sao chép</string>
+    <string name="panel_domain_copied">Đã sao chép vào bộ nhớ tạm</string>
+    <string name="panel_ruleset">Trình đếm bộ lọc</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
+    <string name="panel_ruleset_title">Bộ lọc hiện giờ có %s quy tắc.</string>
+    <string name="panel_ruleset_updating">Đang cập nhật các bộ lọc...</string>
+    <string name="panel_ruleset_canfit">Bộ lọc hiện được định cấu hình với &lt;b&gt;%s&lt;/b&gt; quy tắc. Thiết bị của bạn cho phép tối đa &lt;b&gt;%s&lt;/b&gt; MB bộ nhớ cho mọi ứng dụng và lên đến &lt;b&gt;%s&lt;/b&gt; các quy tắc có thể phù hợp với nó.&lt;br&gt;Hãy nhớ rằng, đây chỉ là ước tính và Blokada sử dụng nhiều bộ nhớ nhất khi hợp nhất các danh sách. Nếu gần đây bạn đã bật một vài cái trong số chúng, hãy đợi vài phút để hệ thống giải phóng bộ nhớ.</string>
     <!-- Button to allow blocked domain -->
+    <string name="slot_action_allow">Cho phép</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Cho phép CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Cho phép Miền</string>
     <!-- Button to block allowed domain -->
+    <string name="slot_action_block">Chặn</string>
+    <string name="slot_action_close">Đóng</string>
+    <string name="slot_action_remove">Loại bỏ</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
     <!-- A state for switches (like notifications: on) -->
     <string name="slot_switch_on">Có</string>
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Không</string>
     <!-- An action to toggle a switch -->
+    <string name="slot_intro_new">Làm thế nào để sử dụng Giao diện người dùng mới? Nhấn vào đây để xem phần giới thiệu.</string>
+    <string name="slot_intro_new_header">Làm thế nào để sử dụng Giao diện người dùng mới?</string>
+    <string name="slot_intro_desc">Bạn hiện đang ở phần Trang chủ, sẽ có nhiều thứ hơn nếu bạn vuốt sang phải. Mỗi cái trong số chúng có menu dưới cùng của riêng nó - mở nó bằng cách vuốt lên.&lt;br/&gt;&lt;br/&gt;Trên Android TV, điều hướng giao diện người dùng bằng dpad. Sử dụng phím trung tâm để mở menu dưới cùng hoặc bất kỳ mục nào bạn chọn. Các nút được đánh dấu bằng mũi tên lên, xuống, trái hoặc phải - sử dụng các phím điều hướng để nhấn vào chúng.</string>
+    <string name="slot_intro_info">Psst... Một số mục có biểu tượng dấu chấm hỏi trên đó. Nhấn vào nó sẽ hiển thị một thông báo trợ giúp ngắn, như thông báo này!</string>
+    <string name="slot_new_filter">Thêm máy chủ mới vào danh sách bị chặn</string>
+    <string name="slot_new_filter_list">Thêm một danh sách máy chủ mới</string>
+    <string name="slot_new_filter_whitelist">Thêm một máy chủ mới vào danh sách được phép</string>
     <!-- A state of input form when no input is entered (think: empty)  -->
+    <string name="slot_unset">không đặt</string>
     <!-- A state of input form when correct input is entered  -->
+    <string name="slot_set">đặt</string>
     <!-- A state of input form when incorrect input is entered  -->
+    <string name="slot_invalid">không hợp lệ</string>
     <string name="slot_continue">Tiếp tục</string>
+    <string name="slot_enter_domain_title">(Các) tên miền</string>
+    <string name="slot_enter_domain_desc">Nhập các miền được phân tách bằng dấu phẩy. Bạn cũng có thể dán một liên kết đến bất kỳ danh sách máy chủ lưu trữ nào hoặc nhập tệp danh sách máy chủ lưu trữ cục bộ.</string>
+    <string name="slot_enter_domain_error">Điều này không giống bất cứ điều gì đối với tôi.</string>
     <string name="slot_enter_domain_file">Tập tin</string>
+    <string name="slot_enter_domain_no_file">Không tìm thấy tệp nào trong /Download/blokada/filters</string>
+    <string name="slot_enter_file_titel">Tên tệp</string>
+    <string name="slot_enter_file_import">Nhập</string>
+    <string name="slot_enter_file_desc">Nhập một phần tên tệp</string>
+    <string name="slot_enter_file_not_found">Không có tên tệp nào chứa thông tin đầu vào của bạn</string>
+    <string name="slot_enter_file_multi">Nhiều tệp phù hợp với đầu vào của bạn</string>
+    <string name="slot_enter_name_title">Tên</string>
+    <string name="slot_enter_name_desc">Nhập tên cho mục mới. Bạn cũng có thể tạo một tên gợi ý.</string>
+    <string name="slot_enter_name_error">Điều này không giống bất cứ điều gì đối với tôi.</string>
+    <string name="slot_enter_name_generate">Khởi tạo</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; đã được đưa vào danh sách trắng</string>
+    <string name="slot_app_desc">Ứng dụng này được đưa vào danh sách trắng, có nghĩa là không có quá trình chặn hoặc lọc nào được thực hiện trên nó.</string>
+    <string name="slot_allapp_desc">Bạn có thể làm cho ứng dụng này bỏ qua Blokada để ngăn chặn bất kỳ lưu lượng truy cập nào dành cho nó. Hãy nhớ rằng, các ứng dụng bị bỏ qua giao tiếp bên ngoài VPN.</string>
+    <string name="slot_allapp_whitelisted">Đã bỏ qua</string>
+    <string name="slot_allapp_normal">Không được bỏ qua</string>
+    <string name="slot_allapp_whitelist">Bỏ qua</string>
+    <string name="slot_action_set">Thiết lập</string>
+    <string name="slot_whitelist_all">Bỏ qua tất cả các ứng dụng</string>
+    <string name="slot_blacklist_all">Không bỏ qua bất kỳ ứng dụng nào</string>
+    <string name="slot_dns_name">DNS đang hoạt động</string>
+    <string name="slot_dns_name_private">DNS tùy chỉnh đang hoạt động</string>
+    <string name="slot_dns_name_disabled">DNS đã bị vô hiệu hóa</string>
+    <string name="slot_action_none">Hành động này chưa sẵn sàng.</string>
     <string name="slot_action_unwhitelist">Hủy</string>
     <string name="slot_action_author">Giới thiệu</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">Một mục nhập</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">Một mục nhập cho %s</string>
+    <string name="slot_dns_control_title">Danh sách máy chủ DNS</string>
+    <string name="slot_dns_control_description">Bạn có thể đồng bộ danh sách máy chủ DNS với máy chủ của chúng tôi mà không làm mất các mục nhập tùy chỉnh của mình.&lt;br/&gt;&lt;br/&gt;Ngoài ra, bạn có thể bỏ tất cả các mục nhập (bao gồm cả của bạn) và tải xuống lại.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Đồng bộ</string>
+    <string name="slot_action_refresh_toast">Đã bắt đầu đồng bộ</string>
+    <string name="slot_action_restore">Bỏ</string>
+    <string name="slot_export_title">Cài đặt vị trí</string>
+    <string name="slot_export_description">Bạn có thể thay đổi nơi lưu cấu hình vào (và tải từ đó). Nếu bạn đang nhập các cài đặt hiện có, vui lòng chọn Nhập trước, nếu không chúng sẽ bị ghi đè.</string>
+    <string name="slot_action_import">Nhập</string>
+    <string name="slot_action_internal">Bộ nhớ trong</string>
+    <string name="slot_action_external">Bộ nhớ ngoài</string>
+    <string name="slot_filters_title">Danh sách bộ lọc</string>
+    <string name="slot_filters_description">Bạn có thể đồng bộ danh sách bộ lọc với máy chủ của chúng tôi mà không làm mất các mục nhập tùy chỉnh của bạn.&lt;br/&gt;&lt;br/&gt;Ngoài ra, bạn có thể bỏ tất cả các mục nhập (bao gồm cả của bạn) và tải xuống lại.</string>
+    <string name="slot_blocked_normal_title">Tên miền đã chặn</string>
+    <string name="slot_blocked_answer_title">Tên miền chưa được giải quyết</string>
+    <string name="slot_blocked_cname_title">CName bị chặn</string>
+    <string name="slot_forwarded_title">Miền đã chuyển tiếp</string>
+    <string name="slot_whitelist_title">Ứng dụng đã thêm vào danh sách trắng</string>
+    <string name="slot_list_no_desc">Mục nhập này không có bất kỳ mô tả nào.</string>
+    <string name="slot_status_info">Khi ứng dụng đang Hoạt động, bạn sẽ thấy biểu tượng chìa khóa trên thanh thông báo ở đầu màn hình, có nghĩa là thiết bị của bạn đã được bảo vệ. Bạn có thể tắt ứng dụng bằng cách sử dụng nút bên dưới hoặc bằng cách vuốt xuống menu dưới cùng.</string>
+    <string name="slot_action_deactivate">Tắt</string>
+    <string name="slot_action_activate">Bật</string>
+    <string name="slot_update_action_refresh">Kiểm tra lại</string>
+    <string name="slot_telegram_title">Tham gia cùng chúng tôi!</string>
+    <string name="slot_telegram_desc">Ghé thăm cộng đồng của chúng tôi để được trợ giúp hoặc chỉ là một phần của nó.</string>
+    <string name="slot_telegram_action">Mở</string>
+    <string name="slot_dropped_share_title">Chia sẻ đến</string>
+    <string name="slot_adblocking_label">Chặn quảng cáo &amp; trình theo dõi</string>
+    <string name="slot_adblocking_text">Khi được bật, Blokada sẽ chặn quảng cáo, trình theo dõi và các nội dung không mong muốn khác. Điều này giúp bảo vệ quyền riêng tư của bạn, tăng tốc thiết bị và tiết kiệm dữ liệu của bạn.</string>
+    <string name="slot_account_label_active">Tài khoản hoạt động đến %s</string>
+    <string name="slot_account_label_inactive">Tài khoản không hoạt động</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Quản lý đăng ký</string>
+    <string name="slot_account_action_manage_inactive">Kích hoạt tài khoản</string>
+    <string name="slot_account_action_change_id">Phục hồi tài khoản</string>
+    <string name="slot_account_show">ID tài khoản</string>
+    <string name="slot_account_action_copied">Đã sao chép ID tài khoản vào bộ nhớ tạm</string>
+    <string name="slot_account_action_unavailable">[chưa đặt]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Kết nối đến %s</string>
+    <string name="slot_gateway_section_partner">Cổng đối tác cung cấp các vị trí bổ sung. Chúng không được quản lý hoàn toàn bởi Blokada, nhưng chúng không có quyền truy cập vào lưu lượng được mã hóa của bạn.</string>
+    <string name="slot_gateway_section_overloaded">Những cổng này đã quá tải và tạm thời không hoạt động.</string>
+    <string name="slot_gateway_description">Hiệu suất: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Vùng: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">Gateway đang bận và không chấp nhận các kết nối mới.</string>
+    <string name="slot_gateway_learn_more">Tìm hiểu thêm về gateway</string>
+    <string name="slot_gateway_info_partner">Gateway đối tác là gì?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Kiểm soát thiết bị nào của bạn kết nối với Blokada Plus.</string>
+    <string name="slot_lease_name_current">%s (thiết bị này)</string>
+    <string name="slot_lease_description">ID thiết bị: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">ID thiết bị: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Đây là thiết bị hiện tại của bạn.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">cao</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">thấp</string>
+    <string name="subscription_success">Tài khoản của bạn đang được kích hoạt. Điều này có thể mất một vài giây. Cảm ơn bạn!</string>
+    <string name="slot_start_on_boot_description">Bật tính năng tự chạy khi khởi động cho phép Blokada luôn hoạt động và bảo vệ thiết bị của bạn. Xin lưu ý rằng hệ thống luôn có mức độ ưu tiên cao hơn và có thể ghi đè tùy chọn này, do đó, nếu Blokada không khởi động, hãy xem cài đặt hệ thống của bạn.</string>
+    <string name="slot_recommended_dns_label">Sử dụng các máy chủ DNS được khuyến nghị</string>
+    <string name="slot_recommended_dns_description">Khi được bật, Blokada sẽ tự động chọn các máy chủ DNS được đề xuất để giúp tăng tốc Internet và bảo vệ quyền riêng tư của bạn. Nếu không, các máy chủ DNS mặc định trong mạng của bạn sẽ được sử dụng. Nếu bạn chọn máy chủ DNS theo cách thủ công trong phần Nâng cao, cài đặt này sẽ bị bỏ qua.</string>
+    <string name="slot_update_no_updates">Blokada đã được cập nhật</string>
+    <string name="slot_about">Thông tin về Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Nhật ký</string>
+    <string name="slot_help_label">Cần giúp đỡ?</string>
+    <string name="slot_help_desc">Nhấn vào nút bên dưới để mở trang trợ giúp của chúng tôi. Bạn cũng có thể sử dụng phương tiện truyền thông xã hội của chúng tôi để nhận trợ giúp - chúng tôi có mặt trên Telegram, Facebook, Reddit và Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Trợ giúp</string>
+    <string name="slot_donate_label">Bạn thích Blokada? Hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục cải thiện ứng dụng.</string>
+    <string name="slot_donate_desc">Giúp chúng tôi giới thiệu các tính năng mới! Chạm vào đây để biết thêm.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Đóng góp</string>
+    <string name="slot_cta_label">Psst! Chúng tôi muốn biết ý kiến ​​của bạn.</string>
+    <string name="slot_cta_desc">Thể hiện sự ủng hộ của bạn bằng cách tham gia vào các cuộc khảo sát của chúng tôi và các sự kiện khác. Chúng tôi thường xuyên liên hệ với cộng đồng của mình để nhận phản hồi về các ý tưởng và sự phát triển mới, nhằm đảm bảo rằng chúng tôi đang làm việc trên những gì bạn muốn thấy.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Mở</string>
+    <string name="slot_blog_label">Ghé thăm Blog phát triển của chúng tôi!</string>
+    <string name="slot_blog_desc">Block là nơi chúng tôi viết về sự phát triển của dự án, các kế hoạch trong tương lai và thảo luận về các ý tưởng.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Mở</string>
+    <string name="slot_updated_desc">Chạm vào đây để giới thiệu bản phát hành này.</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">Phiên bản Blokada của bạn đã lỗi thời và có thể không hoạt động bình thường. Vui lòng tải xuống phiên bản mới nhất để tiếp tục nhận được các bản cập nhật.</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">Có vẻ như có nhiều phiên bản Blokada được cài đặt trên thiết bị của bạn. Bạn có muốn xóa các phiên bản khác và chỉ giữ lại một phiên bản không?</string>
+    <string name="account_inactive">Vui lòng kích hoạt hoặc khôi phục tài khoản của bạn để tiếp tục.</string>
+    <string name="slot_lease_cant_connect">Không thể kết nối với Blokada Plus. Hãy thử chọn một gateway khác.</string>
+    <string name="slot_account_cant_create">Không thể tạo tài khoản Blokada Plus của bạn. Vui lòng thử lại sau hoặc liên hệ với chúng tôi.</string>
+    <string name="slot_account_name_title">ID tài khoản</string>
+    <string name="slot_account_name_desc">Nhập ID tài khoản cũ của bạn để khôi phục đăng ký trước đó của bạn. Bạn có thể ghi lại ID tài khoản hiện tại của mình trước khi thực hiện, phòng trường hợp bạn nhầm lẫn.</string>
+    <string name="slot_account_name_error">ID tài khoản chỉ có thể chứa các chữ cái và số.</string>
+    <string name="slot_account_name_api_error">ID tài khoản này có vẻ không đúng.</string>
+    <string name="slot_account_name_restore">Khôi phục</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Cài đặt chính</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Cài đặt nâng cao</string>
+    <string name="slot_whitelist_updating">Đang cập nhật cấu hình, vui lòng đợi...</string>
+    <string name="slot_too_many_leases">Vui lòng xóa thiết bị cũ khỏi danh sách thiết bị của bạn.</string>
+    <string name="slot_background_animation">Hoạt ảnh nền</string>
+    <string name="slot_background_animation_description">Khi bật, sóng sẽ hoạt động mỗi khi yêu cầu DNS bị chặn hoặc được cho phép. Tắt nếu bạn gặp phải lỗi chậm.</string>
+    <string name="slot_reset_counter_label">Đặt lại bộ đếm máy chủ bị chặn</string>
+    <string name="slot_reset_counter_description">Đặt bộ đếm hiển thị số lượng yêu cầu bị chặn trở lại 0.</string>
+    <string name="slot_reset_counter_action">Đặt lại</string>
+    <string name="label_workarounds">Cách giải quyết thiết bị-cụ thể</string>
+    <string name="slot_dns_answer_label">Hồi đáp DNS thay thế</string>
+    <string name="slot_dns_answer_description">Thay đổi câu trả lời mà Blokada gửi cho các yêu cầu bị chặn từ \"không tìm thấy máy chủ\" thành một IP không hợp lệ. Điều này có thể hữu ích trên một số ROM truy vấn máy chủ DNS khác nếu chúng nhận được câu trả lời \"không tìm thấy máy chủ\". Xin lưu ý rằng điều này có thể làm chậm một số ứng dụng cố gắng kết nối với địa chỉ không hợp lệ.</string>
 </resources>

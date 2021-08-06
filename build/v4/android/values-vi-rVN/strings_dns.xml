@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- A name used for DNS servers added by user. -->
+    <string name="dns_custom_add_slot">Thêm DNS mới…</string>
+    <string name="slot_enter_dns_error">Đối với tôi cái này không giống như một IPv4.</string>
     <!-- An example format of a DNS server address. -->
+    <string name="dns_edit_ip_label">Địa chỉ IP</string>
+    <string name="dns_edit_ip1_enter">Nhập địa chỉ chính</string>
+    <string name="dns_edit_ip2_enter">Nhập địa chỉ phụ</string>
+    <string name="dns_edit_name_error">Không phải một tên hợp lệ</string>
+    <string name="dns_edit_name_label">Tên máy chủ</string>
+    <string name="dns_edit_name_default">Tên mặc định</string>
+    <string name="dns_edit_next">Tiếp theo</string>
+    <string name="dns_edit_last">Thêm</string>
     <!-- Displayed in the home screen when no custom dns is set, keep it short. -->
     <string name="dns_text_none">DNS mặc định</string>
     <!-- Deletes all dns suggestions and fetches default ones. -->

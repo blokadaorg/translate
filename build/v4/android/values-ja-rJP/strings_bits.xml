@@ -5,7 +5,7 @@
     <string name="home_blokada_disabled">Blokada は一時停止されました</string>
     <string name="home_blokada_active">Blokada が有効です</string>
     <string name="home_blokada_active_protected">Blokada Plus が有効です
-通信内容が保護されています</string>
+通信が保護されています</string>
     <string name="home_blokada_inactive">Blokada が無効です</string>
     <string name="home_activating">有効にしています</string>
     <string name="home_please_wait">お待ちください...</string>
@@ -13,7 +13,7 @@
     <string name="home_vpn_only">Blokada Plus が有効です
 広告ブロックは無効になっています</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Blokada が DNS モードで有効です
+    <string name="home_dns_only">DNS 設定が有効です
 広告ブロックは無効になっています</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked_since">%s の広告をブロック（%s 以降）</string>
@@ -40,13 +40,13 @@
     <string name="home_cleanup">クリーンアップを推奨します</string>
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">Blokada Plus に接続しました</string>
-    <string name="home_boringtun_not_loaded">申し訳ありませんが、お使いのデバイスは Blokada Plus がサポートされていません。他の機能は使用することができます。</string>
+    <string name="home_boringtun_not_loaded">申し訳ありませんが、お使いのデバイスは Blokada Plus でサポートされていません。他の機能は使用することができます。</string>
     <string name="home_blocka_vpn_error">ゲートウェイに接続できませんでした。インターネット接続を確認してください</string>
     <string name="home_account_error">アカウントを確認できませんでした。インターネット接続を確認してください</string>
     <string name="home_permission_error">VPN の権限を許可してください。</string>
     <string name="home_zero_filters_error">フィルターが設定されていません。広告ブロックと Wi-Fi の設定を確認してください。</string>
     <string name="home_filters_memory_error">一部のリストを読み込めませんでした。広告ブロック設定でリストの数を減らしてください。</string>
-    <string name="tasker_switch_label">いずれかのオプションをタップして、トリガーの ON（または OFF）を切り替えます。</string>
+    <string name="tasker_switch_label">オプションをタップして、ON / OFF を切り替えます。</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">広告</string>
     <string name="menu_ads_live_label">許可またはブロックされたリクエストのログ</string>
@@ -67,7 +67,7 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">デバイス</string>
     <string name="menu_vpn_manage_subscription">アカウントのサブスクリプションを管理する</string>
-    <string name="menu_vpn_manage_subscription_unavailable">まだサブスクリプションを購入されていない場合は、当社のウェブサイトにアクセスしてください。Blokada Slim でサブスクリプションを購入することはできません。</string>
+    <string name="menu_vpn_manage_subscription_unavailable">まだサブスクリプションを購入していない場合は、当社のウェブサイトにアクセスしてください。Blokada Slim でサブスクリプションを購入することはできません。</string>
     <string name="menu_vpn_account_secret">アカウント ID を確認するには、上のアイコンをタップしてください。ID は他の人の目につかないように保管してください。アプリをアンインストールする場合に備えて書き留めてください。</string>
     <string name="menu_vpn_restore_label">ここでは、たとえばアプリを再インストールした場合などに、既存のアカウントを復元できます。</string>
     <string name="menu_vpn_intro">Blokada Plus を使用すると、データは暗号化され、IP アドレスは非表示になり、ロケーションは変更されます。</string>

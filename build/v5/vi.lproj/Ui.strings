@@ -1,22 +1,516 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error device offline" = "Thiết bị của bạn hiện ngoại tuyến";
+"error account inactive" = "Tài khoản của bạn không hoạt động. Vui lòng kích hoạt tài khoản của bạn để tiếp tục sử dụng BLOKADA+.";
+"error account inactive after restore" = "Đây dường như không phải là một tài khoản hoạt động hợp lệ. Nếu bạn cho rằng đây là sự nhầm lẫn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error account invalid" = "ID tài khoản này có vẻ không hợp lệ.";
+"error creating account" = "Không thể tạo tài khoản mới. Vui lòng thử lại sau.";
+"error fetching data" = "Không thể hoàn thành hành động này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error tunnel" = "Không thể thiết lập VPN. Vui lòng khởi động lại thiết bị của bạn hoặc xóa cấu hình Blokada VPN trong cài đặt hệ thống và thử lại.";
+"error vpn" = "Không thể thiết lập VPN. Vui lòng khởi động lại thiết bị của bạn hoặc xóa cấu hình Blokada VPN trong cài đặt hệ thống và thử lại.";
+"error vpn perms" = "Không có quyền nào được cấp để tạo hồ sơ VPN.";
+"error vpn no current lease" = "Vui lòng chọn một địa điểm trước.";
+"error vpn too many leases" = "Bạn đã đạt đến giới hạn thiết bị của mình. Vui lòng xóa một trong các thiết bị của bạn và thử lại.";
+"error vpn expired" = "VPN đã bị tắt. Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
+"error payment inactive after restore" = "Khoản thanh toán trước đó của bạn đã được khôi phục, nhưng đăng ký đã hết hạn. Nếu bạn cho rằng đây là sự nhầm lẫn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error payment failed" = "Thanh toán không có sẵn tại thời điểm này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error payment failed alternative" = "Không thể hoàn tất thanh toán của bạn. Vui lòng đảm bảo dữ liệu của bạn là chính xác và thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error payment not available" = "Thanh toán không khả dụng cho thiết bị này. Apple Pay chưa được kích hoạt hoặc chúng tôi chưa xử lý được các giao dịch mua ở quốc gia của bạn.";
+"error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
+"error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
+"error location failed fetching" = "Không thể tìm nạp vị trí.";
+"error unknown" = "Đã xảy ra sự cố không xác định. Vui lòng thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error blocka dns in filtering mode" = "Blokada DNS hiện chỉ được hỗ trợ ở chế độ Plus. Vui lòng chọn một DNS khác và thử lại.";
 
 "universal action continue" = "Tiếp tục";
 "universal action cancel" = "Hủy";
+"universal action close" = "Đóng";
+"universal action done" = "Đã xong";
+"universal action try again" = "Thử lại";
+"universal action learn more" = "Tìm hiểu thêm";
 "universal action help" = "Trợ giúp";
+"universal action show log" = "Nhật ký";
 "universal action share log" = "Chia sẻ nhật ký hệ thống";
+"universal action copy" = "Sao chép";
 "universal action save" = "Lưu";
+"universal action contact us" = "Liên hệ với chúng tôi";
+"universal action support" = "Hỗ trợ";
+"universal action upgrade" = "Nâng cấp lên BLOKADA+";
+"universal action upgrade short" = "Nâng cấp";
 "universal action yes" = "Có";
 "universal action no" = "Không";
 "universal action donate" = "Đóng góp";
+"universal action community" = "Cộng đồng";
 "universal action open in browser" = "Mở trong trình duyệt";
+"universal action more" = "Xem thêm";
+"universal action download" = "Tải xuống";
 "universal action news" = "Tin tức";
+"universal action delete" = "Xóa";
+"universal action hide" = "Ẩn";
+"universal action select" = "Chọn";
+"universal action selected" = "Đã chọn";
+// A verb "to search in the list"
+"universal action search" = "Tìm kiếm";
+// A verb "to filter the list"
+"universal action filter" = "Bộ lọc";
+// A verb "to clear the list"
+"universal action clear" = "Xóa";
+// A verb "to revoke permissions"
+"universal action revoke" = "Thu hồi";
 
 "universal label help" = "Trợ giúp";
+"universal label welcome" = "Chào mừng!";
+// Common label when some feature has no setting
+"universal label none" = "Không có";
+"universal status processing" = "Đang tiến hành... Vui lòng chờ.";
+"universal status copied to clipboard" = "Đã sao chép vào bộ nhớ tạm";
+"universal status restart required" = "Vui lòng khởi động lại ứng dụng để các thay đổi có hiệu lực.";
+"universal status redirect" = "Tiếp tục với ứng dụng Blokada";
+"universal status confirm" = "Bạn có chắc muốn tiếp tục?";
+
+"alert error header" = "Ooops!";
+"alert vpn expired header" = "BLOKADA+ đã hết hạn";
+"alert download link body" = "Vì lý do bảo mật, để tải xuống tệp, chúng tôi cần mở trang web này trong trình duyệt của bạn. Sau đó, vui lòng nhấn vào liên kết tải xuống một lần nữa.";
+
+"notification vpn expired header" = "Đăng ký BLOKADA+ đã hết hạn";
+"notification vpn expired subtitle" = "VPN đã bị tắt";
+"notification vpn expired body" = "Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
+"notification desc settings" = "Vuốt thông báo sang trái hoặc phải để cài đặt.";
+
+"notification update header" = "Một bản cập nhật đã có sẵn";
+"alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
+"update label updated" = "Đã cập nhật!";
+"update desc updated" = "Bạn hiện đang sử dụng phiên bản mới nhất của Blokada! Hãy nhớ rằng, ủng hộ hoặc đăng ký Blokada Plus cho phép chúng tôi tiếp tục cải thiện ứng dụng.";
+"update downloading description" = "Bản cập nhật hiện đang được tải xuống và bạn sẽ sớm thấy lời nhắc cài đặt.";
+
+"account active forever" = "Mãi mãi";
+"account active forever full" = "Kích hoạt mãi mãi";
+
+"main ask for permissions header" = "Chỉ một bước nữa";
+"main ask for permissions description" = "Blokada đang sử dụng Cấu hình VPN để chặn quảng cáo. Bạn sẽ được yêu cầu cho phép nó trong bước tiếp theo.";
+
+"main share message" = "Blokada cho iOS đã giúp tôi chặn %@ quảng cáo và trình theo dõi!";
+
+"main rate us header" = "Đánh giá chúng tôi!";
+"main rate us description" = "Làm thế nào mà bạn thích Blokada cho đến nay?";
+"main rate us on app store" = "Bạn có thể giúp chúng tôi bằng cách xếp hạng Blokada trên App Store không?";
+"main rate us action sure" = "Chắc chắn rồi!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Trang chủ";
+// Make sure each tab name has a similar length
+"main tab activity" = "Hoạt động";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Nâng cao";
+// Make sure each tab name has a similar length
+"main tab settings" = "Cài đặt";
+
+"main label use side menu" = "Sử dụng menu bên cạnh để điều hướng";
+
+"home ads counter footnote" = "quảng cáo và trình theo dõi bị chặn kể từ khi cài đặt";
+"home power off menu header" = "Bạn muốn làm gì?";
+"home power action turn on" = "Bật";
+"home power action turn off" = "Tắt";
+"home power action pause" = "Tạm dừng trong 5 phút";
+
+"home status paused" = "Đã tạm dừng";
 "home status active" = "Bật";
+"home status deactivated" = "Đã hủy kích hoạt";
+"home action tap to activate" = "nhấn để kích hoạt";
+"home status detail paused" = "đã tạm dừng cho đến khi bộ hẹn giờ kết thúc";
+"home status detail active" = "chặn *quảng cáo* và *trình theo dõi*";
+"home status detail active with counter" = "đã chặn *%@* quảng cáo và trình theo dõi";
+"home status detail active slim" = "Blokada *Slim* đang hoạt động";
+"home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
+"home status detail progress" = "vui lòng chờ...";
+
+"home plus button deactivated" = "BLOKADA+ đã ngừng hoạt động";
+"home plus button select location" = "Chọn vị trí";
+"home plus button location" = "Vị trí: *%@*";
+
+"home level low" = "Bảo vệ: Thấp";
+"home level medium" = "Bảo vệ: Vừa";
+"home level high" = "Bảo vệ: Cao";
+
+
+"pack section header" = "Tính năng nâng cao";
+"pack section header details" = "Chi tiết tính năng";
+"pack action install" = "NHẬN";
+"pack action update" = "CẬP NHẬT";
+"pack action uninstall" = "LOẠI BỎ";
+"pack author" = "Tác giả";
+"pack configurations header" = "Cấu hình";
+"pack information header" = "Xem thêm";
+"pack tags header" = "Thẻ";
+"pack tags none" = "Không có";
+"pack category highlights" = "Nổi bật";
 "pack category active" = "Bật";
+"pack category all" = "Tất cả";
+
+"advanced section header packs" = "Danh sách chặn";
+"advanced section slugline packs" = "Kích hoạt để chặn hạn chế hơn";
+"advanced section slugline apps" = "Chọn các ứng dụng không bao giờ bị chặn";
+"advanced section slugline encryption" = "Điều chỉnh mức mã hóa và DNS của bạn";
+"advanced action slim migrate to full" = "Bạn đang sử dụng Blokada Slim. Tìm hiểu thêm";
+
+"location choice header" = "Chọn một vị trí";
+
+"activity section header" = "Hoạt động";
+"activity section header details" = "Chi tiết hoạt động";
+"activity request blocked" = "Yêu cầu này đã bị chặn.";
+"activity request allowed" = "Yêu cầu này đã được cho phép.";
+"activity request allowed whitelisted" = "Yêu cầu này đã được cho phép, vì nó nằm trong danh sách Được phép của bạn";
+"activity request blocked blacklisted" = "Yêu cầu này đã bị chặn vì nó nằm trong danh sách Bị chặn của bạn";
+"activity actions header" = "Hành động";
+"activity information header" = "Thông tin";
+"activity action add to whitelist" = "Thêm vào Được phép";
+"activity action remove from whitelist" = "Loại bỏ khỏi Được phép";
+"activity action added to whitelist" = "Đã thêm vào Được phép";
+"activity action add to blacklist" = "Thêm vào Bị chặn";
+"activity action remove from blacklist" = "Loại bỏ khỏi Bị chặn";
+"activity action added to blacklist" = "Đã thêm vào Bị chặn";
+"activity action copy to clipboard" = "Sao chép tên vào bộ nhớ tạm";
+"activity domain name" = "Tên đầy đủ";
+"activity time of occurrence" = "Thời gian";
+"activity number of occurrences" = "Số lần xuất hiện";
+// As in sentence, "this item has been modified"
+"activity state modified" = "đã sửa đổi";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "bị chặn";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "được phép";
+"activity happened one time" = "1 lần";
+"activity happened many times" = "%@ lần";
+"activity category recent" = "Gần đây";
+"activity category top" = "Trên cùng";
+"activity category top blocked" = "Bị chặn trên cùng";
+"activity category top allowed" = "Được phép trên cùng";
+"activity filter header" = "Bạn muốn xem mục nào?";
+"activity filter show all" = "Tất cả các mục";
+"activity filter show blocked" = "Chỉ bị chặn";
+"activity filter show allowed" = "Chỉ được phép";
+"activity empty text" = "Hãy thử sử dụng thiết bị của bạn và quay lại đây sau để xem nơi thiết bị của bạn kết nối với nó.";
+"activity device filter show all" = "Tất cả thiết bị";
+
+"userdenied section header" = "Danh sách chặn của tôi";
+"userdenied section slugline" = "Quản lý việc chặn các trang web cụ thể";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Được phép";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bị chặn";
+
+"networks section header" = "Mạng";
+"networks section label" = "Điều chỉnh cài đặt cho WiFi và mạng di động";
+"networks label all networks" = "Tất cả các mạng";
+"networks action network specific" = "Nhấn vào đây để sửa đổi cài đặt mặc định. Để làm cho ứng dụng hoạt động khác nhau trên một số mạng, hãy nhấn vào bên dưới.";
+"networks label configuration active" = "Các cài đặt này hiện đang hoạt động";
+"networks label configuration enabled" = "Không được kết nối với mạng này";
+"networks label configuration inactive" = "Nhấn để sửa đổi cài đặt cho mạng này";
+"networks label details default network" = "Các cài đặt bên dưới được áp dụng theo mặc định cho tất cả các mạng. Bạn có thể ghi đè chúng cho các mạng đã chọn (trong màn hình trước đó).";
+"networks action encrypt dns" = "Mã hóa DNS";
+"networks action use dns" = "Sử dụng DNS: %@";
+"networks action use network dns" = "Mạng DNS ưu tiên";
+"networks action force libre mode" = "Chế độ bắt buộc Libre";
+"networks label specific network" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng này.";
+"networks label specific network type" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng loại này.";
+"networks label any wifi" = "Bất kỳ mạng WiFi nào";
+"networks label any mobile" = "Bất kỳ mạng di động nào";
+"networks permission request" = "Để có nhiều quyền kiểm soát hơn, hãy nhấn vào đây và để ứng dụng nhận dạng tất cả các mạng.";
+"networks permission request granted" = "Bạn có thể thấy thông báo khi Blokada đọc tên mạng của bạn trong nền.";
+"networks section choose dns" = "Chọn DNS";
+"networks summary encrypt dns" = "Blokada sẽ mã hóa DNS nếu có thể. Điều này cải thiện tính bảo mật của bạn và ngăn chặn các tác nhân độc hại theo dõi những trang web và ứng dụng bạn sử dụng.";
+"networks summary use dns" = "Blokada sẽ sử dụng %@ làm DNS của thiết bị của bạn. Chọn một trong những cái cho phép mã hóa (có biểu tượng khóa) và gần bạn, sẽ giúp bảo vệ dữ liệu của bạn và làm cho kết nối của bạn nhanh chóng hơn.";
+"networks summary network dns" = "Blokada sẽ sử dụng DNS của mạng nếu có sẵn hoặc chuyển sang %@ nếu cần. Ngoài ra, cài đặt Mã hóa DNS sẽ bị bỏ qua bất cứ khi nào DNS mạng được sử dụng. Sử dụng DNS của mạng giúp khắc phục sự cố kết nối trên các mạng rắc rối, nhưng khiến bạn không được bảo vệ.";
+"networks summary network dns and plus mode" = "Blokada sẽ tạm thời tắt Chế độ Plus bất cứ khi nào DNS mạng được sử dụng. Điều này là do không thể truy cập DNS mạng trong VPN. Chế độ Plus sẽ tự động được khôi phục khi thiết bị của bạn chuyển sang mạng khác.";
+"networks summary blocka plus mode" = "Blokada sẽ sử dụng Blokada DNS ở chế độ Plus, để đảm bảo tốc độ và mã hóa cao. Bạn có thể thay đổi cài đặt này ở cuối màn hình Chọn DNS.";
+"networks summary force libre mode" = "Blokada sẽ luôn sử dụng chế độ Libre trên mạng này và bỏ qua vị trí Blokada Plus của bạn. Điều này hữu ích cho các mạng mà bạn không muốn có thêm biện pháp bảo vệ.";
+"networks permission dialog" = "Blokada có thể nhận ra các mạng bạn kết nối và cho phép bạn định cấu hình các cài đặt riêng biệt cho chúng. Tuy nhiên, ứng dụng này sẽ thu thập dữ liệu vị trí dưới dạng tên mạng để kích hoạt tính năng này, ngay cả khi ứng dụng đã đóng hoặc không sử dụng. Đôi khi bạn có thể thấy thông báo của hệ thống về quyền truy cập vị trí - Blokada sẽ chỉ đọc tên mạng.";
+
+
+"account section header settings" = "Cài đặt";
+"account status text" = "Tài khoản BLOKADA %@ của bạn được kích hoạt cho đến %@.";
+"account status text libre" = "Tài khoản BLOKADA Libre của bạn sẽ hoạt động mãi mãi.";
+
+"account section header primary" = "Chính";
+"account section header other" = "Khác";
+"account action my account" = "Tài khoản của tôi";
+"account action encryption" = "Mã hóa & DNS";
+"account action devices" = "Thiết bị";
+"account action new device" = "Thiết bị mới";
+"account action inbox" = "Hộp thư đến";
+"account action logout" = "Khôi phục thanh toán";
+"account action logout only" = "Đăng xuất";
+"account action create" = "Khởi tạo tài khoản mới";
 "account action about" = "Giới thiệu";
+"account action tap to show" = "Nhấn để hiển thị";
+"account action restoring" = "Đang phục hồi tài khoản: %@";
+"account label enter to continue" = "Nhập ID tài khoản của bạn để tiếp tục";
+"account restore description" = "Đừng lo lắng, nếu bạn bị mất hoặc quên ID tài khoản của mình, chúng tôi có thể khôi phục nó. Vui lòng liên hệ với bộ phận hỗ trợ của chúng tôi và cung cấp cho chúng tôi thông tin cho phép chúng tôi xác định giao dịch mua của bạn (ví dụ: 4 chữ số cuối của thẻ tín dụng hoặc email PayPal).";
+"account create description" = "Đây là ID tài khoản của bạn. Viết nó ra và giữ nó bí mật. Đó là cách duy nhất để truy cập đăng ký của bạn.";
+"account create confirm" = "Tôi đã ghi lại rồi";
+
+"account section header my subscription" = "Đăng ký của tôi";
+"account section header general" = "Chung";
+"account section header subscription" = "Đăng ký";
+"account label id" = "ID tài khoản";
+"account label type" = "Loại tài khoản";
+"account label active until" = "Hoạt động đến";
+"account action manage subscription" = "Quản lý đăng ký";
+"account action why upgrade" = "Vì sao tôi nên nâng cấp?";
+"account subscription header renew" = "Gia hạn tự động";
+"account subscription header payment method" = "Phương thức thanh toán";
+"account subscription renew unsupported" = "Phương thức thanh toán của bạn không cho phép kiểm soát cài đặt tự động gia hạn tại đây.";
+
+"account unlock to show" = "Mở khóa để hiển thị ID tài khoản của bạn";
+
+"account header logout" = "Khôi phục thanh toán";
+"account logout description" = "Vui lòng nhập ID tài khoản khác hoặc quay lại để tiếp tục sử dụng tài khoản hiện có của bạn (không thể sử dụng ứng dụng này nếu không có).";
+"account id status unchanged" = "(không thay đổi)";
+"account action how to restore" = "Làm cách nào để khôi phục tài khoản cũ của tôi?";
+
+"account subscription days remaining" = "Ngày còn lại: %@";
+"account devices remaining" = "Thiết bị còn lại: %@";
+"account devices not available" = "Không khả dụng";
+"account devices out of" = "%@ của %@";
+
+"account encrypt level low" = "Thấp";
+"account encrypt level medium" = "Vừa";
+"account encrypt level high" = "Cao";
+"account encrypt label dns only" = "Đang mã hóa DNS";
+"account encrypt desc dns only" = "Hệ thống tên miền là cách thiết bị của bạn biết nơi để tìm các trang web bạn muốn truy cập. Thật không may, hầu hết Internet vẫn sử dụng DNS không được mã hóa, điều này khiến lịch sử duyệt web của bạn có nguy cơ bị theo dõi. Khi được bật, Blokada buộc thiết bị của bạn chỉ kết nối với các máy chủ DNS được mã hóa (còn được gọi là DNS qua HTTPS).";
+"account encrypt label everything" = "Kết nối qua VPN";
+"account encrypt desc everything" = "Thiết bị của bạn đang kết nối thông qua các máy chủ VPN an toàn của chúng tôi và tất cả thông tin liên lạc đến từ hoặc tới, thiết bị của bạn đang được mã hóa bằng các thuật toán mạnh. Điều này bảo vệ thông tin cá nhân của bạn, chẳng hạn như chi tiết ngân hàng hoặc ảnh cá nhân, khỏi bị đánh cắp ở những nơi không an toàn, chẳng hạn như WiFi ở quán cà phê.";
+"account encrypt action turn on" = "Bật BLOKADA";
+"account encrypt header level" = "Mức độ mã hóa";
+"account encrypt label level" = "Mức độ";
+"account encrypt label level low" = "Thấp: Không có mã hóa";
+"account encrypt label level medium" = "Vừa: Có mã hóa DNS";
+"account encrypt label level high" = "Cao: Mã hóa mọi thứ";
+"account encrypt header explanation" = "DNS là cách thiết bị của bạn biết nơi để tìm các trang web. BLOKADA chỉ hỗ trợ các máy chủ được mã hóa.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS là gì?";
+"account encrypt section header" = "Mã hóa";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Dùng Blokada DNS trong Chế độ Plus";
+
+"account lease label devices list" = "Các thiết bị này đã được kết nối với tài khoản của bạn.";
+"account lease label devices" = "Thiết bị";
+"account lease label this device" = " (thiết bị này)";
+"account lease label name" = "Tên của thiết bị";
+"account lease label location" = "Vị trí";
+"account lease label generate" = "Việc chọn vị trí ở đây sẽ tạo tệp cấu hình mà bạn có thể sử dụng trong bất kỳ ứng dụng VPN nào hỗ trợ Wireguard. Điều này rất hữu ích cho các nền tảng mà chúng tôi chưa có ứng dụng của mình. Nếu không, chúng tôi khuyên bạn nên sử dụng các ứng dụng gốc của chúng tôi thay thế.";
+"account lease action generate" = "Khởi tạo Cấu hình";
+"account lease action download" = "Tải xuống Cấu hình";
+"account lease generated" = "Đã thêm thiết bị! Tải xuống cấu hình để sử dụng trên bất kỳ thiết bị nào được Wireguard hỗ trợ.";
+"account lease wireguard desc" = "Blokada sử dụng Wireguard. Các cấu hình có thể được tải xuống khi tạo thiết bị mới.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Chọn một DNS";
+"account lease label public key" = "Khóa công khai";
+
+"account support action how help" = "Chúng tôi có thể giúp gì cho bạn?";
+"account support action kb" = "Cơ sở Kiến ​​thức Mở";
+
+"payment header activated" = "Đã kích hoạt!";
+"payment activated description" = "Blokada bây giờ sẽ chuyển sang chế độ Plus và kết nối thông qua một trong những vị trí an toàn của chúng tôi. Nếu bạn không chắc nên chọn cái nào, bạn nên chọn cái gần nhất với bạn.";
+"payment action choose location" = "Chọn một vị trí";
+"payment action see locations" = "Vị trí của chúng tôi";
+
+"payment title" = "Nâng cấp lên dịch vụ VPN của chúng tôi để luôn kiểm soát *quyền riêng tư của bạn*.";
+"payment feature title change location" = "Thay đổi vị trí";
+"payment feature desc change location" = "Ẩn địa chỉ IP của bạn và giả vờ bạn đang ở một quốc gia khác. Điều này sẽ che giấu bạn khỏi các bên thứ ba và giúp bảo vệ danh tính của bạn.";
+"payment feature title encrypt data" = "Mã hóa dữ liệu";
+"payment feature desc encrypt data" = "Dữ liệu được gửi qua đường hầm VPN của chúng tôi được mã hóa bằng các thuật toán mạnh để bảo vệ khỏi sự đánh chặn của các bên trái phép.";
+"payment feature title faster connection" = "Kết nối nhanh hơn";
+"payment feature desc faster connection" = "Tốc độ tuyệt vời lên đến 100Mbps với các máy chủ ở nhiều nơi khác nhau trên Thế giới.";
+"payment feature title devices" = "Lên đến 5 thiết bị";
+"payment feature desc devices" = "Sử dụng cùng một tài khoản để chia sẻ đăng ký của bạn với tối đa 5 thiết bị: iOS, Android hoặc PC.";
+"payment feature title no ads" = "Không quảng cáo";
+"payment feature desc no ads" = "Tiếp tục sử dụng công nghệ chặn quảng cáo Blokada nổi tiếng thế giới đồng thời cải thiện mức độ bảo vệ và giữ dữ liệu của bạn ở chế độ riêng tư.";
+"payment feature title support" = "Hỗ trợ tuyệt vời";
+"payment feature desc support" = "Nhận được phản hồi nhanh chóng cho bất kỳ câu hỏi nào nhờ bộ phận Hỗ trợ khách hàng và cộng đồng nguồn mở sôi động của chúng tôi.";
+"payment action see all features" = "Xem tất cả các tính năng";
+"payment action restore" = "Khôi phục thanh toán";
+"payment action terms and privacy" = "Điều khoản & Quyền riêng tư";
+"payment action terms" = "Điều khoản dịch vụ";
+"payment action policy" = "Chính sách quyền riêng tư";
+"payment alert error header" = "Một tin nhắn từ App Store";
+// As in saving money: You are saving $5
+"payment save text" = "Bạn đang tiết kiệm %@";
+"payment conversion note" = "Chúng tôi chấp nhận Euro và giá hiển thị là giá ước tính. Có thể hoàn lại tiền nếu ngân hàng của bạn tính phí quá cao.";
+
+"payment subscription 1 month" = "1 Tháng";
+"payment subscription many months" = "%@ Tháng";
+"payment subscription per month" = "%@ mỗi tháng";
+"payment subscription offer" = "Tiết kiệm %@";
+
+"payment success label" = "Cảm ơn!";
+"payment success desc" = "Tài khoản của bạn được kích hoạt! Giờ đây, bạn có thể sử dụng tất cả các tính năng của Blokada Plus trên tất cả các thiết bị của mình.";
+
+"payment redirect label" = "Đang chuyển hướng...";
+"payment redirect desc" = "Vui lòng chờ. Điều này sẽ chỉ mất một chút thời gian.";
+
+"payment ongoing title" = "Thanh toán của bạn hiện đang được xử lý.";
+"payment ongoing desc" = "Việc thanh toán bằng thẻ tín dụng sẽ không mất quá vài phút. Thanh toán tiền điện tử thường mất đến một giờ, tùy thuộc vào loại phí giao dịch bạn đã chọn. Trong trường hợp của PayPal, có thể mất đến 24 giờ. Bạn sẽ được chuyển hướng khi tài khoản của bạn đã sẵn sàng. Bạn cũng có thể đóng màn hình này và quay lại sau. Nếu bạn cảm thấy giao dịch của mình mất quá nhiều thời gian, vui lòng liên hệ với chúng tôi.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
+"payment change method" = "Đổi";
+"payment action pay" = "Thanh toán %@";
+"payment action pay period" = "Thanh toán %@ mỗi kỳ";
+"payment label email" = "Email";
+"payment crypto desc" = "Để thanh toán bằng ví tiền điện tử của bạn, hãy nhấn vào nút bên dưới.";
+"payment label choose package" = "Chọn gói của bạn";
+"payment label choose payment method" = "Chọn phương thức thanh toán của bạn";
+"payment label cheapest" = "Rẻ nhất";
+"payment label most popular" = "Phổ biến nhất";
+"payment label pay with card" = "Thanh toán bằng thẻ";
+"payment label pay with paypal" = "Thanh toán với PayPal";
+"payment label pay with crypto" = "Thanh toán bằng crypto";
+"payment package one month" = "1 Tháng";
+"payment package six months" = "6 Tháng";
+"payment package twelve months" = "12 Tháng";
+"payment label discount" = "Tiết kiệm %@ (%@ / tháng)";
+"payment label country" = "Quốc gia";
+
+"payment euro desc" = "Chúng tôi có trụ sở tại Châu Âu, vì vậy chúng tôi chấp nhận Euro: €10 tương đương với $12.";
+"payment donate disclaimer" = "Thao tác này sẽ không kích hoạt tài khoản Blokada Plus của bạn. Nếu bạn muốn sử dụng dịch vụ VPN của chúng tôi, vui lòng đăng ký thay vì ủng hộ.";
+
+"apps section header" = "Ứng dụng";
+"apps label installed" = "Đã cài đặt";
+"apps label system" = "Hệ thống";
+"apps status bypassed" = "(đã bỏ qua)";
+"apps filter header" = "Bạn muốn xem ứng dụng nào?";
+"apps filter action show all" = "Tất cả ứng dụng";
+"apps filter action show bypassed" = "Chỉ đã bỏ qua";
+"apps filter action show not bypassed" = "Chỉ chưa được bỏ qua";
+"apps filter action toggle system" = "Chuyển đổi tất cả các ứng dụng hệ thống";
+
+"app settings section header" = "Thiết bị này";
+"app settings language label" = "Ngôn ngữ";
+"app settings theme label" = "Chủ đề ứng dụng";
+"app settings theme light" = "Sáng";
+"app settings theme dark" = "Tối";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Chuyển hướng liên kết đến";
+"app settings browser internal" = "Trình duyệt nội bộ";
+"app settings browser external" = "Trình duyệt bên ngoài (nếu có)";
+"app settings ipv6 label" = "Cho phép IPv6";
+"app settings section system" = "Hệ thống";
+"app settings action app info" = "Mở Thông tin Ứng dụng";
+"app settings action vpn profile" = "Mở Hồ sơ VPN";
+"app settings action notifications" = "Mở cài đặt thông báo";
+"app settings section details" = "Chi tiết";
+"app settings status default" = "Mặc định hệ thống";
 "app settings start on boot" = "Bắt đầu khi khởi động";
+"app settings use dns over https" = "Dùng DNS qua HTTPS";
+"app settings backup" = "Dùng sao lưu đám mây";
+"app settings section advanced" = "Nâng cao";
 "app settings section use foreground" = "Giữ kích hoạt";
+
+"intro header" = "Blokada đang Hoạt động!";
+"intro text" = "Vòng màu xanh có nghĩa là Blokada đang hoạt động.\n\nHãy nhớ rằng, một số quảng cáo, như YouTube, không thể bị chặn. Tuy nhiên, bạn sẽ nhận thấy sự khác biệt trong nhiều ứng dụng khác.\n\nChúng tôi khuyên bạn nên kích hoạt Luôn bật VPN / Kết nối theo yêu cầu trong cài đặt hệ thống của mình.";
+
+"location region worldwide" = "Mọi nơi";
+"location region america" = "Châu Mỹ";
+"location region europe" = "Châu Âu";
+"location region asia" = "Châu Á";
+"location region australia" = "Úc";
+
+"homepage header what is blokada" = "Blokada là gì?";
+"homepage desc what is blokada" = "Tìm hiểu thông tin cơ bản về ứng dụng.";
+"homepage desc download" = "Tải xuống Blokada cho nền tảng của bạn.";
+"homepage desc community" = "Tham gia cộng đồng tuyệt vời của chúng tôi.";
+"homepage header support" = "Hỗ trợ chúng tôi";
+"homepage desc support" = "Đóng góp để giúp chúng tôi tiếp tục dự án.";
+"homepage action faq" = "FAQ";
+"homepage action vpn" = "VPN";
+"homepage action opinions" = "Đánh giá";
+"homepage action authors" = "Tác giả";
+"homepage action source" = "Nguồn";
+"homepage action forums" = "Diễn đàn";
+"homepage action dashboard" = "Bảng điều khiển";
+"homepage about footer" = "Hãy giữ liên lạc!";
+"homepage hero title" = "Ứng dụng quyền riêng tư";
+"homepage hero subtitle" = "miễn phí và mã nguồn mở";
+"homepage hero desc" = "Blokada là ứng dụng bảo mật và chặn quảng cáo phổ biến dành cho Android và iOS. Nó đang được hỗ trợ và phát triển tích cực bởi cộng đồng nguồn mở tuyệt vời.";
+"homepage about title" = "Blokada 5, trình chặn quảng cáo";
+"homepage about desc" = "Nếu bạn muốn chặn hiệu quả quảng cáo, trình theo dõi, phần mềm độc hại, tiết kiệm gói dữ liệu, tăng tốc thiết bị và bảo vệ quyền riêng tư của bạn chỉ với một ứng dụng, thì Blokada là dành cho bạn. Nó là miễn phí, an toàn và mã nguồn mở.";
+"homepage about point one" = "Chặn quảng cáo & trình theo dõi";
+"homepage about point two" = "Hoạt động cho tất cả các ứng dụng và tất cả các trình duyệt";
+"homepage about point three" = "Không cần root hoặc jailbreak";
+"homepage about point four" = "Thiết kế an toàn (không phá vỡ mã hóa)";
+"homepage about point five" = "Đáng tin cậy & miễn phí mãi mãi";
+
+"homepage about action faq" = "Xem Câu hỏi thường gặp";
+"homepage about action plus" = "Tìm hiểu thêm về Blokada Plus";
+
+"homepage vpn title" = "Blokada 5, VPN";
+"homepage vpn desc" = "Để được bảo vệ quyền riêng tư tối ưu, hãy nâng cấp lên Blokada Plus và kết nối thông qua VPN của chúng tôi. Chúng tôi sử dụng WireGuard®, giao thức VPN tiên tiến nhất, để mã hóa hoạt động mạng và ẩn địa chỉ IP của bạn.";
+"homepage vpn point one" = "Không hạn chế băng thông";
+"homepage vpn point two" = "Mã hóa nhanh & hiện đại";
+"homepage vpn point three" = "Không có nhật ký hoạt động mạng của bạn";
+"homepage vpn point four" = "Kết nối tối đa 5 thiết bị";
+"homepage vpn credit" = "'WireGuard' và logo 'Wireguard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
+
+"homepage faq header" = "Các câu hỏi thường gặp";
+"homepage faq action more" = "Xem thêm Câu hỏi thường gặp";
+"homepage faq title 1" = "Blokada lưu giữ thông tin gì?";
+"homepage faq desc 1" = "Blokada không theo dõi hoặc chia sẻ bất kỳ hoạt động mạng nào của bạn. Nếu bạn sử dụng Blokada Plus, vì lý do kỹ thuật, chúng tôi cần thu thập dữ liệu tối thiểu nhất cần thiết để duy trì hoạt động của dịch vụ. Vui lòng tham khảo Chính sách Quyền riêng tư của chúng tôi có sẵn trong menu trên cùng để biết chi tiết.";
+"homepage faq title 2" = "Quyền riêng tư của tôi được bảo vệ như thế nào?";
+"homepage faq desc 2" = "Blokada ngăn các ứng dụng và trình duyệt được cài đặt trên thiết bị của bạn gửi dữ liệu cá nhân của bạn (được gọi là theo dõi dấu vân tay) lên Internet. Nó cũng mã hóa một số hoạt động mạng của bạn (truy vấn DNS). Nếu bạn cần được bảo vệ nhiều hơn, Blokada Plus sẽ giúp thiết bị của bạn kết nối thông qua VPN của chúng tôi và sử dụng giao thức WireGuard® để mã hóa toàn bộ lưu lượng mạng của bạn.";
+"homepage faq title 3" = "Blokada Plus là gì?";
+"homepage faq desc 3" = "Blokada Plus là dịch vụ VPN (Mạng riêng ảo) an toàn và hiện đại của chúng tôi. Nó sử dụng WireGuard® - một giao thức nhanh với lớp mã hóa tốt nhất và sử dụng pin thấp. Blokada Plus mã hóa tất cả hoạt động mạng của bạn trong thời gian thực, mang đến cho bạn mức bảo vệ cao nhất hiện có. Bạn cũng nhận được các tính năng VPN phổ biến - ẩn địa chỉ IP, thay đổi vị trí của bạn và bỏ chặn nội dung bị giới hạn địa lý.";
+"homepage faq title 4" = "Tôi có cần nâng cấp lên Blokada Plus không?";
+"homepage faq desc 4" = "Không, nâng cấp là tùy chọn. Bạn có thể sử dụng phiên bản miễn phí của Blokada mãi mãi. Đây là bản nâng cấp được khuyến nghị nếu bạn muốn tăng cường khả năng bảo vệ quyền riêng tư của mình hơn nữa hoặc cần bất kỳ tính năng phổ biến nào mà VPN cung cấp.";
+"homepage faq title 5" = "Chính sách hoàn tiền của Blokada Plus là gì?";
+"homepage faq desc 5" = "Bạn có thể nhận lại tiền của mình trong vòng 7 ngày kể từ ngày mua đăng ký. Liên hệ với chúng tôi thông qua bất kỳ ứng dụng nào của chúng tôi và chỉ cần đề cập rằng bạn muốn được hoàn lại tiền.";
+"homepage faq title 6" = "Blokada tọa lạc ở đâu?";
+"homepage faq desc 6" = "Chúng tôi có trụ sở tại Thụy Điển, nơi quyền riêng tư được xử lý rất nghiêm túc. Máy chủ của chúng tôi có sẵn ở nhiều nơi trên thế giới.";
+
+"homepage download header" = "Tải xuống Blokada";
+"homepage download subheader" = "Blokada có sẵn cho một số nền tảng, hãy chọn cái của bạn.";
+"homepage download option android five" = "Blokada 5 cho Android";
+"homepage download option android slim" = "Blokada 5 Slim cho Android";
+"homepage download option android four" = "Blokada 4 cho Android";
+"homepage download option ios" = "Blokada 5 cho iOS";
+"homepage download option other" = "Blokada cho các nền tảng khác";
+"homepage download desc other" = "Hiện tại, chúng tôi không cung cấp Blokada cho các nền tảng khác. Tuy nhiên, nếu bạn là người dùng Blokada Plus, bạn có thể sử dụng VPN của chúng tôi trên Windows, Linux, Mac và các nền tảng khác có Wireguard.";
+"homepage download desc ios" = "Blokada 5 chỉ có sẵn trên App Store.";
+"homepage download action ios" = "Mở App Store";
+"homepage download desc android five" = "Đây là phiên bản mới, được đề xuất của chúng tôi <b>dành cho điện thoại thông minh và máy tính bảng chạy Android 7 trở lên</b>. Nó đơn giản hơn và nhanh hơn so với Blokada 4.";
+"homepage download action android five" = "Blokada 5 .apk";
+"homepage download action android five beta" = "Beta .apk";
+"homepage download desc android slim" = "Blockade Slim là một <b>phiên bản nhẹ của ứng dụng</b>, và nó chỉ chứa các tính năng được chính sách Google Play cho phép.";
+"homepage download action android slim" = "Mở Cửa hàng Play";
+"homepage download desc android four" = "Chúng tôi vẫn duy trì phiên bản cũ hơn của Blokada. Nó có nhiều tính năng hơn, hoạt động trên các thiết bị và TV cũ hơn.";
+"homepage download action android four" = "Blokada 4 .apk";
+"homepage download action android four fdroid" = "Mở F-Droid";
+
+"homepage community header" = "Cộng đồng";
+"homepage community desc" = "Blokada không chỉ là ứng dụng bảo mật. Nó cũng là cộng đồng của những người quan tâm đến quyền riêng tư và phúc lợi kỹ thuật số của họ. Bạn sẽ tìm thấy chúng tôi trên diễn đàn của chúng tôi, nơi bạn có thể hỏi bất kỳ câu hỏi nào bạn có thể có. Chúng tôi cũng có mặt trên các phương tiện truyền thông xã hội và các cuộc trò chuyện khác.";
+"homepage community cta subheader" = "Gia nhập cùng chúng tôi và nói xin chào!";
+"homepage community cta desc" = "Tất cả công việc của chúng tôi dựa trên phản hồi của người dùng. Hãy cho chúng tôi biết suy nghĩ của bạn, chúng tôi nên cải thiện điều gì hoặc chỉ ra ngoài đi chơi cho xong.";
+"homepage community cta action" = "Đi đến diễn đàn";
+"homepage community opinions" = "Dưới đây là một số ý kiến ​​từ người dùng của chúng tôi.";
+
+"homepage support header" = "Hỗ trợ dự án";
+"homepage support desc" = "Nếu bạn thích những gì chúng tôi làm, hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục phát triển các tính năng và cải tiến mới. Bằng cách này, Blokada có thể duy trì mã nguồn mở và miễn phí mãi mãi.";
+"homepage support cta header" = "Blokada phụ thuộc vào bạn";
+"homepage support cta desc" = "Blokada là một dự án mã nguồn mở, có nghĩa là bạn có thể chắc chắn rằng nó sẽ luôn miễn phí, an toàn để sử dụng và không có bất kỳ chương trình nghị sự ẩn nào. Chúng tôi tin rằng đây là cách đúng đắn duy nhất để phát triển một ứng dụng bảo mật mà bạn có thể tin tưởng.";
+"homepage support cta desc more" = "Tuy nhiên, để phát triển một ứng dụng chất lượng như Blokada đòi hỏi một lượng tài nguyên đáng kể. Dự án này tồn tại nhờ sự hỗ trợ của những người tuyệt vời như bạn!";
+"homepage support cta action" = "Ủng hộ (thẻ, Paypal)";
+"homepage support cta action alt" = "Ủng hộ (ngân hàng, crypto)";
+
+"homepage developer header" = "Bạn có phải là một nhà phát triển";
+"homepage developer subheader" = "và muốn cải thiện Blokada tốt hơn?";
+"homepage developer desc" = "Blokada là một dự án mã nguồn mở dành riêng để phát triển ứng dụng bảo mật và trình chặn quảng cáo tốt nhất cho Android và iOS. Kiểm tra Github của chúng tôi và cho chúng tôi biết, nếu bạn cần bất kỳ hỗ trợ nào để thực hiện PR đầu tiên của mình.";
+"homepage developer action" = "Đi đến repo";

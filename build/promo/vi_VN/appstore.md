@@ -1,24 +1,24 @@
-This is the official app on App Store from the Blokada open source project.
+Đây là ứng dụng chính thức trên App Store từ dự án mã nguồn mở Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada cho iOS là ứng dụng miễn phí sử dụng máy chủ DNS (Hệ thống tên miền) để cho phép bạn có trải nghiệm duyệt web không có quảng cáo để chỉ xem nội dung bạn muốn.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
-
-----
-
-Top features:
-
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
-
-The most compatible ad blocker on the market!
-
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
-
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Ngoài ra còn có một VPN được tích hợp sẵn để có thể sử dụng tùy chọn. Với Blokada Plus VPN, bạn có thể duyệt web với sự riêng tư và bảo mật Internet của mình trước các cuộc tấn công mạng và tin tặc.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Các tính năng nổi bật:
+
+- Hỗ trợ chặn quảng cáo cho mọi trình duyệt web và ứng dụng khác được cài đặt.
+- Chặn các trang web phân phối nội dung độc hại, vi rút và các trang web lừa đảo.
+- Chặn dựa trên DNS (chế độ VPN) cho tất cả các trình duyệt hiện đại.
+- VPN nhanh và đáng tin cậy bảo vệ quyền riêng tư và mã hóa dữ liệu của bạn.
+
+Trình chặn quảng cáo tương thích nhất trên thị trường!
+
+• Chặn quảng cáo • Tiết kiệm gói dữ liệu của bạn • Duyệt NHANH HƠN bằng cách tải ít dữ liệu hơn • Nâng cao tuổi thọ pin
+
+Những gì có thể bị chặn? • Chặn quảng cáo gây phiền nhiễu: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, v.v... • Chặn các trang web người lớn • Chặn các trang web cờ bạc • Chặn các trình theo dõi mạng xã hội: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Chặn các trang web độc hại: tải xuống virus, nội dung độc hại, trang web lừa đảo và ứng dụng bị thao túng • Ứng dụng Blokada Plus Adblock iOS.
+
+----
+
+Điều khoản sử dụng: https://go.blokada.org/terms Chính sách quyền riêng tư: https://go.blokada.org/privacy

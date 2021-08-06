@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">Thông báo</string>
+    <string name="notification_on_description">Khi bật, Blokada sẽ hiển thị thông báo mỗi khi có nội dung nào đó bị chặn. Xin lưu ý rằng điều này không giống như thông báo VPN mà một số thiết bị hiển thị và không thể tắt.&lt;br/&gt;Bạn có thể định cấu hình thông báo nào sẽ được hiển thị với Cài đặt bên dưới.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Bị chặn</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
+    <string name="notification_blocked_text">%s</string>
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">Không hiển thị</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
@@ -13,11 +15,26 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Giữ kích hoạt</string>
+    <string name="notification_keepalive_description">Kích hoạt công tắc này nếu bạn gặp sự cố với ứng dụng luôn hoạt động trong nền. Blokada sẽ kích hoạt thông báo vĩnh viễn để ngăn hệ thống đóng nó; bạn có thể ẩn nó bằng cách chọn Thông báo ở trên và Cài đặt ở đó.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
+    <string name="notification_keepalive_title_new">Giữ hoạt động (nhấn để ẩn)</string>
+    <string name="notification_keepalive_text_new">Android yêu cầu hiển thị thông báo để tiếp tục chạy ứng dụng, nhưng bạn có thể vô hiệu hóa nó trong cài đặt hệ thống.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d bị chặn</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
     <string name="notification_keepalive_content">Lần cuối: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">đang giám sát</string>
+    <string name="notification_keepalive_activate">Kích hoạt</string>
+    <string name="notification_keepalive_activating">Blokada đang khởi động. Điều này có thể mất một chút thời gian.</string>
+    <string name="notification_keepalive_deactivate">Hủy kích hoạt</string>
+    <string name="notification_keepalive_deactivating">Blokada đã bị vô hiệu hóa!</string>
+    <string name="notification_expired_title">Blokada Plus đã dừng hoạt động</string>
+    <string name="notification_expired_description">Tài khoản của bạn không hoạt động và Blokada Plus đã tắt. Các tính năng Blokada tiêu chuẩn hoạt động tốt mà không cần Blokada Plus VPN. Tuy nhiên, vui lòng xem xét việc kích hoạt tài khoản của bạn để được bảo vệ tốt hơn và hỗ trợ dự án.</string>
+    <string name="notification_lease_expired_title">Blokada Plus đã dừng hoạt động</string>
+    <string name="notification_lease_expired_description">Đã xảy ra sự cố với kết nối của bạn với Blokada Plus. Vui lòng thử chọn một gateway khác. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.</string>
+    <string name="notification_channel_filtered">Chặn quảng cáo</string>
+    <string name="notification_channel_announcements">Thông báo</string>
+    <string name="notification_channel_vpn">Blokada Plus</string>
+    <string name="notification_channel_other">Khác</string>
 </resources>
