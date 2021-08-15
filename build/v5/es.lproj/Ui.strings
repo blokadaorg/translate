@@ -115,6 +115,8 @@
 // Make sure each tab name has a similar length
 "main tab settings" = "Configuración";
 
+"main label use side menu" = "Usa el menú lateral para navegar";
+
 "home ads counter footnote" = "anuncios y rastreadores bloqueados desde la instalación";
 "home power off menu header" = "¿Qué te gustaría hacer?";
 "home power action turn on" = "Activar";
@@ -218,6 +220,7 @@
 "networks action encrypt dns" = "Encriptar DNS";
 "networks action use dns" = "Usar DNS: %@";
 "networks action use network dns" = "Preferir red DNS";
+"networks action force libre mode" = "Forzar modo Libre";
 "networks label specific network" = "Ajusta lo que debería suceder cuando el dispositivo se conecte a esta red.";
 "networks label specific network type" = "Ajuste lo que debería pasar cuando su dispositivo se conecte a una red de este tipo.";
 "networks label any wifi" = "Cualquier red WiFi";
@@ -230,6 +233,7 @@
 "networks summary network dns" = "Blokada utilizará el DNS de la red si está disponible, o cambiará a %@ de lo contrario. Además, la configuración de DNS cifrado se ignorará cuando se utilice DNS de red. Usar el DNS de la red ayuda a solucionar problemas de conectividad en redes problemáticas, pero te deja sin protección.";
 "networks summary network dns and plus mode" = "Blokada desactivará temporalmente el modo Plus cuando se utilice DNS de red. Esto es porque no es posible acceder a DNS de red en VPN. El modo Plus se restaurará automáticamente cuando el dispositivo cambie a otra red.";
 "networks summary blocka plus mode" = "Blokada usará Blokada DNS en modo Plus, para asegurar un alto nivel de cifrado y velocidad. Puede cambiar esta configuración en la parte inferior de la pantalla Elegir DNS.";
+"networks summary force libre mode" = "Blokada siempre utilizará el modo Libre en esta red, e ignorará la ubicación de Blokada Plus. Esto puede ser útil para redes en las que no se quiera la protección adicional.";
 "networks permission dialog" = "Blokada puede reconocer las redes a las que se conecta y le permite configurar configuraciones separadas para ellas. Sin embargo, esta aplicación recopilará datos de ubicación en forma de nombre de red, para activar esta función incluso cuando la aplicación está cerrada o no está en uso. A veces puede ver una notificación del sistema sobre el acceso a la ubicación - Blokada sólo leerá el nombre de la red.";
 
 
@@ -469,6 +473,7 @@
 "homepage faq title 5" = "¿Cuál es la política de reembolso de Blokada Plus?";
 "homepage faq desc 5" = "Puedes recuperar tu dinero dentro de los 7 días próximos a la compra de la suscripción. Póngase en contacto con nosotros a través de cualquiera de nuestras aplicaciones y simplemente mencione que desea un reembolso.";
 "homepage faq title 6" = "¿Dónde se encuentra Blokada?";
+"homepage faq desc 6" = "Nuestra sede está en Suecia, donde la privacidad es tratada con mucha seriedad. Nuestros servidores están disponibles en muchos lugares del mundo.";
 
 "homepage download header" = "Descargar Blokada";
 "homepage download subheader" = "Blokada está disponible para varias plataformas, elige la tuya.";
