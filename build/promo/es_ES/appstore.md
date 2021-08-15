@@ -2,11 +2,11 @@ Esta es la aplicación oficial en App Store del proyecto de código abierto Blok
 
 Blokada para iOS es una aplicación gratuita que utiliza servidores DNS (Sistema de Nombres de Dominio) para permitirte tener una experiencia de navegación sin anuncios para ver sólo el contenido que quieras.
 
-También hay una VPN incorporada que es opcional para usar. Con Blokada Plus VPN puede navegar por la web con privacidad y proteger su Internet contra ciberataques y hackers.
+También hay una VPN incorporada que es opcional para usar. Con Blokada Plus VPN puedes navegar por la web con privacidad y protegerte frente a ciberataques y hackers.
 
 ----
 
-Mejores características:
+Principales características:
 
 - Soporta bloqueo de anuncios para cada navegador web y otras aplicaciones instaladas.
 - Bloquea sitios que distribuyen contenido malicioso, virus y sitios web fraudulentos.
