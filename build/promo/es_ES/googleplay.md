@@ -4,7 +4,7 @@ Protege tu privacidad de forma gratuita con la aplicación oficial de Blokada.
 
 Esta es la única aplicación oficial en Play Store del proyecto de código abierto Blokada. Ten cuidado con las aplicaciones clon, pueden contener código malicioso.
 
-Blokada Slim Ad blocker es una aplicación gratuita que utiliza servidores DNS (Sistema de Nombres de Dominio) para permitirte tener una experiencia de navegación sin anuncios para ver sólo el contenido que quieras.
+Blokada Slim Ad blocker es una aplicación gratuita que utiliza servidores DNS (Sistema de Nombres de Dominio) para permitirte tener una experiencia de navegación sin anuncios para ver solo el contenido que quieres.
 
 También se ha incorporado una VPN que es de uso opcional.
 
