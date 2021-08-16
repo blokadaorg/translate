@@ -229,12 +229,12 @@
 "networks permission request granted" = "Tal vez veas una notificación cuando Blokada lea el nombre de la red en segundo plano.";
 "networks section choose dns" = "Elegir DNS";
 "networks summary encrypt dns" = "Blokada cifrará el DNS si es posible. Esto mejora tu seguridad y evita que agentes maliciosos espíen qué sitios web y aplicaciones utilizas.";
-"networks summary use dns" = "Blokada usará %@ como DNS de tu dispositivo. Eligiendo el que permite el cifrado (tiene el icono de bloqueo), y está cerca de ti, ayudará a proteger sus datos y hará que su conexión sea rápida.";
+"networks summary use dns" = "Blokada utilizará %@ como el DNS de tu dispositivo. Elegir el que permite cifrado (tiene el icono del candado), y esté cerca de ti ayudará a proteger tus datos y a que tu conexión sea rápida.";
 "networks summary network dns" = "Blokada utilizará el DNS de la red si está disponible, o cambiará a %@ en caso contrario. Además, la configuración de DNS cifrado se ignorará cuando se utilice DNS de red. Usar DNS ayuda a solucionar problemas de conectividad en redes problemáticas, pero te deja sin protección.";
 "networks summary network dns and plus mode" = "Blokada desactivará temporalmente el modo Plus cuando se utilice DNS de red. Esto es porque no es posible acceder a DNS de red en VPN. El modo Plus se restaurará automáticamente cuando el dispositivo cambie a otra red.";
 "networks summary blocka plus mode" = "Blokada usará Blokada DNS en modo Plus para asegurar un alto nivel de cifrado y velocidad. Puedes cambiar esto desde la parte inferior de la pantalla \"Elegir DNS\".";
 "networks summary force libre mode" = "Blokada siempre utilizará el modo Libre en esta red, e ignorará la ubicación de Blokada Plus. Esto puede ser útil para redes en las que no se quiera la protección adicional.";
-"networks permission dialog" = "Blokada puede reconocer las redes a las que se conecta y le permite configurar configuraciones separadas para ellas. Sin embargo, esta aplicación recopilará datos de ubicación en forma de nombre de red, para activar esta función incluso cuando la aplicación está cerrada o no está en uso. A veces puede ver una notificación del sistema sobre el acceso a la ubicación - Blokada sólo leerá el nombre de la red.";
+"networks permission dialog" = "Blokada puede reconocer las redes a las que te conectas y te permite seleccionar configuraciones diferentes para cada una. Sin embargo, esta aplicación recopilará datos de ubicación en forma de nombre de red para activar esta función incluso cuando esté cerrada o no esté en uso. A veces, podrás ver una notificación del sistema sobre el acceso a la ubicación - Blokada solo leerá el nombre de la red.";
 
 
 "account section header settings" = "Configuración";
@@ -346,7 +346,7 @@
 "payment alert error header" = "Un mensaje de App Store";
 // As in saving money: You are saving $5
 "payment save text" = "Estás ahorrando %@";
-"payment conversion note" = "Aceptamos euros y los precios mostrados son una estimación, un reembolso está disponible si sus cargos bancarios son excesivos.";
+"payment conversion note" = "Aceptamos euros, y los precios mostrados son una estimación. Si tu banco te cobra demasiado, podemos devolverte el dinero.";
 
 "payment subscription 1 month" = "1 mes";
 "payment subscription many months" = "%@ meses";
@@ -474,7 +474,7 @@
 "homepage faq title 5" = "¿Cuál es la política de reembolso de Blokada Plus?";
 "homepage faq desc 5" = "Puedes recuperar tu dinero dentro de los 7 días próximos a la compra de la suscripción. Ponte en contacto con nosotros a través de cualquiera de nuestras aplicaciones y simplemente comenta que deseas un reembolso.";
 "homepage faq title 6" = "¿Dónde se encuentra Blokada?";
-"homepage faq desc 6" = "Nuestra sede está en Suecia, donde la privacidad es tratada con mucha seriedad. Nuestros servidores están disponibles en muchos lugares del mundo.";
+"homepage faq desc 6" = "Nuestra sede se encuentra en Suecia, donde la privacidad es tratada con gran seriedad. Nuestros servidores están disponibles en muchos lugares del mundo.";
 
 "homepage download header" = "Descargar Blokada";
 "homepage download subheader" = "Blokada está disponible para varias plataformas, elige la tuya.";
