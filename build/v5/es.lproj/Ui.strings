@@ -230,7 +230,7 @@
 "networks section choose dns" = "Elegir DNS";
 "networks summary encrypt dns" = "Blokada cifrará el DNS si es posible. Esto mejora tu seguridad y evita que agentes maliciosos espíen qué sitios web y aplicaciones utilizas.";
 "networks summary use dns" = "Blokada usará %@ como DNS de tu dispositivo. Eligiendo el que permite el cifrado (tiene el icono de bloqueo), y está cerca de ti, ayudará a proteger sus datos y hará que su conexión sea rápida.";
-"networks summary network dns" = "Blokada utilizará el DNS de la red si está disponible, o cambiará a %@ de lo contrario. Además, la configuración de DNS cifrado se ignorará cuando se utilice DNS de red. Usar el DNS de la red ayuda a solucionar problemas de conectividad en redes problemáticas, pero te deja sin protección.";
+"networks summary network dns" = "Blokada utilizará el DNS de la red si está disponible, o cambiará a %@ en caso contrario. Además, la configuración de DNS cifrado se ignorará cuando se utilice DNS de red. Usar DNS ayuda a solucionar problemas de conectividad en redes problemáticas, pero te deja sin protección.";
 "networks summary network dns and plus mode" = "Blokada desactivará temporalmente el modo Plus cuando se utilice DNS de red. Esto es porque no es posible acceder a DNS de red en VPN. El modo Plus se restaurará automáticamente cuando el dispositivo cambie a otra red.";
 "networks summary blocka plus mode" = "Blokada usará Blokada DNS en modo Plus para asegurar un alto nivel de cifrado y velocidad. Puedes cambiar esto desde la parte inferior de la pantalla \"Elegir DNS\".";
 "networks summary force libre mode" = "Blokada siempre utilizará el modo Libre en esta red, e ignorará la ubicación de Blokada Plus. Esto puede ser útil para redes en las que no se quiera la protección adicional.";
@@ -360,7 +360,7 @@
 "payment redirect desc" = "Por favor, espera. Solo debería un momento.";
 
 "payment ongoing title" = "Tu pago está siendo procesado.";
-"payment ongoing desc" = "Los pagos con tarjeta de crédito no deberían tardar más de unos minutos. Los pagos con criptomonedas generalmente demoran hasta una hora, dependiendo de la tarifa de transacción que elija. En el caso de PayPal, puede tardar hasta 24 horas. Serás redirigido una vez que tu cuenta esté lista. También puede cerrar esta ventana y volver más tarde. Si cree que su transacción está demorando demasiado, comuníquese con nosotros.";
+"payment ongoing desc" = "Los pagos con tarjeta de crédito no deberían tardar más de unos minutos. Los pagos con criptomonedas generalmente pueden tardar hasta una hora, dependiendo de la tarifa de transacción que selecciones. En el caso de PayPal, puede tomar hasta 24 horas. Serás redirigido cuando tu cuenta esté lista. También puedes cerrar esta ventana y volver más tarde. Si crees que tu transacción se ha demorado demasiado, ponte en contacto con nosotros.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Cambiar";
@@ -381,7 +381,7 @@
 "payment label discount" = "Ahorra %@ (%@ / mes)";
 "payment label country" = "País";
 
-"payment euro desc" = "Tenemos sede en Europa, así que aceptamos Euros: €10 son aproximadamente $12.";
+"payment euro desc" = "Tenemos sede en Europa, así que aceptamos Euros: 10€ son aproximadamente 12$.";
 "payment donate disclaimer" = "Esto no activará tu cuenta de Blokada Plus. Si deseas utilizar nuestro servicio VPN, por favor suscríbete en lugar de donar.";
 
 "apps section header" = "Apps";
@@ -454,7 +454,7 @@
 "homepage about action plus" = "Aprende más sobre Blokada Plus";
 
 "homepage vpn title" = "Blokada 5, el VPN";
-"homepage vpn desc" = "Para una protección de privacidad definitiva, actualice a Blokada Plus y conéctese a través de nuestra VPN. Utilizamos WireGuard®, el protocolo VPN más avanzado, para cifrar su actividad de red y ocultar su dirección IP.";
+"homepage vpn desc" = "Para una protección de privacidad definitiva, actualiza a Blokada Plus y conéctate a través de nuestra VPN. Utilizamos WireGuard®, el protocolo VPN más avanzado, para cifrar su actividad de red y ocultar tu dirección IP.";
 "homepage vpn point one" = "Sin restricciones de ancho de banda";
 "homepage vpn point two" = "Cifrado rápido y moderno";
 "homepage vpn point three" = "No hay registro de la actividad de su red";
@@ -466,7 +466,7 @@
 "homepage faq title 1" = "¿Qué información conserva Blokada?";
 "homepage faq desc 1" = "Blokada no rastrea o comparte ninguna de las actividades de tu red. Si utilizas Blokada Plus, por razones técnicas, necesitamos recopilar los datos mínimos necesarios para mantener el servicio operativo. Consulta nuestra Política de Privacidad disponible en el menú superior para más detalles.";
 "homepage faq title 2" = "¿Cómo se protege mi privacidad?";
-"homepage faq desc 2" = "Blokada evita que las aplicaciones y navegadores instalados en tu dispositivo envíen tus datos privados (conocidos como huellas dactilares) a Internet. También encripta parte de su actividad de red (consultas DNS). Si necesitas más protección, Blokada Plus hace que tu dispositivo se conecte a través de nuestra VPN y utilice el protocolo WireGuard® para cifrar todo el tráfico de tu red.";
+"homepage faq desc 2" = "Blokada evita que las aplicaciones y navegadores instalados en tu dispositivo envíen tus datos privados (conocidos como huellas dactilares) a Internet. También encripta parte de tu actividad de red (consultas DNS). Si necesitas más protección, Blokada Plus permite que tu dispositivo se conecte a través de nuestra VPN y utilice el protocolo WireGuard® para cifrar todo el tráfico de tu conexión.";
 "homepage faq title 3" = "¿Qué es Blokada Plus?";
 "homepage faq desc 3" = "Blokada Plus es nuestro servicio de VPN seguro y moderno (red privada virtual). Utiliza WireGuard®, un protocolo rápido con cifrado de mejor calidad y bajo consumo de batería. Blokada Plus encripta toda la actividad de su red en tiempo real, dándote el mayor nivel de protección disponible. También obtendrá las características populares de VPN: oculta tu dirección IP, cambia tu ubicación y desbloquea el contenido restringido geográficamente.";
 "homepage faq title 4" = "¿Necesito actualizar a Blokada Plus?";
