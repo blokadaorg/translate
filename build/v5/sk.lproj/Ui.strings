@@ -12,7 +12,7 @@
 
 "error device offline" = "Vaše zariadenie je offline";
 "error account inactive" = "Váš účet je neaktívny. Prosím aktivujte si svoj účet aby ste mohli naďalej používať BLOKADA+.";
-"error account inactive after restore" = "Vyzerá to tak, že toto nie je aktívny účet. Ak ste presvedčený o tom že je to omyl, prosím kontaktujte nás stlačením ikonu pomoci v hornej časti.";
+"error account inactive after restore" = "Vyzerá to tak, že toto nie je aktívny účet. Ak ste presvedčený o tom že je to omyl, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
 "error account invalid" = "Toto ID účtu sa zdá byť neplatné.";
 "error creating account" = "Nebolo možné vytvoriť nový účet. Prosím, skúste to znovu neskôr.";
 "error fetching data" = "Akcia nebola dokončená. Buďte si istý, že ste aktívny, a skúste to znovu neskôr. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
@@ -20,6 +20,16 @@
 "error vpn" = "Nebolo možné ustanoviť VPN. Prosím, reštartujte svoje zariadenie, alebo vymažte Blokada VPN profil v systémových nastaveniach, a skúste to znovu.";
 "error vpn perms" = "Neboli vám udelené práva na vytvorenie VPN profilu.";
 "error vpn no current lease" = "Najskôr vyberte lokáciu.";
+"error vpn too many leases" = "Dosiahli ste limit zariadení. Prosím odstráňte jedno z vašich zariadení a skúste to znovu.";
+"error vpn expired" = "VPN bola deaktivovaná. Prosím aktualizujte si vaše predplatné pre pokračovanie v používaní BLOKADA+";
+"error payment inactive after restore" = "Vaša predchádzajúca platba bola obnovená, avšak predplatné vypršalo. Ak ste presvedčený o tom že to je chyba, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error payment failed" = "Platby nie sú momentálne k dispozícii. Buďte si istý, že ste aktívny, a skúste to znovu neskôr. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error payment failed alternative" = "Nebolo možné dokončiť platbu. Uistite sa, že sú zadané informácie správne, a skúste to znovu. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error payment not available" = "Platby nie sú k dispozícii pre vaše zariadenie. Buď nemáte aktivovaný Apple Pay, alebo platby vo vašej krajine nie sú zatiaľ podporované.";
+"error payment canceled" = "Platba bola zrušená. Nebola vám naúčtovaná žiadna čiastka.";
+"error pack install" = "Nebolo možné inštalovať (alebo odinštalovať) túto funkciu. Prosím, skúste to neskôr.";
+"error location failed fetching" = "Nebolo možné vyvolať lokáciu.";
+"error unknown" = "Stala sa neznáma chyba. Prosím, skúste to neskôr. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
 
 "universal action continue" = "Pokračovať";
 "universal action cancel" = "Zrušiť";
@@ -34,6 +44,7 @@
 "universal action save" = "Uložiť";
 "universal action contact us" = "Kontaktujte nás";
 "universal action support" = "Podpora";
+"universal action upgrade short" = "Vylepšiť";
 "universal action yes" = "Áno";
 "universal action no" = "Nie";
 "universal action donate" = "Podporiť";
@@ -43,14 +54,39 @@
 "universal action download" = "Stiahnuť";
 "universal action news" = "Novinky";
 "universal action delete" = "Odstrániť";
+"universal action hide" = "Skryť";
+"universal action select" = "Zvoliť";
+"universal action selected" = "Zvolené";
+// A verb "to search in the list"
+"universal action search" = "Hľadať";
+// A verb "to filter the list"
+"universal action filter" = "Filtrovať";
+// A verb "to clear the list"
+"universal action clear" = "Vyčistiť";
+// A verb "to revoke permissions"
+"universal action revoke" = "Odvolať";
 
 "universal label help" = "Nápoveda";
+"universal label welcome" = "Vitajte!";
+// Common label when some feature has no setting
+"universal label none" = "Žiadne";
 "universal status processing" = "Spracovanie... Čakajte prosím.";
+"universal status copied to clipboard" = "Skopírované do schránky";
+"universal status restart required" = "Prosím reštartujte aplikáciu aby sa prejavili vykonané zmeny.";
 "universal status redirect" = "Pokračovať s aplikáciou Blokada";
+"universal status confirm" = "Naozaj chcete pokračovať?";
 
 "alert error header" = "Ups!";
+"alert vpn expired header" = "BLOKADA+ vypršala";
+"notification vpn expired subtitle" = "VPN je deaktivovaná";
+
+"notification update header" = "Je dostupná aktualizácia";
+"update label updated" = "Aktualizované!";
 
 "account active forever" = "Navždy";
+"account active forever full" = "Aktívne navždy";
+
+"main ask for permissions header" = "Ešte jeden krok";
 
 "main rate us header" = "Ohodnoťte nás!";
 "main rate us action sure" = "Iste!";
