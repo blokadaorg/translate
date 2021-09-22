@@ -214,6 +214,8 @@
 "activity retention header": "For how long can we store your activity?";
 "activity retention option none" = "Do not store my activity";
 "activity retention option 24h" = "24 hours";
+"activity retention policy" = "By enabling log retention you accept Blokada Cloud Privacy Policy.";
+"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below. This function is useful if you wish to manage custom exceptions, or just have an overview of what's happening on your devices.";
 
 "userdenied section header" = "Exceptions";
 "userdenied section slugline" = "Manage blocking of particular websites";
@@ -560,8 +562,6 @@
 "setup step enter tag" = "When asked, enter your tag";
 "setup step download profile" = "Generate and download your profile";
 "setup step install wireguard" = "Install and start Wireguard";
-
-
 
 "stats header" = "Stats";
 // A ratio between counter of allowed vs denied requests.
