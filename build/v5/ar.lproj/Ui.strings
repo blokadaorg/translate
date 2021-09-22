@@ -211,8 +211,6 @@
 "activity filter show allowed" = "مسموح فقط";
 "activity empty text" = "حاول استخدام جهازك، و العودة إلى هنا لاحقاً، لمعرفة من أين يتّصل جهازك.";
 "activity device filter show all" = "جميع الأجهزة";
-"activity retention header
-activity retention option none" = "لا تقم بتخزين نشاطي";
 "activity retention option 24h" = "24 ساعة";
 
 "userdenied section header" = "الاستثناءات";
@@ -561,8 +559,12 @@ activity retention option none" = "لا تقم بتخزين نشاطي";
 "setup step download profile" = "إنشاء و تنزيل ملفّك الشخّصي";
 "setup step install wireguard" = "تثبيت و بدء Wireguard";
 
-
-
 "stats header" = "الإحصائيّات";
 // A ratio between counter of allowed vs denied requests.
 "stats ratio header" = "النسبة";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "الطلبات";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "الاستفسارات عبر الوقت";
+"stats top allowed header" = "أكثر الطلبات المسموح بها";
+"stats top blocked header" = "أكثر الطلبات المَحظورة";
