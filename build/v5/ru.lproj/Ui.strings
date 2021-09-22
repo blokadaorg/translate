@@ -213,7 +213,7 @@
 "activity device filter show all" = "Все устройства";
 "activity retention header
 activity retention option none" = "Не сохранять мою активность";
-"activity retention option 24h" = "24 часе";
+"activity retention option 24h" = "24 часа";
 
 "userdenied section header" = "Исключения";
 "userdenied section slugline" = "Управление блокировкой определенных сайтов";
@@ -565,4 +565,10 @@ activity retention option none" = "Не сохранять мою активно
 
 "stats header" = "Статистика";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Коэффициент";
+"stats ratio header" = "Соотношение";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Запросы";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Запросы по времени";
+"stats top allowed header" = "Топ разрешенных запросов";
+"stats top blocked header" = "Топ заблокированных запросов";
