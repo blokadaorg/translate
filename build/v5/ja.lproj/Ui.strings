@@ -550,3 +550,29 @@ activity retention option none" = "アクティビティを保存しない";
 "setup label which device" = "どのような種類のデバイスをセットアップしますか？";
 "setup label choose" = "以下の設定オプションのいずれかを選択してください:";
 "setup comment wireguard" = "注意: Blokada VPNを使用すると、Blokada Cloud DNS が自動的に有効になります。その他のプラットフォームは今後サポートする予定です。「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
+"setup comment native apps" = "注意: Android と iOS のネイティブアプリでは現在 Blokada Cloud をサポートしていません。今後のアップデートで対応する予定です。";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "ステップ %@: %@";
+"setup option label recommended" = "推奨: %@";
+"setup option label alternative" = "上級ユーザー向け: %@";
+"setup name label unnamed" = "[名前がありません]";
+
+"setup step name" = "デバイスに名前を付ける（オプション）";
+"setup step copy" = "ホスト名をコピー";
+"setup step apply config" = "新しい設定を適用";
+"setup step install" = "Blokada アプリをインストールして開く";
+"setup step enter tag" = "要求があれば、タグを入力してください";
+"setup step download profile" = "プロファイルを生成してダウンロード";
+"setup step install wireguard" = "Wireguard をインストールして開く";
+
+
+
+"stats header" = "統計";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "比率";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "リクエスト";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "時間内のクエリ";
+"stats top allowed header" = "よく許可されるリクエスト";
+"stats top blocked header" = "よくブロックされるリクエスト";
