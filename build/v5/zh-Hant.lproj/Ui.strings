@@ -533,11 +533,42 @@ activity retention option none" = "不要儲存我的使用活動";
 "homepage developer action" = "前往 repo";
 
 "web vpn devices header" = "VPN 裝置";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "開啟 VPN 裝置";
 "web action open setup" = "開啟設定";
 "web cta plus header" = "升級到 Blokada Plus，您的隱私權不用再任人宰割。";
-"web cta plus desc" = "您的 Libre 帳戶賜予您在 Android 及 iOS，使用我們開放原始碼 App，免費在裝置上進行廣告阻擋的功能。若需更完善的保護，請升級到 Blokada Plus 取得 VPN 和我們既快又能輕鬆上手的雲端廣告阻擋功能。";
+"web cta plus desc" = "您的 Libre 帳戶賜予您在 Android 及 iOS，使用我們開放原始碼 App，免費在裝置上進行廣告阻擋的功能。若需更完善的保護，請升級到 Blokada Plus，取得 VPN 和我們既快又能輕鬆上手的雲端廣告阻擋功能。";
+// A short word for a button to generate profile
+"web action generate" = "產生";
 
 "setup header" = "設定";
 "setup desc" = "有很多方法可以讓您的裝置接上 Blokada Cloud。請選擇適合您的方法。";
-"setup label which device" = "您在設定什麼樣的裝置？";
+"setup label which device" = "您想設定什麼裝置？";
 "setup label choose" = "請選擇下述任一設定選項：";
+"setup comment wireguard" = "注意：使用 Blokada VPN 會自動啟用 Blokada Cloud DNS。我們還在製作這個平台的更多安裝方式。「WireGuard」和「Wireguard」標誌是 Jason A. Donenfeld 註冊的商標。";
+"setup comment native apps" = "注意：Android 和 iOS 的原生 App 尚未支援 Blokada Cloud。這個功能還在製作中。";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "第 %@ 步：%@";
+"setup option label recommended" = "建議設定：%@";
+"setup option label alternative" = "備用方案：%@";
+"setup name label unnamed" = "[未命名]";
+
+"setup step name" = "裝置名稱（選填）";
+"setup step copy" = "複製主機名稱";
+"setup step apply config" = "套用新設定";
+"setup step install" = "安裝並啟動 App";
+"setup step enter tag" = "詢問時請輸入您的標籤 (tag)";
+"setup step download profile" = "產生並下載量身打造的設定檔";
+"setup step install wireguard" = "安裝並啟動 Wireguard";
+
+
+
+"stats header" = "統計";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "比例";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "請求";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "總計請求數";
+"stats top allowed header" = "允許最多次的請求";
+"stats top blocked header" = "阻擋最多次的請求";
