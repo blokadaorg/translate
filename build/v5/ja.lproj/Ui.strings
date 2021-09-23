@@ -77,7 +77,7 @@
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "時刻";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "カウント";
+"universal label count" = "回数";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "タイプ";
 "universal label device" = "デバイス";
@@ -217,7 +217,7 @@
 "activity retention option none" = "アクティビティを保存しない";
 "activity retention option 24h" = "24 時間";
 "activity retention policy" = "ログの保持を有効にすると、Blokada Cloud プライバシーポリシーに同意することになります。";
-"activity retention desc" = "Blokada Cloud はデフォルトで何も記録しません。統計とアクティビティを保存する場合は、ログの保持期間を選択してください。この機能は、例外設定を管理したい場合や、お使いのデバイスで何が起こっているかの概要の確認に便利です。";
+"activity retention desc" = "Blokada Cloud はデフォルトでは何も記録しません。統計とアクティビティを保存する場合は、ログの保持期間を選択してください。この機能は、例外設定を管理したい場合や、お使いのデバイスで何が起こっているかの概要の確認に便利です。";
 
 "userdenied section header" = "例外";
 "userdenied section slugline" = "ブロック・許可したサイトを管理する";
@@ -543,14 +543,14 @@
 "web vpn devices open action" = "VPN デバイスを開く";
 "web action open setup" = "設定を開く";
 "web cta plus header" = "Blokada Plus にアップグレードして、あなたのプライバシーを管理し続けましょう。";
-"web cta plus desc" = "Libre アカウントでは、オープンソースアプリをによる、Android と iOS での広告ブロックを無料で使用できます。Blokada Plus にアップグレードすると VPN による更なる保護や、より速く、より使いやすい*クラウドアドブロック*が選択できます。";
+"web cta plus desc" = "Libre アカウントでは、オープンソースアプリによる Android と iOS での広告ブロックを無料で使用できます。Blokada Plus にアップグレードすると VPN による更なる保護や、より速く、より使いやすい*クラウド広告ブロック*が選択できます。";
 // A short word for a button to generate profile
 "web action generate" = "生成";
 
 "setup header" = "設定";
 "setup desc" = "デバイスで Blokada Cloud を使用する設定方法はいくつかあります。あなたに合うものを選択してください。";
-"setup label which device" = "どのような種類のデバイスをセットアップしますか？";
-"setup label choose" = "以下の設定オプションのいずれかを選択してください:";
+"setup label which device" = "どの種類のデバイスを設定しますか？";
+"setup label choose" = "以下から設定を選択してください:";
 "setup comment wireguard" = "注意: Blokada VPNを使用すると、Blokada Cloud DNS が自動的に有効になります。その他のプラットフォームは今後サポートする予定です。「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
 "setup comment native apps" = "注意: Android と iOS のネイティブアプリでは現在 Blokada Cloud をサポートしていません。今後のアップデートで対応する予定です。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
@@ -573,6 +573,6 @@
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
 "stats requests header" = "リクエスト";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "時間内のクエリ";
+"stats requests subheader" = "時間の経過とクエリ";
 "stats top allowed header" = "よく許可されるリクエスト";
 "stats top blocked header" = "よくブロックされるリクエスト";
