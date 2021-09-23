@@ -545,3 +545,30 @@
 
 "setup header" = "Pengaturan";
 "setup desc" = "Ada banyak cara untuk mengkonfigurasikan perangkat Anda agar bisa menggunakan Blokada Cloud. Pilih salah satu yang cocok untuk Anda.";
+"setup label which device" = "Apa jenis pernagkat yang ingin Anda atur untuk Blokada Cloud?";
+"setup label choose" = "Silakan pilih salah satu dari opsi pengaturan berikut:";
+"setup comment wireguard" = "Catatan: JIka Anda menggunakan Blokada VPN maka Blokada CLoud DNS akan otomatis aktif. Kami sedang berusaha untuk bisa mendukung pengaturan lain untuk platform ini. 'Wireguard' dan logo 'Wireguard' adalah merek dagang terdaftar milik Jason A. Donenfeld.";
+"setup comment native apps" = "Catatan: Aplikasi bawaan Android dan iOS saat ini belum mendukung Blokada Cloud. Kami sedang mengusahakan update untuk mengatasi hal ini.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Langkah %@: %@";
+"setup option label recommended" = "Disarankan: %@";
+"setup option label alternative" = "Alternatif: %@";
+"setup name label unnamed" = "[unnamed]";
+
+"setup step name" = "Beri nama perangkat Anda (opsional)";
+"setup step copy" = "Salin hostname";
+"setup step apply config" = "Terapkan konfigurasi baru";
+"setup step install" = "Instal dan mulai aplikasi";
+"setup step enter tag" = "Masukkan tag Anda ketika diminta";
+"setup step download profile" = "Buat dan unduh profil Anda";
+"setup step install wireguard" = "Instal dan mulai Wireguard";
+
+"stats header" = "Statistik";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Perbandingan";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Permintaan";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Permintaan dalam periode waktu tertentu";
+"stats top allowed header" = "Permintaan teratas yang diizinkan";
+"stats top blocked header" = "Permintaan teratas yang diblokir";
