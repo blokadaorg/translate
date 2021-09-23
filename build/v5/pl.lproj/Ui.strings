@@ -77,7 +77,7 @@
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "Czas";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Liczba";
+"universal label count" = "Ilość";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "Typ";
 "universal label device" = "Urządzenie";
@@ -215,7 +215,7 @@
 "activity retention option none" = "Nie przechowuj mojej aktywności";
 "activity retention option 24h" = "24 godziny";
 "activity retention policy" = "Włączając opcję retencji logów, akceptujesz politykę prywatności Blokady Cloud.";
-"activity retention desc" = "Blokada Cloud domyślnie niczego nie loguje. Jeśli chcesz zobaczyć zagregowane statystyki i aktywność na wszystkich swoich urządzeniach, wybierz poniżej żądany okres przechowywania logów. Ta funkcja jest przydatna, jeśli chcesz zarządzać niestandardowymi wyjątkami lub po prostu mieć przegląd tego, co dzieje się na Twoich urządzeniach.";
+"activity retention desc" = "Blokada Cloud domyślnie niczego nie loguje. Jeśli chcesz zobaczyć zagregowane statystyki i aktywność ze wszystkich swoich urządzeń, wybierz poniżej żądany okres przechowywania logów. Ta funkcja jest przydatna, jeśli chcesz zarządzać niestandardowymi wyjątkami lub po prostu mieć przegląd tego, co dzieje się na Twoich urządzeniach.";
 
 "userdenied section header" = "Wyjątki";
 "userdenied section slugline" = "Zarządzaj blokowaniem poszczególnych stron";
@@ -536,7 +536,7 @@
 
 "web vpn devices header" = "Urządzenia VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Otwórz urządzenia VPN";
+"web vpn devices open action" = "Otwórz Urządzenia VPN";
 "web action open setup" = "Otwórz konfigurację";
 "web cta plus header" = "Ulepsz do Blokady Plus, aby zachować kontrolę nad prywatnością.";
 "web cta plus desc" = "Twoje konto Libre daje darmowe blokowanie reklam na urządzeniach z systemami Android i iOS za pomocą naszych aplikacji open source. Aby jeszcze lepiej się zabezpieczyć, uaktualnij do Blokady Plus i uzyskaj VPN, jak również nasze nowe *blokowanie w chmurze*, które jest szybsze i łatwiejsze w użyciu.";
@@ -551,9 +551,8 @@
 "setup comment native apps" = "Uwaga: natywne aplikacje dla Androida i iOS nie obsługują jeszcze Blokady Cloud. Pracujemy nad aktualizacją.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Krok %@: %@";
-"setup option label recommended" = "Polecane: %@";
+"setup option label recommended" = "Zalecane: %@";
 "setup option label alternative" = "Alternatywa: %@";
-"setup name label unnamed" = "[bez nazwy]";
 
 "setup step name" = "Nazwij urządzenie (opcjonalnie)";
 "setup step copy" = "Skopiuj nazwę hosta";
@@ -570,5 +569,5 @@
 "stats requests header" = "Żądania";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "Zapytania w czasie";
-"stats top allowed header" = "Najpopularniejsze dozwolone żądania";
-"stats top blocked header" = "Najpopularniejsze zablokowane żądania";
+"stats top allowed header" = "Najczęściej zezwalane";
+"stats top blocked header" = "Najczęściej blokowane";
