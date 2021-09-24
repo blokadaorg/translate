@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">通知</string>
-    <string name="notification_on_description">有効にすると、何かがブロックされるたびに Blokada の通知が表示されます。これは、一部のデバイスで表示されるVPN通知とは異なり、無効にすることはできません。
+    <string name="notification_on_description">有効にすると、何かがブロックされるたびに Blokada の通知が表示されます。これは、一部のデバイスで表示される VPN 通知とは異なり、無効にすることはできません。
 &lt;br/&gt;から表示する通知を設定できます。</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">ブロック済み</string>
@@ -26,7 +26,7 @@
     <string name="notification_keepalive_content">前回: %s</string>
     <!-- Content of the Keep Alive notification, if nothing was blocked yet, as in "Last: nothing yet". -->
     <string name="notification_keepalive_none">モニタリング</string>
-    <string name="notification_keepalive_activate">有効にする</string>
+    <string name="notification_keepalive_activate">起動する</string>
     <string name="notification_keepalive_activating">Blokada が起動しています。少し時間がかかる場合があります。</string>
     <string name="notification_keepalive_deactivate">無効にする</string>
     <string name="notification_keepalive_deactivating">Blokada が無効になりました</string>
