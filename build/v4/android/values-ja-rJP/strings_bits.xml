@@ -4,17 +4,14 @@
     <string name="home_touch">タップまたはホールドして設定</string>
     <string name="home_blokada_disabled">Blokada は一時停止されました</string>
     <string name="home_blokada_active">Blokada が有効です</string>
-    <string name="home_blokada_active_protected">Blokada Plus が有効です
-通信が保護されています</string>
+    <string name="home_blokada_active_protected">Blokada Plus により通信が保護されています</string>
     <string name="home_blokada_inactive">Blokada が無効です</string>
     <string name="home_activating">有効にしています</string>
     <string name="home_please_wait">お待ちください...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Plus が有効です
-広告ブロックは無効になっています</string>
+    <string name="home_vpn_only">Blokada Plus は広告ブロックなしで有効です</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">DNS 設定が有効です
-広告ブロックは無効になっています</string>
+    <string name="home_dns_only">Blokada は DNS モードで有効です</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
     <string name="home_requests_blocked_since">%s の広告をブロック（%s 以降）</string>
     <string name="home_masterswitch_enabled">Blokada が ON です</string>
@@ -35,7 +32,7 @@
     <string name="home_donate">寄付</string>
     <string name="home_vpn_enabled">Blokada Plus が有効です</string>
     <string name="home_vpn_disabled">Blokada Plus が無効です</string>
-    <string name="home_account_active">あなたのアカウントはまだ有効です</string>
+    <string name="home_account_active">あなたのアカウントは有効です</string>
     <string name="home_connecting_vpn">Blokada Plus に接続中</string>
     <string name="home_cleanup">クリーンアップを推奨します</string>
     <!-- A short text for the button to change VPN settings -->
@@ -96,7 +93,7 @@
     <string name="menu_host_blacklist">ブロックしたいホストをここに追加します。例えば、フィルターではブロックされないウェブサイトをブロックしたい場合に利用してください。これはバイパスされたアプリには適用されないことに注意してください。</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">その他</string>
-    <string name="menu_share_log_label">ログを共有することで、問題の理由を発見できます。Blokada チームコアメンバーの1人に非公開で送信します。</string>
+    <string name="menu_share_log_label">ログを共有することで、問題の理由を発見できます。Blokada チームコアメンバーの 1 人に非公開で送信します。</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">詳細</string>
     <!-- A section informational content in menu -->
