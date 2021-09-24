@@ -72,6 +72,15 @@
 "universal label welcome" = "Bem-vindo!";
 // Common label when some feature has no setting
 "universal label none" = "Nenhuma";
+// Common label in tables for the Name column. Think "name of host".
+"universal label name" = "Nome";
+// Common label in tables for the Time column. Think "time of event".
+"universal label time" = "Hora";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Contagem";
+// Common label in tables for the Type column. Think "type of item".
+"universal label type" = "Tipo";
+"universal label device" = "Dispositivo";
 
 "universal status processing" = "Processando... Por favor, aguarde.";
 "universal status copied to clipboard" = "Copiado para a Área de Transferência";
@@ -204,13 +213,20 @@
 "activity device filter show all" = "Todos os dispositivos";
 "activity retention header" = "Por quanto tempo podemos armazenar sua atividade?";
 "activity retention option none" = "Não armazenar minha atividade";
+"activity retention option 24h" = "24 horas";
 "activity retention policy" = "Ao ativar a retenção de log, você aceita a Política de Privacidade do Blokada Cloud.";
 "activity retention desc" = "O Blokada Cloud não está registrando algo por padrão. Se você deseja ver as estatísticas agregadas e a atividade de todos os seus dispositivos, escolha o período de retenção de registro desejado abaixo.";
+
+"userdenied section header" = "Exceções";
 "userdenied section slugline" = "Gerenciar bloqueio de sites específicos";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Permitido";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bloqueado";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Permitir";
+// A short one word action to block a hostname.
+"userdenied action block" = "Bloquear";
 
 "networks section header" = "Redes";
 "networks section label" = "Ajustar configurações para WiFi e redes móveis";
@@ -517,11 +533,26 @@
 "homepage developer subheader" = "e quer deixar o Blokada melhor?";
 "homepage developer desc" = "O Blokada é um projeto de código aberto dedicado ao desenvolvimento do melhor bloqueador de anúncios e aplicativo de privacidade para Android e iOS. Confira nosso Github, e nos informe, se precisar de alguma ajuda para fazer seu primeiro PR (Pull Request).";
 "homepage developer action" = "Ir para o repositório";
+
+"web vpn devices header" = "Dispositivos VPN";
 // A button to open section called "VPN Devices"
 "web vpn devices open action" = "Abrir Dispositivos VPN";
+"web action open setup" = "Abrir configuração";
+"web cta plus header" = "Atualize para o Blokada Plus para manter o controle de sua privacidade.";
 // A short word for a button to generate profile
 "web action generate" = "Gerar";
+
+"setup header" = "Configuração";
+"setup label which device" = "Que tipo de dispositivo você deseja configurar?";
+"setup label choose" = "Escolha qualquer uma das seguintes opções de instalação:";
+"setup comment native apps" = "Nota: Os aplicativos nativos para Android e iOS ainda não oferecem suporte ao Blokada Cloud. Estamos trabalhando na atualização.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Passo %@: %@";
+"setup option label recommended" = "Recomendado: %@";
+"setup option label alternative" = "Alternativo: %@";
 "setup name label unnamed" = "(sem nome)";
+
+"setup step name" = "Nomear seu dispositivo (opcional)";
 "setup step copy" = "Copiar seu nome de domínio";
 "setup step apply config" = "Aplicar a nova configuração";
 "setup step install" = "Instalar e iniciar nosso aplicativo";
