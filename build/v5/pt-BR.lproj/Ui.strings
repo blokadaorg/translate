@@ -202,6 +202,10 @@
 "activity filter show allowed" = "Somente permitidos";
 "activity empty text" = "Tente usar o seu dispositivo e volte aqui mais tarde, para ver onde o seu dispositivo se conecta.";
 "activity device filter show all" = "Todos os dispositivos";
+"activity retention header" = "Por quanto tempo podemos armazenar sua atividade?";
+"activity retention option none" = "Não armazenar minha atividade";
+"activity retention policy" = "Ao ativar a retenção de log, você aceita a Política de Privacidade do Blokada Cloud.";
+"activity retention desc" = "O Blokada Cloud não está registrando algo por padrão. Se você deseja ver as estatísticas agregadas e a atividade de todos os seus dispositivos, escolha o período de retenção de registro desejado abaixo.";
 "userdenied section slugline" = "Gerenciar bloqueio de sites específicos";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Permitido";
@@ -513,3 +517,24 @@
 "homepage developer subheader" = "e quer deixar o Blokada melhor?";
 "homepage developer desc" = "O Blokada é um projeto de código aberto dedicado ao desenvolvimento do melhor bloqueador de anúncios e aplicativo de privacidade para Android e iOS. Confira nosso Github, e nos informe, se precisar de alguma ajuda para fazer seu primeiro PR (Pull Request).";
 "homepage developer action" = "Ir para o repositório";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Abrir Dispositivos VPN";
+// A short word for a button to generate profile
+"web action generate" = "Gerar";
+"setup name label unnamed" = "(sem nome)";
+"setup step copy" = "Copiar seu nome de domínio";
+"setup step apply config" = "Aplicar a nova configuração";
+"setup step install" = "Instalar e iniciar nosso aplicativo";
+"setup step enter tag" = "Quando perguntado, digite sua etiqueta";
+"setup step download profile" = "Gerar e baixar o seu perfil";
+"setup step install wireguard" = "Instalar e iniciar o Wireguard";
+
+"stats header" = "Estatísticas";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Proporção";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Solicitações";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Consultas ao longo do tempo";
+"stats top allowed header" = "Principais solicitações permitidas";
+"stats top blocked header" = "Principais solicitações bloqueadas";
