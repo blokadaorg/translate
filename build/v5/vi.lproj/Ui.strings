@@ -72,6 +72,16 @@
 "universal label welcome" = "Chào mừng!";
 // Common label when some feature has no setting
 "universal label none" = "Không có";
+// Common label in tables for the Name column. Think "name of host".
+"universal label name" = "Tên";
+// Common label in tables for the Time column. Think "time of event".
+"universal label time" = "Thời gian";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Số lượng";
+// Common label in tables for the Type column. Think "type of item".
+"universal label type" = "Loại";
+"universal label device" = "Thiết bị";
+
 "universal status processing" = "Đang tiến hành... Vui lòng chờ.";
 "universal status copied to clipboard" = "Đã sao chép vào bộ nhớ tạm";
 "universal status restart required" = "Vui lòng khởi động lại ứng dụng để các thay đổi có hiệu lực.";
@@ -201,13 +211,22 @@
 "activity filter show allowed" = "Chỉ được phép";
 "activity empty text" = "Hãy thử sử dụng thiết bị của bạn và quay lại đây sau để xem nơi thiết bị của bạn kết nối với nó.";
 "activity device filter show all" = "Tất cả thiết bị";
+"activity retention header" = "Chúng tôi có thể lưu trữ hoạt động của bạn trong bao lâu?";
+"activity retention option none" = "Không lưu trữ hoạt động của tôi";
+"activity retention option 24h" = "24 giờ";
+"activity retention policy" = "Bằng cách cho phép lưu giữ nhật ký, bạn chấp nhận Chính sách quyền riêng tư của Đám mây Blokada.";
+"activity retention desc" = "Đám mây Blokada không ghi bất kỳ thứ gì vào nhật ký theo mặc định. Nếu bạn muốn xem số liệu thống kê và hoạt động tổng hợp từ tất cả các thiết bị của mình, hãy chọn khoảng thời gian lưu giữ nhật ký mong muốn bên dưới. Chức năng này hữu ích nếu bạn muốn quản lý các trường hợp ngoại lệ tùy chỉnh hoặc chỉ có một cái nhìn tổng quan về những gì đang xảy ra trên thiết bị của bạn.";
 
-"userdenied section header" = "Danh sách chặn của tôi";
+"userdenied section header" = "Ngoại lệ";
 "userdenied section slugline" = "Quản lý việc chặn các trang web cụ thể";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Được phép";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bị chặn";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Cho phép";
+// A short one word action to block a hostname.
+"userdenied action block" = "Chặn";
 
 "networks section header" = "Mạng";
 "networks section label" = "Điều chỉnh cài đặt cho WiFi và mạng di động";
@@ -514,3 +533,42 @@
 "homepage developer subheader" = "và muốn cải thiện Blokada tốt hơn?";
 "homepage developer desc" = "Blokada là một dự án mã nguồn mở dành riêng để phát triển ứng dụng bảo mật và trình chặn quảng cáo tốt nhất cho Android và iOS. Kiểm tra Github của chúng tôi và cho chúng tôi biết, nếu bạn cần bất kỳ hỗ trợ nào để thực hiện PR đầu tiên của mình.";
 "homepage developer action" = "Đi đến repo";
+
+"web vpn devices header" = "Thiết bị VPN";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Mở thiết bị VPN";
+"web action open setup" = "Mở cài đặt";
+"web cta plus header" = "Nâng cấp lên Blokada Plus để kiểm soát quyền riêng tư của bạn.";
+"web cta plus desc" = "Tài khoản Libre của bạn cung cấp cho bạn tính năng chặn quảng cáo trên thiết bị miễn phí cho Android và iOS với các ứng dụng nguồn mở của chúng tôi. Để được bảo vệ tốt hơn nữa, hãy nâng cấp lên Blokada Plus và tải VPN, cũng như *tính năng chặn quảng cáo đám mây* mới của chúng tôi, nhanh hơn và dễ sử dụng hơn.";
+// A short word for a button to generate profile
+"web action generate" = "Khởi tạo";
+
+"setup header" = "Cài đặt";
+"setup desc" = "Có nhiều cách để định cấu hình thiết bị của bạn để sử dụng Đám mây Blokada. Chọn một trong những phù hợp với bạn.";
+"setup label which device" = "Loại thiết bị bạn muốn thiết lập?";
+"setup label choose" = "Chọn bất kỳ tùy chọn thiết lập nào sau đây:";
+"setup comment wireguard" = "Lưu ý: Sử dụng Blokada VPN sẽ tự động bật Blokada Cloud DNS. Chúng tôi đang làm việc để hỗ trợ các thiết lập khác cho nền tảng này. 'WireGuard' và logo 'Wireguard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
+"setup comment native apps" = "Lưu ý: Các ứng dụng gốc dành cho Android và iOS chưa hỗ trợ Đám mây Blokada. Chúng tôi đang làm việc trên bản cập nhật.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Bước %@: %@";
+"setup option label recommended" = "Được khuyên dùng: %@";
+"setup option label alternative" = "Thay thế: %@";
+"setup name label unnamed" = "(không tên)";
+
+"setup step name" = "Tên thiết bị của bạn (tùy chọn)";
+"setup step copy" = "Sao chép tên máy chủ của bạn";
+"setup step apply config" = "Áp dụng cấu hình mới";
+"setup step install" = "Cài đặt và khởi động ứng dụng của chúng tôi";
+"setup step enter tag" = "Khi được hỏi, hãy nhập thẻ của bạn";
+"setup step download profile" = "Tạo và tải xuống hồ sơ của bạn";
+"setup step install wireguard" = "Cài đặt và khởi động Wireguard";
+
+"stats header" = "Thống kê";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Tỷ lệ";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Yêu cầu";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Truy vấn theo thời gian";
+"stats top allowed header" = "Yêu cầu được cho phép hàng đầu";
+"stats top blocked header" = "Yêu cầu bị chặn hàng đầu";
