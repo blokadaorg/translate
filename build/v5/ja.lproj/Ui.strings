@@ -222,9 +222,9 @@
 "userdenied section header" = "例外";
 "userdenied section slugline" = "ブロック・許可したサイトを管理する";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "許可リスト";
+"userdenied tab allowed" = "許可";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "ブロックリスト";
+"userdenied tab blocked" = "ブロック";
 // A short one word action to allow a hostname.
 "userdenied action allow" = "許可";
 // A short one word action to block a hostname.
@@ -549,21 +549,21 @@
 
 "setup header" = "設定";
 "setup desc" = "デバイスで Blokada Cloud を使用する設定方法はいくつかあります。あなたに合うものを選択してください。";
-"setup label which device" = "どの種類のデバイスを設定しますか？";
+"setup label which device" = "設定するデバイスを選択してください";
 "setup label choose" = "以下から設定を選択してください:";
 "setup comment wireguard" = "注意: Blokada VPNを使用すると、Blokada Cloud DNS が自動的に有効になります。その他のプラットフォームは今後サポートする予定です。「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
 "setup comment native apps" = "注意: Android と iOS のネイティブアプリでは現在 Blokada Cloud をサポートしていません。今後のアップデートで対応する予定です。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "ステップ %@: %@";
 "setup option label recommended" = "推奨: %@";
-"setup option label alternative" = "上級ユーザー向け: %@";
+"setup option label alternative" = "または: %@";
 "setup name label unnamed" = "（名前がありません）";
 
 "setup step name" = "デバイスに名前を付ける（オプション）";
 "setup step copy" = "ホスト名をコピー";
 "setup step apply config" = "新しい設定を適用";
 "setup step install" = "Blokada アプリをインストールして開く";
-"setup step enter tag" = "要求があれば、タグを入力してください";
+"setup step enter tag" = "指示に従ってタグを入力してください";
 "setup step download profile" = "プロファイルを生成してダウンロード";
 "setup step install wireguard" = "Wireguard をインストールして開く";
 
