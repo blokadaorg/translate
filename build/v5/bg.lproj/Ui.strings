@@ -72,6 +72,15 @@
 "universal label welcome" = "Добре дошли!";
 // Common label when some feature has no setting
 "universal label none" = "Нищо";
+// Common label in tables for the Name column. Think "name of host".
+"universal label name" = "Име";
+// Common label in tables for the Time column. Think "time of event".
+"universal label time" = "Време";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Брой";
+// Common label in tables for the Type column. Think "type of item".
+"universal label type" = "Тип";
+"universal label device" = "Устройство";
 
 "universal status processing" = "В процес... Моля, изчакайте.";
 "universal status copied to clipboard" = "Копирано в клипборда";
@@ -202,6 +211,9 @@
 "activity filter show allowed" = "Разрешени само";
 "activity empty text" = "Използвайте устройството и след това се върнете тук за да видите къде се свързва вашето устройство.";
 "activity device filter show all" = "Всички устройства";
+"activity retention header" = "За колко време можем да съхраняваме вашата дейност?";
+"activity retention option none" = "Не съхранявайте моята дейност";
+"activity retention option 24h" = "24 часа";
 "userdenied section slugline" = "Управлявайте блокирането на определени уеб сайтове";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Разрешени";
