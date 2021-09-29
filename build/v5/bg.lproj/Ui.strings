@@ -539,3 +539,36 @@
 "web vpn devices open action" = "Отваряне на VPN устройства";
 "web action open setup" = "Отваряне на настройката";
 "web cta plus header" = "Надстройте до Blokada Plus за да контролирате поверителността си.";
+"web cta plus desc" = "Профилът в Libre ви дава безплатно блокиране на реклами на устройството с Android и iOS от нашите приложения с отворен код. За още по -добра защита надстройте до Blokada Plus и вземете VPN, както и нашето ново * облачно блокиране на реклами *, което е по-бързо и по-лесно за използване.";
+// A short word for a button to generate profile
+"web action generate" = "Генерирай";
+
+"setup header" = "Настройки";
+"setup desc" = "Има много начини да конфигурирате устройството си да използва Blokada Cloud. Изберете този, който работи за вас.";
+"setup label which device" = "Какъв тип устройство искате да настроите?";
+"setup label choose" = "Изберете някоя от опциите за настройка:";
+"setup comment wireguard" = "Забележка: Използването на Blokada VPN автоматично активира Blokada Cloud DNS. Работим по поддръжката и на други настройки за тази платформа. „WireGuard“ и логото „Wireguard“ са регистрирани търговски марки на Джейсън А. Доненфелд.";
+"setup comment native apps" = "Забележка: Приложенията за Android и iOS все още не поддържат Blokada Cloud. Работим по актуализацията.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Стъпка %@: %@";
+"setup option label recommended" = "Препоръчително: %@";
+"setup option label alternative" = "Алтернативно: %@";
+"setup name label unnamed" = "(без име)";
+
+"setup step name" = "Име на вашето устройство (по избор)";
+"setup step copy" = "Копирайте името на хоста";
+"setup step apply config" = "Прилагане на новата конфигурация";
+"setup step install" = "Инсталирайте и стартирайте приложението си";
+"setup step enter tag" = "Когато бъдете помолени, въведете своя маркер";
+"setup step download profile" = "Генерирайте и изтеглете вашия профил";
+"setup step install wireguard" = "Инсталирайте и стартирайте Wireguard";
+
+"stats header" = "Статистика";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Съотношение";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Искания";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Заявки през цялото време";
+"stats top allowed header" = "Най-разрешени заявки";
+"stats top blocked header" = "Най-блокирани заявки";
