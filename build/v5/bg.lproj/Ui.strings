@@ -214,11 +214,19 @@
 "activity retention header" = "За колко време можем да съхраняваме вашата дейност?";
 "activity retention option none" = "Не съхранявайте моята дейност";
 "activity retention option 24h" = "24 часа";
+"activity retention policy" = "Активирайки запазването на дневника, вие приемате Декларацията за поверителност на Blokada Cloud.";
+"activity retention desc" = "Blokada Cloud не регистрира нищо по подразбиране. Ако искате да видите обобщената статистика и активност от всичките си устройства, изберете желания период на съхранение на регистрационния файл по -долу.";
+
+"userdenied section header" = "Изключения";
 "userdenied section slugline" = "Управлявайте блокирането на определени уеб сайтове";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Разрешени";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Блокирани";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Разреши";
+// A short one word action to block a hostname.
+"userdenied action block" = "Блокирай";
 
 "networks section header" = "Мрежи";
 "networks section label" = "Регулиране на настройките за WiFi и мобилни мрежи";
@@ -525,3 +533,9 @@
 "homepage developer subheader" = "и искате да направите Blokada по-добра?";
 "homepage developer desc" = "Blokada е проект с отворен код посветен на разработването на най-добрия рекламен блокер и приложение за поверителност за Android и iOS. Проверете нашия Github и ни уведомете ако имате нужда от помощ за да направите първия си PR.";
 "homepage developer action" = "Към repo";
+
+"web vpn devices header" = "VPN устройства";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Отваряне на VPN устройства";
+"web action open setup" = "Отваряне на настройката";
+"web cta plus header" = "Надстройте до Blokada Plus за да контролирате поверителността си.";
