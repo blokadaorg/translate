@@ -78,6 +78,7 @@
 "universal label time" = "Tiempo";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "Tipo";
+"universal label device" = "Dispositivo";
 
 "universal status processing" = "Procesando... espera por favor.";
 "universal status copied to clipboard" = "Copiado al portapapeles";
@@ -208,11 +209,22 @@
 "activity filter show allowed" = "Solo permitido";
 "activity empty text" = "Intenta usar tu dispositivo y vuelve aquí más tarde, para ver a dónde se conecta tu dispositivo.";
 "activity device filter show all" = "Todos los dispositivos";
+"activity retention header" = "¿Durante cuánto tiempo podemos almacenar su actividad?";
+"activity retention option none" = "No guardar mi actividad";
+"activity retention option 24h" = "24 horas";
+"activity retention policy" = "Al activar la retención de registros, acepta la Política de Privacidad de Blokada Cloud.";
+"activity retention desc" = "Blokada Cloud no está registrando nada por defecto. Si desea ver las estadísticas agregadas y la actividad de todos sus dispositivos, seleccione el período de retención deseado a continuación.";
+
+"userdenied section header" = "Excepciones";
 "userdenied section slugline" = "Administrar bloqueo de sitios web particulares";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Permitido";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bloqueado";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Permitir";
+// A short one word action to block a hostname.
+"userdenied action block" = "Bloquear";
 
 "networks section header" = "Redes";
 "networks section label" = "Ajustar configuración de WiFi y redes móviles";
@@ -519,3 +531,14 @@
 "homepage developer subheader" = "y quieres mejorar Blokada?";
 "homepage developer desc" = "Blokada es un proyecto de código abierto dedicado al desarrollo de la mejor aplicación de bloqueo de anuncios y privacidad para Android e iOS. Consulta nuestro Github y haznos saber si necesitas ayuda para hacer tu primera contribución.";
 "homepage developer action" = "Ir al repositorio";
+
+"web vpn devices header" = "Dispositivos VPN";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Abrir ajustes de equipos VPN";
+"web action open setup" = "Abrir configuración";
+"web cta plus header" = "Actualice a Blokada Plus para mantener el control de su privacidad.";
+"web cta plus desc" = "Tu cuenta Libre te da bloqueo gratuito en dispositivos para Android e iOS con nuestras aplicaciones de código abierto. Para una protección aún mejor, actualiza a Blokada Plus y consigue la VPN, así como nuestro nuevo *bloqueo de nube* que es más rápido y fácil de usar.";
+// A short word for a button to generate profile
+"web action generate" = "Generar";
+"setup desc" = "Hay muchas maneras de configurar tu dispositivo para usar la nube de Blokada. Elige la que funcione para ti.";
+"setup label which device" = "¿Qué tipo de dispositivo desea configurar?";
