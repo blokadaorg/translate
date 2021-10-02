@@ -76,6 +76,8 @@
 "universal label name" = "Nombre";
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "Tiempo";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Cantidad";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "Tipo";
 "universal label device" = "Dispositivo";
@@ -213,7 +215,7 @@
 "activity retention option none" = "No guardar mi actividad";
 "activity retention option 24h" = "24 horas";
 "activity retention policy" = "Al activar la retención de registros, acepta la Política de Privacidad de Blokada Cloud.";
-"activity retention desc" = "Blokada Cloud no está registrando nada por defecto. Si desea ver las estadísticas agregadas y la actividad de todos sus dispositivos, seleccione el período de retención deseado a continuación.";
+"activity retention desc" = "Blokada Cloud no registra nada por defecto. Si desea ver las estadísticas y las actividades agregadas de todos sus dispositivos, elija el período de retención de registros que desea a continuación.";
 
 "userdenied section header" = "Excepciones";
 "userdenied section slugline" = "Administrar bloqueo de sitios web particulares";
@@ -540,17 +542,29 @@
 "web cta plus desc" = "Tu cuenta Libre te da bloqueo gratuito en dispositivos para Android e iOS con nuestras aplicaciones de código abierto. Para una protección aún mejor, actualiza a Blokada Plus y consigue la VPN, así como nuestro nuevo *bloqueo de nube* que es más rápido y fácil de usar.";
 // A short word for a button to generate profile
 "web action generate" = "Generar";
+
+"setup header" = "Configuración";
 "setup desc" = "Hay muchas maneras de configurar tu dispositivo para usar la nube de Blokada. Elige la que funcione para ti.";
 "setup label which device" = "¿Qué tipo de dispositivo desea configurar?";
 "setup label choose" = "Elija cualquiera de las siguientes opciones de configuración:";
-"setup comment wireguard" = "Nota: Usando Blokada VPN automáticamente activa Blokada Cloud DNS. Estamos trabajando en soportar otras configuraciones para esta plataforma. 'WireGuard' y el logotipo 'Wireguard' son marcas registradas de Jason A. Donenfeld.";
-"setup comment native apps" = "Nota: Las aplicaciones nativas para Android e iOS aún no soportan Blokada Cloud. Estamos trabajando en la actualización.";
+"setup comment wireguard" = "Nota: Al usar Blokada VPN automáticamente se activa Blokada Cloud DNS. Estamos trabajando en soportar otras configuraciones para esta plataforma. 'WireGuard' y el logotipo 'Wireguard' son marcas registradas de Jason A. Donenfeld.";
+"setup comment native apps" = "Nota: Las aplicaciones nativas para Android y iOS aún no soportan Blokada Cloud. Estamos trabajando en la actualización.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Paso %@: %@";
 "setup option label recommended" = "Recomendado: %@";
+"setup option label alternative" = "Alternativa: %@";
+"setup name label unnamed" = "(sin nombre)";
+
+"setup step name" = "Nombre de su dispositivo (opcional)";
+"setup step copy" = "Copiar el nombre de su host";
+"setup step apply config" = "Aplicar la nueva configuración";
 "setup step install" = "Instalar e iniciar nuestra aplicación";
 "setup step enter tag" = "Cuando se le pregunte, introduzca su etiqueta";
 "setup step install wireguard" = "Instalar e iniciar Wireguard";
 
 "stats header" = "Estadísticas";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Diferencia";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
 "stats requests header" = "Peticiones";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
