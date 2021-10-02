@@ -546,3 +546,12 @@
 "setup comment wireguard" = "Nota: Usando Blokada VPN automáticamente activa Blokada Cloud DNS. Estamos trabajando en soportar otras configuraciones para esta plataforma. 'WireGuard' y el logotipo 'Wireguard' son marcas registradas de Jason A. Donenfeld.";
 "setup comment native apps" = "Nota: Las aplicaciones nativas para Android e iOS aún no soportan Blokada Cloud. Estamos trabajando en la actualización.";
 "setup option label recommended" = "Recomendado: %@";
+"setup step install" = "Instalar e iniciar nuestra aplicación";
+"setup step enter tag" = "Cuando se le pregunte, introduzca su etiqueta";
+"setup step install wireguard" = "Instalar e iniciar Wireguard";
+
+"stats header" = "Estadísticas";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Peticiones";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Consultas a lo largo del tiempo";
