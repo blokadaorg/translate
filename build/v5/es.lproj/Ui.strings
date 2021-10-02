@@ -560,6 +560,7 @@
 "setup step apply config" = "Aplicar la nueva configuración";
 "setup step install" = "Instalar e iniciar nuestra aplicación";
 "setup step enter tag" = "Cuando se le pregunte, introduzca su etiqueta";
+"setup step download profile" = "Generar y descargar tu perfil";
 "setup step install wireguard" = "Instalar e iniciar Wireguard";
 
 "stats header" = "Estadísticas";
@@ -569,3 +570,5 @@
 "stats requests header" = "Peticiones";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "Consultas a lo largo del tiempo";
+"stats top allowed header" = "Solicitudes permitidas más solicitadas";
+"stats top blocked header" = "Solicitudes bloqueadas más solicitadas";
