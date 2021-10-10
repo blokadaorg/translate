@@ -72,6 +72,15 @@
 "universal label welcome" = "Vítejte!";
 // Common label when some feature has no setting
 "universal label none" = "Žádné";
+// Common label in tables for the Name column. Think "name of host".
+"universal label name" = "Název";
+// Common label in tables for the Time column. Think "time of event".
+"universal label time" = "Čas";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Počet";
+// Common label in tables for the Type column. Think "type of item".
+"universal label type" = "Typ";
+"universal label device" = "Zařízení";
 
 "universal status processing" = "Zpracovávám... Čekejte prosím.";
 "universal status copied to clipboard" = "Zkopírováno do schránky";
@@ -202,6 +211,7 @@
 "activity filter show allowed" = "Pouze povolené";
 "activity empty text" = "Zkuste použít své zařízení a vraťte se sem později, abyste zjistili, kam se vaše zařízení připojuje.";
 "activity device filter show all" = "Všechna zařízení";
+"activity retention header" = "Jak dlouho můžeme ukládat vaši aktivitu?";
 "userdenied section slugline" = "Spravovat blokování konkrétních webových stránek";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Povolené";
