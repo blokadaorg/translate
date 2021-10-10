@@ -214,11 +214,19 @@
 "activity retention header" = "Jak dlouho můžeme ukládat vaši aktivitu?";
 "activity retention option none" = "Neukládat moji aktivitu";
 "activity retention option 24h" = "24 hodin";
+"activity retention policy" = "Povolením uchovávání protokolů přijímáte zásady ochrany osobních údajů služby Blokada Cloud.";
+"activity retention desc" = "Blokada Cloud ve výchozím nastavení nic nezaznamenává. Pokud si přejete zobrazit souhrnné statistiky a aktivitu ze všech vašich zařízení, vyberte níže požadované období uchovávání protokolu.";
+
+"userdenied section header" = "Výjimky";
 "userdenied section slugline" = "Spravovat blokování konkrétních webových stránek";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Povolené";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Blokované";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Povolit";
+// A short one word action to block a hostname.
+"userdenied action block" = "Blokovat";
 
 "networks section header" = "Sítě";
 "networks section label" = "Upravit nastavení pro WiFi a mobilní sítě";
@@ -525,3 +533,8 @@
 "homepage developer subheader" = "a chcete Blokadu vylepšit?";
 "homepage developer desc" = "Blokada je open source projekt věnovaný vývoji nejlepší aplikace pro blokování reklam a soukromí pro Android a iOS. Podívejte se na náš Github, a dejte nám vědět, pokud potřebujete pomoc s vytvořením vašeho prvního PR (Pull Request).";
 "homepage developer action" = "Přejít do repozitáře";
+
+"web vpn devices header" = "VPN zařízení";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Otevřít VPN zařízení";
+"web action open setup" = "Otevřít nastavení";
