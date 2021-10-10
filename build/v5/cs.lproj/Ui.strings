@@ -559,3 +559,16 @@
 "setup step copy" = "Zkopírujte název hostitele";
 "setup step apply config" = "Použít novou konfiguraci";
 "setup step install" = "Nainstalujte si a spusťte naši aplikaci";
+"setup step enter tag" = "Na výzvu zadejte svou značku";
+"setup step download profile" = "Vygenerujte a stáhněte si svůj profil";
+"setup step install wireguard" = "Nainstalujte a spusťte Wireguard";
+
+"stats header" = "Statistiky";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Poměr";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Žádosti";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Dotazy v průběhu času";
+"stats top allowed header" = "Nejvíce povolené žádosti";
+"stats top blocked header" = "Nejvíce blokované žádosti";
