@@ -544,3 +544,18 @@
 "web action generate" = "Generovat";
 
 "setup header" = "Nastavit";
+"setup desc" = "Existuje mnoho způsobů, jak nakonfigurovat zařízení tak, aby používalo službu Blokada Cloud. Vyberte si ten, který vám vyhovuje.";
+"setup label which device" = "Jaký typ zařízení chcete nastavit?";
+"setup label choose" = "Vyberte některou z následujících možností nastavení:";
+"setup comment wireguard" = "Poznámka: Používání Blokada VPN automaticky aktivuje Blokada Cloud DNS. Pracujeme na podpoře dalších nastavení pro tuto platformu. „WireGuard“ a logo „Wireguard“ jsou registrované ochranné známky společnosti Jason A. Donenfeld.";
+"setup comment native apps" = "Poznámka: Nativní aplikace pro Android a iOS zatím Blokada Cloud nepodporují. Na aktualizaci pracujeme.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Krok %@: %@";
+"setup option label recommended" = "Doporučeno: %@";
+"setup option label alternative" = "Alternativa: %@";
+"setup name label unnamed" = "(bez názvu)";
+
+"setup step name" = "Pojmenujte své zařízení (volitelné)";
+"setup step copy" = "Zkopírujte název hostitele";
+"setup step apply config" = "Použít novou konfiguraci";
+"setup step install" = "Nainstalujte si a spusťte naši aplikaci";
