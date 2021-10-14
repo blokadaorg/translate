@@ -210,6 +210,6 @@
     <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
     <string name="slot_reset_counter_action">リセット</string>
     <string name="label_workarounds">デバイス固有の回避策</string>
-    <string name="slot_dns_answer_label">DNS 代理不在応答（DNS ブロック）</string>
-    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへの Blokada の回答を「ホストが見つかりません」から「無効な IP」へと回答を変更します。デフォルトの回答をした場合、一部のアプリが他の DNS サーバーに再度リクエストを送信することがあり、不必要に RAM が使用されます。この設定を有効にすると、RAM は開放されますが、一部のアプリの動作が遅くなる可能性があることにご注意ください。</string>
+    <string name="slot_dns_answer_label">DNS 代理応答</string>
+    <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへ Blokada が「ホストが見つかりません」と回答する代わりに無効な IP アドレスを回答します。デフォルトの回答をした場合、一部のアプリが他の DNS サーバーに繰り返しリクエストを送信して、不必要に RAM が使用される場合があります。この設定を有効にするとRAM は開放されますが、無効な IP アドレスでも接続しようとするアプリがあり、動作が遅くなる可能性があることにご注意ください。</string>
 </resources>
