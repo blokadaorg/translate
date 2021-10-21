@@ -179,16 +179,17 @@
 
 "activity section header" = "アクティビティ";
 "activity section header details" = "アクティビティの詳細";
-"activity request blocked" = "このリクエストはブロックされています。";
-"activity request allowed" = "このリクエストは許可されています。";
-"activity request allowed whitelisted" = "例外リストにより、このリクエストは通信を許可されています";
-"activity request allowed list" = "このリクエストは *%@* ブロックリストで許可されています。";
-"activity request allowed no list" = "このリクエストは設定されたブロックリストのいずれにも存在しないため、許可されています。";
-"activity request blocked list" = "このリクエストは *%@* ブロックリストでブロックされています。";
-"activity request blocked no list" = "このリクエストは設定されたブロックリストのいずれにも存在しないため、ブロックされています。";
+"activity request blocked" = "通信をブロックされています";
+"activity request allowed" = "通信を許可されています";
+"activity request allowed whitelisted" = "例外リストにより通信を許可されています";
+"activity request blocked blacklisted" = "例外リストにより通信をブロックされています";
+"activity request allowed list" = "*%@* ブロックリストで通信を許可されています";
+"activity request allowed no list" = "設定されたブロックリストのいずれにも存在しないため、通信を許可されています";
+"activity request blocked list" = "*%@* ブロックリストで通信をブロックされています";
+"activity request blocked no list" = "設定されたブロックリストのいずれにも存在しないため、通信をブロックされています";
 "activity actions header" = "アクション";
 "activity information header" = "Info";
-"activity action add to whitelist" = "例外として通信を許可";
+"activity action add to whitelist" = "通信を許可する";
 "activity action remove from whitelist" = "許可リストから削除";
 "activity action added to whitelist" = "通信を許可しています";
 "activity action add to blacklist" = "通信をブロックする";
