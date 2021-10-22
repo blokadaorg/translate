@@ -17,7 +17,7 @@ Nejkompatibilnější blokování reklam na trhu!
 
 • Blokuje reklamy • Spoří váš datový plán • Rychlejší procházení webu díky načítání méně dat • Zvyšuje životnost baterie
 
-Co lze blokovat? • Blokuje otravné reklamy: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, atd. • Blokuje internetové stránky pro dospělé • Blokuje webové stránky s hazardními hrami • Blokuje sledovače sociálních médií: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comskore • Blokuje škodlivé webové stránky: stažení virů, škodlivý obsah, podvodné webové stránky a manipulované aplikace • Blokada Plus Adblock iOS aplikace.
+Co lze blokovat? • Blokuje otravné reklamy: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, atd. • Blokuje internetové stránky pro dospělé • Blokuje webové stránky s hazardními hrami • Blokuje slídiče sociálních médií: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comskore • Blokuje škodlivé webové stránky: stažení virů, škodlivý obsah, podvodné webové stránky a manipulované aplikace • Blokada Plus Adblock iOS aplikace.
 
 ----
 
