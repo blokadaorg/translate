@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">Izaziso</string>
+    <string name="notification_on_description">When on, Blokada will display a notification every time something is blocked. Please note this is not the same as the VPN notification some devices show, and which cannot be turned off.&lt;br/&gt;You can configure which notifications should be displayed with the Settings below.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Ivinjiwe</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
+    <string name="notification_blocked_text">%s</string>
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">Fihla</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
@@ -13,6 +15,7 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Gcina</string>
+    <string name="notification_keepalive_description">Activate this switch if you experience problems with the app staying active in the background. Blokada will enable a permanent notification to prevent the system from killing it; you can hide it by choosing Notifications above and there Settings.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
     <string name="notification_keepalive_title_new">Gcina Kuvuliwe (thinta ukufihle)</string>
     <string name="notification_keepalive_text_new">I-Android idinga ukubonisa isaziso ukuze igcine uhlelo lusebenza, kepha ukhululekile ukukukhubaza lezilungiselelo zesistimu.</string>
@@ -26,7 +29,12 @@
     <string name="notification_keepalive_activating">I-Blokada iyavulwa. Kuzothatha isikhashana.</string>
     <string name="notification_keepalive_deactivate">Cisha</string>
     <string name="notification_keepalive_deactivating">I-Blokada icishiwe!</string>
+    <string name="notification_expired_title">Blokada Plus is deactivated</string>
+    <string name="notification_expired_description">Your account is not active, and Blokada Plus is off. Standard Blokada features work fine without the Blokada Plus VPN. However please consider activating your account for better protection and for supporting the project.</string>
+    <string name="notification_lease_expired_title">Blokada Plus is deactivated</string>
+    <string name="notification_lease_expired_description">There was a problem with your connection to Blokada Plus. Please try choosing another gateway. If the problem persists, please contact us.</string>
     <string name="notification_channel_filtered">Ukuvinjwa kwezikhangiso</string>
     <string name="notification_channel_announcements">Izimemezelo</string>
+    <string name="notification_channel_vpn">Blokada Plus</string>
     <string name="notification_channel_other">Okunye</string>
 </resources>
