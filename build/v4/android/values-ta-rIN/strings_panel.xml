@@ -25,6 +25,9 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">முடக்கப்பட்டது&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">இந்த Domain முடக்கப்பட்டது. இதை அனுமதிக்க கீழே உள்ள Button-ஐ தட்டவும்.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">This domain was not correctly resolved by the DNS server. Either the server blocked the domain or it doesn\'t exist.</string>
+    <string name="panel_domain_blocked_error_desc">Something went wrong while resolving this domain, The DNS server answered with a error code.</string>
+    <string name="panel_domain_blocked_cname_desc">This domain was blocked because it\'s a CName for a blocked domain. To allow it in the future you can either add the CName or the domain itself to the allowed hosts.</string>
     <string name="panel_domain_blocked_toast">முடக்கப்பட்டது.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">நகலெடு</string>
@@ -37,7 +40,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">அனுமதி</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Allow CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Allow Domain</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">நிறுத்து</string>
     <string name="slot_action_close">மூடு</string>
@@ -50,6 +55,7 @@
     <!-- An action to toggle a switch -->
     <string name="slot_intro_new">புதிய UI எப்படி உள்ளது? அறிமுகத்துக்கு இங்கே தட்டவும்.</string>
     <string name="slot_intro_new_header">புதிய UI எப்படி உள்ளது?</string>
+    <string name="slot_intro_desc">You are currently in the Home section, there is more if you swipe right. Each of them has its own bottom menu - open it by swiping up. &lt;br/&gt;&lt;br/&gt;On Android TV, navigate the UI with the dpad. Use the center key to open the bottom menu, or any item you select. Buttons are marked with the up, down, left or right arrow - use the direction keys to click them.</string>
     <string name="slot_intro_info">ஒரு ரகசியம்... சில உருப்படிகளின் மீது கேள்விக்குறி படவுரு சின்னம் இருக்கும். அவைகளின் மீது தட்டும் போது இது போன்ற ஒரு குறு உதவி செய்தியை காண்பிக்கும்!</string>
     <string name="slot_new_filter">புதிய Hostஐ முடக்குதல் பட்டியலுக்குள் சேர்</string>
     <string name="slot_new_filter_list">புதிய Host பட்டியலை சேர்</string>
@@ -81,6 +87,9 @@
     <string name="slot_allapp_whitelisted">அனுமதிக்கப்பட்டது</string>
     <string name="slot_allapp_normal">அனுமதிக்கப்படவில்லை</string>
     <string name="slot_allapp_whitelist">அனுமதி</string>
+    <string name="slot_action_set">Set</string>
+    <string name="slot_whitelist_all">Bypass all apps</string>
+    <string name="slot_blacklist_all">Do not bypass any apps</string>
     <string name="slot_dns_name">DNS இயங்குகிறது</string>
     <string name="slot_dns_name_private">தனிபயனாக்கப்பட்ட DNS இயக்கத்தில் உள்ளது</string>
     <string name="slot_dns_name_disabled">DNS இயங்கவில்லை</string>
@@ -105,6 +114,8 @@
     <string name="slot_filters_title">வடிகட்டி பட்டியல்கள்</string>
     <string name="slot_filters_description">வடிகட்டிகள் மற்றும் அதிலுள்ள உங்களின் தனிப்பட்ட பதிவுகளை இழக்காமல் எங்களின் சேவையகங்கள் கூட ஒத்திசைவு செய்து கொள்ளலாம். &lt;br/&gt;&lt;br/&gt; அதே மாதிரி நீங்கள் எல்லா பதிவுகளை நீக்கலாம் (உங்கள் பதிவுகள் உட்பட), மற்றும் திரும்ப தரவிறக்கம் செய்தும் கொள்ளலாம்.</string>
     <string name="slot_blocked_normal_title">தளம் முடக்கப்பட்டது</string>
+    <string name="slot_blocked_answer_title">Domain not resolved</string>
+    <string name="slot_blocked_cname_title">CName blocked</string>
     <string name="slot_forwarded_title">தளம் மாற்றிவிடப்பட்டது</string>
     <string name="slot_whitelist_title">அனுமதிக்கப்பட்ட செயலி</string>
     <string name="slot_list_no_desc">இந்த உள்ளீடுக்கு விவரங்கள் இல்லை.</string>
@@ -112,6 +123,8 @@
     <string name="slot_action_deactivate">நிறுத்து</string>
     <string name="slot_action_activate">தொடங்கு</string>
     <string name="slot_update_action_refresh">மீண்டும் சரிபார்</string>
+    <string name="slot_telegram_title">Join us!</string>
+    <string name="slot_telegram_desc">Visit our community for help or just to be part of it.</string>
     <string name="slot_telegram_action">திற</string>
     <string name="slot_dropped_share_title">பகிர்</string>
     <string name="slot_adblocking_label">விளம்பரங்களை முடக்கு</string>
@@ -134,6 +147,7 @@
     <string name="slot_gateway_learn_more">Gateway பற்றி மேலும் அறிக</string>
     <string name="slot_gateway_info_partner">Partner Gateways என்றால் என்ன?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Control which of your devices connect to Blokada Plus.</string>
     <string name="slot_lease_name_current">%s (இந்தச் சாதனம்)</string>
     <string name="slot_lease_description">சாதன எண்: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This is your current device.</string>
@@ -142,6 +156,7 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">குறைவு</string>
     <string name="subscription_success">உங்கள் கணக்கு துவக்கப்படுகிறது. இது சில நேரங்கள் எடுக்கும். நன்றி!</string>
+    <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
     <string name="slot_recommended_dns_label">பரிந்துரைக்கப்பட்ட DNS Serverகளை பயன்படுத்து</string>
     <string name="slot_recommended_dns_description">இதனை இயக்கும்போது Blokada உங்கள் அந்தரங்கத்தை பாதுகாக்கவும் மற்றும் உங்கள் இணைய வேகத்தை அதிகரிக்கவும் பரிந்துரைக்கப்பட்ட சேவயகங்களை தன்னிச்சையாக தேர்வு செய்துகொள்ளும். இல்லையென்றால் உங்கள் பிணையத்தின் வழக்கமான சேவையகத்தை பயன்படுத்தி கொள்ளும். நீங்கள் உங்களுக்கு விருப்பமான சேவையகத்தை தேர்வு செய்யும் பட்சத்தில், இது அமைவு தேவைப்படாது.</string>
     <string name="slot_update_no_updates">Blokada is up to date</string>
@@ -170,6 +185,8 @@
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">உங்கள் சாதனத்தில் Blokada வின் பல பதிப்புகள் உள்ளன போலும், ஏதேனும் ஒன்றை மட்டும் வைத்து கொண்டு மற்றவற்றை நீக்க விரும்புகிறீர்களா?</string>
     <string name="account_inactive">மேலும் தொடர உங்கள் கணக்கை துவக்குங்கள்.</string>
+    <string name="slot_lease_cant_connect">Could not connect to Blokada Plus. Try selecting another gateway.</string>
+    <string name="slot_account_cant_create">Could not create your Blokada Plus account. Please try again later or contact us.</string>
     <string name="slot_account_name_title">கணக்கு எண்</string>
     <string name="slot_account_name_desc">உங்கள் முந்தைய சந்தாவை மீட்டு எடுக்க தங்களின் பழைய கணக்கு அடையாளத்தை உள்ளீடவும். ஏதேனும் தவறுதலாக நடக்கும் பட்சத்தில் எதற்கும் தற்போதைய கணக்கு அடையாளத்தை ஒரு இடத்தில் எழுதி வைத்து கொள்ளவும்.</string>
     <string name="slot_account_name_error">கணக்கு எண்ணில் எண்கள் மற்றும் எழுத்துக்கள் மட்டுமே உள்ளிட வேண்டும்.</string>
@@ -190,4 +207,5 @@
     <string name="slot_reset_counter_action">Reset</string>
     <string name="label_workarounds">பிரத்தேயேக சாதன மாற்றுவழிமுறைகள்</string>
     <string name="slot_dns_answer_label">மாற்று DNS பதில்</string>
+    <string name="slot_dns_answer_description">Changes the answer Blokada sends for blocked requests from \"host not found\" to an invalid ip. This can help on some ROMs which query other DNS servers if they get a \"host not found\" answer. Please note that this might slow down some apps which try to connect to the invalid address.</string>
 </resources>
