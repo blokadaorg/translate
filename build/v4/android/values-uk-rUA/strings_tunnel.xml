@@ -8,6 +8,7 @@
     <string name="tunnel_config_refetch_toast">Завантажуємо списки</string>
     <string name="tunnel_config_refetch_now_description">Скористайтеся кнопкою внизу, щоб видалити кеш та завантажити списки знову. Це може допомогти у випадку проблем із фільтрацією.</string>
     <string name="tunnel_config_refetch_frequency_title">Частота оновлення списків</string>
+    <string name="tunnel_config_refetch_frequency_description">Select one of the options to configure how often the app should download your lists.</string>
     <string name="tunnel_config_refetch_frequency_1">Раз на день</string>
     <string name="tunnel_config_refetch_frequency_2">Двічі на тиждень</string>
     <string name="tunnel_config_refetch_frequency_3">Раз на тиждень</string>
@@ -16,12 +17,17 @@
     <string name="tunnel_config_wifi_only_title">Отримувати лише з Wi-Fi</string>
     <string name="tunnel_config_wifi_only_description">Увімкніть це, якщо хочете, щоб додаток завантажував списки тільки коли підключений до Wi-Fi. У іншому випадку додаток буде завантажувати списки через мобільну мережу, використовуючи трафік за тарифом.</string>
     <string name="tunnel_config_watchdog_title">Сторож</string>
+    <string name="tunnel_config_watchdog_description">Activate this switch if you wish the app to activate the VPN only if there is Internet connectivity, and restart the tunnel in case there are connectivity problems. This may help for some devices.</string>
     <string name="tunnel_config_powersave_title">Нагле пробудження</string>
+    <string name="tunnel_config_powersave_description">Activate this switch if you experience problems caused by your device\'s powersave feature. When the app detects tunnel connectivity problems, it will attempt to raise its priority to bring it out of the powersaving mode.</string>
     <string name="tunnel_config_reports_title">Звіти</string>
     <string name="tunnel_config_reports_description">Увімкніть це, якщо бажаєте дозволити надсилання звітів, щоб допомогти нам боротися з проблемами та помилками. Це буде відбуватися раз на день або коли додаток зазнає аварії. Якщо ви це відключите, нам буде складно побороти специфічні проблеми. Може знадобитися перезапуск додатку для зміни цієї опції.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Розширені правила блокування реклами</string>
     <string name="tunnel_config_wildcard_description">Активуйте цей перемикач, якщо хочете використовувати шаблони у ваших правилах фільтрування. Наприклад, додавання правила для *.google.com заблокує всі домени з Google. Це може негативно вплинути на час роботи від батареї. Будь ласка, зверніть увагу, що це експериментальна функція і вона може працювати неналежним чином.</string>
+    <string name="tunnel_config_cname_title">[BETA] CName-Blocking</string>
+    <string name="tunnel_config_cname_description">Activate this switch if you want to block all CNames for the domains on your block lists. A CName is an alias for a domain, which is used by some advertiser to hide this domain behind a often changing or less obvious domain. This tactic can be circumvented by blocking all CNames that would resolve to the blocked domain. Please note that this is an experimental feature, and may not work properly.</string>
     <string name="tunnel_config_fallback_title">Запасний DNS</string>
+    <string name="tunnel_config_fallback_description">Activate this switch if you are losing Internet access in some situations, like your WiFi. This will make the app temporarily switch to Cloudflare or Google DNS to sustain your connectivity. You may need to re-select your servers in the DNS section for this setting to take effect.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Розумний Список</string>
     <string name="tunnel_config_smartlist_reset_btn">Скинути</string>
     <string name="tunnel_config_smartlist_clean_btn">Очистити</string>
