@@ -26,6 +26,8 @@
     <string name="panel_domain_blocked">Заблоковано &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Цей домен було заблоковано. Щоб надалі дозволяти його, натисніть кнопку нижче.</string>
     <string name="panel_domain_blocked_nxdomain_desc">DNS-сервер некоректно розпізнав цей домен. Домен заблокований, або його не існує.</string>
+    <string name="panel_domain_blocked_error_desc">Something went wrong while resolving this domain, The DNS server answered with a error code.</string>
+    <string name="panel_domain_blocked_cname_desc">This domain was blocked because it\'s a CName for a blocked domain. To allow it in the future you can either add the CName or the domain itself to the allowed hosts.</string>
     <string name="panel_domain_blocked_toast">Додано до чорного списку.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Копіювати</string>
@@ -34,6 +36,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">У фільтрах зараз %s правил.</string>
     <string name="panel_ruleset_updating">Оновлення фільтрів...</string>
+    <string name="panel_ruleset_canfit">Filters are now configured with &lt;b&gt;%s&lt;/b&gt; rules. Your device allows max &lt;b&gt;%s&lt;/b&gt; MB of memory for every application, and up to &lt;b&gt;%s&lt;/b&gt; rules can fit into it.&lt;br&gt;Remember, this is just an estimate and Blokada utilises the most memory when it merges the lists. If you enabled a few of them recently, wait a few minutes for the system to free up memory.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Дозволити</string>
     <!-- Button to allow blocked cname -->
@@ -153,6 +156,7 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">низька</string>
     <string name="subscription_success">Ваша підписка активується. Це може тривати кілька секунд. Дякуємо!</string>
+    <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
     <string name="slot_recommended_dns_label">Використовувати бажані DNS</string>
     <string name="slot_recommended_dns_description">Коли увімкнено, Blokada буде автоматично обирати бажані DNS сервери, щоб покращити приватність та прискорити доступ до ресурсів. Інакше будуть використовуватися типові DNS вашої мережі. Якщо Ви самостійно оберете сервери у розширених налаштуваннях, це налаштування не буде застосовуватися.</string>
     <string name="slot_update_no_updates">Blokada найновішої версії</string>
@@ -181,6 +185,8 @@
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Схоже, що на Вашому пристрої встановлено кілька версій Blokada. Видалити всі інші та залишити одну?</string>
     <string name="account_inactive">Будь ласка, активуйте або відновіть ваш обліковий запис для продовження.</string>
+    <string name="slot_lease_cant_connect">Could not connect to Blokada Plus. Try selecting another gateway.</string>
+    <string name="slot_account_cant_create">Could not create your Blokada Plus account. Please try again later or contact us.</string>
     <string name="slot_account_name_title">Ідентифікатор</string>
     <string name="slot_account_name_desc">Введіть ваш старий ідентифікатор, щоб відновити попередню підписку. Вам варто також записати поточний ідентифікатор на випадок помилки.</string>
     <string name="slot_account_name_error">Ідентифікатор може містити тільки букви та цифри.</string>
@@ -201,4 +207,5 @@
     <string name="slot_reset_counter_action">Скинути</string>
     <string name="label_workarounds">Рішення для конкретних пристроїв</string>
     <string name="slot_dns_answer_label">Відповідь альтернативного DNS сервера</string>
+    <string name="slot_dns_answer_description">Changes the answer Blokada sends for blocked requests from \"host not found\" to an invalid ip. This can help on some ROMs which query other DNS servers if they get a \"host not found\" answer. Please note that this might slow down some apps which try to connect to the invalid address.</string>
 </resources>
