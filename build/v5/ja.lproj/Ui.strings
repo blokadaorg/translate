@@ -266,6 +266,7 @@
 "account section header settings" = "設定";
 "account status text" = "BLOKADA %@ - アカウントの有効期限は %@ です。";
 "account status text libre" = "BLOKADA Libre - 有効期限のない無料アカウントです。";
+"account status text inactive" = "BLOKADA アカウントは無効です";
 
 "account section header primary" = "メイン";
 "account section header other" = "その他";
@@ -356,11 +357,22 @@
 "payment feature desc change location" = "あなたの IP アドレスを非表示にして、あなたが他の国に居るように見せかけます。これは第三者からあなたを隠し、身元を保護するのに役立ちます。";
 "payment feature title encrypt data" = "データを暗号化";
 "payment feature desc encrypt data" = "当社の VPN トンネルを通じて送信されるデータは、権限のない当事者による傍受から保護するために強力なアルゴリズムを使用して暗号化されます。";
-"payment feature title encrypt dns" = "DNS を暗号化";
+"payment feature title encrypt dns" = "DNS 暗号化";
+"payment feature desc encrypt dns" = "DNS 暗号化でプライバシーを保護しましょう。Blokada Cloud は最新のプロトコルを使用してクエリをプライベートに保ちます。";
+"payment feature title performance" = "素晴らしいパフォーマンス";
+"payment feature desc performance" = "新しいクラウドソリューションで、デバイスやインターネット接続の速度を快適に保ちます。";
+"payment feature title battery" = "バッテリー持ちへの影響なし";
+"payment feature desc battery" = "Blokada Cloud を使っていない状態と、バッテリー寿命は変わりません。";
+"payment feature title devices cloud" = "複数デバイス";
+"payment feature desc devices cloud" = "1 つの Blokada Cloud サブスクリプションをすべてのデバイスで共有できます。モバイルアプリまたはウェブダッシュボードから設定してください。";
+"payment feature title cloud vpn" = "Cloud & VPN";
+"payment feature desc cloud vpn" = "Blokada Cloud のすべての機能をお楽しみください。";
 "payment feature title faster connection" = "より高速な接続";
 "payment feature desc faster connection" = "世界のさまざまな地域のサーバーで最高100Mbpsのスピードを実現します。";
 "payment feature title devices" = "最大5台のデバイス";
 "payment feature desc devices" = "1つのアカウントで最大5つのデバイス（iOS、Android、PC）を使用できます。";
+"payment feature title no ads" = "広告ブロック";
+"payment feature desc no ads" = "Blokada の広告ブロック技術を使用して、デバイス上の広告をブロックします。高度な設定が可能です。";
 "payment feature title support" = "丁寧なサポート";
 "payment feature desc support" = "当社のカスタマーサポートと活気のあるオープンソースコミュニティのおかげで、質問に迅速に対応できます。";
 "payment action see all features" = "すべての機能を見る";
@@ -409,6 +421,13 @@
 
 "payment euro desc" = "私たちはヨーロッパを拠点としているため、ユーロでお支払いいただいています。10ユーロはおよそ12ドルです。";
 "payment donate disclaimer" = "これにより、Blokada Plus アカウントは有効化されません。VPN サービスを利用したい場合は、寄付の代わりにサブスクリプションにご登録ください。";
+
+"payment action compare" = "プランを比較";
+"payment plan slugline cloud" = "広告とトラッカーをブロック";
+"payment plan slugline plus" = "VPN による追加保護";
+"payment plan cta trial" = "7 日間の無料トライアルを始める";
+"payment plan cta monthly" = "月額プラン";
+"payment plan cta annual" = "年額プラン";
 
 "apps section header" = "アプリ";
 "apps label installed" = "インストール済み";
