@@ -4,10 +4,12 @@
     <string name="home_touch">Trykk eller hold inn for å sette opp</string>
     <string name="home_blokada_disabled">Blokada er satt på pause</string>
     <string name="home_blokada_active">Blokada er aktiv</string>
+    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
     <string name="home_blokada_inactive">Blokada er deaktivert</string>
     <string name="home_activating">Aktiverer</string>
     <string name="home_please_wait">Vennligst vent...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada er aktiv i DNS-modus</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
@@ -18,6 +20,7 @@
     <string name="home_share">Fortell vennene dine</string>
     <string name="home_share_state">Del din Blokada-poengsum</string>
     <string name="home_share_state_google">Hjelp andre å lære om Blokada</string>
+    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
     <string name="home_adblocking_enabled">Annonseblokkering er aktiv</string>
     <string name="home_adblocking_disabled">Annonseblokkering er deaktivert</string>
     <string name="home_blokadaorg">Du bruker Blokada Slim</string>
@@ -27,9 +30,20 @@
     <string name="home_update_required">Oppdatering påkrevd</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Doner</string>
+    <string name="home_vpn_enabled">Blokada Plus is active</string>
+    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
     <string name="home_account_active">Kontoen din er fortsatt aktiv</string>
+    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
     <string name="home_cleanup">Opprydding anbefales</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Connected to Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
+    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
+    <string name="home_account_error">Could not verify account. Are you online?</string>
+    <string name="home_permission_error">Please grant VPN permissions.</string>
+    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
+    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
+    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Reklame</string>
     <string name="menu_ads_live_label">Vertslogg over tillatte og blokkerte forespørsler</string>
@@ -40,23 +54,43 @@
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Vennligst aktiver kontoen din først.</string>
+    <string name="menu_vpn_select_gateway">Please select a gateway.</string>
+    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">My Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
+    <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Enheter</string>
+    <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
+    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
     <string name="menu_vpn_restore_label">Her kan du gjenopprette den eksisterende kontoen din hvis du for eksempel har installert appen på nytt.</string>
+    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
     <string name="menu_vpn_account_label">For å bruke VPN, trenger du en aktiv konto. Sjekk eller gjenopprett kontoen din her.</string>
+    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
+    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
     <string name="menu_vpn_support_button">Brukerstøtte</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
     <string name="menu_vpn_info_account_label">Har jeg en konto?</string>
+    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
+    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
+    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
+    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
     <string name="menu_dns_recommended">Anbefalte DNS-servere</string>
     <string name="menu_dns_intro">DNS er ansvarlig for å oversette IP-adresser til nettsteder og apper du bruker. Hvis du velger en god DNS, kan det øke hastigheten på enheten din og vil beskytte personvernet ditt.</string>
     <string name="menu_dns_select">Velg en av DNS-serverne.</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
+    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
     <string name="menu_host_list_intro">Vertslister inneholder oppføringer for å blokkere reklamer, sporere, og annet. Prøv å hold antallet aktive lister lavt.</string>
     <string name="menu_host_adblocking_features">Blokada-laboratoriet</string>
     <string name="menu_host_adblocking_settings">Annonseblokkeringsinnstillinger</string>
     <string name="menu_host_list_status">Listestatus</string>
     <string name="menu_host_list_download">Listenedlastingsinnstillinger</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Annet</string>
     <string name="menu_share_log_label">Deling logg lar oss finne årsaken til problemet ditt. Forsikre deg om at du sender det privat til et av Blokada kjerneteammedlemmer.</string>

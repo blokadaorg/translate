@@ -8,6 +8,7 @@
     <string name="tunnel_config_refetch_toast">Transferência de listas começou</string>
     <string name="tunnel_config_refetch_now_description">Use o botão abaixo para remover os ficheiros temporários e fazer download novamente das suas listas. Isto pode ajudar se tiver algum problema com a sua filtragem.</string>
     <string name="tunnel_config_refetch_frequency_title">Frequência de transferência das listas</string>
+    <string name="tunnel_config_refetch_frequency_description">Select one of the options to configure how often the app should download your lists.</string>
     <string name="tunnel_config_refetch_frequency_1">Uma vez por dia</string>
     <string name="tunnel_config_refetch_frequency_2">Duas vezes por semana</string>
     <string name="tunnel_config_refetch_frequency_3">Uma vez por semana</string>
@@ -18,11 +19,15 @@
     <string name="tunnel_config_watchdog_title">Watchdog</string>
     <string name="tunnel_config_watchdog_description">Ative esta opção se desejar que a aplicação ative a VPN apenas quando existir conectividade, e reiniciar o túnel em caso de existir problemas de ligação. Isto pode ajudar em alguns dispositivos.</string>
     <string name="tunnel_config_powersave_title">Acordar agressivo</string>
+    <string name="tunnel_config_powersave_description">Activate this switch if you experience problems caused by your device\'s powersave feature. When the app detects tunnel connectivity problems, it will attempt to raise its priority to bring it out of the powersaving mode.</string>
     <string name="tunnel_config_reports_title">Relatórios</string>
     <string name="tunnel_config_reports_description">Ative esta opção para permitir que a aplicação envie relatórios, para nos ajudar a corrigir problemas e bugs. Isto só ira acontecer uma vez por dia ou quando a aplicação falhar. Desativar isto pode dificultar a resolução de qualquer problema que possa encontrar. Pode ser necessário reiniciar a aplicação para que a configuração seja aplicada.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Regras avançadas de bloqueio de publicidade</string>
     <string name="tunnel_config_wildcard_description">Ative esta opção se desejar utilizar wildcards nas suas regras de filtragem. Por exemplo, adicionar uma regra para *.google.com bloquearia todos os domínios do Google. Isto pode ter um impacto negativo na vida útil da bateria. Note que esta é uma funcionalidade experimental, e pode não funcionar corretamente.</string>
+    <string name="tunnel_config_cname_title">[BETA] CName-Blocking</string>
+    <string name="tunnel_config_cname_description">Activate this switch if you want to block all CNames for the domains on your block lists. A CName is an alias for a domain, which is used by some advertiser to hide this domain behind a often changing or less obvious domain. This tactic can be circumvented by blocking all CNames that would resolve to the blocked domain. Please note that this is an experimental feature, and may not work properly.</string>
     <string name="tunnel_config_fallback_title">DNS secundário</string>
+    <string name="tunnel_config_fallback_description">Activate this switch if you are losing Internet access in some situations, like your WiFi. This will make the app temporarily switch to Cloudflare or Google DNS to sustain your connectivity. You may need to re-select your servers in the DNS section for this setting to take effect.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Lista Inteligente</string>
     <string name="tunnel_config_smartlist_reset_btn">Pré-definições</string>
     <string name="tunnel_config_smartlist_clean_btn">Limpar</string>

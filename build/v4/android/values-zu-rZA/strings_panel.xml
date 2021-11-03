@@ -25,16 +25,24 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">Kuvinjwe &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Le domain ivunyelwe. Ukuze uyivumele, sebenzisa inkinobho esezansi.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">This domain was not correctly resolved by the DNS server. Either the server blocked the domain or it doesn\'t exist.</string>
+    <string name="panel_domain_blocked_error_desc">Something went wrong while resolving this domain, The DNS server answered with a error code.</string>
+    <string name="panel_domain_blocked_cname_desc">This domain was blocked because it\'s a CName for a blocked domain. To allow it in the future you can either add the CName or the domain itself to the allowed hosts.</string>
     <string name="panel_domain_blocked_toast">Faka kuhla olwezinhlelo ezivinjiwe.</string>
     <!-- Action to copy domain name to clipboard -->
+    <string name="panel_domain_copy">Copy</string>
+    <string name="panel_domain_copied">Copied to clipboard</string>
     <string name="panel_ruleset">Isibalo sezihlungo</string>
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Izihlungo zinemithetho engu-%s.</string>
     <string name="panel_ruleset_updating">Kuvuselelwa izihlungo...</string>
+    <string name="panel_ruleset_canfit">Filters are now configured with &lt;b&gt;%s&lt;/b&gt; rules. Your device allows max &lt;b&gt;%s&lt;/b&gt; MB of memory for every application, and up to &lt;b&gt;%s&lt;/b&gt; rules can fit into it.&lt;br&gt;Remember, this is just an estimate and Blokada utilises the most memory when it merges the lists. If you enabled a few of them recently, wait a few minutes for the system to free up memory.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Vumela</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Allow CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Allow Domain</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Vimba</string>
     <string name="slot_action_close">Vala</string>
@@ -79,6 +87,9 @@
     <string name="slot_allapp_whitelisted">Ivunyelwe</string>
     <string name="slot_allapp_normal">Ayivunyelwe</string>
     <string name="slot_allapp_whitelist">Vumela</string>
+    <string name="slot_action_set">Set</string>
+    <string name="slot_whitelist_all">Bypass all apps</string>
+    <string name="slot_blacklist_all">Do not bypass any apps</string>
     <string name="slot_dns_name">I-DNS ivuliwe</string>
     <string name="slot_dns_name_private">I-DNS yangokwezifiso iyasebenza</string>
     <string name="slot_dns_name_disabled">I-DNS ivaliwe</string>
@@ -103,6 +114,8 @@
     <string name="slot_filters_title">Uhla lwezihlungi</string>
     <string name="slot_filters_description">Ungavumelanisa uhla lwezihlungi namaseva ethu ngaphandle kokulahlekelwa imibhalo yakho. &lt;br/&gt;&lt;br/&gt;Ngaphandle kwalokho, ungasusa yonke imininingwane (yonke nemibhalo yakho), uphinde ulayishe kabusha.</string>
     <string name="slot_blocked_normal_title">Isizinda sivaliwe</string>
+    <string name="slot_blocked_answer_title">Domain not resolved</string>
+    <string name="slot_blocked_cname_title">CName blocked</string>
     <string name="slot_forwarded_title">Isizinda sidlulisiwe</string>
     <string name="slot_whitelist_title">Uhlelo luvunyelwe</string>
     <string name="slot_list_no_desc">Lokhu akuna ncazelo.</string>
@@ -110,6 +123,8 @@
     <string name="slot_action_deactivate">Vala</string>
     <string name="slot_action_activate">Vula</string>
     <string name="slot_update_action_refresh">Hlola futhi</string>
+    <string name="slot_telegram_title">Join us!</string>
+    <string name="slot_telegram_desc">Visit our community for help or just to be part of it.</string>
     <string name="slot_telegram_action">Vula</string>
     <string name="slot_dropped_share_title">Yabelana ngakho</string>
     <string name="slot_adblocking_label">Vimbela izikhangiso nabathrekhi</string>
@@ -117,6 +132,7 @@
     <string name="slot_account_label_active">I-Akhawunti izosebenza kuze kube %s</string>
     <string name="slot_account_label_inactive">I-akhawunti ayisebenzi</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Manage subscription</string>
     <string name="slot_account_action_manage_inactive">Yenza i-akhawunti isebenze</string>
     <string name="slot_account_action_change_id">Buyisela i-akhawunti</string>
     <string name="slot_account_show">Isikhombi se-akhawunti</string>
@@ -128,7 +144,10 @@
     <string name="slot_gateway_section_overloaded">Lawo masango alayishwe kakhulu futhi awatholakali okwesikhashana.</string>
     <string name="slot_gateway_description">Ukusebenza: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;I-IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Isifunda: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_gateway_overloaded">Lelisango lisabhizi futhi alikwazi ukwamukela ukuxhumana okusha.</string>
+    <string name="slot_gateway_learn_more">Learn more about gateways</string>
+    <string name="slot_gateway_info_partner">What are partner gateways?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Control which of your devices connect to Blokada Plus.</string>
     <string name="slot_lease_name_current">%s (le divayisi)</string>
     <string name="slot_lease_description">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">I-ID yedivayisi: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Le idivayisi oyisebenzisayo.</string>
@@ -137,6 +156,7 @@
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">phansi</string>
     <string name="subscription_success">I-Akhawunti yakho iyavulwa. Kuzothatha imizuzwana. Siyabonga!</string>
+    <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
     <string name="slot_recommended_dns_label">Sebenzisa amaseva eDNS aphakamisiwe</string>
     <string name="slot_recommended_dns_description">Uma inikwe amandla, iBlokada izokhetha ngokuzenzakalelayo amaseva aphakamisiwe we-DNS ukusiza ukusheshisa i-Intanethi yakho nokuvikela ubumfihlo bakho. Ngaphandle kwalokho, kusetshenziswa iziphakeli ze-DNS zenethiwekhi yakho ezenzakalelayo. Uma ukhetha amaseva we-DNS esigabeni Esithuthukisiwe, lokhu kulungiselelwa akunakwa.</string>
     <string name="slot_update_no_updates">I-Blokada isesikhathini</string>
@@ -165,6 +185,8 @@
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Kubukeka sengathi kunezinguqulo eziningi zeBlokada ezifakwe kwidivayisi yakho. Ungathanda ukususa ezinye izinguqulo bese ugcine eyodwa kuphela?</string>
     <string name="account_inactive">Uyacelwa ukuthi uvule noma ubuyisele i-akhawunti yakho ukuze uqhubeke.</string>
+    <string name="slot_lease_cant_connect">Could not connect to Blokada Plus. Try selecting another gateway.</string>
+    <string name="slot_account_cant_create">Could not create your Blokada Plus account. Please try again later or contact us.</string>
     <string name="slot_account_name_title">I-ID ye-akhawunti</string>
     <string name="slot_account_name_desc">Faka i-ID yakho ye-akhawunti endala ukuze ubuyisele ukubhalisa kwakho kwangaphambilini. Ungafuna ukubhala phansi i-ID yakho ye-akhawunti yamanje ngaphambi kokuyenza, uma ngabe kwenzeka iphutha.</string>
     <string name="slot_account_name_error">I-ID ye-Akhawunti ingaqukatha izinhlamvu nezinombolo kuphela.</string>
@@ -183,4 +205,7 @@
     <string name="slot_reset_counter_label">Setha kabusha umgcinisibalo ovinjiwe</string>
     <string name="slot_reset_counter_description">Imisa isibali esikhombisa izicelo ezivinjiwe zibe 0.</string>
     <string name="slot_reset_counter_action">Setha kabusha</string>
+    <string name="label_workarounds">Device-specific workarounds</string>
+    <string name="slot_dns_answer_label">Alternative DNS answer</string>
+    <string name="slot_dns_answer_description">Changes the answer Blokada sends for blocked requests from \"host not found\" to an invalid ip. This can help on some ROMs which query other DNS servers if they get a \"host not found\" answer. Please note that this might slow down some apps which try to connect to the invalid address.</string>
 </resources>

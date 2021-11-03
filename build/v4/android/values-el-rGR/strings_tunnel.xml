@@ -8,6 +8,7 @@
     <string name="tunnel_config_refetch_toast">Ξεκίνησε η λήψη λιστών</string>
     <string name="tunnel_config_refetch_now_description">Χρησιμοποιήστε το παρακάτω κουμπί για να καταργήσετε την προσωρινή μνήμη και να κατεβάσετε ξανά τις λίστες σας. Αυτό μπορεί να σας βοηθήσει εάν αντιμετωπίσετε προβλήματα με το φιλτράρισμα.</string>
     <string name="tunnel_config_refetch_frequency_title">Συχνότητα λήψης των λιστών</string>
+    <string name="tunnel_config_refetch_frequency_description">Select one of the options to configure how often the app should download your lists.</string>
     <string name="tunnel_config_refetch_frequency_1">Μία φορά την ημέρα</string>
     <string name="tunnel_config_refetch_frequency_2">Δύο φορές την εβδομάδα</string>
     <string name="tunnel_config_refetch_frequency_3">Μία φορά την εβδομάδα</string>
@@ -18,11 +19,15 @@
     <string name="tunnel_config_watchdog_title">Φρουρός</string>
     <string name="tunnel_config_watchdog_description">Ενεργοποιήστε αυτόν τον διακόπτη εάν θέλετε η εφαρμογή να ενεργοποιήσει το VPN μόνο εάν υπάρχει σύνδεση στο Διαδίκτυο και επανεκκινήστε το τούνελ σε περίπτωση που υπάρχουν προβλήματα συνδεσιμότητας. Αυτό μπορεί να βοηθήσει σε ορισμένες συσκευές.</string>
     <string name="tunnel_config_powersave_title">Επιθετικό ξύπνημα</string>
+    <string name="tunnel_config_powersave_description">Activate this switch if you experience problems caused by your device\'s powersave feature. When the app detects tunnel connectivity problems, it will attempt to raise its priority to bring it out of the powersaving mode.</string>
     <string name="tunnel_config_reports_title">Αναφορές</string>
     <string name="tunnel_config_reports_description">Ενεργοποιήστε αυτόν τον διακόπτη για να επιτρέψετε στην εφαρμογή να στέλνει αναφορές που μας βοηθούν να διορθώσουμε προβλήματα και σφάλματα. Αυτό θα συμβεί μόνο μία φορά την ημέρα ή όταν η εφαρμογή διακοπεί. Η απενεργοποίηση μπορεί να μας δυσκολεύει να λύσουμε τυχόν προβλήματα που ενδέχεται να αντιμετωπίζετε. Ίσως χρειαστεί να κάνετε επανεκκίνηση της εφαρμογής για να τεθεί σε ισχύ αυτή η ρύθμιση.</string>
     <string name="tunnel_config_wildcard_title">[BETA] Σύνθετοι κανόνες αποκλεισμού διαφημίσεων</string>
     <string name="tunnel_config_wildcard_description">Ενεργοποιήστε αυτόν τον διακόπτη εάν θέλετε να χρησιμοποιήσετε χαρακτήρες μπαλαντέρ στους κανόνες φιλτραρίσματος. Για παράδειγμα, η προσθήκη ενός κανόνα για το *.google.com θα αποκλείσει όλους τους τομείς από την Google. Αυτό μπορεί να έχει αρνητικό αντίκτυπο στη διάρκεια ζωής της μπαταρίας. Λάβετε υπόψη ότι πρόκειται για πειραματική λειτουργία και ενδέχεται να μην λειτουργεί σωστά.</string>
+    <string name="tunnel_config_cname_title">[BETA] CName-Blocking</string>
+    <string name="tunnel_config_cname_description">Activate this switch if you want to block all CNames for the domains on your block lists. A CName is an alias for a domain, which is used by some advertiser to hide this domain behind a often changing or less obvious domain. This tactic can be circumvented by blocking all CNames that would resolve to the blocked domain. Please note that this is an experimental feature, and may not work properly.</string>
     <string name="tunnel_config_fallback_title">Εναλλαγή DNS</string>
+    <string name="tunnel_config_fallback_description">Activate this switch if you are losing Internet access in some situations, like your WiFi. This will make the app temporarily switch to Cloudflare or Google DNS to sustain your connectivity. You may need to re-select your servers in the DNS section for this setting to take effect.</string>
     <string name="tunnel_config_smartlist_title">[BETA] Έξυπνη λίστα</string>
     <string name="tunnel_config_smartlist_reset_btn">Επαναφορά</string>
     <string name="tunnel_config_smartlist_clean_btn">Εκκαθάριση</string>

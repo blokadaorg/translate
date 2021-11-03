@@ -8,6 +8,7 @@
     <string name="tunnel_config_refetch_toast">已开始下载列表</string>
     <string name="tunnel_config_refetch_now_description">删除缓存并重新下载列表。如果广告过滤遇到任何问题, 这可能会有所帮助。</string>
     <string name="tunnel_config_refetch_frequency_title">列表下载频率</string>
+    <string name="tunnel_config_refetch_frequency_description">Select one of the options to configure how often the app should download your lists.</string>
     <string name="tunnel_config_refetch_frequency_1">每天一次</string>
     <string name="tunnel_config_refetch_frequency_2">每周两次</string>
     <string name="tunnel_config_refetch_frequency_3">每周一次</string>
@@ -18,11 +19,15 @@
     <string name="tunnel_config_watchdog_title">Watchdog</string>
     <string name="tunnel_config_watchdog_description">如果希望应用程序仅在具有Internet连接的情况下才激活VPN，请激活此开关，并在出现连接问题时重新启动隧道。 这可能对某些设备有所帮助。</string>
     <string name="tunnel_config_powersave_title">主动唤醒</string>
+    <string name="tunnel_config_powersave_description">Activate this switch if you experience problems caused by your device\'s powersave feature. When the app detects tunnel connectivity problems, it will attempt to raise its priority to bring it out of the powersaving mode.</string>
     <string name="tunnel_config_reports_title">报告</string>
     <string name="tunnel_config_reports_description">打开此开关，允许应用程序发送报告，用于帮助我们解决问题和错误。报告将每天或者当应用崩溃时发送一次。禁用此项可能使我们难以解决您可能遇到的任何问题。您可能需要重启此应用程序才能使设置生效。</string>
     <string name="tunnel_config_wildcard_title">[BETA] 高级广告屏蔽规则</string>
     <string name="tunnel_config_wildcard_description">如果希望在过滤规则中使用通配符，请激活此开关。 例如，为*.google.com添加规则将阻止Google的所有域。 这可能会对电池寿命产生负面影响。 请注意，这是一项实验性功能，可能无法正常运行。</string>
+    <string name="tunnel_config_cname_title">[BETA] CName-Blocking</string>
+    <string name="tunnel_config_cname_description">Activate this switch if you want to block all CNames for the domains on your block lists. A CName is an alias for a domain, which is used by some advertiser to hide this domain behind a often changing or less obvious domain. This tactic can be circumvented by blocking all CNames that would resolve to the blocked domain. Please note that this is an experimental feature, and may not work properly.</string>
     <string name="tunnel_config_fallback_title">DNS错误</string>
+    <string name="tunnel_config_fallback_description">Activate this switch if you are losing Internet access in some situations, like your WiFi. This will make the app temporarily switch to Cloudflare or Google DNS to sustain your connectivity. You may need to re-select your servers in the DNS section for this setting to take effect.</string>
     <string name="tunnel_config_smartlist_title">[BETA] 智能列表</string>
     <string name="tunnel_config_smartlist_reset_btn">重置</string>
     <string name="tunnel_config_smartlist_clean_btn">清除</string>

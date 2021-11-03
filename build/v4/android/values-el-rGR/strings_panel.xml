@@ -26,6 +26,8 @@
     <string name="panel_domain_blocked">Αποκλεισμένο &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Αυτός ο τομέας έχει αποκλειστεί. Για να το επιτρέψετε στο μέλλον, χρησιμοποιήστε το παρακάτω κουμπί.</string>
     <string name="panel_domain_blocked_nxdomain_desc">Αυτός ο τομέας δεν επιλύθηκε σωστά από το διακομιστή DNS. Είτε ο διακομιστής απέκλεισε τον τομέα είτε δεν υπάρχει.</string>
+    <string name="panel_domain_blocked_error_desc">Something went wrong while resolving this domain, The DNS server answered with a error code.</string>
+    <string name="panel_domain_blocked_cname_desc">This domain was blocked because it\'s a CName for a blocked domain. To allow it in the future you can either add the CName or the domain itself to the allowed hosts.</string>
     <string name="panel_domain_blocked_toast">Προστέθηκε στη μαύρη λίστα.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Αντιγραφή</string>
@@ -38,7 +40,9 @@
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Αποδοχή</string>
     <!-- Button to allow blocked cname -->
+    <string name="slot_action_allow_cname">Allow CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
+    <string name="slot_action_allow_domain">Allow Domain</string>
     <!-- Button to block allowed domain -->
     <string name="slot_action_block">Αποκλεισμός</string>
     <string name="slot_action_close">Κλείσιμο</string>
@@ -70,31 +74,138 @@
     <string name="slot_enter_domain_no_file">Δεν βρέθηκαν αρχεία στο /Download/blokada/filters</string>
     <string name="slot_enter_file_titel">Όνομα αρχείου</string>
     <string name="slot_enter_file_import">Εισαγωγή</string>
+    <string name="slot_enter_file_desc">Input partial filename</string>
+    <string name="slot_enter_file_not_found">No filename containing your input</string>
+    <string name="slot_enter_file_multi">Multiple files match your input</string>
+    <string name="slot_enter_name_title">Name</string>
+    <string name="slot_enter_name_desc">Enter name for the new entry. You can also generate a suggested name.</string>
     <string name="slot_enter_name_error">Αυτό δεν μου μοιάζει με κάτι.</string>
+    <string name="slot_enter_name_generate">Generate</string>
+    <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; is whitelisted</string>
+    <string name="slot_app_desc">This app is whitelisted, which means no blocking or filtering is performed on it.</string>
+    <string name="slot_allapp_desc">You can make this app bypass Blokada in order to stop blocking any traffic for it. Remember, bypassed apps communicate outside of the VPN.</string>
+    <string name="slot_allapp_whitelisted">Bypassed</string>
+    <string name="slot_allapp_normal">Not bypassed</string>
+    <string name="slot_allapp_whitelist">Bypass</string>
+    <string name="slot_action_set">Set</string>
+    <string name="slot_whitelist_all">Bypass all apps</string>
+    <string name="slot_blacklist_all">Do not bypass any apps</string>
+    <string name="slot_dns_name">DNS is active</string>
+    <string name="slot_dns_name_private">Custom DNS is active</string>
+    <string name="slot_dns_name_disabled">DNS is deactivated</string>
+    <string name="slot_action_none">This action is not available yet.</string>
     <string name="slot_action_unwhitelist">Ακυρωσε</string>
+    <string name="slot_action_author">About</string>
     <!-- A prefix for generated name for manually entered domain.  -->
+    <string name="slot_input_suggestion">An entry</string>
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
+    <string name="slot_input_suggestion_for">An entry for %s</string>
+    <string name="slot_dns_control_title">DNS servers list</string>
+    <string name="slot_dns_control_description">You can sync the DNS servers list with our servers without losing your custom entries. &lt;br/&gt;&lt;br/&gt;Alternatively, you can drop all entries (including yours), and download them again.</string>
     <!-- A button to synchronize (fetch) lists  -->
+    <string name="slot_action_refresh">Sync</string>
+    <string name="slot_action_refresh_toast">Sync started</string>
+    <string name="slot_action_restore">Drop</string>
+    <string name="slot_export_title">Settings location</string>
+    <string name="slot_export_description">You can change where the configuration is saved to (and loaded from). If you are importing existing settings, please select Import first, otherwise they will be overwritten.</string>
     <string name="slot_action_import">Εισαγωγή</string>
+    <string name="slot_action_internal">Internal Storage</string>
+    <string name="slot_action_external">External Storage</string>
+    <string name="slot_filters_title">Filters list</string>
+    <string name="slot_filters_description">You can sync the filters list with our servers without losing your custom entries. &lt;br/&gt;&lt;br/&gt;Alternatively, you can drop all entries (including yours), and download them again.</string>
+    <string name="slot_blocked_normal_title">Domain blocked</string>
+    <string name="slot_blocked_answer_title">Domain not resolved</string>
+    <string name="slot_blocked_cname_title">CName blocked</string>
+    <string name="slot_forwarded_title">Domain forwarded</string>
+    <string name="slot_whitelist_title">Whitelisted app</string>
+    <string name="slot_list_no_desc">This entry does not have any description.</string>
+    <string name="slot_status_info">When the app is Active, you will see the key icon in the notification bar at the top of the screen, which means your device is protected. You can turn the app off using the button below, or by swiping down the bottom menu.</string>
+    <string name="slot_action_deactivate">Turn off</string>
+    <string name="slot_action_activate">Turn on</string>
+    <string name="slot_update_action_refresh">Check again</string>
+    <string name="slot_telegram_title">Join us!</string>
+    <string name="slot_telegram_desc">Visit our community for help or just to be part of it.</string>
+    <string name="slot_telegram_action">Open</string>
+    <string name="slot_dropped_share_title">Share to</string>
+    <string name="slot_adblocking_label">Block ads &amp; trackers</string>
+    <string name="slot_adblocking_text">When enabled, Blokada will block ads, trackers, and other unwanted content. This helps to protect your privacy, speed up your device and save your data.</string>
+    <string name="slot_account_label_active">Account active until %s</string>
+    <string name="slot_account_label_inactive">Account inactive</string>
     <!-- Action to manage active subscription. Keep it short -->
+    <string name="slot_account_action_manage">Manage subscription</string>
+    <string name="slot_account_action_manage_inactive">Activate account</string>
+    <string name="slot_account_action_change_id">Restore account</string>
     <string name="slot_account_show">Αναγνωριστικό λογαριασμού</string>
+    <string name="slot_account_action_copied">Account ID copied to the clipboard</string>
+    <string name="slot_account_action_unavailable">[not set]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
+    <string name="slot_gateway_label">Connect to %s</string>
+    <string name="slot_gateway_section_partner">Partner gateways provide additional locations. They are not fully managed by Blokada, but they do not have access to your encrypted traffic.</string>
+    <string name="slot_gateway_section_overloaded">Those gateways are overloaded and temporarily unavailable.</string>
+    <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">This gateway is busy and does not accept new connections.</string>
+    <string name="slot_gateway_learn_more">Learn more about gateways</string>
+    <string name="slot_gateway_info_partner">What are partner gateways?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
+    <string name="slot_leases_info">Control which of your devices connect to Blokada Plus.</string>
+    <string name="slot_lease_name_current">%s (this device)</string>
+    <string name="slot_lease_description">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This is your current device.</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_low">high</string>
     <!-- Gateway load -->
+    <string name="slot_gateway_load_high">low</string>
+    <string name="subscription_success">Your account is being activated. This may take a few seconds. Thank you!</string>
+    <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
+    <string name="slot_recommended_dns_label">Use recommended DNS servers</string>
+    <string name="slot_recommended_dns_description">When enabled, Blokada will automatically choose recommended DNS servers to help speed up your Internet and protect your privacy. Otherwise, default DNS servers of your network are used. If you manually choose DNS servers in the Advanced section, this setting is ignored.</string>
+    <string name="slot_update_no_updates">Blokada is up to date</string>
+    <string name="slot_about">About Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
+    <string name="slot_about_share_log">Log</string>
+    <string name="slot_help_label">Need help?</string>
+    <string name="slot_help_desc">Tap the button below to open our help page. You can also use our social media to get help - we are on Telegram, Facebook, Reddit and Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Βοήθεια</string>
+    <string name="slot_donate_label">Enjoying Blokada? Consider supporting us, so we can keep improving the app.</string>
+    <string name="slot_donate_desc">Help us introduce new features! Touch here for more.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Κάντε μια δωρεά</string>
+    <string name="slot_cta_label">Psst! We would like to know your opinion.</string>
+    <string name="slot_cta_desc">Show your support by participating in our surveys and other events. We regularly reach out to our community for feedback about ideas and new development, in order to make sure we are working on what you want to see.</string>
     <!-- A button to open something (a website) -->
+    <string name="slot_cta_action">Open</string>
+    <string name="slot_blog_label">Check out our development Blog!</string>
+    <string name="slot_blog_desc">The Block is where we write about the development of the project, future plans, and discuss ideas.</string>
     <!-- A button to open a blog -->
+    <string name="slot_blog_action">Open</string>
+    <string name="slot_updated_desc">Touch here for intro to this release.</string>
     <!-- A button to open a description website of current app version after update. -->
+    <string name="slot_obsolete_desc">Your version of Blokada is obsolete and may not work correctly. Please download the newest version to keep receiving updates.</string>
     <!-- A button to update the app. -->
+    <string name="slot_cleanup_desc">There seems to be many versions of Blokada installed on your device. Would you like to remove the other versions and keep just one?</string>
+    <string name="account_inactive">Please activate or restore your account to continue.</string>
+    <string name="slot_lease_cant_connect">Could not connect to Blokada Plus. Try selecting another gateway.</string>
+    <string name="slot_account_cant_create">Could not create your Blokada Plus account. Please try again later or contact us.</string>
     <string name="slot_account_name_title">Αναγνωριστικό λογαριασμού</string>
+    <string name="slot_account_name_desc">Enter your old account ID in order to restore your previous subscription. You may want to write down your current account ID before doing it, in case you make a mistake.</string>
+    <string name="slot_account_name_error">Account ID can only contain letters and numbers.</string>
+    <string name="slot_account_name_api_error">This account ID does not seem to be correct.</string>
+    <string name="slot_account_name_restore">Restore</string>
+    <!-- A section in advanced settings. -->
+    <string name="label_basic">Primary settings</string>
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
     <!-- A section in advanced settings. -->
-    <!-- A section in advanced settings. -->
+    <string name="label_advanced">Advanced settings</string>
+    <string name="slot_whitelist_updating">Updating configuration, please wait...</string>
+    <string name="slot_too_many_leases">Please remove old device from your list of devices.</string>
+    <string name="slot_background_animation">Background animation</string>
+    <string name="slot_background_animation_description">When on, waves will animate each time a DNS request is blocked or allowed. Turn off if you experience slowdowns.</string>
+    <string name="slot_reset_counter_label">Reset blocked host counter</string>
+    <string name="slot_reset_counter_description">Sets the counter showing how many requests where blocked back to 0.</string>
     <string name="slot_reset_counter_action">Επαναφορά</string>
+    <string name="label_workarounds">Device-specific workarounds</string>
+    <string name="slot_dns_answer_label">Alternative DNS answer</string>
+    <string name="slot_dns_answer_description">Changes the answer Blokada sends for blocked requests from \"host not found\" to an invalid ip. This can help on some ROMs which query other DNS servers if they get a \"host not found\" answer. Please note that this might slow down some apps which try to connect to the invalid address.</string>
 </resources>

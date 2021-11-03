@@ -12,7 +12,13 @@
     <!-- Displayed in the home screen whenever there is no update. Keep it short. -->
     <!-- Displayed in menu to open the About/Update screen. -->
     <!-- A button that opens system preferences for this app. -->
+    <string name="update_button_appinfo">App details</string>
     <!-- A button that opens the changelog. -->
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">শুরু করা হচ্ছে&#8230;</string>
+    <string name="update_progress">Downloading: %s%%</string>
+    <string name="update_complete">Download complete</string>
+    <string name="update_failed">Download failed</string>
+    <string name="update_instruction">When finished, you will be asked to allow Blokada to install the update.</string>
+    <string name="update_instruction_failed">Tap here to try again, or long tap to download with your browser instead.</string>
 </resources>

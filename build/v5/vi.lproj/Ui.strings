@@ -145,6 +145,7 @@
 "home status detail progress" = "vui lòng chờ...";
 
 "home plus button deactivated" = "BLOKADA+ đã ngừng hoạt động";
+"home plus button deactivated cloud" = "VPN deactivated";
 "home plus button select location" = "Chọn vị trí";
 "home plus button location" = "Vị trí: *%@*";
 
@@ -263,6 +264,7 @@
 "account section header settings" = "Cài đặt";
 "account status text" = "Tài khoản BLOKADA %@ của bạn được kích hoạt cho đến %@.";
 "account status text libre" = "Tài khoản BLOKADA Libre của bạn sẽ hoạt động mãi mãi.";
+"account status text inactive" = "Your BLOKADA account is inactive.";
 
 "account section header primary" = "Chính";
 "account section header other" = "Khác";
@@ -353,10 +355,22 @@
 "payment feature desc change location" = "Ẩn địa chỉ IP của bạn và giả vờ bạn đang ở một quốc gia khác. Điều này sẽ che giấu bạn khỏi các bên thứ ba và giúp bảo vệ danh tính của bạn.";
 "payment feature title encrypt data" = "Mã hóa dữ liệu";
 "payment feature desc encrypt data" = "Dữ liệu được gửi qua đường hầm VPN của chúng tôi được mã hóa bằng các thuật toán mạnh để bảo vệ khỏi sự đánh chặn của các bên trái phép.";
+"payment feature title encrypt dns" = "Encrypt DNS";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your queries private.";
+"payment feature title performance" = "Great Performance";
+"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
+"payment feature title battery" = "Zero Battery Impact";
+"payment feature desc battery" = "Your battery life is going to be the same, with or without Blokada Cloud activated.";
+"payment feature title devices cloud" = "Multiple Devices";
+"payment feature desc devices cloud" = "Set up all your devices under one Blokada Cloud subscription. Use our mobile apps or our web dashboard.";
+"payment feature title cloud vpn" = "Cloud & VPN";
+"payment feature desc cloud vpn" = "Enjoy all the features of Blokada Cloud. Additionally, get access to our VPN network.";
 "payment feature title faster connection" = "Kết nối nhanh hơn";
 "payment feature desc faster connection" = "Tốc độ tuyệt vời lên đến 100Mbps với các máy chủ ở nhiều nơi khác nhau trên Thế giới.";
 "payment feature title devices" = "Lên đến 5 thiết bị";
 "payment feature desc devices" = "Sử dụng cùng một tài khoản để chia sẻ đăng ký của bạn với tối đa 5 thiết bị: iOS, Android hoặc PC.";
+"payment feature title no ads" = "Block Ads";
+"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
 "payment feature title support" = "Hỗ trợ tuyệt vời";
 "payment feature desc support" = "Nhận được phản hồi nhanh chóng cho bất kỳ câu hỏi nào nhờ bộ phận Hỗ trợ khách hàng và cộng đồng nguồn mở sôi động của chúng tôi.";
 "payment action see all features" = "Xem tất cả các tính năng";
@@ -404,6 +418,13 @@
 
 "payment euro desc" = "Chúng tôi có trụ sở tại Châu Âu, vì vậy chúng tôi chấp nhận Euro: €10 tương đương với $12.";
 "payment donate disclaimer" = "Thao tác này sẽ không kích hoạt tài khoản Blokada Plus của bạn. Nếu bạn muốn sử dụng dịch vụ VPN của chúng tôi, vui lòng đăng ký thay vì ủng hộ.";
+
+"payment action compare" = "Compare plans";
+"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment plan slugline plus" = "Additional protection with VPN";
+"payment plan cta trial" = "Start 7-Day Free Trial";
+"payment plan cta monthly" = "Subscribe Monthly";
+"payment plan cta annual" = "Subscribe Annually";
 
 "apps section header" = "Ứng dụng";
 "apps label installed" = "Đã cài đặt";
@@ -574,3 +595,5 @@
 "stats requests subheader" = "Truy vấn theo thời gian";
 "stats top allowed header" = "Yêu cầu được cho phép hàng đầu";
 "stats top blocked header" = "Yêu cầu bị chặn hàng đầu";
+
+"dnsprofile desc" = "Blokada just created a DNS profile for you in Settings. Activate it in General -> VPN, DNS & Device Management -> DNS.";

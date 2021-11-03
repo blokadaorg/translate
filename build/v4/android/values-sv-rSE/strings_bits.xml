@@ -1,60 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_touch">Tap or hold to configure</string>
     <string name="home_blokada_disabled">Blokada är pausad</string>
     <string name="home_blokada_active">Blokada är aktivt</string>
+    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
     <string name="home_blokada_inactive">Blokada är inaktiverat</string>
     <string name="home_activating">Aktiverar</string>
     <string name="home_please_wait">Var god vänta...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_dns_only">Blokada is active in DNS mode</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s blocked since %s</string>
     <string name="home_masterswitch_enabled">Blokada är på</string>
+    <string name="home_masterswitch_waiting">Waiting for network...</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">Tipsa en vän</string>
     <string name="home_share_state">Dela dina Blokada-stats</string>
+    <string name="home_share_state_google">Help others to learn about Blokada</string>
+    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
     <string name="home_adblocking_enabled">Reklamfilter är aktivt</string>
     <string name="home_adblocking_disabled">Reklamfilter är inaktivt</string>
+    <string name="home_blokadaorg">You are using Blokada Slim</string>
+    <string name="home_blokadaorg_state">Tap to get the open source edition</string>
     <!-- A short text for the item that displays update information -->
     <string name="home_whats_new">Senaste nytt</string>
     <string name="home_update_required">Uppdatering krävs</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donera</string>
+    <string name="home_vpn_enabled">Blokada Plus is active</string>
+    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
     <string name="home_account_active">Ditt konto är fortfarande aktivt</string>
+    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
     <string name="home_cleanup">Städning rekommenderas</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Connected to Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
+    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
+    <string name="home_account_error">Could not verify account. Are you online?</string>
+    <string name="home_permission_error">Please grant VPN permissions.</string>
+    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
+    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
+    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Annonser</string>
     <string name="menu_ads_live_label">Nyligen tillåtna och filtrerade värdar</string>
     <string name="menu_ads_clear_log">Rensa värdlogg</string>
     <string name="menu_ads_lists_label">Välj listor att använda som filter. Standardvalet räcker i de flesta fall.</string>
     <string name="menu_ads_rules_label">Lägg till egna regler för att finjustera filtret.</string>
+    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Vänligen aktivera ditt konto först.</string>
     <string name="menu_vpn_select_gateway">Var god välj ett mellanhopp.</string>
+    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">My Blokada Plus</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Mellanhopp</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Enheter</string>
     <string name="menu_vpn_manage_subscription">Hantera din prenumeration</string>
+    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
     <string name="menu_vpn_restore_label">Här kan du återställa ditt tidigare konto ifall att du ominstallerade appen.</string>
+    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
+    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
     <string name="menu_vpn_gateways_label">Välj ett mellanhopp att ansluta till. Din enhet kommer att skicka all trafik via den platsen och öka din anonymitet gentemot sajter du besöker.</string>
+    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
     <string name="menu_vpn_support_button">Hjälp</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
     <string name="menu_vpn_tunnel_learn_more">Läs mer om Blokada Plus</string>
+    <string name="menu_vpn_info_account_label">Do I have an account?</string>
+    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
+    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
+    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
+    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
     <string name="menu_dns_recommended">Rekommenderade DNS-servrar</string>
     <string name="menu_dns_intro">DNS ansvarar för att översätta namn på sajter till IP-adresser. Att välja rätt DNS kan göra din enhet snabbare och skydda din integritet.</string>
     <string name="menu_dns_select">Välj en av DNS-servrarna.</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
     <string name="menu_apps_system_label">Systemappar är de appar som kom förinstallerade på din enhet. Vissa är helt gömda. Ändra endast i dessa inställningar om du har koll på vad du gör.</string>
     <string name="menu_host_list_intro">Filterlistor innehåller regler för att filtrera reklam och statistikinsamlingar. Försök att inte aktivera för många listor samtidigt.</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
+    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
     <string name="menu_host_list_status">Listans status</string>
     <string name="menu_host_list_download">Hämtningsinställningar</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Annat</string>
     <string name="menu_share_log_label">Att dela din logg hjälper oss att upptäcka orsaken till ditt problem. Se till att du skickar loggen privat till en medlem av Blokadas inre krets.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Läs mer</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Get help</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Bli delaktig</string>
     <string name="menu_telegram">Mötesplats</string>

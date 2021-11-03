@@ -4,13 +4,16 @@
     <string name="home_touch">Nastavte dotykom alebo podržaním</string>
     <string name="home_blokada_disabled">Blokada je pozastavená</string>
     <string name="home_blokada_active">Blokada je aktívna</string>
+    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
     <string name="home_blokada_inactive">Blokada je deaktivovaná</string>
     <string name="home_activating">Aktivácia</string>
     <string name="home_please_wait">Čakajte prosím...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
+    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada je aktívna v režime DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s blocked since %s</string>
     <string name="home_masterswitch_enabled">Blokada je aktívna</string>
     <string name="home_masterswitch_waiting">Čakanie na sieť...</string>
     <!-- A button to share the ads counter on social media -->
@@ -27,9 +30,14 @@
     <string name="home_update_required">Vyžadovaná aktualizácia</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Podporiť</string>
+    <string name="home_vpn_enabled">Blokada Plus is active</string>
+    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
     <string name="home_account_active">Váš účet je stále aktívny</string>
+    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
     <string name="home_cleanup">Odporúča sa vyčistenie</string>
     <!-- A short text for the button to change VPN settings -->
+    <string name="home_connected_vpn">Connected to Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
     <string name="home_blocka_vpn_error">Nepodarilo sa pripojiť k sieťovej bráne. Ste online?</string>
     <string name="home_account_error">Nepodarilo sa overiť účet. Ste online?</string>
     <string name="home_permission_error">Udeľte, prosím, VPN povolenia.</string>
@@ -44,9 +52,12 @@
     <string name="menu_ads_rules_label">Pridajte vlastné pravidlá pre doladenie blokovania.</string>
     <string name="menu_ads_log_label">Pozrite sa, čo bolo nedávno zablokované alebo povolené.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Najprv prosím aktivujte svoj účet.</string>
     <string name="menu_vpn_select_gateway">Vyberte prosím bránu.</string>
+    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">My Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Brány</string>
@@ -56,10 +67,13 @@
     <string name="menu_vpn_manage_subscription_unavailable">Pokiaľ je váš účet nový, navštívte našu webstránku. V Blokade Slim nie je možné zakúpiť predplatné.</string>
     <string name="menu_vpn_account_secret">Dotykom na váš avatar vyššie zistíte ID vášho účtu. Nezabudnite, že vaše ID je tajné a mali by ste si ho nechať pre seba. Zapíšte si ho v prípade, že odinštalujete aplikáciu.</string>
     <string name="menu_vpn_restore_label">Tu môžete obnoviť váš existujúci účet, ak ste napríklad aplikáciu znovu nainštalovali.</string>
+    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
     <string name="menu_vpn_account_label">Pre použitie VPN potrebujete aktívny účet. Tu môžete skontrolovať alebo obnoviť váš účet.</string>
     <string name="menu_vpn_gateways_label">Vyberte sieťovú bránu, ku ktorej sa chcete pripojiť. Vaše zariadenie bude posielať vaše zašifrované dáta bezpečne cez túto bránu a vy zostanete anonymní.</string>
     <string name="menu_vpn_support_label">Ak sa vyskytnú akékoľvek problémy, neváhajte nás kontaktovať.</string>
     <string name="menu_vpn_support_button">Podpora</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
     <string name="menu_vpn_info_account_label">Mám účet?</string>
     <string name="menu_vpn_info_account_line1">Áno! Váš účet je automaticky vytvorený po prvom spustení. Nemusíte sa registrovať.</string>
     <string name="menu_vpn_info_account_line2">Dotykom na váš avatar vyššie zobrazíte ID svojho účtu.</string>
@@ -68,12 +82,15 @@
     <string name="menu_dns_recommended">Odporúčané DNS servery</string>
     <string name="menu_dns_intro">DNS je zodpovedné za preklad IP adries webstránok a aplikácií, ktoré používate. Výber dobrého DNS môže zrýchliť vaše zariadenie a pomôže ochrániť vaše súkromie.</string>
     <string name="menu_dns_select">Vyberte jeden z DNS serverov.</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
     <string name="menu_apps_system_label">Systémové aplikácie sú tie, ktoré sú predinštalované na vašom zariadení. Niektoré z nich sú skryté. Upravujte ich iba v prípade, že viete, čo robíte.</string>
     <string name="menu_host_list_intro">Zoznamy hostov obsahujú pravidlá pre blokovanie reklám a trackerov. Snažte sa udržať počet aktívnych zoznamov nízky.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
     <string name="menu_host_adblocking_settings">Možnosti blokovania reklám</string>
     <string name="menu_host_list_status">Stav zoznamu</string>
     <string name="menu_host_list_download">Nastavenia sťahovania zoznamu</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Iné</string>
     <string name="menu_share_log_label">Zdieľanie záznamu nám dovoľuje zistiť príčinu vášho problému. Uistite sa, že ho posielate súkromne, jednému z členov tímu Blokada.</string>
