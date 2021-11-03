@@ -2,7 +2,9 @@
 <resources>
     <string name="logger_permission">Pertamanaya, sila berikan kebenaran penyimpanan.</string>
     <string name="logger_slot_title">Permintaan log</string>
+    <string name="logger_slot_desc">By default, requests are only stored internally in Blokada. If this feature is enabled, Blokada will create a CSV file and log requests that have been allowed and / or blocked by the app. Look for \"blokada\" folder on your external storage. Alternatively, request logging can be disabled entirely, with just the number of blocked domains being stored.</string>
     <string name="logger_slot_mode_off">Dimatikan</string>
+    <string name="logger_slot_mode_internal">Log to internal storage only</string>
     <string name="logger_slot_mode_allowed">Permintaan log dibenarkan</string>
     <string name="logger_slot_mode_denied">Permintaan log disekat</string>
     <string name="logger_slot_mode_all">Permintaan semua log</string>
