@@ -13,6 +13,7 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada DNS 모드 활성화됨</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
+    <string name="home_requests_blocked_since">%s blocked since %s</string>
     <string name="home_masterswitch_enabled">Blokada 켜짐</string>
     <string name="home_masterswitch_waiting">연결 대기 중...</string>
     <!-- A button to share the ads counter on social media -->
@@ -42,11 +43,14 @@
     <string name="home_permission_error">VPN 권한을 허용하세요.</string>
     <string name="home_zero_filters_error">설정된 필터가 없습니다. 광고 차단 및 Wi-Fi 설정을 확인하세요.</string>
     <string name="home_filters_memory_error">일부 목록을 불러오지 못할 수 있습니다. 광고 차단 설정에서 더 적은 목록을 선택하세요.</string>
+    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">광고</string>
     <string name="menu_ads_live_label">허용되거나 차단 된 호스트 로그</string>
     <string name="menu_ads_clear_log">호스트 로그 지우기</string>
     <string name="menu_ads_lists_label">차단에 사용할 목록을 선택하세요. 대부분의 사용자에게는 기본값이 좋습니다.</string>
+    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
+    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">먼저 계정을 활성화하세요.</string>
@@ -62,14 +66,41 @@
     <string name="menu_vpn_manage_subscription">계정 구독 관리</string>
     <string name="menu_vpn_manage_subscription_unavailable">신규 계정이라면 Blokada 웹사이트를 방문하세요. Blokada Slim에서는 구독을 결제할 수 없습니다.</string>
     <string name="menu_vpn_account_secret">아바타를 눌러 계정 ID를 보세요. 사용자의 ID는 사용자 혼자서 비밀로 기억해야 합니다. 앱 제거 시 다른 곳에 적어두세요.</string>
+    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
+    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
+    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
+    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
+    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
+    <string name="menu_vpn_support_button">Support</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
+    <string name="menu_vpn_info_account_label">Do I have an account?</string>
+    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
+    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
+    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
+    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
+    <string name="menu_dns_recommended">Recommended DNS servers</string>
+    <string name="menu_dns_intro">DNS is responsible for translating IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
+    <string name="menu_dns_select">Select one of the DNS servers.</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
+    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
+    <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
+    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
+    <string name="menu_host_list_status">List status</string>
+    <string name="menu_host_list_download">List download settings</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">기타</string>
+    <string name="menu_share_log_label">Sharing log allows us to discover the reason of your problem. Make sure you send it privately to one of Blokada core team members.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">더 알아보기</string>
     <!-- A section informational content in menu -->
     <string name="menu_knowledge">도움받기</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">함께하기</string>
+    <string name="menu_telegram">Community</string>
     <string name="menu_configure">Blokada 기능 설정</string>
     <string name="menu_exclude">정상 작동하지 않는 앱 제외</string>
     <!-- A section in menu for additional buttons  -->
