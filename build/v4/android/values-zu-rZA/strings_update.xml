@@ -12,10 +12,13 @@
     <!-- Displayed in the home screen whenever there is no update. Keep it short. -->
     <!-- Displayed in menu to open the About/Update screen. -->
     <!-- A button that opens system preferences for this app. -->
+    <string name="update_button_appinfo">App details</string>
     <!-- A button that opens the changelog. -->
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">Iyaqala, sicela ulinde&#8230;</string>
     <string name="update_progress">Kulandwa: %s%%</string>
+    <string name="update_complete">Download complete</string>
+    <string name="update_failed">Download failed</string>
     <string name="update_instruction">Uma usuqedile, uzocelwa ukuthi uvumele iBlokada ukufaka isibuyekezo.</string>
     <string name="update_instruction_failed">Thepha lapha ukuzama futhi, noma uthephe isikhathi eside ukuze ulande nesiphequluli sakho.</string>
 </resources>
