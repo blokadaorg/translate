@@ -5,6 +5,7 @@
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">முடக்கப்பட்டது</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
+    <string name="notification_blocked_text">%s</string>
     <!-- Button to turn off notifications. -->
     <string name="notification_blocked_off">காண்பிக்காதே</string>
     <!-- Button to whitelist a host that was just blocked, visible in a notification. -->
@@ -28,7 +29,12 @@
     <string name="notification_keepalive_activating">Blokada துவக்கப்படுகிறது. இது சிறிது நேரம் எடுக்கும்.</string>
     <string name="notification_keepalive_deactivate">நிறுத்து</string>
     <string name="notification_keepalive_deactivating">Blokada நிறுத்தப்பட்டுவிட்டது!</string>
+    <string name="notification_expired_title">Blokada Plus is deactivated</string>
+    <string name="notification_expired_description">Your account is not active, and Blokada Plus is off. Standard Blokada features work fine without the Blokada Plus VPN. However please consider activating your account for better protection and for supporting the project.</string>
+    <string name="notification_lease_expired_title">Blokada Plus is deactivated</string>
+    <string name="notification_lease_expired_description">There was a problem with your connection to Blokada Plus. Please try choosing another gateway. If the problem persists, please contact us.</string>
     <string name="notification_channel_filtered">விளம்பரங்களை முடக்குதல்</string>
     <string name="notification_channel_announcements">அறிவிப்புகள்</string>
+    <string name="notification_channel_vpn">Blokada Plus</string>
     <string name="notification_channel_other">மற்றவை</string>
 </resources>
