@@ -362,10 +362,15 @@
 "payment feature title battery" = "Tidak mempengaruhi daya tahan baterai";
 "payment feature desc battery" = "Daya tahan baterai Anda akan tetap sama, dengan atau tanpa mengaktifkan Blokada Cloud.";
 "payment feature title devices cloud" = "Banyak Perangkat";
+"payment feature desc devices cloud" = "Set up semua perangkat Anda hanya dengan satu akun Blokada Cloud. Gunakan aplikasi atau dashboard web kami untuk pengaturan selanjutnya.";
+"payment feature title cloud vpn" = "Cloud & VPN";
+"payment feature desc cloud vpn" = "Nikmati semua fitur Blokada Cloud, dengan keuntungan tambahan yaitu akses ke jaringan VPN kami.";
 "payment feature title faster connection" = "Koneksi Lebih Cepat";
 "payment feature desc faster connection" = "Koneksi cepat sampai dengan 100Mbps dengan server yang berlokasi di berbagai tempat di dunia.";
 "payment feature title devices" = "Hingga 5 perangkat";
 "payment feature desc devices" = "Gunakan akun yang sama untuk berbagi langganan VPN Anda di 5 perangkat: iOS, Android, atau PC.";
+"payment feature title no ads" = "Blokir Iklan";
+"payment feature desc no ads" = "Gunakan teknologi pemblokiran iklan milik Blokada yang sudah terkenal untuk memblokir iklan di perangkat Anda. Tersedia pula pengaturan lebih lanjut.";
 "payment feature title support" = "Dukungan yang Hebat";
 "payment feature desc support" = "Dapatkan respon cepat untuk semua pertanyaan, yang dimungkinkan oleh staf Customer Support kami dan komunitas open source yang sangat aktif.";
 "payment action see all features" = "Lihat Semua Fitur";
@@ -413,6 +418,13 @@
 
 "payment euro desc" = "Kami berbasis di Eropa, mata uang yang kami terima berupa Euro: di mana €10 kira-kira senilai Rp170.000.";
 "payment donate disclaimer" = "Donasi yang Anda berikan tidak akan mengaktifkan akun Blokada Plus. Jika Anda ingin menggunakan layanan VPN kami, silakan pilih opsi berlangganan.";
+
+"payment action compare" = "Bandingkan paket langganan";
+"payment plan slugline cloud" = "Memblokir iklan & pelacak";
+"payment plan slugline plus" = "Perlindungan tambahan dengan VPN";
+"payment plan cta trial" = "Mulai Trial Gratis 7 Hari";
+"payment plan cta monthly" = "Langganan Bulanan";
+"payment plan cta annual" = "Langganan Tahunan";
 
 "apps section header" = "Aplikasi";
 "apps label installed" = "Terinstal";
@@ -583,3 +595,5 @@
 "stats requests subheader" = "Permintaan dalam periode waktu tertentu";
 "stats top allowed header" = "Permintaan teratas yang diizinkan";
 "stats top blocked header" = "Permintaan teratas yang diblokir";
+
+"dnsprofile desc" = "Blokada baru saja membuat profil DNS untuk Anda, silakan lihat di Settings. Aktifkan profil tersebut di General -> VPN, DNS & Pengaturan Perangkat -> DNS.";
