@@ -41,35 +41,63 @@
     <string name="home_blocka_vpn_error">Tidak dapat bersambung kepada geteway. Adakah anda sedang di atas talian?</string>
     <string name="home_account_error">Akaun anda tidak dapat disahkan. Adakah anda sedang di atas talian?</string>
     <string name="home_permission_error">Sila beri kebenaran kepada VPN.</string>
+    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
+    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
+    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Iklan</string>
     <string name="menu_ads_live_label">Log permintaan hos yang benarkan dan yang disekat</string>
     <string name="menu_ads_clear_log">Padamkan log hos</string>
     <string name="menu_ads_lists_label">Pilih daftar yang akan digunakan untuk penyekatan. Senarai lalai adalah baik untuk kebanyakan orang.</string>
     <string name="menu_ads_rules_label">Tambah aturan anda sendiri untuk melaraskan penyekatan.</string>
+    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
+    <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">Sila aktifkan akaun anda terlebih dahulu.</string>
     <string name="menu_vpn_select_gateway">Sila pilih satu gateway.</string>
+    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
+    <string name="menu_vpn_account">My Blokada Plus</string>
+    <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
     <string name="menu_vpn_gateways">Gateways</string>
     <!-- A button opening VPN leases (devices) settings -->
+    <string name="menu_vpn_leases">Devices</string>
     <string name="menu_vpn_manage_subscription">Uruskan akaun langganan anda</string>
+    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
     <string name="menu_vpn_restore_label">Di sini anda boleh mengembalikan akaun anda yang tersedia, contohnya anda memasang kembali aplikasi ini.</string>
+    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
+    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
     <string name="menu_vpn_gateways_label">Pilih salah satu Gateway yang akan disambungkan. Peranti anda akan mengahntar data yang telah disulitkan dengan selamat melalui Gateway tersebut, dan anda akan tetap berada dalam keadaan tanpa nama.</string>
+    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
+    <string name="menu_vpn_support_button">Support</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
+    <string name="menu_vpn_info_account_label">Do I have an account?</string>
+    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
+    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
+    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
+    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
     <string name="menu_dns_recommended">Cadangan pelayan DNS</string>
     <string name="menu_dns_intro">DNS bertanggung jawab untuk menterjemahkan alamat IP sesawang dan aplikasi yang anda gunakan. Memilih DNS yang baik dapat mempercepat peranti anda dan akan membantu melindungi privasi anda.</string>
     <string name="menu_dns_select">Pilih satu daripada pelayan DNS.</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
     <string name="menu_apps_system_label">Sistem aplikasi yang datang bersama dengan peranti anda. Ada antaranya tersembunyi. Anda boleh mengubah aplikasi ini jika anda tahu apa yang anda lakukan.</string>
     <string name="menu_host_list_intro">Senarai hos mengandungi aturan untuk menyekat iklan dan penjejak. Cubalah untuk mengurangakan bilangan senarai kepada paling rendah.</string>
+    <string name="menu_host_adblocking_features">Blokada Labs</string>
+    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
     <string name="menu_host_list_status">Senarai status</string>
     <string name="menu_host_list_download">Senarai tetapan muaturun</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Lain-lain</string>
     <string name="menu_share_log_label">Berkongsi log membolehkan kami untuk mengetahui sebab masalah anda. Pastikan anda menghantarnya secara pribadi ke salah seorang anggota teras kumpulan Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Ketahui lebih lanjut</string>
     <!-- A section informational content in menu -->
+    <string name="menu_knowledge">Get help</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Libatkan diri</string>
     <string name="menu_telegram">Komuniti</string>
