@@ -82,12 +82,15 @@
     <string name="menu_dns_recommended">推荐的 DNS 服务器</string>
     <string name="menu_dns_intro">DNS 负责解析您使用的网站和应用的 IP 地址。选择一个好的 DNS 可以加速您的设备，并有助于保护您的隐私。</string>
     <string name="menu_dns_select">选择一个 DNS 服务器。</string>
+    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
     <string name="menu_apps_system_label">系统应用是预装在您的设备上的。有些系统应用是隐藏的。只有当您知道您正在做什么时，才能修改这些应用。</string>
     <string name="menu_host_list_intro">主机列表包含了屏蔽广告和跟踪器的规则。尽量减少启用列表的数量。</string>
     <string name="menu_host_adblocking_features">Blokada 实验室</string>
     <string name="menu_host_adblocking_settings">广告屏蔽设置</string>
     <string name="menu_host_list_status">列表状态</string>
     <string name="menu_host_list_download">列表下载设置</string>
+    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">其它</string>
     <string name="menu_share_log_label">我们可以通过共享日志发现您的问题的原因。请确保您私下将共享日志发送给 Blokada 核心团队成员之一。</string>
