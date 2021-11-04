@@ -117,11 +117,11 @@
 "main rate us action sure" = "Sure!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "홈";
 // Make sure each tab name has a similar length
 "main tab activity" = "Activity";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "고급설정";
 // Make sure each tab name has a similar length
 "main tab settings" = "설정";
 
@@ -129,46 +129,46 @@
 
 "home ads counter footnote" = "ads and trackers blocked since installation";
 "home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
+"home power action turn on" = "켜기";
+"home power action turn off" = "끄기";
 "home power action pause" = "5분동안만 정지시킴";
 
-"home status paused" = "Paused";
+"home status paused" = "일시정지";
 "home status active" = "활성화됨";
 "home status deactivated" = "비활성화됨";
 "home action tap to activate" = "tap to activate";
 "home status detail paused" = "paused until timer ends";
-"home status detail active" = "blocking *ads* and *trackers*";
-"home status detail active with counter" = "blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
+"home status detail active" = "*광고*와 *트랙커* 차단";
+"home status detail active with counter" = "*%@* 광고와 트랙터 차단됨";
+"home status detail active slim" = "Blokada *Slim* 작동 중";
 "home status detail plus" = "*+* protecting your *privacy*";
 "home status detail progress" = "잠시만 기다리세요...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
+"home plus button deactivated" = "BLOKADA+ 비활성화됨";
+"home plus button deactivated cloud" = "VPN 비활성화됨";
+"home plus button select location" = "위치 선택";
 "home plus button location" = "Location: *%@*";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "보호: 낮음";
+"home level medium" = "보호: 중간";
+"home level high" = "보호: 높음";
 
 
-"pack section header" = "Advanced Features";
+"pack section header" = "고급 기능";
 "pack section header details" = "Feature Details";
 "pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
+"pack action update" = "업데이트";
+"pack action uninstall" = "삭제";
+"pack author" = "만든이";
+"pack configurations header" = "설정";
+"pack information header" = "더 보기";
+"pack tags header" = "태그";
+"pack tags none" = "없음";
+"pack category highlights" = "하이라이트";
 "pack category active" = "활성화됨";
-"pack category all" = "All";
+"pack category all" = "모두";
 
-"advanced section header packs" = "Blocklists";
+"advanced section header packs" = "차단 목록";
 "advanced section slugline packs" = "Activate for more restrictive blocking";
 "advanced section slugline apps" = "Choose apps that should never be blocked";
 "advanced section slugline encryption" = "Adjust your encryption level and DNS";
@@ -215,40 +215,40 @@
 "activity filter show blocked" = "Blocked only";
 "activity filter show allowed" = "Allowed only";
 "activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
+"activity device filter show all" = "모든 기기";
 "activity retention header" = "For how long can we store your activity?";
 "activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
+"activity retention option 24h" = "24 시간";
 "activity retention policy" = "By enabling log retention you accept Blokada Cloud Privacy Policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
 "userdenied section header" = "Exceptions";
 "userdenied section slugline" = "Manage blocking of particular websites";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "허용됨";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "차단됨";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "허용";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "차단";
 
-"networks section header" = "Networks";
+"networks section header" = "네트워크";
 "networks section label" = "Adjust settings for WiFi and mobile networks";
-"networks label all networks" = "All networks";
+"networks label all networks" = "모든 네트워크";
 "networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
 "networks label configuration active" = "These settings are currently active";
 "networks label configuration enabled" = "Not connected to this network";
 "networks label configuration inactive" = "Tap to modify settings for this network";
 "networks label details default network" = "The settings below are applied by default for all networks. You can override them for selected networks (in the previous screen).";
-"networks action encrypt dns" = "Encrypt DNS";
+"networks action encrypt dns" = "DNS 암호화";
 "networks action use dns" = "Use DNS: %@";
 "networks action use network dns" = "Prefer network DNS";
 "networks action force libre mode" = "Force Libre mode";
 "networks label specific network" = "Adjust what should happen when your device connects to this network.";
 "networks label specific network type" = "Adjust what should happen when your device connects to a network of this type.";
-"networks label any wifi" = "Any WiFi network";
-"networks label any mobile" = "Any mobile network";
+"networks label any wifi" = "WiFi 네트워크";
+"networks label any mobile" = "모바일 네트워크";
 "networks permission request" = "To have more control, tap here and let the app recognise all networks.";
 "networks permission request granted" = "You may see a notification when Blokada reads your network name in the background.";
 "networks section choose dns" = "DNS를 선택하세요";
@@ -275,11 +275,11 @@
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
 "account action logout only" = "로그아웃";
-"account action create" = "Generate new account";
+"account action create" = "새 계정 생성";
 "account action about" = "정보";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
+"account label enter to continue" = "계속하려면 계정 ID를 입력하세요.";
 "account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
 "account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
 "account create confirm" = "I wrote it down";
