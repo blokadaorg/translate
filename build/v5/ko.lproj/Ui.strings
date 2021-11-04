@@ -332,7 +332,7 @@
 "account lease label devices" = "기기";
 "account lease label this device" = " (이 기기)";
 "account lease label name" = "장치 이름";
-"account lease label location" = "Location";
+"account lease label location" = "위치";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports Wireguard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "설정 생성";
 "account lease action download" = "설정 다운로드";
@@ -340,22 +340,22 @@
 "account lease wireguard desc" = "Blokada uses Wireguard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS를 선택하세요";
-"account lease label public key" = "Public Key";
+"account lease label public key" = "공개 키";
 
-"account support action how help" = "How can we help you?";
+"account support action how help" = "어떻게 도와 드릴까요?";
 "account support action kb" = "Open Knowledge Base";
 
 "payment header activated" = "활성화됨!";
 "payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
+"payment action choose location" = "위치 선택";
 "payment action see locations" = "Our Locations";
 
 "payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
+"payment feature title change location" = "위치 변경";
 "payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
+"payment feature title encrypt data" = "데이터 암호화";
 "payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
+"payment feature title encrypt dns" = "DNS 암호화";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your queries private.";
 "payment feature title performance" = "Great Performance";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
@@ -397,16 +397,16 @@
 "payment ongoing title" = "Your payment is now being processed.";
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "구글 페이";
-"payment pay apple short" = "Apple Pay";
+"payment pay apple short" = "애플 페이";
 "payment change method" = "변경";
 "payment action pay" = "Pay %@";
 "payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
+"payment label email" = "이메일";
 "payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
+"payment label choose package" = "패키지 선택";
+"payment label choose payment method" = "결제 방법 선택";
+"payment label cheapest" = "가장 저렴한";
+"payment label most popular" = "가장 인기 있는";
 "payment label pay with card" = "카드로 결제";
 "payment label pay with paypal" = "페이팔로 결제";
 "payment label pay with crypto" = "Pay with crypto";
@@ -414,7 +414,7 @@
 "payment package six months" = "6개월";
 "payment package twelve months" = "12개월";
 "payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment label country" = "국가";
 
 "payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
 "payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
@@ -426,39 +426,39 @@
 "payment plan cta monthly" = "Subscribe Monthly";
 "payment plan cta annual" = "Subscribe Annually";
 
-"apps section header" = "Apps";
-"apps label installed" = "Installed";
-"apps label system" = "System";
+"apps section header" = "앱";
+"apps label installed" = "설치됨";
+"apps label system" = "시스템";
 "apps status bypassed" = "(bypassed)";
 "apps filter header" = "Which apps would you like to see?";
-"apps filter action show all" = "All apps";
+"apps filter action show all" = "모든 앱";
 "apps filter action show bypassed" = "Bypassed only";
 "apps filter action show not bypassed" = "Not bypassed only";
 "apps filter action toggle system" = "Toggle all system apps";
 
-"app settings section header" = "This device";
+"app settings section header" = "이 기기";
 "app settings language label" = "언어";
-"app settings theme label" = "App theme";
-"app settings theme light" = "Light";
-"app settings theme dark" = "Dark";
+"app settings theme label" = "앱 테마";
+"app settings theme light" = "밝은";
+"app settings theme dark" = "어두운";
 // A setting for changing if to open links internally in the app, or by using this device's web browser
 "app settings browser label" = "Redirect links to";
-"app settings browser internal" = "Internal browser";
-"app settings browser external" = "External browser (if possible)";
-"app settings ipv6 label" = "Allow IPv6";
-"app settings section system" = "System";
+"app settings browser internal" = "내장 브라우저";
+"app settings browser external" = "외장 브라우저 (가능하면)";
+"app settings ipv6 label" = "IPv6 허용";
+"app settings section system" = "시스템";
 "app settings action app info" = "Open App Information";
 "app settings action vpn profile" = "Open VPN Profile";
 "app settings action notifications" = "Open Notification Settings";
 "app settings section details" = "세부사항";
-"app settings status default" = "System default";
+"app settings status default" = "시스템 기본값";
 "app settings start on boot" = "부팅 시 시작";
-"app settings use dns over https" = "Use DNS over HTTPS";
-"app settings backup" = "Use cloud backup";
-"app settings section advanced" = "Advanced";
+"app settings use dns over https" = "DNS over HTTPS 사용";
+"app settings backup" = "Cloud backup 사용";
+"app settings section advanced" = "고급설정";
 "app settings section use foreground" = "활동 유지";
 
-"intro header" = "Blokada is Active!";
+"intro header" = "Blokada 작동 중!";
 "intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
 
 "location region worldwide" = "Everywhere";
