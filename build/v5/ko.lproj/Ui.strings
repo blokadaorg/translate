@@ -107,19 +107,19 @@
 "account active forever full" = "Active forever";
 
 "main ask for permissions header" = "Just one more step";
-"main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
+"main ask for permissions description" = "Blokada는 광고를 차단하기 위해 VPN 설정을 사용합니다. 다음 단계에서 사용 허용 요청을 받게 될 겁니다.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "iOS용 Blokada는 %@ 광고와 트랙커를 차단하는데 도움을 줬습니다.";
 
 "main rate us header" = "이 앱을 평가해주세요!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
+"main rate us description" = "지금까지 Blokada는 마음에 드십니까?";
+"main rate us on app store" = "App Store에서 Blokda 평가하여 도움을 주시겠습니까?";
 "main rate us action sure" = "예!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "홈";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "활동";
 // Make sure each tab name has a similar length
 "main tab advanced" = "고급설정";
 // Make sure each tab name has a similar length
@@ -127,8 +127,8 @@
 
 "main label use side menu" = "Use side menu to navigate";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
+"home ads counter footnote" = "설치 이후 차단된 광고와 트랙커";
+"home power off menu header" = "무엇을 하시겠습니까?";
 "home power action turn on" = "켜기";
 "home power action turn off" = "끄기";
 "home power action pause" = "5분동안만 정지시킴";
@@ -136,18 +136,18 @@
 "home status paused" = "일시정지";
 "home status active" = "활성화됨";
 "home status deactivated" = "비활성화됨";
-"home action tap to activate" = "tap to activate";
-"home status detail paused" = "paused until timer ends";
+"home action tap to activate" = "활성화하기 위해 누릅니다.";
+"home status detail paused" = "타이머가 끝날 때까지 잠시 멈춤";
 "home status detail active" = "*광고*와 *트랙커* 차단";
 "home status detail active with counter" = "*%@* 광고와 트랙터 차단됨";
 "home status detail active slim" = "Blokada *Slim* 작동 중";
-"home status detail plus" = "*+* protecting your *privacy*";
+"home status detail plus" = "*+* 당신의 *개인정보*를 보호 중";
 "home status detail progress" = "잠시만 기다리세요...";
 
 "home plus button deactivated" = "BLOKADA+ 비활성화됨";
 "home plus button deactivated cloud" = "VPN 비활성화됨";
 "home plus button select location" = "위치 선택";
-"home plus button location" = "Location: *%@*";
+"home plus button location" = "지역 *%@*";
 
 "home level low" = "보호: 낮음";
 "home level medium" = "보호: 중간";
@@ -155,7 +155,7 @@
 
 
 "pack section header" = "고급 기능";
-"pack section header details" = "Feature Details";
+"pack section header details" = "세부 기능";
 "pack action install" = "GET";
 "pack action update" = "업데이트";
 "pack action uninstall" = "삭제";
@@ -170,18 +170,18 @@
 
 "advanced section header packs" = "차단 목록";
 "advanced section slugline packs" = "Activate for more restrictive blocking";
-"advanced section slugline apps" = "Choose apps that should never be blocked";
-"advanced section slugline encryption" = "Adjust your encryption level and DNS";
-"advanced action slim migrate to full" = "You are using Blokada Slim. Learn more";
+"advanced section slugline apps" = "차단헤서는 안되는 앱을 선택합니다.";
+"advanced section slugline encryption" = "당신의 암호화 수준과 DNS를 설정합니다.";
+"advanced action slim migrate to full" = "당신은 Blokada Slim을 사용합니다. 더 알아보기";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "지역 선택";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
+"activity section header" = "활동";
+"activity section header details" = "활동 세부사항";
+"activity request blocked" = "이 요청은 차단되었습니다.";
+"activity request allowed" = "이 요청은 허용되었습니다.";
+"activity request allowed whitelisted" = "이 요청은 허용되었습니다. 왜냐하면 당신의 허용 목록에 있기 때문입니다.";
+"activity request blocked blacklisted" = "이 요청은 차단되었습니다. 왜냐하면 해당 요청이 당신의 차단 목록에 있기 때문입니다.";
 "activity request allowed list" = "This request has been allowed, because it's present on the *%@* blocklist.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
