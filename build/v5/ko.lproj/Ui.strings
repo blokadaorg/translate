@@ -35,58 +35,58 @@
 "universal action continue" = "계속";
 "universal action cancel" = "취소";
 "universal action close" = "닫기";
-"universal action done" = "Done";
+"universal action done" = "완료";
 "universal action try again" = "다시 시도해 보세요.";
 "universal action learn more" = "더 알아보기";
 "universal action help" = "도움";
-"universal action show log" = "Logs";
+"universal action show log" = "로그";
 "universal action share log" = "로그 공유";
 "universal action copy" = "복사";
 "universal action save" = "저장";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
+"universal action contact us" = "문의하기";
+"universal action support" = "고객지원";
+"universal action upgrade" = "BLOKADA+로 업그레이드";
 "universal action upgrade short" = "업그레이드";
 "universal action yes" = "네";
 "universal action no" = "아니오";
 "universal action donate" = "기부하기";
-"universal action community" = "Community";
+"universal action community" = "커뮤니티";
 "universal action open in browser" = "브라우저에서 열기";
-"universal action more" = "More";
+"universal action more" = "더 보기";
 "universal action download" = "다운로드";
 "universal action news" = "소식";
 "universal action delete" = "제거";
-"universal action hide" = "Hide";
+"universal action hide" = "숨김";
 "universal action select" = "선택";
 "universal action selected" = "Selected";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "검색";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "필터";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "지우기";
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
 "universal label help" = "도움";
 "universal label welcome" = "환영합니다!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "없음";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "이름";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "시간";
 // Common label in tables for the Count column. Think "number of items".
 "universal label count" = "Count";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "형식";
+"universal label device" = "기기";
 
 "universal status processing" = "처리 중입니다... 잠시만 기다려주세요.";
 "universal status copied to clipboard" = "클립보드에 복사됨";
 "universal status restart required" = "변경사항을 적용하려면 이 앱을 다시 시작해야 합니다.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status redirect" = "앱에서 계속하기";
+"universal status confirm" = "계속 진행하시겠습니까?";
 
 "alert error header" = "이런!";
 "alert vpn expired header" = "BLOKADA+ 가 만료되었습니다.";
@@ -97,9 +97,9 @@
 "notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
 "notification desc settings" = "Swipe the notification left or right for settings.";
 
-"notification update header" = "An update is available";
+"notification update header" = "업데이트 가능";
 "alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
+"update label updated" = "업데이트됨";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
 "update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
 
@@ -114,7 +114,7 @@
 "main rate us header" = "이 앱을 평가해주세요!";
 "main rate us description" = "How do you like Blokada so far?";
 "main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us action sure" = "예!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "홈";
@@ -186,27 +186,27 @@
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured blocklists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
+"activity actions header" = "작업";
+"activity information header" = "정보";
 "activity action add to whitelist" = "Add to Allowed";
 "activity action remove from whitelist" = "Remove from Allowed";
 "activity action added to whitelist" = "Added to Allowed";
 "activity action add to blacklist" = "Add to Blocked";
 "activity action remove from blacklist" = "Remove from Blocked";
 "activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
+"activity action copy to clipboard" = "클립보드에 이름 복사";
+"activity domain name" = "전체 이름";
+"activity time of occurrence" = "시간";
 "activity number of occurrences" = "Number of occurrences";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "수정됨";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "차단됨";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
+"activity state allowed" = "허용됨";
+"activity happened one time" = "1회";
 "activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
+"activity category recent" = "최근";
 "activity category top" = "Top";
 "activity category top blocked" = "Top Blocked";
 "activity category top allowed" = "Top Allowed";
@@ -217,12 +217,12 @@
 "activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
 "activity device filter show all" = "모든 기기";
 "activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
+"activity retention option none" = "활동 내역 저장 안함";
 "activity retention option 24h" = "24 시간";
 "activity retention policy" = "By enabling log retention you accept Blokada Cloud Privacy Policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
-"userdenied section header" = "Exceptions";
+"userdenied section header" = "예외";
 "userdenied section slugline" = "Manage blocking of particular websites";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "허용됨";
@@ -234,7 +234,7 @@
 "userdenied action block" = "차단";
 
 "networks section header" = "네트워크";
-"networks section label" = "Adjust settings for WiFi and mobile networks";
+"networks section label" = "WiFi와 모바일 네트워크 설정 수정";
 "networks label all networks" = "모든 네트워크";
 "networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
 "networks label configuration active" = "These settings are currently active";
