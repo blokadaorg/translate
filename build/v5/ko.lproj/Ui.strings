@@ -169,7 +169,7 @@
 "pack category all" = "모두";
 
 "advanced section header packs" = "차단 목록";
-"advanced section slugline packs" = "Activate for more restrictive blocking";
+"advanced section slugline packs" = "더 제한된 차단 활성화";
 "advanced section slugline apps" = "차단헤서는 안되는 앱을 선택합니다.";
 "advanced section slugline encryption" = "당신의 암호화 수준과 DNS를 설정합니다.";
 "advanced action slim migrate to full" = "당신은 Blokada Slim을 사용합니다. 더 알아보기";
@@ -182,22 +182,22 @@
 "activity request allowed" = "이 요청은 허용되었습니다.";
 "activity request allowed whitelisted" = "이 요청은 허용되었습니다. 왜냐하면 해당 요청이 당신의 허용 목록에 있기 때문입니다.";
 "activity request blocked blacklisted" = "이 요청은 차단되었습니다. 왜냐하면 해당 요청이 당신의 차단 목록에 있기 때문입니다.";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* blocklist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured blocklists.";
+"activity request allowed list" = "이 요청은 허용되었습니다. 왜냐하면 현재 *%@* 차단 목록에 있습니다.";
+"activity request allowed no list" = "이 요청은 허용되었습니다. 왜나햐면 당신의 설정된 차단 목록 어디에도 있지 않기 때문입니다.";
+"activity request blocked list" = "이 요청은 차단되었습니다. 왜냐하면 현재 *%@* 차단 목록에 있습니다.";
+"activity request blocked no list" = "이 요청은 차단되었습니다. 왜나햐면 당신의 설정된 차단 목록 어디에도 있지 않기 때문입니다.";
 "activity actions header" = "작업";
 "activity information header" = "정보";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
+"activity action add to whitelist" = "허용하기";
+"activity action remove from whitelist" = "허용하기 삭제";
+"activity action added to whitelist" = "허용에 추가됨";
+"activity action add to blacklist" = "차단하기";
+"activity action remove from blacklist" = "차단하기 삭제";
+"activity action added to blacklist" = "차단에 추가됨";
 "activity action copy to clipboard" = "클립보드에 이름 복사";
 "activity domain name" = "전체 이름";
 "activity time of occurrence" = "시간";
-"activity number of occurrences" = "Number of occurrences";
+"activity number of occurrences" = "발생횟수";
 // As in sentence, "this item has been modified"
 "activity state modified" = "수정됨";
 // As in sentence, "this host has been blocked"
@@ -205,25 +205,25 @@
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "허용됨";
 "activity happened one time" = "1회";
-"activity happened many times" = "%@ times";
+"activity happened many times" = "%@ 번";
 "activity category recent" = "최근";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity category top" = "순위";
+"activity category top blocked" = "차단 순위";
+"activity category top allowed" = "허용 순위";
+"activity filter header" = "어떤 항목들을 보기 원하십니까?";
+"activity filter show all" = "모든 항목";
+"activity filter show blocked" = "차단된 것만";
+"activity filter show allowed" = "허용된 것만";
 "activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
 "activity device filter show all" = "모든 기기";
-"activity retention header" = "For how long can we store your activity?";
+"activity retention header" = "얼마의 기간 동안 당신의 활동을 저장하기 원합니까?";
 "activity retention option none" = "활동 내역 저장 안함";
 "activity retention option 24h" = "24 시간";
 "activity retention policy" = "By enabling log retention you accept Blokada Cloud Privacy Policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
 "userdenied section header" = "예외";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section slugline" = "특정 사이트 차단 설정";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "허용됨";
 // A section name for the list of hosts blocked by user
@@ -236,7 +236,7 @@
 "networks section header" = "네트워크";
 "networks section label" = "WiFi와 모바일 네트워크 설정 수정";
 "networks label all networks" = "모든 네트워크";
-"networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
+"networks action network specific" = "기본 설정을 변경하려면 여기를 누르십시오. 특정 네트워크에서 앱을 다르게 사용하려면 아래 탭을 누르십시오.";
 "networks label configuration active" = "These settings are currently active";
 "networks label configuration enabled" = "Not connected to this network";
 "networks label configuration inactive" = "Tap to modify settings for this network";
