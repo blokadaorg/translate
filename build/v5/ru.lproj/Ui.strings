@@ -182,10 +182,10 @@
 "activity request allowed" = "Этот запрос был разрешен.";
 "activity request allowed whitelisted" = "Этот запрос был разрешен, потому что он находится в вашем списке разрешенных";
 "activity request blocked blacklisted" = "Этот запрос был заблокирован, потому что он находится в вашем списке заблокированных";
-"activity request allowed list" = "Этот запрос был разрешен, поскольку он присутствует в списке блокировки *%@*.";
+"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "Этот запрос был разрешен, поскольку его нет ни в одном из настроенных вами списков блокировки.";
 "activity request blocked list" = "Этот запрос был заблокирован, поскольку он присутствует в списке блокировки *%@*.";
-"activity request blocked no list" = "Этот запрос был заблокирован, поскольку его нет ни в одном из настроенных вами списков блокировки.";
+"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
 "activity actions header" = "Действия";
 "activity information header" = "Информация";
 "activity action add to whitelist" = "Добавить в разрешенные";
@@ -219,7 +219,7 @@
 "activity retention header" = "Как долго мы можем хранить вашу активность?";
 "activity retention option none" = "Не сохранять мою активность";
 "activity retention option 24h" = "24 часа";
-"activity retention policy" = "Включая сохранение журнала, вы принимаете Политику конфиденциальности Blokada Cloud.";
+"activity retention policy" = "By enabling log retention you accept the privacy policy.";
 "activity retention desc" = "Blokada Cloud по умолчанию не ведет логи. Если вы хотите видеть агрегированную статистику и активность со всех ваших устройств, выберите желаемый период хранения логов ниже.";
 
 "userdenied section header" = "Исключения";
@@ -360,11 +360,11 @@
 "payment feature title performance" = "Отличная производительность";
 "payment feature desc performance" = "Поддерживайте быстродействие вашего устройства и максимальную скорость подключения к интернету благодаря нашему новому облачному решению.";
 "payment feature title battery" = "Никакого влияния на батарею";
-"payment feature desc battery" = "Время работы устройства от батареи будет одинаковым как с активированным Blokada Cloud, так и без.";
+"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
 "payment feature title devices cloud" = "Несколько устройств";
-"payment feature desc devices cloud" = "Объедините все свои устройства под одной подпиской Blokada Cloud. Используйте наши мобильные приложения или веб-панель управления.";
-"payment feature title cloud vpn" = "Cloud и VPN";
-"payment feature desc cloud vpn" = "Наслаждайтесь всеми возможностями Blokada Cloud. В дополнение, получите доступ к нашей сети VPN.";
+"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
+"payment feature title cloud vpn" = "The Cloud plus VPN";
+"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
 "payment feature title faster connection" = "Более быстрое соединение";
 "payment feature desc faster connection" = "Высокие скорости до 100 Мбит/с с серверами в различных частях света.";
 "payment feature title devices" = "До 5 устройств";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "Открыть устройства VPN";
 "web action open setup" = "Открыть настройки";
 "web cta plus header" = "Перейти на Blokada Plus, чтобы всегда контролировать свою конфиденциальность.";
-"web cta plus desc" = "Ваша учетная запись Libre дает вам бесплатную блокировку рекламы на устройстве Android и iOS с помощью наших приложений с открытым исходным кодом. Для еще большей защиты перейдите на Blokada Plus и получите VPN, а также нашу новую *облачную блокировку рекламы*, которая быстрее и проще в использовании.";
+"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
 "web action generate" = "Создать";
 
@@ -570,7 +570,7 @@
 "setup desc" = "Есть много способов настроить ваше устройство для использования Blokada Cloud. Выберите тот, который подходит вам.";
 "setup label which device" = "Какой тип устройства вы хотите настроить?";
 "setup label choose" = "Выберите любой из следующих вариантов настройки:";
-"setup comment wireguard" = "Примечание: использование Blokada VPN автоматически включает Blokada Cloud DNS. Мы работаем над поддержкой других настроек для этой платформы. 'WireGuard' и логотип 'Wireguard' являются зарегистрированными товарными знаками Джейсона А. Доненфельда (Jason A. Donenfeld).";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Примечание. Нативные приложения для Android и iOS пока не поддерживают Blokada Cloud. Мы работаем над обновлением.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Шаг %@: %@";
