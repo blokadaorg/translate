@@ -73,14 +73,14 @@
 // Common label when some feature has no setting
 "universal label none" = "Inget";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Namn";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Tid";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Antal";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Typ";
+"universal label device" = "Enhet";
 
 "universal status processing" = "Bearbetar... Var god vänta.";
 "universal status copied to clipboard" = "Kopierad till urklipp";
@@ -125,7 +125,7 @@
 // Make sure each tab name has a similar length
 "main tab settings" = "Inställningar";
 
-"main label use side menu" = "Use side menu to navigate";
+"main label use side menu" = "Använd sidomenyn för att navigera";
 
 "home ads counter footnote" = "annonser och trackers blockerade sedan installationen";
 "home power off menu header" = "Vad skulle du vilja göra?";
@@ -145,7 +145,7 @@
 "home status detail progress" = "var god vänta...";
 
 "home plus button deactivated" = "BLOKADA+ inaktiverad";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN inaktiverad";
 "home plus button select location" = "Välj plats";
 "home plus button location" = "Plats: *%@*";
 
@@ -182,7 +182,7 @@
 "activity request allowed" = "Denna begäran har tillåtits.";
 "activity request allowed whitelisted" = "Denna begäran har tillåtits, eftersom den finns på din lista över tillåtna";
 "activity request blocked blacklisted" = "Denna begäran har blockerats, eftersom den finns på din lista över blockerade";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* blocklist.";
+"activity request allowed list" = "Denna begäran har tillåtits, eftersom den finns på blocklistan *%@*.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured blocklists.";
