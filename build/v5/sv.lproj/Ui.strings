@@ -575,25 +575,25 @@
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Steg %@: %@";
 "setup option label recommended" = "Rekommenderat: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup option label alternative" = "Alternativ: %@";
+"setup name label unnamed" = "(namnlös)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start Wireguard";
+"setup step name" = "Namnge din enhet (valfritt)";
+"setup step copy" = "Kopiera ditt värdnamn";
+"setup step apply config" = "Tillämpa den nya konfigurationen";
+"setup step install" = "Installera och starta vår app";
+"setup step enter tag" = "När du blir tillfrågad, ange din tagg";
+"setup step download profile" = "Generera och ladda ner din profil";
+"setup step install wireguard" = "Installera och starta WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "Statistik";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Förhållande";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Förfrågningar";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Frågor över tid";
+"stats top allowed header" = "Flest tillåtna förfrågningarna";
+"stats top blocked header" = "Flest blockerade förfrågningarna";
 
-"dnsprofile desc" = "Blokada just created a DNS profile for you in Settings. Activate it in General -> VPN, DNS & Device Management -> DNS.";
+"dnsprofile desc" = "Blokada har precis skapat en DNS-profil för dig i Inställningar. Aktivera den i Allmänt -> VPN, DNS & Device Management -> DNS.";
