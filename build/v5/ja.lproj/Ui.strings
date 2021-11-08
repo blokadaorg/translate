@@ -184,10 +184,10 @@
 "activity request allowed" = "このリクエストは許可されています";
 "activity request allowed whitelisted" = "例外リストでこのリクエストは許可されています";
 "activity request blocked blacklisted" = "例外リストでこのリクエストはブロックされています";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed list" = "*%@* 許可リストでこのリクエストは許可されています";
 "activity request allowed no list" = "設定されたブロックリストのいずれにも存在しないため、このリクエストは許可されています";
 "activity request blocked list" = "*%@* ブロックリストでこのリクエストはブロックされています";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
+"activity request blocked no list" = "設定された許可リストのいずれにも存在しないため、このリクエストはブロックされています";
 "activity actions header" = "アクション";
 "activity information header" = "Info";
 "activity action add to whitelist" = "リクエストを許可する";
@@ -221,8 +221,8 @@
 "activity retention header" = "どのくらいの期間、あなたの活動を保存しますか？";
 "activity retention option none" = "アクティビティを保存しない";
 "activity retention option 24h" = "24 時間";
-"activity retention policy" = "By enabling log retention you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud はデフォルトで何も記録しません。統計とアクティビティを表示する場合は、以下のログの保持期間を選択してください。";
+"activity retention policy" = "ログの保持を有効にする場合、プライバシーポリシーに同意するものとします。";
+"activity retention desc" = "Blokada Cloud はデフォルトで何も記録しません。統計とアクティビティを表示する場合は、ログの保持期間を選択してください。";
 
 "userdenied section header" = "例外";
 "userdenied section slugline" = "ブロック・許可したサイトを管理する";
