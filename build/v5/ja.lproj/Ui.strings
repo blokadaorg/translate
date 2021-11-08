@@ -259,7 +259,7 @@
 "networks summary network dns" = "Blokada はネットワーク DNS を使用し、使用できない場合は %@ に切り替えます。ネットワーク DNS を使用すると DNS は暗号化されません。ネットワーク上の接続の問題が解決される場合がありますが、保護されていない状態になります。";
 "networks summary network dns and plus mode" = "Blokada は、ネットワーク DNS が使用されるたびに Blokada Plus VPN を一時的に無効にします。これは VPN でネットワーク DNS にアクセスできないためです。デバイスが別のネットワークに切り替わると、Blokada Plus VPN は自動的に復元されます。";
 "networks summary blocka plus mode" = "Blokada は Plus モードで Blokada DNS を使用して、高いレベルの暗号化と速度を確保します。DNS 選択画面の下部でこの設定を変更できます。";
-"networks summary force libre mode" = "Blokada は常にこのネットワーク上で Libre モードを使用し、Blokada Plus の接続先を無視します。追加の保護を必要としないネットワークでご利用ください。";
+"networks summary force libre mode" = "Blokada はこのネットワーク上で常に Libre モードを使用し、Blokada Plus の接続先を無視します。追加の保護を必要としないネットワークでご利用ください。";
 "networks permission dialog" = "Blokada は接続先のネットワークを認識して個別の設定を適用することができます。Blokada がこの機能を有効にするためにはネットワーク名を収集する必要があり、位置情報へのアクセス許可が必要です。アプリが閉じられているか使用されていない場合でも、場合によっては位置情報へのアクセスに関するシステム通知が表示されることがあります。Blokada はネットワーク名のみを読み取りその他の情報は利用しません。";
 
 
@@ -362,12 +362,11 @@
 "payment feature title performance" = "最適なパフォーマンス";
 "payment feature desc performance" = "新しいクラウドソリューションで、デバイスやインターネット接続の速度を快適に保ちます。";
 "payment feature title battery" = "バッテリー持ちへの影響なし";
-"payment feature desc battery" = "デバイスのバッテリーの消費量が増加することはありません。Blokada Cloud でさらに削減
-できる可能性があります。";
+"payment feature desc battery" = "デバイスのバッテリーの消費量が増加することはありません。Blokada Cloud でさらに削減できる可能性があります。";
 "payment feature title devices cloud" = "複数デバイス";
 "payment feature desc devices cloud" = "モバイルアプリまたはウェブアプリからすべてのデバイスを 1 か所で集中管理します。";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature title cloud vpn" = "Cloud と VPN";
+"payment feature desc cloud vpn" = "Blokada Cloud のすべての利点に加えて、グローバル VPN ネットワークにアクセスできます。";
 "payment feature title faster connection" = "より高速な接続";
 "payment feature desc faster connection" = "世界のさまざまな地域のサーバーで最高100Mbpsのスピードを実現します。";
 "payment feature title devices" = "最大5台のデバイス";
@@ -566,7 +565,7 @@
 "web vpn devices open action" = "VPN デバイスを開く";
 "web action open setup" = "設定を開く";
 "web cta plus header" = "Blokada Plus にアップグレードして、あなたのプライバシーを管理し続けましょう。";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web cta plus desc" = "Libre アカウントでは、オープンソースアプリによる無料の広告ブロックをご利用いただけます。Blokada Plus にアップグレードするとグローバル VPN ネットワークによる更なる保護や、より速く、より使いやすい*クラウドベースの*広告ブロックが選択できます。";
 // A short word for a button to generate profile
 "web action generate" = "生成";
 
@@ -574,7 +573,7 @@
 "setup desc" = "デバイスで Blokada Cloud を使用する設定方法はいくつかあります。あなたに合うものを選択してください。";
 "setup label which device" = "設定するデバイスを選択してください";
 "setup label choose" = "以下から設定を選択してください:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment wireguard" = "注意: VPN では、デフォルトで Blokada Cloud が使用されます。その他の DNS を選択することでオプトアウトできます。「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
 "setup comment native apps" = "注意: Android と iOS のネイティブアプリでは現在 Blokada Cloud をサポートしていません。今後のアップデートで対応する予定です。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "ステップ %@: %@";
