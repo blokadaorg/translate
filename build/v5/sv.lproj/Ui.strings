@@ -182,10 +182,10 @@
 "activity request allowed" = "Denna begäran har tillåtits.";
 "activity request allowed whitelisted" = "Denna begäran har tillåtits, eftersom den finns på din lista över tillåtna";
 "activity request blocked blacklisted" = "Denna begäran har blockerats, eftersom den finns på din lista över blockerade";
-"activity request allowed list" = "Denna begäran har tillåtits, eftersom den finns på tillåtnalistan *%@*.";
+"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "Denna begäran har tillåtits, eftersom den inte finns på någon av dina konfigurerade blocklistor.";
 "activity request blocked list" = "Denna begäran har blockerats, eftersom den finns på blocklistan *%@*.";
-"activity request blocked no list" = "Denna begäran har blockerats, eftersom den inte finns på någon av dina konfigurerade blocklistor.";
+"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
 "activity actions header" = "Åtgärder";
 "activity information header" = "Information";
 "activity action add to whitelist" = "Lägg till i tillåtna";
@@ -219,7 +219,7 @@
 "activity retention header" = "Hur länge kan vi lagra din aktivitet?";
 "activity retention option none" = "Spara inte min aktivitet";
 "activity retention option 24h" = "24 timmar";
-"activity retention policy" = "Genom att aktivera lagring av loggar godkänner du Blokada Clouds sekretesspolicy.";
+"activity retention policy" = "By enabling log retention you accept the privacy policy.";
 "activity retention desc" = "Blokada Cloud loggar inte något som standard. Om du vill se aggregerad statistik och aktivitet från alla dina enheter, välj önskad lagringsperiod nedan.";
 
 "userdenied section header" = "Undantag";
@@ -360,11 +360,11 @@
 "payment feature title performance" = "Utmärkt prestanda";
 "payment feature desc performance" = "Behåll din enhet snabb och utnyttja din internetanslutning till fullo, tack vare vår nya molnlösning.";
 "payment feature title battery" = "Påverkar inte batteritiden";
-"payment feature desc battery" = "Din batteritid kommer inte att påverkas, utan kanske till och med förbättras när Blokada Cloud är aktivt.";
+"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
 "payment feature title devices cloud" = "Flera enheter";
-"payment feature desc devices cloud" = "Konfigurera och övervaka alla dina enheter på ett och samma ställe. Antingen via vår mobilapp eller vår webbapp.";
-"payment feature title cloud vpn" = "Molnet plus VPN";
-"payment feature desc cloud vpn" = "Utöver alla fördelar med Blokada Cloud, får du dessutom tillgång till vårt globala VPN-nätverk.";
+"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
+"payment feature title cloud vpn" = "The Cloud plus VPN";
+"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
 "payment feature title faster connection" = "Snabbare anslutning";
 "payment feature desc faster connection" = "Stora hastigheter upp till 100 Mbps med servrar i olika delar av världen.";
 "payment feature title devices" = "Upp till 5 enheter";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "Inställningar för VPN-enheter";
 "web action open setup" = "Öppna inställningar";
 "web cta plus header" = "Uppgradera till Blokada Plus för att behålla kontrollen över din integritet.";
-"web cta plus desc" = "Ditt Libre-konto ger dig gratis annonsblockering på enheten med våra open source-appar. Uppgradera till Blokada Plus för ett ännu bättre skydd. Du får tillgång till vårt globala VPN-nätverk samt vår nya *molnbaserade* annonsblockering som är effektivare och enklare att använda.";
+"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
 "web action generate" = "Generera";
 
@@ -570,7 +570,7 @@
 "setup desc" = "Det finns många sätt att konfigurera din enhet för att använda Blokada Cloud. Välj den som fungerar bäst för dig.";
 "setup label which device" = "Vilken typ av enhet vill du konfigurera?";
 "setup label choose" = "Välj något av följande konfigurationsalternativ:";
-"setup comment wireguard" = "Obs: VPN-konfigurationen använder Blokada Cloud som standard. Välj annan inställning för DNS om så önskas. 'WireGuard' och 'Wireguard' logotypen är registrerade varumärken som tillhör Jason A. Donenfeld.";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Obs: Appar för Android och iOS stöder inte Blokada Cloud ännu. Vi arbetar på en uppdatering.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Steg %@: %@";
