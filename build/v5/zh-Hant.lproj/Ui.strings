@@ -136,13 +136,13 @@
 "home status paused" = "已暫停";
 "home status active" = "運作中";
 "home status deactivated" = "已停用";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home action tap to activate" = "按一下啟動";
+"home status detail paused" = "暫停至計時結束";
+"home status detail active" = "阻擋 *廣告* 及 *追蹤器*";
+"home status detail active with counter" = "已阻擋 *%@* 個廣告及追蹤器";
 "home status detail active slim" = "Blokada *Slim* 已啟用";
 "home status detail plus" = "*+* 保護您的 *隱私*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "請稍候……";
 
 "home plus button deactivated" = "已停用 BLOKADA+";
 "home plus button deactivated cloud" = "VPN 已停用";
@@ -333,11 +333,11 @@
 "account lease label this device" = "（此裝置）";
 "account lease label name" = "裝置名稱";
 "account lease label location" = "位置";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease label generate" = "在這選完位置後，就會產生出一個設定檔，可以用在任何支援 WireGuard 的 VPN app。這適合用在還不支援 Blokada 的平台，如果支援，建議使用原生 app。";
 "account lease action generate" = "生成設定";
 "account lease action download" = "下載設定";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease generated" = "已新增裝置！下載設定，即可在任何支援 WireGuard 的裝置上使用。";
+"account lease wireguard desc" = "Blokada 使用 WireGuard。建立新裝置時可以下載設定。";
 "account lease label dns" = "DNS";
 "account lease action dns" = "選擇 DNS";
 "account lease label public key" = "公開金鑰";
@@ -356,7 +356,7 @@
 "payment feature title encrypt data" = "加密資料";
 "payment feature desc encrypt data" = "透過我們的 VPN 隧道傳送的資料使用強大的演算法來加密以防止未經授權的人員攔截。";
 "payment feature title encrypt dns" = "DNS 加密";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
+"payment feature desc encrypt dns" = "利用 DNS 加密功能增強保護您的隱私權。Blokada Cloud 採用現代通訊協定，保證您的流量無人知曉。";
 "payment feature title performance" = "效能更上一層";
 "payment feature desc performance" = "新一代雲端解決方案，讓您的裝置火力全開，網速飆滿。";
 "payment feature title battery" = "不多耗電";
@@ -501,7 +501,7 @@
 "homepage vpn point two" = "快速且現代的加密方式";
 "homepage vpn point three" = "不會記錄您的網路活動";
 "homepage vpn point four" = "最多可以連線 5 台裝置";
-"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"homepage vpn credit" = "「WireGuard」和「WireGuard」標誌是 Jason A. Donenfeld 的註冊商標。";
 
 "homepage faq header" = "常見問題";
 "homepage faq action more" = "查閱更多 FAQ";
@@ -525,7 +525,7 @@
 "homepage download option android four" = "供 Android 使用的 Blokada 4";
 "homepage download option ios" = "供 iOS 使用的 Blokada 5";
 "homepage download option other" = "供其他平台使用的 Blokada";
-"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
+"homepage download desc other" = "目前我們尚未在其他平台上提供 Blokada。但如果您是 Blokada Plus 的使用者，您可以在 Windows、Linux、Mac 或其他 WireGuard 支援的平台上使用我們的 VPN。";
 "homepage download desc ios" = "Blokada 5 只在 App Store 上提供。";
 "homepage download action ios" = "開啟 App Store";
 "homepage download desc android five" = "這是我們推薦的新版本，<b>供搭載 Android 7 或更新版本的智慧型手機與平板電腦</b>使用。它與 Blokada 4 相比更簡潔且更快。";
@@ -570,7 +570,7 @@
 "setup desc" = "有很多方法可以讓您的裝置接上 Blokada Cloud。請選擇適合您的方法。";
 "setup label which device" = "您想設定什麼裝置？";
 "setup label choose" = "請選擇下述任一設定選項：";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment wireguard" = "注意：VPN 設定將會預設使用 Blokada Cloud。如果您想要退出，請選擇其他 DNS 設定。「WireGuard」與「WireGuard」圖示是 Jason A. Donenfeld 的註冊商標。";
 "setup comment native apps" = "注意：Android 和 iOS 的原生 App 尚未支援 Blokada Cloud。這個功能還在製作中。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "第 %@ 步：%@";
@@ -584,7 +584,7 @@
 "setup step install" = "安裝並啟動 App";
 "setup step enter tag" = "詢問時請輸入您的標籤 (tag)";
 "setup step download profile" = "產生並下載量身打造的設定檔";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step install wireguard" = "安裝並啟動 WireGuard";
 
 "stats header" = "統計";
 // A ratio between counter of allowed vs denied requests.
