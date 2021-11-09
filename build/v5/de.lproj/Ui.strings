@@ -136,13 +136,13 @@
 "home status paused" = "Pausiert";
 "home status active" = "Aktiv";
 "home status deactivated" = "Deaktiviert";
-"home action tap to activate" = "Zum Aktivieren tippen";
-"home status detail paused" = "pausiert, bis der Timer abgelaufen ist";
-"home status detail active" = "*Werbung* und *Tracker* blockieren";
-"home status detail active with counter" = "*%@* Werbeanzeigen und Tracker blockiert";
+"home action tap to activate" = "Tap to activate";
+"home status detail paused" = "Paused until timer ends";
+"home status detail active" = "Blocking *ads* and *trackers*";
+"home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* ist aktiv";
 "home status detail plus" = "*+* beschützt deine *Privatsphäre*";
-"home status detail progress" = "bitte warte...";
+"home status detail progress" = "Please wait...";
 
 "home plus button deactivated" = "BLOKADA+ deaktiviert";
 "home plus button deactivated cloud" = "VPN deaktiviert";
@@ -333,11 +333,11 @@
 "account lease label this device" = " (Dieses Gerät)";
 "account lease label name" = "Name des Gerätes";
 "account lease label location" = "Standort";
-"account lease label generate" = "Wenn du hier einen Standort auswählst, wird eine Konfigurationsdatei generiert, die du in jeder VPN-App verwenden kannst, die WireGuard unterstützt. Dies ist nützlich für Plattformen, für die wir noch keine eigenen Apps bereitstellen. Ansonsten empfehlen wir, stattdessen unsere nativen Apps zu verwenden.";
+"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Konfiguration generieren";
 "account lease action download" = "Konfiguration herunterladen";
-"account lease generated" = "Gerät hinzugefügt! Lade die Konfiguration herunter, um sie auf jedem Gerät zu verwenden, dass von Wireguard unterstützt wird.";
-"account lease wireguard desc" = "Blokada verwendet Wireguard. Konfigurationen können heruntergeladen werden, wenn neue Geräte erstellt werden.";
+"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS auswählen";
 "account lease label public key" = "Öffentlicher Schlüssel";
@@ -356,7 +356,7 @@
 "payment feature title encrypt data" = "Daten verschlüsseln";
 "payment feature desc encrypt data" = "Die Daten, die durch unseren VPN-Tunnel geschickt werden, sind durch starke Algorithmen verschlüsselt, um dich vor dem Abhören durch unberechtigte Personen zu schützen.";
 "payment feature title encrypt dns" = "DNS verschlüsseln";
-"payment feature desc encrypt dns" = "Verbessere deine Privatsphäre mit einer DNS-Verschlüsselung. Blokada Cloud verwendet moderne Protokolle, um deine Abfragen privat zu halten.";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Großartige Leistung";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
 "payment feature title battery" = "Null Akkubelastung";
@@ -501,7 +501,7 @@
 "homepage vpn point two" = "Schnelle & moderne Verschlüsselung";
 "homepage vpn point three" = "Keine Protokollierung deiner Netzwerkaktivitäten";
 "homepage vpn point four" = "Verbinde bis zu 5 Geräte";
-"homepage vpn credit" = "'WireGuard' und das 'WireGuard'-Logo sind eingetragene Marken von Jason A. Donenfeld.";
+"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 
 "homepage faq header" = "Häufig gestellte Fragen";
 "homepage faq action more" = "Weitere häufig gestellte Fragen sehen";
@@ -525,7 +525,7 @@
 "homepage download option android four" = "Blokada 4 für Android";
 "homepage download option ios" = "Blokada 5 für iOS";
 "homepage download option other" = "Blokada für andere Plattformen";
-"homepage download desc other" = "Derzeit stellen wir Blokada nicht für andere Plattformen zur Verfügung. Wenn du jedoch Blokada Plus-Nutzer bist, kannst du unser VPN auf Windows, Linux, Mac und anderen Plattformen verwenden, auf denen WireGuard verfügbar ist.";
+"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
 "homepage download desc ios" = "Blokada 5 ist einfach im App Store verfügbar.";
 "homepage download action ios" = "App Store öffnen";
 "homepage download desc android five" = "Dies ist unsere neue, empfohlene Version <b>für Smartphones und Tablets mit Android 7 oder neuer</b>. Sie ist einfacher zu bedienen und schneller als Blokada 4.";
@@ -570,7 +570,7 @@
 "setup desc" = "Es gibt viele Möglichkeiten dein Gerät so zu konfigurieren, dass es Blokada Cloud verwendet. Wähle die aus, die für dich am besten funktioniert.";
 "setup label which device" = "Welche Art von Gerät möchtest du einrichten?";
 "setup label choose" = "Wähle eine der folgenden Setup-Optionen:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Hinweis: Native Apps für Android und iOS unterstützen Blokada Cloud noch nicht. Wir arbeiten an einem Update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Schritt %@: %@";
@@ -584,7 +584,7 @@
 "setup step install" = "Installieren und unsere App starten";
 "setup step enter tag" = "Wenn du gefragt wirst, gib bitte deinen Tag ein";
 "setup step download profile" = "Erstelle und lade dein Profil herunter";
-"setup step install wireguard" = "Wireguard installieren und starten";
+"setup step install wireguard" = "Install and start WireGuard";
 
 "stats header" = "Statistiken";
 // A ratio between counter of allowed vs denied requests.
