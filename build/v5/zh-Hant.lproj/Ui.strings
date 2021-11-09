@@ -182,10 +182,10 @@
 "activity request allowed" = "此請求已被允許。";
 "activity request allowed whitelisted" = "此請求已被允許，因為其在您的允許清單中";
 "activity request blocked blacklisted" = "此請求已被阻擋，因為其在您的阻擋清單中";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed list" = "這個請求因為在 *%@* 允許清單中而被允許。";
 "activity request allowed no list" = "這個請求因為不在您設定的阻擋清單中而被允許。";
 "activity request blocked list" = "這個請求因為在 *%@* 阻擋清單中而被阻擋。";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
+"activity request blocked no list" = "這個請求因為不在您設定的允許清單中而被阻擋。";
 "activity actions header" = "動作";
 "activity information header" = "資訊";
 "activity action add to whitelist" = "加入至允許清單";
@@ -219,7 +219,7 @@
 "activity retention header" = "我們可以儲存您的使用活動多久？";
 "activity retention option none" = "不要儲存我的使用活動";
 "activity retention option 24h" = "24 小時";
-"activity retention policy" = "By enabling log retention you accept the privacy policy.";
+"activity retention policy" = "啟用使用活動保留即代表您接受隱私權政策。";
 "activity retention desc" = "Blokada Cloud 預設不記錄任何資料。如果您希望在所有裝置上看到匯總的統計資料和活動紀錄，請在下方選擇想要的記錄保留時間。";
 
 "userdenied section header" = "例外";
@@ -360,11 +360,11 @@
 "payment feature title performance" = "效能更上一層";
 "payment feature desc performance" = "新一代雲端解決方案，讓您的裝置火力全開，網速飆滿。";
 "payment feature title battery" = "不多耗電";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
+"payment feature desc battery" = "您的電池壽命不會受到影響，當 Blokada Cloud 啟用時，它甚至可能會改善。";
 "payment feature title devices cloud" = "支援多裝置";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature desc devices cloud" = "在一個地方設定並監視您的所有裝置。透過我們的行動應用程式或我們的網路應用程式。";
+"payment feature title cloud vpn" = "Cloud 加上 VPN";
+"payment feature desc cloud vpn" = "除了 Blokada Cloud 的所有優勢以外，您還可以存取我們的全球 VPN 網路";
 "payment feature title faster connection" = "較快速的連線";
 "payment feature desc faster connection" = "在世界各地的伺服器上最高可達 100Mbps。";
 "payment feature title devices" = "最多 5 個裝置";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "開啟 VPN 裝置";
 "web action open setup" = "開啟設定";
 "web cta plus header" = "升級到 Blokada Plus，您的隱私權不用再任人宰割。";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web cta plus desc" = "您的 Libre 帳號可透過我們的開放原始碼應用程式在您的裝置上封鎖廣告。升級至 Blokada Plus 來取得更好的保護。您將可以存取我們的全球 VPN 網路以及我們新的 *以雲端為基礎的* 廣告封鎖，其更有效率也更易於使用。";
 // A short word for a button to generate profile
 "web action generate" = "產生";
 
