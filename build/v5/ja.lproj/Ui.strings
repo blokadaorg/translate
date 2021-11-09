@@ -138,13 +138,13 @@
 "home status paused" = "一時停止しています";
 "home status active" = "有効";
 "home status deactivated" = "無効";
-"home action tap to activate" = "タップして開始";
-"home status detail paused" = "タイマーが終了するまで一時停止中";
-"home status detail active" = "*広告*と*トラッカー*をブロック";
-"home status detail active with counter" = "*%@* の広告とトラッカーをブロック";
+"home action tap to activate" = "Tap to activate";
+"home status detail paused" = "Paused until timer ends";
+"home status detail active" = "Blocking *ads* and *trackers*";
+"home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim*がアクティブです";
 "home status detail plus" = "*+* *プライバシー*を保護";
-"home status detail progress" = "お待ちください...";
+"home status detail progress" = "Please wait...";
 
 "home plus button deactivated" = "BLOKADA+ は無効です";
 "home plus button deactivated cloud" = "VPN が無効になりました";
@@ -335,11 +335,11 @@
 "account lease label this device" = " （このデバイス）";
 "account lease label name" = "デバイス名";
 "account lease label location" = "接続先";
-"account lease label generate" = "接続先を選択すると、Wireguard をサポートする VPN アプリで使用できる設定ファイルが生成されます。これにより、まだアプリのないプラットフォームでも VPN を使用できます。対応プラットフォームでは Blokada アプリを使用することをお勧めします。";
+"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "設定ファイルを生成";
 "account lease action download" = "設定ファイルをダウンロード";
-"account lease generated" = "デバイスが追加されました！設定をダウンロードして、Wireguard でサポートされているすべてのデバイスで使用できます。";
-"account lease wireguard desc" = "Blokada は Wireguard を使用しています。設定をダウンロードして新しいデバイスを追加できます。";
+"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS を選択";
 "account lease label public key" = "公開鍵";
@@ -358,7 +358,7 @@
 "payment feature title encrypt data" = "データを暗号化";
 "payment feature desc encrypt data" = "当社の VPN トンネルを通じて送信されるデータは、権限のない当事者による傍受から保護するために強力なアルゴリズムを使用して暗号化されます。";
 "payment feature title encrypt dns" = "DNS を暗号化";
-"payment feature desc encrypt dns" = "DNS 暗号化でプライバシーを保護しましょう。Blokada Cloud は最新のプロトコルを使用してクエリをプライベートに保ちます。";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "最適なパフォーマンス";
 "payment feature desc performance" = "新しいクラウドソリューションで、デバイスやインターネット接続の速度を快適に保ちます。";
 "payment feature title battery" = "バッテリー持ちへの影響なし";
@@ -504,7 +504,7 @@
 "homepage vpn point two" = "高速で最先端の暗号化";
 "homepage vpn point three" = "アクティビティ ログの保存なし";
 "homepage vpn point four" = "デバイス最大 5 台に接続";
-"homepage vpn credit" = "「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
+"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 
 "homepage faq header" = "よくある質問";
 "homepage faq action more" = "よくある質問を見る";
@@ -528,7 +528,7 @@
 "homepage download option android four" = "Blokada 4 for Android";
 "homepage download option ios" = "Blokada 5 for iOS";
 "homepage download option other" = "Blokada for other platforms";
-"homepage download desc other" = "現在、他のプラットフォームで Blokada を使用できません。ただし、Blokada Plus ユーザーは、Windows、Linux、Mac、および Wireguard が利用可能なその他のプラットフォームで VPN を使用できます。";
+"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
 "homepage download desc ios" = "Blokada 5 は App Store で入手できます。";
 "homepage download action ios" = "App Store を開く";
 "homepage download desc android five" = "これは、<b>Android 7 以降を搭載したスマートフォンやタブレット向けの新しい推奨バージョン</b>です。Blokada 4 と比較して、よりシンプルで高速です。";
@@ -573,7 +573,7 @@
 "setup desc" = "デバイスで Blokada Cloud を使用する方法はいくつかあります。最適なものを選択してください。";
 "setup label which device" = "設定するデバイスを選択してください";
 "setup label choose" = "以下から設定を選択してください:";
-"setup comment wireguard" = "注意: VPN では、デフォルトで Blokada Cloud が使用されます。その他の DNS を選択することでオプトアウトできます。「WireGuard」と「Wireguard」ロゴは Jason A. Donenfeld の登録商標です。";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "注意: Android と iOS のネイティブアプリでは現在 Blokada Cloud をサポートしていません。今後のアップデートで対応する予定です。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "ステップ %@: %@";
@@ -587,7 +587,7 @@
 "setup step install" = "Blokada アプリをインストールして開く";
 "setup step enter tag" = "指示に従ってタグを入力してください";
 "setup step download profile" = "プロファイルを生成してダウンロード";
-"setup step install wireguard" = "Wireguard をインストールして開く";
+"setup step install wireguard" = "Install and start WireGuard";
 
 "stats header" = "統計";
 // A ratio between counter of allowed vs denied requests.
