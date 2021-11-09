@@ -138,13 +138,13 @@
 "home status paused" = "一時停止しています";
 "home status active" = "有効";
 "home status deactivated" = "無効";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home action tap to activate" = "タップして起動";
+"home status detail paused" = "タイマーが終了するまで一時停止中";
+"home status detail active" = "*広告*と*トラッカー*をブロック";
+"home status detail active with counter" = "*%@* の広告とトラッカーをブロック";
 "home status detail active slim" = "Blokada *Slim*がアクティブです";
 "home status detail plus" = "*+* *プライバシー*を保護";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "お待ちください...";
 
 "home plus button deactivated" = "BLOKADA+ は無効です";
 "home plus button deactivated cloud" = "VPN が無効になりました";
@@ -335,11 +335,11 @@
 "account lease label this device" = " （このデバイス）";
 "account lease label name" = "デバイス名";
 "account lease label location" = "接続先";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease label generate" = "接続先を選択すると、WireGuard をサポートする VPN アプリで使用できる設定ファイルが生成されます。これにより、まだアプリのないプラットフォームでも VPN を使用できます。対応プラットフォームでは Blokada アプリを使用することをお勧めします。";
 "account lease action generate" = "設定ファイルを生成";
 "account lease action download" = "設定ファイルをダウンロード";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease generated" = "デバイスが追加されました！ 設定をダウンロードして、WireGuard でサポートされているすべてのデバイスで使用できます。";
+"account lease wireguard desc" = "Blokada は WireGuard を使用しています。設定をダウンロードして新しいデバイスを追加できます。";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS を選択";
 "account lease label public key" = "公開鍵";
