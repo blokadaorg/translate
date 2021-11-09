@@ -136,10 +136,10 @@
 "home status paused" = "Đã tạm dừng";
 "home status active" = "Bật";
 "home status deactivated" = "Đã hủy kích hoạt";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home action tap to activate" = "Nhấn để kích hoạt";
+"home status detail paused" = "Tạm dừng cho đến khi bộ hẹn giờ kết thúc";
+"home status detail active" = "Chặn *quảng cáo* và *trình theo dõi*";
+"home status detail active with counter" = "Đã chặn *%@* quảng cáo và trình theo dõi";
 "home status detail active slim" = "Blokada *Slim* đang hoạt động";
 "home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
 "home status detail progress" = "Please wait...";
@@ -182,10 +182,10 @@
 "activity request allowed" = "Yêu cầu này đã được cho phép.";
 "activity request allowed whitelisted" = "Yêu cầu này đã được cho phép, vì nó nằm trong danh sách Được phép của bạn";
 "activity request blocked blacklisted" = "Yêu cầu này đã bị chặn vì nó nằm trong danh sách Bị chặn của bạn";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed list" = "Yêu cầu này đã được cho phép vì nó có trong danh sách cho phép *%@*.";
 "activity request allowed no list" = "Yêu cầu này đã được cho phép, vì nó không có trên bất kỳ danh sách chặn nào đã định cấu hình của bạn.";
 "activity request blocked list" = "Yêu cầu này đã bị chặn, vì nó hiện diện trên *%@* danh sách chặn.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
+"activity request blocked no list" = "Yêu cầu này đã bị chặn vì nó không có trên bất kỳ danh sách cho phép nào đã định cấu hình của bạn.";
 "activity actions header" = "Hành động";
 "activity information header" = "Thông tin";
 "activity action add to whitelist" = "Thêm vào Được phép";
@@ -219,7 +219,7 @@
 "activity retention header" = "Chúng tôi có thể lưu trữ hoạt động của bạn trong bao lâu?";
 "activity retention option none" = "Không lưu trữ hoạt động của tôi";
 "activity retention option 24h" = "24 giờ";
-"activity retention policy" = "By enabling log retention you accept the privacy policy.";
+"activity retention policy" = "Bằng cách cho phép lưu giữ nhật ký, bạn chấp nhận chính sách bảo mật.";
 "activity retention desc" = "Đám mây Blokada không ghi nhật ký bất kỳ thứ gì theo mặc định. Nếu bạn muốn xem số liệu thống kê và hoạt động tổng hợp từ tất cả các thiết bị của mình, hãy chọn khoảng thời gian lưu giữ nhật ký mong muốn bên dưới.";
 
 "userdenied section header" = "Ngoại lệ";
@@ -360,11 +360,11 @@
 "payment feature title performance" = "Hiệu suất Tuyệt vời";
 "payment feature desc performance" = "Giữ cho thiết bị của bạn luôn linh hoạt và kết nối Internet của bạn ở tốc độ tối đa nhờ giải pháp Đám mây mới của chúng tôi.";
 "payment feature title battery" = "Không tác động đến Pin";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
+"payment feature desc battery" = "Thời lượng pin của bạn sẽ không bị ảnh hưởng, thậm chí có thể cải thiện khi Đám mây Blokada được kích hoạt.";
 "payment feature title devices cloud" = "Nhiều thiết bị";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature desc devices cloud" = "Định cấu hình và giám sát tất cả các thiết bị của bạn ở một nơi. Thông qua ứng dụng di động hoặc ứng dụng web của chúng tôi.";
+"payment feature title cloud vpn" = "Đám mây cộng với VPN";
+"payment feature desc cloud vpn" = "Ngoài tất cả các lợi ích của Đám mây Blokada, bạn sẽ có quyền truy cập vào mạng VPN toàn cầu của chúng tôi";
 "payment feature title faster connection" = "Kết nối nhanh hơn";
 "payment feature desc faster connection" = "Tốc độ tuyệt vời lên đến 100Mbps với các máy chủ ở nhiều nơi khác nhau trên Thế giới.";
 "payment feature title devices" = "Lên đến 5 thiết bị";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "Mở thiết bị VPN";
 "web action open setup" = "Mở cài đặt";
 "web cta plus header" = "Nâng cấp lên Blokada Plus để kiểm soát quyền riêng tư của bạn.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web cta plus desc" = "Tài khoản Libre của bạn cung cấp cho bạn tính năng chặn quảng cáo miễn phí trên thiết bị của bạn với các ứng dụng nguồn mở của chúng tôi. Nâng cấp lên Blokada Plus để được bảo vệ tốt hơn. Bạn sẽ có quyền truy cập vào mạng VPN toàn cầu của chúng tôi cũng như *nền tảng đám mây* chặn quảng cáo hiệu quả hơn và dễ sử dụng hơn.";
 // A short word for a button to generate profile
 "web action generate" = "Khởi tạo";
 
