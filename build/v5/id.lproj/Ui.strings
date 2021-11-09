@@ -136,13 +136,13 @@
 "home status paused" = "Dijeda";
 "home status active" = "Aktif";
 "home status deactivated" = "Dinonaktifkan";
-"home action tap to activate" = "tekan untuk mengaktifkan";
-"home status detail paused" = "dihentikan sementara sampai pengatur waktu berhenti";
-"home status detail active" = "memblokir *iklan* dan *pelacak*";
-"home status detail active with counter" = "memblokir *%@* iklan dan pelacak";
+"home action tap to activate" = "Tap to activate";
+"home status detail paused" = "Paused until timer ends";
+"home status detail active" = "Blocking *ads* and *trackers*";
+"home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* telah diaktifkan";
 "home status detail plus" = "*+* melindungi *privasi* Anda";
-"home status detail progress" = "harap tunggu...";
+"home status detail progress" = "Please wait...";
 
 "home plus button deactivated" = "BLOKADA+ dinonaktifkan";
 "home plus button deactivated cloud" = "VPN telah dinonaktifkan";
@@ -333,11 +333,11 @@
 "account lease label this device" = " (perangkat ini)";
 "account lease label name" = "Nama perangkat";
 "account lease label location" = "Lokasi";
-"account lease label generate" = "Memilih lokasi akan menghasilkan file config yang bisa Anda pakai di aplikasi VPN manapun yang mendukung protokol Wireguard. Hal ini berguna di platform yang belum didukung oleh Blokada (mis. Windows, Linux). Untuk Android dan iOS kami sarankan Anda untuk menggunakan aplikasi resmi kami.";
+"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Hasilkan file Config";
 "account lease action download" = "Unduh file Config";
-"account lease generated" = "Perangkat ditambahkan! Unduh file konfigurasi untuk menggunakannya di perangkat apa pun yang mendukung protokol Wireguard.";
-"account lease wireguard desc" = "Blokada menggunakan protokol Wireguard. Konfigurasi dapat diunduh saat menambahkan perangkat baru.";
+"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Pilih server DNS";
 "account lease label public key" = "Public Key";
@@ -356,7 +356,7 @@
 "payment feature title encrypt data" = "Enkripsi Data";
 "payment feature desc encrypt data" = "Data yang dikirim melalui jalur VPN kami telah dienkripsi dengan algoritma yang kuat sehingga data Anda aman dari pihak-pihak yang tidak berkepentingan.";
 "payment feature title encrypt dns" = "Enkripsikan DNS";
-"payment feature desc encrypt dns" = "Tingkatkan privasi Anda dengan DNS terenkripsi. Blokada Cloud dengan protokol modern membantu menjaga privasi Anda.";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Kinerja yang mumpuni";
 "payment feature desc performance" = "Menjaga perangkat Anda tetap gegas dan koneksi internet Anda di kecepatan maksimal, berkat solusi Cloud baru dari kami.";
 "payment feature title battery" = "Tidak mempengaruhi daya tahan baterai";
@@ -501,7 +501,7 @@
 "homepage vpn point two" = "Enkripsi cepat & modern";
 "homepage vpn point three" = "Tanpa pencatatan aktivitas jaringan Anda";
 "homepage vpn point four" = "Cakupan koneksi hingga 5 perangkat";
-"homepage vpn credit" = "'Wireguard' dan logo 'Wireguard' adalah merk terdaftar milik Jason A. Donenfeld.";
+"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 
 "homepage faq header" = "Pertanyaan Yang Sering Diajukan";
 "homepage faq action more" = "Lihat selengkapnya";
@@ -525,7 +525,7 @@
 "homepage download option android four" = "Blokada 4 untuk Android";
 "homepage download option ios" = "Blokada 5 untuk iOS";
 "homepage download option other" = "Blokada untuk platform lain";
-"homepage download desc other" = "Saat ini, kami belum menyediakan Blokada untuk platform selain Android dan iOS. Namun, jika Anda berlangganan Blokada Plus, Anda bisa menggunakan fitur VPN kami di Windows, Linux, Mac, dan platform lain yang mendukung protokol Wireguard.";
+"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
 "homepage download desc ios" = "Blokada 5 tersedia di App Store.";
 "homepage download action ios" = "Buka App Store";
 "homepage download desc android five" = "Versi ini adalah versi terbaru dan yang kami rekomendasikan <b>untuk smartphone dan tablet yang menggunakan Android 7 atau lebih baru</b>. Versi ini lebih simpel dan cepat dibandingkan Blokada 4.";
@@ -570,7 +570,7 @@
 "setup desc" = "Ada banyak cara untuk mengkonfigurasikan perangkat Anda agar bisa menggunakan Blokada Cloud. Pilih salah satu yang cocok untuk Anda.";
 "setup label which device" = "Apa jenis pernagkat yang ingin Anda atur untuk Blokada Cloud?";
 "setup label choose" = "Silakan pilih salah satu dari opsi pengaturan berikut:";
-"setup comment wireguard" = "Catatan: Konfigurasi VPN bawaan adalah Blokada Cloud. Silakan pilih pengaturan DNS lain jika Anda ingin menggunakan server lain. 'Wireguard' dan logo 'Wireguard' adalah merk dagang terdaftar milik Jason A. Donenfeld.";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Catatan: Aplikasi bawaan Android dan iOS saat ini belum mendukung Blokada Cloud. Kami sedang mengusahakan update untuk mengatasi hal ini.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Langkah %@: %@";
@@ -584,7 +584,7 @@
 "setup step install" = "Instal dan mulai aplikasi";
 "setup step enter tag" = "Masukkan tag Anda ketika diminta";
 "setup step download profile" = "Buat dan unduh profil Anda";
-"setup step install wireguard" = "Instal dan mulai Wireguard";
+"setup step install wireguard" = "Install and start WireGuard";
 
 "stats header" = "Statistik";
 // A ratio between counter of allowed vs denied requests.
