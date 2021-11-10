@@ -133,13 +133,13 @@
 "home power off menu header" = "何をしたいですか？";
 "home power action turn on" = "起動";
 "home power action turn off" = "停止";
-"home power action pause" = "5分間一時停止";
+"home power action pause" = "5 分間停止";
 
-"home status paused" = "一時停止しています";
+"home status paused" = "停止しています";
 "home status active" = "有効";
 "home status deactivated" = "無効";
 "home action tap to activate" = "タップして起動";
-"home status detail paused" = "タイマーが終了するまで一時停止中";
+"home status detail paused" = "タイマーが終了するまで停止中";
 "home status detail active" = "*広告*と*トラッカー*をブロック";
 "home status detail active with counter" = "*%@* の広告とトラッカーをブロック";
 "home status detail active slim" = "Blokada *Slim*がアクティブです";
@@ -257,7 +257,7 @@
 "networks summary encrypt dns" = "Blokada は暗号化された DNS に優先して接続します。これによりセキュリティが向上し、悪意のある人物があなたが使用するウェブサイトやアプリをスパイするのを防ぎます。";
 "networks summary use dns" = "Blokada はデバイスの DNS として %@ を使用します。ロックアイコン付きの暗号化された DNS を選択すると、データを保護することができます。一般に、近くにあるサーバーの方が通信速度が速くなるとされています。";
 "networks summary network dns" = "Blokada はネットワーク DNS を使用し、使用できない場合は %@ に切り替えます。ネットワーク DNS を使用すると DNS は暗号化されません。ネットワーク上の接続の問題が解決される場合がありますが、保護されていない状態になります。";
-"networks summary network dns and plus mode" = "Blokada は、ネットワーク DNS が使用されるたびに Blokada Plus VPN を一時的に無効にします。これは VPN でネットワーク DNS にアクセスできないためです。デバイスが別のネットワークに切り替わると、Blokada Plus VPN は自動的に復元されます。";
+"networks summary network dns and plus mode" = "Blokada は、ネットワーク DNS が使用されるたびに Plus モードを一時的に無効にします。これは VPN でネットワーク DNS にアクセスできないためです。デバイスが別のネットワークに切り替わると、Plus モードは自動的に復元されます。";
 "networks summary blocka plus mode" = "Blokada は Plus モードで Blokada DNS を使用して、高いレベルの暗号化と速度を確保します。DNS 選択画面の下部でこの設定を変更できます。";
 "networks summary force libre mode" = "Blokada はこのネットワーク上で常に Libre モードを使用し、Blokada Plus の接続先を無視します。追加の保護を必要としないネットワークでご利用ください。";
 "networks permission dialog" = "Blokada は接続先のネットワークを認識して個別の設定を適用することができます。Blokada がこの機能を有効にするためにはネットワーク名を収集する必要があり、位置情報へのアクセス許可が必要です。アプリが閉じられているか使用されていない場合でも、場合によっては位置情報へのアクセスに関するシステム通知が表示されることがあります。Blokada はネットワーク名のみを読み取りその他の情報は利用しません。";
