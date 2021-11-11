@@ -137,7 +137,7 @@
 "home status active" = "Активен";
 "home status deactivated" = "Деактивиран";
 "home action tap to activate" = "Докоснете за да активирате";
-"home status detail paused" = "На пауза докато приключи таймерът";
+"home status detail paused" = "На пауза докато приключи таймера";
 "home status detail active" = "Блокиране на *реклами* и *тракери*";
 "home status detail active with counter" = "Блокирани *%@* реклами и тракери";
 "home status detail active slim" = "Blokada *Slim* е активна";
@@ -185,7 +185,7 @@
 "activity request allowed list" = "Тази заявка е разрешена, защото присъства в списъка *%@* с разрешени.";
 "activity request allowed no list" = "Тази заявка е разрешена, тъй като не присъства в нито един от конфигурираните ви блокиращи списъци.";
 "activity request blocked list" = "Тази заявка е блокирана, защото присъства в списъка за блокиране на *%@*.";
-"activity request blocked no list" = "Тази заявка е блокирана, тъй като не присъства в нито един от конфигурираните ви списъци с разрешения.";
+"activity request blocked no list" = "Тази заявка е блокирана, тъй като не присъства в нито един от конфигурираните ви списъци с разрешени.";
 "activity actions header" = "Действия";
 "activity information header" = "Информация";
 "activity action add to whitelist" = "Добавяне към Разрешени";
@@ -570,7 +570,7 @@
 "setup desc" = "Има много начини да конфигурирате устройството си да използва Blokada Cloud. Изберете този, който работи за вас.";
 "setup label which device" = "Какъв тип устройство искате да настроите?";
 "setup label choose" = "Изберете някоя от опциите за настройка:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment wireguard" = "Забележка: Конфигурацията на VPN ще използва Blokada Cloud по подразбиране. Изберете друга настройка на DNS, ако искате да се откажете. 'WireGuard' и логото 'WireGuard' са регистрирани търговски марки на Jason A. Donenfeld.";
 "setup comment native apps" = "Забележка: Приложенията за Android и iOS все още не поддържат Blokada Cloud. Работим по актуализацията.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Стъпка %@: %@";
@@ -584,7 +584,7 @@
 "setup step install" = "Инсталирайте и стартирайте приложението си";
 "setup step enter tag" = "Когато бъдете помолени, въведете своя маркер";
 "setup step download profile" = "Генерирайте и изтеглете вашия профил";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step install wireguard" = "Инсталирайте и стартирайте Wireguard";
 
 "stats header" = "Статистика";
 // A ratio between counter of allowed vs denied requests.
@@ -596,6 +596,6 @@
 "stats top allowed header" = "Най-разрешени заявки";
 "stats top blocked header" = "Най-блокирани заявки";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
+"dnsprofile header" = "Активиране на Blokada в настройките";
+"dnsprofile desc" = "В Настройки на приложението отворете Общи → VPN, DNS и управление на устройства → DNS и изберете Blokada.";
+"dnsprofile action open settings" = "Отваряне на настройките";
