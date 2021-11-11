@@ -10,247 +10,247 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "Your device is offline";
-"error account inactive" = "Your account is inactive. Please activate your account in order to continue using BLOKADA+.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error account invalid" = "This account ID seems invalid.";
+"error device offline" = "기기는 오프라인입니다";
+"error account inactive" = "계정이 비활성화 되어 있습니다. BLOKADA+를 사용하기 위해서 계정을 활성화하시기 바랍니다.";
+"error account inactive after restore" = "유효하지 않는 활동 계정으로 보입니다. 잘못 된 것으로 생각되면 상단에 있는 도움말 아이콘을 클릭하여 연락주시기 바랍니다.";
+"error account invalid" = "이 계정은 유효하지 않는 것으로 보입니다.";
 "error creating account" = "새로운 계정을 생성할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다.";
 "error fetching data" = "이 작업을 완료할 수 없었습니다. 현재 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 help 버튼을 눌러 우리에게 알려주시기 바랍니다.";
 "error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 "error vpn" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
-"error vpn perms" = "No permissions granted to create a VPN profile.";
+"error vpn perms" = "VPN 프로필을 만들기 위한 권한이 할당되어 있지 않습니다.";
 "error vpn no current lease" = "먼저 지역을 선택하십시오.";
-"error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
+"error vpn too many leases" = "등록 기기수 제한에 도달했습니다. 기기 중 하나를 삭제하고 다시 시도해보시기 바랍니다.";
 "error vpn expired" = "VPN이 비활성화되었습니다. BLOKADA+를 계속 사용하고 싶다면 구독을 연장해주시기 바랍니다";
 "error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either Apple Pay is not activated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
-"error unknown" = "An unknown problem occurred. Please try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error payment failed" = "현재 결제 진행이 불가능합니다. 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 도움말 아이콘을 눌러 연락주시기 바랍니다";
+"error payment failed alternative" = "현재 결제를 완료할 수 없습니다. 입력된 데이터가 정확한지 확인 후 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 도움말 아이콘을 눌러 연락주시기 바랍니다";
+"error payment not available" = "이 기기에서 결제가 불가능 하거나 Apple Pay가 활성화 안되어 있습니다. 또는 사용자의 국가에서 결제 서비스를 아직 지원하지 않습니다.";
+"error payment canceled" = "결제가 취소되었습니다. 청구되지 않았습니다.";
+"error pack install" = "이 기능을 설치 (또는 삭제) 할 수 없습니다. 다음에 다시 시도해보시기 바랍니다.";
+"error location failed fetching" = "지역을 가져올 수 없습니다.";
+"error unknown" = "알 수 없는 문제가 발생했습니다. 다시 시도해보시기 바랍니다. 만약 문제가 지속된다면 상단에 있는 도움말 아이콘을 클릭하여 연락주시기 바랍니다.";
+"error blocka dns in filtering mode" = "Blokada DNS는 현재 Plus mode에서만 지원됩니다. 다른 DNS를 선택 후 시도해보시기 바랍니다.";
 
 "universal action continue" = "계속";
 "universal action cancel" = "취소";
 "universal action close" = "닫기";
-"universal action done" = "Done";
+"universal action done" = "완료";
 "universal action try again" = "다시 시도해 보세요.";
 "universal action learn more" = "더 알아보기";
 "universal action help" = "도움";
-"universal action show log" = "Logs";
+"universal action show log" = "로그";
 "universal action share log" = "로그 공유";
 "universal action copy" = "복사";
 "universal action save" = "저장";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
+"universal action contact us" = "문의하기";
+"universal action support" = "고객지원";
+"universal action upgrade" = "BLOKADA+로 업그레이드";
 "universal action upgrade short" = "업그레이드";
 "universal action yes" = "네";
 "universal action no" = "아니오";
 "universal action donate" = "기부하기";
-"universal action community" = "Community";
+"universal action community" = "커뮤니티";
 "universal action open in browser" = "브라우저에서 열기";
-"universal action more" = "More";
+"universal action more" = "더 보기";
 "universal action download" = "다운로드";
 "universal action news" = "소식";
 "universal action delete" = "제거";
-"universal action hide" = "Hide";
+"universal action hide" = "숨김";
 "universal action select" = "선택";
-"universal action selected" = "Selected";
+"universal action selected" = "선택된";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "검색";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "필터";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "지우기";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "취소";
 
 "universal label help" = "도움";
 "universal label welcome" = "환영합니다!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "없음";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "이름";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "시간";
 // Common label in tables for the Count column. Think "number of items".
 "universal label count" = "Count";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "형식";
+"universal label device" = "기기";
 
 "universal status processing" = "처리 중입니다... 잠시만 기다려주세요.";
 "universal status copied to clipboard" = "클립보드에 복사됨";
 "universal status restart required" = "변경사항을 적용하려면 이 앱을 다시 시작해야 합니다.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status redirect" = "앱에서 계속하기";
+"universal status confirm" = "계속 진행하시겠습니까?";
 
 "alert error header" = "이런!";
 "alert vpn expired header" = "BLOKADA+ 가 만료되었습니다.";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert download link body" = "보안상의 이유로 파일을 다운로드 하기위해서는 사용자의 브라우저를 이용해야 웹사이트를 열어야 합니다. 다운로드 링크를 다시 눌러 보시기 바랍니다.";
 
 "notification vpn expired header" = "BLOKADA+ 구독이 만료되었습니다";
 "notification vpn expired subtitle" = "VPN이 비활성화되었습니다";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired body" = "BLOKADA+를 계속 사용하고 싶다면 구독을 연장해주시기 바랍니다";
+"notification desc settings" = "설정을 위해 알림을 왼쪽 또는 오른쪽으로 스와이프 합니다.";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "업데이트 가능";
+"alert update body" = "Blokda %@는 현재 다운로드가 가능합니다. 최신 버전을 사용하고 우리의 공식 사이트에서 다운 받는 것을 권장합니다.";
+"update label updated" = "업데이트됨";
+"update desc updated" = "현재 최신 버전의 Blokada! 사용하고 습니다. 기부를 하거나 Blokada Plus 구독은 우리에게 이 앱을 지속적으로 개선할 수 있도록 해주는 것을 기억해주시기 바랍니다.";
+"update downloading description" = "업데이트가 다운로드 중입니다. 곧 설치 화면이 표시됩니다.";
 
 "account active forever" = "Forever";
 "account active forever full" = "Active forever";
 
-"main ask for permissions header" = "Just one more step";
-"main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
+"main ask for permissions header" = "한 번 더";
+"main ask for permissions description" = "Blokada는 광고를 차단하기 위해 VPN 설정을 사용합니다. 다음 단계에서 사용 허용 요청을 받게 될 겁니다.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "iOS용 Blokada는 %@ 광고와 트랙커를 차단하는데 도움을 줬습니다.";
 
 "main rate us header" = "이 앱을 평가해주세요!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us description" = "지금까지 Blokada는 마음에 드십니까?";
+"main rate us on app store" = "App Store에서 Blokda 평가하여 도움을 주시겠습니까?";
+"main rate us action sure" = "예!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "홈";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "활동";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "고급설정";
 // Make sure each tab name has a similar length
 "main tab settings" = "설정";
 
 "main label use side menu" = "Use side menu to navigate";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
+"home ads counter footnote" = "설치 이후 차단된 광고와 트랙커";
+"home power off menu header" = "무엇을 하시겠습니까?";
+"home power action turn on" = "켜기";
+"home power action turn off" = "끄기";
 "home power action pause" = "5분동안만 정지시킴";
 
-"home status paused" = "Paused";
+"home status paused" = "일시정지";
 "home status active" = "활성화됨";
 "home status deactivated" = "비활성화됨";
-"home action tap to activate" = "tap to activate";
-"home status detail paused" = "paused until timer ends";
-"home status detail active" = "blocking *ads* and *trackers*";
-"home status detail active with counter" = "blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "잠시만 기다리세요...";
+"home action tap to activate" = "Tap to activate";
+"home status detail paused" = "Paused until timer ends";
+"home status detail active" = "Blocking *ads* and *trackers*";
+"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home status detail active slim" = "Blokada *Slim* 작동 중";
+"home status detail plus" = "*+* 당신의 *개인정보*를 보호 중";
+"home status detail progress" = "Please wait...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button deactivated" = "BLOKADA+ 비활성화됨";
+"home plus button deactivated cloud" = "VPN 비활성화됨";
+"home plus button select location" = "위치 선택";
+"home plus button location" = "지역 *%@*";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "보호: 낮음";
+"home level medium" = "보호: 중간";
+"home level high" = "보호: 높음";
 
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
+"pack section header" = "고급 기능";
+"pack section header details" = "세부 기능";
 "pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
+"pack action update" = "업데이트";
+"pack action uninstall" = "삭제";
+"pack author" = "만든이";
+"pack configurations header" = "설정";
+"pack information header" = "더 보기";
+"pack tags header" = "태그";
+"pack tags none" = "없음";
+"pack category highlights" = "하이라이트";
 "pack category active" = "활성화됨";
-"pack category all" = "All";
+"pack category all" = "모두";
 
-"advanced section header packs" = "Blocklists";
-"advanced section slugline packs" = "Activate for more restrictive blocking";
-"advanced section slugline apps" = "Choose apps that should never be blocked";
-"advanced section slugline encryption" = "Adjust your encryption level and DNS";
-"advanced action slim migrate to full" = "You are using Blokada Slim. Learn more";
+"advanced section header packs" = "차단 목록";
+"advanced section slugline packs" = "더 제한된 차단 활성화";
+"advanced section slugline apps" = "차단헤서는 안되는 앱을 선택합니다.";
+"advanced section slugline encryption" = "당신의 암호화 수준과 DNS를 설정합니다.";
+"advanced action slim migrate to full" = "당신은 Blokada Slim을 사용합니다. 더 알아보기";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "지역 선택";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* blocklist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured blocklists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity section header" = "활동";
+"activity section header details" = "활동 세부사항";
+"activity request blocked" = "이 요청은 차단되었습니다.";
+"activity request allowed" = "이 요청은 허용되었습니다.";
+"activity request allowed whitelisted" = "이 요청은 허용되었습니다. 왜냐하면 해당 요청이 당신의 허용 목록에 있기 때문입니다.";
+"activity request blocked blacklisted" = "이 요청은 차단되었습니다. 왜냐하면 해당 요청이 당신의 차단 목록에 있기 때문입니다.";
+"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed no list" = "이 요청은 허용되었습니다. 왜나햐면 당신의 설정된 차단 목록 어디에도 있지 않기 때문입니다.";
+"activity request blocked list" = "이 요청은 차단되었습니다. 왜냐하면 현재 *%@* 차단 목록에 있습니다.";
+"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
+"activity actions header" = "작업";
+"activity information header" = "정보";
+"activity action add to whitelist" = "허용하기";
+"activity action remove from whitelist" = "허용하기 삭제";
+"activity action added to whitelist" = "허용에 추가됨";
+"activity action add to blacklist" = "차단하기";
+"activity action remove from blacklist" = "차단하기 삭제";
+"activity action added to blacklist" = "차단에 추가됨";
+"activity action copy to clipboard" = "클립보드에 이름 복사";
+"activity domain name" = "전체 이름";
+"activity time of occurrence" = "시간";
+"activity number of occurrences" = "발생횟수";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "수정됨";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "차단됨";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "허용됨";
+"activity happened one time" = "1회";
+"activity happened many times" = "%@ 번";
+"activity category recent" = "최근";
+"activity category top" = "순위";
+"activity category top blocked" = "차단 순위";
+"activity category top allowed" = "허용 순위";
+"activity filter header" = "어떤 항목들을 보기 원하십니까?";
+"activity filter show all" = "모든 항목";
+"activity filter show blocked" = "차단된 것만";
+"activity filter show allowed" = "허용된 것만";
 "activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
-"activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
-"activity retention policy" = "By enabling log retention you accept Blokada Cloud Privacy Policy.";
+"activity device filter show all" = "모든 기기";
+"activity retention header" = "얼마의 기간 동안 당신의 활동을 저장하기 원합니까?";
+"activity retention option none" = "활동 내역 저장 안함";
+"activity retention option 24h" = "24 시간";
+"activity retention policy" = "By enabling log retention you accept the privacy policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "예외";
+"userdenied section slugline" = "특정 사이트 차단 설정";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "허용됨";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "차단됨";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "허용";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "차단";
 
-"networks section header" = "Networks";
-"networks section label" = "Adjust settings for WiFi and mobile networks";
-"networks label all networks" = "All networks";
-"networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
-"networks label configuration active" = "These settings are currently active";
-"networks label configuration enabled" = "Not connected to this network";
-"networks label configuration inactive" = "Tap to modify settings for this network";
-"networks label details default network" = "The settings below are applied by default for all networks. You can override them for selected networks (in the previous screen).";
-"networks action encrypt dns" = "Encrypt DNS";
-"networks action use dns" = "Use DNS: %@";
-"networks action use network dns" = "Prefer network DNS";
+"networks section header" = "네트워크";
+"networks section label" = "WiFi와 모바일 네트워크 설정 수정";
+"networks label all networks" = "모든 네트워크";
+"networks action network specific" = "기본 설정을 변경하려면 여기를 누르십시오. 특정 네트워크에서 앱을 다르게 사용하려면 아래 탭을 누르십시오.";
+"networks label configuration active" = "해당 설정이 현재 활성화 되었습니다.";
+"networks label configuration enabled" = "이 네트워크에 연결되어 있지 않습니다.";
+"networks label configuration inactive" = "이 네트워크 설정을 수정하려면 여기를 누르시기 바랍니다.";
+"networks label details default network" = "이 설정은 기본설정으로 아래에 있는 모든 네트워크에 적용됩니다. 선택된 네트워크 설정을 위해 기본 설정을 무시할 수 있습니다. (이전 화면)";
+"networks action encrypt dns" = "DNS 암호화";
+"networks action use dns" = "DNS: %@ 사용";
+"networks action use network dns" = "선호하는 네트워크 DNS";
 "networks action force libre mode" = "Force Libre mode";
-"networks label specific network" = "Adjust what should happen when your device connects to this network.";
-"networks label specific network type" = "Adjust what should happen when your device connects to a network of this type.";
-"networks label any wifi" = "Any WiFi network";
-"networks label any mobile" = "Any mobile network";
-"networks permission request" = "To have more control, tap here and let the app recognise all networks.";
-"networks permission request granted" = "You may see a notification when Blokada reads your network name in the background.";
+"networks label specific network" = "당신의 기기가 이 네트워크에 연결될 때 실행될 것을 설정";
+"networks label specific network type" = "당신의 기기가 이 종류의 네트워크에 연결될 때 실행될 것을 설정";
+"networks label any wifi" = "WiFi 네트워크";
+"networks label any mobile" = "모바일 네트워크";
+"networks permission request" = "세부 조정을 위해 여기를 누르고 앱이 모든 네트워크를 인식할 수 있도록 합니다.";
+"networks permission request granted" = "Blokada가 백그라운드에서 당신의 네크워크 이름을 읽을 때 이 알림을 보게 될 겁니다.";
 "networks section choose dns" = "DNS를 선택하세요";
 "networks summary encrypt dns" = "Blokada will encrypt DNS if possible. This improves your security and prevents malicious actors to spy on what websites and apps you use.";
 "networks summary use dns" = "Blokada will use %@ as your device's DNS. Choosing the one that allows for encryption (has the lock icon), and is near to you, will help protecting your data and making your connection fast.";
@@ -275,11 +275,11 @@
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
 "account action logout only" = "로그아웃";
-"account action create" = "Generate new account";
+"account action create" = "새 계정 생성";
 "account action about" = "정보";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
+"account label enter to continue" = "계속하려면 계정 ID를 입력하세요.";
 "account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
 "account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
 "account create confirm" = "I wrote it down";
@@ -303,68 +303,68 @@
 "account id status unchanged" = "(unchanged)";
 "account action how to restore" = "How do I restore my old account?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
+"account subscription days remaining" = "남은 일자: %@";
+"account devices remaining" = "남은 기기: %@";
+"account devices not available" = "사용할 수 없음";
 "account devices out of" = "%@ out of %@";
 
-"account encrypt level low" = "Low";
-"account encrypt level medium" = "Medium";
-"account encrypt level high" = "High";
-"account encrypt label dns only" = "Encrypting DNS";
+"account encrypt level low" = "낮음";
+"account encrypt level medium" = "중간";
+"account encrypt level high" = "높음";
+"account encrypt label dns only" = "DNS 암호화";
 "account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
-"account encrypt label everything" = "Connecting through VPN";
+"account encrypt label everything" = "VPN을 통한 접속";
 "account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
-"account encrypt action turn on" = "Turn on BLOKADA";
-"account encrypt header level" = "Encryption Level";
-"account encrypt label level" = "Level";
-"account encrypt label level low" = "Low: No Encryption";
-"account encrypt label level medium" = "Medium: Encrypting DNS";
-"account encrypt label level high" = "High: Encrypting Everything";
+"account encrypt action turn on" = "BLOKADA 켜기";
+"account encrypt header level" = "암호화 단계";
+"account encrypt label level" = "단계";
+"account encrypt label level low" = "낮음: 암호화 없음";
+"account encrypt label level medium" = "중간: DNS 암호화";
+"account encrypt label level high" = "높음: 모두 암호화";
 "account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
 "account encrypt label dns" = "DNS";
-"account encrypt action what is dns" = "What is DNS?";
-"account encrypt section header" = "Encryption";
+"account encrypt action what is dns" = "DNS가 무엇인가요?";
+"account encrypt section header" = "암호화";
 "account encrypt section blocka dns" = "Blokada DNS";
 "account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
 
 "account lease label devices list" = "These devices are connected to your account.";
 "account lease label devices" = "기기";
-"account lease label this device" = " (this device)";
+"account lease label this device" = " (이 기기)";
 "account lease label name" = "장치 이름";
-"account lease label location" = "Location";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports Wireguard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by Wireguard.";
-"account lease wireguard desc" = "Blokada uses Wireguard. Configurations can be downloaded when creating new devices.";
+"account lease label location" = "위치";
+"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease action generate" = "설정 생성";
+"account lease action download" = "설정 다운로드";
+"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "DNS를 선택하세요";
+"account lease label public key" = "공개 키";
 
-"account support action how help" = "How can we help you?";
+"account support action how help" = "어떻게 도와 드릴까요?";
 "account support action kb" = "Open Knowledge Base";
 
 "payment header activated" = "활성화됨!";
 "payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
+"payment action choose location" = "위치 선택";
 "payment action see locations" = "Our Locations";
 
 "payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
+"payment feature title change location" = "위치 변경";
 "payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
+"payment feature title encrypt data" = "데이터 암호화";
 "payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your queries private.";
+"payment feature title encrypt dns" = "DNS 암호화";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Great Performance";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
 "payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life is going to be the same, with or without Blokada Cloud activated.";
+"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
 "payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Set up all your devices under one Blokada Cloud subscription. Use our mobile apps or our web dashboard.";
-"payment feature title cloud vpn" = "Cloud & VPN";
-"payment feature desc cloud vpn" = "Enjoy all the features of Blokada Cloud. Additionally, get access to our VPN network.";
+"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
+"payment feature title cloud vpn" = "The Cloud plus VPN";
+"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
 "payment feature title faster connection" = "Faster Connection";
 "payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
 "payment feature title devices" = "Up to 5 devices";
@@ -397,16 +397,16 @@
 "payment ongoing title" = "Your payment is now being processed.";
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "구글 페이";
-"payment pay apple short" = "Apple Pay";
+"payment pay apple short" = "애플 페이";
 "payment change method" = "변경";
 "payment action pay" = "Pay %@";
 "payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
+"payment label email" = "이메일";
 "payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
+"payment label choose package" = "패키지 선택";
+"payment label choose payment method" = "결제 방법 선택";
+"payment label cheapest" = "가장 저렴한";
+"payment label most popular" = "가장 인기 있는";
 "payment label pay with card" = "카드로 결제";
 "payment label pay with paypal" = "페이팔로 결제";
 "payment label pay with crypto" = "Pay with crypto";
@@ -414,7 +414,7 @@
 "payment package six months" = "6개월";
 "payment package twelve months" = "12개월";
 "payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment label country" = "국가";
 
 "payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
 "payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
@@ -426,39 +426,39 @@
 "payment plan cta monthly" = "Subscribe Monthly";
 "payment plan cta annual" = "Subscribe Annually";
 
-"apps section header" = "Apps";
-"apps label installed" = "Installed";
-"apps label system" = "System";
+"apps section header" = "앱";
+"apps label installed" = "설치됨";
+"apps label system" = "시스템";
 "apps status bypassed" = "(bypassed)";
 "apps filter header" = "Which apps would you like to see?";
-"apps filter action show all" = "All apps";
+"apps filter action show all" = "모든 앱";
 "apps filter action show bypassed" = "Bypassed only";
 "apps filter action show not bypassed" = "Not bypassed only";
 "apps filter action toggle system" = "Toggle all system apps";
 
-"app settings section header" = "This device";
+"app settings section header" = "이 기기";
 "app settings language label" = "언어";
-"app settings theme label" = "App theme";
-"app settings theme light" = "Light";
-"app settings theme dark" = "Dark";
+"app settings theme label" = "앱 테마";
+"app settings theme light" = "밝은";
+"app settings theme dark" = "어두운";
 // A setting for changing if to open links internally in the app, or by using this device's web browser
 "app settings browser label" = "Redirect links to";
-"app settings browser internal" = "Internal browser";
-"app settings browser external" = "External browser (if possible)";
-"app settings ipv6 label" = "Allow IPv6";
-"app settings section system" = "System";
+"app settings browser internal" = "내장 브라우저";
+"app settings browser external" = "외장 브라우저 (가능하면)";
+"app settings ipv6 label" = "IPv6 허용";
+"app settings section system" = "시스템";
 "app settings action app info" = "Open App Information";
 "app settings action vpn profile" = "Open VPN Profile";
 "app settings action notifications" = "Open Notification Settings";
 "app settings section details" = "세부사항";
-"app settings status default" = "System default";
+"app settings status default" = "시스템 기본값";
 "app settings start on boot" = "부팅 시 시작";
-"app settings use dns over https" = "Use DNS over HTTPS";
-"app settings backup" = "Use cloud backup";
-"app settings section advanced" = "Advanced";
+"app settings use dns over https" = "DNS over HTTPS 사용";
+"app settings backup" = "Cloud backup 사용";
+"app settings section advanced" = "고급설정";
 "app settings section use foreground" = "활동 유지";
 
-"intro header" = "Blokada is Active!";
+"intro header" = "Blokada 작동 중!";
 "intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
 
 "location region worldwide" = "Everywhere";
@@ -501,7 +501,7 @@
 "homepage vpn point two" = "Fast & modern encryption";
 "homepage vpn point three" = "No logging of your network activity";
 "homepage vpn point four" = "Connect up to 5 devices";
-"homepage vpn credit" = "'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
+"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 
 "homepage faq header" = "Frequently Asked Questions";
 "homepage faq action more" = "See more FAQs";
@@ -525,7 +525,7 @@
 "homepage download option android four" = "Blokada 4 for Android";
 "homepage download option ios" = "Blokada 5 for iOS";
 "homepage download option other" = "Blokada for other platforms";
-"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where Wireguard is available.";
+"homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
 "homepage download desc ios" = "Blokada 5 is simply available on App Store.";
 "homepage download action ios" = "Open App Store";
 "homepage download desc android five" = "This is our new, recommended version <b>for smartphones and tablets with Android 7 or newer</b>. It is simpler and faster compared to Blokada 4.";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "Open VPN Devices";
 "web action open setup" = "Open setup";
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free on-device adblocking for Android and iOS with our open source apps. For even better protection, upgrade to Blokada Plus and get the VPN, as well as our new *cloud adblocking* that is faster and easier to use.";
+"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
 "web action generate" = "Generate";
 
@@ -570,7 +570,7 @@
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
 "setup label which device" = "What type of device you wish to set up?";
 "setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: Using Blokada VPN automatically enables Blokada Cloud DNS. We are working on supporting other setups for this platform. 'WireGuard' and the 'Wireguard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Note: Native apps for Android and iOS do not support Blokada Cloud yet. We are working on the update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Step %@: %@";
@@ -584,7 +584,7 @@
 "setup step install" = "Install and start our app";
 "setup step enter tag" = "When asked, enter your tag";
 "setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start Wireguard";
+"setup step install wireguard" = "Install and start WireGuard";
 
 "stats header" = "Stats";
 // A ratio between counter of allowed vs denied requests.

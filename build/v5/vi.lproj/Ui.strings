@@ -136,16 +136,16 @@
 "home status paused" = "Đã tạm dừng";
 "home status active" = "Bật";
 "home status deactivated" = "Đã hủy kích hoạt";
-"home action tap to activate" = "nhấn để kích hoạt";
-"home status detail paused" = "đã tạm dừng cho đến khi bộ hẹn giờ kết thúc";
-"home status detail active" = "chặn *quảng cáo* và *trình theo dõi*";
-"home status detail active with counter" = "đã chặn *%@* quảng cáo và trình theo dõi";
+"home action tap to activate" = "Nhấn để kích hoạt";
+"home status detail paused" = "Tạm dừng cho đến khi bộ hẹn giờ kết thúc";
+"home status detail active" = "Chặn *quảng cáo* và *trình theo dõi*";
+"home status detail active with counter" = "Đã chặn *%@* quảng cáo và trình theo dõi";
 "home status detail active slim" = "Blokada *Slim* đang hoạt động";
 "home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
-"home status detail progress" = "vui lòng chờ...";
+"home status detail progress" = "Vui lòng chờ...";
 
 "home plus button deactivated" = "BLOKADA+ đã ngừng hoạt động";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "Đã hủy kích hoạt VPN";
 "home plus button select location" = "Chọn vị trí";
 "home plus button location" = "Vị trí: *%@*";
 
@@ -182,10 +182,10 @@
 "activity request allowed" = "Yêu cầu này đã được cho phép.";
 "activity request allowed whitelisted" = "Yêu cầu này đã được cho phép, vì nó nằm trong danh sách Được phép của bạn";
 "activity request blocked blacklisted" = "Yêu cầu này đã bị chặn vì nó nằm trong danh sách Bị chặn của bạn";
-"activity request allowed list" = "Yêu cầu này đã được cho phép, vì nó hiện diện trên *%@* danh sách chặn.";
+"activity request allowed list" = "Yêu cầu này đã được cho phép vì nó có trong danh sách cho phép *%@*.";
 "activity request allowed no list" = "Yêu cầu này đã được cho phép, vì nó không có trên bất kỳ danh sách chặn nào đã định cấu hình của bạn.";
 "activity request blocked list" = "Yêu cầu này đã bị chặn, vì nó hiện diện trên *%@* danh sách chặn.";
-"activity request blocked no list" = "Yêu cầu này đã bị chặn vì nó không có trên bất kỳ danh sách chặn nào đã định cấu hình của bạn.";
+"activity request blocked no list" = "Yêu cầu này đã bị chặn vì nó không có trên bất kỳ danh sách cho phép nào đã định cấu hình của bạn.";
 "activity actions header" = "Hành động";
 "activity information header" = "Thông tin";
 "activity action add to whitelist" = "Thêm vào Được phép";
@@ -219,7 +219,7 @@
 "activity retention header" = "Chúng tôi có thể lưu trữ hoạt động của bạn trong bao lâu?";
 "activity retention option none" = "Không lưu trữ hoạt động của tôi";
 "activity retention option 24h" = "24 giờ";
-"activity retention policy" = "Bằng cách cho phép lưu giữ nhật ký, bạn chấp nhận Chính sách quyền riêng tư của Đám mây Blokada.";
+"activity retention policy" = "Bằng cách cho phép lưu giữ nhật ký, bạn chấp nhận chính sách bảo mật.";
 "activity retention desc" = "Đám mây Blokada không ghi nhật ký bất kỳ thứ gì theo mặc định. Nếu bạn muốn xem số liệu thống kê và hoạt động tổng hợp từ tất cả các thiết bị của mình, hãy chọn khoảng thời gian lưu giữ nhật ký mong muốn bên dưới.";
 
 "userdenied section header" = "Ngoại lệ";
@@ -264,7 +264,7 @@
 "account section header settings" = "Cài đặt";
 "account status text" = "Tài khoản BLOKADA %@ của bạn được kích hoạt cho đến %@.";
 "account status text libre" = "Tài khoản BLOKADA Libre của bạn sẽ hoạt động mãi mãi.";
-"account status text inactive" = "Your BLOKADA account is inactive.";
+"account status text inactive" = "Tài khoản BLOKADA của bạn hiện không hoạt động.";
 
 "account section header primary" = "Chính";
 "account section header other" = "Khác";
@@ -333,11 +333,11 @@
 "account lease label this device" = " (thiết bị này)";
 "account lease label name" = "Tên của thiết bị";
 "account lease label location" = "Vị trí";
-"account lease label generate" = "Việc chọn vị trí ở đây sẽ tạo tệp cấu hình mà bạn có thể sử dụng trong bất kỳ ứng dụng VPN nào hỗ trợ Wireguard. Điều này rất hữu ích cho các nền tảng mà chúng tôi chưa có ứng dụng của mình. Nếu không, chúng tôi khuyên bạn nên sử dụng các ứng dụng gốc của chúng tôi thay thế.";
+"account lease label generate" = "Việc chọn vị trí ở đây sẽ tạo tệp cấu hình mà bạn có thể sử dụng trong bất kỳ ứng dụng VPN nào hỗ trợ WireGuard. Điều này hữu ích cho các nền tảng mà chúng tôi chưa có ứng dụng của mình. Nếu không, chúng tôi khuyên bạn nên sử dụng các ứng dụng gốc của chúng tôi để thay thế.";
 "account lease action generate" = "Khởi tạo Cấu hình";
 "account lease action download" = "Tải xuống Cấu hình";
-"account lease generated" = "Đã thêm thiết bị! Tải xuống cấu hình để sử dụng trên bất kỳ thiết bị nào được Wireguard hỗ trợ.";
-"account lease wireguard desc" = "Blokada sử dụng Wireguard. Các cấu hình có thể được tải xuống khi tạo thiết bị mới.";
+"account lease generated" = "Đã thêm thiết bị! Tải xuống cấu hình để sử dụng trên bất kỳ thiết bị nào được WireGuard hỗ trợ.";
+"account lease wireguard desc" = "Blokada sử dụng WireGuard. Các cấu hình có thể được tải xuống khi tạo thiết bị mới.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Chọn một DNS";
 "account lease label public key" = "Khóa công khai";
@@ -355,22 +355,22 @@
 "payment feature desc change location" = "Ẩn địa chỉ IP của bạn và giả vờ bạn đang ở một quốc gia khác. Điều này sẽ che giấu bạn khỏi các bên thứ ba và giúp bảo vệ danh tính của bạn.";
 "payment feature title encrypt data" = "Mã hóa dữ liệu";
 "payment feature desc encrypt data" = "Dữ liệu được gửi qua đường hầm VPN của chúng tôi được mã hóa bằng các thuật toán mạnh để bảo vệ khỏi sự đánh chặn của các bên trái phép.";
-"payment feature title encrypt dns" = "Encrypt DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your queries private.";
-"payment feature title performance" = "Great Performance";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life is going to be the same, with or without Blokada Cloud activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Set up all your devices under one Blokada Cloud subscription. Use our mobile apps or our web dashboard.";
-"payment feature title cloud vpn" = "Cloud & VPN";
-"payment feature desc cloud vpn" = "Enjoy all the features of Blokada Cloud. Additionally, get access to our VPN network.";
+"payment feature title encrypt dns" = "Mã hóa DNS";
+"payment feature desc encrypt dns" = "Cải thiện quyền riêng tư của bạn với mã hóa DNS. Đám mây Blokada sử dụng các giao thức hiện đại để giúp bảo mật lưu lượng truy cập của bạn.";
+"payment feature title performance" = "Hiệu suất Tuyệt vời";
+"payment feature desc performance" = "Giữ cho thiết bị của bạn luôn linh hoạt và kết nối Internet của bạn ở tốc độ tối đa nhờ giải pháp Đám mây mới của chúng tôi.";
+"payment feature title battery" = "Không tác động đến Pin";
+"payment feature desc battery" = "Thời lượng pin của bạn sẽ không bị ảnh hưởng, thậm chí có thể cải thiện khi Đám mây Blokada được kích hoạt.";
+"payment feature title devices cloud" = "Nhiều thiết bị";
+"payment feature desc devices cloud" = "Định cấu hình và giám sát tất cả các thiết bị của bạn ở một nơi. Thông qua ứng dụng di động hoặc ứng dụng web của chúng tôi.";
+"payment feature title cloud vpn" = "Đám mây cộng với VPN";
+"payment feature desc cloud vpn" = "Ngoài tất cả các lợi ích của Đám mây Blokada, bạn sẽ có quyền truy cập vào mạng VPN toàn cầu của chúng tôi";
 "payment feature title faster connection" = "Kết nối nhanh hơn";
 "payment feature desc faster connection" = "Tốc độ tuyệt vời lên đến 100Mbps với các máy chủ ở nhiều nơi khác nhau trên Thế giới.";
 "payment feature title devices" = "Lên đến 5 thiết bị";
 "payment feature desc devices" = "Sử dụng cùng một tài khoản để chia sẻ đăng ký của bạn với tối đa 5 thiết bị: iOS, Android hoặc PC.";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
+"payment feature title no ads" = "Chặn quảng cáo";
+"payment feature desc no ads" = "Sử dụng công nghệ chặn quảng cáo Blokada phổ biến để chặn quảng cáo trên thiết bị của bạn. Cài đặt nâng cao hiện có sẵn.";
 "payment feature title support" = "Hỗ trợ tuyệt vời";
 "payment feature desc support" = "Nhận được phản hồi nhanh chóng cho bất kỳ câu hỏi nào nhờ bộ phận Hỗ trợ khách hàng và cộng đồng nguồn mở sôi động của chúng tôi.";
 "payment action see all features" = "Xem tất cả các tính năng";
@@ -419,12 +419,12 @@
 "payment euro desc" = "Chúng tôi có trụ sở tại Châu Âu, vì vậy chúng tôi chấp nhận Euro: €10 tương đương với $12.";
 "payment donate disclaimer" = "Thao tác này sẽ không kích hoạt tài khoản Blokada Plus của bạn. Nếu bạn muốn sử dụng dịch vụ VPN của chúng tôi, vui lòng đăng ký thay vì ủng hộ.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
+"payment action compare" = "So sánh các gói";
+"payment plan slugline cloud" = "Chặn quảng cáo và các trình theo dõi";
+"payment plan slugline plus" = "Bảo vệ bổ sung với VPN";
+"payment plan cta trial" = "Bắt đầu dùng thử 7 Ngày Miễn phí";
+"payment plan cta monthly" = "Đăng ký hàng tháng";
+"payment plan cta annual" = "Đăng ký hàng năm";
 
 "apps section header" = "Ứng dụng";
 "apps label installed" = "Đã cài đặt";
@@ -501,7 +501,7 @@
 "homepage vpn point two" = "Mã hóa nhanh & hiện đại";
 "homepage vpn point three" = "Không có nhật ký hoạt động mạng của bạn";
 "homepage vpn point four" = "Kết nối tối đa 5 thiết bị";
-"homepage vpn credit" = "'WireGuard' và logo 'Wireguard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
+"homepage vpn credit" = "'WireGuard' và logo 'WireGuard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
 
 "homepage faq header" = "Các câu hỏi thường gặp";
 "homepage faq action more" = "Xem thêm Câu hỏi thường gặp";
@@ -525,7 +525,7 @@
 "homepage download option android four" = "Blokada 4 cho Android";
 "homepage download option ios" = "Blokada 5 cho iOS";
 "homepage download option other" = "Blokada cho các nền tảng khác";
-"homepage download desc other" = "Hiện tại, chúng tôi không cung cấp Blokada cho các nền tảng khác. Tuy nhiên, nếu bạn là người dùng Blokada Plus, bạn có thể sử dụng VPN của chúng tôi trên Windows, Linux, Mac và các nền tảng khác có Wireguard.";
+"homepage download desc other" = "Hiện tại, chúng tôi không cung cấp Blokada cho các nền tảng khác. Tuy nhiên, nếu bạn là người dùng Blokada Plus, bạn có thể sử dụng VPN của chúng tôi trên Windows, Linux, Mac và các nền tảng khác có sẵn WireGuard.";
 "homepage download desc ios" = "Blokada 5 chỉ có sẵn trên App Store.";
 "homepage download action ios" = "Mở App Store";
 "homepage download desc android five" = "Đây là phiên bản mới, được đề xuất của chúng tôi <b>dành cho điện thoại thông minh và máy tính bảng chạy Android 7 trở lên</b>. Nó đơn giản hơn và nhanh hơn so với Blokada 4.";
@@ -562,7 +562,7 @@
 "web vpn devices open action" = "Mở thiết bị VPN";
 "web action open setup" = "Mở cài đặt";
 "web cta plus header" = "Nâng cấp lên Blokada Plus để kiểm soát quyền riêng tư của bạn.";
-"web cta plus desc" = "Tài khoản Libre của bạn cung cấp cho bạn tính năng chặn quảng cáo trên thiết bị miễn phí cho Android và iOS với các ứng dụng nguồn mở của chúng tôi. Để được bảo vệ tốt hơn nữa, hãy nâng cấp lên Blokada Plus và tải VPN, cũng như *tính năng chặn quảng cáo đám mây* mới của chúng tôi, nhanh hơn và dễ sử dụng hơn.";
+"web cta plus desc" = "Tài khoản Libre của bạn cung cấp cho bạn tính năng chặn quảng cáo miễn phí trên thiết bị của bạn với các ứng dụng nguồn mở của chúng tôi. Nâng cấp lên Blokada Plus để được bảo vệ tốt hơn. Bạn sẽ có quyền truy cập vào mạng VPN toàn cầu của chúng tôi cũng như *nền tảng đám mây* chặn quảng cáo hiệu quả hơn và dễ sử dụng hơn.";
 // A short word for a button to generate profile
 "web action generate" = "Khởi tạo";
 
@@ -570,7 +570,7 @@
 "setup desc" = "Có nhiều cách để định cấu hình thiết bị của bạn để sử dụng Đám mây Blokada. Chọn một trong những phù hợp với bạn.";
 "setup label which device" = "Loại thiết bị bạn muốn thiết lập?";
 "setup label choose" = "Chọn bất kỳ tùy chọn thiết lập nào sau đây:";
-"setup comment wireguard" = "Lưu ý: Sử dụng Blokada VPN sẽ tự động bật Blokada Cloud DNS. Chúng tôi đang làm việc để hỗ trợ các thiết lập khác cho nền tảng này. 'WireGuard' và logo 'Wireguard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
+"setup comment wireguard" = "Lưu ý: Cấu hình VPN sẽ sử dụng Đám mây Blokada theo mặc định. Chọn một cài đặt DNS khác nếu bạn muốn từ chối. 'WireGuard' và logo 'WireGuard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
 "setup comment native apps" = "Lưu ý: Các ứng dụng gốc dành cho Android và iOS chưa hỗ trợ Đám mây Blokada. Chúng tôi đang làm việc trên bản cập nhật.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Bước %@: %@";
@@ -584,7 +584,7 @@
 "setup step install" = "Cài đặt và khởi động ứng dụng của chúng tôi";
 "setup step enter tag" = "Khi được hỏi, hãy nhập thẻ của bạn";
 "setup step download profile" = "Tạo và tải xuống hồ sơ của bạn";
-"setup step install wireguard" = "Cài đặt và khởi động Wireguard";
+"setup step install wireguard" = "Cài đặt và khởi động WireGuard";
 
 "stats header" = "Thống kê";
 // A ratio between counter of allowed vs denied requests.
@@ -596,4 +596,4 @@
 "stats top allowed header" = "Yêu cầu được cho phép hàng đầu";
 "stats top blocked header" = "Yêu cầu bị chặn hàng đầu";
 
-"dnsprofile desc" = "Blokada just created a DNS profile for you in Settings. Activate it in General -> VPN, DNS & Device Management -> DNS.";
+"dnsprofile desc" = "Blokada vừa tạo hồ sơ DNS cho bạn trong Cài đặt. Kích hoạt nó trong Chung -> VPN, DNS & Quản lý Thiết bị -> DNS.";

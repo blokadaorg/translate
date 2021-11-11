@@ -2,25 +2,25 @@
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_touch">タップまたはホールドして設定</string>
-    <string name="home_blokada_disabled">Blokada は一時停止されました</string>
+    <string name="home_blokada_disabled">Blokada は停止しています</string>
     <string name="home_blokada_active">Blokada が有効です</string>
     <string name="home_blokada_active_protected">Blokada Plus により通信が保護されています</string>
     <string name="home_blokada_inactive">Blokada が無効です</string>
-    <string name="home_activating">有効にしています</string>
+    <string name="home_activating">起動しています</string>
     <string name="home_please_wait">お待ちください...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_vpn_only">Blokada Plus は広告ブロックなしで有効です</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada は DNS モードで有効です</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s の広告をブロック（%s 以降）</string>
+    <string name="home_requests_blocked_since">%s 件をブロック（%s 以降）</string>
     <string name="home_masterswitch_enabled">Blokada が ON です</string>
     <string name="home_masterswitch_waiting">ネットワーク接続の待機中...</string>
     <!-- A button to share the ads counter on social media -->
     <string name="home_share">友達にシェアする</string>
     <string name="home_share_state">Blokada スコアを共有</string>
-    <string name="home_share_state_google">Blokada アプリを知り合いに教える</string>
-    <string name="home_share_msg_google">Blokada Slim を試して、あなたのプライバシーを保護してください。Google Play でダウンロードします。</string>
+    <string name="home_share_state_google">Blokada アプリを友達に教える</string>
+    <string name="home_share_msg_google">Blokada Slim を試して、あなたのプライバシーを保護してください。Google Play でダウンロードできます。</string>
     <string name="home_adblocking_enabled">広告ブロックが有効です</string>
     <string name="home_adblocking_disabled">広告ブロックが無効です</string>
     <string name="home_blokadaorg">Blokada Slim を使用しています</string>
@@ -37,7 +37,7 @@
     <string name="home_cleanup">クリーンアップを推奨します</string>
     <!-- A short text for the button to change VPN settings -->
     <string name="home_connected_vpn">Blokada Plus に接続しました</string>
-    <string name="home_boringtun_not_loaded">申し訳ありませんが、お使いのデバイスは Blokada Plus でサポートされていません。他の機能は使用することができます。</string>
+    <string name="home_boringtun_not_loaded">申し訳ありませんが、お使いのデバイスは Blokada Plus でサポートされていません。その他の機能は使用できます。</string>
     <string name="home_blocka_vpn_error">ゲートウェイに接続できませんでした。インターネット接続を確認してください</string>
     <string name="home_account_error">アカウントを確認できませんでした。インターネット接続を確認してください</string>
     <string name="home_permission_error">VPN の権限を許可してください。</string>
@@ -64,7 +64,7 @@
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">デバイス</string>
     <string name="menu_vpn_manage_subscription">アカウントのサブスクリプションを管理する</string>
-    <string name="menu_vpn_manage_subscription_unavailable">まだサブスクリプションを購入していない場合は、当社のウェブサイトにアクセスしてください。Blokada Slim でサブスクリプションを購入することはできません。</string>
+    <string name="menu_vpn_manage_subscription_unavailable">まだサブスクリプションを購入していない場合は、ウェブサイトにアクセスしてください。Blokada Slim でサブスクリプションを購入することはできません。</string>
     <string name="menu_vpn_account_secret">アカウント ID を確認するには、上のアイコンをタップしてください。ID は他の人の目につかないように保管してください。アプリをアンインストールする場合に備えて書き留めてください。</string>
     <string name="menu_vpn_restore_label">ここでは、たとえばアプリを再インストールした場合などに、既存のアカウントを復元できます。</string>
     <string name="menu_vpn_intro">Blokada Plus を使用すると、データは暗号化され、IP アドレスは非表示になり、ロケーションは変更されます。</string>
@@ -75,13 +75,13 @@
     <string name="menu_vpn_tunnel_settings">Blokada Plus の設定</string>
     <string name="menu_vpn_tunnel_learn_more">Blokada Plus の詳細</string>
     <string name="menu_vpn_info_account_label">私はアカウントを持っていますか？</string>
-    <string name="menu_vpn_info_account_line1">はい！あなたのアカウントは最初の実行時に自動的に作成されます。登録する必要はありません。</string>
+    <string name="menu_vpn_info_account_line1">はい！ あなたのアカウントは最初の実行時に自動的に作成されます。登録する必要はありません。</string>
     <string name="menu_vpn_info_account_line2">アカウント ID を表示するには、上のアイコンをタップしてください。</string>
     <string name="menu_vpn_info_account_line3">あなたのアカウント ID は秘密であり、誰にも教えないでください。</string>
     <string name="menu_vpn_info_account_line4">アプリをアンインストールしてしまった場合やデバイスを紛失した場合に備えてアカウント ID を書き留めてください。</string>
     <string name="menu_dns_recommended">推奨される DNS サーバー</string>
     <string name="menu_dns_intro">DNS は、使用するウェブサイトおよびアプリの IP アドレスへの変換を担当します。適切な DNS を選択すると、デバイスの速度が向上し、プライバシーの保護に役立ちます。</string>
-    <string name="menu_dns_select">DNS サーバーを1つ選択します。</string>
+    <string name="menu_dns_select">DNS サーバーを 1 つ選択します。</string>
     <string name="menu_apps_intro">一部のアプリは Blokada で正しく動作しない場合があります。たとえば、接続に問題がある可能性があります。\n\nこのような場合、VPN をアクティブにすると解決することがよくあります。\n\nそれ以外の場合は、これらのアプリに Blokada を完全にバイパスさせることができます。アプリをバイパスすると、フィルターだけでなく Blokada Plus VPN も適用されなくなることにお気をつけください。</string>
     <string name="menu_apps_system_label">お使いのデバイスでプリインストールされているアプリをシステムアプリと言い、大半のシステムアプリは通常のアプリ一覧には表示されません。内容を把握しているアプリのみ、変更してください。</string>
     <string name="menu_host_list_intro">ホストリストは、広告とトラッカーをブロックするためのルールです。必要以上に多くのリストを導入すると、動作が不安定になる場合があります。</string>
@@ -93,7 +93,7 @@
     <string name="menu_host_blacklist">ブロックしたいホストをここに追加します。例えば、フィルターではブロックされないウェブサイトをブロックしたい場合に利用してください。これはバイパスされたアプリには適用されないことに注意してください。</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">その他</string>
-    <string name="menu_share_log_label">ログを共有することで、問題の理由を発見できます。Blokada チームコアメンバーの 1 人に非公開で送信します。</string>
+    <string name="menu_share_log_label">ログを共有することで、問題の理由を発見できます。Blokada チームのコアメンバーの 1 人に非公開で送信します。</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">詳細</string>
     <!-- A section informational content in menu -->
