@@ -336,7 +336,7 @@
 "account lease label generate" = "Wenn du hier einen Standort auswählst, wird eine Konfigurationsdatei generiert, die du in jeder VPN-App verwenden kannst, die WireGuard unterstützt. Dies ist nützlich für Plattformen, für die wir noch keine eigenen Apps bereitstellen. Ansonsten empfehlen wir, stattdessen unsere nativen Apps zu verwenden.";
 "account lease action generate" = "Konfiguration generieren";
 "account lease action download" = "Konfiguration herunterladen";
-"account lease generated" = "Gerät hinzugefügt! Lade die Konfiguration herunter, um sie auf jedem Gerät zu verwenden, dass von Wireguard unterstützt wird.";
+"account lease generated" = "Gerät hinzugefügt! Lade die Konfiguration herunter, um sie auf jedem Gerät zu verwenden, dass von WireGuard unterstützt wird.";
 "account lease wireguard desc" = "Blokada verwendet WireGuard. Konfigurationen können bei der Erstellung neuer Geräte heruntergeladen werden.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "DNS auswählen";
@@ -363,8 +363,8 @@
 "payment feature desc battery" = "Deine Akkulaufzeit wird nicht beeinträchtigt, sie kann sich sogar verbessern, wenn Blokada Cloud aktiviert ist.";
 "payment feature title devices cloud" = "Mehrere Geräte";
 "payment feature desc devices cloud" = "Konfiguriere und überwache all deine Geräte an einem Ort. Entweder über unsere Mobile-App oder unsere Web-App.";
-"payment feature title cloud vpn" = "Die Cloud plus VPN";
-"payment feature desc cloud vpn" = "Zusätzlich zu allen Vorteilen der Blokada Cloud erhälst du Zugriff auf unser globales VPN-Netzwerk";
+"payment feature title cloud vpn" = "Cloud + VPN";
+"payment feature desc cloud vpn" = "Zusätzlich zu allen Vorteilen der Blokada-Cloud erhältst du Zugriff auf unser globales VPN-Netzwerk";
 "payment feature title faster connection" = "Schnellere Verbindung";
 "payment feature desc faster connection" = "Schnelle Verbindungen mit bis zu 100 Mbit/s mit Servern überall auf der Welt verteilt.";
 "payment feature title devices" = "Bis zu 5 Geräte";
@@ -566,7 +566,7 @@
 "web vpn devices open action" = "Öffne VPN-Geräte";
 "web action open setup" = "Setup öffnen";
 "web cta plus header" = "Upgrade auf Blokada Plus, um die Kontrolle über deine Privatsphäre zu behalten.";
-"web cta plus desc" = "Mit deinem Libre Konto erhälst du kostenlose Adblockierungen auf deinem Gerät mit unseren Open-Source-Apps. Aktualisiere auf Blokada Plus für einen noch besseren Schutz. Du erhältst Zugriff auf unser globales VPN-Netzwerk sowie unsere neue *Cloud-basierte* Adblocking, die effizienter und einfacher zu benutzen ist.";
+"web cta plus desc" = "Mit deinem Libre-Konto kannst du mit unseren Open-Source-Apps kostenlos Werbung auf deinem Gerät blockieren. Ein Upgrade auf Blokada Plus bietet dir einen noch besseren Schutz. Du erhältst Zugriff auf unser globales VPN-Netzwerk sowie unsere neue *cloud­ba­siert* Werbeblockierung, das noch effizienter und einfacher zu bedienen ist.";
 // A short word for a button to generate profile
 "web action generate" = "Erzeugen";
 
@@ -601,5 +601,5 @@
 "stats top blocked header" = "Häufig blockierte Anfragen";
 
 "dnsprofile header" = "Blokada in den Einstellungen aktivieren";
-"dnsprofile desc" = "Navigieren Sie in der App Einstellungen zu Allgemein → VPN, DNS & Device Management → DNS und wählen Sie Blokada.";
+"dnsprofile desc" = "Navigiere in den Android-Einstellungen zu Allgemein → VPN, DNS & Geräteverwaltung → DNS und wähle Blokada.";
 "dnsprofile action open settings" = "Einstellungen öffnen";
