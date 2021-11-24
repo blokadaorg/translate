@@ -480,6 +480,7 @@
 "homepage desc support" = "プロジェクトの継続のために寄付してください。";
 "homepage action faq" = "FAQ";
 "homepage action vpn" = "VPN";
+"homepage action cloud" = "Cloud";
 "homepage action opinions" = "レビュー";
 "homepage action authors" = "製作者";
 "homepage action source" = "ソース";
@@ -488,24 +489,40 @@
 "homepage about footer" = "メディア";
 "homepage hero title" = "プライバシーアプリ";
 "homepage hero subtitle" = "無料でオープンソース";
+"homepage hero opensource" = "open source";
 "homepage hero desc" = "Blokada は、オープンソースで開発されている Android と iOS 向けの広告ブロッカーです。広告をブロックしプライバシー侵害のないインターネットをお楽しみください。";
-"homepage about title" = "Blokada 5 - 広告ブロッカー";
+"homepage about title" = "Blokada Libre, the ad blocker";
 "homepage about desc" = "Blokada アプリ 1 つで、広告・トラッカー・マルウェアをブロックできます。それにより、通信量の削減、デバイスのスピードアップ、プライバシーの保護などの効果があります。また、Blokada は無料で安全なオープンソースです。";
 "homepage about point one" = "広告とトラッカーをブロック";
 "homepage about point two" = "すべてのアプリとブラウザーに有効";
 "homepage about point three" = "root 権限や Jailbreak が不要";
 "homepage about point four" = "安全設計（暗号化を壊さない）";
 "homepage about point five" = "信頼と無料を両立";
+"homepage about point six" = "Source code available for Android and iOS";
+"homepage about point seven" = "Downloads available for Android";
+
+"homepage cloud title" = "Blokada Cloud, the new way";
+"homepage cloud desc" = "Our modern solution for mobile content blocking. Protect multiple devices from ads and tracking, and manage your preferences in one place. Enjoy zero battery drain, no noticeable slowdowns, and highly reliable adblocking.";
+"homepage cloud point one" = "Cloud based adblocking";
+"homepage cloud point two" = "Manage and monitor on web";
+"homepage cloud point three" = "Encrypted, private DNS";
+"homepage cloud point four" = "Connect multiple devices";
+"homepage cloud point five" = "App available for iOS";
+"homepage cloud point six" = "Use on any platform supporting private DNS";
+"homepage cloud learn more" = "Learn more about Blokada Cloud";
 
 "homepage about action faq" = "FAQ を見る";
 "homepage about action plus" = "Blokada Plus の詳細";
 
-"homepage vpn title" = "Blokada 5 VPN";
+"homepage vpn title" = "Blokada Plus, the VPN";
 "homepage vpn desc" = "究極のプライバシー保護のために、Blokada Plus にアップグレードし、VPN 経由で接続できます。最先端の VPN プロトコルである WireGuard® を使用して、ネットワークのアクティビティを暗号化し、IP アドレスを隠します。";
 "homepage vpn point one" = "帯域幅制限なし";
 "homepage vpn point two" = "高速で最先端の暗号化";
 "homepage vpn point three" = "アクティビティ ログの保存なし";
 "homepage vpn point four" = "デバイス最大 5 台に接続";
+"homepage vpn point five" = "All the benefits of Blokada Cloud";
+"homepage vpn point six" = "Available for Android and iOS";
+"homepage vpn point seven" = "More platforms through Wireguard® apps";
 "homepage vpn credit" = "「WireGuard」と「WireGuard」ロゴは Jason A. Donenfeld の登録商標です。";
 
 "homepage faq header" = "よくある質問";
@@ -522,16 +539,18 @@
 "homepage faq desc 5" = "サブスクリプションを購入してから 7 日以内であれば返金できます。アプリを通じて私たちに連絡し、払い戻しをしてほしいと伝えるだけで構いません。";
 "homepage faq title 6" = "Blokada の所在地";
 "homepage faq desc 6" = "私たちの拠点はプライバシーを厳格に取り扱うように求められるスウェーデンにあります。私たちのサーバーは世界中の多くの場所で利用できます。";
+"homepage faq title 7" = "What is Blokada Cloud?";
+"homepage faq desc 7" = "Blokada Cloud is our new cloud based adblocking solution. It is faster and more reliable than the old method, and brings many additional benefits. Blokada Cloud can be used on multiple devices, and supports any platform compatible with DNS over TLS/HTTPS.";
 
 "homepage download header" = "Blokada をダウンロード";
 "homepage download subheader" = "Blokada は複数のプラットフォームで利用可能です。ご利用のプラットフォームを選択してください。";
 "homepage download option android five" = "Blokada 5 for Android";
 "homepage download option android slim" = "Blokada 5 Slim for Android";
 "homepage download option android four" = "Blokada 4 for Android";
-"homepage download option ios" = "Blokada 5 for iOS";
+"homepage download option ios" = "Blokada 6 for iOS";
 "homepage download option other" = "Blokada for other platforms";
 "homepage download desc other" = "現在、他のプラットフォームで Blokada を使用できません。ただし、Blokada Plus ユーザーは、Windows、Linux、Mac、および WireGuard が利用可能なその他のプラットフォームで VPN を使用できます。";
-"homepage download desc ios" = "Blokada 5 は App Store で入手できます。";
+"homepage download desc ios" = "Blokada 6 is simply available on App Store.";
 "homepage download action ios" = "App Store を開く";
 "homepage download desc android five" = "これは、<b>Android 7 以降を搭載したスマートフォンやタブレット向けの新しい推奨バージョン</b>です。Blokada 4 と比較して、よりシンプルで高速です。";
 "homepage download action android five" = "Blokada 5.apk";
@@ -542,6 +561,10 @@
 "homepage download action android four" = "Blokada 4.apk";
 "homepage download action android four fdroid" = "F-Droid を開く";
 
+"homepage download cloud desc" = "Blokada Cloud can be used on any platform that supports DNS over TLS/HTTPS. This includes Windows, MacOS, Linux, and all modern browsers. You can find simple setup guides for all supported platforms in the web dashboard.";
+"homepage download plus desc" = "Blokada Plus can be used on any platform where Wireguard® app is available. You can generate a VPN profile in the web dashboard, and then simply import it to the app.";
+"homepage download action open dashboard" = "Open Dashboard";
+
 "homepage community header" = "コミュニティ";
 "homepage community desc" = "Blokada はただの広告ブロックアプリではありません。Blokada はプライバシーとデジタルウェルビーイングを大切にする人々のコミュニティでもあります。フォーラムで問題を話し合うことができます。他のソーシャルメディアやチャットから参加することもできます。";
 "homepage community cta subheader" = "ぜひご参加ください！";
@@ -551,8 +574,10 @@
 
 "homepage support header" = "プロジェクトを支援する";
 "homepage support desc" = "私たちの活動を気に入っていただけたなら、私たちをサポートすることも検討してください。それにより、新しい機能と改善を開発し続けることができます。そして、Blokada は永遠に無料かつオープンソースであり続けることができます。";
+"homepage support desc2" = "If you like what we do, consider supporting us, so that we can continue developing our open source projects.";
 "homepage support cta header" = "Blokada はあなたのご協力を必要としています";
 "homepage support cta desc" = "Blokada はオープンソースプロジェクトです。つまり、常に無料であり、安全性に影響を及ぼす隠れた問題がないことを確認することができるということです。私たちは、これが信頼できるプライバシーアプリを開発する唯一の方法だと確信しています。";
+"homepage support cta desc2" = "Blokada has two sources of revenue for supporting the project development: subscriptions, and donations. There is no ads revenue. Blokada does not sell user data either.";
 "homepage support cta desc more" = "しかし、Blokada のような質の高いアプリを開発するには、かなりのリソースが必要です。このプロジェクトは、素晴らしい人々の支援のおかげで存在します！";
 "homepage support cta action" = "寄付（カード、Paypal）";
 "homepage support cta action alt" = "寄付（銀行振込、暗号資産）";
