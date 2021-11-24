@@ -479,6 +479,7 @@
 "homepage desc support" = "Đóng góp để giúp chúng tôi tiếp tục dự án.";
 "homepage action faq" = "FAQ";
 "homepage action vpn" = "VPN";
+"homepage action cloud" = "Cloud";
 "homepage action opinions" = "Đánh giá";
 "homepage action authors" = "Tác giả";
 "homepage action source" = "Nguồn";
@@ -487,24 +488,40 @@
 "homepage about footer" = "Hãy giữ liên lạc!";
 "homepage hero title" = "Ứng dụng quyền riêng tư";
 "homepage hero subtitle" = "miễn phí và mã nguồn mở";
+"homepage hero opensource" = "open source";
 "homepage hero desc" = "Blokada là ứng dụng bảo mật và chặn quảng cáo phổ biến dành cho Android và iOS. Nó đang được hỗ trợ và phát triển tích cực bởi cộng đồng nguồn mở tuyệt vời.";
-"homepage about title" = "Blokada 5, trình chặn quảng cáo";
+"homepage about title" = "Blokada Libre, the ad blocker";
 "homepage about desc" = "Nếu bạn muốn chặn hiệu quả quảng cáo, trình theo dõi, phần mềm độc hại, tiết kiệm gói dữ liệu, tăng tốc thiết bị và bảo vệ quyền riêng tư của bạn chỉ với một ứng dụng, thì Blokada là dành cho bạn. Nó là miễn phí, an toàn và mã nguồn mở.";
 "homepage about point one" = "Chặn quảng cáo & trình theo dõi";
 "homepage about point two" = "Hoạt động cho tất cả các ứng dụng và tất cả các trình duyệt";
 "homepage about point three" = "Không cần root hoặc jailbreak";
 "homepage about point four" = "Thiết kế an toàn (không phá vỡ mã hóa)";
 "homepage about point five" = "Đáng tin cậy & miễn phí mãi mãi";
+"homepage about point six" = "Source code available for Android and iOS";
+"homepage about point seven" = "Downloads available for Android";
+
+"homepage cloud title" = "Blokada Cloud, the new way";
+"homepage cloud desc" = "Our modern solution for mobile content blocking. Protect multiple devices from ads and tracking, and manage your preferences in one place. Enjoy zero battery drain, no noticeable slowdowns, and highly reliable adblocking.";
+"homepage cloud point one" = "Cloud based adblocking";
+"homepage cloud point two" = "Manage and monitor on web";
+"homepage cloud point three" = "Encrypted, private DNS";
+"homepage cloud point four" = "Connect multiple devices";
+"homepage cloud point five" = "App available for iOS";
+"homepage cloud point six" = "Use on any platform supporting private DNS";
+"homepage cloud learn more" = "Learn more about Blokada Cloud";
 
 "homepage about action faq" = "Xem Câu hỏi thường gặp";
 "homepage about action plus" = "Tìm hiểu thêm về Blokada Plus";
 
-"homepage vpn title" = "Blokada 5, VPN";
+"homepage vpn title" = "Blokada Plus, the VPN";
 "homepage vpn desc" = "Để được bảo vệ quyền riêng tư tối ưu, hãy nâng cấp lên Blokada Plus và kết nối thông qua VPN của chúng tôi. Chúng tôi sử dụng WireGuard®, giao thức VPN tiên tiến nhất, để mã hóa hoạt động mạng và ẩn địa chỉ IP của bạn.";
 "homepage vpn point one" = "Không hạn chế băng thông";
 "homepage vpn point two" = "Mã hóa nhanh & hiện đại";
 "homepage vpn point three" = "Không có nhật ký hoạt động mạng của bạn";
 "homepage vpn point four" = "Kết nối tối đa 5 thiết bị";
+"homepage vpn point five" = "All the benefits of Blokada Cloud";
+"homepage vpn point six" = "Available for Android and iOS";
+"homepage vpn point seven" = "More platforms through Wireguard® apps";
 "homepage vpn credit" = "'WireGuard' và logo 'WireGuard' là các thương hiệu đã đăng ký của Jason A. Donenfeld.";
 
 "homepage faq header" = "Các câu hỏi thường gặp";
@@ -521,16 +538,18 @@
 "homepage faq desc 5" = "Bạn có thể nhận lại tiền của mình trong vòng 7 ngày kể từ ngày mua đăng ký. Liên hệ với chúng tôi thông qua bất kỳ ứng dụng nào của chúng tôi và chỉ cần đề cập rằng bạn muốn được hoàn lại tiền.";
 "homepage faq title 6" = "Blokada tọa lạc ở đâu?";
 "homepage faq desc 6" = "Chúng tôi có trụ sở tại Thụy Điển, nơi quyền riêng tư được xử lý rất nghiêm túc. Máy chủ của chúng tôi có sẵn ở nhiều nơi trên thế giới.";
+"homepage faq title 7" = "What is Blokada Cloud?";
+"homepage faq desc 7" = "Blokada Cloud is our new cloud based adblocking solution. It is faster and more reliable than the old method, and brings many additional benefits. Blokada Cloud can be used on multiple devices, and supports any platform compatible with DNS over TLS/HTTPS.";
 
 "homepage download header" = "Tải xuống Blokada";
 "homepage download subheader" = "Blokada có sẵn cho một số nền tảng, hãy chọn cái của bạn.";
 "homepage download option android five" = "Blokada 5 cho Android";
 "homepage download option android slim" = "Blokada 5 Slim cho Android";
 "homepage download option android four" = "Blokada 4 cho Android";
-"homepage download option ios" = "Blokada 5 cho iOS";
+"homepage download option ios" = "Blokada 6 for iOS";
 "homepage download option other" = "Blokada cho các nền tảng khác";
 "homepage download desc other" = "Hiện tại, chúng tôi không cung cấp Blokada cho các nền tảng khác. Tuy nhiên, nếu bạn là người dùng Blokada Plus, bạn có thể sử dụng VPN của chúng tôi trên Windows, Linux, Mac và các nền tảng khác có sẵn WireGuard.";
-"homepage download desc ios" = "Blokada 5 chỉ có sẵn trên App Store.";
+"homepage download desc ios" = "Blokada 6 is simply available on App Store.";
 "homepage download action ios" = "Mở App Store";
 "homepage download desc android five" = "Đây là phiên bản mới, được đề xuất của chúng tôi <b>dành cho điện thoại thông minh và máy tính bảng chạy Android 7 trở lên</b>. Nó đơn giản hơn và nhanh hơn so với Blokada 4.";
 "homepage download action android five" = "Blokada 5 .apk";
@@ -541,6 +560,10 @@
 "homepage download action android four" = "Blokada 4 .apk";
 "homepage download action android four fdroid" = "Mở F-Droid";
 
+"homepage download cloud desc" = "Blokada Cloud can be used on any platform that supports DNS over TLS/HTTPS. This includes Windows, MacOS, Linux, and all modern browsers. You can find simple setup guides for all supported platforms in the web dashboard.";
+"homepage download plus desc" = "Blokada Plus can be used on any platform where Wireguard® app is available. You can generate a VPN profile in the web dashboard, and then simply import it to the app.";
+"homepage download action open dashboard" = "Open Dashboard";
+
 "homepage community header" = "Cộng đồng";
 "homepage community desc" = "Blokada không chỉ là ứng dụng bảo mật. Nó cũng là cộng đồng của những người quan tâm đến quyền riêng tư và phúc lợi kỹ thuật số của họ. Bạn sẽ tìm thấy chúng tôi trên diễn đàn của chúng tôi, nơi bạn có thể hỏi bất kỳ câu hỏi nào bạn có thể có. Chúng tôi cũng có mặt trên các phương tiện truyền thông xã hội và các cuộc trò chuyện khác.";
 "homepage community cta subheader" = "Gia nhập cùng chúng tôi và nói xin chào!";
@@ -550,8 +573,10 @@
 
 "homepage support header" = "Hỗ trợ dự án";
 "homepage support desc" = "Nếu bạn thích những gì chúng tôi làm, hãy cân nhắc hỗ trợ chúng tôi để chúng tôi có thể tiếp tục phát triển các tính năng và cải tiến mới. Bằng cách này, Blokada có thể duy trì mã nguồn mở và miễn phí mãi mãi.";
+"homepage support desc2" = "If you like what we do, consider supporting us, so that we can continue developing our open source projects.";
 "homepage support cta header" = "Blokada phụ thuộc vào bạn";
 "homepage support cta desc" = "Blokada là một dự án mã nguồn mở, có nghĩa là bạn có thể chắc chắn rằng nó sẽ luôn miễn phí, an toàn để sử dụng và không có bất kỳ chương trình nghị sự ẩn nào. Chúng tôi tin rằng đây là cách đúng đắn duy nhất để phát triển một ứng dụng bảo mật mà bạn có thể tin tưởng.";
+"homepage support cta desc2" = "Blokada has two sources of revenue for supporting the project development: subscriptions, and donations. There is no ads revenue. Blokada does not sell user data either.";
 "homepage support cta desc more" = "Tuy nhiên, để phát triển một ứng dụng chất lượng như Blokada đòi hỏi một lượng tài nguyên đáng kể. Dự án này tồn tại nhờ sự hỗ trợ của những người tuyệt vời như bạn!";
 "homepage support cta action" = "Ủng hộ (thẻ, Paypal)";
 "homepage support cta action alt" = "Ủng hộ (ngân hàng, crypto)";
