@@ -479,6 +479,7 @@
 "homepage desc support" = "捐赠以帮助我们继续该项目。";
 "homepage action faq" = "常见问题";
 "homepage action vpn" = "VPN";
+"homepage action cloud" = "Cloud";
 "homepage action opinions" = "评论";
 "homepage action authors" = "作者";
 "homepage action source" = "源代码";
@@ -487,24 +488,40 @@
 "homepage about footer" = "保持联系！";
 "homepage hero title" = "隐私应用";
 "homepage hero subtitle" = "免费和开源";
+"homepage hero opensource" = "open source";
 "homepage hero desc" = "Blokada 是 Android 和 iOS 的受欢迎的广告拦截器和隐私应用。它正在得到惊人的开源社区的支持和积极开发。";
-"homepage about title" = "Blokada 5, 广告拦截器";
+"homepage about title" = "Blokada Libre, the ad blocker";
 "homepage about desc" = "如果您想要有效地屏蔽广告、跟踪、恶意软件，请保存到您的数据计划。 加快您的设备并仅用一个应用程序来保护您的隐私，那么Blokada是为您服务的。 它自由的、安全的和开放的来源。";
 "homepage about point one" = "屏蔽广告和追踪器";
 "homepage about point two" = "适用于所有应用和所有浏览器";
 "homepage about point three" = "无需root权限或越狱";
 "homepage about point four" = "安全设计(不打断加密)";
 "homepage about point five" = "信任和永远免费";
+"homepage about point six" = "Source code available for Android and iOS";
+"homepage about point seven" = "Downloads available for Android";
+
+"homepage cloud title" = "Blokada Cloud, the new way";
+"homepage cloud desc" = "Our modern solution for mobile content blocking. Protect multiple devices from ads and tracking, and manage your preferences in one place. Enjoy zero battery drain, no noticeable slowdowns, and highly reliable adblocking.";
+"homepage cloud point one" = "Cloud based adblocking";
+"homepage cloud point two" = "Manage and monitor on web";
+"homepage cloud point three" = "Encrypted, private DNS";
+"homepage cloud point four" = "Connect multiple devices";
+"homepage cloud point five" = "App available for iOS";
+"homepage cloud point six" = "Use on any platform supporting private DNS";
+"homepage cloud learn more" = "Learn more about Blokada Cloud";
 
 "homepage about action faq" = "查看常见问题";
 "homepage about action plus" = "了解更多关于 Blokada Plus";
 
-"homepage vpn title" = "Blokada 5, VPN";
+"homepage vpn title" = "Blokada Plus, the VPN";
 "homepage vpn desc" = "为了最终保护隐私，升级到 Blokada Plus 并通过我们的 VPN连接。 我们使用 WireGuard®, 最先进的 VPN 协议, 来加密您的网络活动并隐藏您的 IP 地址。";
 "homepage vpn point one" = "无带宽限制";
 "homepage vpn point two" = "快速和现代加密";
 "homepage vpn point three" = "您的网络活动没有记录";
 "homepage vpn point four" = "连接最多5个设备";
+"homepage vpn point five" = "All the benefits of Blokada Cloud";
+"homepage vpn point six" = "Available for Android and iOS";
+"homepage vpn point seven" = "More platforms through Wireguard® apps";
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 
 "homepage faq header" = "常见问题及解答";
@@ -521,16 +538,18 @@
 "homepage faq desc 5" = "您可以在购买订阅后7天内收回您的钱。 通过我们的任何应用联系我们，只需提及你想退款。";
 "homepage faq title 6" = "Blokada位于何处？";
 "homepage faq desc 6" = "我们以瑞典为基地，在那里隐私得到非常严肃的处理。我们的服务器在世界许多地方都可以使用。";
+"homepage faq title 7" = "What is Blokada Cloud?";
+"homepage faq desc 7" = "Blokada Cloud is our new cloud based adblocking solution. It is faster and more reliable than the old method, and brings many additional benefits. Blokada Cloud can be used on multiple devices, and supports any platform compatible with DNS over TLS/HTTPS.";
 
 "homepage download header" = "下载 Blokada";
 "homepage download subheader" = "Blokada有多个平台，请选择您的平台。";
 "homepage download option android five" = "Blokada 5 安卓版";
 "homepage download option android slim" = "Blokada 5 Slim 安卓版";
 "homepage download option android four" = "Blokada 4 安卓版";
-"homepage download option ios" = "Blokada 5 iOS版";
+"homepage download option ios" = "Blokada 6 for iOS";
 "homepage download option other" = "其他平台的 Blokada";
 "homepage download desc other" = "Currently, we do not provide Blokada for other platforms. However, if you are Blokada Plus user, you can use our VPN on Windows, Linux, Mac, and other platforms where WireGuard is available.";
-"homepage download desc ios" = "Blokada 5 仅在 App Store 上可用。";
+"homepage download desc ios" = "Blokada 6 is simply available on App Store.";
 "homepage download action ios" = "打开App Store";
 "homepage download desc android five" = "这是我们推荐的新版本 <b>用于搭载了Android7或更高版本系统的智能手机和平板电脑</b>。 它比Blokada 4更简单、更快。";
 "homepage download action android five" = "Blokada 5 .apk";
@@ -541,6 +560,10 @@
 "homepage download action android four" = "Blokada 4 .apk";
 "homepage download action android four fdroid" = "打开F-Droid";
 
+"homepage download cloud desc" = "Blokada Cloud can be used on any platform that supports DNS over TLS/HTTPS. This includes Windows, MacOS, Linux, and all modern browsers. You can find simple setup guides for all supported platforms in the web dashboard.";
+"homepage download plus desc" = "Blokada Plus can be used on any platform where Wireguard® app is available. You can generate a VPN profile in the web dashboard, and then simply import it to the app.";
+"homepage download action open dashboard" = "Open Dashboard";
+
 "homepage community header" = "社区";
 "homepage community desc" = "Blokada不仅是隐私应用，也是关心其数字隐私和福祉的人的社区。 你们会在我们的论坛上找到我们，你们可以在那里提出你们可能有的任何问题。 我们还参加了其他社会媒体和会话。";
 "homepage community cta subheader" = "加入我们并打个招呼！";
@@ -550,8 +573,10 @@
 
 "homepage support header" = "支持此项目";
 "homepage support desc" = "如果你们喜欢我们做什么，就考虑支持我们，以便我们能够继续发展新的功能和改进。 这样，Blokada就可以永远保持开源和自由。";
+"homepage support desc2" = "If you like what we do, consider supporting us, so that we can continue developing our open source projects.";
 "homepage support cta header" = "Blokada需要你的支持";
 "homepage support cta desc" = "Blokada是一个开源项目，这意味着你可以确保它永远是免费的。 安全使用且不带任何隐藏的装置。 我们认为这是开发您可以信任的隐私应用的唯一正确方法。";
+"homepage support cta desc2" = "Blokada has two sources of revenue for supporting the project development: subscriptions, and donations. There is no ads revenue. Blokada does not sell user data either.";
 "homepage support cta desc more" = "然而，开发像Blokada这样的优质应用需要大量资源。这个项目的存在要归功于像你这样的优秀人物的支持！";
 "homepage support cta action" = "捐助 (银行卡或Paypal)";
 "homepage support cta action alt" = "捐赠(银行，加密货币)";
