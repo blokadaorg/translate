@@ -334,10 +334,10 @@
 "account lease label this device" = " (מכשיר זה)";
 "account lease label name" = "שם המכשיר";
 "account lease label location" = "מיקום";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease label generate" = "בחירת מיקום כאן תיצור קובץ תצורה בו תוכלו להשתמש בכל יישום VPN התומך ב־WireGuard. זה שימושי לפלטפורמות שהיישומים שלנו אינם תומכים בהן עדיין. בכל מקרה אחר, אנו ממליצים להשתמש במקום זאת ביישומים המקוריים שלנו.";
 "account lease action generate" = "יצירת קובץ הגדרות";
 "account lease action download" = "הורדת קובץ הגדרות";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease generated" = "מכשיר נוסף! הורד את ההגדרות כדי שתוכל להשתמש בהם בכל מכשיר שתומך ב־WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "בחר DNS";
@@ -358,11 +358,11 @@
 "payment feature desc encrypt data" = "מידע שנשלח דרך הVPN שלנו מוצפן ומשתמש באלגוריתמים חזקים על מנת לשמור מפני יירוט על ידי גורמים לא מאושרים.";
 "payment feature title encrypt dns" = "Encrypt DNS";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
+"payment feature title performance" = "ביצועים נהדרים";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
+"payment feature title battery" = "אפס השפעה על חיי הסוללה";
 "payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
+"payment feature title devices cloud" = "מכשירים רבים";
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
 "payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
@@ -370,7 +370,7 @@
 "payment feature desc faster connection" = "מהירויות מעולות עד כ100Mbps עם שרתים במגוון חלקים בעולם.";
 "payment feature title devices" = "עד חמישה מכשירים";
 "payment feature desc devices" = "השתמש/י באותו חשבון כדי לשתף את המנוי שלך לעד כחמישה מכשירים: iOS, אנדרואיד, או במחשב.";
-"payment feature title no ads" = "Block Ads";
+"payment feature title no ads" = "חסום פרסומות";
 "payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
 "payment feature title support" = "תמיכה מעולה";
 "payment feature desc support" = "קבלו תשובה מהירה על כל שאלה תודות לתמיכת לקוחות והקהילה הפתוחה התוססת שלנו.";
@@ -387,8 +387,8 @@
 "payment subscription 1 month" = "חודש אחד";
 "payment subscription many months" = "%@ חודשים";
 "payment subscription per month" = "%@ לחודש";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
+"payment subscription per year" = "%@ לשנה";
+"payment subscription per year then" = "ולאחר מכן %@ לשנה";
 "payment subscription offer" = "חסוך %@";
 
 "payment success label" = "תודה!";
@@ -422,8 +422,8 @@
 "payment euro desc" = "אנו ממוקמים באירופה, ולכן אנו מקבלים אירו: €10 הם בערך 12$.";
 "payment donate disclaimer" = "פעולה זו לא תפעיל את חשבון Blokada Plus שלך. אם ברצונך להשתמש בשירות ה־VPN שלנו, אנא הירשם כמינוי במקום לתרום.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "השוואת תוכניות";
+"payment plan slugline cloud" = "חסון פרסומות ומעקבים";
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(includes Blokada Cloud)";
 "payment plan slugline plus" = "Additional protection with VPN";
@@ -592,9 +592,9 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "יצר";
 
-"setup header" = "Setup";
+"setup header" = "הגדר";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
 "setup label which device" = "What type of device you wish to set up?";
 "setup label choose" = "Choose any of the following setup options:";
