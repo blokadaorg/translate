@@ -73,14 +73,14 @@
 // Common label when some feature has no setting
 "universal label none" = "כלום";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "שם";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "זמן";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "כמות";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "סוג";
+"universal label device" = "התקן";
 
 "universal status processing" = "מעבד... אנא המתינו.";
 "universal status copied to clipboard" = "הועתק ללוח";
@@ -136,16 +136,16 @@
 "home status paused" = "מושהה";
 "home status active" = "פעיל";
 "home status deactivated" = "הושבת";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home action tap to activate" = "לחצו להפעלה";
+"home status detail paused" = "מופסק עד לסוף הטיימר";
+"home status detail active" = "חוסם *פרסומות* ו*מעקבים*";
+"home status detail active with counter" = "חסם *%@* פרסומות ומעקבים";
 "home status detail active slim" = "Blokada *Slim* פעיל";
 "home status detail plus" = "*+* מגן על *פרטיותך*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "אנא המתן...";
 
 "home plus button deactivated" = "BLOKADA+ מושבת";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN הושבת";
 "home plus button select location" = "בחרו מיקום";
 "home plus button location" = "מיקום: *%@*";
 
@@ -217,21 +217,21 @@
 "activity empty text" = "נסו להשתמש במכשירכם וחזרו לכאן אחר כך, על מנת לראות לאן מכשירכם מתחבר.";
 "activity device filter show all" = "כל ההתקנים";
 "activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
+"activity retention option none" = "אל תאחסן את הפעילות שלי";
+"activity retention option 24h" = "24 שעות";
 "activity retention policy" = "By enabling log retention you accept the privacy policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
-"userdenied section header" = "Exceptions";
+"userdenied section header" = "חריגים";
 "userdenied section slugline" = "נהל חסימה של אתרים מסוימים";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "מורשה";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "נחסם";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "אפשר";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "חסום";
 
 "networks section header" = "רשתות";
 "networks section label" = "התאם הגדרות לרשתות WiFi ורשתות סלולריות";
@@ -506,8 +506,8 @@
 "homepage cloud point three" = "DNS פרטי ומוצפן";
 "homepage cloud point four" = "חבר כמה מכשירים";
 "homepage cloud point five" = "היישומון זמין למערכת ההפעלה iOS";
-"homepage cloud point six" = "Use on any platform supporting private DNS";
-"homepage cloud learn more" = "Learn more about Blokada Cloud";
+"homepage cloud point six" = "השתמש/י בכל פלטפורמה התומכת ב-DNS פרטי";
+"homepage cloud learn more" = "למד/י עוד אודות על הענן של Blokada";
 
 "homepage about action faq" = "עיין בשאלות הנפוצות";
 "homepage about action plus" = "למד/י עוד אודות Blokada פלוס";
