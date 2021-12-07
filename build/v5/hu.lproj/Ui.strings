@@ -29,8 +29,8 @@
 "error payment canceled" = "A fizetés visszavonásra került. A terhelés nem történt meg.";
 "error pack install" = "Ezt a szolgáltatást nem lehetett telepíteni (vagy eltávolítani). Kérlek, próbáld újra később.";
 "error location failed fetching" = "Nem sikerült lekérdezni a helyet.";
-"error unknown" = "An unknown problem occurred. Please try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error unknown" = "Ismeretlen probléma merült fel. Kérjük, próbáld újra. Ha a probléma továbbra is fennáll, vedd fel velünk a kapcsolatot a fenti segítség gomb megnyomásával.";
+"error blocka dns in filtering mode" = "A Blokada DNS csak a Plus módban érhető el. Kérjük válasszon másik DNS-t és próbálja újra.";
 
 "universal action continue" = "Tovább";
 "universal action cancel" = "Mégse";
@@ -66,12 +66,12 @@
 // A verb "to clear the list"
 "universal action clear" = "Törlés";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Visszavon";
 
 "universal label help" = "Segítség";
-"universal label welcome" = "Welcome!";
+"universal label welcome" = "Üdvözöljük!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Nincs";
 // Common label in tables for the Name column. Think "name of host".
 "universal label name" = "Név";
 // Common label in tables for the Time column. Think "time of event".
@@ -84,20 +84,20 @@
 
 "universal status processing" = "Feldolgozás... Kérjük, várj.";
 "universal status copied to clipboard" = "Vágólapra másolva";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
+"universal status restart required" = "Kérjük indítsa újra az app-ot a módosítások érvénybe lépéséhez.";
 "universal status redirect" = "Folytatás a Blokada alkalmazással";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status confirm" = "Biztosan folytatja?";
 
 "alert error header" = "Hoppá!";
 "alert vpn expired header" = "BLOKADA+ lejárt";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert download link body" = "Biztonsági okokból kifolyólag a fájl letöltéshez meg kell nyitnunk ezt az oldalt a böngészőben. Kérjük nyomjon újra a letöltés gombra.";
 
 "notification vpn expired header" = "BLOKADA+ előfizetés lejárt";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired subtitle" = "VPN kikapcsolva";
+"notification vpn expired body" = "Kérjük frissítse előfizetését a BLOKADA+ további használatához";
+"notification desc settings" = "Húzza jobbra vagy balra az értesítéseket a beállításhoz.";
 
-"notification update header" = "An update is available";
+"notification update header" = "Frissítés elérhető";
 "alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
 "update label updated" = "Frissítve!";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
