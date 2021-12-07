@@ -13,7 +13,7 @@
 "error device offline" = "A készüléked offline állapotban van";
 "error account inactive" = "Fiókod inaktív. Kérjük, aktiváld fiókodat a BLOKADA+ használatának folytatása érdekében.";
 "error account inactive after restore" = "Nem tűnik érvényes aktív fióknak. Ha úgy gondolod, hogy a hiba nálunk van, kérjük, vedd fel velünk a kapcsolatot a súgó ikon megérintésével.";
-"error account invalid" = "This account ID seems invalid.";
+"error account invalid" = "Ez az ID helytelennek tűnik.";
 "error creating account" = "Nem sikerült új fiókot létrehozni. Kérjük, próbáld újra később.";
 "error fetching data" = "Ezt a műveletet nem lehetett befejezni. Ellenőrizd, hogy online vagy-e, és próbálkozz később újra. Ha a probléma továbbra is fennáll, kérjük, vedd fel velünk a kapcsolatot súgó ikon megérintésével.";
 "error tunnel" = "A VPN létrehozása sikertelen. Indítsd újra a készüléket, vagy távolítsd el a Blokada VPN profilt a rendszerbeállításokból, és próbáld újra.";
@@ -45,8 +45,8 @@
 "universal action save" = "Mentés";
 "universal action contact us" = "Kapcsolat";
 "universal action support" = "Támogatás";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
+"universal action upgrade" = "BLOKADA+ csomagra váltás";
+"universal action upgrade short" = "Csomag nagyobb csomagra";
 "universal action yes" = "Igen";
 "universal action no" = "Nem";
 "universal action donate" = "Támogatás";
@@ -56,9 +56,9 @@
 "universal action download" = "Letöltés";
 "universal action news" = "Hírek";
 "universal action delete" = "Törlés";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action hide" = "Elrejt";
+"universal action select" = "Kiválaszt";
+"universal action selected" = "Kijelölt";
 // A verb "to search in the list"
 "universal action search" = "Keresés";
 // A verb "to filter the list"
@@ -73,17 +73,17 @@
 // Common label when some feature has no setting
 "universal label none" = "None";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Név";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Idő";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Számláló";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Típus";
+"universal label device" = "Készülék";
 
 "universal status processing" = "Feldolgozás... Kérjük, várj.";
-"universal status copied to clipboard" = "Copied to Clipboard";
+"universal status copied to clipboard" = "Vágólapra másolva";
 "universal status restart required" = "Please restart the app for the changes to take effect.";
 "universal status redirect" = "Folytatás a Blokada alkalmazással";
 "universal status confirm" = "Are you sure you want to proceed?";
@@ -99,7 +99,7 @@
 
 "notification update header" = "An update is available";
 "alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
+"update label updated" = "Frissítve!";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
 "update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
 
