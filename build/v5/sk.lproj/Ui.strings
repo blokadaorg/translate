@@ -45,7 +45,7 @@
 "universal action save" = "Uložiť";
 "universal action contact us" = "Kontaktujte nás";
 "universal action support" = "Podpora";
-"universal action upgrade" = "Upgrade to BLOKADA+";
+"universal action upgrade" = "Vylepši na BLOKADA+";
 "universal action upgrade short" = "Vylepšiť";
 "universal action yes" = "Áno";
 "universal action no" = "Nie";
@@ -73,14 +73,14 @@
 // Common label when some feature has no setting
 "universal label none" = "Žiadne";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Názov";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Čas";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Počet";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Typ";
+"universal label device" = "Zariadenie";
 
 "universal status processing" = "Spracovanie... Čakajte prosím.";
 "universal status copied to clipboard" = "Skopírované do schránky";
@@ -92,13 +92,13 @@
 "alert vpn expired header" = "BLOKADA+ vypršala";
 "alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
+"notification vpn expired header" = "Predplatné služby BLOKADA+ vypršalo";
 "notification vpn expired subtitle" = "VPN je deaktivovaná";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired body" = "Prosím obnovte svoje predplatné a pokračujte v používaní služby BLOKADA+";
+"notification desc settings" = "Nastavenie zobrazíte potiahnutím oznámení doľava alebo doprava.";
 
 "notification update header" = "Je dostupná aktualizácia";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
+"alert update body" = "Blokada %@ je teraz dostupná ku stiahnutiu. Doporučujeme aplikáciu priebežne aktualizovať, a sťahovať iba z našich oficiálnych zdrojov.";
 "update label updated" = "Aktualizované!";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
 "update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
@@ -109,7 +109,7 @@
 "main ask for permissions header" = "Ešte jeden krok";
 "main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada pre iOS mi pomohla zablokovať %@ reklám a sledovačov!";
 
 "main rate us header" = "Ohodnoťte nás!";
 "main rate us description" = "How do you like Blokada so far?";
@@ -127,60 +127,60 @@
 
 "main label use side menu" = "Use side menu to navigate";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
+"home ads counter footnote" = "reklám a sledovačov zablokovaných od inštalácie";
 "home power off menu header" = "Čo chcete urobiť?";
 "home power action turn on" = "Zapnúť";
 "home power action turn off" = "Vypnúť";
-"home power action pause" = "Pause for 5 min";
+"home power action pause" = "Pozastaviť na 5 minút";
 
-"home status paused" = "Paused";
+"home status paused" = "Pozastaviť";
 "home status active" = "Aktívne";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home status deactivated" = "Deaktivovať";
+"home action tap to activate" = "Ťukni pre aktiváciu";
+"home status detail paused" = "Pozastavené dokým neskončí časovač";
+"home status detail active" = "Blokujem *reklamy* a *sledovače*";
+"home status detail active with counter" = "Zablokovaných bolo *%@* reklám a sledovačov";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Čakajte prosím...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN deaktivovaná";
 "home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button location" = "Lokácia: *%@*";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "Ochrana: Nízka";
+"home level medium" = "Ochrana: Stredná";
+"home level high" = "Ochrana: Vysoká";
 
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
+"pack section header" = "Pokročilé funkcie";
+"pack section header details" = "Podrobnosti o funkcií";
+"pack action install" = "ZÍSKAŤ";
+"pack action update" = "AKTUALIZOVAŤ";
+"pack action uninstall" = "ODSTRÁNIŤ";
+"pack author" = "Autor";
+"pack configurations header" = "Konfigurácie";
 "pack information header" = "Viac";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
+"pack tags header" = "Tagy";
+"pack tags none" = "Žiadne";
+"pack category highlights" = "Populárne";
 "pack category active" = "Aktívne";
-"pack category all" = "All";
+"pack category all" = "Všetko";
 
-"advanced section header packs" = "Blocklists";
-"advanced section slugline packs" = "Activate for more restrictive blocking";
-"advanced section slugline apps" = "Choose apps that should never be blocked";
-"advanced section slugline encryption" = "Adjust your encryption level and DNS";
-"advanced action slim migrate to full" = "You are using Blokada Slim. Learn more";
+"advanced section header packs" = "Blocklisty";
+"advanced section slugline packs" = "Aktivujte pre restriktivnejšie blokovanie";
+"advanced section slugline apps" = "Vyberte aplikáce, ktoré by nikdy nemali byť blokované";
+"advanced section slugline encryption" = "Upravte svoju úroveň šifrovania a DNS";
+"advanced action slim migrate to full" = "Používate Blokadu Slim. Zistite viac";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Zvolte umiestnenie";
 
 "activity section header" = "Aktivita";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
+"activity section header details" = "Podrobnosti o aktivite";
+"activity request blocked" = "Táto požiadavka bola zablokovaná.";
+"activity request allowed" = "Táto požiadavka bola povolená.";
+"activity request allowed whitelisted" = "Táto požiadavka bola povolená, lebo je na vašom Zozname povolených";
 "activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
 "activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
@@ -422,7 +422,7 @@
 "payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
 
 "payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment plan slugline cloud" = "Blokuje reklamy a sledovače";
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(includes Blokada Cloud)";
 "payment plan slugline plus" = "Additional protection with VPN";
@@ -490,7 +490,7 @@
 "homepage hero desc" = "Blokada is the popular ad blocker and privacy app for Android and iOS. It's being supported and actively developed by the amazing open source community.";
 "homepage about title" = "Blokada Libre, the ad blocker";
 "homepage about desc" = "If you want to efficiently block ads, trackers, malware, save on your data plan, speed up your device and protect your privacy with just one application, then Blokada is for you. It is free, secure and open source.";
-"homepage about point one" = "Blocks ads & trackers";
+"homepage about point one" = "Blokuje reklamy a sledovače";
 "homepage about point two" = "Works for all apps and all browsers";
 "homepage about point three" = "Requires no root or jailbreak";
 "homepage about point four" = "Safe design (does not break encryption)";
