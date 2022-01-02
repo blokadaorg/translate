@@ -99,15 +99,15 @@
 
 "notification generic header" = "Blokada: Maßnahme erforderlich";
 "notification generic subtitle" = "Antippen, um mehr zu erfahren";
-"notification generic body" = "Please open the app for details.";
+"notification generic body" = "App öffnen für Details.";
 
-"notification acc header" = "Blokada account expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Blokada-Konto ausgelaufen";
+"notification acc subtitle" = "Werbeblocker ist deaktiviert";
+"notification acc body" = "Bitte erneuere dein Abonnement, um Blokada weiter verwenden zu können.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to unpause Blokada.";
+"notification pause header" = "Blokada ist weiterhin pausiert";
+"notification pause subtitle" = "Werbeblocker ist deaktiviert";
+"notification pause body" = "App öffnen, um Blokada wieder zu starten.";
 
 "notification update header" = "Eine Aktualisierung ist verfügbar";
 "alert update body" = "Blokada %@ steht zum Herunterladen bereit. Wir empfehlen, die App auf dem neuesten Stand zu halten und sie nur von unseren offiziellen Quellen herunterzuladen.";
@@ -197,7 +197,7 @@
 "activity request allowed list" = "Diese Anfrage wurde erlaubt, da sie auf der Liste mit *%@* erlaubt ist.";
 "activity request allowed no list" = "Diese Anfrage wurde erlaubt, da sie in keiner deiner konfigurierten Blocklisten vorhanden ist.";
 "activity request blocked list" = "Diese Anfrage wurde blockiert, da sie auf der *%@* Sperrliste vorhanden ist.";
-"activity request blocked no list" = "Diese Anfrage wurde blockiert, da sie in keiner deiner konfigurierten Blocklisten vorhanden ist.";
+"activity request blocked no list" = "Diese Anfrage wurde blockiert, da sie in keiner deiner konfigurierten Ausnahmelisten vorhanden ist.";
 "activity actions header" = "Aktionen";
 "activity information header" = "Informationen";
 "activity action add to whitelist" = "Zu Erlaubten hinzufügen";
@@ -276,7 +276,7 @@
 "account section header settings" = "Einstellungen";
 "account status text" = "Dein BLOKADA %@ Konto ist aktiv bis zum %@.";
 "account status text libre" = "Dein BLOKADA Libre Konto ist für immer aktiv.";
-"account status text inactive" = "Dein BLOKADA Konto ist inaktiv.";
+"account status text inactive" = "Dein BLOKADA-Konto ist inaktiv.";
 
 "account section header primary" = "Primär";
 "account section header other" = "Andere";
