@@ -345,11 +345,11 @@
 "account lease label this device" = " (este dispositivo)";
 "account lease label name" = "Nombre del dispositivo";
 "account lease label location" = "Ubicación";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease label generate" = "Al seleccionar una ubicación, se generará un archivo de configuración que podrás utilizar en cualquier aplicación VPN que admita Wireguard. Esto es útil para las plataformas en las que aún no tenemos nuestras aplicaciones. De lo contrario, recomendamos utilizar nuestras aplicaciones nativas en su lugar.";
 "account lease action generate" = "Generar configuración";
 "account lease action download" = "Descargar configuración";
 "account lease generated" = "¡Dispositivo añadido! Descarga la configuración para usarla en cualquier dispositivo soportado por Wireguard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease wireguard desc" = "Blokada utiliza Wireguard. Las configuraciones se pueden descargar al crear nuevos dispositivos.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Escoge un DNS";
 "account lease label public key" = "Llave pública";
@@ -368,14 +368,14 @@
 "payment feature title encrypt data" = "Encripta tus datos";
 "payment feature desc encrypt data" = "Los datos enviados a través de nuestro túnel VPN son cifrados usando algoritmos fuertes para protegerlos contra la interceptación por parte de partes no autorizadas.";
 "payment feature title encrypt dns" = "Encriptar DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
+"payment feature desc encrypt dns" = "Mejora tu privacidad con el cifrado DNS. Blokada Cloud utiliza protocolos modernos para ayudar a mantener tu tráfico privado.";
 "payment feature title performance" = "Gran rendimiento";
 "payment feature desc performance" = "Mantén tu dispositivo rápido y tu conexión a Internet a máxima velocidad, gracias a nuestra nueva solución en la nube.";
 "payment feature title battery" = "Impacto de Batería Cero";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
+"payment feature desc battery" = "La duración de tu batería no va a verse afectada, incluso puede mejorar cuando Blokada Cloud está activado.";
 "payment feature title devices cloud" = "Múltiples dispositivos";
 "payment feature desc devices cloud" = "Configure y supervise todos sus dispositivos en un solo lugar. Ya sea a través de nuestra aplicación móvil o de nuestra aplicación web.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
+"payment feature title cloud vpn" = "Blokada Cloud más VPN";
 "payment feature desc cloud vpn" = "Además de todos los beneficios de Blokada Cloud, tendrás acceso a nuestra red VPN global";
 "payment feature title faster connection" = "Conexión más rápida";
 "payment feature desc faster connection" = "Alcanza velocidades de hasta 100Mbps gracias a servidores alrededor del mundo.";
@@ -436,7 +436,7 @@
 "payment action compare" = "Comparar planes";
 "payment plan slugline cloud" = "Bloquea anuncios y rastreadores";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
+"payment plan slugline cloud detail" = "(incluye Blokada Cloud)";
 "payment plan slugline plus" = "Protección adicional con VPN";
 "payment plan cta trial" = "Comenzar prueba gratuita de 7 días";
 "payment plan cta monthly" = "Suscripción mensual";
@@ -601,7 +601,7 @@
 "web vpn devices open action" = "Abrir ajustes de equipos VPN";
 "web action open setup" = "Abrir configuración";
 "web cta plus header" = "Actualice a Blokada Plus para mantener el control de su privacidad.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web cta plus desc" = "Tu cuenta Libre te da bloqueo gratuito en tu dispositivo con nuestras aplicaciones de código abierto. Actualiza a Blokada Plus para una mejor protección. Obtendrá acceso a nuestra red VPN global, así como a nuestro nuevo bloqueo *basado en la nube* que es más eficiente y fácil de usar.";
 // A short word for a button to generate profile
 "web action generate" = "Generar";
 
@@ -636,5 +636,5 @@
 "stats top blocked header" = "Solicitudes bloqueadas más solicitadas";
 
 "dnsprofile header" = "Activar Blokada en Ajustes";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
+"dnsprofile desc" = "En la aplicación de configuración, vaya a General → VPN, DNS & Device Management → DNS y seleccione Blokada.";
 "dnsprofile action open settings" = "Abrir Ajustes";
