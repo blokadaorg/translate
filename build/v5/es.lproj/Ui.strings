@@ -97,16 +97,16 @@
 "notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 "notification desc settings" = "Desliza la notificación a la izquierda o derecha para ver los ajustes.";
 
-"notification generic header" = "Blokada: action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: acción requerida";
+"notification generic subtitle" = "Toca la notificación para obtener más información";
+"notification generic body" = "Por favor, abre la aplicación para más detalles.";
 
 "notification acc header" = "Blokada account expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc subtitle" = "El bloqueo de anuncios está desactivado";
+"notification acc body" = "Por favor, actualiza tu suscripción para seguir usando Blokada.";
 
 "notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
+"notification pause subtitle" = "El bloqueo de anuncios está desactivado";
 "notification pause body" = "Please open the app to unpause Blokada.";
 
 "notification update header" = "Hay una actualización disponible";
@@ -148,13 +148,13 @@
 "home status paused" = "En pausa";
 "home status active" = "Activo";
 "home status deactivated" = "Desactivado";
-"home action tap to activate" = "Tap to activate";
+"home action tap to activate" = "Toca para activar";
 "home status detail paused" = "Paused until timer ends";
 "home status detail active" = "Blocking *ads* and *trackers*";
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* está activo";
 "home status detail plus" = "*+* protegiendo tu *privacidad*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Espera, por favor...";
 
 "home plus button deactivated" = "BLOKADA+ desactivado";
 "home plus button deactivated cloud" = "VPN desactivada";
@@ -194,7 +194,7 @@
 "activity request allowed" = "Esta solicitud ha sido permitida.";
 "activity request allowed whitelisted" = "Esta solicitud ha sido permitida porque se encuentra entre tus Hosts permitidos";
 "activity request blocked blacklisted" = "Esta solicitud ha sido bloqueada porque se encuentra entre tu Lista de bloqueados";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed list" = "Esta solicitud ha sido permitida, porque está presente en *%@*.";
 "activity request allowed no list" = "Esta solicitud ha sido permitida, ya que no está presente en ninguna de sus listas de bloques configuradas.";
 "activity request blocked list" = "Esta solicitud ha sido bloqueada, porque está presente en *%@*.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
@@ -348,7 +348,7 @@
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Generar configuración";
 "account lease action download" = "Descargar configuración";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease generated" = "¡Dispositivo añadido! Descarga la configuración para usarla en cualquier dispositivo soportado por Wireguard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Escoge un DNS";
@@ -376,7 +376,7 @@
 "payment feature title devices cloud" = "Múltiples dispositivos";
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature desc cloud vpn" = "Además de todos los beneficios de Blokada Cloud, tendrás acceso a nuestra red VPN global";
 "payment feature title faster connection" = "Conexión más rápida";
 "payment feature desc faster connection" = "Alcanza velocidades de hasta 100Mbps gracias a servidores alrededor del mundo.";
 "payment feature title devices" = "Hasta 5 dispositivos";
@@ -398,8 +398,8 @@
 "payment subscription 1 month" = "1 mes";
 "payment subscription many months" = "%@ meses";
 "payment subscription per month" = "%@ por mes";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
+"payment subscription per year" = "%@ al año";
+"payment subscription per year then" = "luego %@ al año";
 "payment subscription offer" = "Ahorra %@";
 
 "payment success label" = "¡Gracias!";
