@@ -29,7 +29,7 @@
 "error payment canceled" = "Плащането е анулирано. Не сте таксувани.";
 "error pack install" = "Функцията не можа да се инсталира (или деинсталира). Моля, опитайте отново по-късно.";
 "error location failed fetching" = "Местоположенията не можаха да бъдат извлечени.";
-"error unknown" = "Възникна неизвестен проблем. Моля, опитайте отново. Ако проблемът продължава, моля свържете се с нас като докоснете иконата за помощ в горната част.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
 "error blocka dns in filtering mode" = "Понастоящем Blokada DNS се поддържа само в режим Plus. Моля, изберете друг DNS и опитайте отново.";
 
 "universal action continue" = "Продължи";
@@ -58,7 +58,7 @@
 "universal action delete" = "Изтриване";
 "universal action hide" = "Скриване";
 "universal action select" = "Изберете";
-"universal action selected" = "Избиране";
+"universal action selected" = "Избрани";
 // A verb "to search in the list"
 "universal action search" = "Търсене";
 // A verb "to filter the list"
@@ -98,16 +98,16 @@
 "notification desc settings" = "Плъзнете известието наляво или надясно за настройки.";
 
 "notification generic header" = "Blokada: изисква се действие";
-"notification generic subtitle" = "Докоснете, за да научите повече";
+"notification generic subtitle" = "Докоснете за да научите повече";
 "notification generic body" = "Моля, отворете приложението за повече подробности.";
 
 "notification acc header" = "Профилът в Blokada е изтекъл";
 "notification acc subtitle" = "Блокирането на реклами е деактивирано";
-"notification acc body" = "Моля, актуализирайте абонамента си, за да продължите да използвате Blokada.";
+"notification acc body" = "Моля, актуализирайте абонамента си за да продължите да използвате Blokada.";
 
 "notification pause header" = "Blokada все още е на пауза";
 "notification pause subtitle" = "Блокирането на реклами е деактивирано";
-"notification pause body" = "Моля, отворете приложението, за да пуснете Blokada.";
+"notification pause body" = "Моля, отворете приложението за да пуснете Blokada.";
 
 "notification lease header" = "Blokada Plus е изключена";
 
@@ -643,3 +643,4 @@
 
 "notification perms header" = "Включване на известията в Настройки";
 "notification perms desc" = "Тази функция изисква известия, моля включете ги за Blokada.";
+"notification perms denied" = "You denied notifications. If you wish to change it, please use System Preferences.";
