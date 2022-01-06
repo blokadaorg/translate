@@ -29,7 +29,7 @@
 "error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
 "error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
 "error location failed fetching" = "Không thể tìm nạp vị trí.";
-"error unknown" = "Đã xảy ra sự cố không xác định. Vui lòng thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
 "error blocka dns in filtering mode" = "Blokada DNS hiện chỉ được hỗ trợ ở chế độ Plus. Vui lòng chọn một DNS khác và thử lại.";
 
 "universal action continue" = "Tiếp tục";
@@ -109,7 +109,7 @@
 "notification pause subtitle" = "Chặn quảng cáo đã bị vô hiệu hóa";
 "notification pause body" = "Vui lòng mở ứng dụng để bỏ tạm dừng Blokada.";
 
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus đã tắt";
 
 "notification update header" = "Một bản cập nhật đã có sẵn";
 "alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
@@ -643,3 +643,4 @@
 
 "notification perms header" = "Bật thông báo trong Cài đặt";
 "notification perms desc" = "Tính năng này yêu cầu thông báo, vui lòng bật chúng cho Blokada.";
+"notification perms denied" = "You denied notifications. If you wish to change it, please use System Preferences.";
