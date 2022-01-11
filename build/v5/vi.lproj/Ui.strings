@@ -109,6 +109,7 @@
 "notification pause subtitle" = "Chặn quảng cáo đã bị vô hiệu hóa";
 "notification pause body" = "Vui lòng mở ứng dụng để bỏ tạm dừng Blokada.";
 
+// Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus đã tắt";
 
 "notification update header" = "Một bản cập nhật đã có sẵn";
@@ -643,4 +644,18 @@
 
 "notification perms header" = "Bật thông báo trong Cài đặt";
 "notification perms desc" = "Tính năng này yêu cầu thông báo, vui lòng bật chúng cho Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms denied" = "Bạn đã từ chối thông báo. Để thay đổi nó, vui lòng sử dụng Tùy chọn Hệ thống.";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";
