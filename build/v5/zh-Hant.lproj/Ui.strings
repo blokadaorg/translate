@@ -109,6 +109,7 @@
 "notification pause subtitle" = "廣告封鎖功能被停用";
 "notification pause body" = "請開啟 App 讓 Blokada 恢復運作。";
 
+// Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus 已停用";
 
 "notification update header" = "有更新版本";
@@ -644,3 +645,17 @@
 "notification perms header" = "在設定中啟用通知";
 "notification perms desc" = "這個功能需要通知功能才能運作。請開啟 Blokada 的通知功能。";
 "notification perms denied" = "您拒絕了通知。若要變更，請前往系統偏好設定更改。";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";
