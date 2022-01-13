@@ -29,7 +29,7 @@
 "error payment canceled" = "A fizetés visszavonásra került. A terhelés nem történt meg.";
 "error pack install" = "Ezt a szolgáltatást nem lehetett telepíteni (vagy eltávolítani). Kérlek, próbáld újra később.";
 "error location failed fetching" = "Nem sikerült lekérdezni a helyet.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "Egy hiba lépett fel. Bizonyosodjon meg arról, hogy online, és próbálkozzon újra. Ha a hiba továbbra is fennáll, nyomjon rá a segítség ikonra felül.";
 "error blocka dns in filtering mode" = "A Blokada DNS csak a Plus módban érhető el. Kérjük válasszon másik DNS-t és próbálja újra.";
 
 "universal action continue" = "Tovább";
@@ -97,20 +97,20 @@
 "notification vpn expired body" = "Kérjük frissítse előfizetését a BLOKADA+ további használatához";
 "notification desc settings" = "Húzza jobbra vagy balra az értesítéseket a beállításhoz.";
 
-"notification generic header" = "Blokada: action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: beavatkozás szükséges";
+"notification generic subtitle" = "Koppintson több információért";
+"notification generic body" = "Nyissa meg az appot a további részletekért.";
 
-"notification acc header" = "Blokada account expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Blokada fiók lejárt";
+"notification acc subtitle" = "Adblockolás kikapcsolva";
+"notification acc body" = "Kérjük újítsa meg előfizetését a Blokada további használatához.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to unpause Blokada.";
+"notification pause header" = "Blokada továbbra is szüneteltetve";
+"notification pause subtitle" = "Adblockolás szüneteltetve";
+"notification pause body" = "Nyissa meg az appot a Blokada szünetelésének feloldásához.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus kikapcsolva";
 
 "notification update header" = "Frissítés elérhető";
 "alert update body" = "A Blokada %@ letölthető. Ajánlott az app rendszeres frissítése, és csak a hivatalos forrásból való beszerzése.";
@@ -154,9 +154,9 @@
 "home action tap to activate" = "Koppints az aktiváláshoz";
 "home status detail paused" = "Szünetel a számláló lejártáig";
 "home status detail active" = "*reklám* és *tracker* blokkolása";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home status detail active with counter" = "Blokkolva *%@* reklám és követő";
 "home status detail active slim" = "Blokada *Slim* aktív";
-"home status detail plus" = "*+* protecting your *privacy*";
+"home status detail plus" = "*+* védelmezi a *magánéletedet*";
 "home status detail progress" = "Kérem várjon...";
 
 "home plus button deactivated" = "BLOKADA+ deaktiválva";
@@ -197,7 +197,7 @@
 "activity request allowed" = "Ez a kérelem engedélyezésre került.";
 "activity request allowed whitelisted" = "Ez a kérelem engedélyezésre került, mert az Engedélyezett listádban szerepel";
 "activity request blocked blacklisted" = "Ez a kérelem blokkolásra került, mert a Blokkolt listádban szerepel";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
+"activity request allowed list" = "Ez a kérelem engedélyezésre került, mert megtalálható a *%@* engedélyezetteinél.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
