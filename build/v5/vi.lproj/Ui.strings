@@ -20,6 +20,7 @@
 "error vpn" = "Không thể thiết lập VPN. Vui lòng khởi động lại thiết bị của bạn hoặc xóa cấu hình Blokada VPN trong cài đặt hệ thống và thử lại.";
 "error vpn perms" = "Không có quyền nào được cấp để tạo hồ sơ VPN.";
 "error vpn no current lease" = "Vui lòng chọn một địa điểm trước.";
+"error vpn no current lease new" = "Blokada Plus hiện đã bị tắt trên thiết bị này. Vui lòng chọn một vị trí để kích hoạt lại nó.";
 "error vpn too many leases" = "Bạn đã đạt đến giới hạn thiết bị của mình. Vui lòng xóa một trong các thiết bị của bạn và thử lại.";
 "error vpn expired" = "VPN đã bị tắt. Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
 "error payment inactive after restore" = "Khoản thanh toán trước đó của bạn đã được khôi phục, nhưng đăng ký đã hết hạn. Nếu bạn cho rằng đây là sự nhầm lẫn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
@@ -29,7 +30,7 @@
 "error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
 "error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
 "error location failed fetching" = "Không thể tìm nạp vị trí.";
-"error unknown" = "Đã xảy ra sự cố không xác định. Vui lòng thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error unknown" = "Đã xảy ra sự cố. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
 "error blocka dns in filtering mode" = "Blokada DNS hiện chỉ được hỗ trợ ở chế độ Plus. Vui lòng chọn một DNS khác và thử lại.";
 
 "universal action continue" = "Tiếp tục";
@@ -96,6 +97,21 @@
 "notification vpn expired subtitle" = "VPN đã bị tắt";
 "notification vpn expired body" = "Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
 "notification desc settings" = "Vuốt thông báo sang trái hoặc phải để cài đặt.";
+
+"notification generic header" = "Blokada: hành động được yêu cầu";
+"notification generic subtitle" = "Nhấn vào để biết thêm";
+"notification generic body" = "Vui lòng mở ứng dụng để biết chi tiết.";
+
+"notification acc header" = "Tài khoản Blokada đã hết hạn";
+"notification acc subtitle" = "Chặn quảng cáo đã bị vô hiệu hóa";
+"notification acc body" = "Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng Blokada.";
+
+"notification pause header" = "Blokada vẫn còn tạm dừng";
+"notification pause subtitle" = "Chặn quảng cáo đã bị vô hiệu hóa";
+"notification pause body" = "Vui lòng mở ứng dụng để bỏ tạm dừng Blokada.";
+
+// Displayed in a notification title. Do not translate "Plus".
+"notification lease header" = "Blokada Plus đã tắt";
 
 "notification update header" = "Một bản cập nhật đã có sẵn";
 "alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
@@ -626,3 +642,21 @@
 "dnsprofile header" = "Bật Blokada trong Cài đặt";
 "dnsprofile desc" = "Trong ứng dụng Cài đặt, điều hướng đến Chung → VPN, DNS & Quản lý thiết bị → DNS và chọn Blokada.";
 "dnsprofile action open settings" = "Mở Cài đặt";
+
+"notification perms header" = "Bật thông báo trong Cài đặt";
+"notification perms desc" = "Tính năng này yêu cầu thông báo, vui lòng bật chúng cho Blokada.";
+"notification perms denied" = "Bạn đã từ chối thông báo. Để thay đổi nó, vui lòng sử dụng Tùy chọn Hệ thống.";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Gần xong rồi!";
+"activated desc" = "Những điều sau đây là cần thiết để Blokada hoạt động như mong đợi:";
+"activated desc all ok" = "Thiết bị của bạn đã được thiết lập xong và hoạt động tốt:";
+"activated label account" = "Tài khoản đang hoạt động (%@)";
+"activated label notif yes" = "Thông báo được cho phép";
+"activated label notif no" = "Cho phép thông báo";
+"activated label dns yes" = "Hồ sơ DNS được kích hoạt";
+"activated label dns no" = "Kích hoạt hồ sơ DNS";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Cho phép VPN (Chỉ Plus)";
+"activated label vpn yes" = "VPN được cho phép";
+"activated label vpn no" = "Cho phép VPN";

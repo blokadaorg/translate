@@ -20,6 +20,7 @@
 "error vpn" = "ไม่สามารถสร้าง VPN โปรดรีสตาร์ทอุปกรณ์ของคุณหรือลบโปรไฟล์ Blokada VPN ในการตั้งค่าระบบแล้วลองอีกครั้ง";
 "error vpn perms" = "ไม่มีการอนุญาตให้สร้างโปรไฟล์ VPN";
 "error vpn no current lease" = "โปรดเลือกสถานที่ก่อน";
+"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "คุณต่ออุปกรณ์ถึงขีดจำกัด โปรดตัดการเชื่อมต้่อกับอุปกรณ์หนึ่งเครื้องและลองอีกครั้ง";
 "error vpn expired" = "VPN ถูกปิดการใช้งาน โปรดอัปเดตการสมัครของคุณเพื่อใช้ BLOKADA + ต่อไป";
 "error payment inactive after restore" = "การชำระเงินครั้งก่อนของคุณได้รับการกู้คืนแล้ว แต่การสมัครสมาชิกหมดอาย หากคุณเชื่อว่านี่เป็นความผิดพลาดโปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
@@ -29,7 +30,7 @@
 "error payment canceled" = "การชำระเงินถูกยกเลิก คุณไม่ได้ถูกเรียกเก็บเงิน";
 "error pack install" = "ไม่สามารถติดตั้ง (หรือถอนการติดตั้ง) ฟีเจอร์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง.";
 "error location failed fetching" = "ไม่สามารถดึงข้อมูลสถานที่ได้";
-"error unknown" = "เกิดปัญหาที่ไม่ทราบสาเหตุ กรุณาลองอีกครั้ง. หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
 "error blocka dns in filtering mode" = "ในปัจจุบัน Blokada DNS ยังรองรับเฉพาะในโหมด Plus โปรดเลือก DNS อื่นแล้วลองอีกครั้ง";
 
 "universal action continue" = "ดำเนิน​การ";
@@ -96,6 +97,21 @@
 "notification vpn expired subtitle" = "VPN ปิดใช้งาน";
 "notification vpn expired body" = "โปรดอัปเดตการสมัครของคุณเพื่อใช้ BLOKADA + ต่อไป";
 "notification desc settings" = "ปัดหน้าจอทางซ้ายหรือขวาเพื่อเข้าการตั้งค่า";
+
+"notification generic header" = "Blokada: action required";
+"notification generic subtitle" = "Tap to learn more";
+"notification generic body" = "Please open the app for details.";
+
+"notification acc header" = "Blokada account expired";
+"notification acc subtitle" = "Adblocking is disabled";
+"notification acc body" = "Please update your subscription to continue using Blokada.";
+
+"notification pause header" = "Blokada is still paused";
+"notification pause subtitle" = "Adblocking is disabled";
+"notification pause body" = "Please open the app to unpause Blokada.";
+
+// Displayed in a notification title. Do not translate "Plus".
+"notification lease header" = "Blokada Plus is off";
 
 "notification update header" = "มีอัปเดตใหม่";
 "alert update body" = "Blokada %@ พร้อมสำรับการดาวน์โหลด. เราแนะนำให้คูณใช้เวอร์ชันล่าสุดและดาวน์โหลดจากจากแหล่งอย่างเป็นทางการของเราเท่านั้น";
@@ -626,3 +642,21 @@
 "dnsprofile header" = "Enable Blokada in Settings";
 "dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
 "dnsprofile action open settings" = "Open Settings";
+
+"notification perms header" = "Enable notifications in Settings";
+"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
+"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";

@@ -20,6 +20,7 @@
 "error vpn" = "VPN nehate avakirin. Ji kerema xwe cîhaza xwe ji nû ve bide destpêkirin, an jî profîla VPN a Blokada di mîhengên pergalê de rake û dîsa biceribîne.";
 "error vpn perms" = "Ji bo çêkirina profîla VPN destûr tune.";
 "error vpn no current lease" = "Ji kerema xwe pêşî cihekî hilbijêrin.";
+"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "Te xwe gihand sînorê cîhazên xwe. Ji kerema xwe re yek ji cîhazên xwe rake û dîsa biceribîne.";
 "error vpn expired" = "VPN neçalak e. Ji kerema xwe abonetiya xwe nû bike da ku bikaranîna BLOKADA+ bidomîne";
 "error payment inactive after restore" = "Pereyê te yê berê hat restorekirin, lê abonetî ji xwe qediya. Heke hûn bawer dikin ku ev xeletiyek e, ji kerema xwe bi me re bi pêwendiya li ser îkona alîkariyê li jor.";
@@ -29,7 +30,7 @@
 "error payment canceled" = "Dayîna berdêlê betal kir. Te doz venekiriye.";
 "error pack install" = "Nekarî vê taybetiyê saz bike (an jî saz bike). Ji kerema xwe paşê dîsa biceribîne.";
 "error location failed fetching" = "Nekarî cîh bistîne.";
-"error unknown" = "Pirsgirêkek nediyar çêbû. Ji kerema xwe re dîsa biceribîne. Eger pirsgirêk berdewam bike, ji kerema xwe bi me re bi tikandina îkona alîkariyê li jor.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
 "error blocka dns in filtering mode" = "Blokada DNS niha tenê di moda Plus de tê piştgirî kirin. Ji kerema xwe DNS eke din hilbijêre û dîsa biceribîne.";
 
 "universal action continue" = "Berdewam";
@@ -96,6 +97,21 @@
 "notification vpn expired subtitle" = "VPN neçalak e";
 "notification vpn expired body" = "Ji kerema xwe abonetiya xwe nû bike da ku bikaranîna BLOKADA+ bidomîne";
 "notification desc settings" = "Ji bo mîhengan agahdariya çepê yan jî rastê bişke.";
+
+"notification generic header" = "Blokada: action required";
+"notification generic subtitle" = "Tap to learn more";
+"notification generic body" = "Please open the app for details.";
+
+"notification acc header" = "Blokada account expired";
+"notification acc subtitle" = "Adblocking is disabled";
+"notification acc body" = "Please update your subscription to continue using Blokada.";
+
+"notification pause header" = "Blokada is still paused";
+"notification pause subtitle" = "Adblocking is disabled";
+"notification pause body" = "Please open the app to unpause Blokada.";
+
+// Displayed in a notification title. Do not translate "Plus".
+"notification lease header" = "Blokada Plus is off";
 
 "notification update header" = "Nûvekirinek heye";
 "alert update body" = "Blokada %@ niha ji bo daxistinê heye. Em pêşniyar dikin ku vê sepanê heta niha berdewam bikin û tenê ji çavkaniyên xwe yên fermî dakêşin.";
@@ -626,3 +642,21 @@
 "dnsprofile header" = "Enable Blokada in Settings";
 "dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
 "dnsprofile action open settings" = "Open Settings";
+
+"notification perms header" = "Enable notifications in Settings";
+"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
+"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";

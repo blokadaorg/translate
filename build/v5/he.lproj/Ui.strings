@@ -20,6 +20,7 @@
 "error vpn" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
 "error vpn perms" = "לא ניתנו הרשאות ליצירת פרופיל VPN.";
 "error vpn no current lease" = "אנא בחרו מיקום תחילה.";
+"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "הגעתם למגבלת המכשירים שלכם. אנא הסירו את אחד המכשירים ונסו שוב.";
 "error vpn expired" = "הVPN מבוטל. אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
 "error payment inactive after restore" = "התשלום האחרון שלכם שוחזר, אבל המנוי פג תוקף. אם אתם מאמינים שזו טעות, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
@@ -29,7 +30,7 @@
 "error payment canceled" = "התשלום בוטל. אינכם מחוייבים.";
 "error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסו שוב מאוחר יותר.";
 "error location failed fetching" = "לא היה ניתן לקבל את רשימת המיקומים.";
-"error unknown" = "בעיה לא מוכרת התרחשה. אנא נסו שוב. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
 "error blocka dns in filtering mode" = "שירות הDNS של Blokada נתמך כעת רק במצב פלוס. אנא בחרו שירות DNS אחר ונסו שוב.";
 
 "universal action continue" = "המשיכו";
@@ -73,14 +74,14 @@
 // Common label when some feature has no setting
 "universal label none" = "כלום";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "שם";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "זמן";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "כמות";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "סוג";
+"universal label device" = "התקן";
 
 "universal status processing" = "מעבד... אנא המתינו.";
 "universal status copied to clipboard" = "הועתק ללוח";
@@ -96,6 +97,21 @@
 "notification vpn expired subtitle" = "הVPN מושבת";
 "notification vpn expired body" = "אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
 "notification desc settings" = "החלק את ההתראות ימינה או שמאלה להגדרתן.";
+
+"notification generic header" = "Blokada: action required";
+"notification generic subtitle" = "Tap to learn more";
+"notification generic body" = "Please open the app for details.";
+
+"notification acc header" = "Blokada account expired";
+"notification acc subtitle" = "Adblocking is disabled";
+"notification acc body" = "Please update your subscription to continue using Blokada.";
+
+"notification pause header" = "Blokada is still paused";
+"notification pause subtitle" = "Adblocking is disabled";
+"notification pause body" = "Please open the app to unpause Blokada.";
+
+// Displayed in a notification title. Do not translate "Plus".
+"notification lease header" = "Blokada Plus is off";
 
 "notification update header" = "קיים עדכון זמין";
 "alert update body" = "Blokada %@ זמינה כעת להורדה. אנו ממליצים לשמור את היישום מעודכן, ולהוריד אותו רק מהמקורות הרשמיים שלנו.";
@@ -136,16 +152,16 @@
 "home status paused" = "מושהה";
 "home status active" = "פעיל";
 "home status deactivated" = "הושבת";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home action tap to activate" = "לחצו להפעלה";
+"home status detail paused" = "מופסק עד לסוף הטיימר";
+"home status detail active" = "חוסם *פרסומות* ו*מעקבים*";
+"home status detail active with counter" = "חסם *%@* פרסומות ומעקבים";
 "home status detail active slim" = "Blokada *Slim* פעיל";
 "home status detail plus" = "*+* מגן על *פרטיותך*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "אנא המתן...";
 
 "home plus button deactivated" = "BLOKADA+ מושבת";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN הושבת";
 "home plus button select location" = "בחרו מיקום";
 "home plus button location" = "מיקום: *%@*";
 
@@ -217,21 +233,21 @@
 "activity empty text" = "נסו להשתמש במכשירכם וחזרו לכאן אחר כך, על מנת לראות לאן מכשירכם מתחבר.";
 "activity device filter show all" = "כל ההתקנים";
 "activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
+"activity retention option none" = "אל תאחסן את הפעילות שלי";
+"activity retention option 24h" = "24 שעות";
 "activity retention policy" = "By enabling log retention you accept the privacy policy.";
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
-"userdenied section header" = "Exceptions";
+"userdenied section header" = "חריגים";
 "userdenied section slugline" = "נהל חסימה של אתרים מסוימים";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "מורשה";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "נחסם";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "אפשר";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "חסום";
 
 "networks section header" = "רשתות";
 "networks section label" = "התאם הגדרות לרשתות WiFi ורשתות סלולריות";
@@ -334,10 +350,10 @@
 "account lease label this device" = " (מכשיר זה)";
 "account lease label name" = "שם המכשיר";
 "account lease label location" = "מיקום";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease label generate" = "בחירת מיקום כאן תיצור קובץ תצורה בו תוכלו להשתמש בכל יישום VPN התומך ב־WireGuard. זה שימושי לפלטפורמות שהיישומים שלנו אינם תומכים בהן עדיין. בכל מקרה אחר, אנו ממליצים להשתמש במקום זאת ביישומים המקוריים שלנו.";
 "account lease action generate" = "יצירת קובץ הגדרות";
 "account lease action download" = "הורדת קובץ הגדרות";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease generated" = "מכשיר נוסף! הורד את ההגדרות כדי שתוכל להשתמש בהם בכל מכשיר שתומך ב־WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "בחר DNS";
@@ -358,11 +374,11 @@
 "payment feature desc encrypt data" = "מידע שנשלח דרך הVPN שלנו מוצפן ומשתמש באלגוריתמים חזקים על מנת לשמור מפני יירוט על ידי גורמים לא מאושרים.";
 "payment feature title encrypt dns" = "Encrypt DNS";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
+"payment feature title performance" = "ביצועים נהדרים";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
+"payment feature title battery" = "אפס השפעה על חיי הסוללה";
 "payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
+"payment feature title devices cloud" = "מכשירים רבים";
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
 "payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
@@ -370,7 +386,7 @@
 "payment feature desc faster connection" = "מהירויות מעולות עד כ100Mbps עם שרתים במגוון חלקים בעולם.";
 "payment feature title devices" = "עד חמישה מכשירים";
 "payment feature desc devices" = "השתמש/י באותו חשבון כדי לשתף את המנוי שלך לעד כחמישה מכשירים: iOS, אנדרואיד, או במחשב.";
-"payment feature title no ads" = "Block Ads";
+"payment feature title no ads" = "חסום פרסומות";
 "payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
 "payment feature title support" = "תמיכה מעולה";
 "payment feature desc support" = "קבלו תשובה מהירה על כל שאלה תודות לתמיכת לקוחות והקהילה הפתוחה התוססת שלנו.";
@@ -387,8 +403,8 @@
 "payment subscription 1 month" = "חודש אחד";
 "payment subscription many months" = "%@ חודשים";
 "payment subscription per month" = "%@ לחודש";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
+"payment subscription per year" = "%@ לשנה";
+"payment subscription per year then" = "ולאחר מכן %@ לשנה";
 "payment subscription offer" = "חסוך %@";
 
 "payment success label" = "תודה!";
@@ -422,8 +438,8 @@
 "payment euro desc" = "אנו ממוקמים באירופה, ולכן אנו מקבלים אירו: €10 הם בערך 12$.";
 "payment donate disclaimer" = "פעולה זו לא תפעיל את חשבון Blokada Plus שלך. אם ברצונך להשתמש בשירות ה־VPN שלנו, אנא הירשם כמינוי במקום לתרום.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "השוואת תוכניות";
+"payment plan slugline cloud" = "חסון פרסומות ומעקבים";
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(includes Blokada Cloud)";
 "payment plan slugline plus" = "Additional protection with VPN";
@@ -487,7 +503,7 @@
 "homepage about footer" = "בואו נשאר בקשר!";
 "homepage hero title" = "יישום הפרטיות";
 "homepage hero subtitle" = "חינמי וקוד פתוח";
-"homepage hero opensource" = "open source";
+"homepage hero opensource" = "קוד פתוח";
 "homepage hero desc" = "Blokada היא חוסם פרסומות ויישום פרטיות פופולרי לאנדרואיד וIOS. היא נתמכת ומפותחת על ידי קהילת הקוד הפתוח המדהימה.";
 "homepage about title" = "Blokada Libre, the ad blocker";
 "homepage about desc" = "אם ברצונכם לחסום ביעילות פרסומות, עוקבים, נוזקות, לחסוך דאטא בחבילה, להאיץ את המכשיר ולהגן על הפרטיות בעזרת יישום אחד בלבד, אז Blokada בדיוק בשבילך. זה חינם, מאובטח ובקוד פתוח.";
@@ -496,18 +512,18 @@
 "homepage about point three" = "לא דורש רוט או ג'יילברייק";
 "homepage about point four" = "עיצוב בטוח (לא שובר את ההצפנה)";
 "homepage about point five" = "מהימן וחופשי לתמיד";
-"homepage about point six" = "Source code available for Android and iOS";
-"homepage about point seven" = "Downloads available for Android";
+"homepage about point six" = "קוד פתוח זמין עבור מערכות ההפעלה Android ו־iOS";
+"homepage about point seven" = "ההורדה זמינה למערכת ההפעלה Android";
 
-"homepage cloud title" = "Blokada Cloud, the new way";
+"homepage cloud title" = "הענן של Blokada, הדרך החדשה";
 "homepage cloud desc" = "Our modern solution for mobile content blocking. Protect multiple devices from ads and tracking, and manage your preferences in one place. Enjoy zero battery drain, no noticeable slowdowns, and highly reliable adblocking.";
-"homepage cloud point one" = "Cloud based adblocking";
-"homepage cloud point two" = "Manage and monitor on web";
-"homepage cloud point three" = "Encrypted, private DNS";
-"homepage cloud point four" = "Connect multiple devices";
-"homepage cloud point five" = "App available for iOS";
-"homepage cloud point six" = "Use on any platform supporting private DNS";
-"homepage cloud learn more" = "Learn more about Blokada Cloud";
+"homepage cloud point one" = "ענן מבוסס חסימת פרסומות";
+"homepage cloud point two" = "ניהול וניטור על־גבי האינטרנט";
+"homepage cloud point three" = "DNS פרטי ומוצפן";
+"homepage cloud point four" = "חבר כמה מכשירים";
+"homepage cloud point five" = "היישומון זמין למערכת ההפעלה iOS";
+"homepage cloud point six" = "השתמש/י בכל פלטפורמה התומכת ב-DNS פרטי";
+"homepage cloud learn more" = "למד/י עוד אודות על הענן של Blokada";
 
 "homepage about action faq" = "עיין בשאלות הנפוצות";
 "homepage about action plus" = "למד/י עוד אודות Blokada פלוס";
@@ -592,9 +608,9 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "יצר";
 
-"setup header" = "Setup";
+"setup header" = "הגדר";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
 "setup label which device" = "What type of device you wish to set up?";
 "setup label choose" = "Choose any of the following setup options:";
@@ -627,3 +643,21 @@
 "dnsprofile header" = "Enable Blokada in Settings";
 "dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
 "dnsprofile action open settings" = "Open Settings";
+
+"notification perms header" = "Enable notifications in Settings";
+"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
+"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";
