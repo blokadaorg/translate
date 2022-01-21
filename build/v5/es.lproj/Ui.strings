@@ -20,7 +20,7 @@
 "error vpn" = "No ha podido establecer el VPN. Reinicia tu dispositivo o elimine el perfil VPN de Blokada en la configuración del sistema, e inténtalo de nuevo.";
 "error vpn perms" = "No se han concedido permisos para crear un perfil VPN.";
 "error vpn no current lease" = "Por favor, primero elige una ubicación.";
-"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
+"error vpn no current lease new" = "Blokada Plus está desactivado en este dispositivo. Por favor, seleccione una ubicación para reactivarla.";
 "error vpn too many leases" = "Has alcanzado el límite de dispositivos. Por favor, elimina uno de tus dispositivos e inténtalo de nuevo.";
 "error vpn expired" = "El VPN está desactivado. Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 "error payment inactive after restore" = "Tu pago anterior se ha restaurado, pero la suscripción ya ha caducado. Si crees que esto es un error, ponte en contacto con nosotros tocando el icono de ayuda en la parte superior.";
@@ -30,7 +30,7 @@
 "error payment canceled" = "El pago se ha cancelado. No se ha cobrado nada.";
 "error pack install" = "No se ha podido instalar (o desinstalar) esta característica. Inténtalo de nuevo más tarde.";
 "error location failed fetching" = "No se ha encontrado tu ubicación.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "Ha ocurrido un problema. Asegúrate de estar en línea e inténtalo de nuevo más tarde. Si el problema persiste, contáctanos tocando el icono de ayuda en la parte superior.";
 "error blocka dns in filtering mode" = "Blokada DNS actualmente sólo está soportado en modo Plus. Por favor, elige otro DNS y vuelva a intentarlo.";
 
 "universal action continue" = "Continuar";
@@ -98,21 +98,21 @@
 "notification vpn expired body" = "Por favor, actualiza tu suscripción para seguir usando BLOKADA+";
 "notification desc settings" = "Desliza la notificación a la izquierda o derecha para ver los ajustes.";
 
-"notification generic header" = "Blokada: Action required";
+"notification generic header" = "Blokada: Acción requerida";
 "notification generic subtitle" = "Toca la notificación para obtener más información";
 "notification generic body" = "Por favor, abre la aplicación para más detalles.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
+"notification acc header" = "Suscripción expirada";
 "notification acc subtitle" = "El bloqueo de anuncios está desactivado";
 "notification acc body" = "Por favor, actualiza tu suscripción para seguir usando Blokada.";
 
 "notification pause header" = "Blokada sigue en pausa";
 "notification pause subtitle" = "El bloqueo de anuncios está desactivado";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause body" = "Por favor, abre la aplicación para reanudar Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus está desactivado";
 
 "notification update header" = "Hay una actualización disponible";
 "alert update body" = "Blokada %@ ahora está disponible para descargar. Recomendamos descargar la aplicación solo desde nuestras fuentes oficiales y mantenerla actualizada.";
@@ -644,15 +644,15 @@
 "dnsprofile desc" = "En la aplicación de configuración, vaya a General → VPN, DNS & Device Management → DNS y seleccione Blokada.";
 "dnsprofile action open settings" = "Abrir Ajustes";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Habilitar las notificaciones en Ajustes";
+"notification perms desc" = "Esta función requiere notificaciones, por favor actívalas para Blokada.";
+"notification perms denied" = "Has denegado las notificaciones. Para cambiar esto, por favor, usa las preferencias del sistema.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
+"activated header" = "¡Ya casi estamos!";
+"activated desc" = "Lo siguiente es necesario para que Blokada funcione como se espera:";
+"activated desc all ok" = "Su dispositivo está todo configurado y listo para funcionar:";
+"activated label account" = "La cuenta está activa (%@)";
 "activated label notif yes" = "Notifications are allowed";
 "activated label notif no" = "Allow notifications";
 "activated label dns yes" = "DNS profile is activated";
