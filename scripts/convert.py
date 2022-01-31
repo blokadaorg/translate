@@ -151,6 +151,10 @@ def makeAndroidKey(line):
     line = line.replace("3", "three")
     line = line.replace("4", "four")
     line = line.replace("5", "five")
+    line = line.replace("6", "six")
+    line = line.replace("7", "seven")
+    line = line.replace("8", "eight")
+    line = line.replace("9", "nine")
 
     line = remove_chars(line, keep=ascii_letters + ' ')
     line = line.replace(" ", "_")
