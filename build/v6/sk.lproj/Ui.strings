@@ -12,74 +12,74 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action continue" = "Pokračovať";
+"universal action cancel" = "Zrušiť";
+"universal action close" = "Zavrieť";
+"universal action done" = "Hotovo";
+"universal action try again" = "Skúsiť znova";
+"universal action learn more" = "Zistiť viac";
+"universal action help" = "Nápoveda";
+"universal action show log" = "Záznamy";
+"universal action share log" = "Zdieľať záznamy";
+"universal action copy" = "Kopírovať";
+"universal action save" = "Uložiť";
+"universal action contact us" = "Kontaktujte nás";
+"universal action support" = "Podpora";
+"universal action upgrade" = "Vylepši na BLOKADA+";
+"universal action upgrade short" = "Vylepšiť";
+"universal action yes" = "Áno";
+"universal action no" = "Nie";
+"universal action donate" = "Podporiť";
+"universal action community" = "Komunita";
+"universal action open in browser" = "Otvoriť v prehliadači";
+"universal action more" = "Viac";
+"universal action download" = "Stiahnuť";
+"universal action news" = "Novinky";
+"universal action delete" = "Odstrániť";
+"universal action hide" = "Skryť";
+"universal action select" = "Zvoliť";
+"universal action selected" = "Zvolené";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Hľadať";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Filtrovať";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Vyčistiť";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Odvolať";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Nápoveda";
+"universal label welcome" = "Vitajte!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Žiadne";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Názov";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Čas";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Počet";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Typ";
+"universal label device" = "Zariadenie";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status processing" = "Spracovanie... Čakajte prosím.";
+"universal status copied to clipboard" = "Skopírované do schránky";
+"universal status restart required" = "Prosím reštartujte aplikáciu aby sa prejavili vykonané zmeny.";
+"universal status redirect" = "Pokračovať s aplikáciou Blokada";
+"universal status confirm" = "Naozaj chcete pokračovať?";
 
-"alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
+"alert error header" = "Ups!";
+"alert vpn expired header" = "BLOKADA+ vypršala";
 "alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
 
 "notification perms header" = "Enable notifications in Settings";
 "notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
 "notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Predplatné služby BLOKADA+ vypršalo";
+"notification vpn expired subtitle" = "VPN je deaktivovaná";
+"notification vpn expired body" = "Prosím obnovte svoje predplatné a pokračujte v používaní služby BLOKADA+";
+"notification desc settings" = "Nastavenie zobrazíte potiahnutím oznámení doľava alebo doprava.";
 
 "notification generic header" = "Blokada: Action required";
 "notification generic subtitle" = "Tap to learn more";
@@ -97,71 +97,71 @@
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus is off";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
+"notification update header" = "Je dostupná aktualizácia";
+"alert update body" = "Blokada %@ je teraz dostupná ku stiahnutiu. Doporučujeme aplikáciu priebežne aktualizovať, a sťahovať iba z našich oficiálnych zdrojov.";
+"update label updated" = "Aktualizované!";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
 "update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada pre iOS mi pomohla zablokovať %@ reklám a sledovačov!";
 
-"main rate us header" = "Rate us!";
+"main rate us header" = "Ohodnoťte nás!";
 "main rate us description" = "How do you like Blokada so far?";
 "main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us action sure" = "Iste!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Domov";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Aktivita";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Rozšírené";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Nastavenia";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "reklám a sledovačov zablokovaných od inštalácie";
+"home power off menu header" = "Čo chcete urobiť?";
+"home power action turn on" = "Zapnúť";
+"home power action turn off" = "Vypnúť";
+"home power action pause" = "Pozastaviť na 5 minút";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home status paused" = "Pozastaviť";
+"home status active" = "Aktívne";
+"home status deactivated" = "Deaktivovať";
+"home action tap to activate" = "Ťukni pre aktiváciu";
+"home status detail paused" = "Pozastavené dokým neskončí časovač";
+"home status detail active" = "Blokujem *reklamy* a *sledovače*";
+"home status detail active with counter" = "Zablokovaných bolo *%@* reklám a sledovačov";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Čakajte prosím...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN deaktivovaná";
 "home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button location" = "Lokácia: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack section header" = "Pokročilé funkcie";
+"pack section header details" = "Podrobnosti o funkcií";
+"pack action install" = "ZÍSKAŤ";
+"pack action update" = "AKTUALIZOVAŤ";
+"pack action uninstall" = "ODSTRÁNIŤ";
+"pack author" = "Autor";
+"pack configurations header" = "Konfigurácie";
+"pack information header" = "Viac";
+"pack tags header" = "Tagy";
+"pack tags none" = "Žiadne";
+"pack category highlights" = "Populárne";
+"pack category active" = "Aktívne";
+"pack category all" = "Všetko";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Zvolte umiestnenie";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
+"activity section header" = "Aktivita";
+"activity section header details" = "Podrobnosti o aktivite";
+"activity request blocked" = "Táto požiadavka bola zablokovaná.";
+"activity request allowed" = "Táto požiadavka bola povolená.";
+"activity request allowed whitelisted" = "Táto požiadavka bola povolená, lebo je na vašom Zozname povolených";
 "activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
 "activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
@@ -177,12 +177,12 @@
 "activity action added to blacklist" = "Added to Blocked";
 "activity action copy to clipboard" = "Copy name to Clipboard";
 "activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
+"activity time of occurrence" = "Čas";
 "activity number of occurrences" = "Number of occurrences";
 // As in sentence, "this item has been modified"
 "activity state modified" = "modified";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "zablokované";
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "allowed";
 "activity happened one time" = "1 time";
@@ -210,30 +210,30 @@
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Allowed";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Zablokované";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Povoliť";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Blokovať";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Nastavenia";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
 "account section header primary" = "Primary";
-"account section header other" = "Other";
+"account section header other" = "Iné";
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
+"account action devices" = "Zariadenia";
+"account action new device" = "Nové zariadenie";
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
 "account action logout only" = "Log out";
 "account action create" = "Generate new account";
-"account action about" = "About";
+"account action about" = "O aplikácii";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
+"account label enter to continue" = "Pokračujte zadaním ID vášho účtu";
 "account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
 "account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
 "account create confirm" = "I wrote it down";
@@ -241,10 +241,10 @@
 "account section header my subscription" = "My Subscription";
 "account section header general" = "General";
 "account section header subscription" = "Subscription";
-"account label id" = "Account ID";
+"account label id" = "ID účtu";
 "account label type" = "Account type";
 "account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
+"account action manage subscription" = "Spravovať predplatné";
 "account action why upgrade" = "Why should I upgrade?";
 "account subscription header renew" = "Renew automatically";
 "account subscription header payment method" = "Payment method";
@@ -263,9 +263,9 @@
 "account devices out of" = "%@ out of %@";
 
 "account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
+"account lease label devices" = "Zariadenia";
 "account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
+"account lease label name" = "Názov zariadenia";
 "account lease label location" = "Location";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Generate Config";
@@ -274,7 +274,7 @@
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
 "account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease label public key" = "Verejný kľúč";
 
 "account support action how help" = "How can we help you?";
 "account support action kb" = "Open Knowledge Base";
@@ -317,14 +317,14 @@
 "payment save text" = "You are saving %@";
 "payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
 
-"payment subscription 1 month" = "1 Month";
+"payment subscription 1 month" = "1 Mesiac";
 "payment subscription many months" = "%@ Months";
 "payment subscription per month" = "%@ per month";
 "payment subscription per year" = "%@ per year";
 "payment subscription per year then" = "then %@ per year";
 "payment subscription offer" = "Save %@";
 
-"payment success label" = "Thanks!";
+"payment success label" = "Ďakujeme!";
 "payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
 
 "payment redirect label" = "Redirecting...";
@@ -334,7 +334,7 @@
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
+"payment change method" = "Zmeniť";
 "payment action pay" = "Pay %@";
 "payment action pay period" = "Pay %@ each period";
 "payment label email" = "Email";
@@ -343,12 +343,12 @@
 "payment label choose payment method" = "Choose your payment method";
 "payment label cheapest" = "Cheapest";
 "payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
+"payment label pay with card" = "Zaplatiť kartou";
+"payment label pay with paypal" = "Zaplatiť cez PayPal";
 "payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
+"payment package one month" = "1 Mesiac";
+"payment package six months" = "6 Mesiacov";
+"payment package twelve months" = "12 Mesiacov";
 "payment label discount" = "Save %@ (%@ / mo)";
 "payment label country" = "Country";
 
@@ -356,7 +356,7 @@
 "payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
 
 "payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment plan slugline cloud" = "Blokuje reklamy a sledovače";
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(includes Blokada Cloud)";
 "payment plan slugline plus" = "Additional protection with VPN";
@@ -377,7 +377,7 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Generovať";
 
 "setup header" = "Setup";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
