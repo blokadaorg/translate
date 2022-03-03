@@ -12,29 +12,29 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
+"universal action continue" = "daŭrigu";
+"universal action cancel" = "Nuligi";
+"universal action close" = "Fermi";
 "universal action done" = "Done";
 "universal action try again" = "Try again";
 "universal action learn more" = "Learn more";
-"universal action help" = "Help";
+"universal action help" = "Helpu";
 "universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
+"universal action share log" = "Kunhavigi la registro";
+"universal action copy" = "Kopii";
+"universal action save" = "Savu";
 "universal action contact us" = "Contact us";
 "universal action support" = "Support";
 "universal action upgrade" = "Upgrade to BLOKADA+";
 "universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
+"universal action yes" = "Jes";
+"universal action no" = "Ne";
+"universal action donate" = "Donacu";
 "universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
+"universal action open in browser" = "Malfermu en retumilo";
 "universal action more" = "More";
 "universal action download" = "Download";
-"universal action news" = "News";
+"universal action news" = "Novaĵoj";
 "universal action delete" = "Delete";
 "universal action hide" = "Hide";
 "universal action select" = "Select";
@@ -48,12 +48,12 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
-"universal label help" = "Help";
+"universal label help" = "Helpu";
 "universal label welcome" = "Welcome!";
 // Common label when some feature has no setting
 "universal label none" = "None";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Nomo";
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "Time";
 // Common label in tables for the Count column. Think "number of items".
@@ -111,22 +111,22 @@
 "main rate us action sure" = "Sure!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Ĉefpaĝo";
 // Make sure each tab name has a similar length
 "main tab activity" = "Activity";
 // Make sure each tab name has a similar length
 "main tab advanced" = "Advanced";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Agordoj";
 
 "home ads counter footnote" = "ads and trackers blocked since installation";
 "home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
+"home power action turn on" = "Ŝalti";
+"home power action turn off" = "Malŝalti";
 "home power action pause" = "Pause for 5 min";
 
 "home status paused" = "Paused";
-"home status active" = "Active";
+"home status active" = "Aktiva";
 "home status deactivated" = "Deactivated";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
@@ -134,7 +134,7 @@
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Bonvolu atendu...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
 "home plus button deactivated cloud" = "VPN deactivated";
@@ -152,7 +152,7 @@
 "pack tags header" = "Tags";
 "pack tags none" = "None";
 "pack category highlights" = "Highlights";
-"pack category active" = "Active";
+"pack category active" = "Aktiva";
 "pack category all" = "All";
 
 "location choice header" = "Choose a Location";
@@ -182,7 +182,7 @@
 // As in sentence, "this item has been modified"
 "activity state modified" = "modified";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "blokita";
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "allowed";
 "activity happened one time" = "1 time";
@@ -210,13 +210,13 @@
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Allowed";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Blokita";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Permesi";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Bloki";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Agordoj";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
@@ -230,7 +230,7 @@
 "account action logout" = "Restore purchase";
 "account action logout only" = "Log out";
 "account action create" = "Generate new account";
-"account action about" = "About";
+"account action about" = "Prie";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
 "account label enter to continue" = "Enter your account ID to continue";
@@ -244,7 +244,7 @@
 "account label id" = "Account ID";
 "account label type" = "Account type";
 "account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
+"account action manage subscription" = "Administri abonojn";
 "account action why upgrade" = "Why should I upgrade?";
 "account subscription header renew" = "Renew automatically";
 "account subscription header payment method" = "Payment method";
