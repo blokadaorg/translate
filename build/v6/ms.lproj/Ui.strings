@@ -12,29 +12,29 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
+"universal action continue" = "Teruskan";
+"universal action cancel" = "Batal";
+"universal action close" = "Tutup";
 "universal action done" = "Done";
 "universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
+"universal action learn more" = "Ketahui lebih lanjut";
+"universal action help" = "Bantuan";
 "universal action show log" = "Logs";
-"universal action share log" = "Share log";
+"universal action share log" = "Kongsi Log";
 "universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
+"universal action save" = "Simpan";
+"universal action contact us" = "Hubungi kami";
 "universal action support" = "Support";
 "universal action upgrade" = "Upgrade to BLOKADA+";
 "universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
+"universal action yes" = "Ya";
+"universal action no" = "Tidak";
+"universal action donate" = "Derma";
+"universal action community" = "Komuniti";
+"universal action open in browser" = "Buka dalam pelayar";
+"universal action more" = "Lagi";
+"universal action download" = "Muat Turun";
+"universal action news" = "Berita";
 "universal action delete" = "Delete";
 "universal action hide" = "Hide";
 "universal action select" = "Select";
@@ -48,12 +48,12 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
-"universal label help" = "Help";
+"universal label help" = "Bantuan";
 "universal label welcome" = "Welcome!";
 // Common label when some feature has no setting
 "universal label none" = "None";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Nama";
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "Time";
 // Common label in tables for the Count column. Think "number of items".
@@ -111,22 +111,22 @@
 "main rate us action sure" = "Sure!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Utama";
 // Make sure each tab name has a similar length
 "main tab activity" = "Activity";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Terperinci";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Tetapan";
 
 "home ads counter footnote" = "ads and trackers blocked since installation";
 "home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
+"home power action turn on" = "Hidupkan";
+"home power action turn off" = "Matikan";
 "home power action pause" = "Pause for 5 min";
 
 "home status paused" = "Paused";
-"home status active" = "Active";
+"home status active" = "Aktif";
 "home status deactivated" = "Deactivated";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
@@ -134,7 +134,7 @@
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Sila tunggu...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
 "home plus button deactivated cloud" = "VPN deactivated";
@@ -148,11 +148,11 @@
 "pack action uninstall" = "REMOVE";
 "pack author" = "Author";
 "pack configurations header" = "Configurations";
-"pack information header" = "More";
+"pack information header" = "Lagi";
 "pack tags header" = "Tags";
 "pack tags none" = "None";
 "pack category highlights" = "Highlights";
-"pack category active" = "Active";
+"pack category active" = "Aktif";
 "pack category all" = "All";
 
 "location choice header" = "Choose a Location";
@@ -182,7 +182,7 @@
 // As in sentence, "this item has been modified"
 "activity state modified" = "modified";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "telah disekat";
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "allowed";
 "activity happened one time" = "1 time";
@@ -210,18 +210,18 @@
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Allowed";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Telah disekat";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Benarkan";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Sekat";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Tetapan";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
 "account section header primary" = "Primary";
-"account section header other" = "Other";
+"account section header other" = "Lain-lain";
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
 "account action devices" = "Devices";
@@ -230,7 +230,7 @@
 "account action logout" = "Restore purchase";
 "account action logout only" = "Log out";
 "account action create" = "Generate new account";
-"account action about" = "About";
+"account action about" = "Mengenai";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
 "account label enter to continue" = "Enter your account ID to continue";
@@ -241,7 +241,7 @@
 "account section header my subscription" = "My Subscription";
 "account section header general" = "General";
 "account section header subscription" = "Subscription";
-"account label id" = "Account ID";
+"account label id" = "ID Akaun";
 "account label type" = "Account type";
 "account label active until" = "Active until";
 "account action manage subscription" = "Manage subscription";
@@ -334,7 +334,7 @@
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
+"payment change method" = "Ubah";
 "payment action pay" = "Pay %@";
 "payment action pay period" = "Pay %@ each period";
 "payment label email" = "Email";
@@ -377,7 +377,7 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Menjana";
 
 "setup header" = "Setup";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
