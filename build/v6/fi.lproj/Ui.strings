@@ -10,26 +10,26 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "Your device is offline";
-"error account inactive" = "Your account is inactive. Please activate your account in order to continue using BLOKADA+.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
+"error device offline" = "Laitteesi on offline-tilassa";
+"error account inactive" = "Tilisi on toimeton. Aktivoi tilisi jatkaaksesi BLOKADA+:n käyttöä.";
+"error account inactive after restore" = "Tämä ei vaikuta olevan kelvollinen aktiivinen tili. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
 "error account invalid" = "This account ID seems invalid.";
-"error creating account" = "Could not create a new account. Please try again later.";
-"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error tunnel" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn perms" = "No permissions granted to create a VPN profile.";
-"error vpn no current lease" = "Please select a location first.";
+"error creating account" = "Uutta tiliä ei voitu luoda. Yritä uudelleen myöhemmin.";
+"error fetching data" = "Tätä toimintoa ei voitu suorittaa. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
+"error tunnel" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn" = "VPN:tä ei voitu luoda. Käynnistä laite uudelleen tai poista Blokadan VPN-profiili järjestelmäasetuksista ja yritä uudelleen.";
+"error vpn perms" = "VPN-profiilin luomiseen ei ole oikeuksia.";
+"error vpn no current lease" = "Ole hyvä, ja valitse sijainti.";
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
-"error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
-"error vpn expired" = "The VPN is disabled. Please update your subscription to continue using BLOKADA+";
-"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error vpn too many leases" = "Saavutit laitteiden enimmäisrajan. Poista yksi laitteistasi ja yritä uudelleen.";
+"error vpn expired" = "VPN on poistettu käytöstä. Päivitä tilauksesi jatkaaksesi BLOKADA+ -sovelluksen käyttöä";
+"error payment inactive after restore" = "Aikaisempi maksusi palautettiin, mutta tilauksesi on jo vanhentunut. Jos uskot, että tämä on virhe, ota yhteyttä meihin napauttamalla yläosassa olevaa ohjekuvaketta.";
+"error payment failed" = "Maksut eivät ole tällä hetkellä käytettävissä. Varmista, että olet online-tilassa ja yritä myöhemmin uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä napsauttamalla yläosaa olevaa ohjekuvaketta.";
 "error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either Apple Pay is not activated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
+"error payment not available" = "Maksut eivät ole käytettävissä tällä laitteella. Joko Apple Pay ei ole aktivoitu tai emme vielä käsittele ostoksia maassasi.";
+"error payment canceled" = "Maksu on peruutettu. Sinua ei ole laskutettu.";
+"error pack install" = "Tätä ominaisuutta ei voitu asentaa (tai poistaa). Yritä uudelleen myöhemmin.";
+"error location failed fetching" = "Sijainteja ei voitu hakea.";
 "error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persi
 sts, please contact us by tapping the help icon at the top.";
 
@@ -449,4 +449,4 @@ sts, please contact us by tapping the help icon at the top.";
 
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "advanced section header packs" = "Estolistat";
-"app settings section header" = "This device";
+"app settings section header" = "Tämä laite";
