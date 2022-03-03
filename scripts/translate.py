@@ -84,8 +84,8 @@ def main(argv):
         android4Sync(config["translate_dir"], config["target_dir"])
         android4Import(langs["langs"], langs["langs-android-res"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing":
-        webSync(config["translate_dir"], config["target_dir"])
-        webImport(langs["langs"], config["translate_dir"], config["target_dir"])
+        landingSync(config["translate_dir"], config["target_dir"])
+        landingImport(langs["langs"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing-gp":
         web4Sync(config["translate_dir"], config["target_dir"])
         web4Import(langs["langs"], langs["langs-web4"], config["translate_dir"], config["target_dir"])
@@ -102,7 +102,7 @@ def iosSync(translate, mobile):
     except:
         pass
     try:
-        shutil.copytree(f"{translate}/v5", f"{mobile}/ios/App/Assets/en.lproj")
+        shutil.copytree(f"{translate}/v6", f"{mobile}/ios/App/Assets/en.lproj")
     except:
         pass
 
@@ -115,7 +115,7 @@ def iosImport(langs, translate, mobile):
         except:
             pass
         try:
-            shutil.copytree(f"{translate}/build/v5/{lang}.lproj", f"{mobile}/ios/App/Assets/{lang}.lproj")
+            shutil.copytree(f"{translate}/build/v6/{lang}.lproj", f"{mobile}/ios/App/Assets/{lang}.lproj")
         except:
             pass
 
@@ -125,9 +125,10 @@ def android5Sync(translate, mobile):
     if not os.path.exists(f"{mobile}/android5/app/src/main/assets/translations/root"):
         os.makedirs(f"{mobile}/android5/app/src/main/assets/translations/root")
 
-    subprocess.call(f"./convert.py -i {translate}/v5/Ui.strings -o {mobile}/android5/app/src/main/res/values/strings_ui.xml", shell = True)
-    subprocess.call(f"./convert.py -i {translate}/v5/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/root/tags.json -f \"json\"", shell = True)
-    subprocess.call(f"./convert.py -i {translate}/v5/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/root/packs.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/android5/app/src/main/res/values/strings_ui.xml", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/root/tags.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/root/packs.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v5/Android.strings -o {mobile}/android5/app/src/main/res/values/strings_android.xml", shell = True)
 
 def android5Import(langs, langs_android, translate, mobile):
     print(f"  Importing to Android 5")
@@ -140,10 +141,12 @@ def android5Import(langs, langs_android, translate, mobile):
         if not os.path.exists(f"{mobile}/android5/app/src/main/assets/translations/{lang}"):
             os.makedirs(f"{mobile}/android5/app/src/main/assets/translations/{lang}")
 
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/tags.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/packs.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/ui.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/translations/res/values-{alang}/strings_ui.xml -f \"xml\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/tags.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/packs.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/ui.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/translations/res/values-{alang}/strings_ui.xml -f \"xml\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android5/app/src/translations/res/values-{alang}/strings_android.xml -f \"xml\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/android.json -f \"json\"", shell = True)
 
 def android4Sync(translate, mobile):
     print("  Syncing Android 4")
@@ -160,15 +163,25 @@ def android4Import(langs, langs_android, translate, mobile):
         shutil.rmtree(dst)
         shutil.copytree(f"{translate}/build/v4/android/values-{alang}", dst)
 
+def landingSync(translate, web):
+    print(f"  Syncing landing ({web})")
+    subprocess.call(f"./convert.py -i {translate}/landing/Homepage.strings -o {web}/src/locales/en.json -f \"json_vue\"", shell = True)
+
+def landingImport(langs, translate, web):
+    print(f"  Importing strings to landing ({web})")
+    for lang in langs:
+        print(f"    importing {lang}")
+        subprocess.call(f"./convert.py -i {translate}/build/landing/{lang}.lproj/Homepage.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
+
 def webSync(translate, web):
     print(f"  Syncing web ({web})")
-    subprocess.call(f"./convert.py -i {translate}/v5/Ui.strings -o {web}/src/locales/en.json -f \"json_vue\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {web}/src/locales/en.json -f \"json_vue\"", shell = True)
 
 def webImport(langs, translate, web):
     print(f"  Importing strings to web ({web})")
     for lang in langs:
         print(f"    importing {lang}")
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Ui.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {web}/src/locales/{lang}.json -f \"json_vue\"", shell = True)
 
 def web4Sync(translate, web):
     print(f"  Syncing web v4 ({web})")
