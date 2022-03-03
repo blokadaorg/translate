@@ -10,26 +10,26 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "Your device is offline";
-"error account inactive" = "Your account is inactive. Please activate your account in order to continue using BLOKADA+.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error account invalid" = "This account ID seems invalid.";
-"error creating account" = "Could not create a new account. Please try again later.";
-"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error tunnel" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn perms" = "No permissions granted to create a VPN profile.";
-"error vpn no current lease" = "Please select a location first.";
+"error device offline" = "המכשיר שלכם אינו מחובר לאינטרנט";
+"error account inactive" = "החשבון שלכם אינו פעיל. אנא הפעילו את חשבונכם על מנת להמשיך את השימוש בBLOKADA+.";
+"error account inactive after restore" = "נראה שחשבון זה אינו תקין. אם אתם מאמינים שזו טעות, אנא פנו אלינו על ידי לחיצה על מקש העזרה למעלה.";
+"error account invalid" = "מזהה חשבון זה אינו תקין.";
+"error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסו שוב מאוחר יותר.";
+"error fetching data" = "הפעולה נכשלה. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב. במידה והבעיה ממשיכה פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error tunnel" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn perms" = "לא ניתנו הרשאות ליצירת פרופיל VPN.";
+"error vpn no current lease" = "אנא בחרו מיקום תחילה.";
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
-"error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
-"error vpn expired" = "The VPN is disabled. Please update your subscription to continue using BLOKADA+";
-"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either Apple Pay is not activated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
+"error vpn too many leases" = "הגעתם למגבלת המכשירים שלכם. אנא הסירו את אחד המכשירים ונסו שוב.";
+"error vpn expired" = "הVPN מבוטל. אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
+"error payment inactive after restore" = "התשלום האחרון שלכם שוחזר, אבל המנוי פג תוקף. אם אתם מאמינים שזו טעות, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed" = "התשלום אינו זמין כרגע. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב מאוחר יותר. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed alternative" = "לא היה ניתן לבצע את התשלום. אנא וודאו שהמידע שהכנסתם נכון, ונסו שוב. אם הבעיה נמשכת, אנא צרו איתנו קשר בעזרת לחיצה על מקש העזרה למעלה.";
+"error payment not available" = "התשלום אינו זמין במכשיר זה. ייתכן שApple Pay אינו מופעל, או שאיננו תומכים בתשלומים במדינתך כעת.";
+"error payment canceled" = "התשלום בוטל. אינכם מחוייבים.";
+"error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסו שוב מאוחר יותר.";
+"error location failed fetching" = "לא היה ניתן לקבל את רשימת המיקומים.";
 "error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persi
 sts, please contact us by tapping the help icon at the top.";
 
@@ -449,4 +449,4 @@ sts, please contact us by tapping the help icon at the top.";
 
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "advanced section header packs" = "רשימות חסימה";
-"app settings section header" = "This device";
+"app settings section header" = "מכשיר זה";
