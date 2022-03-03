@@ -10,76 +10,76 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "Blokada DNS niha tenê di moda Plus de tê piştgirî kirin. Ji kerema xwe DNS eke din hilbijêre û dîsa biceribîne.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action continue" = "Berdewam";
+"universal action cancel" = "Betal kirin";
+"universal action close" = "Bigire";
+"universal action done" = "Biqede";
+"universal action try again" = "Dubare biceribîne";
+"universal action learn more" = "Bêtir hîn bibin";
+"universal action help" = "Alîkarî";
+"universal action show log" = "Tomar";
+"universal action share log" = "Têketinê parve bikin";
+"universal action copy" = "Kopî";
+"universal action save" = "Rizgarkirin";
+"universal action contact us" = "Bi me re têkiliyê deyne";
+"universal action support" = "Piştevanî";
+"universal action upgrade" = "Nûvekirina BLOKADA+";
+"universal action upgrade short" = "Bilindkirin";
+"universal action yes" = "Erê";
+"universal action no" = "Na";
+"universal action donate" = "Bexş bike";
+"universal action community" = "Civat";
+"universal action open in browser" = "Di gerokê de veke";
+"universal action more" = "Zêdetir";
+"universal action download" = "Dakêşe";
+"universal action news" = "Nûçe";
+"universal action delete" = "Jê birin";
+"universal action hide" = "Veşêre";
+"universal action select" = "Hilbijartin";
+"universal action selected" = "Hilbijartî";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Lê bigere";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Fîlter";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Paqij bike";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Betal kirin";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Alîkarî";
+"universal label welcome" = "Bi xêr hatî!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Netû";
 // Common label in tables for the Name column. Think "name of host".
 "universal label name" = "Name";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Dem";
 // Common label in tables for the Count column. Think "number of items".
 "universal label count" = "Count";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "Type";
 "universal label device" = "Device";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status processing" = "Tê pevkirin... Ji kerema xwe bisekine.";
+"universal status copied to clipboard" = "Ji bo panelê hate jibergirtin";
+"universal status restart required" = "Ji kerema xwe re serîlêdanek ji bo guhertinên ku wê bibandor bibin, ji nû ve bide destpêkirin.";
+"universal status redirect" = "Bi Blokada Sepan berdewam bike";
+"universal status confirm" = "Tu dixwazî berdewam bikî?";
 
 "alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert vpn expired header" = "BLOKADA+ bidawî bû";
+"alert download link body" = "Ji ber sedemên ewlekariyê, ji bo daxistina dosyayekê, divê em vê malperê li geroka we vekin. Piştre, ji kerema xwe lînka daxistinê careke din pêlê bike.";
 
 "notification perms header" = "Enable notifications in Settings";
 "notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
 "notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "BLOKADA+ abonetî qediya";
+"notification vpn expired subtitle" = "VPN neçalak e";
+"notification vpn expired body" = "Ji kerema xwe abonetiya xwe nû bike da ku bikaranîna BLOKADA+ bidomîne";
+"notification desc settings" = "Ji bo mîhengan agahdariya çepê yan jî rastê bişke.";
 
 "notification generic header" = "Blokada: Action required";
 "notification generic subtitle" = "Tap to learn more";
@@ -97,108 +97,108 @@
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus is off";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "Nûvekirinek heye";
+"alert update body" = "Blokada %@ niha ji bo daxistinê heye. Em pêşniyar dikin ku vê sepanê heta niha berdewam bikin û tenê ji çavkaniyên xwe yên fermî dakêşin.";
+"update label updated" = "Hat nûkirin!";
+"update desc updated" = "Tu niha versiyona herî nû ya Blokada bi kar tîne! Ji bîr bikin, bexşîn an jî ji blokada Plus re binivîsin, dihêlin ku em ji bo baştirkirina sepanê berdewam bikin.";
+"update downloading description" = "Nûvekirin niha dakêşe, û divê hûn sazkirinê di demek kurt de bibînin.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada ji bo iOS alîkariya min kir ku %@ reklamên û şopîner asteng bike!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Me binirxînin!";
+"main rate us description" = "Heta niha tu çawa ji Blokada hez dikî?";
+"main rate us on app store" = "Tu yê alîkariya me bikî ji bo nirxandina Blokada li App Store?";
+"main rate us action sure" = "Bêguman!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Mal";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Çalakî";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Pêşketî";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Mîhengên";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "reklam û şopînerên ji sazkirinê ve hatine asteng kirin";
+"home power off menu header" = "Tu dixwazî çi bikî?";
+"home power action turn on" = "Veke";
+"home power action turn off" = "Bitemirîne";
+"home power action pause" = "Ji bo 5 deqe biqede";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
+"home status paused" = "Hatiye rawestandin";
+"home status active" = "Çalak";
+"home status deactivated" = "Bêçalakîkirin";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail active" = "Astengkirina *reklam* û *şopîner*";
+"home status detail active with counter" = "Asteng kirin *%@* reklam û şopîner";
+"home status detail active slim" = "Blokada *Slim* çalak e";
+"home status detail plus" = "*+* parastina *nepenîtiya* xwe";
+"home status detail progress" = "Ji kerema xwe bisekine...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
+"home plus button deactivated" = "BLOKADA+ HATE BÊÇALAKKIRIN";
 "home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button select location" = "Cih hilbijêre";
+"home plus button location" = "Cih: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack section header" = "Taybetmendiyên Pêşketî";
+"pack section header details" = "Hûrguliyên Taybetiyê";
+"pack action install" = "STANDIN";
+"pack action update" = "ROJANEKIRIN";
+"pack action uninstall" = "RAKIRIN";
+"pack author" = "Nivîskar";
+"pack configurations header" = "Vebijandinan";
+"pack information header" = "Zêdetir";
+"pack tags header" = "Etîketan";
+"pack tags none" = "Netû";
+"pack category highlights" = "Tiştên Pêşketî";
+"pack category active" = "Çalak";
+"pack category all" = "Hemû";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Cihek hilbijêre";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
+"activity section header" = "Çalakî";
+"activity section header details" = "Agahdariyên Çalakiyê";
+"activity request blocked" = "Ev daxwaz hate asteng kirin.";
+"activity request allowed" = "Vê daxwazê ​​destûr daye.";
+"activity request allowed whitelisted" = "Vê daxwazê ​​destûr daye, ji ber ku ew di nav lîsteya Destûrê de ye";
+"activity request blocked blacklisted" = "Ev daxwaz hate asteng kirin, ji ber ku ew di navnîşa weya blokkirî de ye";
 "activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity actions header" = "Çalakîyên";
+"activity information header" = "Agahî";
+"activity action add to whitelist" = "Lê yên Destûrkirî Zêde Bike";
+"activity action remove from whitelist" = "Ji yên Destûrkirî Rake";
+"activity action added to whitelist" = "Hatin Destûr kirin";
+"activity action add to blacklist" = "Têxê Astengkirî";
+"activity action remove from blacklist" = "Ji Astengkirî Rake";
+"activity action added to blacklist" = "Zêdekirin li Astengkirî";
+"activity action copy to clipboard" = "Navê ji bo panelê ji ber binivîse";
+"activity domain name" = "Navê tam";
+"activity time of occurrence" = "Dem";
+"activity number of occurrences" = "Hejmara rûdanan";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "guherandî";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "astengkirî";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "destûr daye";
+"activity happened one time" = "1 dem";
+"activity happened many times" = "%@ deman";
+"activity category recent" = "Demek berê";
+"activity category top" = "Ser";
+"activity category top blocked" = "Ya herî astengkirî";
+"activity category top allowed" = "Yên herî destûrkirî";
+"activity filter header" = "Hûn dixwazin kîjan navnîşan bibînin?";
+"activity filter show all" = "Hemî navnîşan";
+"activity filter show blocked" = "Tenê astengkirî";
+"activity filter show allowed" = "Tenê destûrdayî";
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Showing for: %@";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
+"activity empty text" = "Biceribîne cîhaza xwe bi kar bîne û paşê vegere vir, da ku bicîhanîna cîhaza xwe bi ku ve girê bide.";
+"activity device filter show all" = "Hemî amûr";
 "activity retention header" = "For how long can we store your activity?";
 "activity retention option none" = "Do not store my activity";
 "activity retention option 24h" = "24 hours";
@@ -206,17 +206,17 @@
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
 "userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section slugline" = "Astengkirina malperên taybetî birêve bibin";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Destûr dan";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Astengkirî";
 // A short one word action to allow a hostname.
 "userdenied action allow" = "Allow";
 // A short one word action to block a hostname.
 "userdenied action block" = "Block";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Mîhengên";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
@@ -224,7 +224,7 @@
 "account section header other" = "Other";
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
+"account action devices" = "Amûrên";
 "account action new device" = "New device";
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
@@ -262,34 +262,34 @@
 "account devices not available" = "Not available";
 "account devices out of" = "%@ out of %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
+"account lease label devices list" = "Van alavan bi hesabê we ve girêdayî ne.";
+"account lease label devices" = "Amûrên";
+"account lease label this device" = " (ev cîhaz)";
+"account lease label name" = "Navê cîhazê";
+"account lease label location" = "Cîh";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
+"account lease action generate" = "Veavakirina çêbike";
+"account lease action download" = "Veavakirina Dakêşinê";
 "account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "DNS hilbijêre";
+"account lease label public key" = "Mifteya Giştî";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Em çawa dikarin alîkariya we bikin?";
+"account support action kb" = "Bingeha Zanînê Veke";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Hate çalak kirin!";
+"payment activated description" = "Blokada wê niha bikeve moda Plus, û bi rêya yek ji cihên me yên ewle ve girê bide. Heke hûn ne bawer in ku kîjan hilbijêrin, ya herî nêzîk ji we re pêşniyar e.";
+"payment action choose location" = "Cihek hilbijêre";
+"payment action see locations" = "Cihên me";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
+"payment title" = "Ji bo karûbarê meya VPNê nûve bikin ku di bin kontrola *nepeniya xwe* de bimînin.";
+"payment feature title change location" = "Ciyê biguherînin";
+"payment feature desc change location" = "Navnîşana IP ya xwe veşêrin û bikin ku hûn li welatekî din in. Ev ê we ji aliyên sêyemîn veşêre û alîkariya parastina nasnameya we dike.";
+"payment feature title encrypt data" = "Daneyên şîfre kirin";
+"payment feature desc encrypt data" = "Daneyên ku bi rêya tunela me ya VPN'ê hatine şandin, bi bikaranîna algorîtmên xurt ên ji bo parastina li dijî destlênedanê ji aliyê partiyên bêdestûr ve hatine şîfrekirin.";
+"payment feature title encrypt dns" = "DNS şîfre bikin";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Great Performance";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
@@ -299,27 +299,27 @@
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
 "payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
+"payment feature title faster connection" = "Girêdana Zûtir";
+"payment feature desc faster connection" = "Leza mezin heta 100Mbps bi serverên li deverên cuda yên Cîhanê.";
+"payment feature title devices" = "Heta 5 cîhaz";
+"payment feature desc devices" = "Ji bo parvekirina abonetiya xwe bi 5 cîhazên: iOS, Android, an PC re heman hesabî bikar bînin.";
 "payment feature title no ads" = "Block Ads";
 "payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
-"payment alert error header" = "A message from App Store";
+"payment feature title support" = "Piştgiriya Mezin";
+"payment feature desc support" = "Bi saya Piştgiriya Xerîdar û civaka çavkaniya vekirî ya zindî ji her pirsê re bersivek bilez bigirin.";
+"payment action see all features" = "Hemî Taybetmendiyan Bibînin";
+"payment action restore" = "Kirînên Vegerînin";
+"payment action terms and privacy" = "Şertên & Nepenîtiyê";
+"payment action terms" = "Mercên Xizmetê";
+"payment action policy" = "Polîtîkaya Nepenîtiyê";
+"payment alert error header" = "Ji App Storeê peyamek";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Hûn xilas dikin %@";
+"payment conversion note" = "Em Euro qebûl dikin, û bihayên têne xuyang texmînek in. Ger banka we pir zêde doz dike vegerînek heye.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
+"payment subscription 1 month" = "1 Meh";
+"payment subscription many months" = "%@ Mehan";
+"payment subscription per month" = "%@ her meh";
 "payment subscription per year" = "%@ per year";
 "payment subscription per year then" = "then %@ per year";
 "payment subscription offer" = "Save %@";
@@ -346,7 +346,7 @@
 "payment label pay with card" = "Pay with card";
 "payment label pay with paypal" = "Pay with PayPal";
 "payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
+"payment package one month" = "1 Meh";
 "payment package six months" = "6 Months";
 "payment package twelve months" = "12 Months";
 "payment label discount" = "Save %@ (%@ / mo)";
