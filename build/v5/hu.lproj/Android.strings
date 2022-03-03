@@ -10,43 +10,43 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "A Blokada DNS csak a Plus módban érhető el. Kérjük válasszon másik DNS-t és próbálja újra.";
 
-"account active forever" = "Forever";
-"account active forever full" = "Active forever";
+"account active forever" = "Örökre";
+"account active forever full" = "Örökké aktív";
 
-"main ask for permissions header" = "Just one more step";
-"main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
+"main ask for permissions header" = "Csak még egy lépés";
+"main ask for permissions description" = "A Blokada VPN-konfigurációt használ a hirdetések blokkolására. A következő lépésben kérjük engedélyezd.";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "Védelem: Alacsony";
+"home level medium" = "Védelem: Közepes";
+"home level high" = "Védelem: Magas";
 
-"advanced section header packs" = "Blocklists";
-"advanced section slugline packs" = "Activate for more restrictive blocking";
-"advanced section slugline apps" = "Choose apps that should never be blocked";
-"advanced section slugline encryption" = "Adjust your encryption level and DNS";
-"advanced action slim migrate to full" = "You are using Blokada Slim. Learn more";
+"advanced section header packs" = "Tiltólista";
+"advanced section slugline packs" = "Aktiválja a szigorúbb blokkoláshoz";
+"advanced section slugline apps" = "Válassza ki az appokat, amelyeket sosem kíván blokkolni";
+"advanced section slugline encryption" = "Állítsa be a titkosítási szintet és DNS-t";
+"advanced action slim migrate to full" = "A Blokada Slim-et használja. Tudjon meg többet";
 
-"networks section header" = "Networks";
-"networks section label" = "Adjust settings for WiFi and mobile networks";
-"networks label all networks" = "All networks";
-"networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
-"networks label configuration active" = "These settings are currently active";
-"networks label configuration enabled" = "Not connected to this network";
-"networks label configuration inactive" = "Tap to modify settings for this network";
-"networks label details default network" = "The settings below are applied by default for all networks. You can override them for selected networks (in the previous screen).";
-"networks action encrypt dns" = "Encrypt DNS";
-"networks action use dns" = "Use DNS: %@";
-"networks action use network dns" = "Prefer network DNS";
-"networks action force libre mode" = "Force Libre mode";
-"networks label specific network" = "Adjust what should happen when your device connects to this network.";
-"networks label specific network type" = "Adjust what should happen when your device connects to a network of this type.";
-"networks label any wifi" = "Any WiFi network";
-"networks label any mobile" = "Any mobile network";
-"networks permission request" = "To have more control, tap here and let the app recognise all networks.";
-"networks permission request granted" = "You may see a notification when Blokada reads your network name in the background.";
-"networks section choose dns" = "Choose DNS";
+"networks section header" = "Hálózatok";
+"networks section label" = "WiFi és mobil hálózatok beállítása";
+"networks label all networks" = "Minden hálózat";
+"networks action network specific" = "Nyomjon erre a beállítások módosításához. A hálózat specifikus beállításokhoz nyomjon a lentire.";
+"networks label configuration active" = "Ezek a beállítások jelenleg aktívak";
+"networks label configuration enabled" = "Nem kapcsolódott ehhez a hálózathoz";
+"networks label configuration inactive" = "Nyomjon erre a hálózat beállításaihoz";
+"networks label details default network" = "A lenti beállítások alkalmazódnak minden hálózathoz alapbeállítás képpen. Felülírhatóak a kiválasztott hálózatoknál (az előző képernyőn).";
+"networks action encrypt dns" = "Titkosított DNS";
+"networks action use dns" = "%@ DNS használata";
+"networks action use network dns" = "Hálózati DNS preferálása";
+"networks action force libre mode" = "Libre mód erőltetése";
+"networks label specific network" = "Állítsa be mi történjen amikor az eszköze ehhez a hálózathoz kapcsolódik.";
+"networks label specific network type" = "Állítsa be mi történjen amikor az eszköze ehhez hasonló hálózathoz kapcsolódik.";
+"networks label any wifi" = "Bármely WiFi hálózat";
+"networks label any mobile" = "Bármely mobil hálózat";
+"networks permission request" = "Hogy több irányítást nyerjen nyomjon ide, és hagyja hogy az app felismerjen minden hálózatot.";
+"networks permission request granted" = "Láthat a háttérben egy újabb üzenetet amikor a Blokada beolvassa a hálózat nevét a háttérben.";
+"networks section choose dns" = "DNS választása";
 "networks summary encrypt dns" = "Blokada will encrypt DNS if possible. This improves your security and prevents malicious actors to spy on what websites and apps you use.";
 "networks summary use dns" = "Blokada will use %@ as your device's DNS. Choosing the one that allows for encryption (has the lock icon), and is near to you, will help protecting your data and making your connection fast.";
 "networks summary network dns" = "Blokada will use the network's DNS if available, or switch to %@ otherwise. Also, the Encrypt DNS settings will be ignored whenever network DNS is used. Using the network's DNS helps to fix connectivity problems on troublesome networks, but leaves you unprotected.";
@@ -57,27 +57,27 @@
 
 "account status text libre" = "Your BLOKADA Libre account is active until forever.";
 
-"account encrypt level low" = "Low";
-"account encrypt level medium" = "Medium";
-"account encrypt level high" = "High";
+"account encrypt level low" = "Alacsony";
+"account encrypt level medium" = "Közepes";
+"account encrypt level high" = "Magas";
 "account encrypt label dns only" = "Encrypting DNS";
 "account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
 "account encrypt label everything" = "Connecting through VPN";
 "account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
 "account encrypt action turn on" = "Turn on BLOKADA";
 "account encrypt header level" = "Encryption Level";
-"account encrypt label level" = "Level";
-"account encrypt label level low" = "Low: No Encryption";
-"account encrypt label level medium" = "Medium: Encrypting DNS";
-"account encrypt label level high" = "High: Encrypting Everything";
+"account encrypt label level" = "Szint";
+"account encrypt label level low" = "Alacsony: Nincs titkosítás";
+"account encrypt label level medium" = "Közepes: DNS titkosítása";
+"account encrypt label level high" = "Magas: Mindent titkosít";
 "account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
 "account encrypt label dns" = "DNS";
-"account encrypt action what is dns" = "What is DNS?";
-"account encrypt section header" = "Encryption";
+"account encrypt action what is dns" = "Mi a DNS?";
+"account encrypt section header" = "Titkosítás";
 "account encrypt section blocka dns" = "Blokada DNS";
 "account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
 
-"apps section header" = "Apps";
+"apps section header" = "Appok";
 "apps label installed" = "Installed";
 "apps label system" = "System";
 "apps status bypassed" = "(bypassed)";
@@ -103,11 +103,11 @@
 "app settings action notifications" = "Open Notification Settings";
 "app settings section details" = "Details";
 "app settings status default" = "System default";
-"app settings start on boot" = "Start on boot";
+"app settings start on boot" = "Bootoláskor indul";
 "app settings use dns over https" = "Use DNS over HTTPS";
 "app settings backup" = "Use cloud backup";
-"app settings section advanced" = "Advanced";
-"app settings section use foreground" = "Keep alive";
+"app settings section advanced" = "Haladó";
+"app settings section use foreground" = "Életben tart";
 
 "intro header" = "Blokada is Active!";
 "intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
