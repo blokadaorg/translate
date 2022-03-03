@@ -10,7 +10,28 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "שירות הDNS של Blokada נתמך כעת רק במצב פלוס. אנא בחרו שירות DNS אחר ונסו שוב.";
+"error device offline" = "המכשיר שלכם אינו מחובר לאינטרנט";
+"error account inactive" = "החשבון שלכם אינו פעיל. אנא הפעילו את חשבונכם על מנת להמשיך את השימוש בBLOKADA+.";
+"error account inactive after restore" = "נראה שחשבון זה אינו תקין. אם אתם מאמינים שזו טעות, אנא פנו אלינו על ידי לחיצה על מקש העזרה למעלה.";
+"error account invalid" = "מזהה חשבון זה אינו תקין.";
+"error creating account" = "לא הייתה אפשרות ליצור חשבון חדש. אנא נסו שוב מאוחר יותר.";
+"error fetching data" = "הפעולה נכשלה. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב. במידה והבעיה ממשיכה פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error tunnel" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn" = "לא היה ניתן להפעיל את הVPN. אנא הפעילו מחדש את מכשירכם, לחילופין הסירו את פרופיל Blokada VPN בהגדרות המערכת, ונסו שוב.";
+"error vpn perms" = "לא ניתנו הרשאות ליצירת פרופיל VPN.";
+"error vpn no current lease" = "אנא בחרו מיקום תחילה.";
+"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
+"error vpn too many leases" = "הגעתם למגבלת המכשירים שלכם. אנא הסירו את אחד המכשירים ונסו שוב.";
+"error vpn expired" = "הVPN מבוטל. אנא עדכנו את המנוי על מנת להמשיך להשתמש בBLOKADA+";
+"error payment inactive after restore" = "התשלום האחרון שלכם שוחזר, אבל המנוי פג תוקף. אם אתם מאמינים שזו טעות, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed" = "התשלום אינו זמין כרגע. אנא וודאו שאתם מחוברים לאינטרנט, ונסו שוב מאוחר יותר. אם הבעיה מתרחשת שוב, אנא פנו אלינו באמצעות לחיצה על מקש העזרה למעלה.";
+"error payment failed alternative" = "לא היה ניתן לבצע את התשלום. אנא וודאו שהמידע שהכנסתם נכון, ונסו שוב. אם הבעיה נמשכת, אנא צרו איתנו קשר בעזרת לחיצה על מקש העזרה למעלה.";
+"error payment not available" = "התשלום אינו זמין במכשיר זה. ייתכן שApple Pay אינו מופעל, או שאיננו תומכים בתשלומים במדינתך כעת.";
+"error payment canceled" = "התשלום בוטל. אינכם מחוייבים.";
+"error pack install" = "לא היה ניתן להתקין (או להסיר) את האופציה. אנא נסו שוב מאוחר יותר.";
+"error location failed fetching" = "לא היה ניתן לקבל את רשימת המיקומים.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persi
+sts, please contact us by tapping the help icon at the top.";
 
 "universal action continue" = "המשיכו";
 "universal action cancel" = "ביטול";
@@ -353,7 +374,6 @@
 "payment label country" = "מדינה";
 
 "payment euro desc" = "אנו ממוקמים באירופה, ולכן אנו מקבלים אירו: €10 הם בערך 12$.";
-"payment donate disclaimer" = "פעולה זו לא תפעיל את חשבון Blokada Plus שלך. אם ברצונך להשתמש בשירות ה־VPN שלנו, אנא הירשם כמינוי במקום לתרום.";
 
 "payment action compare" = "השוואת תוכניות";
 "payment plan slugline cloud" = "חסון פרסומות ומעקבים";
@@ -429,3 +449,4 @@
 
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "advanced section header packs" = "רשימות חסימה";
+"app settings section header" = "מכשיר זה";
