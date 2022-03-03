@@ -12,50 +12,50 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
+"universal action continue" = "Gå videre";
+"universal action cancel" = "Avbryt";
+"universal action close" = "Lukk";
+"universal action done" = "Ferdig";
+"universal action try again" = "Prøv igjen";
+"universal action learn more" = "Lær mer";
+"universal action help" = "Hjelp";
+"universal action show log" = "Logger";
+"universal action share log" = "Del loggen";
+"universal action copy" = "Kopier";
+"universal action save" = "Lagre";
+"universal action contact us" = "Kontakt oss";
+"universal action support" = "Brukerstøtte";
 "universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action upgrade short" = "Oppgrader";
+"universal action yes" = "Ja";
+"universal action no" = "Nei";
+"universal action donate" = "Donér";
+"universal action community" = "Nettsamfunn";
+"universal action open in browser" = "Åpne i nettleser";
+"universal action more" = "Mer";
+"universal action download" = "Last ned";
+"universal action news" = "Nyheter";
+"universal action delete" = "Slett";
+"universal action hide" = "Gjem";
+"universal action select" = "Velg";
+"universal action selected" = "Valgt";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Søk";
 // A verb "to filter the list"
 "universal action filter" = "Filter";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Tøm";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Tilbakekall";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Hjelp";
+"universal label welcome" = "Velkommen!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Ingen";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Navn";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Tid";
 // Common label in tables for the Count column. Think "number of items".
 "universal label count" = "Count";
 // Common label in tables for the Type column. Think "type of item".
@@ -68,7 +68,7 @@
 "universal status redirect" = "Continue with the Blokada App";
 "universal status confirm" = "Are you sure you want to proceed?";
 
-"alert error header" = "Ooops!";
+"alert error header" = "Oisann!";
 "alert vpn expired header" = "BLOKADA+ expired";
 "alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
 
@@ -97,9 +97,9 @@
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus is off";
 
-"notification update header" = "An update is available";
+"notification update header" = "En oppdatering er tilgjengelig";
 "alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
+"update label updated" = "Oppdatert!";
 "update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
 "update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
 
@@ -111,54 +111,54 @@
 "main rate us action sure" = "Sure!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Hjem";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Aktivitet";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Avansert";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Innstillinger";
 
 "home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
+"home power off menu header" = "Hva vil du gjøre?";
+"home power action turn on" = "Slå på";
+"home power action turn off" = "Slå av";
 "home power action pause" = "Pause for 5 min";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
+"home status paused" = "Satt på pause";
+"home status active" = "Aktiv";
+"home status deactivated" = "Deaktivert";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
 "home status detail active" = "Blocking *ads* and *trackers*";
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "Vennligst vent...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
 "home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button select location" = "Velg sted";
+"home plus button location" = "Sted: *%@*";
 
-"pack section header" = "Advanced Features";
+"pack section header" = "Avanserte funksjoner";
 "pack section header details" = "Feature Details";
 "pack action install" = "GET";
 "pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack action uninstall" = "FJERN";
+"pack author" = "Forfatter";
+"pack configurations header" = "Oppsett";
+"pack information header" = "Mer";
+"pack tags header" = "Tagger";
+"pack tags none" = "Ingen";
+"pack category highlights" = "Lyse toner";
+"pack category active" = "Aktiv";
+"pack category all" = "Alle";
 
 "location choice header" = "Choose a Location";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
+"activity section header" = "Aktivitet";
+"activity section header details" = "Aktivitetsdetaljer";
 "activity request blocked" = "This request has been blocked.";
 "activity request allowed" = "This request has been allowed.";
 "activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
@@ -167,8 +167,8 @@
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
+"activity actions header" = "Handlinger";
+"activity information header" = "Informasjon";
 "activity action add to whitelist" = "Add to Allowed";
 "activity action remove from whitelist" = "Remove from Allowed";
 "activity action added to whitelist" = "Added to Allowed";
@@ -176,29 +176,29 @@
 "activity action remove from blacklist" = "Remove from Blocked";
 "activity action added to blacklist" = "Added to Blocked";
 "activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity domain name" = "Navn";
+"activity time of occurrence" = "Tid";
+"activity number of occurrences" = "Antall forekomster";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "endret";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "blokkert";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
+"activity state allowed" = "tillatt";
+"activity happened one time" = "1 gang";
+"activity happened many times" = "%@ ganger";
+"activity category recent" = "Nylig";
+"activity category top" = "Topp";
 "activity category top blocked" = "Top Blocked";
 "activity category top allowed" = "Top Allowed";
 "activity filter header" = "Which entries would you like to see?";
 "activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity filter show blocked" = "Kun blokkerte";
+"activity filter show allowed" = "Kun tillatte";
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Showing for: %@";
 "activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
+"activity device filter show all" = "Alle enheter";
 "activity retention header" = "For how long can we store your activity?";
 "activity retention option none" = "Do not store my activity";
 "activity retention option 24h" = "24 hours";
@@ -208,84 +208,84 @@
 "userdenied section header" = "Exceptions";
 "userdenied section slugline" = "Manage blocking of particular websites";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Tillatt";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Blokkert";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Tillat";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Blokker";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Innstillinger";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
-"account section header primary" = "Primary";
-"account section header other" = "Other";
-"account action my account" = "My account";
+"account section header primary" = "Primær";
+"account section header other" = "Annet";
+"account action my account" = "Min konto";
 "account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
+"account action devices" = "Enheter";
+"account action new device" = "Ny enhet";
+"account action inbox" = "Innboks";
+"account action logout" = "Gjenopprett kjøp";
+"account action logout only" = "Logg ut";
 "account action create" = "Generate new account";
-"account action about" = "About";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
+"account action about" = "Om";
+"account action tap to show" = "Trykk for å vise";
+"account action restoring" = "Gjenoppretter konto: %@";
 "account label enter to continue" = "Enter your account ID to continue";
 "account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
 "account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
 "account create confirm" = "I wrote it down";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
-"account label id" = "Account ID";
-"account label type" = "Account type";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
+"account section header my subscription" = "Mitt abonnement";
+"account section header general" = "Generelt";
+"account section header subscription" = "Abonnement";
+"account label id" = "Konto-ID";
+"account label type" = "Kontotype";
+"account label active until" = "Aktiv frem til";
+"account action manage subscription" = "Behandle abonnement";
 "account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
+"account subscription header renew" = "Forny automatisk";
+"account subscription header payment method" = "Betalingsmetode";
 "account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
 
 "account unlock to show" = "Unlock to show your account ID";
 
-"account header logout" = "Restore purchase";
+"account header logout" = "Gjenopprett kjøp";
 "account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
 "account id status unchanged" = "(unchanged)";
 "account action how to restore" = "How do I restore my old account?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Dager igjen: %@";
+"account devices remaining" = "Enheter igjen: %@";
+"account devices not available" = "Ikke tilgjengelig";
+"account devices out of" = "%@ av %@";
 
 "account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
+"account lease label devices" = "Enheter";
 "account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
+"account lease label name" = "Enhetens navn";
+"account lease label location" = "Adresse";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Generate Config";
 "account lease action download" = "Download Config";
 "account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "Velg en DNS";
+"account lease label public key" = "Offentlig nøkkel";
 
-"account support action how help" = "How can we help you?";
+"account support action how help" = "Hva kan vi hjelpe deg med?";
 "account support action kb" = "Open Knowledge Base";
 
-"payment header activated" = "Activated!";
+"payment header activated" = "Aktivert!";
 "payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
 "payment action choose location" = "Choose a location";
 "payment action see locations" = "Our Locations";
 
 "payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
+"payment feature title change location" = "Endre posisjon";
 "payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
 "payment feature title encrypt data" = "Encrypt Data";
 "payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
@@ -299,58 +299,58 @@
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
 "payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
+"payment feature title faster connection" = "Raskere tilkobling";
 "payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
+"payment feature title devices" = "Opptil 5 enheter";
 "payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
 "payment feature title no ads" = "Block Ads";
 "payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
 "payment feature title support" = "Great Support";
 "payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
+"payment action see all features" = "Se alle funksjoner";
 "payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
+"payment action terms and privacy" = "Vilkår og personvern";
+"payment action terms" = "Vilkår for bruk";
+"payment action policy" = "Personvern";
 "payment alert error header" = "A message from App Store";
 // As in saving money: You are saving $5
 "payment save text" = "You are saving %@";
 "payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
+"payment subscription 1 month" = "1 måned";
+"payment subscription many months" = "%@ måneder";
 "payment subscription per month" = "%@ per month";
 "payment subscription per year" = "%@ per year";
 "payment subscription per year then" = "then %@ per year";
 "payment subscription offer" = "Save %@";
 
-"payment success label" = "Thanks!";
+"payment success label" = "Takk!";
 "payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
 
-"payment redirect label" = "Redirecting...";
+"payment redirect label" = "Omdirigerer …";
 "payment redirect desc" = "Please wait. This should only take a moment.";
 
 "payment ongoing title" = "Your payment is now being processed.";
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
-"payment action pay" = "Pay %@";
+"payment change method" = "Endre";
+"payment action pay" = "Betal %@";
 "payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
+"payment label email" = "E-post";
 "payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
 "payment label choose package" = "Choose your package";
 "payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
+"payment label cheapest" = "Billigste";
+"payment label most popular" = "Mest populær";
+"payment label pay with card" = "Betal med kort";
+"payment label pay with paypal" = "Betal med PayPal";
+"payment label pay with crypto" = "Betal med kryptovaluta";
+"payment package one month" = "1 måned";
+"payment package six months" = "6 måneder";
+"payment package twelve months" = "12 måneder";
 "payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment label country" = "Land";
 
 "payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
 "payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
@@ -364,9 +364,9 @@
 "payment plan cta monthly" = "Subscribe Monthly";
 "payment plan cta annual" = "Subscribe Annually";
 
-"location region worldwide" = "Everywhere";
+"location region worldwide" = "Overalt";
 "location region america" = "America";
-"location region europe" = "Europe";
+"location region europe" = "Europa";
 "location region asia" = "Asia";
 "location region australia" = "Australia";
 
@@ -377,7 +377,7 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Generer";
 
 "setup header" = "Setup";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
