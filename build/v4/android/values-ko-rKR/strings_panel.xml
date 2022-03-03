@@ -77,7 +77,7 @@
     <string name="slot_enter_file_desc">Input partial filename</string>
     <string name="slot_enter_file_not_found">No filename containing your input</string>
     <string name="slot_enter_file_multi">Multiple files match your input</string>
-    <string name="slot_enter_name_title">Name</string>
+    <string name="slot_enter_name_title">이름</string>
     <string name="slot_enter_name_desc">Enter name for the new entry. You can also generate a suggested name.</string>
     <string name="slot_enter_name_error">This does not look like anything to me.</string>
     <string name="slot_enter_name_generate">Generate</string>
@@ -120,8 +120,8 @@
     <string name="slot_whitelist_title">Whitelisted app</string>
     <string name="slot_list_no_desc">This entry does not have any description.</string>
     <string name="slot_status_info">When the app is Active, you will see the key icon in the notification bar at the top of the screen, which means your device is protected. You can turn the app off using the button below, or by swiping down the bottom menu.</string>
-    <string name="slot_action_deactivate">Turn off</string>
-    <string name="slot_action_activate">Turn on</string>
+    <string name="slot_action_deactivate">끄기</string>
+    <string name="slot_action_activate">켜기</string>
     <string name="slot_update_action_refresh">Check again</string>
     <string name="slot_telegram_title">Join us!</string>
     <string name="slot_telegram_desc">Visit our community for help or just to be part of it.</string>
@@ -152,9 +152,9 @@
     <string name="slot_lease_description">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This is your current device.</string>
     <!-- Gateway load -->
-    <string name="slot_gateway_load_low">high</string>
+    <string name="slot_gateway_load_low">높음</string>
     <!-- Gateway load -->
-    <string name="slot_gateway_load_high">low</string>
+    <string name="slot_gateway_load_high">낮음</string>
     <string name="subscription_success">Your account is being activated. This may take a few seconds. Thank you!</string>
     <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
     <string name="slot_recommended_dns_label">Use recommended DNS servers</string>
