@@ -10,26 +10,26 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "Your device is offline";
-"error account inactive" = "Your account is inactive. Please activate your account in order to continue using BLOKADA+.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error account invalid" = "This account ID seems invalid.";
-"error creating account" = "Could not create a new account. Please try again later.";
-"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error tunnel" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn perms" = "No permissions granted to create a VPN profile.";
-"error vpn no current lease" = "Please select a location first.";
+"error device offline" = "您的设备离线";
+"error account inactive" = "您的帐户未激活。请激活您的帐户以继续使用 BLOKADA+。";
+"error account inactive after restore" = "这似乎不是一个有效的活跃帐户。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
+"error account invalid" = "此帐户 ID 似乎无效。";
+"error creating account" = "无法创建新帐户。请稍后再试。";
+"error fetching data" = "此操作无法完成。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error tunnel" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
+"error vpn" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
+"error vpn perms" = "未授予创建 VPN 配置文件的权限。";
+"error vpn no current lease" = "请先选择一个位置。";
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
-"error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
-"error vpn expired" = "The VPN is disabled. Please update your subscription to continue using BLOKADA+";
-"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either Apple Pay is not activated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
+"error vpn too many leases" = "您已达到您的设备上限。请删除您的设备之一，然后重试。";
+"error vpn expired" = "VPN 已禁用。请更新您的订阅以继续使用 BLOKADA+";
+"error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
+"error payment failed" = "此时付款不可用。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error payment failed alternative" = "无法完成您的付款。请确保您的数据正确，然后重试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+"error payment not available" = "此设备的付款不可用。苹果支付未激活，或者我们尚未处理您所在国家的购买。";
+"error payment canceled" = "付款已被取消。您尚未被收取费用。";
+"error pack install" = "无法安装(或卸载) 此功能。请稍后再试。";
+"error location failed fetching" = "无法获取位置。";
 "error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persi
 sts, please contact us by tapping the help icon at the top.";
 
@@ -449,4 +449,4 @@ sts, please contact us by tapping the help icon at the top.";
 
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "advanced section header packs" = "屏蔽列表";
-"app settings section header" = "This device";
+"app settings section header" = "此设备";
