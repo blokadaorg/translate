@@ -12,11 +12,11 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"account active forever" = "Forever";
+"account active forever" = "हमेशा के लिए";
 "account active forever full" = "Active forever";
 
-"main ask for permissions header" = "Just one more step";
-"main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
+"main ask for permissions header" = "बस एक और कदम";
+"main ask for permissions description" = "ब्लोकडा विज्ञापनों को ब्लॉक करने के लिए वीपीएन कॉन्फ़िगरेशन का उपयोग कर रहा है। आपको इसे अगले चरण में अनुमति देने के लिए कहा जाएगा।";
 
 "home level low" = "Protection: Low";
 "home level medium" = "Protection: Medium";
@@ -57,27 +57,27 @@
 
 "account status text libre" = "Your BLOKADA Libre account is active until forever.";
 
-"account encrypt level low" = "Low";
-"account encrypt level medium" = "Medium";
-"account encrypt level high" = "High";
-"account encrypt label dns only" = "Encrypting DNS";
-"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
+"account encrypt level low" = "कम";
+"account encrypt level medium" = "मध्यम";
+"account encrypt level high" = "ऊंचा";
+"account encrypt label dns only" = "डीएनएस को एन्क्रिप्ट करना";
+"account encrypt desc dns only" = "डोमेन नेम सिस्टम यह है कि आपकी डिवाइस को पता है कि आप जिन वेबसाइटों पर जाना चाहते हैं, उन्हें कहां खोजें। दुर्भाग्य से, अधिकांश इंटरनेट अभी भी अनएन्क्रिप्टेड डीएनएस का उपयोग करता है, जो आपके ब्राउज़िंग इतिहास को जासूसी करने के जोखिम में डालता है। जब सक्षम किया जाता है, तो Blokada आपके डिवाइस को केवल एन्क्रिप्टेड DNS सर्वर (जिसे DNS को HTTPS भी कहा जाता है) से कनेक्ट करने के लिए मजबूर कर रहा है।";
 "account encrypt label everything" = "Connecting through VPN";
-"account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
-"account encrypt action turn on" = "Turn on BLOKADA";
-"account encrypt header level" = "Encryption Level";
-"account encrypt label level" = "Level";
-"account encrypt label level low" = "Low: No Encryption";
-"account encrypt label level medium" = "Medium: Encrypting DNS";
-"account encrypt label level high" = "High: Encrypting Everything";
-"account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
-"account encrypt label dns" = "DNS";
-"account encrypt action what is dns" = "What is DNS?";
-"account encrypt section header" = "Encryption";
+"account encrypt desc everything" = "आपका डिवाइस हमारे सुरक्षित वीपीएन सर्वर, और सभी संचार से आने वाले या, आपके डिवाइस को मजबूत एल्गोरिदम का उपयोग करके एन्क्रिप्ट किया जा रहा है। यह आपकी व्यक्तिगत जानकारी को सुरक्षित रखता है, जैसे बैंकिंग विवरण या व्यक्तिगत फ़ोटो, असुरक्षित स्थानों में चोरी होने से, कॉफी शॉप वाईफाई की तरह।";
+"account encrypt action turn on" = "BLOKADA चालू करें";
+"account encrypt header level" = "एन्क्रिप्शन स्तर";
+"account encrypt label level" = "स्तर";
+"account encrypt label level low" = "निम्न: कोई एन्क्रिप्शन नहीं";
+"account encrypt label level medium" = "माध्यम: डीएनएस को एन्क्रिप्ट करना";
+"account encrypt label level high" = "उच्च: सब कुछ एन्क्रिप्ट करना";
+"account encrypt header explanation" = "DNS है कि आपका डिवाइस जानता है कि वेबसाइटों को कहां खोजना है। BLOKADA केवल एन्क्रिप्टेड सर्वर का समर्थन करता है।";
+"account encrypt label dns" = "डीएनएस";
+"account encrypt action what is dns" = "DNS क्या है?";
+"account encrypt section header" = "एन्क्रिप्शन";
 "account encrypt section blocka dns" = "Blokada DNS";
 "account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
 
-"apps section header" = "Apps";
+"apps section header" = "ऐप्स";
 "apps label installed" = "Installed";
 "apps label system" = "System";
 "apps status bypassed" = "(bypassed)";
@@ -103,11 +103,11 @@
 "app settings action notifications" = "Open Notification Settings";
 "app settings section details" = "Details";
 "app settings status default" = "System default";
-"app settings start on boot" = "Start on boot";
+"app settings start on boot" = "बूट पर प्रारंभ करें";
 "app settings use dns over https" = "Use DNS over HTTPS";
 "app settings backup" = "Use cloud backup";
-"app settings section advanced" = "Advanced";
-"app settings section use foreground" = "Keep alive";
+"app settings section advanced" = "उच्च";
+"app settings section use foreground" = "जिंदा रखें";
 
 "intro header" = "Blokada is Active!";
 "intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
