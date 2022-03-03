@@ -10,76 +10,76 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "Blokada DNS funcționează în prezent doar în modul Plus. Vă rugăm să alegeți un alt DNS și să încercați din nou.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action continue" = "Continuă";
+"universal action cancel" = "Anulare";
+"universal action close" = "Închide";
+"universal action done" = "Efectuat";
+"universal action try again" = "Încercați din nou";
+"universal action learn more" = "Aflați mai multe";
+"universal action help" = "Ajutor";
+"universal action show log" = "Jurnale";
+"universal action share log" = "Împărtășește jurnal";
+"universal action copy" = "Copiază";
+"universal action save" = "Salvează";
+"universal action contact us" = "Contactați-ne";
+"universal action support" = "Asistenţă";
+"universal action upgrade" = "Treceți la BLOKADA+";
+"universal action upgrade short" = "Trecere la o variantă superioară";
+"universal action yes" = "Da";
+"universal action no" = "Nu";
+"universal action donate" = "Donează";
+"universal action community" = "Comunitate";
+"universal action open in browser" = "Deschide în browser";
+"universal action more" = "Mai multe";
+"universal action download" = "Descarcă";
+"universal action news" = "Ştiri";
+"universal action delete" = "Ştergere";
+"universal action hide" = "Ascunde";
+"universal action select" = "Selectați";
+"universal action selected" = "Selectat";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Căutare";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Filtru";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Curăță";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Revocați";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Ajutor";
+"universal label welcome" = "Bine aţi venit!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Nici unul";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Denumire";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Oră";
 // Common label in tables for the Count column. Think "number of items".
 "universal label count" = "Count";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "Type";
 "universal label device" = "Device";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status processing" = "Se procesează... Vă rugăm așteptați.";
+"universal status copied to clipboard" = "Copiat în Clipboard";
+"universal status restart required" = "Vă rugăm să reporniţi aplicaţia pentru ca modificările să aibă efect.";
+"universal status redirect" = "Continuă cu aplicația Blokada";
+"universal status confirm" = "Sunteţi sigur că doriţi să continuaţi?";
 
 "alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert vpn expired header" = "BLOKADA+ a expirat";
+"alert download link body" = "Din motive de securitate, pentru a descărca un fișier, trebuie să deschidem acest website în browser-ul dvs. Apoi, vă rugăm să accesați din nou link-ul de descărcare.";
 
 "notification perms header" = "Enable notifications in Settings";
 "notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
 "notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Abonamentul BLOKADA+ a expirat";
+"notification vpn expired subtitle" = "VPN-ul este dezactivat";
+"notification vpn expired body" = "Vă rugăm să vă actualizați abonamentul pentru a continua să utilizați BLOKADA+";
+"notification desc settings" = "Glisați notificarea înspre stânga sau dreapta pentru setări.";
 
 "notification generic header" = "Blokada: Action required";
 "notification generic subtitle" = "Tap to learn more";
@@ -97,108 +97,108 @@
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus is off";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "Este disponibilă o actualizare";
+"alert update body" = "Blokada %@ este acum disponibilă pentru descărcare. Vă recomandăm să păstrați aplicația la zi și să o descărcați doar din sursele noastre oficiale.";
+"update label updated" = "Actualizat!";
+"update desc updated" = "Acum folosești cea mai nouă versiune Blokada! Amintește-ți, donarea sau abonarea către Blokada Plus ne permite să continuăm să îmbunătățim aplicația.";
+"update downloading description" = "Actualizarea este în curs de descărcare și în scurt timp ar trebui să vedeți prompt-ul de instalare.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada pentru iOS m-a ajutat să blochez %@ reclame și trackere!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Acordați-ne o notă!";
+"main rate us description" = "Cum vă place Blokada până acum?";
+"main rate us on app store" = "Ne ajutați prin a evalua aplicața Blokada în App Store?";
+"main rate us action sure" = "Desigur!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Pagină de pornire";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Activitate";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Avansat";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Setări";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "reclame și trackere blocate de la instalare";
+"home power off menu header" = "Ce ați dori să faceți?";
+"home power action turn on" = "Porneşte";
+"home power action turn off" = "Oprește";
+"home power action pause" = "Pauză pentru 5 minute";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
+"home status paused" = "În Pauză";
+"home status active" = "Activ";
+"home status deactivated" = "Dezactivat";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail active" = "În curs de blocare *reclame* și *trackere*";
+"home status detail active with counter" = "Blocat *%@* reclame și trackere";
+"home status detail active slim" = "Blokada *Slim* este activă";
+"home status detail plus" = "*+* îți protejează *intimitatea*";
+"home status detail progress" = "Vă rugăm așteptați...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
+"home plus button deactivated" = "BLOKADA+ dezactivat";
 "home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button select location" = "Selectați locația";
+"home plus button location" = "Locație: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack section header" = "Caracteristici Avansate";
+"pack section header details" = "Detalii caracteristici";
+"pack action install" = "OBȚINE";
+"pack action update" = "ACTUALIZARE";
+"pack action uninstall" = "ȘTERGE";
+"pack author" = "Autor";
+"pack configurations header" = "Configurații";
+"pack information header" = "Mai multe";
+"pack tags header" = "Etichete";
+"pack tags none" = "Nici unul";
+"pack category highlights" = "Evidențieri";
+"pack category active" = "Activ";
+"pack category all" = "Toate";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Selectați o locație";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
+"activity section header" = "Activitate";
+"activity section header details" = "Detalii de activitate";
+"activity request blocked" = "Această solicitare a fost blocată.";
+"activity request allowed" = "Această solicitare a fost permisă.";
+"activity request allowed whitelisted" = "Această solicitare a fost permisă, deoarece se află pe lista de permisii";
+"activity request blocked blacklisted" = "Această solicitare a fost blocată, deoarece se află în lista de restricții";
 "activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
 "activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity actions header" = "Acțiuni";
+"activity information header" = "Informaţii";
+"activity action add to whitelist" = "Adaugă la Permise";
+"activity action remove from whitelist" = "Elimină din Permise";
+"activity action added to whitelist" = "Adăugat la Permise";
+"activity action add to blacklist" = "Adaugă la Restricții";
+"activity action remove from blacklist" = "Elimină din Restricții";
+"activity action added to blacklist" = "Adăugat la Restricții";
+"activity action copy to clipboard" = "Copiază numele în clipboard";
+"activity domain name" = "Denumirea completă";
+"activity time of occurrence" = "Oră";
+"activity number of occurrences" = "Numărul de apariții";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "modificat";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "blocat";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
+"activity state allowed" = "permis";
+"activity happened one time" = "o dată";
+"activity happened many times" = "%@ ori";
+"activity category recent" = "Recent(e)";
 "activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity category top blocked" = "Top blocate";
+"activity category top allowed" = "Top Permise";
+"activity filter header" = "Ce intrări ați dori să vedeţi?";
+"activity filter show all" = "Toate intrările";
+"activity filter show blocked" = "Doar cele blocate";
+"activity filter show allowed" = "Doar cele permise";
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Showing for: %@";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
+"activity empty text" = "Încercaţi să utilizaţi dispozitivul şi reveniţi aici mai târziu pentru a vedea unde se conectează dispozitivul dvs.";
+"activity device filter show all" = "Toate dispozitivele";
 "activity retention header" = "For how long can we store your activity?";
 "activity retention option none" = "Do not store my activity";
 "activity retention option 24h" = "24 hours";
@@ -206,90 +206,90 @@
 "activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
 
 "userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section slugline" = "Gestionați blocarea anumitor site-uri";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Permis";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Blocat";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Permiteți";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Blochează";
 
-"account section header settings" = "Settings";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
+"account section header settings" = "Setări";
+"account status text" = "Contul dvs. BLOKADA %@ este activ până la %@.";
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
-"account section header primary" = "Primary";
-"account section header other" = "Other";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action create" = "Generate new account";
-"account action about" = "About";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account section header primary" = "Principal";
+"account section header other" = "Altele";
+"account action my account" = "Contul meu";
+"account action encryption" = "Criptare și DNS";
+"account action devices" = "Dispozitive";
+"account action new device" = "Dispozitiv nou";
+"account action inbox" = "Mesaje";
+"account action logout" = "Restabilește achiziția";
+"account action logout only" = "Iesire din cont";
+"account action create" = "Generează un cont nou";
+"account action about" = "Despre";
+"account action tap to show" = "Atingeți pentru a afișa";
+"account action restoring" = "Recuperare cont: %@";
+"account label enter to continue" = "Introduceți ID-ul contului dvs. pentru a continua";
+"account restore description" = "Nu-ți face griji, dacă ți-ai pierdut sau ai uitat ID-ul de cont, îl putem recupera. Te rugăm să contactezi asistența noastră și să ne furnizezi informații care ne vor permite să identificăm achiziția ta (de ex. ultimele 4 cifre ale cardului de credit sau e-mailul PayPal).";
+"account create description" = "Acesta este ID-ul contului dvs. Notați-l și păstrați-l secret. Este singurul mod de a vă accesa abonamentul.";
+"account create confirm" = "L-am notat";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
-"account label id" = "Account ID";
-"account label type" = "Account type";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
-"account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
-"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+"account section header my subscription" = "Abonamentul meu";
+"account section header general" = "Preferințe generale";
+"account section header subscription" = "Abonament";
+"account label id" = "ID Cont";
+"account label type" = "Tipul de cont";
+"account label active until" = "Activ până la";
+"account action manage subscription" = "Gestionare abonament";
+"account action why upgrade" = "De ce ar trebui să trec la BLOKADA+?";
+"account subscription header renew" = "Reînnoire automată";
+"account subscription header payment method" = "Metoda de plată";
+"account subscription renew unsupported" = "Metoda dvs. de plată nu permite controlul reînnoirii automate a setării aici.";
 
-"account unlock to show" = "Unlock to show your account ID";
+"account unlock to show" = "Deblocați pentru a arăta ID-ul contului dvs.";
 
-"account header logout" = "Restore purchase";
-"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
-"account id status unchanged" = "(unchanged)";
-"account action how to restore" = "How do I restore my old account?";
+"account header logout" = "Restabilește achiziția";
+"account logout description" = "Vă rugăm să introduceți un alt ID de cont, sau să merge-ți înapoi pentru a păstra contul existent (această aplicație nu poate fi folosită fără unul).";
+"account id status unchanged" = "(neschimbat)";
+"account action how to restore" = "Cum îmi pot recupera contul meu vechi?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Zile rămase: %@";
+"account devices remaining" = "Nr. dispozitive rămase: %@";
+"account devices not available" = "Indisponibil";
+"account devices out of" = "%@ din %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
+"account lease label devices list" = "Aceste dispozitive sunt conectate la contul dvs.";
+"account lease label devices" = "Dispozitive";
+"account lease label this device" = " (acest dispozitiv)";
+"account lease label name" = "Denumire dispozitiv";
+"account lease label location" = "Locatie";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
+"account lease action generate" = "Genereaza configuratie";
+"account lease action download" = "Descarcă Configurație";
 "account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "Alege un DNS";
+"account lease label public key" = "Cheie publică";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Cu ce ​​vă putem ajuta?";
+"account support action kb" = "Deschide Baza de Cunostințe";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Activat!";
+"payment activated description" = "Blokada va trece acum la modul Plus și se va conecta prin una dintre locațiile noastre sigure. Dacă nu sunteţi sigur pe care să o alegeţi, se recomandă locația cea mai apropiat de dvs.";
+"payment action choose location" = "Alegeți o locație";
+"payment action see locations" = "Locațiile noastre";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
+"payment title" = "Treciți la serviciul nostru VPN pentru a rămâne in controlul *intimitați dvs.*.";
+"payment feature title change location" = "Schimbă locația";
+"payment feature desc change location" = "Ascundeți-vă adresa IP și pretindeți că sunteți în altă țară. Acest lucru vă va masca de la terțe părți și vă va ajuta să vă protejați identitatea.";
+"payment feature title encrypt data" = "Criptare date";
+"payment feature desc encrypt data" = "Datele trimise prin tunelul nostru VPN sunt criptate folosind algoritmi puternici pentru a fi protejate împotriva interceptării de către părți neautorizate.";
+"payment feature title encrypt dns" = "Criptează DNS";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Great Performance";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
@@ -299,61 +299,61 @@
 "payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
 "payment feature title cloud vpn" = "The Cloud plus VPN";
 "payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
+"payment feature title faster connection" = "Conexiune mai rapidă";
+"payment feature desc faster connection" = "Viteze mari de până la 100 Mbps cu servere în diferite părți ale lumii.";
+"payment feature title devices" = "Până la 5 dispozitive";
+"payment feature desc devices" = "Folosiți același cont pentru a partaja abonamentul cu până la 5 dispozitive: iOS, Android sau PC.";
 "payment feature title no ads" = "Block Ads";
 "payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
-"payment alert error header" = "A message from App Store";
+"payment feature title support" = "Asistență de Calitate";
+"payment feature desc support" = "Obțineți un răspuns prompt la orice întrebări datorită Asistenței noastre menită pentru clienți și comunității noastre open source.";
+"payment action see all features" = "Vezi toate caracteristicile";
+"payment action restore" = "Restabilește achizițiile";
+"payment action terms and privacy" = "Termenii de utilizare și confidențialitate";
+"payment action terms" = "Termenii Serviciului";
+"payment action policy" = "Politica de confidenţialitate";
+"payment alert error header" = "Un mesaj de la App Store";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Economisești %@";
+"payment conversion note" = "Acceptăm Euro, iar prețurile afișate sunt o estimare. O rambursare este disponibilă în cazul în care banca ta costă prea mult.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
+"payment subscription 1 month" = "1 Lună";
+"payment subscription many months" = "%@ Luni";
+"payment subscription per month" = "%@ pe lună";
 "payment subscription per year" = "%@ per year";
 "payment subscription per year then" = "then %@ per year";
-"payment subscription offer" = "Save %@";
+"payment subscription offer" = "Economisești %@";
 
-"payment success label" = "Thanks!";
-"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+"payment success label" = "Mulţumim!";
+"payment success desc" = "Contul dvs. este acum activ! Acum puteți folosi toate funcțiile Blokada Plus pe toate dispozitivele dvs.";
 
-"payment redirect label" = "Redirecting...";
-"payment redirect desc" = "Please wait. This should only take a moment.";
+"payment redirect label" = "Redirecţionare...";
+"payment redirect desc" = "Vă rugăm să așteptați. Acest lucru ar trebui să dureze doar un moment.";
 
-"payment ongoing title" = "Your payment is now being processed.";
-"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
+"payment ongoing title" = "Plata dvs. este acum în curs de procesare.";
+"payment ongoing desc" = "Plățile cu cardul de credit nu ar trebui să dureze mai mult de câteva minute. Plățile prin criptomonede durează de obicei până la o oră, în funcție de taxa de tranzacție pe care ați ales-o. În cazul PayPal, poate dura până la 24 de ore. Veți fi redirecționat odată ce contul dvs. este pregătit. Puteți închide acest ecran și să vă întoarceți mai târziu. Dacă vi se pare că tranzacția durează prea mult, vă rugăm să ne contactați.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
-"payment action pay" = "Pay %@";
-"payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
-"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
-"payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment change method" = "Modifică";
+"payment action pay" = "Plătește %@";
+"payment action pay period" = "Plătiți%@ € în fiecare perioadă";
+"payment label email" = "E-mail";
+"payment crypto desc" = "Pentru a plăti cu portofelul de criptomonede, apăsați butonul de mai jos.";
+"payment label choose package" = "Alegeţi pachetul";
+"payment label choose payment method" = "Alege metoda de plată";
+"payment label cheapest" = "Cel mai ieftin";
+"payment label most popular" = "Cele mai populare";
+"payment label pay with card" = "Plătiți cu cardul";
+"payment label pay with paypal" = "Plătiți prin PayPal";
+"payment label pay with crypto" = "Plătește cu cripto";
+"payment package one month" = "1 Lună";
+"payment package six months" = "6 Luni";
+"payment package twelve months" = "12 Luni";
+"payment label discount" = "Salvează %@ (%@ / lună)";
+"payment label country" = "Țara";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
-"payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
+"payment euro desc" = "Suntem stabiliți în Europa, așadar acceptăm Euro: €10 sunt aproximativ $12.";
+"payment donate disclaimer" = "Aceasta nu vă va activa contul Blokada Plus. Dacă doriți să folosiți serviciul nostru VPN, vă rugăm să vă abonați în loc să donați.";
 
 "payment action compare" = "Compare plans";
 "payment plan slugline cloud" = "Blocks ads and trackers";
@@ -366,7 +366,7 @@
 
 "location region worldwide" = "Everywhere";
 "location region america" = "America";
-"location region europe" = "Europe";
+"location region europe" = "Europa";
 "location region asia" = "Asia";
 "location region australia" = "Australia";
 
@@ -377,7 +377,7 @@
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Generează";
 
 "setup header" = "Setup";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
