@@ -8,7 +8,7 @@ Blokada Slim Ad blocker is een gratis app die gebruik maakt van DNS (Domain Name
 
 Er is ook een ingebouwde VPN die optioneel te gebruiken is.
 
-De website van het project is: https://blokada.org. De versie van de website heeft meer functies en is ook gratis.
+De website van het project is: https://blokada.org. De versie van de website heeft meer functies en is ook gratis. De versie van de website heeft meer functies en is ook gratis.
 
 Doe mee met ons via onze Telegram-chat als je vragen of feedback hebt: https://go.blokada.org/chat
 
