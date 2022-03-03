@@ -12,30 +12,30 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
+"universal action continue" = "തുടരുക";
+"universal action cancel" = "റദ്ദാക്കുക";
 "universal action close" = "Close";
 "universal action done" = "Done";
 "universal action try again" = "Try again";
 "universal action learn more" = "Learn more";
 "universal action help" = "Help";
 "universal action show log" = "Logs";
-"universal action share log" = "Share log";
+"universal action share log" = "ലോഗ് പങ്കിടുക";
 "universal action copy" = "Copy";
-"universal action save" = "Save";
+"universal action save" = "സേവ്";
 "universal action contact us" = "Contact us";
-"universal action support" = "Support";
+"universal action support" = "പിന്തുണ";
 "universal action upgrade" = "Upgrade to BLOKADA+";
 "universal action upgrade short" = "Upgrade";
 "universal action yes" = "Yes";
 "universal action no" = "No";
-"universal action donate" = "Donate";
+"universal action donate" = "സംഭാവനചെയ്യുക";
 "universal action community" = "Community";
 "universal action open in browser" = "Open in browser";
 "universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
+"universal action download" = "ഡൌൺലോഡ്";
+"universal action news" = "വാർത്ത";
+"universal action delete" = "നീക്കം ചെയ്യുക";
 "universal action hide" = "Hide";
 "universal action select" = "Select";
 "universal action selected" = "Selected";
@@ -65,7 +65,7 @@
 "universal status processing" = "Processing... Please wait.";
 "universal status copied to clipboard" = "Copied to Clipboard";
 "universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
+"universal status redirect" = "ബ്ലോക്കഡ ആപ്പ് ഉപയോഗിച്ച് തുടരുക";
 "universal status confirm" = "Are you sure you want to proceed?";
 
 "alert error header" = "Ooops!";
@@ -126,7 +126,7 @@
 "home power action pause" = "Pause for 5 min";
 
 "home status paused" = "Paused";
-"home status active" = "Active";
+"home status active" = "സജീവമാണ്";
 "home status deactivated" = "Deactivated";
 "home action tap to activate" = "Tap to activate";
 "home status detail paused" = "Paused until timer ends";
@@ -134,7 +134,7 @@
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "കാത്തിരിക്കൂ...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
 "home plus button deactivated cloud" = "VPN deactivated";
@@ -152,7 +152,7 @@
 "pack tags header" = "Tags";
 "pack tags none" = "None";
 "pack category highlights" = "Highlights";
-"pack category active" = "Active";
+"pack category active" = "സജീവമാണ്";
 "pack category all" = "All";
 
 "location choice header" = "Choose a Location";
@@ -225,7 +225,7 @@
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
 "account action devices" = "Devices";
-"account action new device" = "New device";
+"account action new device" = "പുതിയ ഉപകരണം";
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
 "account action logout only" = "Log out";
@@ -233,7 +233,7 @@
 "account action about" = "About";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
+"account label enter to continue" = "തുടരുന്നതിന് നിങ്ങളുടെ അക്കൗണ്ട് ഐഡി നൽകുക";
 "account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
 "account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
 "account create confirm" = "I wrote it down";
@@ -241,7 +241,7 @@
 "account section header my subscription" = "My Subscription";
 "account section header general" = "General";
 "account section header subscription" = "Subscription";
-"account label id" = "Account ID";
+"account label id" = "അക്കൗണ്ട് ഐഡി";
 "account label type" = "Account type";
 "account label active until" = "Active until";
 "account action manage subscription" = "Manage subscription";
@@ -265,16 +265,16 @@
 "account lease label devices list" = "These devices are connected to your account.";
 "account lease label devices" = "Devices";
 "account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
+"account lease label name" = "ഉപകരണത്തിന്റെ പേര്";
 "account lease label location" = "Location";
 "account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
 "account lease action generate" = "Generate Config";
 "account lease action download" = "Download Config";
 "account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
 "account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
-"account lease label dns" = "DNS";
+"account lease label dns" = "ഡിൻഎസ്";
 "account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease label public key" = "പബ്ലിക് കീ";
 
 "account support action how help" = "How can we help you?";
 "account support action kb" = "Open Knowledge Base";
@@ -317,14 +317,14 @@
 "payment save text" = "You are saving %@";
 "payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
 
-"payment subscription 1 month" = "1 Month";
+"payment subscription 1 month" = "1 മാസം";
 "payment subscription many months" = "%@ Months";
 "payment subscription per month" = "%@ per month";
 "payment subscription per year" = "%@ per year";
 "payment subscription per year then" = "then %@ per year";
 "payment subscription offer" = "Save %@";
 
-"payment success label" = "Thanks!";
+"payment success label" = "നന്ദി!";
 "payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
 
 "payment redirect label" = "Redirecting...";
@@ -334,7 +334,7 @@
 "payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
+"payment change method" = "മാറ്റുക";
 "payment action pay" = "Pay %@";
 "payment action pay period" = "Pay %@ each period";
 "payment label email" = "Email";
@@ -343,12 +343,12 @@
 "payment label choose payment method" = "Choose your payment method";
 "payment label cheapest" = "Cheapest";
 "payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
+"payment label pay with card" = "കാർഡ് ഉപയോഗിച്ച് പണമടയ്‌ക്കുക";
+"payment label pay with paypal" = "പേയ്പാൽ വഴി പേ ചെയ്യുക";
 "payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
+"payment package one month" = "1 മാസം";
+"payment package six months" = "6 മാസം";
+"payment package twelve months" = "12 മാസം";
 "payment label discount" = "Save %@ (%@ / mo)";
 "payment label country" = "Country";
 
