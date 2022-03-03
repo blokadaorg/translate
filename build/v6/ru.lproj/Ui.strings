@@ -10,419 +10,419 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "Blokada DNS в настоящее время поддерживается только в режиме Plus. Пожалуйста, выберите другой DNS и повторите попытку.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action continue" = "Продолжить";
+"universal action cancel" = "Отмена";
+"universal action close" = "Закрыть";
+"universal action done" = "Готово";
+"universal action try again" = "Попробуйте еще раз";
+"universal action learn more" = "Подробнее";
+"universal action help" = "Помощь";
+"universal action show log" = "Журналы";
+"universal action share log" = "Отправить журнал";
+"universal action copy" = "Копировать";
+"universal action save" = "Сохранить";
+"universal action contact us" = "Связаться с нами";
+"universal action support" = "Поддержка";
+"universal action upgrade" = "Обновите до BLOKADA+";
+"universal action upgrade short" = "Улучшить";
+"universal action yes" = "Да";
+"universal action no" = "Нет";
+"universal action donate" = "Пожертвовать";
+"universal action community" = "Сообщество";
+"universal action open in browser" = "Открыть в браузере";
+"universal action more" = "Подробнее";
+"universal action download" = "Скачать";
+"universal action news" = "Новости";
+"universal action delete" = "Удалить";
+"universal action hide" = "Скрыть";
+"universal action select" = "Выбор";
+"universal action selected" = "Выбрано";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Поиск";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Фильтр";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Очистить";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Отозвать";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Помощь";
+"universal label welcome" = "Добро пожаловать!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Нет";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Название";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Время";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Количество";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Тип";
+"universal label device" = "Устройство";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status processing" = "Обработка... Пожалуйста, подождите.";
+"universal status copied to clipboard" = "Скопировано в буфер обмена";
+"universal status restart required" = "Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу.";
+"universal status redirect" = "Продолжить в Blokada";
+"universal status confirm" = "Вы хотите продолжить?";
 
-"alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert error header" = "Ой!";
+"alert vpn expired header" = "Срок действия BLOKADA+ истек";
+"alert download link body" = "Из соображений безопасности для загрузки файла нам необходимо открыть этот сайт в вашем браузере. После этого нажмите на ссылку для скачивания еще раз.";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Включить уведомления в настройках";
+"notification perms desc" = "Эта функция требует уведомлений, включите их для Blokada.";
+"notification perms denied" = "Вы отказались от уведомлений. Чтобы изменить это, используйте системные настройки.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Срок действия подписки на BLOKADA+ истек";
+"notification vpn expired subtitle" = "VPN отключен";
+"notification vpn expired body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать BLOKADA+";
+"notification desc settings" = "Смахните уведомление влево или вправо для отображения настроек.";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: требуется действие";
+"notification generic subtitle" = "Нажмите, чтобы узнать больше";
+"notification generic body" = "Пожалуйста, откройте приложение для получения подробной информации.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Срок действия подписки истек";
+"notification acc subtitle" = "Блокировка рекламы отключена";
+"notification acc body" = "Пожалуйста, обновите подписку, чтобы продолжить использовать Blokada.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause header" = "Blokada приостановлена";
+"notification pause subtitle" = "Блокировка рекламы отключена";
+"notification pause body" = "Пожалуйста, откройте приложение, чтобы возобновить работу Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus отключена";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "Доступно обновление";
+"alert update body" = "Blokada %@ теперь доступна для скачивания. Мы рекомендуем поддерживать актуальную версию приложения, и скачивать его только из наших официальных источников.";
+"update label updated" = "Обновлено!";
+"update desc updated" = "Теперь вы используете новейшую версию Blokada! Помните, что пожертвование или подписка на Blokada Plus позволяет нам продолжать улучшать приложение.";
+"update downloading description" = "Обновление уже начало загружаться. Скоро появится запрос на установку.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada для iOS помогла мне заблокировать %@ рекламы и трекеров!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Оцените нас!";
+"main rate us description" = "Вам понравилась Blokada?";
+"main rate us on app store" = "Не могли бы вы помочь нам с рейтингом Blokada в App Store?";
+"main rate us action sure" = "Конечно!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Домой";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Активность";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Дополнительно";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Настройки";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "рекламы и трекеров заблокировано с момента установки";
+"home power off menu header" = "Что бы вы хотели сделать?";
+"home power action turn on" = "Включить";
+"home power action turn off" = "Отключить";
+"home power action pause" = "Остановить на 5 минут";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status paused" = "Остановлено";
+"home status active" = "Активно";
+"home status deactivated" = "Деактивировано";
+"home action tap to activate" = "Нажмите для активации";
+"home status detail paused" = "Пауза до окончания таймера";
+"home status detail active" = "Блокировано *рекламы* и *трекеров*";
+"home status detail active with counter" = "Блокировано *%@* рекламы и трекеров";
+"home status detail active slim" = "Blokada *Slim* активна";
+"home status detail plus" = "*+* защищающий вашу *приватность*";
+"home status detail progress" = "Пожалуйста, подождите...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button deactivated" = "BLOKADA+ деактивирована";
+"home plus button deactivated cloud" = "VPN деактивирован";
+"home plus button select location" = "Выберите местоположение";
+"home plus button location" = "Местоположение: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack section header" = "Расширенные возможности";
+"pack section header details" = "Описание функции";
+"pack action install" = "ПОЛУЧИТЬ";
+"pack action update" = "ОБНОВИТЬ";
+"pack action uninstall" = "УДАЛИТЬ";
+"pack author" = "Автор";
+"pack configurations header" = "Настройки";
+"pack information header" = "Подробнее";
+"pack tags header" = "Теги";
+"pack tags none" = "Нет";
+"pack category highlights" = "Основные моменты";
+"pack category active" = "Активно";
+"pack category all" = "Все";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Выберите местоположение";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity section header" = "Активность";
+"activity section header details" = "Описание действия";
+"activity request blocked" = "Этот запрос был заблокирован.";
+"activity request allowed" = "Этот запрос был разрешен.";
+"activity request allowed whitelisted" = "Этот запрос был разрешен, потому что он находится в вашем списке разрешенных";
+"activity request blocked blacklisted" = "Этот запрос был заблокирован, потому что он находится в вашем списке заблокированных";
+"activity request allowed list" = "Этот запрос был разрешен, поскольку он присутствует в списке разрешенных *%@*.";
+"activity request allowed no list" = "Этот запрос был разрешен, поскольку его нет ни в одном из настроенных вами списков блокировки.";
+"activity request blocked list" = "Этот запрос был заблокирован, поскольку он присутствует в списке блокировки *%@*.";
+"activity request blocked no list" = "Этот запрос был заблокирован, поскольку его нет ни в одном из настроенных вами списков разрешенных.";
+"activity actions header" = "Действия";
+"activity information header" = "Информация";
+"activity action add to whitelist" = "Добавить в разрешенные";
+"activity action remove from whitelist" = "Удалить из разрешенных";
+"activity action added to whitelist" = "Добавлен в разрешенные";
+"activity action add to blacklist" = "Добавить в заблокированные";
+"activity action remove from blacklist" = "Удалить из заблокированных";
+"activity action added to blacklist" = "Добавлен в заблокированные";
+"activity action copy to clipboard" = "Скопировать имя в буфер обмена";
+"activity domain name" = "Полное имя";
+"activity time of occurrence" = "Время";
+"activity number of occurrences" = "Количество";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "изменено";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "заблокировано";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "разрешено";
+"activity happened one time" = "1 раз";
+"activity happened many times" = "%@ раз";
+"activity category recent" = "Недавние";
+"activity category top" = "Рейтинг";
+"activity category top blocked" = "Топ заблокированных";
+"activity category top allowed" = "Топ разрешенных";
+"activity filter header" = "Какие записи вы хотели бы видеть?";
+"activity filter show all" = "Все записи";
+"activity filter show blocked" = "Только блокированные";
+"activity filter show allowed" = "Только разрешенные";
 // A short message "Showing for: Device A"
-"activity filter showing for" = "Showing for: %@";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
-"activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
-"activity retention policy" = "By enabling log retention you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
+"activity filter showing for" = "Показано для: %@";
+"activity empty text" = "Попробуйте использовать свое устройство, а впоследствии вернитесь сюда, чтобы посмотреть, к чему оно подключается.";
+"activity device filter show all" = "Все устройства";
+"activity retention header" = "Как долго мы можем хранить вашу активность?";
+"activity retention option none" = "Не сохранять мою активность";
+"activity retention option 24h" = "24 часа";
+"activity retention policy" = "Включая сохранение журнала, вы принимаете Политику конфиденциальности.";
+"activity retention desc" = "Blokada Cloud по умолчанию не ведет логи. Если вы хотите видеть агрегированную статистику и активность со всех ваших устройств, выберите желаемый период хранения логов ниже.";
 
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "Исключения";
+"userdenied section slugline" = "Управление блокировкой определенных сайтов";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Разрешено";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Заблокировано";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Разрешить";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Заблокировать";
 
-"account section header settings" = "Settings";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
-"account status text inactive" = "Your BLOKADA account is inactive.";
+"account section header settings" = "Настройки";
+"account status text" = "Ваш аккаунт BLOKADA %@ активен до %@.";
+"account status text inactive" = "Ваш аккаунт BLOKADA неактивен.";
 
-"account section header primary" = "Primary";
-"account section header other" = "Other";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action create" = "Generate new account";
-"account action about" = "About";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account section header primary" = "Главное";
+"account section header other" = "Другое";
+"account action my account" = "Мой аккаунт";
+"account action encryption" = "Шифрование и DNS";
+"account action devices" = "Устройства";
+"account action new device" = "Новое устройство";
+"account action inbox" = "Входящие";
+"account action logout" = "Восстановить покупку";
+"account action logout only" = "Выйти";
+"account action create" = "Создать новый аккаунт";
+"account action about" = "О приложении";
+"account action tap to show" = "Нажмите, чтобы показать";
+"account action restoring" = "Восстановление аккаунта: %@";
+"account label enter to continue" = "Для продолжения введите ID вашего аккаунта";
+"account restore description" = "Не волнуйтесь, если вы потеряли или забыли ID вашего аккаунта - мы сможем его восстановить. Пожалуйста, свяжитесь с нашей службой поддержки и предоставьте сведения, которые позволят нам идентифицировать вашу покупку (например, последние 4 цифры вашей кредитной карты, или электронная почта PayPal).";
+"account create description" = "Это ID вашего аккаунта. Запишите его и храните в секрете. Это единственный способ получить доступ к вашей подписке.";
+"account create confirm" = "Я записал";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
-"account label id" = "Account ID";
-"account label type" = "Account type";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
-"account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
-"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+"account section header my subscription" = "Моя подписка";
+"account section header general" = "Общее";
+"account section header subscription" = "Подписка";
+"account label id" = "ID аккаунта";
+"account label type" = "Тип аккаунта";
+"account label active until" = "Активна до";
+"account action manage subscription" = "Управление подпиской";
+"account action why upgrade" = "Зачем мне платная подписка?";
+"account subscription header renew" = "Продлять автоматически";
+"account subscription header payment method" = "Способ оплаты";
+"account subscription renew unsupported" = "Ваш способ оплаты не позволяет управлять настройкой автоматического продления здесь.";
 
-"account unlock to show" = "Unlock to show your account ID";
+"account unlock to show" = "Разблокируйте, чтобы показать ID аккаунта";
 
-"account header logout" = "Restore purchase";
-"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
-"account id status unchanged" = "(unchanged)";
-"account action how to restore" = "How do I restore my old account?";
+"account header logout" = "Восстановить покупку";
+"account logout description" = "Пожалуйста, введите другой ID аккаунта или вернитесь, чтобы продолжить использовать существующий (это приложение не может быть использовано без ID).";
+"account id status unchanged" = "(без изменений)";
+"account action how to restore" = "Как мне восстановить мой старый аккаунт?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Осталось дней: %@";
+"account devices remaining" = "Осталось устройств: %@";
+"account devices not available" = "Недоступно";
+"account devices out of" = "%@ из %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease label devices list" = "Эти устройства подключены к вашему аккаунту.";
+"account lease label devices" = "Устройства";
+"account lease label this device" = " (это устройство)";
+"account lease label name" = "Название устройства";
+"account lease label location" = "Местоположение";
+"account lease label generate" = "После выбора местоположения здесь будет создан файл конфигурации, который вы сможете использовать в любом VPN-приложении, поддерживающем WireGuard. Это полезно для платформ, для которых у нас пока нет наших приложений. В противном случае, мы рекомендуем использовать наши собственные приложения.";
+"account lease action generate" = "Создать конфигурацию";
+"account lease action download" = "Скачать конфигурацию";
+"account lease generated" = "Устройство добавлено! Скачайте конфигурацию, чтобы использовать ее на любом устройстве, которое поддерживается WiregGuard.";
+"account lease wireguard desc" = "Blokada использует WiregGuard. Конфигурации можно скачать при создании новых устройств.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "Выберите DNS";
+"account lease label public key" = "Публичный ключ";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Чем мы можем вам помочь?";
+"account support action kb" = "Открытая база знаний";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Активировано!";
+"payment activated description" = "Теперь Blokada перешла в режим Plus и подключена через одно из наших безопасных местоположений. Если вы не определились с выбором, рекомендуется выбрать наиболее близкое к вам.";
+"payment action choose location" = "Выбрать местоположение";
+"payment action see locations" = "Наши локации";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
-"payment alert error header" = "A message from App Store";
+"payment title" = "Перейдите на наш VPN-сервис, чтобы контролировать *вашу конфиденциальность*.";
+"payment feature title change location" = "Изменить местоположение";
+"payment feature desc change location" = "Спрячьте свой IP-адрес и притворитесь, что вы находитесь в другой стране. Это замаскирует вас от третьих лиц и поможет защитить вашу идентичность.";
+"payment feature title encrypt data" = "Данные зашифрованы";
+"payment feature desc encrypt data" = "Данные, передаваемые через наш VPN-туннель, шифруются при помощи сложных алгоритмов для защиты от перехвата посторонними лицами.";
+"payment feature title encrypt dns" = "Шифровать DNS";
+"payment feature desc encrypt dns" = "Повысьте уровень конфиденциальности с помощью шифрования DNS. Blokada Cloud использует современные протоколы для обеспечения конфиденциальности вашего трафика.";
+"payment feature title performance" = "Отличная производительность";
+"payment feature desc performance" = "Поддерживайте быстродействие вашего устройства и максимальную скорость подключения к интернету благодаря нашему новому облачному решению.";
+"payment feature title battery" = "Никакого влияния на батарею";
+"payment feature desc battery" = "Время автономной работы не уменьшится, а может и увеличится после активации Blokada Cloud.";
+"payment feature title devices cloud" = "Несколько устройств";
+"payment feature desc devices cloud" = "Настраивайте и контролируйте все свои устройства в одном месте. Либо через наше мобильное приложение, либо через веб-приложение.";
+"payment feature title cloud vpn" = "Cloud plus VPN";
+"payment feature desc cloud vpn" = "В дополнение ко всем преимуществам Blokada Cloud, вы получите доступ к нашей глобальной сети VPN";
+"payment feature title faster connection" = "Более быстрое соединение";
+"payment feature desc faster connection" = "Высокие скорости до 100 Мбит/с с серверами в различных частях света.";
+"payment feature title devices" = "До 5 устройств";
+"payment feature desc devices" = "Используйте одну и ту же учетную запись, чтобы поделиться подпиской с 5 устройствами: iOS, Android или PC.";
+"payment feature title no ads" = "Блокировка рекламы";
+"payment feature desc no ads" = "Используйте популярную технологию Blokada для блокировки рекламы на ваших устройствах. Доступны расширенные настройки.";
+"payment feature title support" = "Отличная поддержка";
+"payment feature desc support" = "Получите быстрый ответ на любые вопросы через нашу службу поддержки клиентов и активное сообщество разработчиков По с открытым исходным кодом.";
+"payment action see all features" = "Посмотреть все функции";
+"payment action restore" = "Восстановить покупки";
+"payment action terms and privacy" = "Условия и политика конфиденциальности";
+"payment action terms" = "Условия предоставления услуг";
+"payment action policy" = "Политика конфиденциальности";
+"payment alert error header" = "Сообщение из App Store";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Вы сохраняете %@";
+"payment conversion note" = "Мы принимаем евро, и отображаемые цены являются приблизительными. Возврат доступен, если ваш банк взимает слишком большую комиссию.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
-"payment subscription offer" = "Save %@";
+"payment subscription 1 month" = "1 месяц";
+"payment subscription many months" = "%@ месяцев";
+"payment subscription per month" = "%@ в месяц";
+"payment subscription per year" = "%@ в год";
+"payment subscription per year then" = "затем %@ в год";
+"payment subscription offer" = "Сэкономить %@";
 
-"payment success label" = "Thanks!";
-"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+"payment success label" = "Спасибо!";
+"payment success desc" = "Ваш аккаунт теперь активен! Теперь вы можете использовать все функции Blokada Plus на всех своих устройствах.";
 
-"payment redirect label" = "Redirecting...";
-"payment redirect desc" = "Please wait. This should only take a moment.";
+"payment redirect label" = "Перенаправление...";
+"payment redirect desc" = "Пожалуйста, подождите. Это займет немного времени.";
 
-"payment ongoing title" = "Your payment is now being processed.";
-"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
+"payment ongoing title" = "Ваш платеж обрабатывается.";
+"payment ongoing desc" = "Оплата по кредитной карте не должна занимать больше нескольких минут. Платежи в криптовалюте обычно занимают до часа, в зависимости от выбранного вами метода оплаты. При использовании PayPal может потребоваться до 24 часов. Вы будете перенаправлены, как только ваш счет будет готов. Также вы можете закрыть этот экран и вернуться к нему позднее. Если вы полагаете, что ваша транзакция занимает слишком много времени, пожалуйста, свяжитесь с нами.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
-"payment action pay" = "Pay %@";
-"payment action pay period" = "Pay %@ each period";
+"payment change method" = "Изменить";
+"payment action pay" = "Оплатить %@";
+"payment action pay period" = "Оплачивать %@ каждый период";
 "payment label email" = "Email";
-"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
-"payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment crypto desc" = "Чтобы заплатить с помощью своего кошелька для криптовалюты, нажмите кнопку ниже.";
+"payment label choose package" = "Выберите ваш пакет";
+"payment label choose payment method" = "Выберите способ оплаты";
+"payment label cheapest" = "Самый дешевый";
+"payment label most popular" = "Самый популярный";
+"payment label pay with card" = "Оплатить картой";
+"payment label pay with paypal" = "Оплатить через PayPal";
+"payment label pay with crypto" = "Оплатить криптовалютой";
+"payment package one month" = "1 месяц";
+"payment package six months" = "6 месяцев";
+"payment package twelve months" = "12 месяцев";
+"payment label discount" = "Сэкономить %@ (%@ / месяц)";
+"payment label country" = "Страна";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
-"payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
+"payment euro desc" = "Мы находимся в Европе, поэтому мы принимаем евро: €10 - это примерно $12.";
+"payment donate disclaimer" = "Это не активирует ваш аккаунт Blokada Plus. Если вы хотите использовать наш сервис VPN, пожалуйста, подпишитесь вместо того, чтобы сделать пожертвование.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "Сравните тарифы";
+"payment plan slugline cloud" = "Блокировка рекламы и трекеров";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
+"payment plan slugline cloud detail" = "(включает Blokada Cloud)";
+"payment plan slugline plus" = "Дополнительная защита с помощью VPN";
+"payment plan cta trial" = "Начните 7-дневную бесплатную пробную версию";
+"payment plan cta monthly" = "Подписка на месяц";
+"payment plan cta annual" = "Подписка на год";
 
-"location region worldwide" = "Everywhere";
-"location region america" = "America";
-"location region europe" = "Europe";
-"location region asia" = "Asia";
-"location region australia" = "Australia";
+"location region worldwide" = "Везде";
+"location region america" = "Америка";
+"location region europe" = "Европа";
+"location region asia" = "Азия";
+"location region australia" = "Австралия";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "Устройства VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
-"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web vpn devices open action" = "Открыть устройства VPN";
+"web action open setup" = "Открыть настройки";
+"web cta plus header" = "Перейти на Blokada Plus, чтобы всегда контролировать свою конфиденциальность.";
+"web cta plus desc" = "Ваша учетная запись Libre дает возможность бесплатно блокировать рекламу на вашем устройстве с помощью наших приложений с открытым исходным кодом. Перейдите на Blokada Plus для еще более надежной защиты. Вы получите доступ к нашей глобальной VPN-сети, а также к новому блокировщику рекламы *на базе облачных технологий*, более эффективному и простому в использовании.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Создать";
 
-"setup header" = "Setup";
-"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
-"setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
+"setup header" = "Настройка";
+"setup desc" = "Есть много способов настроить ваше устройство для использования Blokada Cloud. Выберите тот, который подходит вам.";
+"setup label which device" = "Какой тип устройства вы хотите настроить?";
+"setup label choose" = "Выберите любой из следующих вариантов настройки:";
+"setup comment wireguard" = "Примечание: в конфигурации VPN по умолчанию будет использоваться Blokada Cloud. Выберите другую настройку DNS, если вы хотите отказаться от этого. 'WireGuard' и логотип 'WireGuard' являются зарегистрированными торговыми марками Джейсона А. Доненфельда (Jason A. Donenfeld).";
+"setup comment native apps" = "Примечание. Нативное приложение для Android пока не поддерживает Blokada Cloud. Мы работаем над обновлением.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "Шаг %@: %@";
+"setup option label recommended" = "Рекомендуется: %@";
+"setup option label alternative" = "Альтернативно: %@";
+"setup name label unnamed" = "(без названия)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "Назовите свое устройство (необязательно)";
+"setup step copy" = "Скопировать имя хоста";
+"setup step apply config" = "Применить новую конфигурацию";
+"setup step install" = "Установите и запустите наше приложение";
+"setup step enter tag" = "Когда появится запрос, введите свой тег";
+"setup step download profile" = "Создайте и загрузите свой профиль";
+"setup step install wireguard" = "Установите и запустите WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "Статистика";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Соотношение";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Запросы";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Запросы по времени";
+"stats top allowed header" = "Топ разрешенных запросов";
+"stats top blocked header" = "Топ заблокированных запросов";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
+"dnsprofile header" = "Включите Blokada в Настройках";
+"dnsprofile desc" = "В настройках устройства перейдите в раздел Общие → VPN, DNS и управление устройствами → DNS и выберите Blokada.";
+"dnsprofile action open settings" = "Открыть Настройки";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated header" = "Почти готово!";
+"activated desc" = "Чтобы Blokada работала должным образом, необходимо:";
+"activated desc all ok" = "Ваше устройство настроено и готово к работе:";
+"activated label account" = "Аккаунт активен (%@)";
+"activated label notif yes" = "Уведомления разрешены";
+"activated label notif no" = "Разрешить уведомления";
+"activated label dns yes" = "Профиль DNS активирован";
+"activated label dns no" = "Активировать профиль DNS";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "Разрешить VPN (только Plus)";
+"activated label vpn yes" = "VPN разрешен";
+"activated label vpn no" = "Разрешить VPN";
