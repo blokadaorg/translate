@@ -8,3 +8,7 @@ files:
     translation: /build/v5/%osx_code%/%original_file_name%
   - source: /promo/*.md
     translation: /build/promo/%locale_with_underscore%/%original_file_name%
+  - source: /v6/*.strings
+    translation: /build/v6/%osx_code%/%original_file_name%
+  - source: /landing/*.strings
+    translation: /build/landing/%osx_code%/%original_file_name%
