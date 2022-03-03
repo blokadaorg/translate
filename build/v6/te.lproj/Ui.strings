@@ -12,13 +12,13 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
+"universal action continue" = "కొనసాగించు";
+"universal action cancel" = "రద్దు";
 "universal action close" = "Close";
 "universal action done" = "Done";
 "universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
+"universal action learn more" = "మరింత నేర్చుకోండి";
+"universal action help" = "సహాయం";
 "universal action show log" = "Logs";
 "universal action share log" = "Share log";
 "universal action copy" = "Copy";
@@ -29,12 +29,12 @@
 "universal action upgrade short" = "Upgrade";
 "universal action yes" = "Yes";
 "universal action no" = "No";
-"universal action donate" = "Donate";
+"universal action donate" = "దానం";
 "universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
+"universal action open in browser" = "తెరువు";
 "universal action more" = "More";
 "universal action download" = "Download";
-"universal action news" = "News";
+"universal action news" = "వార్తలు";
 "universal action delete" = "Delete";
 "universal action hide" = "Hide";
 "universal action select" = "Select";
@@ -48,7 +48,7 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
-"universal label help" = "Help";
+"universal label help" = "సహాయం";
 "universal label welcome" = "Welcome!";
 // Common label when some feature has no setting
 "universal label none" = "None";
@@ -134,7 +134,7 @@
 "home status detail active with counter" = "Blocked *%@* ads and trackers";
 "home status detail active slim" = "Blokada *Slim* is active";
 "home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status detail progress" = "దయచేసి వేచి ఉండండి...";
 
 "home plus button deactivated" = "BLOKADA+ deactivated";
 "home plus button deactivated cloud" = "VPN deactivated";
@@ -182,7 +182,7 @@
 // As in sentence, "this item has been modified"
 "activity state modified" = "modified";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "నిరోధించబడినది";
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "allowed";
 "activity happened one time" = "1 time";
@@ -210,7 +210,7 @@
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "Allowed";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "నిరోధించబడినది";
 // A short one word action to allow a hostname.
 "userdenied action allow" = "Allow";
 // A short one word action to block a hostname.
@@ -221,10 +221,10 @@
 "account status text inactive" = "Your BLOKADA account is inactive.";
 
 "account section header primary" = "Primary";
-"account section header other" = "Other";
+"account section header other" = "ఇతరులు";
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
+"account action devices" = "పరికరాలు";
 "account action new device" = "New device";
 "account action inbox" = "Inbox";
 "account action logout" = "Restore purchase";
@@ -263,7 +263,7 @@
 "account devices out of" = "%@ out of %@";
 
 "account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
+"account lease label devices" = "పరికరాలు";
 "account lease label this device" = " (this device)";
 "account lease label name" = "Name of device";
 "account lease label location" = "Location";
