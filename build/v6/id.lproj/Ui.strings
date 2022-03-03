@@ -10,419 +10,419 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "Saat ini Blokada DNS hanya bisa diaktifkan di mode Plus. Silahkan pilih server DNS yang lain dan coba kembali.";
 
-"universal action continue" = "Continue";
-"universal action cancel" = "Cancel";
-"universal action close" = "Close";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
-"universal action help" = "Help";
-"universal action show log" = "Logs";
-"universal action share log" = "Share log";
-"universal action copy" = "Copy";
-"universal action save" = "Save";
-"universal action contact us" = "Contact us";
+"universal action continue" = "Lanjut";
+"universal action cancel" = "Batal";
+"universal action close" = "Tutup";
+"universal action done" = "Selesai";
+"universal action try again" = "Coba lagi";
+"universal action learn more" = "Lihat lebih lanjut";
+"universal action help" = "Bantuan";
+"universal action show log" = "Log";
+"universal action share log" = "Bagikan log";
+"universal action copy" = "Salin";
+"universal action save" = "Simpan";
+"universal action contact us" = "Hubungi kami";
 "universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
+"universal action upgrade" = "Upgrade ke BLOKADA+";
 "universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
-"universal action donate" = "Donate";
-"universal action community" = "Community";
-"universal action open in browser" = "Open in browser";
-"universal action more" = "More";
-"universal action download" = "Download";
-"universal action news" = "News";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action yes" = "Ya";
+"universal action no" = "Tidak";
+"universal action donate" = "Donasi";
+"universal action community" = "Komunitas";
+"universal action open in browser" = "Buka di browser";
+"universal action more" = "Lebih lanjut";
+"universal action download" = "Unduh";
+"universal action news" = "Berita";
+"universal action delete" = "Hapus";
+"universal action hide" = "Sembunyikan";
+"universal action select" = "Pilih";
+"universal action selected" = "Dipilih";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Cari";
 // A verb "to filter the list"
 "universal action filter" = "Filter";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Hapus";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Cabut izin";
 
-"universal label help" = "Help";
-"universal label welcome" = "Welcome!";
+"universal label help" = "Bantuan";
+"universal label welcome" = "Selamat Datang!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Tidak ada";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Nama";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Waktu";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Jumlah";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Jenis";
+"universal label device" = "Perangkat";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status processing" = "Sedang diproses... Harap tunggu.";
+"universal status copied to clipboard" = "Disalin ke clipboard";
+"universal status restart required" = "Silakan restart Blokada agar perubahan bisa diterapkan.";
+"universal status redirect" = "Lanjutkan dengan Blokada";
+"universal status confirm" = "Anda yakin ingin melanjutkan?";
 
-"alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert error header" = "Ups!";
+"alert vpn expired header" = "BLOKADA+ kedaluwarsa";
+"alert download link body" = "Untuk alasan keamanan, untuk mengunduh file ini, Blokada harus membuka situs yang dituju di browser Anda. Silahkan tekan tautan download kembali.";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Aktifkan notifikasi di Settings";
+"notification perms desc" = "Fitur in mengharuskan notifikasi diaktifkan, silakan aktifkan notifikasi untuk Blokada.";
+"notification perms denied" = "Anda tidak mengizinkan notifikasi. Jika Anda ingin mengubahnya silakan atur di Preferensi Sistem.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Langganan BLOKADA+ Anda telah berakhir";
+"notification vpn expired subtitle" = "VPN dinonaktifkan";
+"notification vpn expired body" = "Silakan perbarui langganan Anda agar BLOKADA+ dapat digunakan kembali";
+"notification desc settings" = "Geser notifikasi ke kiri atau kanan untuk mengakses pengaturan.";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: Perlu tindakan lebih lanjut";
+"notification generic subtitle" = "Ketuk untuk mengetahui lebih jauh";
+"notification generic body" = "Lebih lengkapnya silakan buka app.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Langganan berakhir";
+"notification acc subtitle" = "Mode pemblokiran iklan dinonaktifkan";
+"notification acc body" = "Silakan perbarui langganan Anda agar Anda bisa terus menggunakan Blokada.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause header" = "Blokada masih dijeda";
+"notification pause subtitle" = "Mode pemblokiran iklan dinonaktifkan";
+"notification pause body" = "Silakan buka app untuk mengaktifkan Blokada kembali.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus nonaktif";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "Pembaruan tersedia";
+"alert update body" = "Blokada %@ telah tersedia untuk diunduh. Kami menyarankan agar Anda terus memperbarui Blokada, dan hanya mengunduhnya dari sumber-sumber resmi.";
+"update label updated" = "Diperbarui!";
+"update desc updated" = "Saat ini Anda sedang menggunakan versi terbaru dari Blokada! Ingat, donasi atau berlangganan Blokada Plus memungkinkan kami untuk bisa terus mengembangkan aplikasi ini.";
+"update downloading description" = "Pembaruan sedang diunduh, dan Anda akan melihat instruksi untuk menginstal beberapa saat kemudian.";
 
-"main share message" = "Blokada for iOS helped me block %@ ads and trackers!";
+"main share message" = "Blokada iOS membantu saya memblokir %@ iklan dan pelacak!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Beri kami rating!";
+"main rate us description" = "Apa pendapat Anda tentang Blokada sejauh ini?";
+"main rate us on app store" = "Apakah Anda bersedia membantu kami dengan memberikan rating di App Store?";
+"main rate us action sure" = "Tentu!";
 
 // Make sure each tab name has a similar length
-"main tab home" = "Home";
+"main tab home" = "Beranda";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Aktifitas";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Tingkat Lanjut";
 // Make sure each tab name has a similar length
-"main tab settings" = "Settings";
+"main tab settings" = "Pengaturan";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "iklan dan pelacak yang diblokir sejak Blokada diinstal";
+"home power off menu header" = "Apa yang ingin Anda lakukan?";
+"home power action turn on" = "Aktifkan";
+"home power action turn off" = "Nonaktifkan";
+"home power action pause" = "Hentikan selama 5 menit";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status paused" = "Dijeda";
+"home status active" = "Aktif";
+"home status deactivated" = "Dinonaktifkan";
+"home action tap to activate" = "Tekan untuk mengaktifkan";
+"home status detail paused" = "Dihentikan sementara sampai timer habis";
+"home status detail active" = "Memblokir *iklan* dan *pelacak*";
+"home status detail active with counter" = "Memblokir *%@* iklan dan pelacak";
+"home status detail active slim" = "Blokada *Slim* telah diaktifkan";
+"home status detail plus" = "*+* melindungi *privasi* Anda";
+"home status detail progress" = "Harap tunggu...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button deactivated" = "BLOKADA+ dinonaktifkan";
+"home plus button deactivated cloud" = "VPN telah dinonaktifkan";
+"home plus button select location" = "Pilih lokasi";
+"home plus button location" = "Lokasi: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
+"pack section header" = "Fitur lanjutan";
+"pack section header details" = "Detail Fitur";
+"pack action install" = "DAPATKAN";
 "pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
+"pack action uninstall" = "HAPUS";
+"pack author" = "Pembuat";
+"pack configurations header" = "Konfigurasi";
+"pack information header" = "Lainnya";
+"pack tags header" = "Tag";
+"pack tags none" = "Tidak ada";
 "pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack category active" = "Aktif";
+"pack category all" = "Semua";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Pilih lokasi";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity section header" = "Aktifitas";
+"activity section header details" = "Detail Aktivitas";
+"activity request blocked" = "Permintaan ini telah diblokir.";
+"activity request allowed" = "Permintaan ini telah diizinkan.";
+"activity request allowed whitelisted" = "Permintaan ini telah diizinkan, karena domain tersebut ada di dalam whitelist";
+"activity request blocked blacklisted" = "Permintaan ini telah diblokir, karena domain tersebut ada di dalam blacklist";
+"activity request allowed list" = "Permintaan ini telah diizinkan, karena telah termasuk dalam blocklist *%@*.";
+"activity request allowed no list" = "Permintaan ini telah diizinkan, karena tidak termasuk dalam blocklist yang telah Anda buat.";
+"activity request blocked list" = "Permintaan ini telah diblokir, karena telah termasuk dalam blocklist *%@*.";
+"activity request blocked no list" = "Permintaan ini telah diblokir, karena tidak ada dalam blocklist yang telah Anda buat.";
+"activity actions header" = "Tindakan";
+"activity information header" = "Informasi";
+"activity action add to whitelist" = "Tambahkan ke dalam whitelist";
+"activity action remove from whitelist" = "Hapus dari whitelist";
+"activity action added to whitelist" = "Ditambahkan ke dalam whitelist";
+"activity action add to blacklist" = "Tambahkan ke dalam blacklist";
+"activity action remove from blacklist" = "Hapus dari blacklist";
+"activity action added to blacklist" = "Ditambahkan ke dalam blacklist";
+"activity action copy to clipboard" = "Salin nama ke Clipboard";
+"activity domain name" = "Nama lengkap";
+"activity time of occurrence" = "Waktu";
+"activity number of occurrences" = "Jumlah kejadian";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "diubah";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "diblokir";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "diizinkan";
+"activity happened one time" = "1 kali";
+"activity happened many times" = "%@ kali";
+"activity category recent" = "Terbaru";
+"activity category top" = "Teratas";
+"activity category top blocked" = "Paling sering diblokir";
+"activity category top allowed" = "Paling sering diizinkan";
+"activity filter header" = "Entri mana yang ingin Anda lihat?";
+"activity filter show all" = "Tanpilkan semua entri";
+"activity filter show blocked" = "Hanya tampilkan entri yang diblokir";
+"activity filter show allowed" = "Hanya tampilkan entri yang diizinkan";
 // A short message "Showing for: Device A"
-"activity filter showing for" = "Showing for: %@";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
-"activity retention header" = "For how long can we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "24 hours";
-"activity retention policy" = "By enabling log retention you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
+"activity filter showing for" = "Menampilkan: %@";
+"activity empty text" = "Coba gunakan perangkat Anda, lalu kembali ke sini untuk melihat perangkat Anda terhubung ke mana.";
+"activity device filter show all" = "Semua perangkat";
+"activity retention header" = "Berapa lama kami bisa menyimpan aktifitas Anda?";
+"activity retention option none" = "Jangan simpan aktifitas saya";
+"activity retention option 24h" = "24 jam";
+"activity retention policy" = "Dengan mengaktifkan penyimpanan log berarti Anda telah menyetujui kebijakan provasi kami.";
+"activity retention desc" = "Blokada Cloud secara default tidak akan menyimpan data Anda. Jika Anda ingin melihat kumpulan statistik dan aktivitas pemakaian dari semua perangkat Anda, silakan pilih rentang waktu penyimpanan data yang Anda inginkan di bawah ini.";
 
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "Pengecualian";
+"userdenied section slugline" = "Atur pemblokiran untuk situs-situs tertentu";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Diizinkan";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Diblokir";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Izinkan";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Blokir";
 
-"account section header settings" = "Settings";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
-"account status text inactive" = "Your BLOKADA account is inactive.";
+"account section header settings" = "Pengaturan";
+"account status text" = "%@ Akun BLOKADA Anda aktif sampai %@.";
+"account status text inactive" = "Akun BLOKADA Anda tidak aktif.";
 
-"account section header primary" = "Primary";
-"account section header other" = "Other";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action create" = "Generate new account";
-"account action about" = "About";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account section header primary" = "Utama";
+"account section header other" = "Lainnya";
+"account action my account" = "Akun saya";
+"account action encryption" = "Enkripsi & DNS";
+"account action devices" = "Perangkat";
+"account action new device" = "Perangkat baru";
+"account action inbox" = "Kotak Masuk";
+"account action logout" = "Kembalikan pembelian";
+"account action logout only" = "Keluar";
+"account action create" = "Buat akun baru";
+"account action about" = "Info Aplikasi";
+"account action tap to show" = "Tekan untuk melihat";
+"account action restoring" = "Memulihkan akun: %@";
+"account label enter to continue" = "Masukkan ID akun Anda untuk melanjutkan";
+"account restore description" = "Jangan khawatir, jika Anda kehilangan atau lupa ID akun Anda, kami dapat memulihkannya. Silakan hubungi kanal dukungan kami, dan siapkan informasi yang memungkinkan kami mengidentifikasi pembelian Anda (misalnya 4 digit terakhir kartu kredit Anda, atau email yang Anda pakai untuk login di PayPal).";
+"account create description" = "Ini adalah ID akun Anda. Harap dicatat dan dijaga kerahasiaannya. ID akun ini satu-satunya cara mengakses data berlangganan Anda.";
+"account create confirm" = "Saya sudah mencatat detil akun saya";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
-"account label id" = "Account ID";
-"account label type" = "Account type";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
-"account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
-"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+"account section header my subscription" = "Status Berlangganan";
+"account section header general" = "Umum";
+"account section header subscription" = "Langganan";
+"account label id" = "ID Akun";
+"account label type" = "Jenis akun";
+"account label active until" = "Aktif hingga";
+"account action manage subscription" = "Kelola langganan";
+"account action why upgrade" = "Kenapa saya harus berlangganan?";
+"account subscription header renew" = "Perpanjang secara otomatis";
+"account subscription header payment method" = "Cara Pembayaran";
+"account subscription renew unsupported" = "Metode pembayaran yang Anda pakai tidak memungkinkan untuk mengatur proses pembaruan langganan secara otomatis.";
 
-"account unlock to show" = "Unlock to show your account ID";
+"account unlock to show" = "Unlock untuk melihat ID akun Anda";
 
-"account header logout" = "Restore purchase";
-"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
-"account id status unchanged" = "(unchanged)";
-"account action how to restore" = "How do I restore my old account?";
+"account header logout" = "Kembalikan pembelian";
+"account logout description" = "Silakan masukkan ID akun yang lain, atau kembali untuk menggunakan akun yang sudah ada (aplikasi ini tidak bisa digunakan tanpa akun).";
+"account id status unchanged" = "(tidak berubah)";
+"account action how to restore" = "Bagaimana cara memulihkan akun lama saya?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Hari Tersisa: %@";
+"account devices remaining" = "Perangkat tersisa:%@";
+"account devices not available" = "Tidak tersedia";
+"account devices out of" = "%@ dari %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease label devices list" = "Perangkat-perangkat ini terhubung dengan akun Anda.";
+"account lease label devices" = "Perangkat";
+"account lease label this device" = " (perangkat ini)";
+"account lease label name" = "Nama perangkat";
+"account lease label location" = "Lokasi";
+"account lease label generate" = "Memilih lokasi akan menghasilkan file config yang bisa Anda pakai di aplikasi VPN manapun yang mendukung protokol Wireguard. Hal ini berguna di platform yang belum didukung oleh Blokada (mis. Windows, Linux). Untuk Android dan iOS kami sarankan Anda untuk menggunakan aplikasi resmi kami.";
+"account lease action generate" = "Hasilkan file Config";
+"account lease action download" = "Unduh file Config";
+"account lease generated" = "Perangkat ditambahkan! Unduh file konfigurasi untuk menggunakannya di perangkat apa pun yang mendukung protokol Wireguard.";
+"account lease wireguard desc" = "Blokada menggunakan protokol Wireguard. Konfigurasi dapat diunduh saat menambahkan perangkat baru.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
+"account lease action dns" = "Pilih server DNS";
 "account lease label public key" = "Public Key";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Bagaimana kami dapat membantu Anda?";
+"account support action kb" = "Buka Knowledge Base";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Diaktifkan!";
+"payment activated description" = "Blokada sekarang akan masuk ke dalam mode Plus, dan menghubungkan perangkat Anda ke salah satu lokasi yang terlindungi. Jika Anda tidak yakin lokasi mana yang harus dipilih, kami sarankan Anda memilih lokasi terdekat.";
+"payment action choose location" = "Pilih lokasi";
+"payment action see locations" = "Lokasi Kami";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
-"payment alert error header" = "A message from App Store";
+"payment title" = "Upgrade ke layanan VPN kami, agar Anda tetap dapat mengendalikan *privasi Anda*.";
+"payment feature title change location" = "Ubah Lokasi";
+"payment feature desc change location" = "Sembunyikan IP address Anda agar terlihat seolah Anda berada di negara lain. Hal ini akan melindungi Anda dari pihak ketiga yang tidak bertanggungjawab, dan juga membantu melindungi identitas Anda.";
+"payment feature title encrypt data" = "Enkripsi Data";
+"payment feature desc encrypt data" = "Data yang dikirim melalui jalur VPN kami telah dienkripsi dengan algoritma yang kuat sehingga data Anda aman dari pihak-pihak yang tidak berkepentingan.";
+"payment feature title encrypt dns" = "Enkripsikan DNS";
+"payment feature desc encrypt dns" = "Tingkatkan privasi Anda dengan DNS terenkripsi. Blokada Cloud dengan protokol modern membantu menjaga privasi Anda.";
+"payment feature title performance" = "Kinerja yang mumpuni";
+"payment feature desc performance" = "Menjaga perangkat Anda tetap gegas dan koneksi internet Anda di kecepatan maksimal, berkat solusi Cloud baru dari kami.";
+"payment feature title battery" = "Tidak mempengaruhi daya tahan baterai";
+"payment feature desc battery" = "Baterai Anda tidak akan terpengaruh, bahkan mungkin akan lebih irit ketika Blokada Cloud diaktifkan.";
+"payment feature title devices cloud" = "Banyak Perangkat";
+"payment feature desc devices cloud" = "Konfigurasikan dan pantau semua perangkat Anda di satu tempat. Melalui aplikasi atau situs resmi kami.";
+"payment feature title cloud vpn" = "Blokada Cloud plus VPN";
+"payment feature desc cloud vpn" = "Selain keuntungan yang Anda dapatkan dari Blokada Cloud, Anda juga akan bisa mengkases jaringan VPN global kami";
+"payment feature title faster connection" = "Koneksi Lebih Cepat";
+"payment feature desc faster connection" = "Koneksi cepat sampai dengan 100Mbps dengan server yang berlokasi di berbagai tempat di dunia.";
+"payment feature title devices" = "Hingga 5 perangkat";
+"payment feature desc devices" = "Gunakan akun yang sama untuk berbagi langganan VPN Anda di 5 perangkat: iOS, Android, atau PC.";
+"payment feature title no ads" = "Blokir Iklan";
+"payment feature desc no ads" = "Gunakan teknologi pemblokiran iklan milik Blokada yang sudah terkenal untuk memblokir iklan di perangkat Anda. Tersedia pula pengaturan lebih lanjut.";
+"payment feature title support" = "Dukungan yang Hebat";
+"payment feature desc support" = "Dapatkan respon cepat untuk semua pertanyaan, yang dimungkinkan oleh staf Customer Support kami dan komunitas open source yang sangat aktif.";
+"payment action see all features" = "Lihat Semua Fitur";
+"payment action restore" = "Kembalikan Pembelian";
+"payment action terms and privacy" = "Syarat & Privasi";
+"payment action terms" = "Ketentuan Layanan";
+"payment action policy" = "Kebijakan Privasi";
+"payment alert error header" = "Sebuah pesan dari App Store";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Anda menghemat %@";
+"payment conversion note" = "Kami menerima mata uang Euro, dan tarif langganan yang ditampilkan hanya berupa perkiraan. Pengembalian uang bisa dilakukan jika bank Anda mengutip biaya admin terlalu tinggi.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
-"payment subscription offer" = "Save %@";
+"payment subscription 1 month" = "1 Bulan";
+"payment subscription many months" = "%@ bulan";
+"payment subscription per month" = "%@ per bulan";
+"payment subscription per year" = "%@ per tahun";
+"payment subscription per year then" = "kemudian %@ per tahun";
+"payment subscription offer" = "Hemat %@";
 
-"payment success label" = "Thanks!";
-"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+"payment success label" = "Terima kasih!";
+"payment success desc" = "Akun Anda telah aktif! Sekarang Anda dapat menggunakan semua fitur Blokada Plus di semua perangkat Anda.";
 
-"payment redirect label" = "Redirecting...";
-"payment redirect desc" = "Please wait. This should only take a moment.";
+"payment redirect label" = "Mengalihkan...";
+"payment redirect desc" = "Harap tunggu beberapa saat.";
 
-"payment ongoing title" = "Your payment is now being processed.";
-"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
+"payment ongoing title" = "Pembayaran Anda sedang diproses.";
+"payment ongoing desc" = "Pembayaran melalui kartu kredit biasanya hanya memerlukan waktu beberapa menit saja. Pembayaran melalui cryptocurrency bisa mencapai satu jam, tergantung pada jenis transaksi yang Anda pakai. PayPal bisa memakan waktu sampai 24 jam. Anda akan diarahkan saat akun Anda telah siap. Anda juga bisa menutup halaman ini, dan kembali lagi beberapa waktu kemudian. Jika menurut Anda transaksi ini memakan terlalu banyak waktu, silakan hubungi kami.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
-"payment action pay" = "Pay %@";
-"payment action pay period" = "Pay %@ each period";
+"payment change method" = "Ubah";
+"payment action pay" = "Bayar %@";
+"payment action pay period" = "Bayar %@ setiap periode";
 "payment label email" = "Email";
-"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
-"payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment crypto desc" = "Untuk membayar dengan dompet cryptocurrency Anda, ketuk tombol di bawah ini.";
+"payment label choose package" = "Pilih paket yang Anda inginkan";
+"payment label choose payment method" = "Pilih metode pembayaran";
+"payment label cheapest" = "Paling hemat";
+"payment label most popular" = "Paling populer";
+"payment label pay with card" = "Bayar dengan kartu kredit";
+"payment label pay with paypal" = "Bayar dengan PayPal";
+"payment label pay with crypto" = "Bayar menggunakan cryptocurrency";
+"payment package one month" = "1 Bulan";
+"payment package six months" = "6 Bulan";
+"payment package twelve months" = "12 Bulan";
+"payment label discount" = "Hemat %@ (%@ / bulan)";
+"payment label country" = "Negara";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
-"payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
+"payment euro desc" = "Kami berbasis di Eropa, mata uang yang kami terima berupa Euro: di mana €10 kira-kira senilai Rp170.000.";
+"payment donate disclaimer" = "Donasi yang Anda berikan tidak akan mengaktifkan akun Blokada Plus. Jika Anda ingin menggunakan layanan VPN kami, silakan pilih opsi berlangganan.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "Bandingkan paket langganan";
+"payment plan slugline cloud" = "Memblokir iklan & pelacak";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
+"payment plan slugline cloud detail" = "(termasuk Blokada Cloud)";
+"payment plan slugline plus" = "Perlindungan tambahan dengan VPN";
+"payment plan cta trial" = "Mulai Trial Gratis 7 Hari";
+"payment plan cta monthly" = "Langganan Bulanan";
+"payment plan cta annual" = "Langganan Tahunan";
 
-"location region worldwide" = "Everywhere";
-"location region america" = "America";
-"location region europe" = "Europe";
+"location region worldwide" = "Dimana saja";
+"location region america" = "Amerika";
+"location region europe" = "Eropa";
 "location region asia" = "Asia";
 "location region australia" = "Australia";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "Perangkat VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
-"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web vpn devices open action" = "Buka Perangkat VPN";
+"web action open setup" = "Buka Setup";
+"web cta plus header" = "Upgrade ke Blokada Plus supaya Anda bisa mengendalikan privasi Anda.";
+"web cta plus desc" = "Akun Libre memberi Anda fitur pemblokiran iklan gratis di perangkat Anda lewat aplikasi open source kami. Silakan upgrade ke Blokada PLus untuk perlindungan yang lebih baik lagi. Anda akan dapat menggunakan jaringan VPN global kami, dan juga fitur pemblokiran iklan *berbasis cloud* yang lebih efisien dan mudah digunakan.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Buat profil";
 
-"setup header" = "Setup";
-"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
-"setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup header" = "Pengaturan";
+"setup desc" = "Ada banyak cara untuk mengkonfigurasikan perangkat Anda agar bisa menggunakan Blokada Cloud. Pilih salah satu yang cocok untuk Anda.";
+"setup label which device" = "Apa jenis pernagkat yang ingin Anda atur untuk Blokada Cloud?";
+"setup label choose" = "Silakan pilih salah satu dari opsi pengaturan berikut:";
+"setup comment wireguard" = "Catatan: Konfigurasi VPN bawaan adalah Blokada Cloud. Silakan pilih pengaturan DNS lain jika Anda ingin menggunakan server lain. 'Wireguard' dan logo 'Wireguard' adalah merk dagang terdaftar milik Jason A. Donenfeld.";
 "setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "Langkah %@: %@";
+"setup option label recommended" = "Disarankan: %@";
+"setup option label alternative" = "Alternatif: %@";
+"setup name label unnamed" = "(tanpa nama)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "Beri nama perangkat Anda (opsional)";
+"setup step copy" = "Salin hostname";
+"setup step apply config" = "Terapkan konfigurasi baru";
+"setup step install" = "Instal dan mulai aplikasi";
+"setup step enter tag" = "Masukkan tag Anda ketika diminta";
+"setup step download profile" = "Buat dan unduh profil Anda";
+"setup step install wireguard" = "Instal dan nyalakan Wireguard";
 
-"stats header" = "Stats";
+"stats header" = "Statistik";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Perbandingan";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Permintaan";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Permintaan dalam periode waktu tertentu";
+"stats top allowed header" = "Permintaan teratas yang diizinkan";
+"stats top blocked header" = "Permintaan teratas yang diblokir";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
+"dnsprofile header" = "Aktifkan Blokada di Pengaturan";
+"dnsprofile desc" = "Di Pengaturan, cari Umum → Manajemen VPN, DNS, & Perangkat → DNS, kemudian pilih Blokada.";
+"dnsprofile action open settings" = "Buka Pengaturan";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated header" = "Sebentar lagi!";
+"activated desc" = "Hal-hal berikut diperlukan supaya Blokada bisa berjalan sebagaimana mestinya:";
+"activated desc all ok" = "Perangkat Anda sudah di-set up dan siap untuk digunakan:";
+"activated label account" = "Akun aktif (%@)";
+"activated label notif yes" = "Notifikasi diizinkan";
+"activated label notif no" = "Izinkan notifikasi";
+"activated label dns yes" = "Profil DNS diaktifkan";
+"activated label dns no" = "Aktifkan profil DNS";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "Izinkan koneksi VPN (hanya Blokada Plus)";
+"activated label vpn yes" = "Koneksi VPN diizinkan";
+"activated label vpn no" = "Izinkan VPN";
