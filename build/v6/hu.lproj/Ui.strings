@@ -1,0 +1,428 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "A Blokada DNS csak a Plus módban érhető el. Kérjük válasszon másik DNS-t és próbálja újra.";
+
+"universal action continue" = "Folytatás";
+"universal action cancel" = "Mégse";
+"universal action close" = "Bezárás";
+"universal action done" = "Kész";
+"universal action try again" = "Próbálja újra";
+"universal action learn more" = "További információ";
+"universal action help" = "Segítség";
+"universal action show log" = "Naplók";
+"universal action share log" = "Napló megosztása";
+"universal action copy" = "Másolás";
+"universal action save" = "Mentés";
+"universal action contact us" = "Kapcsolat";
+"universal action support" = "Támogatás";
+"universal action upgrade" = "BLOKADA+ csomagra váltás";
+"universal action upgrade short" = "Csomag nagyobb csomagra";
+"universal action yes" = "Igen";
+"universal action no" = "Nem";
+"universal action donate" = "Támogatás";
+"universal action community" = "Közösség";
+"universal action open in browser" = "Megnyitás böngészőben";
+"universal action more" = "Továbbiak";
+"universal action download" = "Letöltés";
+"universal action news" = "Hírek";
+"universal action delete" = "Törlés";
+"universal action hide" = "Elrejt";
+"universal action select" = "Kiválaszt";
+"universal action selected" = "Kijelölt";
+// A verb "to search in the list"
+"universal action search" = "Keresés";
+// A verb "to filter the list"
+"universal action filter" = "Filter";
+// A verb "to clear the list"
+"universal action clear" = "Törlés";
+// A verb "to revoke permissions"
+"universal action revoke" = "Visszavon";
+
+"universal label help" = "Segítség";
+"universal label welcome" = "Üdvözöljük!";
+// Common label when some feature has no setting
+"universal label none" = "Nincs";
+// Common label in tables for the Name column. Think "name of host".
+"universal label name" = "Név";
+// Common label in tables for the Time column. Think "time of event".
+"universal label time" = "Idő";
+// Common label in tables for the Count column. Think "number of items".
+"universal label count" = "Számláló";
+// Common label in tables for the Type column. Think "type of item".
+"universal label type" = "Típus";
+"universal label device" = "Készülék";
+
+"universal status processing" = "Feldolgozás... Kérjük, várj.";
+"universal status copied to clipboard" = "Vágólapra másolva";
+"universal status restart required" = "Kérjük indítsa újra az app-ot a módosítások érvénybe lépéséhez.";
+"universal status redirect" = "Folytatás a Blokada alkalmazással";
+"universal status confirm" = "Biztosan folytatja?";
+
+"alert error header" = "Hoppá!";
+"alert vpn expired header" = "BLOKADA+ lejárt";
+"alert download link body" = "Biztonsági okokból kifolyólag a fájl letöltéshez meg kell nyitnunk ezt az oldalt a böngészőben. Kérjük nyomjon újra a letöltés gombra.";
+
+"notification perms header" = "Engedélyezd az értesítéseket a Beállításokban";
+"notification perms desc" = "Ez a funkció értesítéseket igényel, kérjük, kapcsold be a Blokada-hoz.";
+"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+
+"notification vpn expired header" = "BLOKADA+ előfizetés lejárt";
+"notification vpn expired subtitle" = "VPN kikapcsolva";
+"notification vpn expired body" = "Kérjük frissítse előfizetését a BLOKADA+ további használatához";
+"notification desc settings" = "Húzza jobbra vagy balra az értesítéseket a beállításhoz.";
+
+"notification generic header" = "Blokada: Action required";
+"notification generic subtitle" = "Koppintson több információért";
+"notification generic body" = "Nyissa meg az appot a további részletekért.";
+
+// A short header in a notification shown when account expires
+"notification acc header" = "Subscription expired";
+"notification acc subtitle" = "Adblockolás kikapcsolva";
+"notification acc body" = "Kérjük újítsa meg előfizetését a Blokada további használatához.";
+
+"notification pause header" = "Blokada továbbra is szüneteltetve";
+"notification pause subtitle" = "Adblockolás szüneteltetve";
+"notification pause body" = "Please open the app to resume Blokada.";
+
+// Displayed in a notification title. Do not translate "Plus".
+"notification lease header" = "Blokada Plus kikapcsolva";
+
+"notification update header" = "Frissítés elérhető";
+"alert update body" = "A Blokada %@ letölthető. Ajánlott az app rendszeres frissítése, és csak a hivatalos forrásból való beszerzése.";
+"update label updated" = "Frissítve!";
+"update desc updated" = "Most már a legújabb Blokada verziót használja! Ne feledje, hogy a támogatások és előfizetések lehetővé teszik az app további fejlesztését.";
+"update downloading description" = "A frissítés letöltése megkezdődött, hamarosan megjelenik a telepítési felület.";
+
+"main share message" = "Az iOS-es Blokada segített nekem eddig %@ reklámot és trackert blokkolni!";
+
+"main rate us header" = "Értékelj minket!";
+"main rate us description" = "Eddig hogy tetszik a Blokada?";
+"main rate us on app store" = "Az App Store értékeléssel lenne kedved segíteni nekünk?";
+"main rate us action sure" = "Persze!";
+
+// Make sure each tab name has a similar length
+"main tab home" = "Kezdőlap";
+// Make sure each tab name has a similar length
+"main tab activity" = "Tevékenység";
+// Make sure each tab name has a similar length
+"main tab advanced" = "Haladó";
+// Make sure each tab name has a similar length
+"main tab settings" = "Beállítások";
+
+"home ads counter footnote" = "blokkolt reklámok és trackerek száma telepítés óta";
+"home power off menu header" = "Mit szeretnél tenni?";
+"home power action turn on" = "Bekapcsolás";
+"home power action turn off" = "Kikapcsolás";
+"home power action pause" = "Szünetelés 5 percig";
+
+"home status paused" = "Szünetelve";
+"home status active" = "Aktív";
+"home status deactivated" = "Deaktiválva";
+"home action tap to activate" = "Koppints az aktiváláshoz";
+"home status detail paused" = "Szünetel a számláló lejártáig";
+"home status detail active" = "*reklám* és *tracker* blokkolása";
+"home status detail active with counter" = "Blokkolva *%@* reklám és követő";
+"home status detail active slim" = "Blokada *Slim* aktív";
+"home status detail plus" = "*+* védelmezi a *magánéletedet*";
+"home status detail progress" = "Kérem várjon...";
+
+"home plus button deactivated" = "BLOKADA+ deaktiválva";
+"home plus button deactivated cloud" = "VPN deaktiválva";
+"home plus button select location" = "Hely kiválasztása";
+"home plus button location" = "Hely: *%@*";
+
+"pack section header" = "Speciális funkciók";
+"pack section header details" = "Jellemző Részletei";
+"pack action install" = "TELEPÍTÉS";
+"pack action update" = "FRISSÍTÉS";
+"pack action uninstall" = "ELTÁVOLÍTÁS";
+"pack author" = "Szerző";
+"pack configurations header" = "Konfigurációk";
+"pack information header" = "Továbbiak";
+"pack tags header" = "Címkék";
+"pack tags none" = "Nincs";
+"pack category highlights" = "Kiemelések";
+"pack category active" = "Aktív";
+"pack category all" = "Összes";
+
+"location choice header" = "Válassz ki egy helyet";
+
+"activity section header" = "Tevékenység";
+"activity section header details" = "Aktivitási részletek";
+"activity request blocked" = "Ez a kérelem blokkolásra került.";
+"activity request allowed" = "Ez a kérelem engedélyezésre került.";
+"activity request allowed whitelisted" = "Ez a kérelem engedélyezésre került, mert az Engedélyezett listádban szerepel";
+"activity request blocked blacklisted" = "Ez a kérelem blokkolásra került, mert a Blokkolt listádban szerepel";
+"activity request allowed list" = "Ez a kérelem engedélyezésre került, mert megtalálható a *%@* engedélyezetteinél.";
+"activity request allowed no list" = "Ez a kérés elfogadásra került, mivel nem található meg egyetlen blokklistádon sem.";
+"activity request blocked list" = "Ez a kérelem blokkolásra került, mert megtalálható a *%@* blokklistán.";
+"activity request blocked no list" = "Ez a kérés elutasításra került, mert nem található meg egyetlen engedélyezett listán sem.";
+"activity actions header" = "Műveletek";
+"activity information header" = "Információ";
+"activity action add to whitelist" = "Engedélyezetthez ad";
+"activity action remove from whitelist" = "Engedélyezettből eltávolít";
+"activity action added to whitelist" = "Engedélyezetthez adva";
+"activity action add to blacklist" = "Blokkolthoz ad";
+"activity action remove from blacklist" = "Blokkoltból eltávolít";
+"activity action added to blacklist" = "Blokkolthoz adva";
+"activity action copy to clipboard" = "Név másolása a vágólapra";
+"activity domain name" = "Teljes név";
+"activity time of occurrence" = "Idő";
+"activity number of occurrences" = "Események száma";
+// As in sentence, "this item has been modified"
+"activity state modified" = "módosítva";
+// As in sentence, "this host has been blocked"
+"activity state blocked" = "reklám szűrve";
+// As in sentence, "this host has been allowed"
+"activity state allowed" = "engedélyezve";
+"activity happened one time" = "1 alkalommal";
+"activity happened many times" = "%@ alkalommal";
+"activity category recent" = "Legutóbbi";
+"activity category top" = "Felül";
+"activity category top blocked" = "Legtöbbet blokkolt";
+"activity category top allowed" = "Legtöbbet engedélyezett";
+"activity filter header" = "Melyik bejegyzéseket szeretnéd látni?";
+"activity filter show all" = "Minden bejegyzés";
+"activity filter show blocked" = "Csak blokkolt";
+"activity filter show allowed" = "Csak engedélyezett";
+// A short message "Showing for: Device A"
+"activity filter showing for" = "Showing for: %@";
+"activity empty text" = "Próbálja használni eszközét, majd jöjjön vissza ha látja hogy hova csatlakozott.";
+"activity device filter show all" = "Minden eszköz";
+"activity retention header" = "Milyen sokáig tárolhatjuk tevékenységét?";
+"activity retention option none" = "Ne mentse az aktivitásomat";
+"activity retention option 24h" = "24 óra";
+"activity retention policy" = "A naplózás visszatartásának bekapcsolásával hozzájárul az adavédelmi politikához.";
+"activity retention desc" = "Blokada Cloud alapból nem naplóz semmit. Ha akarja látni a felhalmozott statisztikát és tevékenységet az eszközeiről, válassza ki az ennek megfelelő visszatartási periódust.";
+
+"userdenied section header" = "Kivételek";
+"userdenied section slugline" = "Kezelje az egyes oldalak blokkolását";
+// A section name for the list of hosts allowed by user
+"userdenied tab allowed" = "Engedélyezve";
+// A section name for the list of hosts blocked by user
+"userdenied tab blocked" = "Reklám szűrve";
+// A short one word action to allow a hostname.
+"userdenied action allow" = "Engedélyez";
+// A short one word action to block a hostname.
+"userdenied action block" = "Blokkolás";
+
+"account section header settings" = "Beállítások";
+"account status text" = "A BLOKADA %@ fiókod aktív eddig: %@.";
+"account status text inactive" = "Your BLOKADA account is inactive.";
+
+"account section header primary" = "Elsődleges";
+"account section header other" = "Other";
+"account action my account" = "Fiókom";
+"account action encryption" = "Encryption & DNS";
+"account action devices" = "Készülékek";
+"account action new device" = "Új készülék";
+"account action inbox" = "Bejövő";
+"account action logout" = "Restore purchase";
+"account action logout only" = "Kijelentkezés";
+"account action create" = "Generate new account";
+"account action about" = "Névjegy";
+"account action tap to show" = "Tap to show";
+"account action restoring" = "Restoring account: %@";
+"account label enter to continue" = "Add meg a fiókazonosítót a folytatáshoz";
+"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
+"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
+"account create confirm" = "I wrote it down";
+
+"account section header my subscription" = "Előfizetésem";
+"account section header general" = "Általános";
+"account section header subscription" = "Előfizetés";
+"account label id" = "Fiókazonosító";
+"account label type" = "Fiók típusa";
+"account label active until" = "Aktív eddig";
+"account action manage subscription" = "Előfizetés kezelése";
+"account action why upgrade" = "Miért kellene bővítenem?";
+"account subscription header renew" = "Renew automatically";
+"account subscription header payment method" = "Payment method";
+"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+
+"account unlock to show" = "Unlock to show your account ID";
+
+"account header logout" = "Restore purchase";
+"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
+"account id status unchanged" = "(változatlan)";
+"account action how to restore" = "How do I restore my old account?";
+
+"account subscription days remaining" = "Days remaining: %@";
+"account devices remaining" = "Devices remaining: %@";
+"account devices not available" = "Not available";
+"account devices out of" = "%@ out of %@";
+
+"account lease label devices list" = "These devices are connected to your account.";
+"account lease label devices" = "Készülékek";
+"account lease label this device" = " (ez a készülék)";
+"account lease label name" = "Készülék neve";
+"account lease label location" = "Location";
+"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
+"account lease action generate" = "Generate Config";
+"account lease action download" = "Download Config";
+"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
+"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease label dns" = "DNS";
+"account lease action dns" = "Choose a DNS";
+"account lease label public key" = "Nyilvános kulcs";
+
+"account support action how help" = "Hogyan segíthetünk?";
+"account support action kb" = "Open Knowledge Base";
+
+"payment header activated" = "Aktiválva!";
+"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
+"payment action choose location" = "Válassz ki egy helyet";
+"payment action see locations" = "Our Locations";
+
+"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
+"payment feature title change location" = "Hely módosítása";
+"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
+"payment feature title encrypt data" = "Adatok titkosítása";
+"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
+"payment feature title encrypt dns" = "Titkosított DNS";
+"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
+"payment feature title performance" = "Great Performance";
+"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
+"payment feature title battery" = "Zero Battery Impact";
+"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
+"payment feature title devices cloud" = "Multiple Devices";
+"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
+"payment feature title cloud vpn" = "The Cloud plus VPN";
+"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature title faster connection" = "Gyorsabb csatlakozás";
+"payment feature desc faster connection" = "Gyors csatlakozás az akár 100 Mbit/s sebességű szerverekhez, szerte a világon.";
+"payment feature title devices" = "Akár 5 eszköz";
+"payment feature desc devices" = "Ugyanazon fiók használatával megoszthatod előfizetésed legfeljebb öt készülék között: iOS, Android, vagy PC.";
+"payment feature title no ads" = "Block Ads";
+"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
+"payment feature title support" = "Great Support";
+"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
+"payment action see all features" = "Összes funkció megtekintése";
+"payment action restore" = "Vásárlások visszaállítása";
+"payment action terms and privacy" = "Terms & Privacy";
+"payment action terms" = "Felhasználási feltételek";
+"payment action policy" = "Adatvédelmi irányelvek";
+"payment alert error header" = "A message from App Store";
+// As in saving money: You are saving $5
+"payment save text" = "You are saving %@";
+"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+
+"payment subscription 1 month" = "1 hónap";
+"payment subscription many months" = "%@ hónap";
+"payment subscription per month" = "%@ havonta";
+"payment subscription per year" = "%@ per year";
+"payment subscription per year then" = "then %@ per year";
+"payment subscription offer" = "%@ spórolása";
+
+"payment success label" = "Köszönjük!";
+"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+
+"payment redirect label" = "Redirecting...";
+"payment redirect desc" = "Please wait. This should only take a moment.";
+
+"payment ongoing title" = "Your payment is now being processed.";
+"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
+"payment pay google short" = "Google Pay";
+"payment pay apple short" = "Apple Pay";
+"payment change method" = "Módosítás";
+"payment action pay" = "Pay %@";
+"payment action pay period" = "Pay %@ each period";
+"payment label email" = "Email";
+"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
+"payment label choose package" = "Choose your package";
+"payment label choose payment method" = "Choose your payment method";
+"payment label cheapest" = "Cheapest";
+"payment label most popular" = "Most popular";
+"payment label pay with card" = "Bankártyás fizetés";
+"payment label pay with paypal" = "Fizetés PayPal segítségével";
+"payment label pay with crypto" = "Pay with crypto";
+"payment package one month" = "1 hónap";
+"payment package six months" = "6 hónap";
+"payment package twelve months" = "12 hónap";
+"payment label discount" = "Save %@ (%@ / mo)";
+"payment label country" = "Country";
+
+"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
+"payment donate disclaimer" = "This won't activate your Blokada Plus account. If you wish to use our VPN service, please subscribe instead of donating.";
+
+"payment action compare" = "Compare plans";
+"payment plan slugline cloud" = "Blocks ads and trackers";
+// A short information that Plus plan contains Cloud also.
+"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
+"payment plan slugline plus" = "Additional protection with VPN";
+"payment plan cta trial" = "Start 7-Day Free Trial";
+"payment plan cta monthly" = "Subscribe Monthly";
+"payment plan cta annual" = "Subscribe Annually";
+
+"location region worldwide" = "Everywhere";
+"location region america" = "America";
+"location region europe" = "Europe";
+"location region asia" = "Asia";
+"location region australia" = "Australia";
+
+"web vpn devices header" = "VPN Devices";
+// A button to open section called "VPN Devices"
+"web vpn devices open action" = "Open VPN Devices";
+"web action open setup" = "Open setup";
+"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
+"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+// A short word for a button to generate profile
+"web action generate" = "Generálás";
+
+"setup header" = "Setup";
+"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
+"setup label which device" = "What type of device you wish to set up?";
+"setup label choose" = "Choose any of the following setup options:";
+"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
+// A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
+"setup step" = "Step %@: %@";
+"setup option label recommended" = "Recommended: %@";
+"setup option label alternative" = "Alternative: %@";
+"setup name label unnamed" = "(unnamed)";
+
+"setup step name" = "Name your device (optional)";
+"setup step copy" = "Copy your hostname";
+"setup step apply config" = "Apply the new configuration";
+"setup step install" = "Install and start our app";
+"setup step enter tag" = "When asked, enter your tag";
+"setup step download profile" = "Generate and download your profile";
+"setup step install wireguard" = "Install and start WireGuard";
+
+"stats header" = "Stats";
+// A ratio between counter of allowed vs denied requests.
+"stats ratio header" = "Ratio";
+// A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
+"stats requests header" = "Requests";
+// A subheader for the chart that display the number of requests over time. Can be a bit longer.
+"stats requests subheader" = "Queries over time";
+"stats top allowed header" = "Top allowed requests";
+"stats top blocked header" = "Top blocked requests";
+
+"dnsprofile header" = "Enable Blokada in Settings";
+"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
+"dnsprofile action open settings" = "Open Settings";
+
+// A short header text displayed to user when permissions still have to be granted. Keep it very short.
+"activated header" = "Almost there!";
+"activated desc" = "The following is necessary for Blokada to work as expected:";
+"activated desc all ok" = "Your device is all set up and good to go:";
+"activated label account" = "Account is active (%@)";
+"activated label notif yes" = "Notifications are allowed";
+"activated label notif no" = "Allow notifications";
+"activated label dns yes" = "DNS profile is activated";
+"activated label dns no" = "Activate DNS profile";
+// Displayed when user does not have Plus account. Do not translate "Plus".
+"activated label vpn cloud" = "Allow VPN (Plus only)";
+"activated label vpn yes" = "VPN is allowed";
+"activated label vpn no" = "Allow VPN";

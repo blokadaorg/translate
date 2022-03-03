@@ -1,0 +1,113 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "Blokada DNS hiện chỉ được hỗ trợ ở chế độ Plus. Vui lòng chọn một DNS khác và thử lại.";
+
+"account active forever" = "Mãi mãi";
+"account active forever full" = "Kích hoạt mãi mãi";
+
+"main ask for permissions header" = "Chỉ một bước nữa";
+"main ask for permissions description" = "Blokada đang sử dụng Cấu hình VPN để chặn quảng cáo. Bạn sẽ được yêu cầu cho phép nó trong bước tiếp theo.";
+
+"home level low" = "Bảo vệ: Thấp";
+"home level medium" = "Bảo vệ: Vừa";
+"home level high" = "Bảo vệ: Cao";
+
+"advanced section header packs" = "Danh sách chặn";
+"advanced section slugline packs" = "Kích hoạt để chặn hạn chế hơn";
+"advanced section slugline apps" = "Chọn các ứng dụng không bao giờ bị chặn";
+"advanced section slugline encryption" = "Điều chỉnh mức mã hóa và DNS của bạn";
+"advanced action slim migrate to full" = "Bạn đang sử dụng Blokada Slim. Tìm hiểu thêm";
+
+"networks section header" = "Mạng";
+"networks section label" = "Điều chỉnh cài đặt cho WiFi và mạng di động";
+"networks label all networks" = "Tất cả các mạng";
+"networks action network specific" = "Nhấn vào đây để sửa đổi cài đặt mặc định. Để làm cho ứng dụng hoạt động khác nhau trên một số mạng, hãy nhấn vào bên dưới.";
+"networks label configuration active" = "Các cài đặt này hiện đang hoạt động";
+"networks label configuration enabled" = "Không được kết nối với mạng này";
+"networks label configuration inactive" = "Nhấn để sửa đổi cài đặt cho mạng này";
+"networks label details default network" = "Các cài đặt bên dưới được áp dụng theo mặc định cho tất cả các mạng. Bạn có thể ghi đè chúng cho các mạng đã chọn (trong màn hình trước đó).";
+"networks action encrypt dns" = "Mã hóa DNS";
+"networks action use dns" = "Sử dụng DNS: %@";
+"networks action use network dns" = "Mạng DNS ưu tiên";
+"networks action force libre mode" = "Chế độ bắt buộc Libre";
+"networks label specific network" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng này.";
+"networks label specific network type" = "Điều chỉnh những gì sẽ xảy ra khi thiết bị của bạn kết nối với mạng loại này.";
+"networks label any wifi" = "Bất kỳ mạng WiFi nào";
+"networks label any mobile" = "Bất kỳ mạng di động nào";
+"networks permission request" = "Để có nhiều quyền kiểm soát hơn, hãy nhấn vào đây và để ứng dụng nhận dạng tất cả các mạng.";
+"networks permission request granted" = "Bạn có thể thấy thông báo khi Blokada đọc tên mạng của bạn trong nền.";
+"networks section choose dns" = "Chọn DNS";
+"networks summary encrypt dns" = "Blokada sẽ mã hóa DNS nếu có thể. Điều này cải thiện tính bảo mật của bạn và ngăn chặn các tác nhân độc hại theo dõi những trang web và ứng dụng bạn sử dụng.";
+"networks summary use dns" = "Blokada sẽ sử dụng %@ làm DNS của thiết bị của bạn. Chọn một trong những cái cho phép mã hóa (có biểu tượng khóa) và gần bạn, sẽ giúp bảo vệ dữ liệu của bạn và làm cho kết nối của bạn nhanh chóng hơn.";
+"networks summary network dns" = "Blokada sẽ sử dụng DNS của mạng nếu có sẵn hoặc chuyển sang %@ nếu cần. Ngoài ra, cài đặt Mã hóa DNS sẽ bị bỏ qua bất cứ khi nào DNS mạng được sử dụng. Sử dụng DNS của mạng giúp khắc phục sự cố kết nối trên các mạng rắc rối, nhưng khiến bạn không được bảo vệ.";
+"networks summary network dns and plus mode" = "Blokada sẽ tạm thời tắt Chế độ Plus bất cứ khi nào DNS mạng được sử dụng. Điều này là do không thể truy cập DNS mạng trong VPN. Chế độ Plus sẽ tự động được khôi phục khi thiết bị của bạn chuyển sang mạng khác.";
+"networks summary blocka plus mode" = "Blokada sẽ sử dụng Blokada DNS ở chế độ Plus, để đảm bảo tốc độ và mã hóa cao. Bạn có thể thay đổi cài đặt này ở cuối màn hình Chọn DNS.";
+"networks summary force libre mode" = "Blokada sẽ luôn sử dụng chế độ Libre trên mạng này và bỏ qua vị trí Blokada Plus của bạn. Điều này hữu ích cho các mạng mà bạn không muốn có thêm biện pháp bảo vệ.";
+"networks permission dialog" = "Blokada có thể nhận ra các mạng bạn kết nối và cho phép bạn định cấu hình các cài đặt riêng biệt cho chúng. Tuy nhiên, ứng dụng này sẽ thu thập dữ liệu vị trí dưới dạng tên mạng để kích hoạt tính năng này, ngay cả khi ứng dụng đã đóng hoặc không sử dụng. Đôi khi bạn có thể thấy thông báo của hệ thống về quyền truy cập vị trí - Blokada sẽ chỉ đọc tên mạng.";
+
+"account status text libre" = "Tài khoản BLOKADA Libre của bạn sẽ hoạt động mãi mãi.";
+
+"account encrypt level low" = "Thấp";
+"account encrypt level medium" = "Vừa";
+"account encrypt level high" = "Cao";
+"account encrypt label dns only" = "Đang mã hóa DNS";
+"account encrypt desc dns only" = "Hệ thống tên miền là cách thiết bị của bạn biết nơi để tìm các trang web bạn muốn truy cập. Thật không may, hầu hết Internet vẫn sử dụng DNS không được mã hóa, điều này khiến lịch sử duyệt web của bạn có nguy cơ bị theo dõi. Khi được bật, Blokada buộc thiết bị của bạn chỉ kết nối với các máy chủ DNS được mã hóa (còn được gọi là DNS qua HTTPS).";
+"account encrypt label everything" = "Kết nối qua VPN";
+"account encrypt desc everything" = "Thiết bị của bạn đang kết nối thông qua các máy chủ VPN an toàn của chúng tôi và tất cả thông tin liên lạc đến từ hoặc tới, thiết bị của bạn đang được mã hóa bằng các thuật toán mạnh. Điều này bảo vệ thông tin cá nhân của bạn, chẳng hạn như chi tiết ngân hàng hoặc ảnh cá nhân, khỏi bị đánh cắp ở những nơi không an toàn, chẳng hạn như WiFi ở quán cà phê.";
+"account encrypt action turn on" = "Bật BLOKADA";
+"account encrypt header level" = "Mức độ mã hóa";
+"account encrypt label level" = "Mức độ";
+"account encrypt label level low" = "Thấp: Không có mã hóa";
+"account encrypt label level medium" = "Vừa: Có mã hóa DNS";
+"account encrypt label level high" = "Cao: Mã hóa mọi thứ";
+"account encrypt header explanation" = "DNS là cách thiết bị của bạn biết nơi để tìm các trang web. BLOKADA chỉ hỗ trợ các máy chủ được mã hóa.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS là gì?";
+"account encrypt section header" = "Mã hóa";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Dùng Blokada DNS trong Chế độ Plus";
+
+"apps section header" = "Ứng dụng";
+"apps label installed" = "Đã cài đặt";
+"apps label system" = "Hệ thống";
+"apps status bypassed" = "(đã bỏ qua)";
+"apps filter header" = "Bạn muốn xem ứng dụng nào?";
+"apps filter action show all" = "Tất cả ứng dụng";
+"apps filter action show bypassed" = "Chỉ đã bỏ qua";
+"apps filter action show not bypassed" = "Chỉ chưa được bỏ qua";
+"apps filter action toggle system" = "Chuyển đổi tất cả các ứng dụng hệ thống";
+
+"app settings section header" = "Thiết bị này";
+"app settings language label" = "Ngôn ngữ";
+"app settings theme label" = "Chủ đề ứng dụng";
+"app settings theme light" = "Sáng";
+"app settings theme dark" = "Tối";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Chuyển hướng liên kết đến";
+"app settings browser internal" = "Trình duyệt nội bộ";
+"app settings browser external" = "Trình duyệt bên ngoài (nếu có)";
+"app settings ipv6 label" = "Cho phép IPv6";
+"app settings section system" = "Hệ thống";
+"app settings action app info" = "Mở Thông tin Ứng dụng";
+"app settings action vpn profile" = "Mở Hồ sơ VPN";
+"app settings action notifications" = "Mở cài đặt thông báo";
+"app settings section details" = "Chi tiết";
+"app settings status default" = "Mặc định hệ thống";
+"app settings start on boot" = "Bắt đầu khi khởi động";
+"app settings use dns over https" = "Dùng DNS qua HTTPS";
+"app settings backup" = "Dùng sao lưu đám mây";
+"app settings section advanced" = "Nâng cao";
+"app settings section use foreground" = "Giữ kích hoạt";
+
+"intro header" = "Blokada đang Hoạt động!";
+"intro text" = "Vòng màu xanh có nghĩa là Blokada đang hoạt động.\n\nHãy nhớ rằng, một số quảng cáo, như YouTube, không thể bị chặn. Tuy nhiên, bạn sẽ nhận thấy sự khác biệt trong nhiều ứng dụng khác.\n\nChúng tôi khuyên bạn nên kích hoạt Luôn bật VPN / Kết nối theo yêu cầu trong cài đặt hệ thống của mình.";

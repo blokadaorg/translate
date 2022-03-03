@@ -1,0 +1,114 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "שירות הDNS של Blokada נתמך כעת רק במצב פלוס. אנא בחרו שירות DNS אחר ונסו שוב.";
+
+"account active forever" = "לתמיד";
+"account active forever full" = "פעיל לנצח";
+
+"main ask for permissions header" = "רק עוד שלב אחד";
+"main ask for permissions description" = "Blokada משתמשת בהגדרות VPN כדי לחסום פרסומות. אתם תתבקשו לאשר זאת בשלב הבא.";
+
+"home level low" = "הגנה: חלשה";
+"home level medium" = "הגנה: בינונית";
+"home level high" = "הגנה: חזקה";
+
+"advanced section header packs" = "רשימות חסימה";
+"advanced section slugline packs" = "הפעילו עבור חסימה יותר נוקשה";
+"advanced section slugline apps" = "בחרו יישומים שלא יחסמו לעולם";
+"advanced section slugline encryption" = "התאימו את רמת ההצפנה והDNS";
+"advanced action slim migrate to full" = "אתם משתמשים בBlokada Slim. למדו עוד";
+
+"networks section header" = "רשתות";
+"networks section label" = "התאם הגדרות לרשתות WiFi ורשתות סלולריות";
+"networks label all networks" = "כל הרשתות";
+"networks action network specific" = "הקש כאן לשינוי הגדרות ברירת המחדל. כדי לגרום ליישום להתנהג אחרת ברשתות מסוימות, הקש מטה.";
+"networks label configuration active" = "הגדרות אלו פעילות כרגע";
+"networks label configuration enabled" = "לא מחובר לרשת זו";
+"networks label configuration inactive" = "הקש לשינוי הגדרות עבור רשת זו";
+"networks label details default network" = "הגדרות שלהלן מוחלות כברירת מחדל בכל הרשתות. ניתן לעקוף אותן עבור רשתות נבחרות (במסך הקודם).";
+"networks action encrypt dns" = "הצפן DNS";
+"networks action use dns" = "משתמש ב־DNS: %@";
+"networks action use network dns" = "העדף רשת DNS";
+"networks action force libre mode" = "כפה מצב Libre";
+"networks label specific network" = "התאם מה יקרה כאשר מכשירך יתחבר לרשת זו.";
+"networks label specific network type" = "התאם מה יקרה כאשר מכשירך יתחבר לרשת מסוג זה.";
+"networks label any wifi" = "כל רשת WiFi";
+"networks label any mobile" = "כל רשת סלולרית";
+"networks permission request" = "לקבלת שליטה רבה יותר, הקש כאן ותן ליישום לזהות את כל הרשתות.";
+"networks permission request granted" = "ייתכן שתראה התראה כאשר Blokada קורא את שם הרשת שלך ברקע.";
+"networks section choose dns" = "בחר DNS";
+"networks summary encrypt dns" = "Blokada תצפין DNS במידת האפשר. זה משפר את האבטחה שלך ומונע מגורמים זדוניים לרגל באילו אתרים ויישומים הנך משתמש.";
+"networks summary use dns" = "Blokada תשתמש ב־%@ כ־DNS של מכשירך. בחירה באופציה המאפשרת הצפנה (בעלת סמל מנעול) ואשר קרובה אליך, תעזור להגן על הנתונים שלך ולהפוך את החיבור שלך למהיר.";
+"networks summary network dns" = "Blokada תשתמש ב־DNS של הרשת אם הוא זמין, אחרת תעבור ל־%@. כמו כן, היישום יתעלם מהגדרות הצפנת ה־DNS בכל פעם שנעשה שימוש ב־DNS של הרשת. השימוש ב־DNS של הרשת עוזר לתקן בעיות קישוריות ברשתות בעייתיות, אך משאיר אותך לא מוגן.";
+"networks summary network dns and plus mode" = "Blokada תשבית באופן זמני את מצב Plus בכל פעם שנעשה שימוש ב־DNS של הרשת. הסיבה לכך היא שלא ניתן לקבל גישה ל־DNS של הרשת במצב VPN. מצב Plus יחזור לפעול אוטומטית כאשר המכשיר יעבור לרשת אחרת.";
+"networks summary blocka plus mode" = "Blokada תשתמש ב־Blokada DNS במצב Plus, כדי להבטיח הצפנה ומהירות גבוהה. תוכל לשנות הגדרה זו בתחתית מסך בחירת DNS.";
+"networks summary force libre mode" = "Blokada תמיד תשתמש במצב Libre ברשת זו ותתעלם ממיקום Blokada Plus שלך. זה שימושי עבור רשתות בהן אינך מעוניין בהגנה נוספת.";
+"networks permission dialog" = "Blokada יכולה לזהות רשתות שאליהן אתה מתחבר ולאפשר לך לכוון הגדרות נפרדות עבורן. עם זאת, יישום זה יאסוף נתוני מיקום כגון שם הרשת כדי לאפשר תכונה זו, גם כאשר היישום סגור או שאינו בשימוש. לפעמים אתה עשוי לראות הודעת מערכת על גישה למיקום – Blokada תקרא רק את שם הרשת.";
+
+"account status text libre" = "מנוי הBLOKADA Libre שלכם פעיל לנצח.";
+
+"account encrypt level low" = "חלש";
+"account encrypt level medium" = "בינוני";
+"account encrypt level high" = "גבוהה";
+"account encrypt label dns only" = "מצפין DNS";
+"account encrypt desc dns only" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן למצוא אתרים שברצונכם לבקר בהם.
+לרוע המזל, רוב האינטרנט עדיין משתמש בDNS שאינו מוצפן, מה שיכול לגורם להיסטוריית הגלישה שלכם להיות בסיכון מפני מעקב. כאשר אופציה זו מופעלת, Blokada מכריחה את המכשיר שלכם להתחבר רק לשרתי DNS מוצפנים (נקרא גם DNS מעל HTTPS).";
+"account encrypt label everything" = "מתחבר דרך VPN";
+"account encrypt desc everything" = "המכשיר שלכם מתחבר דרך שרתי הVPN המאובטחים שלנו, כל התקשורת שמגיעה, ואו יוצאת ממכשירכם מוצפנת בעזרת אלגוריתמים חזקים. זה מגן על המידע האישי שלכם, כמו פרטי בנק או תמונות אישיות מגניבה במקומות לא מאובטחים, כמו רשתות wifi לא מוכרות.";
+"account encrypt action turn on" = "הפעל את BLOKADA";
+"account encrypt header level" = "רמת הצפנה";
+"account encrypt label level" = "רמה";
+"account encrypt label level low" = "חלש: אינו מוצפן";
+"account encrypt label level medium" = "בינוני: מצפין DNS";
+"account encrypt label level high" = "גבוה: מצפין הכול";
+"account encrypt header explanation" = "DNS זו הדרך שבה המכשיר שלכם יודע היכן ממוקמים אתרים. BLOKADA תומך רק בשרתים מוצפנים.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "מה זה DNS?";
+"account encrypt section header" = "הצפנה";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "השתשמו בBlokada DNS במצב פלוס";
+
+"apps section header" = "יישומים";
+"apps label installed" = "מותקן";
+"apps label system" = "מערכת";
+"apps status bypassed" = "(נעקף)";
+"apps filter header" = "אילו יישומים ברצונכם לראות?";
+"apps filter action show all" = "כל היישומים";
+"apps filter action show bypassed" = "רק אלו שנעקפו";
+"apps filter action show not bypassed" = "רק אלו שלא נעקפו";
+"apps filter action toggle system" = "הצג את כלל יישומי המערכת";
+
+"app settings section header" = "מכשיר זה";
+"app settings language label" = "שפה";
+"app settings theme label" = "עיצוב היישום";
+"app settings theme light" = "בהיר";
+"app settings theme dark" = "כהה";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "מפנה קישורים ל";
+"app settings browser internal" = "דפדפן פנימי";
+"app settings browser external" = "דפדפן חיצוני (אם אפשרי)";
+"app settings ipv6 label" = "אפשר IPv6";
+"app settings section system" = "מערכת";
+"app settings action app info" = "הצג מידע על היישום";
+"app settings action vpn profile" = "פתח את פרופיל הVPN";
+"app settings action notifications" = "פתח את הגדרות ההתראה";
+"app settings section details" = "פרטים";
+"app settings status default" = "ברירת המחדל של המערכת";
+"app settings start on boot" = "הפעל בעת הדלקת המכשיר";
+"app settings use dns over https" = "הפעל DNS מעל HTTPS";
+"app settings backup" = "הפעל גיבוי לענן";
+"app settings section advanced" = "מתקדם";
+"app settings section use foreground" = "השאר בחיים";
+
+"intro header" = "Blokada פעיל!";
+"intro text" = "טבעת כחולה אומרת שBlokada עובד.\n\nזכרו, חלק מהפרסומות, כמו יוטיוב, לא יכולות להיחסם. עם זאת, אתם תחוו שינוי בהמון יישומים אחרים.\n\nאנו ממליצים להפעיל VPN תמידי או VPN בעת הצורך בהגדרות המערכת שלכם.";

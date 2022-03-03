@@ -1,0 +1,113 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "Blokada DNS 目前仅在 Plus 模式中支持。请选择另一个DNS 然后重试。";
+
+"account active forever" = "长久生效";
+"account active forever full" = "永久激活";
+
+"main ask for permissions header" = "仅需一两步";
+"main ask for permissions description" = "Blokada正在使用 VPN 配置来屏蔽广告。需要您在下一步中允许它。";
+
+"home level low" = "保护级别：低";
+"home level medium" = "保护级别：中";
+"home level high" = "保护级别：高";
+
+"advanced section header packs" = "屏蔽列表";
+"advanced section slugline packs" = "激活后屏蔽更严格";
+"advanced section slugline apps" = "选择不想屏蔽的应用";
+"advanced section slugline encryption" = "调整加密等级和 DNS";
+"advanced action slim migrate to full" = "您正在使用 Blokada Slim。了解更多";
+
+"networks section header" = "网络";
+"networks section label" = "修改WIFI和移动网络的设置";
+"networks label all networks" = "所有网络";
+"networks action network specific" = "点击此处修改默认设置。要使应用在某些网络上的行为不同，请点击下方。";
+"networks label configuration active" = "这些设置当前处于活动状态";
+"networks label configuration enabled" = "未连接到此网络";
+"networks label configuration inactive" = "点击修改此网络的设置";
+"networks label details default network" = "下面的设置默认适用于所有网络。您可以覆盖选定的网络 (在上一个屏幕)。";
+"networks action encrypt dns" = "加密DNS";
+"networks action use dns" = "使用 DNS： %@";
+"networks action use network dns" = "首选网络 DNS";
+"networks action force libre mode" = "强制Libre 模式";
+"networks label specific network" = "修改设备连接到此网络时应发生的事情。";
+"networks label specific network type" = "修改设备连接到此类型网络时应发生的事情。";
+"networks label any wifi" = "任何 WiFi 网络";
+"networks label any mobile" = "任何移动网络";
+"networks permission request" = "若要更多控制，请点击此处，然后让应用程序识别所有网络。";
+"networks permission request granted" = "当Blokada在后台读取您的网络名称时，您可能会看到一个通知。";
+"networks section choose dns" = "选择DNS";
+"networks summary encrypt dns" = "如果可能，Blokada将加密DNS。这将提高您的安全性，防止来自您正使用的网站和应用程序的恶意行为。";
+"networks summary use dns" = "Blokada将使用 %@ 作为您设备的DNS。 选择一个靠近您的，可用的加密服务器(带锁形图标)，这将有助于保护您的数据并使您的连接更快。";
+"networks summary network dns" = "如果可用，Blokada将使用网络DNS，否则将切换到 %@ 。 此外，当使用网络DNS时，将忽略加密的DNS设置。 使用网络 DNS有助于修复网络连接故障，但将无法保护您。";
+"networks summary network dns and plus mode" = "当网络DNS被使用时，Blokada将暂时禁用+模式。这是因为在VPN中无法访问网络DNS。 当您的设备切换到另一个网络时，Plus模式将自动恢复。";
+"networks summary blocka plus mode" = "在 Plus 模式中，Blokada将使用 Blokada DNS 来确保高加密等级和速度。 您可以在选择DNS屏幕底部更改此设置。";
+"networks summary force libre mode" = "在此网络上，Blokada将总是使用Libre模式，并且忽略您的 Blokada Plus位置。 这对于您不想要额外保护的网络是有用的。";
+"networks permission dialog" = "Blokada可以识别您连接的网络，并允许您为它们配置单独的设置。 然而，此应用将以网络名称的形式收集位置数据以启用此功能， 即使应用程序已关闭或未被使用。 有时您可能会看到一个关于位置访问的系统通知 - Blokada 将只读取网络名称。";
+
+"account status text libre" = "您的 BLOKADA Libre 帐户一直处于活动状态，直到永久。";
+
+"account encrypt level low" = "低";
+"account encrypt level medium" = "中";
+"account encrypt level high" = "高";
+"account encrypt label dns only" = "正在加密DNS";
+"account encrypt desc dns only" = "域名系统是您的设备如何知道在哪里查找您想访问的网站。 不幸的是，大多数互联网仍然使用未加密的DNS，这使您的浏览历史面临被掩埋的风险。 启用时，Blokada强制您的设备仅连接到加密的DNS服务器(也通过 HTTPS 调用DNS)。";
+"account encrypt label everything" = "正在通过 VPN 连接";
+"account encrypt desc everything" = "您的设备正在通过我们安全的 VPN 服务器连接，来自或到您设备的所有通信正在使用强大的算法进行加密。 这将保护您的个人信息，例如银行细节或个人照片，免于在不安全的地方被盗，例如咖啡店WiFi。";
+"account encrypt action turn on" = "打开 BLOKADA";
+"account encrypt header level" = "加密级别";
+"account encrypt label level" = "级别";
+"account encrypt label level low" = "低：无加密";
+"account encrypt label level medium" = "中级：加密DNS";
+"account encrypt label level high" = "高级：加密所有";
+"account encrypt header explanation" = "DNS 是您的设备如何知道在哪里查找网站。BLOKADA 只支持加密的服务器。";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "什么是 DNS？";
+"account encrypt section header" = "加密";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "在Plus模式下使用 Blokada DNS";
+
+"apps section header" = "应用程序";
+"apps label installed" = "已安装";
+"apps label system" = "系统";
+"apps status bypassed" = "(免予屏蔽)";
+"apps filter header" = "您想看到哪个应用？";
+"apps filter action show all" = "所有应用";
+"apps filter action show bypassed" = "仅免予屏蔽的应用";
+"apps filter action show not bypassed" = "除免予屏蔽的之外";
+"apps filter action toggle system" = "选中/取消选中所有系统应用";
+
+"app settings section header" = "此设备";
+"app settings language label" = "语言";
+"app settings theme label" = "应用主题";
+"app settings theme light" = "轻亮色调";
+"app settings theme dark" = "暗黑色调";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "重定向到";
+"app settings browser internal" = "内置浏览器";
+"app settings browser external" = "外部浏览器(如果可能)";
+"app settings ipv6 label" = "允许 IPv6";
+"app settings section system" = "系统";
+"app settings action app info" = "打开应用信息";
+"app settings action vpn profile" = "打开 VPN 配置文件";
+"app settings action notifications" = "打开通知设置";
+"app settings section details" = "详细信息";
+"app settings status default" = "系统默认";
+"app settings start on boot" = "开机自启动";
+"app settings use dns over https" = "在 HTTPS 上使用DNS";
+"app settings backup" = "使用云备份";
+"app settings section advanced" = "高级选项";
+"app settings section use foreground" = "常驻通知栏";
+
+"intro header" = "Blokada 正在运行！";
+"intro text" = "蓝色环意味着Blokada正在工作。\n\n记住，一些广告，如YouTube，不能被屏蔽。 然而，您将注意到许多其他应用中的差异。\n\n我们建议您在系统设置中始终启用 VPN / 连接需求。";

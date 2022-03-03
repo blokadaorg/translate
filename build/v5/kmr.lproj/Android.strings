@@ -1,0 +1,113 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "Blokada DNS niha tenê di moda Plus de tê piştgirî kirin. Ji kerema xwe DNS eke din hilbijêre û dîsa biceribîne.";
+
+"account active forever" = "Heta hetayê";
+"account active forever full" = "Çalak e herdem";
+
+"main ask for permissions header" = "Tenê gavek din";
+"main ask for permissions description" = "Blokada ji bo astengkirina reklaman Mîfîgona VPN bi kar tîne. Ji we tê xwestin ku di pêngava pêş de destûrê bidin.";
+
+"home level low" = "Parastin: Nizm";
+"home level medium" = "Parastin: Navîn";
+"home level high" = "Parastin: Bilind";
+
+"advanced section header packs" = "Lîsteya Astengker";
+"advanced section slugline packs" = "Ji bo astengkirina bêtir astengker çalak bikin";
+"advanced section slugline apps" = "Sepanên ku divê qet neyên asteng kirin hilbijêrin";
+"advanced section slugline encryption" = "Asta şîfrekirinê û DNSya xwe verast bikin";
+"advanced action slim migrate to full" = "Tu Blokada Slim bi kar tîne. Zêdetîr hîn bibe";
+
+"networks section header" = "Tor";
+"networks section label" = "Ji bo WiFi û tora mobîl mîhengan sererast bike";
+"networks label all networks" = "Hemû tor";
+"networks action network specific" = "Ji bo sererastkirina mîhengên pêşravekî li vir bike. Ji bo ku app li ser hin toreyan cuda be, li jêr ê lêbide.";
+"networks label configuration active" = "Ev mîheng niha çalak in";
+"networks label configuration enabled" = "Bi vê torê ve ne girêdayî ye";
+"networks label configuration inactive" = "Destlêda ji bo guhezandina mîhengên vê torê";
+"networks label details default network" = "Mîhengên li jêr ji bo hemû toreyan ji aliyê pêşdarazî ve tê tetbîqkirin. Tu dikarî wan ji bo torbendên bijartî (di ekrana berê) de binvîsî.";
+"networks action encrypt dns" = "DNS şîfre bikin";
+"networks action use dns" = "DNS bi kar bîne: %@";
+"networks action use network dns" = "DNS a torê tercîh bike";
+"networks action force libre mode" = "Moda Libre bi zorêkirin";
+"networks label specific network" = "Dema cîhaza we bi vê torê ve girêbide, çi dibe bila bibe sererast bikin.";
+"networks label specific network type" = "Dema cîhaza we bi toreke ji vî rengî ve girê bide, çi dibe bila bibe sererast bikin.";
+"networks label any wifi" = "Tu toreke WiFi";
+"networks label any mobile" = "Tu toreke mobîl";
+"networks permission request" = "Ji bo ku zêdetir kontrol ê bike, li vir bafirîne û bila sepan hemû toreyan bide tesbîtkirin.";
+"networks permission request granted" = "Tu dikarî agahdariyekê bibînî dema ku Blokada navê xwe yê torê li paşê dixwîne.";
+"networks section choose dns" = "DNS hilbijêre";
+"networks summary encrypt dns" = "Ger gengaz be Blokada dê DNS şîfre bike. Ev yek ewlehiya we baştir dike û pêşî li aktorên xerab digire ku li ser kîjan malper û karpên ku hûn bikar tînin sîxuriyê bikin.";
+"networks summary use dns" = "Blokada dê %@ wekî DNS ya cîhaza xwe bi kar bîne. Hilbijartina ku destûrê dide şerpêkirinê (xwediyê îkona kilîtê ye), û nêzîkî we ye, dê alîkariya parastina daneyên xwe bike û girêdana xwe zûtir bike.";
+"networks summary network dns" = "Blokada heke hebe wê DNS a torê bi kar bîne, an jî dê bibe %@ wekî din. Her wiha, her dema ku DNS a torê were bikaranîn mîhengên DNS ên koxûşkirî wê ji nedîtî ve bên. Bikaranîna DNS a torê alîkariya çareserkirina pirsgirêkên girêdanê li ser torbendên tengasdike, lê we bêparastin dike.";
+"networks summary network dns and plus mode" = "Blokada dema ku DNS a torê were bikaranîn wê Plus Mode bi demkî neçalak bike. Ev ji ber ku ne mumkun e ku di VPN'ê de bigihîje DNS a torê. Dema cîhaza te veguhere toreke din, Moda Plus wê bixweber were restorekirin.";
+"networks summary blocka plus mode" = "Blokada dê Blokada DNSê di moda Plusê de bikar bîne, da ku asta bilind a şîfrekirin û lezê piştrast bike. Hûn dikarin vê mîhengê li jêrî dîmendera DNS Hilbijêrin biguherînin.";
+"networks summary force libre mode" = "Blokada dê her dem li ser vê torê moda Libre bikar bîne, û cîhê Blokada Plusê paşguh bikin. Ev ji bo torgilokên ku hûn parastina zêde naxwazin kêrhatî ye.";
+"networks permission dialog" = "Blokada dikare toreyên ku hûn pê ve girê didin nas bike, û bihêle ku tu mîhengên cuda ji bo wan veava bikî. Lê belê, ev sepan dê daneyên cihan di forma navê torê de berhev bike da ku ev taybetmendî çalak bike, heta ku dema ku sepan girtî be an jî neyê bikaranîn. Carinan tu dikarî agahdariya pergalê di derbarê gihîştina cihan de bibînî - Blokada tenê wê navê torê bixwîne.";
+
+"account status text libre" = "Your BLOKADA Libre account is active until forever.";
+
+"account encrypt level low" = "Low";
+"account encrypt level medium" = "Medium";
+"account encrypt level high" = "High";
+"account encrypt label dns only" = "Encrypting DNS";
+"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
+"account encrypt label everything" = "Connecting through VPN";
+"account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
+"account encrypt action turn on" = "Turn on BLOKADA";
+"account encrypt header level" = "Encryption Level";
+"account encrypt label level" = "Level";
+"account encrypt label level low" = "Kêm: Şîfre tune";
+"account encrypt label level medium" = "Medium: Encrypting DNS";
+"account encrypt label level high" = "Bilind: Her tişt şîfre kirin";
+"account encrypt header explanation" = "DNS ew e ku cîhaz we çawa dizane ku malperên ku bibînin. BLOKADA tenê pêşkêşkerên şîfrekirî piştgirî dike.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "DNS çi ye?";
+"account encrypt section header" = "Şîfrekirin";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Di moda Plus de Blokada DNS bikar bînin";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installed";
+"apps label system" = "System";
+"apps status bypassed" = "(bypassed)";
+"apps filter header" = "Which apps would you like to see?";
+"apps filter action show all" = "All apps";
+"apps filter action show bypassed" = "Bypassed only";
+"apps filter action show not bypassed" = "Not bypassed only";
+"apps filter action toggle system" = "Toggle all system apps";
+
+"app settings section header" = "This device";
+"app settings language label" = "Language";
+"app settings theme label" = "App theme";
+"app settings theme light" = "Light";
+"app settings theme dark" = "Dark";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Redirect links to";
+"app settings browser internal" = "Internal browser";
+"app settings browser external" = "External browser (if possible)";
+"app settings ipv6 label" = "Allow IPv6";
+"app settings section system" = "System";
+"app settings action app info" = "Open App Information";
+"app settings action vpn profile" = "Open VPN Profile";
+"app settings action notifications" = "Open Notification Settings";
+"app settings section details" = "Details";
+"app settings status default" = "System default";
+"app settings start on boot" = "Start on boot";
+"app settings use dns over https" = "Use DNS over HTTPS";
+"app settings backup" = "Use cloud backup";
+"app settings section advanced" = "Pêşketî";
+"app settings section use foreground" = "Keep alive";
+
+"intro header" = "Blokada is Active!";
+"intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
