@@ -38,13 +38,13 @@
     <string name="panel_ruleset_updating">Updating filters...</string>
     <string name="panel_ruleset_canfit">Filters are now configured with &lt;b&gt;%s&lt;/b&gt; rules. Your device allows max &lt;b&gt;%s&lt;/b&gt; MB of memory for every application, and up to &lt;b&gt;%s&lt;/b&gt; rules can fit into it.&lt;br&gt;Remember, this is just an estimate and Blokada utilises the most memory when it merges the lists. If you enabled a few of them recently, wait a few minutes for the system to free up memory.</string>
     <!-- Button to allow blocked domain -->
-    <string name="slot_action_allow">Allow</string>
+    <string name="slot_action_allow">Tillåt</string>
     <!-- Button to allow blocked cname -->
     <string name="slot_action_allow_cname">Allow CName</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
     <string name="slot_action_allow_domain">Allow Domain</string>
     <!-- Button to block allowed domain -->
-    <string name="slot_action_block">Block</string>
+    <string name="slot_action_block">Blockera</string>
     <string name="slot_action_close">Stäng</string>
     <string name="slot_action_remove">Remove</string>
     <!-- Button to open homepage of list's author. Keep it short. -->
@@ -77,10 +77,10 @@
     <string name="slot_enter_file_desc">Input partial filename</string>
     <string name="slot_enter_file_not_found">No filename containing your input</string>
     <string name="slot_enter_file_multi">Multiple files match your input</string>
-    <string name="slot_enter_name_title">Name</string>
+    <string name="slot_enter_name_title">Namn</string>
     <string name="slot_enter_name_desc">Enter name for the new entry. You can also generate a suggested name.</string>
     <string name="slot_enter_name_error">This does not look like anything to me.</string>
-    <string name="slot_enter_name_generate">Generate</string>
+    <string name="slot_enter_name_generate">Generera</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; is whitelisted</string>
     <string name="slot_app_desc">This app is whitelisted, which means no blocking or filtering is performed on it.</string>
     <string name="slot_allapp_desc">You can make this app bypass Blokada in order to stop blocking any traffic for it. Remember, bypassed apps communicate outside of the VPN.</string>
