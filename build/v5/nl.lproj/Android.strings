@@ -12,17 +12,17 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
 
-"account active forever" = "Forever";
-"account active forever full" = "Active forever";
+"account active forever" = "Voor altijd";
+"account active forever full" = "Voor altijd actief";
 
-"main ask for permissions header" = "Just one more step";
+"main ask for permissions header" = "Nog slechts één stap";
 "main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "Bescherming: Laag";
+"home level medium" = "Bescherming: Gemiddeld";
+"home level high" = "Bescherming: Hoog";
 
-"advanced section header packs" = "Blocklists";
+"advanced section header packs" = "Blokkeerlijsten";
 "advanced section slugline packs" = "Activate for more restrictive blocking";
 "advanced section slugline apps" = "Choose apps that should never be blocked";
 "advanced section slugline encryption" = "Adjust your encryption level and DNS";
@@ -55,10 +55,10 @@
 "networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
 "networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
 
-"account status text libre" = "Your BLOKADA Libre account is active until forever.";
+"account status text libre" = "Je BLOKADA Libre account is voor altijd actief.";
 
-"account encrypt level low" = "Low";
-"account encrypt level medium" = "Medium";
+"account encrypt level low" = "Laag";
+"account encrypt level medium" = "Nomaal";
 "account encrypt level high" = "High";
 "account encrypt label dns only" = "Encrypting DNS";
 "account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
@@ -103,11 +103,11 @@
 "app settings action notifications" = "Open Notification Settings";
 "app settings section details" = "Details";
 "app settings status default" = "System default";
-"app settings start on boot" = "Start on boot";
+"app settings start on boot" = "Starten bij opstarten";
 "app settings use dns over https" = "Use DNS over HTTPS";
 "app settings backup" = "Use cloud backup";
-"app settings section advanced" = "Advanced";
-"app settings section use foreground" = "Keep alive";
+"app settings section advanced" = "Geavanceerd";
+"app settings section use foreground" = "Actief blijven";
 
 "intro header" = "Blokada is Active!";
 "intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
