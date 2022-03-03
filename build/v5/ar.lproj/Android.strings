@@ -1,0 +1,113 @@
+//
+//  This file is part of Blokada.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0/.
+//
+//  Copyright © 2020 Blocka AB. All rights reserved.
+//
+//  @author Karol Gusak
+//
+
+"error blocka dns in filtering mode" = "Blokada DNS مدعوم حاليّاً في وضع Plus فقط. الرجاء اختيار DNS آخر و حاول مرّة أُخرى.";
+
+"account active forever" = "للأبد";
+"account active forever full" = "نَشِط إلى الأبد";
+
+"main ask for permissions header" = "تبقّى خطوة واحدة فقط";
+"main ask for permissions description" = "يستخدم بلوكادا إعدادات VPN لمنع الإعلانات. سوف يُطلب منك السماح له في الخطوة التالية.";
+
+"home level low" = "الحماية: منخفضة";
+"home level medium" = "الحماية: متوسّطة";
+"home level high" = "الحماية: عالية";
+
+"advanced section header packs" = "قوائم الحَظْر";
+"advanced section slugline packs" = "تفعيل لحظْر أكثر تقييداً";
+"advanced section slugline apps" = "اختر التطبيقات التي لا يجب حظرها أبداً";
+"advanced section slugline encryption" = "ضبط مستوى التشفير الخاصّ بك و DNS";
+"advanced action slim migrate to full" = "أنت تستخدم Blokada Slim. تعرّف على المزيد";
+
+"networks section header" = "الشبكات";
+"networks section label" = "ضبط الإعدادات لـ WiFi و شبكات الجوّال";
+"networks label all networks" = "جميع الشبكات";
+"networks action network specific" = "انقر هنا لتعديل الإعدادات الافتراضيّة. لجعل التطبيق يعمل بشكل مختلف على بعض الشبكات ، انقر أدناه.";
+"networks label configuration active" = "هذه الإعدادات نشطة حاليّاً";
+"networks label configuration enabled" = "غير متّصل بهذه الشبكة";
+"networks label configuration inactive" = "انقر لتعديل إعدادات هذه الشبكة";
+"networks label details default network" = "يتم تطبيق الإعدادات أدناه بشكل افتراضي على جميع الشبكات. يمكنك تجاوزها للشبكات المحدّدة (في الشاشة السابقة).";
+"networks action encrypt dns" = "تشفير DNS";
+"networks action use dns" = "استخدام DNS: %@";
+"networks action use network dns" = "تفضيل شبكة DNS";
+"networks action force libre mode" = "فرض وضع Libre";
+"networks label specific network" = "اضبط ما يجب أن يحدث عندما يتّصل جهازك بهذه الشبكة.";
+"networks label specific network type" = "اضبط ما يجب أن يحدث عندما يتّصل جهازك بشبكة من هذا النوع.";
+"networks label any wifi" = "أي شبكة WiFi";
+"networks label any mobile" = "أي شبكة هاتف";
+"networks permission request" = "لمزيد من التحكّم ، انقر هنا و دع التطبيق يتعرّف على جميع الشبكات.";
+"networks permission request granted" = "قد ترى إشعاراً عندما يقرأ بلوكادا اسم شبكتك في الخلفية.";
+"networks section choose dns" = "اختر DNS";
+"networks summary encrypt dns" = "سيقوم بلوكادا بتشفير DNS إن أمكن. يعمل ذلك على تحسين أمنك و يمنع الجهات الضارة من التجسس على مواقع الويب و التطبيقات التي تستخدمها.";
+"networks summary use dns" = "سيستخدم بلوكادا %@ كنظام DNS لجهازك. سيساعد اختيار الخيار الذي يسمح بالتشفير (الذي يحتوي على رمز القفل) ، و القريب منك ، على حماية بياناتك و جعل اتصالك سريعاً.";
+"networks summary network dns" = "سيستخدم بلوكادا DNS الخاص بالشبكة إذا كان متاحاً ، أو يتحوّل إلى %@ بدلاً من ذلك. أيضاً ، سيتم تجاهل إعدادات تشفير DNS عند استخدام DNS الشبكة. يساعد استخدام DNS الخاص بالشبكة في إصلاح مشكلات الاتصال على الشبكات المزعجة ، لكنّه يتركك غير محمي.";
+"networks summary network dns and plus mode" = "سيقوم بلوكادا مؤقّتاً بتعطيل وضع Plus عند استخدام DNS للشبكة. لأنّه لا يمكن الوصول إلى DNS للشبكة أثناء اتصال VPN. سيتم استعادة وضع Plus تلقائيّاً عندما ينتقل جهازك إلى شبكة أُخرى.";
+"networks summary blocka plus mode" = "بلوكادا سيستخدم Blokada DNS في وضع Plus لضمان مستوى عالٍ من التشفير و السرعة. يمكنك تغيير هذا الإعداد في الجزء السفلي من شاشة اختيار DNS.";
+"networks summary force libre mode" = "سيستخدم Blokada دائماً وضع Libre على هذه الشبكة ، و يتجاهل موقع Blokada Plus الخاصّ بك. هذا مفيد للشبكات التي لا تريد فيها حماية إضافيّة.";
+"networks permission dialog" = "يستطيع بلوكادا التعرّف على الشبكات التي تتّصل بها ، و يتيح لك تكوين إعدادات منفصلة لها. و مع ذلك ، سيجمع هذا التطبيق بيانات الموقع على شكل اسم شبكة لتمكين هذه الميّزة ، حتى عندما يكون التطبيق مغلقاً أو غير مستخدم. في بعض الأحيان قد ترى إشعار النظام حول الوصول إلى الموقع - سيقرأ بلوكادا اسم الشبكة فقط.";
+
+"account status text libre" = "حساب BLOKADA Libre الخاص بك نَشِط إلى الأبد.";
+
+"account encrypt level low" = "منخفض";
+"account encrypt level medium" = "متوسط";
+"account encrypt level high" = "مرتفع";
+"account encrypt label dns only" = "تشفير الـ DNS";
+"account encrypt desc dns only" = "نظام اسم النطاق هو كيف يعرف جهازك أين يمكن العثور على المواقع التي تريد زيارتها. لسوء الحظ، لا يزال معظم الإنترنت يستخدم DNS غير مشفر، ممّا يُعَرِّض سجل التصفح الخاص بك لخطر التجسّس. عند التمكين، يُجبِر بلوكادا جهازك على الإتصال فقط بخوادم DNS المشفرة (تُسمّى أيضاً DNS over HTTPS).";
+"account encrypt label everything" = "جارِ الاتصال بـ VPN";
+"account encrypt desc everything" = "جهازك يتصل عبر خوادم VPN الآمنة الخاصّة بنا، وجميع الإتصالات القادمة من جهازك أو إليه يتمّ تشفيرها باستخدام خوارزميات قويّة. هذا يحمي معلوماتك الشخصيّة، مثل التفاصيل المصرفيّة أو الصور الشخصيّة، من السرقة في أماكن غير آمنة، مثل WiFi.";
+"account encrypt action turn on" = "تشغيل BLOKADA";
+"account encrypt header level" = "مستوى التشفير";
+"account encrypt label level" = "المستوى";
+"account encrypt label level low" = "Low: No Encryption";
+"account encrypt label level medium" = "Medium: Encrypting DNS";
+"account encrypt label level high" = "High: Encrypting Everything";
+"account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
+"account encrypt label dns" = "DNS";
+"account encrypt action what is dns" = "What is DNS?";
+"account encrypt section header" = "Encryption";
+"account encrypt section blocka dns" = "Blokada DNS";
+"account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
+
+"apps section header" = "Apps";
+"apps label installed" = "Installed";
+"apps label system" = "System";
+"apps status bypassed" = "(bypassed)";
+"apps filter header" = "Which apps would you like to see?";
+"apps filter action show all" = "All apps";
+"apps filter action show bypassed" = "Bypassed only";
+"apps filter action show not bypassed" = "Not bypassed only";
+"apps filter action toggle system" = "Toggle all system apps";
+
+"app settings section header" = "This device";
+"app settings language label" = "Language";
+"app settings theme label" = "App theme";
+"app settings theme light" = "Light";
+"app settings theme dark" = "Dark";
+// A setting for changing if to open links internally in the app, or by using this device's web browser
+"app settings browser label" = "Redirect links to";
+"app settings browser internal" = "Internal browser";
+"app settings browser external" = "External browser (if possible)";
+"app settings ipv6 label" = "Allow IPv6";
+"app settings section system" = "System";
+"app settings action app info" = "Open App Information";
+"app settings action vpn profile" = "Open VPN Profile";
+"app settings action notifications" = "Open Notification Settings";
+"app settings section details" = "Details";
+"app settings status default" = "System default";
+"app settings start on boot" = "Start on boot";
+"app settings use dns over https" = "Use DNS over HTTPS";
+"app settings backup" = "Use cloud backup";
+"app settings section advanced" = "Advanced";
+"app settings section use foreground" = "Keep alive";
+
+"intro header" = "Blokada is Active!";
+"intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
