@@ -112,7 +112,7 @@
 
 "notification pause header" = "Blokada ist weiterhin pausiert";
 "notification pause subtitle" = "Werbeblocker ist deaktiviert";
-"notification pause body" = "App öffnen, um Blokada wieder zu starten.";
+"notification pause body" = "Bitte App öffnen, um Blokada wieder zu starten.";
 
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus ist ausgeschaltet";
@@ -222,7 +222,7 @@
 "activity retention header" = "Für wie lange können wir deine Aktivitäten speichern?";
 "activity retention option none" = "Meine Aktivitäten nicht speichern";
 "activity retention option 24h" = "24 Stunden";
-"activity retention policy" = "Indem du die Speicherung des Logins aktivierst, akzeptierst du unsere Datenschutzrichtlinie.";
+"activity retention policy" = "Indem du die Speicherung des Protokolls aktivierst, akzeptierst du unsere Datenschutzrichtlinie.";
 "activity retention desc" = "Blokada Cloud protokolliert standardmäßig nichts. Wenn du die kombinierten Statistiken und Aktivitäten von all deinen Geräten sehen möchtest, wähle unten den gewünschten Protokollierungzeitraum aus.";
 
 "userdenied section header" = "Ausnahmen";
@@ -353,12 +353,12 @@
 "payment redirect desc" = "Bitte warten. Dies sollte nur einen Moment dauern.";
 
 "payment ongoing title" = "Deine Zahlung wird jetzt bearbeitet.";
-"payment ongoing desc" = "Kreditkartenzahlungen sollten nicht länger als ein paar Minuten dauern. Zahlungen mit Kryptowährungen dauern in der Regel bis zu einer Stunde, je nachdem, welche Transaktionsgebühr du wählst. Im Falle von PayPal kann es bis zu 24 Stunden dauern. Du wirst weitergeleitet, sobald dein Konto fertig ist. Du kannst dieses Menü auch schließen und später wieder kommen. Wenn du glaubst, dass deine Transaktion zu lange dauert, kontaktiere uns bitte.";
+"payment ongoing desc" = "Kreditkartenzahlungen sollten nicht länger als ein paar Minuten dauern. Zahlungen mit Kryptowährungen dauern in der Regel bis zu einer Stunde, je nachdem, welche Transaktionsgebühr du wählst. Im Falle von PayPal kann es bis zu 24 Stunden dauern. Du wirst weitergeleitet, sobald dein Konto bereit ist. Du kannst dieses Menü auch schließen und später wiederkommen. Wenn du glaubst, dass deine Transaktion zu lange dauert, kontaktiere uns bitte.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Ändern";
-"payment action pay" = "Zahle %@";
-"payment action pay period" = "Zahle %@ pro Zeitraum";
+"payment action pay" = "%@ zahlen";
+"payment action pay period" = "%@ pro Abonnementzeitraum zahlen";
 "payment label email" = "E-Mail";
 "payment crypto desc" = "Um mit Kryptowährung zu bezahlen, tippe auf die Schaltfläche unten.";
 "payment label choose package" = "Wähle dein Paket";
@@ -445,7 +445,7 @@
 "activated label dns no" = "DNS-Profil aktivieren";
 // Displayed when user does not have Plus account. Do not translate "Plus".
 "activated label vpn cloud" = "VPN erlauben (nur Plus)";
-"activated label vpn yes" = "VPN ist erlaubt";
+"activated label vpn yes" = "VPN wurde erlaubt";
 "activated label vpn no" = "VPN erlauben";
 
 "homepage vpn credit" = "'WireGuard' und das 'WireGuard'-Logo sind eingetragene Marken von Jason A. Donenfeld.";
