@@ -17,7 +17,7 @@ A legkompatibilisebb reklámblokkoló a piacon!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
-Mi blokkolható? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Mi blokkolható? • Idegesítő reklámokat blokkol: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, stb • Felnőtt tartalmű oldalakat • Szerencsejáték oldalakat • Social media követőket blokkol: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Rosszindulatú oldalak blokkolása: vírus letöltések, rosszindulatú tartalmak, megtévesztő vagy manipulált appok • Blokada Plus Adblock iOS App.
 
 ----
 
