@@ -2,13 +2,13 @@ Blokada Slim Reklámblokkoló - Nincs több reklám, jobb akksihasználat
 
 Védje meg privát adatait ingyen a hivatalos Blokada appal.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Ez az egyetlen hivatalos Blokada nyílt forrású projekt app a Play Store-ban. Vigyázzon a hamisítványokkal, rosszindulatú kódokat tartalmazhatnak.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+A Blokada Slim Reklámblokkoló egy ingyenes app, amely DNS (Tartomány Név Rendszer) szervereket használ, hogy reklám mentes élményt nyújtson, ahol csak az a tartalom látszik amire kíváncsiak vagyunk.
 
-There is also a built in VPN that is optional to use.
+Emellett tartalmaz egy opcionális beépített VPN-t is.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+A projekt hivatlos oldala: https://blokada.org. Az oldalról letölthető verzió több mindent tud, és hasonolóan ingyenesen letölthető.
 
 Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
 
