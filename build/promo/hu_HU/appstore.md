@@ -1,8 +1,8 @@
-This is the official app on App Store from the Blokada open source project.
+Ez a hivatalos Blokada nyílt forrású projekt applikáció az App Store-ban.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Az iOS Blokasa applikáció ingyenes, amely DNS (Tartomány Név Rendszer) szervereket használ, hogy reklám mentes élményt nyújtson, ahol csak az a tartalom látszik amire kíváncsiak vagyunk.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+Emellett tartalmaz egy opcionális beépített VPN-t is. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
 
 ----
 
