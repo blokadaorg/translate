@@ -10,16 +10,16 @@ Emellett tartalmaz egy opcionális beépített VPN-t is.
 
 A projekt hivatlos oldala: https://blokada.org. Az oldalról letölthető verzió több mindent tud, és hasonolóan ingyenesen letölthető.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Csatlakozzon hozzánk Telegram-on ha kérdése vagy visszajelzése van: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Fő szolgáltatások:
+- Nincs szükség a készülék rootolására!
+- Minden böngésző és app támogatása.
+- DNS alapú szűrés (VPN mód) minden modern böngésző esetében.
+- Blokkolja a rosszindulatú tartalmakat, vírusokat és átverésre kihegyezett oldalakat.
 
-The most compatible ad blocker on the market!
+A legkompatibilisebb reklámblokkoló a piacon!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
