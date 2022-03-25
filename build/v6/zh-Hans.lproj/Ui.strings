@@ -11,16 +11,16 @@
 //
 
 "error device offline" = "设备当前离线";
-"error account inactive" = "您的帐户未激活。请激活您的帐户以继续使用 BLOKADA+。";
-"error account inactive after restore" = "这似乎不是一个有效的活跃帐户。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
-"error account invalid" = "此帐户 ID 似乎无效。";
-"error creating account" = "无法创建新帐户。请稍后再试。";
+"error account inactive" = "您的账户未激活。请激活账户以便继续使用 BLOKADA+。";
+"error account inactive after restore" = "这似乎不是有效的活跃账户。 如果情况并非如此，请点击顶部的帮助图标联系我们。";
+"error account invalid" = "此账户 ID 似乎无效。";
+"error creating account" = "无法新建账户。请稍后再试。";
 "error fetching data" = "此操作无法完成。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 "error tunnel" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
 "error vpn" = "无法创建 VPN。请重新启动您的设备，或在系统设置中删除 Blokada VPN 配置文件，然后重试。";
 "error vpn perms" = "未授予创建 VPN 配置文件的权限。";
 "error vpn no current lease" = "请先选择一个位置。";
-"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
+"error vpn no current lease new" = "Blokada Plus现在在此设备上被禁用。请选择一个位置来重新激活它。";
 "error vpn too many leases" = "您已达到您的设备上限。请删除您的设备之一，然后重试。";
 "error vpn expired" = "VPN 已禁用。请更新您的订阅以继续使用 BLOKADA+";
 "error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
@@ -30,7 +30,7 @@
 "error payment canceled" = "付款已被取消。您尚未被收取费用。";
 "error pack install" = "无法安装(或卸载) 此功能。请稍后再试。";
 "error location failed fetching" = "无法获取位置。";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "出现问题。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 
 "universal action continue" = "继续";
 "universal action cancel" = "取消";
@@ -77,10 +77,10 @@
 // Common label in tables for the Time column. Think "time of event".
 "universal label time" = "时间";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "计数";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "类型";
+"universal label device" = "设备";
 
 "universal status processing" = "正在处理... 请稍候。";
 "universal status copied to clipboard" = "复制到剪贴板";
@@ -92,8 +92,8 @@
 "alert vpn expired header" = "BLOKADA+ 过期";
 "alert download link body" = "出于安全考虑，若要下载文件，我们需要在您的浏览器中打开此网站。然后，请再次点击下载链接。";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
+"notification perms header" = "在“设置”中开启通知权限";
+"notification perms desc" = "此功能需要通知权限，请为 Blokada 开放通知权限。";
 "notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
 
 "notification vpn expired header" = "BLOKADA+ 订阅已过期";
