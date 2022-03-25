@@ -1,6 +1,6 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Reklámblokkoló - Nincs több reklám, jobb akksihasználat
 
-Protect your privacy for free with the official Blokada app.
+Védje meg privát adatait ingyen a hivatalos Blokada appal.
 
 This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
 
