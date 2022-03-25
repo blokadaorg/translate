@@ -50,16 +50,16 @@
 "networks summary use dns" = "A Blokada a %@-t fogja használni az eszköz DNS-eként. Azt választja ami támogatja a titkosítást (kulcs ikon), közelben található, és a védelem mellett gyors sebességre is képes.";
 "networks summary network dns" = "A Blokada a hálózat DNS-ét fogja használni, de átválthat a %@-ra. Emellett a Titkosított DNS beállítások figyelmen kívűl lesznke hagyva ha a hálózat DNS-e van használatban. Habár az alap hálózati DNS segíthet a csatlakozási problémák megoldásában, védtelen marad a kibertérben.";
 "networks summary network dns and plus mode" = "A Blokada ideiglenesen kikapcsolja a Plus módot amikor hálózati DNS-t használ. Sajnos nem elérhető erről a VPN. A Plus mód automatikusan visszaáll, ha az eszköze átvált egy másik hálózatra.";
-"networks summary blocka plus mode" = "Blokada will use Blokada DNS in Plus mode, to ensure high level of encryption and speed. You may change this setting at the bottom of the Choose DNS screen.";
-"networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
-"networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
+"networks summary blocka plus mode" = "A Blokada a Blokada DNS-t fogja használni Plus módban a magas fokú titkosítás és sebesség érdekében. Megváltoztathatja ezt a beállítást a DNS ablak választás alján.";
+"networks summary force libre mode" = "A Blokada mindig Libre módban lesz ezen a hálózaton, és figyelmen kívűl hagyja a Blokada Plus helyzetét. Ez hasznos olyan hálózatokon, ahol nem szükséges az extra védelem.";
+"networks permission dialog" = "A Blokada fel tudja ismerni a különböző hálózatokat, és egyéni beállítást alkalmazni rájuk. Emiatt, a hálózat beazonosítása érdekében az app helyzet adatokat fog gyűjteni, még akkor is ha az app nincs használatban vagy be van zárva. Néha láthat jelzést a helyzethez való hozzáféréshez - Blokada csak a hálózat nevét olvassa be ilyenkor.";
 
-"account status text libre" = "Your BLOKADA Libre account is active until forever.";
+"account status text libre" = "Az Ön Blokada Libre fiókja örökre aktív.";
 
 "account encrypt level low" = "Alacsony";
 "account encrypt level medium" = "Közepes";
 "account encrypt level high" = "Magas";
-"account encrypt label dns only" = "Encrypting DNS";
+"account encrypt label dns only" = "DNS titkosítása";
 "account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
 "account encrypt label everything" = "Connecting through VPN";
 "account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
