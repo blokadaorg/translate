@@ -60,8 +60,8 @@
 "account encrypt level medium" = "Közepes";
 "account encrypt level high" = "Magas";
 "account encrypt label dns only" = "DNS titkosítása";
-"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
-"account encrypt label everything" = "Connecting through VPN";
+"account encrypt desc dns only" = "A Tartomány Név Rendszere alapján tudja eszköze, hogyan találja meg az oldalakat. Sajnos az internet többsége továbbra is titkosítatlan DNS-t használ, ami mások számára láthatóvá teszi az Ön böngészési történetét. Amikor bekapcsolja, a Blokada kényszeríti eszközét, hogy csak biztonságos DNS-en keresztül kapcsolódjon (avagy DNS HTTTPS-en keresztül).";
+"account encrypt label everything" = "VPN-n keresztül csatlakozás";
 "account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
 "account encrypt action turn on" = "Turn on BLOKADA";
 "account encrypt header level" = "Encryption Level";
