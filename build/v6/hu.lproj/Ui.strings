@@ -94,25 +94,25 @@
 
 "notification perms header" = "Engedélyezd az értesítéseket a Beállításokban";
 "notification perms desc" = "Ez a funkció értesítéseket igényel, kérjük, kapcsold be a Blokada-hoz.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms denied" = "Letiltotta az értesítéseket. Megváltoztathatja a Rendszer Preferenciában.";
 
 "notification vpn expired header" = "BLOKADA+ előfizetés lejárt";
 "notification vpn expired subtitle" = "VPN kikapcsolva";
 "notification vpn expired body" = "Kérjük frissítse előfizetését a BLOKADA+ további használatához";
 "notification desc settings" = "Húzza jobbra vagy balra az értesítéseket a beállításhoz.";
 
-"notification generic header" = "Blokada: Action required";
+"notification generic header" = "Blokada: Beavatkozás szükséges";
 "notification generic subtitle" = "Koppintson több információért";
 "notification generic body" = "Nyissa meg az appot a további részletekért.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
+"notification acc header" = "Lejárt az előfizetése";
 "notification acc subtitle" = "Adblockolás kikapcsolva";
 "notification acc body" = "Kérjük újítsa meg előfizetését a Blokada további használatához.";
 
 "notification pause header" = "Blokada továbbra is szüneteltetve";
 "notification pause subtitle" = "Adblockolás szüneteltetve";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause body" = "Nyissa meg az appot Blokada folytatásához.";
 
 // Displayed in a notification title. Do not translate "Plus".
 "notification lease header" = "Blokada Plus kikapcsolva";
@@ -238,25 +238,25 @@
 
 "account section header settings" = "Beállítások";
 "account status text" = "A BLOKADA %@ fiókod aktív eddig: %@.";
-"account status text inactive" = "Your BLOKADA account is inactive.";
+"account status text inactive" = "A BLOKADA fiókja inaktív.";
 
 "account section header primary" = "Elsődleges";
 "account section header other" = "Other";
 "account action my account" = "Fiókom";
-"account action encryption" = "Encryption & DNS";
+"account action encryption" = "Titkosítás & DNS";
 "account action devices" = "Készülékek";
 "account action new device" = "Új készülék";
 "account action inbox" = "Bejövő";
-"account action logout" = "Restore purchase";
+"account action logout" = "Vásárlás visszaállítása";
 "account action logout only" = "Kijelentkezés";
-"account action create" = "Generate new account";
+"account action create" = "Új fiók generálása";
 "account action about" = "Névjegy";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
+"account action tap to show" = "Érintsd meg a megjelenítéshez";
+"account action restoring" = "Fiók visszaállítása: %@";
 "account label enter to continue" = "Add meg a fiókazonosítót a folytatáshoz";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account restore description" = "Ne aggódjon ha elfelejtette a fiók azonosítóját, vissza tudjuk állítani. Vegye fel a kapcsolatot az ügyfélszolgálattal, és adja meg a vásárlás adatait ami alapján be tudjuk azonosítani (pl: bankkártyájának utolsó 4 számjegye, PayPal emailje).";
+"account create description" = "Ez a fiók azonosítója. Írja fel és tartsa bizalmas helyen. Ez az egyetlen módja, hogy hozzáférjen az előfizetéséhez.";
+"account create confirm" = "Leírtam";
 
 "account section header my subscription" = "Előfizetésem";
 "account section header general" = "Általános";
@@ -266,8 +266,8 @@
 "account label active until" = "Aktív eddig";
 "account action manage subscription" = "Előfizetés kezelése";
 "account action why upgrade" = "Miért kellene bővítenem?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
+"account subscription header renew" = "Automatikusan megújít";
+"account subscription header payment method" = "Fizetés mód";
 "account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
 
 "account unlock to show" = "Unlock to show your account ID";
