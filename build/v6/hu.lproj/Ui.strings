@@ -426,28 +426,28 @@
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
 "stats requests header" = "Kérelmek";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Időbeli lekérdezések";
+"stats top allowed header" = "Legtöbbet engedélyezett kérések";
+"stats top blocked header" = "Legtöbbet blokkolt kérések";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
+"dnsprofile header" = "Blokada engedélyezése a Beállításokban";
+"dnsprofile desc" = "A Beállítások alkalmazásban navigálj az Általános → VPN, DNS és eszközkezelés → DNS menüpontra, és válaszd a Blokada lehetőséget.";
+"dnsprofile action open settings" = "Beállítások megnyitása";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated header" = "Majdnem kész!";
+"activated desc" = "A következőkre van szükség ahhoz, hogy a Blokada az elvárásoknak megfelelően működjön:";
+"activated desc all ok" = "Az eszközöd be van állítva, és készen áll a használatra:";
+"activated label account" = "A fiók aktív (%@)";
+"activated label notif yes" = "Az értesítések engedélyezve vannak";
+"activated label notif no" = "Értesítések engedélyezése";
+"activated label dns yes" = "A DNS-profil aktiválva van";
+"activated label dns no" = "DNS-profil aktiválása";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "VPN engedélyezése (csak Plus)";
+"activated label vpn yes" = "A VPN engedélyezett";
+"activated label vpn no" = "VPN engedélyezése";
 
-"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"homepage vpn credit" = "A \"WireGuard\" és a \"WireGuard\" logó Jason A. Donenfeld bejegyzett védjegye.";
 "advanced section header packs" = "Tiltólista";
-"app settings section header" = "This device";
+"app settings section header" = "Ez az eszköz";
