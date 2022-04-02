@@ -407,24 +407,24 @@
 "setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "הגדר %@: %@";
+"setup option label recommended" = "מומלץ: %@";
+"setup option label alternative" = "חילופי: %@";
+"setup name label unnamed" = "(ללא שם)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
+"setup step name" = "תן שם למכשיר שלך (אופציונלי)";
+"setup step copy" = "העתק את שם המארח שלך";
 "setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step install" = "התקן והפעל את היישום שלנו";
+"setup step enter tag" = "כשתתבקש, הקש את התיוג שלך";
+"setup step download profile" = "צור והורד את הפרופיל שלך";
+"setup step install wireguard" = "התקן והפעל את WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "סטטיסטיקות";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "יחס";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "בקשות";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "Queries over time";
 "stats top allowed header" = "Top allowed requests";
