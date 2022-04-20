@@ -107,10 +107,10 @@
 
 // A short header in a notification shown when account expires
 "notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc subtitle" = "חסימת המודעות מושבתת";
+"notification acc body" = "אנא עדכנו את המנוי על מנת להמשיך להשתמש ב־Blokada.";
 
-"notification pause header" = "Blokada is still paused";
+"notification pause header" = "Blokada עדיין מושהה";
 "notification pause subtitle" = "Adblocking is disabled";
 "notification pause body" = "Please open the app to resume Blokada.";
 
@@ -299,6 +299,8 @@
 "account support action how help" = "איך נוכל לעזור לך?";
 "account support action kb" = "מאגר ידע פתוח";
 
+"account upgrade cloud description" = "This feature is a part of Blokada Plus. To upgrade, please contact our Customer Support.";
+
 "payment header activated" = "מופעל!";
 "payment activated description" = "Blokada יעבור למצב פלוס, ויחובר דרך אחד המיקומים המאובטחים שלנו. אם אינך בטוח/ה באיזה אחד לבחור, מומלץ לבחור את הקרוב ביותר.";
 "payment action choose location" = "בחירת מיקום";
@@ -379,9 +381,9 @@
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(includes Blokada Cloud)";
 "payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
+"payment plan cta trial" = "התחל 7 ימי ניסיון בחינם";
+"payment plan cta monthly" = "הרשמו למנוי חודשי";
+"payment plan cta annual" = "הרשמו למנוי שנתי";
 
 "location region worldwide" = "בכל מקום";
 "location region america" = "אמריקה";
@@ -389,10 +391,10 @@
 "location region asia" = "אסיה";
 "location region australia" = "אוסטרליה";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "התקני VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
+"web vpn devices open action" = "פתח התקני VPN";
+"web action open setup" = "פתח הגדרה";
 "web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
 "web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
 // A short word for a button to generate profile
@@ -405,24 +407,24 @@
 "setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "הגדר %@: %@";
+"setup option label recommended" = "מומלץ: %@";
+"setup option label alternative" = "חילופי: %@";
+"setup name label unnamed" = "(ללא שם)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
+"setup step name" = "תן שם למכשיר שלך (אופציונלי)";
+"setup step copy" = "העתק את שם המארח שלך";
 "setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step install" = "התקן והפעל את היישום שלנו";
+"setup step enter tag" = "כשתתבקש, הקש את התיוג שלך";
+"setup step download profile" = "צור והורד את הפרופיל שלך";
+"setup step install wireguard" = "התקן והפעל את WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "סטטיסטיקות";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "יחס";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "בקשות";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "Queries over time";
 "stats top allowed header" = "Top allowed requests";

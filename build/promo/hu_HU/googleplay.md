@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Reklámblokkoló - Nincs több reklám, jobb akksihasználat
 
-Protect your privacy for free with the official Blokada app.
+Védje meg privát adatait ingyen a hivatalos Blokada appal.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Ez az egyetlen hivatalos Blokada nyílt forrású projekt app a Play Store-ban. Vigyázzon a hamisítványokkal, rosszindulatú kódokat tartalmazhatnak.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+A Blokada Slim Reklámblokkoló egy ingyenes app, amely DNS (Tartomány Név Rendszer) szervereket használ, hogy reklám mentes élményt nyújtson, ahol csak az a tartalom látszik amire kíváncsiak vagyunk.
 
-There is also a built in VPN that is optional to use.
+Emellett tartalmaz egy opcionális beépített VPN-t is.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+A projekt hivatlos oldala: https://blokada.org. Az oldalról letölthető verzió több mindent tud, és hasonolóan ingyenesen letölthető.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Csatlakozzon hozzánk Telegram-on ha kérdése vagy visszajelzése van: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Fő szolgáltatások:
+- Nincs szükség a készülék rootolására!
+- Minden böngésző és app támogatása.
+- DNS alapú szűrés (VPN mód) minden modern böngésző esetében.
+- Blokkolja a rosszindulatú tartalmakat, vírusokat és átverésre kihegyezett oldalakat.
 
-The most compatible ad blocker on the market!
+A legkompatibilisebb reklámblokkoló a piacon!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
