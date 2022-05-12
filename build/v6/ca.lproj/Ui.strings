@@ -184,8 +184,8 @@
 "activity request allowed" = "Petició permesa.";
 "activity request allowed whitelisted" = "Petició acceptada perquè és a la Llista de permesos";
 "activity request blocked blacklisted" = "Petició blocada perquè és a una Llista de bloqueig";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
+"activity request allowed list" = "Petició acceptada perquè és a la llista de permesos *%@*.";
+"activity request allowed no list" = "Petició permesa perquè no apareix a cap de les llistes de bloqueig configurades.";
 "activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
 "activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
 "activity actions header" = "Actions";
@@ -254,14 +254,14 @@
 "account action about" = "Quant a";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account label enter to continue" = "Introduïu una ID per a continuar";
+"account restore description" = "No passeu pena si he perdut o oblidat la ID, la podem recuperar. Contactau el suport i facilitau-nos la informació que ens permetrà identificar la compra (exemple, 4 últims dígits de la tarja de crèdit o el correu PayPal).";
+"account create description" = "Aquest és el vostre compte ID. Apuntau-lo i manteniu-lo en secret. És l'únic mètode per a accedir a la subscripció.";
+"account create confirm" = "L'he apuntat";
 
-"account section header my subscription" = "My Subscription";
+"account section header my subscription" = "Subscripció";
 "account section header general" = "General";
-"account section header subscription" = "Subscription";
+"account section header subscription" = "Subscripció";
 "account label id" = "ID del compte";
 "account label type" = "Account type";
 "account label active until" = "Active until";
