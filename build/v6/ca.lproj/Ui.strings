@@ -30,43 +30,43 @@
 "error payment canceled" = "Pagament cancel·lat. No s'ha cobrat res.";
 "error pack install" = "Característica no instal·lada (o desinstal·lada). Tornau-ho a intentar.";
 "error location failed fetching" = "Ubicacions no recuperades.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "Error. Assegurau-vos que teniu connexió i tornau-ho a intentar. Si el problema persisteix, contactau-nos a la icona d'ajuda.";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Cancel·la";
 "universal action close" = "Tanca";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
+"universal action done" = "Fet";
+"universal action try again" = "Torna a intentar";
+"universal action learn more" = "Més informació";
 "universal action help" = "Ajuda";
-"universal action show log" = "Logs";
+"universal action show log" = "Registres";
 "universal action share log" = "Comparteix el registre";
-"universal action copy" = "Copy";
+"universal action copy" = "Copia";
 "universal action save" = "Desa";
-"universal action contact us" = "Contact us";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
+"universal action contact us" = "Contactau-nos";
+"universal action support" = "Suport";
+"universal action upgrade" = "Actualitzau a BLOKADA+";
+"universal action upgrade short" = "Actualitza";
 "universal action yes" = "Si";
 "universal action no" = "No";
 "universal action donate" = "Donatius";
 "universal action community" = "Comunitat";
 "universal action open in browser" = "Obre al navegador";
 "universal action more" = "Més";
-"universal action download" = "Download";
+"universal action download" = "Descarrega";
 "universal action news" = "Notícies";
-"universal action delete" = "Delete";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action delete" = "Elimina";
+"universal action hide" = "Amaga";
+"universal action select" = "Selecciona";
+"universal action selected" = "Seleccionat";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Cerca";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Filtre";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Esborra";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Revoca";
 
 "universal label help" = "Ajuda";
 "universal label welcome" = "La benvinguda!";
@@ -89,29 +89,29 @@
 "universal status confirm" = "Voleu continuar?";
 
 "alert error header" = "Vaja!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert vpn expired header" = "BLOKADA+ caducat";
+"alert download link body" = "Per seguretat, ens cal obrir aquest lloc a un navegador. Llavors tocau l'enllaç de descàrrega una altra vegada.";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Activa les notificacions a Configuració";
+"notification perms desc" = "Aquesta característica requereix notificacions, activau-les a Blokada.";
+"notification perms denied" = "Heu denegat les notificacions. Per a modificar-ho, anau a Configuració del Sistema.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Subscripció BLOKADA+ caducada";
+"notification vpn expired subtitle" = "VPN desactivada";
+"notification vpn expired body" = "Actualitzau la subscripció per continuar amb BLOKADA+";
+"notification desc settings" = "Arrossegau la notificació a dreta o esquerra per a configurar-la.";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: acció requerida";
+"notification generic subtitle" = "Premeu per a més informació";
+"notification generic body" = "Obriu l'app per a més detalls.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Subscripció caducada";
+"notification acc subtitle" = "Bloqueig d'anuncis desactivat";
+"notification acc body" = "Actualitzau la subscripció per continuar amb Blokada.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
+"notification pause header" = "Blokada segueix pausada";
+"notification pause subtitle" = "Bloqueig d'anuncis desactivat";
 "notification pause body" = "Obriu l'app per reprendre Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
