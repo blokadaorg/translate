@@ -224,12 +224,12 @@
 "activity retention option none" = "No emmagatzemis la meva activitat";
 "activity retention option 24h" = "24 hores";
 "activity retention policy" = "Si activau l'emmagatzematge del registre, acceptau la política de privadesa.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, choose the desired log retention period below.";
+"activity retention desc" = "Blokada Cloud no registra res per defecte. Si voleu veure l'activitat i estadístiques del dispositiu, triau el tipus de registre i quant de temps es manté.";
 
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "Excepcions";
+"userdenied section slugline" = "Administrau el blocatge de llocs particulars";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Permès";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "Bloquejat";
 // A short one word action to allow a hostname.
@@ -238,22 +238,22 @@
 "userdenied action block" = "Bloqueja";
 
 "account section header settings" = "Configuració";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
-"account status text inactive" = "Your BLOKADA subscription is inactive.";
+"account status text" = "El compte %@ caduca a %@.";
+"account status text inactive" = "Subscripció BLOKADA inactiva.";
 
-"account section header primary" = "Primary";
+"account section header primary" = "Primari";
 "account section header other" = "Other";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action create" = "Generate new account";
+"account action my account" = "El meu compte";
+"account action encryption" = "Xifratge i DNS";
+"account action devices" = "Dispositius";
+"account action new device" = "Nou dispositiu";
+"account action inbox" = "Safata d'entrada";
+"account action logout" = "Restaura la compra";
+"account action logout only" = "Tanca la sessió";
+"account action create" = "Genera un compte nou";
 "account action about" = "Quant a";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
+"account action tap to show" = "Toca per mostrar";
+"account action restoring" = "Restaurant el compte: %@";
 "account label enter to continue" = "Introduïu una ID per a continuar";
 "account restore description" = "No passeu pena si he perdut o oblidat la ID, la podem recuperar. Contactau el suport i facilitau-nos la informació que ens permetrà identificar la compra (exemple, 4 últims dígits de la tarja de crèdit o el correu PayPal).";
 "account create description" = "Aquest és el vostre compte ID. Apuntau-lo i manteniu-lo en secret. És l'únic mètode per a accedir a la subscripció.";
@@ -368,8 +368,8 @@
 "payment label most popular" = "Més popular";
 "payment label pay with card" = "Paga amb targeta";
 "payment label pay with paypal" = "Pagueu amb PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
+"payment label pay with crypto" = "Paga amb cripto";
+"payment package one month" = "1 Mes";
 "payment package six months" = "6 mesos";
 "payment package twelve months" = "12 mesos";
 "payment label discount" = "Estalviau %@ (%@ / mo)";
@@ -403,37 +403,37 @@
 
 "setup header" = "Configuració";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
+"setup label which device" = "Quin tipus de dispositiu voleu configurar?";
 "setup label choose" = "Choose any of the following setup options:";
 "setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
 "setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "Passa %@: %@";
+"setup option label recommended" = "Recomanació: %@";
+"setup option label alternative" = "Alternativa: %@";
+"setup name label unnamed" = "(sense nom)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "Posau nom al dispositiu (opcional)";
+"setup step copy" = "Copia el hostname";
+"setup step apply config" = "Aplica la nova configuració";
+"setup step install" = "Instal·la i inicia l'app";
+"setup step enter tag" = "Introduïu una etiqueta quan es demani";
+"setup step download profile" = "Genera i descarrega el perfil";
+"setup step install wireguard" = "Instal·la i inicia WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "Estadístiques";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Ràtio";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Sol·licituds";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Històric de peticions";
+"stats top allowed header" = "Peticions majorment acceptades";
+"stats top blocked header" = "Peticions majorment denegades";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
+"dnsprofile header" = "Activa Blokada a Configuració";
+"dnsprofile desc" = "A la Configuració de l'app, ves a General → VPN, DNS & Administració de dispositius → selecciona Blokada.";
+"dnsprofile action open settings" = "Obre la configuració";
 "dnsprofile desc android" = "A la Configuració de l'app, tocau a DNS Privades i manteniu premut al camp del proveïdor per enganxar el vostre Blokada Cloud hostname.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
