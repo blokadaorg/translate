@@ -51,8 +51,8 @@
 "networks summary network dns" = "Blokada usarà les DNS de la xarxa si és possible, sinó canviarà a %@. A més, la configuració xifrada DNS s'ignorarà quan s'emprin les DNS de la xarxa. Les DNS de la xarxa eviten problemes a xarxes problemàtiques, però us deixa desprotegits.";
 "networks summary network dns and plus mode" = "Quan s'usin DNS el mode Plus es desactiva temporalment perquè no es pot accedir la xarxa DNS a través de la VPN. El mode Plus es reactiva rà quan el dispositiu passi a una altra xarxa.";
 "networks summary blocka plus mode" = "S'emprarà el mode Plus per assegurar millor xifrat i velocitat. Es pot canviar aquesta configuració a baix de la pantalla de Tria DNS.";
-"networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
-"networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
+"networks summary force libre mode" = "Sempre s'emprarà el mode Libre en aquesta xarxa i s'ignorarà la ubicació Blokada Plus. Ideal a xarxes en què no voleu protecció addicional.";
+"networks permission dialog" = "Blokada pot reconèixer xarxes a les quals us connectau i permetre-hi configuracions separades. Amb tot, s'haurà de recollir informació d'ubicació com el nom de la xarxa per a activar la característica. Pot ser que vegeu notificacions d'accés a la ubicació - només es llegirà el nom de la xarxa.";
 
 "account status text libre" = "Compte BLOKADA Libre activat per sempre.";
 
@@ -60,9 +60,9 @@
 "account encrypt level medium" = "Mitjà";
 "account encrypt level high" = "Alt";
 "account encrypt label dns only" = "Xifrant DNS";
-"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
+"account encrypt desc dns only" = "Domain Name System és com a el dispositiu troba els llocs web. Malauradament la majoria encara són DNS no xifrades, cosa que posa el vostre historial en perill d'espionatge. Activant Blokada forçau la connexió només a DNS xifrades (conegudes com a DNS sobre HTTPS).";
 "account encrypt label everything" = "S'està connectant amb la VPN";
-"account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
+"account encrypt desc everything" = "Connectant a través dels nostres servidors DNS segurs. Tota comunicació del dispositiu és ara xifrada per un potent algorisme. Això protegeix la informació personal, com detalls bancaris, fotos i de robatoris a llocs insegurs, com xarxes sense fil a cafeteries.";
 "account encrypt action turn on" = "Encén BLOKADA";
 "account encrypt header level" = "Nivell de xifrat";
 "account encrypt label level" = "Nivell";
