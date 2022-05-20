@@ -8,7 +8,7 @@ Blokada Slim Ad blocker 是免費的應用程式，它使用 DNS（網域名稱�
 
 還有一個可以選擇使用的內建 VPN。
 
-專案的網站為：https://blokada.org. 網站上的版本功能更多，而且也是免費的。
+本專案的網站在：https://blokada.org。 網站上的版本功能更多，而且也是免費的。
 
 如果您有問題或回饋的話，請在 Telegram 上加入我們：https://go.blokada.org/chat
 
