@@ -33,8 +33,8 @@
 "error unknown" = "問題が発生しました。インターネット接続を確認の上、時間を置いてもう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
 
 "conn isssues header" = "接続エラー";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues slug" = "接続に問題があります。設定を確認してください。タップして詳細を表示します。";
+"conn isssues details" = "- インターネット接続を確認してください\n- 複数の Blokada アプリをしないでください\n- 他の VPN を無効にしてください";
 
 "universal action continue" = "続行";
 "universal action cancel" = "キャンセル";
@@ -124,8 +124,8 @@
 "notification update header" = "アップデートが利用可能です";
 "alert update body" = "Blokada %@ がダウンロード可能になりました。公式ソースから最新版へアップデートすることをお勧めします。";
 "update label updated" = "更新されました！";
-"update desc updated" = "Blokada の最新バージョンを使用しています！ 寄付や Blokada Plus の登録はアプリ開発への支援となります。";
-"update desc updated nodon" = "You are now using the newest version of Blokada!";
+"update desc updated" = "最新版の Blokada を使用しています！ 寄付や Blokada Plus の登録はアプリ開発への支援となります。";
+"update desc updated nodon" = "最新版の Blokada を使用しています！";
 "update downloading description" = "更新プログラムがダウンロードされます。すぐにインストール許可画面が表示されます。";
 
 "main share message" = "Blokada は、%@ の広告とトラッカーをブロックしました！";
@@ -390,7 +390,7 @@
 "payment plan cta trial" = "7 日間の無料トライアルを始める";
 "payment plan cta monthly" = "月額プラン";
 "payment plan cta annual" = "年額プラン";
-"payment plan current" = "(current plan)";
+"payment plan current" = "（現在のプラン）";
 
 "location region worldwide" = "ワールドワイド";
 "location region america" = "アメリカ";
