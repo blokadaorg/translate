@@ -32,9 +32,9 @@
 "error location failed fetching" = "Местоположенията не можаха да бъдат извлечени.";
 "error unknown" = "Възникна проблем. Уверете се, че сте онлайн и опитайте отново по-късно. Ако проблемът продължава, моля свържете се с нас като докоснете иконката за помощ в горната част.";
 
-"conn isssues header" = "Connectivity issues";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues header" = "Проблеми със свързаността";
+"conn isssues slug" = "Проблеми със свързаността. Моля, проверете конфигурацията си. Докоснете за подробности.";
+"conn isssues details" = "- Проверете вашата интернет връзка\n- Използвайте само едно приложение Blokada\n- Деактивирайте другите VPN";
 
 "universal action continue" = "Продължи";
 "universal action cancel" = "Отказ";
@@ -243,7 +243,7 @@
 
 "account section header settings" = "Настройки";
 "account status text" = "Вашият BLOKADA %@ профил е активен до %@.";
-"account status text inactive" = "Вашият абонамент за BLOKADA е неактивен.";
+"account status text inactive" = "Вашият абонамент за BLOKADA не е активен.";
 
 "account section header primary" = "Основен";
 "account section header other" = "Друг";
@@ -389,7 +389,7 @@
 "payment plan cta trial" = "Започнете 7-дневен безплатен пробен период";
 "payment plan cta monthly" = "Месечен абонамент";
 "payment plan cta annual" = "Годишен абонамент";
-"payment plan current" = "(current plan)";
+"payment plan current" = "(текущ план)";
 
 "location region worldwide" = "Навсякъде";
 "location region america" = "Америка";
@@ -440,7 +440,7 @@
 "dnsprofile desc" = "В Настройки на приложението отворете Общи → VPN, DNS и управление на устройства → DNS и изберете Blokada.";
 "dnsprofile action open settings" = "Отваряне на настройките";
 "dnsprofile desc android" = "В приложението Настройки намерете секцията Private DNS и след това поставете името на хоста си (дълго докосване).";
-"dnsprofile desc android copy" = "Copy your Blokada Cloud hostname to paste it in Settings.";
+"dnsprofile desc android copy" = "Копирайте вашето име на хост в Blokada Cloud и го поставете в Настройки.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
 "activated header" = "Почти сме готови!";
