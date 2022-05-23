@@ -32,9 +32,9 @@
 "error location failed fetching" = "Impossibile ottenere la posizione.";
 "error unknown" = "Si è verificato un problema. Assicurati di essere online e riprova più tardi. Se il problema persiste, contattaci toccando l'icona di aiuto in alto.";
 
-"conn isssues header" = "Connectivity issues";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues header" = "Problemi di connessione";
+"conn isssues slug" = "Problemi di connessione. Per favore, controlla tua configurazione. Clicca per i dettagli.";
+"conn isssues details" = "- Controlla la tua connessione Internet\n- Usa solo un'app Blokada\n- Disattiva altre VPN";
 
 "universal action continue" = "Continua";
 "universal action cancel" = "Annulla";
@@ -68,7 +68,7 @@
 // A verb "to filter the list"
 "universal action filter" = "Filtra";
 // A verb "to clear the list"
-"universal action clear" = "Elimina";
+"universal action clear" = "Cancella";
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoca";
 
@@ -94,7 +94,7 @@
 
 "alert error header" = "Ooops!";
 "alert vpn expired header" = "BLOKADA+ è scaduto";
-"alert download link body" = "Per motivi di sicurezza, per scaricare un file dobbiamo aprire questo sito nel tuo browser. Tocca nuovamente il link di download.";
+"alert download link body" = "Per motivi di sicurezza, per scaricare un file dobbiamo aprire questo sito nel tuo browser. Fatto ciò, clicca nuovamente il link di download.";
 
 "notification perms header" = "Attiva le notifiche nelle Impostazioni";
 "notification perms desc" = "Questa funzione richiede le notifiche, si prega di consentirle per Blokada.";
@@ -125,7 +125,7 @@
 "alert update body" = "Blokada %@ è ora disponibile per il download. Ti raccomandiamo di mantenere l'app aggiornata e di scaricarla solo dalle nostre fonti ufficiali.";
 "update label updated" = "Aggiornato!";
 "update desc updated" = "Ora stai usando la nuova versione di Blokada! Ricorda, se doni o ti iscrivi a Blokada Plus ci permetterai di continuare a migliorare l'app.";
-"update desc updated nodon" = "You are now using the newest version of Blokada!";
+"update desc updated nodon" = "Ora stai utilizzando la versione più recente di Blokada!";
 "update downloading description" = "Aggiornamento in corso, a breve dovrebbe comparire la conferma per l'installazione.";
 
 "main share message" = "Blokada mi ha aiutato a bloccare %@ annunci e tracker!";
@@ -389,7 +389,7 @@
 "payment plan cta trial" = "Inizia la prova gratuita di 7 giorni";
 "payment plan cta monthly" = "Abbonamento mensile";
 "payment plan cta annual" = "Abbonamento annuale";
-"payment plan current" = "(current plan)";
+"payment plan current" = "(piano attuale)";
 
 "location region worldwide" = "Ovunque";
 "location region america" = "America";
