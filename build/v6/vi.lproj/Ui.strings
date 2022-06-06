@@ -26,11 +26,15 @@
 "error payment inactive after restore" = "Khoản thanh toán trước đó của bạn đã được khôi phục, nhưng đăng ký đã hết hạn. Nếu bạn cho rằng đây là sự nhầm lẫn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
 "error payment failed" = "Thanh toán không có sẵn tại thời điểm này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
 "error payment failed alternative" = "Không thể hoàn tất thanh toán của bạn. Vui lòng đảm bảo dữ liệu của bạn là chính xác và thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
-"error payment not available" = "Thanh toán không khả dụng cho thiết bị này. Apple Pay chưa được kích hoạt hoặc chúng tôi chưa xử lý được các giao dịch mua ở quốc gia của bạn.";
+"error payment not available" = "Thanh toán không khả dụng cho thiết bị này. Thiết bị này chưa được cập nhật hoặc chúng tôi chưa xử lý các giao dịch mua ở quốc gia của bạn.";
 "error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
 "error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
 "error location failed fetching" = "Không thể tìm nạp vị trí.";
 "error unknown" = "Đã xảy ra sự cố. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+
+"conn isssues header" = "Connectivity issues";
+"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
+"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
 
 "universal action continue" = "Tiếp tục";
 "universal action cancel" = "Hủy";
@@ -121,7 +125,7 @@
 "alert update body" = "Blokada %@ hiện có sẵn để tải xuống. Chúng tôi khuyên bạn nên cập nhật ứng dụng và chỉ tải xuống từ các nguồn chính thức của chúng tôi.";
 "update label updated" = "Đã cập nhật!";
 "update desc updated" = "Bạn hiện đang sử dụng phiên bản mới nhất của Blokada! Hãy nhớ rằng, ủng hộ hoặc đăng ký Blokada Plus cho phép chúng tôi tiếp tục cải thiện ứng dụng.";
-"update desc updated nodon" = "Bạn hiện đang sử dụng phiên bản mới nhất của Blokada! Hãy nhớ rằng, đăng ký Blokada Plus cho phép chúng tôi tiếp tục cải thiện ứng dụng.";
+"update desc updated nodon" = "Bạn hiện đang sử dụng phiên bản mới nhất của Blokada!";
 "update downloading description" = "Bản cập nhật hiện đang được tải xuống và bạn sẽ sớm thấy lời nhắc cài đặt.";
 
 "main share message" = "Blokada đã giúp tôi chặn %@ quảng cáo và trình theo dõi!";
@@ -385,6 +389,7 @@
 "payment plan cta trial" = "Bắt đầu dùng thử 7 Ngày Miễn phí";
 "payment plan cta monthly" = "Đăng ký hàng tháng";
 "payment plan cta annual" = "Đăng ký hàng năm";
+"payment plan current" = "(current plan)";
 
 "location region worldwide" = "Mọi nơi";
 "location region america" = "Châu Mỹ";
@@ -434,8 +439,8 @@
 "dnsprofile header" = "Bật Blokada trong Cài đặt";
 "dnsprofile desc" = "Trong ứng dụng Cài đặt, điều hướng đến Chung → VPN, DNS & Quản lý thiết bị → DNS và chọn Blokada.";
 "dnsprofile action open settings" = "Mở Cài đặt";
-"dnsprofile desc android" = "In the Settings app, find the Private DNS section, and then paste your hostname (long tap).";
-"dnsprofile desc android copy" = "Copy your Blokada Cloud hostname to paste it in Settings.";
+"dnsprofile desc android" = "Trong ứng dụng Cài đặt, tìm phần DNS riêng, sau đó dán tên máy chủ của bạn (nhấn và giữ).";
+"dnsprofile desc android copy" = "Sao chép tên máy chủ Đám mây Blokada của bạn để dán vào Cài đặt.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
 "activated header" = "Gần xong rồi!";

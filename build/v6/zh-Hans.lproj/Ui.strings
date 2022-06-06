@@ -26,11 +26,15 @@
 "error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
 "error payment failed" = "此时付款不可用。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 "error payment failed alternative" = "无法完成您的付款。请确保您的数据正确，然后重试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
-"error payment not available" = "此设备的付款不可用。苹果支付未激活，或者我们尚未处理您所在国家的购买。";
+"error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
 "error payment canceled" = "付款已被取消。您尚未被收取费用。";
 "error pack install" = "无法安装(或卸载) 此功能。请稍后再试。";
 "error location failed fetching" = "无法获取位置。";
 "error unknown" = "出现问题。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
+
+"conn isssues header" = "Connectivity issues";
+"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
+"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
 
 "universal action continue" = "继续";
 "universal action cancel" = "取消";
@@ -121,7 +125,7 @@
 "alert update body" = "Blokada %@ 现在可以下载。我们建议从我们的官方来源下载后更新。";
 "update label updated" = "更新成功！";
 "update desc updated" = "您现在正在使用最新版本的Blokada！记住，捐赠或订阅Blokada Plus可以帮助我们继续改进应用程序。";
-"update desc updated nodon" = "You are now using the newest version of Blokada! Remember, subscribing to Blokada Plus allows us to continue improving the app.";
+"update desc updated nodon" = "You are now using the newest version of Blokada!";
 "update downloading description" = "更新正在下载，您将很快看到安装提示。";
 
 "main share message" = "Blokada helped me block %@ ads and trackers!";
@@ -385,6 +389,7 @@
 "payment plan cta trial" = "Start 7-Day Free Trial";
 "payment plan cta monthly" = "Subscribe Monthly";
 "payment plan cta annual" = "Subscribe Annually";
+"payment plan current" = "(current plan)";
 
 "location region worldwide" = "所有地方";
 "location region america" = "美国";
