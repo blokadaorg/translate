@@ -28,7 +28,7 @@
 "advanced action slim migrate to full" = "Estau emprant Blokada Slim. Més informació";
 
 "networks section header" = "Xarxes";
-"networks section label" = "Ajusta oa configuració de xarxes mòbils i inalàmbriques";
+"networks section label" = "Ajusta la configuració de xarxes mòbils i inalàmbriques";
 "networks label all networks" = "Totes les xarxes";
 "networks action network specific" = "Toca per modificar la configuració per defecte. Per canviar el comportament de l'app, toca a baix.";
 "networks label configuration active" = "Aquesta configuració està activa";
@@ -49,7 +49,7 @@
 "networks summary encrypt dns" = "Blokada xifrarà les DNS si es pot. Això millora la seguretat i evita espionatge de llocs web i apps que emprau.";
 "networks summary use dns" = "Bloksda usarà %@ com les DNS del dispositiu. Triar-ne una que permet xifratge ( amb una icona d'un pany) i que sigui propera, ajudarà a protegir les vostres dades i a navegar més ràpidament.";
 "networks summary network dns" = "Blokada usarà les DNS de la xarxa si és possible, sinó canviarà a %@. A més, la configuració xifrada DNS s'ignorarà quan s'emprin les DNS de la xarxa. Les DNS de la xarxa eviten problemes a xarxes problemàtiques, però us deixa desprotegits.";
-"networks summary network dns and plus mode" = "Quan s'usin DNS el mode Plus es desactiva temporalment perquè no es pot accedir la xarxa DNS a través de la VPN. El mode Plus es reactiva rà quan el dispositiu passi a una altra xarxa.";
+"networks summary network dns and plus mode" = "Quan s'usin DNS el mode Plus es desactiva temporalment perquè no es pot accedir la xarxa DNS a través de la VPN. El mode Plus es reactivarà quan el dispositiu passi a una altra xarxa.";
 "networks summary blocka plus mode" = "S'emprarà el mode Plus per assegurar millor xifrat i velocitat. Es pot canviar aquesta configuració a baix de la pantalla de Tria DNS.";
 "networks summary force libre mode" = "Sempre s'emprarà el mode Libre en aquesta xarxa i s'ignorarà la ubicació Blokada Plus. Ideal a xarxes en què no voleu protecció addicional.";
 "networks permission dialog" = "Blokada pot reconèixer xarxes a les quals us connectau i permetre-hi configuracions separades. Amb tot, s'haurà de recollir informació d'ubicació com el nom de la xarxa per a activar la característica. Pot ser que vegeu notificacions d'accés a la ubicació - només es llegirà el nom de la xarxa.";
@@ -69,7 +69,7 @@
 "account encrypt label level low" = "Baix: sense xifrat";
 "account encrypt label level medium" = "Mitjà: xifrant DNS";
 "account encrypt label level high" = "Alt: tot xifrat";
-"account encrypt header explanation" = "La DNS és com el dispositiu sap on trobar eos llocs. BLOKADA només accepta servidors xifrats.";
+"account encrypt header explanation" = "La DNS és com el dispositiu sap on trobar els llocs. BLOKADA només accepta servidors xifrats.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Què es la DNS?";
 "account encrypt section header" = "Xifrat";
@@ -93,7 +93,7 @@
 // A setting for changing if to open links internally in the app, or by using this device's web browser
 "app settings browser label" = "Redirigeix enllaços a";
 "app settings browser internal" = "Navegador intern";
-"app settings browser external" = "Navegador extern ( quan disponible)";
+"app settings browser external" = "Navegador extern ( si està disponible)";
 "app settings ipv6 label" = "Permet IPv6";
 "app settings section system" = "Sistema";
 "app settings action app info" = "Informació de l'app";
