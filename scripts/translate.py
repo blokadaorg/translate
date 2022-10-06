@@ -172,7 +172,7 @@ def commonSync(translate, mobile):
     if not os.path.exists(f"{mobile}/common/assets/translations"):
         os.makedirs(f"{mobile}/common/assets/translations")
 
-    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/common/assets/translations/en.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/common/assets/translations/en.json -f \"flutter\"", shell = True)
 
 def commonImport(langs, langs_arb, translate, mobile):
     print(f"  Importing to Common")
@@ -180,7 +180,7 @@ def commonImport(langs, langs_arb, translate, mobile):
         print(f"    importing {lang}")
         alang = langs_arb.get(lang, lang)
 
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/common/assets/translations/{alang}.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/common/assets/translations/{alang}.json -f \"flutter\"", shell = True)
 
 def landingSync(translate, web):
     print(f"  Syncing landing ({web})")

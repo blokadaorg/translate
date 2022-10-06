@@ -17,7 +17,7 @@ Converts iOS translation file to one of:
 - android XML translation format
 - android json format (used for runtime translating from assets)
 - vue json format (used for web dashboard and homepage)
-- arb format (used by flutter)
+- flutter json format (used by flutter) - same as vue actually, plain json
 '''
 
 import sys
@@ -28,7 +28,7 @@ from string import ascii_letters
 
 def main(argv):
     def usage():
-        print("usage: convert -i <input-file.strings> [-o <output-file.xxx>] [-k <key_prefix>] [-f <xml|json|vue|arb>]")
+        print("usage: convert -i <input-file.strings> [-o <output-file.xxx>] [-k <key_prefix>] [-f <xml|json|vue|flutter>]")
         print("Default output file is ./strings")
 
     print("Convert Strings v0.2")
@@ -41,7 +41,7 @@ def main(argv):
         "key_prefix": "",
         "json": False,
         "vue": False,
-        "arb": False
+        "flutter": False
     }
 
     try:
@@ -61,7 +61,7 @@ def main(argv):
         elif opt == "-f":
             config["json"] = arg.startswith("json")
             config["vue"] = "vue" in arg
-            config["arb"] = "arb" in arg
+            config["flutter"] = "flutter" in arg
         else:
             print("  Unknown argument: %s" % opt)
             usage()
@@ -109,8 +109,8 @@ def main(argv):
         outputAsJsonVue(output_file, strings)
     elif config["json"]:
         outputAsJson(output_file, strings)
-    elif config["arb"]:
-        outputAsArb(output_file, strings)
+    elif config["flutter"]:
+        outputAsFlutter(output_file, strings)
     else:
         outputAsAndroidXml(output_file, strings)
 
@@ -152,19 +152,8 @@ def outputAsJsonVue(output_file, strings):
 
         f.write("}\n")
 
-def outputAsArb(output_file, strings):
-    with open(output_file, "w") as f:
-        f.write("{\n")
-
-        count = 0
-        for key in strings:
-            count += 1
-            f.write(f"    \"{makeArbKey(key)}\": \"{convertPlaceholdersToVue(strings[key])}\"")
-            if count < len(strings):
-                f.write(",")
-            f.write("\n")
-
-        f.write("}\n")
+def outputAsFlutter(output_file, strings):
+    return outputAsJsonVue(output_file, strings)
 
 def makeAndroidKey(line):
     # Android does not support numbers. Replace the common ones.
