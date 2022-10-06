@@ -50,6 +50,6 @@ export default {
 	    "sv": "sv_SE"
     },
     "langs-arb": {
-        "zh-Hant": "zh",
+        "zh-Hant": "zh"
     }
 }
