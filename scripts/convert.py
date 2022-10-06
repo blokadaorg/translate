@@ -189,7 +189,7 @@ def makeAndroidValue(line):
 
 def makeArbKey(line):
     # Flutter wants Dart names (no spaces, camel case but we ignore)
-    line = remove_chars(line, keep=ascii_letters)
+    line = remove_chars(line, keep=ascii_letters + ' ')
     line = line.replace(" ", "_")
     return line.lower()
 
