@@ -85,7 +85,7 @@ def main(argv):
         android4Import(langs["langs"], langs["langs-android-res"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "common":
         commonSync(config["translate_dir"], config["target_dir"])
-        commonImport(langs["langs"], langs["langs-web4"], config["translate_dir"], config["target_dir"])
+        commonImport(langs["langs"], langs["langs-arb"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing":
         landingSync(config["translate_dir"], config["target_dir"])
         landingImport(langs["langs"], config["translate_dir"], config["target_dir"])
@@ -174,11 +174,11 @@ def commonSync(translate, mobile):
 
     subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/common/lib/l10n/app_en.arb -f \"arb\"", shell = True)
 
-def commonImport(langs, langs_web4, translate, mobile):
+def commonImport(langs, langs_arb, translate, mobile):
     print(f"  Importing to Common")
     for lang in langs:
         print(f"    importing {lang}")
-        alang = langs_web4.get(lang, lang)
+        alang = langs_arb.get(lang, lang)
 
         subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/common/lib/l10n/app_{alang}.arb -f \"arb\"", shell = True)
 
