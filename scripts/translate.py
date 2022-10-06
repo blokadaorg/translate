@@ -84,8 +84,8 @@ def main(argv):
         android4Sync(config["translate_dir"], config["target_dir"])
         android4Import(langs["langs"], langs["langs-android-res"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "common":
-        android4Sync(config["translate_dir"], config["target_dir"])
-        android4Import(langs["langs"], langs["langs-web4"], config["translate_dir"], config["target_dir"])
+        commonSync(config["translate_dir"], config["target_dir"])
+        commonImport(langs["langs"], langs["langs-web4"], config["translate_dir"], config["target_dir"])
     elif config["action"] == "landing":
         landingSync(config["translate_dir"], config["target_dir"])
         landingImport(langs["langs"], config["translate_dir"], config["target_dir"])
