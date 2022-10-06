@@ -13,7 +13,11 @@ Copyright © 2021 Blocka AB. All rights reserved.
 '''
 
 '''
-Converts iOS translation file to android XML translation format.
+Converts iOS translation file to one of:
+- android XML translation format
+- android json format (used for runtime translating from assets)
+- vue json format (used for web dashboard and homepage)
+- arb format (used by flutter)
 '''
 
 import sys
@@ -24,10 +28,10 @@ from string import ascii_letters
 
 def main(argv):
     def usage():
-        print("usage: convert -i <input-file.strings> [-o <output-file.xml>] [-k <key_prefix>] [-f <xml|json>]")
+        print("usage: convert -i <input-file.strings> [-o <output-file.xxx>] [-k <key_prefix>] [-f <xml|json|vue|arb>]")
         print("Default output file is ./strings")
 
-    print("Convert Strings -> XML v0.1")
+    print("Convert Strings v0.2")
 
     # parse command line options
     base_path = "."
@@ -36,7 +40,8 @@ def main(argv):
         "output": "strings",
         "key_prefix": "",
         "json": False,
-        "vue": False
+        "vue": False,
+        "arb": False
     }
 
     try:
@@ -56,6 +61,7 @@ def main(argv):
         elif opt == "-f":
             config["json"] = arg.startswith("json")
             config["vue"] = "vue" in arg
+            config["arb"] = "arb" in arg
         else:
             print("  Unknown argument: %s" % opt)
             usage()
@@ -103,6 +109,8 @@ def main(argv):
         outputAsJsonVue(output_file, strings)
     elif config["json"]:
         outputAsJson(output_file, strings)
+    elif config["arb"]:
+        outputAsArb(output_file, strings)
     else:
         outputAsAndroidXml(output_file, strings)
 
@@ -143,6 +151,9 @@ def outputAsJsonVue(output_file, strings):
             f.write("\n")
 
         f.write("}\n")
+
+def outputAsArb(output_file, strings):
+    return outputAsJsonVue(output_file, strings)
 
 def makeAndroidKey(line):
     # Android does not support numbers. Replace the common ones.
