@@ -51,6 +51,5 @@ export default {
     },
     "langs-arb": {
         "zh-Hant": "zh",
-        "pt-BR": "pt"
     }
 }
