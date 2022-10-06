@@ -172,7 +172,7 @@ def commonSync(translate, mobile):
     if not os.path.exists(f"{mobile}/common/lib/l10n"):
         os.makedirs(f"{mobile}/common/lib/l10n")
 
-    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/common/lib/l10n/ui_en.arb -f \"arb\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/common/lib/l10n/app_en.arb -f \"arb\"", shell = True)
 
 def commonImport(langs, langs_web4, translate, mobile):
     print(f"  Importing to Common")
@@ -180,7 +180,7 @@ def commonImport(langs, langs_web4, translate, mobile):
         print(f"    importing {lang}")
         alang = langs_web4.get(lang, lang)
 
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/common/lib/l10n/ui_{alang}.arb -f \"arb\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/common/lib/l10n/app_{alang}.arb -f \"arb\"", shell = True)
 
 def landingSync(translate, web):
     print(f"  Syncing landing ({web})")
