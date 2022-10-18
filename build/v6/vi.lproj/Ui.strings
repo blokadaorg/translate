@@ -158,7 +158,7 @@
 "home status detail paused" = "Tạm dừng cho đến khi bộ hẹn giờ kết thúc";
 "home status detail active" = "Chặn *quảng cáo* và *trình theo dõi*";
 "home status detail active with counter" = "Đã chặn *%@* quảng cáo và trình theo dõi";
-"home status detail active day" = "Ads and trackers blocked last 24h";
+"home status detail active day" = "Quảng cáo và trình theo dõi bị chặn trong 24 giờ qua";
 "home status detail active slim" = "Blokada *Slim* đang hoạt động";
 "home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
 "home status detail progress" = "Vui lòng chờ...";
@@ -439,15 +439,15 @@
 "stats top allowed header" = "Yêu cầu được cho phép hàng đầu";
 "stats top blocked header" = "Yêu cầu bị chặn hàng đầu";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "Đã cho phép";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "Bị chặn";
 // A short one-word label for the counter of total requests.
-"stats label total" = "Total";
+"stats label total" = "Tổng cộng";
 // A short header for the stats section of last 24h. Can just say "24h".
 "stats header day" = "24h";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "All time";
+"stats header all time" = "Tất cả thời gian";
 
 "dnsprofile header" = "Bật Blokada trong Cài đặt";
 "dnsprofile desc" = "Trong ứng dụng Cài đặt, điều hướng đến Chung → VPN, DNS & Quản lý thiết bị → DNS và chọn Blokada.";
