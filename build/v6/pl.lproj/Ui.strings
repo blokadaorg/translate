@@ -226,11 +226,11 @@
 "activity filter showing for" = "Wyświetlanie dla: %@";
 "activity empty text" = "Spróbuj użyć swojego urządzenia i wróć tutaj później, aby sprawdzić, gdzie łączy się Twoje urządzenie.";
 "activity device filter show all" = "Wszystkie urządzenia";
-"activity retention header" = "Should we store your activity?";
+"activity retention header" = "Czy powinniśmy przechowywać Twoją aktywność?";
 "activity retention option none" = "Nie przechowuj mojej aktywności";
-"activity retention option 24h" = "Yes, store my activity";
-"activity retention policy" = "By enabling activity logging you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, enable activity logging below.";
+"activity retention option 24h" = "Tak, przechowuj moją aktywność";
+"activity retention policy" = "Włączając rejestrowanie aktywności akceptujesz politykę prywatności.";
+"activity retention desc" = "Blokada Cloud domyślnie nie loguje niczego. Jeśli chcesz zobaczyć zagregowane statystyki i aktywność ze wszystkich urządzeń, włącz logowanie aktywności poniżej.";
 
 "userdenied section header" = "Wyjątki";
 "userdenied section slugline" = "Zarządzaj blokowaniem poszczególnych stron";
@@ -439,7 +439,7 @@
 "stats top allowed header" = "Najczęściej zezwalane";
 "stats top blocked header" = "Najczęściej blokowane";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Dozwolone";
+"stats label allowed" = "Zezwolone";
 // A short one-word label for the counter of blocked requests.
 "stats label blocked" = "Zablokowane";
 // A short one-word label for the counter of total requests.
@@ -447,7 +447,7 @@
 // A short header for the stats section of last 24h. Can just say "24h".
 "stats header day" = "24 godz.";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "Łączny czas";
+"stats header all time" = "Od początku";
 
 "dnsprofile header" = "Aktywuj Blokadę w Ustawieniach";
 "dnsprofile desc" = "W aplikacji Ustawienia przejdź do Ogólne → VPN i urządzenia zarządzane → DNS i wybierz Blokada.";
