@@ -158,7 +158,7 @@
 "home status detail paused" = "Tạm dừng cho đến khi bộ hẹn giờ kết thúc";
 "home status detail active" = "Chặn *quảng cáo* và *trình theo dõi*";
 "home status detail active with counter" = "Đã chặn *%@* quảng cáo và trình theo dõi";
-"home status detail active day" = "Ads and trackers blocked last 24h";
+"home status detail active day" = "Quảng cáo và trình theo dõi bị chặn trong 24 giờ qua";
 "home status detail active slim" = "Blokada *Slim* đang hoạt động";
 "home status detail plus" = "*+* đang bảo vệ *quyền riêng tư* của bạn";
 "home status detail progress" = "Vui lòng chờ...";
@@ -226,11 +226,11 @@
 "activity filter showing for" = "Đang hiển thị cho: %@";
 "activity empty text" = "Hãy thử sử dụng thiết bị của bạn và quay lại đây sau để xem nơi thiết bị của bạn kết nối với nó.";
 "activity device filter show all" = "Tất cả thiết bị";
-"activity retention header" = "Chúng tôi có thể lưu trữ hoạt động của bạn trong bao lâu?";
+"activity retention header" = "Should we store your activity?";
 "activity retention option none" = "Không lưu trữ hoạt động của tôi";
-"activity retention option 24h" = "24 giờ";
-"activity retention policy" = "Bằng cách cho phép lưu giữ nhật ký, bạn chấp nhận chính sách bảo mật.";
-"activity retention desc" = "Đám mây Blokada không ghi nhật ký bất kỳ thứ gì theo mặc định. Nếu bạn muốn xem số liệu thống kê và hoạt động tổng hợp từ tất cả các thiết bị của mình, hãy chọn khoảng thời gian lưu giữ nhật ký mong muốn bên dưới.";
+"activity retention option 24h" = "Yes, store my activity";
+"activity retention policy" = "By enabling activity logging you accept the privacy policy.";
+"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, enable activity logging below.";
 
 "userdenied section header" = "Ngoại lệ";
 "userdenied section slugline" = "Quản lý việc chặn các trang web cụ thể";
@@ -439,15 +439,15 @@
 "stats top allowed header" = "Yêu cầu được cho phép hàng đầu";
 "stats top blocked header" = "Yêu cầu bị chặn hàng đầu";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "Đã cho phép";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "Bị chặn";
 // A short one-word label for the counter of total requests.
-"stats label total" = "Total";
+"stats label total" = "Tổng cộng";
 // A short header for the stats section of last 24h. Can just say "24h".
 "stats header day" = "24h";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "All time";
+"stats header all time" = "Tất cả thời gian";
 
 "dnsprofile header" = "Bật Blokada trong Cài đặt";
 "dnsprofile desc" = "Trong ứng dụng Cài đặt, điều hướng đến Chung → VPN, DNS & Quản lý thiết bị → DNS và chọn Blokada.";
