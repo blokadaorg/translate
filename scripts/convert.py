@@ -153,7 +153,18 @@ def outputAsJsonVue(output_file, strings):
         f.write("}\n")
 
 def outputAsFlutter(output_file, strings):
-    return outputAsJsonVue(output_file, strings)
+    with open(output_file, "w") as f:
+        f.write("{\n")
+
+        count = 0
+        for key in strings:
+            count += 1
+            f.write(f"    \"{key}\": \"{convertPlaceholders(strings[key])}\"")
+            if count < len(strings):
+                f.write(",")
+            f.write("\n")
+
+        f.write("}\n")
 
 def makeAndroidKey(line):
     # Android does not support numbers. Replace the common ones.
