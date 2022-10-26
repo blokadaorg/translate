@@ -1,24 +1,24 @@
-This is the official app on App Store from the Blokada open source project.
+Це єдиний офіційний додаток в App Store від проєкту з відкритим кодом.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada для iOS - це безкоштовна програма, яка використовує сервери DNS (система доменних імен), щоб ви могли переглядати сайти без реклами та бачити тільки той контент, який вам потрібен.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
-
-----
-
-Top features:
-
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
-
-The most compatible ad blocker on the market!
-
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
-
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Існує також вбудований VPN, який можна використовувати опціонально. За допомогою Blokada Plus VPN ви можете переглядати вебсторінки приватно та захистити свій інтернет-трафік від кібератак та хакерів.
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+Головні можливості:
+
+- Підтримує блокування реклами для всіх встановлених веб-браузерів та інших програм.
+- Блокує сайти, що розповсюджують шкідливий контент, віруси та шахрайські сайти.
+- DNS-перехоплення (VPN-режим) для всіх сучасних браузерів.
+- Швидкий та надійний VPN, який захищає вашу конфіденційність та шифрує ваші дані.
+
+Найбільш сумісний блокувальник реклами на ринку!
+
+• Блокує рекламу • Зберігає трафік • ШВИДШЕ завантажує сайти • Збільшує час автономної роботи
+
+Що можна заблокувати? • Блокує набридливу рекламу: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon тощо. • Блокує веб-сайти для дорослих. • Блокує сайти із азартними іграми. • Блокує трекери соціальних мереж: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Блокує шкідливі веб-сайти: завантаження вірусів, шкідливий контент, шахрайські веб-сайти та маніпулюючі програми. • Програма Blokada Plus Adblock для iOS.
+
+----
+
+Умови використання: https://go.blokada.org/terms Політика конфіденційності: https://go.blokada.org/privacy
