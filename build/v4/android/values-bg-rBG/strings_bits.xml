@@ -47,7 +47,7 @@
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Реклами</string>
     <string name="menu_ads_live_label">Регистър с хостовете на разрешените и блокираните заявки</string>
-    <string name="menu_ads_clear_log">Изчистване на дневника с хостове</string>
+    <string name="menu_ads_clear_log">Изчистване на регистъра с хостове</string>
     <string name="menu_ads_lists_label">Изберете списъци, които да използвате за блокиране. По подразбиране е добре за повечето хора.</string>
     <string name="menu_ads_rules_label">Добавете свои собствени правила за фина настройка на блокирането.</string>
     <string name="menu_ads_log_label">Вижте какво наскоро е блокирано или разрешено.</string>
@@ -69,7 +69,7 @@
     <string name="menu_vpn_restore_label">Тук можете да възстановите сегашния си профил, ако например преинсталирате приложението.</string>
     <string name="menu_vpn_intro">С Blokada Plus вашите данни са криптирани, вашият IP адрес е скрит и местоположението ви е променено.</string>
     <string name="menu_vpn_account_label">За да използвате VPN трябва да имате активен профил. Проверете, или възстановете профила си тук.</string>
-    <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви ще изпраща криптирани данни сигурно чрез този шлюз и ще останете анонимни.</string>
+    <string name="menu_vpn_gateways_label">Изберете един от шлюзовете, към който да се свържете. Устройството ви чрез този шлюз ще изпраща сигурно криптирани данни и ще останете анонимни.</string>
     <string name="menu_vpn_support_label">Ако имате някакви проблеми, не се колебайте да се свържете с нас.</string>
     <string name="menu_vpn_support_button">Поддръжка</string>
     <string name="menu_vpn_tunnel_settings">Blokada Plus настройки</string>
@@ -82,9 +82,9 @@
     <string name="menu_dns_recommended">Препоръчителни DNS сървъри</string>
     <string name="menu_dns_intro">DNS отговаря за свързването на устройството ви с уеб сайтовете и приложенията, които използвате. Изборът на добър DNS може да ускори устройството и ще спомогне за защитата на вашата поверителност.</string>
     <string name="menu_dns_select">Изберете един от DNS сървърите.</string>
-    <string name="menu_apps_intro">Някои приложения може да не работят правилно с Blokada. Например, те могат да имат проблеми със свързването. \n\nАктивирането на VPN често помага в тези случаи. \n\nВ противен случай можете да накарате тези приложения да бъдат заобиколени напълно от проверката на Blokada. Но не забравяйте, че заобиколените приложения комуникират самостоятелно и извън Blokada Plus.</string>
+    <string name="menu_apps_intro">Някои приложения може да не работят правилно с Blokada. Например, те могат да имат проблеми със свързването. \n\nАктивирането на VPN често помага в тези случаи. \n\nВ противен случай можете да накарате тези приложения да бъдат заобиколени напълно от проверката на Blokada. Но не забравяйте, че заобиколените приложения комуникират самостоятелно извън Blokada Plus.</string>
     <string name="menu_apps_system_label">Системните приложения са тези, които са предварително инсталирани на устройство ви. Някои от тях са скрити. Променете тези, само за които знаете какво правите.</string>
-    <string name="menu_host_list_intro">Хост списъците съдържат правила за блокиране на реклами и тракери. Опитайте се да запазите нисък броя на активните списъци.</string>
+    <string name="menu_host_list_intro">Списъците с хостове съдържат правила за блокиране на реклами и тракери. Опитайте се да поддържате малък брой активни списъци.</string>
     <string name="menu_host_adblocking_features">Blokada Лаборатория</string>
     <string name="menu_host_adblocking_settings">Настройки за блокиране на реклами</string>
     <string name="menu_host_list_status">Статус на списъка</string>
@@ -104,7 +104,7 @@
     <string name="menu_configure">Конфигуриране функциите на Blokada</string>
     <string name="menu_exclude">Изключване на приложения, които не работят правилно</string>
     <!-- A section in menu for additional buttons  -->
-    <string name="menu_dive_in">Гмурнете се по-дълбоко</string>
+    <string name="menu_dive_in">Потопете се по-дълбоко</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Управление</string>
     <string name="menu_ok">Да</string>
