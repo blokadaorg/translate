@@ -5,8 +5,8 @@
     <!-- Parameter: new app version, for example 2.0.1 -->
     <string name="update_notification_text">Версия %1$s е налична за изтегляне! Докоснете за да продължите.</string>
     <!-- Header displaying the new app version. Important! Parameter was removed from this string, so please remove any variable placeholders from translations. -->
-    <string name="update_notification_channel">Известия за актуализацията</string>
-    <string name="update_info">Ако сте изтеглили приложението от Google Play Магазин, F-Droid или друг магазин за приложения ще получите актуализации от магазина, когато те станат достъпни. Уверете се, че Blokada е деактивирана по време на актуализацията. Ако имате проблеми с актуализирането отидете на blokada.org и изтеглете ръчно приложението. Не е необходимо предварително да деинсталирате съществуващата версия.</string>
+    <string name="update_notification_channel">Известие за актуализация</string>
+    <string name="update_info">Ако сте изтеглили приложението от Google Play Магазин, F-Droid или друг магазин за приложения, ще получите актуализации от магазина, когато те станат достъпни. Уверете се, че Blokada е деактивирана по време на актуализацията. Ако имате проблеми с актуализирането, отидете на blokada.org и изтеглете ръчно приложението. Не е необходимо предварително да деинсталирате съществуващата версия.</string>
     <!-- Displayed in the home screen when there is an update. Keep it short. -->
     <string name="update_dash_available">&lt;b&gt;Налична е актуализация!&lt;/b&gt;</string>
     <!-- Displayed in the home screen whenever there is no update. Keep it short. -->
@@ -17,8 +17,8 @@
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">Започва, моля изчакайте&#8230;</string>
     <string name="update_progress">Изтегляне: %s%%</string>
-    <string name="update_complete">Изтеглянето приключи</string>
-    <string name="update_failed">Неуспешно изтегляне</string>
-    <string name="update_instruction">Когато приключи ще бъдете помолени да разрешите Blokada да инсталира актуализацията.</string>
-    <string name="update_instruction_failed">Докоснете тук за да опитате отново, или вместо това натиснете по-дълго за да изтеглите с браузъра.</string>
+    <string name="update_complete">Изтеглянето завърши</string>
+    <string name="update_failed">Изтеглянето е неуспешно</string>
+    <string name="update_instruction">След като приключи, ще бъдете помолени да разрешите на Blokada да инсталира актуализацията.</string>
+    <string name="update_instruction_failed">Докоснете тук, за да опитате отново, или вместо това натиснете продължително, за да изтеглите с браузъра.</string>
 </resources>
