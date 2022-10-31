@@ -6,7 +6,7 @@
     <string name="tunnel_config_refetch_now_title">Изтегляне на списъци</string>
     <string name="tunnel_config_refetch_now">Изтегляне на списъците сега</string>
     <string name="tunnel_config_refetch_toast">Стартира изтеглянето на списъците</string>
-    <string name="tunnel_config_refetch_now_description">Използвайте бутона по-долу за да премахнете кеша и да изтеглите списъците отново. Това може да помогне ако имате някакви проблеми с филтрирането.</string>
+    <string name="tunnel_config_refetch_now_description">Използвайте бутона по-долу, за да премахнете кеша и да изтеглите списъците отново. Това може да помогне ако имате някакви проблеми с филтрирането.</string>
     <string name="tunnel_config_refetch_frequency_title">Честота на изтегляне на списъци</string>
     <string name="tunnel_config_refetch_frequency_description">Изберете една от опциите за да конфигурирате колко често приложението да изтегля списъците.</string>
     <string name="tunnel_config_refetch_frequency_1">Веднъж дневно</string>
@@ -26,16 +26,16 @@
     <string name="tunnel_config_wildcard_description">Активирайте този превключвател ако искате да използвате заместващи знаци във вашите правила за филтриране. Например, добавянето на правило за *.google.com ще блокира всички домейни от Google. Това може да има отрицателно влияние върху живота на батерията. Моля, обърнете внимание, че това е експериментална функция и може да не работи правилно.</string>
     <string name="tunnel_config_cname_title">[BETA] CName-Блокиране</string>
     <string name="tunnel_config_cname_description">Активирайте този превключвател ако искате да блокирате всички CName на домейните във вашите списъци с блокирани. CName е псевдоним на домейн, който се използва от някой рекламодатели за да скрият даден домейн зад често променящ се или по-малко очевиден домейн. Тази тактика може да бъде заобиколена чрез блокиране на всички CNames, които биха разрешили блокирания домейн. Моля обърнете внимание, че това е експериментална функция и може да не работи правилно.</string>
-    <string name="tunnel_config_fallback_title">Възстановяване на DNS</string>
+    <string name="tunnel_config_fallback_title">Резервен DNS</string>
     <string name="tunnel_config_fallback_description">Активирайте този превключвател, ако в някои случаи загубите достъп до Интернет, например WiFi мрежата ви. Това ще накара приложението временно да премине към Cloudflare или Google DNS за да поддържа вашата връзка. Може да се наложи да изберете отново вашите сървъри в секцията DNS за да влезе в сила тази настройка.</string>
     <string name="tunnel_config_smartlist_title">[БЕТА] Интелигентен списък</string>
     <string name="tunnel_config_smartlist_reset_btn">Нулиране</string>
     <string name="tunnel_config_smartlist_clean_btn">Почистване</string>
     <string name="tunnel_config_smartlist_clean_none">Няма нищо за почистване</string>
-    <string name="tunnel_config_smartlist_clean_inactive">Smart List не е активен</string>
-    <string name="tunnel_config_smartlist_clean_done">Smart List е изчистен от стари правила</string>
+    <string name="tunnel_config_smartlist_clean_inactive">Интелигентният списък не е активен</string>
+    <string name="tunnel_config_smartlist_clean_done">Интелигентният списък е изчистен от стари правила</string>
     <string name="tunnel_config_smartlist_reset_done">Smart List е нулиран</string>
     <string name="tunnel_config_smartlist_description">Активирайки този превключвател ще активирате функцията Интелигентен списък, която значително намалява броя на правилата във вашите филтри, което потенциално подобрява живота на батерията и намалява използването на RAM. Когато е активирана Blokada ще прегледа дневника на вашите заявки и динамично ще генерира списък, който съдържа само правила, които действително блокират поне една заявка. Интелигентният списък се актуализира всеки ден през нощта. Моля, обърнете внимание, че може да получите по-голям брой нежелани заявки, които са разрешени по време на учебния период (няколко дни). Моля обърнете внимание, че това е експериментална функция и може да не работи правилно.</string>
-    <string name="tunnel_config_disable_wildcard">Първо деактивирайте правилата за разширено блокиране на реклами.</string>
+    <string name="tunnel_config_disable_wildcard">Първо деактивирайте правилата за Разширено блокиране на реклами.</string>
     <string name="tunnel_config_disable_smartlist">Първо деактивирайте Интелигентен списък.</string>
 </resources>
