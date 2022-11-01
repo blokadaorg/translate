@@ -266,7 +266,7 @@
 "account create confirm" = "Записах го";
 
 "account section header my subscription" = "Моят абонамент";
-"account section header general" = "Основни";
+"account section header general" = "Общи";
 "account section header subscription" = "Абонамент";
 "account label id" = "Профил ID";
 "account label type" = "Абонаментен план";
@@ -278,7 +278,7 @@
 "account subscription header payment method" = "Начин на плащане";
 "account subscription renew unsupported" = "Начинът ви на плащане не позволява да контролирате от тук настройката за автоматично подновяване.";
 
-"account unlock to show" = "Отключете за да се покаже ID на профила";
+"account unlock to show" = "Отключете, за да се покаже ID на профила";
 
 "account header logout" = "Възстановяване на покупка";
 "account logout description" = "Моля, въведете друго ID за потребителският профил, или се върнете и продължете да използвате съществуващия си профил (това приложение не може да се използва без такъв).";
@@ -287,7 +287,7 @@
 
 "account subscription days remaining" = "Оставащи дни: %@";
 "account devices remaining" = "Оставащи устройства: %@";
-"account devices not available" = "Не е налично";
+"account devices not available" = "Няма налични";
 "account devices out of" = "%@ от %@";
 
 "account lease label devices list" = "Тези устройства са свързани с вашият профил.";
@@ -298,10 +298,10 @@
 "account lease label generate" = "Избирането на местоположение ще генерира конфигурационен файл, който можете да използвате във всяко VPN приложение, което поддържа Wireguard. Това е полезно за платформи, за които все още нямаме наше приложение. В този случай препоръчваме да използвате ваше собствено приложение.";
 "account lease action generate" = "Създаване на конфигурация";
 "account lease action download" = "Изтегляне на конфигурацията";
-"account lease generated" = "Устройството е добавено! Изтеглете конфигурацията за да я използвате на всяко устройство поддържано от Wireguard.";
+"account lease generated" = "Устройството е добавено! Изтеглете конфигурацията, за да я използвате на всяко устройство поддържано от Wireguard.";
 "account lease wireguard desc" = "Blokada използва Wireguard. Конфигурациите могат да бъдат изтеглени при създаване на нови устройства.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Изберете DNS";
+"account lease action dns" = "Избор на DNS";
 "account lease label public key" = "Публичен ключ";
 
 "account support action how help" = "Как можем да ви помогнем?";
@@ -317,12 +317,12 @@
 "payment title" = "Надстройте до нашата VPN услуга за да имате контрол над *вашата поверителност*.";
 "payment feature title change location" = "Промяна на местоположение";
 "payment feature desc change location" = "Скрийте своя IP адрес и се преструвайте, че сте в друга държава. Това ще ви скрие за пред трети страни и ще ви помогне да защитите вашата самоличност.";
-"payment feature title encrypt data" = "Криптиране на данни";
+"payment feature title encrypt data" = "Криптирани данни";
 "payment feature desc encrypt data" = "Данните изпратени през нашия VPN тунел се криптират с помощта на силни алгоритми, които да ги защитят от прихващане от неоторизирани страни.";
-"payment feature title encrypt dns" = "Шифроване на DNS";
+"payment feature title encrypt dns" = "Криптиран DNS";
 "payment feature desc encrypt dns" = "Подобрете поверителността си с криптиран DNS. Blokada Cloud използва модерни протоколи, които ще ви помогнат да запазите трафика си личен.";
 "payment feature title performance" = "Голяма производителност";
-"payment feature desc performance" = "Поддържайте устройството си бързо и интернет връзката си на максимална скорост, благодарение на нашето ново решение с облак.";
+"payment feature desc performance" = "Поддържайте устройството си бързо и интернет връзката си на максимална скорост, благодарение на нашето ново Облачно решение.";
 "payment feature title battery" = "Нулево въздействие върху батерията";
 "payment feature desc battery" = "Животът на батерията няма да бъде засегнат, а може дори да се подобри, когато Blokada Cloud е активиран.";
 "payment feature title devices cloud" = "Множество устройства";
@@ -332,7 +332,7 @@
 "payment feature title faster connection" = "По-бърза връзка";
 "payment feature desc faster connection" = "Големи скорости до 100Mbps със сървъри в различни части на света.";
 "payment feature title devices" = "До 5 устройства";
-"payment feature desc devices" = "Използвайте един профил за да споделяте абонамента си с до 5 устройства: iOS, Android или компютър.";
+"payment feature desc devices" = "Използвайте един профил, за да споделяте абонамента си с до 5 устройства: iOS, Android или компютър.";
 "payment feature title no ads" = "Блокиране на реклами";
 "payment feature desc no ads" = "Използвайте на вашите устройства популярната технология Blokada, блокираща рекламите. Налични са също и разширени настройки.";
 "payment feature title support" = "Страхотна поддръжка";
@@ -352,13 +352,13 @@
 "payment subscription per month" = "%@ на месец";
 "payment subscription per year" = "%@ на година";
 "payment subscription per year then" = "след това %@ на година";
-"payment subscription offer" = "Запази %@";
+"payment subscription offer" = "Спестете %@";
 
 "payment success label" = "Благодаря!";
 "payment success desc" = "Вашият профил е активен! Вече можете да използвате всички функции на Blokada Plus на всичките си устройства.";
 
 "payment redirect label" = "Пренасочване...";
-"payment redirect desc" = "Моля изчакайте. Това ще отнеме малко време.";
+"payment redirect desc" = "Моля, изчакайте. Това ще отнеме малко време.";
 
 "payment ongoing title" = "Плащането Ви се обработва.";
 "payment ongoing desc" = "Плащанията с кредитни карти не трябва да отнемат повече от няколко минути. Плащанията с криптовалута обикновено отнемат до час, в зависимост от това каква такса за транзакция сте избрали. В някои случаи като при PayPal, това може да отнеме до 24 часа. Ще получите пренасочване след като профилът ви е готов. Можете да затворите този екран и да дойдете отново по-късно. Ако смятате, че транзакцията се забавя много време, моля свържете се с нас.";
