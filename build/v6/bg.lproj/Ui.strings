@@ -375,7 +375,7 @@
 "payment label most popular" = "Най-популярен";
 "payment label pay with card" = "Платете с карта";
 "payment label pay with paypal" = "Платете с PayPal";
-"payment label pay with crypto" = "Платете с crypto";
+"payment label pay with crypto" = "Платете с криптовалута";
 "payment package one month" = "1 Месец";
 "payment package six months" = "6 Месеца";
 "payment package twelve months" = "12 Месеца";
@@ -384,7 +384,7 @@
 
 "payment euro desc" = "Ние се намираме в Европа, така че приемаме Евро: €10 са приблизително $12.";
 
-"payment action compare" = "Сравнете плановете";
+"payment action compare" = "Сравняване на плановете";
 "payment plan slugline cloud" = "Блокиране на реклами и тракери";
 // A short information that Plus plan contains Cloud also.
 "payment plan slugline cloud detail" = "(включва Blokada облак)";
@@ -405,9 +405,9 @@
 "web vpn devices open action" = "Отваряне на VPN устройства";
 "web action open setup" = "Отваряне на настройката";
 "web cta plus header" = "Надстройте до Blokada Plus за да контролирате поверителността си.";
-"web cta plus desc" = "Вашият акаунт в Libre ви дава безплатно блокиране на реклами на вашето устройство с нашите приложения с отворен код. Надстройте до Blokada Plus за още по-добра защита. Ще получите достъп до нашата глобална VPN мрежа, както и новото ни *облачно* блокиране на реклами, което е по-ефективно и по-лесно за използване.";
+"web cta plus desc" = "Профилът в Libre ви дава възможност за безплатно блокиране на реклами на вашето устройство с нашите приложения с отворен код. Надградете до Blokada Plus за още по-добра защита. Ще получите достъп до нашата глобална VPN-мрежа, както и до новото ни *базирано в облак* блокиране на реклами, което е по-ефективно и по-лесно за използване.";
 // A short word for a button to generate profile
-"web action generate" = "Генерирай";
+"web action generate" = "Генериране";
 
 "setup header" = "Настройки";
 "setup desc" = "Има много начини да конфигурирате устройството си да използва Blokada Cloud. Изберете този, който работи за вас.";
@@ -418,16 +418,16 @@
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Стъпка %@: %@";
 "setup option label recommended" = "Препоръчително: %@";
-"setup option label alternative" = "Алтернативно: %@";
+"setup option label alternative" = "Алтернативен вариант: %@";
 "setup name label unnamed" = "(без име)";
 
 "setup step name" = "Име на вашето устройство (по избор)";
 "setup step copy" = "Копирайте името на хоста";
 "setup step apply config" = "Прилагане на новата конфигурация";
-"setup step install" = "Инсталирайте и стартирайте приложението си";
-"setup step enter tag" = "Когато бъдете помолени, въведете своя маркер";
-"setup step download profile" = "Генерирайте и изтеглете вашия профил";
-"setup step install wireguard" = "Инсталирайте и стартирайте WireGuard";
+"setup step install" = "Инсталиране и стартиране на приложението";
+"setup step enter tag" = "Когато бъдете запитани, въведете своя етикет";
+"setup step download profile" = "Генериране и изтегляне на вашия профил";
+"setup step install wireguard" = "Инсталиране и стартиране на WireGuard";
 
 "stats header" = "Статистика";
 // A ratio between counter of allowed vs denied requests.
@@ -449,16 +449,16 @@
 // A short header for the stats section of the all time stats.
 "stats header all time" = "През цялото време";
 
-"dnsprofile header" = "Активиране на Blokada в настройките";
+"dnsprofile header" = "Активиране на Blokada в Настройки";
 "dnsprofile desc" = "В Настройки на приложението отворете Общи → VPN, DNS и управление на устройства → DNS и изберете Blokada.";
 "dnsprofile action open settings" = "Отваряне на настройките";
-"dnsprofile desc android" = "В приложението Настройки намерете секцията Private DNS и след това поставете името на хоста си (дълго докосване).";
-"dnsprofile desc android copy" = "Копирайте вашето име на хост в Blokada Cloud и го поставете в Настройки.";
+"dnsprofile desc android" = "В Настройки на приложението, намерете секцията Частен DNS и след това поставете името на хоста си (с дълго докосване).";
+"dnsprofile desc android copy" = "Копирайте името на хоста на Blokada Cloud, за да го поставите в Настройки.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
 "activated header" = "Почти сме готови!";
-"activated desc" = "Необходимо е следното за да работи Blokada според очакванията:";
-"activated desc all ok" = "Вашето устройство е готово и настроено:";
+"activated desc" = "Необходимо е следното, за да работи Blokada според очакванията:";
+"activated desc all ok" = "Вашето устройство е настроено и готово за работа:";
 "activated label account" = "Профилът е активен (%@)";
 "activated label notif yes" = "Известията са разрешени";
 "activated label notif no" = "Разрешаване на известията";
