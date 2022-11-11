@@ -19,7 +19,7 @@
 "error tunnel" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
 "error vpn" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
 "error vpn perms" = "No permissions granted to create a VPN profile.";
-"error vpn no current lease" = "Please select a location first.";
+"error vpn no current lease" = "Спочатку виберіть розташування.";
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
 "error vpn expired" = "The VPN is disabled. Please update your subscription to continue using BLOKADA+";
@@ -112,7 +112,7 @@
 
 // A short header in a notification shown when account expires
 "notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
+"notification acc subtitle" = "Блокування реклами вимкнено";
 "notification acc body" = "Please update your subscription to continue using Blokada.";
 
 "notification pause header" = "Blokada is still paused";
@@ -120,7 +120,7 @@
 "notification pause body" = "Please open the app to resume Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus вимкнена";
 
 "notification update header" = "Доступне оновлення";
 "alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
@@ -131,7 +131,7 @@
 
 "main share message" = "Blokada helped me block %@ ads and trackers!";
 
-"main rate us header" = "Rate us!";
+"main rate us header" = "Оцініть нас!";
 "main rate us description" = "How do you like Blokada so far?";
 "main rate us on app store" = "Would you help us by rating Blokada on App Store?";
 "main rate us action sure" = "Sure!";

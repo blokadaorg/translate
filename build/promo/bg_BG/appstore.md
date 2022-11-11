@@ -17,7 +17,7 @@ Blokada за iOS е безплатно приложение, което изпо
 
 • Блокира реклами • Запазва вашия план за данни • Преглеждайте БЪРЗО, като зареждате по-малко данни • Увеличава живота на батерията
 
-Какво може да блокира? • Блокира досадни реклами: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon и др. • Блокира сайтове за възрастни • Блокира сайтове за хазарт • Блокира тракери за социални медии: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Блокира злонамерени сайтове: за изтегляне на вируси, злонамерено съдържание, измамни такива и манипулирани приложения • Blokada Plus Adblock iOS App.
+Какво може да блокира? • Блокира досадни реклами: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon и др. • Блокира сайтове за възрастни • Блокира сайтове за хазарт • Блокира тракери за социални медии: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Блокира злонамерени сайтове: за изтегляне на вируси, злонамерено съдържание, измамни такива и манипулирани приложения • Приложение Blokada Plus Adblock за iOS.
 
 ----
 

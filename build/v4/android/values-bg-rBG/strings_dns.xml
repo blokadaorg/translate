@@ -2,12 +2,12 @@
 <resources>
     <!-- A name used for DNS servers added by user. -->
     <string name="dns_custom_add_slot">Добавяне на нов DNS…</string>
-    <string name="slot_enter_dns_error">Това не ми прилича на IPv4.</string>
+    <string name="slot_enter_dns_error">Това не прилича на IPv4.</string>
     <!-- An example format of a DNS server address. -->
     <string name="dns_edit_ip_label">IP адрес</string>
     <string name="dns_edit_ip1_enter">Въведете основен адрес</string>
-    <string name="dns_edit_ip2_enter">Въведете втори адрес</string>
-    <string name="dns_edit_name_error">Това не е валидно име</string>
+    <string name="dns_edit_ip2_enter">Въведете допълнителен адрес</string>
+    <string name="dns_edit_name_error">Невалидно име</string>
     <string name="dns_edit_name_label">Име на сървъра</string>
     <string name="dns_edit_name_default">Име по подразбиране</string>
     <string name="dns_edit_next">Напред</string>
@@ -17,7 +17,7 @@
     <!-- Deletes all dns suggestions and fetches default ones. -->
     <string name="dns_generate_defaults">Възстановяване по подразбиране</string>
     <!-- Forcefully refetch dns suggestions ignoring cache. -->
-    <string name="dns_generate_refetch">Обновяване на списъка с DNS</string>
+    <string name="dns_generate_refetch">Опресняване на списъка с DNS</string>
     <!-- Keep Alive notification for DNS. Parameter: addresses of active dns servers. -->
     <string name="dns_keepalive_content">Активен: %s</string>
 </resources>
