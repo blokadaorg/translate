@@ -101,11 +101,11 @@ def main(argv):
 def iosSync(translate, mobile):
     print(f"  Syncing iOS")
     try:
-        shutil.rmtree(f"{mobile}/ios/App/Assets/en.lproj")
+        shutil.rmtree(f"{mobile}/App/Assets/en.lproj")
     except:
         pass
     try:
-        shutil.copytree(f"{translate}/v6", f"{mobile}/ios/App/Assets/en.lproj")
+        shutil.copytree(f"{translate}/v6", f"{mobile}/App/Assets/en.lproj")
     except:
         pass
 
@@ -114,11 +114,11 @@ def iosImport(langs, translate, mobile):
     for lang in langs:
         print(f"    importing: {lang}")
         try:
-            shutil.rmtree(f"{mobile}/ios/App/Assets/{lang}.lproj")
+            shutil.rmtree(f"{mobile}/App/Assets/{lang}.lproj")
         except:
             pass
         try:
-            shutil.copytree(f"{translate}/build/v6/{lang}.lproj", f"{mobile}/ios/App/Assets/{lang}.lproj")
+            shutil.copytree(f"{translate}/build/v6/{lang}.lproj", f"{mobile}/App/Assets/{lang}.lproj")
         except:
             pass
 
