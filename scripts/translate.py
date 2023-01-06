@@ -123,33 +123,33 @@ def iosImport(langs, translate, mobile):
             pass
 
 def android5Sync(translate, mobile):
-    print("  Syncing Android 5")
+    print("  Syncing Android 5|6")
 
-    if not os.path.exists(f"{mobile}/android5/app/src/main/assets/translations/root"):
-        os.makedirs(f"{mobile}/android5/app/src/main/assets/translations/root")
+    if not os.path.exists(f"{mobile}/android/app/src/main/assets/translations/root"):
+        os.makedirs(f"{mobile}/android/app/src/main/assets/translations/root")
 
-    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/android5/app/src/main/res/values/strings_ui.xml", shell = True)
-    subprocess.call(f"./convert.py -i {translate}/v6/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/root/tags.json -f \"json\"", shell = True)
-    subprocess.call(f"./convert.py -i {translate}/v6/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/root/packs.json -f \"json\"", shell = True)
-    subprocess.call(f"./convert.py -i {translate}/v5/Android.strings -o {mobile}/android5/app/src/main/res/values/strings_android.xml", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/android/app/src/main/res/values/strings_ui.xml", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/PackTags.strings -o {mobile}/android/app/src/main/assets/translations/root/tags.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Packs.strings -o {mobile}/android/app/src/main/assets/translations/root/packs.json -f \"json\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v5/Android.strings -o {mobile}/android/app/src/main/res/values/strings_android.xml", shell = True)
 
 def android5Import(langs, langs_android, translate, mobile):
-    print(f"  Importing to Android 5")
+    print(f"  Importing to Android 5|6")
     for lang in langs:
         print(f"    importing {lang}")
         alang = langs_android.get(lang, lang)
 
-        if not os.path.exists(f"{mobile}/android5/app/src/translations/res/values-{alang}"):
-            os.makedirs(f"{mobile}/android5/app/src/translations/res/values-{alang}")
-        if not os.path.exists(f"{mobile}/android5/app/src/main/assets/translations/{lang}"):
-            os.makedirs(f"{mobile}/android5/app/src/main/assets/translations/{lang}")
+        if not os.path.exists(f"{mobile}/android/app/src/translations/res/values-{alang}"):
+            os.makedirs(f"{mobile}/android/app/src/translations/res/values-{alang}")
+        if not os.path.exists(f"{mobile}/android/app/src/main/assets/translations/{lang}"):
+            os.makedirs(f"{mobile}/android/app/src/main/assets/translations/{lang}")
 
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/PackTags.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/tags.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Packs.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/packs.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/ui.json -f \"json\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android5/app/src/translations/res/values-{alang}/strings_ui.xml -f \"xml\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android5/app/src/translations/res/values-{alang}/strings_android.xml -f \"xml\"", shell = True)
-        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android5/app/src/main/assets/translations/{lang}/android.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/PackTags.strings -o {mobile}/android/app/src/main/assets/translations/{lang}/tags.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Packs.strings -o {mobile}/android/app/src/main/assets/translations/{lang}/packs.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android/app/src/main/assets/translations/{lang}/ui.json -f \"json\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/android/app/src/translations/res/values-{alang}/strings_ui.xml -f \"xml\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android/app/src/translations/res/values-{alang}/strings_android.xml -f \"xml\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v5/{lang}.lproj/Android.strings -o {mobile}/android/app/src/main/assets/translations/{lang}/android.json -f \"json\"", shell = True)
 
 def android4Sync(translate, mobile):
     print("  Syncing Android 4")
