@@ -26,16 +26,16 @@
 "error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
 "error payment failed" = "此时付款不可用。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 "error payment failed alternative" = "无法完成您的付款。请确保您的数据正确，然后重试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
-"error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
+"error payment not available" = "此设备的支付不可用。要么此设备未更新，要么我们尚未支持您所在国家的支付方式。";
 "error payment canceled" = "付款已被取消。您尚未被收取费用。";
 "error pack install" = "无法安装(或卸载) 此功能。请稍后再试。";
 "error location failed fetching" = "无法获取位置。";
 "error unknown" = "出现问题。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
-"error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
+"error multiple apps" = "您的设备上有多个 Blokada 应用程序。这可能会导致连接问题，您想现在修复它吗？";
 
-"conn isssues header" = "Connectivity issues";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues header" = "连接问题";
+"conn isssues slug" = "连接问题。请检查您的配置。点击了解详情。";
+"conn isssues details" = "- 检查您的网络连接\n- 只使用一个 Blokada 应用程序\n- 停用其他 VPN";
 
 "universal action continue" = "继续";
 "universal action cancel" = "取消";
@@ -99,37 +99,37 @@
 
 "notification perms header" = "在“设置”中开启通知权限";
 "notification perms desc" = "此功能需要通知权限，请为 Blokada 开放通知权限。";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms denied" = "您拒绝了通知。如果要更改它，请使用系统设置。";
 
 "notification vpn expired header" = "BLOKADA+ 订阅已过期";
 "notification vpn expired subtitle" = "VPN 已禁用";
 "notification vpn expired body" = "请更新您的订阅以继续使用 BLOKADA+";
 "notification desc settings" = "向左或向右滑动通知来设置。";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: 需要操作";
+"notification generic subtitle" = "点击了解更多";
+"notification generic body" = "请打开应用程序了解详情。";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "订阅已过期";
+"notification acc subtitle" = "广告拦截已禁用";
+"notification acc body" = "请更新您的订阅以继续使用 Blokada。";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause header" = "Blokada 已暂停使用";
+"notification pause subtitle" = "广告拦截已禁用";
+"notification pause body" = "请打开应用程序以恢复 Blokada。";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus 已关闭";
 
 "notification update header" = "有可用的更新";
 "alert update body" = "Blokada %@ 现在可以下载。我们建议从我们的官方来源下载后更新。";
 "update label updated" = "更新成功！";
 "update desc updated" = "您现在正在使用最新版本的Blokada！记住，捐赠或订阅Blokada Plus可以帮助我们继续改进应用程序。";
-"update desc updated nodon" = "You are now using the newest version of Blokada!";
+"update desc updated nodon" = "您正在使用最新版本的Blokada！";
 "update downloading description" = "更新正在下载，您将很快看到安装提示。";
 
-"main share message" = "Blokada helped me block %@ ads and trackers!";
+"main share message" = "Blokada帮助我拦截了 %@ 个广告和跟踪器！";
 
 "main rate us header" = "给我们评分！";
 "main rate us description" = "你有多喜欢Blokada？";
@@ -154,17 +154,17 @@
 "home status paused" = "已暂停";
 "home status active" = "激活";
 "home status deactivated" = "已停用";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
+"home action tap to activate" = "点击激活";
+"home status detail paused" = "暂停直到计时器结束";
 "home status detail active" = "正在屏蔽 *ads* 和 *Trackers*";
 "home status detail active with counter" = "屏蔽的 *%@* 广告和跟踪器";
-"home status detail active day" = "Ads and trackers blocked last 24h";
+"home status detail active day" = "最近24小时内被拦截的广告和追踪器";
 "home status detail active slim" = "Blokada *Slim* 已激活";
 "home status detail plus" = "*+* 正在保护您的 *隐私*";
 "home status detail progress" = "请稍候...";
 
 "home plus button deactivated" = "BLOKADA+ 已停用";
-"home plus button deactivated cloud" = "VPN deactivated";
+"home plus button deactivated cloud" = "VPN 已停用";
 "home plus button select location" = "选择位置";
 "home plus button location" = "位置: *%@*";
 
@@ -190,10 +190,10 @@
 "activity request allowed" = "此请求已被允许。";
 "activity request allowed whitelisted" = "此请求已被允许，因为它在您允许的列表上";
 "activity request blocked blacklisted" = "此请求已被阻止，因为它在您的黑名单上";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
+"activity request allowed list" = "此请求已被允许，因为它存在于*%@* 允许列表。";
+"activity request allowed no list" = "此请求已被允许，因为它不存在于任何配置的黑名单。";
+"activity request blocked list" = "此请求已被拦截，因为它存在于*%@* 的黑名单。";
+"activity request blocked no list" = "此请求已被拦截，因为它不存在于您的任何配置的允许列表。";
 "activity actions header" = "动作";
 "activity information header" = "信息";
 "activity action add to whitelist" = "加入白名单";
@@ -223,16 +223,16 @@
 "activity filter show blocked" = "仅已阻止项目";
 "activity filter show allowed" = "仅已允许项目";
 // A short message "Showing for: Device A"
-"activity filter showing for" = "Showing for: %@";
+"activity filter showing for" = "显示： %@";
 "activity empty text" = "尝试使用您的设备，稍后再回到这里查看您的设备连接到哪里。";
 "activity device filter show all" = "所有设备";
-"activity retention header" = "Should we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "Yes, store my activity";
-"activity retention policy" = "By enabling activity logging you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, enable activity logging below.";
+"activity retention header" = "我们应该存储您的活动吗？";
+"activity retention option none" = "不要存储我的活动";
+"activity retention option 24h" = "是，存储我的活动";
+"activity retention policy" = "启用活动日志表示您接受隐私政策。";
+"activity retention desc" = "Blokada Cloud 默认没有记录任何内容。 如果您希望看到所有设备的聚合统计和活动，请在下面启用活动记录。";
 
-"userdenied section header" = "Exceptions";
+"userdenied section header" = "异常";
 "userdenied section slugline" = "管理关于特定网站的黑名单";
 // A section name for the list of hosts allowed by user
 "userdenied tab allowed" = "已允许";
@@ -245,7 +245,7 @@
 
 "account section header settings" = "设置";
 "account status text" = "您的 BLOKADA %@ 帐户处于活动状态，直到 %@。";
-"account status text inactive" = "Your BLOKADA subscription is inactive.";
+"account status text inactive" = "您的 BLOKADA 订阅处于非活动状态。";
 
 "account section header primary" = "首选";
 "account section header other" = "其它";
@@ -269,8 +269,8 @@
 "account section header general" = "常规";
 "account section header subscription" = "订阅";
 "account label id" = "账号 ID";
-"account label type" = "Subscription plan";
-"account plan none" = "No active plan";
+"account label type" = "订阅计划";
+"account plan none" = "没有激活的计划";
 "account label active until" = "激活至";
 "account action manage subscription" = "管理订阅";
 "account action why upgrade" = "为什么要升级？";
