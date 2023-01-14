@@ -244,12 +244,12 @@
 "userdenied action block" = "阻止";
 
 "account section header settings" = "设置";
-"account status text" = "您的 BLOKADA %@ 帐户处于活动状态，直到 %@。";
+"account status text" = "您的 BLOKADA %@ 账户处于活动状态，直到 %@。";
 "account status text inactive" = "您的 BLOKADA 订阅处于非活动状态。";
 
 "account section header primary" = "首选";
 "account section header other" = "其它";
-"account action my account" = "我的帐户";
+"account action my account" = "我的账户";
 "account action encryption" = "加密和 DNS";
 "account action devices" = "设备";
 "account action new device" = "新设备";
@@ -259,10 +259,10 @@
 "account action create" = "生成新账户";
 "account action about" = "关于";
 "account action tap to show" = "点击显示";
-"account action restoring" = "正在恢复帐户： %@";
+"account action restoring" = "正在恢复账户： %@";
 "account label enter to continue" = "输入您的帐号 ID 以继续";
-"account restore description" = "不要担心，如果您丢失或忘记了帐户ID，我们可以恢复它。 请联系我们的支持，并向我们提供信息(比如信用卡或 PayPal 电子邮件的最后4位数字)，使我们能够识别您的购买。";
-"account create description" = "这是您的帐户 ID。请将其写下并自己保存。这是访问您的订阅的唯一途径。";
+"account restore description" = "不要担心，如果您丢失或忘记了账户 ID，我们可以恢复它。 请联系我们的支持，并向我们提供信息(比如信用卡或 PayPal 电子邮件的最后4位数字)，使我们能够识别您的购买。";
+"account create description" = "这是您的账户 ID。请将其写下并自己保存。这是访问您的订阅的唯一途径。";
 "account create confirm" = "我把它写下来了";
 
 "account section header my subscription" = "我的订阅";
@@ -278,10 +278,10 @@
 "account subscription header payment method" = "支付方式";
 "account subscription renew unsupported" = "您的付款方式不允许在此控制自动续订设置。";
 
-"account unlock to show" = "解锁以显示您的帐户 ID";
+"account unlock to show" = "解锁以显示您的账户 ID";
 
 "account header logout" = "恢复购买";
-"account logout description" = "请输入另一个帐户 ID，或返回以继续使用您现有的帐户 (无ID将无法使用此应用)。";
+"account logout description" = "请输入另一个账户 ID，或返回以继续使用您现有的账户 (无ID将无法使用此应用)。";
 "account id status unchanged" = "(未被修改)";
 "account action how to restore" = "如何恢复我的旧账户？";
 
@@ -290,7 +290,7 @@
 "account devices not available" = "不可用";
 "account devices out of" = "%@ 中的 %@";
 
-"account lease label devices list" = "这些设备已连接到您的帐户。";
+"account lease label devices list" = "这些设备已连接到您的账户。";
 "account lease label devices" = "设备";
 "account lease label this device" = " (此设备)";
 "account lease label name" = "设备名称";
@@ -332,7 +332,7 @@
 "payment feature title faster connection" = "更快连接";
 "payment feature desc faster connection" = "在世界各地拥有服务器的超速100Mbps。";
 "payment feature title devices" = "最多5个设备";
-"payment feature desc devices" = "使用同一个帐户分享您的订阅，最多有5个设备：iOS、Android或PC。";
+"payment feature desc devices" = "使用同一个账户分享您的订阅，最多有5个设备：iOS、Android或PC。";
 "payment feature title no ads" = "拦截广告";
 "payment feature desc no ads" = "使用流行的 Blokada 广告拦截技术来拦截您设备上的广告。高级设置是可用的。";
 "payment feature title support" = "极好的支持";
@@ -355,13 +355,13 @@
 "payment subscription offer" = "节省 %@";
 
 "payment success label" = "谢谢 ！";
-"payment success desc" = "您的帐户现在已激活！您现在可以在您的所有设备上使用所有Blokada Plus功能。";
+"payment success desc" = "您的账户现在已激活！您现在可以在您的所有设备上使用所有Blokada Plus功能。";
 
 "payment redirect label" = "正在重定向...";
 "payment redirect desc" = "请稍候。这只能花一点时间。";
 
 "payment ongoing title" = "您的付款正在处理中。";
-"payment ongoing desc" = "信用卡付款不应超过几分钟。 加密货币付款通常需要一个小时，取决于您选择的交易费用。 如果是PayPal，它可能需要24个小时。 一旦您的帐户准备就绪，您将被重定向。您也可以关闭此屏幕，以后再打开。 如果您觉得您的交易耗时太长，请联系我们。";
+"payment ongoing desc" = "信用卡付款不应超过几分钟。 加密货币付款通常需要一个小时，取决于您选择的交易费用。 如果是PayPal，它可能需要24个小时。 一旦您的账户准备就绪，您将被重定向。您也可以关闭此屏幕，以后再打开。 如果您觉得您的交易耗时太长，请联系我们。";
 "payment pay google short" = "谷歌支付";
 "payment pay apple short" = "苹果支付";
 "payment change method" = "变更";
@@ -459,16 +459,16 @@
 "activated header" = "快完成了！";
 "activated desc" = "以下是 Blokada 正常工作所必需的：";
 "activated desc all ok" = "您的设备已设置完毕，随时可以使用：";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated label account" = "账号已激活 (%@)";
+"activated label notif yes" = "通知已允许";
+"activated label notif no" = "允许通知";
+"activated label dns yes" = "DNS 配置文件已激活";
+"activated label dns no" = "激活 DNS 配置文件";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "允许 VPN (仅限 Plus)";
+"activated label vpn yes" = "VPN 已允许";
+"activated label vpn no" = "允许 VPN";
 
-"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"homepage vpn credit" = "“WireGuard”和“Wireguard”图标是 Jason A. Donenfeld 注册的商标。";
 "advanced section header packs" = "拦截列表";
 "app settings section header" = "此设备";
