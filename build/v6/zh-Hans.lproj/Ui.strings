@@ -436,29 +436,29 @@
 "stats requests header" = "请求";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "近期查询";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats top allowed header" = "最多允许的请求";
+"stats top blocked header" = "最多被拦截的请求";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "已允许";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "已拦截";
 // A short one-word label for the counter of total requests.
-"stats label total" = "Total";
+"stats label total" = "总计";
 // A short header for the stats section of last 24h. Can just say "24h".
-"stats header day" = "24h";
+"stats header day" = "24 小时";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "All time";
+"stats header all time" = "全部时间";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
-"dnsprofile desc android" = "In the Settings app, find the Private DNS section, and then paste your hostname (long tap).";
-"dnsprofile desc android copy" = "Copy your Blokada Cloud hostname to paste it in Settings.";
+"dnsprofile header" = "在设置中启用 Blokada";
+"dnsprofile desc" = "在“设置”应用中，导航到 通用 → VPN、DNS 和设备管理 → DNS 并选择 Blokada。";
+"dnsprofile action open settings" = "打开设置";
+"dnsprofile desc android" = "在“设置”应用中，找到私有 DNS 部分，然后粘贴您的主机名 (长按)。";
+"dnsprofile desc android copy" = "复制您的 Blokada Cloud 主机名以粘贴到设置。";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
+"activated header" = "快完成了！";
+"activated desc" = "以下是 Blokada 正常工作所必需的：";
+"activated desc all ok" = "您的设备已设置完毕，随时可以使用：";
 "activated label account" = "Account is active (%@)";
 "activated label notif yes" = "Notifications are allowed";
 "activated label notif no" = "Allow notifications";
