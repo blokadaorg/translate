@@ -145,7 +145,7 @@
 // Make sure each tab name has a similar length
 "main tab settings" = "设置";
 
-"home ads counter footnote" = "自安装以来屏蔽的广告和追踪器";
+"home ads counter footnote" = "自安装以来拦截的广告和追踪器";
 "home power off menu header" = "你想做什么？";
 "home power action turn on" = "开启";
 "home power action turn off" = "关闭";
@@ -156,8 +156,8 @@
 "home status deactivated" = "已停用";
 "home action tap to activate" = "点击激活";
 "home status detail paused" = "暂停直到计时器结束";
-"home status detail active" = "正在屏蔽 *ads* 和 *Trackers*";
-"home status detail active with counter" = "屏蔽的 *%@* 广告和跟踪器";
+"home status detail active" = "正在屏蔽 *广告* 和 *追踪器*";
+"home status detail active with counter" = "屏蔽的 *%@* 广告和追踪器";
 "home status detail active day" = "最近24小时内被拦截的广告和追踪器";
 "home status detail active slim" = "Blokada *Slim* 已激活";
 "home status detail plus" = "*+* 正在保护您的 *隐私*";
@@ -186,7 +186,7 @@
 
 "activity section header" = "活动";
 "activity section header details" = "活动详情";
-"activity request blocked" = "此请求已被屏蔽。";
+"activity request blocked" = "此请求已被拦截。";
 "activity request allowed" = "此请求已被允许。";
 "activity request allowed whitelisted" = "此请求已被允许，因为它在您允许的列表上";
 "activity request blocked blacklisted" = "此请求已被阻止，因为它在您的黑名单上";
@@ -209,7 +209,7 @@
 // As in sentence, "this item has been modified"
 "activity state modified" = "已修改";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "已屏蔽";
+"activity state blocked" = "已拦截";
 // As in sentence, "this host has been allowed"
 "activity state allowed" = "已允许";
 "activity happened one time" = "1次";
@@ -322,19 +322,19 @@
 "payment feature title encrypt dns" = "加密DNS";
 "payment feature desc encrypt dns" = "通过 DNS 加密来提升您的隐私。Blokada Cloud 使用现代协议来帮助您保持流量隐私。";
 "payment feature title performance" = "出色的性能";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
+"payment feature desc performance" = "由于我们新的云端解决方案，您的设备可以保持性能，并以最快速度连接网络。";
+"payment feature title battery" = "对电池没有任何影响";
+"payment feature desc battery" = "您的电池寿命不会受到影响，当 Blokada Cloud 被激活时，它甚至可能会改善。";
+"payment feature title devices cloud" = "多个设备";
+"payment feature desc devices cloud" = "在一个地方配置和监视您的所有设备。可以通过我们的移动应用或我们的网络应用程序。";
+"payment feature title cloud vpn" = "云端加 VPN";
+"payment feature desc cloud vpn" = "除了 Blokada Cloud 的所有能力，您还可以访问我们的全球 VPN 网络";
 "payment feature title faster connection" = "更快连接";
 "payment feature desc faster connection" = "在世界各地拥有服务器的超速100Mbps。";
 "payment feature title devices" = "最多5个设备";
 "payment feature desc devices" = "使用同一个帐户分享您的订阅，最多有5个设备：iOS、Android或PC。";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
+"payment feature title no ads" = "拦截广告";
+"payment feature desc no ads" = "使用流行的 Blokada 广告拦截技术来拦截您设备上的广告。高级设置是可用的。";
 "payment feature title support" = "极好的支持";
 "payment feature desc support" = "感谢我们的客户支持和活跃的开源社区，获得对任何问题的及时答复。";
 "payment action see all features" = "查看所有功能";
@@ -350,8 +350,8 @@
 "payment subscription 1 month" = "1 个月";
 "payment subscription many months" = "%@ 个月";
 "payment subscription per month" = "每月%@";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
+"payment subscription per year" = "%@/年";
+"payment subscription per year then" = "之后 %@/年";
 "payment subscription offer" = "节省 %@";
 
 "payment success label" = "谢谢 ！";
@@ -384,15 +384,15 @@
 
 "payment euro desc" = "我们位于欧洲，因此我们接受欧元：10欧元约为12美元。";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "比较计划";
+"payment plan slugline cloud" = "拦截广告和追踪器";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
-"payment plan current" = "(current plan)";
+"payment plan slugline cloud detail" = "(包括 Blokada Cloud)";
+"payment plan slugline plus" = "使用 VPN 的额外保护";
+"payment plan cta trial" = "开始7天免费试用";
+"payment plan cta monthly" = "每月订阅";
+"payment plan cta annual" = "每年订阅";
+"payment plan current" = "(当前计划)";
 
 "location region worldwide" = "所有地方";
 "location region america" = "美国";
@@ -400,42 +400,42 @@
 "location region asia" = "亚洲";
 "location region australia" = "澳洲";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "VPN 设备";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
-"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web vpn devices open action" = "打开 VPN 设备";
+"web action open setup" = "打开设置";
+"web cta plus header" = "升级到 Blokada Plus 以保持对您隐私的控制。";
+"web cta plus desc" = "您的 Libre 账户可以让您在设备上使用我们的开源应用免费拦截广告。升级到 Blokada Plus 以获得更好的保护。 您将能够访问我们的全球 VPN 网络以及我们新的*基于云的*拦截，这种拦截更高效且更易使用。";
 // A short word for a button to generate profile
 "web action generate" = "生成";
 
-"setup header" = "Setup";
-"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
-"setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
+"setup header" = "设置";
+"setup desc" = "有多种方法来配置您的设备使用 Blokada Cloud。请选择一个对您可行的方法。";
+"setup label which device" = "您想要设置哪种类型的设备？";
+"setup label choose" = "选择以下任一设置选项：";
+"setup comment wireguard" = "注意：VPN 配置默认将使用 Blokada Cloud。如果您想退出请选择一个不同的 DNS 设置。 “WireGuard”和“WireGuard”图标是 Jason A. Donenfeld 注册的商标。";
+"setup comment native apps" = "注意：本机的 Android 应用程序还不支持 Blokada Cloud。我们正在进行更新。";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "步骤 %@： %@";
+"setup option label recommended" = "推荐： %@";
+"setup option label alternative" = "替代项： %@";
+"setup name label unnamed" = "(未命名)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "为您的设备命名(可选)";
+"setup step copy" = "复制您的主机名";
+"setup step apply config" = "应用新配置";
+"setup step install" = "安装并启动我们的应用";
+"setup step enter tag" = "被询问时，请输入您的标签";
+"setup step download profile" = "生成并下载您的个人资料";
+"setup step install wireguard" = "安装并启动 WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "统计信息";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "比率";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "请求";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
+"stats requests subheader" = "近期查询";
 "stats top allowed header" = "Top allowed requests";
 "stats top blocked header" = "Top blocked requests";
 // A short one-word label for the counter of allowed requests.
@@ -470,5 +470,5 @@
 "activated label vpn no" = "Allow VPN";
 
 "homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"advanced section header packs" = "屏蔽列表";
+"advanced section header packs" = "拦截列表";
 "app settings section header" = "此设备";
