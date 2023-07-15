@@ -371,14 +371,14 @@
 "payment action pay" = "Платете %@";
 "payment action pay period" = "Плащате периодично %@";
 "payment label email" = "Имейл";
-"payment crypto desc" = "За да платите с криптовалута от портфейла си, натиснете бутона по-долу.";
-"payment label choose package" = "Изберете пакет";
-"payment label choose payment method" = "Изберете метод на плащане";
+"payment crypto desc" = "За да платите с криптовалута от вашия портфейл, натиснете бутона по-долу.";
+"payment label choose package" = "Избор на пакет";
+"payment label choose payment method" = "Избор на начин на плащане";
 "payment label cheapest" = "Най-евтин";
 "payment label most popular" = "Най-популярен";
-"payment label pay with card" = "Платете с карта";
-"payment label pay with paypal" = "Платете с PayPal";
-"payment label pay with crypto" = "Платете с криптовалута";
+"payment label pay with card" = "Плащане с карта";
+"payment label pay with paypal" = "Плащане с PayPal";
+"payment label pay with crypto" = "Плащане с криптовалута";
 "payment package one month" = "1 Месец";
 "payment package six months" = "6 Месеца";
 "payment package twelve months" = "12 Месеца";
@@ -403,11 +403,11 @@
 "location region asia" = "Азия";
 "location region australia" = "Австралия";
 
-"web vpn devices header" = "VPN устройства";
+"web vpn devices header" = "Устройства с VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Отваряне на VPN устройства";
-"web action open setup" = "Отваряне на настройката";
-"web cta plus header" = "Надстройте до Blokada Plus за да контролирате поверителността си.";
+"web vpn devices open action" = "Отваряне на устройствата с VPN";
+"web action open setup" = "Отваряне на настройките";
+"web cta plus header" = "Надстройте до Blokada Plus, за да контролирате вашата поверителност.";
 "web cta plus desc" = "Профилът в Libre ви дава възможност за безплатно блокиране на реклами на вашето устройство с нашите приложения с отворен код. Надградете до Blokada Plus за още по-добра защита. Ще получите достъп до нашата глобална VPN-мрежа, както и до новото ни *базирано в облак* блокиране на реклами, което е по-ефективно и по-лесно за използване.";
 // A short word for a button to generate profile
 "web action generate" = "Генериране";
@@ -415,7 +415,7 @@
 "setup header" = "Настройки";
 "setup desc" = "Има много начини да конфигурирате устройството си да използва Blokada Cloud. Изберете този, който работи за вас.";
 "setup label which device" = "Какъв тип устройство искате да настроите?";
-"setup label choose" = "Изберете някоя от опциите за настройка:";
+"setup label choose" = "Изберете някоя от функциите за настройка:";
 "setup comment wireguard" = "Забележка: Конфигурацията на VPN ще използва Blokada Cloud по подразбиране. Изберете друга настройка за DNS, ако искате да се откажете. 'WireGuard' и логото 'WireGuard' са регистрирани търговски марки на Jason A. Donenfeld.";
 "setup comment native apps" = "Забележка: Приложенията за Android и iOS все още не поддържат Blokada Cloud. Работим по актуализацията.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
@@ -424,7 +424,7 @@
 "setup option label alternative" = "Алтернативен вариант: %@";
 "setup name label unnamed" = "(без име)";
 
-"setup step name" = "Име на вашето устройство (по избор)";
+"setup step name" = "Име на устройството ви (по избор)";
 "setup step copy" = "Копирайте името на хоста";
 "setup step apply config" = "Прилагане на новата конфигурация";
 "setup step install" = "Инсталиране и стартиране на приложението";
@@ -439,8 +439,8 @@
 "stats requests header" = "Заявки";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
 "stats requests subheader" = "Заявки през цялото време";
-"stats top allowed header" = "Най-разрешени заявки";
-"stats top blocked header" = "Най-блокирани заявки";
+"stats top allowed header" = "Най-много разрешени заявки";
+"stats top blocked header" = "Най-много блокирани заявки";
 // A short one-word label for the counter of allowed requests.
 "stats label allowed" = "Разрешени";
 // A short one-word label for the counter of blocked requests.
@@ -448,7 +448,7 @@
 // A short one-word label for the counter of total requests.
 "stats label total" = "Общо";
 // A short header for the stats section of last 24h.
-"stats header day" = "Последните 24 ч";
+"stats header day" = "За 24 ч";
 // A short header for the stats section of the all time stats.
 "stats header all time" = "През цялото време";
 
@@ -462,23 +462,23 @@
 "dnsprofile notification body" = "Общи → VPN, DNS и Управление на устройства → DNS и изберете Blokada.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Почти сме готови!";
-"activated desc" = "Необходимо е следното, за да работи Blokada според очакванията:";
+"activated header" = "Почти е готово!";
+"activated desc" = "За да работи Blokada според очакванията, е необходимо следното:";
 "activated desc all ok" = "Вашето устройство е настроено и готово за работа:";
 "activated label account" = "Профилът е активен (%@)";
 "activated label notif yes" = "Известията са разрешени";
-"activated label notif no" = "Разрешаване на известията";
+"activated label notif no" = "Активиране на известията";
 "activated label dns yes" = "DNS профилът е активиран";
 "activated label dns no" = "Активиране на DNS профил";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Разрешаване на VPN (само за Plus)";
-"activated label vpn yes" = "VPN е разрешен";
-"activated label vpn no" = "Разрешаване на VPN";
+"activated label vpn cloud" = "Активиране на VPN (само за Plus)";
+"activated label vpn yes" = "VPN е активиран";
+"activated label vpn no" = "Активиране на VPN";
 
 "homepage vpn credit" = "„WireGuard“ и логото „WireGuard“ са регистрирани търговски марки на Jason A. Donenfeld.";
 "advanced section header packs" = "Блокиращи списъци";
 "app settings section header" = "Това устройство";
 
 "lock status locked" = "Blokada е заключена. Въведете Пин код, за да я отключите";
-"lock status unlocked has pin" = "Въведете Пин код, за да го промените";
-"lock status unlocked" = "Задайте Пин кода си, за да заключите Blokada";
+"lock status unlocked has pin" = "Въведете Пин код, за да има промяна";
+"lock status unlocked" = "Въведете Пин кода, за да заключите Blokada";
