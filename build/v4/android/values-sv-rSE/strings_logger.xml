@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="logger_permission">Please grant storage permission first.</string>
-    <string name="logger_slot_title">Request logger</string>
-    <string name="logger_slot_desc">By default, requests are only stored internally in Blokada. If this feature is enabled, Blokada will create a CSV file and log requests that have been allowed and / or blocked by the app. Look for \"blokada\" folder on your external storage. Alternatively, request logging can be disabled entirely, with just the number of blocked domains being stored.</string>
+    <string name="logger_permission">Vänligen bevilja lagringsbehörighet först.</string>
+    <string name="logger_slot_title">Begär logger</string>
+    <string name="logger_slot_desc">Som standard lagras förfrågningar endast internt i Blokada. Om den här funktionen är aktiverad kommer Blokada att skapa en CSV-fil och loggförfrågningar som har tillåtits och/eller blockerats av appen. Leta efter \"blokada\" mapp på din externa lagring. Alternativt kan begära loggning inaktiveras helt, med bara antalet blockerade domäner som lagras.</string>
     <string name="logger_slot_mode_off">Inaktiverad</string>
-    <string name="logger_slot_mode_internal">Log to internal storage only</string>
-    <string name="logger_slot_mode_allowed">Log allowed requests</string>
-    <string name="logger_slot_mode_denied">Log blocked requests</string>
-    <string name="logger_slot_mode_all">Log all requests</string>
+    <string name="logger_slot_mode_internal">Logga endast till intern lagring</string>
+    <string name="logger_slot_mode_allowed">Logg tillåtna förfrågningar</string>
+    <string name="logger_slot_mode_denied">Logga blockerade förfrågningar</string>
+    <string name="logger_slot_mode_all">Logga alla förfrågningar</string>
 </resources>
