@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Ad blocker - Fără anunţuri, baterie mai bună
 
-Protect your privacy for free with the official Blokada app.
+Protejează-ți intimitatea online gratuit cu aplicația oficială Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Aceasta este singura aplicație oficială de pe Play Store din proiectul open source Blokada. Fiind atenţi la clone, acestea pot conţine un cod răuvoitor.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blocker este o aplicație gratuită care folosește serverele DNS (Domain Name System) pentru a vă permite o experiență de navigare fără reclame pentru a vedea doar conținutul dorit.
 
-There is also a built in VPN that is optional to use.
+Există, de asemenea, un VPN construit care este opțional de utilizat.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Website-ul proiectului este: https://blokada.org. Versiunea de la website are mai multe caracteristici și este de asemenea gratuită.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Alătură-te nouă pe chat-ul nostru Telegram dacă ai întrebări sau feedback: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Cele mai bune caracteristici:
+- Nu sunt necesare permisiuni root!
+- Suportă fiecare browser web și aplicații.
+- Interceptare bazată pe DNS (modul VPN) pentru toate browserele moderne.
+- Blochează site-uri care distribuie conținut răuvoitor, virusuri și site-uri web frauduloase.
 
-The most compatible ad blocker on the market!
+Cel mai compatibil ad blocker de pe piață!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
