@@ -38,7 +38,7 @@
 "networks action encrypt dns" = "Шифрувати DNS";
 "networks action use dns" = "Використовувати DNS: %@";
 "networks action use network dns" = "Віддавати перевагу DNS провайдера";
-"networks action force libre mode" = "Force Libre mode";
+"networks action force libre mode" = "Режим Лібри";
 "networks label specific network" = "Налаштуйте, що повинно відбутись коли пристрій підключається до цієї мережі.";
 "networks label specific network type" = "Налаштуйте, що повинно відбутись коли пристрій підключається до цієї мережі.";
 "networks label any wifi" = "Будь-яка Wi-Fi мережа";
@@ -79,12 +79,12 @@
 "apps section header" = "Додатки";
 "apps label installed" = "Встановлені";
 "apps label system" = "Системні";
-"apps status bypassed" = "(bypassed)";
-"apps filter header" = "Which apps would you like to see?";
+"apps status bypassed" = "(обходить пароль)";
+"apps filter header" = "Якими додатками ви бажаєте побачити?";
 "apps filter action show all" = "Усі додатки";
-"apps filter action show bypassed" = "Bypassed only";
-"apps filter action show not bypassed" = "Not bypassed only";
-"apps filter action toggle system" = "Toggle all system apps";
+"apps filter action show bypassed" = "Тільки обходить";
+"apps filter action show not bypassed" = "Не лише пропущено";
+"apps filter action toggle system" = "Увімкнути або вимкнути всі системні додатки";
 
 "app settings language label" = "Мова";
 "app settings theme label" = "Тема додатку";
@@ -93,9 +93,9 @@
 // A setting for changing if to open links internally in the app, or by using this device's web browser
 "app settings browser label" = "Перенаправляти посилання в";
 "app settings browser internal" = "Вбудований браузер";
-"app settings browser external" = "External browser (if possible)";
+"app settings browser external" = "Зовнішній браузер (якщо можливо)";
 "app settings ipv6 label" = "Дозволити IPv6";
-"app settings section system" = "System";
+"app settings section system" = "Система";
 "app settings action app info" = "Відкрити відомості про застосунок";
 "app settings action vpn profile" = "Відкрити профіль VPN";
 "app settings action notifications" = "Відкрити налаштування сповіщень";
@@ -103,7 +103,7 @@
 "app settings status default" = "Системні налаштування";
 "app settings start on boot" = "Запуск при увімкненні";
 "app settings use dns over https" = "Використовувати DNS через HTTPS";
-"app settings backup" = "Use cloud backup";
+"app settings backup" = "Використовувати резервну копію у хмарі";
 "app settings section advanced" = "Розширені";
 "app settings section use foreground" = "Підтримка активності";
 
