@@ -14,13 +14,13 @@ Innan du uppdaterar, se till att inaktivera Blokada. Om fel skulle uppstå under
     <!-- Displayed in the home screen whenever there is no update. Keep it short. -->
     <!-- Displayed in menu to open the About/Update screen. -->
     <!-- A button that opens system preferences for this app. -->
-    <string name="update_button_appinfo">App details</string>
+    <string name="update_button_appinfo">App detaljer</string>
     <!-- A button that opens the changelog. -->
     <!-- A toast message displayed when the update process is starting. -->
     <string name="update_starting">Startar, vänligen vänta&#8230;</string>
-    <string name="update_progress">Downloading: %s%%</string>
-    <string name="update_complete">Download complete</string>
-    <string name="update_failed">Download failed</string>
-    <string name="update_instruction">When finished, you will be asked to allow Blokada to install the update.</string>
-    <string name="update_instruction_failed">Tap here to try again, or long tap to download with your browser instead.</string>
+    <string name="update_progress">Hämtar: %s%%</string>
+    <string name="update_complete">Nedladdning slutförd</string>
+    <string name="update_failed">Nedladdning misslyckades</string>
+    <string name="update_instruction">När du är klar kommer du att bli ombedd att tillåta Blokada att installera uppdateringen.</string>
+    <string name="update_instruction_failed">Tryck här för att försöka igen, eller långtryck för att ladda ner med din webbläsare istället.</string>
 </resources>
