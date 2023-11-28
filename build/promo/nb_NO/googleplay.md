@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim annonseblokkering - ingen annonser, bedre batteri
 
-Protect your privacy for free with the official Blokada app.
+Beskytt privatlivet ditt gratis med den offisielle Blokada-appen.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Dette er den eneste offisielle appen på Play Store fra Blokada åpen kildekode-prosjektet. Pass på kloner, de kan inneholde ondsinnet kode.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blokkereren er en gratis app som bruker DNS (Domain Name System) servere for å aktivere at du har en annonse gratis surfeopplevelse for å se kun innholdet du ønsker.
 
-There is also a built in VPN that is optional to use.
+Det er også et bygd i VPN som er valgfri bruk.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Og nettstedet til prosjektet er: https://blokada.org. Versjonen fra nettstedet har flere funksjoner og er også gratis.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Bli med oss på vår Telegram chat hvis du har spørsmål eller tilbakemelding: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Beste funksjoner:
+- Ingen root-tillatelser kreves!
+- Støtter alle nettlesere og apper.
+- DNS-basert unntak (VPN-modus) for alle moderne nettlesere.
+- Blokkerer nettsteder som distribuerer ondsinnhold, virus og bedrageriets nettsteder.
 
-The most compatible ad blocker on the market!
+Den mest kompatible annonseblokkeren på markedet!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
