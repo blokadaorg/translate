@@ -1,23 +1,23 @@
-This is the official app on App Store from the Blokada open source project.
+Detta är den officiella appen på App Store från Blokada open source-projektet.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada för iOS är en gratis app som använder DNS (Domain Name System) servrar för att göra det möjligt för dig att ha en annonsfri webbupplevelse för att se endast det innehåll du vill.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+Det finns också en inbyggd VPN som är valfri att använda. Med Blokada Plus VPN kan du surfa på webben med integritet och säkra ditt Internet mot cyberattacker och hackare.
 
 ----
 
-Top features:
+Övre funktioner:
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Stöder annonsblockering för alla webbläsare och andra appar installerade.
+- Blockerar webbplatser som distribuerar skadligt innehåll, virus och bedrägliga webbplatser.
+- DNS-baserad interception (VPN-läge) för alla moderna webbläsare.
+- Snabb och tillförlitlig VPN som skyddar din integritet och krypterar dina data.
 
-The most compatible ad blocker on the market!
+Den mest kompatibla annonsblockeraren på marknaden!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Vad kan blockeras? • Blockerar irriterande annonser: Google AdWords, Google Bjud in medier, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blockerar vuxna webbplatser • Blockerar spelwebbplatser • Blockerar sociala medier spårare: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter-knappen, Yandex. etrix, Comscore • Blockerar skadliga webbplatser: Virus nedladdningar, skadligt innehåll, bedrägliga webbplatser och manipulerade appar • Blokada Plus Adblock iOS App.
 
 ----
 
