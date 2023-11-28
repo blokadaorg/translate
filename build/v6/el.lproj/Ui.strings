@@ -10,7 +10,7 @@
 //  @author Karol Gusak
 //
 
-"error device offline" = "Your device is offline";
+"error device offline" = "Η συσκευή σας είναι εκτός σύνδεσης";
 "error account inactive" = "Ο λογαριασμός σας είναι ανενεργός. Παρακαλώ ενεργοποιήστε τον λογαριασμό σας για να συνεχίσετε να χρησιμοποιείτε το BLOKADA+.";
 "error account inactive after restore" = "Αυτός δεν φαίνεται να είναι ένας έγκυρος ενεργός λογαριασμός. Αν πιστεύετε ότι αυτό είναι λάθος, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
 "error account invalid" = "Αυτή η ταυτότητα (ID) λογαριασμού δεν είναι έγκυρη.";
@@ -20,225 +20,225 @@
 "error vpn" = "Δεν ήταν δυνατή η δημιουργία του VPN. Παρακαλώ επανεκκινήστε τη συσκευή σας, ή αφαιρέστε το προφίλ Blokada VPN στις ρυθμίσεις συστήματος και προσπαθήστε ξανά.";
 "error vpn perms" = "Δεν χορηγήθηκαν δικαιώματα για τη δημιουργία προφίλ VPN.";
 "error vpn no current lease" = "Παρακαλώ επιλέξτε πρώτα μια τοποθεσία.";
-"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
+"error vpn no current lease new" = "Το Blokada Plus είναι τώρα απενεργοποιημένο σε αυτήν τη συσκευή. Παρακαλώ επιλέξτε μια τοποθεσία για να το επανενεργοποιήσετε.";
 "error vpn too many leases" = "Φτάσατε στο όριο των συσκευών σας. Παρακαλώ αφαιρέστε μία από τις συσκευές σας και προσπαθήστε ξανά.";
 "error vpn expired" = "Το VPN είναι απενεργοποιημένο. Παρακαλούμε ανανεώστε τη συνδρομή σας για να συνεχίσετε να χρησιμοποιείτε το BLOKADA+";
 "error payment inactive after restore" = "Η προηγούμενη πληρωμή σας έχει αποκατασταθεί, αλλά η συνδρομή έχει ήδη λήξει. Αν πιστεύετε ότι αυτό είναι λάθος, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
 "error payment failed" = "Οι πληρωμές δεν είναι διαθέσημες αυτή τη στιγμή. Βεβαιωθείτε ότι είστε συνδεδεμένοι, και προσπαθήστε ξανά αργότερα. Εάν το πρόβλημα παραμένει, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
-"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
+"error payment failed alternative" = "Δεν ήταν δυνατή η ολοκλήρωση της πληρωμής σας. Παρακαλώ βεβαιωθείτε ότι τα δεδομένα σας είναι σωστά και προσπαθήστε ξανά. Εάν το πρόβλημα παραμένει, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
+"error payment not available" = "Οι πληρωμές δεν είναι διαθέσιμες για αυτήν τη συσκευή. Είτε αυτή η συσκευή δεν ενημερώνεται, είτε δεν διαχειριζόμαστε αγορές στη χώρα σας ακόμα.";
+"error payment canceled" = "Η πληρωμή έχει ακυρωθεί. Δεν έχετε χρεωθεί.";
+"error pack install" = "Δεν ήταν δυνατή η εγκατάσταση (ή απεγκατάσταση) αυτής της δυνατότητας. Παρακαλώ δοκιμάστε ξανά αργότερα.";
+"error location failed fetching" = "Αδυναμία ανάκτησης τοποθεσιών.";
+"error unknown" = "Προέκυψε ένα πρόβλημα. Βεβαιωθείτε ότι είστε συνδεδεμένοι, και προσπαθήστε ξανά αργότερα. Εάν το πρόβλημα παραμένει, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
+"error multiple apps" = "Υπάρχουν περισσότερες από μία εφαρμογές Blokada στη συσκευή σας. Αυτό μπορεί να προκαλέσει προβλήματα συνδεσιμότητας. Θέλετε να την διορθώσετε τώρα?";
 
-"conn isssues header" = "Connectivity issues";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues header" = "Ζητήματα συνδεσιμότητας";
+"conn isssues slug" = "Θέματα συνδεσιμότητας. Παρακαλώ ελέγξτε τις ρυθμίσεις σας. Πατήστε για λεπτομέρειες.";
+"conn isssues details" = "- Ελέγξτε τη σύνδεσή σας στο Internet\n- Χρησιμοποιήστε μόνο μία εφαρμογή Blokada\n- Απενεργοποίηση άλλων VPN";
 
 "universal action continue" = "Συνέχισε";
 "universal action cancel" = "Ακυρωσε";
 "universal action close" = "Κλείσιμο";
-"universal action done" = "Done";
-"universal action try again" = "Try again";
-"universal action learn more" = "Learn more";
+"universal action done" = "Ολοκληρώθηκε";
+"universal action try again" = "Προσπαθήστε ξανά";
+"universal action learn more" = "Μάθετε περισσότερα";
 "universal action help" = "Βοήθεια";
-"universal action show log" = "Logs";
+"universal action show log" = "Καταγραφή";
 "universal action share log" = "Διαμοιρασμός αρχείων καταγραφής";
 "universal action copy" = "Αντιγραφή";
 "universal action save" = "Αποθηκευσε";
-"universal action contact us" = "Contact us";
+"universal action contact us" = "Επικοινωνήστε μαζί μας";
 "universal action support" = "Υποστήριξη";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
+"universal action upgrade" = "Αναβάθμιση σε BLOKADA+";
+"universal action upgrade short" = "Αναβάθμιση";
 "universal action yes" = "Ναι";
 "universal action no" = "Όχι";
 "universal action donate" = "Δωρίστε";
-"universal action community" = "Community";
+"universal action community" = "Κοινότητα";
 "universal action open in browser" = "Άνοιγμα στο πρόγραμμα περιήγησης";
-"universal action more" = "More";
+"universal action more" = "Περισσότερα";
 "universal action download" = "Κατεβάστε";
 "universal action news" = "Νέα";
 "universal action delete" = "Διαγραφή";
-"universal action hide" = "Hide";
-"universal action select" = "Select";
-"universal action selected" = "Selected";
+"universal action hide" = "Απόκρυψη";
+"universal action select" = "Επιλογή";
+"universal action selected" = "Επιλεγμένο";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Αναζήτηση";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Φίλτρο";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Εκκαθάριση";
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
 "universal label help" = "Βοήθεια";
-"universal label welcome" = "Welcome!";
+"universal label welcome" = "Καλωσορίσατε!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Κανένα";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Όνομα";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Ώρα";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Μέτρηση";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Τύπος";
+"universal label device" = "Συσκευή";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
+"universal status processing" = "Επεξεργασία... Παρακαλώ περιμένετε.";
+"universal status copied to clipboard" = "Αντιγράφηκε στο πρόχειρο";
+"universal status restart required" = "Παρακαλώ επανεκκινήστε την εφαρμογή για να τεθούν σε ισχύ οι αλλαγές.";
 "universal status redirect" = "Συνεχίστε με την εφαρμογή Blokada";
-"universal status confirm" = "Are you sure you want to proceed?";
+"universal status confirm" = "Είστε βέβαιοι ότι θέλετε να συνεχίσετε?";
 
-"alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert error header" = "Ωχ!";
+"alert vpn expired header" = "Το BLOKADA+ έληξε";
+"alert download link body" = "Για λόγους ασφαλείας, για να κατεβάσετε ένα αρχείο, πρέπει να ανοίξουμε αυτή την ιστοσελίδα στο πρόγραμμα περιήγησης. Στη συνέχεια, πατήστε ξανά το σύνδεσμο λήψης.";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Ενεργοποίηση ειδοποιήσεων στις ρυθμίσεις";
+"notification perms desc" = "Αυτή η λειτουργία απαιτεί ειδοποιήσεις, παρακαλούμε ενεργοποιήστε τις για Blokada.";
+"notification perms denied" = "Αρνηθήκατε τις ειδοποιήσεις. Για να τις αλλάξετε, παρακαλώ χρησιμοποιήστε τις Προτιμήσεις συστήματος.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "Η συνδρομή BLOKADA+ έληξε";
+"notification vpn expired subtitle" = "Το VPN είναι απενεργοποιημένο";
+"notification vpn expired body" = "Παρακαλούμε ενημερώστε τη συνδρομή σας για να συνεχίσετε να χρησιμοποιείτε το BLOKADA+";
+"notification desc settings" = "Σύρετε την ειδοποίηση αριστερά ή δεξιά για τις ρυθμίσεις.";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: Απαιτείται ενέργεια";
+"notification generic subtitle" = "Πατήστε για να μάθετε περισσότερα";
+"notification generic body" = "Παρακαλούμε ανοίξτε την εφαρμογή για λεπτομέρειες.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Η συνδρομή έληξε";
+"notification acc subtitle" = "Η φραγή είναι απενεργοποιημένη";
+"notification acc body" = "Παρακαλούμε ενημερώστε τη συνδρομή σας για να συνεχίσετε να χρησιμοποιείτε το Blokada.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause header" = "Η Blokada εξακολουθεί να είναι σε παύση";
+"notification pause subtitle" = "Η φραγή είναι απενεργοποιημένη";
+"notification pause body" = "Παρακαλώ ανοίξτε την εφαρμογή για να συνεχίσετε Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Το Blokada Plus είναι απενεργοποιημένο";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
-"update label updated" = "Updated!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update desc updated nodon" = "You are now using the newest version of Blokada!";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"notification update header" = "Υπάρχει διαθέσιμη ενημέρωση";
+"alert update body" = "Το Blokada %@ είναι τώρα διαθέσιμο για λήψη. Σας συνιστούμε να διατηρείτε την εφαρμογή ενημερωμένη και να την κατεβάζετε μόνο από τις επίσημες πηγές μας.";
+"update label updated" = "Ενημερώθηκε!";
+"update desc updated" = "Τώρα χρησιμοποιείτε τη νεότερη έκδοση του Blokada! Θυμηθείτε, η δωρεά ή η εγγραφή στο Blokada Plus μας επιτρέπει να συνεχίσουμε τη βελτίωση της εφαρμογής.";
+"update desc updated nodon" = "Τώρα χρησιμοποιείτε τη νεότερη έκδοση του Blokada!";
+"update downloading description" = "Η ενημέρωση γίνεται τώρα λήψη και θα πρέπει να δείτε σύντομα την εγκατάσταση.";
 
-"main share message" = "Blokada helped me block %@ ads and trackers!";
+"main share message" = "Blokada με βοήθησε να αποκλείσω %@ διαφημίσεις και ιχνηλάτες!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Βαθμολογήστε μας!";
+"main rate us description" = "Πώς σας αρέσει Blokada μέχρι στιγμής?";
+"main rate us on app store" = "Θα μας βοηθήσετε αξιολογώντας το Blokada στο App Store?";
+"main rate us action sure" = "Σίγουρα!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Αρχική";
 // Make sure each tab name has a similar length
-"main tab activity" = "Activity";
+"main tab activity" = "Δραστηριότητα";
 // Make sure each tab name has a similar length
-"main tab advanced" = "Advanced";
+"main tab advanced" = "Προχωρημένα";
 // Make sure each tab name has a similar length
 "main tab settings" = "Ρυθμίσεις";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
-"home power action turn on" = "Turn on";
-"home power action turn off" = "Turn off";
-"home power action pause" = "Pause for 5 min";
+"home ads counter footnote" = "αποκλεισμένες διαφημίσεις και ιχνηλάτες από την εγκατάσταση";
+"home power off menu header" = "Τι θα θέλατε να κάνετε?";
+"home power action turn on" = "Ενεργοποίηση";
+"home power action turn off" = "Απενεργοποίηση";
+"home power action pause" = "Παύση για 5 λεπτά";
 
-"home status paused" = "Paused";
+"home status paused" = "Παύση";
 "home status active" = "ενεργό";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active day" = "Ads and trackers blocked last 24h";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
-"home status detail progress" = "Please wait...";
+"home status deactivated" = "Απενεργοποιημένο";
+"home action tap to activate" = "Πατήστε για ενεργοποίηση";
+"home status detail paused" = "Παύση μέχρι να τελειώσει το χρονόμετρο";
+"home status detail active" = "Μπλοκάρισμα *ads* και *trackers*";
+"home status detail active with counter" = "Αποκλεισμένες *%@* διαφημίσεις και ιχνηλάτες";
+"home status detail active day" = "Διαφημίσεις και ιχνηλάτες απέκλεισαν τις τελευταίες 24 ώρες";
+"home status detail active slim" = "Η Blokada *Slim* είναι ενεργή";
+"home status detail plus" = "*+* προστατεύοντας το *απόρρητο σας*";
+"home status detail progress" = "Παρακαλώ περιμένετε...";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button deactivated" = "Το BLOKADA+ απενεργοποιήθηκε";
+"home plus button deactivated cloud" = "Το VPN απενεργοποιήθηκε";
+"home plus button select location" = "Επιλογή τοποθεσίας";
+"home plus button location" = "Τοποθεσία: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
+"pack section header" = "Προηγμένες Λειτουργίες";
+"pack section header details" = "Λεπτομέρειες Χαρακτηριστικού";
 "pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
-"pack information header" = "More";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
+"pack action update" = "ΕΝΗΜΕΡΩΣΗ";
+"pack action uninstall" = "ΑΦΑΙΡΕΣΗ";
+"pack author" = "Συγγραφέας";
+"pack configurations header" = "Ρυθμίσεις";
+"pack information header" = "Περισσότερα";
+"pack tags header" = "Ετικέτες";
+"pack tags none" = "Κανένα";
+"pack category highlights" = "Επισήμανση";
 "pack category active" = "ενεργό";
-"pack category all" = "All";
+"pack category all" = "Όλα";
 
-"shields section header" = "Shields";
+"shields section header" = "Ασπίδες";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Επιλέξτε μια τοποθεσία";
 
-"activity section header" = "Activity";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity section header" = "Δραστηριότητα";
+"activity section header details" = "Λεπτομέρειες Δραστηριότητας";
+"activity request blocked" = "Αυτό το αίτημα έχει αποκλειστεί.";
+"activity request allowed" = "Αυτό το αίτημα έχει επιτραπεί.";
+"activity request allowed whitelisted" = "Αυτό το αίτημα έχει επιτραπεί, επειδή βρίσκεται στη λίστα επιτρεπόμενων";
+"activity request blocked blacklisted" = "Αυτό το αίτημα έχει αποκλειστεί, επειδή βρίσκεται στη λίστα φραγμένων";
+"activity request allowed list" = "Αυτή η αίτηση έχει επιτραπεί, επειδή είναι παρούσα στο *%@* allowlist.";
+"activity request allowed no list" = "Αυτό το αίτημα έχει επιτραπεί, καθώς δεν υπάρχει σε καμία από τις ρυθμισμένες blocklists.";
+"activity request blocked list" = "Αυτό το αίτημα έχει αποκλειστεί, επειδή είναι παρόν στη λίστα αποκλεισμού *%@*.";
+"activity request blocked no list" = "Αυτό το αίτημα έχει αποκλειστεί, καθώς δεν υπάρχει σε καμία από τις ρυθμισμένες λίστες επιτρεπτών σας.";
+"activity actions header" = "Ενέργειες";
+"activity information header" = "Πληροφορίες";
+"activity action add to whitelist" = "Προσθήκη στο επιτρεπόμενο";
+"activity action remove from whitelist" = "Αφαίρεση από επιτρεπόμενο";
+"activity action added to whitelist" = "Προστέθηκε στο επιτρεπόμενο";
+"activity action add to blacklist" = "Προσθήκη στο φραγμένο";
+"activity action remove from blacklist" = "Αφαίρεση από το φραγμένο";
+"activity action added to blacklist" = "Προστέθηκε στο φραγμένο";
+"activity action copy to clipboard" = "Αντιγραφή ονόματος στο πρόχειρο";
+"activity domain name" = "Πλήρες όνομα";
+"activity time of occurrence" = "Ώρα";
+"activity number of occurrences" = "Αριθμός εμφανίσεων";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "τροποποιήθηκε";
 // As in sentence, "this host has been blocked"
 "activity state blocked" = "αποκλεισμένο";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "επιτρέπεται";
+"activity happened one time" = "1 φορά";
+"activity happened many times" = "%@ φορές";
+"activity category recent" = "Πρόσφατα";
+"activity category top" = "Πάνω";
+"activity category top blocked" = "Επάνω Αποκλεισμένος";
+"activity category top allowed" = "Επιτρέπεται Πάνω";
+"activity filter header" = "Ποιες καταχωρήσεις θα θέλατε να δείτε?";
+"activity filter show all" = "Όλες οι καταχωρήσεις";
+"activity filter show blocked" = "Μπλοκαρισμένα μόνο";
+"activity filter show allowed" = "Επιτρέπεται μόνο";
 // A short message "Showing for: Device A"
-"activity filter showing for" = "Showing for: %@";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
-"activity retention header" = "Should we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "Yes, store my activity";
-"activity retention policy" = "By enabling activity logging you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, enable activity logging below.";
+"activity filter showing for" = "Εμφάνιση για: %@";
+"activity empty text" = "Δοκιμάστε να χρησιμοποιήσετε τη συσκευή σας και να επιστρέψετε εδώ αργότερα, για να δείτε πού συνδέεται η συσκευή σας.";
+"activity device filter show all" = "Όλες οι συσκευές";
+"activity retention header" = "Θα πρέπει να αποθηκεύσετε τη δραστηριότητά σας?";
+"activity retention option none" = "Μη φυλάσσετε τη δραστηριότητά μου";
+"activity retention option 24h" = "Ναι, αποθηκεύστε τη δραστηριότητά μου";
+"activity retention policy" = "Ενεργοποιώντας την καταγραφή δραστηριοτήτων αποδέχεστε την πολιτική απορρήτου.";
+"activity retention desc" = "Το Blokada Cloud δεν καταγράφει τίποτα από προεπιλογή. Αν θέλετε να δείτε τα συγκεντρωτικά στατιστικά και τη δραστηριότητα από όλες τις συσκευές σας, ενεργοποιήστε την καταγραφή δραστηριοτήτων παρακάτω.";
 
 // Header for the Exceptions screen (where all user defined custom rules are)
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "Εξαιρέσεις";
+"userdenied section slugline" = "Διαχείριση φραγής συγκεκριμένων ιστοσελίδων";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Επιτρέπεται";
 // A section name for the list of hosts blocked by user
 "userdenied tab blocked" = "αποκλεισμένο";
 // A short one word action to allow a hostname.
@@ -246,244 +246,244 @@
 // A short one word action to block a hostname.
 "userdenied action block" = "Αποκλεισμός";
 // Opens the Exceptions screen (where all user defined custom rules are)
-"userdefined action open" = "Open Exceptions";
+"userdefined action open" = "Άνοιγμα Εξαιρέσεων";
 
 "account section header settings" = "Ρυθμίσεις";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
-"account status text inactive" = "Your BLOKADA subscription is inactive.";
+"account status text" = "Ο λογαριασμός σας BLOKADA %@ είναι ενεργός μέχρι το %@.";
+"account status text inactive" = "Η συνδρομή σας στο BLOKADA είναι ανενεργή.";
 
-"account section header primary" = "Primary";
+"account section header primary" = "Κύριο";
 "account section header other" = "Άλλα";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
+"account action my account" = "Ο λογαριασμός μου";
+"account action encryption" = "Κρυπτογράφηση & DNS";
+"account action devices" = "Συσκευές";
 "account action new device" = "Νέα συσκευή";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action create" = "Generate new account";
-"account action about" = "About";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
+"account action inbox" = "Εισερχόμενα";
+"account action logout" = "Επαναφορά αγοράς";
+"account action logout only" = "Αποσύνδεση";
+"account action create" = "Δημιουργία νέου λογαριασμού";
+"account action about" = "Σχετικά";
+"account action tap to show" = "Πατήστε για εμφάνιση";
+"account action restoring" = "Επαναφορά λογαριασμού: %@";
 "account label enter to continue" = "Εισαγάγετε το αναγνωριστικό του λογαριασμού σας για να συνεχίσετε";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account restore description" = "Μην ανησυχείτε, αν χάσατε ή ξεχάσατε το ID του λογαριασμού σας, μπορούμε να το ανακτήσουμε. Παρακαλούμε επικοινωνήστε με την υποστήριξή μας, και να μας παράσχετε πληροφορίες που θα μας επιτρέψουν να προσδιορίσουμε την αγορά σας (π.χ. τα τελευταία 4 ψηφία της πιστωτικής σας κάρτας, ή το email PayPal).";
+"account create description" = "Αυτό είναι το ID του λογαριασμού σας. Γράψτε το και κρατήστε το ιδιωτικό. Είναι ο μόνος τρόπος για να αποκτήσετε πρόσβαση στη συνδρομή σας.";
+"account create confirm" = "Το έγραψα κάτω";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
+"account section header my subscription" = "Η Συνδρομή Μου";
+"account section header general" = "Γενικά";
+"account section header subscription" = "Συνδρομή";
 "account label id" = "Αναγνωριστικό λογαριασμού";
-"account label type" = "Subscription plan";
-"account plan none" = "No active plan";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
-"account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
-"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+"account label type" = "Σχέδιο συνδρομής";
+"account plan none" = "Κανένα ενεργό σχέδιο";
+"account label active until" = "Ενεργή μέχρι";
+"account action manage subscription" = "Διαχείριση συνδρομής";
+"account action why upgrade" = "Γιατί πρέπει να αναβαθμίσω?";
+"account subscription header renew" = "Αυτόματη ανανέωση";
+"account subscription header payment method" = "Μέθοδος πληρωμής";
+"account subscription renew unsupported" = "Η μέθοδος πληρωμής σας δεν επιτρέπει τον έλεγχο της ρύθμισης αυτόματης ανανέωσης εδώ.";
 
-"account unlock to show" = "Unlock to show your account ID";
+"account unlock to show" = "Ξεκλειδώστε για να εμφανίσετε το ID του λογαριασμού σας";
 
-"account header logout" = "Restore purchase";
-"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
-"account id status unchanged" = "(unchanged)";
-"account action how to restore" = "How do I restore my old account?";
+"account header logout" = "Επαναφορά αγοράς";
+"account logout description" = "Παρακαλώ εισάγετε ένα άλλο ID λογαριασμού ή πηγαίνετε πίσω για να συνεχίσετε να χρησιμοποιείτε τον υπάρχοντα λογαριασμό σας (η εφαρμογή αυτή δεν μπορεί να χρησιμοποιηθεί χωρίς ένα).";
+"account id status unchanged" = "(αμετάβλητο)";
+"account action how to restore" = "Πώς μπορώ να επαναφέρω τον παλιό μου λογαριασμό?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Ημέρες που απομένουν: %@";
+"account devices remaining" = "Συσκευές που απομένουν: %@";
+"account devices not available" = "Μη διαθέσιμο";
+"account devices out of" = "%@ από %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
+"account lease label devices list" = "Αυτές οι συσκευές είναι συνδεδεμένες στο λογαριασμό σας.";
+"account lease label devices" = "Συσκευές";
+"account lease label this device" = " (αυτή η συσκευή)";
 "account lease label name" = "Όνομα συσκευής";
-"account lease label location" = "Location";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease label location" = "Τοποθεσία";
+"account lease label generate" = "Επιλέγοντας μια τοποθεσία εδώ θα δημιουργηθεί ένα αρχείο ρυθμίσεων που μπορείτε να χρησιμοποιήσετε σε οποιαδήποτε εφαρμογή VPN που υποστηρίζει το WireGuard. Αυτό είναι χρήσιμο για πλατφόρμες όπου δεν έχουμε ακόμα εφαρμογές μας. Διαφορετικά, σας συνιστούμε να χρησιμοποιείτε τις δικές μας μητρικές εφαρμογές.";
+"account lease action generate" = "Δημιουργία Ρυθμίσεων";
+"account lease action download" = "Λήψη Ρυθμίσεων";
+"account lease generated" = "Η συσκευή προστέθηκε! Κατεβάστε τις ρυθμίσεις για να τις χρησιμοποιήσετε σε οποιαδήποτε συσκευή υποστηρίζεται από την WireGuard.";
+"account lease wireguard desc" = "Το Blokada χρησιμοποιεί το WireGuard. Μπορείτε να κατεβάσετε τις ρυθμίσεις όταν δημιουργείτε νέες συσκευές.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
+"account lease action dns" = "Επιλέξτε ένα DNS";
 "account lease label public key" = "Δημόσιο κλειδί";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Πώς μπορούμε να σας βοηθήσουμε?";
+"account support action kb" = "Άνοιγμα Γνωσιακής Βάσης";
 
-"account upgrade cloud description" = "This feature is a part of Blokada Plus. To upgrade, please contact our Customer Support.";
+"account upgrade cloud description" = "Αυτό το χαρακτηριστικό είναι μέρος του Blokada Plus. Για αναβάθμιση, παρακαλούμε επικοινωνήστε με την Υποστήριξη πελατών.";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Ενεργοποίηση!";
+"payment activated description" = "Η Blokada θα μεταβεί τώρα σε λειτουργία Plus, και θα συνδεθεί μέσω μιας από τις ασφαλείς τοποθεσίες μας. Εάν δεν είστε σίγουροι ποιος να επιλέξει, συνιστάται το πλησιέστερο σε εσάς.";
+"payment action choose location" = "Επιλέξτε μια τοποθεσία";
+"payment action see locations" = "Οι Τοποθεσίες Μας";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
-"payment alert error header" = "A message from App Store";
+"payment title" = "Αναβαθμίστε στην υπηρεσία VPN μας για να παραμείνετε στον έλεγχο του προσωπικού απορρήτου *.";
+"payment feature title change location" = "Αλλαγή Τοποθεσίας";
+"payment feature desc change location" = "Απόκρυψη της διεύθυνσης IP σας και προσποίηση ότι βρίσκεστε σε άλλη χώρα. Αυτό θα σας καλύψει από τρίτους και θα σας βοηθήσει να προστατεύσετε την ταυτότητά σας.";
+"payment feature title encrypt data" = "Κρυπτογράφηση Δεδομένων";
+"payment feature desc encrypt data" = "Τα δεδομένα που αποστέλλονται μέσω της σήραγγας VPN κρυπτογραφούνται με τη χρήση ισχυρών αλγορίθμων για την προστασία από την υποκλοπή από μη εξουσιοδοτημένα μέρη.";
+"payment feature title encrypt dns" = "Κρυπτογράφηση DNS";
+"payment feature desc encrypt dns" = "Βελτιώστε την ιδιωτικότητά σας με κρυπτογράφηση DNS. Το Blokada Cloud χρησιμοποιεί σύγχρονα πρωτόκολλα για να σας βοηθήσει να διατηρήσετε την κυκλοφορία σας ιδιωτική.";
+"payment feature title performance" = "Μεγάλη Απόδοση";
+"payment feature desc performance" = "Διατηρήστε τη συσκευή σας snappy και τη σύνδεσή σας στο Internet με μέγιστες ταχύτητες, χάρη στη νέα λύση Cloud μας.";
+"payment feature title battery" = "Μηδέν Αντίκτυπο Μπαταρίας";
+"payment feature desc battery" = "Η διάρκεια ζωής της μπαταρίας σας δεν πρόκειται να επηρεαστεί, μπορεί να βελτιωθεί ακόμη και όταν είναι ενεργοποιημένο το Blokada Cloud.";
+"payment feature title devices cloud" = "Πολλαπλές Συσκευές";
+"payment feature desc devices cloud" = "Ρυθμίστε και παρακολουθήστε όλες τις συσκευές σας σε ένα μέρος. Είτε μέσω της εφαρμογής για κινητά είτε μέσω της εφαρμογής μας ιστού.";
+"payment feature title cloud vpn" = "Το Cloud συν VPN";
+"payment feature desc cloud vpn" = "Εκτός από όλα τα οφέλη του Blokada Cloud, θα έχετε πρόσβαση στο παγκόσμιο δίκτυο VPN";
+"payment feature title faster connection" = "Ταχύτερη Σύνδεση";
+"payment feature desc faster connection" = "Μεγάλη ταχύτητες έως και 100Mbps με διακομιστές σε διάφορα μέρη του κόσμου.";
+"payment feature title devices" = "Έως 5 συσκευές";
+"payment feature desc devices" = "Χρησιμοποιήστε τον ίδιο λογαριασμό για να μοιραστείτε τη συνδρομή σας με έως και 5 συσκευές: iOS, Android, ή PC.";
+"payment feature title no ads" = "Αποκλεισμός Διαφημίσεων";
+"payment feature desc no ads" = "Χρησιμοποιήστε τη δημοφιλή τεχνολογία φραγής διαφημίσεων Blokada για να μπλοκάρετε διαφημίσεις στις συσκευές σας. Οι ρυθμίσεις για προχωρημένους είναι διαθέσιμες.";
+"payment feature title support" = "Μεγάλη Υποστήριξη";
+"payment feature desc support" = "Λάβετε μια άμεση απάντηση σε οποιεσδήποτε ερωτήσεις χάρη στην Εξυπηρέτηση Πελατών μας και την ζωντανή κοινότητα ανοιχτού κώδικα.";
+"payment action see all features" = "Προβολή Όλων Των Χαρακτηριστικών";
+"payment action restore" = "Επαναφορά Αγορών";
+"payment action terms and privacy" = "Όροι & Ιδιωτικότητα";
+"payment action terms" = "Όροι παροχής υπηρεσιών";
+"payment action policy" = "Πολιτική Απορρήτου";
+"payment alert error header" = "Ένα μήνυμα από το App Store";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Είστε αποθήκευση %@";
+"payment conversion note" = "Δεχόμαστε Ευρώ και οι τιμές που εμφανίζονται είναι μια εκτίμηση. Μια επιστροφή χρημάτων είναι διαθέσιμη εάν οι τραπεζικές χρεώσεις σας είναι υπερβολικές.";
 
 "payment subscription 1 month" = "1 μήνα";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
-"payment subscription offer" = "Save %@";
+"payment subscription many months" = "%@ Μήνες";
+"payment subscription per month" = "%@ ανά μήνα";
+"payment subscription per year" = "%@ ανά έτος";
+"payment subscription per year then" = "τότε %@ ανά έτος";
+"payment subscription offer" = "Αποθήκευση %@";
 
 "payment success label" = "Ευχαριστούμε!";
-"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+"payment success desc" = "Ο λογαριασμός σας είναι τώρα ενεργός! Τώρα μπορείτε να χρησιμοποιήσετε όλες τις δυνατότητες Blokada Plus σε όλες τις συσκευές σας.";
 
-"payment redirect label" = "Redirecting...";
-"payment redirect desc" = "Please wait. This should only take a moment.";
+"payment redirect label" = "Ανακατεύθυνση...";
+"payment redirect desc" = "Παρακαλώ περιμένετε. Αυτό πρέπει να διαρκέσει μόνο ένα λεπτό.";
 
-"payment ongoing title" = "Your payment is now being processed.";
-"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
-"payment pay google short" = "Google Pay";
+"payment ongoing title" = "Η πληρωμή σας είναι τώρα υπό επεξεργασία.";
+"payment ongoing desc" = "Οι πληρωμές μέσω πιστωτικών καρτών δεν θα πρέπει να διαρκούν περισσότερο από λίγα λεπτά. Οι πληρωμές κρυπτονομισμάτων συνήθως διαρκούν έως και μία ώρα, ανάλογα με το ποια χρέωση συναλλαγής επιλέξατε. Σε περίπτωση PayPal, μπορεί να διαρκέσει έως και 24 ώρες. Θα λάβετε ανακατεύθυνση μόλις ο λογαριασμός σας είναι έτοιμος. Μπορείτε επίσης να κλείσετε αυτήν την οθόνη και να έρθετε ξανά αργότερα. Αν αισθάνεστε ότι η συναλλαγή σας παίρνει πολύ καιρό, παρακαλούμε επικοινωνήστε μαζί μας.";
+"payment pay google short" = "Πληρωμή Google";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Αλλαγή";
-"payment action pay" = "Pay %@";
+"payment action pay" = "Πληρωμή %@";
 "payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
-"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
+"payment label email" = "E-mail";
+"payment crypto desc" = "Για να πληρώσετε με το πορτοφόλι κρυπτονομισμάτων, πατήστε το παρακάτω κουμπί.";
+"payment label choose package" = "Επιλέξτε το πακέτο σας";
+"payment label choose payment method" = "Επιλέξτε τον τρόπο πληρωμής";
+"payment label cheapest" = "Φθηνότερο";
+"payment label most popular" = "Πιο δημοφιλή";
 "payment label pay with card" = "Πληρωμή με κάρτα";
 "payment label pay with paypal" = "Πληρώστε με PayPal";
-"payment label pay with crypto" = "Pay with crypto";
+"payment label pay with crypto" = "Πληρωμή με crypto";
 "payment package one month" = "1 μήνα";
 "payment package six months" = "6 μήνες";
 "payment package twelve months" = "12 μήνες";
-"payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment label discount" = "Αποθήκευση %@ (%@ / mo)";
+"payment label country" = "Χώρα";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
+"payment euro desc" = "Βρισκόμαστε στην Ευρώπη, οπότε δεχόμαστε το Ευρώ: τα €10 είναι περίπου $12.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "Σύγκριση σχεδίων";
+"payment plan slugline cloud" = "Μπλοκ διαφημίσεις και ιχνηλάτες";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
-"payment plan current" = "(current plan)";
+"payment plan slugline cloud detail" = "(περιλαμβάνει Blokada Cloud)";
+"payment plan slugline plus" = "Πρόσθετη προστασία με VPN";
+"payment plan cta trial" = "Ξεκινήστε Την Δωρεάν Δοκιμαστική Έκδοση 7 Ημερών";
+"payment plan cta monthly" = "Μηνιαία Εγγραφή";
+"payment plan cta annual" = "Εγγραφείτε Ετησίως";
+"payment plan current" = "(τρέχον σχέδιο)";
 
-"payment cancel footer" = "The subscription is auto-renewed before the current billing period ends. You can cancel anytime in Settings.";
-"payment cancel footer trial" = "Cancel during the next %@ days, and you won’t be charged. The subscription is auto-renewed before the current billing period ends. After trial, you can cancel anytime in Settings.";
+"payment cancel footer" = "Η συνδρομή ανανεώνεται αυτόματα πριν λήξει η τρέχουσα περίοδος χρέωσης. Μπορείτε να ακυρώσετε οποιαδήποτε στιγμή στις Ρυθμίσεις.";
+"payment cancel footer trial short" = "Ακυρώσετε τις επόμενες %@ ημέρες, και δεν θα χρεωθεί.";
 
-"location region worldwide" = "Everywhere";
-"location region america" = "America";
-"location region europe" = "Europe";
-"location region asia" = "Asia";
-"location region australia" = "Australia";
+"location region worldwide" = "Παντού";
+"location region america" = "Αμερική";
+"location region europe" = "Ευρώπη";
+"location region asia" = "Ασία";
+"location region australia" = "Αυστραλία";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "Συσκευές VPN";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
-"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web vpn devices open action" = "Άνοιγμα Συσκευών VPN";
+"web action open setup" = "Ανοιχτή ρύθμιση";
+"web cta plus header" = "Αναβαθμίστε στο Blokada Plus για να παραμείνετε στον έλεγχο της ιδιωτικότητάς σας.";
+"web cta plus desc" = "Ο λογαριασμός Libre σάς δίνει δωρεάν adblocking στη συσκευή σας με τις εφαρμογές ανοιχτού κώδικα μας. Αναβαθμίστε σε Blokada Plus για μια ακόμα καλύτερη προστασία. Θα αποκτήσετε πρόσβαση στο παγκόσμιο δίκτυο VPN, καθώς και στο νέο μας σύστημα *cloud based* adblocking που είναι πιο αποτελεσματικό και πιο εύκολο στη χρήση.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Δημιουργία";
 
-"setup header" = "Setup";
-"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
-"setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
+"setup header" = "Ρύθμιση";
+"setup desc" = "Υπάρχουν πολλοί τρόποι να ρυθμίσετε τη συσκευή σας για να χρησιμοποιήσετε το Blokada Cloud. Επιλέξτε αυτόν που λειτουργεί για εσάς.";
+"setup label which device" = "Τι είδους συσκευή θέλετε να ρυθμίσετε?";
+"setup label choose" = "Επιλέξτε οποιαδήποτε από τις ακόλουθες επιλογές ρύθμισης:";
+"setup comment wireguard" = "Σημείωση: Η διαμόρφωση VPN θα χρησιμοποιήσει το Blokada Cloud από προεπιλογή. Επιλέξτε μια διαφορετική ρύθμιση DNS αν θέλετε να εξαιρεθείτε. 'WireGuard' και το λογότυπο 'WireGuard' είναι σήματα κατατεθέντα της Jason A. Donenfeld.";
+"setup comment native apps" = "Σημείωση: Η εγγενής εφαρμογή για Android δεν υποστηρίζει το Blokada Cloud ακόμα. Εργαζόμαστε στην ενημέρωση.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "Βήμα %@: %@";
+"setup option label recommended" = "Προτείνεται: %@";
+"setup option label alternative" = "Εναλλακτική Λύση: %@";
+"setup name label unnamed" = "(; )";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "Ονομάστε τη συσκευή σας (προαιρετικό)";
+"setup step copy" = "Αντιγραφή του ονόματος υπολογιστή σας";
+"setup step apply config" = "Εφαρμογή της νέας ρύθμισης παραμέτρων";
+"setup step install" = "Εγκαταστήστε και ξεκινήστε την εφαρμογή μας";
+"setup step enter tag" = "Όταν ερωτηθεί, εισάγετε την ετικέτα σας";
+"setup step download profile" = "Δημιουργήστε και κατεβάστε το προφίλ σας";
+"setup step install wireguard" = "Εγκατάσταση και εκκίνηση του WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "Στατιστικά";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Αναλογία";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Αιτήματα";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Ερωτήματα πάροδο του χρόνου";
+"stats top allowed header" = "Κορυφαία επιτρεπόμενα αιτήματα";
+"stats top blocked header" = "Κορυφαία μπλοκαρισμένα αιτήματα";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "Επιτρέπεται";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "Αποκλεισμένος";
 // A short one-word label for the counter of total requests.
-"stats label total" = "Total";
+"stats label total" = "Σύνολο";
 // A short header for the stats section of last 24h.
-"stats header day" = "Last 24h";
+"stats header day" = "Τελευταίες 24h";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "All time";
+"stats header all time" = "Όλη την ώρα";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
-"dnsprofile desc android" = "In the Settings app, find the Private DNS section, and then paste your hostname (long tap).";
-"dnsprofile desc android copy" = "Copy your Blokada Cloud hostname to paste it in Settings.";
-"dnsprofile notification subtitle" = "In the Settings app, navigate to:";
+"dnsprofile header" = "Ενεργοποίηση Blokada στις Ρυθμίσεις";
+"dnsprofile desc" = "Στην εφαρμογή Ρυθμίσεις, μεταβείτε στο General → VPN, DNS & Διαχείριση Συσκευών → DNS και επιλέξτε Blokada.";
+"dnsprofile action open settings" = "Άνοιγμα Ρυθμίσεων";
+"dnsprofile desc android" = "Στην εφαρμογή Ρυθμίσεις, βρείτε το ιδιωτικό τμήμα DNS, και στη συνέχεια επικολλήστε το όνομα του υπολογιστή σας (μακρύ χτύπημα).";
+"dnsprofile desc android copy" = "Αντιγράψτε το όνομα κεντρικού υπολογιστή Blokada Cloud για να το επικολλήσετε στις Ρυθμίσεις.";
+"dnsprofile notification subtitle" = "Στην εφαρμογή Ρυθμίσεις, μεταβείτε σε:";
 // A helpful message during onboarding to help user find the right settings to change
-"dnsprofile notification body" = "General → VPN, DNS & Device Management → DNS and select Blokada.";
+"dnsprofile notification body" = "Γενικά → VPN, DNS & Διαχείριση Συσκευών → DNS και επιλέξτε Blokada.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated header" = "Σχεδόν εκεί!";
+"activated desc" = "Τα ακόλουθα είναι απαραίτητα για να εργαστεί η Blokada όπως αναμενόταν:";
+"activated desc all ok" = "Η συσκευή σας είναι όλα ρυθμισμένη και καλή για να πάτε:";
+"activated label account" = "Ο λογαριασμός είναι ενεργός (%@)";
+"activated label notif yes" = "Επιτρέπονται ειδοποιήσεις";
+"activated label notif no" = "Επιτρέπονται ειδοποιήσεις";
+"activated label dns yes" = "Το προφίλ DNS είναι ενεργοποιημένο";
+"activated label dns no" = "Ενεργοποίηση προφίλ DNS";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "Να επιτρέπεται VPN (Plus μόνο)";
+"activated label vpn yes" = "Το VPN επιτρέπεται";
+"activated label vpn no" = "Να Επιτρέπεται Το VPN";
 
-"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"advanced section header packs" = "Blocklists";
-"app settings section header" = "This device";
+"homepage vpn credit" = "'WireGuard' και το λογότυπο 'WireGuard' είναι σήματα κατατεθέντα της Jason A. Donenfeld.";
+"advanced section header packs" = "Λίστες";
+"app settings section header" = "Αυτή η συσκευή";
 
-"lock status locked" = "Blokada is locked. Enter the pin code to unlock";
-"lock status unlocked has pin" = "Enter the pin code to change it";
-"lock status unlocked" = "Set your pin code to lock Blokada";
+"lock status locked" = "Το Blokada είναι κλειδωμένο. Εισάγετε τον κωδικό για να ξεκλειδώσετε";
+"lock status unlocked has pin" = "Εισάγετε τον κωδικό PIN για να τον αλλάξετε";
+"lock status unlocked" = "Ορίστε τον κωδικό PIN για να κλειδώσετε το Blokada";
