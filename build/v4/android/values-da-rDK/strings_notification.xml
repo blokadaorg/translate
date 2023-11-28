@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">Notifikationer</string>
-    <string name="notification_on_description">When on, Blokada will display a notification every time something is blocked. Please note this is not the same as the VPN notification some devices show, and which cannot be turned off.&lt;br/&gt;You can configure which notifications should be displayed with the Settings below.</string>
+    <string name="notification_on_description">Når slået til, vil Blokada vise en notifikation hver gang noget er blokeret. Bemærk venligst at dette ikke er det samme som VPN-notifikationen nogle enheder viser, og som ikke kan slås fra.&lt;br/&gt;Du kan konfigurere, hvilke meddelelser der skal vises med nedenstående indstillinger.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Blokeret</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
@@ -15,10 +15,10 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Hold i live</string>
-    <string name="notification_keepalive_description">Activate this switch if you experience problems with the app staying active in the background. Blokada will enable a permanent notification to prevent the system from killing it; you can hide it by choosing Notifications above and there Settings.</string>
+    <string name="notification_keepalive_description">Aktivér denne kontakt, hvis du oplever problemer med, at appen forbliver aktiv i baggrunden. Blokada vil aktivere en permanent notifikation for at forhindre systemet i at dræbe det; du kan skjule den ved at vælge Notifikationer ovenfor og der Indstillinger.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
-    <string name="notification_keepalive_title_new">Keep Alive (tap to hide)</string>
-    <string name="notification_keepalive_text_new">Android requires to display a notification to keep the app running, but you are free to disable it in system settings.</string>
+    <string name="notification_keepalive_title_new">Behold Alive (tryk for at skjule)</string>
+    <string name="notification_keepalive_text_new">Android kræver at vise en notifikation for at holde app\'en kørende, men du kan frit deaktivere den i systemindstillinger.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d Blokeret</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
@@ -29,12 +29,12 @@
     <string name="notification_keepalive_activating">Blokada starter. Dette kan tage et øjeblik.</string>
     <string name="notification_keepalive_deactivate">Deaktiver</string>
     <string name="notification_keepalive_deactivating">Blokada er deaktiveret!</string>
-    <string name="notification_expired_title">Blokada Plus is deactivated</string>
-    <string name="notification_expired_description">Your account is not active, and Blokada Plus is off. Standard Blokada features work fine without the Blokada Plus VPN. However please consider activating your account for better protection and for supporting the project.</string>
-    <string name="notification_lease_expired_title">Blokada Plus is deactivated</string>
-    <string name="notification_lease_expired_description">There was a problem with your connection to Blokada Plus. Please try choosing another gateway. If the problem persists, please contact us.</string>
+    <string name="notification_expired_title">Blokada Plus er deaktiveret</string>
+    <string name="notification_expired_description">Din konto er ikke aktiv, og Blokada Plus er slukket. Standard Blokada funktioner fungerer fint uden Blokada Plus VPN. Men overvej at aktivere din konto for bedre beskyttelse og for at støtte projektet.</string>
+    <string name="notification_lease_expired_title">Blokada Plus er deaktiveret</string>
+    <string name="notification_lease_expired_description">Der opstod et problem med din forbindelse til Blokada Plus. Prøv venligst at vælge en anden gateway. Hvis problemet fortsætter, bedes du kontakte os.</string>
     <string name="notification_channel_filtered">Reklame blokering</string>
-    <string name="notification_channel_announcements">Announcements</string>
+    <string name="notification_channel_announcements">Meddelelser</string>
     <string name="notification_channel_vpn">Blokada Plus</string>
     <string name="notification_channel_other">Andre</string>
 </resources>
