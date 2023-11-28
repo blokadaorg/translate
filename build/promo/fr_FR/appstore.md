@@ -13,7 +13,7 @@ Fonctionnalités :
 - Interception DNS (mode VPN) pour tous les navigateurs modernes.
 - Un VPN fiable et rapide qui protège votre vie privée et chiffre vos données.
 
-The most compatible ad blocker on the market!
+Le bloqueur de publicités le plus compatible sur le marché!
 
 • Bloque les publicités • Économise votre forfait Internet • Naviguez PLUS VITE en chargeant moins de données • Diminue la consommation de la batterie
 
