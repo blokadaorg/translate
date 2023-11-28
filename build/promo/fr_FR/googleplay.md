@@ -20,6 +20,6 @@ Meilleures fonctionnalités :
 - Interception DNS (mode VPN) pour tous les navigateurs modernes.
 - Bloque les sites diffusant des contenus malveillants, virus et autres sites frauduleux.
 
-The most compatible ad blocker on the market!
+Le bloqueur de publicités le plus compatible sur le marché!
 
 • Bloque les publicités • Économise votre forfait Internet • Naviguez PLUS VITE en chargeant moins de données • Diminue la consommation de la batterie
