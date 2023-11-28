@@ -116,7 +116,7 @@
 "notification acc body" = "אנא עדכנו את המנוי על מנת להמשיך להשתמש ב־Blokada.";
 
 "notification pause header" = "Blokada עדיין מושהה";
-"notification pause subtitle" = "Adblocking is disabled";
+"notification pause subtitle" = "חסימת המודעות מושבתת";
 "notification pause body" = "Please open the app to resume Blokada.";
 
 // Displayed in a notification title. Do not translate "Plus".
@@ -400,7 +400,7 @@
 "payment plan current" = "(current plan)";
 
 "payment cancel footer" = "The subscription is auto-renewed before the current billing period ends. You can cancel anytime in Settings.";
-"payment cancel footer trial" = "Cancel during the next %@ days, and you won’t be charged. The subscription is auto-renewed before the current billing period ends. After trial, you can cancel anytime in Settings.";
+"payment cancel footer trial short" = "Cancel during the next %@ days, and you won’t be charged.";
 
 "location region worldwide" = "בכל מקום";
 "location region america" = "אמריקה";
@@ -447,9 +447,9 @@
 "stats top allowed header" = "Top allowed requests";
 "stats top blocked header" = "Top blocked requests";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "מורשה";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "נחסם";
 // A short one-word label for the counter of total requests.
 "stats label total" = "Total";
 // A short header for the stats section of last 24h.
