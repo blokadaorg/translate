@@ -73,7 +73,7 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 
-"universal label help" = "Help";
+"universal label help" = "Laguntza";
 "universal label welcome" = "Welcome!";
 // Common label when some feature has no setting
 "universal label none" = "None";
@@ -175,7 +175,7 @@
 "pack action uninstall" = "REMOVE";
 "pack author" = "Author";
 "pack configurations header" = "Configurations";
-"pack information header" = "More";
+"pack information header" = "Gehiago";
 "pack tags header" = "Tags";
 "pack tags none" = "None";
 "pack category highlights" = "Highlights";
@@ -186,7 +186,7 @@
 
 "location choice header" = "Choose a Location";
 
-"activity section header" = "Activity";
+"activity section header" = "Ekintza";
 "activity section header details" = "Activity Details";
 "activity request blocked" = "This request has been blocked.";
 "activity request allowed" = "This request has been allowed.";
@@ -248,12 +248,12 @@
 // Opens the Exceptions screen (where all user defined custom rules are)
 "userdefined action open" = "Open Exceptions";
 
-"account section header settings" = "Settings";
+"account section header settings" = "Ezarpenak";
 "account status text" = "Your BLOKADA %@ account is active until %@.";
 "account status text inactive" = "Your BLOKADA subscription is inactive.";
 
 "account section header primary" = "Primary";
-"account section header other" = "Other";
+"account section header other" = "Bestelakoak";
 "account action my account" = "My account";
 "account action encryption" = "Encryption & DNS";
 "account action devices" = "Devices";
@@ -262,7 +262,7 @@
 "account action logout" = "Restore purchase";
 "account action logout only" = "Log out";
 "account action create" = "Generate new account";
-"account action about" = "About";
+"account action about" = "Honi buruz";
 "account action tap to show" = "Tap to show";
 "account action restoring" = "Restoring account: %@";
 "account label enter to continue" = "Enter your account ID to continue";
@@ -324,7 +324,7 @@
 "payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
 "payment feature title encrypt data" = "Encrypt Data";
 "payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
-"payment feature title encrypt dns" = "Encrypt DNS";
+"payment feature title encrypt dns" = "Zifratu DNSa";
 "payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
 "payment feature title performance" = "Great Performance";
 "payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
@@ -345,8 +345,8 @@
 "payment action see all features" = "See All Features";
 "payment action restore" = "Restore Purchases";
 "payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
+"payment action terms" = "Zerbitzuaren baldintzak";
+"payment action policy" = "Pribatutasun-politika";
 "payment alert error header" = "A message from App Store";
 // As in saving money: You are saving $5
 "payment save text" = "You are saving %@";
@@ -370,7 +370,7 @@
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
 "payment change method" = "Change";
-"payment action pay" = "Pay %@";
+"payment action pay" = "Ordaindu %@";
 "payment action pay period" = "Pay %@ each period";
 "payment label email" = "Email";
 "payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
@@ -387,7 +387,7 @@
 "payment label discount" = "Save %@ (%@ / mo)";
 "payment label country" = "Country";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
+"payment euro desc" = "Europan gaude, beraz, euroa onartzen dugu: 10 € 12 dolar dira gutxi gorabehera.";
 
 "payment action compare" = "Compare plans";
 "payment plan slugline cloud" = "Blocks ads and trackers";
@@ -400,7 +400,7 @@
 "payment plan current" = "(current plan)";
 
 "payment cancel footer" = "The subscription is auto-renewed before the current billing period ends. You can cancel anytime in Settings.";
-"payment cancel footer trial" = "Cancel during the next %@ days, and you won’t be charged. The subscription is auto-renewed before the current billing period ends. After trial, you can cancel anytime in Settings.";
+"payment cancel footer trial short" = "Cancel during the next %@ days, and you won’t be charged.";
 
 "location region worldwide" = "Everywhere";
 "location region america" = "America";
@@ -480,7 +480,7 @@
 "activated label vpn yes" = "VPN is allowed";
 "activated label vpn no" = "Allow VPN";
 
-"homepage vpn credit" = "'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
+"homepage vpn credit" = "'WireGuard' eta 'WireGuard' logotipoa Jason A. Donenfeld-en marka erregistratuak dira.";
 "advanced section header packs" = "Blocklists";
 "app settings section header" = "This device";
 
