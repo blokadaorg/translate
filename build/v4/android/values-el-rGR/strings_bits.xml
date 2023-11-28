@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_touch">Tap or hold to configure</string>
-    <string name="home_blokada_disabled">Blokada is paused</string>
-    <string name="home_blokada_active">Blokada is active</string>
-    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
-    <string name="home_blokada_inactive">Blokada is deactivated</string>
+    <string name="home_touch">Πατήστε ή κρατήστε πατημένο για να ρυθμίσετε</string>
+    <string name="home_blokada_disabled">Η Blokada είναι σε παύση</string>
+    <string name="home_blokada_active">Η Blokada είναι ενεργή</string>
+    <string name="home_blokada_active_protected">Το Blokada Plus είναι ενεργό και το Internet σας προστατεύεται</string>
+    <string name="home_blokada_inactive">Η Blokada απενεργοποιήθηκε</string>
     <string name="home_activating">Ενεργοποίηση</string>
-    <string name="home_please_wait">Please wait...</string>
+    <string name="home_please_wait">Παρακαλώ περιμένετε...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
+    <string name="home_vpn_only">Το Blokada Plus είναι ενεργό χωρίς αποκλεισμό</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Blokada is active in DNS mode</string>
+    <string name="home_dns_only">Η Blokada είναι ενεργή σε λειτουργία DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s blocked since %s</string>
-    <string name="home_masterswitch_enabled">Blokada is on</string>
-    <string name="home_masterswitch_waiting">Waiting for network...</string>
+    <string name="home_requests_blocked_since">%s αποκλείστηκε από %s</string>
+    <string name="home_masterswitch_enabled">Η Blokada είναι ενεργή</string>
+    <string name="home_masterswitch_waiting">Αναμονή για δίκτυο...</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Tell your friends</string>
-    <string name="home_share_state">Share your Blokada score</string>
-    <string name="home_share_state_google">Help others to learn about Blokada</string>
-    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
-    <string name="home_adblocking_enabled">Ad blocking is active</string>
-    <string name="home_adblocking_disabled">Ad blocking is deactivated</string>
-    <string name="home_blokadaorg">You are using Blokada Slim</string>
-    <string name="home_blokadaorg_state">Tap to get the open source edition</string>
+    <string name="home_share">Ενημερώστε τους φίλους σας</string>
+    <string name="home_share_state">Μοιραστείτε το σκορ Blokada</string>
+    <string name="home_share_state_google">Βοηθήστε άλλους να μάθουν για το Blokada</string>
+    <string name="home_share_msg_google">Δοκιμάστε το Blokada Slim και διατηρήστε την προστασία της ιδιωτικής ζωής σας! Αποκτήστε το στο Google Play.</string>
+    <string name="home_adblocking_enabled">Ο αποκλεισμός διαφημίσεων είναι ενεργός</string>
+    <string name="home_adblocking_disabled">Το μπλοκάρισμα διαφημίσεων απενεργοποιήθηκε</string>
+    <string name="home_blokadaorg">Χρησιμοποιείτε το Blokada Slim</string>
+    <string name="home_blokadaorg_state">Πατήστε για να λάβετε την έκδοση ανοιχτού κώδικα</string>
     <!-- A short text for the item that displays update information -->
-    <string name="home_whats_new">What\'s new?</string>
-    <string name="home_update_required">Update required</string>
+    <string name="home_whats_new">Τι νέο υπάρχει?</string>
+    <string name="home_update_required">Απαιτείται ενημέρωση</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Κάντε μια δωρεά</string>
-    <string name="home_vpn_enabled">Blokada Plus is active</string>
+    <string name="home_vpn_enabled">Το Blokada Plus είναι ενεργό</string>
     <string name="home_vpn_disabled">To Blokada Plus έχει απενεργοποιηθεί</string>
-    <string name="home_account_active">Your account is still active</string>
-    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
-    <string name="home_cleanup">Cleanup recommended</string>
+    <string name="home_account_active">Ο λογαριασμός σας είναι ακόμα ενεργός</string>
+    <string name="home_connecting_vpn">Σύνδεση με το Blokada Plus</string>
+    <string name="home_cleanup">Συνιστάται καθαρισμός</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Connected to Blokada Plus</string>
-    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
-    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
-    <string name="home_account_error">Could not verify account. Are you online?</string>
-    <string name="home_permission_error">Please grant VPN permissions.</string>
-    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
-    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
-    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
+    <string name="home_connected_vpn">Συνδέθηκε με το Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Λυπούμαστε, η συσκευή σας δεν υποστηρίζεται από το Blokada Plus. Μπορείτε ακόμα να χρησιμοποιήσετε άλλες λειτουργίες.</string>
+    <string name="home_blocka_vpn_error">Αδυναμία σύνδεσης στην πύλη. Είστε συνδεδεμένος?</string>
+    <string name="home_account_error">Αδυναμία επαλήθευσης λογαριασμού. Είστε συνδεδεμένος?</string>
+    <string name="home_permission_error">Παρακαλούμε εκχωρήστε δικαιώματα VPN.</string>
+    <string name="home_zero_filters_error">Δεν έχετε ρυθμίσει κανένα φίλτρο. Ελέγξτε τις ρυθμίσεις adblocking και wifi.</string>
+    <string name="home_filters_memory_error">Ορισμένες λίστες δεν μπόρεσαν να φορτωθούν. Επιλέξτε λιγότερες λίστες στις ρυθμίσεις φραγής διαφημίσεων.</string>
+    <string name="tasker_switch_label">Πατήστε σε μία από τις επιλογές για να ρυθμίσετε την ενεργοποίηση (ή απενεργοποίηση) της ενεργοποίησής σας.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Διαφημίσεις</string>
-    <string name="menu_ads_live_label">Host log of allowed and blocked requests</string>
-    <string name="menu_ads_clear_log">Clear host log</string>
-    <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
-    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
-    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
+    <string name="menu_ads_live_label">Αρχείο καταγραφής επιτρεπόμενων και αποκλεισμένων αιτήσεων</string>
+    <string name="menu_ads_clear_log">Εκκαθάριση καταγραφής κεντρικού υπολογιστή</string>
+    <string name="menu_ads_lists_label">Επιλέξτε λίστες που θα χρησιμοποιηθούν για μπλοκάρισμα. Οι προεπιλογές είναι καλές για τους περισσότερους ανθρώπους.</string>
+    <string name="menu_ads_rules_label">Προσθέστε τους δικούς σας κανόνες για να συντονίσετε το μπλοκάρισμα.</string>
+    <string name="menu_ads_log_label">Δείτε τι έχει μπλοκαριστεί ή επιτραπεί πρόσφατα.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
-    <string name="menu_vpn_activate_account">Please activate your account first.</string>
-    <string name="menu_vpn_select_gateway">Please select a gateway.</string>
-    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
+    <string name="menu_vpn_activate_account">Παρακαλώ ενεργοποιήστε πρώτα τον λογαριασμό σας.</string>
+    <string name="menu_vpn_select_gateway">Παρακαλώ επιλέξτε μια πύλη.</string>
+    <string name="menu_vpn_intro_button">Γιατί χρειάζομαι Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">My Blokada Plus</string>
+    <string name="menu_vpn_account">Το Blokada Μου</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
-    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_gateways">Πύλες</string>
     <!-- A button opening VPN leases (devices) settings -->
-    <string name="menu_vpn_leases">Devices</string>
-    <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
-    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
-    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
-    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
-    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
+    <string name="menu_vpn_leases">Συσκευές</string>
+    <string name="menu_vpn_manage_subscription">Διαχειριστείτε τη συνδρομή σας</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Αν ο λογαριασμός σας είναι καινούργιος, επισκεφθείτε την ιστοσελίδα μας. Δεν μπορείτε να αγοράσετε μια συνδρομή στο Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Πατήστε το avatar σας παραπάνω για να δείτε το ID του λογαριασμού σας. Θυμηθείτε, το ID σας είναι μυστικό και θα πρέπει να το κρατήσετε στον εαυτό σας. Γράψτε το σε περίπτωση που απεγκαταστήσετε την εφαρμογή.</string>
+    <string name="menu_vpn_restore_label">Εδώ μπορείτε να επαναφέρετε τον υπάρχοντα λογαριασμό σας εάν, για παράδειγμα, επανεγκαταστήσατε την εφαρμογή.</string>
+    <string name="menu_vpn_intro">Με το Blokada Plus τα δεδομένα σας είναι κρυπτογραφημένα, η διεύθυνση IP σας είναι κρυμμένη και η τοποθεσία σας αλλάζει.</string>
+    <string name="menu_vpn_account_label">Για να χρησιμοποιήσετε το VPN, χρειάζεστε έναν ενεργό λογαριασμό. Ελέγξτε ή επαναφέρετε τον λογαριασμό σας εδώ.</string>
+    <string name="menu_vpn_gateways_label">Επιλέξτε μία από τις πύλες για να συνδεθείτε. Η συσκευή σας θα στείλει τα κρυπτογραφημένα δεδομένα σας με ασφάλεια μέσω αυτής της πύλης και θα παραμείνετε ανώνυμοι.</string>
+    <string name="menu_vpn_support_label">Εάν αντιμετωπίσετε οποιαδήποτε προβλήματα, μην διστάσετε να επικοινωνήσετε μαζί μας.</string>
     <string name="menu_vpn_support_button">Υποστήριξη</string>
-    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
-    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
-    <string name="menu_vpn_info_account_label">Do I have an account?</string>
-    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
-    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
-    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
-    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
-    <string name="menu_dns_recommended">Recommended DNS servers</string>
-    <string name="menu_dns_intro">DNS is responsible for translating IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
-    <string name="menu_dns_select">Select one of the DNS servers.</string>
+    <string name="menu_vpn_tunnel_settings">Ρυθμίσεις Blokada Plus</string>
+    <string name="menu_vpn_tunnel_learn_more">Μάθετε περισσότερα για το Blokada Plus</string>
+    <string name="menu_vpn_info_account_label">Έχω ένα λογαριασμό?</string>
+    <string name="menu_vpn_info_account_line1">Ναι! Ο λογαριασμός σας δημιουργείται αυτόματα κατά την πρώτη εκτέλεση. Δεν χρειάζεται να εγγραφείτε.</string>
+    <string name="menu_vpn_info_account_line2">Πατήστε το avatar σας παραπάνω για να δείτε το ID του λογαριασμού σας.</string>
+    <string name="menu_vpn_info_account_line3">Το ID λογαριασμού σας είναι μυστικό και δεν πρέπει να το δείξετε σε κανέναν.</string>
+    <string name="menu_vpn_info_account_line4">Σημειώστε το ID του λογαριασμού σας σε περίπτωση που χρειαστεί να επανεγκαταστήσετε την εφαρμογή.</string>
+    <string name="menu_dns_recommended">Προτεινόμενοι διακομιστές DNS</string>
+    <string name="menu_dns_intro">DNS είναι υπεύθυνη για τη μετάφραση των διευθύνσεων IP των ιστοσελίδων και των εφαρμογών που χρησιμοποιείτε. Επιλέγοντας ένα καλό DNS μπορεί να επιταχύνει τη συσκευή σας και θα βοηθήσει στην προστασία της ιδιωτικής ζωής σας.</string>
+    <string name="menu_dns_select">Επιλέξτε έναν από τους διακομιστές DNS.</string>
     <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
-    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
-    <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
+    <string name="menu_apps_system_label">Οι εφαρμογές συστήματος είναι αυτές που έρχονται προεγκατεστημένες με τη συσκευή σας. Μερικές από αυτές είναι κρυμμένες. Τροποποιήστε αυτές μόνο αν ξέρετε τι κάνετε.</string>
+    <string name="menu_host_list_intro">Οι λίστες κεντρικού υπολογιστή περιέχουν κανόνες για το μπλοκάρισμα διαφημίσεων και ιχνηλαστών. Προσπαθήστε να κρατήσετε τον αριθμό των ενεργών λιστών χαμηλή.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
-    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
-    <string name="menu_host_list_status">List status</string>
-    <string name="menu_host_list_download">List download settings</string>
-    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
-    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_adblocking_settings">Ρυθμίσεις φραγής διαφημίσεων</string>
+    <string name="menu_host_list_status">Κατάσταση λίστας</string>
+    <string name="menu_host_list_download">Ρυθμίσεις λήψης λίστας</string>
+    <string name="menu_host_whitelist">Οι υπολογιστές που προσθέτετε εδώ δεν θα αποκλείονται ποτέ. Χρησιμοποιήστε αυτή τη λίστα όταν, για παράδειγμα, μια ιστοσελίδα που επισκέπτεστε αποκλείεται εσφαλμένα. Σημειώστε ότι αυτό δεν ισχύει για παρακάμψεις εφαρμογών.</string>
+    <string name="menu_host_blacklist">Οι υπολογιστές που προσθέτετε εδώ θα αποκλείονται πάντα. Για παράδειγμα, μπορείτε να προσθέσετε ιστοσελίδες που δεν αποκλείονται από τις τυπικές λίστες, αλλά θα πρέπει να είναι. Σημειώστε ότι αυτό δεν ισχύει για παρακάμψεις εφαρμογών.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Άλλα</string>
-    <string name="menu_share_log_label">Sharing log allows us to discover the reason of your problem. Make sure you send it privately to one of Blokada core team members.</string>
+    <string name="menu_share_log_label">Η κοινή χρήση αρχείου καταγραφής μας επιτρέπει να ανακαλύψουμε τον λόγο του προβλήματός σας. Βεβαιωθείτε ότι το στέλνετε ιδιωτικά σε ένα από τα μέλη της βασικής ομάδας Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
-    <string name="menu_learn_more">Learn more</string>
+    <string name="menu_learn_more">Μάθετε περισσότερα</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Get help</string>
+    <string name="menu_knowledge">Λάβετε βοήθεια</string>
     <!-- A section content promoting participating in our project -->
-    <string name="menu_get_involved">Get involved</string>
-    <string name="menu_telegram">Community</string>
-    <string name="menu_configure">Configure Blokada features</string>
-    <string name="menu_exclude">Exclude apps that do not work correctly</string>
+    <string name="menu_get_involved">Συμμετέχετε</string>
+    <string name="menu_telegram">Κοινότητα</string>
+    <string name="menu_configure">Ρύθμιση λειτουργιών Blokada</string>
+    <string name="menu_exclude">Εξαίρεση εφαρμογών που δεν λειτουργούν σωστά</string>
     <!-- A section in menu for additional buttons  -->
-    <string name="menu_dive_in">Dive in deeper</string>
+    <string name="menu_dive_in">Βουτήξτε σε βαθύτερα</string>
     <!-- A section to manage some settings (generic)  -->
-    <string name="menu_manage">Manage</string>
-    <string name="menu_ok">OK</string>
-    <string name="menu_dns_remove_default">Default DNS cannot be removed.</string>
+    <string name="menu_manage">Διαχείριση</string>
+    <string name="menu_ok">Εντάξει</string>
+    <string name="menu_dns_remove_default">Το προεπιλεγμένο DNS δεν μπορεί να αφαιρεθεί.</string>
 </resources>
