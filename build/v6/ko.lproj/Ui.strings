@@ -345,8 +345,8 @@
 "payment action see all features" = "See All Features";
 "payment action restore" = "Restore Purchases";
 "payment action terms and privacy" = "Terms & Privacy";
-"payment action terms" = "Terms of Service";
-"payment action policy" = "Privacy Policy";
+"payment action terms" = "서비스 이용약관";
+"payment action policy" = "개인정보 취급방침";
 "payment alert error header" = "A message from App Store";
 // As in saving money: You are saving $5
 "payment save text" = "You are saving %@";
@@ -387,7 +387,7 @@
 "payment label discount" = "Save %@ (%@ / mo)";
 "payment label country" = "국가";
 
-"payment euro desc" = "We are based in Europe, so we accept Euro: €10 is roughly $12.";
+"payment euro desc" = "Blokada는 유럽 소재의 회사이므로, 유로화를 통해 결제를 받고 있습니다. (10유로는 1200원 정도입니다.)";
 
 "payment action compare" = "Compare plans";
 "payment plan slugline cloud" = "Blocks ads and trackers";
@@ -400,7 +400,7 @@
 "payment plan current" = "(current plan)";
 
 "payment cancel footer" = "The subscription is auto-renewed before the current billing period ends. You can cancel anytime in Settings.";
-"payment cancel footer trial" = "Cancel during the next %@ days, and you won’t be charged. The subscription is auto-renewed before the current billing period ends. After trial, you can cancel anytime in Settings.";
+"payment cancel footer trial short" = "Cancel during the next %@ days, and you won’t be charged.";
 
 "location region worldwide" = "Everywhere";
 "location region america" = "America";
@@ -447,9 +447,9 @@
 "stats top allowed header" = "Top allowed requests";
 "stats top blocked header" = "Top blocked requests";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "허용됨";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "차단됨";
 // A short one-word label for the counter of total requests.
 "stats label total" = "Total";
 // A short header for the stats section of last 24h.
