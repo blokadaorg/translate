@@ -1,23 +1,23 @@
-This is the official app on App Store from the Blokada open source project.
+Aceasta este aplicația oficială de pe App Store din proiectul open source Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada pentru iOS este o aplicație gratuită care folosește serverele DNS (Domain Name System) pentru a vă permite să aveți o experiență de navigare fără reclame pentru a vedea doar conținutul dorit.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+Există, de asemenea, un VPN construit care este opțional de utilizat. Cu Blokada Plus VPN, poți naviga pe internet cu intimitate și îți poți securiza Internetul împotriva atacurilor cibernetice și a hackerilor.
 
 ----
 
-Top features:
+Principalele caracteristici:
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Suportă blocarea publicității pentru fiecare browser web și altă aplicație instalată.
+- Blochează site-uri care distribuie conținut răuvoitor, virusuri și site-uri web frauduloase.
+- Interceptare bazată pe DNS (modul VPN) pentru toate browserele moderne.
+- VPN rapid și de încredere, care îți protejează intimitatea și îți criptează datele.
 
-The most compatible ad blocker on the market!
+Cel mai compatibil ad blocker de pe piață!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Ce poate fi blocat? • Blochează reclamele enervante: Google AdWords, Google Invite Media, Managerul Bid-ului Dublu, Liftoff, Reclame Bing, Amazon, etc • Blochează site-urile pentru adulți • Blochează site-urile pentru jocuri de noroc • Blochează trackerele rețelelor de socializare: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comscore • Blokada Plus Adblock iOS • Blokada Plus Adblock iOS App.
 
 ----
 
