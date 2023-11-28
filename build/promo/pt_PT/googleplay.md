@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Bloqueador de anúncios do Blokada - Sem anúncios, bateria melhor
 
-Protect your privacy for free with the official Blokada app.
+Proteja sua privacidade gratuitamente com o aplicativo oficial do Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Este é o único aplicativo oficial na Play Store do projeto de código aberto do Blokada. Cuidado com clones, eles podem conter código malicioso.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+O bloqueador de anúncios Blokada Slim é um aplicativo gratuito que usa servidores DNS (Domain Name System) para permitir que você tenha uma experiência de navegação livre de anúncios para ver apenas o conteúdo que você quer.
 
-There is also a built in VPN that is optional to use.
+Também existe uma VPN embutida que é opcional para uso.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+O site do projeto é: https://blokada.org. A versão do site tem mais recursos e também é gratuita.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Junte-se a nós no nosso chat no Telegram se tiver perguntas ou feedback: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Melhores recursos:
+- Nenhuma permissão root é necessária!
+- Suporta todos os navegadores e aplicativos web.
+- Interceptação baseada em DNS (modo VPN) para todos os navegadores modernos.
+- Bloqueia sites que distribuem conteúdos maliciosos, vírus e sites fraudulentos.
 
-The most compatible ad blocker on the market!
+O bloqueador de anúncios mais compatível no mercado!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
