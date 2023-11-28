@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Ad blocker - Χωρίς διαφημίσεις, καλύτερη μπαταρία
 
-Protect your privacy for free with the official Blokada app.
+Προστατέψτε την ιδιωτικότητά σας δωρεάν με την επίσημη εφαρμογή Blokada.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Αυτή είναι η μόνη επίσημη εφαρμογή στο Play Store από το έργο ανοιχτού κώδικα Blokada. Προσοχή των κλώνων, μπορεί να περιέχουν κακόβουλο κώδικα.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Το Blokada Slim Ad blocker είναι μια δωρεάν εφαρμογή που χρησιμοποιεί διακομιστές DNS (Domain Name System) για να σας επιτρέψει να έχετε μια δωρεάν εμπειρία περιήγησης για να δείτε μόνο το περιεχόμενο που θέλετε.
 
-There is also a built in VPN that is optional to use.
+Υπάρχει επίσης ένα ενσωματωμένο VPN που είναι προαιρετικό για χρήση.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Η ιστοσελίδα του έργου είναι: https://blokada.org. Η έκδοση από την ιστοσελίδα έχει περισσότερες δυνατότητες και είναι επίσης δωρεάν.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Ελάτε μαζί μας στη συνομιλία μας με το Telegram αν έχετε ερωτήσεις ή σχόλια: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Καλύτερα χαρακτηριστικά:
+- ΟΧΙ δικαιώματα root απαιτείται!
+- Υποστηρίζει κάθε πρόγραμμα περιήγησης και κάθε εφαρμογή.
+- Παρεμπόδιση με βάση το DNS (VPN mode) για όλα τα σύγχρονα προγράμματα περιήγησης.
+- Μπλοκάρει ιστοσελίδες που διανέμουν κακόβουλο περιεχόμενο, ιούς και δόλιες ιστοσελίδες.
 
-The most compatible ad blocker on the market!
+Ο πιο συμβατός αποκλεισμός διαφημίσεων στην αγορά!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
