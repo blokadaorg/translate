@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim Ad blockerare - Inga annonser, bättre batteri
 
-Protect your privacy for free with the official Blokada app.
+Skydda din integritet gratis med den officiella Blokada-appen.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Detta är den enda officiella appen på Play Store från Blokada open source-projektet. Akta dig för kloner, de kan innehålla skadlig kod.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim Ad blockerare är en gratis app som använder DNS (Domain Name System) servrar för att göra det möjligt för dig att ha en annonsfri webbupplevelse för att se endast det innehåll du vill.
 
-There is also a built in VPN that is optional to use.
+Det finns också en inbyggd VPN som är valfri att använda.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Webbplatsen för projektet är: https://blokada.org. Versionen från webbplatsen har fler funktioner och är också gratis.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Följ med oss på vår Telegramchatt om du har frågor eller feedback: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Bästa funktioner:
+- INGA root-behörigheter krävs!
+- Stöder alla webbläsare och appar.
+- DNS-baserad interception (VPN-läge) för alla moderna webbläsare.
+- Blockerar webbplatser som distribuerar skadligt innehåll, virus och bedrägliga webbplatser.
 
-The most compatible ad blocker on the market!
+Den mest kompatibla annonsblockeraren på marknaden!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
