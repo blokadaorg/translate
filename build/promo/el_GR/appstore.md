@@ -1,23 +1,23 @@
-This is the official app on App Store from the Blokada open source project.
+Αυτή είναι η επίσημη εφαρμογή στο App Store από το έργο ανοιχτού κώδικα Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada για iOS είναι μια δωρεάν εφαρμογή που χρησιμοποιεί διακομιστές DNS (Domain Name System) για να σας επιτρέψει να έχετε μια δωρεάν εμπειρία περιήγησης για να δείτε μόνο το περιεχόμενο που θέλετε.
 
-There is also a built in VPN that is optional to use. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+Υπάρχει επίσης ένα ενσωματωμένο VPN που είναι προαιρετικό για χρήση. Με το Blokada Plus VPN μπορείτε να περιηγηθείτε στο διαδίκτυο με ιδιωτικότητα και να ασφαλίσετε το Internet σας ενάντια σε επιθέσεις στον κυβερνοχώρο και χάκερ.
 
 ----
 
-Top features:
+Κορυφαία χαρακτηριστικά:
 
-- Supports ad-blocking for every web browser and other app installed.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
-- DNS based interception (VPN mode) for all modern browsers.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- Υποστηρίζει αποκλεισμό διαφημίσεων για κάθε πρόγραμμα περιήγησης ιστού και άλλη εφαρμογή που έχει εγκατασταθεί.
+- Μπλοκάρει ιστοσελίδες που διανέμουν κακόβουλο περιεχόμενο, ιούς και δόλιες ιστοσελίδες.
+- Παρεμπόδιση με βάση το DNS (VPN mode) για όλα τα σύγχρονα προγράμματα περιήγησης.
+- Γρήγορο και αξιόπιστο VPN που προστατεύει το απόρρητο σας και κρυπτογραφεί τα δεδομένα σας.
 
-The most compatible ad blocker on the market!
+Ο πιο συμβατός αποκλεισμός διαφημίσεων στην αγορά!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Τι μπορεί να αποκλειστεί? • Αποκλεισμός ενοχλητικών διαφημίσεων: Google AdWords, Google Invite Media, DoubleClick Bid Bid Manager, Liftoff, Bing Ads, Amazon, etc • Αποκλεισμοί ιστότοπων ενηλίκων • Αποκλεισμοί ιστότοπων τυχερών παιχνιδιών • Αποκλεισμός ιχνηλασμών μέσων κοινωνικής δικτύωσης: Google Analytics, Σύνδεση Facebook, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex. etrix, Comscore • Αποκλείει κακόβουλες ιστοσελίδες: Κατεβάζει ιούς, κακόβουλο περιεχόμενο, δόλιες ιστοσελίδες και χειραγωγημένες εφαρμογές • Blokada Plus Adblock iOS App.
 
 ----
 
