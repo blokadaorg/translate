@@ -10,103 +10,103 @@
 //  @author Karol Gusak
 //
 
-"error blocka dns in filtering mode" = "Blokada DNS is currently supported only in Plus mode. Please choose another DNS and try again.";
+"error blocka dns in filtering mode" = "Blokada DNS støttes for øyeblikket bare i Plus-modus. Vennligst velg en annen DNS og prøv på nytt.";
 
 "account active forever" = "For alltid";
-"account active forever full" = "Active forever";
+"account active forever full" = "Aktiv for alltid";
 
-"main ask for permissions header" = "Just one more step";
-"main ask for permissions description" = "Blokada is using a VPN Configuration to block ads. You will be asked to allow it in the next step.";
+"main ask for permissions header" = "Bare ett steg til";
+"main ask for permissions description" = "Blokada bruker en VPN-konfigurasjon til å blokkere annonser. Du vil bli bedt om å tillate den i det neste trinnet.";
 
-"home level low" = "Protection: Low";
-"home level medium" = "Protection: Medium";
-"home level high" = "Protection: High";
+"home level low" = "Beskyttelse: Lav";
+"home level medium" = "Beskyttelse: Middels";
+"home level high" = "Beskyttelse: Høy";
 
-"advanced section slugline packs" = "Activate for more restrictive blocking";
-"advanced section slugline apps" = "Choose apps that should never be blocked";
-"advanced section slugline encryption" = "Adjust your encryption level and DNS";
-"advanced action slim migrate to full" = "You are using Blokada Slim. Learn more";
+"advanced section slugline packs" = "Aktiver for mer restriktiv blokkering";
+"advanced section slugline apps" = "Velg apper som aldri skal blokkeres";
+"advanced section slugline encryption" = "Juster krypteringsnivået ditt og DNS";
+"advanced action slim migrate to full" = "Du bruker Blokada Slim. Lær mer";
 
 "networks section header" = "Nettverk";
-"networks section label" = "Adjust settings for WiFi and mobile networks";
+"networks section label" = "Juster innstillinger for WiFi og mobilnettverk";
 "networks label all networks" = "Alle nettverk";
-"networks action network specific" = "Tap here to modify default settings. To make the app behave differently on some networks, tap below.";
-"networks label configuration active" = "These settings are currently active";
-"networks label configuration enabled" = "Not connected to this network";
-"networks label configuration inactive" = "Tap to modify settings for this network";
-"networks label details default network" = "The settings below are applied by default for all networks. You can override them for selected networks (in the previous screen).";
-"networks action encrypt dns" = "Encrypt DNS";
+"networks action network specific" = "Trykk her for å endre standardinnstillingene. For å gjøre appen forskjellig på noen nettverk, trykk nedenfor.";
+"networks label configuration active" = "Disse innstillingene er for øyeblikket aktive";
+"networks label configuration enabled" = "Ikke koblet til dette nettverket";
+"networks label configuration inactive" = "Trykk for å endre innstillinger for dette nettverket";
+"networks label details default network" = "Innstillingene nedenfor legges til som standard for alle nettverk. Du kan overstyre dem for valgte nettverk (i forrige skjerm).";
+"networks action encrypt dns" = "Krypter DNS";
 "networks action use dns" = "Bruk DNS: %@";
-"networks action use network dns" = "Prefer network DNS";
-"networks action force libre mode" = "Force Libre mode";
-"networks label specific network" = "Adjust what should happen when your device connects to this network.";
-"networks label specific network type" = "Adjust what should happen when your device connects to a network of this type.";
+"networks action use network dns" = "Foretrekk nettverk DNS";
+"networks action force libre mode" = "Tving Libre modus";
+"networks label specific network" = "Juster hva som skal skje når enheten din kobles til dette nettverket.";
+"networks label specific network type" = "Juster hva som skal skje når enheten din kobles til et nettverk av denne typen.";
 "networks label any wifi" = "Ethvert Wi-Fi-nettverk";
 "networks label any mobile" = "Ethvert mobilnettverk";
-"networks permission request" = "To have more control, tap here and let the app recognise all networks.";
-"networks permission request granted" = "You may see a notification when Blokada reads your network name in the background.";
+"networks permission request" = "For å ha mer kontroll, trykk her og la appen gjenkjenne alle nettverk.";
+"networks permission request granted" = "Du kan se et varsel når Blokada leser nettverksnavnet ditt i bakgrunnen.";
 "networks section choose dns" = "Velg DNS";
-"networks summary encrypt dns" = "Blokada will encrypt DNS if possible. This improves your security and prevents malicious actors to spy on what websites and apps you use.";
-"networks summary use dns" = "Blokada will use %@ as your device's DNS. Choosing the one that allows for encryption (has the lock icon), and is near to you, will help protecting your data and making your connection fast.";
-"networks summary network dns" = "Blokada will use the network's DNS if available, or switch to %@ otherwise. Also, the Encrypt DNS settings will be ignored whenever network DNS is used. Using the network's DNS helps to fix connectivity problems on troublesome networks, but leaves you unprotected.";
-"networks summary network dns and plus mode" = "Blokada will temporarily disable Plus Mode whenever network DNS is used. This is because it is not possible to access network DNS in VPN. The Plus Mode will be automatically restored when your device switches to another network.";
-"networks summary blocka plus mode" = "Blokada will use Blokada DNS in Plus mode, to ensure high level of encryption and speed. You may change this setting at the bottom of the Choose DNS screen.";
-"networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
-"networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
+"networks summary encrypt dns" = "Blokada vil kryptere DNS hvis mulig. Dette forbedrer sikkerheten din og hindrer ondsinnede aktører å spionere på hvilke nettsteder og apper du bruker.";
+"networks summary use dns" = "Blokada vil bruke %@ som din enhets DNS. Velger du den som tillater kryptering (har låsen) og er nær deg, vil bidra til å beskytte dataene dine og gjøre forbindelsen din raskt.";
+"networks summary network dns" = "Blokada vil bruke nettverkets DNS hvis tilgjengelig, eller bytte til %@ et annet. Krypter DNS-innstillingene vil også bli ignorert når nettverk DNS brukes. Bruker nettverket sitt DNS hjelper til å fikse tilkoblingsproblemer på feilsøkte nettverk, men forlater du ubeskyttet.";
+"networks summary network dns and plus mode" = "Blokada vil midlertidig deaktivere Plus når nettverksDNS brukes. Dette er fordi det ikke er mulig å få tilgang til nettverk DNS i VPN. Plusmodus vil automatisk bli gjenopprettet når enheten slår på et annet nettverk.";
+"networks summary blocka plus mode" = "Blokada vil bruke Blokada DNS i Plus-modus, for å sikre høyt nivå av kryptering og hastighet. Du kan endre denne innstillingen nederst på Velg DNS-skjermen.";
+"networks summary force libre mode" = "Blokada vil alltid bruke Libre-modus på dette nettverket, og ignorere posisjonen din Blokada Plus. Dette er nyttig for nettverk der du ikke vil ha ekstra beskyttelse.";
+"networks permission dialog" = "Blokada kan gjenkjenne nettverk du kobler til, og la deg konfigurere separate innstillinger for dem. Denne appen vil imidlertid samle inn posisjonsdata i form av nettverksnavn for å aktivere denne funksjonen, selv om programmet er lukket eller ikke i bruk. Noen ganger kan du se et systemvarsel om posisjonstilgang - Blokada vil bare lese nettverkets navn.";
 
-"account status text libre" = "Your BLOKADA Libre account is active until forever.";
+"account status text libre" = "BLOKADA Libre kontoen er aktiv til evig tid.";
 
 "account encrypt level low" = "Lav";
 "account encrypt level medium" = "Middels";
 "account encrypt level high" = "Høy";
-"account encrypt label dns only" = "Encrypting DNS";
-"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
-"account encrypt label everything" = "Connecting through VPN";
-"account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
-"account encrypt action turn on" = "Turn on BLOKADA";
-"account encrypt header level" = "Encryption Level";
+"account encrypt label dns only" = "Krypterer DNS";
+"account encrypt desc dns only" = "Domain Name System er hvordan enheten vet hvor du finner nettstedene du vil besøke. Dessverre bruker de fleste Internettet fremdeles ukryptert DNS, noe som setter din nettleserhistorie med risiko for å bli spart på. Når dette er aktivert, tvinger Blokada enheten din til å koble bare til krypterte DNS-servere (også kalt DNS over HTTPS).";
+"account encrypt label everything" = "Kobler til via VPN";
+"account encrypt desc everything" = "Enheten din kobler seg sammen gjennom våre sikre VPN-servere, og all kommunikasjon som kommer fra, eller til, enheten krypteres ved hjelp av sterke algoritmer. Dette beskytter din personinformasjon, som bankdetaljer eller personlige bilder, og blir stjålet på usikre steder, for eksempel en kaffebutikk WiFi.";
+"account encrypt action turn on" = "Slå på BLOKADA";
+"account encrypt header level" = "Krypterings nivå";
 "account encrypt label level" = "Nivå";
-"account encrypt label level low" = "Low: No Encryption";
-"account encrypt label level medium" = "Medium: Encrypting DNS";
-"account encrypt label level high" = "High: Encrypting Everything";
-"account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
+"account encrypt label level low" = "Lav: Ingen kryptering";
+"account encrypt label level medium" = "Middels: Krypterer DNS";
+"account encrypt label level high" = "Høy: Krypterer alt";
+"account encrypt header explanation" = "DNS er hvordan enheten vet hvor du finner nettsteder. BLOKADA støtter bare krypterte servere.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "Hva er DNS?";
 "account encrypt section header" = "Kryptering";
 "account encrypt section blocka dns" = "Blokada DNS";
-"account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
+"account encrypt label use blocka dns" = "Bruk Blokada DNS i Plus-modus";
 
 "apps section header" = "Apper";
 "apps label installed" = "Installert";
 "apps label system" = "System";
 "apps status bypassed" = "(hoppet over)";
-"apps filter header" = "Which apps would you like to see?";
+"apps filter header" = "Hvilke apper vil du se?";
 "apps filter action show all" = "Alle apper";
-"apps filter action show bypassed" = "Bypassed only";
-"apps filter action show not bypassed" = "Not bypassed only";
-"apps filter action toggle system" = "Toggle all system apps";
+"apps filter action show bypassed" = "Bare omhyggelig";
+"apps filter action show not bypassed" = "Ikke bare overgått";
+"apps filter action toggle system" = "Veksle alle systemapper";
 
 "app settings language label" = "Språk";
 "app settings theme label" = "Apptema";
 "app settings theme light" = "Lys";
 "app settings theme dark" = "Mørk";
 // A setting for changing if to open links internally in the app, or by using this device's web browser
-"app settings browser label" = "Redirect links to";
+"app settings browser label" = "Omdiriger lenker til";
 "app settings browser internal" = "Intern nettleser";
 "app settings browser external" = "Ekstern nettleser (om mulig)";
 "app settings ipv6 label" = "Tillat IPv6";
 "app settings section system" = "System";
 "app settings action app info" = "Åpne appinformasjon";
 "app settings action vpn profile" = "Åpne VPN-profil";
-"app settings action notifications" = "Open Notification Settings";
+"app settings action notifications" = "Åpne varslingsinnstillinger";
 "app settings section details" = "Detaljer";
 "app settings status default" = "Systemforvalg";
 "app settings start on boot" = "Start ved systemoppstart";
 "app settings use dns over https" = "Bruk DNS-over-HTTPS";
-"app settings backup" = "Use cloud backup";
+"app settings backup" = "Bruk sikkerhetskopi av skyen";
 "app settings section advanced" = "Avansert";
 "app settings section use foreground" = "Hold i live";
 
-"intro header" = "Blokada is Active!";
-"intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
-"intro text not libre" = "A blue or orange ring means that Blokada is working.\n\nWe recommend you activate Always on VPN in your system settings.";
+"intro header" = "Blokada er aktiv!";
+"intro text" = "En blå ring betyr at Blokada virker.\n\nHusk, noen annonser, slik som YouTube, kan ikke blokkeres. Men du vil merke en forskjell i mange andre apper.\n\nVi anbefaler at du aktiverer Alltid på VPN / Koble til Demand i systeminnstillingene.";
+"intro text not libre" = "En blå eller oransje ring betyr at Blokada virker.\n\nVi anbefaler at du aktiverer Alltid på VPN under systeminnstillingene.";
