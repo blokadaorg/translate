@@ -25,9 +25,9 @@
     <!-- When a domain is blocked -->
     <string name="panel_domain_blocked">Blokkert &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="panel_domain_blocked_normal_desc">Dette domenet er blokkert. For å tillate det i fremtiden, bruk knappen nedenfor.</string>
-    <string name="panel_domain_blocked_nxdomain_desc">This domain was not correctly resolved by the DNS server. Either the server blocked the domain or it doesn\'t exist.</string>
-    <string name="panel_domain_blocked_error_desc">Something went wrong while resolving this domain, The DNS server answered with a error code.</string>
-    <string name="panel_domain_blocked_cname_desc">This domain was blocked because it\'s a CName for a blocked domain. To allow it in the future you can either add the CName or the domain itself to the allowed hosts.</string>
+    <string name="panel_domain_blocked_nxdomain_desc">Dette domenet ble ikke riktig løst av DNS-serveren. Enten har tjeneren blokkert domenet eller så eksisterer det ikke.</string>
+    <string name="panel_domain_blocked_error_desc">Noe gikk galt når du løste dette domenet. DNS-serveren svarte med en feilkode.</string>
+    <string name="panel_domain_blocked_cname_desc">Dette domenet ble blokkert fordi det er et CName for et blokkert domene. For å tillate den i fremtiden kan du enten legge til CName eller domenet selv til de tillatte vertene.</string>
     <string name="panel_domain_blocked_toast">Lagt til i svartelisten.</string>
     <!-- Action to copy domain name to clipboard -->
     <string name="panel_domain_copy">Kopier</string>
@@ -36,11 +36,11 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">Filtrene har nå %s regler.</string>
     <string name="panel_ruleset_updating">Oppdaterer filtre...</string>
-    <string name="panel_ruleset_canfit">Filters are now configured with &lt;b&gt;%s&lt;/b&gt; rules. Your device allows max &lt;b&gt;%s&lt;/b&gt; MB of memory for every application, and up to &lt;b&gt;%s&lt;/b&gt; rules can fit into it.&lt;br&gt;Remember, this is just an estimate and Blokada utilises the most memory when it merges the lists. If you enabled a few of them recently, wait a few minutes for the system to free up memory.</string>
+    <string name="panel_ruleset_canfit">Filtre er nå konfigurert med &lt;b&gt;%s&lt;/b&gt; regler. Enheten tillater maks &lt;b&gt;%s&lt;/b&gt; MB minne for hver applikasjon, og opp til &lt;b&gt;%s&lt;/b&gt; regler kan passe inni det.&lt;br&gt;Husk, dette er bare et estimat og Blokada bruker det mest minnet når det fletter listene. Hvis du aktiverte noen av dem nylig, vent noen minutter til systemet frigjør minnet.</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">Tillat</string>
     <!-- Button to allow blocked cname -->
-    <string name="slot_action_allow_cname">Allow CName</string>
+    <string name="slot_action_allow_cname">Tillat navn</string>
     <!-- Button to allow blocked domain that was blocked by a cname -->
     <string name="slot_action_allow_domain">Tillat domene</string>
     <!-- Button to block allowed domain -->
@@ -53,9 +53,9 @@
     <!-- A state for switches (like notifications: off) -->
     <string name="slot_switch_off">Nei</string>
     <!-- An action to toggle a switch -->
-    <string name="slot_intro_new">How to use the new UI? Tap here for intro.</string>
+    <string name="slot_intro_new">Hvordan bruke den nye brukergrensesnittet? Trykk her for å intro.</string>
     <string name="slot_intro_new_header">Hvordan bruke den nye brukergrensesnittet?</string>
-    <string name="slot_intro_desc">You are currently in the Home section, there is more if you swipe right. Each of them has its own bottom menu - open it by swiping up. &lt;br/&gt;&lt;br/&gt;On Android TV, navigate the UI with the dpad. Use the center key to open the bottom menu, or any item you select. Buttons are marked with the up, down, left or right arrow - use the direction keys to click them.</string>
+    <string name="slot_intro_desc">Du er for tiden i Hjem-seksjonen, det er mer om du sveiper til høyre. Hver av dem har sin egen bunnmeny - åpne den ved å dra opp. &lt;br/&gt;&lt;br/&gt;på Android TV navigerer i grensesnittet med dvale. Bruk senternøkkelen til å åpne bunnmenyen eller en gjenstand du har valgt. Knappene er markert med oppover, nedover, venstre eller høyre pil - bruk retningstastene for å klikke på dem.</string>
     <string name="slot_intro_info">Psst... Noen elementer har spørsmålstegnikonet på dem. Hvis du trykker på den, vises en kort hjelpemelding, som denne!</string>
     <string name="slot_new_filter">Legg til en ny vert i blokkeringslisten</string>
     <string name="slot_new_filter_list">Legg til en ny vertsliste</string>
@@ -71,27 +71,27 @@
     <string name="slot_enter_domain_desc">Angi domener atskilt med komma. Du kan også lime inn en kobling til hvilken som helst vertsliste, eller importere en lokal vertslistefil.</string>
     <string name="slot_enter_domain_error">Dette ser ikke ut som noe for meg.</string>
     <string name="slot_enter_domain_file">Fil</string>
-    <string name="slot_enter_domain_no_file">No files found in /Download/blokada/filters</string>
+    <string name="slot_enter_domain_no_file">Ingen filer funnet i /Download/blokada/filters</string>
     <string name="slot_enter_file_titel">Filnavn</string>
     <string name="slot_enter_file_import">Importer</string>
-    <string name="slot_enter_file_desc">Input partial filename</string>
-    <string name="slot_enter_file_not_found">No filename containing your input</string>
-    <string name="slot_enter_file_multi">Multiple files match your input</string>
+    <string name="slot_enter_file_desc">Input delvis filnavn</string>
+    <string name="slot_enter_file_not_found">Ingen filnavn som inneholder inndataene ditt</string>
+    <string name="slot_enter_file_multi">Flere filer samsvarer med ditt inndata</string>
     <string name="slot_enter_name_title">Navn</string>
     <string name="slot_enter_name_desc">Angi navn for den nye oppføringen. Du kan også generere et foreslått navn.</string>
     <string name="slot_enter_name_error">Dette ser ikke ut som noe for meg.</string>
     <string name="slot_enter_name_generate">Generer</string>
     <string name="slot_app_label">&lt;b&gt;%s&lt;/b&gt; er hvitelistet</string>
     <string name="slot_app_desc">Denne appen er hvitelistet, noe som betyr at det ikke utføres noen blokkering eller filtrering på den.</string>
-    <string name="slot_allapp_desc">You can make this app bypass Blokada in order to stop blocking any traffic for it. Remember, bypassed apps communicate outside of the VPN.</string>
+    <string name="slot_allapp_desc">Du kan gjøre denne appen omgå Blokada for å stoppe å blokkere all trafikk for den. Husk, forbigåede apper kommuniserer utenfor VPN.</string>
     <string name="slot_allapp_whitelisted">Forbipassert</string>
     <string name="slot_allapp_normal">Ikke forbipassert</string>
     <string name="slot_allapp_whitelist">Forbipasser</string>
     <string name="slot_action_set">Sett</string>
     <string name="slot_whitelist_all">Hopp over alle apper</string>
-    <string name="slot_blacklist_all">Do not bypass any apps</string>
+    <string name="slot_blacklist_all">Ikke bypass noen apper</string>
     <string name="slot_dns_name">DNS er aktiv</string>
-    <string name="slot_dns_name_private">Custom DNS is active</string>
+    <string name="slot_dns_name_private">Tilpasset DNS er aktiv</string>
     <string name="slot_dns_name_disabled">DNS er deaktivert</string>
     <string name="slot_action_none">Denne handlingen er ikke tilgjengelig ennå.</string>
     <string name="slot_action_unwhitelist">Avbryt</string>
@@ -101,30 +101,30 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">En oppføring for %s</string>
     <string name="slot_dns_control_title">DNS-tjenerliste</string>
-    <string name="slot_dns_control_description">You can sync the DNS servers list with our servers without losing your custom entries. &lt;br/&gt;&lt;br/&gt;Alternatively, you can drop all entries (including yours), and download them again.</string>
+    <string name="slot_dns_control_description">Du kan synkronisere DNS-serverlisten med våre servere uten å miste dine egendefinerte oppføringer. &lt;br/&gt;&lt;br/&gt;Alternativt kan du slippe alle oppføringer (inkludert dvene), og laste dem ned på nytt.</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">Synkroniser</string>
-    <string name="slot_action_refresh_toast">Sync started</string>
+    <string name="slot_action_refresh_toast">Synkronisering startet</string>
     <string name="slot_action_restore">Slipp</string>
     <string name="slot_export_title">Innstillingsplassering</string>
-    <string name="slot_export_description">You can change where the configuration is saved to (and loaded from). If you are importing existing settings, please select Import first, otherwise they will be overwritten.</string>
+    <string name="slot_export_description">Du kan endre hvor konfigurasjonen blir lagret i (og lastet fra). Hvis du importerer eksisterende innstillinger, vennligst velg Importer først, ellers vil de bli overskrevet.</string>
     <string name="slot_action_import">Importer</string>
     <string name="slot_action_internal">Intern lagring</string>
     <string name="slot_action_external">Ekstern lagring</string>
     <string name="slot_filters_title">Filterlistesynk</string>
-    <string name="slot_filters_description">You can sync the filters list with our servers without losing your custom entries. &lt;br/&gt;&lt;br/&gt;Alternatively, you can drop all entries (including yours), and download them again.</string>
-    <string name="slot_blocked_normal_title">Domain blocked</string>
-    <string name="slot_blocked_answer_title">Domain not resolved</string>
-    <string name="slot_blocked_cname_title">CName blocked</string>
-    <string name="slot_forwarded_title">Domain forwarded</string>
-    <string name="slot_whitelist_title">Whitelisted app</string>
-    <string name="slot_list_no_desc">This entry does not have any description.</string>
-    <string name="slot_status_info">When the app is Active, you will see the key icon in the notification bar at the top of the screen, which means your device is protected. You can turn the app off using the button below, or by swiping down the bottom menu.</string>
+    <string name="slot_filters_description">Du kan synkronisere filterlisten med våre servere uten å miste dine egendefinerte oppføringer. &lt;br/&gt;&lt;br/&gt;Alternativt kan du slippe alle oppføringer (inkludert dvene), og laste dem ned på nytt.</string>
+    <string name="slot_blocked_normal_title">Domene blokkert</string>
+    <string name="slot_blocked_answer_title">Domene ikke løst</string>
+    <string name="slot_blocked_cname_title">Blokkert navn</string>
+    <string name="slot_forwarded_title">Domene videresendt</string>
+    <string name="slot_whitelist_title">Hvitelistet app</string>
+    <string name="slot_list_no_desc">Denne oppføringen har ingen beskrivelse.</string>
+    <string name="slot_status_info">Når appen er aktiv, vil du se nøkkelikonet i varslingslinjen øverst på skjermen, hvilket betyr at enheten er beskyttet. Ved å bruke knappen nedenfor kan du slå av appen, eller ved å dra ned Bunn-menyen.</string>
     <string name="slot_action_deactivate">Slå av</string>
     <string name="slot_action_activate">Slå på</string>
     <string name="slot_update_action_refresh">Sjekk igjen</string>
     <string name="slot_telegram_title">Bli med oss!</string>
-    <string name="slot_telegram_desc">Visit our community for help or just to be part of it.</string>
+    <string name="slot_telegram_desc">Besøk samfunnet vårt for hjelp eller bare for å være en del av det.</string>
     <string name="slot_telegram_action">Åpne</string>
     <string name="slot_dropped_share_title">Del til</string>
     <string name="slot_adblocking_label">Blokker annonser &amp; sporere</string>
@@ -140,43 +140,43 @@
     <string name="slot_account_action_unavailable">[ikke valgt]</string>
     <!-- A slot to connect to given gateway. Example: Connect to Stockholm. -->
     <string name="slot_gateway_label">Koble til %s</string>
-    <string name="slot_gateway_section_partner">Partner gateways provide additional locations. They are not fully managed by Blokada, but they do not have access to your encrypted traffic.</string>
-    <string name="slot_gateway_section_overloaded">Those gateways are overloaded and temporarily unavailable.</string>
-    <string name="slot_gateway_description">Performance: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_gateway_overloaded">This gateway is busy and does not accept new connections.</string>
-    <string name="slot_gateway_learn_more">Learn more about gateways</string>
-    <string name="slot_gateway_info_partner">What are partner gateways?</string>
+    <string name="slot_gateway_section_partner">Partner gateways gir flere steder. De administreres ikke fullt ut av Blokada, men de har ikke tilgang til din krypterte trafikk.</string>
+    <string name="slot_gateway_section_overloaded">Disse gateways blir overbelastet og midlertidig utilgjengelig.</string>
+    <string name="slot_gateway_description">Ytelse: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;IP: &lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;Region: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_gateway_overloaded">Denne gateway er opptatt og aksepterer ikke nye tilkoblinger.</string>
+    <string name="slot_gateway_learn_more">Lær mer om gateways</string>
+    <string name="slot_gateway_info_partner">Hva er partner-gateways?</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Control which of your devices connect to Blokada Plus.</string>
+    <string name="slot_leases_info">Kontroller hvilke av enhetene dine som kobler til Blokada Plus.</string>
     <string name="slot_lease_name_current">%s (denne enheten)</string>
-    <string name="slot_lease_description">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_lease_description_current">Device ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;This is your current device.</string>
+    <string name="slot_lease_description">Enhets-ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">Enhets-ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Dette er din nåværende enhet.</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">høy</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">lav</string>
-    <string name="subscription_success">Your account is being activated. This may take a few seconds. Thank you!</string>
-    <string name="slot_start_on_boot_description">Enabling start on boot allows Blokada to be active at all times and protect your device. Please note the system always has higher priority and can overwrite this option, thus, if Blokada doesn\'t start up, take a look in your system\'s settings.</string>
+    <string name="subscription_success">Kontoen din blir aktivert. Dette kan ta noen sekunder. Takk!</string>
+    <string name="slot_start_on_boot_description">Aktivering av start ved oppstart tillater Blokada å være aktiv til enhver tid og beskytte enheten. Merk at systemet har høyere prioritet og kan overskrive dette alternativet, Hvis Blokada ikke starter opp, ta derfor en titt i innstillingene til systemet.</string>
     <string name="slot_recommended_dns_label">Bruk anbefalte DNS servere</string>
-    <string name="slot_recommended_dns_description">When enabled, Blokada will automatically choose recommended DNS servers to help speed up your Internet and protect your privacy. Otherwise, default DNS servers of your network are used. If you manually choose DNS servers in the Advanced section, this setting is ignored.</string>
+    <string name="slot_recommended_dns_description">Når dette er aktivert, vil Blokada automatisk velge anbefalte DNS-servere som kan hjelpe til å øke internettet ditt og beskytte personvernet ditt. Ellers brukes standard DNS-servere til nettverket ditt. Hvis du manuelt velger DNS-servere i Avansert avsnitt, ignoreres denne innstillingene.</string>
     <string name="slot_update_no_updates">Blokada er oppdatert</string>
     <string name="slot_about">Om Blokada</string>
     <!-- A button to share debug log. Keep it short. -->
     <string name="slot_about_share_log">Logg</string>
     <string name="slot_help_label">Trenger du hjelp?</string>
-    <string name="slot_help_desc">Tap the button below to open our help page. You can also use our social media to get help - we are on Telegram, Facebook, Reddit and Twitter.</string>
+    <string name="slot_help_desc">Trykk på knappen nedenfor for å åpne hjelpesiden. Du kan også bruke sosiale medier for å få hjelp - vi er på Telegram, Facebook, Reddit og Twitter.</string>
     <!-- A button to open help -->
     <string name="slot_help_action">Hjelp</string>
-    <string name="slot_donate_label">Enjoying Blokada? Consider supporting us, so we can keep improving the app.</string>
-    <string name="slot_donate_desc">Help us introduce new features! Touch here for more.</string>
+    <string name="slot_donate_label">Liker vi Blokada? Vurder å støtte oss, så vi kan fortsette å forbedre appen.</string>
+    <string name="slot_donate_desc">Hjelp oss å introdusere nye funksjoner! Trykk her for flere.</string>
     <!-- A button to donate -->
     <string name="slot_donate_action">Doner</string>
     <string name="slot_cta_label">Psst! Vi vil gjerne vite din mening.</string>
-    <string name="slot_cta_desc">Show your support by participating in our surveys and other events. We regularly reach out to our community for feedback about ideas and new development, in order to make sure we are working on what you want to see.</string>
+    <string name="slot_cta_desc">Vis din støtte ved å delta på våre undersøkelser og andre hendelser. Vi møter jevnlig ut til fellesskapet for tilbakemeldinger om ideer og ny utvikling. for å sikre at vi jobber med hva du vil se.</string>
     <!-- A button to open something (a website) -->
     <string name="slot_cta_action">Åpne</string>
     <string name="slot_blog_label">Sjekk ut vår utviklingsblogg!</string>
-    <string name="slot_blog_desc">The Block is where we write about the development of the project, future plans, and discuss ideas.</string>
+    <string name="slot_blog_desc">Blokken er der vi skriver om utviklingen av prosjektet, fremtidige planer og diskuterer ideer.</string>
     <!-- A button to open a blog -->
     <string name="slot_blog_action">Åpne</string>
     <string name="slot_updated_desc">Trykk her for introduksjonen til denne utgivelsen.</string>
@@ -184,13 +184,13 @@
     <string name="slot_obsolete_desc">Din versjon av Blokada er foreldet og kan ikke fungere riktig. Vennligst last ned den nyeste versjonen for å fortsette å motta oppdateringer.</string>
     <!-- A button to update the app. -->
     <string name="slot_cleanup_desc">Det ser ut til at mange versjoner av Blokada er installert på enheten din. Vil du fjerne de andre versjonene og bare beholde en?</string>
-    <string name="account_inactive">Please activate or restore your account to continue.</string>
-    <string name="slot_lease_cant_connect">Could not connect to Blokada Plus. Try selecting another gateway.</string>
-    <string name="slot_account_cant_create">Could not create your Blokada Plus account. Please try again later or contact us.</string>
+    <string name="account_inactive">Vennligst aktiver eller gjenopprette kontoen din for å fortsette.</string>
+    <string name="slot_lease_cant_connect">Kan ikke koble til Blokada Plus. Prøv å velge et annet gateway.</string>
+    <string name="slot_account_cant_create">Kan ikke opprette din Blokada Plus konto. Vennligst prøv igjen senere eller kontakt oss.</string>
     <string name="slot_account_name_title">Konto-ID</string>
-    <string name="slot_account_name_desc">Enter your old account ID in order to restore your previous subscription. You may want to write down your current account ID before doing it, in case you make a mistake.</string>
-    <string name="slot_account_name_error">Account ID can only contain letters and numbers.</string>
-    <string name="slot_account_name_api_error">This account ID does not seem to be correct.</string>
+    <string name="slot_account_name_desc">Skriv inn din gamle konto-ID for å gjenopprette ditt tidligere abonnement. Du kan ønske å skrive ned din gjeldende konto-ID før du gjør det, i tilfelle du foretar en feil.</string>
+    <string name="slot_account_name_error">Konto-ID kan bare inneholde bokstaver og tall.</string>
+    <string name="slot_account_name_api_error">Denne konto-IDen ser ikke ut til å være riktig.</string>
     <string name="slot_account_name_restore">Gjenopprett</string>
     <!-- A section in advanced settings. -->
     <string name="label_basic">Hovedinnstillinger</string>
@@ -199,13 +199,13 @@
     <!-- A section in advanced settings. -->
     <string name="label_advanced">Avanserte innstillinger</string>
     <string name="slot_whitelist_updating">Oppdaterer konfigurasjon, vennligst vent...</string>
-    <string name="slot_too_many_leases">Please remove old device from your list of devices.</string>
+    <string name="slot_too_many_leases">Vennligst fjern den gamle enheten fra listen over enheter.</string>
     <string name="slot_background_animation">Bakgrunnsanimasjon</string>
     <string name="slot_background_animation_description">Når på, vil bølger animere hver gang en DNS-forespørsel er blokkert eller tillatt. Slå av hvis du opplever nedbremsing.</string>
     <string name="slot_reset_counter_label">Nullstill tellingen for blokkerte verter</string>
-    <string name="slot_reset_counter_description">Sets the counter showing how many requests where blocked back to 0.</string>
+    <string name="slot_reset_counter_description">Angir telleren som viser hvor mange forespørsler som er blokkert tilbake til 0.</string>
     <string name="slot_reset_counter_action">Tilbakestill</string>
-    <string name="label_workarounds">Device-specific workarounds</string>
-    <string name="slot_dns_answer_label">Alternative DNS answer</string>
-    <string name="slot_dns_answer_description">Changes the answer Blokada sends for blocked requests from \"host not found\" to an invalid ip. This can help on some ROMs which query other DNS servers if they get a \"host not found\" answer. Please note that this might slow down some apps which try to connect to the invalid address.</string>
+    <string name="label_workarounds">Enhetespesifikke lyder</string>
+    <string name="slot_dns_answer_label">Alternativt DNS-svar</string>
+    <string name="slot_dns_answer_description">Endrer svaret Blokada sender for blokkerte forespørsler fra \"vert ikke funnet\" til en ugyldig ip. Dette kan hjelpe noen ROMs hvilke spørre andre DNS-servere hvis de får svar fra \"vert ikke funnet\". Vær oppmerksom på at dette kan gjøre enkelte apper tregere som prøver å koble til den ugyldige adressen.</string>
 </resources>
