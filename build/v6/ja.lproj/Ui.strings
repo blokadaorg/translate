@@ -26,12 +26,12 @@
 "error payment inactive after restore" = "以前のお支払いは復元されましたが、サブスクリプションの有効期限が終了しています。これが間違いであると思われる場合は、ヘルプからご連絡ください。";
 "error payment failed" = "現在、お支払いいただくことができません。インターネット接続を確認の上、時間を置いてもう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
 "error payment failed alternative" = "お支払いを完了できませんでした。入力内容を確認の上、もう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
-"error payment not available" = "このデバイスではお支払いはご利用いただけません。デバイスがアップデートされていないか、お住まいの国からのお支払いに対応していません。";
+"error payment not available" = "この端末ではお支払いはご利用いただけません。デバイスがアップデートされていないか、お住まいの国からのお支払いに対応していません。";
 "error payment canceled" = "お支払いがキャンセルされました。入金されていません。";
 "error pack install" = "この機能をインストール（またはアンインストール）できませんでした。後でもう一度お試しください。";
 "error location failed fetching" = "接続先を取得できませんでした。";
 "error unknown" = "問題が発生しました。インターネット接続を確認の上、時間を置いてもう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
-"error multiple apps" = "デバイスに Blokada の複数のバージョンがインストールされているようです。接続の問題が発生する可能性があります。修正しますか？";
+"error multiple apps" = "端末に Blokada の複数のバージョンがインストールされているようです。接続の問題が発生する可能性があります。修正しますか？";
 
 "conn isssues header" = "接続エラー";
 "conn isssues slug" = "接続に問題があります。設定を確認してください。タップして詳細を表示します。";
@@ -85,7 +85,7 @@
 "universal label count" = "回数";
 // Common label in tables for the Type column. Think "type of item".
 "universal label type" = "タイプ";
-"universal label device" = "デバイス";
+"universal label device" = "端末";
 
 "universal status processing" = "処理中です... しばらくお待ちください";
 "universal status copied to clipboard" = "クリップボードにコピーしました";
@@ -226,8 +226,8 @@
 "activity filter show allowed" = "許可されたリクエスト";
 // A short message "Showing for: Device A"
 "activity filter showing for" = "表示: %@";
-"activity empty text" = "デバイスを使用してみて、後でここに戻って、デバイスの接続先を確認してください。";
-"activity device filter show all" = "すべてのデバイス";
+"activity empty text" = "端末を使用してみて、後でここに戻って、端末の接続先を確認してください。";
+"activity device filter show all" = "すべての端末";
 "activity retention header" = "アクティビティを保存しますか？";
 "activity retention option none" = "アクティビティを保存しない";
 "activity retention option 24h" = "はい、アクティビティを保存します";
@@ -256,8 +256,8 @@
 "account section header other" = "その他";
 "account action my account" = "アカウント情報";
 "account action encryption" = "暗号化と DNS";
-"account action devices" = "デバイス管理";
-"account action new device" = "新しいデバイス";
+"account action devices" = "端末管理";
+"account action new device" = "新しい端末";
 "account action inbox" = "受信トレイ";
 "account action logout" = "購入を復元";
 "account action logout only" = "ログアウト";
@@ -327,19 +327,19 @@
 "payment feature title encrypt dns" = "DNS を暗号化";
 "payment feature desc encrypt dns" = "DNS 暗号化でプライバシーを保護しましょう。Blokada Cloud は最新のプロトコルを使用してトラフィックをプライベートに保ちます。";
 "payment feature title performance" = "最適なパフォーマンス";
-"payment feature desc performance" = "新しいクラウドソリューションで、デバイスやインターネット接続の速度を快適に保ちます。";
+"payment feature desc performance" = "新しいクラウドソリューションで、端末やインターネット接続の速度を快適に保ちます。";
 "payment feature title battery" = "バッテリー持ちへの影響なし";
-"payment feature desc battery" = "デバイスのバッテリーの消費量が増加することはありません。Blokada Cloud でさらに削減できる可能性があります。";
-"payment feature title devices cloud" = "複数デバイス";
-"payment feature desc devices cloud" = "モバイルアプリまたはウェブアプリからすべてのデバイスを 1 か所で集中管理します。";
+"payment feature desc battery" = "端末のバッテリーの消費量が増加することはありません。Blokada Cloud でさらに削減できる可能性があります。";
+"payment feature title devices cloud" = "複数端末";
+"payment feature desc devices cloud" = "モバイルアプリまたはウェブアプリからすべての端末を 1 か所で集中管理します。";
 "payment feature title cloud vpn" = "Cloud と VPN";
 "payment feature desc cloud vpn" = "Blokada Cloud のすべての利点に加えて、グローバル VPN ネットワークにアクセスできます。";
 "payment feature title faster connection" = "より高速な接続";
 "payment feature desc faster connection" = "世界のさまざまな地域のサーバーで最高 100Mbps のスピードを実現します。";
-"payment feature title devices" = "最大 5 台のデバイス";
-"payment feature desc devices" = "1 つのアカウントで最大 5 つのデバイス（iOS、Android、PC）を使用できます。";
+"payment feature title devices" = "最大 5 台の端末";
+"payment feature desc devices" = "1 つのアカウントで最大 5 つの端末 (iOS、Android、PC) を使用できます。";
 "payment feature title no ads" = "広告ブロック";
-"payment feature desc no ads" = "Blokada の広告ブロック技術を使用して、デバイス上の広告をブロックします。高度な設定が可能です。";
+"payment feature desc no ads" = "Blokada の広告ブロック技術を使用して、端末の広告をブロックします。高度な設定が可能です。";
 "payment feature title support" = "丁寧なサポート";
 "payment feature desc support" = "カスタマーサポートとオープンソースコミュニティにより、質問に迅速に対応します。";
 "payment action see all features" = "すべての機能を見る";
@@ -360,7 +360,7 @@
 "payment subscription offer" = "%@ 引き";
 
 "payment success label" = "ありがとうございます！";
-"payment success desc" = "アカウントが有効になりました！ すべてのデバイスで Blokada Plus 機能を使用できます。";
+"payment success desc" = "アカウントが有効になりました！ すべての端末で Blokada Plus 機能を使用できます。";
 
 "payment redirect label" = "リダイレクトしています...";
 "payment redirect desc" = "少し時間がかかります
@@ -496,11 +496,11 @@
 "universal action disable" = "無効にする";
 
 "lock action slide unlock" = "スライドしてロック解除";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock status too many attempts" = "間違えた回数が上限に到達しました。後でもう一度お試しください";
+"lock status enter to confirm" = "もう一度 PIN コードを入力して、確認します";
+"lock status enter or wait" = "新しい PIN コードを入力するま、ロックをお待ちください...";
 
-"family label this device" = "This device (%@)";
+"family label this device" = "この端末 (%@)";
 "family onboard header" = "Welcome to Blokada Family!";
 "family onboard body" = "Follow the instructions on screen to set up your first device.";
 
