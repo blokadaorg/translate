@@ -489,59 +489,59 @@
 "lock status unlocked has pin" = "Введите пин-код, чтобы изменить это";
 "lock status unlocked" = "Установите PIN-код для блокировки Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada неожиданно прекратила работу, и мы приносим извинения за причиненные неудобства. Передав нам файл журнала, вы тем самым улучшите впечатления всех пользователей. Пожалуйста, помогите нам оперативно выявить и устранить эту проблему.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Ожидание данных";
+"universal action disable" = "Отключено";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Проведите для разблокировки";
+"lock status too many attempts" = "Слишком много неправильных попыток. Повторите позже";
+"lock status enter to confirm" = "Для подтверждения введите пин-код еще раз";
+"lock status enter or wait" = "Введите новый пин-код или дождитесь блокировки...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "Это устройство (%@)";
+"family onboard header" = "Добро пожаловать в Blokada Family!";
+"family onboard body" = "Следуйте инструкциям на экране, чтобы настроить ваше первое устройство.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Активировать";
+"family cta action add device" = "Добавить устройство";
+"family cta action finish setup" = "Завершить настройку";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Всем привет!";
+"family status fresh body" = "Для продолжения активируйте или восстановите свой аккаунт";
+"family status ready header" = "Приложение готово!";
+"family status ready body" = "Добавьте ваше первое устройство прямо сейчас";
+"family status perms header" = "Почти готово!";
+"family status perms body" = "Предоставьте необходимые разрешения";
+"family status expired header" = "Срок действия аккаунта истек";
+"family status expired body" = "Для продолжения активируйте ваш аккаунт";
+"family status linked header" = "Приложение подключено!";
+"family status locked header" = "Приложение заблокировано";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Защитите всю семью с помощью одной подписки. Контролируйте и защищайте все семейные устройства от нежелательного контента.";
+"family payment features devices header" = "Мониторинг устройств семьи";
+"family payment features devices body" = "Управляйте и контролируйте все свои устройства с помощью одного приложения. Управляйте доступом и фильтруйте контент прямо с устройства.";
+"family payment features performance body" = "Поддерживайте быстрое и гибкое управление устройством, обеспечивая максимальную скорость интернет-соединения, и все это благодаря нашей проверенной технологии.";
+"family payment features dns body" = "Повысьте уровень конфиденциальности на всех ваших устройствах с помощью шифрования DNS. Blokada использует самые современные протоколы, чтобы обеспечить конфиденциальность вашего интернет-трафика.";
+"family payment features battery body" = "Активация Blokada не разрядит батарею. Более того, она может помочь продлить время ее работы, блокируя ненужную фоновую активность.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
-"family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account attach header" = "Прикрепить устройство";
+"family account attach body" = "Чтобы связать это устройство с родительским, завершите процесс настройки. После привязки устройство будет заблокировано, что позволит вам настраивать и контролировать его с родительского устройства.";
+"family account qr header" = "Сканировать QR-код";
+"family account qr body" = "Сосканируйте QR-код с родительского устройства, чтобы начать процесс привязки.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Сканировать";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Привязать устройство";
+"family account link name" = "Задать имя устройства";
+"family account link qr header" = "Сосканировать этот QR-код";
+"family account link qr body" = "Этот экран закроется автоматически после обнаружения нового устройства.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
+"family account decide header" = "Добавить устройство";
+"family account decide link header" = "Привязать устройство";
+"family account decide link body" = "В Blokada вы просто сканируете QR-код, чтобы связать и управлять другим устройством.";
+"family account decide this header" = "Использовать это устройство";
 "family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
 
 "family shields header" = "Activate shields to block access to selected content on your supervised devices.";
