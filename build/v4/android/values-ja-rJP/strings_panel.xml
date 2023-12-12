@@ -85,7 +85,7 @@
     <string name="slot_app_desc">このアプリはホワイトリストに登録されているため、ブロックやフィルタリングは実行されません。</string>
     <string name="slot_allapp_desc">このアプリが Blokada をバイパスして、トラフィックのブロックを受けないように設定できます。バイパスされたアプリは VPN 外で通信することにご注意ください。</string>
     <string name="slot_allapp_whitelisted">バイパス済み</string>
-    <string name="slot_allapp_normal">未バイパス（デフォルト）</string>
+    <string name="slot_allapp_normal">未バイパス (デフォルト)</string>
     <string name="slot_allapp_whitelist">バイパス</string>
     <string name="slot_action_set">設定</string>
     <string name="slot_whitelist_all">すべてのアプリをバイパスする</string>
@@ -101,18 +101,18 @@
     <!-- A prefix for generated name for manually entered domain. "an entry for example.com"  -->
     <string name="slot_input_suggestion_for">%s のエントリ</string>
     <string name="slot_dns_control_title">DNS サーバーリスト</string>
-    <string name="slot_dns_control_description">カスタム DNS を消去することなくサーバーと同期できます。&lt;br/&gt;&lt;br/&gt;ドロップを選択すると、（カスタムしたものを含む）すべての DNS を削除して、もう一度ダウンロードします。</string>
+    <string name="slot_dns_control_description">カスタム DNS を消去することなくサーバーと同期できます。&lt;br/&gt;&lt;br/&gt;ドロップを選択すると、(カスタムしたものを含む) すべての DNS を削除して、もう一度ダウンロードします。</string>
     <!-- A button to synchronize (fetch) lists  -->
     <string name="slot_action_refresh">同期</string>
     <string name="slot_action_refresh_toast">同期を開始</string>
     <string name="slot_action_restore">ドロップ</string>
     <string name="slot_export_title">場所を設定</string>
-    <string name="slot_export_description">構成が保存される場所を変更することができます。（そして、そこからロードされます）既存の設定をインポートする場合は、先にインポートを選択してください。そうでない場合は上書きされます。</string>
+    <string name="slot_export_description">構成が保存される場所を変更することができます。(そして、そこからロードされます) 既存の設定をインポートする場合は、先にインポートを選択してください。そうでない場合は上書きされます。</string>
     <string name="slot_action_import">インポート</string>
     <string name="slot_action_internal">アプリ内</string>
     <string name="slot_action_external">外部ストレージ</string>
     <string name="slot_filters_title">フィルターリスト</string>
-    <string name="slot_filters_description">カスタムフィルターを失うことなく、フィルターリストをサーバーと同期できます。&lt;br/&gt;&lt;br/&gt;ドロップを選択すると、（カスタムしたものを含む）すべてのリストを削除して、もう一度ダウンロードします。</string>
+    <string name="slot_filters_description">カスタムフィルターを失うことなく、フィルターリストをサーバーと同期できます。&lt;br/&gt;&lt;br/&gt;ドロップを選択すると、(カスタムしたものを含む) すべてのリストを削除して、もう一度ダウンロードします。</string>
     <string name="slot_blocked_normal_title">ドメインがブロックされました</string>
     <string name="slot_blocked_answer_title">ドメインが解決されていません</string>
     <string name="slot_blocked_cname_title">CName がブロックされました</string>
@@ -148,7 +148,7 @@
     <string name="slot_gateway_info_partner">パートナーゲートウェイとは何ですか？</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
     <string name="slot_leases_info">Blokada Plus に接続する端末をコントロールします。</string>
-    <string name="slot_lease_name_current">%s（この端末）</string>
+    <string name="slot_lease_name_current">%s (この端末)</string>
     <string name="slot_lease_description">端末 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
     <string name="slot_lease_description_current">端末 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; これは現在の端末です。</string>
     <!-- Gateway load -->
@@ -201,7 +201,7 @@
     <string name="label_advanced">詳細設定</string>
     <string name="slot_whitelist_updating">設定を更新しています
 しばらくお待ちください...</string>
-    <string name="slot_too_many_leases">端末リストから古いデバイスを削除してください。</string>
+    <string name="slot_too_many_leases">端末リストから古い端末を削除してください。</string>
     <string name="slot_background_animation">バックグラウンドアニメーション</string>
     <string name="slot_background_animation_description">ON の場合、DNS リクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。端末の動作に遅延が発生した場合は OFF にしてください。</string>
     <string name="slot_reset_counter_label">カウンターをリセット</string>
