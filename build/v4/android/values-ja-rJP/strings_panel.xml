@@ -36,7 +36,7 @@
     <!-- How many rules are configured. Parameters is number of rules. -->
     <string name="panel_ruleset_title">%s 個のルールを使用</string>
     <string name="panel_ruleset_updating">フィルターを更新しています...</string>
-    <string name="panel_ruleset_canfit">フィルターは &lt;b&gt;%s&lt;/b&gt; のルールで構成されています。お使いのデバイスでは、すべてのアプリケーションで最大 &lt;b&gt;%s&lt;/b&gt; MB のメモリが許可されており、最大 &lt;b&gt;%s&lt;/b&gt; のルールをデバイスに適用できます。&lt;br&gt;これは単なる推定値であり、Blokada は複数のフィルターを併用するとより多くのメモリを使用します。新しいフィルターを有効にすると、処理に時間がかかる場合があります。</string>
+    <string name="panel_ruleset_canfit">フィルターは &lt;b&gt;%s&lt;/b&gt; のルールで構成されています。お使いの端末では、すべてのアプリケーションで最大 &lt;b&gt;%s&lt;/b&gt; MB のメモリが許可されており、最大 &lt;b&gt;%s&lt;/b&gt; のルールを端末に適用できます。&lt;br&gt;これは単なる推定値であり、Blokada は複数のフィルターを併用するとより多くのメモリを使用します。新しいフィルターを有効にすると、処理に時間がかかる場合があります。</string>
     <!-- Button to allow blocked domain -->
     <string name="slot_action_allow">許可</string>
     <!-- Button to allow blocked cname -->
@@ -119,7 +119,7 @@
     <string name="slot_forwarded_title">ドメイン転送済み</string>
     <string name="slot_whitelist_title">ホワイトリストに登録したアプリ</string>
     <string name="slot_list_no_desc">このエントリには説明がありません。</string>
-    <string name="slot_status_info">アプリが動作している場合、通知バーにキーアイコンが表示されデバイスは保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリを OFF にできます。</string>
+    <string name="slot_status_info">アプリが動作している場合、通知バーにキーアイコンが表示され端末は保護されていることを表します。下のボタンを押すか、下のメニューをスワイプしてアプリを OFF にできます。</string>
     <string name="slot_action_deactivate">OFF</string>
     <string name="slot_action_activate">ON</string>
     <string name="slot_update_action_refresh">もう一度確認</string>
@@ -128,7 +128,7 @@
     <string name="slot_telegram_action">開く</string>
     <string name="slot_dropped_share_title">共有:</string>
     <string name="slot_adblocking_label">広告 &amp; トラッカーをブロック</string>
-    <string name="slot_adblocking_text">有効にすると、Blokada は広告、トラッカー、その他の不要なコンテンツをブロックします。これにより、プライバシーを保護し、デバイスをスピードアップし、データ使用を削減できます。</string>
+    <string name="slot_adblocking_text">有効にすると、Blokada は広告、トラッカー、その他の不要なコンテンツをブロックします。これにより、プライバシーを保護し、端末をスピードアップし、データ使用を削減できます。</string>
     <string name="slot_account_label_active">アカウントの有効期限は %s です</string>
     <string name="slot_account_label_inactive">アクティブでないアカウント</string>
     <!-- Action to manage active subscription. Keep it short -->
@@ -147,16 +147,16 @@
     <string name="slot_gateway_learn_more">ゲートウェイについての詳細</string>
     <string name="slot_gateway_info_partner">パートナーゲートウェイとは何ですか？</string>
     <!-- Leases are devices connected to VPN. There might be multiple devices. -->
-    <string name="slot_leases_info">Blokada Plus に接続するデバイスをコントロールします。</string>
-    <string name="slot_lease_name_current">%s（このデバイス）</string>
-    <string name="slot_lease_description">デバイス ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="slot_lease_description_current">デバイス ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; これは現在のデバイスです。</string>
+    <string name="slot_leases_info">Blokada Plus に接続する端末をコントロールします。</string>
+    <string name="slot_lease_name_current">%s（この端末）</string>
+    <string name="slot_lease_description">端末 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="slot_lease_description_current">端末 ID: &lt;br/&gt;&lt;b&gt;%s&lt;/b&gt;&lt;br/&gt;&lt;br/&gt; これは現在の端末です。</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_low">高</string>
     <!-- Gateway load -->
     <string name="slot_gateway_load_high">低</string>
     <string name="subscription_success">ご購入ありがとうございます。アカウントをアクティベートしています。もうしばらくお待ちください。</string>
-    <string name="slot_start_on_boot_description">デバイス起動時に Blokada を開始すると、Blokada が常にアクティブになり、デバイスを保護できます。システムは常に優先度が高く、このオプションを上書きできることに注意してください。したがって、Blokada が起動しない場合は、システムの設定を確認してください。</string>
+    <string name="slot_start_on_boot_description">端末起動時に Blokada を開始すると、Blokada が常にアクティブになり、端末を保護できます。システムは常に優先度が高く、このオプションを上書きできることに注意してください。したがって、Blokada が起動しない場合は、システムの設定を確認してください。</string>
     <string name="slot_recommended_dns_label">おすすめの DNS サーバーを使用する</string>
     <string name="slot_recommended_dns_description">有効にすると、Blokada は自動的に推奨される DNS サーバーを選択し、通信速度を上げ、プライバシーを保護します。そうでない場合は、ネットワークのデフォルトの DNS サーバーが使用されます。セクションで DNS サーバーを選択した場合は、この設定は無視されます。</string>
     <string name="slot_update_no_updates">Blokada は最新です</string>
@@ -184,7 +184,7 @@
     <!-- A button to open a description website of current app version after update. -->
     <string name="slot_obsolete_desc">ご使用の Blokada のバージョンは最新ではないため、正しく機能しない可能性があります。最新バージョンをダウンロードして更新をインストールしてください。</string>
     <!-- A button to update the app. -->
-    <string name="slot_cleanup_desc">お使いのデバイスに Blokada の複数のバージョンがインストールされているようです。他のバージョンを削除しますか？</string>
+    <string name="slot_cleanup_desc">お使いの端末に Blokada の複数のバージョンがインストールされているようです。他のバージョンを削除しますか？</string>
     <string name="account_inactive">続行するにはアカウントをアクティベートまたは復元してください。</string>
     <string name="slot_lease_cant_connect">Blokada Plus に接続できませんでした。別のゲートウェイを選択してください。</string>
     <string name="slot_account_cant_create">Blokada Plus アカウントを作成できませんでした。後でもう一度お試しいただくか、お問い合わせください。</string>
@@ -201,13 +201,13 @@
     <string name="label_advanced">詳細設定</string>
     <string name="slot_whitelist_updating">設定を更新しています
 しばらくお待ちください...</string>
-    <string name="slot_too_many_leases">デバイスリストから古いデバイスを削除してください。</string>
+    <string name="slot_too_many_leases">端末リストから古いデバイスを削除してください。</string>
     <string name="slot_background_animation">バックグラウンドアニメーション</string>
-    <string name="slot_background_animation_description">ON の場合、DNS リクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。デバイスの動作に遅延が発生した場合は OFF にしてください。</string>
+    <string name="slot_background_animation_description">ON の場合、DNS リクエストがブロックまたは許可されるたびに波動アニメーションが表示されます。端末の動作に遅延が発生した場合は OFF にしてください。</string>
     <string name="slot_reset_counter_label">カウンターをリセット</string>
     <string name="slot_reset_counter_description">ブロックされたリクエストの数を示すカウンターを0に戻します。</string>
     <string name="slot_reset_counter_action">リセット</string>
-    <string name="label_workarounds">デバイス固有の回避策</string>
+    <string name="label_workarounds">端末固有の回避策</string>
     <string name="slot_dns_answer_label">DNS 代理応答</string>
     <string name="slot_dns_answer_description">この設定を有効にするとブロックされたリクエストへ Blokada が「ホストが見つかりません」と回答する代わりに無効な IP アドレスを回答します。デフォルトの回答をした場合、一部のアプリが他の DNS サーバーに繰り返しリクエストを送信して、不必要に RAM が使用される場合があります。この設定を有効にするとRAM は開放されますが、無効な IP アドレスでも接続しようとするアプリがあり、動作が遅くなる可能性があることにご注意ください。</string>
 </resources>
