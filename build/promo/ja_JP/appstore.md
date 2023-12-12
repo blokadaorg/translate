@@ -1,6 +1,6 @@
 これは、Blokada オープンソースプロジェクトの App Store の公式アプリです。
 
-Blokada for iOSは、DNS（Domain Name System）を使用して広告を取り除き、見たいコンテンツだけが表示されるブラウジングを可能にする無料アプリです。
+Blokada for iOSは、DNS (Domain Name System) を使用して広告を取り除き、見たいコンテンツだけが表示されるブラウジングを可能にする無料アプリです。
 
 また、オプションで組み込みの VPN を使用できます。 Blokada Plus VPN を使用すると、プライバシーが保護され、サイバー攻撃やハッキングのリスクを減少させることができます。
 
