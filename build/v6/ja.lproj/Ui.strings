@@ -26,7 +26,7 @@
 "error payment inactive after restore" = "以前のお支払いは復元されましたが、サブスクリプションの有効期限が終了しています。これが間違いであると思われる場合は、ヘルプからご連絡ください。";
 "error payment failed" = "現在、お支払いいただくことができません。インターネット接続を確認の上、時間を置いてもう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
 "error payment failed alternative" = "お支払いを完了できませんでした。入力内容を確認の上、もう一度お試しください。問題が解決しない場合は、ヘルプからご連絡ください。";
-"error payment not available" = "この端末ではお支払いはご利用いただけません。デバイスがアップデートされていないか、お住まいの国からのお支払いに対応していません。";
+"error payment not available" = "この端末ではお支払いはご利用いただけません。端末が最新ではないか、お住まいの国からのお支払いに対応していません。";
 "error payment canceled" = "お支払いがキャンセルされました。入金されていません。";
 "error pack install" = "この機能をインストール（またはアンインストール）できませんでした。後でもう一度お試しください。";
 "error location failed fetching" = "接続先を取得できませんでした。";
@@ -501,13 +501,13 @@
 "lock status enter or wait" = "新しい PIN コードを入力するま、ロックをお待ちください...";
 
 "family label this device" = "この端末 (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family onboard header" = "Blokada Family にようこそ！";
+"family onboard body" = "表示されるガイドに従って、最初の端末を設定しましょう。";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "有効にする";
+"family cta action add device" = "端末を追加";
+"family cta action finish setup" = "セットアップを終了";
 
 "family status fresh header" = "Hi there!";
 "family status fresh body" = "Activate or restore your account to continue";
