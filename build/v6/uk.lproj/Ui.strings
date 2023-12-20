@@ -32,7 +32,7 @@
 "error location failed fetching" = "Не вдається отримати місцезнаходження.";
 "error unknown" = "Сталася помилка. Переконайтесь, що ви онлайн, і спробуйте пізніше. Якщо проблема залишається, будь ласка, зв'яжіться з нами, натиснувши на іконку довідки вгорі.";
 "error multiple apps" = "На Вашому пристрої є більше однієї програми Blokada. Це може викликати проблеми з підключенням. Бажаєте виправити її зараз?";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
+"error locked" = "Ця дія недоступна, коли додаток знаходиться в заблокованому стані. Будь ласка, розблокуйте додаток, щоб продовжити.";
 
 "conn isssues header" = "Проблеми з підключенням";
 "conn isssues slug" = "Проблеми з підключенням. Будь ласка, перевірте налаштування. Торкніться, щоб дізнатися більше.";
@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "Введіть PIN-код і змініть його";
 "lock status unlocked" = "Встановіть PIN-код для блокування Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada несподівано припинила свою роботу, але ми шкодуємо за ці незручності. Дозволяючи нам файл журналу, ви вдосконалюєте роботу для всіх користувачів. Будь ласка, допоможіть нам знайти та виправити цю проблему негайно.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Очікування даних";
+"universal action disable" = "Вимкнено";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Посуньте, щоб розблокувати";
+"lock status too many attempts" = "Забагато неправильних спроб. Повторіть пізніше";
+"lock status enter to confirm" = "Введіть PIN-код ще раз для підтвердження";
+"lock status enter or wait" = "Введіть новий PIN-код або зачекайте щоб заблокувати...";
 
 "family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family onboard header" = "Ласкаво просимо до сім'ї Blokada!";
+"family onboard body" = "Дотримуйтесь інструкцій на екрані, щоб налаштувати ваш перший пристрій.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Увімкнути";
+"family cta action add device" = "Додати пристрій";
+"family cta action finish setup" = "Завершити налаштування";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Привіт усім!";
+"family status fresh body" = "Активуйте або відновіть свій обліковий запис, щоб продовжити";
+"family status ready header" = "Програма готова!";
+"family status ready body" = "Додайте ваш перший пристрій зараз";
+"family status perms header" = "Майже готово!";
+"family status perms body" = "Надайте необхідні дозволи";
+"family status expired header" = "Термін дії облікового запису закінчився";
+"family status expired body" = "Будь ласка, активуйте Ваш аккаунт для продовження";
+"family status linked header" = "Додаток пов’язано!";
+"family status locked header" = "Додаток заблоковано";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Захистіть свою сім'ю однією підпискою. Монітор і захистіть усі сімейні пристрої від небажаного контенту.";
+"family payment features devices header" = "Моніторинг сімейного пристрою";
+"family payment features devices body" = "Керуйте та відстежуйте всі ваші пристрої через одну програму. Керуйте доступом та фільтрацію вмісту безпосередньо з вашого пристрою.";
+"family payment features performance body" = "Підтримуйте швидкий та чутливий пристрій, забезпечуючи використання вашого інтернет-з'єднання на пікових швидкостях, завдяки нашій доведеній технології.";
+"family payment features dns body" = "Покращуйте конфіденційність для всіх ваших пристроїв за допомогою шифрування DNS. Blokada використовує застарілі протоколи для забезпечення інтернет-трафіку залишається конфіденційним.";
+"family payment features battery body" = "Активація Blokada не буде розряджуватися акумулятором. Це може допомогти йому пройти довше, блокуючи непотрібні фонові активності.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "Прикріпити пристрій";
+"family account attach body" = "Для прив'язки цього пристрою до батьківського пристрою, завершіть процес налаштування. Після прив'язки цей пристрій буде заблоковано, що дозволить вам налаштовувати та відстежувати його з батьківського пристрою.";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "Відскануйте QR-код від батьківського пристрою, щоб почати процес прив'язки.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Сканування товару";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Прив'язати пристрій";
+"family account link name" = "Встановити назву пристрою";
+"family account link qr header" = "Відскануйте цей QR-код";
+"family account link qr body" = "Цей екран автоматично закриється, коли буде виявлено новий пристрій.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Додати пристрій";
+"family account decide link header" = "Прив'язати пристрій";
+"family account decide link body" = "У Blokada ви просто відскануєте QR-код, щоб посилатися і керувати іншим пристроєм.";
+"family account decide this header" = "Використовуйте цей пристрій";
+"family account decide this body" = "Крім того, ви можете просто налаштувати Blokada на цьому пристрої та встановити контакт для блокування програми.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Активуйте щити, щоб блокувати доступ до вибраного вмісту на ваших наглядових пристроях.";
+"family shields custom slug" = "Керуйте своїми власними записами, щоб блокувати або дозволити.";
