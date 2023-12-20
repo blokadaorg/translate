@@ -32,7 +32,7 @@
 "error location failed fetching" = "Nelze načíst umístění.";
 "error unknown" = "Vyskytl se problém. Ujistěte se, že jste online, a zkuste to později. Pokud problém přetrvává, kontaktujte nás prosím klepnutím na ikonu nápovědy v horní části.";
 "error multiple apps" = "Na vašem zařízení je více než jedna aplikace Blokada. To může způsobit problémy s připojením. Chcete to nyní opravit?";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
+"error locked" = "Tato akce není k dispozici, pokud je aplikace v uzamčeném stavu. Pro pokračování prosím odemkněte aplikaci.";
 
 "conn isssues header" = "Problémy s připojením";
 "conn isssues slug" = "Problémy s připojením. Zkontrolujte prosím konfiguraci. Klepněte pro podrobnosti.";
@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "Zadejte PIN kód pro změnu";
 "lock status unlocked" = "Nastavte PIN kód pro uzamčení Blokady";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada se neočekávaně zastavila a my se omlouváme za nepříjemnosti. Sdílením logu s námi zlepšujete zkušenosti pro všechny uživatele. Pomozte nám prosím identifikovat a opravit tento problém okamžitě.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Čekání na data";
+"universal action disable" = "Zakázat";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Přejetím odemknete";
+"lock status too many attempts" = "Příliš mnoho chybných pokusů. Zkuste to později";
+"lock status enter to confirm" = "Pro potvrzení zadejte PIN kód znovu";
+"lock status enter or wait" = "Zadejte nový pin kód, nebo počkejte na zamknutí...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "Toto zařízení (%@)";
+"family onboard header" = "Vítejte v rodině Blokady!";
+"family onboard body" = "Postupujte podle pokynů na obrazovce a nastavte své první zařízení.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Povolit";
+"family cta action add device" = "Přidat zařízení";
+"family cta action finish setup" = "Dokončit nastavení";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Ahoj!";
+"family status fresh body" = "Chcete-li pokračovat, aktivujte nebo obnovte svůj účet";
+"family status ready header" = "Aplikace je připravena!";
+"family status ready body" = "Přidejte své první zařízení nyní";
+"family status perms header" = "Téměř hotovo!";
+"family status perms body" = "Udělte potřebná oprávnění";
+"family status expired header" = "Účet vypršel";
+"family status expired body" = "Pro pokračování aktivujte svůj účet";
+"family status linked header" = "Aplikace je propojena!";
+"family status locked header" = "Aplikace je uzamčena";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Chraňte celou rodinu jedním předplatným. Sledujte a chraňte všechna rodinná zařízení před nežádoucím obsahem.";
+"family payment features devices header" = "Monitorování rodinného zařízení";
+"family payment features devices body" = "Spravujte a sledujte všechna vaše zařízení prostřednictvím jediné aplikace. Ovládejte přístup a filtrování obsahu přímo z vašeho zařízení.";
+"family payment features performance body" = "Udržujte rychlé a responzivní zařízení při zajištění toho, aby vaše připojení k internetu zůstalo v nejvyšší rychlosti, a to vše díky naší ověřené technologii.";
+"family payment features dns body" = "Zlepšete soukromí na všech vašich zařízeních pomocí DNS šifrování. Blokada používá špičkové protokoly, aby zajistila, že Váš internetový provoz zůstane důvěrný.";
+"family payment features battery body" = "Aktivace Blokady nevyčerpá baterii. Může to ve skutečnosti pomoci déle blokováním zbytečných aktivit na pozadí.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "Připojit zařízení";
+"family account attach body" = "Chcete-li propojit toto zařízení s nadřazeným zařízením, dokončete proces nastavení. Po připojení bude toto zařízení uzamčeno, což vám umožní jeho konfiguraci a sledování z nadřazeného zařízení.";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "Naskenujte QR kód z nadřazeného zařízení pro spuštění procesu propojení.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Skenovat";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Propojit zařízení";
+"family account link name" = "Nastavit název zařízení";
+"family account link qr header" = "Naskenovat tento QR kód";
+"family account link qr body" = "Tato obrazovka se automaticky zavře po zjištění nového zařízení.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Přidat zařízení";
+"family account decide link header" = "Propojit zařízení";
+"family account decide link body" = "V Blokadě jednoduše naskenujete QR kód pro propojení a správu jiného zařízení.";
+"family account decide this header" = "Použít toto zařízení";
+"family account decide this body" = "Alternativně můžete jednoduše nakonfigurovat Blokadu, aby fungovala na tomto zařízení, a nastavit pin pro zamknutí aplikace.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Aktivujte štíty pro blokování přístupu k vybranému obsahu ve vašich dohlížených zařízeních.";
+"family shields custom slug" = "Spravujte své vlastní položky pro blokování nebo povolení.";
