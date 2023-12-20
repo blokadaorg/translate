@@ -32,7 +32,7 @@
 "error location failed fetching" = "Kunde inte hämta platser.";
 "error unknown" = "Ett problem uppstod. Se till att du är uppkopplad och försök igen senare. Om problemet kvarstår, vänligen kontakta oss genom att trycka på hjälp-ikonen högst upp.";
 "error multiple apps" = "Det finns mer än en Blokada-app på din enhet. Detta kan orsaka anslutningsproblem. Vill du åtgärda det nu?";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
+"error locked" = "Denna åtgärd är inte tillgänglig när appen är i ett låst tillstånd. Lås upp appen för att fortsätta.";
 
 "conn isssues header" = "Anslutningsproblem";
 "conn isssues slug" = "Problem med anslutningen. Vänligen kontrollera din konfiguration. Tryck för mer information.";
@@ -396,7 +396,7 @@
 "payment plan slugline cloud detail" = "(inkluderar Blokada Cloud)";
 "payment plan slugline plus" = "Ytterligare skydd med VPN";
 "payment plan cta trial" = "Få en vecka kostnadsfritt";
-"payment plan cta trial length" = "Start %@-Day Free Trial";
+"payment plan cta trial length" = "Starta %@-dagars gratis provperiod";
 "payment plan cta monthly" = "Månadsvis prenumeration";
 "payment plan cta annual" = "Årlig prenumereration";
 "payment plan current" = "(nuvarande plan)";
@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "Ange PIN-koden för att ändra den";
 "lock status unlocked" = "Ange din PIN-kod för att låsa Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada har oväntat stoppats, och vi beklagar besväret. Genom att dela loggfilen med oss förbättrar du upplevelsen för alla användare. Vänligen hjälp oss att identifiera och åtgärda problemet omgående.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Väntar på data";
+"universal action disable" = "Inaktivera";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Dra för att låsa upp";
+"lock status too many attempts" = "För många felaktiga försök. Försök igen senare";
+"lock status enter to confirm" = "Ange pinkoden igen för att bekräfta";
+"lock status enter or wait" = "Ange ny PIN-kod eller vänta med att låsa...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "Den här enheten (%@)";
+"family onboard header" = "Välkommen till Blokada Familj!";
+"family onboard body" = "Följ instruktionerna på skärmen för att ställa in din första enhet.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Aktivera";
+"family cta action add device" = "Lägg till en enhet";
+"family cta action finish setup" = "Slutför installationen";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Hej där!";
+"family status fresh body" = "Aktivera eller återställ ditt konto för att fortsätta";
+"family status ready header" = "Appen är redo!";
+"family status ready body" = "Lägg till din första enhet nu";
+"family status perms header" = "Nästan där!";
+"family status perms body" = "Vänligen ge nödvändiga behörigheter";
+"family status expired header" = "Kontot har löpt ut";
+"family status expired body" = "Vänligen aktivera ditt konto för att fortsätta";
+"family status linked header" = "Appen är länkad!";
+"family status locked header" = "Appen är låst";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Skydda hela din familj med ett abonnemang. Övervaka och skydda alla familjens enheter från oönskat innehåll.";
+"family payment features devices header" = "Övervakning av familjeenheter";
+"family payment features devices body" = "Hantera och övervaka alla dina enheter via en enda app. Kontrollera åtkomst och innehållsfiltrering direkt från enheten.";
+"family payment features performance body" = "Behåll en snabb och lyhörd enhet samtidigt som du ser till att din internetanslutning förblir i topphastighet, allt tack vare vår beprövade teknik.";
+"family payment features dns body" = "Förbättra integriteten mellan alla dina enheter med DNS-kryptering. Blokada använder banbrytande protokoll för att säkerställa din internettrafik förblir konfidentiell.";
+"family payment features battery body" = "Att aktivera Blokada tömmer inte ditt batteri. Det kan faktiskt hjälpa det att hålla längre genom att blockera onödiga bakgrundsaktiviteter.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "Bifoga enhet";
+"family account attach body" = "För att länka denna enhet till den överordnade enheten, slutföra installationen. När enheten är ansluten kommer den att låsas så att du kan konfigurera och övervaka den från den överordnade enheten.";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "Skanna QR-koden från den överordnade enheten för att initiera länkningsprocessen.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Skanna";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Länk enhet";
+"family account link name" = "Ange enhetsnamn";
+"family account link qr header" = "Skanna denna QR-kod";
+"family account link qr body" = "Den här skärmen stängs automatiskt när den nya enheten har upptäckts.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Lägg till enhet";
+"family account decide link header" = "Länka en enhet";
+"family account decide link body" = "I Blokada skannar du helt enkelt en QR-kod för att länka och hantera en annan enhet.";
+"family account decide this header" = "Använd denna enhet";
+"family account decide this body" = "Alternativt kan du helt enkelt konfigurera Blokada att arbeta på denna enhet, och ställa in stiftet för att låsa appen.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Aktivera sköldar för att blockera åtkomst till valt innehåll på dina övervakade enheter.";
+"family shields custom slug" = "Hantera dina egna anpassade poster att blockera eller tillåta.";
