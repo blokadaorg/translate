@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "Saisissez le code PIN avant de le modifier";
 "lock status unlocked" = "Définissez votre code PIN pour verrouiller Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada s'est arrêté de façon inattendue et nous sommes désolés pour ce désagrément. En partageant le fichier journal avec nous, vous améliorez l'expérience pour tous les utilisateurs. Veuillez nous aider à identifier et résoudre ce problème rapidement.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "En attente de données";
+"universal action disable" = "Désactiver";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Glisser pour déverrouiller";
+"lock status too many attempts" = "Trop de mauvaises tentatives. Réessayez plus tard";
+"lock status enter to confirm" = "Entrez à nouveau le code PIN pour confirmer";
+"lock status enter or wait" = "Entrez le nouveau code PIN, ou attendez pour le verrouiller...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "Cet appareil (%@)";
+"family onboard header" = "Bienvenue dans la famille Blokada !";
+"family onboard body" = "Suivez les instructions à l'écran pour configurer votre premier appareil.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Activer";
+"family cta action add device" = "Ajouter un appareil";
+"family cta action finish setup" = "Terminer la configuration";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Bonjour !";
+"family status fresh body" = "Activez ou restaurez votre compte pour continuer";
+"family status ready header" = "L'application est prête !";
+"family status ready body" = "Ajoutez votre premier appareil maintenant";
+"family status perms header" = "On y est presque !";
+"family status perms body" = "Veuillez accorder les autorisations nécessaires";
+"family status expired header" = "Compte expiré";
+"family status expired body" = "Veuillez activer votre compte pour continuer";
+"family status linked header" = "L'application est liée !";
+"family status locked header" = "L'application est verrouillée";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Protégez toute votre famille grâce à un seul abonnement. Surveillez et protégez tous les appareils de la famille contre les contenus indésirables.";
+"family payment features devices header" = "Surveillance de l'appareil familial";
+"family payment features devices body" = "Gérez et contrôlez tous vos appareils grâce à une seule application. Contrôlez l'accès et le filtrage de contenu directement à partir de votre appareil.";
+"family payment features performance body" = "Maintenez un appareil rapide et réactif tout en vous assurant que votre connexion Internet reste à haute vitesse, tout cela grâce à notre technologie éprouvée.";
+"family payment features dns body" = "Améliorez la confidentialité sur tous vos appareils grâce au chiffrement DNS. Blokada utilise des protocoles de pointe pour assurer la confidentialité de votre trafic Internet.";
+"family payment features battery body" = "L'activation de Blokada ne va pas vider votre batterie. Cela pourrait en fait l'aider à durer plus longtemps en bloquant les activités en arrière-plan inutiles.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "Attacher l'appareil";
+"family account attach body" = "Pour lier ce périphérique au périphérique parent, complétez le processus d'installation. Une fois lié, cet appareil sera verrouillé, vous permettant de le configurer et de le surveiller à partir du périphérique parent.";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "Scannez le code QR à partir de l'appareil parent, afin de lancer le processus de liaison.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Analyser";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Lier l'appareil";
+"family account link name" = "Définir le nom de l'appareil";
+"family account link qr header" = "Scannez ce code QR";
+"family account link qr body" = "Cet écran se ferme automatiquement une fois que le nouvel appareil a été détecté.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Ajouter un appareil";
+"family account decide link header" = "Lier un appareil";
+"family account decide link body" = "Dans Blokada, il vous suffit de scanner un code QR pour relier et gérer un autre appareil.";
+"family account decide this header" = "Utiliser cet appareil";
+"family account decide this body" = "Alternativement, vous pouvez simplement configurer Blokada pour qu'il fonctionne sur cet appareil et configurer le code PIN pour verrouiller l'application.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Activez les boucliers pour bloquer l'accès au contenu sélectionné sur vos appareils surveillés.";
+"family shields custom slug" = "Gérez vos propres entrées personnalisées pour bloquer ou autoriser.";
