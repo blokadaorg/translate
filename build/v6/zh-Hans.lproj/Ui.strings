@@ -32,7 +32,7 @@
 "error location failed fetching" = "无法获取位置。";
 "error unknown" = "出现问题。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 "error multiple apps" = "您的设备上有多个 Blokada 应用程序。这可能会导致连接问题，您想现在修复它吗？";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
+"error locked" = "当应用处于锁定状态时，此操作不可用。请解锁应用以继续。";
 
 "conn isssues header" = "连接问题";
 "conn isssues slug" = "连接问题。请检查您的配置。点击了解详情。";
@@ -396,7 +396,7 @@
 "payment plan slugline cloud detail" = "(包括 Blokada Cloud)";
 "payment plan slugline plus" = "使用 VPN 的额外保护";
 "payment plan cta trial" = "开始7天免费试用";
-"payment plan cta trial length" = "Start %@-Day Free Trial";
+"payment plan cta trial length" = "开始 %@天免费试用";
 "payment plan cta monthly" = "每月订阅";
 "payment plan cta annual" = "每年订阅";
 "payment plan current" = "(当前计划)";
@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "输入PIN码以更改它";
 "lock status unlocked" = "设置您的PIN码锁定Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada出人意料地停止了，我们很抱歉给我们带来不便。 通过与我们分享日志文件，您可以提高所有用户的体验。请帮助我们及时识别和解决这个问题。";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "等待数据";
+"universal action disable" = "禁用";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "滑动解锁";
+"lock status too many attempts" = "尝试次数过多，请稍后再试";
+"lock status enter to confirm" = "再次输入引脚码以确认";
+"lock status enter or wait" = "输入新的引脚码，或等待锁定...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "此设备 (%@)";
+"family onboard header" = "欢迎来到Blokada 家族！";
+"family onboard body" = "按照屏幕上的说明来设置您的第一台设备。";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "启用";
+"family cta action add device" = "添加设备";
+"family cta action finish setup" = "完成设置";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "你好！";
+"family status fresh body" = "激活或恢复您的帐户以继续";
+"family status ready header" = "应用程序已准备就绪！";
+"family status ready body" = "现在添加您的第一个设备";
+"family status perms header" = "快完成了！";
+"family status perms body" = "请授予必要的权限";
+"family status expired header" = "帐户已过期";
+"family status expired body" = "请激活您的帐户以继续";
+"family status linked header" = "应用已链接！";
+"family status locked header" = "应用程序已被锁定";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "用一个订阅来保护您的整个家庭。监视和保护所有家庭设备免受不需要的内容。";
+"family payment features devices header" = "家庭设备监测";
+"family payment features devices body" = "通过单个应用管理和监视您的所有设备。直接从您的设备中控制访问权限和内容过滤。";
+"family payment features performance body" = "维护一个快速响应的设备，同时确保您的互联网连接保持在高峰速度，所有这一切都要归功于我们已经证明的技术。";
+"family payment features dns body" = "使用 DNS 加密增强您所有设备的隐私。Blokada 使用尖端协议来确保您的网络流量保持保密。";
+"family payment features battery body" = "激活Blokada不会消耗你的电池。它可能会阻止不必要的背景活动来帮助它持续更长时间。";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "附加设备";
+"family account attach body" = "要将此设备连接到父设备，请完成安装过程。 一旦链接，该设备将被锁定，允许您从父设备中配置和监视它。";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "从父设备扫描二维码以启动链接过程。";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "扫描";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "链接设备";
+"family account link name" = "设置设备名称";
+"family account link qr header" = "扫描此二维码";
+"family account link qr body" = "检测到新设备后，此屏幕将自动关闭。";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "添加设备";
+"family account decide link header" = "链接设备";
+"family account decide link body" = "在Blokada，您只需扫描二维码即可链接和管理另一台设备。";
+"family account decide this header" = "使用此设备";
+"family account decide this body" = "或者，您可以简单地配置Blokada在这个设备上工作，并设置引脚来锁定应用程序。";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "激活屏蔽以阻止在您监督的设备上访问选定的内容。";
+"family shields custom slug" = "管理您自己的自定义条目以阻止或允许。";
