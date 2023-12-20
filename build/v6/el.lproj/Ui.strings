@@ -32,7 +32,7 @@
 "error location failed fetching" = "Αδυναμία ανάκτησης τοποθεσιών.";
 "error unknown" = "Προέκυψε ένα πρόβλημα. Βεβαιωθείτε ότι είστε συνδεδεμένοι, και προσπαθήστε ξανά αργότερα. Εάν το πρόβλημα παραμένει, παρακαλούμε επικοινωνήστε μαζί μας πατώντας το εικονίδιο βοήθειας στην κορυφή.";
 "error multiple apps" = "Υπάρχουν περισσότερες από μία εφαρμογές Blokada στη συσκευή σας. Αυτό μπορεί να προκαλέσει προβλήματα συνδεσιμότητας. Θέλετε να την διορθώσετε τώρα?";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
+"error locked" = "Αυτή η ενέργεια δεν είναι διαθέσιμη όταν η εφαρμογή βρίσκεται σε κλειδωμένη κατάσταση. Παρακαλώ ξεκλειδώστε την εφαρμογή για να συνεχίσετε.";
 
 "conn isssues header" = "Ζητήματα συνδεσιμότητας";
 "conn isssues slug" = "Θέματα συνδεσιμότητας. Παρακαλώ ελέγξτε τις ρυθμίσεις σας. Πατήστε για λεπτομέρειες.";
@@ -396,7 +396,7 @@
 "payment plan slugline cloud detail" = "(περιλαμβάνει Blokada Cloud)";
 "payment plan slugline plus" = "Πρόσθετη προστασία με VPN";
 "payment plan cta trial" = "Ξεκινήστε Την Δωρεάν Δοκιμαστική Έκδοση 7 Ημερών";
-"payment plan cta trial length" = "Start %@-Day Free Trial";
+"payment plan cta trial length" = "Ξεκινήστε Την Δωρεάν Δοκιμαστική Έκδοση %@-Day";
 "payment plan cta monthly" = "Μηνιαία Εγγραφή";
 "payment plan cta annual" = "Εγγραφείτε Ετησίως";
 "payment plan current" = "(τρέχον σχέδιο)";
@@ -490,60 +490,60 @@
 "lock status unlocked has pin" = "Εισάγετε τον κωδικό PIN για να τον αλλάξετε";
 "lock status unlocked" = "Ορίστε τον κωδικό PIN για να κλειδώσετε το Blokada";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada έχει απροσδόκητα σταματήσει, και λυπούμαστε για την ταλαιπωρία. Με την κοινή χρήση του αρχείου καταγραφής μαζί μας, ενισχύετε την εμπειρία για όλους τους χρήστες. Παρακαλούμε βοηθήστε μας να εντοπίσουμε και να διορθώσουμε άμεσα αυτό το ζήτημα.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Αναμονή για δεδομένα";
+"universal action disable" = "Απενεργοποίηση";
 
-"lock action slide unlock" = "Slide to unlock";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
+"lock action slide unlock" = "Σύρετε για ξεκλείδωμα";
+"lock status too many attempts" = "Πάρα πολλές λάθος προσπάθειες. Προσπαθήστε ξανά αργότερα";
+"lock status enter to confirm" = "Εισάγετε ξανά τον κωδικό PIN για επιβεβαίωση";
+"lock status enter or wait" = "Εισάγετε νέο κωδικό pin ή περιμένετε να κλειδώσει...";
 
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family label this device" = "Αυτή η συσκευή (%@)";
+"family onboard header" = "Καλώς ήλθατε στο Blokada Family!";
+"family onboard body" = "Ακολουθήστε τις οδηγίες στην οθόνη για να ρυθμίσετε την πρώτη συσκευή σας.";
 
 // Displayed when starting the app for the first time, action to activate app
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Ενεργός";
+"family cta action add device" = "Προσθήκη συσκευής";
+"family cta action finish setup" = "Ολοκλήρωση εγκατάστασης";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Γεια σας!";
+"family status fresh body" = "Ενεργοποιήστε ή επαναφέρετε το λογαριασμό σας για να συνεχίσετε";
+"family status ready header" = "Η εφαρμογή είναι έτοιμη!";
+"family status ready body" = "Προσθέστε την πρώτη σας συσκευή τώρα";
+"family status perms header" = "Σχεδόν εκεί!";
+"family status perms body" = "Παρακαλούμε εκχωρήστε τα απαραίτητα δικαιώματα";
+"family status expired header" = "Ο λογαριασμός έληξε";
+"family status expired body" = "Παρακαλούμε ενεργοποιήστε το λογαριασμό σας για να συνεχίσετε";
+"family status linked header" = "Η εφαρμογή είναι συνδεδεμένη!";
+"family status locked header" = "Η εφαρμογή είναι κλειδωμένη";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Προστατεύστε ολόκληρη την οικογένειά σας με μία συνδρομή. Παρακολούθηση και προστασία όλων των οικογενειακών συσκευών από ανεπιθύμητο περιεχόμενο.";
+"family payment features devices header" = "Οικογενειακή Παρακολούθηση Συσκευής";
+"family payment features devices body" = "Διαχειριστείτε και παρακολουθείτε όλες τις συσκευές σας μέσω μιας μόνο εφαρμογής. Ελέγξτε την πρόσβαση και το φιλτράρισμα περιεχομένου απευθείας από τη συσκευή σας.";
+"family payment features performance body" = "Διατηρήστε μια γρήγορη και ανταποκρινόμενη συσκευή διασφαλίζοντας παράλληλα ότι η σύνδεσή σας στο διαδίκτυο παραμένει σε μέγιστες ταχύτητες, χάρη στην αποδεδειγμένη τεχνολογία μας.";
+"family payment features dns body" = "Βελτιώστε την ιδιωτικότητα σε όλες τις συσκευές σας με κρυπτογράφηση DNS. Η Blokada χρησιμοποιεί πρωτόκολλα αιχμής για να εξασφαλίσει ότι η διαδικτυακή σας κυκλοφορία παραμένει εμπιστευτική.";
+"family payment features battery body" = "Η ενεργοποίηση της Blokada δεν θα εξαντλήσει την μπαταρία σας. Μπορεί στην πραγματικότητα να την βοηθήσει να διαρκέσει περισσότερο, εμποδίζοντας περιττές δραστηριότητες στο παρασκήνιο.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
+"family account attach header" = "Επισύναψη συσκευής";
+"family account attach body" = "Για να συνδέσετε αυτή τη συσκευή με τη γονική συσκευή, ολοκληρώστε τη διαδικασία εγκατάστασης. Μόλις συνδεθεί, αυτή η συσκευή θα κλειδωθεί, επιτρέποντάς σας να τη ρυθμίσετε και να την παρακολουθείτε από τη γονική συσκευή.";
 "family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account qr body" = "Σαρώστε τον κωδικό QR από τη γονική συσκευή, προκειμένου να ξεκινήσει η διαδικασία σύνδεσης.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Σάρωση";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Σύνδεση συσκευής";
+"family account link name" = "Ορισμός ονόματος συσκευής";
+"family account link qr header" = "Σάρωση αυτού του κωδικού QR";
+"family account link qr body" = "Αυτή η οθόνη θα κλείσει αυτόματα μόλις εντοπιστεί η νέα συσκευή.";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Προσθήκη συσκευής";
+"family account decide link header" = "Σύνδεση μιας συσκευής";
+"family account decide link body" = "Στο Blokada, απλά σαρώνετε έναν κωδικό QR για να συνδέσετε και να διαχειριστείτε μια άλλη συσκευή.";
+"family account decide this header" = "Χρήση αυτής της συσκευής";
+"family account decide this body" = "Εναλλακτικά, μπορείτε απλά να ρυθμίσετε το Blokada για να εργαστεί σε αυτή τη συσκευή, και να ρυθμίσετε τον ακροδέκτη για να κλειδώσει την εφαρμογή.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Ενεργοποιήστε τις ασπίδες για να αποκλείσετε την πρόσβαση στο επιλεγμένο περιεχόμενο στις εποπτευόμενες συσκευές σας.";
+"family shields custom slug" = "Διαχειριστείτε τις δικές σας προσαρμοσμένες καταχωρήσεις για να αποκλείσετε ή να επιτρέψετε.";
