@@ -496,7 +496,7 @@
 "universal status waiting for data" = "データ待機中";
 "universal action disable" = "無効にする";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "スライドしてロック解除";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "スライド";
@@ -544,6 +544,9 @@
 "family account link name" = "端末名を設定";
 "family account link qr header" = "この QR コードをスキャンしてください";
 "family account link qr body" = "新しいデバイスが検出されると、この画面は自動的に閉じます。";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "端末の追加";
 "family account decide link header" = "端末をリンクする";
