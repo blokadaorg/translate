@@ -495,7 +495,7 @@
 "universal status waiting for data" = "In attesa dei dati";
 "universal action disable" = "Disabilita";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Scorri per sbloccare";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Diapositive";
@@ -543,6 +543,9 @@
 "family account link name" = "Imposta nome dispositivo";
 "family account link qr header" = "Scansiona questo codice QR";
 "family account link qr body" = "Questa schermata si chiuderà automaticamente non appena il nuovo dispositivo verrà rilevato.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Aggiungi dispositivo";
 "family account decide link header" = "Collega un dispositivo";
