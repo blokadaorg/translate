@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Αναμονή για δεδομένα";
 "universal action disable" = "Απενεργοποίηση";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Σύρετε για ξεκλείδωμα";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Ολίσθηση";
@@ -543,6 +543,9 @@
 "family account link name" = "Ορισμός ονόματος συσκευής";
 "family account link qr header" = "Σάρωση αυτού του κωδικού QR";
 "family account link qr body" = "Αυτή η οθόνη θα κλείσει αυτόματα μόλις εντοπιστεί η νέα συσκευή.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Προσθήκη συσκευής";
 "family account decide link header" = "Σύνδεση μιας συσκευής";
