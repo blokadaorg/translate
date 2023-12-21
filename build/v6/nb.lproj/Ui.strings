@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Venter på data";
 "universal action disable" = "Deaktiver";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Dra for å låse opp";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Lysbilde";
@@ -543,6 +543,9 @@
 "family account link name" = "Angi enhetsnavn";
 "family account link qr header" = "Skann denne QR-koden";
 "family account link qr body" = "Denne skjermen vil lukkes automatisk når den nye enheten er oppdaget.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Legg til enhet";
 "family account decide link header" = "Koble til enhet";
