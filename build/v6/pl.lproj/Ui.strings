@@ -495,10 +495,10 @@
 "universal status waiting for data" = "Oczekiwanie na dane";
 "universal action disable" = "Wyłącz";
 
-// Make it as short as possible
-"lock action slide unlock" = "Przesuń, aby odblokować";
+// Translate just Unlock if the original is longer than 16 characters
+"lock action slide unlock" = "Odblokuj";
 // The app will use this version if the Slide to unlock is too long
-"lock action slide unlock short" = "Slajd";
+"lock action slide unlock short" = "Przesuń";
 "lock status too many attempts" = "Zbyt wiele nieprawidłowych prób. Spróbuj ponownie później";
 "lock status enter to confirm" = "Wprowadź kod pin ponownie, aby potwierdzić";
 "lock status enter or wait" = "Wprowadź nowy kod pin lub poczekaj, aby zablokować...";
@@ -543,6 +543,9 @@
 "family account link name" = "Ustaw nazwę urządzenia";
 "family account link qr header" = "Zeskanuj ten kod QR";
 "family account link qr body" = "Ten ekran zostanie automatycznie zamknięty po wykryciu nowego urządzenia.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Dodaj urządzenie";
 "family account decide link header" = "Połącz urządzenie";
