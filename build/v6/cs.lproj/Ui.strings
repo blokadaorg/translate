@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Čekání na data";
 "universal action disable" = "Zakázat";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Přejetím odemknete";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Posunutí";
@@ -543,6 +543,9 @@
 "family account link name" = "Nastavit název zařízení";
 "family account link qr header" = "Naskenovat tento QR kód";
 "family account link qr body" = "Tato obrazovka se automaticky zavře po zjištění nového zařízení.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Přidat zařízení";
 "family account decide link header" = "Propojit zařízení";
