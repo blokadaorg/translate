@@ -12,7 +12,7 @@
 
 "error device offline" = "Пристрій поза мережею";
 "error account inactive" = "Ваш обліковий запис неактивний. Будь ласка, активуйте Ваш обліковий запис для подальшого використання BLOKADA+.";
-"error account inactive generic" = "Your account is inactive. Please activate your account in order to continue using Blokada.";
+"error account inactive generic" = "Ваш обліковий запис не активний. Будь ласка, активуйте Ваш обліковий запис для продовження використання Blokada.";
 "error account inactive after restore" = "Це не є дійсним активним обліковим записом. Якщо ви вважаєте, що це помилка, зв'яжіться з нами, натиснувши на іконку допомоги вгорі.";
 "error account invalid" = "Невірний ID цього облікового запису.";
 "error creating account" = "Не вдалося створити новий обліковий запис. Будь ласка, спробуйте ще раз пізніше.";
@@ -34,7 +34,7 @@
 "error unknown" = "Сталася помилка. Переконайтесь, що ви онлайн, і спробуйте пізніше. Якщо проблема залишається, будь ласка, зв'яжіться з нами, натиснувши на іконку довідки вгорі.";
 "error multiple apps" = "На Вашому пристрої є більше однієї програми Blokada. Це може викликати проблеми з підключенням. Бажаєте виправити її зараз?";
 "error locked" = "Ця дія недоступна, коли додаток знаходиться в заблокованому стані. Будь ласка, розблокуйте додаток, щоб продовжити.";
-"error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
+"error lock invalid" = "Введений PIN-код має бути рівно 4 цифр. Будь ласка, спробуйте ще раз.";
 
 "conn isssues header" = "Проблеми з підключенням";
 "conn isssues slug" = "Проблеми з підключенням. Будь ласка, перевірте налаштування. Торкніться, щоб дізнатися більше.";
@@ -547,7 +547,7 @@
 "family account link qr body" = "Цей екран автоматично закриється, коли буде виявлено новий пристрій.";
 
 // A button to unlink linked device
-"family account cta unlink" = "Unlink";
+"family account cta unlink" = "Розірвання зв'язку";
 
 "family account decide header" = "Додати пристрій";
 "family account decide link header" = "Прив'язати пристрій";
