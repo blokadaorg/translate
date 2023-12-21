@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Se așteaptă date";
 "universal action disable" = "Dezactivează";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Glisați pentru a debloca";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Glisare";
@@ -543,6 +543,9 @@
 "family account link name" = "Setează numele dispozitivului";
 "family account link qr header" = "Scanați acest cod QR";
 "family account link qr body" = "Acest ecran se va închide automat după ce noul dispozitiv a fost detectat.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Adaugă dispozitiv";
 "family account decide link header" = "Leagă un dispozitiv";
