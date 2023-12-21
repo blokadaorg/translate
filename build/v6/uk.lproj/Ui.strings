@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Очікування даних";
 "universal action disable" = "Вимкнено";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Посуньте, щоб розблокувати";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Слайд";
@@ -543,6 +543,9 @@
 "family account link name" = "Встановити назву пристрою";
 "family account link qr header" = "Відскануйте цей QR-код";
 "family account link qr body" = "Цей екран автоматично закриється, коли буде виявлено новий пристрій.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Додати пристрій";
 "family account decide link header" = "Прив'язати пристрій";
