@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Menunggu data";
 "universal action disable" = "Nonaktifkan";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Geser untuk membuka";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Geser";
@@ -543,6 +543,9 @@
 "family account link name" = "Atur nama perangkat";
 "family account link qr header" = "Pindai Kode QR ini";
 "family account link qr body" = "Layar ini akan tertutup secara otomatis saat perangkat baru sudah terdeteksi.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Tambah perangkat";
 "family account decide link header" = "Tautkan perangkat";
