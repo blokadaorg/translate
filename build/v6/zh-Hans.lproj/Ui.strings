@@ -12,7 +12,7 @@
 
 "error device offline" = "设备当前离线";
 "error account inactive" = "您的账户未激活。请激活账户以便继续使用 BLOKADA+。";
-"error account inactive generic" = "Your account is inactive. Please activate your account in order to continue using Blokada.";
+"error account inactive generic" = "您的帐户未激活。请激活您的帐户以继续使用 Blokada。";
 "error account inactive after restore" = "这似乎不是有效的活跃账户。 如果情况并非如此，请点击顶部的帮助图标联系我们。";
 "error account invalid" = "此账户 ID 似乎无效。";
 "error creating account" = "无法新建账户。请稍后再试。";
@@ -34,7 +34,7 @@
 "error unknown" = "出现问题。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
 "error multiple apps" = "您的设备上有多个 Blokada 应用程序。这可能会导致连接问题，您想现在修复它吗？";
 "error locked" = "当应用处于锁定状态时，此操作不可用。请解锁应用以继续。";
-"error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
+"error lock invalid" = "有效的 PIN 必须是 4 位数字。请重试。";
 
 "conn isssues header" = "连接问题";
 "conn isssues slug" = "连接问题。请检查您的配置。点击了解详情。";
@@ -547,7 +547,7 @@
 "family account link qr body" = "检测到新设备后，此屏幕将自动关闭。";
 
 // A button to unlink linked device
-"family account cta unlink" = "Unlink";
+"family account cta unlink" = "取消链接";
 
 "family account decide header" = "添加设备";
 "family account decide link header" = "链接设备";
