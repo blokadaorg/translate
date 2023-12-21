@@ -495,7 +495,7 @@
 "universal status waiting for data" = "Odotetaan tietoja";
 "universal action disable" = "Poista Käytöstä";
 
-// Make it as short as possible
+// Translate just Unlock if the original is longer than 16 characters
 "lock action slide unlock" = "Poista lukitus liu'uttamalla";
 // The app will use this version if the Slide to unlock is too long
 "lock action slide unlock short" = "Liu'uta";
@@ -543,6 +543,9 @@
 "family account link name" = "Aseta laitteen nimi";
 "family account link qr header" = "Skannaa tämä QR-koodi";
 "family account link qr body" = "Tämä näyttö sulkeutuu automaattisesti, kun uusi laite on havaittu.";
+
+// A button to unlink linked device
+"family account cta unlink" = "Unlink";
 
 "family account decide header" = "Lisää laite";
 "family account decide link header" = "Linkitä laite";
