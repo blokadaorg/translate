@@ -567,10 +567,10 @@
 "toplist tld unknown" = "unknown";
 
 "family notification subtitle" = "Family protection is off";
-"family fault link already" = "This device is already linked. Please delete it with the parent app and try again.";
-"family profile dialog header" = "Choose a profile to use for %@.";
-"family profile dialog header this" = "Choose a profile to use for this device.";
-"family profile add" = "What profile you want to add?";
+"family fault link already" = "This device is already linked. Please unlink it using the parent app and try again.";
+"family profile dialog header" = "Select a profile to use for %@.";
+"family profile dialog header this" = "Select a profile to use for this device.";
+"family profile add" = "Which profile would you like to add?";
 "family profile template" = "Choose a template to get started.";
 
 // A name of a configuration profile, for parent device
@@ -583,10 +583,10 @@
 "family profile name custom" = "Custom";
 
 "family profile action add" = "Add new profile";
-"family profile action delete" = "Delete this profile";
+"family profile action delete" = "Remove this profile";
 
-"family profile error use" = "This profile is in use. Please make sure no device is using it.";
-"family profile error" = "Could not delete this profile.";
+"family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
+"family profile error" = "Failed to delete this profile.";
 
 // A name template for profile, like "Child Profile"
 "family profile template name" = "%@ Profile";
@@ -596,10 +596,10 @@
 "family device label statistics" = "STATISTICS";
 "family device brief statistics" = "See the recent activity of this device.";
 "family device label settings" = "DEVICE SETTINGS";
-"family device brief settings" = "Edit the blockig profile to apply for this device.";
+"family device brief settings" = "Edit the blocking profile applied to this device.";
 "family device action link" = "Link this device again";
 "family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you wish to delete %@? The device will be unlinked from your account.";
+"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
 
 "family device header add" = "Add a device";
 "family device header link" = "Link a device";
@@ -607,7 +607,7 @@
 "family perms header" = "One more thing";
 
 // Param is just Blokada Family
-"family perms brief" = "Activate '$@' in Settings by navigating as shown below.";
+"family perms brief" = "To activate '$@', navigate to Settings as described below.";
 
 // DNS activation on iOS, in Settings app
 "family perms setting ios general" = "General";
@@ -644,8 +644,8 @@
 "family stats exceptions add" = "Add to My exceptions";
 "family stats title" = "My exceptions";
 
-"family link description new" = "Scan the QR code below with the device you want to add to your family. This screen will close once the device is detected.";
-"family link description again" = "Scan the QR code below with the device that needs to be linked again. This screen will close once the device is detected.";
+"family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
+"family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
 
 // A section name for details of device activity
 "family device title details" = "Details";
@@ -657,7 +657,7 @@
 "family dialog brief profile" = "Enter a name for this profile.";
 "family dialog brief device" = "Enter a name for this device.";
 
-"family search empty" = "No match for your search criteria";
+"family search empty" = "No matches found for your search criteria";
 
 // How many times this host has been blocked
 "family activity blocked times" = "blocked %@ times";
@@ -665,10 +665,10 @@
 // How many times this host has been allowed
 "family activity allowed times" = "allowed %@ times";
 
-"family status linked body" = "Use the parent device to manage this device";
-"family status qr body" = "Scan the QR code to link this device";
+"family status linked body" = "Manage this device using the parent device.";
+"family status qr body" = "Scan the QR code to link this device.";
 "family status active header" = "Active!";
-"family status active body" = "Tap the device for details";
+"family status active body" = "Tap on the device for more details.";
 
 // A button to link this device to parent device
 "family cta action link" = "Link";
