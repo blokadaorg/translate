@@ -44,7 +44,7 @@
 "universal action cancel" = "Annuler";
 "universal action close" = "Fermer";
 "universal action done" = "Terminé";
-"universal action edit" = "Edit";
+"universal action edit" = "Modifier";
 "universal action try again" = "Réessayer";
 "universal action learn more" = "En savoir plus";
 "universal action help" = "Aide";
@@ -510,7 +510,7 @@
 "family rename device" = "Renommer l'appareil";
 "family label this device" = "Cet appareil (%@)";
 "family onboard header" = "Bienvenue dans la famille Blokada !";
-"family onboard header brand" = "Welcome to %s!";
+"family onboard header brand" = "Bienvenue sur %s";
 "family onboard body" = "Suivez les instructions à l'écran pour configurer votre premier appareil.";
 
 // Displayed when starting the app for the first time, action to activate app
@@ -568,93 +568,93 @@
 
 "family notification subtitle" = "La protection familiale est désactivée";
 "family fault link already" = "This device is already linked. Please unlink it using the parent app and try again.";
-"family profile dialog header" = "Select a profile to use for %@.";
-"family profile dialog header this" = "Select a profile to use for this device.";
-"family profile add" = "Which profile would you like to add?";
-"family profile template" = "Choose a template to get started.";
+"family profile dialog header" = "Sélectionnez un profil à utiliser pour %@.";
+"family profile dialog header this" = "Sélectionnez un profil à utiliser pour cet appareil.";
+"family profile add" = "Quel profil souhaitez-vous ajouter ?";
+"family profile template" = "Pour commencer, sélectionnez un modèle.";
 
 // A name of a configuration profile, for parent device
 "family profile name parent" = "Parent";
 
 // A name of a configuration profile, for child device
-"family profile name child" = "Child";
+"family profile name child" = "Enfant";
 
 // A name of a custom configuration profile template
-"family profile name custom" = "Custom";
+"family profile name custom" = "Personnalisé";
 
-"family profile action add" = "Add new profile";
-"family profile action delete" = "Remove this profile";
+"family profile action add" = "Ajouter un nouveau profil";
+"family profile action delete" = "Supprimer ce profil";
 
 "family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error" = "Impossible de supprimer ce profil.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@ Profile";
+"family profile template name" = "Profil %@";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Sélectionner un profil";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
+"family device label statistics" = "STATISTIQUES";
+"family device brief statistics" = "Consulter l'activité récente pour cet appareil.";
+"family device label settings" = "PARAMÈTRES DE L'APPAREIL";
 "family device brief settings" = "Edit the blocking profile applied to this device.";
 "family device action link" = "Link this device again";
-"family device action delete" = "Delete this device";
+"family device action delete" = "Supprimer cet appareil";
 "family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
 
-"family device header add" = "Add a device";
-"family device header link" = "Link a device";
+"family device header add" = "Ajouter un appareil";
+"family device header link" = "Associer un appareil";
 
-"family perms header" = "One more thing";
+"family perms header" = "Une dernière chose";
 
 // Param is just Blokada Family
 "family perms brief" = "To activate '$@', navigate to Settings as described below.";
 
 // DNS activation on iOS, in Settings app
-"family perms setting ios general" = "General";
+"family perms setting ios general" = "Général";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "VPN & Gestion des périphériques";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
 // DNS activation on iOS, in Settings -> General -> VPN
-"family perms setting ios automatic" = "Automatic";
+"family perms setting ios automatic" = "Automatique";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label reason" = "Reason";
+"family stats label reason" = "Motif";
 
 // A label for which blocklist was used to block domain. Keep super short.
 "family stats label blocklist" = "Blocklist";
 
 // A label for which config profile was used to block domain. Keep super short.
-"family stats label profile" = "Profile";
+"family stats label profile" = "Profil";
 "family stats label profile alt" = "Blocklist Profile";
 
 // A label for the number of blocklists selected
 "family stats label blocklists" = "Blocklists";
 "family stats label blocklists count" = "%@ selected";
 
-"family stats label pause" = "Pause blocking";
+"family stats label pause" = "Suspendre le blocage";
 
 // Shown when profile is unknown. Keep it short.
-"family stats label profile unknown" = "Unknown";
+"family stats label profile unknown" = "Inconnu";
 
 // "My exceptions" is a list of user configured custom blocking rules.
 "family stats exceptions remove" = "Remove from My exceptions";
 "family stats exceptions add" = "Add to My exceptions";
-"family stats title" = "My exceptions";
+"family stats title" = "Mes exceptions";
 
 "family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
 "family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
 
 // A section name for details of device activity
-"family device title details" = "Details";
+"family device title details" = "Détails";
 
-"family dialog title new profile" = "New profile";
-"family dialog title rename profile" = "Rename profile";
-"family dialog title new device" = "New device";
-"family dialog title rename device" = "Rename device";
-"family dialog brief profile" = "Enter a name for this profile.";
+"family dialog title new profile" = "Nouveau profil";
+"family dialog title rename profile" = "Renommer le profil";
+"family dialog title new device" = "Nouvel appareil";
+"family dialog title rename device" = "Renommer l'appareil";
+"family dialog brief profile" = "Saisissez le nom de ce profil.";
 "family dialog brief device" = "Enter a name for this device.";
 
 "family search empty" = "No matches found for your search criteria";
