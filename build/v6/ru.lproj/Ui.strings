@@ -513,7 +513,7 @@
 "family onboard header brand" = "Welcome to %s!";
 "family onboard body" = "Следуйте инструкциям на экране, чтобы настроить ваше первое устройство.";
 
-// Displayed when starting the app for the first time, action to activate app
+// Displayed when starting the app for the first time, action to activate app, can be "Start"
 "family cta action activate" = "Активировать";
 "family cta action add device" = "Добавить устройство";
 "family cta action finish setup" = "Завершить настройку";
@@ -524,10 +524,15 @@
 "family status ready body" = "Добавьте ваше первое устройство прямо сейчас";
 "family status perms header" = "Почти готово!";
 "family status perms body" = "Предоставьте необходимые разрешения";
+"family status perms body alt" = "Tap to finish the setup procedure";
 "family status expired header" = "Срок действия аккаунта истек";
 "family status expired body" = "Для продолжения активируйте ваш аккаунт";
 "family status linked header" = "Приложение подключено!";
 "family status locked header" = "Приложение заблокировано";
+
+"family settings lock pin" = "Lock with pin";
+"family settings lock enter" = "Enter your new pin";
+"family settings lock remove" = "Remove pin";
 
 "family payment slug" = "Защитите всю семью с помощью одной подписки. Контролируйте и защищайте все семейные устройства от нежелательного контента.";
 "family payment features devices header" = "Мониторинг устройств семьи";
@@ -607,7 +612,7 @@
 "family perms header" = "One more thing";
 
 // Param is just Blokada Family
-"family perms brief" = "To activate '$@', navigate to Settings as described below.";
+"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
 
 // DNS activation on iOS, in Settings app
 "family perms setting ios general" = "General";
@@ -632,12 +637,17 @@
 
 // A label for the number of blocklists selected
 "family stats label blocklists" = "Blocklists";
+
+// How many blocklists are selected "5 selected"
 "family stats label blocklists count" = "%@ selected";
 
 "family stats label pause" = "Pause blocking";
 
 // Shown when profile is unknown. Keep it short.
 "family stats label profile unknown" = "Unknown";
+
+// An option to sort activity by most common entry first (not by date)
+"family stats filter most common" = "Show most common first";
 
 // "My exceptions" is a list of user configured custom blocking rules.
 "family stats exceptions remove" = "Remove from My exceptions";
@@ -675,3 +685,5 @@
 
 // A button to unlock this device
 "family cta action unlock" = "Unlock";
+
+"family account restore desc" = "Enter your account ID to restore your purchases.";
