@@ -513,7 +513,7 @@
 "family onboard header brand" = "Welcome to %s!";
 "family onboard body" = "按照屏幕上的说明来设置您的第一台设备。";
 
-// Displayed when starting the app for the first time, action to activate app
+// Displayed when starting the app for the first time, action to activate app, can be "Start"
 "family cta action activate" = "启用";
 "family cta action add device" = "添加设备";
 "family cta action finish setup" = "完成设置";
@@ -524,10 +524,15 @@
 "family status ready body" = "现在添加您的第一个设备";
 "family status perms header" = "快完成了！";
 "family status perms body" = "请授予必要的权限";
+"family status perms body alt" = "Tap to finish the setup procedure";
 "family status expired header" = "帐户已过期";
 "family status expired body" = "请激活您的帐户以继续";
 "family status linked header" = "应用已链接！";
 "family status locked header" = "应用程序已被锁定";
+
+"family settings lock pin" = "Lock with pin";
+"family settings lock enter" = "Enter your new pin";
+"family settings lock remove" = "Remove pin";
 
 "family payment slug" = "用一个订阅来保护您的整个家庭。监视和保护所有家庭设备免受不需要的内容。";
 "family payment features devices header" = "家庭设备监测";
@@ -607,7 +612,7 @@
 "family perms header" = "One more thing";
 
 // Param is just Blokada Family
-"family perms brief" = "To activate '$@', navigate to Settings as described below.";
+"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
 
 // DNS activation on iOS, in Settings app
 "family perms setting ios general" = "General";
@@ -632,12 +637,17 @@
 
 // A label for the number of blocklists selected
 "family stats label blocklists" = "Blocklists";
+
+// How many blocklists are selected "5 selected"
 "family stats label blocklists count" = "%@ selected";
 
 "family stats label pause" = "Pause blocking";
 
 // Shown when profile is unknown. Keep it short.
 "family stats label profile unknown" = "Unknown";
+
+// An option to sort activity by most common entry first (not by date)
+"family stats filter most common" = "Show most common first";
 
 // "My exceptions" is a list of user configured custom blocking rules.
 "family stats exceptions remove" = "Remove from My exceptions";
@@ -675,3 +685,5 @@
 
 // A button to unlock this device
 "family cta action unlock" = "Unlock";
+
+"family account restore desc" = "Enter your account ID to restore your purchases.";
