@@ -601,7 +601,7 @@
 "family device label statistics" = "STATYSTYKI";
 "family device brief statistics" = "Zobacz ostatnią aktywność tego urządzenia.";
 "family device label settings" = "USTAWIENIA";
-"family device brief settings" = "Edytuj profil blokowania zastosowany do tego urządzenia.";
+"family device brief settings alt" = "Manage blocking settings for this device.";
 "family device action link" = "Połącz ponownie to urządzenie";
 "family device action delete" = "Usuń to urządzenie";
 "family device delete confirm" = "Czy na pewno chcesz usunąć %@? To odłączy urządzenie od Twojego konta.";
@@ -633,10 +633,12 @@
 
 // A label for which config profile was used to block domain. Keep super short.
 "family stats label profile" = "Profil";
-"family stats label profile alt" = "Profil bloklist";
 
 // A label for the number of blocklists selected
 "family stats label blocklists" = "Blocklisty";
+
+// A label for the number of blocklists selected
+"family stats label blocklists alt" = "Blocklists in profile";
 
 // How many blocklists are selected "5 selected"
 "family stats label blocklists count" = "%@ wybrano";
@@ -645,6 +647,9 @@
 
 // Shown when profile is unknown. Keep it short.
 "family stats label profile unknown" = "Nieznany";
+
+// Shown when no blocklist was applied
+"family stats label none" = "None";
 
 // An option to sort activity by most common entry first (not by date)
 "family stats filter most common" = "Pokaż najpierw najczęstsze";
@@ -656,6 +661,7 @@
 
 "family link description new" = "Zeskanuj poniższy kod QR, aby dodać urządzenie do rodziny. Ten ekran zostanie automatycznie zamknięty po wykryciu urządzenia.";
 "family link description again" = "Zeskanuj poniższy kod QR, aby połączyć urządzenie ponownie. Ten ekran zostanie automatycznie zamknięty po wykryciu urządzenia.";
+"family qr brief" = "Scan the QR code displayed on the parent device";
 
 // A section name for details of device activity
 "family device title details" = "Szczegóły";
