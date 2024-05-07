@@ -171,8 +171,13 @@ def commonSync(translate, mobile):
 
     if not os.path.exists(f"{mobile}/assets/translations"):
         os.makedirs(f"{mobile}/assets/translations")
+        os.makedirs(f"{mobile}/assets/translations/ui")
+        os.makedirs(f"{mobile}/assets/translations/packs")
+        os.makedirs(f"{mobile}/assets/translations/packtags")
 
-    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/assets/translations/en.json -f \"flutter\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Ui.strings -o {mobile}/assets/translations/ui/en.json -f \"flutter\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/Packs.strings -o {mobile}/assets/translations/packs/en.json -f \"flutter\"", shell = True)
+    subprocess.call(f"./convert.py -i {translate}/v6/PackTags.strings -o {mobile}/assets/translations/packtags/en.json -f \"flutter\"", shell = True)
 
 def commonImport(langs, langs_arb, translate, mobile):
     print(f"  Importing to Common")
@@ -180,7 +185,9 @@ def commonImport(langs, langs_arb, translate, mobile):
         print(f"    importing {lang}")
         alang = langs_arb.get(lang, lang)
 
-        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/assets/translations/{alang}.json -f \"flutter\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Ui.strings -o {mobile}/assets/translations/ui/{alang}.json -f \"flutter\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/Packs.strings -o {mobile}/assets/translations/packs/{alang}.json -f \"flutter\"", shell = True)
+        subprocess.call(f"./convert.py -i {translate}/build/v6/{lang}.lproj/PackTags.strings -o {mobile}/assets/translations/packtags/{alang}.json -f \"flutter\"", shell = True)
 
 def landingSync(translate, web):
     print(f"  Syncing landing ({web})")
