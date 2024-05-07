@@ -602,7 +602,7 @@
 "family device label statistics" = "STATISTICS";
 "family device brief statistics" = "See the recent activity of this device.";
 "family device label settings" = "DEVICE SETTINGS";
-"family device brief settings" = "Edit the blocking profile applied to this device.";
+"family device brief settings alt" = "Manage blocking settings for this device.";
 "family device action link" = "Link this device again";
 "family device action delete" = "Delete this device";
 "family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
@@ -634,10 +634,12 @@
 
 // A label for which config profile was used to block domain. Keep super short.
 "family stats label profile" = "Profile";
-"family stats label profile alt" = "Blocklist Profile";
 
 // A label for the number of blocklists selected
 "family stats label blocklists" = "Blocklists";
+
+// A label for the number of blocklists selected
+"family stats label blocklists alt" = "Blocklists in profile";
 
 // How many blocklists are selected "5 selected"
 "family stats label blocklists count" = "%@ selected";
@@ -646,6 +648,9 @@
 
 // Shown when profile is unknown. Keep it short.
 "family stats label profile unknown" = "Unknown";
+
+// Shown when no blocklist was applied
+"family stats label none" = "None";
 
 // An option to sort activity by most common entry first (not by date)
 "family stats filter most common" = "Show most common first";
@@ -657,6 +662,7 @@
 
 "family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
 "family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
+"family qr brief" = "Scan the QR code displayed on the parent device";
 
 // A section name for details of device activity
 "family device title details" = "Details";
