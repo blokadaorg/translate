@@ -594,70 +594,70 @@
 "family profile error" = "Kunde inte ta bort denna profil.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@profil";
+"family profile template name" = "Profil: %@";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Välj profil";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
-"family device brief settings alt" = "Manage blocking settings for this device.";
-"family device action link" = "Link this device again";
-"family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
+"family device label statistics" = "STATISTIK";
+"family device brief statistics" = "Se den senaste aktiviteten för den här enheten.";
+"family device label settings" = "ENHETSINSTÄLLNINGAR";
+"family device brief settings alt" = "Hantera blockeringsinställningar för den här enheten.";
+"family device action link" = "Länka denna enhet på nytt";
+"family device action delete" = "Ta bort enheten";
+"family device delete confirm" = "Är du säker på att du vill ta bort %@? Enheten kommer inte längre vara länkad med ditt konto.";
 
-"family device header add" = "Add a device";
-"family device header link" = "Link a device";
+"family device header add" = "Lägg till en enhet";
+"family device header link" = "Länka enhet";
 
-"family perms header" = "One more thing";
+"family perms header" = "En sak till";
 
 // Param is just Blokada Family
-"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
+"family perms brief alt" = "Aktivera '%@' i Inställningar genom att navigera enligt nedan.";
 
 // DNS activation on iOS, in Settings app
-"family perms setting ios general" = "General";
+"family perms setting ios general" = "Allmänt";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "VPN och enhetshantering";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
 // DNS activation on iOS, in Settings -> General -> VPN
-"family perms setting ios automatic" = "Automatic";
+"family perms setting ios automatic" = "Automatiskt";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label reason" = "Reason";
+"family stats label reason" = "Anledning";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label blocklist" = "Blocklist";
+"family stats label blocklist" = "Blocklista";
 
 // A label for which config profile was used to block domain. Keep super short.
-"family stats label profile" = "Profile";
+"family stats label profile" = "Profil";
 
 // A label for the number of blocklists selected
-"family stats label blocklists" = "Blocklists";
+"family stats label blocklists" = "Blocklistor";
 
 // A label for the number of blocklists selected
-"family stats label blocklists alt" = "Blocklists in profile";
+"family stats label blocklists alt" = "Blocklistor för profilen";
 
 // How many blocklists are selected "5 selected"
-"family stats label blocklists count" = "%@ selected";
+"family stats label blocklists count" = "%@ valda";
 
-"family stats label pause" = "Pause blocking";
+"family stats label pause" = "Pausa blockering";
 
 // Shown when profile is unknown. Keep it short.
-"family stats label profile unknown" = "Unknown";
+"family stats label profile unknown" = "Okänd";
 
 // Shown when no blocklist was applied
-"family stats label none" = "None";
+"family stats label none" = "Ingen";
 
 // An option to sort activity by most common entry first (not by date)
-"family stats filter most common" = "Show most common first";
+"family stats filter most common" = "Visa vanligast först";
 
 // "My exceptions" is a list of user configured custom blocking rules.
-"family stats exceptions remove" = "Remove from My exceptions";
-"family stats exceptions add" = "Add to My exceptions";
-"family stats title" = "My exceptions";
+"family stats exceptions remove" = "Ta bort från undantag";
+"family stats exceptions add" = "Lägg till i undantag";
+"family stats title" = "Mina undantag";
 
 "family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
 "family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
