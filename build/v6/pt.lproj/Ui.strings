@@ -64,7 +64,7 @@
 "universal action more" = "Mais";
 "universal action download" = "Transferir";
 "universal action news" = "Notícias";
-"universal action delete" = "Apagar";
+"universal action delete" = "Eliminar";
 "universal action hide" = "Esconder";
 "universal action select" = "Selecionar";
 "universal action selected" = "Selecionado";
@@ -599,8 +599,8 @@
 "family profile action add" = "Adicionar novo perfil";
 "family profile action delete" = "Remover este perfil";
 
-"family profile error use" = "Este perfil está atualmente a ser utilizado. Certifique-se de que nenhum dispositivo o está a utilizar antes de o apagar.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error use" = "Este perfil está atualmente a ser utilizado. Certifique-se de que nenhum dispositivo o está a utilizar antes de o eliminar.";
+"family profile error" = "Falha ao eliminar este perfil.";
 
 // A name template for profile, like "Child Profile"
 "family profile template name" = "Perfil %@";
@@ -610,10 +610,10 @@
 "family device label statistics" = "ESTATÍSTICAS";
 "family device brief statistics" = "Ver a atividade recente deste dispositivo.";
 "family device label settings" = "CONFIGURAÇÕES DO DISPOSITIVO";
-"family device brief settings alt" = "Manage blocking settings for this device.";
+"family device brief settings alt" = "Gerir as definições de bloqueio para este dispositivo.";
 "family device action link" = "Vincular este dispositivo novamente";
-"family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
+"family device action delete" = "Eliminar este dispositivo";
+"family device delete confirm" = "Tem certeza de que deseja eliminar %@? Isso desvinculará o dispositivo da sua conta.";
 
 "family device header add" = "Adicionar um dispositivo";
 "family device header link" = "Vincular um dispositivo";
@@ -621,13 +621,13 @@
 "family perms header" = "Mais uma coisa";
 
 // Param is just Blokada Family
-"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
+"family perms brief alt" = "Ative '%@' nas configurações navegando conforme mostrado abaixo.";
 
 // DNS activation on iOS, in Settings app
 "family perms setting ios general" = "Geral";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "VPN e gestão de dispositivos";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
@@ -638,16 +638,16 @@
 "family stats label reason" = "Motivo";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label blocklist" = "Blocklist";
+"family stats label blocklist" = "Lista de bloqueio";
 
 // A label for which config profile was used to block domain. Keep super short.
 "family stats label profile" = "Perfil";
 
 // A label for the number of blocklists selected
-"family stats label blocklists" = "Blocklists";
+"family stats label blocklists" = "Listas de bloqueio";
 
 // A label for the number of blocklists selected
-"family stats label blocklists alt" = "Blocklists in profile";
+"family stats label blocklists alt" = "Listas de bloqueio no perfil";
 
 // How many blocklists are selected "5 selected"
 "family stats label blocklists count" = "%@ selecionado";
@@ -668,9 +668,9 @@
 "family stats exceptions add" = "Adicionar às minhas exceções";
 "family stats title" = "Minhas exceções";
 
-"family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
-"family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
-"family qr brief" = "Scan the QR code displayed on the parent device";
+"family link description new" = "Digitalize o código QR abaixo para adicionar um dispositivo à sua família. Este ecrã fechará automaticamente assim que o dispositivo for detetado.";
+"family link description again" = "Digitalizar o código QR abaixo para vincular novamente um dispositivo. Este ecrã fechará automaticamente assim que o dispositivo for detetado.";
+"family qr brief" = "Digitalize o código QR apresentado no dispositivo pai";
 
 // A section name for details of device activity
 "family device title details" = "Detalhes";
@@ -679,8 +679,8 @@
 "family dialog title rename profile" = "Mudar nome do perfil";
 "family dialog title new device" = "Novo dispositivo";
 "family dialog title rename device" = "Mudar nome do dispositivo";
-"family dialog brief profile" = "Enter a name for this profile.";
-"family dialog brief device" = "Enter a name for this device.";
+"family dialog brief profile" = "Introduza um nome para este perfil.";
+"family dialog brief device" = "Introduza um nome para este dispositivo.";
 
 "family search empty" = "Nenhum resultado encontrado para os seus critérios de pesquisa";
 
