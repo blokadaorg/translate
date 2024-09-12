@@ -38,13 +38,13 @@
 
 "conn isssues header" = "Проблеми з підключенням";
 "conn isssues slug" = "Проблеми з підключенням. Будь ласка, перевірте налаштування. Торкніться, щоб дізнатися більше.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues details" = "- Перевірте своє підключення до інтернету\n- Використовуйте лише один застосунок Blokada\n- Деактивуйте інші VPN";
 
 "universal action continue" = "Продовжити";
 "universal action cancel" = "Скасувати";
 "universal action close" = "Закрити";
 "universal action done" = "Готово";
-"universal action edit" = "Edit";
+"universal action edit" = "Редагувати";
 "universal action try again" = "Спробуйте ще раз";
 "universal action learn more" = "Дізнатись більше";
 "universal action help" = "Допомога";
@@ -133,7 +133,7 @@
 "update desc updated nodon" = "Зараз ви використовуєте найновішу версію Blokada!";
 "update downloading description" = "Оновлення завантажується, і ви повинні незабаром побачити запит про встановлення.";
 
-"main share message" = "Blokada helped me block %@ ads and trackers!";
+"main share message" = "Blokada допомогла мені заблокувати %@ реклам і трекерів!";
 
 "main rate us header" = "Оцініть нас!";
 "main rate us description" = "Як вам до вподоби Blokada?";
@@ -161,7 +161,7 @@
 "home action tap to activate" = "Натисніть, щоб активувати";
 "home status detail paused" = "Призупинено до таймера";
 "home status detail active" = "Блокування *реклами* та *трекери*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
+"home status detail active with counter" = "Заблоковано *%@* реклам і трекерів";
 "home status detail active day" = "Реклама та трекери заблоковано протягом 24 годин";
 "home status detail active slim" = "Blokada *Slim* активна";
 "home status detail plus" = "*+* захист *конфіденційності*";
@@ -352,18 +352,18 @@
 "payment action terms" = "Умови Використання";
 "payment action policy" = "Політика конфіденційності";
 // A button to use offer code to redeem offer
-"payment action offer" = "Apply Offer Code";
+"payment action offer" = "Застосувати код пропозиції";
 "payment alert error header" = "Повідомлення від App Store";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
+"payment save text" = "Ви заощадили %@";
 "payment conversion note" = "Ми приймаємо Євро, а відображені ціни - це оцінка. Повернення коштів доступно для вашого банку, якщо ви занадто сильно сплачуєте за банк.";
 
 "payment subscription 1 month" = "1 місяць";
-"payment subscription many months" = "%@ Months";
+"payment subscription many months" = "%@ місяців";
 "payment subscription per month" = "%@ на місяць";
-"payment subscription per year" = "%@ per year";
+"payment subscription per year" = "%@ на рік";
 "payment subscription per year then" = "тоді %@ на рік";
-"payment subscription offer" = "Save %@";
+"payment subscription offer" = "Заощадьте %@";
 
 "payment success label" = "Дякуємо!";
 "payment success desc" = "Ваша обліковка активна! Тепер ви можете використовувати всі функції Blokada Plus на всіх своїх пристроях.";
@@ -390,7 +390,7 @@
 "payment package one month" = "1 місяць";
 "payment package six months" = "6 місяців";
 "payment package twelve months" = "12 місяців";
-"payment label discount" = "Save %@ (%@ / mo)";
+"payment label discount" = "Заощадьте %@ (%@ / на місяць)";
 "payment label country" = "Країна";
 
 "payment euro desc" = "Ми базуємося в Європі, тому ми приймаємо Євро: 10 євро становить приблизно 12 доларів.";
@@ -401,14 +401,14 @@
 "payment plan slugline cloud detail" = "(включає Blokada Cloud)";
 "payment plan slugline plus" = "Додатковий захист з VPN";
 "payment plan cta trial" = "Спробувати 7 днів безкоштовно";
-"payment plan cta trial length" = "Start %@-Day Free Trial";
+"payment plan cta trial length" = "Почніть безплатну пробну версію на %@ днів";
 "payment plan cta monthly" = "Підписатися на місяць";
 "payment plan cta annual" = "Підписуйтесь щороку";
 "payment plan current" = "(поточний план)";
 
 "payment cancel footer" = "Підписка буде автоматично продовжена до закінчення поточного періоду оплати. Ви можете скасувати в налаштуваннях.";
-"payment cancel footer trial short" = "Cancel during the next %@ days, and you won’t be charged.";
-"payment trial brief" = "Pay after %@ days. Subscription auto-renews every year until canceled.";
+"payment cancel footer trial short" = "Скасуйте протягом наступних %@ днів, і з вас не стягуватиметься оплата.";
+"payment trial brief" = "Оплатіть через %@ днів. Підписка автоматично поновлюється щороку до скасування.";
 
 "location region worldwide" = "Скрізь";
 "location region america" = "Америка";
@@ -433,7 +433,7 @@
 "setup comment native apps" = "Примітка: Вбудований додаток для Android ще не підтримує Blokada Cloud. Ми працюємо над оновленням.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
 "setup step" = "Крок %@: %@";
-"setup option label recommended" = "Recommended: %@";
+"setup option label recommended" = "Рекомендовано: %@";
 "setup option label alternative" = "Альтернативи: %@";
 "setup name label unnamed" = "(безіменно)";
 
@@ -511,9 +511,9 @@
 "lock change pin" = "Змінити контакт";
 
 "family rename device" = "Перейменувати пристрій";
-"family label this device" = "This device (%@)";
+"family label this device" = "Цей пристрій (%@)";
 "family onboard header" = "Ласкаво просимо до сім'ї Blokada!";
-"family onboard header brand" = "Welcome to %s!";
+"family onboard header brand" = "Ласкаво просимо до %s!";
 "family onboard body" = "Дотримуйтесь інструкцій на екрані, щоб налаштувати ваш перший пристрій.";
 
 // Displayed when starting the app for the first time, action to activate app, can be "Start"
@@ -527,15 +527,15 @@
 "family status ready body" = "Додайте ваш перший пристрій зараз";
 "family status perms header" = "Майже готово!";
 "family status perms body" = "Надайте необхідні дозволи";
-"family status perms body alt" = "Tap to finish the setup procedure";
+"family status perms body alt" = "Натисніть, щоб завершити процедуру встановлення";
 "family status expired header" = "Термін дії облікового запису закінчився";
 "family status expired body" = "Будь ласка, активуйте Ваш аккаунт для продовження";
 "family status linked header" = "Додаток пов’язано!";
 "family status locked header" = "Додаток заблоковано";
 
-"family settings lock pin" = "Lock with pin";
-"family settings lock enter" = "Enter your new pin";
-"family settings lock remove" = "Remove pin";
+"family settings lock pin" = "Заблокувати PIN-кодом";
+"family settings lock enter" = "Введіть свій новий PIN-код";
+"family settings lock remove" = "Видалити PIN-код";
 
 "family payment slug" = "Захистіть свою сім'ю однією підпискою. Монітор і захистіть усі сімейні пристрої від небажаного контенту.";
 "family payment features devices header" = "Моніторинг сімейного пристрою";
@@ -575,62 +575,62 @@
 "toplist tld unknown" = "невідомо";
 
 "family notification subtitle" = "Захист сім'ї вимкнено";
-"family fault link already" = "This device is already linked. Please unlink it using the parent app and try again.";
-"family profile dialog header" = "Select a profile to use for %@.";
-"family profile dialog header this" = "Select a profile to use for this device.";
-"family profile add" = "Which profile would you like to add?";
-"family profile template" = "Choose a template to get started.";
+"family fault link already" = "Цей пристрій уже під'єднано. Від’єднайте його за допомогою батьківського застосунку та повторіть спробу.";
+"family profile dialog header" = "Виберіть профіль для %@.";
+"family profile dialog header this" = "Виберіть профіль для цього пристрою.";
+"family profile add" = "Який профіль ви хочете додати?";
+"family profile template" = "Щоб почати, виберіть шаблон.";
 
 // A name of a configuration profile, for parent device
-"family profile name parent" = "Parent";
+"family profile name parent" = "Батьківський";
 
 // A name of a configuration profile, for parent device
-"Parent" = "Parent";
+"Parent" = "Батько чи мати";
 
 // A name of a configuration profile, for child device
-"family profile name child" = "Child";
+"family profile name child" = "Дитячий";
 
 // A name of a configuration profile, for child device
-"Child" = "Child";
+"Child" = "Дитина";
 
 // A name of a custom configuration profile template
-"family profile name custom" = "Custom";
+"family profile name custom" = "Користувацькі";
 
 // A name of a custom configuration profile template
-"Custom" = "Custom";
+"Custom" = "Користувацькі";
 
-"family profile action add" = "Add new profile";
-"family profile action delete" = "Remove this profile";
+"family profile action add" = "Додати новий профіль";
+"family profile action delete" = "Видалити цей профіль";
 
-"family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error use" = "Цей профіль зараз використовується. Перед видаленням переконайтеся, що жоден пристрій не використовує його.";
+"family profile error" = "Не вдалося видалити цей профіль.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@ Profile";
+"family profile template name" = "%@ профіль";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Вибрати профіль";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
-"family device brief settings alt" = "Manage blocking settings for this device.";
-"family device action link" = "Link this device again";
-"family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
+"family device label statistics" = "СТАТИСТИКА";
+"family device brief statistics" = "Перегляньте останні дії цього пристрою.";
+"family device label settings" = "НАЛАШТУВАННЯ ПРИСТРОЮ";
+"family device brief settings alt" = "Керуйте налаштуваннями блокування для цього пристрою.";
+"family device action link" = "Прив'язати цей пристрій знову";
+"family device action delete" = "Видалити цей пристрій";
+"family device delete confirm" = "Ви впевнені, що хочете видалити %@? Це призведе до від’єднання пристрою від вашого облікового запису.";
 
-"family device header add" = "Add a device";
-"family device header link" = "Link a device";
+"family device header add" = "Додати пристрій";
+"family device header link" = "Прив'язати пристрій";
 
-"family perms header" = "One more thing";
+"family perms header" = "Ще одне";
 
 // Param is just Blokada Family
-"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
+"family perms brief alt" = "Активуйте «%@» у налаштуваннях, перейшовши, як показано нижче.";
 
 // DNS activation on iOS, in Settings app
-"family perms setting ios general" = "General";
+"family perms setting ios general" = "Загальне";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "Керування VPN та пристроями";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
