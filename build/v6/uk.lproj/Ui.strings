@@ -635,89 +635,89 @@
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
 // DNS activation on iOS, in Settings -> General -> VPN
-"family perms setting ios automatic" = "Automatic";
+"family perms setting ios automatic" = "Автоматично";
 
 // A section name in system preferences
-"family perms setting android connections" = "Connections";
+"family perms setting android connections" = "З'єднання";
 // A section name in system preferences
-"family perms setting android more" = "More connection settings";
+"family perms setting android more" = "Більше налаштувань з'єднання";
 // A section name in system preferences
-"family perms setting android dns" = "Private DNS";
+"family perms setting android dns" = "Приватний DNS";
 // A section name in system preferences
-"family perms setting android host" = "Private DNS provider hostname";
+"family perms setting android host" = "Ім’я постачальника приватного DNS";
 
 // Used in context, 'go to section named X, or similar'
-"family perms setting android similar" = "(or similar)";
+"family perms setting android similar" = "(або подібне)";
 // Used in context 'go to section named X (not always present)'
-"family perms setting android optional" = "(not always present)";
+"family perms setting android optional" = "(не завжди присутній)";
 
-"family perms copy android" = "Finally, tap and hold the text field to paste the necessary configuration.";
-
-// A label for which blocklist was used to block domain. Keep super short.
-"family stats label reason" = "Reason";
+"family perms copy android" = "Нарешті, натисніть і утримуйте текстове поле, щоб вставити необхідну конфігурацію.";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label blocklist" = "Blocklist";
+"family stats label reason" = "Причина";
+
+// A label for which blocklist was used to block domain. Keep super short.
+"family stats label blocklist" = "Список блокування";
 
 // A label for which config profile was used to block domain. Keep super short.
-"family stats label profile" = "Profile";
+"family stats label profile" = "Профіль";
 
 // A label for the number of blocklists selected
-"family stats label blocklists" = "Blocklists";
+"family stats label blocklists" = "Списки блокування";
 
 // A label for the number of blocklists selected
-"family stats label blocklists alt" = "Blocklists in profile";
+"family stats label blocklists alt" = "Списки блокування в профілі";
 
 // How many blocklists are selected "5 selected"
-"family stats label blocklists count" = "%@ selected";
+"family stats label blocklists count" = "%@ вибрано";
 
-"family stats label pause" = "Pause blocking";
+"family stats label pause" = "Призупинити блокування";
 
 // Shown when profile is unknown. Keep it short.
-"family stats label profile unknown" = "Unknown";
+"family stats label profile unknown" = "Невідомий";
 
 // Shown when no blocklist was applied
-"family stats label none" = "None";
+"family stats label none" = "Немає";
 
 // An option to sort activity by most common entry first (not by date)
-"family stats filter most common" = "Show most common first";
+"family stats filter most common" = "Показати спочатку найпоширеніший";
 
 // "My exceptions" is a list of user configured custom blocking rules.
-"family stats exceptions remove" = "Remove from My exceptions";
-"family stats exceptions add" = "Add to My exceptions";
-"family stats title" = "My exceptions";
+"family stats exceptions remove" = "Видалити з моїх винятків";
+"family stats exceptions add" = "Додати до моїх винятків";
+"family stats title" = "Мої винятки";
 
-"family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
-"family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
-"family qr brief" = "Scan the QR code displayed on the parent device";
+"family link description new" = "Проскануйте QR-код нижче, щоб додати пристрій до своєї родини. Цей екран автоматично закриється, коли пристрій буде виявлено.";
+"family link description again" = "Проскануйте QR-код нижче, щоб знову прив'язати пристрій. Цей екран автоматично закриється, коли пристрій буде виявлено.";
+"family qr brief" = "Проскануйте QR-код, який показується на батьківському пристрої";
 
 // A section name for details of device activity
-"family device title details" = "Details";
+"family device title details" = "Подробиці";
 
-"family dialog title new profile" = "New profile";
-"family dialog title rename profile" = "Rename profile";
-"family dialog title new device" = "New device";
-"family dialog title rename device" = "Rename device";
-"family dialog brief profile" = "Enter a name for this profile.";
-"family dialog brief device" = "Enter a name for this device.";
+"family dialog title new profile" = "Новий профіль";
+"family dialog title rename profile" = "Перейменувати профіль";
+"family dialog title new device" = "Новий пристрій";
+"family dialog title rename device" = "Перейменувати пристрій";
+"family dialog brief profile" = "Введіть назву для цього профілю.";
+"family dialog brief device" = "Введіть назву для цього пристрою.";
 
-"family search empty" = "No matches found for your search criteria";
+"family search empty" = "За вашими критеріями пошуку не знайдено збігів";
 
 // How many times this host has been blocked
-"family activity blocked times" = "blocked %@ times";
+"family activity blocked times" = "заблоковано %@ разів";
 
 // How many times this host has been allowed
-"family activity allowed times" = "allowed %@ times";
+"family activity allowed times" = "дозволено %@ разів";
 
-"family status linked body" = "Manage this device using the parent device.";
-"family status qr body" = "Scan the QR code to link this device.";
-"family status active header" = "Active!";
-"family status active body" = "Tap on the device for more details.";
+"family status linked body" = "Керуйте цим пристроєм за допомогою батьківського пристрою.";
+"family status qr body" = "Проскануйте QR-код, щоб прив'язати цей пристрій.";
+"family status active header" = "Активний!";
+"family status active body" = "Натисніть на пристрій, щоб дізнатися більше.";
 
 // A button to link this device to parent device
-"family cta action link" = "Link";
+"family cta action link" = "Прив'язати";
 
 // A button to unlock this device
-"family cta action unlock" = "Unlock";
+"family cta action unlock" = "Розблокувати";
 
-"family account restore desc" = "Enter your account ID to restore your purchases.";
+"family account restore desc" = "Введіть ідентифікатор свого облікового запису, щоб відновити ваші покупки.";
