@@ -12,8 +12,8 @@
 
 "error device offline" = "Cihazınız çevrimdışı";
 "error account inactive" = "Hesabınız etkin değil. BLOKADA+ sürümünü kullanmaya devam etmek için lütfen hesabınızı etkinleştirin.";
-"error account inactive generic" = "Your account is inactive. Please activate your account in order to continue using Blokada.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us.";
+"error account inactive generic" = "Hesabınız aktif değil. Blokada'yı kullanmaya devam etmek için lütfen hesabınızı etkinleştirin.";
+"error account inactive after restore" = "Bu geçerli bir aktif hesap gibi görünmüyor. Bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçin.";
 "error account invalid" = "Bu hesap kimliği geçersiz görünüyor.";
 "error creating account" = "Yeni bir hesap oluşturulamadı. Lütfen daha sonra tekrar deneyin.";
 "error fetching data" = "Bu işlem tamamlanamadı. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, üstteki yardım simgesine dokunarak lütfen bize ulaşın.";
@@ -21,18 +21,18 @@
 "error vpn" = "VPN kurulamadı. Lütfen cihazınızı yeniden başlatın veya sistem ayarlarında BLOKADA VPN profilini kaldırın ve tekrar deneyin.";
 "error vpn perms" = "VPN profili oluşturmak için izin verilmedi.";
 "error vpn no current lease" = "Lütfen önce bir konum seçin.";
-"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
+"error vpn no current lease new" = "Blokada Plus bu cihazda artık devre dışı. Yeniden etkinleştirmek için lütfen bir konum seçin.";
 "error vpn too many leases" = "Cihazlarınızın sınırına ulaştınız. Lütfen cihazlarınızdan birini kaldırın ve tekrar deneyin.";
 "error vpn expired" = "VPN devre dışı bırakıldı. BLOKADA+ aboneliğini kullanmaya devam etmek için aboneliğinizi güncelleyin";
 "error payment inactive after restore" = "Önceki ödemeniz geri yüklendi, ancak aboneliğin süresi doldu. Bunun bir hata olduğunu düşünüyorsanız, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 "error payment failed" = "Ödemeler şu anda mevcut değil. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
 "error payment failed alternative" = "Ödemeniz tamamlanamadı. Lütfen verilerinizin doğru olduğundan emin olun ve tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
-"error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
+"error payment not available" = "Bu cihaz için ödeme yapılamıyor. Ya bu cihaz güncellenmedi ya da henüz ülkenizde satın alma işlemlerini gerçekleştirmiyoruz.";
 "error payment canceled" = "Ödeme iptal edildi. Sizden ücret alınmadı.";
 "error pack install" = "Bu özellik yüklenemedi (veya kaldırılamadı). Lütfen daha sonra tekrar deneyin.";
 "error location failed fetching" = "Yerler getiremedi.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
+"error unknown" = "Bir sorun oluştu. Çevrimiçi olduğunuzdan emin olun ve daha sonra tekrar deneyin. Sorun devam ederse, lütfen üstteki yardım simgesine dokunarak bizimle iletişime geçin.";
+"error multiple apps" = "Cihazınızda birden fazla Blokada uygulaması var. Bu durum bağlantı sorunlarına neden olabilir. Şimdi düzeltmek ister misiniz?";
 "error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
 "error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
 
@@ -607,23 +607,23 @@
 "family profile name custom" = "Custom";
 
 // A name of a custom configuration profile template
-"Custom" = "Custom";
+"Custom" = "Özel";
 
-"family profile action add" = "Add new profile";
-"family profile action delete" = "Remove this profile";
+"family profile action add" = "Yeni profil ekle";
+"family profile action delete" = "Bu profili kaldır";
 
-"family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error use" = "Bu profil şu anda kullanımda. Silmeden önce hiçbir cihazın kullanmadığından emin olun.";
+"family profile error" = "Bu profil silinemedi.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@ Profile";
+"family profile template name" = "%@ Profil";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Profil seç";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
-"family device brief settings alt" = "Manage blocking settings for this device.";
+"family device label statistics" = "İSTATİSTİKLER";
+"family device brief statistics" = "Bu cihazın son faaliyetlerini görün.";
+"family device label settings" = "CİHAZ AYARLARI";
+"family device brief settings alt" = "Bu cihaz için engelleme ayarlarını yönetin.";
 "family device action link" = "Link this device again";
 "family device action delete" = "Delete this device";
 "family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
