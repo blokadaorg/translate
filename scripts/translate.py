@@ -41,12 +41,12 @@ def main(argv):
     base_path = "."
     config = {
         "translate_dir": "..",
-        "target_dir": "../..",
+        "target_dir": "../../..",
         "action": None,
     }
 
     try:
-        opts, _ = getopt.getopt(argv, "r:a:")
+        opts, _ = getopt.getopt(argv, "r:a:t:")
     except getopt.GetoptError:
         print("  Bad parameters")
         usage()
@@ -59,6 +59,8 @@ def main(argv):
     for opt, arg in opts:
         if opt == "-a":
             config["action"] = arg
+        elif opt == "-t":
+            config["target_dir"] = arg
         else:
             print("  Unknown argument: %s" % opt)
             usage()
