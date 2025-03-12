@@ -41,7 +41,7 @@ def main(argv):
     base_path = "."
     config = {
         "translate_dir": "..",
-        "target_dir": "../..",
+        "target_dir": "../../..",
         "action": None,
     }
 
