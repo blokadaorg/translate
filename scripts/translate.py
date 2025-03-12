@@ -59,6 +59,8 @@ def main(argv):
     for opt, arg in opts:
         if opt == "-a":
             config["action"] = arg
+        if opt == "-t":
+            config["target_dir"] = arg
         else:
             print("  Unknown argument: %s" % opt)
             usage()
