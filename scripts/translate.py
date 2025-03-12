@@ -46,7 +46,7 @@ def main(argv):
     }
 
     try:
-        opts, _ = getopt.getopt(argv, "r:a:")
+        opts, _ = getopt.getopt(argv, "r:a:t:")
     except getopt.GetoptError:
         print("  Bad parameters")
         usage()
