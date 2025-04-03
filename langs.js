@@ -25,7 +25,7 @@ export default {
         "fr": "fr-rFR",
         "hu": "hu-rHU",
         "nl": "nl-rNL",
-	    "sv": "sv-rSE"
+        "sv": "sv-rSE"
     },
     "langs-web4": {
         "pl": "pl_PL",
@@ -47,7 +47,7 @@ export default {
         "fr": "fr_FR",
         "hu": "hu_HU",
         "nl": "nl_NL",
-	    "sv": "sv_SE"
+        "sv": "sv_SE"
     },
     "langs-arb": {
         "zh-Hant": "zh"
