@@ -77,10 +77,10 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 // A verb "to add new item to list"
-"universal action add" = "Add";
+"universal action add" = "Додати";
 
 // Action to open chat
-"support action chat" = "Chat with us";
+"support action chat" = "Зв'язатися з нами";
 // Action to end chat. Keep it super short
 "support action end" = "End";
 "support placeholder" = "Ask about anything you want to know!";
@@ -749,22 +749,37 @@
 
 "generic account active" = "Your account has been successfully restored. Welcome back!";
 
-"notification new message title" = "New message";
+"notification new message title" = "Нове повідомлення";
 
 
-"onboard header" = "No more ads.\nSeriously.";
+"onboard header" = "Без реклами.\nСерйозно.";
 "onboard desc" = "Block ads and trackers everywhere with our premium app. Enjoy faster browsing, better privacy, and reduced data usage.";
 "onboard terms" = "By continuing you accept our Terms of Service and acknowledge receipt of our Privacy Policy.";
 
 "onboard safari header" = "Want to block video ads?";
 "onboard safari brief" = "Enable our extension in Safari to block video ads while browsing.";
-"onboard safari step 2" = "Manage Extensions";
-"onboard safari cta" = "Open YouTube in Safari";
-"onboard safari skip" = "Skip for now";
+"onboard safari step 2" = "Керування розширеннями";
+"onboard safari cta" = "Відкрити YouTube у Safari";
+"onboard safari skip" = "Пропустити";
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN Bypass";
 "bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. The app also includes a few built-in bypass entries for compatibility. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "No apps added. Use the Add button at the top to add new apps to this list.";
-"bypass action add" = "Add app";
+"bypass action add" = "Додати застосунок";
 "bypass dialog add brief" = "Start typing to search apps.";
+
+// A one-word header to show when app is in freemium status. Can use a synonym: Primary, Basic, make it short.
+"freemium home status header" = "Essentials";
+"freemium home status desc safari" = "Essential protection is active in Safari. Upgrade to unlock full coverage for all apps.";
+
+"freemium stats cta header" = "Unlock full tracking control";
+"freemium stats cta desc" = "See which trackers are reaching you - and block them.";
+"freemium filters cta header" = "Unlock advanced blocklists";
+"freemium filters cta desc" = "Upgrade your plan to enable advanced protection and extra blocklists.";
+"freemium activity cta header" = "Unlock your stats";
+"freemium activity cta desc" = "Upgrade to Plus to access detailed statistics and insights.";
+
+"freemium sheet safari header" = "Start blocking ads in Safari";
+"freemium sheet safari desc" = "Enable our extension in Safari to get essential protection while you browse. It blocks annoying ads — including video ads on YouTube — so you can enjoy a cleaner, faster web experience.";
+"freemium sheet safari cta" = "Open Safari";
