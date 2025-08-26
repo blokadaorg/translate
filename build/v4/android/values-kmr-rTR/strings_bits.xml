@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_touch">Tap or hold to configure</string>
-    <string name="home_blokada_disabled">Blokada is paused</string>
-    <string name="home_blokada_active">Blokada is active</string>
-    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
-    <string name="home_blokada_inactive">Blokada is deactivated</string>
-    <string name="home_activating">Activating</string>
+    <string name="home_touch">Ji bo veavakirinê bitikîne an bigire</string>
+    <string name="home_blokada_disabled">Blokada rawestîye</string>
+    <string name="home_blokada_active">Blokada çalak e</string>
+    <string name="home_blokada_active_protected">Blokada Plus çalak e, û Têkiliyeya Te ya Internetê parastî ye</string>
+    <string name="home_blokada_inactive">Blokada neçalak bûye</string>
+    <string name="home_activating">Çalak dike</string>
     <string name="home_please_wait">Ji kerema xwe bisekine...</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
+    <string name="home_vpn_only">Blokada Plus çalak e bê astengkirina reklaman</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Blokada is active in DNS mode</string>
+    <string name="home_dns_only">Blokada di moda DNS de çalak e</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s blocked since %s</string>
-    <string name="home_masterswitch_enabled">Blokada is on</string>
-    <string name="home_masterswitch_waiting">Waiting for network...</string>
+    <string name="home_requests_blocked_since">%s ji %s ve asteng kirin</string>
+    <string name="home_masterswitch_enabled">Blokada çalak e</string>
+    <string name="home_masterswitch_waiting">Li benda torê...</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Tell your friends</string>
-    <string name="home_share_state">Share your Blokada score</string>
-    <string name="home_share_state_google">Help others to learn about Blokada</string>
-    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
-    <string name="home_adblocking_enabled">Ad blocking is active</string>
-    <string name="home_adblocking_disabled">Ad blocking is deactivated</string>
-    <string name="home_blokadaorg">You are using Blokada Slim</string>
-    <string name="home_blokadaorg_state">Tap to get the open source edition</string>
+    <string name="home_share">Hevalên xwe bêje</string>
+    <string name="home_share_state">Skora xwe ya Blokada parve bike</string>
+    <string name="home_share_state_google">Alîkarî bike ku kesên din li ser Blokada fêr bibin</string>
+    <string name="home_share_msg_google">Blokada Slim ceribîne û taybetmendiyên xwe parastî bimîne! Li Google Play bistîne.</string>
+    <string name="home_adblocking_enabled">Astengkirina reklaman çalak e</string>
+    <string name="home_adblocking_disabled">Astengkirina reklaman neçalak bûye</string>
+    <string name="home_blokadaorg">Hûn Blokada Slim têne bikar anîn</string>
+    <string name="home_blokadaorg_state">Ji bo wergirtina guhertoya çavkaniyê bitikîne</string>
     <!-- A short text for the item that displays update information -->
-    <string name="home_whats_new">What\'s new?</string>
-    <string name="home_update_required">Update required</string>
+    <string name="home_whats_new">Çi nû ye?</string>
+    <string name="home_update_required">Nûvekirin pêwîst e</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Bexş bike</string>
-    <string name="home_vpn_enabled">Blokada Plus is active</string>
-    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
-    <string name="home_account_active">Your account is still active</string>
-    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
-    <string name="home_cleanup">Cleanup recommended</string>
+    <string name="home_vpn_enabled">Blokada Plus çalak e</string>
+    <string name="home_vpn_disabled">Blokada Plus neçalak bûye</string>
+    <string name="home_account_active">Hesabê te hîn jî çalak e</string>
+    <string name="home_connecting_vpn">Bi Blokada Plus ve girêdayî</string>
+    <string name="home_cleanup">Paqijkirin pêşniyar e</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Connected to Blokada Plus</string>
-    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
-    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
-    <string name="home_account_error">Could not verify account. Are you online?</string>
-    <string name="home_permission_error">Please grant VPN permissions.</string>
-    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
-    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
-    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
+    <string name="home_connected_vpn">Bi Blokada Plus ve girêdayî</string>
+    <string name="home_boringtun_not_loaded">Bibore, amûra te ji hêla Blokada Plus ve nepiştgirî ye. Hûn dikarin hîn jî taybetmendiyên din bikar bînin.</string>
+    <string name="home_blocka_vpn_error">Nikare li deriyê girêdayî bibe. Ma hûn li ser torê ne?</string>
+    <string name="home_account_error">Nikare hesabê kontrol bike. Ma hûn li ser torê ne?</string>
+    <string name="home_permission_error">Ji kerema xwe destûrên VPNê bidin.</string>
+    <string name="home_zero_filters_error">Hûn filterên xwe saz nekirine. Sazkirinên astengkirina reklam û WiFi kontrol bikin.</string>
+    <string name="home_filters_memory_error">Hin listeyên nikaribûn barkirin; di sazkirina astengkirina reklamê de listeyên kêm hilbijêrin.</string>
+    <string name="tasker_switch_label">Ji bo çalak kirin (an jî vegerandin) li ser yek ji vebijarkan bitikîne da ku triggerê te bikar bîne.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
-    <string name="menu_ads">Ads</string>
-    <string name="menu_ads_live_label">Host log of allowed and blocked requests</string>
-    <string name="menu_ads_clear_log">Clear host log</string>
-    <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
-    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
-    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
+    <string name="menu_ads">Reklam</string>
+    <string name="menu_ads_live_label">Tomara daxwazên destûrkirî û astengkirî</string>
+    <string name="menu_ads_clear_log">Tomarê paqij bike</string>
+    <string name="menu_ads_lists_label">Listeyên ji bo astengkirinê hilbijêre. Hilbijartinên xwerû ji bo piraniya kesan baş in.</string>
+    <string name="menu_ads_rules_label">Rêzên xwe zêde bike da ku astengkirin bi rûmetir saz bike.</string>
+    <string name="menu_ads_log_label">Binihêre çi nû asteng kirin an destûr dan.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
-    <string name="menu_vpn_activate_account">Please activate your account first.</string>
-    <string name="menu_vpn_select_gateway">Please select a gateway.</string>
-    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
+    <string name="menu_vpn_activate_account">Ji kerema xwe berî her tiştî hesabê xwe çalak bike.</string>
+    <string name="menu_vpn_select_gateway">Ji kerema xwe yek deriyê girêdanê hilbijêre.</string>
+    <string name="menu_vpn_intro_button">Blokada Plusê çima pêwîst e?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">My Blokada Plus</string>
-    <string name="menu_vpn_account_id">ID: %s</string>
+    <string name="menu_vpn_account">Blokada Plusê min</string>
+    <string name="menu_vpn_account_id">Nasname: %s</string>
     <!-- A button opening VPN gateways settings -->
-    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_gateways">Deriyên torê</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Amûrên</string>
-    <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
-    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
-    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
+    <string name="menu_vpn_manage_subscription">Aboneyê hesabê xwe rêveberî bike</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Heke hesabê te nû ye, malpera me sererast bike. Li Blokada Slim nikarî aboneyek bikirrî.</string>
+    <string name="menu_vpn_account_secret">Ji bo dîtina nasnameya hesabê xwe, li ser avatarê xwe li jor bitikîne. Bîra xwe bimîne, nasnameya te taybet e û divê hûn ew bi xwe re bimînin. Ji bo ku sepanê sepanê jêbirin, wê ji nû ve binivîsin.</string>
+    <string name="menu_vpn_restore_label">Li vir dikarî hesabê xwe yên heyî vegerînin, mînakî heke sepanê sepanê ji nû ve saz kir.</string>
+    <string name="menu_vpn_intro">Bi Blokada Plus daneyên te şîfre dikin, navnîşana IP ya te veşartî ye, û cîhê te guhertî ye.</string>
+    <string name="menu_vpn_account_label">Ji bo bikarhênana VPNê, hesabek çalak pêwîst e. Li vir hesabê xwe kontrol bike an vegerîne.</string>
     <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
     <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
     <string name="menu_vpn_support_button">Piştevanî</string>
