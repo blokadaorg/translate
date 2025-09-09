@@ -1,5 +1,5 @@
 export default {
-    "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl", "sv"],
+    "langs": ["pl", "de", "es", "it", "hi", "ru", "bg", "tr", "ja", "id", "cs", "zh-Hant", "ar", "fi", "ro", "pt-BR", "fr", "hu", "nl", "sv", "pt"],
     "langs-android": {
         "id": "in",
         "zh-Hant": "zh",
