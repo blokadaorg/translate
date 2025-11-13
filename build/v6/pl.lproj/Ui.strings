@@ -806,28 +806,28 @@
 "domain details header subdomains" = "Subdomeny";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "%@ request(s) to %@ were blocked";
-"domain details summary allowed basic" = "%@ request(s) to %@ were allowed";
-"domain details summary blocked basic customlist" = "%@ request(s) to %@ were blocked by your rules";
-"domain details summary allowed basic customlist" = "%@ request(s) to %@ were allowed by your rules";
-"domain details summary blocked basic list" = "%@ request(s) to %@ were blocked by %@";
-"domain details summary allowed basic list" = "%@ request(s) to %@ were allowed by %@";
+"domain details summary blocked basic" = "%@ żądania(e) do %@ zostały(o) zablokowane";
+"domain details summary allowed basic" = "%@ żądania(e) do %@ zostały(o) zezwolone";
+"domain details summary blocked basic customlist" = "%@ żądania(e) do %@ zostały(o) zablokowane przez Twoje reguły";
+"domain details summary allowed basic customlist" = "%@ żądania(e) do %@ zostały(o) zezwolone przez Twoje reguły";
+"domain details summary blocked basic list" = "%@ żądania(e) do %@ zostały(o) zablokowane przez %@";
+"domain details summary allowed basic list" = "%@ żądania(e) do %@ zostały(o) zezwolone przez %@";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "%@ request(s) to subdomains of %@ were blocked";
-"domain details summary allowed subdomain" = "%@ request(s) to subdomains of %@ were allowed";
-"domain details summary blocked subdomain customlist" = "%@ request(s) to subdomains of %@ were blocked by your rules";
-"domain details summary allowed subdomain customlist" = "%@ request(s) to subdomains of %@ were allowed by your rules";
-"domain details summary blocked subdomain list" = "%@ request(s) to subdomains of %@ were blocked by %@";
-"domain details summary allowed subdomain list" = "%@ request(s) to subdomains of %@ were allowed by %@";
+"domain details summary blocked subdomain" = "%@ żądania(e) do subdomen %@ zostały(o) zablokowane";
+"domain details summary allowed subdomain" = "%@ żądania(e) do subdomen %@ zostały(o) zezwolone";
+"domain details summary blocked subdomain customlist" = "%@ żądania(e) do subdomen %@ zostały(o) zablokowane przez Twoje reguły";
+"domain details summary allowed subdomain customlist" = "%@ żądania(e) do subdomen %@ zostały(o) zezwolone przez Twoje reguły";
+"domain details summary blocked subdomain list" = "%@ żądania(e) do subdomen %@ zostały(o) zablokowane przez %@";
+"domain details summary allowed subdomain list" = "%@ żądania(e) do subdomen %@ zostały(o) zezwolone przez %@";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked";
-"domain details summary allowed both" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed";
-"domain details summary blocked both customlist" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked by your rules";
-"domain details summary allowed both customlist" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed by your rules";
-"domain details summary blocked both list" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked by %@";
-"domain details summary allowed both list" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed by %@";
+"domain details summary blocked both" = "%@ żądania(e) do %@ zostały(o) zablokowane i %@ żądania(e) do ich subdomen zostały(o) także zablokowane";
+"domain details summary allowed both" = "%@ żądania(e) do %@ zostały(o) zezwolone i %@ żądania(e) do ich subdomen zostały(o) także zezwolone";
+"domain details summary blocked both customlist" = "%@ żądania(e) do %@ zostały(o) zablokowane i %@ żądania(e) do ich subdomen zostały(o) także zablokowane przez Twoje reguły";
+"domain details summary allowed both customlist" = "%@ żądania(e) do %@ zostały(o) zezwolone i %@ żądania(e) do ich subdomen zostały(o) także zezwolone przez Twoje reguły";
+"domain details summary blocked both list" = "%@ żądania(e) do %@ zostały(o) zablokowane i %@ żądania(e) do ich subdomen zostały(o) także zablokowane przez %@";
+"domain details summary allowed both list" = "%@ żądania(e) do %@ zostały(o) zezwolone i %@ żądania(e) do ich subdomen zostały(o) także zezwolone przez %@";
 
 // Param: domain name
 "domain details summary none" = "Brak zapytań do %@ lub poddomen";
@@ -836,21 +836,21 @@
 "dialog rule auto" = "Użyj automatycznej ochrony";
 "dialog rule auto desc" = "Zablokuj lub zezwól na tą domenę na podstawie wybranych filtrów.\n(ustawienie domyślne)";
 
-"dialog rule domain block" = "Always block this domain";
+"dialog rule domain block" = "Zawsze blokuj tą domenę";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and block traffic to %@.";
+"dialog rule domain desc block" = "Ignoruj filtry i blokuj ruch do %@.";
 
-"dialog rule domain allow" = "Always allow this domain";
+"dialog rule domain allow" = "Zawsze zezwalaj tą domenę";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and let traffic through to %@.";
+"dialog rule domain desc allow" = "Ignoruj filtry i zezwalaj na ruch do %@.";
 
-"dialog rule subdomains block" = "Always block this domain and subdomains";
+"dialog rule subdomains block" = "Zawsze blokuj tą domenę i subdomeny";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and all addresses under it.";
+"dialog rule subdomains desc block" = "Blokuj ruch do %@ i wszystkie adresy pod nim.";
 
-"dialog rule subdomains allow" = "Always allow this domain and subdomains";
+"dialog rule subdomains allow" = "Zawsze zezwalaj na tę domenę i subdomeny";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Let traffic through to %@ and all addresses under it.";
+"dialog rule subdomains desc allow" = "Zezwalaj na ruch do %@ i wszystkie adresy pod nim.";
 
 
 // Name to refer to user's list of blocked exceptions
