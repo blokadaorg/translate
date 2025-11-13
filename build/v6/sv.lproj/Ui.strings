@@ -107,7 +107,7 @@
 "universal status restart required" = "Starta om appen för att ändringarna ska träda i kraft.";
 "universal status redirect" = "Fortsätt med Blokada-appen";
 "universal status confirm" = "Är du säker du vill fortsätta?";
-"universal status loading" = "Loading...";
+"universal status loading" = "Laddar...";
 
 "alert error header" = "Hoppsan!";
 "alert vpn expired header" = "BLOKADA+ löpte ut";
@@ -246,7 +246,7 @@
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Visar tillfällen för: %@";
 // A switch to enable exact search matching (vs fuzzy match). Keep it 2-3 words
-"activity filter exact match" = "Exact match";
+"activity filter exact match" = "Exakt matchning";
 "activity empty text" = "Kom tillbaka hit när du har använt din enhet ett tag, för att se var din enhet ansluter.";
 "activity device filter show all" = "Alla enheter";
 "activity retention header" = "Ska vi lagra din aktivitet?";
@@ -787,50 +787,50 @@
 "freemium sheet safari desc" = "Aktivera vårt tillägg i Safari för att få grundläggande skydd när du surfar. Det blockerar irriterande annonser – även videoannonser på YouTube – för en renare och snabbare webbupplevelse.";
 "freemium sheet safari cta" = "Öppna Safari";
 
-"dialog title activity rule" = "What should happen to traffic to %@?";
-"dialog exception add title" = "Add exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You may use a star as a wildcard: *.example.com";
+"dialog title activity rule" = "Vad ska hända med trafiken till %@?";
+"dialog exception add title" = "Lägg till undantag";
+"dialog exception add text" = "Ange ett värdnamn för att lägga till i dina undantag. Du kan använda en stjärna som wildcard: *.example.com";
 
-"domain details section header" = "Domain Details";
+"domain details section header" = "Domändetaljer";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Rules";
-"domain details add rule action" = "Add Rule";
-"domain details add rule brief" = "Create rule for this domain";
+"domain details rules section header" = "Dina regler";
+"domain details add rule action" = "Lägg till regel";
+"domain details add rule brief" = "Skapa regel för denna domän";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matched Rule";
+"domain details edit rule action" = "Redigera matchade regler";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Matches %@";
-"domain details action search subdomains" = "Search subdomains";
+"domain details edit rule brief" = "Matchar %@";
+"domain details action search subdomains" = "Sök underdomäner";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "Underdomäner";
 
 // Example: 29 requests to apple.com were allowed
-"domain details summary" = "%@ requests to %@ were %@";
+"domain details summary" = "%@ förfrågningar till %@ var %@";
 // Action used in the summary text
-"domain details summary action allowed" = "allowed";
+"domain details summary action allowed" = "tillåtna";
 // Action used in the summary text
-"domain details summary action blocked" = "blocked";
+"domain details summary action blocked" = "blockerade";
 // Param is the domain details summary: '29 requests to apple.com were allowed by your rules'
-"domain details summary reason your rules" = "%@ by your rules";
+"domain details summary reason your rules" = "%@ av dina regler";
 // Param is the domain details summary, and blocklist name: '29 requests to apple.com were allowed by OISD'
-"domain details summary reason list" = "%@ by %@";
+"domain details summary reason list" = "%@ av %@";
 // Example: '29 requests to subdomains of apple.com were allowed'
-"domain details summary subdomain" = "%@ requests to subdomains of %@ were %@";
+"domain details summary subdomain" = "%@ förfrågningar till underdomäner av %@ blev %@";
 // Example: '29 requests to apple.com were allowed and 33 requests to its subdomains were also allowed'
-"domain details summary subdomain alt" = "%@ requests to %@ were %@ and %@ requests to its subdomains were also %@";
-"domain details summary none" = "No requests to %@ or its subdomains";
+"domain details summary subdomain alt" = "%@ förfrågningar till %@ blev %@ och %@ förfrågningar till dess underdomäner blev också %@";
+"domain details summary none" = "Inga förfrågningar till %@ eller dess underdomäner";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use automatic protection";
-"dialog rule auto desc" = "Block or allow this domain based on your selected filters.\n(Default setting)";
+"dialog rule auto" = "Använd automatiskt skydd";
+"dialog rule auto desc" = "Blockera eller tillåt denna domän baserat på dina valda filter.\n(Standardinställning)";
 // A part of the rule description: 'Always allow this domain'
-"dialog rule action allow" = "allow";
+"dialog rule action allow" = "tillåt";
 // A part of the rule long description: 'Ignore filters and let traffic through to example.com'
-"dialog rule action allow desc" = "let traffic through to";
+"dialog rule action allow desc" = "tillåt trafik till";
 // A part of the rule description: 'Always block this domain'
-"dialog rule action block" = "block";
+"dialog rule action block" = "blockera";
 // A part of the rule long description: 'Ignore filters and block traffic to example.com'
-"dialog rule action block desc" = "block traffic to";
+"dialog rule action block desc" = "blockera trafik till";
 // A part of the rule description: 'Always allow this domain'
 "dialog rule domain" = "Always %@ this domain";
 // A part of the rule long description: 'Ignore filters and block traffic to example.com'
