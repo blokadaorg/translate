@@ -811,23 +811,23 @@
 "domain details summary blocked basic customlist" = "%@ requêtes vers %@ ont été bloquées par vos règles";
 "domain details summary allowed basic customlist" = "%@ requêtes à %@ ont été autorisées par vos règles";
 "domain details summary blocked basic list" = "%@ requêtes vers %@ ont été bloquées par %@";
-"domain details summary allowed basic list" = "%@ request(s) to %@ were allowed by %@";
+"domain details summary allowed basic list" = "%@ requêtes à %@ ont été autorisées par %@";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "%@ request(s) to subdomains of %@ were blocked";
-"domain details summary allowed subdomain" = "%@ request(s) to subdomains of %@ were allowed";
-"domain details summary blocked subdomain customlist" = "%@ request(s) to subdomains of %@ were blocked by your rules";
-"domain details summary allowed subdomain customlist" = "%@ request(s) to subdomains of %@ were allowed by your rules";
-"domain details summary blocked subdomain list" = "%@ request(s) to subdomains of %@ were blocked by %@";
-"domain details summary allowed subdomain list" = "%@ request(s) to subdomains of %@ were allowed by %@";
+"domain details summary blocked subdomain" = "%@ requêtes vers les sous-domaines de %@ ont été bloquées";
+"domain details summary allowed subdomain" = "%@ requêtes vers les sous-domaines de %@ ont été autorisées";
+"domain details summary blocked subdomain customlist" = "%@ requêtes vers les sous-domaines de %@ ont été bloquées par vos règles";
+"domain details summary allowed subdomain customlist" = "%@ requêtes vers les sous-domaines de %@ ont été autorisées par vos règles";
+"domain details summary blocked subdomain list" = "%@ requêtes vers les sous-domaines de %@ ont été bloquées par %@";
+"domain details summary allowed subdomain list" = "%@ requêtes vers les sous-domaines de %@ ont été autorisées par %@";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked";
-"domain details summary allowed both" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed";
-"domain details summary blocked both customlist" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked by your rules";
-"domain details summary allowed both customlist" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed by your rules";
-"domain details summary blocked both list" = "%@ request(s) to %@ were blocked and %@ request(s) to its subdomains were also blocked by %@";
-"domain details summary allowed both list" = "%@ request(s) to %@ were allowed and %@ request(s) to its subdomains were also allowed by %@";
+"domain details summary blocked both" = "%@ requêtes vers %@ ont été bloquées et %@ requêtes vers ses sous-domaines ont également été bloquées";
+"domain details summary allowed both" = "%@ requêtes vers %@ ont été autorisées et %@ requêtes vers ses sous-domaines ont également été autorisées";
+"domain details summary blocked both customlist" = "%@ requêtes vers %@ ont été bloquées et %@ requêtes vers ses sous-domaines ont également été bloquées par vos règles";
+"domain details summary allowed both customlist" = "%@ requêtes vers %@ ont été autorisées et %@ requêtes vers ses sous-domaines ont également été autorisées par vos règles";
+"domain details summary blocked both list" = "%@ requêtes vers %@ ont été bloquées et %@ requêtes vers ses sous-domaines ont également été bloquées par %@";
+"domain details summary allowed both list" = "%@ requêtes vers %@ ont été autorisées et %@ requêtes vers ses sous-domaines ont également été autorisées par %@";
 
 // Param: domain name
 "domain details summary none" = "No requests to %@ or its subdomains";
