@@ -807,9 +807,9 @@
 // Example: 29 requests to apple.com were allowed
 "domain details summary" = "%@ zapytań/ia do %@ zostało/y %@";
 // Action used in the summary text
-"domain details summary action allowed" = "zezwolone/ych";
+"domain details summary action allowed" = "zezwolonych/e";
 // Action used in the summary text
-"domain details summary action blocked" = "zablokowane/ych";
+"domain details summary action blocked" = "zablokowanych/e";
 // Param is the domain details summary: '29 requests to apple.com were allowed by your rules'
 "domain details summary reason your rules" = "%@ przez Twoje reguły";
 // Param is the domain details summary, and blocklist name: '29 requests to apple.com were allowed by OISD'
@@ -857,7 +857,7 @@
 // A timespan duration indicator, keep super short
 "privacy pulse timespan 24h" = "24h";
 // Action to show all entries. Keep it very short.
-"privacy pulse timespan show all" = "Pokaż wszystko";
+"privacy pulse timespan show all" = "Więcej";
 // A tab name for Blocked entries
 "privacy pulse tab blocked" = "Zablokowane";
 // A tab name for Allowed entries
