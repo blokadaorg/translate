@@ -813,9 +813,9 @@
 // Param is the domain details summary: '29 requests to apple.com were allowed by your rules'
 "domain details summary reason your rules" = "%@ by your rules";
 // Param is the domain details summary, and blocklist name: '29 requests to apple.com were allowed by OISD'
-"domain details summary reason list" = "%@ by %@";
+"domain details summary reason list" = "%@ от %@";
 // Example: '29 requests to subdomains of apple.com were allowed'
-"domain details summary subdomain" = "%@ requests to subdomains of %@ were %@";
+"domain details summary subdomain" = "%@ запросов к поддоменам из %@ были %@";
 // Example: '29 requests to apple.com were allowed and 33 requests to its subdomains were also allowed'
 "domain details summary subdomain alt" = "%@ requests to %@ were %@ and %@ requests to its subdomains were also %@";
 "domain details summary none" = "No requests to %@ or its subdomains";
