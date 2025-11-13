@@ -810,34 +810,34 @@
 "domain details summary action allowed" = "allowed";
 // Action used in the summary text
 "domain details summary action blocked" = "blocked";
-// Param is the domain details summary: "29 requests to apple.com were allowed by your rules"
+// Param is the domain details summary: '29 requests to apple.com were allowed by your rules'
 "domain details summary reason your rules" = "%@ by your rules";
-// Param is the domain details summary, and blocklist name: "29 requests to apple.com were allowed by OISD"
+// Param is the domain details summary, and blocklist name: '29 requests to apple.com were allowed by OISD'
 "domain details summary reason list = "%@ by %@";
-// Example: "29 requests to subdomains of apple.com were allowed"
+// Example: '29 requests to subdomains of apple.com were allowed'
 "domain details summary subdomain" = "%@ requests to subdomains of %@ were %@";
-// Example: "29 requests to apple.com were allowed and 33 requests to its subdomains were also allowed"
+// Example: '29 requests to apple.com were allowed and 33 requests to its subdomains were also allowed'
 "domain details summary subdomain alt" = "%@ requests to %@ were %@ and %@ requests to its subdomains were also %@";
 "domain details summary none" = "No requests to %@ or its subdomains";
 
 // A rule name to use default configuration
 "dialog rule auto" = "Use automatic protection";
 "dialog rule auto desc" = "Block or allow this domain based on your selected filters.\n(Default setting)";
-// A part of the rule description: "Always allow this domain"
+// A part of the rule description: 'Always allow this domain'
 "dialog rule action allow" = "allow";
-// A part of the rule long description: "Ignore filters and let traffic through to example.com"
+// A part of the rule long description: 'Ignore filters and let traffic through to example.com'
 "dialog rule action allow desc" = "let traffic through to";
-// A part of the rule description: "Always block this domain"
+// A part of the rule description: 'Always block this domain'
 "dialog rule action block" = "block";
-// A part of the rule long description: "Ignore filters and block traffic to example.com"
+// A part of the rule long description: 'Ignore filters and block traffic to example.com'
 "dialog rule action block desc" = "block traffic to";
-// A part of the rule description: "Always allow this domain"
+// A part of the rule description: 'Always allow this domain'
 "dialog rule domain" = "Always %@ this domain";
-// A part of the rule long description: "Ignore filters and block traffic to example.com"
+// A part of the rule long description: 'Ignore filters and block traffic to example.com'
 "dialog rule domain desc" = "Ignore filters and %@ %@.";
-// A part of the rule description: "Always allow this domain and subdomains"
+// A part of the rule description: 'Always allow this domain and subdomains'
 "dialog rule subdomains" = "Always %@ this domain and subdomains";
-// A part of the rule long description: "Block traffic to example.com and all addresses under it"
+// A part of the rule long description: 'Block traffic to example.com and all addresses under it'
 "dialog rule subdomains desc" = "%@ %@ and all addresses under it.";
 
 
@@ -847,7 +847,7 @@
 // Name to refer to user's list of allowed exceptions
 "domain details your rules allowed" = "Your allowed rules";
 
-// A header / button for the Privacy Pulse section. Keep it very short. Can translate to just "Pulse"
+// A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
 "privacy pulse section header" = "Privacy Pulse";
 "privacy pulse brief" = "Recent activity and protection level for this device";
 // A header for Toplists section
