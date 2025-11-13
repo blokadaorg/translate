@@ -835,22 +835,22 @@
 // A rule name to use default configuration
 "dialog rule auto" = "Use automatic protection";
 "dialog rule auto desc" = "Block or allow this domain based on your selected filters.\n(Default setting)";
-// A part of the rule description: 'Always allow this domain'
-"dialog rule action allow" = "allow";
-// A part of the rule long description: 'Ignore filters and let traffic through to example.com'
-"dialog rule action allow desc" = "let traffic through to";
-// A part of the rule description: 'Always block this domain'
-"dialog rule action block" = "block";
-// A part of the rule long description: 'Ignore filters and block traffic to example.com'
-"dialog rule action block desc" = "block traffic to";
-// A part of the rule description: 'Always allow this domain'
-"dialog rule domain" = "Always %@ this domain";
-// A part of the rule long description: 'Ignore filters and block traffic to example.com'
-"dialog rule domain desc" = "Ignore filters and %@ %@.";
-// A part of the rule description: 'Always allow this domain and subdomains'
-"dialog rule subdomains" = "Always %@ this domain and subdomains";
-// A part of the rule long description: 'Block traffic to example.com and all addresses under it'
-"dialog rule subdomains desc" = "%@ %@ and all addresses under it.";
+
+"dialog rule domain block" = "Always block this domain";
+// Param: domain name
+"dialog rule domain desc block" = "Ignore filters and block traffic to %@.";
+
+"dialog rule domain allow" = "Always allow this domain";
+// Param: domain name
+"dialog rule domain desc allow" = "Ignore filters and let traffic through to %@.";
+
+"dialog rule subdomains block" = "Always block this domain and subdomains";
+// Param: domain name
+"dialog rule subdomains desc block" = "Block traffic to %@ and all addresses under it.";
+
+"dialog rule subdomains allow" = "Always allow this domain and subdomains";
+// Param: domain name
+"dialog rule subdomains desc allow" = "Let traffic through to %@ and all addresses under it.";
 
 
 // Name to refer to user's list of blocked exceptions
