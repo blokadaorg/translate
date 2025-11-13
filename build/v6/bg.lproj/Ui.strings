@@ -773,22 +773,22 @@
 "bypass dialog add brief" = "Започнете да пишете, за да търсите приложения.";
 
 // A one-word header to show when app is in freemium status. Can use a synonym: Primary, Basic, make it short.
-"freemium home status header" = "Essentials";
-"freemium home status desc safari" = "Essential protection is active in Safari. Upgrade to unlock full coverage for all apps.";
+"freemium home status header" = "Основни";
+"freemium home status desc safari" = "Основната защита е активна в Safari. Направете надграждане, за да отключите пълната защита за всички приложения.";
 
-"freemium stats cta header" = "Unlock full tracking control";
-"freemium stats cta desc" = "See which trackers are reaching you - and block them.";
-"freemium filters cta header" = "Unlock advanced blocklists";
-"freemium filters cta desc" = "Upgrade your plan to enable advanced protection and extra blocklists.";
-"freemium activity cta header" = "Unlock your stats";
-"freemium activity cta desc" = "Upgrade to Plus to access detailed statistics and insights.";
+"freemium stats cta header" = "Отключете пълният контрол върху проследяването";
+"freemium stats cta desc" = "Вижте кои тракери достигат до вас - и ги блокирайте.";
+"freemium filters cta header" = "Отключете разширени блокиращи списъци";
+"freemium filters cta desc" = "Актуализирайте плана си, за да активирате разширената защита и допълнителните блокиращи списъци.";
+"freemium activity cta header" = "Отключете статистиките си";
+"freemium activity cta desc" = "Направете надграждане към Plus, за да получите достъп до подробни статистики и анализи.";
 
-"freemium sheet safari header" = "Start blocking ads in Safari";
-"freemium sheet safari desc" = "Enable our extension in Safari to get essential protection while you browse. It blocks annoying ads — including video ads on YouTube — so you can enjoy a cleaner, faster web experience.";
-"freemium sheet safari cta" = "Open Safari";
+"freemium sheet safari header" = "Започнете да блокирате рекламите в Safari";
+"freemium sheet safari desc" = "Активирайте нашето разширение в Safari, за да получите необходимата защита докато сърфирате. То блокира досадните реклами, включително видео рекламите в YouTube, така ще можете да се насладите на по-чисто и по-бързо сърфиране в интернет.";
+"freemium sheet safari cta" = "Отваряне на Safari";
 
 "dialog title activity rule" = "Какво трябва да се случи с трафика към %@?";
-"dialog exception add title" = "Добави изключение";
+"dialog exception add title" = "Добавяне на изключение";
 "dialog exception add text" = "Въведете име на хост, което да добавите към изключенията си. Можете да използвате звезда като заместващ символ: *.example.com";
 
 "domain details section header" = "Подробности за домейна";
@@ -802,33 +802,33 @@
 "domain details edit rule brief" = "Съответства на %@";
 "domain details action search subdomains" = "Търсене на поддомейни";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Поддомейн";
+"domain details header subdomains" = "Поддомейни";
 
 // Example: 29 requests to apple.com were allowed
 "domain details summary" = "%@ заявки към %@ бяха %@";
 // Action used in the summary text
-"domain details summary action allowed" = "позволено";
+"domain details summary action allowed" = "разрешен";
 // Action used in the summary text
-"domain details summary action blocked" = "блокирано";
+"domain details summary action blocked" = "блокиран";
 // Param is the domain details summary: '29 requests to apple.com were allowed by your rules'
 "domain details summary reason your rules" = "%@ по твоите правила";
 // Param is the domain details summary, and blocklist name: '29 requests to apple.com were allowed by OISD'
-"domain details summary reason list" = "%@ by %@";
+"domain details summary reason list" = "%@ към %@";
 // Example: '29 requests to subdomains of apple.com were allowed'
-"domain details summary subdomain" = "%@ requests to subdomains of %@ were %@";
+"domain details summary subdomain" = "%@ заявки към поддомейна на %@ бяха %@";
 // Example: '29 requests to apple.com were allowed and 33 requests to its subdomains were also allowed'
 "domain details summary subdomain alt" = "%@ заявки към %@ бяха %@ и %@ заявки към неговите поддомейни също бяха %@";
 "domain details summary none" = "Няма заявки към %@ или неговите поддомейни";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Използвай за автоматична защита";
+"dialog rule auto" = "Използвай автоматична защита";
 "dialog rule auto desc" = "Блокирайте или разрешете този домейн въз основа на избраните от вас филтри.\n(Настройка по подразбиране)";
 // A part of the rule description: 'Always allow this domain'
-"dialog rule action allow" = "разрешен";
+"dialog rule action allow" = "разрешавай";
 // A part of the rule long description: 'Ignore filters and let traffic through to example.com'
 "dialog rule action allow desc" = "пропусни трафика към";
 // A part of the rule description: 'Always block this domain'
-"dialog rule action block" = "блокиран";
+"dialog rule action block" = "блокирай";
 // A part of the rule long description: 'Ignore filters and block traffic to example.com'
 "dialog rule action block desc" = "блокирай трафика към";
 // A part of the rule description: 'Always allow this domain'
@@ -848,19 +848,19 @@
 "domain details your rules allowed" = "Вашите правила за разрешаване";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
-"privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "Recent activity and protection level for this device";
+"privacy pulse section header" = "Пулс";
+"privacy pulse brief" = "Последна дейност и ниво на защита за това устройство";
 // A header for Toplists section
-"privacy pulse toplists header" = "Toplists";
+"privacy pulse toplists header" = "Топ списъци";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Последна активност";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "24h";
+"privacy pulse timespan 24h" = "24ч";
 // Action to show all entries. Keep it very short.
-"privacy pulse timespan show all" = "Show All";
+"privacy pulse timespan show all" = "Показване на всичко";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Блокирани";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Разрешени";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show";
+"privacy pulse empty" = "Няма нищо за показване";
