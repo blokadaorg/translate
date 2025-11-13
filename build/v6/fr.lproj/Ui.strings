@@ -107,7 +107,7 @@
 "universal status restart required" = "Veuillez redémarrer l'application pour que les modifications prennent effet.";
 "universal status redirect" = "Continuer avec l'application Blokada";
 "universal status confirm" = "Êtes-vous certain de vouloir continuer ?";
-"universal status loading" = "Loading...";
+"universal status loading" = "Chargement...";
 
 "alert error header" = "Oups !";
 "alert vpn expired header" = "BLOKADA+ a expiré";
@@ -246,7 +246,7 @@
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Affichage pour : %@";
 // A switch to enable exact search matching (vs fuzzy match). Keep it 2-3 words
-"activity filter exact match" = "Exact match";
+"activity filter exact match" = "Correspondance exacte";
 "activity empty text" = "Essayez d'utiliser votre appareil et revenez ici plus tard pour voir à quel endroit votre périphérique se connecte.";
 "activity device filter show all" = "Tous les appareils";
 "activity retention header" = "Devrions-nous stocker votre activité?";
@@ -787,23 +787,23 @@
 "freemium sheet safari desc" = "Activez notre extension dans Safari pour obtenir une protection essentielle pendant que vous naviguez. Il bloque les publicités ennuyeuses — y compris les publicités vidéo sur YouTube — pour que vous puissiez profiter d’une expérience Web plus propre et plus rapide.";
 "freemium sheet safari cta" = "Ouvrez Safari";
 
-"dialog title activity rule" = "What should happen to traffic to %@?";
-"dialog exception add title" = "Add exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You may use a star as a wildcard: *.example.com";
+"dialog title activity rule" = "Que devrait-il arriver au trafic vers %@ ?";
+"dialog exception add title" = "Ajouter une exception";
+"dialog exception add text" = "Saisissez un nom d'hôte à ajouter à vos exceptions. Vous pouvez utiliser l'astérisque comme caractère générique : *.example.com";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Domain Details";
+"domain details section header" = "Détails du domaine";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Rules";
-"domain details add rule action" = "Add Rule";
-"domain details add rule brief" = "Create rule for this domain";
+"domain details rules section header" = "Vos règles";
+"domain details add rule action" = "Ajouter une règle";
+"domain details add rule brief" = "Créer une règle pour ce domaine";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matched Rule";
+"domain details edit rule action" = "Règle correspondante à modifier";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Matches %@";
-"domain details action search subdomains" = "Search subdomains";
+"domain details edit rule brief" = "Correspondances %@";
+"domain details action search subdomains" = "Recherche dans les sous-domaines";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "Sous-domaines";
 
 // Example: 29 request(s) to apple.com were blocked
 "domain details summary blocked basic" = "%@ requêtes vers %@ ont été bloquées";
@@ -830,49 +830,49 @@
 "domain details summary allowed both list" = "%@ requêtes vers %@ ont été autorisées et %@ requêtes vers ses sous-domaines ont également été autorisées par %@";
 
 // Param: domain name
-"domain details summary none" = "No requests to %@ or its subdomains";
+"domain details summary none" = "Aucune requête vers %@ ou ses sous-domaines";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use automatic protection";
-"dialog rule auto desc" = "Block or allow this domain based on your selected filters.\n(Default setting)";
+"dialog rule auto" = "Utilisez la protection automatique";
+"dialog rule auto desc" = "Bloquez ou autorisez ce domaine en fonction des filtres sélectionnés.\n(Paramètre par défaut)";
 
-"dialog rule domain block" = "Always block this domain";
+"dialog rule domain block" = "Bloquez toujours ce domaine";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and block traffic to %@.";
+"dialog rule domain desc block" = "Ignorez les filtres et laissez passer le trafic vers %@.";
 
-"dialog rule domain allow" = "Always allow this domain";
+"dialog rule domain allow" = "Autoriser systématiquement ce domaine";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and let traffic through to %@.";
+"dialog rule domain desc allow" = "Ignorez les filtres et laissez passer le trafic vers %@.";
 
-"dialog rule subdomains block" = "Always block this domain and subdomains";
+"dialog rule subdomains block" = "Bloquez systématiquement ce domaine et ses sous-domaines.";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and all addresses under it.";
+"dialog rule subdomains desc block" = "Bloquer le trafic vers %@ et toutes les adresses qui en dépendent.";
 
-"dialog rule subdomains allow" = "Always allow this domain and subdomains";
+"dialog rule subdomains allow" = "Autoriser systématiquement ce domaine et ses sous-domaines";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Let traffic through to %@ and all addresses under it.";
+"dialog rule subdomains desc allow" = "Autoriser le trafic vers %@ et toutes les adresses qui en dépendent.";
 
 
 // Name to refer to user's list of blocked exceptions
-"domain details your rules blocked" = "Your blocked rules";
+"domain details your rules blocked" = "Vos règles de blocage";
 
 // Name to refer to user's list of allowed exceptions
-"domain details your rules allowed" = "Your allowed rules";
+"domain details your rules allowed" = "Vos règles autorisées";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
-"privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "Recent activity and protection level for this device";
+"privacy pulse section header" = "Pulse de confidentialité";
+"privacy pulse brief" = "Activité récente et niveau de protection de cet appareil";
 // A header for Toplists section
-"privacy pulse toplists header" = "Toplists";
+"privacy pulse toplists header" = "Listes principales";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Activité récente";
 // A timespan duration indicator, keep super short
 "privacy pulse timespan 24h" = "24h";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "Show All";
+"privacy pulse timespan show all" = "Afficher tout";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Bloqué";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Autorisé";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show";
+"privacy pulse empty" = "Rien à afficher";
