@@ -806,73 +806,66 @@
 "domain details header subdomains" = "Underdomäner";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Blocked %@ request(s) to %@.";
-"domain details summary allowed basic" = "Allowed %@ request(s) to %@.";
-"domain details summary blocked basic customlist" = "Your rules blocked %@ request(s) to %@.";
-"domain details summary allowed basic customlist" = "Your rules allowed %@ request(s) to %@.";
-"domain details summary blocked basic list" = "Blocked %@ request(s) to %@ using %@.";
-"domain details summary allowed basic list" = "Allowed %@ request(s) to %@ using %@.";
+"domain details summary blocked basic" = "Blockerade %@ förfrågning(ar) till %@.";
+"domain details summary allowed basic" = "Tillät %@ förfrågning(ar) till %@.";
+"domain details summary blocked basic customlist" = "Dina regler blockerade %@ förfrågning(ar) till %@.";
+"domain details summary allowed basic customlist" = "Dina regler tillät %@ förfrågning(ar) till %@.";
+"domain details summary blocked basic list" = "Blockerade %@ förfrågningar till %@ med %@.";
+"domain details summary allowed basic list" = "Tillät %@ förfrågningar till %@ med %@.";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain" = "Allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain customlist" = "Your rules blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain customlist" = "Your rules allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain list" = "Blocked %@ request(s) to subdomains of %@ using %@.";
-"domain details summary allowed subdomain list" = "Allowed %@ request(s) to subdomains of %@ using %@.";
+"domain details summary blocked subdomain" = "Blockerade %@ förfrågningar till underdomäner av %@.";
+"domain details summary allowed subdomain" = "Tillät %@ förfrågningar till underdomäner av %@.";
+"domain details summary blocked subdomain customlist" = "Dina regler blockerade %@ förfrågningar till underdomäner av %@.";
+"domain details summary allowed subdomain customlist" = "Dina regler tillät %@ förfrågningar till underdomäner av %@.";
+"domain details summary blocked subdomain list" = "Blockerade %@ förfrågningar till underdomäner %@ med %@.";
+"domain details summary allowed subdomain list" = "Tillät %@ förfrågningar till underdomäner %@ med %@.";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both customlist" = "Your rules blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both customlist" = "Your rules allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both list" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
-"domain details summary allowed both list" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
+"domain details summary blocked both" = "Blockerade %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner.";
+"domain details summary allowed both" = "Tillät %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner.";
+"domain details summary blocked both customlist" = "Dina regler blockerade %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner.";
+"domain details summary allowed both customlist" = "Dina regler tillät %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner.";
+"domain details summary blocked both list" = "Blockerade %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner med %@.";
+"domain details summary allowed both list" = "Tillät %@ förfrågningar till %@ och %@ förfrågningar till dess underdomäner med %@.";
 
 // Param: domain name
-"domain details summary none" = "No requests to %@ or its subdomains.";
+"domain details summary none" = "Inga förfrågningar till %@ eller dess underdomäner.";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use Automatic Protection";
-"dialog rule auto desc" = "Block or allow this domain according to your selected filters.\n(Default setting)";
+"dialog rule auto" = "Använd automatiskt skydd";
+"dialog rule auto desc" = "Blockera eller tillåt denna domän baserat på dina valda filter.\n(Standardinställning)";
 
-"dialog rule domain block" = "Always Block This Domain";
+"dialog rule domain block" = "Blockera alltid denna domän";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and always block traffic to %@.";
+"dialog rule domain desc block" = "Ignorera filter och blockera alltid trafik till %@.";
 
-"dialog rule domain allow" = "Always Allow This Domain";
+"dialog rule domain allow" = "Tillåt alltid denna domän";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and always allow traffic to %@.";
+"dialog rule domain desc allow" = "Ignorera filter och tillåt alltid trafik till %@.";
 
-"dialog rule subdomains block" = "Always Block This Domain and Its Subdomains";
+"dialog rule subdomains block" = "Blockera alltid denna domän och dess underdomäner";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc block" = "Blockera trafik till %@ och alla dess underdomäner.";
 
-"dialog rule subdomains allow" = "Always Allow This Domain and Its Subdomains";
+"dialog rule subdomains allow" = "Tillåt alltid denna domän och dess underdomäner";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Allow traffic to %@ and every subdomain beneath it.";
-
-
-// Name to refer to user's list of blocked exceptions
-"domain details your rules blocked" = "Custom Block Rules";
-
-// Name to refer to user's list of allowed exceptions
-"domain details your rules allowed" = "Custom Allow Rules";
+"dialog rule subdomains desc allow" = "Tillåt trafik till %@ och alla dess underdomäner.";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
 "privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "See recent activity and the protection status of this device.";
+"privacy pulse brief" = "Se den senaste aktiviteten och skyddsstatusen för denna enhet.";
 // A header for Toplists section
-"privacy pulse toplists header" = "Top domains";
+"privacy pulse toplists header" = "Toppdomäner";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Senaste aktivitet";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "Last 24 h";
+"privacy pulse timespan 24h" = "Senaste 24 h";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "See All";
+"privacy pulse timespan show all" = "Se alla";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Blockerad";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Tillåten";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show yet";
+"privacy pulse empty" = "Inget att visa ännu";
