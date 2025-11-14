@@ -246,7 +246,7 @@
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Visar tillfällen för: %@";
 // A switch to enable exact search matching (vs fuzzy match). Keep it 2-3 words
-"activity filter exact match" = "Exact Match Only";
+"activity filter exact match" = "Endast exakt matchning";
 "activity empty text" = "Kom tillbaka hit när du har använt din enhet ett tag, för att se var din enhet ansluter.";
 "activity device filter show all" = "Alla enheter";
 "activity retention header" = "Ska vi lagra din aktivitet?";
@@ -787,21 +787,21 @@
 "freemium sheet safari desc" = "Aktivera vårt tillägg i Safari för att få grundläggande skydd när du surfar. Det blockerar irriterande annonser – även videoannonser på YouTube – för en renare och snabbare webbupplevelse.";
 "freemium sheet safari cta" = "Öppna Safari";
 
-"dialog title activity rule" = "How Should Blokada Handle Traffic to %@?";
-"dialog exception add title" = "Add an Exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You can use * as a wildcard, for example *.example.com.";
+"dialog title activity rule" = "Hur bör Blokada hantera trafik till %@?";
+"dialog exception add title" = "Lägg till ett undantag";
+"dialog exception add text" = "Ange ett värdnamn för att lägga till i dina undantag. Du kan använda * som wildcard, t.ex. *.example.com.";
 
 // Keep it very short. Can be just 'Details'.
 "domain details section header" = "Domändetaljer";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Custom Rules";
-"domain details add rule action" = "Add a Rule";
-"domain details add rule brief" = "Create a rule for this domain.";
+"domain details rules section header" = "Dina egna regler";
+"domain details add rule action" = "Lägg till en regel";
+"domain details add rule brief" = "Skapa en regel för denna domän.";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matching Rule";
+"domain details edit rule action" = "Redigera matchade regel";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Applies to %@.";
-"domain details action search subdomains" = "Search Subdomains";
+"domain details edit rule brief" = "Gäller %@.";
+"domain details action search subdomains" = "Sök underdomäner";
 // Just one word header for Subdomains section
 "domain details header subdomains" = "Underdomäner";
 
