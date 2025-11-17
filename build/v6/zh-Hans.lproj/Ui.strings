@@ -787,85 +787,86 @@
 "freemium sheet safari desc" = "在 Safari 中启用我们的扩展程序，以获得基础浏览保护。它可以屏蔽烦人的广告 —— 包括 YouTube 视频广告 —— 让你享受更清爽、更快速的网页体验。";
 "freemium sheet safari cta" = "打开 Safari";
 
-"dialog title activity rule" = "How Should Blokada Handle Traffic to %@?";
-"dialog exception add title" = "Add an Exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You can use * as a wildcard, for example *.example.com.";
+"dialog title activity rule" = "Blokada 应如何处理前往 %@ 的流量？";
+"dialog exception add title" = "添加例外";
+"dialog exception add text" = "输入要添加到例外列表中的主机名。你可以使用 * 作为通配符，例如 *.example.com。";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Domain Details";
+"domain details section header" = "域名详情";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Custom Rules";
-"domain details add rule action" = "Add a Rule";
-"domain details add rule brief" = "Create a rule for this domain.";
+"domain details rules section header" = "你的自定义规则";
+"domain details add rule action" = "添加规则";
+"domain details add rule brief" = "为此域名创建规则。";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matching Rule";
+"domain details edit rule action" = "编辑匹配的规则";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Applies to %@.";
-"domain details action search subdomains" = "Search Subdomains";
+"domain details edit rule brief" = "适用于 %@。";
+"domain details action search subdomains" = "搜索子域名";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "子域名";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Blocked %@ request(s) to %@.";
-"domain details summary allowed basic" = "Allowed %@ request(s) to %@.";
-"domain details summary blocked basic customlist" = "Your rules blocked %@ request(s) to %@.";
-"domain details summary allowed basic customlist" = "Your rules allowed %@ request(s) to %@.";
-"domain details summary blocked basic list" = "Blocked %@ request(s) to %@ using %@.";
-"domain details summary allowed basic list" = "Allowed %@ request(s) to %@ using %@.";
+"domain details summary blocked basic" = "已阻止 %@ 次前往 %@ 的请求。";
+"domain details summary allowed basic" = "已允许 %@ 次前往 %@ 的请求。";
+"domain details summary blocked basic customlist" = "你的规则已阻止 %@ 次前往 %@ 的请求。";
+"domain details summary allowed basic customlist" = "你的规则已允许 %@ 次前往 %@ 的请求。";
+"domain details summary blocked basic list" = "使用 %@ 阻止了 %@ 次前往 %@ 的请求。";
+"domain details summary allowed basic list" = "使用 %@ 允许了 %@ 次前往 %@ 的请求。";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain" = "Allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain customlist" = "Your rules blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain customlist" = "Your rules allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain list" = "Blocked %@ request(s) to subdomains of %@ using %@.";
-"domain details summary allowed subdomain list" = "Allowed %@ request(s) to subdomains of %@ using %@.";
+"domain details summary blocked subdomain" = "已阻止 %@ 次前往 %@ 的子域名的请求。";
+"domain details summary allowed subdomain" = "已允许 %@ 次前往 %@ 的子域名的请求。";
+"domain details summary blocked subdomain customlist" = "你的规则已阻止 %@ 次前往 %@ 的子域名的请求。";
+"domain details summary allowed subdomain customlist" = "你的规则已允许 %@ 次前往 %@ 的子域名的请求。";
+"domain details summary blocked subdomain list" = "使用 %@ 阻止了 %@ 次前往 %@ 的子域名的请求。";
+"domain details summary allowed subdomain list" = "使用 %@ 允许了 %@ 次前往 %@ 的子域名的请求。";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both customlist" = "Your rules blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both customlist" = "Your rules allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both list" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
-"domain details summary allowed both list" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
+"domain details summary blocked both" = "已阻止 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
+"domain details summary allowed both" = "已允许 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
+"domain details summary blocked both customlist" = "你的规则已阻止 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
+"domain details summary allowed both customlist" = "你的规则已允许 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
+"domain details summary blocked both list" = "使用 %@ 阻止了 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
+"domain details summary allowed both list" = "使用 %@ 允许了 %@ 次前往 %@ 的请求，以及 %@ 次前往其子域名的请求。";
 
 // Param: domain name
-"domain details summary none" = "No requests to %@ or its subdomains.";
+"domain details summary none" = "没有前往 %@ 或其子域名的请求。";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use Automatic Protection";
-"dialog rule auto desc" = "Block or allow this domain according to your selected filters.\n(Default setting)";
+"dialog rule auto" = "使用自动保护";
+"dialog rule auto desc" = "根据你选择的过滤器来阻止或允许此域名。
+\n（默认设置）";
 
-"dialog rule domain block" = "Always Block This Domain";
+"dialog rule domain block" = "始终阻止此域名";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and always block traffic to %@.";
+"dialog rule domain desc block" = "忽略过滤器并始终阻止前往 %@ 的流量。";
 
-"dialog rule domain allow" = "Always Allow This Domain";
+"dialog rule domain allow" = "始终允许此域名";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and always allow traffic to %@.";
+"dialog rule domain desc allow" = "忽略过滤器并始终允许前往 %@ 的流量。";
 
-"dialog rule subdomains block" = "Always Block This Domain and Its Subdomains";
+"dialog rule subdomains block" = "始终阻止此域名及其子域名";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc block" = "阻止前往 %@ 及其所有子域名的流量。";
 
-"dialog rule subdomains allow" = "Always Allow This Domain and Its Subdomains";
+"dialog rule subdomains allow" = "始终允许此域名及其子域名";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Allow traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc allow" = "允许前往 %@ 及其所有子域名的流量。";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
-"privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "See recent activity and the protection status of this device.";
+"privacy pulse section header" = "隐私脉搏";
+"privacy pulse brief" = "查看此设备的近期活动和保护状态。";
 // A header for Toplists section
-"privacy pulse toplists header" = "Top domains";
+"privacy pulse toplists header" = "热门域名";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "最近活动";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "Last 24 h";
+"privacy pulse timespan 24h" = "最近 24 小时";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "See All";
+"privacy pulse timespan show all" = "查看全部";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "已阻止";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "已允许";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show yet";
+"privacy pulse empty" = "暂无内容";
