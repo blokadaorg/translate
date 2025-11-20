@@ -67,46 +67,52 @@
 "account encrypt header level" = "加密级别";
 "account encrypt label level" = "级别";
 "account encrypt label level low" = "低：无加密";
-"account encrypt label level medium" = "中级：加密DNS";
-"account encrypt label level high" = "高级：加密所有";
-"account encrypt header explanation" = "DNS 是您的设备如何知道在哪里查找网站。BLOKADA 只支持加密的服务器。";
+"account encrypt label level medium" = "中：仅加密 DNS";
+"account encrypt label level high" = "高：全部加密";
+"account encrypt header explanation" = "DNS 是您的设备知道如何访问网站的方式。BLOKADA 仅支持加密服务器。";
 "account encrypt label dns" = "DNS";
-"account encrypt action what is dns" = "什么是 DNS？";
+"account encrypt action what is dns" = "DNS 是什么？";
 "account encrypt section header" = "加密";
 "account encrypt section blocka dns" = "Blokada DNS";
-"account encrypt label use blocka dns" = "在Plus模式下使用 Blokada DNS";
+"account encrypt label use blocka dns" = "在 Plus 模式下使用 Blokada DNS";
 
-"apps section header" = "应用程序";
+"apps section header" = "应用";
 "apps label installed" = "已安装";
 "apps label system" = "系统";
-"apps status bypassed" = "(免予拦截)";
-"apps filter header" = "您想看到哪个应用？";
-"apps filter action show all" = "所有应用";
-"apps filter action show bypassed" = "仅免予拦截的应用";
-"apps filter action show not bypassed" = "除免予拦截的之外";
-"apps filter action toggle system" = "选中/取消选中所有系统应用";
+"apps status bypassed" = "（已绕过）";
+"apps filter header" = "您想查看哪些应用？";
+"apps filter action show all" = "全部应用";
+"apps filter action show bypassed" = "仅绕过的";
+"apps filter action show not bypassed" = "仅未绕过的";
+"apps filter action toggle system" = "切换全部系统应用";
 
 "app settings language label" = "语言";
 "app settings theme label" = "应用主题";
-"app settings theme light" = "轻亮色调";
-"app settings theme dark" = "暗黑色调";
+"app settings theme light" = "浅色";
+"app settings theme dark" = "深色";
 // A setting for changing if to open links internally in the app, or by using this device's web browser
-"app settings browser label" = "重定向到";
+"app settings browser label" = "链接重定向至";
 "app settings browser internal" = "内置浏览器";
-"app settings browser external" = "外部浏览器(如果可能)";
+"app settings browser external" = "外部浏览器（如可用）";
 "app settings ipv6 label" = "允许 IPv6";
 "app settings section system" = "系统";
 "app settings action app info" = "打开应用信息";
-"app settings action vpn profile" = "打开 VPN 配置文件";
+"app settings action vpn profile" = "打开 VPN 配置";
 "app settings action notifications" = "打开通知设置";
-"app settings section details" = "详细信息";
+"app settings section details" = "详情";
 "app settings status default" = "系统默认";
-"app settings start on boot" = "开机自启动";
-"app settings use dns over https" = "在 HTTPS 上使用DNS";
+"app settings start on boot" = "开机启动";
+"app settings use dns over https" = "使用 DNS over HTTPS";
 "app settings backup" = "使用云备份";
-"app settings section advanced" = "高级选项";
-"app settings section use foreground" = "常驻通知栏";
+"app settings section advanced" = "高级";
+"app settings section use foreground" = "保活";
 
-"intro header" = "Blokada 正在运行！";
-"intro text" = "蓝色环意味着Blokada正在工作。\n\n记住，一些广告，如YouTube，不能被拦截。 然而，您将注意到许多其他应用中的差异。\n\n我们建议您在系统设置中始终启用 VPN / 连接需求。";
-"intro text not libre" = "蓝色或橙色环表示Blokada正在工作。\n\n我们建议您在系统设置中始终激活VPN。";
+"intro header" = "Blokada 已激活！";
+"intro text" = "蓝色圆环代表 Blokada 正在运行。
+
+请注意，有些广告（如 YouTube）无法屏蔽。但在许多应用中您将看到变化。
+
+我们建议您在系统设置中启用“始终开启 VPN / 按需连接”。";
+"intro text not libre" = "蓝色或橙色圆环代表 Blokada 正在运行。
+
+我们建议您在系统设置中启用“始终开启 VPN”。";
