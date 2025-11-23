@@ -1,24 +1,24 @@
-这是 App Store 上的官方应用，来自 Blokada 开源项目。
+这是 Blokada 开源项目在 App Store 上的官方应用程序。
 
-Blokada iOS 版是一个免费应用，它使用 DNS (Domain name System) 服务器，让您可以有一个没有广告的浏览体验，只会看到您想要的内容。
+Blokada for iOS 是一款免费 app，使用 DNS（域名系统）服务器，让您畅享无广告的浏览体验，仅看到您想要的内容。
 
-同时，您也可使用我们内置的 VPN。 使用 Blokada Plus VPN 您可以隐私地浏览网络并保护您的互联网免遭网络攻击和黑客破坏。
+还内置了可选的 VPN。 使用 Blokada Plus VPN，您可以保护隐私安全浏览互联网，抵御网络攻击和黑客。
 
 ----
 
 主要功能：
 
-- 支持为每个网页浏览器和其他已安装的应用程序拦截广告。
-- 拦截传播恶意内容、病毒的网页和欺诈网站。
-- 适用于所有现代浏览器的 DNS 拦截功能（VPN）模式。
-- 快速和可靠的 VPN 保护您的隐私并加密您的数据。
+- 支持所有网页浏览器和已安装 app 的广告屏蔽。
+- 阻止分发恶意内容、病毒和欺诈性网站。
+- 所有现代浏览器的基于 DNS 拦截（VPN 模式）。
+- 快速且可靠的 VPN，保护您的隐私并加密您的数据。
 
-市面上兼容性最佳的广告拦截器！
+市场上兼容性最强的广告拦截器！
 
-• 拦截广告 • 节省流量 • 载入更快 • 续航更长
+• 屏蔽广告 • 节省您的流量套餐 • 通过减少数据加载让浏览更快 • 延长电池续航
 
-什么可以被拦截？ What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+可以屏蔽什么？ • 屏蔽恼人的广告：Google AdWords、Google Invite Media、DoubleClick Bid Manager、Liftoff、Bing Ads、Amazon 等 • 屏蔽成人网站 • 屏蔽博彩网站 • 屏蔽社交媒体追踪器：Google Analytics、Facebook Connect、DoubleClick、Google Publisher Tags、Google AdSense、Twitter Button、Yandex.Metrix、Comscore • 屏蔽恶意网站：病毒下载、恶意内容、欺诈性网站及被操控的 app • Blokada Plus Adblock iOS App。
 
 ----
 
-Terms of Use: https://go.blokada.org/terms Privacy Policy: https://go.blokada.org/privacy
+使用条款：https://go.blokada.org/terms 隐私政策：https://go.blokada.org/privacy

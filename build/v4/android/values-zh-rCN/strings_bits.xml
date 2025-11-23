@@ -82,15 +82,15 @@
     <string name="menu_dns_recommended">推荐的 DNS 服务器</string>
     <string name="menu_dns_intro">DNS 负责解析您使用的网站和应用的 IP 地址。选择一个好的 DNS 可以加速您的设备，并有助于保护您的隐私。</string>
     <string name="menu_dns_select">选择一个 DNS 服务器。</string>
-    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
+    <string name="menu_apps_intro">某些应用可能无法与 Blokada 正常工作。例如，他们可能无法连接。\n\n激活 VPN 常常在这些情况下起到帮助。\n\n不然，您可以让那些应用完全绕过 Blokada 检查。请记住，绕过的应用不通过 Blokada 隧道通信。</string>
     <string name="menu_apps_system_label">系统应用是预装在您的设备上的。有些系统应用是隐藏的。只有当您知道您正在做什么时，才能修改这些应用。</string>
     <string name="menu_host_list_intro">主机列表包含了屏蔽广告和跟踪器的规则。尽量减少启用列表的数量。</string>
     <string name="menu_host_adblocking_features">Blokada 实验室</string>
     <string name="menu_host_adblocking_settings">广告屏蔽设置</string>
     <string name="menu_host_list_status">列表状态</string>
     <string name="menu_host_list_download">列表下载设置</string>
-    <string name="menu_host_whitelist">您在此添加的主机永远不会被屏蔽。例如，当您访问的网站被错误阻止时，使用此列表。 请注意，这不适用于被绕过的应用。</string>
-    <string name="menu_host_blacklist">您在此添加的主机将始终被屏蔽。例如，您可以添加不被标准列表屏蔽但应当是的网站。 请注意，这不适用于被绕过的应用。</string>
+    <string name="menu_host_whitelist">您在这里添加的主机将永远不会被屏蔽。例如，当您访问的网站被误屏蔽时，请使用此列表。注意，这不适用于被绕过的应用程序。</string>
+    <string name="menu_host_blacklist">您在这里添加的主机将始终被屏蔽。例如，您可以添加应该被屏蔽但没有被标准列表屏蔽的网站。注意，这不适用于被绕过的应用程序。</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">其它</string>
     <string name="menu_share_log_label">我们可以通过共享日志发现您的问题的原因。请确保您私下将共享日志发送给 Blokada 核心团队成员之一。</string>
