@@ -1,23 +1,23 @@
-This is the official app on App Store from the Blokada open source project.
+Aquesta és l'aplicació oficial a l'App Store del projecte de codi obert Blokada.
 
-Blokada for iOS is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada per a iOS és una aplicació gratuïta que utilitza servidors DNS (Sistema de Noms de Domini) per permetre't una navegació lliure d'anuncis, de manera que només vegis el contingut que vols.
 
-També inclou una VPN integrada que podeu usar opcionalment. With Blokada Plus VPN you can browse the web with privacy and secure your Internet against cyber attacks and hackers.
+També inclou una VPN integrada que podeu usar opcionalment. Amb Blokada Plus VPN pots navegar per la web amb privadesa i protegir la teva connexió d'Internet contra atacs informàtics i pirates.
 
 ----
 
-Top features:
+Funcionalitats principals:
 
-- Supports ad-blocking for every web browser and other app installed.
+- Permet el bloqueig d'anuncis per a tots els navegadors web i altres aplicacions instal·lades.
 - Bloca llocs que distribueixen contingut maliciós, virus i llocs fraudulents.
 - Intercepció basada en DNS (mode VPN) per a tots els navegadors actuals.
-- Fast and reliable VPN that protects your privacy and encrypts your data.
+- VPN ràpida i fiable que protegeix la teva privadesa i xifra les teves dades.
 
 El més compatible del mercat!
 
 • Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
 
-What can be blocked? • Blocks annoying ads: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc • Blocks adult websites • Blocks gambling websites • Blocks social media trackers: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Blocks malicious websites: Virus downloads, malicious content, fraudulent websites and manipulated apps • Blokada Plus Adblock iOS App.
+Què es pot bloquejar? • Bloca anuncis molestos: Google AdWords, Google Invite Media, DoubleClick Bid Manager, Liftoff, Bing Ads, Amazon, etc. • Bloca webs per a adults • Bloca webs de jocs d'atzar • Bloca rastrejadors de xarxes socials: Google Analytics, Facebook Connect, DoubleClick, Google Publisher Tags, Google AdSense, Twitter Button, Yandex.Metrix, Comscore • Bloca webs maliciosos: descàrregues de virus, contingut maliciós, webs fraudulents i aplicacions manipulades • Blokada Plus Adblock App per a iOS.
 
 ----
 
