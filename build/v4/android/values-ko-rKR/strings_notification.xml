@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">알림</string>
-    <string name="notification_on_description">When on, Blokada will display a notification every time something is blocked. Please note this is not the same as the VPN notification some devices show, and which cannot be turned off.&lt;br/&gt;You can configure which notifications should be displayed with the Settings below.</string>
+    <string name="notification_on_description">켜져 있으면 Blokada가 무언가가 차단될 때마다 알림을 표시합니다. 이 알림은 일부 기기에서 표시되며 끌 수 없는 VPN 알림과는 다릅니다.&lt;br/&gt;아래의 설정에서 표시할 알림을 선택할 수 있습니다.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">차단됨</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
@@ -15,10 +15,10 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">활동 유지</string>
-    <string name="notification_keepalive_description">Activate this switch if you experience problems with the app staying active in the background. Blokada will enable a permanent notification to prevent the system from killing it; you can hide it by choosing Notifications above and there Settings.</string>
+    <string name="notification_keepalive_description">앱이 백그라운드에서 계속 활성화되지 않는 문제가 있을 경우 이 스위치를 활성화하세요. Blokada는 시스템이 앱을 종료하지 못하도록 영구 알림을 설정합니다. 이 알림은 위의 알림 및 설정에서 숨길 수 있습니다.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
-    <string name="notification_keepalive_title_new">Keep Alive (tap to hide)</string>
-    <string name="notification_keepalive_text_new">Android requires to display a notification to keep the app running, but you are free to disable it in system settings.</string>
+    <string name="notification_keepalive_title_new">항상 켜기(탭하여 숨기기)</string>
+    <string name="notification_keepalive_text_new">Android에서는 앱이 실행 중임을 유지하려면 알림을 표시해야 하지만, 시스템 설정에서 비활성화할 수 있습니다.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d 차단됨</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
@@ -30,11 +30,11 @@
     <string name="notification_keepalive_deactivate">비활성화</string>
     <string name="notification_keepalive_deactivating">Blokada 비활성화됨!</string>
     <string name="notification_expired_title">Blokada Plus가 비활성화되었습니다</string>
-    <string name="notification_expired_description">Your account is not active, and Blokada Plus is off. Standard Blokada features work fine without the Blokada Plus VPN. However please consider activating your account for better protection and for supporting the project.</string>
+    <string name="notification_expired_description">귀하의 계정이 활성 상태가 아니며 Blokada Plus가 꺼져 있습니다. 기본 Blokada 기능은 Blokada Plus VPN 없이도 정상적으로 작동합니다. 하지만 더 나은 보호와 프로젝트 후원을 위해 계정을 활성화하는 것을 고려해 보세요.</string>
     <string name="notification_lease_expired_title">Blokada Plus가 비활성화되었습니다</string>
     <string name="notification_lease_expired_description">Blokada Plus와 장치 사이의 연결에 문제가 있었습니다. 다른 게이트웨이를 선택한 뒤 다시 시도해보세요. 만약 문제가 계속 발생할 경우, 우리에게 알려주세요.</string>
     <string name="notification_channel_filtered">광고 차단</string>
-    <string name="notification_channel_announcements">Announcements</string>
+    <string name="notification_channel_announcements">공지사항</string>
     <string name="notification_channel_vpn">Blokada Plus</string>
     <string name="notification_channel_other">기타</string>
 </resources>
