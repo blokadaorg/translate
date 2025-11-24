@@ -12,8 +12,8 @@
 
 "error blocka dns in filtering mode" = "Blokada DNS는 현재 Plus mode에서만 지원됩니다. 다른 DNS를 선택 후 시도해보시기 바랍니다.";
 
-"account active forever" = "Forever";
-"account active forever full" = "Active forever";
+"account active forever" = "영구적으로";
+"account active forever full" = "영구적으로 활성화됨";
 
 "main ask for permissions header" = "한 번 더";
 "main ask for permissions description" = "Blokada는 광고를 차단하기 위해 VPN 설정을 사용합니다. 다음 단계에서 사용 허용 요청을 받게 될 겁니다.";
@@ -38,7 +38,7 @@
 "networks action encrypt dns" = "DNS 암호화";
 "networks action use dns" = "DNS: %@ 사용";
 "networks action use network dns" = "선호하는 네트워크 DNS";
-"networks action force libre mode" = "Force Libre mode";
+"networks action force libre mode" = "리브르 모드 강제 실행";
 "networks label specific network" = "당신의 기기가 이 네트워크에 연결될 때 실행될 것을 설정";
 "networks label specific network type" = "당신의 기기가 이 종류의 네트워크에 연결될 때 실행될 것을 설정";
 "networks label any wifi" = "WiFi 네트워크";
@@ -46,59 +46,59 @@
 "networks permission request" = "세부 조정을 위해 여기를 누르고 앱이 모든 네트워크를 인식할 수 있도록 합니다.";
 "networks permission request granted" = "Blokada가 백그라운드에서 당신의 네크워크 이름을 읽을 때 이 알림을 보게 될 겁니다.";
 "networks section choose dns" = "DNS를 선택하세요";
-"networks summary encrypt dns" = "Blokada will encrypt DNS if possible. This improves your security and prevents malicious actors to spy on what websites and apps you use.";
-"networks summary use dns" = "Blokada will use %@ as your device's DNS. Choosing the one that allows for encryption (has the lock icon), and is near to you, will help protecting your data and making your connection fast.";
-"networks summary network dns" = "Blokada will use the network's DNS if available, or switch to %@ otherwise. Also, the Encrypt DNS settings will be ignored whenever network DNS is used. Using the network's DNS helps to fix connectivity problems on troublesome networks, but leaves you unprotected.";
-"networks summary network dns and plus mode" = "Blokada will temporarily disable Plus Mode whenever network DNS is used. This is because it is not possible to access network DNS in VPN. The Plus Mode will be automatically restored when your device switches to another network.";
-"networks summary blocka plus mode" = "Blokada will use Blokada DNS in Plus mode, to ensure high level of encryption and speed. You may change this setting at the bottom of the Choose DNS screen.";
-"networks summary force libre mode" = "Blokada will always use Libre mode on this network, and ignore your Blokada Plus location. This is useful for networks where you do not want the additional protection.";
-"networks permission dialog" = "Blokada can recognize networks you connect to, and let you configure separate settings for them. However, this app will collect location data in the form of network name to enable this feature, even when the app is closed or not in use. Sometimes you may see a system notification about location access - Blokada will only read the network's name.";
+"networks summary encrypt dns" = "Blokada는 가능한 경우 DNS를 암호화합니다. 이는 보안을 향상시키고 악의적인 공격자가 사용자의 웹사이트나 앱 사용 내역을 염탐하는 것을 방지합니다.";
+"networks summary use dns" = "Blokada는 %@를 사용자의 기기 DNS로 사용합니다. 암호화가 가능한(자물쇠 아이콘 표시) DNS이며 가까운 위치에 있는 것을 선택하면 데이터 보호와 빠른 연결에 도움이 됩니다.";
+"networks summary network dns" = "Blokada는 네트워크의 DNS를 사용할 수 있으면 이를 사용하고, 그렇지 않으면 %@로 전환합니다. 또한 네트워크 DNS를 사용하는 경우 'DNS 암호화' 설정은 무시됩니다. 네트워크 DNS를 사용하면 문제가 있는 네트워크에서 연결 문제를 해결할 수 있지만, 보호를 받지 못하게 됩니다.";
+"networks summary network dns and plus mode" = "Blokada는 네트워크 DNS를 사용하는 동안 임시로 Plus 모드를 비활성화합니다. 이는 VPN 내에서 네트워크 DNS에 접근할 수 없기 때문입니다. 기기가 다른 네트워크로 전환되면 Plus 모드는 자동으로 복원됩니다.";
+"networks summary blocka plus mode" = "Blokada는 Plus 모드에서 Blokada DNS를 사용하여 높은 수준의 암호화와 속도를 보장합니다. 이 설정은 DNS 선택 화면의 하단에서 변경할 수 있습니다.";
+"networks summary force libre mode" = "Blokada는 이 네트워크에서 항상 리브르 모드를 사용하며, Blokada Plus 위치는 무시합니다. 추가적인 보호가 필요하지 않은 네트워크에 유용합니다.";
+"networks permission dialog" = "Blokada는 사용자가 연결하는 네트워크를 인식하고, 각 네트워크별로 개별 설정을 구성할 수 있도록 합니다. 그러나 이 기능을 위해 앱이 닫혀 있거나 사용 중이 아닐 때에도 네트워크 이름의 형태로 위치 데이터를 수집합니다. 때때로 시스템에서 위치 접근과 관련된 알림이 표시될 수 있지만, Blokada는 네트워크 이름만 읽습니다.";
 
-"account status text libre" = "Your BLOKADA Libre account is active until forever.";
+"account status text libre" = "귀하의 BLOKADA Libre 계정은 영구적으로 활성화되어 있습니다.";
 
 "account encrypt level low" = "낮음";
 "account encrypt level medium" = "중간";
 "account encrypt level high" = "높음";
 "account encrypt label dns only" = "DNS 암호화";
-"account encrypt desc dns only" = "Domain Name System is how your device knows where to find the websites you want to visit. Unfortunately, most of  the Internet still uses unencrypted DNS, which puts your browsing history at risk of being spied on. When enabled, Blokada is forcing your device to connect only to encrypted DNS servers (also called DNS over HTTPS).";
+"account encrypt desc dns only" = "도메인 네임 시스템(DNS)은 사용자의 기기가 방문하고자 하는 웹사이트의 위치를 찾는 방식입니다. 안타깝게도 대부분의 인터넷은 여전히 암호화되지 않은 DNS를 사용하며, 이는 사용자의 브라우징 기록이 염탐당할 위험에 노출됩니다. 활성화되면 Blokada는 암호화된 DNS 서버(HTTPS 기반 DNS라고도 함)로만 연결하도록 기기를 강제합니다.";
 "account encrypt label everything" = "VPN을 통한 접속";
-"account encrypt desc everything" = "Your device is connecting through our secure VPN servers, and all communication coming from, or to, your device is being encrypted using strong algorithms. This protects your personal information, like banking details or personal photos, from being stolen in unsecure places, like a coffee shop WiFi.";
+"account encrypt desc everything" = "사용자의 기기는 저희의 안전한 VPN 서버를 통해 연결되고, 기기에서 오가거나 기기로 들어오는 모든 통신은 강력한 알고리즘으로 암호화됩니다. 이는 카페 와이파이 등 안전하지 않은 환경에서 은행 정보나 개인 사진과 같은 개인정보 유출로부터 사용자를 보호합니다.";
 "account encrypt action turn on" = "BLOKADA 켜기";
 "account encrypt header level" = "암호화 단계";
 "account encrypt label level" = "단계";
 "account encrypt label level low" = "낮음: 암호화 없음";
 "account encrypt label level medium" = "중간: DNS 암호화";
 "account encrypt label level high" = "높음: 모두 암호화";
-"account encrypt header explanation" = "DNS is how your device knows where to find websites. BLOKADA supports only encrypted servers.";
+"account encrypt header explanation" = "DNS는 사용자의 기기가 웹사이트 위치를 찾는 방식입니다. BLOKADA는 암호화된 서버만 지원합니다.";
 "account encrypt label dns" = "DNS";
 "account encrypt action what is dns" = "DNS가 무엇인가요?";
 "account encrypt section header" = "암호화";
 "account encrypt section blocka dns" = "Blokada DNS";
-"account encrypt label use blocka dns" = "Use Blokada DNS in Plus mode";
+"account encrypt label use blocka dns" = "Plus 모드에서 Blokada DNS 사용";
 
 "apps section header" = "앱";
 "apps label installed" = "설치됨";
 "apps label system" = "시스템";
-"apps status bypassed" = "(bypassed)";
-"apps filter header" = "Which apps would you like to see?";
+"apps status bypassed" = "(우회됨)";
+"apps filter header" = "어떤 앱을 보시겠습니까?";
 "apps filter action show all" = "모든 앱";
-"apps filter action show bypassed" = "Bypassed only";
-"apps filter action show not bypassed" = "Not bypassed only";
-"apps filter action toggle system" = "Toggle all system apps";
+"apps filter action show bypassed" = "우회된 앱만";
+"apps filter action show not bypassed" = "우회되지 않은 앱만";
+"apps filter action toggle system" = "모든 시스템 앱 전환";
 
 "app settings language label" = "언어";
 "app settings theme label" = "앱 테마";
 "app settings theme light" = "밝은";
 "app settings theme dark" = "어두운";
 // A setting for changing if to open links internally in the app, or by using this device's web browser
-"app settings browser label" = "Redirect links to";
+"app settings browser label" = "링크를 다음으로 리디렉션";
 "app settings browser internal" = "내장 브라우저";
 "app settings browser external" = "외장 브라우저 (가능하면)";
 "app settings ipv6 label" = "IPv6 허용";
 "app settings section system" = "시스템";
-"app settings action app info" = "Open App Information";
-"app settings action vpn profile" = "Open VPN Profile";
-"app settings action notifications" = "Open Notification Settings";
+"app settings action app info" = "앱 정보 열기";
+"app settings action vpn profile" = "VPN 프로필 열기";
+"app settings action notifications" = "알림 설정 열기";
 "app settings section details" = "세부사항";
 "app settings status default" = "시스템 기본값";
 "app settings start on boot" = "부팅 시 시작";
@@ -108,5 +108,5 @@
 "app settings section use foreground" = "활동 유지";
 
 "intro header" = "Blokada 작동 중!";
-"intro text" = "A blue ring means that Blokada is working.\n\nRemember, some ads, like YouTube, cannot be blocked. However, you will notice a difference in many other apps.\n\nWe recommend you activate Always on VPN / Connect on Demand in your system settings.";
-"intro text not libre" = "A blue or orange ring means that Blokada is working.\n\nWe recommend you activate Always on VPN in your system settings.";
+"intro text" = "파란 고리는 Blokada가 작동 중임을 의미합니다.\n\nYouTube처럼 일부 광고는 차단할 수 없지만, 다른 많은 앱에서 차이를 확인할 수 있습니다.\n\n시스템 설정에서 '항상 VPN 켜기/사용 시 자동 연결'을 활성화하는 것을 권장합니다.";
+"intro text not libre" = "파란색 또는 주황색 고리는 Blokada가 작동 중임을 의미합니다.\n\n시스템 설정에서 '항상 VPN 켜기'를 활성화하는 것을 권장합니다.";
