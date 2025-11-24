@@ -13,7 +13,7 @@
 "error device offline" = "Din enhed er offline";
 "error account inactive" = "Din konto er inaktiv. Aktiver venligst din konto for at fortsætte med at bruge BLOKADA+.";
 "error account inactive generic" = "Din konto er inaktiv. Aktiver venligst din konto for at fortsætte med at bruge Blokada.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us.";
+"error account inactive after restore" = "Dette ser ikke ud til at være en gyldig aktiv konto. Hvis du mener, dette er en fejl, bedes du kontakte os.";
 "error account invalid" = "Dette konto-ID synes ugyldigt.";
 "error creating account" = "Kunne ikke oprette en ny konto. Prøv igen senere.";
 "error fetching data" = "Denne handling kunne ikke fuldføres. Sørg for at du er online, og prøv igen senere. Hvis problemet fortsætter, bedes du kontakte os ved at trykke på hjælpeikonet øverst.";
@@ -44,7 +44,7 @@
 "universal action cancel" = "Fortryd";
 "universal action close" = "Luk";
 "universal action done" = "Udført";
-"universal action edit" = "Edit";
+"universal action edit" = "Rediger";
 "universal action try again" = "Prøv igen";
 "universal action learn more" = "Lær mere";
 "universal action help" = "Hjælp";
@@ -77,14 +77,14 @@
 // A verb "to revoke permissions"
 "universal action revoke" = "Revoke";
 // A verb "to add new item to list"
-"universal action add" = "Add";
+"universal action add" = "Tilføj";
 
 // Action to open chat
-"support action chat" = "Chat with us";
+"support action chat" = "Chat med os";
 // Action to end chat. Keep it super short
-"support action end" = "End";
-"support placeholder" = "Ask about anything you want to know!";
-"support error generic" = "Sorry did not understand, can you repeat?";
+"support action end" = "Afslut";
+"support placeholder" = "Spørg om alt det, du gerne vil vide!";
+"support error generic" = "Beklager, forstod det ikke. Kan du gentage?";
 // Its ok to leave it as it is
 "support name bot" = "Blocka Bot";
 
@@ -107,7 +107,7 @@
 "universal status restart required" = "Genstart app'en for at ændringerne kan træde i kraft.";
 "universal status redirect" = "Fortsæt med Blokada appen";
 "universal status confirm" = "Er du sikker på, at du vil fortsætte?";
-"universal status loading" = "Loading...";
+"universal status loading" = "Indlæser...";
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ udløbet";
@@ -166,9 +166,9 @@
 "home power action turn on" = "Slå til";
 "home power action turn off" = "Slå fra";
 "home power action pause" = "Pause i 5 minutter";
-"home power action pause five" = "Pause for 5 Minutes";
-"home power action off all" = "Turn Off All Protection";
-"home power pause status active" = "Ad Blocking is Active";
+"home power action pause five" = "Pause i 5 minutter";
+"home power action off all" = "Slå al beskyttelse fra";
+"home power pause status active" = "Annonceblokering er aktiv";
 
 "home status paused" = "Pauset";
 "home status active" = "Tændt";
@@ -246,7 +246,7 @@
 // A short message "Showing for: Device A"
 "activity filter showing for" = "Viser for: %@";
 // A switch to enable exact search matching (vs fuzzy match). Keep it 2-3 words
-"activity filter exact match" = "Exact Match Only";
+"activity filter exact match" = "Kun præcis match";
 "activity empty text" = "Prøv at bruge din enhed, og kom tilbage her senere, for at se, hvor din enhed forbinder til.";
 "activity device filter show all" = "Alle enheder";
 "activity retention header" = "Skal vi gemme din aktivitet?";
@@ -282,7 +282,7 @@
 "account action inbox" = "Indbakke";
 "account action logout" = "Gendan køb";
 "account action logout only" = "Log ud";
-"account action logout new" = "Restore Account ID";
+"account action logout new" = "Gendan konto-ID";
 "account action create" = "Generer ny konto";
 "account action about" = "Om";
 "account action tap to show" = "Tryk for at vise";
@@ -370,7 +370,7 @@
 "payment action terms" = "Betingelser for brug";
 "payment action policy" = "Privat Politik";
 // A button to use offer code to redeem offer
-"payment action offer" = "Apply Offer Code";
+"payment action offer" = "Indløs tilbudskode";
 "payment alert error header" = "En besked fra App Store";
 // As in saving money: You are saving $5
 "payment save text" = "Du gemmer %@";
@@ -426,7 +426,7 @@
 
 "payment cancel footer" = "Abonnementet er automatisk fornyet, før den aktuelle faktureringsperiode slutter. Du kan annullere når som helst i Indstillinger.";
 "payment cancel footer trial short" = "Annuller i løbet af de næste %@ dage, og du vil ikke blive opkrævet.";
-"payment trial brief" = "Pay after %@ days. Subscription auto-renews every year until canceled.";
+"payment trial brief" = "Betal efter %@ dage. Abonnementet fornyes automatisk hvert år, indtil det opsiges.";
 
 "location region worldwide" = "Overalt";
 "location region america" = "Amerika";
@@ -531,7 +531,7 @@
 "family rename device" = "Omdøb enhed";
 "family label this device" = "Denne enhed (%@)";
 "family onboard header" = "Velkommen til Blokada Familie!";
-"family onboard header brand" = "Welcome to %s!";
+"family onboard header brand" = "Velkommen til %s!";
 "family onboard body" = "Følg instruktionerne på skærmen for at konfigurere din første enhed.";
 
 // Displayed when starting the app for the first time, action to activate app, can be "Start"
@@ -545,15 +545,15 @@
 "family status ready body" = "Tilføj din første enhed nu";
 "family status perms header" = "Næsten der!";
 "family status perms body" = "Giv venligst de nødvendige tilladelser";
-"family status perms body alt" = "Tap to finish the setup procedure";
+"family status perms body alt" = "Tryk for at fuldføre opsætningsproceduren";
 "family status expired header" = "Konto udløbet";
 "family status expired body" = "Aktiver venligst din konto for at fortsætte";
 "family status linked header" = "App er linket!";
 "family status locked header" = "Appen er låst";
 
-"family settings lock pin" = "Lock with pin";
-"family settings lock enter" = "Enter your new pin";
-"family settings lock remove" = "Remove pin";
+"family settings lock pin" = "Lås med pinkode";
+"family settings lock enter" = "Indtast din nye pinkode";
+"family settings lock remove" = "Fjern pinkode";
 
 "family payment slug" = "Beskyt hele din familie med et abonnement. Overvåg og beskyt alle familieenheder mod uønsket indhold.";
 "family payment features devices header" = "Overvågning Af Familieenheder";
@@ -593,279 +593,279 @@
 "toplist tld unknown" = "ukendt";
 
 "family notification subtitle" = "Familiebeskyttelse er slukket";
-"family fault link already" = "This device is already linked. Please unlink it using the parent app and try again.";
-"family profile dialog header" = "Select a profile to use for %@.";
-"family profile dialog header this" = "Select a profile to use for this device.";
-"family profile add" = "Which profile would you like to add?";
-"family profile template" = "Choose a template to get started.";
+"family fault link already" = "Denne enhed er allerede tilknyttet. Afkobl den via forældreappen og prøv igen.";
+"family profile dialog header" = "Vælg en profil, der skal bruges til %@.";
+"family profile dialog header this" = "Vælg en profil, der skal bruges til denne enhed.";
+"family profile add" = "Hvilken profil vil du tilføje?";
+"family profile template" = "Vælg en skabelon for at komme i gang.";
 
 // A name of a configuration profile, for parent device
-"family profile name parent" = "Parent";
+"family profile name parent" = "Forælder";
 
 // A name of a configuration profile, for parent device
-"Parent" = "Parent";
+"Parent" = "Forælder";
 
 // A name of a configuration profile, for child device
-"family profile name child" = "Child";
+"family profile name child" = "Barn";
 
 // A name of a configuration profile, for child device
-"Child" = "Child";
+"Child" = "Barn";
 
 // A name of a custom configuration profile template
-"family profile name custom" = "Custom";
+"family profile name custom" = "Brugerdefineret";
 
 // A name of a custom configuration profile template
-"Custom" = "Custom";
+"Custom" = "Brugerdefineret";
 
-"family profile action add" = "Add new profile";
-"family profile action delete" = "Remove this profile";
+"family profile action add" = "Tilføj ny profil";
+"family profile action delete" = "Fjern denne profil";
 
-"family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error use" = "Denne profil er i øjeblikket i brug. Sørg for, at ingen enhed bruger den, før du sletter den.";
+"family profile error" = "Kunne ikke slette denne profil.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@ Profile";
+"family profile template name" = "%@ profil";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Vælg profil";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
-"family device brief settings alt" = "Manage blocking settings for this device.";
-"family device action link" = "Link this device again";
-"family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
+"family device label statistics" = "STATISTIK";
+"family device brief statistics" = "Se den seneste aktivitet for denne enhed.";
+"family device label settings" = "ENHEDSINDSTILLINGER";
+"family device brief settings alt" = "Administrer blokeringsindstillinger for denne enhed.";
+"family device action link" = "Tilknyt denne enhed igen";
+"family device action delete" = "Slet denne enhed";
+"family device delete confirm" = "Er du sikker på, at du vil slette %@? Dette vil afkoble enheden fra din konto.";
 
-"family device header add" = "Add a device";
-"family device header link" = "Link a device";
+"family device header add" = "Tilføj en enhed";
+"family device header link" = "Tilknyt en enhed";
 
-"family device label internet" = "INTERNET CONTROL";
-"family device brief internet" = "Manage Internet access for this device.";
-"family device label internet on" = "Filter Content";
-"family device brief internet on" = "Blocks harmful and inappropriate sites according to your filters and blocklists.";
-"family device label internet off" = "Allow All";
-"family device brief internet off" = "No content is blocked. The Internet is fully open.";
-"family device label internet block" = "Block All";
-"family device brief internet block" = "Stops all Internet access on the device.";
+"family device label internet" = "INTERNETKONTROL";
+"family device brief internet" = "Administrer internetadgang for denne enhed.";
+"family device label internet on" = "Filtrer indhold";
+"family device brief internet on" = "Blokerer skadelige og upassende sider i henhold til dine filtre og bloklister.";
+"family device label internet off" = "Tillad alt";
+"family device brief internet off" = "Intet indhold blokeres. Internettet er helt åbent.";
+"family device label internet block" = "Bloker alt";
+"family device brief internet block" = "Stopper al internetadgang på enheden.";
 
 
-"family perms header" = "One more thing";
+"family perms header" = "En ting mere";
 
 // Param is just Blokada Family
-"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
+"family perms brief alt" = "Aktiver '%@' i Indstillinger ved at navigere som vist nedenfor.";
 
 // DNS activation on iOS, in Settings app
-"family perms setting ios general" = "General";
+"family perms setting ios general" = "Generelt";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "VPN & Enhedshåndtering";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
 // DNS activation on iOS, in Settings -> General -> VPN
-"family perms setting ios automatic" = "Automatic";
+"family perms setting ios automatic" = "Automatisk";
 
 // A section name in system preferences
-"family perms setting android connections" = "Connections";
+"family perms setting android connections" = "Forbindelser";
 // A section name in system preferences
-"family perms setting android more" = "More connection settings";
+"family perms setting android more" = "Flere forbindelsesindstillinger";
 // A section name in system preferences
-"family perms setting android dns" = "Private DNS";
+"family perms setting android dns" = "Privat DNS";
 // A section name in system preferences
-"family perms setting android host" = "Private DNS provider hostname";
+"family perms setting android host" = "Privat DNS-udbyders værtsnavn";
 
 // Used in context, 'go to section named X, or similar'
-"family perms setting android similar" = "(or similar)";
+"family perms setting android similar" = "(eller lignende)";
 // Used in context 'go to section named X (not always present)'
-"family perms setting android optional" = "(not always present)";
+"family perms setting android optional" = "(ikke altid til stede)";
 
-"family perms copy android" = "Finally, tap and hold the text field to paste the necessary configuration.";
-
-// A label for which blocklist was used to block domain. Keep super short.
-"family stats label reason" = "Reason";
+"family perms copy android" = "Tryk og hold tekstfeltet nede for at indsætte den nødvendige konfiguration.";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label blocklist" = "Blocklist";
+"family stats label reason" = "Årsag";
+
+// A label for which blocklist was used to block domain. Keep super short.
+"family stats label blocklist" = "Blokliste";
 
 // A label for which config profile was used to block domain. Keep super short.
-"family stats label profile" = "Profile";
+"family stats label profile" = "Profil";
 
 // A label for the number of blocklists selected
-"family stats label blocklists" = "Blocklists";
+"family stats label blocklists" = "Bloklister";
 
 // A label for the number of blocklists selected
-"family stats label blocklists alt" = "Blocklists in profile";
+"family stats label blocklists alt" = "Bloklister i profil";
 
 // How many blocklists are selected "5 selected"
-"family stats label blocklists count" = "%@ selected";
+"family stats label blocklists count" = "%@ valgt";
 
-"family stats label pause" = "Pause blocking";
+"family stats label pause" = "Sæt blokering på pause";
 
 // Shown when profile is unknown. Keep it short.
-"family stats label profile unknown" = "Unknown";
+"family stats label profile unknown" = "Ukendt";
 
 // Shown when no blocklist was applied
-"family stats label none" = "None";
+"family stats label none" = "Ingen";
 
 // An option to sort activity by most common entry first (not by date)
-"family stats filter most common" = "Show most common first";
+"family stats filter most common" = "Vis mest almindelige først";
 
 // "My exceptions" is a list of user configured custom blocking rules.
-"family stats exceptions remove" = "Remove from My exceptions";
-"family stats exceptions add" = "Add to My exceptions";
-"family stats title" = "My exceptions";
+"family stats exceptions remove" = "Fjern fra Mine undtagelser";
+"family stats exceptions add" = "Tilføj til Mine undtagelser";
+"family stats title" = "Mine undtagelser";
 
-"family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
-"family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
-"family qr brief" = "Scan the QR code displayed on the parent device";
+"family link description new" = "Scan QR-koden herunder for at tilføje en enhed til din familie. Denne skærm lukkes automatisk, når enheden opdages.";
+"family link description again" = "Scan QR-koden herunder for at tilknytte en enhed igen. Denne skærm lukkes automatisk, når enheden opdages.";
+"family qr brief" = "Scan QR-koden, der vises på forældreenheden";
 
 // A section name for details of device activity
-"family device title details" = "Details";
+"family device title details" = "Detaljer";
 
-"family dialog title new profile" = "New profile";
-"family dialog title rename profile" = "Rename profile";
-"family dialog title new device" = "New device";
-"family dialog title rename device" = "Rename device";
-"family dialog brief profile" = "Enter a name for this profile.";
-"family dialog brief device" = "Enter a name for this device.";
+"family dialog title new profile" = "Ny profil";
+"family dialog title rename profile" = "Omdøb profil";
+"family dialog title new device" = "Ny enhed";
+"family dialog title rename device" = "Omdøb enhed";
+"family dialog brief profile" = "Indtast et navn til denne profil.";
+"family dialog brief device" = "Indtast et navn til denne enhed.";
 
-"family search empty" = "No matches found for your search criteria";
+"family search empty" = "Ingen resultater fundet for dine søgekriterier";
 
 // How many times this host has been blocked
-"family activity blocked times" = "blocked %@ times";
+"family activity blocked times" = "blokeret %@ gange";
 
 // How many times this host has been allowed
-"family activity allowed times" = "allowed %@ times";
+"family activity allowed times" = "tilladt %@ gange";
 
-"family status linked body" = "Manage this device using the parent device.";
-"family status qr body" = "Scan the QR code to link this device.";
-"family status active header" = "Active!";
-"family status active body" = "Tap on the device for more details.";
+"family status linked body" = "Administrer denne enhed via forældreenheden.";
+"family status qr body" = "Scan QR-koden for at tilknytte denne enhed.";
+"family status active header" = "Aktiv!";
+"family status active body" = "Tryk på enheden for flere detaljer.";
 
 // A button to link this device to parent device
-"family cta action link" = "Link";
+"family cta action link" = "Tilknyt";
 
 // A button to unlock this device
-"family cta action unlock" = "Unlock";
+"family cta action unlock" = "Lås op";
 
-"family account restore desc" = "Enter your account ID to restore your purchases.";
+"family account restore desc" = "Indtast dit konto-ID for at gendanne dine køb.";
 
-"generic account active" = "Your account has been successfully restored. Welcome back!";
+"generic account active" = "Din konto er blevet gendannet. Velkommen tilbage!";
 
-"notification new message title" = "New message";
+"notification new message title" = "Ny besked";
 
 
-"onboard header" = "No more ads.\nSeriously.";
-"onboard desc" = "Block ads and trackers everywhere with our premium app. Enjoy faster browsing, better privacy, and reduced data usage.";
-"onboard terms" = "By continuing you accept our Terms of Service and acknowledge receipt of our Privacy Policy.";
+"onboard header" = "Ingen flere reklamer.\nSeriøst.";
+"onboard desc" = "Bloker reklamer og trackere overalt med vores premium app. Oplev hurtigere browsing, bedre privatliv og reduceret dataforbrug.";
+"onboard terms" = "Ved at fortsætte accepterer du vores Servicevilkår og anerkender modtagelsen af vores Privatlivspolitik.";
 
-"onboard safari header" = "Want to block video ads?";
-"onboard safari brief" = "Enable our extension in Safari to block video ads while browsing.";
-"onboard safari step 2" = "Manage Extensions";
-"onboard safari cta" = "Open YouTube in Safari";
-"onboard safari skip" = "Skip for now";
+"onboard safari header" = "Vil du blokere videoannoncer?";
+"onboard safari brief" = "Aktivér vores udvidelse i Safari for at blokere videoannoncer under browsing.";
+"onboard safari step 2" = "Administrer udvidelser";
+"onboard safari cta" = "Åbn YouTube i Safari";
+"onboard safari skip" = "Spring over for nu";
 
 // A section to configure apps that should bypass (skip) VPN
-"bypass section header" = "VPN Bypass";
-"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. The app also includes a few built-in bypass entries for compatibility. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
-"bypass none" = "No apps added. Use the Add button at the top to add new apps to this list.";
-"bypass action add" = "Add app";
-"bypass dialog add brief" = "Start typing to search apps.";
+"bypass section header" = "VPN-omgåelse";
+"bypass info" = "Nogle apps fungerer muligvis ikke korrekt med VPN. Du kan tilføje dem til omgåelseslisten, så deres trafik bliver sendt uden for VPN-tunnelen, hvilket kan hjælpe på forbindelsen, men reducerer privatlivet. Appen indeholder også nogle indbyggede omgåelsesposter for kompatibilitet. Bemærk: Hvis dit device har indstillingen 'Bloker forbindelser uden VPN' aktiveret, vil apps på omgåelseslisten ikke have internetadgang.";
+"bypass none" = "Ingen apps tilføjet. Brug Tilføj-knappen øverst for at tilføje nye apps til denne liste.";
+"bypass action add" = "Tilføj app";
+"bypass dialog add brief" = "Begynd at skrive for at søge i apps.";
 
 // A one-word header to show when app is in freemium status. Can use a synonym: Primary, Basic, make it short.
-"freemium home status header" = "Essentials";
-"freemium home status desc safari" = "Essential protection is active in Safari. Upgrade to unlock full coverage for all apps.";
+"freemium home status header" = "Essentielt";
+"freemium home status desc safari" = "Essentiel beskyttelse er aktiv i Safari. Opgrader for at låse op for fuld dækning til alle apps.";
 
-"freemium stats cta header" = "Unlock full tracking control";
-"freemium stats cta desc" = "See which trackers are reaching you - and block them.";
-"freemium filters cta header" = "Unlock advanced blocklists";
-"freemium filters cta desc" = "Upgrade your plan to enable advanced protection and extra blocklists.";
-"freemium activity cta header" = "Unlock your stats";
-"freemium activity cta desc" = "Upgrade to Plus to access detailed statistics and insights.";
+"freemium stats cta header" = "Lås op for fuld trackerkontrol";
+"freemium stats cta desc" = "Se hvilke trackere der når dig – og bloker dem.";
+"freemium filters cta header" = "Lås op for avancerede bloklister";
+"freemium filters cta desc" = "Opgrader din plan for at aktivere avanceret beskyttelse og ekstra bloklister.";
+"freemium activity cta header" = "Lås dine statistikker op";
+"freemium activity cta desc" = "Opgrader til Plus for at få adgang til detaljerede statistikker og indsigter.";
 
-"freemium sheet safari header" = "Start blocking ads in Safari";
-"freemium sheet safari desc" = "Enable our extension in Safari to get essential protection while you browse. It blocks annoying ads — including video ads on YouTube — so you can enjoy a cleaner, faster web experience.";
-"freemium sheet safari cta" = "Open Safari";
+"freemium sheet safari header" = "Begynd at blokere reklamer i Safari";
+"freemium sheet safari desc" = "Aktivér vores udvidelse i Safari for at få essentiel beskyttelse, mens du browser. Den blokerer irriterende reklamer – inklusiv videoannoncer på YouTube – så du kan få en mere ren og hurtig weboplevelse.";
+"freemium sheet safari cta" = "Åbn Safari";
 
-"dialog title activity rule" = "How Should Blokada Handle Traffic to %@?";
-"dialog exception add title" = "Add an Exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You can use * as a wildcard, for example *.example.com.";
+"dialog title activity rule" = "Hvordan skal Blokada håndtere trafik til %@?";
+"dialog exception add title" = "Tilføj en undtagelse";
+"dialog exception add text" = "Indtast et værtsnavn for at tilføje til dine undtagelser. Du kan bruge * som jokertegn, f.eks. *.example.com.";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Domain Details";
+"domain details section header" = "Domænedetaljer";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Custom Rules";
-"domain details add rule action" = "Add a Rule";
-"domain details add rule brief" = "Create a rule for this domain.";
+"domain details rules section header" = "Dine brugerdefinerede regler";
+"domain details add rule action" = "Tilføj en regel";
+"domain details add rule brief" = "Opret en regel for dette domæne.";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matching Rule";
+"domain details edit rule action" = "Rediger matchende regel";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Applies to %@.";
-"domain details action search subdomains" = "Search Subdomains";
+"domain details edit rule brief" = "Gælder for %@.";
+"domain details action search subdomains" = "Søg underdomæner";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "Underdomæner";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Blocked %@ request(s) to %@.";
-"domain details summary allowed basic" = "Allowed %@ request(s) to %@.";
-"domain details summary blocked basic customlist" = "Your rules blocked %@ request(s) to %@.";
-"domain details summary allowed basic customlist" = "Your rules allowed %@ request(s) to %@.";
-"domain details summary blocked basic list" = "Blocked %@ request(s) to %@ using %@.";
-"domain details summary allowed basic list" = "Allowed %@ request(s) to %@ using %@.";
+"domain details summary blocked basic" = "Blokerede %{0} forespørgsel(-er) til %{1}.";
+"domain details summary allowed basic" = "Tillod %{0} forespørgsel(-er) til %{1}.";
+"domain details summary blocked basic customlist" = "Dine regler blokerede %{0} forespørgsel(-er) til %{1}.";
+"domain details summary allowed basic customlist" = "Dine regler tillod %{0} forespørgsel(-er) til %{1}.";
+"domain details summary blocked basic list" = "Blokerede %{0} forespørgsel(-er) til %{1} med %{2}.";
+"domain details summary allowed basic list" = "Tillod %{0} forespørgsel(-er) til %{1} med %{2}.";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain" = "Allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain customlist" = "Your rules blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain customlist" = "Your rules allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain list" = "Blocked %@ request(s) to subdomains of %@ using %@.";
-"domain details summary allowed subdomain list" = "Allowed %@ request(s) to subdomains of %@ using %@.";
+"domain details summary blocked subdomain" = "Blokerede %{0} forespørgsel(-er) til underdomæner af %{1}.";
+"domain details summary allowed subdomain" = "Tillod %{0} forespørgsel(-er) til underdomæner af %{1}.";
+"domain details summary blocked subdomain customlist" = "Dine regler blokerede %{0} forespørgsel(-er) til underdomæner af %{1}.";
+"domain details summary allowed subdomain customlist" = "Dine regler tillod %{0} forespørgsel(-er) til underdomæner af %{1}.";
+"domain details summary blocked subdomain list" = "Blokerede %{0} forespørgsel(-er) til underdomæner af %{1} med %{2}.";
+"domain details summary allowed subdomain list" = "Tillod %{0} forespørgsel(-er) til underdomæner af %{1} med %{2}.";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both customlist" = "Your rules blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both customlist" = "Your rules allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both list" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
-"domain details summary allowed both list" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
+"domain details summary blocked both" = "Blokerede %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner.";
+"domain details summary allowed both" = "Tillod %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner.";
+"domain details summary blocked both customlist" = "Dine regler blokerede %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner.";
+"domain details summary allowed both customlist" = "Dine regler tillod %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner.";
+"domain details summary blocked both list" = "Blokerede %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner med %{3}.";
+"domain details summary allowed both list" = "Tillod %{0} forespørgsel(-er) til %{1} og %{2} forespørgsel(-er) til dets underdomæner med %{3}.";
 
 // Param: domain name
-"domain details summary none" = "No requests to %@ or its subdomains.";
+"domain details summary none" = "Ingen forespørgsler til %{0} eller dets underdomæner.";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use Automatic Protection";
-"dialog rule auto desc" = "Block or allow this domain according to your selected filters.\n(Default setting)";
+"dialog rule auto" = "Brug automatisk beskyttelse";
+"dialog rule auto desc" = "Bloker eller tillad dette domæne i henhold til dine valgte filtre.\n(Standardindstilling)";
 
-"dialog rule domain block" = "Always Block This Domain";
+"dialog rule domain block" = "Bloker altid dette domæne";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and always block traffic to %@.";
+"dialog rule domain desc block" = "Ignorér filtre og bloker altid trafik til %{0}.";
 
-"dialog rule domain allow" = "Always Allow This Domain";
+"dialog rule domain allow" = "Tillad altid dette domæne";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and always allow traffic to %@.";
+"dialog rule domain desc allow" = "Ignorér filtre og tillad altid trafik til %{0}.";
 
-"dialog rule subdomains block" = "Always Block This Domain and Its Subdomains";
+"dialog rule subdomains block" = "Bloker altid dette domæne og dets underdomæner";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc block" = "Bloker trafik til %{0} og alle dets underdomæner.";
 
-"dialog rule subdomains allow" = "Always Allow This Domain and Its Subdomains";
+"dialog rule subdomains allow" = "Tillad altid dette domæne og dets underdomæner";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Allow traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc allow" = "Tillad trafik til %{0} og alle dets underdomæner.";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
 "privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "See recent activity and the protection status of this device.";
+"privacy pulse brief" = "Se den seneste aktivitet og beskyttelsesstatus for denne enhed.";
 // A header for Toplists section
-"privacy pulse toplists header" = "Top domains";
+"privacy pulse toplists header" = "Mest besøgte domæner";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Seneste aktivitet";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "Last 24 h";
+"privacy pulse timespan 24h" = "Seneste 24 timer";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "See All";
+"privacy pulse timespan show all" = "Se alle";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Blokeret";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Tilladt";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show yet";
+"privacy pulse empty" = "Intet at vise endnu";
