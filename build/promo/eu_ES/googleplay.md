@@ -1,25 +1,25 @@
-Blokada Slim Ad blocker - No Ads, better battery
+Blokada Slim iragarki-blokeatzailea - Iragarkirik ez, bateria hobea
 
-Protect your privacy for free with the official Blokada app.
+Babestu zure pribatutasuna doan Blokadaren aplikazio ofizialarekin.
 
-This is the only official app on Play Store from the Blokada open source project. Beware of clones, they may contain malicious code.
+Hau da Blokada kode irekiko proiektuaren Play Store-ko aplikazio ofizial bakarra. Kontuz klonekin, kode maltzurra izan dezakete.
 
-Blokada Slim Ad blocker is a free app that uses DNS (Domain Name System) servers to enable you to have an ad free browsing experience to see only the content you want.
+Blokada Slim iragarki-blokeatzailea doako aplikazioa da, zure nabigazioan nahi dituzun edukiak bakarrik ikusteko DNS (Domeinu Izen Sistema) zerbitzariak erabiliz iragarkirik gabeko esperientzia eskaintzen dizuna.
 
-There is also a built in VPN that is optional to use.
+VPN integratua ere badu, eta aukera moduan erabil daiteke.
 
-The website of the project is: https://blokada.org. The version from the website has more features and is also free.
+Proiektuaren webgunea da: https://blokada.org. Webguneko bertsioak funtzio gehiago ditu eta baita doakoa ere bada.
 
-Join us on our Telegram chat if you have questions or feedback: https://go.blokada.org/chat
+Gure Telegram txatara batu galderarik edo iritzirik baduzu: https://go.blokada.org/chat
 
 ----
 
-Best features:
-- NO root permissions required!
-- Supports every web browser and apps.
-- DNS based interception (VPN mode) for all modern browsers.
-- Blocks sites that distribute malicious content, viruses and fraudulent websites.
+Ezaugarri onenak:
+- EZ da root baimenik behar!
+- Web arakatzaile eta aplikazio guztiak onartzen ditu.
+- DNS bidezko atzipen-interzepzioa (VPN modua) arakatzaile moderno guztientzat.
+- Edukia maltzurra, birusak edo iruzurrezko webguneak banatzen dituzten guneak blokeatzen ditu.
 
-The most compatible ad blocker on the market!
+Merkatuko iragarki-blokeatzaile bateragarri eta onena!
 
-• Blocks ads • Saves your data plan • Browse FASTER by loading less data • Increase battery life
+• Iragarkiak blokeatzen ditu • Datu-tarifa aurrezten duzu • Azkarrago nabigatu, datu gutxiago kargatuz • Bateria iraupena handitu
