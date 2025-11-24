@@ -13,7 +13,7 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada DNS 모드 활성화됨</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s blocked since %s</string>
+    <string name="home_requests_blocked_since">%s이(가) %s부터 차단됨.</string>
     <string name="home_masterswitch_enabled">Blokada 켜짐</string>
     <string name="home_masterswitch_waiting">연결 대기 중...</string>
     <!-- A button to share the ads counter on social media -->
@@ -43,14 +43,14 @@
     <string name="home_permission_error">VPN 권한을 허용하세요.</string>
     <string name="home_zero_filters_error">설정된 필터가 없습니다. 광고 차단 및 Wi-Fi 설정을 확인하세요.</string>
     <string name="home_filters_memory_error">일부 목록을 불러오지 못할 수 있습니다. 광고 차단 설정에서 더 적은 목록을 선택하세요.</string>
-    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
+    <string name="tasker_switch_label">트리거에 대해 켜거나 끄려면 옵션 중 하나를 탭하여 설정하세요.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">광고</string>
     <string name="menu_ads_live_label">허용되거나 차단 된 호스트 로그</string>
     <string name="menu_ads_clear_log">호스트 로그 지우기</string>
     <string name="menu_ads_lists_label">차단에 사용할 목록을 선택하세요. 대부분의 사용자에게는 기본값이 좋습니다.</string>
-    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
-    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
+    <string name="menu_ads_rules_label">차단을 세부 조정하려면 직접 규칙을 추가하세요.</string>
+    <string name="menu_ads_log_label">최근에 차단되거나 허용된 항목을 확인하세요.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
     <string name="menu_vpn_activate_account">먼저 계정을 활성화하세요.</string>
@@ -66,34 +66,34 @@
     <string name="menu_vpn_manage_subscription">계정 구독 관리</string>
     <string name="menu_vpn_manage_subscription_unavailable">신규 계정이라면 Blokada 웹사이트를 방문하세요. Blokada Slim에서는 구독을 결제할 수 없습니다.</string>
     <string name="menu_vpn_account_secret">아바타를 눌러 계정 ID를 보세요. 사용자의 ID는 사용자 혼자서 비밀로 기억해야 합니다. 앱 제거 시 다른 곳에 적어두세요.</string>
-    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
-    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
-    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
+    <string name="menu_vpn_restore_label">여기에서 기존 계정을 복원할 수 있습니다. 예를 들어, 앱을 재설치한 경우에 사용할 수 있습니다.</string>
+    <string name="menu_vpn_intro">Blokada Plus를 사용하면 데이터가 암호화되고, IP 주소가 숨겨지며, 위치가 변경됩니다.</string>
+    <string name="menu_vpn_account_label">VPN을 사용하려면 활성 계정이 필요합니다. 여기에서 계정을 확인하거나 복원하세요.</string>
+    <string name="menu_vpn_gateways_label">연결할 게이트웨이 중 하나를 선택하세요. 기기가 암호화된 데이터를 해당 게이트웨이를 통해 안전하게 전송하며, 익명성이 유지됩니다.</string>
+    <string name="menu_vpn_support_label">문제가 발생하면 언제든지 문의해 주세요.</string>
     <string name="menu_vpn_support_button">고객지원</string>
-    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
-    <string name="menu_vpn_tunnel_learn_more">Learn more about Blokada Plus</string>
-    <string name="menu_vpn_info_account_label">Do I have an account?</string>
-    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
-    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
-    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
-    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
-    <string name="menu_dns_recommended">Recommended DNS servers</string>
-    <string name="menu_dns_intro">DNS is responsible for translating IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
-    <string name="menu_dns_select">Select one of the DNS servers.</string>
-    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
-    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
-    <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus 설정</string>
+    <string name="menu_vpn_tunnel_learn_more">Blokada Plus에 대해 자세히 알아보기</string>
+    <string name="menu_vpn_info_account_label">내 계정이 있나요?</string>
+    <string name="menu_vpn_info_account_line1">네! 계정은 처음 실행 시 자동으로 생성됩니다. 별도로 등록할 필요가 없습니다.</string>
+    <string name="menu_vpn_info_account_line2">위의 아바타를 탭하면 계정 ID를 볼 수 있습니다.</string>
+    <string name="menu_vpn_info_account_line3">계정 ID는 비밀이며, 누구에게도 공개하지 마세요.</string>
+    <string name="menu_vpn_info_account_line4">앱을 재설치할 경우를 대비해 계정 ID를 적어 두세요.</string>
+    <string name="menu_dns_recommended">추천 DNS 서버</string>
+    <string name="menu_dns_intro">DNS는 사용 중인 웹사이트와 앱의 IP 주소를 변환하는 역할을 합니다. 좋은 DNS를 선택하면 기기의 속도가 빨라지고 개인정보 보호에도 도움이 됩니다.</string>
+    <string name="menu_dns_select">DNS 서버 중 하나를 선택하세요.</string>
+    <string name="menu_apps_intro">일부 앱은 Blokada와 함께 제대로 작동하지 않을 수 있습니다. 예를 들어, 연결에 문제가 생길 수 있습니다.\n\n이런 경우 VPN을 활성화하면 도움이 되는 경우가 많습니다.\n\n그렇지 않으면 해당 앱을 Blokada 검사에서 완전히 우회하도록 설정할 수 있습니다. 우회된 앱은 Blokada Plus 외부에서 통신한다는 점을 기억하세요.</string>
+    <string name="menu_apps_system_label">시스템 앱은 기기에 기본으로 설치되어 있는 앱입니다. 일부는 숨겨져 있습니다. 무언가를 변경하려면 충분히 알고 있는 경우에만 수정하세요.</string>
+    <string name="menu_host_list_intro">호스트 목록에는 광고와 추적기 차단을 위한 규칙이 포함되어 있습니다. 활성화된 목록의 수는 적게 유지하는 것이 좋습니다.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
-    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
-    <string name="menu_host_list_status">List status</string>
-    <string name="menu_host_list_download">List download settings</string>
-    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
-    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_adblocking_settings">광고 차단 설정</string>
+    <string name="menu_host_list_status">목록 상태</string>
+    <string name="menu_host_list_download">목록 다운로드 설정</string>
+    <string name="menu_host_whitelist">여기에 추가한 호스트는 절대 차단되지 않습니다. 방문한 웹사이트가 실수로 차단되었을 때 이 목록을 사용하세요. 단, 이 설정은 우회된 앱에는 적용되지 않습니다.</string>
+    <string name="menu_host_blacklist">여기에 추가한 호스트는 항상 차단됩니다. 예를 들어 표준 목록에서 차단되지 않지만 차단해야 하는 웹사이트를 추가할 수 있습니다. 단, 이 설정은 우회된 앱에는 적용되지 않습니다.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">기타</string>
-    <string name="menu_share_log_label">Sharing log allows us to discover the reason of your problem. Make sure you send it privately to one of Blokada core team members.</string>
+    <string name="menu_share_log_label">로그를 공유하면 문제의 원인을 파악하는 데 도움이 됩니다. 반드시 Blokada 핵심 팀원 중 한 명에게 비공개로 보내주세요.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">더 알아보기</string>
     <!-- A section informational content in menu -->
