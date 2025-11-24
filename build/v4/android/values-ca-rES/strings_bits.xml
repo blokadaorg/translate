@@ -13,100 +13,100 @@
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
     <string name="home_dns_only">Blokada està activada en mode DNS</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s blocked since %s</string>
-    <string name="home_masterswitch_enabled">Blokada is on</string>
-    <string name="home_masterswitch_waiting">Waiting for network...</string>
+    <string name="home_requests_blocked_since">%s blocades des de %s</string>
+    <string name="home_masterswitch_enabled">Blokada està activada</string>
+    <string name="home_masterswitch_waiting">Esperant la xarxa...</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Tell your friends</string>
-    <string name="home_share_state">Share your Blokada score</string>
-    <string name="home_share_state_google">Help others to learn about Blokada</string>
-    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
-    <string name="home_adblocking_enabled">Ad blocking is active</string>
-    <string name="home_adblocking_disabled">Ad blocking is deactivated</string>
-    <string name="home_blokadaorg">You are using Blokada Slim</string>
-    <string name="home_blokadaorg_state">Tap to get the open source edition</string>
+    <string name="home_share">Comparteix amb els teus amics</string>
+    <string name="home_share_state">Comparteix la teva puntuació de Blokada</string>
+    <string name="home_share_state_google">Ajuda als altres a conèixer Blokada</string>
+    <string name="home_share_msg_google">Prova Blokada Slim i mantingues la teva privadesa protegida! Aconsegueix-la a Google Play.</string>
+    <string name="home_adblocking_enabled">El bloqueig d\'anuncis està actiu</string>
+    <string name="home_adblocking_disabled">El bloqueig d\'anuncis està desactivat</string>
+    <string name="home_blokadaorg">Estàs fent servir Blokada Slim</string>
+    <string name="home_blokadaorg_state">Toca per obtenir l\'edició de codi obert</string>
     <!-- A short text for the item that displays update information -->
-    <string name="home_whats_new">What\'s new?</string>
-    <string name="home_update_required">Update required</string>
+    <string name="home_whats_new">Què hi ha de nou?</string>
+    <string name="home_update_required">Cal actualitzar</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Donatius</string>
-    <string name="home_vpn_enabled">Blokada Plus is active</string>
-    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
-    <string name="home_account_active">Your account is still active</string>
-    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
-    <string name="home_cleanup">Cleanup recommended</string>
+    <string name="home_vpn_enabled">Blokada Plus està activa</string>
+    <string name="home_vpn_disabled">Blokada Plus està desactivada</string>
+    <string name="home_account_active">El teu compte encara està actiu</string>
+    <string name="home_connecting_vpn">Connectant a Blokada Plus</string>
+    <string name="home_cleanup">Es recomana neteja</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Connected to Blokada Plus</string>
-    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
-    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
-    <string name="home_account_error">Could not verify account. Are you online?</string>
-    <string name="home_permission_error">Please grant VPN permissions.</string>
-    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
-    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
-    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
+    <string name="home_connected_vpn">Connectat a Blokada Plus</string>
+    <string name="home_boringtun_not_loaded">Ho sentim, el teu dispositiu no és compatible amb Blokada Plus. Encara pots usar altres funcions.</string>
+    <string name="home_blocka_vpn_error">No s\'ha pogut connectar amb la passarel·la. Estàs connectat a internet?</string>
+    <string name="home_account_error">No s\'ha pogut verificar el compte. Estàs connectat a internet?</string>
+    <string name="home_permission_error">Concedeix els permisos de VPN, si us plau.</string>
+    <string name="home_zero_filters_error">No tens cap filtre configurat. Comprova la configuració de bloqueig d\'anuncis i la configuració de wifi.</string>
+    <string name="home_filters_memory_error">No s\'han pogut carregar algunes llistes; selecciona menys llistes a la configuració del bloqueig d\'anuncis.</string>
+    <string name="tasker_switch_label">Toca en una de les opcions per configurar-la per activar-la (o desactivar-la) pel teu desencadenant.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
     <string name="menu_ads">Ads</string>
-    <string name="menu_ads_live_label">Host log of allowed and blocked requests</string>
-    <string name="menu_ads_clear_log">Clear host log</string>
-    <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
-    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
-    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
+    <string name="menu_ads_live_label">Registre de hosts de sol·licituds permeses i blocades</string>
+    <string name="menu_ads_clear_log">Neteja el registre de hosts</string>
+    <string name="menu_ads_lists_label">Selecciona les llistes que vols utilitzar per bloquejar. Les predeterminades són adequades per a la majoria d\'usuaris.</string>
+    <string name="menu_ads_rules_label">Afegeix les teves pròpies regles per afinar el bloqueig.</string>
+    <string name="menu_ads_log_label">Consulta quins s\'han bloquejat o permès recentment.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
-    <string name="menu_vpn_activate_account">Please activate your account first.</string>
-    <string name="menu_vpn_select_gateway">Please select a gateway.</string>
-    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
+    <string name="menu_vpn_activate_account">Activa primer el teu compte, si us plau.</string>
+    <string name="menu_vpn_select_gateway">Selecciona una passarel·la, si us plau.</string>
+    <string name="menu_vpn_intro_button">Per què necessito Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">My Blokada Plus</string>
+    <string name="menu_vpn_account">La meva Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
-    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_gateways">Passarel·les</string>
     <!-- A button opening VPN leases (devices) settings -->
     <string name="menu_vpn_leases">Dispositius</string>
-    <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
-    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
-    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
-    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
-    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
+    <string name="menu_vpn_manage_subscription">Gestiona la subscripció del teu compte</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Si el teu compte és nou, visita el nostre lloc web. No pots comprar una subscripció a Blokada Slim.</string>
+    <string name="menu_vpn_account_secret">Toca el teu avatar a sobre per veure el teu ID de compte. Recorda, el teu ID és secret i l\'has de guardar per a tu. Anota\'l per si desinstal·les l\'app.</string>
+    <string name="menu_vpn_restore_label">Aquí pots restaurar el teu compte existent, per exemple, si has tornat a instal·lar l\'app.</string>
+    <string name="menu_vpn_intro">Amb Blokada Plus les teves dades estan encriptades, la teva adreça IP és oculta i la teva ubicació canvia.</string>
+    <string name="menu_vpn_account_label">Per utilitzar la VPN, necessites tenir un compte actiu. Comprova o recupera el teu compte aquí.</string>
+    <string name="menu_vpn_gateways_label">Selecciona una de les passarel·les per connectar-t\'hi. El teu dispositiu enviarà les dades encriptades de forma segura per aquesta passarel·la, i mantindràs l\'anonimat.</string>
+    <string name="menu_vpn_support_label">Si tens qualsevol problema, no dubtis en contactar amb nosaltres.</string>
     <string name="menu_vpn_support_button">Suport</string>
-    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_tunnel_settings">Configuració de Blokada Plus</string>
     <string name="menu_vpn_tunnel_learn_more">Descobriu més de Blokada Plus</string>
-    <string name="menu_vpn_info_account_label">Do I have an account?</string>
-    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
-    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
-    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
-    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
-    <string name="menu_dns_recommended">Recommended DNS servers</string>
-    <string name="menu_dns_intro">DNS is responsible for translating IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
-    <string name="menu_dns_select">Select one of the DNS servers.</string>
-    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
-    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
-    <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
+    <string name="menu_vpn_info_account_label">Tinc un compte?</string>
+    <string name="menu_vpn_info_account_line1">Sí! El teu compte es crea automàticament en iniciar l\'app per primera vegada. No cal que et registris.</string>
+    <string name="menu_vpn_info_account_line2">Toca el teu avatar a sobre per veure el teu ID de compte.</string>
+    <string name="menu_vpn_info_account_line3">El teu ID de compte és secret i no l\'has de mostrar a ningú.</string>
+    <string name="menu_vpn_info_account_line4">Anota el teu ID de compte per si necessites tornar a instal·lar l\'app.</string>
+    <string name="menu_dns_recommended">Servidors DNS recomanats</string>
+    <string name="menu_dns_intro">El DNS s\'encarrega de traduir les adreces IP dels llocs web i de les apps que utilitzes. Triar un bon DNS pot accelerar el teu dispositiu i ajudar a protegir la teva privadesa.</string>
+    <string name="menu_dns_select">Selecciona un dels servidors DNS.</string>
+    <string name="menu_apps_intro">Algunes apps poden no funcionar correctament amb Blokada. Per exemple, poden tenir problemes de connexió.\n\nActivar la VPN sovint ajuda en aquests casos.\n\nSinó, pots fer que aquestes apps ometin la inspecció de Blokada completament. Recorda, les apps excloses es comuniquen fora de Blokada Plus.</string>
+    <string name="menu_apps_system_label">Les apps del sistema són les que venen preinstal·lades amb el dispositiu. Algunes d\'elles estan ocultes. Modifica-les només si saps què fas.</string>
+    <string name="menu_host_list_intro">Les llistes de hosts contenen regles per bloquejar anuncis i rastrejadors. Mantingues el nombre de llistes actives baix.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
-    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
-    <string name="menu_host_list_status">List status</string>
-    <string name="menu_host_list_download">List download settings</string>
-    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
-    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_adblocking_settings">Configuració de bloqueig d\'anuncis</string>
+    <string name="menu_host_list_status">Estat de la llista</string>
+    <string name="menu_host_list_download">Configuració de baixada de la llista</string>
+    <string name="menu_host_whitelist">Els hosts que afegeixis aquí no es bloquejaran mai. Utilitza aquesta llista quan, per exemple, un lloc web que visitis quedi bloquejat per error. Tingues en compte que això no s\'aplica a les apps excloses.</string>
+    <string name="menu_host_blacklist">Els hosts que afegeixis aquí sempre es bloquejaran. Per exemple, pots afegir llocs webs que no estiguin bloquejats per les llistes estàndard però que haurien d\'estar-ho. Tingues en compte que això no s\'aplica a les apps excloses.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Other</string>
-    <string name="menu_share_log_label">Sharing log allows us to discover the reason of your problem. Make sure you send it privately to one of Blokada core team members.</string>
+    <string name="menu_share_log_label">Compartir el registre ens permet descobrir la causa del teu problema. Assegura\'t d\'enviar-lo de forma privada a un membre de l\'equip de Blokada.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Més informació</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Get help</string>
+    <string name="menu_knowledge">Obteniu ajuda</string>
     <!-- A section content promoting participating in our project -->
     <string name="menu_get_involved">Involucreu-vos</string>
     <string name="menu_telegram">Comunitat</string>
-    <string name="menu_configure">Configure Blokada features</string>
-    <string name="menu_exclude">Exclude apps that do not work correctly</string>
+    <string name="menu_configure">Configura les funcionalitats de Blokada</string>
+    <string name="menu_exclude">Exclou les apps que no funcionen correctament</string>
     <!-- A section in menu for additional buttons  -->
-    <string name="menu_dive_in">Dive in deeper</string>
+    <string name="menu_dive_in">Explora més a fons</string>
     <!-- A section to manage some settings (generic)  -->
     <string name="menu_manage">Gestiona</string>
-    <string name="menu_ok">OK</string>
-    <string name="menu_dns_remove_default">Default DNS cannot be removed.</string>
+    <string name="menu_ok">D\'acord</string>
+    <string name="menu_dns_remove_default">No es pot eliminar el DNS per defecte.</string>
 </resources>
