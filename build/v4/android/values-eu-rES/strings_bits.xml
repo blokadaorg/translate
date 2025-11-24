@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_touch">Tap or hold to configure</string>
-    <string name="home_blokada_disabled">Blokada is paused</string>
-    <string name="home_blokada_active">Blokada is active</string>
-    <string name="home_blokada_active_protected">Blokada Plus is active, and your Internet is protected</string>
-    <string name="home_blokada_inactive">Blokada is deactivated</string>
-    <string name="home_activating">Activating</string>
+    <string name="home_touch">Sakatu edo mantendu konfiguratzeko</string>
+    <string name="home_blokada_disabled">Blokada eten dago</string>
+    <string name="home_blokada_active">Blokada aktiboa dago</string>
+    <string name="home_blokada_active_protected">Blokada Plus aktiboa dago eta zure Interneta babestuta dago</string>
+    <string name="home_blokada_inactive">Blokada desaktibatuta dago</string>
+    <string name="home_activating">Aktibatzen</string>
     <string name="home_please_wait">Itxaron, mesedez…</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_vpn_only">Blokada Plus is active without adblocking</string>
+    <string name="home_vpn_only">Blokada Plus aktiboa dago publizitate blokeatzaile gabe</string>
     <!-- Displayed on home screen, make sure it's very short. It's ok to modify the exact meaning to make it fit. -->
-    <string name="home_dns_only">Blokada is active in DNS mode</string>
+    <string name="home_dns_only">Blokada aktiboa dago DNS moduan</string>
     <!-- A text on the main ads counter. "490 requests blocked" -->
-    <string name="home_requests_blocked_since">%s blocked since %s</string>
-    <string name="home_masterswitch_enabled">Blokada is on</string>
-    <string name="home_masterswitch_waiting">Waiting for network...</string>
+    <string name="home_requests_blocked_since">%s blokeatuta %s-tik aurrera</string>
+    <string name="home_masterswitch_enabled">Blokada piztuta dago</string>
+    <string name="home_masterswitch_waiting">Sarearen zain...</string>
     <!-- A button to share the ads counter on social media -->
-    <string name="home_share">Tell your friends</string>
-    <string name="home_share_state">Share your Blokada score</string>
-    <string name="home_share_state_google">Help others to learn about Blokada</string>
-    <string name="home_share_msg_google">Try Blokada Slim and keep your privacy protected! Get it at Google Play.</string>
-    <string name="home_adblocking_enabled">Ad blocking is active</string>
-    <string name="home_adblocking_disabled">Ad blocking is deactivated</string>
-    <string name="home_blokadaorg">You are using Blokada Slim</string>
-    <string name="home_blokadaorg_state">Tap to get the open source edition</string>
+    <string name="home_share">Esan zure lagunei</string>
+    <string name="home_share_state">Partekatu zure Blokada puntuazioa</string>
+    <string name="home_share_state_google">Lagundu besteei Blokada ezagutzen</string>
+    <string name="home_share_msg_google">Saiatu Blokada Slim eta babestu zure pribatutasuna! Eskuratu Google Play-n.</string>
+    <string name="home_adblocking_enabled">Iragarkiak blokeatzea aktiboa dago</string>
+    <string name="home_adblocking_disabled">Iragarkiak blokeatzea desaktibatuta dago</string>
+    <string name="home_blokadaorg">Blokada Slim erabiltzen ari zara</string>
+    <string name="home_blokadaorg_state">Sakatu software libreko bertsioa lortzeko</string>
     <!-- A short text for the item that displays update information -->
-    <string name="home_whats_new">What\'s new?</string>
-    <string name="home_update_required">Update required</string>
+    <string name="home_whats_new">Zer berri?</string>
+    <string name="home_update_required">Eguneratzea beharrezkoa</string>
     <!-- A short text for the item that displays donate link -->
     <string name="home_donate">Lagundu diruarekin</string>
-    <string name="home_vpn_enabled">Blokada Plus is active</string>
-    <string name="home_vpn_disabled">Blokada Plus is deactivated</string>
-    <string name="home_account_active">Your account is still active</string>
-    <string name="home_connecting_vpn">Connecting to Blokada Plus</string>
-    <string name="home_cleanup">Cleanup recommended</string>
+    <string name="home_vpn_enabled">Blokada Plus aktiboa dago</string>
+    <string name="home_vpn_disabled">Blokada Plus desaktibatuta dago</string>
+    <string name="home_account_active">Zure kontua oraindik aktiboa dago</string>
+    <string name="home_connecting_vpn">Blokada Plus-era konektatzen</string>
+    <string name="home_cleanup">Garbitzea gomendatuta</string>
     <!-- A short text for the button to change VPN settings -->
-    <string name="home_connected_vpn">Connected to Blokada Plus</string>
-    <string name="home_boringtun_not_loaded">Sorry, your device is not supported by Blokada Plus. You can still use other features.</string>
-    <string name="home_blocka_vpn_error">Could not connect to gateway. Are you online?</string>
-    <string name="home_account_error">Could not verify account. Are you online?</string>
-    <string name="home_permission_error">Please grant VPN permissions.</string>
-    <string name="home_zero_filters_error">You have no filters configured. Check your adblocking and wifi settings.</string>
-    <string name="home_filters_memory_error">Some lists could not be loaded; select fewer lists in Ad blocking settings.</string>
-    <string name="tasker_switch_label">Tap on one of the options to configure to turn it on (or off) for your trigger.</string>
+    <string name="home_connected_vpn">Blokada Plus-arekin konektatuta</string>
+    <string name="home_boringtun_not_loaded">Barkatu, zure gailua ez du Blokada Plus-ek onartzen. Hala ere beste ezaugarri batzuk erabil ditzakezu.</string>
+    <string name="home_blocka_vpn_error">Ezin izan da gateway-ra konektatu. Online zaude?</string>
+    <string name="home_account_error">Ezin izan da kontua egiaztatu. Online zaude?</string>
+    <string name="home_permission_error">Mesedez, eman VPN baimenak.</string>
+    <string name="home_zero_filters_error">Ez duzu inolako iragazkirik konfiguratuta. Begiratu iragarki blokeatzeko eta wifi ezarpenak.</string>
+    <string name="home_filters_memory_error">Zerrenda batzuk ezin izan dira kargatu; hautatu zerrenda gutxiago Publizitate Blokeatzaile ezarpenetan.</string>
+    <string name="tasker_switch_label">Sakatu aukera bat konfiguratzeko eta pizteko (edo itzaltzeko) zure aktibatzailearentzat.</string>
     <!-- Ads section header in menu (for configuring ad blocking) -->
-    <string name="menu_ads">Ads</string>
-    <string name="menu_ads_live_label">Host log of allowed and blocked requests</string>
-    <string name="menu_ads_clear_log">Clear host log</string>
-    <string name="menu_ads_lists_label">Select lists to use for blocking. Defaults are fine for most people.</string>
-    <string name="menu_ads_rules_label">Add your own rules to fine tune blocking.</string>
-    <string name="menu_ads_log_label">See what has been blocked or allowed recently.</string>
+    <string name="menu_ads">Iragarkiak</string>
+    <string name="menu_ads_live_label">Onartutako eta blokeatutako eskaeren host-en log-a</string>
+    <string name="menu_ads_clear_log">Ezabatu host log-a</string>
+    <string name="menu_ads_lists_label">Hautatu blokeatzeko zerrendak. Lehenetsiak egokiak dira jende gehienarentzat.</string>
+    <string name="menu_ads_rules_label">Gehitu zure arauak blokeatzea zehatz-mehatz ezartzeko.</string>
+    <string name="menu_ads_log_label">Ikusi zer blokeatu edo onartu den berriki.</string>
     <!-- VPN section header in menu (for configuring VPN) -->
     <string name="menu_vpn">Blokada Plus</string>
-    <string name="menu_vpn_activate_account">Please activate your account first.</string>
-    <string name="menu_vpn_select_gateway">Please select a gateway.</string>
-    <string name="menu_vpn_intro_button">Why do I need Blokada Plus?</string>
+    <string name="menu_vpn_activate_account">Mesedez, aktibatu zure kontua lehenik.</string>
+    <string name="menu_vpn_select_gateway">Mesedez, hautatu gateway bat.</string>
+    <string name="menu_vpn_intro_button">Zergatik behar dut Blokada Plus?</string>
     <!-- A button opening VPN account settings -->
-    <string name="menu_vpn_account">My Blokada Plus</string>
+    <string name="menu_vpn_account">Nire Blokada Plus</string>
     <string name="menu_vpn_account_id">ID: %s</string>
     <!-- A button opening VPN gateways settings -->
-    <string name="menu_vpn_gateways">Gateways</string>
+    <string name="menu_vpn_gateways">Gateway-ak</string>
     <!-- A button opening VPN leases (devices) settings -->
-    <string name="menu_vpn_leases">Devices</string>
-    <string name="menu_vpn_manage_subscription">Manage your account subscription</string>
-    <string name="menu_vpn_manage_subscription_unavailable">If your account is new, visit our website. You cannot purchase a subscription in Blokada Slim.</string>
-    <string name="menu_vpn_account_secret">Tap your avatar above to see your account ID. Remember, your ID is secret and you should keep it to yourself. Write it down in case you uninstall the app.</string>
-    <string name="menu_vpn_restore_label">Here you can restore your existing account if, for example, you re-installed the app.</string>
-    <string name="menu_vpn_intro">With Blokada Plus your data is encrypted, your IP address is hidden, and your location is changed.</string>
-    <string name="menu_vpn_account_label">In order to use the VPN, you need an active account. Check or restore your account here.</string>
-    <string name="menu_vpn_gateways_label">Select one of the gateways to connect to. Your device will send your encrypted data securely through that gateway, and you will stay anonymous.</string>
-    <string name="menu_vpn_support_label">If you experience any problems, do not hesitate to contact us.</string>
-    <string name="menu_vpn_support_button">Support</string>
-    <string name="menu_vpn_tunnel_settings">Blokada Plus settings</string>
+    <string name="menu_vpn_leases">Gailuak</string>
+    <string name="menu_vpn_manage_subscription">Kudeatu zure kontuaren harpidetza</string>
+    <string name="menu_vpn_manage_subscription_unavailable">Zure kontua berria bada, bisitatu gure webgunea. Ezin duzu harpidetzarik erosi Blokada Slim-en.</string>
+    <string name="menu_vpn_account_secret">Sakatu zure avatarra goian zure kontuaren ID ikusteko. Gogoratu, zure ID sekretua da eta zuk bakarrik eduki behar duzu. Idatzi ezazu app-a desinstalatzen baduzu.</string>
+    <string name="menu_vpn_restore_label">Hemen berrezarri dezakezu zure egungo kontua, adibidez, app-a berrinstalatu baduzu.</string>
+    <string name="menu_vpn_intro">Blokada Plus erabiliz zure datuak enkriptatuta daude, zure IP helbidea ezkutatuta dago eta zure kokapena aldatuta dago.</string>
+    <string name="menu_vpn_account_label">VPN erabiltzeko, kontu aktibo bat behar duzu. Egiaztatu edo berreskuratu zure kontua hemen.</string>
+    <string name="menu_vpn_gateways_label">Hautatu gateway bat konektatzeko. Zure gailuak datu enkriptatuak seguru bidaliko ditu gateway horretatik eta anonimo izango zara.</string>
+    <string name="menu_vpn_support_label">Arazoak badituzu, ez izan zalantzarik gurekin harremanetan jartzeko.</string>
+    <string name="menu_vpn_support_button">Laguntza</string>
+    <string name="menu_vpn_tunnel_settings">Blokada Plus ezarpenak</string>
     <string name="menu_vpn_tunnel_learn_more">Informazio gehiago Blokada Plus-i buruz</string>
-    <string name="menu_vpn_info_account_label">Do I have an account?</string>
-    <string name="menu_vpn_info_account_line1">Yes! Your account is automatically created on first run. You do not need to register.</string>
-    <string name="menu_vpn_info_account_line2">Tap your avatar above to see your account ID.</string>
-    <string name="menu_vpn_info_account_line3">Your account ID is secret and you should not show it to anyone.</string>
-    <string name="menu_vpn_info_account_line4">Write down your account ID in case you need to reinstall the app.</string>
-    <string name="menu_dns_recommended">Recommended DNS servers</string>
-    <string name="menu_dns_intro">DNS is responsible for translating IP addresses of websites and apps you use. Choosing a good DNS may speed up your device and will help protect your privacy.</string>
-    <string name="menu_dns_select">Select one of the DNS servers.</string>
-    <string name="menu_apps_intro">Some apps may not work properly with Blokada. For example, they may have trouble connecting.\n\nActivating VPN often helps in those cases.\n\nOtherwise, you can make those apps bypass Blokada inspection altogether. Remember, bypassed apps communicate outside of Blokada Plus.</string>
-    <string name="menu_apps_system_label">System apps are the ones coming preinstalled with your device. Some of them are hidden. Modify those only if you know what you are doing.</string>
-    <string name="menu_host_list_intro">Host lists contain rules for blocking ads and trackers. Try to keep the number of active lists low.</string>
+    <string name="menu_vpn_info_account_label">Kontua daukat?</string>
+    <string name="menu_vpn_info_account_line1">Bai! Zure kontua automatikoki sortzen da lehen aldiz exekutatzean. Ez duzu erregistratu beharrik.</string>
+    <string name="menu_vpn_info_account_line2">Sakatu zure avatarra goian kontuaren ID ikusteko.</string>
+    <string name="menu_vpn_info_account_line3">Zure kontuaren ID-a sekretua da eta ez zenuke inori erakutsi behar.</string>
+    <string name="menu_vpn_info_account_line4">Idatzi zure kontuaren ID-a, aplikazioa berrinstalatu behar baduzu.</string>
+    <string name="menu_dns_recommended">Gomendatutako DNS zerbitzariak</string>
+    <string name="menu_dns_intro">DNS arduratzen da zure erabiltzen dituzun webguneen eta aplikazioen IP helbideak itzultzeaz. DNS ona aukeratzeak zure gailua azkartu dezake eta pribatutasuna babesten lagunduko dizu.</string>
+    <string name="menu_dns_select">Hautatu DNS zerbitzari bat.</string>
+    <string name="menu_apps_intro">Aplikazio batzuk baliteke ez ibiltzea ondo Blokadarekin. Adibidez, konektatzeko arazoak izan ditzakete.\n\nVPN aktibatzeak laguntzen du horrelako kasuetan.\n\nBestela, aplikazio horiek Blokada azterketa kanpo uztea hauta dezakezu. Gogoratu, salbuetsitako aplikazioek Blokada Plus-etik kanpo komunikatzen dira.</string>
+    <string name="menu_apps_system_label">Sistema-aplikazioak zure gailuak aurrez instalatuta dakartzanak dira. Horietako batzuk ezkutuan egon daitezke. Aldatu horiek soilik zer egiten ari zaren badakizu.</string>
+    <string name="menu_host_list_intro">Host zerrendek iragarkiak eta jarraipenak blokeatzeko arauak dituzte. Saiatu zerrenda aktibo kopurua txikia izaten.</string>
     <string name="menu_host_adblocking_features">Blokada Labs</string>
-    <string name="menu_host_adblocking_settings">Ad blocking Settings</string>
-    <string name="menu_host_list_status">List status</string>
-    <string name="menu_host_list_download">List download settings</string>
-    <string name="menu_host_whitelist">Hosts you add here will never be blocked. Use this list when, for example, a website you visit is mistakenly blocked. Note that this does not apply to bypassed apps.</string>
-    <string name="menu_host_blacklist">Hosts you add here will always be blocked. For example, you may add websites that are not blocked by the standard lists, but should be. Note that this does not apply to bypassed apps.</string>
+    <string name="menu_host_adblocking_settings">Iragarkiak Blokeatzeko Ezarpenak</string>
+    <string name="menu_host_list_status">Zerrenda egoera</string>
+    <string name="menu_host_list_download">Zerrenda deskarga ezarpenak</string>
+    <string name="menu_host_whitelist">Hemen gehitzen dituzun host-ak ez dira inoiz blokeatuko. Zerrenda hau erabili, adibidez, bisitatzen duzun webgune bat okerki blokeatuta badago. Kontuan izan hau ez dela aplikatuko kanpo utzitako aplikazioetan.</string>
+    <string name="menu_host_blacklist">Hemen gehitzen dituzun host-ak beti blokeatuko dira. Adibidez, estandar zerrendek blokeatzen ez dituzten webguneak gehitu ditzakezu hemen. Kontuan izan hau ez dela aplikatuko kanpo utzitako aplikazioetan.</string>
     <!-- A section of other settings in menu -->
     <string name="menu_other">Bestelakoak</string>
-    <string name="menu_share_log_label">Sharing log allows us to discover the reason of your problem. Make sure you send it privately to one of Blokada core team members.</string>
+    <string name="menu_share_log_label">Erregistroa partekatzeak zure arazoaren arrazoia aurkitzen laguntzen digu. Ziurtatu Blokada talde nagusiko kide bati pribatuan bidaltzen diozula.</string>
     <!-- A section of help, telegram, and other buttons in menu -->
     <string name="menu_learn_more">Informazio gehiago</string>
     <!-- A section informational content in menu -->
-    <string name="menu_knowledge">Get help</string>
+    <string name="menu_knowledge">Lortu laguntza</string>
     <!-- A section content promoting participating in our project -->
-    <string name="menu_get_involved">Get involved</string>
+    <string name="menu_get_involved">Egin ezazu parte</string>
     <string name="menu_telegram">Komunitatea</string>
-    <string name="menu_configure">Configure Blokada features</string>
-    <string name="menu_exclude">Exclude apps that do not work correctly</string>
+    <string name="menu_configure">Konfiguratu Blokada ezaugarriak</string>
+    <string name="menu_exclude">Baztertu ondo funtzionatzen ez duten aplikazioak</string>
     <!-- A section in menu for additional buttons  -->
-    <string name="menu_dive_in">Dive in deeper</string>
+    <string name="menu_dive_in">Sakonago sartu</string>
     <!-- A section to manage some settings (generic)  -->
-    <string name="menu_manage">Manage</string>
-    <string name="menu_ok">OK</string>
-    <string name="menu_dns_remove_default">Default DNS cannot be removed.</string>
+    <string name="menu_manage">Kudeatu</string>
+    <string name="menu_ok">Ados</string>
+    <string name="menu_dns_remove_default">Ezin da lehenetsitako DNS ezabatu.</string>
 </resources>
