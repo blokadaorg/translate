@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="notification_on_text">Notificacions</string>
-    <string name="notification_on_description">When on, Blokada will display a notification every time something is blocked. Please note this is not the same as the VPN notification some devices show, and which cannot be turned off.&lt;br/&gt;You can configure which notifications should be displayed with the Settings below.</string>
+    <string name="notification_on_description">Quan està activat, Blokada mostrarà una notificació cada vegada que es blocarà alguna cosa. Tingues en compte que això no és el mateix que la notificació de VPN que alguns dispositius mostren i que no es pot desactivar.&lt;br/&gt;Pots configurar quines notificacions s\'han de mostrar a través dels paràmetres que trobaràs a continuació.</string>
     <!-- Title of the notification that shows up every time something is blocked. -->
     <string name="notification_blocked_title">Bloquejat</string>
     <!-- Content of the notification that shows up every time something is blocked. Parameter: blocked host name. -->
@@ -15,10 +15,10 @@
     <!-- Parameter: branded app name (Blokada). -->
     <!-- Parameter: branded app name (Blokada). -->
     <string name="notification_keepalive_text">Mantén actiu</string>
-    <string name="notification_keepalive_description">Activate this switch if you experience problems with the app staying active in the background. Blokada will enable a permanent notification to prevent the system from killing it; you can hide it by choosing Notifications above and there Settings.</string>
+    <string name="notification_keepalive_description">Activa aquest interruptor si tens problemes amb l\'aplicació perquè es mantingui activa en segon pla. Blokada activarà una notificació permanent per evitar que el sistema la mati; pots amagar-la seleccionant Notificacions a dalt i després els paràmetres corresponents.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. -->
-    <string name="notification_keepalive_title_new">Keep Alive (tap to hide)</string>
-    <string name="notification_keepalive_text_new">Android requires to display a notification to keep the app running, but you are free to disable it in system settings.</string>
+    <string name="notification_keepalive_title_new">Manté viu (toca per amagar)</string>
+    <string name="notification_keepalive_text_new">Android requereix mostrar una notificació per mantenir l\'aplicació en funcionament, però ets lliure de desactivar-la als paràmetres del sistema.</string>
     <!-- The blocked counter, displayed in the Keep Alive notification. Parameter: blocked counter. -->
     <string name="notification_keepalive_title">%d bloquejat(s)</string>
     <!-- The most recently blocked host, displayed in the Keep Alive notification. Parameter: blocked host name -->
@@ -29,12 +29,12 @@
     <string name="notification_keepalive_activating">El Blokada s\'està iniciant. Això pot trigar una estona.</string>
     <string name="notification_keepalive_deactivate">Desactiva</string>
     <string name="notification_keepalive_deactivating">El Blokada s\'ha desactivat!</string>
-    <string name="notification_expired_title">Blokada Plus is deactivated</string>
-    <string name="notification_expired_description">Your account is not active, and Blokada Plus is off. Standard Blokada features work fine without the Blokada Plus VPN. However please consider activating your account for better protection and for supporting the project.</string>
-    <string name="notification_lease_expired_title">Blokada Plus is deactivated</string>
-    <string name="notification_lease_expired_description">There was a problem with your connection to Blokada Plus. Please try choosing another gateway. If the problem persists, please contact us.</string>
+    <string name="notification_expired_title">Blokada Plus està desactivat</string>
+    <string name="notification_expired_description">El teu compte no està actiu i Blokada Plus està apagat. Les funcions estàndard de Blokada funcionen correctament sense el VPN de Blokada Plus. Tanmateix, considera activar el teu compte per aconseguir una millor protecció i per donar suport al projecte.</string>
+    <string name="notification_lease_expired_title">Blokada Plus està desactivat</string>
+    <string name="notification_lease_expired_description">Hi ha hagut un problema amb la teva connexió a Blokada Plus. Prova de triar una altra passarel·la. Si el problema persisteix, contacta amb nosaltres.</string>
     <string name="notification_channel_filtered">Bloqueig d\'anuncis</string>
-    <string name="notification_channel_announcements">Announcements</string>
+    <string name="notification_channel_announcements">Anuncis</string>
     <string name="notification_channel_vpn">Blokada Plus</string>
     <string name="notification_channel_other">Other</string>
 </resources>
