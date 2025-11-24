@@ -12,39 +12,39 @@
 
 "error device offline" = "Zure gailua konexiorik gabe dago";
 "error account inactive" = "Zure kontua inaktibo dago. Mesedez, aktibatu kontua BLOKADA+ erabiltzen jarraitzeko.";
-"error account inactive generic" = "Your account is inactive. Please activate your account in order to continue using Blokada.";
-"error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us.";
-"error account invalid" = "This account ID seems invalid.";
-"error creating account" = "Could not create a new account. Please try again later.";
-"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error tunnel" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn" = "Could not establish the VPN. Please restart your device, or remove Blokada VPN profile in system settings, and try again.";
-"error vpn perms" = "No permissions granted to create a VPN profile.";
-"error vpn no current lease" = "Please select a location first.";
-"error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
-"error vpn too many leases" = "You reached your devices limit. Please remove one of your devices and try again.";
-"error vpn expired" = "The VPN is disabled. Please update your subscription to continue using BLOKADA+";
-"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us by tapping the help icon at the top.";
-"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us by tapping the help icon at the top.";
-"error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
-"error payment canceled" = "The payment has been canceled. You have not been charged.";
-"error pack install" = "Could not install (or uninstall) this feature. Please try again later.";
-"error location failed fetching" = "Could not fetch locations.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
-"error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
-"error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
-"error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
+"error account inactive generic" = "Zure kontua ez dago aktibo. Aktibatu zure kontua Blokada erabiltzen jarraitzeko.";
+"error account inactive after restore" = "Ez dirudi kontu aktibo balioduna denik. Uste baduzu akatsa dela, jar zaitez gurekin harremanetan.";
+"error account invalid" = "Badirudi kontu ID hau baliogabea dela.";
+"error creating account" = "Ezin izan da kontu berria sortu. Saiatu berriro geroago.";
+"error fetching data" = "Ezin izan da ekintza hau burutu. Ziurtatu linean zaudela eta saiatu berriro geroago. Arazoak jarraitzen badu, sakatu goiko laguntza ikonoa gurekin harremanetan jartzeko.";
+"error tunnel" = "Ezin izan da VPN-a ezarri. Berrabiarazi zure gailua, edo kendu Blokada VPN profila sistemaren ezarpenetan, eta saiatu berriro.";
+"error vpn" = "Ezin izan da VPN-a ezarri. Berrabiarazi zure gailua, edo kendu Blokada VPN profila sistemaren ezarpenetan, eta saiatu berriro.";
+"error vpn perms" = "Ez da baimenik eman VPN profil bat sortzeko.";
+"error vpn no current lease" = "Aukeratu lehenik kokapen bat mesedez.";
+"error vpn no current lease new" = "Blokada Plus desgaituta dago gailu honetan. Aktibatzeko, aukeratu berriz kokapen bat.";
+"error vpn too many leases" = "Zure gailuen muga gainditu duzu. Kendu gailuretako bat eta saiatu berriro.";
+"error vpn expired" = "VPN desgaituta dago. Eguneratu zure harpidetza BLOKADA+ erabiltzen jarraitzeko.";
+"error payment inactive after restore" = "Zure aurreko ordainketa berreskuratu da, baina harpidetza dagoeneko iraungi da. Akats bat dela uste baduzu, sakatu goiko laguntza ikonoa gurekin harremanetan jartzeko.";
+"error payment failed" = "Ordainketak ez daude erabilgarri une honetan. Ziurtatu linean zaudela eta saiatu berriro geroago. Arazoak jarraitzen badu, sakatu goiko laguntza ikonoa gurekin harremanetan jartzeko.";
+"error payment failed alternative" = "Ezin izan da zure ordainketa burutu. Ziurtatu zure datuak zuzenean sartu dituzula eta saiatu berriro. Arazoak jarraitzen badu, sakatu goiko laguntza ikonoa gurekin harremanetan jartzeko.";
+"error payment not available" = "Ordainketak ez daude erabilgarri gailu honentzat. Gailu hau eguneratu gabe dago, edo ez dugu oraindik zure herrialdean erosketak kudeatzen.";
+"error payment canceled" = "Ordainketa bertan behera utzi da. Ez zaizu kargurik egin.";
+"error pack install" = "Ezin izan da ezaugarri hau instalatu (edo desinstalatu). Saiatu berriro geroago.";
+"error location failed fetching" = "Ezin izan da kokapena lortu.";
+"error unknown" = "Arazo bat gertatu da. Ziurtatu linean zaudela eta saiatu berriro geroago. Arazoak jarraitzen badu, sakatu goiko laguntza ikonoa gurekin harremanetan jartzeko.";
+"error multiple apps" = "Gailu honetan Blokada aplikazio bat baino gehiago dago. Honek konektibitate arazoak ekar ditzake. Orain konpondu nahi duzu?";
+"error locked" = "Ekintza hau ez dago erabilgarri aplikazioa blokeatuta dagoenean. Desblokeatu aplikazioa jarraitzeko.";
+"error lock invalid" = "PIN balioduna zehazki 4 digitu behar da izan. Saiatu berriro.";
 
-"conn isssues header" = "Connectivity issues";
-"conn isssues slug" = "Connectivity issues. Please check your configuration. Tap for details.";
-"conn isssues details" = "- Check your Internet connection\n- Use only one Blokada app\n- Deactivate other VPNs";
+"conn isssues header" = "Konektibitate arazoak";
+"conn isssues slug" = "Konektibitate arazoak. Egiaztatu zure konfigurazioa. Sakatu xehetasunetarako.";
+"conn isssues details" = "- Egiaztatu zure Interneteko konexioa\n- Erabili Blokada app bakarra\n- Desgaitu beste VPN-ak";
 
 "universal action continue" = "Jarraitu";
 "universal action cancel" = "Ezeztatu";
 "universal action close" = "Itxi";
 "universal action done" = "Eginda";
-"universal action edit" = "Edit";
+"universal action edit" = "Editatu";
 "universal action try again" = "Saiatu berriro";
 "universal action learn more" = "Informazio gehiago";
 "universal action help" = "Laguntza";
@@ -53,11 +53,11 @@
 "universal action copy" = "Kopiatu";
 "universal action save" = "Gorde";
 "universal action contact us" = "Jarri harremanetan gurekin";
-"universal action support" = "Support";
-"universal action upgrade" = "Upgrade to BLOKADA+";
-"universal action upgrade short" = "Upgrade";
-"universal action yes" = "Yes";
-"universal action no" = "No";
+"universal action support" = "Laguntza";
+"universal action upgrade" = "Eguneratu BLOKADA+ bertsiora";
+"universal action upgrade short" = "Eguneratu";
+"universal action yes" = "Bai";
+"universal action no" = "Ez";
 "universal action donate" = "Lagundu diruarekin";
 "universal action community" = "Komunitatea";
 "universal action open in browser" = "Ireki nabigatzailean";
@@ -67,90 +67,90 @@
 "universal action delete" = "Ezabatu";
 "universal action hide" = "Ezkutatu";
 "universal action select" = "Aukeratu";
-"universal action selected" = "Selected";
+"universal action selected" = "Hautatuta";
 // A verb "to search in the list"
-"universal action search" = "Search";
+"universal action search" = "Bilatu";
 // A verb "to filter the list"
-"universal action filter" = "Filter";
+"universal action filter" = "Iragazi";
 // A verb "to clear the list"
-"universal action clear" = "Clear";
+"universal action clear" = "Garbitu";
 // A verb "to revoke permissions"
-"universal action revoke" = "Revoke";
+"universal action revoke" = "Ezeztatu";
 // A verb "to add new item to list"
-"universal action add" = "Add";
+"universal action add" = "Gehitu";
 
 // Action to open chat
-"support action chat" = "Chat with us";
+"support action chat" = "Hitz egin gurekin";
 // Action to end chat. Keep it super short
-"support action end" = "End";
-"support placeholder" = "Ask about anything you want to know!";
-"support error generic" = "Sorry did not understand, can you repeat?";
+"support action end" = "Amaitu";
+"support placeholder" = "Galdetu nahi duzun edozer!";
+"support error generic" = "Barkatu, ez dut ulertu, errepikatu dezakezu?";
 // Its ok to leave it as it is
 "support name bot" = "Blocka Bot";
 
 "universal label help" = "Laguntza";
-"universal label welcome" = "Welcome!";
+"universal label welcome" = "Ongi etorri!";
 // Common label when some feature has no setting
-"universal label none" = "None";
+"universal label none" = "Bat ere ez";
 // Common label in tables for the Name column. Think "name of host".
-"universal label name" = "Name";
+"universal label name" = "Izena";
 // Common label in tables for the Time column. Think "time of event".
-"universal label time" = "Time";
+"universal label time" = "Ordua";
 // Common label in tables for the Count column. Think "number of items".
-"universal label count" = "Count";
+"universal label count" = "Kopurua";
 // Common label in tables for the Type column. Think "type of item".
-"universal label type" = "Type";
-"universal label device" = "Device";
+"universal label type" = "Mota";
+"universal label device" = "Gailua";
 
-"universal status processing" = "Processing... Please wait.";
-"universal status copied to clipboard" = "Copied to Clipboard";
-"universal status restart required" = "Please restart the app for the changes to take effect.";
-"universal status redirect" = "Continue with the Blokada App";
-"universal status confirm" = "Are you sure you want to proceed?";
-"universal status loading" = "Loading...";
+"universal status processing" = "Prozesatzen... Itxaron mesedez.";
+"universal status copied to clipboard" = "Arbelera kopiatu da";
+"universal status restart required" = "Itxi eta berrabiarazi aplikazioa aldaketak ezartzeko.";
+"universal status redirect" = "Jarraitu Blokada aplikazioarekin";
+"universal status confirm" = "Ziur zaude jarraitu nahi duzula?";
+"universal status loading" = "Kargatzen...";
 
-"alert error header" = "Ooops!";
-"alert vpn expired header" = "BLOKADA+ expired";
-"alert download link body" = "For security reasons, to download a file, we need to open this website in your browser. Then, please tap the download link again.";
+"alert error header" = "Arazoa!";
+"alert vpn expired header" = "BLOKADA+ iraungi da";
+"alert download link body" = "Segurtasun arrazoiengatik, fitxategia deskargatzeko webgunea zure nabigatzailean ireki behar dugu. Ondoren, sakatu berriro deskarga estekan.";
 
-"notification perms header" = "Enable notifications in Settings";
-"notification perms desc" = "This feature requires notifications, please switch them on for Blokada.";
-"notification perms denied" = "You denied notifications. To change it, please use System Preferences.";
+"notification perms header" = "Gaitu abisuak Ezarpenetan";
+"notification perms desc" = "Ezaugarri honek abisuak behar ditu, mesedez, gaitu Blokadarentzat.";
+"notification perms denied" = "Abisuak ukatu dituzu. Aldatzeko, erabili Sistemaren Hobespenak.";
 
-"notification vpn expired header" = "BLOKADA+ subscription expired";
-"notification vpn expired subtitle" = "The VPN is disabled";
-"notification vpn expired body" = "Please update your subscription to continue using BLOKADA+";
-"notification desc settings" = "Swipe the notification left or right for settings.";
+"notification vpn expired header" = "BLOKADA+ harpidetza iraungi da";
+"notification vpn expired subtitle" = "VPN-a desgaituta dago";
+"notification vpn expired body" = "Mesedez, eguneratu zure harpidetza BLOKADA+ erabiltzen jarraitzeko";
+"notification desc settings" = "Lerratu abisua ezker edo eskuin ezarpenetarako.";
 
-"notification generic header" = "Blokada: Action required";
-"notification generic subtitle" = "Tap to learn more";
-"notification generic body" = "Please open the app for details.";
+"notification generic header" = "Blokada: Ekintza beharrezkoa";
+"notification generic subtitle" = "Sakatu gehiago jakiteko";
+"notification generic body" = "Ireki aplikazioa xehetasunak ikusteko.";
 
 // A short header in a notification shown when account expires
-"notification acc header" = "Subscription expired";
-"notification acc subtitle" = "Adblocking is disabled";
-"notification acc body" = "Please update your subscription to continue using Blokada.";
+"notification acc header" = "Harpidetza iraungi da";
+"notification acc subtitle" = "Iragarkien blokeoa desgaituta dago";
+"notification acc body" = "Eguneratu zure harpidetza Blokada erabiltzen jarraitzeko.";
 
-"notification pause header" = "Blokada is still paused";
-"notification pause subtitle" = "Adblocking is disabled";
-"notification pause body" = "Please open the app to resume Blokada.";
+"notification pause header" = "Blokada oraindik pausatuta dago";
+"notification pause subtitle" = "Iragarkien blokeoa desgaituta dago";
+"notification pause body" = "Ireki aplikazioa Blokada berrabiarazteko.";
 
 // Displayed in a notification title. Do not translate "Plus".
-"notification lease header" = "Blokada Plus is off";
+"notification lease header" = "Blokada Plus itzalita dago";
 
-"notification update header" = "An update is available";
-"alert update body" = "Blokada %@ is now available for download. We recommend keeping the app up to date, and downloading it only from our official sources.";
+"notification update header" = "Eguneratze bat eskuragarri dago";
+"alert update body" = "Blokada %@ deskarga daiteke orain. Gomendatzen dugu aplikazioa eguneratuta mantentzea, eta soilik gure iturri ofizialetatik deskargatzea.";
 "update label updated" = "Eguneratuta!";
-"update desc updated" = "You are now using the newest version of Blokada! Remember, donating or subscribing to Blokada Plus allows us to continue improving the app.";
-"update desc updated nodon" = "You are now using the newest version of Blokada!";
-"update downloading description" = "The update is now downloading, and you should see the installation prompt shortly.";
+"update desc updated" = "Orain Blokadaren bertsio berriena erabiltzen ari zara! Gogoratu, dohaintzak edo Blokada Plus-en harpidetza eginez aplikazioa hobetzen laguntzen diguzula.";
+"update desc updated nodon" = "Orain Blokada-ren azken bertsioa erabiltzen ari zara!";
+"update downloading description" = "Eguneratzea deskargatzen ari da, eta laster instalatzeko mezua ikusiko duzu.";
 
-"main share message" = "Blokada helped me block %@ ads and trackers!";
+"main share message" = "Blokadak %@ iragarki eta jarraitzaile blokeatzen lagundu dit!";
 
-"main rate us header" = "Rate us!";
-"main rate us description" = "How do you like Blokada so far?";
-"main rate us on app store" = "Would you help us by rating Blokada on App Store?";
-"main rate us action sure" = "Sure!";
+"main rate us header" = "Baloratu gaitzazu!";
+"main rate us description" = "Nola gustatzen zaizu Blokada orain arte?";
+"main rate us on app store" = "Lagunduko al diguzu Blokada App Store-n baloratuz?";
+"main rate us action sure" = "Noski!";
 
 // Make sure each tab name has a similar length
 "main tab home" = "Hasiera";
@@ -161,711 +161,711 @@
 // Make sure each tab name has a similar length
 "main tab settings" = "Ezarpenak";
 
-"home ads counter footnote" = "ads and trackers blocked since installation";
-"home power off menu header" = "What would you like to do?";
+"home ads counter footnote" = "instalaziotik iragarki eta jarraitzaileak blokeatuta";
+"home power off menu header" = "Zer egin nahi duzu?";
 "home power action turn on" = "Piztu";
 "home power action turn off" = "Itzali";
-"home power action pause" = "Pause for 5 min";
-"home power action pause five" = "Pause for 5 Minutes";
-"home power action off all" = "Turn Off All Protection";
-"home power pause status active" = "Ad Blocking is Active";
+"home power action pause" = "Pausatu 5 minutuz";
+"home power action pause five" = "Pausatu 5 minutu";
+"home power action off all" = "Desaktibatu babes guztia";
+"home power pause status active" = "Iragarki-blokeoa Aktibo dago";
 
-"home status paused" = "Paused";
-"home status active" = "Active";
-"home status deactivated" = "Deactivated";
-"home action tap to activate" = "Tap to activate";
-"home status detail paused" = "Paused until timer ends";
-"home status detail active" = "Blocking *ads* and *trackers*";
-"home status detail active with counter" = "Blocked *%@* ads and trackers";
-"home status detail active day" = "Ads and trackers blocked last 24h";
-"home status detail active slim" = "Blokada *Slim* is active";
-"home status detail plus" = "*+* protecting your *privacy*";
+"home status paused" = "Pausatuta";
+"home status active" = "Aktibo";
+"home status deactivated" = "Desaktibatuta";
+"home action tap to activate" = "Sakatu aktibatzeko";
+"home status detail paused" = "Pausatuta denboragailua amaitu arte";
+"home status detail active" = "*Iragarkiak* eta *jarraitzaileak* blokeatzen";
+"home status detail active with counter" = "*%@* iragarki eta jarraitzaile blokeatuta";
+"home status detail active day" = "Iragarkiak eta jarraitzaileak blokeatuta azken 24 ordutan";
+"home status detail active slim" = "Blokada *Slim* aktibo dago";
+"home status detail plus" = "*+* zure *pribatutasuna* babesten";
 "home status detail progress" = "Itxaron, mesedez…";
 
-"home plus button deactivated" = "BLOKADA+ deactivated";
-"home plus button deactivated cloud" = "VPN deactivated";
-"home plus button select location" = "Select location";
-"home plus button location" = "Location: *%@*";
+"home plus button deactivated" = "BLOKADA+ desaktibatuta";
+"home plus button deactivated cloud" = "VPN desaktibatuta";
+"home plus button select location" = "Hautatu kokapena";
+"home plus button location" = "Kokapena: *%@*";
 
-"pack section header" = "Advanced Features";
-"pack section header details" = "Feature Details";
-"pack action install" = "GET";
-"pack action update" = "UPDATE";
-"pack action uninstall" = "REMOVE";
-"pack author" = "Author";
-"pack configurations header" = "Configurations";
+"pack section header" = "Ezaugarri Aurreratuak";
+"pack section header details" = "Ezaugarri Xehetasunak";
+"pack action install" = "ESKURATU";
+"pack action update" = "EGUNERATU";
+"pack action uninstall" = "KENDU";
+"pack author" = "Egilea";
+"pack configurations header" = "Konfigurazioak";
 "pack information header" = "Gehiago";
-"pack tags header" = "Tags";
-"pack tags none" = "None";
-"pack category highlights" = "Highlights";
-"pack category active" = "Active";
-"pack category all" = "All";
+"pack tags header" = "Etiketak";
+"pack tags none" = "Bat ere ez";
+"pack category highlights" = "Nabarmendutakoak";
+"pack category active" = "Aktibo";
+"pack category all" = "Denak";
 
-"shields section header" = "Shields";
+"shields section header" = "Ezkutuak";
 
-"location choice header" = "Choose a Location";
+"location choice header" = "Hautatu kokapen bat";
 
 "activity section header" = "Ekintza";
-"activity section header details" = "Activity Details";
-"activity request blocked" = "This request has been blocked.";
-"activity request allowed" = "This request has been allowed.";
-"activity request allowed whitelisted" = "This request has been allowed, because it is on your Allowed list";
-"activity request blocked blacklisted" = "This request has been blocked, because it is on your Blocked list";
-"activity request allowed list" = "This request has been allowed, because it's present on the *%@* allowlist.";
-"activity request allowed no list" = "This request has been allowed, as it's not present on any of your configured blocklists.";
-"activity request blocked list" = "This request has been blocked, because it's present on the *%@* blocklist.";
-"activity request blocked no list" = "This request has been blocked, as it's not present on any of your configured allowlists.";
-"activity actions header" = "Actions";
-"activity information header" = "Information";
-"activity action add to whitelist" = "Add to Allowed";
-"activity action remove from whitelist" = "Remove from Allowed";
-"activity action added to whitelist" = "Added to Allowed";
-"activity action add to blacklist" = "Add to Blocked";
-"activity action remove from blacklist" = "Remove from Blocked";
-"activity action added to blacklist" = "Added to Blocked";
-"activity action copy to clipboard" = "Copy name to Clipboard";
-"activity domain name" = "Full name";
-"activity time of occurrence" = "Time";
-"activity number of occurrences" = "Number of occurrences";
+"activity section header details" = "Jarduera xehetasunak";
+"activity request blocked" = "Eskari hau blokeatuta dago.";
+"activity request allowed" = "Eskari hau onartua izan da.";
+"activity request allowed whitelisted" = "Zure Baimendutako zerrendan dagoelako eskari hau onartu da";
+"activity request blocked blacklisted" = "Zure Blokeatutako zerrendan dagoelako eskari hau blokeatu da";
+"activity request allowed list" = "Eskari hau onartu da, *%@* baimen-zerrendan dagoelako.";
+"activity request allowed no list" = "Eskari hau onartu da, ez baitago ezarritako blokeatu-zerrendetan.";
+"activity request blocked list" = "Eskari hau blokeatu da, *%@* blokeatu-zerrendan dagoelako.";
+"activity request blocked no list" = "Eskari hau blokeatu da, ez baitago ezarritako baimen-zerrendetan.";
+"activity actions header" = "Ekintzak";
+"activity information header" = "Informazioa";
+"activity action add to whitelist" = "Gehitu Baimendutakoetara";
+"activity action remove from whitelist" = "Ezabatu Baimendutakoetatik";
+"activity action added to whitelist" = "Baimendutakoetara gehituta";
+"activity action add to blacklist" = "Gehitu Blokeatutakoetara";
+"activity action remove from blacklist" = "Ezabatu Blokeatutakoetatik";
+"activity action added to blacklist" = "Blokeatutakoetara gehituta";
+"activity action copy to clipboard" = "Kopiatu izena arbelean";
+"activity domain name" = "Izen osoa";
+"activity time of occurrence" = "Ordua";
+"activity number of occurrences" = "Gertakarien kopurua";
 // As in sentence, "this item has been modified"
-"activity state modified" = "modified";
+"activity state modified" = "aldatuta";
 // As in sentence, "this host has been blocked"
-"activity state blocked" = "blocked";
+"activity state blocked" = "blokeatuta";
 // As in sentence, "this host has been allowed"
-"activity state allowed" = "allowed";
-"activity happened one time" = "1 time";
-"activity happened many times" = "%@ times";
-"activity category recent" = "Recent";
-"activity category top" = "Top";
-"activity category top blocked" = "Top Blocked";
-"activity category top allowed" = "Top Allowed";
-"activity filter header" = "Which entries would you like to see?";
-"activity filter show all" = "All entries";
-"activity filter show blocked" = "Blocked only";
-"activity filter show allowed" = "Allowed only";
+"activity state allowed" = "baimenduta";
+"activity happened one time" = "Behin gertatu da";
+"activity happened many times" = "%@ aldiz";
+"activity category recent" = "Berriena";
+"activity category top" = "Gorenak";
+"activity category top blocked" = "Blokeatutako Gorenak";
+"activity category top allowed" = "Baimendutako Gorenak";
+"activity filter header" = "Zein sarrera ikusi nahi dituzu?";
+"activity filter show all" = "Sarrera guztiak";
+"activity filter show blocked" = "Soilik blokeatutakoak";
+"activity filter show allowed" = "Soilik baimendutakoak";
 // A short message "Showing for: Device A"
-"activity filter showing for" = "Showing for: %@";
+"activity filter showing for" = "Erakusten: %@";
 // A switch to enable exact search matching (vs fuzzy match). Keep it 2-3 words
-"activity filter exact match" = "Exact Match Only";
-"activity empty text" = "Try using your device, and come back here later, to see where your device connects to.";
-"activity device filter show all" = "All devices";
-"activity retention header" = "Should we store your activity?";
-"activity retention option none" = "Do not store my activity";
-"activity retention option 24h" = "Yes, store my activity";
-"activity retention policy" = "By enabling activity logging you accept the privacy policy.";
-"activity retention desc" = "Blokada Cloud is not logging anything by default. If you wish to see the aggregated stats and activity from all of your devices, enable activity logging below.";
+"activity filter exact match" = "Bat-etortze zehatza soilik";
+"activity empty text" = "Saiatu zure gailua erabiltzen, eta itzuli geroago hona, zure gailua non konektatzen den ikusteko.";
+"activity device filter show all" = "Gailu guztiak";
+"activity retention header" = "Gorde behar dugu zure jarduera?";
+"activity retention option none" = "Ez gorde nire jarduera";
+"activity retention option 24h" = "Bai, gorde nire jarduera";
+"activity retention policy" = "Jardueren erregistroa gaituz gero, pribatutasun politika onartzen duzu.";
+"activity retention desc" = "Blokada Cloud-ek ez du ezer erregistratzen lehenetsita. Zure gailu guztietako estatistika eta jarduera metatuak ikusi nahi badituzu, aktibatu behean jardueren erregistroa.";
 
 // Header for the Exceptions screen (where all user defined custom rules are)
-"userdenied section header" = "Exceptions";
-"userdenied section slugline" = "Manage blocking of particular websites";
+"userdenied section header" = "Salbuespenak";
+"userdenied section slugline" = "Kudeatu webgune jakin batzuen blokeoa";
 // A section name for the list of hosts allowed by user
-"userdenied tab allowed" = "Allowed";
+"userdenied tab allowed" = "Baimenduta";
 // A section name for the list of hosts blocked by user
-"userdenied tab blocked" = "Blocked";
+"userdenied tab blocked" = "Blokeatuta";
 // A short one word action to allow a hostname.
-"userdenied action allow" = "Allow";
+"userdenied action allow" = "Baimendu";
 // A short one word action to block a hostname.
-"userdenied action block" = "Block";
+"userdenied action block" = "Blokeatu";
 // Opens the Exceptions screen (where all user defined custom rules are)
-"userdefined action open" = "Open Exceptions";
+"userdefined action open" = "Ireki Salbuespenak";
 
 "account section header settings" = "Ezarpenak";
-"account status text" = "Your BLOKADA %@ account is active until %@.";
-"account status text inactive" = "Your BLOKADA subscription is inactive.";
+"account status text" = "Zure BLOKADA %@ kontua aktibo dago %@ arte.";
+"account status text inactive" = "Zure BLOKADA harpidetza ez dago aktibo.";
 
-"account section header primary" = "Primary";
+"account section header primary" = "Nagusia";
 "account section header other" = "Bestelakoak";
-"account action my account" = "My account";
-"account action encryption" = "Encryption & DNS";
-"account action devices" = "Devices";
-"account action new device" = "New device";
-"account action inbox" = "Inbox";
-"account action logout" = "Restore purchase";
-"account action logout only" = "Log out";
-"account action logout new" = "Restore Account ID";
-"account action create" = "Generate new account";
+"account action my account" = "Nire kontua";
+"account action encryption" = "Zifratzea & DNS";
+"account action devices" = "Gailuak";
+"account action new device" = "Gailu berria";
+"account action inbox" = "Sarrera-ontzia";
+"account action logout" = "Erosketa berreskuratu";
+"account action logout only" = "Saioa itxi";
+"account action logout new" = "Berreskuratu Kontuaren ID-a";
+"account action create" = "Sortu kontu berria";
 "account action about" = "Honi buruz";
-"account action tap to show" = "Tap to show";
-"account action restoring" = "Restoring account: %@";
-"account label enter to continue" = "Enter your account ID to continue";
-"account restore description" = "Don't worry, if you lost or forgot your account ID, we can recover it. Please contact our support, and provide us information that will allow us to identify your purchase (eg. last 4 digits of your credit card, or PayPal email).";
-"account create description" = "This is your account ID. Write it down and keep it private. It’s the only way to access your subscription.";
-"account create confirm" = "I wrote it down";
+"account action tap to show" = "Sakatu erakusteko";
+"account action restoring" = "Kontua berreskuratzen: %@";
+"account label enter to continue" = "Idatzi zure kontu IDa jarraitzeko";
+"account restore description" = "Ez kezkatu, zure kontu IDa galdu edo ahaztu baduzu, berreskura dezakegu. Jarri gurekin harremanetan, eta eman erosketaren identifikaziorako beharrezko informazioa (adibidez, zure kreditu txartelaren azken 4 digituak edo PayPal helbide elektronikoa).";
+"account create description" = "Hau da zure kontu ID-a. Idatzi eta gorde pribatuan. Zure harpidetzara sartzeko modurik bakarra da.";
+"account create confirm" = "Idatzi dut";
 
-"account section header my subscription" = "My Subscription";
-"account section header general" = "General";
-"account section header subscription" = "Subscription";
-"account label id" = "Account ID";
-"account label type" = "Subscription plan";
-"account plan none" = "No active plan";
-"account label active until" = "Active until";
-"account action manage subscription" = "Manage subscription";
-"account action why upgrade" = "Why should I upgrade?";
-"account subscription header renew" = "Renew automatically";
-"account subscription header payment method" = "Payment method";
-"account subscription renew unsupported" = "Your payment method does not allow to control the auto renewal setting here.";
+"account section header my subscription" = "Nire Harpidetza";
+"account section header general" = "Orokorra";
+"account section header subscription" = "Harpidetza";
+"account label id" = "Kontu IDa";
+"account label type" = "Harpidetza plana";
+"account plan none" = "Ez dago plan aktiborik";
+"account label active until" = "Aktibo dagoen arte";
+"account action manage subscription" = "Kudeatu harpidetza";
+"account action why upgrade" = "Zergatik hobetu behar dut?";
+"account subscription header renew" = "Berritu automatikoki";
+"account subscription header payment method" = "Ordainketa metodoa";
+"account subscription renew unsupported" = "Zure ordainketa metodoarekin ezin da berritze automatikoaren ezarpena hemen kontrolatu.";
 
-"account unlock to show" = "Unlock to show your account ID";
+"account unlock to show" = "Desblokeatu kontu IDa ikusteko";
 
-"account header logout" = "Restore purchase";
-"account logout description" = "Please enter another account ID, or go back to keep using your existing account (this app cannot be used without one).";
-"account id status unchanged" = "(unchanged)";
-"account action how to restore" = "How do I restore my old account?";
+"account header logout" = "Erosketa berreskuratu";
+"account logout description" = "Idatzi beste kontu ID bat edo itzuli zure kontuarekin jarraitzeko (aplikazio hau ezin da erabili konturik gabe).";
+"account id status unchanged" = "(aldatu gabe)";
+"account action how to restore" = "Nola berreskuratu dezaket nire kontu zaharra?";
 
-"account subscription days remaining" = "Days remaining: %@";
-"account devices remaining" = "Devices remaining: %@";
-"account devices not available" = "Not available";
-"account devices out of" = "%@ out of %@";
+"account subscription days remaining" = "Gelditzen diren egunak: %@";
+"account devices remaining" = "Gelditzen diren gailuak: %@";
+"account devices not available" = "Ez dago erabilgarri";
+"account devices out of" = "%@ / %@";
 
-"account lease label devices list" = "These devices are connected to your account.";
-"account lease label devices" = "Devices";
-"account lease label this device" = " (this device)";
-"account lease label name" = "Name of device";
-"account lease label location" = "Location";
-"account lease label generate" = "Selecting a location here will generate a config file that you can use in any VPN app that supports WireGuard. This is useful for platforms where we don't have our apps yet. Otherwise, we recommend using our native apps instead.";
-"account lease action generate" = "Generate Config";
-"account lease action download" = "Download Config";
-"account lease generated" = "Device added! Download the configuration to use it on any device supported by WireGuard.";
-"account lease wireguard desc" = "Blokada uses WireGuard. Configurations can be downloaded when creating new devices.";
+"account lease label devices list" = "Gailu hauek zure kontuarekin konektatuta daude.";
+"account lease label devices" = "Gailuak";
+"account lease label this device" = " (gailu hau)";
+"account lease label name" = "Gailuaren izena";
+"account lease label location" = "Kokalekua";
+"account lease label generate" = "Hemen kokapen bat aukeratzeak WireGuard onartzen duen edozein VPN aplikaziotan erabil dezakezun konfigurazio fitxategia sortuko du. Hau erabilgarria da gure aplikaziorik oraindik ez dugun plataformetan. Bestela, gure aplikazio natiboak erabiltzea gomendatzen dugu.";
+"account lease action generate" = "Sortu konfigurazioa";
+"account lease action download" = "Deskargatu konfigurazioa";
+"account lease generated" = "Gailua gehitu da! Deskargatu konfigurazioa WireGuard onartzen duen edozein gailutan erabiltzeko.";
+"account lease wireguard desc" = "Blokada WireGuard erabiltzen du. Konfigurazioak deskargatu daitezke gailu berriak sortzean.";
 "account lease label dns" = "DNS";
-"account lease action dns" = "Choose a DNS";
-"account lease label public key" = "Public Key";
+"account lease action dns" = "Aukeratu DNS bat";
+"account lease label public key" = "Gako publikoa";
 
-"account support action how help" = "How can we help you?";
-"account support action kb" = "Open Knowledge Base";
+"account support action how help" = "Nola lagundu diezazukegu?";
+"account support action kb" = "Ireki Ezagutzaren Basea";
 
-"account upgrade cloud description" = "This feature is a part of Blokada Plus. To upgrade, please contact our Customer Support.";
+"account upgrade cloud description" = "Ezaugarri hau Blokada Plus-en parte da. Eguneratzeko, jarri harremanetan gure Bezeroarentzako Arretarekin.";
 
-"payment header activated" = "Activated!";
-"payment activated description" = "Blokada will now switch into Plus mode, and connect through one of our secure locations. If you are unsure which one to choose, the closest one to you is recommended.";
-"payment action choose location" = "Choose a location";
-"payment action see locations" = "Our Locations";
+"payment header activated" = "Aktibatuta!";
+"payment activated description" = "Blokada orain Plus modura aldatuko da, eta gure kokapen seguruetako baten bidez konektatuko da. Ziur ez bazaude zein aukeratu, hurbilen duzuna gomendatzen da.";
+"payment action choose location" = "Aukeratu kokapena";
+"payment action see locations" = "Gure kokapenak";
 
-"payment title" = "Upgrade to our VPN service to stay in control of *your privacy*.";
-"payment feature title change location" = "Change Location";
-"payment feature desc change location" = "Hide your IP address and pretend you are in another country. This will mask you from third-parties and help protect your identity.";
-"payment feature title encrypt data" = "Encrypt Data";
-"payment feature desc encrypt data" = "Data sent through our VPN tunnel is encrypted using strong algorithms in order to protect against interception by unauthorized parties.";
+"payment title" = "Eguneratu gure VPN zerbitzura *zure pribatutasunaren* kontrola mantentzeko.";
+"payment feature title change location" = "Aldatu kokapena";
+"payment feature desc change location" = "Ezkutatu zure IP helbidea eta itxura beste herrialde batean zaudela. Honek hirugarrenen aurretik ezkutatuko zaitu eta zure identitatea babesten lagunduko du.";
+"payment feature title encrypt data" = "Enkriptatu datuak";
+"payment feature desc encrypt data" = "Gure VPN tunelaren bidez igorritako datuak algoritmo sendoekin enkriptatuak daude, baimendu gabeko pertsonek atzeman ez dezaten.";
 "payment feature title encrypt dns" = "Zifratu DNSa";
-"payment feature desc encrypt dns" = "Improve your privacy with DNS encryption. Blokada Cloud uses modern protocols to help keep your traffic private.";
-"payment feature title performance" = "Great Performance";
-"payment feature desc performance" = "Keep your device snappy and your Internet connection at max speeds, thanks to our new Cloud solution.";
-"payment feature title battery" = "Zero Battery Impact";
-"payment feature desc battery" = "Your battery life isn't going to be impacted, it might even improve when Blokada Cloud is activated.";
-"payment feature title devices cloud" = "Multiple Devices";
-"payment feature desc devices cloud" = "Configure and monitor all your devices in one place. Either through our mobile app or our web app.";
-"payment feature title cloud vpn" = "The Cloud plus VPN";
-"payment feature desc cloud vpn" = "In addition to all the benefits of Blokada Cloud, you'll get access to our global VPN network";
-"payment feature title faster connection" = "Faster Connection";
-"payment feature desc faster connection" = "Great speeds up to 100Mbps with servers in various parts of the World.";
-"payment feature title devices" = "Up to 5 devices";
-"payment feature desc devices" = "Use the same account to share your subscription with up to 5 devices: iOS, Android, or PC.";
-"payment feature title no ads" = "Block Ads";
-"payment feature desc no ads" = "Use the popular Blokada adblocking technology to block ads on your devices. Advanced settings are available.";
-"payment feature title support" = "Great Support";
-"payment feature desc support" = "Get a prompt response to any questions thanks to our Customer Support and vibrant open source community.";
-"payment action see all features" = "See All Features";
-"payment action restore" = "Restore Purchases";
-"payment action terms and privacy" = "Terms & Privacy";
+"payment feature desc encrypt dns" = "Hobetu zure pribatutasuna DNS enkriptazioarekin. Blokada Cloud-ek protokolo modernoen bidez zure trafikoa pribatu mantentzen laguntzen du.";
+"payment feature title performance" = "Errendimendu ona";
+"payment feature desc performance" = "Zure gailua bizkor mantendu eta Interneteko konexioa abiadura handienean, gure Cloud konponbide berriarengatik.";
+"payment feature title battery" = "Zero bateriaren eragina";
+"payment feature desc battery" = "Zure bateriaren iraupena ez da kaltetuko; ziurrenik hobetuko ere egingo da Blokada Cloud aktibatuta dagoenean.";
+"payment feature title devices cloud" = "Gailu anitz";
+"payment feature desc devices cloud" = "Konfiguratu eta gainbegiratu zure gailu guztiak leku berean. Bai gure mugikorreko aplikazioarekin edo web aplikazioarekin.";
+"payment feature title cloud vpn" = "Cloud eta VPN-a";
+"payment feature desc cloud vpn" = "Blokada Cloud-en abantaila guztiez gain, gure mundu osoko VPN sarerako sarbidea izango duzu.";
+"payment feature title faster connection" = "Konexio azkarragoa";
+"payment feature desc faster connection" = "Abiadura handiak 100Mbps arte, munduko hainbat lekutan zerbitzariekin.";
+"payment feature title devices" = "5 gailu arte";
+"payment feature desc devices" = "Kontu bera erabiliz, harpidetza 5 gailu arte partekatu dezakezu: iOS, Android edo PC.";
+"payment feature title no ads" = "Blokeatu iragarkiak";
+"payment feature desc no ads" = "Erabili Blokada-ren iragarkiak blokeatzeko teknologia ezaguna zure gailuetan iragarkiak blokeatzeko. Ezarpen aurreratuak eskuragarri daude.";
+"payment feature title support" = "Laguntza bikaina";
+"payment feature desc support" = "Azkar erantzungo dizugu edozein galdera duzunean, Gure Bezeroarentzako Arretari eta komunitate irekiari esker.";
+"payment action see all features" = "Ikusi ezaugarri guztiak";
+"payment action restore" = "Berreskuratu erosketak";
+"payment action terms and privacy" = "Baldintzak eta Pribatutasuna";
 "payment action terms" = "Zerbitzuaren baldintzak";
 "payment action policy" = "Pribatutasun-politika";
 // A button to use offer code to redeem offer
-"payment action offer" = "Apply Offer Code";
-"payment alert error header" = "A message from App Store";
+"payment action offer" = "Aplikatu Eskaintza Kodea";
+"payment alert error header" = "Mezu bat App Store-tik";
 // As in saving money: You are saving $5
-"payment save text" = "You are saving %@";
-"payment conversion note" = "We accept Euro, and the displayed prices are an estimate. A refund is available if your bank charges too much.";
+"payment save text" = "Aurrezten ari zara %@";
+"payment conversion note" = "Euro onartzen dugu, eta agertzen diren prezioak gutxi gorabeherakoak dira. Zure bankuak gehiegi kobratzen badu, itzulketa eskuragarri dago.";
 
-"payment subscription 1 month" = "1 Month";
-"payment subscription many months" = "%@ Months";
-"payment subscription per month" = "%@ per month";
-"payment subscription per year" = "%@ per year";
-"payment subscription per year then" = "then %@ per year";
-"payment subscription offer" = "Save %@";
+"payment subscription 1 month" = "1 hilabete";
+"payment subscription many months" = "%@ hilabete";
+"payment subscription per month" = "%@ hilean";
+"payment subscription per year" = "%@ urtean";
+"payment subscription per year then" = "ondoren %@ urtean";
+"payment subscription offer" = "Aurreztu %@";
 
-"payment success label" = "Thanks!";
-"payment success desc" = "Your account is now active! You may now use all Blokada Plus features on all your devices.";
+"payment success label" = "Eskerrik asko!";
+"payment success desc" = "Zure kontua orain aktibo dago! Blokada Plus-en funtzio guztiak erabili ahal izango dituzu zure gailu guztietan.";
 
-"payment redirect label" = "Redirecting...";
-"payment redirect desc" = "Please wait. This should only take a moment.";
+"payment redirect label" = "Bideratzen...";
+"payment redirect desc" = "Itxaron mesedez. Une batez beharko du soilik.";
 
-"payment ongoing title" = "Your payment is now being processed.";
-"payment ongoing desc" = "Credit card payments should not take more than a few minutes. Cryptocurrency payments usually take up to an hour, depending on what transaction fee you chose. In case of PayPal, it may take up to 24 hours. You will get redirected once your account is ready. You may also close this screen, and come again later. If you feel like your transaction is taking too long, please contact us.";
+"payment ongoing title" = "Zure ordainketa prozesatzen ari gara.";
+"payment ongoing desc" = "Kreditu txartelaren ordainketak ez luke minutu batzuk baino gehiago iraun behar. Kriptomoneta ordainketak ordu bat arte iraun dezake, aukeratutako transakzio tasaren arabera. PayPal kasuan, 24 ordu arte iraun dezake. Zure kontua prest dagoenean bideratuko zaitugu. Pantaila hau itxi dezakezu eta geroago itzuli. Iruditzen bazaizu transakzioak gehiegi irauten duela, jar zaitez gurekin harremanetan.";
 "payment pay google short" = "Google Pay";
 "payment pay apple short" = "Apple Pay";
-"payment change method" = "Change";
+"payment change method" = "Aldatu";
 "payment action pay" = "Ordaindu %@";
-"payment action pay period" = "Pay %@ each period";
-"payment label email" = "Email";
-"payment crypto desc" = "To pay with your cryptocurrency wallet, tap the button below.";
-"payment label choose package" = "Choose your package";
-"payment label choose payment method" = "Choose your payment method";
-"payment label cheapest" = "Cheapest";
-"payment label most popular" = "Most popular";
-"payment label pay with card" = "Pay with card";
-"payment label pay with paypal" = "Pay with PayPal";
-"payment label pay with crypto" = "Pay with crypto";
-"payment package one month" = "1 Month";
-"payment package six months" = "6 Months";
-"payment package twelve months" = "12 Months";
-"payment label discount" = "Save %@ (%@ / mo)";
-"payment label country" = "Country";
+"payment action pay period" = "Ordaindu %@ epe bakoitzean";
+"payment label email" = "Emaila";
+"payment crypto desc" = "Zure kriptomoneta poltsikoaz ordaindu nahi baduzu, sakatu beheko botoia.";
+"payment label choose package" = "Aukeratu zure paketea";
+"payment label choose payment method" = "Aukeratu ordainketa modua";
+"payment label cheapest" = "Merkeenena";
+"payment label most popular" = "Ezagunena";
+"payment label pay with card" = "Ordaindu txartelarekin";
+"payment label pay with paypal" = "Ordaindu PayPal-ekin";
+"payment label pay with crypto" = "Ordaindu kriptoarekin";
+"payment package one month" = "1 hilabete";
+"payment package six months" = "6 hilabete";
+"payment package twelve months" = "12 hilabete";
+"payment label discount" = "Aurreztu %@ (%@ / hil)";
+"payment label country" = "Herrialdea";
 
 "payment euro desc" = "Europan gaude, beraz, euroa onartzen dugu: 10 € 12 dolar dira gutxi gorabehera.";
 
-"payment action compare" = "Compare plans";
-"payment plan slugline cloud" = "Blocks ads and trackers";
+"payment action compare" = "Konparatu planak";
+"payment plan slugline cloud" = "Iragarkiak eta jarraitzaileak blokeatzen ditu";
 // A short information that Plus plan contains Cloud also.
-"payment plan slugline cloud detail" = "(includes Blokada Cloud)";
-"payment plan slugline plus" = "Additional protection with VPN";
-"payment plan cta trial" = "Start 7-Day Free Trial";
-"payment plan cta trial length" = "Start %@-Day Free Trial";
-"payment plan cta monthly" = "Subscribe Monthly";
-"payment plan cta annual" = "Subscribe Annually";
-"payment plan current" = "(current plan)";
+"payment plan slugline cloud detail" = "(Blokada Cloud barne)";
+"payment plan slugline plus" = "Babes gehigarria VPNarekin";
+"payment plan cta trial" = "Hasi 7 eguneko doako proba";
+"payment plan cta trial length" = "Hasi %@ eguneko doako proba";
+"payment plan cta monthly" = "Harpidetu hilero";
+"payment plan cta annual" = "Harpidetu urtero";
+"payment plan current" = "(egungo plana)";
 
-"payment cancel footer" = "The subscription is auto-renewed before the current billing period ends. You can cancel anytime in Settings.";
-"payment cancel footer trial short" = "Cancel during the next %@ days, and you won’t be charged.";
-"payment trial brief" = "Pay after %@ days. Subscription auto-renews every year until canceled.";
+"payment cancel footer" = "Harpidetza automatikoki berritzen da fakturazio epea amaitu baino lehen. Edozein unetan utzi dezakezu Ezarpenetan.";
+"payment cancel footer trial short" = "Hurrengo %@ egunetan bertan behera utziz gero, ez dizute kobratuko.";
+"payment trial brief" = "Ordaindu %@ egun igaro ondoren. Harpidetza automatikoki berrituko da urtero, bertan behera utzi arte.";
 
-"location region worldwide" = "Everywhere";
-"location region america" = "America";
-"location region europe" = "Europe";
+"location region worldwide" = "Munduko leku guztietan";
+"location region america" = "Amerika";
+"location region europe" = "Europa";
 "location region asia" = "Asia";
 "location region australia" = "Australia";
 
-"web vpn devices header" = "VPN Devices";
+"web vpn devices header" = "VPN gailuak";
 // A button to open section called "VPN Devices"
-"web vpn devices open action" = "Open VPN Devices";
-"web action open setup" = "Open setup";
-"web cta plus header" = "Upgrade to Blokada Plus to stay in control of your privacy.";
-"web cta plus desc" = "Your Libre account gives you free adblocking on your device with our open source apps. Upgrade to Blokada Plus for an even better protection. You'll get access to our global VPN-network as well as our new *cloud based* adblocking that is more efficient and easier to use.";
+"web vpn devices open action" = "Ireki VPN gailuak";
+"web action open setup" = "Ireki konfigurazioa";
+"web cta plus header" = "Eguneratu Blokada Plus-era zure pribatutasunaren kontrola mantentzeko.";
+"web cta plus desc" = "Zure Libre kontuak iragarkiak doan blokeatzeko aukera ematen du gure iturburu irekiko aplikazioekin. Eguneratu Blokada Plus-era babes hobea lortzeko. Gure VPN sare globalera eta oinarri *hodeian* dagoen iragarkiak blokeatzeko sistema eraginkorragoa eta errazagoa izango dituzu.";
 // A short word for a button to generate profile
-"web action generate" = "Generate";
+"web action generate" = "Sortu";
 
-"setup header" = "Setup";
-"setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
-"setup label which device" = "What type of device you wish to set up?";
-"setup label choose" = "Choose any of the following setup options:";
-"setup comment wireguard" = "Note: The VPN configuration will use Blokada Cloud by default. Choose a different DNS setting if you wish to opt out. 'WireGuard' and the 'WireGuard' logo are registered trademarks of Jason A. Donenfeld.";
-"setup comment native apps" = "Note: Native app for Android does not support Blokada Cloud yet. We are working on the update.";
+"setup header" = "Konfigurazioa";
+"setup desc" = "Hainbat modu daude zure gailua Blokada Cloud erabiltzeko konfiguratzeko. Aukeratu hobekien egokitzen zaizuna.";
+"setup label which device" = "Zein motatako gailua konfiguratu nahi duzu?";
+"setup label choose" = "Aukeratu konfigurazio aukera hauetako edozein:";
+"setup comment wireguard" = "Oharra: VPN konfigurazioak Blokada Cloud erabiliko du lehenespenez. Aldatu nahi baduzu, aukeratu beste DNS ezarpen bat. 'WireGuard' eta 'WireGuard' logotipoak Jason A. Donenfeld-en marka erregistratuak dira.";
+"setup comment native apps" = "Oharra: Android-erako aplikazio natiboak ez du oraindik Blokada Cloud onartzen. Lanean ari gara eguneraketa egiteko.";
 // A header when listing a bunch of steps to perform (Step 1, Step 2, etc).
-"setup step" = "Step %@: %@";
-"setup option label recommended" = "Recommended: %@";
-"setup option label alternative" = "Alternative: %@";
-"setup name label unnamed" = "(unnamed)";
+"setup step" = "%@: %@";
+"setup option label recommended" = "Gomendatua: %@";
+"setup option label alternative" = "Alternatiba: %@";
+"setup name label unnamed" = "(izenik gabe)";
 
-"setup step name" = "Name your device (optional)";
-"setup step copy" = "Copy your hostname";
-"setup step apply config" = "Apply the new configuration";
-"setup step install" = "Install and start our app";
-"setup step enter tag" = "When asked, enter your tag";
-"setup step download profile" = "Generate and download your profile";
-"setup step install wireguard" = "Install and start WireGuard";
+"setup step name" = "Izenburua jarri gailuari (aukerakoa)";
+"setup step copy" = "Kopiatu zure ostalari izena";
+"setup step apply config" = "Aplikatu konfigurazio berria";
+"setup step install" = "Instalatu eta abiatu gure aplikazioa";
+"setup step enter tag" = "Eskatzen zaizunean, sartu zure etiketa";
+"setup step download profile" = "Sortu eta deskargatu zure profila";
+"setup step install wireguard" = "Instalatu eta abiatu WireGuard";
 
-"stats header" = "Stats";
+"stats header" = "Estatistikak";
 // A ratio between counter of allowed vs denied requests.
-"stats ratio header" = "Ratio";
+"stats ratio header" = "Ratioa";
 // A header for the chart that display the number of requests over time. Think of it "number of requests". Must be short (one word).
-"stats requests header" = "Requests";
+"stats requests header" = "Eskaerak";
 // A subheader for the chart that display the number of requests over time. Can be a bit longer.
-"stats requests subheader" = "Queries over time";
-"stats top allowed header" = "Top allowed requests";
-"stats top blocked header" = "Top blocked requests";
+"stats requests subheader" = "Kontsultak denboran zehar";
+"stats top allowed header" = "Onartutako eskaera gailenak";
+"stats top blocked header" = "Blokeatutako eskaera gailenak";
 // A short one-word label for the counter of allowed requests.
-"stats label allowed" = "Allowed";
+"stats label allowed" = "Baimenduta";
 // A short one-word label for the counter of blocked requests.
-"stats label blocked" = "Blocked";
+"stats label blocked" = "Blokeatuta";
 // A short one-word label for the counter of total requests.
-"stats label total" = "Total";
+"stats label total" = "Guztira";
 // A short header for the stats section of last 24h.
-"stats header day" = "Last 24h";
+"stats header day" = "Azken 24h";
 // A short header for the stats section of the all time stats.
-"stats header all time" = "All time";
+"stats header all time" = "Denbora guztian";
 
-"dnsprofile header" = "Enable Blokada in Settings";
-"dnsprofile desc" = "In the Settings app, navigate to General → VPN, DNS & Device Management → DNS and select Blokada.";
-"dnsprofile action open settings" = "Open Settings";
-"dnsprofile desc android" = "In the Settings app, find the Private DNS section, and then paste your hostname (long tap).";
-"dnsprofile desc android copy" = "Copy your Blokada Cloud hostname to paste it in Settings.";
-"dnsprofile notification subtitle" = "In the Settings app, navigate to:";
+"dnsprofile header" = "Gaitu Blokada Ezarpenetan";
+"dnsprofile desc" = "Ezarpenak aplikazioan, nabigatu Orokorra → VPN, DNS eta Gailuaren Kudeaketa → DNS, eta aukeratu Blokada.";
+"dnsprofile action open settings" = "Ireki Ezarpenak";
+"dnsprofile desc android" = "Ezarpenak aplikazioan, aurkitu DNS pribatuaren atala, eta itsatsi zure ostalari izena (luze sakatu).";
+"dnsprofile desc android copy" = "Kopiatu zure Blokada Cloud ostalari izena Ezarpenetan itsasteko.";
+"dnsprofile notification subtitle" = "Ezarpenak aplikazioan, nabigatu hona:";
 // A helpful message during onboarding to help user find the right settings to change
-"dnsprofile notification body" = "General → VPN, DNS & Device Management → DNS and select Blokada.";
+"dnsprofile notification body" = "Orokorra → VPN, DNS eta Gailuaren Kudeaketa → DNS eta aukeratu Blokada.";
 
 // A short header text displayed to user when permissions still have to be granted. Keep it very short.
-"activated header" = "Almost there!";
-"activated desc" = "The following is necessary for Blokada to work as expected:";
-"activated desc all ok" = "Your device is all set up and good to go:";
-"activated label account" = "Account is active (%@)";
-"activated label notif yes" = "Notifications are allowed";
-"activated label notif no" = "Allow notifications";
-"activated label dns yes" = "DNS profile is activated";
-"activated label dns no" = "Activate DNS profile";
+"activated header" = "Ia prest!";
+"activated desc" = "Honako hau beharrezkoa da Blokadak espero bezala funtziona dezan:";
+"activated desc all ok" = "Zure gailua prest dago eta erabili dezakezu:";
+"activated label account" = "Kontua aktibo dago (%@)";
+"activated label notif yes" = "Jakinarazpenak onartuta daude";
+"activated label notif no" = "Onartu jakinarazpenak";
+"activated label dns yes" = "DNS profila aktibatuta dago";
+"activated label dns no" = "Aktibatu DNS profila";
 // Displayed when user does not have Plus account. Do not translate "Plus".
-"activated label vpn cloud" = "Allow VPN (Plus only)";
-"activated label vpn yes" = "VPN is allowed";
-"activated label vpn no" = "Allow VPN";
+"activated label vpn cloud" = "Onartu VPN (Plus bakarrik)";
+"activated label vpn yes" = "VPN onartuta dago";
+"activated label vpn no" = "Onartu VPN";
 
 "homepage vpn credit" = "'WireGuard' eta 'WireGuard' logotipoa Jason A. Donenfeld-en marka erregistratuak dira.";
-"advanced section header packs" = "Blocklists";
-"app settings section header" = "This device";
+"advanced section header packs" = "Blokeatze-zerrendak";
+"app settings section header" = "Gailu hau";
 
-"lock status locked" = "Blokada is locked. Enter the pin code to unlock";
-"lock status unlocked has pin" = "Enter the pin code to change it";
-"lock status unlocked" = "Set your pin code to lock Blokada";
+"lock status locked" = "Blokada blokeatuta dago. Sartu PIN kodea desblokeatzeko.";
+"lock status unlocked has pin" = "Sartu PIN kodea aldatzeko";
+"lock status unlocked" = "Ezarri zure PIN kodea Blokada blokeatzeko";
 
-"crash body" = "Blokada has unexpectedly stopped, and we're sorry for the inconvenience. By sharing the log file with us, you're enhancing the experience for all users. Please help us identify and fix this issue promptly.";
+"crash body" = "Blokada ustekabean gelditu da eta barkamena eskatzen dugu eragozpenagatik. Log fitxategia partekatuaz, erabiltzaile guztientzako esperientzia hobetuko duzu. Mesedez, lagundu arazo hau identifikatu eta konpontzen.";
 
-"universal status waiting for data" = "Waiting for data";
-"universal action disable" = "Disable";
+"universal status waiting for data" = "Zain datuak jasotzen";
+"universal action disable" = "Desgaitu";
 
 // Translate just Unlock if the original is longer than 16 characters
-"lock action slide unlock" = "Slide to unlock";
+"lock action slide unlock" = "Desblokeatu";
 // The app will use this version if the Slide to unlock is too long
-"lock action slide unlock short" = "Slide";
-"lock status too many attempts" = "Too many wrong attempts. Try again later";
-"lock status enter to confirm" = "Enter the pin code again to confirm";
-"lock status enter or wait" = "Enter new pin code, or wait to lock...";
-"lock change pin" = "Change pin";
+"lock action slide unlock short" = "Irristatu";
+"lock status too many attempts" = "Saiakera gehiegi oker. Saiatu berriro geroago";
+"lock status enter to confirm" = "Sartu PIN kodea berriro baieztatzeko";
+"lock status enter or wait" = "Sartu PIN berria edo itxaron blokeatzeko...";
+"lock change pin" = "Aldatu PINa";
 
-"family rename device" = "Rename device";
-"family label this device" = "This device (%@)";
-"family onboard header" = "Welcome to Blokada Family!";
-"family onboard header brand" = "Welcome to %s!";
-"family onboard body" = "Follow the instructions on screen to set up your first device.";
+"family rename device" = "Aldatu gailuaren izena";
+"family label this device" = "Gailu hau (%@)";
+"family onboard header" = "Ongi etorri Blokada Family-ra!";
+"family onboard header brand" = "Ongi etorri %s-ra!";
+"family onboard body" = "Jarraitu pantailako argibideak zure lehenengo gailua konfiguratzeko.";
 
 // Displayed when starting the app for the first time, action to activate app, can be "Start"
-"family cta action activate" = "Activate";
-"family cta action add device" = "Add a device";
-"family cta action finish setup" = "Finish setup";
+"family cta action activate" = "Aktibatu";
+"family cta action add device" = "Gehitu gailu bat";
+"family cta action finish setup" = "Amaitu konfigurazioa";
 
-"family status fresh header" = "Hi there!";
-"family status fresh body" = "Activate or restore your account to continue";
-"family status ready header" = "App is ready!";
-"family status ready body" = "Add your first device now";
-"family status perms header" = "Almost there!";
-"family status perms body" = "Please grant the necessary permissions";
-"family status perms body alt" = "Tap to finish the setup procedure";
-"family status expired header" = "Account expired";
-"family status expired body" = "Please activate your account to continue";
-"family status linked header" = "App is linked!";
-"family status locked header" = "App is locked";
+"family status fresh header" = "Kaixo!";
+"family status fresh body" = "Aktibatu edo berreskuratu zure kontua jarraitzeko";
+"family status ready header" = "Aplikazioa prest dago!";
+"family status ready body" = "Gehitu zure lehenengo gailua orain";
+"family status perms header" = "Ia prest!";
+"family status perms body" = "Eman beharrezko baimenak";
+"family status perms body alt" = "Sakatu konfigurazio prozesua amaitzeko";
+"family status expired header" = "Kontua iraungita";
+"family status expired body" = "Aktibatu zure kontua jarraitzeko";
+"family status linked header" = "Aplikazioa lotuta dago!";
+"family status locked header" = "Aplikazioa blokeatuta dago";
 
-"family settings lock pin" = "Lock with pin";
-"family settings lock enter" = "Enter your new pin";
-"family settings lock remove" = "Remove pin";
+"family settings lock pin" = "Blokeatu PINarekin";
+"family settings lock enter" = "Sartu zure PIN berria";
+"family settings lock remove" = "Kendu PINa";
 
-"family payment slug" = "Protect your entire family with one subscription. Monitor and protect all family devices from unwanted content.";
-"family payment features devices header" = "Family Device Monitoring";
-"family payment features devices body" = "Manage and monitor all your devices through a single app. Control access and content filtering directly from your device.";
-"family payment features performance body" = "Maintain a swift and responsive device while ensuring your internet connection remains at peak speeds, all thanks to our proven technology.";
-"family payment features dns body" = "Enhance privacy across all your devices with DNS encryption. Blokada utilizes cutting-edge protocols to ensure your internet traffic remains confidential.";
-"family payment features battery body" = "Activating Blokada won't drain your battery. It might actually help it last longer by blocking unnecessary background activities.";
+"family payment slug" = "Babestu zure familia osoa harpidetza bakar batekin. Gainbegiratu eta babestu familiako gailu guztiak edukia desegokia saihestuz.";
+"family payment features devices header" = "Familia gailuen gainbegiratzea";
+"family payment features devices body" = "Kudeatu eta gainbegiratu zure gailu guztiak aplikazio bakar baten bidez. Zuzenean kudeatu sarbidea eta edukien iragazketa gailutik.";
+"family payment features performance body" = "Zure gailua azkar eta erantzun bizkorrekin mantendu eta interneteko konexioa abiadura gorenean, gure teknologia frogatuari esker.";
+"family payment features dns body" = "Hobetu pribatutasuna zure gailu guztietan DNS enkriptazioarekin. Blokadak protokolo aurreratuenak erabiltzen ditu zure internet trafikoa konfidentziala izateko.";
+"family payment features battery body" = "Blokada aktibatzeak ez du zure bateriarik hustuko. Egia esan, iraupena luzatzen ere lagun dezake atzeko jarduera alferrikakoak blokeatuz.";
 
-"family account attach header" = "Attach device";
-"family account attach body" = "To link this device to the parent device, complete the setup process. Once linked, this device will be locked, allowing you to configure and monitor it from the parent device.";
-"family account qr header" = "Scan QR code";
-"family account qr body" = "Scan the QR code from the parent device, in order to initiate the linking process.";
+"family account attach header" = "Erantsi gailua";
+"family account attach body" = "Gailu hau guraso-gailura lotzeko, osatu konfigurazio prozesua. Lotuta dagoenean, gailu hau blokeatuta egongo da, eta guraso-gailutik konfiguratu eta gainbegiratu ahal izango duzu.";
+"family account qr header" = "Eskaneatu QR kodea";
+"family account qr body" = "Eskaneatu guraso-gailuaren QR kodea lotura prozesua hasteko.";
 // A button to scan QR code
-"family account qr action button" = "Scan";
+"family account qr action button" = "Eskaneatu";
 
-"family account link header" = "Link device";
-"family account link name" = "Set device name";
-"family account link qr header" = "Scan this QR code";
-"family account link qr body" = "This screen will close automatically once the new device has been detected.";
+"family account link header" = "Lotu gailua";
+"family account link name" = "Ezarri gailuaren izena";
+"family account link qr header" = "Eskaneatu QR kode hau";
+"family account link qr body" = "Pantaila hau automatikoki itxiko da gailu berria hautematen denean.";
 
 // A button to unlink linked device
-"family account cta unlink" = "Unlink";
+"family account cta unlink" = "Deslotu";
 
-"family account decide header" = "Add device";
-"family account decide link header" = "Link a device";
-"family account decide link body" = "In Blokada, you simply scan a QR code to link and manage another device.";
-"family account decide separator" = "- or -";
-"family account decide this header" = "Use this device";
-"family account decide this body" = "Alternatively, you may simply configure Blokada to work on this device, and set the pin to lock the app.";
+"family account decide header" = "Gehitu gailua";
+"family account decide link header" = "Lotu gailua";
+"family account decide link body" = "Blokadan, QR kode bat eskaneatuz beste gailu bat lotu eta kudea dezakezu erraz.";
+"family account decide separator" = "- edo -";
+"family account decide this header" = "Erabili gailu hau";
+"family account decide this body" = "Bestela, Blokada konfiguratu dezakezu gailu honetan funtziona dezan, eta PIN kode bat ezarri aplikazioa blokeatzeko.";
 
-"family shields header" = "Activate shields to block access to selected content on your supervised devices.";
-"family shields custom slug" = "Manage your own custom entries to block or allow.";
+"family shields header" = "Aktibatu ezkutuak gainbegiratuta dauden gailuetan aukeratutako edukira sarbidea blokeatzeko.";
+"family shields custom slug" = "Kudeatu sarrera pertsonalizatuak blokeatzeko edo baimentzeko.";
 
 // When a company name is other than the big ones
-"toplist company other" = "Other";
+"toplist company other" = "Beste batzuk";
 // When a domain is unknown
-"toplist tld unknown" = "unknown";
+"toplist tld unknown" = "ezezaguna";
 
-"family notification subtitle" = "Family protection is off";
-"family fault link already" = "This device is already linked. Please unlink it using the parent app and try again.";
-"family profile dialog header" = "Select a profile to use for %@.";
-"family profile dialog header this" = "Select a profile to use for this device.";
-"family profile add" = "Which profile would you like to add?";
-"family profile template" = "Choose a template to get started.";
-
-// A name of a configuration profile, for parent device
-"family profile name parent" = "Parent";
+"family notification subtitle" = "Familia babesa desaktibatuta dago";
+"family fault link already" = "Gailu hau dagoeneko lotuta dago. Deslotu gurasoen aplikazioarekin eta saiatu berriro.";
+"family profile dialog header" = "Aukeratu profila %@-rentzat erabiltzeko.";
+"family profile dialog header this" = "Aukeratu profila gailu honetan erabiltzeko.";
+"family profile add" = "Zein profila gehitu nahi duzu?";
+"family profile template" = "Aukeratu txantiloi bat hasteko.";
 
 // A name of a configuration profile, for parent device
-"Parent" = "Parent";
+"family profile name parent" = "Gurasoa";
+
+// A name of a configuration profile, for parent device
+"Parent" = "Gurasoa";
 
 // A name of a configuration profile, for child device
-"family profile name child" = "Child";
+"family profile name child" = "Umea";
 
 // A name of a configuration profile, for child device
-"Child" = "Child";
+"Child" = "Umea";
 
 // A name of a custom configuration profile template
-"family profile name custom" = "Custom";
+"family profile name custom" = "Pertsonalizatua";
 
 // A name of a custom configuration profile template
-"Custom" = "Custom";
+"Custom" = "Pertsonalizatua";
 
-"family profile action add" = "Add new profile";
-"family profile action delete" = "Remove this profile";
+"family profile action add" = "Gehitu profila berria";
+"family profile action delete" = "Ezabatu profila hau";
 
-"family profile error use" = "This profile is currently in use. Ensure no device is using it before deletion.";
-"family profile error" = "Failed to delete this profile.";
+"family profile error use" = "Profila hau une honetan erabiltzen ari da. Ziurtatu ez dagoela gailurik erabiltzen aurretik ezabatzea.";
+"family profile error" = "Huts egin du profila hau ezabatzean.";
 
 // A name template for profile, like "Child Profile"
-"family profile template name" = "%@ Profile";
+"family profile template name" = "%@ profila";
 
-"family profile action select" = "Select profile";
+"family profile action select" = "Aukeratu profila";
 
-"family device label statistics" = "STATISTICS";
-"family device brief statistics" = "See the recent activity of this device.";
-"family device label settings" = "DEVICE SETTINGS";
-"family device brief settings alt" = "Manage blocking settings for this device.";
-"family device action link" = "Link this device again";
-"family device action delete" = "Delete this device";
-"family device delete confirm" = "Are you sure you want to delete %@? This will unlink the device from your account.";
+"family device label statistics" = "ESTATISTIKAK";
+"family device brief statistics" = "Ikusi gailu honen azken jarduera.";
+"family device label settings" = "GAILUAREN EZARPENAK";
+"family device brief settings alt" = "Kudeatu gailu honen blokeatze ezarpenak.";
+"family device action link" = "Lotu berriro gailu hau";
+"family device action delete" = "Ezabatu gailu hau";
+"family device delete confirm" = "Ziur zaude %@ ezabatu nahi duzula? Honek gailua zure kontutik deslotuko du.";
 
-"family device header add" = "Add a device";
-"family device header link" = "Link a device";
+"family device header add" = "Gehitu gailu bat";
+"family device header link" = "Lotu gailu bat";
 
-"family device label internet" = "INTERNET CONTROL";
-"family device brief internet" = "Manage Internet access for this device.";
-"family device label internet on" = "Filter Content";
-"family device brief internet on" = "Blocks harmful and inappropriate sites according to your filters and blocklists.";
-"family device label internet off" = "Allow All";
-"family device brief internet off" = "No content is blocked. The Internet is fully open.";
-"family device label internet block" = "Block All";
-"family device brief internet block" = "Stops all Internet access on the device.";
+"family device label internet" = "INTERNETAREN KONTROLA";
+"family device brief internet" = "Kudeatu gailu honen Interneterako sarbidea.";
+"family device label internet on" = "Eduki iragaztea";
+"family device brief internet on" = "Zure iragazki eta blokeatze-zerrenden arabera kaltegarriak edo egokiak ez diren guneak blokeatzen ditu.";
+"family device label internet off" = "Denak Onartu";
+"family device brief internet off" = "Ez da edukirik blokeatzen. Internet guztiz irekita dago.";
+"family device label internet block" = "Denak Blokeatu";
+"family device brief internet block" = "Gelditu Interneteko sarbide guztia gailu honetan.";
 
 
-"family perms header" = "One more thing";
+"family perms header" = "Gauza bat gehiago";
 
 // Param is just Blokada Family
-"family perms brief alt" = "Activate '%@' in Settings by navigating as shown below.";
+"family perms brief alt" = "Aktibatu '%@' Ezarpenetan, behean erakusten den moduan nabigatuz.";
 
 // DNS activation on iOS, in Settings app
-"family perms setting ios general" = "General";
+"family perms setting ios general" = "Orokorra";
 
 // DNS activation on iOS, in Settings -> General
-"family perms setting ios vpn" = "VPN & Device Management";
+"family perms setting ios vpn" = "VPN eta Gailu Kudeaketa";
 
 // DNS activation on iOS, in Settings -> General -> VPN
 "family perms setting ios dns" = "DNS";
 // DNS activation on iOS, in Settings -> General -> VPN
-"family perms setting ios automatic" = "Automatic";
+"family perms setting ios automatic" = "Automatikoa";
 
 // A section name in system preferences
-"family perms setting android connections" = "Connections";
+"family perms setting android connections" = "Konexioak";
 // A section name in system preferences
-"family perms setting android more" = "More connection settings";
+"family perms setting android more" = "Konexio ezarpen gehiago";
 // A section name in system preferences
-"family perms setting android dns" = "Private DNS";
+"family perms setting android dns" = "DNS pribatua";
 // A section name in system preferences
-"family perms setting android host" = "Private DNS provider hostname";
+"family perms setting android host" = "DNS hornitzaile pribatuaren ostalari-izena";
 
 // Used in context, 'go to section named X, or similar'
-"family perms setting android similar" = "(or similar)";
+"family perms setting android similar" = "(edo antzekoa)";
 // Used in context 'go to section named X (not always present)'
-"family perms setting android optional" = "(not always present)";
+"family perms setting android optional" = "(beti ez dago erabilgarri)";
 
-"family perms copy android" = "Finally, tap and hold the text field to paste the necessary configuration.";
-
-// A label for which blocklist was used to block domain. Keep super short.
-"family stats label reason" = "Reason";
+"family perms copy android" = "Azkenik, ukitu eta mantendu testu-eremua konfigurazioa itsasteko.";
 
 // A label for which blocklist was used to block domain. Keep super short.
-"family stats label blocklist" = "Blocklist";
+"family stats label reason" = "Arrazoia";
+
+// A label for which blocklist was used to block domain. Keep super short.
+"family stats label blocklist" = "Blokeatze-zerrenda";
 
 // A label for which config profile was used to block domain. Keep super short.
-"family stats label profile" = "Profile";
+"family stats label profile" = "Profila";
 
 // A label for the number of blocklists selected
-"family stats label blocklists" = "Blocklists";
+"family stats label blocklists" = "Blokeatze-zerrendak";
 
 // A label for the number of blocklists selected
-"family stats label blocklists alt" = "Blocklists in profile";
+"family stats label blocklists alt" = "Profilaren blokeatze-zerrendak";
 
 // How many blocklists are selected "5 selected"
-"family stats label blocklists count" = "%@ selected";
+"family stats label blocklists count" = "%@ aukeratuta";
 
-"family stats label pause" = "Pause blocking";
+"family stats label pause" = "Pausarazi blokeoa";
 
 // Shown when profile is unknown. Keep it short.
-"family stats label profile unknown" = "Unknown";
+"family stats label profile unknown" = "Ezezaguna";
 
 // Shown when no blocklist was applied
-"family stats label none" = "None";
+"family stats label none" = "Bat ere ez";
 
 // An option to sort activity by most common entry first (not by date)
-"family stats filter most common" = "Show most common first";
+"family stats filter most common" = "Erakutsi arruntenak lehenik";
 
 // "My exceptions" is a list of user configured custom blocking rules.
-"family stats exceptions remove" = "Remove from My exceptions";
-"family stats exceptions add" = "Add to My exceptions";
-"family stats title" = "My exceptions";
+"family stats exceptions remove" = "Kendu Nire salbuespenetatik";
+"family stats exceptions add" = "Gehitu Nire salbuespenetara";
+"family stats title" = "Nire salbuespenak";
 
-"family link description new" = "Scan the QR code below to add a device to your family. This screen will close automatically once the device is detected.";
-"family link description again" = "Scan the QR code below to link a device again. This screen will close automatically once the device is detected.";
-"family qr brief" = "Scan the QR code displayed on the parent device";
+"family link description new" = "Eskaneatu beheko QR kodea zure familiarekin gailu bat gehitzeko. Pantaila hau automatikoki itxiko da gailua detektatzen denean.";
+"family link description again" = "Eskaneatu beheko QR kodea gailu bat berriz lotzeko. Pantaila hau automatikoki itxiko da gailua detektatzen denean.";
+"family qr brief" = "Eskaneatu gurasoen gailuan bistaratutako QR kodea";
 
 // A section name for details of device activity
-"family device title details" = "Details";
+"family device title details" = "Xehetasunak";
 
-"family dialog title new profile" = "New profile";
-"family dialog title rename profile" = "Rename profile";
-"family dialog title new device" = "New device";
-"family dialog title rename device" = "Rename device";
-"family dialog brief profile" = "Enter a name for this profile.";
-"family dialog brief device" = "Enter a name for this device.";
+"family dialog title new profile" = "Profil berria";
+"family dialog title rename profile" = "Aldatu profilaren izena";
+"family dialog title new device" = "Gailu berria";
+"family dialog title rename device" = "Aldatu gailuaren izena";
+"family dialog brief profile" = "Idatzi profil honen izena.";
+"family dialog brief device" = "Idatzi gailu honen izena.";
 
-"family search empty" = "No matches found for your search criteria";
+"family search empty" = "Ez da bat etorri zure bilaketarekin";
 
 // How many times this host has been blocked
-"family activity blocked times" = "blocked %@ times";
+"family activity blocked times" = "%@ aldiz blokeatuta";
 
 // How many times this host has been allowed
-"family activity allowed times" = "allowed %@ times";
+"family activity allowed times" = "%@ aldiz baimenduta";
 
-"family status linked body" = "Manage this device using the parent device.";
-"family status qr body" = "Scan the QR code to link this device.";
-"family status active header" = "Active!";
-"family status active body" = "Tap on the device for more details.";
+"family status linked body" = "Kudeatu gailu hau guraso-gailuaren bidez.";
+"family status qr body" = "Eskaneatu QR kodea gailu hau lotzeko.";
+"family status active header" = "Aktibo!";
+"family status active body" = "Sakatu gailuan xehetasun gehiago ikusteko.";
 
 // A button to link this device to parent device
-"family cta action link" = "Link";
+"family cta action link" = "Lotu";
 
 // A button to unlock this device
-"family cta action unlock" = "Unlock";
+"family cta action unlock" = "Desblokeatu";
 
-"family account restore desc" = "Enter your account ID to restore your purchases.";
+"family account restore desc" = "Sartu zure kontuaren ID-a erosketa berreskuratzeko.";
 
-"generic account active" = "Your account has been successfully restored. Welcome back!";
+"generic account active" = "Zure kontua arrakastaz berreskuratu da. Ongi etorri berriro!";
 
-"notification new message title" = "New message";
+"notification new message title" = "Mezu berria";
 
 
-"onboard header" = "No more ads.\nSeriously.";
-"onboard desc" = "Block ads and trackers everywhere with our premium app. Enjoy faster browsing, better privacy, and reduced data usage.";
-"onboard terms" = "By continuing you accept our Terms of Service and acknowledge receipt of our Privacy Policy.";
+"onboard header" = "Ez da gehiago iragarkirik.\nBenetan.";
+"onboard desc" = "Blokeatu iragarkiak eta jarraitzaileak leku guztietan gure aplikazio premium-arekin. Gozatu arakatze azkarragoaz, pribatutasun handiagoaz eta datu-kontsumo txikiagoaz.";
+"onboard terms" = "Jarraitzeko, gure Zerbitzu-baldintzak onartzen dituzu eta gure Pribatutasun Politika jaso duzula aitortzen duzu.";
 
-"onboard safari header" = "Want to block video ads?";
-"onboard safari brief" = "Enable our extension in Safari to block video ads while browsing.";
-"onboard safari step 2" = "Manage Extensions";
-"onboard safari cta" = "Open YouTube in Safari";
-"onboard safari skip" = "Skip for now";
+"onboard safari header" = "Bideo-iragarkiak blokeatu nahi dituzu?";
+"onboard safari brief" = "Gaitu gure hedapena Safarin bideo-iragarkiak arakatzean blokeatzeko.";
+"onboard safari step 2" = "Kudeatu hedapenak";
+"onboard safari cta" = "Ireki YouTube Safarin";
+"onboard safari skip" = "Saltatu orain";
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN Bypass";
-"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. The app also includes a few built-in bypass entries for compatibility. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
-"bypass none" = "No apps added. Use the Add button at the top to add new apps to this list.";
-"bypass action add" = "Add app";
-"bypass dialog add brief" = "Start typing to search apps.";
+"bypass info" = "Baliteke aplikazio batzuek ez funtzionatzea behar bezala VPNarekin. Bypass zerrendara gehi ditzakezu haien trafikoa VPN tunelaren kanpoan bidaltzeko, eta horrek konektibitatea hobetu dezake, baina pribatutasuna murrizten du. Aplikazioak bypass sarrera batzuk eramaten ditu jada bateragarritasunerako. Oharra: zure gailuak 'Blokeatu konexioak VPN gabe' ezarpena gaituta badu, bypass egindako aplikazioek ez dute Internetik izango.";
+"bypass none" = "Ez da aplikaziorik gehitu. Erabili Gehitu botoia goian aplikazio berriak zerrenda honetan gehitzeko.";
+"bypass action add" = "Gehitu aplikazioa";
+"bypass dialog add brief" = "Hasi idazten aplikazioak bilatzeko.";
 
 // A one-word header to show when app is in freemium status. Can use a synonym: Primary, Basic, make it short.
-"freemium home status header" = "Essentials";
-"freemium home status desc safari" = "Essential protection is active in Safari. Upgrade to unlock full coverage for all apps.";
+"freemium home status header" = "Funtsezkoak";
+"freemium home status desc safari" = "Babes funtsezkoa aktibatuta dago Safarin. Eguneratu estaldura osoa aplikazio guztientzat desblokeatzeko.";
 
-"freemium stats cta header" = "Unlock full tracking control";
-"freemium stats cta desc" = "See which trackers are reaching you - and block them.";
-"freemium filters cta header" = "Unlock advanced blocklists";
-"freemium filters cta desc" = "Upgrade your plan to enable advanced protection and extra blocklists.";
-"freemium activity cta header" = "Unlock your stats";
-"freemium activity cta desc" = "Upgrade to Plus to access detailed statistics and insights.";
+"freemium stats cta header" = "Desblokeatu jarraitzaileak kontrolatzeko aukera osoa";
+"freemium stats cta desc" = "Ikusi zein jarraitzaile iristen zaizkizun — eta blokeatu itzazu.";
+"freemium filters cta header" = "Desblokeatu blokeatze aurreratuko zerrendak";
+"freemium filters cta desc" = "Eguneratu zure plana babes aurreratua eta blokeatze-zerrenda gehigarriak gaitzeko.";
+"freemium activity cta header" = "Desblokeatu zure estatistikak";
+"freemium activity cta desc" = "Eguneratu Plusera estatistika eta ikuspegi zehatzetara sartzeko.";
 
-"freemium sheet safari header" = "Start blocking ads in Safari";
-"freemium sheet safari desc" = "Enable our extension in Safari to get essential protection while you browse. It blocks annoying ads — including video ads on YouTube — so you can enjoy a cleaner, faster web experience.";
-"freemium sheet safari cta" = "Open Safari";
+"freemium sheet safari header" = "Hasi iragarkiak blokeatzen Safarin";
+"freemium sheet safari desc" = "Gaitu gure hedapena Safarin babes funtsezkoa izateko nabigatzean. Iragarki gogaikarriak blokeatzen ditu — barne bideo-iragarkiak YouTuben — web esperientzia garbiago eta azkarragoa izan dezazun.";
+"freemium sheet safari cta" = "Ireki Safari";
 
-"dialog title activity rule" = "How Should Blokada Handle Traffic to %@?";
-"dialog exception add title" = "Add an Exception";
-"dialog exception add text" = "Enter a hostname to add to your exceptions. You can use * as a wildcard, for example *.example.com.";
+"dialog title activity rule" = "Nola kudeatu behar du Blokadak trafikora %@?";
+"dialog exception add title" = "Gehitu salbuespena";
+"dialog exception add text" = "Sartu hostalari-izena zure salbuespenetara gehitzeko. * erabili dezakezu ordezko gisa, adibidez, *.adibidea.com.";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Domain Details";
+"domain details section header" = "Domeinuaren xehetasunak";
 // A button to add a new rule to block / allow domain
-"domain details rules section header" = "Your Custom Rules";
-"domain details add rule action" = "Add a Rule";
-"domain details add rule brief" = "Create a rule for this domain.";
+"domain details rules section header" = "Zure arau pertsonalizatuak";
+"domain details add rule action" = "Gehitu araua";
+"domain details add rule brief" = "Sortu araua domeinu honentzat.";
 // A button do edit rule that has been found for given domain
-"domain details edit rule action" = "Edit Matching Rule";
+"domain details edit rule action" = "Editatu bat datorren araua";
 // A short text for matching rule, like "Matches *.example.com"
-"domain details edit rule brief" = "Applies to %@.";
-"domain details action search subdomains" = "Search Subdomains";
+"domain details edit rule brief" = "%@-ri aplikatzen zaio.";
+"domain details action search subdomains" = "Bilatu azpidomeinuak";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "Azpidomeinuak";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Blocked %@ request(s) to %@.";
-"domain details summary allowed basic" = "Allowed %@ request(s) to %@.";
-"domain details summary blocked basic customlist" = "Your rules blocked %@ request(s) to %@.";
-"domain details summary allowed basic customlist" = "Your rules allowed %@ request(s) to %@.";
-"domain details summary blocked basic list" = "Blocked %@ request(s) to %@ using %@.";
-"domain details summary allowed basic list" = "Allowed %@ request(s) to %@ using %@.";
+"domain details summary blocked basic" = "%@ eskaera blokeatu dira %@ domeinura.";
+"domain details summary allowed basic" = "%@ eskaera onartu dira %@ domeinura.";
+"domain details summary blocked basic customlist" = "Zure arauek %@ eskaera blokeatu dituzte %@ domeinura.";
+"domain details summary allowed basic customlist" = "Zure arauek %@ eskaera onartu dituzte %@ domeinura.";
+"domain details summary blocked basic list" = "%@ eskaera blokeatu dira %@ domeinura, %@ erabiliz.";
+"domain details summary allowed basic list" = "%@ eskaera onartu dira %@ domeinura, %@ erabiliz.";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain" = "Allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain customlist" = "Your rules blocked %@ request(s) to subdomains of %@.";
-"domain details summary allowed subdomain customlist" = "Your rules allowed %@ request(s) to subdomains of %@.";
-"domain details summary blocked subdomain list" = "Blocked %@ request(s) to subdomains of %@ using %@.";
-"domain details summary allowed subdomain list" = "Allowed %@ request(s) to subdomains of %@ using %@.";
+"domain details summary blocked subdomain" = "%@ eskaera blokeatu dira %@(e)n azpidomeinuetara.";
+"domain details summary allowed subdomain" = "%@ eskaera onartu dira %@(e)n azpidomeinuetara.";
+"domain details summary blocked subdomain customlist" = "Zure arauek %@ eskaera blokeatu dituzte %@(e)n azpidomeinuetara.";
+"domain details summary allowed subdomain customlist" = "Zure arauek %@ eskaera onartu dituzte %@(e)n azpidomeinuetara.";
+"domain details summary blocked subdomain list" = "%@ eskaera blokeatu dira %@(e)n azpidomeinuetara, %@ erabiliz.";
+"domain details summary allowed subdomain list" = "%@ eskaera onartu dira %@(e)n azpidomeinuetara, %@ erabiliz.";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both customlist" = "Your rules blocked %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary allowed both customlist" = "Your rules allowed %@ request(s) to %@ and %@ request(s) to its subdomains.";
-"domain details summary blocked both list" = "Blocked %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
-"domain details summary allowed both list" = "Allowed %@ request(s) to %@ and %@ request(s) to its subdomains using %@.";
+"domain details summary blocked both" = "%@ eskaera blokeatu dira %@ domeinura eta %@ eskaera bere azpidomeinuetara.";
+"domain details summary allowed both" = "%@ eskaera onartu dira %@ domeinura eta %@ eskaera bere azpidomeinuetara.";
+"domain details summary blocked both customlist" = "Zure arauek %@ eskaera blokeatu dituzte %@ domeinura eta %@ eskaera bere azpidomeinuetara.";
+"domain details summary allowed both customlist" = "Zure arauek %@ eskaera onartu dituzte %@ domeinura eta %@ eskaera bere azpidomeinuetara.";
+"domain details summary blocked both list" = "%@ eskaera blokeatu dira %@ domeinura eta %@ eskaera bere azpidomeinuetara, %@ erabiliz.";
+"domain details summary allowed both list" = "%@ eskaera onartu dira %@ domeinura eta %@ eskaera bere azpidomeinuetara, %@ erabiliz.";
 
 // Param: domain name
-"domain details summary none" = "No requests to %@ or its subdomains.";
+"domain details summary none" = "Ez dago eskaerarik %@ edo bere azpidomeinuetara.";
 
 // A rule name to use default configuration
-"dialog rule auto" = "Use Automatic Protection";
-"dialog rule auto desc" = "Block or allow this domain according to your selected filters.\n(Default setting)";
+"dialog rule auto" = "Erabili babesa automatikoki";
+"dialog rule auto desc" = "Blokeatu edo onartu domeinu hau hautatutako iragazkien arabera.\n(Ezarpen lehenetsia)";
 
-"dialog rule domain block" = "Always Block This Domain";
+"dialog rule domain block" = "Blokeatu beti domeinu hau";
 // Param: domain name
-"dialog rule domain desc block" = "Ignore filters and always block traffic to %@.";
+"dialog rule domain desc block" = "Ezikusi iragazkiak eta beti blokeatu trafikoa %@(e)ra.";
 
-"dialog rule domain allow" = "Always Allow This Domain";
+"dialog rule domain allow" = "Onartu beti domeinu hau";
 // Param: domain name
-"dialog rule domain desc allow" = "Ignore filters and always allow traffic to %@.";
+"dialog rule domain desc allow" = "Ezikusi iragazkiak eta beti onartu trafikoa %@(e)ra.";
 
-"dialog rule subdomains block" = "Always Block This Domain and Its Subdomains";
+"dialog rule subdomains block" = "Blokeatu beti domeinu hau eta bere azpidomeinu guztiak";
 // Param: domain name
-"dialog rule subdomains desc block" = "Block traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc block" = "Blokeatu trafikoa %@(e)ra eta bere azpidomeinu guztietara.";
 
-"dialog rule subdomains allow" = "Always Allow This Domain and Its Subdomains";
+"dialog rule subdomains allow" = "Onartu beti domeinu hau eta bere azpidomeinu guztiak";
 // Param: domain name
-"dialog rule subdomains desc allow" = "Allow traffic to %@ and every subdomain beneath it.";
+"dialog rule subdomains desc allow" = "Onartu trafikoa %@(e)ra eta bere azpidomeinu guztietara.";
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
-"privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "See recent activity and the protection status of this device.";
+"privacy pulse section header" = "Pribatutasun Pultsoa";
+"privacy pulse brief" = "Ikusi azken jarduera eta gailu honen babes-egoera.";
 // A header for Toplists section
-"privacy pulse toplists header" = "Top domains";
+"privacy pulse toplists header" = "Goiko domeinuak";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Azken jarduera";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "Last 24 h";
+"privacy pulse timespan 24h" = "Azken 24 ordu";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "See All";
+"privacy pulse timespan show all" = "Ikusi denak";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Blokeatuta";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Baimenduta";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show yet";
+"privacy pulse empty" = "Ez dago oraindik ezer erakusteko";
