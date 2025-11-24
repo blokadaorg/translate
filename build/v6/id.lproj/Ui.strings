@@ -107,7 +107,7 @@
 "universal status restart required" = "Silakan restart Blokada agar perubahan bisa diterapkan.";
 "universal status redirect" = "Lanjutkan dengan Blokada";
 "universal status confirm" = "Anda yakin ingin melanjutkan?";
-"universal status loading" = "Loading...";
+"universal status loading" = "Memuat...";
 
 "alert error header" = "Ups!";
 "alert vpn expired header" = "BLOKADA+ kedaluwarsa";
@@ -792,7 +792,7 @@
 "dialog exception add text" = "Masukkan nama host untuk ditambahkan ke pengecualian Anda. Anda dapat menggunakan * sebagai wildcard, misalnya *.example.com.";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Domain Details";
+"domain details section header" = "Rincian Domain";
 // A button to add a new rule to block / allow domain
 "domain details rules section header" = "Aturan Kustom Anda";
 "domain details add rule action" = "Tambah Aturan";
@@ -803,7 +803,7 @@
 "domain details edit rule brief" = "Berlaku untuk %@.";
 "domain details action search subdomains" = "Cari Subdomain";
 // Just one word header for Subdomains section
-"domain details header subdomains" = "Subdomains";
+"domain details header subdomains" = "Subdomain";
 
 // Example: 29 request(s) to apple.com were blocked
 "domain details summary blocked basic" = "%@ permintaan ke %@ telah diblokir.";
@@ -854,18 +854,18 @@
 
 // A header / button for the Privacy Pulse section. Keep it very short. Can translate to just 'Pulse'
 "privacy pulse section header" = "Privacy Pulse";
-"privacy pulse brief" = "See recent activity and the protection status of this device.";
+"privacy pulse brief" = "Lihat aktivitas terbaru dan status proteksi gawai ini.";
 // A header for Toplists section
-"privacy pulse toplists header" = "Top domains";
+"privacy pulse toplists header" = "Domain Teratas";
 // A header for Recent Activity section (shows user activity)
-"privacy pulse recents header" = "Recent Activity";
+"privacy pulse recents header" = "Aktivitas Terbaru";
 // A timespan duration indicator, keep super short
-"privacy pulse timespan 24h" = "Last 24 h";
+"privacy pulse timespan 24h" = "24 jam terakhir";
 // Action to show all entries. Keep it very short. Can be 'More'.
-"privacy pulse timespan show all" = "See All";
+"privacy pulse timespan show all" = "Lihat Semua";
 // A tab name for Blocked entries
-"privacy pulse tab blocked" = "Blocked";
+"privacy pulse tab blocked" = "Diblokir";
 // A tab name for Allowed entries
-"privacy pulse tab allowed" = "Allowed";
+"privacy pulse tab allowed" = "Diizinkan";
 // A generic text used in various contexts, like recently blocked / allowed lists etc.
-"privacy pulse empty" = "Nothing to show yet";
+"privacy pulse empty" = "Belum ada yang bisa ditampilkan";
