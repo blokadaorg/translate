@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="logger_permission">Please grant storage permission first.</string>
-    <string name="logger_slot_title">Request logger</string>
-    <string name="logger_slot_desc">By default, requests are only stored internally in Blokada. If this feature is enabled, Blokada will create a CSV file and log requests that have been allowed and / or blocked by the app. Look for \"blokada\" folder on your external storage. Alternatively, request logging can be disabled entirely, with just the number of blocked domains being stored.</string>
+    <string name="logger_permission">먼저 저장소 권한을 허용해 주세요.</string>
+    <string name="logger_slot_title">요청 기록기</string>
+    <string name="logger_slot_desc">기본적으로 요청은 Blokada 내부에만 저장됩니다. 이 기능을 활성화하면, Blokada가 CSV 파일을 생성하여 앱이 허용하거나/또는 차단한 요청을 기록합니다. 외부 저장소에서 \"blokada\" 폴더를 찾아보세요. 또는 요청 기록을 완전히 비활성화하여, 차단된 도메인 수만 저장할 수도 있습니다.</string>
     <string name="logger_slot_mode_off">비활성화됨</string>
-    <string name="logger_slot_mode_internal">Log to internal storage only</string>
-    <string name="logger_slot_mode_allowed">Log allowed requests</string>
-    <string name="logger_slot_mode_denied">Log blocked requests</string>
-    <string name="logger_slot_mode_all">Log all requests</string>
+    <string name="logger_slot_mode_internal">내부 저장소에만 기록</string>
+    <string name="logger_slot_mode_allowed">허용된 요청 기록</string>
+    <string name="logger_slot_mode_denied">차단된 요청 기록</string>
+    <string name="logger_slot_mode_all">모든 요청 기록</string>
 </resources>
