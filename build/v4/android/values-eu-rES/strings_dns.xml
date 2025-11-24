@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- A name used for DNS servers added by user. -->
-    <string name="dns_custom_add_slot">Add new DNS…</string>
-    <string name="slot_enter_dns_error">This does not look like an IPv4 to me.</string>
+    <string name="dns_custom_add_slot">DNS berri bat gehitu…</string>
+    <string name="slot_enter_dns_error">Hau ez da IPv4 bat dirudi.</string>
     <!-- An example format of a DNS server address. -->
-    <string name="dns_edit_ip_label">IP address</string>
-    <string name="dns_edit_ip1_enter">Enter primary address</string>
-    <string name="dns_edit_ip2_enter">Enter secondary address</string>
-    <string name="dns_edit_name_error">Not a valid name</string>
-    <string name="dns_edit_name_label">Server name</string>
-    <string name="dns_edit_name_default">Default name</string>
-    <string name="dns_edit_next">Next</string>
-    <string name="dns_edit_last">Add</string>
+    <string name="dns_edit_ip_label">IP helbidea</string>
+    <string name="dns_edit_ip1_enter">Sartu lehenengo helbidea</string>
+    <string name="dns_edit_ip2_enter">Sartu bigarren helbidea</string>
+    <string name="dns_edit_name_error">Izena ez da baliozkoa</string>
+    <string name="dns_edit_name_label">Zerbitzariaren izena</string>
+    <string name="dns_edit_name_default">Berezko izena</string>
+    <string name="dns_edit_next">Hurrengoa</string>
+    <string name="dns_edit_last">Gehitu</string>
     <!-- Displayed in the home screen when no custom dns is set, keep it short. -->
-    <string name="dns_text_none">Default DNS</string>
+    <string name="dns_text_none">Berezko DNS</string>
     <!-- Deletes all dns suggestions and fetches default ones. -->
-    <string name="dns_generate_defaults">Restore defaults</string>
+    <string name="dns_generate_defaults">Leheneratu lehenespenak</string>
     <!-- Forcefully refetch dns suggestions ignoring cache. -->
-    <string name="dns_generate_refetch">Refresh DNS list</string>
+    <string name="dns_generate_refetch">Eguneratu DNS zerrenda</string>
     <!-- Keep Alive notification for DNS. Parameter: addresses of active dns servers. -->
-    <string name="dns_keepalive_content">Active: %s</string>
+    <string name="dns_keepalive_content">Aktibo: %s</string>
 </resources>
