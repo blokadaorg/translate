@@ -122,7 +122,7 @@ def outputAsAndroidXml(output_file, strings):
         f.write("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n")
         f.write("<resources>\n")
         for key in strings:
-            f.write(f"    <string name=\"{makeAndroidKey(key)}\">{convertPlaceholders(makeAndroidValue(strings[key]))}</string>\n")
+            f.write(f"    <string name=\"{makeAndroidKey(key)}\">{convertPlaceholdersAndroid(makeAndroidValue(strings[key]))}</string>\n")
         f.write("</resources>\n")
 
 def outputAsJson(output_file, strings):
@@ -132,7 +132,7 @@ def outputAsJson(output_file, strings):
         count = 0
         for key in strings:
             count += 1
-            f.write(f"    \"{key}\": \"{convertPlaceholders(strings[key])}\"")
+            f.write(f"    \"{key}\": \"{convertPlaceholdersAndroid(strings[key])}\"")
             if count < len(strings):
                 f.write(",")
             f.write("\n")
@@ -195,6 +195,9 @@ def makeArbKey(line):
     return line.lower()
 
 def convertPlaceholders(line):
+    return line.replace("%@", "%s")
+
+def convertPlaceholdersAndroid(line):
     # Android requires positional markers when there are multiple arguments.
     # Convert %@/ %s-like tokens in occurrence order to %1$s, %2$s, ...
     placeholders = list(re.finditer(r"%@", line))
