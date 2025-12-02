@@ -23,6 +23,7 @@ Converts iOS translation file to one of:
 import sys
 import os
 import getopt
+import re
 from os import path
 from string import ascii_letters
 
@@ -194,7 +195,23 @@ def makeArbKey(line):
     return line.lower()
 
 def convertPlaceholders(line):
-    return line.replace("%@", "%s")
+    # Android requires positional markers when there are multiple arguments.
+    # Convert %@/ %s-like tokens in occurrence order to %1$s, %2$s, ...
+    placeholders = list(re.finditer(r"%@", line))
+    if not placeholders:
+        return line
+
+    out = line
+    offset = 0
+    for idx, match in enumerate(placeholders, start=1):
+        start, end = match.span()
+        # Adjust for any growth due to previous replacements
+        start += offset
+        end += offset
+        replacement = f"%{idx}$s"
+        out = out[:start] + replacement + out[end:]
+        offset += len(replacement) - (end - start)
+    return out
 
 def convertPlaceholdersToVue(line):
     params = [0, 1, 2]
