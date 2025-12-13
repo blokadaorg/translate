@@ -806,24 +806,24 @@
 "domain details header subdomains" = "Поддомейни";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към %@.";
-"domain details summary allowed basic" = "Разрешени {COUNT, plural, one{# заявка} other{# заявки}} към %@.";
-"domain details summary blocked basic customlist" = "Вашите правила блокираха {COUNT, plural, one{# заявка} other{# заявки}} към %@.";
-"domain details summary allowed basic customlist" = "Вашите правила разрешиха {COUNT, plural, one{# заявка} other{# заявки}} към %@.";
-"domain details summary blocked basic list" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към %@ чрез %@.";
-"domain details summary allowed basic list" = "Разрешени {COUNT, plural, one{# заявка} other{# заявки}} към %@ чрез %@.";
+"domain details summary blocked basic" = "Блокирани %@ заявка(и) към %@.";
+"domain details summary allowed basic" = "Разрешени %@ заявка(и) към %@.";
+"domain details summary blocked basic customlist" = "Вашите правила блокираха %@ заявка(и) към %@.";
+"domain details summary allowed basic customlist" = "Вашите правила разрешиха %@ заявка(и) към %@.";
+"domain details summary blocked basic list" = "Блокирани %@ заявка(и) към %@ чрез %@.";
+"domain details summary allowed basic list" = "Разрешени %@ заявка(и) към %@ чрез %@.";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@.";
-"domain details summary allowed subdomain" = "Разрешени {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@.";
-"domain details summary blocked subdomain customlist" = "Вашите правила блокираха {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@.";
-"domain details summary allowed subdomain customlist" = "Вашите правила разрешиха {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@.";
-"domain details summary blocked subdomain list" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@ чрез %@.";
-"domain details summary allowed subdomain list" = "Разрешени {COUNT, plural, one{# заявка} other{# заявки}} към поддомейните на %@ чрез %@.";
+"domain details summary blocked subdomain" = "Блокирани %@ заявка} заявкa(и) към поддомейните на %@.";
+"domain details summary allowed subdomain" = "Разрешени %@ заявка} заявкa(и) към поддомейните на %@.";
+"domain details summary blocked subdomain customlist" = "Вашите правила блокираха %@ заявка(и) към поддомейните на %@.";
+"domain details summary allowed subdomain customlist" = "Вашите правила разрешиха %@ заявка(и) към поддомейните на %@.";
+"domain details summary blocked subdomain list" = "Блокирани %@ заявка(и) към поддомейните на %@ чрез %@.";
+"domain details summary allowed subdomain list" = "Разрешени %@ заявка(и) към поддомейните на %@ чрез %@.";
 
 // Example: 29 request(s) to apple.com were blocked and 33 request(s) to its subdomains were also blocked
-"domain details summary blocked both" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към %@ и {COUNT_SECOND, plural, one{# заявка} other{# заявки}} към неговите поддомейни.";
-"domain details summary allowed both" = "Разрешени {COUNT, plural, one{# заявка} other{# заявки}} към %@ и {COUNT_SECOND, plural, one{# заявка} other{# заявки}} към неговите поддомейни.";
+"domain details summary blocked both" = "Блокирани %@ заявка(и) към %@ и %@ заявка(и) към неговите поддомейни.";
+"domain details summary allowed both" = "Разрешени %@ заявка(и) към %@ и %@ заявка(и) към неговите поддомейни.";
 "domain details summary blocked both customlist" = "Вашите правила блокираха {COUNT, plural, one{# заявка} other{# заявки}} към %@ и {COUNT_SECOND, plural, one{# заявка} other{# заявки}} към неговите поддомейни.";
 "domain details summary allowed both customlist" = "Вашите правила разрешиха {COUNT, plural, one{# заявка} other{# заявки}} към %@ и {COUNT_SECOND, plural, one{# заявка} other{# заявки}} към неговите поддомейни.";
 "domain details summary blocked both list" = "Блокирани {COUNT, plural, one{# заявка} other{# заявки}} към %@ и {COUNT_SECOND, plural, one{# заявка} other{# заявки}} към неговите поддомейни чрез %@.";
