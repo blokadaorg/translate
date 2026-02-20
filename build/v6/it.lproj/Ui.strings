@@ -882,8 +882,10 @@
 "notification weekly report allowed increased title" = "Traffico consentito aumentato";
 "notification weekly report allowed decreased title" = "Traffico consentito diminuito";
 
-"notification weekly report blocked totals body" = "Blocked traffic is %s compared to last week.";
-"notification weekly report allowed totals body" = "Allowed traffic is %s compared to last week.";
+"notification weekly report blocked totals body" = "Blocked traffic is %s% compared to last week.";
+"notification weekly report allowed totals body" = "Allowed traffic is %s% compared to last week.";
+"notification weekly report blocked totals body nopercent" = "Blocked traffic is %s compared to last week.";
+"notification weekly report allowed totals body nopercent" = "Allowed traffic is %s compared to last week.";
 
 "notification weekly report blocked toplist new title" = "Nuovo tracker in cima alla lista";
 "notification weekly report allowed toplist new title" = "Nuovo dominio in cima alla lista";
