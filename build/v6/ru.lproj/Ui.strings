@@ -792,7 +792,7 @@
 "dialog exception add text" = "Введите имя хоста для добавления в свои исключения. Вы можете использовать * как подстановочный знак, например, *.example.com.";
 
 // Keep it very short. Can be just 'Details'.
-"domain details section header" = "Детали домена";
+"domain details section header" = "Сведения о домене";
 // A button to add a new rule to block / allow domain
 "domain details rules section header" = "Ваши пользовательские правила";
 "domain details add rule action" = "Добавить правило";
@@ -806,16 +806,16 @@
 "domain details header subdomains" = "Поддомены";
 
 // Example: 29 request(s) to apple.com were blocked
-"domain details summary blocked basic" = "Заблокировано {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}}.";
-"domain details summary allowed basic" = "Разрешено {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}}.";
-"domain details summary blocked basic customlist" = "Ваши правила заблокировали {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}}.";
-"domain details summary allowed basic customlist" = "Ваши правила разрешили {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}}.";
-"domain details summary blocked basic list" = "Заблокировано {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}} с помощью %@.";
-"domain details summary allowed basic list" = "Разрешено {count, plural, one {# запрос к %@} few {# запроса к %@} many {# запросов к %@} other {# запросов к %@}} с помощью %@.";
+"domain details summary blocked basic" = "Заблокировано %{count} запрос(ов) к %@.";
+"domain details summary allowed basic" = "Разрешено %{count} запрос(ов) к %@.";
+"domain details summary blocked basic customlist" = "Ваши правила заблокировали %@ запрос(ов) %@.";
+"domain details summary allowed basic customlist" = "Ваши правила разрешили %@ запрос(ов) %@.";
+"domain details summary blocked basic list" = "Заблокировано %{count} запрос(ов) к %@ с использованием %@.";
+"domain details summary allowed basic list" = "Разрешено %{count} запрос(ов) к %@ с использованием %@.";
 
 // Example: 29 request(s) to subdomains of apple.com were blocked
-"domain details summary blocked subdomain" = "Заблокировано {count, plural, one {# запрос к поддоменам %@} few {# запроса к поддоменам %@} many {# запросов к поддоменам %@} other {# запросов к поддоменам %@}}.";
-"domain details summary allowed subdomain" = "Разрешено {count, plural, one {# запрос к поддоменам %@} few {# запроса к поддоменам %@} many {# запросов к поддоменам %@} other {# запросов к поддоменам %@}}.";
+"domain details summary blocked subdomain" = "Заблокировано %{count} запрос(ов) к поддоменам %@.";
+"domain details summary allowed subdomain" = "Разрешено %{count} запрос(ов) к поддоменам %@.";
 "domain details summary blocked subdomain customlist" = "Ваши правила заблокировали {count, plural, one {# запрос к поддоменам %@} few {# запроса к поддоменам %@} many {# запросов к поддоменам %@} other {# запросов к поддоменам %@}}.";
 "domain details summary allowed subdomain customlist" = "Ваши правила разрешили {count, plural, one {# запрос к поддоменам %@} few {# запроса к поддоменам %@} many {# запросов к поддоменам %@} other {# запросов к поддоменам %@}}.";
 "domain details summary blocked subdomain list" = "Заблокировано {count, plural, one {# запрос к поддоменам %@} few {# запроса к поддоменам %@} many {# запросов к поддоменам %@} other {# запросов к поддоменам %@}} с помощью %@.";
