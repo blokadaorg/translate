@@ -19,7 +19,7 @@ name: Crowdin pre-translate
 #
 # NOTE for whoever first runs this: confirm the exact `crowdin pre-translate`
 # flag spellings against `crowdin pre-translate --help` on the pinned CLI
-# (--method ai, --ai-prompt, --apply-untranslated-strings-only) and that the
+# (--method ai, --ai-prompt, --translate-untranslated-only) and that the
 # crowdin/github-action `command:` input runs only the given command (no
 # implicit upload/download). Validate once via workflow_dispatch before
 # relying on the push trigger.
@@ -55,7 +55,7 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
 
       # AI pre-translate, untranslated strings only, all target languages.
-      # --apply-untranslated-strings-only maps to the API field
+      # --translate-untranslated-only maps to the API field
       # translateUntranslatedOnly: true, so existing/approved translations and
       # human work are never overwritten.
       - name: AI pre-translate untranslated strings
@@ -65,7 +65,7 @@ jobs:
             pre-translate
             --method ai
             --ai-prompt ${{ vars.CROWDIN_AI_PROMPT_ID }}
-            --apply-untranslated-strings-only
+            --translate-untranslated-only
             --no-progress
           config: crowdin.yml
         env:
