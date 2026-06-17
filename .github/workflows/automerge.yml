@@ -121,8 +121,10 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
+          # The translate repo only allows rebase merges (squash/merge-commit
+          # are disabled), matching the legacy automerge's merge-method: rebase.
           # Tolerate a concurrent run having merged it already.
-          if ! gh pr merge "$PR" --repo "$REPO" --squash --delete-branch; then
+          if ! gh pr merge "$PR" --repo "$REPO" --rebase --delete-branch; then
             state=$(gh pr view "$PR" --repo "$REPO" --json state --jq .state)
             if [ "$state" = "MERGED" ]; then
               echo "PR already merged by a concurrent run; nothing to do."
