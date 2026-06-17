@@ -1,0 +1,73 @@
+name: Crowdin pre-translate
+
+# When the English source strings change on master, push them to Crowdin and
+# run AI pre-translation for every target language, filling ONLY untranslated
+# strings (human and approved translations are left untouched). This removes
+# the manual "run Auto-Translation in the Crowdin dashboard" step: the OpenAI
+# engine is already configured as a Crowdin AI provider (see issue #227).
+#
+# The existing Crowdin GitHub integration then opens the "New Crowdin updates"
+# PR with the result on the `translations` branch, and automerge.yml lands it.
+#
+# Secrets / variables (provisioned per-repo by blokadaorg/ops terraform):
+#   - CROWDIN_API_TOKEN          — Crowdin project-write personal access token.
+#                                  The Crowdin CLI reads it from the env var
+#                                  CROWDIN_PERSONAL_TOKEN, so it is mapped below.
+#   - CROWDIN_PROJECT_ID         — numeric Crowdin project id.
+#   - vars.CROWDIN_AI_PROMPT_ID  — id of the OpenAI AI prompt configured in the
+#                                  Crowdin dashboard (#227).
+#
+# NOTE for whoever first runs this: confirm the exact `crowdin pre-translate`
+# flag spellings against `crowdin pre-translate --help` on the pinned CLI
+# (--method ai, --ai-prompt, --apply-untranslated-strings-only) and that the
+# crowdin/github-action `command:` input runs only the given command (no
+# implicit upload/download). Validate once via workflow_dispatch before
+# relying on the push trigger.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - v6/Ui.strings
+      - v6/Packs.strings
+      - v6/PackTags.strings
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pre-translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Upload the changed source strings first so Crowdin has them before we
+      # pre-translate. The integration's own source sync is asynchronous and
+      # might not have ingested the new strings yet; uploading is idempotent.
+      - name: Upload sources to Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          command: upload sources
+          config: crowdin.yml
+        env:
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+
+      # AI pre-translate, untranslated strings only, all target languages.
+      # --apply-untranslated-strings-only maps to the API field
+      # translateUntranslatedOnly: true, so existing/approved translations and
+      # human work are never overwritten.
+      - name: AI pre-translate untranslated strings
+        uses: crowdin/github-action@v2
+        with:
+          command: >-
+            pre-translate
+            --method ai
+            --ai-prompt ${{ vars.CROWDIN_AI_PROMPT_ID }}
+            --apply-untranslated-strings-only
+            --no-progress
+          config: crowdin.yml
+        env:
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
