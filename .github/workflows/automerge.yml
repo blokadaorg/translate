@@ -1,43 +1,131 @@
-name: Automerge
+name: Crowdin automerge
+
+# Self-contained auto-merge for the Crowdin "New Crowdin updates" PR.
+#
+# Replaces the legacy reitermarkus/automerge action, which authenticated with
+# the long-dead MY_GITHUB_TOKEN personal token (now returns "Bad credentials",
+# so the translation PR stopped landing). Uses the org-standard blokada-ci
+# GitHub App to mint a short-lived write token, the same pattern the app repo
+# vendors in .github/workflows/dependabot-auto-merge.yml. translate is public,
+# so it cannot `uses:` the private blokadaorg/workflows reusable workflow; the
+# flow is vendored (inlined) here and kept in sync by hand.
+#
+# Gate: Crowdin pushes translated strings to the `translations` branch and
+# opens the PR. There is no dedicated Crowdin bot account (the PR is authored
+# by a maintainer), so we do NOT gate on author. We gate on:
+#   1. head ref == `translations` AND same-repo (not a fork), and
+#   2. every changed file under build/ (verified server-side with the App
+#      token), so a PR that targets the translations branch but touches
+#      scripts/, crowdin.yml, langs.js, or the v6/ source is refused.
+#
+# Secrets (provisioned per-repo by blokadaorg/ops terraform):
+#   - BLOKADA_APP_CLIENT_ID + BLOKADA_APP_PRIVATE_KEY — blokada-ci App creds.
+#
+# Safety: pull_request_target runs in the base-repo context with secret
+# access. This workflow never checks out the PR head and never executes any
+# PR-authored content; it only calls `gh` against PR metadata, which is the
+# safe way to use pull_request_target.
 
 on:
-  # Try enabling auto-merge for all open pull requests. (Only recommended for testing.)
-  #push:
-
-  # Try enabling auto-merge for all open pull requests.
-  #schedule:
-  # - cron: 0 * * * *
-
-  # Try enabling auto-merge for a pull request when a draft is marked as “ready for review”, when
-  # a required label is applied or when a “do not merge” label is removed, or when a pull request
-  # is updated in any way (opened, synchronized, reopened, edited).
   pull_request_target:
-    types:
-      - opened
-      - synchronized
-      - reopened
-      - edited
-      - labeled
-      - unlabeled
-      - ready_for_review
+    types: [opened, synchronize, reopened]
 
-  # Try enabling auto-merge for the specified pull request or all open pull requests if none is specified.
-  workflow_dispatch:
-    inputs:
-      pull-request:
-        description: Pull Request Number
-        required: false
+permissions:
+  contents: read
+
+# Crowdin force-pushes the translations branch repeatedly as it adds locales,
+# firing `synchronize` each time. Collapse overlapping runs to one per PR so
+# we don't get duplicate approvals or a merge step racing an already-merged PR.
+concurrency:
+  group: crowdin-automerge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   automerge:
+    if: >-
+      github.event.pull_request.head.ref == 'translations' &&
+      github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
-      - uses: reitermarkus/automerge@v2
+      - uses: actions/create-github-app-token@v3
+        id: app-token
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
-          merge-method: rebase
-          do-not-merge-labels: never-merge
-    #     required-labels: automerge
-          pull-request: ${{ github.event.inputs.pull-request }}
-          pull-request-author-associations: MEMBER,COLLABORATOR,OWNER
-    #     dry-run: true
+          client-id: ${{ secrets.BLOKADA_APP_CLIENT_ID }}
+          private-key: ${{ secrets.BLOKADA_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Resolve PR state
+        id: pr
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          state=$(gh pr view "$PR" --repo "$REPO" --json state --jq .state)
+          echo "PR state: $state"
+          echo "state=$state" >> "$GITHUB_OUTPUT"
+
+      - name: Verify every changed file is under build/
+        if: steps.pr.outputs.state == 'OPEN'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # The PR files API truncates at 3000 entries; a file past the cap
+          # would be invisible to the path gate, so refuse rather than guess.
+          count=$(gh pr view "$PR" --repo "$REPO" --json files --jq '.files | length')
+          if [ "$count" -ge 3000 ]; then
+            echo "PR reports $count files (>= 3000 API cap, list may be truncated). Refusing."
+            exit 1
+          fi
+          files=$(gh pr view "$PR" --repo "$REPO" --json files --jq '.files[].path')
+          if [ -z "$files" ]; then
+            echo "PR has no files; refusing to merge."
+            exit 1
+          fi
+          echo "Changed files:"
+          echo "$files"
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              build/*) ;;
+              *)
+                echo "Refusing: '$f' is outside build/."
+                exit 1
+                ;;
+            esac
+          done <<< "$files"
+          echo "All changed files are under build/."
+
+      - name: Approve
+        if: steps.pr.outputs.state == 'OPEN'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr review "$PR" --repo "$REPO" \
+            --approve \
+            --body "Auto-approved: Crowdin \`translations\` branch, all changes under build/."
+
+      - name: Squash-merge
+        if: steps.pr.outputs.state == 'OPEN'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # Tolerate a concurrent run having merged it already.
+          if ! gh pr merge "$PR" --repo "$REPO" --squash --delete-branch; then
+            state=$(gh pr view "$PR" --repo "$REPO" --json state --jq .state)
+            if [ "$state" = "MERGED" ]; then
+              echo "PR already merged by a concurrent run; nothing to do."
+              exit 0
+            fi
+            echo "Merge failed and PR is not merged (state: $state)."
+            exit 1
+          fi
