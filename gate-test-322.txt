@@ -1,0 +1,5 @@
+Negative test for the automerge build/ path gate (issue 322).
+
+This file is OUTSIDE build/, on a branch named `translations`. The automerge
+workflow's "Verify every changed file is under build/" step MUST refuse this
+PR (fail, no approval, no merge). Safe to delete.
