@@ -74,20 +74,22 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          # The PR files API truncates at 3000 entries; a file past the cap
-          # would be invisible to the path gate, so refuse rather than guess.
-          count=$(gh pr view "$PR" --repo "$REPO" --json files --jq '.files | length')
+          # Use the paginated REST API for the COMPLETE file list. `gh pr view
+          # --json files` returns at most 100 entries, so a file past position
+          # 100 would bypass this gate. The REST endpoint caps at 3000; if we
+          # hit that the list may be truncated, so refuse rather than guess.
+          files=$(gh api --paginate "repos/$REPO/pulls/$PR/files" --jq '.[].filename')
+          count=$(printf '%s\n' "$files" | grep -c . || true)
           if [ "$count" -ge 3000 ]; then
-            echo "PR reports $count files (>= 3000 API cap, list may be truncated). Refusing."
+            echo "PR has >= 3000 files (REST cap, list may be truncated). Refusing."
             exit 1
           fi
-          files=$(gh pr view "$PR" --repo "$REPO" --json files --jq '.files[].path')
-          if [ -z "$files" ]; then
+          if [ "$count" -eq 0 ]; then
             echo "PR has no files; refusing to merge."
             exit 1
           fi
-          echo "Changed files:"
-          echo "$files"
+          echo "Changed files ($count):"
+          printf '%s\n' "$files"
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
