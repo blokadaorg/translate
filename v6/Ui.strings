@@ -443,6 +443,20 @@
 // A short word for a button to generate profile
 "web action generate" = "Generate";
 
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// "Protect another device" is the name of the screen in the app that the user
+// has to open to approve the code shown on the web page.
+"web link brief" = "Open Blokada on your phone, go to Settings and tap Protect another device, then enter this code.";
+"web link qr brief" = "Or scan this code with the Blokada app.";
+"web link waiting" = "Waiting for you to approve this device...";
+"web link error expired" = "This code has expired.";
+"web link error busy" = "Too many attempts. Wait a moment, then try again.";
+"web link error generic" = "Something went wrong. Please try again.";
+// A button that asks the web page for a fresh code
+"web link action new code" = "Get a new code";
+
 "setup header" = "Setup";
 "setup desc" = "There are many ways to configure your device to use Blokada Cloud. Choose the one that works for you.";
 "setup label which device" = "What type of device you wish to set up?";
