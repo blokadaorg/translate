@@ -68,6 +68,9 @@
 "universal action hide" = "Приховати";
 "universal action select" = "Вибрати";
 "universal action selected" = "Вибрано";
+// A verb, "to send the message" in the support chat
+"universal action send" = "Send";
+"support chat input placeholder" = "Write a message...";
 // A verb "to search in the list"
 "universal action search" = "Пошук";
 // A verb "to filter the list"
@@ -325,6 +328,9 @@
 "account lease label generate" = "Виберіть розташування тут, щоб згенерувати конфігураційний файл, який можна використовувати у будь-якому VPN-додатку, що підтримує WireGuard. Це корисно для платформ, де ще немає наших додатків. Інакше кажучи, ми рекомендуємо використовувати наші рідні програми.";
 "account lease action generate" = "Створити конфігурацію";
 "account lease action download" = "Завантажити конфігурацію";
+// An option to build the config for a network that has no IPv4
+"account lease action ipv6 only" = "IPv6-only network";
+"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
 "account lease generated" = "Пристрій додано! Завантажте конфігурацію щоб використовувати її на будь-якому пристрої, що підтримується WireGuard.";
 "account lease wireguard desc" = "Blokada використовує WireGuard. Конфігурацію можна завантажити під час створення нових пристроїв.";
 "account lease label dns" = "DNS";
@@ -442,6 +448,16 @@
 "web cta plus desc" = "Ваш акаунт Libre дозволяє безкоштовно блокувати рекламу на пристрої з нашими додатками. Оновіться до Blokada Plus, щоб ще кращий захист. Ви отримаєте доступ до нашої глобальної мережі VPN, а також до нашого нового *хмарного блокування, який буде більш ефективним та простішим у використанні.";
 // A short word for a button to generate profile
 "web action generate" = "Генерувати";
+
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// Shown with a button; the app has opened this page with a one-time link.
+"web link brief" = "Continue to sign this browser in to your Blokada account.";
+// The page was opened without the one-time link, e.g. typed in by hand.
+"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
+"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
+"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
 
 "setup header" = "Установка";
 "setup desc" = "Існує багато способів налаштувати ваш пристрій для використання Blokada Cloud. Оберіть пристрій, який працюватиме для вас.";
