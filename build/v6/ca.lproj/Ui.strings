@@ -68,6 +68,9 @@
 "universal action hide" = "Amaga";
 "universal action select" = "Selecciona";
 "universal action selected" = "Seleccionat";
+// A verb, "to send the message" in the support chat
+"universal action send" = "Send";
+"support chat input placeholder" = "Write a message...";
 // A verb "to search in the list"
 "universal action search" = "Cerca";
 // A verb "to filter the list"
@@ -325,6 +328,9 @@
 "account lease label generate" = "Triau una ubicació aquí i es generarà un fitxer de configuració usable amb qualsevol app VPN amb suport WireGuard. Útil per a plataformes que encara no tenen cap aplicació nostra. És recomanable usar la nostra app nadiva.";
 "account lease action generate" = "Genera Config";
 "account lease action download" = "Descarrega Config";
+// An option to build the config for a network that has no IPv4
+"account lease action ipv6 only" = "IPv6-only network";
+"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
 "account lease generated" = "Dispositiu afegit! Descarregau la configuració per a usar-la amb dispositius compatibles amb WireGuard.";
 "account lease wireguard desc" = "Blokada empra WireGuard. Es poden descarregar configuracions quan es creen nous dispositius.";
 "account lease label dns" = "DNS";
@@ -442,6 +448,16 @@
 "web cta plus desc" = "El compte Libre ofereix bloqueig d'anuncis gratuït al dispositiu amb la nostra app de codi lliure. Actualitzi a Blokada Plus si voleu més protecció. Tendreu accés la nostra xarxa global VPN del nostre sistema de bloqueig d'anuncis \"al núvol\" que és més eficient i fàcil d'emprar.";
 // A short word for a button to generate profile
 "web action generate" = "Genera";
+
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// Shown with a button; the app has opened this page with a one-time link.
+"web link brief" = "Continue to sign this browser in to your Blokada account.";
+// The page was opened without the one-time link, e.g. typed in by hand.
+"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
+"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
+"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
 
 "setup header" = "Configuració";
 "setup desc" = "Hi ha moltes maneres de configurar el dispositiu per emprar Blokada Cloud. Triu la que preferiu.";
