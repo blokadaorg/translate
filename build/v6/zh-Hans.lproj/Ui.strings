@@ -68,6 +68,9 @@
 "universal action hide" = "隐藏";
 "universal action select" = "选择";
 "universal action selected" = "已选择";
+// A verb, "to send the message" in the support chat
+"universal action send" = "Send";
+"support chat input placeholder" = "Write a message...";
 // A verb "to search in the list"
 "universal action search" = "搜索";
 // A verb "to filter the list"
@@ -325,6 +328,9 @@
 "account lease label generate" = "在此选择位置将生成一个配置文件，您可在任何支持 WireGuard 的 VPN 应用中使用。适用于我们尚未有应用的平台。否则，我们建议优先使用我们的原生应用。";
 "account lease action generate" = "生成配置";
 "account lease action download" = "下载配置";
+// An option to build the config for a network that has no IPv4
+"account lease action ipv6 only" = "IPv6-only network";
+"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
 "account lease generated" = "设备已添加！下载配置文件，可在任何支持 WireGuard 的设备上使用。";
 "account lease wireguard desc" = "Blokada 使用 WireGuard。添加新设备时可下载配置。";
 "account lease label dns" = "DNS";
@@ -442,6 +448,16 @@
 "web cta plus desc" = "您的 Libre 帐号可让您在设备上免费使用我们的开源应用进行广告拦截。升级到 Blokada Plus 可获得更佳保护。您将获得全球 VPN 网络访问以及效率更高、易用的*云端广告拦截*。";
 // A short word for a button to generate profile
 "web action generate" = "生成";
+
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// Shown with a button; the app has opened this page with a one-time link.
+"web link brief" = "Continue to sign this browser in to your Blokada account.";
+// The page was opened without the one-time link, e.g. typed in by hand.
+"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
+"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
+"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
 
 "setup header" = "设置";
 "setup desc" = "有多种方式可将您的设备配置为使用 Blokada Cloud。请选择适合您的方式。";
