@@ -68,6 +68,9 @@
 "universal action hide" = "Gjem";
 "universal action select" = "Velg";
 "universal action selected" = "Valgt";
+// A verb, "to send the message" in the support chat
+"universal action send" = "Send";
+"support chat input placeholder" = "Write a message...";
 // A verb "to search in the list"
 "universal action search" = "Søk";
 // A verb "to filter the list"
@@ -325,6 +328,9 @@
 "account lease label generate" = "Å velge en posisjon her vil generere en konfigurasjonsfil som du kan bruke i en hvilken som helst VPN-app som støtter WireGuard. Dette er nyttig for plattformer der vi ikke har våre apper ennå. Ellers anbefaler vi at du bruker våre lokale apper i stedet.";
 "account lease action generate" = "Generer konfigurasjon";
 "account lease action download" = "Last ned konfigurasjon";
+// An option to build the config for a network that has no IPv4
+"account lease action ipv6 only" = "IPv6-only network";
+"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
 "account lease generated" = "Enhet lagt til! Last ned konfigurasjonen for å bruke den på alle enheter som støttes av WireGuard.";
 "account lease wireguard desc" = "Blokada bruker WireGuard. Konfigurasjoner kan lastes ned når du oppretter nye enheter.";
 "account lease label dns" = "DNS";
@@ -442,6 +448,16 @@
 "web cta plus desc" = "Din Libre-konto gir deg gratis blokkering på enheten din med våre åpen kildekode-apper. Oppgrader til Blokada Plus for en enda bedre beskyttelse. Du får tilgang til vårt globale VPN-nettverk samt vårt nye *Sky-baserte* som en adblokkering som er mer effektiv og enklere å bruke.";
 // A short word for a button to generate profile
 "web action generate" = "Generer";
+
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// Shown with a button; the app has opened this page with a one-time link.
+"web link brief" = "Continue to sign this browser in to your Blokada account.";
+// The page was opened without the one-time link, e.g. typed in by hand.
+"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
+"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
+"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
 
 "setup header" = "Oppsett";
 "setup desc" = "Det er mange måter å konfigurere enheten din å bruke Blokada Cloud. Velg den som fungerer for deg.";
