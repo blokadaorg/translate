@@ -68,6 +68,9 @@
 "universal action hide" = "Ẩn";
 "universal action select" = "Chọn";
 "universal action selected" = "Đã chọn";
+// A verb, "to send the message" in the support chat
+"universal action send" = "Send";
+"support chat input placeholder" = "Write a message...";
 // A verb "to search in the list"
 "universal action search" = "Tìm kiếm";
 // A verb "to filter the list"
@@ -325,6 +328,9 @@
 "account lease label generate" = "Việc chọn vị trí ở đây sẽ tạo tệp cấu hình mà bạn có thể sử dụng trong bất kỳ ứng dụng VPN nào hỗ trợ WireGuard. Điều này hữu ích cho các nền tảng mà chúng tôi chưa có ứng dụng của mình. Nếu không, chúng tôi khuyên bạn nên sử dụng các ứng dụng gốc của chúng tôi để thay thế.";
 "account lease action generate" = "Khởi tạo Cấu hình";
 "account lease action download" = "Tải xuống Cấu hình";
+// An option to build the config for a network that has no IPv4
+"account lease action ipv6 only" = "IPv6-only network";
+"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
 "account lease generated" = "Đã thêm thiết bị! Tải xuống cấu hình để sử dụng trên bất kỳ thiết bị nào được WireGuard hỗ trợ.";
 "account lease wireguard desc" = "Blokada sử dụng WireGuard. Các cấu hình có thể được tải xuống khi tạo thiết bị mới.";
 "account lease label dns" = "DNS";
@@ -442,6 +448,16 @@
 "web cta plus desc" = "Tài khoản Libre của bạn cung cấp cho bạn tính năng chặn quảng cáo miễn phí trên thiết bị của bạn với các ứng dụng nguồn mở của chúng tôi. Nâng cấp lên Blokada Plus để được bảo vệ tốt hơn. Bạn sẽ có quyền truy cập vào mạng VPN toàn cầu của chúng tôi cũng như *nền tảng đám mây* chặn quảng cáo hiệu quả hơn và dễ sử dụng hơn.";
 // A short word for a button to generate profile
 "web action generate" = "Khởi tạo";
+
+// Title of the web page that signs a device in to an account without typing
+// the account ID.
+"web link header" = "Link this device";
+// Shown with a button; the app has opened this page with a one-time link.
+"web link brief" = "Continue to sign this browser in to your Blokada account.";
+// The page was opened without the one-time link, e.g. typed in by hand.
+"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
+"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
+"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
 
 "setup header" = "Cài đặt";
 "setup desc" = "Có nhiều cách để định cấu hình thiết bị của bạn để sử dụng Đám mây Blokada. Chọn một trong những phù hợp với bạn.";
