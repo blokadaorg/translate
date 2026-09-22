@@ -70,7 +70,7 @@
 "universal action selected" = "Valgt";
 // A verb, "to send the message" in the support chat
 "universal action send" = "Send";
-"support chat input placeholder" = "Write a message...";
+"support chat input placeholder" = "Skriv en melding...";
 // A verb "to search in the list"
 "universal action search" = "Søk";
 // A verb "to filter the list"
@@ -329,8 +329,8 @@
 "account lease action generate" = "Generer konfigurasjon";
 "account lease action download" = "Last ned konfigurasjon";
 // An option to build the config for a network that has no IPv4
-"account lease action ipv6 only" = "IPv6-only network";
-"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
+"account lease action ipv6 only" = "Kun IPv6-nettverk";
+"account lease action ipv6 only help" = "Koble til VPN via IPv6.";
 "account lease generated" = "Enhet lagt til! Last ned konfigurasjonen for å bruke den på alle enheter som støttes av WireGuard.";
 "account lease wireguard desc" = "Blokada bruker WireGuard. Konfigurasjoner kan lastes ned når du oppretter nye enheter.";
 "account lease label dns" = "DNS";
@@ -451,13 +451,13 @@
 
 // Title of the web page that signs a device in to an account without typing
 // the account ID.
-"web link header" = "Link this device";
+"web link header" = "Koble denne enheten til";
 // Shown with a button; the app has opened this page with a one-time link.
-"web link brief" = "Continue to sign this browser in to your Blokada account.";
+"web link brief" = "Fortsett for å logge denne nettleseren inn på din Blokada-konto.";
 // The page was opened without the one-time link, e.g. typed in by hand.
-"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
-"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
-"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
+"web link missing" = "Åpne denne siden fra Blokada-appen: Innstillinger, deretter Beskytt en annen enhet.";
+"web link error expired" = "Denne lenken har utløpt eller har allerede blitt brukt. Åpne en ny fra Blokada-appen.";
+"web link error generic" = "Noe gikk galt. Åpne en ny lenke fra Blokada-appen.";
 
 "setup header" = "Oppsett";
 "setup desc" = "Det er mange måter å konfigurere enheten din å bruke Blokada Cloud. Velg den som fungerer for deg.";
