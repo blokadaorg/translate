@@ -69,8 +69,8 @@
 "universal action select" = "选择";
 "universal action selected" = "已选择";
 // A verb, "to send the message" in the support chat
-"universal action send" = "Send";
-"support chat input placeholder" = "Write a message...";
+"universal action send" = "发送";
+"support chat input placeholder" = "留下消息...";
 // A verb "to search in the list"
 "universal action search" = "搜索";
 // A verb "to filter the list"
@@ -329,8 +329,8 @@
 "account lease action generate" = "生成配置";
 "account lease action download" = "下载配置";
 // An option to build the config for a network that has no IPv4
-"account lease action ipv6 only" = "IPv6-only network";
-"account lease action ipv6 only help" = "Connect to the VPN via IPv6.";
+"account lease action ipv6 only" = "仅IPv6网络";
+"account lease action ipv6 only help" = "通过 IPv6 连接到 VPN。";
 "account lease generated" = "设备已添加！下载配置文件，可在任何支持 WireGuard 的设备上使用。";
 "account lease wireguard desc" = "Blokada 使用 WireGuard。添加新设备时可下载配置。";
 "account lease label dns" = "DNS";
@@ -451,13 +451,13 @@
 
 // Title of the web page that signs a device in to an account without typing
 // the account ID.
-"web link header" = "Link this device";
+"web link header" = "关联此设备";
 // Shown with a button; the app has opened this page with a one-time link.
-"web link brief" = "Continue to sign this browser in to your Blokada account.";
+"web link brief" = "继续将此浏览器登录到您的Blokada帐号。";
 // The page was opened without the one-time link, e.g. typed in by hand.
-"web link missing" = "Open this page from the Blokada app: Settings, then Protect another device.";
-"web link error expired" = "This link has expired or was already used. Open a new one from the Blokada app.";
-"web link error generic" = "Something went wrong. Open a new link from the Blokada app.";
+"web link missing" = "请从Blokada应用中打开此页面：设置，然后保护其他设备。";
+"web link error expired" = "此链接已过期或已被使用。请在 Blokada 应用中创建新的链接。";
+"web link error generic" = "出现错误。请在 Blokada 应用中创建新的链接。";
 
 "setup header" = "设置";
 "setup desc" = "有多种方式可将您的设备配置为使用 Blokada Cloud。请选择适合您的方式。";
