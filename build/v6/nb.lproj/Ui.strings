@@ -478,6 +478,12 @@
 "setup step enter tag" = "Når du spør, skriv inn taggen din";
 "setup step download profile" = "Generer og last ned profilen din";
 "setup step install wireguard" = "Installer og start WireGuard";
+// Section under the device setup steps on the web dashboard. It shows a link
+// and a QR code that open a public setup guide for this device on blokada.org.
+"web setup share header" = "Åpne på en annen enhet.";
+"web setup share brief" = "Skann koden eller åpne lenken på enheten du skal sette opp. Dette åpner en trinnvis veiledning med dine adresser ferdig utfylt, uten at du trenger å logge inn der.";
+// Anyone holding the link can send DNS queries through this account's filtering.
+"web setup share note" = "Alle med denne lenken kan bruke din Blokada-filtrering, men de kan ikke se eller endre kontoen din.";
 
 "stats header" = "Statistikk";
 // A ratio between counter of allowed vs denied requests.
