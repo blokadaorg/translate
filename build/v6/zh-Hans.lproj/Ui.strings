@@ -449,6 +449,25 @@
 // A short word for a button to generate profile
 "web action generate" = "生成";
 
+// Web dashboard sign-in page. Accounts have no email or password: an account
+// is a 12-letter account ID, and creating one is a single tap.
+"web lock header" = "欢迎使用 Blokada";
+// {0} is a product name, e.g. "Blokada Cloud". Shown when the visitor came from
+// a "Get Blokada Cloud" or "Get Blokada Plus" button.
+"web lock checkout header" = "获取 {0}";
+"web lock checkout brief" = "创建您的帐号以继续结账。无需邮箱或密码。";
+"web lock checkout action" = "创建帐号并继续";
+"web lock new header" = "新用户使用 Blokada？";
+"web lock new brief" = "一键创建帐号。无需邮箱或密码。";
+"web lock new action" = "创建帐号";
+"web lock existing header" = "已经有帐号？";
+"web lock existing brief" = "您的帐号 ID 位于 Blokada 应用的帐号设置中。";
+"web lock existing action" = "登录";
+// Separates the two ways in: create an account, or log in.
+"web lock or" = "或";
+// Link to support chat for someone who can't find their account ID.
+"web lock help" = "找不到您的帐号 ID？";
+
 // Title of the web page that signs a device in to an account without typing
 // the account ID.
 "web link header" = "关联此设备";
