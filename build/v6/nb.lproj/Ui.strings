@@ -449,6 +449,25 @@
 // A short word for a button to generate profile
 "web action generate" = "Generer";
 
+// Web dashboard sign-in page. Accounts have no email or password: an account
+// is a 12-letter account ID, and creating one is a single tap.
+"web lock header" = "Velkommen til Blokada";
+// {0} is a product name, e.g. "Blokada Cloud". Shown when the visitor came from
+// a "Get Blokada Cloud" or "Get Blokada Plus" button.
+"web lock checkout header" = "Få {0}";
+"web lock checkout brief" = "Opprett din konto for å fortsette til betaling. Ingen e-post eller passord nødvendig.";
+"web lock checkout action" = "Opprett konto og fortsett";
+"web lock new header" = "Ny hos Blokada?";
+"web lock new brief" = "Opprett en konto med ett trykk. Ingen e-post eller passord nødvendig.";
+"web lock new action" = "Opprett konto";
+"web lock existing header" = "Har du allerede en konto?";
+"web lock existing brief" = "Konto-ID-en din finner du i Blokada-appen, under kontoinnstillinger.";
+"web lock existing action" = "Logg inn";
+// Separates the two ways in: create an account, or log in.
+"web lock or" = "eller";
+// Link to support chat for someone who can't find their account ID.
+"web lock help" = "Har du mistet konto-ID-en din?";
+
 // Title of the web page that signs a device in to an account without typing
 // the account ID.
 "web link header" = "Koble denne enheten til";
