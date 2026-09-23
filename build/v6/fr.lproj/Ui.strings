@@ -451,22 +451,22 @@
 
 // Web dashboard sign-in page. Accounts have no email or password: an account
 // is a 12-letter account ID, and creating one is a single tap.
-"web lock header" = "Welcome to Blokada";
+"web lock header" = "Bienvenue sur Blokada.";
 // {0} is a product name, e.g. "Blokada Cloud". Shown when the visitor came from
 // a "Get Blokada Cloud" or "Get Blokada Plus" button.
-"web lock checkout header" = "Get {0}";
-"web lock checkout brief" = "Create your account to continue to checkout. No email or password needed.";
-"web lock checkout action" = "Create account and continue";
-"web lock new header" = "New to Blokada?";
-"web lock new brief" = "Create an account in one tap. No email or password needed.";
-"web lock new action" = "Create account";
-"web lock existing header" = "Already have an account?";
-"web lock existing brief" = "Your account ID is in the Blokada app, in your account settings.";
-"web lock existing action" = "Log in";
+"web lock checkout header" = "Obtenir {0}";
+"web lock checkout brief" = "Créez votre compte pour continuer au paiement. Aucun e-mail ni mot de passe requis.";
+"web lock checkout action" = "Créer un compte et continuer";
+"web lock new header" = "Nouveau sur Blokada ?";
+"web lock new brief" = "Créez un compte en un seul tap. Aucun e-mail ni mot de passe requis.";
+"web lock new action" = "Créer un compte";
+"web lock existing header" = "Vous avez déjà un compte ?";
+"web lock existing brief" = "Votre ID de compte se trouve dans l'application Blokada, dans les paramètres de votre compte.";
+"web lock existing action" = "Se connecter";
 // Separates the two ways in: create an account, or log in.
-"web lock or" = "or";
+"web lock or" = "ou";
 // Link to support chat for someone who can't find their account ID.
-"web lock help" = "Lost your account ID?";
+"web lock help" = "Vous avez perdu votre ID de compte ?";
 
 // Title of the web page that signs a device in to an account without typing
 // the account ID.
