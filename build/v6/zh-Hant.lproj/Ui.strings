@@ -478,6 +478,12 @@
 "setup step enter tag" = "詢問時請輸入您的標籤 (tag)";
 "setup step download profile" = "產生並下載量身打造的設定檔";
 "setup step install wireguard" = "安裝並啟動 WireGuard";
+// Section under the device setup steps on the web dashboard. It shows a link
+// and a QR code that open a public setup guide for this device on blokada.org.
+"web setup share header" = "在其他裝置上開啟";
+"web setup share brief" = "請在您要設置的裝置上掃描此代碼或開啟此連結。它將開啟一個逐步指引，其中已填入您的位址，無需登入。";
+// Anyone holding the link can send DNS queries through this account's filtering.
+"web setup share note" = "任何擁有此連結的人都可以使用您的 Blokada 篩選，但無法查看或更改您的帳戶。";
 
 "stats header" = "統計";
 // A ratio between counter of allowed vs denied requests.
