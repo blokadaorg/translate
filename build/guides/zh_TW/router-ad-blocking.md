@@ -1,67 +1,67 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: 使用路由器廣告阻擋，為整個網路阻擋廣告
+description: 只需在您的路由器上設置一次 Blokada Cloud，家中的每一台裝置都能受到保護，包括無法執行廣告阻擋程式的電視、遊戲主機與智慧喇叭。
 updated: 2026-09-23
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+您網路上的每個裝置會向路由器詢問應該使用哪個 DNS 伺服器。將路由器設定為使用 Blokada Cloud，所有在背後的裝置都會被阻擋廣告與追蹤器。這包含智慧電視、遊戲主機、串流播放器與智慧家庭裝置，這些無法安裝廣告阻擋應用程式。
 
-## What your router needs
+## 您的路由器需求
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
+您的路由器必須支援**使用主機名稱的加密 DNS**，也就是 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。許多新型路由器都支援，包括下方這些型號。根據您的路由器支援的功能，您需要：
 
-- For DNS over TLS, your Blokada DNS name: {% dot %}
-- For DNS over HTTPS, your DoH link: {% doh %}
+- 針對 DNS over TLS，請輸入您的 Blokada DNS 名稱：{% dot %}
+- 針對 DNS over HTTPS，請輸入您的 DoH 連結：{% doh %}
 
 <div class="note">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**只能輸入純 IP 位址？** 很多網際網路供應商的路由器只接受 DNS 的純 IP 位址。對這些的支援即將推出。在這之前，請分別為您的裝置設定：[Android](../android-private-dns/)、[Mac 及 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、以及[瀏覽器](../browser-dns-over-https/)。您也可以如在 [Pi-hole 教學](../switch-from-pihole/)中所述，在 Raspberry Pi 上運行小型轉發程式。
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 或更新版本。
 
-1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
-2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. Tick _Enforce certificate verification for encrypted name resolution_.
-4. Untick _Allow fallback to unencrypted name resolution_.
-5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
-6. Click _Apply_.
+1. 開啟 `http://fritz.box`，進入 _Internet → 帳戶資訊 → DNS 伺服器_。
+2. 在\*網際網路上的加密主機名稱解析（DNS over TLS）\*下，勾選 _使用加密主機名稱解析_。
+3. 勾選 _針對加密主機名稱解析強制驗證憑證_。
+4. 取消勾選 _允許回退到未加密主機名稱解析_。
+5. &#x5728;_&#x89E3;析程式名&#x7A31;_&#x4E2D;，僅輸入 {% dot %}。**移除所有其他項目。** FRITZ!Box 會使用所有列出的解析程式，任何其他的都可能讓廣告通過。
+6. 點選 _套用_。
 
 ## ASUS
 
-Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
+最新版 ASUS 韌體（3.0.0.4.388 或更新版本）與 Asuswrt-Merlin。
 
-1. Open the router admin page and go to _WAN → Internet Connection_.
-2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
-3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
-4. Click _Apply_.
+1. 開啟路由器管理頁面，進入 _WAN → 網際網路連線_。
+2. &#x5728;_&#x57;AN DNS 設&#x5B9A;_&#x4E0B;，&#x5C07;_&#x44;NS 私隱協&#x8B70;_&#x8A2D;&#x70BA;_&#x44;NS-over-TLS (DoT)_，_DNS-over-TLS Profile_ 設為 _Strict_。
+3. &#x5F9E;_&#x44;NS-over-TLS 伺服器清&#x55AE;_&#x4E2D;移除所有項目，然後新增一個：
+   - 地址：{% ip "dot" %}
+   - TLS 主機名稱：{% dot %}
+4. 點選 _套用_。
 
 ## OpenWrt
 
-1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+1. &#x65BC;_&#x7CFB;統 → 軟&#x9AD4;_&#x4E2D;，更新清單並安裝 `luci-app-https-dns-proxy`。
+2. 開啟 _服務 → HTTPS DNS Proxy_。刪除其他供應商的實例。
+3. 新增一個自訂解析程式 URL 的實例：{% doh %}
+4. _儲存並套用_。該套件會自動指向 dnsmasq。
 
-## Other routers
+## 其他路由器
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+請尋找名為 _DNS over TLS_、_Private DNS_、_Encrypted DNS_ 或 _DNS over HTTPS_ 的設定。輸入您的 Blokada DNS 名稱或上方的 DoH 連結，並移除所有其他 DNS 伺服器，包括備用伺服器。
 
-## Check that it works
+## 檢查是否運作正常
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. 重新啟動一台裝置，或關閉再開啟其 Wi-Fi，使其重新獲取設定。
+2. 瀏覽一分鐘，然後在儀表板中開啟 _活動_ 頁面。您網路的查詢將會顯示在該處。
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+有些裝置會繞開路由器：已設&#x5B9A;_&#x50;rivate DN&#x53;_&#x7684;手機、已設&#x5B9A;_&#x5B89;全 DN&#x53;_&#x70BA;其他供應商的瀏覽器，及自行硬編碼 DNS 的裝置。請直接在裝置上設定，或關閉他們自己的 DNS 設定。
 
 <div class="note">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+在路由器後方，所有裝置會共用一個位址，因此儀表板會將您的網路顯示為單一裝置。如果希望分開查看，請分別為手機和筆電設置它們自己的 Blokada DNS 名稱。這樣它們即使外出也仍會維持阻擋功能。
 
 </div>
