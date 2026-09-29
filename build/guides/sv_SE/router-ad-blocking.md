@@ -1,67 +1,67 @@
 ---
-title: Blockera reklam i hela nätverket med reklamblockering i routern
-description: Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.
+title: Block ads on your whole network with router ad blocking
+description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
 updated: 2026-09-23
 order: 4
 ---
 
-Alla enheter i nätverket frågar routern vilken DNS-server de ska använda. Peka routern mot Blokada Cloud, så blockeras reklam och spårare för allt som är anslutet till den. Det gäller även smarta tv-apparater, spelkonsoler, streamingstickor och smarta hem-enheter, som inte har plats för en app för reklamblockering.
+Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
 
-## Det här behöver din router
+## What your router needs
 
-Routern måste ha stöd för **krypterad DNS med värdnamn**, alltså DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar har det, bland annat modellerna nedan. Beroende på vad din router har stöd för behöver du:
+Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
 
-- För DNS över TLS, ditt Blokada-DNS-namn: {% dot %}
-- För DNS över HTTPS, din DoH-länk: {% doh %}
+- For DNS over TLS, your Blokada DNS name: {% dot %}
+- For DNS over HTTPS, your DoH link: {% doh %}
 
 <div class="note">
 
-**Bara vanliga IP-adresser?** Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/). Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i [Pi-hole-guiden](../switch-from-pihole/).
+**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 eller senare.
+FRITZ!OS 7.20 or later.
 
-1. Öppna `http://fritz.box` och gå till *Internet → Account Information → DNS Server*.
-2. Under *Encrypted Name Resolution on the Internet (DNS over TLS)* kryssar du i *Use encrypted name resolution*.
-3. Kryssa i *Enforce certificate verification for encrypted name resolution*.
-4. Avmarkera *Allow fallback to unencrypted name resolution*.
-5. Ange bara {% dot %} under *Resolver names*. **Ta bort alla andra poster.** FRITZ!Box använder alla resolvers i listan, och varje annan resolver släpper igenom reklam.
-6. Klicka på *Apply*.
+1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
+2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
+3. Tick _Enforce certificate verification for encrypted name resolution_.
+4. Untick _Allow fallback to unencrypted name resolution_.
+5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+6. Click _Apply_.
 
 ## ASUS
 
-Nyare ASUS-firmware (3.0.0.4.388 eller senare) och Asuswrt-Merlin.
+Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
-1. Öppna routerns administrationssida och gå till *WAN → Internet Connection*.
-2. Under *WAN DNS Setting* ställer du in *DNS Privacy Protocol* på *DNS-over-TLS (DoT)* och *DNS-over-TLS Profile* på *Strict*.
-3. Ta bort alla poster i *DNS-over-TLS Server List* och lägg sedan till en:
+1. Open the router admin page and go to _WAN → Internet Connection_.
+2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
+3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
    - Address: {% ip "dot" %}
    - TLS Hostname: {% dot %}
-4. Klicka på *Apply*.
+4. Click _Apply_.
 
 ## OpenWrt
 
-1. Under *System → Software* uppdaterar du listorna och installerar `luci-app-https-dns-proxy`.
-2. Öppna *Services → HTTPS DNS Proxy*. Ta bort instanserna för andra leverantörer.
-3. Lägg till en instans med en egen resolver-URL: {% doh %}
-4. *Save & Apply*. Paketet pekar automatiskt dnsmasq mot den.
+1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
+2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
+3. Add an instance with a custom resolver URL: {% doh %}
+4. _Save & Apply_. The package points dnsmasq at it automatically.
 
-## Andra routrar
+## Other routers
 
-Leta efter en inställning som heter *DNS over TLS*, *Private DNS*, *Encrypted DNS* eller *DNS over HTTPS*. Ange ditt Blokada-DNS-namn eller din DoH-länk från ovan och ta bort alla andra DNS-servrar, även reservservrar.
+Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
 
-## Kontrollera att det fungerar
+## Check that it works
 
-1. Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.
-2. Surfa en stund och öppna sedan sidan *Aktivitet* i dashboarden. Nätverkets uppslag visas där.
+1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
+2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
 
-Vissa enheter går förbi routern: telefoner med *privat DNS* inställd, webbläsare med *säker DNS* inställd på en annan leverantör och enheter med egen, hårdkodad DNS. Ställ in dem direkt på enheten, eller stäng av deras egen DNS-inställning.
+Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
 
 <div class="note">
 
-Bakom routern delar alla enheter en adress, så dashboarden visar ditt nätverk som en enda enhet. Ställ in telefoner och datorer med ett eget Blokada-DNS-namn om du vill se dem var för sig. Då behåller de också blockeringen när de lämnar hemmet.
+Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
 
 </div>
