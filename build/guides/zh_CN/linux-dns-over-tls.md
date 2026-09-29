@@ -1,44 +1,41 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: 在 Linux 上使用 DNS over TLS 屏蔽广告
+description: 配置 systemd-resolved 通过加密的 DNS over TLS 使用 Blokada Cloud，为你的 Linux 电脑上的每个应用程序屏蔽广告和跟踪器。
 updated: 2026-09-28
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+当前大多数 Linux 发行版（包括 Ubuntu 和 Fedora）都通过 _systemd-resolved_ 解析名称，并支持 DNS over TLS。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。
 
-## Set up systemd-resolved
+## 设置 systemd-resolved
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. 用 `sudo mkdir -p /etc/systemd/resolved.conf.d` 创建文件夹，然后新建文件 `/etc/systemd/resolved.conf.d/blokada.conf`，内容如下：
 
-<pre><code>[Resolve]
-DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
-DNSOverTLS=yes
-Domains=~.</code></pre>
+<pre><code>[Resolve]\nDNS={{ site.dnsIps.dot }}#<span data-dns=\"dot\">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>\nDNSOverTLS=yes\nDomains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>重启它：<code>sudo systemctl restart systemd-resolved</code></li>
+<li>检查状态：<code>resolvectl status</code> 应显示 <code>+DNSOverTLS</code> 以及 Blokada 服务器。</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+`#` 号后的部分是你的 Blokada DNS 名称：{% dot %} systemd-resolved 会根据它检查服务器证书，Blokada 会用它识别是哪台设备在请求。
 
 <div class="note">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** 同样会传递你网络的 DNS 服务器。 `Domains=~.` 会将所有查询发送至 Blokada。如果 `resolvectl status` 在某个连接上仍然列出了其他服务器，请关闭该连接的自动 DNS（在其 IPv4 和 IPv6 设置中 _DNS_ 旁边的 _自动_ 开关）。
 
 </div>
 
-## Without systemd-resolved
+## 未使用 systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+如果找不到 `resolvectl`，说明你的发行版以其他方式解析名称。请改为在浏览器中配置安全 DNS，具体见[浏览器指南](../browser-dns-over-https/)，或者配置你的[路由器](../router-ad-blocking/)以实现全屋覆盖。
 
-## Check that it works
+## 检查是否生效
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+打开几个网站，然后在 [仪表板](https://app.blokada.org/stats?src=guides) 的 _活动_ 页面查看。这台电脑的查询会在此显示。
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+也想给这台电脑加上 VPN 吗？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。
 
 </div>
