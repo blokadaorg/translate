@@ -1,56 +1,56 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
+title: 一个在每台设备上使用相同设置的 NextDNS 替代方案
+description: 从 NextDNS 迁移到 Blokada Cloud。将你的 NextDNS DNS 名称、DoH 链接或配置文件替换为 Blokada 的设置，适用于你的手机、电脑和路由器，并继续保持广告拦截。
 updated: 2026-09-28
 order: 3
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS 和 Blokada Cloud 的工作方式相同：都是加密的 DNS 服务，通过名称拦截广告和追踪器，并在个人 DNS 名称后面使用你的自定义设置。切换意味着在每台设备上将 NextDNS 的设置替换为你的 Blokada 设置。设备上的其他内容不会发生变化。
 
-## What you used, and what to pick in Blokada
+## 你之前用过的，以及在 Blokada 中该选择什么
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| 在 NextDNS 中            | 在 Blokada Cloud 中                                 |
+| ---------------------- | ------------------------------------------------- |
+| 你的配置 ID，例如 `abc123`    | 你的设备标签，是 Blokada DNS 名称和 DoH 链接的一部分               |
+| _隐&#x79C1;_&#x5C4F;蔽列表 | 控制面板中&#x7684;_&#x5C4F;蔽列表_                        |
+| _安全_（恶意软件、网络钓鱼）        | 控制面&#x677F;_&#x5C4F;蔽列&#x8868;_&#x4E0B;的恶意软件列表    |
+| _家长控制_                 | 控制面&#x677F;_&#x5C4F;蔽列&#x8868;_&#x4E0B;的成人内容和赌博列表 |
+| _允许列表_ 和 _拒绝列表_        | 控制面板中&#x7684;_&#x4F8B;外_                          |
+| _日志_ 和 _分析_            | 控制面板中&#x7684;_&#x6D3B;&#x52A8;_&#x548C;_统计_       |
 
-## Your Blokada details
+## 你的 Blokada 详细信息
 
-- Your Blokada DNS name, for DNS over TLS: {% dot %}
-- Your DoH link, for DNS over HTTPS: {% doh %}
+- 你的 Blokada DNS 名称，用于 DNS over TLS：{% dot %}
+- 你的 DoH 链接，用于 DNS over HTTPS：{% doh %}
 
-## Switch each device
+## 切换每台设备
 
 ### Android
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+如果你使用了 _私人 DNS_，地址为 `<your-id>.dns.nextdns.io`，请将其替换为你的 Blokada DNS 名称，具体请参见[Android 指南](../android-private-dns/)。如果你使用了 NextDNS 应用，请卸载并改为安装 [Blokada 6](https://go.blokada.org/play_cloud)。
 
-### iPhone and iPad
+### iPhone 和 iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+如果你使用了 NextDNS 应用，请卸载并改为安装 [Blokada 6](https://go.blokada.org/appstore)。如果你安装的是 NextDNS 配置文件，请在 _设置 → 通用 → VPN 与设备管理_ 下将其移除，然后按照 [Apple 指南](../apple-devices/) 操作。
 
-### Mac and Apple TV
+### Mac 和 Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+移除 NextDNS 配置文件或应用，然后从 [Apple 指南](../apple-devices/) 安装 Blokada 配置文件。
 
-### Windows and Linux
+### Windows 和 Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+如果你正在使用 NextDNS 应用，请卸载它。在 Windows 上，将 NextDNS 服务器和 DoH 模板替换为 Blokada 的设置，具体请参见 [Windows 指南](../windows-dns-over-https/)。在 Linux 上，请将 systemd-resolved 中的 NextDNS 服务器替换为 Blokada 的，详见 [Linux 指南](../linux-dns-over-tls/)。
 
-### Browsers
+### 浏览器
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+如果你设定了 `https://dns.nextdns.io/…` 作为浏览器&#x7684;_&#x5B89;全 DNS_，请将其替换为你的 DoH 链接，详情参见[浏览器指南](../browser-dns-over-https/)。
 
-### Router
+### 路由器
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+如果你的路由器通过 DNS over TLS 或 DNS over HTTPS 使用 NextDNS，请将 NextDNS 名称或链接替换为你的 Blokada 设置，具体参见[路由器指南](../router-ad-blocking/)。
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+如果它通过普通 IP 地址&#x548C;_&#x7ED1;定 I&#x50;_&#x4F7F;用 NextDNS，目前 Blokada 还无法支持接管。对普通 DNS 地址路由器的支持即将推出。在此之前，请单独为你的设备进行设置，或使用支持加密 DNS 的路由器。
 
-## Check that it works
+## 检查是否生效
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+打开几个网站，然后查看控制面板里&#x7684;_&#x6D3B;&#x52A8;_&#x9875;面。你可以在那里看到你的各个设备的解析记录，被拦截的会有标记。如果某台设备没有显示出来，说明它还在使用 NextDNS。
