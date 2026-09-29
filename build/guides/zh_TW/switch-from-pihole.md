@@ -1,41 +1,41 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: 無需硬體的 Pi-hole 替代方案
+description: 將您家中的廣告阻擋從 Pi-hole 遷移到 Blokada Cloud，或保留 Pi-hole 並將其查詢通過 Blokada 傳送。
 updated: 2026-09-23
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+只要 Raspberry Pi 處於開機、更新且在家中，Pi-hole 會為您網路上的每個裝置阻擋廣告。 Blokada Cloud 會從我們的伺服器執行相同的工作：
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **無需維護盒子。** 沒有 SD 卡，沒有更新，當 Pi 掛掉時也不會中斷服務。
+- **外出也能運作。** 手機與筆電連接行動數據與其他 Wi-Fi 網路時仍可阻擋廣告。
+- **加密連線。** 裝置透過 DNS over TLS 或 DNS over HTTPS 連接 Blokada，因此您的服務提供商無法讀取或更改查詢內容。
+- **統一儀表板。** 可在 [app.blokada.org](https://app.blokada.org/?src=guides) 查看阻擋清單、允許與已阻擋網域、以及各裝置的活動紀錄。
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+有兩種切換方式。可以完全取代 Pi-hole，或保留並將 Blokada Cloud 設為其上游。
 
-## Option 1: replace the Pi-hole
+## 選項 1：取代 Pi-hole
 
-1. **Get Blokada Cloud** and open the dashboard. Under _Setup_ you find your details:
-   - Your Blokada DNS name, for DNS over TLS: {% dot %}
-   - Your DoH link, for DNS over HTTPS: {% doh %}
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **取得 Blokada Cloud** 並開啟儀表板。在 _設定_ 頁籤下您可以找到詳細資訊：
+   - 您的 Blokada DNS 名稱，供 DNS over TLS 使用：{% dot %}
+   - 您的 DoH 連結，供 DNS over HTTPS 使用：{% doh %}
+2. **將您的路由器指向 Blokada 而不是 Pi-hole。** 請參考[路由器指南](../router-ad-blocking/)。如果您的路由器僅能接受純 IP 位址當成 DNS 伺服器，請改為分別設定各裝置：[Android](../android-private-dns/)、[Mac 與 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)，以及[瀏覽器](../browser-dns-over-https/)。
+3. **如果您的 Pi-hole 是 DHCP 伺服器，** 在關掉 Pi 之前請先於路由器重新啟用 DHCP。否則您的裝置將無法取得網路位址。
+4. **搬移您的清單。** 在儀表板中於 _阻擋清單_ 選擇阻擋清單，並在 _例外_ 中新增您允許或已阻擋的網域。
+5. **關閉 Pi-hole，** 或保留作為其他用途。
 
 <div class="note">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+您的 Pi-hole 以 IP 位址顯示網路中每個裝置。在 Blokada 中，只要裝置使用其自己的 Blokada DNS 名稱，就會以各自名稱顯示。以單一 Blokada DNS 名稱設定的路由器會顯示為一個裝置。
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## 選項 2：保留 Pi-hole，使用 Blokada Cloud 作為上游
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+如果您想保留在地設定，例如本地主機名稱、DHCP 或自訂清單，請讓 Pi-hole 透過加密連線將查詢轉送到 Blokada。 Pi-hole 本身無法執行加密轉送，因此會有一個小型轉送程式與其並行運作。本指南使用 [dnsproxy](https://github.com/AdguardTeam/dnsproxy)，這是一款單檔的開源轉送工具。
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. 在 Pi-hole 機器上，從其發布頁面下載適合您 CPU 的 `dnsproxy` 版本（針對新版 Raspberry Pi 為 `linux-arm64`），並將 `dnsproxy` 可執行檔複製到 `/usr/local/bin/`。
+2. 建立 `/etc/systemd/system/dnsproxy.service`：
 
 <pre><code>[Unit]
 Description=Encrypted DNS forwarder to Blokada Cloud
@@ -50,14 +50,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. 啟動指令：`sudo systemctl enable --now dnsproxy`
+4. 在 Pi-hole 管理介面中，開啟 _設定 → DNS_。取消勾選所有上游伺服器，並新增 `127.0.0.1#5054` 作為自訂上游伺服器。儲存。
+5. 查看儀表板的 _活動_ 頁面。來自您網路的查詢現在會顯示在那裡。
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+您可以關閉 Pi-hole 自身的阻擋清單並在儀表板上管理阻擋，亦可同時保留兩者。
 
-## Frequently asked
+## 常見問題
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**我需要 Blokada Plus 嗎？** 不需要。 Blokada Cloud 為您全家提供 DNS 阻擋保護。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 會額外提供 VPN 功能。
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**如果 Blokada 無法連線怎麼辦？** 您的裝置將無法解析名稱，直到服務恢復，就像 Pi-hole 掛掉時一樣。請勿新增未過濾的第二個 DNS 伺服器作為備援。大多數裝置會隨機使用所有伺服器，這樣廣告就會漏過。
