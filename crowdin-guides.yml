@@ -1,0 +1,7 @@
+# Only the blokada.org setup guides, for one-off CLI runs such as uploading
+# existing translations:
+#   crowdin upload translations --config crowdin-guides.yml -i <project id> -T <token>
+# The GitHub integration uses crowdin.yml, which has the same entry.
+files:
+  - source: /guides/*.md
+    translation: /build/guides/%locale_with_underscore%/%original_file_name%
