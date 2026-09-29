@@ -1,57 +1,57 @@
 ---
-title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
-description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
+title: Mullvad DNS 即将停止服务。使用 Blokada Cloud 继续拦截广告
+description: Mullvad 将于 2026 年 11 月 2 日关闭其公共 DNS 服务。以下是如何在此日期前将您的手机、电脑和路由器切换至 Blokada Cloud，确保广告拦截不中断。
 updated: 2026-09-23
 order: 2
 ---
 
-Mullvad is closing its free public DNS service on **2 November 2026** and recommends Quad9 instead. Quad9 blocks malware but does **not** block ads or trackers. If you used one of Mullvad's filtering DNS names, ads come back on that date unless you switch.
+Mullvad 将于 **2026 年 11 月 2 日** 关闭其免费公共 DNS 服务，并建议改用 Quad9。 Quad9 会拦截恶意软件，但**不会**拦截广告或追踪器。如果您曾使用 Mullvad 的过滤 DNS 名称，在该日期后广告将会再次出现，除非您更换服务。
 
-This page is about the public DNS names ending in `dns.mullvad.net`. It does not cover the Mullvad VPN app.
+本页面内容适用于以 `dns.mullvad.net` 结尾的公共 DNS 名称。不涵盖 Mullvad VPN 应用。
 
-## What you used, and what to pick in Blokada
+## 您之前使用的，以及在 Blokada 里应选择的
 
-| Mullvad DNS name           | What it blocked                      | In the Blokada dashboard                                                                                                                      |
-| -------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dns.mullvad.net`          | nothing                              | Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice. |
-| `adblock.dns.mullvad.net`  | ads, trackers                        | an ad and tracker blocklist                                                                                                                   |
-| `base.dns.mullvad.net`     | ads, trackers, malware               | add a malware list                                                                                                                            |
-| `extended.dns.mullvad.net` | base plus social media               | add a social media list                                                                                                                       |
-| `family.dns.mullvad.net`   | base plus adult content and gambling | add adult content and gambling lists                                                                                                          |
-| `all.dns.mullvad.net`      | all of the above                     | turn on all of them                                                                                                                           |
+| Mullvad DNS 名称             | 其拦截内容        | 在 Blokada 控制台                                   |
+| -------------------------- | ------------ | ----------------------------------------------- |
+| `dns.mullvad.net`          | 无            | Blokada 是一项过滤服务。如果您不需要过滤，Quad9 或者您的服务商 DNS 更简单。 |
+| `adblock.dns.mullvad.net`  | 广告、追踪器       | 广告和追踪器名单                                        |
+| `base.dns.mullvad.net`     | 广告、追踪器、恶意软件  | 添加恶意软件名单                                        |
+| `extended.dns.mullvad.net` | 基础内容加社交媒体    | 添加社交媒体名单                                        |
+| `family.dns.mullvad.net`   | 基础内容加成人内容和赌博 | 添加成人内容和赌博名单                                     |
+| `all.dns.mullvad.net`      | 涵盖以上所有       | 全部开启                                            |
 
-You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
+您可在控制台的 _Blocklists_ 下选择拦截名单。您可随时更改，且更改会应用到所有设备。
 
-## Your Blokada details
+## 您的 Blokada 信息
 
-Blokada gives each device its own name, so the dashboard can show activity per device:
+Blokada 会为每个设备分配唯一名称，控制台可显示每台设备的活动：
 
-- Your Blokada DNS name, for DNS over TLS (Android, routers): {% dot %}
-- Your DoH link, for DNS over HTTPS (browsers, some routers): {% doh %}
+- 您的 Blokada DNS 名称，用于 DNS over TLS（Android、路由器）：{% dot %}
+- 您的 DoH 链接，用于 DNS over HTTPS（浏览器、部分路由器）：{% doh %}
 
-## Switch each device
+## 切换每台设备
 
 ### Android
 
-Mullvad's guide had you enter a hostname under _Private DNS_. Replace it with your Blokada DNS name. The [Android guide](../android-private-dns/) has the steps.
+Mullvad 指南中需在 _专用 DNS_ 下输入主机名。将其替换为您的 Blokada DNS 名称。请参阅 [Android 指南](../android-private-dns/)。
 
-### iPhone, iPad and Mac
+### iPhone、iPad 和 Mac
 
-Mullvad's setup used a configuration profile. Remove it first:
+Mullvad 的设置内容使用了配置描述文件。请先移除：
 
-- **iPhone and iPad:** _Settings → General → VPN & Device Management_, tap the Mullvad DNS profile, then _Remove Profile_.
-- **Mac:** open the list of profiles (_System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, _System Preferences → Profiles_ on macOS 12 and earlier), select the Mullvad DNS profile and click _−_.
+- **iPhone 和 iPad：** _设置 → 通用 → VPN 与设备管理_，点击 Mullvad DNS 配置文件，然后选择 _移除配置文件_。
+- **Mac：** 打开配置文件列表（macOS 15 及以上：_系统设置 → 通用 → 设备管理_；macOS 13 和 14：_系统设置 → 隐私与安全性 → 配置文件_；macOS 12 及以下：_系统偏好设置 → 配置文件_），选择 Mullvad DNS 配置文件并点击 _−_。
 
-Then install the Blokada profile from the [Apple guide](../apple-devices/).
+然后根据 [Apple 指南](../apple-devices/) 安装 Blokada 配置文件。
 
-### Browsers
+### 浏览器
 
-If you entered a Mullvad DoH link such as `https://adblock.dns.mullvad.net/dns-query` under _secure DNS_ or _DNS over HTTPS_, replace it with your DoH link. The [browser guide](../browser-dns-over-https/) has the steps for each browser.
+如果您在 _安全 DNS_ 或 _DNS over HTTPS_ 输入了例如 `https://adblock.dns.mullvad.net/dns-query` 的 Mullvad DoH 链接，请替换为您的 DoH 链接。[浏览器指南](../browser-dns-over-https/) 提供了各浏览器的操作步骤。
 
-### Router
+### 路由器
 
-If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The [router guide](../router-ad-blocking/) covers common models.
+如您的路由器使用 Mullvad 的 DNS over TLS，请将 Mullvad 主机名替换为您的 Blokada DNS 名称，并移除 Mullvad 的 IP 地址。[路由器指南](../router-ad-blocking/) 涵盖了常见型号。
 
-## Check that it works
+## 请检查是否生效
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.
+打开几个网站，然后在控制台 _Activity_ 页面查看。您可以在此处看到设备的 DNS 查询，已拦截项会做标记。如果某台设备未显示，说明它仍在使用其他 DNS 服务器。
