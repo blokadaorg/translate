@@ -1,50 +1,50 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: حظر الإعلانات على ويندوز باستخدام DNS عبر HTTPS
+description: استخدم DNS المشفر المدمج في ويندوز 11 مع Blokada Cloud لحظر الإعلانات والمتعقّبات في كل تطبيق ومتصفح، دون الحاجة لتثبيت أي برنامج.
 updated: 2026-09-28
 order: 8
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+يمكن لويندوز 11 إرسال كل استعلامات DNS الخاصة به بشكل مشفر عبر DNS عبر HTTPS. وجّه النظام إلى Blokada Cloud، وسيتم حظر الإعلانات والمتعقّبات في كل تطبيق ومتصفح على الكمبيوتر، دون الحاجة لأي تثبيت.
 
-You need two values:
+ستحتاج إلى قيمتين:
 
-- DNS server (IP address): {% ip "doh" %}
-- Your DoH link: {% doh %}
+- خادم DNS (عنوان IP): {% ip "doh" %}
+- رابط DoH الخاص بك: {% doh %}
 
-## Windows 11
+## ويندوز 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. افتح _الإعدادات ← الشبكة والإنترنت_، ثم _Wi-Fi_ أو _الإيثرنت_ حسب اتصال الكمبيوتر.
+2. افتح _خصائص الأجهزة_ للاتصال الخاص بك. بالنسبة لـ Wi-Fi، اختر _إدارة الشبكات المعروفة_ ثم الشبكة، أو _خصائص الأجهزة_ أعلى صفحة Wi-Fi.
+3. بجوار _تعيين خادم DNS_، اختر _تحرير_. اختر _يدوي_ وقم بتفعيل _IPv4_.
+4. في _DNS المفضل_، أدخل خادم DNS {% ip "doh" %}
+5. عيّن _DNS عبر HTTPS_ إلى _تشغيل (نموذج يدوي)_، والصق رابط DoH الخاص بك {% doh %} كنموذج DoH.
+6. أوقف خيار _الرجوع إلى البيانات غير المشفّرة_، وحدد _حفظ_.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+إذا كان الكمبيوتر يستخدم كل من Wi-Fi و الإيثرنت، كرر ذلك للاتصال الآخر.
 
 <div class="note">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+اترك _DNS البديل_ فارغًا. يستخدم ويندوز كلا الخادمين، وأي خادم آخر سيسمح بظهور الإعلانات.
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+لا يوجد خيار _تشغيل (نموذج يدوي)_؟ نظام ويندوز 11 الخاص بك أقدم. حدّث ويندوز، أو استخدم [دليل المتصفح](../browser-dns-over-https/) مؤقتًا.
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+إذا استمرت بعض الإعلانات بالظهور على شبكة تحتوي على IPv6، فقد يطلب ويندوز أيضًا خادم DNS للراوتر الخاص بك بنسخة IPv6. أوقف _بروتوكول الإنترنت الإصدار السادس (TCP/IPv6)_ من خصائص المحول (_لوحة التحكم ← اتصالات الشبكة_)، أو قم بضبط [الراوتر](../router-ad-blocking/).
 
 </div>
 
-## Windows 10
+## ويندوز 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+ويندوز 10 لا يدعم DNS المشفر مدمجًا. قم بضبط DNS آمن في متصفحك بدلًا من ذلك، كما في [دليل المتصفح](../browser-dns-over-https/)، أو اضبط [الراوتر](../router-ad-blocking/) ليشمل المنزل بأكمله.
 
-## Check that it works
+## تحقق من أنه يعمل
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+افتح بعض المواقع ثم انظر إلى صفحة _النشاط_ في [لوحة التحكم](https://app.blokada.org/stats?src=guides). تظهر استعلامات هذا الكمبيوتر هناك.
 
-Browsers with their own _secure DNS_ setting bypass Windows. In Chrome and Edge, set it to use the current service provider, or to your DoH link.
+المتصفحات التي تملك إعداد _DNS الآمن_ الخاص بها تتجاوز ويندوز. في كروم وإيدج، عيّنه لاستخدام مزود الخدمة الحالي أو إلى رابط DoH الخاص بك.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+هل ترغب في VPN لهذا الكمبيوتر أيضًا؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) يشمل إعداد WireGuard لتشفير كل حركة البيانات، مع نفس الحماية من الإعلانات.
 
 </div>
