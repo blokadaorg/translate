@@ -2,13 +2,13 @@ Blokada Slim 廣告封鎖——無廣告，更省電
 
 使用免費的官方 Blokada 應用程式來保護您的隱私。
 
-這是 Blokada 開放原始碼專案在 Play 商店上唯一的官方應用程式。 當心複製品，它們可能包含惡意程式碼。
+這是 Blokada 開放原始碼專案在 Play 商店上唯一的官方應用程式。當心複製品，它們可能包含惡意程式碼。
 
 Blokada Slim Ad blocker 是免費的應用程式，它使用 DNS（網域名稱系統）伺服器來讓您獲得無廣告的瀏覽體驗，僅檢視您想要的內容。
 
 還有一個可以選擇使用的內建 VPN。
 
-本專案的網站在：https://blokada.org。 網站上的版本功能更多，而且也是免費的。
+本專案的網站在：https://blokada.org。網站上的版本功能更多，而且也是免費的。
 
 如果您有問題或回饋的話，請在 Telegram 上加入我們：https://go.blokada.org/chat
 
