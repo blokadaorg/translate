@@ -1,67 +1,67 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Blokkeer advertenties op je hele netwerk met router-advertentieblokkering.
+description: Stel Blokada Cloud één keer in op je router en elk apparaat thuis is beschermd, inclusief tv's, spelcomputers en slimme speakers die geen advertentieblokker kunnen uitvoeren.
 updated: 2026-09-23
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+Elk apparaat op je netwerk vraagt de router welke DNS-server gebruikt moet worden. Wijs de router naar Blokada Cloud en advertenties en trackers worden voor alles erachter geblokkeerd. Daarbij horen slimme tv's, spelcomputers, streamingsticks en slimme apparaten voor thuis, waarvoor geen advertentieblokker-app beschikbaar is.
 
-## What your router needs
+## Wat je router nodig heeft
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
+Je router moet **versleutelde DNS met een hostnaam** ondersteunen, oftewel DNS over TLS (DoT) of DNS over HTTPS (DoH). Veel recente routers ondersteunen dit, waaronder de onderstaande modellen. Afhankelijk van wat je router ondersteunt, heb je het volgende nodig:
 
-- For DNS over TLS, your Blokada DNS name: {% dot %}
-- For DNS over HTTPS, your DoH link: {% doh %}
+- Voor DNS over TLS, je Blokada DNS-naam: {% dot %}
+- Voor DNS over HTTPS, je DoH-link: {% doh %}
 
 <div class="note">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**Alleen platte IP-adressen?** Veel routers van internetproviders accepteren alleen platte IP-adressen voor DNS. Ondersteuning daarvoor is onderweg. Tot die tijd stel je je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/). Je kunt ook een kleine forwarder op een Raspberry Pi draaien, zoals beschreven in de [Pi-hole handleiding](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 of nieuwer.
 
-1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
-2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. Tick _Enforce certificate verification for encrypted name resolution_.
-4. Untick _Allow fallback to unencrypted name resolution_.
-5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
-6. Click _Apply_.
+1. Open `http://fritz.box` en ga naar _Internet → Accountgegevens → DNS-server_.
+2. Vink bij _Versleutelde naamomzetting op internet (DNS over TLS)_ de optie _Versleutelde naamomzetting gebruiken_ aan.
+3. Vink _Certificaatverificatie afdwingen voor versleutelde naamomzetting_ aan.
+4. Haal het vinkje weg bij _Terugval op niet-versleutelde naamomzetting toestaan_.
+5. Voer onder _Resolvernamen_ alleen {% dot %} in. **Verwijder alle andere vermeldingen.** De FRITZ!Box gebruikt alle vermelde resolvers; elke andere laat advertenties door.
+6. Klik op _Toepassen_.
 
 ## ASUS
 
-Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
+Recente ASUS-firmware (3.0.0.4.388 of nieuwer) en Asuswrt-Merlin.
 
-1. Open the router admin page and go to _WAN → Internet Connection_.
-2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
-3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
-4. Click _Apply_.
+1. Open de routerbeheerpagina en ga naar _WAN → Internetverbinding_.
+2. Stel bij _WAN DNS-instelling_ de optie _DNS Privacy Protocol_ in op _DNS-over-TLS (DoT)_ en _DNS-over-TLS-profiel_ op _Strict_.
+3. Verwijder alle vermeldingen uit de _DNS-over-TLS Serverlijst_ en voeg er dan één toe:
+   - Adres: {% ip "dot" %}
+   - TLS-hostnaam: {% dot %}
+4. Klik op _Toepassen_.
 
 ## OpenWrt
 
-1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+1. Werk in _Systeem → Software_ de lijsten bij en installeer `luci-app-https-dns-proxy`.
+2. Open _Diensten → HTTPS DNS Proxy_. Verwijder de instanties voor andere providers.
+3. Voeg een instantie toe met een aangepaste resolver-URL: {% doh %}
+4. _Opslaan & Toepassen_. Het pakket wijst dnsmasq er automatisch naar toe.
 
-## Other routers
+## Andere routers
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Zoek naar een instelling genaamd _DNS over TLS_, _Private DNS_, _Versleutelde DNS_ of _DNS over HTTPS_. Voer je Blokada DNS-naam of DoH-link van hierboven in en verwijder elke andere DNS-server, ook fallback-servers.
 
-## Check that it works
+## Controleer of het werkt
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Herstart één apparaat of zet de wifi uit en weer aan, zodat het de wijziging oppikt.
+2. Navigeer één minuut op internet en open dan de pagina _Activiteit_ in het dashboard. De opvragingen van je netwerk verschijnen daar.
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Sommige apparaten omzeilen de router: telefoons met _Private DNS_ ingesteld, browsers met _beveiligde DNS_ ingesteld bij een andere provider en apparaten die hun eigen DNS hard-coderen. Stel deze in op het apparaat zelf of schakel hun eigen DNS-instelling uit.
 
 <div class="note">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Achter de router delen alle apparaten één adres, dus het dashboard toont je netwerk als één apparaat. Stel telefoons en laptops in met hun eigen Blokada DNS-naam als je ze apart wilt zien. Ze behouden hun blokkering ook als ze thuis weg zijn.
 
 </div>
