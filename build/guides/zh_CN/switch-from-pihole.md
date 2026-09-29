@@ -1,44 +1,44 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: 无需硬件的 Pi-hole 替代方案
+description: 将你家的广告拦截从 Pi-hole 迁移到 Blokada Cloud，或者保留 Pi-hole 并通过 Blokada 发送其查询请求。
 updated: 2026-09-23
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+只要 Raspberry Pi 正常运行、已更新且在家，Pi-hole 会为你网络上的每台设备拦截广告。 Blokada Cloud 通过我们的服务器实现同样的功能：
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **无需维护硬件设备。** 无需 SD 卡，无需更新，树莓派宕机时也不会造成服务中断。
+- **外出也可用。** 手机和笔记本电脑在移动数据和其它 Wi-Fi 网络下也能持续拦截广告。
+- **加密传输。** 设备通过 DNS over TLS 或 DNS over HTTPS 与 Blokada 通信，你的供应商无法读取或修改你的查询请求。
+- **统一管理面板。** 阻止列表、允许与阻止的域名，以及各设备的活动都可在 [app.blokada.org](https://app.blokada.org/?src=guides) 查看。
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+有两种切换方式。完全替换 Pi-hole，或者保留并将 Blokada Cloud 作为上游。
 
-## Option 1: replace the Pi-hole
+## 选项 1：完全替换 Pi-hole
 
-1. **Get Blokada Cloud** and open the dashboard. Under _Setup_ you find your details:
-   - Your Blokada DNS name, for DNS over TLS: {% dot %}
-   - Your DoH link, for DNS over HTTPS: {% doh %}
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **获取 Blokada Cloud** 并打开管理面板。在 _设置_ 下你可以找到相关信息：
+   - 你的 Blokada DNS 名称，用于 DNS over TLS：{% dot %}
+   - 你的 DoH 链接，用于 DNS over HTTPS：{% doh %}
+2. **将你的路由器指向 Blokada，而不是 Pi-hole。** 按照[路由器指南](../router-ad-blocking/)操作。如果你的路由器只接受纯 IP 地址作为 DNS 服务器，请改为逐个配置你的设备：[Android](../android-private-dns/)、[Mac 和 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、以及[浏览器](../browser-dns-over-https/)。
+3. **如果你的 Pi-hole 充当 DHCP 服务器，** 请在关闭 Pi 之前，先在路由器里重新启用 DHCP。否则你的设备将无法获取网络地址。
+4. **迁移你的列表。** 在管理面板选择 _阻止列表_ 下的 blocklists，然后在 _例外_ 下添加你自己的允许或阻止的域名。
+5. **关闭 Pi-hole，** 或留作它用。
 
 <div class="note">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+你的 Pi-hole 以前通过 IP 地址显示网络中每台设备。使用 Blokada，每台设备只要使用自己的 Blokada DNS 名称，就会以各自的名称显示。用同一个 Blokada DNS 名称设置的路由器会以单一设备显示。
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## 选项 2：保留 Pi-hole，并使用 Blokada Cloud 作为上游
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+如果你需要保留本地设置，例如本地主机名、DHCP 或自定义列表，可以让 Pi-hole 通过加密连接将查询转发到 Blokada。 Pi-hole 本身无法实现加密转发，因此需要在其旁边运行一个小型转发器。本指南使用 [dnsproxy](https://github.com/AdguardTeam/dnsproxy)，这是一个开源的单文件转发器。
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. 在 Pi-hole 设备上，从其发布页面下载适合你 CPU 的 `dnsproxy` 版本（例如新版树莓派使用 `linux-arm64`），并将 `dnsproxy` 二进制文件复制到 `/usr/local/bin/`。
+2. 创建 `/etc/systemd/system/dnsproxy.service`：
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=加密 DNS 转发器到 Blokada Cloud
 Wants=network-online.target
 After=network-online.target
 
@@ -50,14 +50,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. 启动：`sudo systemctl enable --now dnsproxy`
+4. 在 Pi-hole 管理端，打开 _设置 → DNS_。取消勾选所有上游服务器，并添加 `127.0.0.1#5054` 作为自定义上游服务器。保存。
+5. 查看管理面板的 _活动_ 页面。现在你网络中的查询将在此处显示。
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+你可以关闭 Pi-hole 自带的阻止列表并在管理面板管理拦截，也可以两者同时使用。
 
-## Frequently asked
+## 常见问题
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**我需要 Blokada Plus 吗？** 不需要。 Blokada Cloud 覆盖你整个家庭的 DNS 拦截。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 还可进一步为你提供 VPN 服务。
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**如果 Blokada 无法访问怎么办？** 你的设备将无法解析域名，直到服务恢复，就像 Pi-hole 宕机时一样。请勿添加第二个未过滤的 DNS 服务器作为备用。大多数设备会随机使用所有服务器，因此广告可能会穿透拦截。
