@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: حظر الإعلانات على لينكس باستخدام DNS عبر TLS
+description: قم بإعداد systemd-resolved لاستخدام Blokada Cloud عبر DNS عبر TLS المشفر، وحظر الإعلانات وأجهزة التتبع لجميع التطبيقات على جهاز الكمبيوتر الخاص بك بنظام لينكس.
 updated: 2026-09-28
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+معظم توزيعات لينكس الحديثة، بما في ذلك أوبونتو وفيدورا، تقوم بحل الأسماء عبر systemd-resolved، والذي يدعم DNS عبر TLS. على ديبيان، قم بتثبيته أولاً باستخدام الأمر: <code>sudo apt install systemd-resolved</code>. وجهه إلى Blokada Cloud، وسيتم حظر الإعلانات وأجهزة التتبع عن جميع التطبيقات على الكمبيوتر.
 
-## Set up systemd-resolved
+## إعداد systemd-resolved
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. أنشئ المجلد باستخدام <code>sudo mkdir -p /etc/systemd/resolved.conf.d</code>، ثم أنشئ الملف <code>/etc/systemd/resolved.conf.d/blokada.conf</code> مع هذه الإعدادات:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>أعد تشغيله: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>تحقق منه: <code>resolvectl status</code> سيُظهر <code>+DNSOverTLS</code> وخادم Blokada.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+الجزء الذي يأتي بعد "#" هو اسم DNS الخاص بك في Blokada: يقوم systemd-resolved بالتحقق من شهادة الخادم باستخدام هذا الاسم، وتستخدمه Blokada لمعرفة الجهاز الذي يطلب.
 
 <div class="note">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** يمرر أيضاً خوادم DNS لشبكتك. `Domains=~.` يرسل جميع عمليات البحث إلى Blokada، ولكن إذا استمر <code>resolvectl status</code> في عرض خادم آخر على اتصال ما، قم بإيقاف تشغيل تعيين DNS التلقائي لهذا الاتصال (مفتاح _تلقائي_ بجانب _DNS_ في إعدادات IPv4 و IPv6 الخاصة به).
 
 </div>
 
-## Without systemd-resolved
+## بدون systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+إذا لم يتم العثور على <code>resolvectl</code>، فإن توزيعتك تقوم بحل الأسماء بطريقة أخرى. قم بإعداد DNS آمن في متصفحك بدلاً من ذلك، كما هو موضح في [دليل المتصفح](../browser-dns-over-https/)، أو قم بإعداد [الراوتر](../router-ad-blocking/) ليغطي المنزل بأكمله.
 
-## Check that it works
+## تحقق من أن الإعداد يعمل
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+افتح بعض المواقع، ثم انتقل إلى صفحة _النشاط_ في [لوحة المعلومات](https://app.blokada.org/stats?src=guides). عمليات البحث من هذا الكمبيوتر ستظهر هناك.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحظر.
 
 </div>
