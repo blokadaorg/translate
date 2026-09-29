@@ -1,50 +1,50 @@
 ---
-title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
-description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
+title: Blockera annonser i Chrome, Firefox, Edge och Brave med DNS över HTTPS.
+description: Ställ in Blokada Cloud som säker DNS-leverantör i din webbläsare för att blockera annonser och spårare, på vilken dator som helst, även arbetsdatorer där du inte kan installera appar.
 updated: 2026-09-23
 order: 7
 ---
 
-Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
+Moderna webbläsare kan använda en egen krypterad DNS-leverantör, kallad _säker DNS_ eller _DNS över HTTPS_. Ställ in den på Blokada Cloud, så blockerar webbläsaren annonser och spårare på alla nätverk, utan att någon tillägg behöver installeras.
 
-This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
+Denna inställning gäller endast denna webbläsare. För att skydda hela datorn, använd [Apple-profilen](../apple-devices/) på en Mac, eller konfigurera din [router](../router-ad-blocking/).
 
-Your DoH link: {% doh %}
+Din DoH-länk: {% doh %}
 
 ## Chrome
 
-1. Open `chrome://settings/security`.
-2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+1. Öppna `chrome://settings/security`.
+2. Aktivera _Använd säker DNS_, och välj sedan _Lägg till anpassad DNS-tjänsteleverantör_.
+3. Ange {% doh %}
 
 ## Edge
 
-1. Open `edge://settings/privacy`.
-2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
-3. Choose _Choose a service provider_ and enter {% doh %}
+1. Öppna `edge://settings/privacy`.
+2. Under _Säkerhet_, aktivera _Använd säker DNS för att ange hur nätverksadresser till webbplatser ska slås upp_.
+3. Välj _Välj en tjänsteleverantör_ och ange {% doh %}
 
 ## Firefox
 
-1. Open _Settings → Privacy & Security_ and scroll to _DNS over HTTPS_.
-2. Choose _Max Protection_.
-3. Under _Choose provider_, select _Custom_ and enter {% doh %}
+1. Öppna _Inställningar → Sekretess & säkerhet_ och scrolla till _DNS över HTTPS_.
+2. Välj _Maximalt skydd_.
+3. Under _Välj leverantör_, välj _Anpassad_ och ange {% doh %}
 
 ## Brave
 
-1. Open `brave://settings/security`.
-2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+1. Öppna `brave://settings/security`.
+2. Aktivera _Använd säker DNS_, och välj sedan _Lägg till anpassad DNS-tjänsteleverantör_.
+3. Ange {% doh %}
 
 ## Safari
 
-Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
+Safari har ingen egen inställning för säker DNS. Den använder systemets DNS, så installera [Apple-profilen](../apple-devices/).
 
-## Check that it works
+## Kontrollera att det fungerar
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
+Surfa i en minut, öppna sedan sidan _Aktivitet_ i [dashboarden](https://app.blokada.org/stats?src=guides). Den här webbläsarens uppslag visas där.
 
 <div class="note">
 
-If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
+Om din webbläsare hanteras av arbete eller skola kan inställningen för säker DNS vara låst. Kontakta din administratör.
 
 </div>
