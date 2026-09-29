@@ -1,57 +1,57 @@
 ---
-title: Mullvad DNS läggs ner. Behåll reklamblockeringen med Blokada Cloud
-description: Mullvad stänger sin publika DNS den 2 november 2026. Så flyttar du telefon, dator och router till Blokada Cloud innan dess och behåller reklamblockeringen.
+title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
+description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
 updated: 2026-09-23
 order: 2
 ---
 
-Mullvad stänger sin kostnadsfria publika DNS-tjänst den **2 november 2026** och rekommenderar Quad9 i stället. Quad9 blockerar skadlig kod men blockerar **inte** reklam eller spårare. Om du använde något av Mullvads filtrerande DNS-namn kommer reklamen tillbaka det datumet, om du inte byter.
+Mullvad is closing its free public DNS service on **2 November 2026** and recommends Quad9 instead. Quad9 blocks malware but does **not** block ads or trackers. If you used one of Mullvad's filtering DNS names, ads come back on that date unless you switch.
 
-Den här sidan gäller de publika DNS-namnen som slutar på `dns.mullvad.net`. Den gäller inte Mullvads VPN-app.
+This page is about the public DNS names ending in `dns.mullvad.net`. It does not cover the Mullvad VPN app.
 
-## Det du använde och vad du väljer i Blokada
+## What you used, and what to pick in Blokada
 
-| Mullvads DNS-namn | Det här blockerades | I Blokadas dashboard |
-|---|---|---|
-| `dns.mullvad.net` | ingenting | Blokada är en filtreringstjänst. Vill du inte ha någon filtrering är Quad9 eller din leverantörs DNS det enklare valet. |
-| `adblock.dns.mullvad.net` | reklam, spårare | en blocklista för reklam och spårare |
-| `base.dns.mullvad.net` | reklam, spårare, skadlig kod | lägg till en lista mot skadlig kod |
-| `extended.dns.mullvad.net` | base plus sociala medier | lägg till en lista för sociala medier |
-| `family.dns.mullvad.net` | base plus vuxeninnehåll och spel om pengar | lägg till listor för vuxeninnehåll och spel om pengar |
-| `all.dns.mullvad.net` | allt ovan | aktivera alla |
+| Mullvad DNS name           | What it blocked                      | In the Blokada dashboard                                                                                                                      |
+| -------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dns.mullvad.net`          | nothing                              | Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice. |
+| `adblock.dns.mullvad.net`  | ads, trackers                        | an ad and tracker blocklist                                                                                                                   |
+| `base.dns.mullvad.net`     | ads, trackers, malware               | add a malware list                                                                                                                            |
+| `extended.dns.mullvad.net` | base plus social media               | add a social media list                                                                                                                       |
+| `family.dns.mullvad.net`   | base plus adult content and gambling | add adult content and gambling lists                                                                                                          |
+| `all.dns.mullvad.net`      | all of the above                     | turn on all of them                                                                                                                           |
 
-Du väljer blocklistor i dashboarden under *Blocklists*. Du kan ändra dem när som helst, och ändringen gäller alla dina enheter.
+You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
 
-## Dina Blokada-uppgifter
+## Your Blokada details
 
-Blokada ger varje enhet ett eget namn, så att dashboarden kan visa aktivitet per enhet:
+Blokada gives each device its own name, so the dashboard can show activity per device:
 
-- Ditt Blokada-DNS-namn, för DNS över TLS (Android, routrar): {% dot %}
-- Din DoH-länk, för DNS över HTTPS (webbläsare, vissa routrar): {% doh %}
+- Your Blokada DNS name, for DNS over TLS (Android, routers): {% dot %}
+- Your DoH link, for DNS over HTTPS (browsers, some routers): {% doh %}
 
-## Byt på varje enhet
+## Switch each device
 
 ### Android
 
-Enligt Mullvads guide angav du ett värdnamn under *Privat DNS*. Byt ut det mot ditt Blokada-DNS-namn. [Android-guiden](../android-private-dns/) visar stegen.
+Mullvad's guide had you enter a hostname under _Private DNS_. Replace it with your Blokada DNS name. The [Android guide](../android-private-dns/) has the steps.
 
-### iPhone, iPad och Mac
+### iPhone, iPad and Mac
 
-Mullvads installation använde en konfigurationsprofil. Ta bort den först:
+Mullvad's setup used a configuration profile. Remove it first:
 
-- **iPhone och iPad:** *Inställningar → Allmänt → VPN och enhetshantering*, tryck på Mullvads DNS-profil och sedan på *Ta bort profil*.
-- **Mac:** öppna listan med profiler (*Systeminställningar → Allmänt → Enhetshantering* på macOS 15 och senare, *Systeminställningar → Integritet och säkerhet → Profiler* på macOS 13 och 14, *Systeminställningar → Profiler* på macOS 12 och tidigare), markera Mullvads DNS-profil och klicka på *−*.
+- **iPhone and iPad:** _Settings → General → VPN & Device Management_, tap the Mullvad DNS profile, then _Remove Profile_.
+- **Mac:** open the list of profiles (_System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, _System Preferences → Profiles_ on macOS 12 and earlier), select the Mullvad DNS profile and click _−_.
 
-Installera sedan Blokada-profilen enligt [Apple-guiden](../apple-devices/).
+Then install the Blokada profile from the [Apple guide](../apple-devices/).
 
-### Webbläsare
+### Browsers
 
-Om du angav en Mullvad-DoH-länk som `https://adblock.dns.mullvad.net/dns-query` under *säker DNS* eller *DNS över HTTPS* byter du ut den mot din DoH-länk. [Webbläsarguiden](../browser-dns-over-https/) visar stegen för varje webbläsare.
+If you entered a Mullvad DoH link such as `https://adblock.dns.mullvad.net/dns-query` under _secure DNS_ or _DNS over HTTPS_, replace it with your DoH link. The [browser guide](../browser-dns-over-https/) has the steps for each browser.
 
 ### Router
 
-Om din router använder Mullvad via DNS över TLS byter du ut Mullvads värdnamn mot ditt Blokada-DNS-namn och tar bort Mullvads IP-adresser. [Routerguiden](../router-ad-blocking/) tar upp vanliga modeller.
+If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The [router guide](../router-ad-blocking/) covers common models.
 
-## Kontrollera att det fungerar
+## Check that it works
 
-Öppna några webbplatser och titta sedan på sidan *Aktivitet* i dashboarden. Där ser du dina enheters uppslag, och de blockerade är markerade. Om en enhet inte syns använder den fortfarande en annan DNS-server.
+Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.
