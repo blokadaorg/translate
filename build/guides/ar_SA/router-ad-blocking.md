@@ -1,67 +1,67 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: احظر الإعلانات على شبكتك بالكامل باستخدام حظر الإعلانات عبر جهاز التوجيه
+description: قم بإعداد Blokada Cloud على جهاز التوجيه الخاص بك مرة واحدة، وسيتم حماية كل جهاز في المنزل، بما في ذلك أجهزة التلفزيون وأجهزة الألعاب والسماعات الذكية التي لا يمكنها تشغيل أداة حظر الإعلانات.
 updated: 2026-09-23
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+كل جهاز على شبكتك يطلب من جهاز التوجيه معرفة أي خادم DNS يجب استخدامه. وجه جهاز التوجيه إلى Blokada Cloud، وستتم إزالة الإعلانات والمتعقبات عن كل ما هو خلفه. يشمل ذلك أجهزة التلفزيون الذكية، وأجهزة الألعاب، وأجهزة البث، وأجهزة المنزل الذكي التي لا يمكن تثبيت تطبيق حظر الإعلانات عليها.
 
-## What your router needs
+## ما يحتاجه جهاز التوجيه الخاص بك
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
+يجب أن يدعم جهاز التوجيه الخاص بك **DNS المشفر باستخدام اسم مضيف**، أي DNS عبر TLS (DoT) أو DNS عبر HTTPS (DoH). العديد من أجهزة التوجيه الحديثة تدعم ذلك، بما في ذلك النماذج أدناه. اعتمادًا على ما يدعمه جهاز التوجيه الخاص بك، ستحتاج إلى:
 
-- For DNS over TLS, your Blokada DNS name: {% dot %}
-- For DNS over HTTPS, your DoH link: {% doh %}
+- بالنسبة لـ DNS عبر TLS، اسم Blokada DNS الخاص بك: {% dot %}
+- بالنسبة لـ DNS عبر HTTPS، رابط DoH الخاص بك: {% doh %}
 
 <div class="note">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**هل تقبل عناوين IP العادية فقط؟** العديد من أجهزة التوجيه المزودة من مزودي الإنترنت تقبل فقط عناوين IP العادية لخادم DNS. الدعم لتلك الأجهزة قادم قريبًا. حتى ذلك الحين، قم بإعداد أجهزتك واحدًا تلو الآخر: [أندرويد](../android-private-dns/)، [ماك و Apple TV](../apple-devices/)، [ويندوز](../windows-dns-over-https/)، [لينكس](../linux-dns-over-tls/)، و[المتصفحات](../browser-dns-over-https/). يمكنك أيضًا تشغيل موجّه صغير على Raspberry Pi، كما هو موضح في [دليل Pi-hole](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 أو أحدث.
 
-1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
-2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. Tick _Enforce certificate verification for encrypted name resolution_.
-4. Untick _Allow fallback to unencrypted name resolution_.
-5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
-6. Click _Apply_.
+1. افتح `http://fritz.box` وانتقل إلى _الإنترنت → معلومات الحساب → خادم DNS_.
+2. تحت _حل الأسماء المشفر على الإنترنت (DNS عبر TLS)_، فعّل خيار _استخدام حل الأسماء المشفر_.
+3. فعّل خيار _فرض التحقق من الشهادة لحل الأسماء المشفر_.
+4. ألغ تحديد خيار _السماح بالرجوع إلى حل الأسماء غير المشفر_.
+5. في _أسماء الريزولفر_، أدخل فقط {% dot %}. **أزل جميع الإدخالات الأخرى.** يستخدم FRITZ!Box جميع الريزولفرات المُدرجة، وأي واحدة أخرى ستسمح بظهور الإعلانات.
+6. انقر على _تطبيق_.
 
 ## ASUS
 
-Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
+إصدار البرنامج الثابت ASUS الحديث (3.0.0.4.388 أو أحدث) وAsuswrt-Merlin.
 
-1. Open the router admin page and go to _WAN → Internet Connection_.
-2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
-3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
-4. Click _Apply_.
+1. افتح صفحة إدارة جهاز التوجيه واذهب إلى _WAN → اتصال الإنترنت_.
+2. تحت _إعداد DNS الخاص بـ WAN_، عيّن _بروتوكول خصوصية DNS_ إلى _DNS-over-TLS (DoT)_ &#x648;_&#x645;لف تعريف DNS-over-TLS_ إلى _صارم_.
+3. أزل كل إدخال من _قائمة خوادم DNS-over-TLS_، ثم أضف واحدًا:
+   - العنوان: {% ip "dot" %}
+   - اسم مضيف TLS: {% dot %}
+4. انقر على _تطبيق_.
 
 ## OpenWrt
 
-1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+1. في _النظام → البرامج_، قم بتحديث القوائم وثبّت `luci-app-https-dns-proxy`.
+2. افتح _الخدمات → HTTPS DNS Proxy_. احذف الحالات الخاصة بمزودين آخرين.
+3. أضف حالة مع عنوان ريزولفر مخصص: {% doh %}
+4. _حفظ وتطبيق_. الحزمة تقوم بتوجيه dnsmasq إليه تلقائيًا.
 
-## Other routers
+## أجهزة التوجيه الأخرى
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+ابحث عن خيار يسمى _DNS عبر TLS_، _DNS خاص_، _DNS مشفر_ أو _DNS عبر HTTPS_. أدخل اسم Blokada DNS أو رابط DoH من الأعلى، وأزل أي خادم DNS آخر، بما في ذلك الخوادم الاحتياطية.
 
-## Check that it works
+## تحقق أنه يعمل
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. أعد تشغيل جهاز واحد، أو أوقف تشغيل Wi-Fi ثم أعد تفعيله، ليتم التقاط التغيير.
+2. تصفح لمدة دقيقة، ثم افتح صفحة _النشاط_ في لوحة التحكم. طلبات أسماء نطاق شبكتك ستظهر هناك.
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+بعض الأجهزة تتجاوز جهاز التوجيه: الهواتف التي تم تعيين _DNS خاص_ لها، المتصفحات التي تم تعيين _DNS آمن_ بها إلى مزود آخر، والأجهزة التي تخصص إعدادات DNS الخاصة بها. قم بإعداد تلك الأجهزة على الجهاز نفسه، أو أوقف تشغيل إعداد DNS الخاص بها.
 
 <div class="note">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+خلف جهاز التوجيه، كل الأجهزة تشارك عنوانًا واحدًا، لذا تظهر لوحة التحكم شبكتك كجهاز واحد. قم بإعداد الهواتف وأجهزة اللابتوب باسم Blokada DNS الخاص بها إذا أردت رؤيتها بشكل منفصل. كما أنها تحتفظ بميزة الحظر الخاصة بها عند مغادرتها المنزل.
 
 </div>
