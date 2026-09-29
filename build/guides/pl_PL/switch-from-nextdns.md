@@ -1,56 +1,56 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
+title: Alternatywa dla NextDNS z identyczną konfiguracją na każdym urządzeniu
+description: Przenieś się z NextDNS do Blokada Cloud. Zamień nazwę DNS, link DoH lub profil NextDNS na odpowiednik Blokady na swoim telefonie, komputerze i routerze, aby zachować blokowanie reklam.
 updated: 2026-09-28
 order: 3
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS i Blokada Cloud działają w ten sam sposób: jest to szyfrowana usługa DNS, która blokuje reklamy i trackery po nazwach, z Twoimi ustawieniami dostępnymi przez osobistą nazwę DNS. Przełączenie polega na zastąpieniu wartości NextDNS na każdym urządzeniu tymi od Blokady. Nic innego na urządzeniu się nie zmienia.
 
-## What you used, and what to pick in Blokada
+## Czego używałeś i co wybrać w Blokadzie
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| W NextDNS                                                               | W Blokada Cloud                                                           |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Twój identyfikator konfiguracji, np. `abc123`           | Twój tag urządzenia, będący częścią nazwy DNS Blokady oraz linku DoH      |
+| _Prywatnościowe_ listy blokowania                                       | _Listy blokowania_ w panelu sterowania                                    |
+| _Bezpieczeństwo_ (złośliwe oprogramowanie, phishing) | lista złośliwego oprogramowania w sekcji _Listy blokowania_               |
+| _Kontrola rodzicielska_                                                 | listy treści dla dorosłych i gier hazardowych w sekcji _Listy blokowania_ |
+| _Lista dozwolonych_ i _Lista zablokowanych_                             | _Wyjątki_ w panelu sterowania                                             |
+| _Logi_ i _Analityka_                                                    | _Aktywność_ i _Statystyki_ w panelu sterowania                            |
 
-## Your Blokada details
+## Twoje dane Blokady
 
-- Your Blokada DNS name, for DNS over TLS: {% dot %}
-- Your DoH link, for DNS over HTTPS: {% doh %}
+- Twoja nazwa DNS Blokady, dla DNS przez TLS: {% dot %}
+- Twój link DoH, dla DNS przez HTTPS: {% doh %}
 
-## Switch each device
+## Zmień każde urządzenie
 
 ### Android
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+Jeśli korzystałeś z _Prywatnego DNS_ i wpisywałeś `<your-id>.dns.nextdns.io`, zamień go na swoją nazwę DNS Blokady, zgodnie z [przewodnikiem dla Androida](../android-private-dns/). Jeśli korzystałeś z aplikacji NextDNS, odinstaluj ją i zainstaluj [Blokada 6](https://go.blokada.org/play_cloud).
 
-### iPhone and iPad
+### iPhone i iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+Jeśli korzystałeś z aplikacji NextDNS, odinstaluj ją i zainstaluj [Blokada 6](https://go.blokada.org/appstore). Jeśli zamiast tego zainstalowałeś profil NextDNS, usuń go w _Ustawienia → Ogólne → VPN i Zarządzanie urządzeniem_, a następnie postępuj zgodnie z [przewodnikiem Apple](../apple-devices/).
 
-### Mac and Apple TV
+### Mac i Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+Usuń profil lub aplikację NextDNS, a następnie zainstaluj profil Blokady według [przewodnika Apple](../apple-devices/).
 
-### Windows and Linux
+### Windows i Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+Odinstaluj aplikację NextDNS, jeśli ją używasz. Na Windows zamień serwer NextDNS i szablon DoH na Blokady, zgodnie z [przewodnikiem dla Windows](../windows-dns-over-https/). Na Linuksie zamień serwer NextDNS w systemd-resolved, zgodnie z [przewodnikiem dla Linuksa](../linux-dns-over-tls/).
 
-### Browsers
+### Przeglądarki
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+Jeśli ustawiłeś `https://dns.nextdns.io/…` jako _bezpieczny DNS_ przeglądarki, zamień go na swój link DoH, zgodnie z [przewodnikiem dla przeglądarki](../browser-dns-over-https/).
 
 ### Router
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+Jeśli Twój router używa NextDNS przez DNS przez TLS lub DNS przez HTTPS, zamień nazwę lub link NextDNS na swój odpowiednik z Blokady, zgodnie z [przewodnikiem routera](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+Jeśli używa NextDNS przez zwykłe adresy IP z _powiązanym IP_, Blokada jeszcze tego nie obsługuje. Wsparcie dla routerów ze zwykłymi adresami DNS jest w drodze. Do tego czasu skonfiguruj każde urządzenie osobno albo użyj routera obsługującego szyfrowany DNS.
 
-## Check that it works
+## Sprawdź, czy działa
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+Otwórz kilka stron internetowych, a następnie sprawdź stronę _Aktywność_ w panelu. Zobaczysz tam zapytania urządzeń, z oznaczeniem tych zablokowanych. Jeśli dane urządzenie się nie pojawia, nadal używa NextDNS.
