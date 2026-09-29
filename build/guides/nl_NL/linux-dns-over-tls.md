@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Blokkeer advertenties op Linux met DNS over TLS
+description: Stel systemd-resolved in om Blokada Cloud te gebruiken via versleutelde DNS over TLS, en blokkeer advertenties en trackers voor elke app op je Linux-computer.
 updated: 2026-09-28
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+De meeste huidige Linux-distributies, waaronder Ubuntu en Fedora, lossen namen op via _systemd-resolved_, dat DNS over TLS ondersteunt. Installeer het eerst op Debian met `sudo apt install systemd-resolved`. Wijs het toe aan Blokada Cloud, en advertenties en trackers worden voor elke app op de computer geblokkeerd.
 
-## Set up systemd-resolved
+## Stel systemd-resolved in
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Maak de map aan met `sudo mkdir -p /etc/systemd/resolved.conf.d`, en daarna het bestand `/etc/systemd/resolved.conf.d/blokada.conf` met deze instellingen:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Herstart het: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Controleer het: <code>resolvectl status</code> laat <code>+DNSOverTLS</code> en de Blokada-server zien.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Het gedeelte na `#` is jouw Blokada DNS-naam: {% dot %} systemd-resolved controleert het certificaat van de server hiertegen, en Blokada gebruikt het om te weten welk apparaat vraagt.
 
 <div class="note">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** geeft ook de DNS-servers van jouw netwerk door. `Domains=~.` stuurt alle zoekopdrachten naar Blokada, maar als `resolvectl status` toch een andere server bij een verbinding vermeldt, schakel dan de automatische DNS voor die verbinding uit (de _Automatisch_ schakelaar naast _DNS_ in de IPv4- en IPv6-instellingen).
 
 </div>
 
-## Without systemd-resolved
+## Zonder systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Als `resolvectl` niet gevonden wordt, lost jouw distributie namen op een andere manier op. Stel in plaats daarvan veilige DNS in je browser in zoals in de [browsergids](../browser-dns-over-https/), of stel je [router](../router-ad-blocking/) in voor bescherming over het hele thuisnetwerk.
 
-## Check that it works
+## Controleer of het werkt
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Open een paar websites en kijk dan op de pagina _Activiteit_ in het [dashboard](https://app.blokada.org/stats?src=guides). De zoekopdrachten van deze computer verschijnen daar.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Wil je ook een VPN op deze computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) bevat een WireGuard-configuratie die al het verkeer versleutelt, met dezelfde blokkering.
 
 </div>
