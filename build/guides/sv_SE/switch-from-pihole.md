@@ -1,41 +1,41 @@
 ---
-title: Ett alternativ till Pi-hole som inte kräver någon hårdvara
-description: Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.
+title: A Pi-hole alternative that needs no hardware
+description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
 updated: 2026-09-23
 order: 1
 ---
 
-En Pi-hole blockerar reklam för alla enheter i nätverket, så länge Raspberry Pi:n är igång, uppdaterad och hemma. Blokada Cloud gör samma jobb från våra servrar:
+A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
 
-- **Ingen låda att sköta.** Inga SD-kort, inga uppdateringar och inget avbrott när Pi:n går ner.
-- **Fungerar utanför hemmet.** Telefoner och datorer behåller blockeringen på mobildata och andra wifi-nätverk.
-- **Krypterat.** Enheterna pratar med Blokada via DNS över TLS eller DNS över HTTPS, så din leverantör kan inte läsa eller ändra dina uppslag.
-- **En dashboard.** Blocklistor, tillåtna och blockerade domäner och aktivitet per enhet, på [app.blokada.org](https://app.blokada.org/?src=guides).
+- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
+- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
+- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
+- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
 
-Det finns två sätt att byta. Ersätt Pi-hole helt, eller behåll den och använd Blokada Cloud som uppströmsserver.
+There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
 
-## Alternativ 1: ersätt Pi-hole
+## Option 1: replace the Pi-hole
 
-1. **Skaffa Blokada Cloud** och öppna dashboarden. Under *Inställningar* hittar du dina uppgifter:
-   - Ditt Blokada-DNS-namn, för DNS över TLS: {% dot %}
-   - Din DoH-länk, för DNS över HTTPS: {% doh %}
-2. **Peka routern mot Blokada i stället för Pi-hole.** Följ [routerguiden](../router-ad-blocking/). Om routern bara accepterar en vanlig IP-adress som DNS-server ställer du in enheterna en i taget i stället: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/).
-3. **Om din Pi-hole var DHCP-server** aktiverar du DHCP i routern igen *innan* du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.
-4. **Flytta dina listor.** I dashboarden väljer du blocklistor under *Blocklists* och lägger till egna tillåtna eller blockerade domäner under *Undantag*.
-5. **Stäng av Pi-hole,** eller använd den till något annat.
+1. **Get Blokada Cloud** and open the dashboard. Under _Setup_ you find your details:
+   - Your Blokada DNS name, for DNS over TLS: {% dot %}
+   - Your DoH link, for DNS over HTTPS: {% doh %}
+2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
+3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
+4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
+5. **Switch the Pi-hole off,** or keep it for something else.
 
 <div class="note">
 
-Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn visas som en enhet.
+Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
 
 </div>
 
-## Alternativ 2: behåll Pi-hole och använd Blokada Cloud uppströms
+## Option 2: keep the Pi-hole, use Blokada Cloud upstream
 
-Vill du behålla din lokala installation, till exempel lokala värdnamn, DHCP eller egna listor, kan du låta Pi-hole vidarebefordra sina uppslag till Blokada över en krypterad anslutning. Pi-hole kan inte själv vidarebefordra krypterat, så en liten vidarebefordrare körs bredvid. Den här guiden använder [dnsproxy](https://github.com/AdguardTeam/dnsproxy), en vidarebefordrare med öppen källkod som består av en enda fil.
+If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
 
-1. Ladda ner den `dnsproxy`-version som passar din processor (`linux-arm64` för en nyare Raspberry Pi) från projektets releasesida till Pi-hole-datorn och kopiera binärfilen `dnsproxy` till `/usr/local/bin/`.
-2. Skapa `/etc/systemd/system/dnsproxy.service`:
+1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
+2. Create `/etc/systemd/system/dnsproxy.service`:
 
 <pre><code>[Unit]
 Description=Encrypted DNS forwarder to Blokada Cloud
@@ -50,14 +50,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Starta den: `sudo systemctl enable --now dnsproxy`
-4. Öppna *Settings → DNS* i Pi-holes administrationsgränssnitt. Avmarkera alla uppströmsservrar och lägg till `127.0.0.1#5054` som anpassad uppströmsserver. Spara.
-5. Kontrollera sidan *Aktivitet* i dashboarden. Uppslag från ditt nätverk visas nu där.
+3. Start it: `sudo systemctl enable --now dnsproxy`
+4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
+5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
 
-Du kan stänga av Pi-holes egna blocklistor och sköta blockeringen i dashboarden, eller behålla båda.
+You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
 
-## Vanliga frågor
+## Frequently asked
 
-**Behöver jag Blokada Plus?** Nej. Blokada Cloud sköter DNS-blockeringen för hela hemmet. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) lägger till en VPN ovanpå.
+**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
 
-**Vad händer om Blokada inte går att nå?** Dina enheter kan inte slå upp namn förrän tjänsten är tillbaka, precis som när en Pi-hole går ner. Lägg inte till en andra, ofiltrerad DNS-server som reserv. De flesta enheter använder alla sina servrar slumpmässigt, så reklam skulle slinka igenom.
+**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
