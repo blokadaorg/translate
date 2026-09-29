@@ -1,56 +1,56 @@
 ---
-title: Ett alternativ till NextDNS med samma inställning på alla enheter
-description: Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.
+title: A NextDNS alternative with the same setup on every device
+description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
 updated: 2026-09-28
 order: 3
 ---
 
-NextDNS och Blokada Cloud fungerar på samma sätt: en krypterad DNS-tjänst som blockerar reklam och spårare utifrån namn, med dina egna inställningar bakom ett personligt DNS-namn. Att byta innebär att du ersätter NextDNS-värdena på varje enhet med dina Blokada-värden. Inget annat på enheten ändras.
+NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
 
-## Det du använde och vad du väljer i Blokada
+## What you used, and what to pick in Blokada
 
-| I NextDNS | I Blokada Cloud |
-|---|---|
-| Ditt konfigurations-ID, t.ex. `abc123` | Din enhetstagg, en del av ditt Blokada-DNS-namn och din DoH-länk |
-| Blocklistor under *Privacy* | *Blocklists* i dashboarden |
-| *Security* (skadlig kod, nätfiske) | en lista mot skadlig kod under *Blocklists* |
-| *Parental control* | listor för vuxeninnehåll och spel om pengar under *Blocklists* |
-| *Allowlist* och *Denylist* | *Undantag* i dashboarden |
-| *Logs* och *Analytics* | *Aktivitet* och *Stats* i dashboarden |
+| In NextDNS                                                           | In Blokada Cloud                                            |
+| -------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
+| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
+| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
+| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
+| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
+| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
 
-## Dina Blokada-uppgifter
+## Your Blokada details
 
-- Ditt Blokada-DNS-namn, för DNS över TLS: {% dot %}
-- Din DoH-länk, för DNS över HTTPS: {% doh %}
+- Your Blokada DNS name, for DNS over TLS: {% dot %}
+- Your DoH link, for DNS over HTTPS: {% doh %}
 
-## Byt på varje enhet
+## Switch each device
 
 ### Android
 
-Om du använde *Privat DNS* med `<your-id>.dns.nextdns.io` byter du ut det mot ditt Blokada-DNS-namn, enligt [Android-guiden](../android-private-dns/). Om du använde NextDNS-appen avinstallerar du den och installerar [Blokada 6](https://go.blokada.org/play_cloud) i stället.
+If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
 
-### iPhone och iPad
+### iPhone and iPad
 
-Om du använde NextDNS-appen avinstallerar du den och installerar [Blokada 6](https://go.blokada.org/appstore). Om du i stället installerade en NextDNS-profil tar du bort den under *Inställningar → Allmänt → VPN och enhetshantering* och följer sedan [Apple-guiden](../apple-devices/).
+If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
 
-### Mac och Apple TV
+### Mac and Apple TV
 
-Ta bort NextDNS-profilen eller -appen och installera sedan Blokada-profilen enligt [Apple-guiden](../apple-devices/).
+Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
 
-### Windows och Linux
+### Windows and Linux
 
-Avinstallera NextDNS-appen om du använder den. I Windows ersätter du NextDNS-servern och DoH-mallen med Blokadas, enligt [Windows-guiden](../windows-dns-over-https/). I Linux ersätter du NextDNS-servern i systemd-resolved, enligt [Linux-guiden](../linux-dns-over-tls/).
+Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
 
-### Webbläsare
+### Browsers
 
-Om du angav `https://dns.nextdns.io/…` som webbläsarens *säkra DNS* byter du ut den mot din DoH-länk, enligt [webbläsarguiden](../browser-dns-over-https/).
+If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
 
 ### Router
 
-Om din router använder NextDNS via DNS över TLS eller DNS över HTTPS ersätter du NextDNS-namnet eller -länken med ditt Blokada-DNS-namn eller din DoH-länk, enligt [routerguiden](../router-ad-blocking/).
+If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
 
-Om den använder NextDNS via vanliga IP-adresser med en *linked IP* kan Blokada inte ta över det än. Stöd för routrar med vanliga DNS-adresser är på väg. Till dess kan du ställa in dina enheter en i taget, eller använda en router som har stöd för krypterad DNS.
+If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
 
-## Kontrollera att det fungerar
+## Check that it works
 
-Öppna några webbplatser och titta sedan på sidan *Aktivitet* i dashboarden. Där ser du dina enheters uppslag, och de blockerade är markerade. Om en enhet inte syns använder den fortfarande NextDNS.
+Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
