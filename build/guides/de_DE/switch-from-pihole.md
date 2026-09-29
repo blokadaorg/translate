@@ -1,44 +1,44 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: Eine Pi-hole-Alternative, die keine Hardware benötigt.
+description: Verschiebe das Werbeblocking deines Zuhauses von einem Pi-hole zu Blokada Cloud oder behalte dein Pi-hole und leite dessen Anfragen über Blokada.
 updated: 2026-09-23
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+Ein Pi-hole blockiert Werbung für jedes Gerät in deinem Netzwerk, solange der Raspberry Pi läuft, aktualisiert ist und zu Hause steht. Blokada Cloud übernimmt die gleiche Aufgabe von unseren Servern:
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Keine Box zu warten.** Keine SD-Karten, keine Updates, kein Ausfall, wenn der Pi abstürzt.
+- **Funktioniert auch unterwegs.** Smartphones und Laptops blockieren weiterhin Werbung über mobile Daten und andere Wi-Fi-Netzwerke.
+- **Verschlüsselt.** Geräte kommunizieren mit Blokada über DNS-over-TLS oder DNS-over-HTTPS, sodass dein Anbieter deine Anfragen nicht lesen oder verändern kann.
+- **Ein zentrales Dashboard.** Sperrlisten, erlaubte und gesperrte Domains sowie Aktivitäten pro Gerät unter [app.blokada.org](https://app.blokada.org/?src=guides).
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+Es gibt zwei Möglichkeiten zu wechseln. Ersetze das Pi-hole vollständig oder behalte es und verwende Blokada Cloud als Upstream.
 
-## Option 1: replace the Pi-hole
+## Option 1: Pi-hole ersetzen
 
-1. **Get Blokada Cloud** and open the dashboard. Under _Setup_ you find your details:
-   - Your Blokada DNS name, for DNS over TLS: {% dot %}
-   - Your DoH link, for DNS over HTTPS: {% doh %}
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **Blokada Cloud beziehen** und das Dashboard öffnen. Unter _Setup_ findest du deine Details:
+   - Dein Blokada-DNS-Name für DNS-over-TLS: {% dot %}
+   - Dein DoH-Link für DNS-over-HTTPS: {% doh %}
+2. **Stelle deinen Router auf Blokada statt auf das Pi-hole ein.** Folge der [Router-Anleitung](../router-ad-blocking/). Wenn dein Router nur eine einfache IP-Adresse als DNS-Server akzeptiert, richte deine Geräte einzeln ein: [Android](../android-private-dns/), [Mac und Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) und [Browser](../browser-dns-over-https/).
+3. **Falls dein Pi-hole als DHCP-Server fungiert**, aktiviere DHCP im Router _bevor_ du den Pi ausschaltest. Andernfalls erhalten deine Geräte keine Netzwerkadressen mehr.
+4. **Übertrage deine Listen.** Wähle im Dashboard Sperrlisten unter _Sperrlisten_ und trage eigene erlaubte oder gesperrte Domains unter _Ausnahmen_ ein.
+5. **Schalte das Pi-hole aus** oder nutze es für andere Aufgaben.
 
 <div class="note">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+Dein Pi-hole zeigte jedes Gerät im Netzwerk über dessen IP-Adresse an. Mit Blokada wird jedes Gerät mit seinem eigenen Namen angezeigt, solange es seinen eigenen Blokada-DNS-Namen nutzt. Ein Router, der mit einem Blokada-DNS-Namen konfiguriert ist, erscheint als ein einzelnes Gerät.
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## Option 2: Pi-hole behalten, Blokada Cloud als Upstream nutzen
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+Wenn du deine lokale Konfiguration behalten willst, z. B. lokale Hostnamen, DHCP oder eigene Listen, lasse das Pi-hole seine Anfragen verschlüsselt an Blokada weiterleiten. Pi-hole kann keine verschlüsselte Weiterleitung selbst übernehmen, daher läuft ein kleiner Forwarder daneben. Diese Anleitung verwendet [dnsproxy](https://github.com/AdguardTeam/dnsproxy), einen Open-Source-Forwarder, der nur aus einer Datei besteht.
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. Lade auf dem Pi-hole-Gerät das `dnsproxy`-Release für deine CPU ("linux-arm64" für ein aktuelles Raspberry Pi) von der Releases-Seite herunter und kopiere die `dnsproxy`-Binary nach `/usr/local/bin/`.
+2. Erstelle `/etc/systemd/system/dnsproxy.service`:
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=Verschlüsselter DNS-Forwarder zu Blokada Cloud
 Wants=network-online.target
 After=network-online.target
 
@@ -50,14 +50,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. Starte ihn: `sudo systemctl enable --now dnsproxy`
+4. Im Pi-hole-Admin _Einstellungen → DNS_ öffnen. Entferne alle Upstream-Server und füge `127.0.0.1#5054` als benutzerdefinierten Upstream-Server hinzu. Speichern.
+5. Prüfe die Seite _Aktivität_ im Dashboard. Anfragen aus deinem Netzwerk werden dort nun angezeigt.
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+Du kannst die eigenen Sperrlisten des Pi-hole deaktivieren und die Blockierung im Dashboard verwalten oder beides nutzen.
 
-## Frequently asked
+## Häufig gestellte Fragen
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**Brauche ich Blokada Plus?** Nein. Blokada Cloud deckt das DNS-Blocking für dein ganzes Zuhause ab. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) fügt eine VPN-Funktion hinzu.
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**Was passiert, wenn Blokada nicht erreichbar ist?** Deine Geräte können keine Namen auflösen, bis es wiederhergestellt ist – genauso, wie wenn ein Pi-hole ausfällt. Füge keinen zweiten, ungefilterten DNS-Server als Fallback hinzu. Die meisten Geräte nutzen alle ihre Server zufällig, sodass Werbung durchkommen würde.
