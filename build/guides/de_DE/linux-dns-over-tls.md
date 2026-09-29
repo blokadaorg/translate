@@ -1,44 +1,41 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Werbeeinblendungen unter Linux mit DNS über TLS blockieren
+description: Richte systemd-resolved so ein, dass Blokada Cloud über verschlüsseltes DNS über TLS verwendet wird, um Werbung und Tracker für jede App auf deinem Linux-Computer zu blockieren.
 updated: 2026-09-28
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Die meisten aktuellen Linux-Distributionen, einschließlich Ubuntu und Fedora, lösen Namen über _systemd-resolved_ auf, das DNS über TLS unterstützt. Installiere es auf Debian zuerst mit `sudo apt install systemd-resolved`. Richte es auf Blokada Cloud aus, und Werbung sowie Tracker werden für jede App auf dem Computer blockiert.
 
-## Set up systemd-resolved
+## systemd-resolved einrichten
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Erstelle den Ordner mit `sudo mkdir -p /etc/systemd/resolved.conf.d`, dann die Datei `/etc/systemd/resolved.conf.d/blokada.conf` mit diesen Einstellungen:
 
-<pre><code>[Resolve]
-DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
-DNSOverTLS=yes
-Domains=~.</code></pre>
+<pre><code>[Resolve]\nDNS={{ site.dnsIps.dot }}#<span data-dns=\"dot\">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>\nDNSOverTLS=yes\nDomains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Starte den Dienst neu: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Überprüfe es: <code>resolvectl status</code> zeigt <code>+DNSOverTLS</code> und den Blokada-Server an.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Der Teil nach `#` ist dein Blokada-DNS-Name: {% dot %} systemd-resolved prüft das Zertifikat des Servers dagegen, und Blokada verwendet ihn, um zu wissen, welches Gerät anfragt.
 
 <div class="note">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** gibt ebenfalls die DNS-Server deines Netzwerks weiter. `Domains=~.` leitet alle Anfragen an Blokada weiter. Wenn jedoch `resolvectl status` dennoch einen anderen Server für eine Verbindung anzeigt, deaktiviere das automatische DNS für diese Verbindung (der _Automatisch_-Schalter neben _DNS_ in den IPv4- und IPv6-Einstellungen).
 
 </div>
 
-## Without systemd-resolved
+## Ohne systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Wenn `resolvectl` nicht gefunden wird, löst deine Distribution Namen auf eine andere Weise auf. Richte stattdessen sicheres DNS in deinem Browser ein, wie im [Browser-Leitfaden](../browser-dns-over-https/) beschrieben, oder konfiguriere deinen [Router](../router-ad-blocking/) für die netzwerkweite Abdeckung.
 
-## Check that it works
+## Überprüfe, ob es funktioniert
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Öffne einige Webseiten und sieh dir dann die _Aktivität_-Seite im [Dashboard](https://app.blokada.org/stats?src=guides) an. Die Anfragen dieses Computers erscheinen dort.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Möchtest du auch ein VPN auf diesem Computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) beinhaltet eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.
 
 </div>
