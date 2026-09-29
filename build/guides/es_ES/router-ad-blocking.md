@@ -1,67 +1,67 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Bloquee los anuncios en toda su red con el bloqueo de anuncios en el router.
+description: Configure La Nube de Blokada en su router una sola vez y todos los dispositivos de su hogar estarán protegidos, incluyendo televisores, consolas de juegos y altavoces inteligentes que no pueden ejecutar un bloqueador de anuncios.
 updated: 2026-09-23
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+Cada dispositivo en su red le pide al router qué servidor DNS debe usar. Apunte el router a La Nube de Blokada y los anuncios y rastreadores se bloquearán para todo lo que esté detrás de él. Eso incluye televisores inteligentes, consolas de juegos, sticks de streaming y dispositivos inteligentes para el hogar, que no tienen espacio para una app de bloqueador de anuncios.
 
-## What your router needs
+## Lo que necesita su router
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
+Su router debe soportar **DNS cifrado con un nombre de host**, es decir, DNS sobre TLS (DoT) o DNS sobre HTTPS (DoH). Muchos routers recientes lo permiten, incluyendo los modelos que se indican a continuación. Dependiendo de lo que soporte su router, necesitará lo siguiente:
 
-- For DNS over TLS, your Blokada DNS name: {% dot %}
-- For DNS over HTTPS, your DoH link: {% doh %}
+- Para DNS sobre TLS, su nombre DNS de Blokada: {% dot %}
+- Para DNS sobre HTTPS, su enlace DoH: {% doh %}
 
 <div class="note">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+¿Solo direcciones IP simples? Muchos routers de proveedores de internet solo aceptan direcciones IP simples para DNS. El soporte para estos casos está en camino. Mientras tanto, configure sus dispositivos uno por uno: [Android](../android-private-dns/), [Mac y Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) y [navegadores](../browser-dns-over-https/). También puede ejecutar un pequeño reenviador en una Raspberry Pi, como se describe en la [guía de Pi-hole](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 o posterior.
 
-1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
-2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. Tick _Enforce certificate verification for encrypted name resolution_.
-4. Untick _Allow fallback to unencrypted name resolution_.
-5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
-6. Click _Apply_.
+1. Abra `http://fritz.box` y vaya a _Internet → Información de la cuenta → Servidor DNS_.
+2. En _Resolución de nombres cifrada en Internet (DNS sobre TLS)_, marque _Usar resolución de nombres cifrada_.
+3. Marque _Forzar verificación de certificado para la resolución de nombres cifrada_.
+4. Desmarque _Permitir recurrir a la resolución de nombres no cifrada_.
+5. En _Nombres de los resolutores_, introduzca solo {% dot %}. **Elimine todas las demás entradas.** El FRITZ!Box utiliza todos los resolutores que aparecen en la lista, y cualquier otro permitirá el paso de anuncios.
+6. Haga clic en _Aplicar_.
 
 ## ASUS
 
-Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
+Firmware reciente de ASUS (3.0.0.4.388 o posterior) y Asuswrt-Merlin.
 
-1. Open the router admin page and go to _WAN → Internet Connection_.
-2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
-3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
-4. Click _Apply_.
+1. Abra la página de administración del router y vaya a _WAN → Conexión a Internet_.
+2. En _Configuración de DNS WAN_, establezca _Protocolo de privacidad DNS_ en _DNS-over-TLS (DoT)_ y _Perfil de DNS-over-TLS_ en _Estricto_.
+3. Elimine todas las entradas de la _Lista de servidores DNS-over-TLS_, luego añada una:
+   - Dirección: {% ip "dot" %}
+   - Nombre de host TLS: {% dot %}
+4. Haga clic en _Aplicar_.
 
 ## OpenWrt
 
-1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+1. En _Sistema → Software_, actualice las listas e instale `luci-app-https-dns-proxy`.
+2. Abra _Servicios → Proxy HTTPS DNS_. Elimine las instancias de otros proveedores.
+3. Agregue una instancia con una URL de resolutor personalizada: {% doh %}
+4. _Guardar y Aplicar_. El paquete apunta automáticamente dnsmasq a él.
 
-## Other routers
+## Otros routers
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Busque una opción llamada _DNS sobre TLS_, _DNS privado_, _DNS cifrado_ o _DNS sobre HTTPS_. Introduzca su nombre DNS de Blokada o el enlace DoH de arriba y elimine cualquier otro servidor DNS, incluidos los de respaldo.
 
-## Check that it works
+## Compruebe que funciona
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Reinicie un dispositivo, o apague y encienda su Wi-Fi, para que recoja el cambio.
+2. Navegue por un minuto y luego abra la página de _Actividad_ en el panel de control. Las consultas de su red aparecerán allí.
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Algunos dispositivos evitan el router: teléfonos con _DNS privado_ activado, navegadores con _DNS seguro_ configurado con otro proveedor y dispositivos que usan su propio DNS. Configure esos en el propio dispositivo, o desactive la configuración de DNS propia.
 
 <div class="note">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Detrás del router, todos los dispositivos comparten una dirección, por lo que el panel muestra su red como un solo dispositivo. Configure teléfonos y portátiles con su propio nombre DNS de Blokada si quiere verlos por separado. También mantienen su bloqueo cuando salen de casa.
 
 </div>
