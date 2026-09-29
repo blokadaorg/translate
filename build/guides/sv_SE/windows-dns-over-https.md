@@ -1,50 +1,50 @@
 ---
-title: Blockera reklam i Windows med DNS över HTTPS
-description: Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.
+title: Block ads on Windows with DNS over HTTPS
+description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
 updated: 2026-09-28
 order: 8
 ---
 
-Windows 11 kan skicka alla sina DNS-uppslag krypterat, via DNS över HTTPS. Peka Windows mot Blokada Cloud, så blockeras reklam och spårare i alla appar och webbläsare på datorn, utan något att installera.
+Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
 
-Du behöver två värden:
+You need two values:
 
-- DNS-server (IP-adress): {% ip "doh" %}
-- Din DoH-länk: {% doh %}
+- DNS server (IP address): {% ip "doh" %}
+- Your DoH link: {% doh %}
 
 ## Windows 11
 
-1. Öppna *Inställningar → Nätverk och Internet* och sedan *Wi-Fi* eller *Ethernet*, beroende på hur datorn är ansluten.
-2. Öppna anslutningens *Maskinvaruegenskaper*. För Wi-Fi väljer du *Hantera kända nätverk* och sedan nätverket, eller *Maskinvaruegenskaper* högst upp på Wi-Fi-sidan.
-3. Välj *Redigera* bredvid *DNS-servertilldelning*. Välj *Manuell* och aktivera *IPv4*.
-4. Ange DNS-servern {% ip "doh" %} under *Önskad DNS*.
-5. Ställ in *DNS över HTTPS* på *På (manuell mall)* och klistra in din DoH-länk {% doh %} som *DoH-mall*.
-6. Stäng av *Återgång till oformaterad text* och välj *Spara*.
+1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
+2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
+3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
+4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
+5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
+6. Turn _Fallback to plaintext_ off, and select _Save_.
 
-Om datorn använder både Wi-Fi och Ethernet upprepar du detta för den andra anslutningen.
+If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
 
 <div class="note">
 
-Lämna *Alternativ DNS* tom. Windows använder båda servrarna, och varje annan server släpper igenom reklam.
+Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
 
-Finns inte alternativet *På (manuell mall)*? Då är ditt Windows 11 äldre. Uppdatera Windows, eller använd [webbläsarguiden](../browser-dns-over-https/) så länge.
+No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
 
-Om reklam fortfarande slinker igenom i ett nätverk med IPv6 kan Windows även fråga routerns IPv6-DNS-server. Stäng av *Internet Protocol Version 6 (TCP/IPv6)* i nätverkskortets egenskaper (*Kontrollpanelen → Nätverksanslutningar*), eller ställ in din [router](../router-ad-blocking/).
+If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
 
 </div>
 
 ## Windows 10
 
-Windows 10 har ingen inbyggd krypterad DNS. Ställ in säker DNS i webbläsaren i stället, enligt [webbläsarguiden](../browser-dns-over-https/), eller ställ in din [router](../router-ad-blocking/) för att skydda hela hemmet.
+Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
 
-## Kontrollera att det fungerar
+## Check that it works
 
-Öppna några webbplatser och titta sedan på sidan *Aktivitet* i [dashboarden](https://app.blokada.org/stats?src=guides). Datorns uppslag visas där.
+Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
-Webbläsare med en egen inställning för *säker DNS* går förbi Windows. I Chrome och Edge ställer du in den på att använda den aktuella tjänsteleverantören, eller på din DoH-länk.
+Browsers with their own _secure DNS_ setting bypass Windows. In Chrome and Edge, set it to use the current service provider, or to your DoH link.
 
 <div class="note">
 
-Vill du också ha en VPN på den här datorn? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.
+Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
 
 </div>
