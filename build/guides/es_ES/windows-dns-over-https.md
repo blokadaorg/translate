@@ -1,50 +1,50 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: Bloquee anuncios en Windows con DNS sobre HTTPS.
+description: Utilice el DNS cifrado integrado en Windows 11 con La Nube de Blokada para bloquear anuncios y rastreadores en cada aplicación y navegador, sin necesidad de instalar software.
 updated: 2026-09-28
 order: 8
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11 puede enviar todas sus consultas DNS cifradas, a través de DNS sobre HTTPS. Apúntelo a La Nube de Blokada y los anuncios y rastreadores serán bloqueados en cada aplicación y navegador en el ordenador, sin necesidad de instalar nada.
 
-You need two values:
+Necesita dos valores:
 
-- DNS server (IP address): {% ip "doh" %}
-- Your DoH link: {% doh %}
+- Servidor DNS (dirección IP): {% ip "doh" %}
+- Su enlace DoH: {% doh %}
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. Abra _Configuración → Red e internet_, luego _Wi-Fi_ o _Ethernet_, dependiendo de cómo esté conectado el ordenador.
+2. Abra las _propiedades de hardware_ de su conexión. Para Wi-Fi, seleccione _Gestionar redes conocidas_ y luego la red, o _Propiedades de hardware_ en la parte superior de la página de Wi-Fi.
+3. Junto a _Asignación de servidor DNS_, seleccione _Editar_. Elija _Manual_ y active _IPv4_.
+4. En _DNS preferido_, introduzca el servidor DNS {% ip "doh" %}
+5. Establezca _DNS sobre HTTPS_ en _Activado (plantilla manual)_ e introduzca su enlace DoH {% doh %} como la _plantilla DoH_.
+6. Desactive _Permitir volver a texto sin formato_ y seleccione _Guardar_.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+Si el ordenador utiliza tanto Wi-Fi como Ethernet, repita esto para la otra conexión.
 
 <div class="note">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+Deje _DNS alternativo_ vacío. Windows utiliza ambos servidores, y cualquier otro dejará pasar anuncios.
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+¿No hay opción de _Activado (plantilla manual)_? Su Windows 11 es más antiguo. Actualice Windows o utilice la [guía para navegadores](../browser-dns-over-https/) mientras tanto.
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+Si algunos anuncios todavía aparecen en una red con IPv6, Windows puede estar usando también el servidor DNS IPv6 de su router. Desactive _Protocolo de Internet versión 6 (TCP/IPv6)_ en las propiedades del adaptador (_Panel de control → Conexiones de red_), o configure su [router](../router-ad-blocking/).
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10 no tiene DNS cifrado integrado. Configure DNS seguro en su navegador, como en la [guía para navegadores](../browser-dns-over-https/), o configure su [router](../router-ad-blocking/) para cubrir toda la casa.
 
-## Check that it works
+## Compruebe que funciona
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Abra algunos sitios web y luego mire la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las consultas de este ordenador aparecerán allí.
 
-Browsers with their own _secure DNS_ setting bypass Windows. In Chrome and Edge, set it to use the current service provider, or to your DoH link.
+Los navegadores con su propia configuración de _DNS seguro_ omiten Windows. En Chrome y Edge, configúrelo para usar el proveedor de servicios actual o su enlace DoH.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+¿Quiere una VPN en este ordenador también? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) incluye una configuración de WireGuard que cifra todo el tráfico, con el mismo bloqueo.
 
 </div>
