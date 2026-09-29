@@ -1,15 +1,15 @@
 ---
-title: Blockera reklam i Linux med DNS över TLS
-description: Ställ in systemd-resolved på att använda Blokada Cloud via krypterad DNS över TLS och blockera reklam och spårare för alla appar på din Linux-dator.
+title: Block ads on Linux with DNS over TLS
+description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
 updated: 2026-09-28
 order: 9
 ---
 
-De flesta aktuella Linux-distributioner, bland annat Ubuntu och Fedora, slår upp namn via *systemd-resolved*, som har stöd för DNS över TLS. På Debian installerar du det först med `sudo apt install systemd-resolved`. Peka den mot Blokada Cloud, så blockeras reklam och spårare för alla appar på datorn.
+Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
 
-## Ställ in systemd-resolved
+## Set up systemd-resolved
 
-1. Skapa mappen med `sudo mkdir -p /etc/systemd/resolved.conf.d` och sedan filen `/etc/systemd/resolved.conf.d/blokada.conf` med de här inställningarna:
+1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Starta om den: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Kontrollera den: <code>resolvectl status</code> visar <code>+DNSOverTLS</code> och Blokada-servern.</li>
+<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
 </ol>
 
-Delen efter `#` är ditt Blokada-DNS-namn: {% dot %} systemd-resolved kontrollerar serverns certifikat mot det, och Blokada använder det för att veta vilken enhet som frågar.
+The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
 
 <div class="note">
 
-**NetworkManager** skickar också vidare nätverkets DNS-servrar. `Domains=~.` skickar alla uppslag till Blokada, men om `resolvectl status` fortfarande visar en annan server för en anslutning stänger du av automatisk DNS för den anslutningen (reglaget *Automatic* bredvid *DNS* i dess IPv4- och IPv6-inställningar).
+**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
 
 </div>
 
-## Utan systemd-resolved
+## Without systemd-resolved
 
-Om `resolvectl` inte hittas slår din distribution upp namn på ett annat sätt. Ställ in säker DNS i webbläsaren i stället, enligt [webbläsarguiden](../browser-dns-over-https/), eller ställ in din [router](../router-ad-blocking/) för att skydda hela hemmet.
+If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
 
-## Kontrollera att det fungerar
+## Check that it works
 
-Öppna några webbplatser och titta sedan på sidan *Aktivitet* i [dashboarden](https://app.blokada.org/stats?src=guides). Datorns uppslag visas där.
+Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
 <div class="note">
 
-Vill du också ha en VPN på den här datorn? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.
+Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
 
 </div>
