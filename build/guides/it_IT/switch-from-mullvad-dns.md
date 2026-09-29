@@ -1,57 +1,57 @@
 ---
-title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
-description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
+title: Il servizio Mullvad DNS verrà disattivato. Continua a bloccare la pubblicità con Blokada Cloud
+description: Mullvad chiude il suo servizio DNS pubblico il 2 novembre 2026. Ecco come migrare il tuo telefono, computer e router a Blokada Cloud entro quella data, senza perdere il blocco della pubblicità.
 updated: 2026-09-23
 order: 2
 ---
 
-Mullvad is closing its free public DNS service on **2 November 2026** and recommends Quad9 instead. Quad9 blocks malware but does **not** block ads or trackers. If you used one of Mullvad's filtering DNS names, ads come back on that date unless you switch.
+Mullvad chiuderà il suo servizio DNS pubblico gratuito il **2 novembre 2026** e consiglia invece Quad9. Quad9 blocca i malware ma **non** blocca pubblicità né tracker. Se utilizzavi uno dei nomi DNS filtranti di Mullvad, la pubblicità tornerà a partire da quella data a meno che tu non faccia il cambio.
 
-This page is about the public DNS names ending in `dns.mullvad.net`. It does not cover the Mullvad VPN app.
+Questa pagina riguarda i nomi DNS pubblici che terminano con `dns.mullvad.net`. Non riguarda l'app VPN di Mullvad.
 
-## What you used, and what to pick in Blokada
+## Cosa usavi e cosa scegliere in Blokada
 
-| Mullvad DNS name           | What it blocked                      | In the Blokada dashboard                                                                                                                      |
-| -------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dns.mullvad.net`          | nothing                              | Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice. |
-| `adblock.dns.mullvad.net`  | ads, trackers                        | an ad and tracker blocklist                                                                                                                   |
-| `base.dns.mullvad.net`     | ads, trackers, malware               | add a malware list                                                                                                                            |
-| `extended.dns.mullvad.net` | base plus social media               | add a social media list                                                                                                                       |
-| `family.dns.mullvad.net`   | base plus adult content and gambling | add adult content and gambling lists                                                                                                          |
-| `all.dns.mullvad.net`      | all of the above                     | turn on all of them                                                                                                                           |
+| Nome DNS Mullvad           | Cosa veniva bloccato                            | Nel pannello di controllo di Blokada                                                                                                                            |
+| -------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dns.mullvad.net`          | niente                                          | Blokada è un servizio di filtraggio. Se non vuoi alcun filtraggio, Quad9 o il DNS del tuo provider sono la scelta più semplice. |
+| `adblock.dns.mullvad.net`  | pubblicità, tracker                             | una lista di blocco per pubblicità e tracker                                                                                                                    |
+| `base.dns.mullvad.net`     | pubblicità, tracker, malware                    | aggiungi una lista malware                                                                                                                                      |
+| `extended.dns.mullvad.net` | base più social media                           | aggiungi una lista social media                                                                                                                                 |
+| `family.dns.mullvad.net`   | base più contenuti per adulti e gioco d'azzardo | aggiungi le liste per contenuti per adulti e gioco d'azzardo                                                                                                    |
+| `all.dns.mullvad.net`      | tutti i precedenti                              | attivali tutti                                                                                                                                                  |
 
-You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
+Nel pannello selezioni le blocklist sotto _Blocklists_. Puoi modificarle in qualsiasi momento e il cambiamento si applica a tutti i tuoi dispositivi.
 
-## Your Blokada details
+## I tuoi dettagli Blokada
 
-Blokada gives each device its own name, so the dashboard can show activity per device:
+Blokada assegna a ciascun dispositivo un proprio nome, così il pannello mostra l’attività di ogni dispositivo:
 
-- Your Blokada DNS name, for DNS over TLS (Android, routers): {% dot %}
-- Your DoH link, for DNS over HTTPS (browsers, some routers): {% doh %}
+- Il tuo nome DNS Blokada, per DNS over TLS (Android, router): {% dot %}
+- Il tuo link DoH, per DNS over HTTPS (browser, alcuni router): {% doh %}
 
-## Switch each device
+## Cambia ogni dispositivo
 
 ### Android
 
-Mullvad's guide had you enter a hostname under _Private DNS_. Replace it with your Blokada DNS name. The [Android guide](../android-private-dns/) has the steps.
+La guida di Mullvad prevedeva di inserire un hostname in _DNS privato_. Sostituiscilo con il tuo nome DNS Blokada. La [guida Android](../android-private-dns/) spiega i passaggi.
 
-### iPhone, iPad and Mac
+### iPhone, iPad e Mac
 
-Mullvad's setup used a configuration profile. Remove it first:
+La configurazione di Mullvad utilizzava un profilo di configurazione. Rimuovilo innanzitutto:
 
-- **iPhone and iPad:** _Settings → General → VPN & Device Management_, tap the Mullvad DNS profile, then _Remove Profile_.
-- **Mac:** open the list of profiles (_System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, _System Preferences → Profiles_ on macOS 12 and earlier), select the Mullvad DNS profile and click _−_.
+- **iPhone e iPad:** _Impostazioni → Generali → VPN e gestione dispositivi_, tocca il profilo DNS di Mullvad, quindi _Rimuovi profilo_.
+- **Mac:** apri la lista dei profili (_Impostazioni di sistema → Generali → Gestione dispositivi_ su macOS 15 e successivi, _Impostazioni di sistema → Privacy e sicurezza → Profili_ su macOS 13 e 14, _Preferenze di sistema → Profili_ su macOS 12 e precedenti), seleziona il profilo DNS di Mullvad e fai clic su _−_.
 
-Then install the Blokada profile from the [Apple guide](../apple-devices/).
+Poi installa il profilo Blokada dalla [guida Apple](../apple-devices/).
 
-### Browsers
+### Browser
 
-If you entered a Mullvad DoH link such as `https://adblock.dns.mullvad.net/dns-query` under _secure DNS_ or _DNS over HTTPS_, replace it with your DoH link. The [browser guide](../browser-dns-over-https/) has the steps for each browser.
+Se hai inserito un link DoH di Mullvad come `https://adblock.dns.mullvad.net/dns-query` sotto _DNS sicuro_ o _DNS over HTTPS_, sostituiscilo con il tuo link DoH. La [guida browser](../browser-dns-over-https/) spiega i passaggi per ogni browser.
 
 ### Router
 
-If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The [router guide](../router-ad-blocking/) covers common models.
+Se il tuo router utilizza Mullvad su DNS over TLS, sostituisci l’hostname Mullvad con il tuo nome DNS Blokada e rimuovi gli indirizzi IP di Mullvad. La [guida router](../router-ad-blocking/) copre i modelli più comuni.
 
-## Check that it works
+## Verifica che funzioni
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.
+Apri alcuni siti web, poi guarda la pagina _Attività_ nel pannello. Lì vedi le richieste dei tuoi dispositivi, con quelle bloccate segnalate. Se un dispositivo non compare, sta ancora utilizzando un altro server DNS.
