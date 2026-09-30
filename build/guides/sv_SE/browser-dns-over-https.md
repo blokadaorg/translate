@@ -1,6 +1,6 @@
 ---
-title: Blockera annonser i Chrome, Firefox, Edge och Brave med DNS över HTTPS.
-description: Ställ in Blokada Cloud som säker DNS-leverantör i din webbläsare för att blockera annonser och spårare, på vilken dator som helst, även arbetsdatorer där du inte kan installera appar.
+title: Blockera reklam i Chrome, Firefox, Edge och Brave med DNS över HTTPS
+description: Ange Blokada Cloud som säker DNS i webbläsaren och blockera reklam och spårare på alla datorer, även jobbdatorer där du inte kan installera appar.
 updated: 2026-09-23
 order: 7
 ---
@@ -14,25 +14,25 @@ Din DoH-länk: {% doh %}
 ## Chrome
 
 1. Öppna `chrome://settings/security`.
-2. Aktivera _Använd säker DNS_, och välj sedan _Lägg till anpassad DNS-tjänsteleverantör_.
+2. Aktivera _Använd säker DNS_ och välj sedan _Add custom DNS service provider_.
 3. Ange {% doh %}
 
 ## Edge
 
 1. Öppna `edge://settings/privacy`.
-2. Under _Säkerhet_, aktivera _Använd säker DNS för att ange hur nätverksadresser till webbplatser ska slås upp_.
-3. Välj _Välj en tjänsteleverantör_ och ange {% doh %}
+2. Under _Säkerhet_ aktiverar du _Use secure DNS to specify how to look up the network address for websites_.
+3. Välj _Choose a service provider_ och ange {% doh %}
 
 ## Firefox
 
 1. Öppna _Inställningar → Sekretess & säkerhet_ och scrolla till _DNS över HTTPS_.
 2. Välj _Maximalt skydd_.
-3. Under _Välj leverantör_, välj _Anpassad_ och ange {% doh %}
+3. Under _Välj leverantör_ väljer du _Anpassad_ och anger {% doh %}
 
 ## Brave
 
 1. Öppna `brave://settings/security`.
-2. Aktivera _Använd säker DNS_, och välj sedan _Lägg till anpassad DNS-tjänsteleverantör_.
+2. Aktivera _Använd säker DNS_ och välj sedan _Add custom DNS service provider_.
 3. Ange {% doh %}
 
 ## Safari
