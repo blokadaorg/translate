@@ -1,6 +1,6 @@
 ---
-title: Blockera annonser på Linux med DNS över TLS
-description: Ställ in systemd-resolved för att använda Blokada Cloud via krypterad DNS över TLS och blockera annonser och spårare för alla appar på din Linux-dator.
+title: Blockera reklam i Linux med DNS över TLS
+description: Ställ in systemd-resolved på att använda Blokada Cloud via krypterad DNS över TLS och blockera reklam och spårare för alla appar på din Linux-dator.
 updated: 2026-09-28
 order: 9
 ---
@@ -9,16 +9,16 @@ De flesta aktuella Linux-distributioner, inklusive Ubuntu och Fedora, löser nam
 
 ## Ställ in systemd-resolved
 
-1. Skapa mappen med `sudo mkdir -p /etc/systemd/resolved.conf.d`, och sedan filen `/etc/systemd/resolved.conf.d/blokada.conf` med dessa inställningar:
+1. Skapa mappen med `sudo mkdir -p /etc/systemd/resolved.conf.d` och sedan filen `/etc/systemd/resolved.conf.d/blokada.conf` med de här inställningarna:
 
 <pre><code>[Resolve]\nDNS={{ site.dnsIps.dot }}#<span data-dns=\"dot\">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>\nDNSOverTLS=yes\nDomains=~.</code></pre>
 
 <ol start="2">
 <li>Starta om den: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Kontrollera: <code>resolvectl status</code> visar <code>+DNSOverTLS</code> och Blokada-servern.</li>
+<li>Kontrollera den: <code>resolvectl status</code> visar <code>+DNSOverTLS</code> och Blokada-servern.</li>
 </ol>
 
-Delen efter `#` är ditt Blokada DNS-namn: {% dot %} systemd-resolved kontrollerar serverns certifikat mot det, och Blokada använder det för att veta vilken enhet som frågar.
+Delen efter `#` är ditt Blokada-DNS-namn: {% dot %} systemd-resolved kontrollerar serverns certifikat mot det, och Blokada använder det för att veta vilken enhet som frågar.
 
 <div class="note">
 
