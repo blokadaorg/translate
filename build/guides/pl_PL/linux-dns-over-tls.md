@@ -1,0 +1,41 @@
+---
+title: Blokuj reklamy na Linuksie za pomocą DNS przez TLS
+description: Skonfiguruj systemd-resolved, aby korzystał z Blokada Cloud przez szyfrowany DNS przez TLS i blokuj reklamy oraz trackery dla każdej aplikacji na Twoim komputerze z Linuksem.
+updated: 2026-09-28
+order: 9
+---
+
+Większość aktualnych dystrybucji Linuksa, w tym Ubuntu i Fedora, rozwiązuje nazwy przez _systemd-resolved_, który obsługuje DNS przez TLS. Na Debianie zainstaluj go najpierw poleceniem `sudo apt install systemd-resolved`. Skieruj go na Blokada Cloud, a reklamy i trackery będą blokowane dla każdej aplikacji na komputerze.
+
+## Skonfiguruj systemd-resolved
+
+1. Utwórz folder poleceniem `sudo mkdir -p /etc/systemd/resolved.conf.d`, a następnie plik `/etc/systemd/resolved.conf.d/blokada.conf` z następującymi ustawieniami:
+
+<pre><code>[Resolve]\nDNS={{ site.dnsIps.dot }}#<span data-dns=\"dot\">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>\nDNSOverTLS=yes\nDomains=~.</code></pre>
+
+<ol start="2">
+<li>Uruchom ponownie: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Sprawdź: <code>resolvectl status</code> wyświetla <code>+DNSOverTLS</code> oraz serwer Blokada.</li>
+</ol>
+
+Część po `#` to Twoja nazwa DNS Blokada: {% dot %} systemd-resolved sprawdza z nią certyfikat serwera, a Blokada używa jej do rozpoznania, które urządzenie pyta.
+
+<div class="note">
+
+**NetworkManager** przekazuje także serwery DNS Twojej sieci. `Domains=~.` przekierowuje wszystkie zapytania do Blokada, ale jeśli <code>resolvectl status</code> nadal pokazuje inny serwer na połączeniu, wyłącz automatyczny DNS dla tego połączenia (przełącznik _Automatyczny_ obok _DNS_ w ustawieniach IPv4 i IPv6).
+
+</div>
+
+## Bez systemd-resolved
+
+Jeśli nie znaleziono `resolvectl`, Twoja dystrybucja rozwiązuje nazwy w inny sposób. Skonfiguruj bezpieczny DNS w przeglądarce, według [poradnika do przeglądarki](../browser-dns-over-https/), lub skonfiguruj swój [router](../router-ad-blocking/), aby objąć całe gospodarstwo domowe.
+
+## Sprawdź, czy działa
+
+Otwórz kilka stron internetowych, a następnie sprawdź stronę _Aktywność_ w [panelu](https://app.blokada.org/stats?src=guides). Zapytania z tego komputera pojawią się w tym miejscu.
+
+<div class="note">
+
+Chcesz również VPN na tym komputerze? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) zawiera konfigurację WireGuard, która szyfruje cały ruch, z takim samym blokowaniem.
+
+</div>

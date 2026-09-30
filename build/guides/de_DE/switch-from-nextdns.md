@@ -9,14 +9,14 @@ NextDNS und Blokada Cloud funktionieren gleich: ein verschlüsselter DNS-Dienst,
 
 ## Was du genutzt hast und was du in Blokada wählst
 
-| In NextDNS | In Blokada Cloud |
-|---|---|
+| In NextDNS                                                              | In Blokada Cloud                                                     |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Deine Konfigurations-ID, z. B. `abc123` | Dein Geräte-Tag, Teil deines Blokada-DNS-Namens und deines DoH-Links |
-| *Privacy*-Blocklisten | *Blocklists* im Dashboard |
-| *Security* (Malware, Phishing) | eine Malware-Liste unter *Blocklists* |
-| *Parental control* | Listen für Erwachseneninhalte und Glücksspiel unter *Blocklists* |
-| *Allowlist* und *Denylist* | *Ausnahmen* im Dashboard |
-| *Logs* und *Analytics* | *Aktivität* und *Stats* im Dashboard |
+| _Privacy_-Blocklisten                                                   | _Blocklists_ im Dashboard                                            |
+| _Security_ (Malware, Phishing)                       | eine Malware-Liste unter _Blocklists_                                |
+| _Elterliche Kontrolle_                                                  | Listen für Erwachseneninhalte und Glücksspiel unter _Blocklists_     |
+| _Allowlist_ und _Denylist_                                              | _Ausnahmen_ im Dashboard                                             |
+| _Logs_ und _Analytics_                                                  | _Aktivität_ und _Stats_ im Dashboard                                 |
 
 ## Deine Blokada-Daten
 
@@ -27,11 +27,11 @@ NextDNS und Blokada Cloud funktionieren gleich: ein verschlüsselter DNS-Dienst,
 
 ### Android
 
-Hast du *Privates DNS* mit `<your-id>.dns.nextdns.io` genutzt, ersetze es durch deinen Blokada-DNS-Namen, wie in der [Android-Anleitung](../android-private-dns/) beschrieben. Hast du die NextDNS-App genutzt, deinstalliere sie und installiere stattdessen [Blokada 6](https://go.blokada.org/play_cloud).
+Hast du _Privates DNS_ mit `<your-id>.dns.nextdns.io` genutzt, ersetze es durch deinen Blokada-DNS-Namen, wie in der [Android-Anleitung](../android-private-dns/) beschrieben. Hast du die NextDNS-App genutzt, deinstalliere sie und installiere stattdessen [Blokada 6](https://go.blokada.org/play_cloud).
 
 ### iPhone und iPad
 
-Hast du die NextDNS-App genutzt, deinstalliere sie und installiere [Blokada 6](https://go.blokada.org/appstore). Hast du stattdessen ein NextDNS-Profil installiert, entferne es unter *Einstellungen → Allgemein → VPN und Geräteverwaltung* und folge dann der [Apple-Anleitung](../apple-devices/).
+Hast du die NextDNS-App genutzt, deinstalliere sie und installiere [Blokada 6](https://go.blokada.org/appstore). Hast du stattdessen ein NextDNS-Profil installiert, entferne es unter _Einstellungen → Allgemein → VPN und Geräteverwaltung_ und folge dann der [Apple-Anleitung](../apple-devices/).
 
 ### Mac und Apple TV
 
@@ -43,14 +43,14 @@ Deinstalliere die NextDNS-App, falls du sie nutzt. Ersetze unter Windows den Nex
 
 ### Browser
 
-Hast du `https://dns.nextdns.io/…` als *sicheres DNS* in deinem Browser eingetragen, ersetze es durch deinen DoH-Link, wie in der [Browser-Anleitung](../browser-dns-over-https/) beschrieben.
+Hast du `https://dns.nextdns.io/…` als _sicheres DNS_ in deinem Browser eingetragen, ersetze es durch deinen DoH-Link, wie in der [Browser-Anleitung](../browser-dns-over-https/) beschrieben.
 
 ### Router
 
 Nutzt dein Router NextDNS über DNS over TLS oder DNS over HTTPS, ersetze den NextDNS-Namen oder -Link durch deinen von Blokada, wie in der [Router-Anleitung](../router-ad-blocking/) beschrieben.
 
-Nutzt er NextDNS über einfache IP-Adressen mit einer *verknüpften IP* (*linked IP*), kann Blokada das noch nicht übernehmen. Unterstützung für Router mit einfachen DNS-Adressen ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein oder nutzt einen Router, der verschlüsseltes DNS unterstützt.
+Nutzt er NextDNS über einfache IP-Adressen mit einer _verknüpften IP_ (_linked IP_), kann Blokada das noch nicht übernehmen. Unterstützung für Router mit einfachen DNS-Adressen ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein oder nutzt einen Router, der verschlüsseltes DNS unterstützt.
 
 ## Prüfen, ob es funktioniert
 
-Öffne ein paar Websites und sieh dir dann die Seite *Aktivität* im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch NextDNS.
+Öffne ein paar Websites und sieh dir dann die Seite _Aktivität_ im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch NextDNS.

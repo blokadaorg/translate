@@ -13,23 +13,23 @@ order: 5
 
 ## Ohne App: Privates DNS
 
-Android 9 und neuer hat die Einstellung *Privates DNS*. Trägst du dort Blokada Cloud ein, werden Werbung und Tracker in allen Apps und in jedem Netz blockiert, ohne dass etwas im Hintergrund läuft.
+Android 9 und neuer hat die Einstellung _Privates DNS_. Trägst du dort Blokada Cloud ein, werden Werbung und Tracker in allen Apps und in jedem Netz blockiert, ohne dass etwas im Hintergrund läuft.
 
 Dein Blokada-DNS-Name: {% dot %}
 
-1. Öffne *Einstellungen → Netzwerk & Internet*. Auf manchen Handys heißt das *Verbindungen* oder *Connection & sharing*.
-2. Tippe auf *Privates DNS*. Auf Samsung-Handys findest du es unter *Weitere Verbindungseinstellungen*.
-3. Wähle *Hostname des privaten DNS-Anbieters*.
-4. Gib deinen Blokada-DNS-Namen {% dot %} ein und tippe auf *Speichern*.
+1. Öffne _Einstellungen → Netzwerk & Internet_. Auf manchen Handys heißt das _Verbindungen_ oder _Connection & sharing_.
+2. Tippe auf _Privates DNS_. Auf Samsung-Handys findest du es unter _Weitere Verbindungseinstellungen_.
+3. Wähle _Hostname des privaten DNS-Anbieters_.
+4. Gib deinen Blokada-DNS-Namen {% dot %} ein und tippe auf _Speichern_.
 
 Findest du die Einstellung nicht, suche in den Einstellungen nach „Privates DNS“.
 
 ## Prüfen, ob es funktioniert
 
-Öffne ein paar Apps oder Websites und sieh dir dann die Seite *Aktivität* im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Handys.
+Öffne ein paar Apps oder Websites und sieh dir dann die Seite _Aktivität_ im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Handys.
 
 ## Wenn etwas nicht klappt
 
 - **„Verbindung nicht möglich“ oder kein Internet:** Prüfe deinen Blokada-DNS-Namen auf Tippfehler. Er muss genau wie oben angezeigt eingegeben werden, ohne `https://`.
 - **Eine andere VPN-App ist aktiv:** Manche VPN-Apps nutzen ihr eigenes DNS und umgehen Privates DNS. Schalte das DNS oder den Werbeblocker in der VPN-App aus oder nutze stattdessen Blokada 6.
-- **Chrome zeigt weiter Werbung:** Öffne in Chrome *Einstellungen → Datenschutz und Sicherheit → Sicheres DNS verwenden* und wähle *Use current service provider*.
+- **Chrome zeigt weiter Werbung:** Öffne in Chrome _Einstellungen → Datenschutz und Sicherheit → Sicheres DNS verwenden_ und wähle _Use current service provider_.

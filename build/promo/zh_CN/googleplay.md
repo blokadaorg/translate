@@ -2,13 +2,13 @@ Blokada Slim 广告屏蔽器 - 无广告，更省电
 
 使用官方 Blokada 应用免费保护您的隐私。
 
-这是 Blokada 开源项目在 Play 商店的唯一官方应用。 请警惕仿冒应用，它们可能包含恶意代码。
+这是 Blokada 开源项目在 Play 商店的唯一官方应用。请警惕仿冒应用，它们可能包含恶意代码。
 
 Blokada Slim 广告屏蔽器是一款免费应用，使用 DNS（域名系统）服务器帮助您实现无广告浏览体验，仅显示您想要的内容。
 
 还内置了可选使用的 VPN。
 
-项目官网为：https://blokada.org。 官网版本拥有更多功能，同样免费。
+项目官网为：https://blokada.org。官网版本拥有更多功能，同样免费。
 
 如果您有问题或反馈，欢迎加入我们的 Telegram 聊天群：https://go.blokada.org/chat
 
