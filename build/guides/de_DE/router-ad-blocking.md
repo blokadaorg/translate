@@ -1,22 +1,22 @@
 ---
-title: Blockiere Werbung in deinem gesamten Netzwerk mit Router-basiertem Werbeblocker
-description: Richte Blokada Cloud einmal auf deinem Router ein, und jedes Gerät zu Hause ist geschützt – einschließlich Fernsehern, Spielkonsolen und intelligenten Lautsprechern, die keinen Werbeblocker ausführen können.
+title: Werbung im ganzen Netzwerk blockieren mit einem Router-Werbeblocker
+description: Richte Blokada Cloud einmal im Router ein und blockiere Werbung auf allen Geräten in deinem Zuhause, auch auf Smart-TV, Spielkonsole und Smart Speaker.
 updated: 2026-09-23
 order: 4
 ---
 
-Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es verwenden soll. Weise den Router an, Blokada Cloud zu nutzen, und Werbung und Tracker werden für alle dahinter liegenden Geräte blockiert. Dazu gehören Smart-TVs, Spielkonsolen, Streaming-Sticks und Smart-Home-Geräte, für die keine Werbeblocker-App verfügbar ist.
+Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen soll. Stellst du den Router auf Blokada Cloud um, werden Werbung und Tracker für alles dahinter blockiert. Dazu gehören Smart-TVs, Spielkonsolen, Streaming-Sticks und Smart-Home-Geräte, auf denen kein Platz für eine Werbeblocker-App ist.
 
-## Was dein Router benötigt
+## Was dein Router können muss
 
-Dein Router muss **verschlüsseltes DNS mit Hostname** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele aktuelle Router unterstützen dies, einschließlich der unten aufgeführten Modelle. Je nachdem, was dein Router unterstützt, benötigst du:
+Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du:
 
-- Für DNS over TLS, dein Blokada DNS-Name: {% dot %}
-- Für DNS over HTTPS, dein DoH-Link: {% doh %}
+- Für DNS over TLS deinen Blokada-DNS-Namen: {% dot %}
+- Für DNS over HTTPS dein DoH-Link: {% doh %}
 
 <div class="note">
 
-**Nur einfache IP-Adressen?** Viele Router von Internetanbietern akzeptieren nur einfache IP-Adressen für DNS. Die Unterstützung dafür ist in Vorbereitung. Bis dahin richte deine Geräte einzeln ein: [Android](../android-private-dns/), [Mac und Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) und [Browser](../browser-dns-over-https/). Du kannst auch einen kleinen Forwarder auf einem Raspberry Pi betreiben, wie im [Pi-hole-Leitfaden](../switch-from-pihole/) beschrieben.
+**Nur einfache IP-Adressen?** Viele Router von Internetanbietern akzeptieren für DNS nur einfache IP-Adressen. Unterstützung dafür ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein: [Android](../android-private-dns/), [Mac und Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) und [Browser](../browser-dns-over-https/). Du kannst auch eine kleine Weiterleitung auf einem Raspberry Pi betreiben, wie in der [Pi-hole-Anleitung](../switch-from-pihole/) beschrieben.
 
 </div>
 
@@ -25,43 +25,43 @@ Dein Router muss **verschlüsseltes DNS mit Hostname** unterstützen, also DNS o
 FRITZ!OS 7.20 oder neuer.
 
 1. Öffne `http://fritz.box` und gehe zu _Internet → Zugangsdaten → DNS-Server_.
-2. Unter _Verschlüsselte Namensauflösung im Internet (DNS over TLS)_ aktiviere _Verschlüsselte Namensauflösung verwenden_.
-3. Aktiviere _Zertifikatsüberprüfung für verschlüsselte Namensauflösung erzwingen_.
-4. Deaktiviere _Fallback auf unverschlüsselte Namensauflösung zulassen_.
-5. Gib unter _Resolver-Namen_ nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box verwendet alle aufgelisteten Resolver. Jeder weitere würde Werbung durchlassen.
+2. Setze unter _Verschlüsselte Namensauflösung im Internet (DNS over TLS)_ den Haken bei _Verschlüsselte Namensauflösung verwenden_.
+3. Setze den Haken bei _Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen_.
+4. Entferne den Haken bei _Fallback auf unverschlüsselte Namensauflösung im Internet erlauben_.
+5. Trage unter _Auflösungsnamen_ nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.
 6. Klicke auf _Übernehmen_.
 
 ## ASUS
 
 Aktuelle ASUS-Firmware (3.0.0.4.388 oder neuer) und Asuswrt-Merlin.
 
-1. Öffne die Router-Admin-Seite und gehe zu _WAN → Internetverbindung_.
-2. Unter _WAN DNS-Einstellung_ stelle _DNS Privacy Protocol_ auf _DNS-over-TLS (DoT)_ und _DNS-over-TLS Profile_ auf _Strict_.
-3. Entferne alle Einträge aus der _DNS-over-TLS Serverliste_ und füge dann einen hinzu:
+1. Öffne die Admin-Seite des Routers und gehe zu _WAN → Internet Connection_.
+2. Stelle unter _WAN DNS Setting_ das _DNS Privacy Protocol_ auf _DNS-over-TLS (DoT)_ und das _DNS-over-TLS Profile_ auf _Strict_.
+3. Entferne alle Einträge aus der _DNS-over-TLS Server List_ und füge dann einen hinzu:
    - Adresse: {% ip \"dot\" %}
    - TLS-Hostname: {% dot %}
-4. Klicke auf _Übernehmen_.
+4. Klicke auf _Apply_.
 
 ## OpenWrt
 
 1. Aktualisiere unter _System → Software_ die Listen und installiere `luci-app-https-dns-proxy`.
-2. Öffne _Dienste → HTTPS DNS Proxy_. Lösche die Instanzen anderer Anbieter.
-3. Füge eine Instanz mit einer benutzerdefinierten Resolver-URL hinzu: {% doh %}
-4. _Speichern & Übernehmen_. Das Paket weist dnsmasq automatisch darauf hin.
+2. Öffne _Services → HTTPS DNS Proxy_. Lösche die Instanzen anderer Anbieter.
+3. Füge eine Instanz mit eigener Resolver-URL hinzu: {% doh %}
+4. _Speichern & Übernehmen_. Das Paket leitet dnsmasq automatisch darauf um.
 
 ## Andere Router
 
-Suche nach einer Einstellung namens _DNS over TLS_, _Private DNS_, _Encrypted DNS_ oder _DNS over HTTPS_. Gib deinen Blokada DNS-Namen oder den DoH-Link von oben ein und entferne alle anderen DNS-Server, einschließlich Fallback-Servern.
+Suche nach einer Einstellung namens _DNS over TLS_, _Privates DNS_, _Verschlüsseltes DNS_ oder _DNS over HTTPS_. Trage deinen Blokada-DNS-Namen oder DoH-Link von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.
 
-## Überprüfe, ob alles funktioniert
+## Prüfen, ob es funktioniert
 
-1. Starte ein Gerät neu oder deaktiviere und aktiviere sein WLAN, damit die Änderung übernommen wird.
-2. Surfe eine Minute und öffne dann die Seite _Aktivität_ im Dashboard. Die DNS-Abfragen deines Netzwerks werden dort angezeigt.
+1. Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.
+2. Surfe eine Minute lang und öffne dann die Seite _Aktivität_ im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.
 
-Einige Geräte umgehen den Router: Handys mit aktiviertem _Private DNS_, Browser mit eigenem _sicherem DNS_-Anbieter und Geräte, die ihren eigenen DNS fest eintragen. Konfiguriere diese direkt auf dem Gerät oder deaktiviere die eigene DNS-Einstellung.
+Manche Geräte umgehen den Router: Handys mit eingerichtetem _Privatem DNS_, Browser, deren _sicheres DNS_ auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.
 
 <div class="note">
 
-Hinter dem Router teilen sich alle Geräte eine Adresse, sodass das Dashboard dein Netzwerk als einzelnes Gerät anzeigt. Richte Handys und Laptops mit eigenem Blokada DNS-Namen ein, wenn du sie einzeln sehen möchtest. Sie bleiben auch dann geschützt, wenn sie das Haus verlassen.
+Hinter dem Router teilen sich alle Geräte eine Adresse, deshalb zeigt das Dashboard dein Netzwerk als ein einziges Gerät. Richte Handys und Laptops mit ihrem eigenen Blokada-DNS-Namen ein, wenn du sie einzeln sehen möchtest. So bleibt ihre Blockierung auch unterwegs aktiv.
 
 </div>
