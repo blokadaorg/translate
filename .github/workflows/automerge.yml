@@ -113,7 +113,7 @@ jobs:
             --approve \
             --body "Auto-approved: Crowdin \`translations\` branch, all changes under build/."
 
-      - name: Rebase-merge
+      - name: Squash-merge
         if: steps.pr.outputs.state == 'OPEN'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
@@ -121,10 +121,12 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          # The translate repo only allows rebase merges (squash/merge-commit
-          # are disabled), matching the legacy automerge's merge-method: rebase.
+          # Squash, not rebase: Crowdin makes one commit per file per locale,
+          # and GitHub refuses to rebase-merge a PR with more than ~100 commits
+          # ("This branch can't be rebased", #456 had 483). Requires squash
+          # merging to stay enabled in the repo settings.
           # Tolerate a concurrent run having merged it already.
-          if ! gh pr merge "$PR" --repo "$REPO" --rebase --delete-branch; then
+          if ! gh pr merge "$PR" --repo "$REPO" --squash --delete-branch; then
             state=$(gh pr view "$PR" --repo "$REPO" --json state --jq .state)
             if [ "$state" = "MERGED" ]; then
               echo "PR already merged by a concurrent run; nothing to do."
