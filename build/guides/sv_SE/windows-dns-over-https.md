@@ -1,6 +1,6 @@
 ---
-title: Blockera annonser på Windows med DNS över HTTPS
-description: Använd den inbyggda krypterade DNS i Windows 11 med Blokada Cloud för att blockera annonser och spårare i alla appar och webbläsare, utan att behöva installera någon programvara.
+title: Blockera reklam i Windows med DNS över HTTPS
+description: Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.
 updated: 2026-09-28
 order: 8
 ---
@@ -14,14 +14,14 @@ Du behöver två värden:
 
 ## Windows 11
 
-1. Öppna _Inställningar → Nätverk & internet_, sedan _Wi-Fi_ eller _Ethernet_, beroende på hur datorn är ansluten.
+1. Öppna _Inställningar → Nätverk och Internet_ och sedan _Wi-Fi_ eller _Ethernet_, beroende på hur datorn är ansluten.
 2. Öppna anslutningens _Maskinvaruegenskaper_. För Wi-Fi, välj _Hantera kända nätverk_ och sedan nätverket, eller _Maskinvaruegenskaper_ högst upp på Wi-Fi-sidan.
 3. Bredvid _DNS-serverinställning_, välj _Redigera_. Välj _Manuell_ och aktivera _IPv4_.
-4. I _Föredragen DNS_, ange DNS-servern {% ip "doh" %}
+4. Ange DNS-servern {% ip "doh" %} under _Önskad DNS_.
 5. Ställ in _DNS över HTTPS_ på _På (manuell mall)_ och klistra in din DoH-länk {% doh %} som _DoH-mall_.
-6. Stäng av _Fallback till okrypterad_ och välj _Spara_.
+6. Stäng av _Återgång till oformaterad text_ och välj _Spara_.
 
-Om datorn använder både Wi-Fi och Ethernet, upprepa detta för den andra anslutningen.
+Om datorn använder både Wi-Fi och Ethernet upprepar du detta för den andra anslutningen.
 
 <div class="note">
 
