@@ -1,17 +1,17 @@
 ---
-title: Blockera annonser i hela ditt nätverk med router-baserad annonsblockering
-description: Ställ in Blokada Cloud på din router en gång, så är varje enhet i hemmet skyddad, inklusive TV-apparater, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.
+title: Blockera reklam i hela nätverket med reklamblockering i routern
+description: Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.
 updated: 2026-09-23
 order: 4
 ---
 
 Varje enhet i ditt nätverk frågar routern vilken DNS-server som ska användas. Peka routern mot Blokada Cloud, så blockeras annonser och spårare för allt bakom den. Det inkluderar smarta TV-apparater, spelkonsoler, streaming-stickor och smarta hem-enheter som inte har plats för en annonsblockerare.
 
-## Det din router behöver
+## Det här behöver din router
 
 Din router måste stödja **krypterad DNS med ett värdnamn**, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stödjer behöver du:
 
-- För DNS över TLS, ditt Blokada DNS-namn: {% dot %}
+- För DNS över TLS, ditt Blokada-DNS-namn: {% dot %}
 - För DNS över HTTPS, din DoH-länk: {% doh %}
 
 <div class="note">
@@ -24,29 +24,29 @@ Din router måste stödja **krypterad DNS med ett värdnamn**, det vill säga DN
 
 FRITZ!OS 7.20 eller senare.
 
-1. Öppna `http://fritz.box` och gå till _Internet → Kontoinformation → DNS-server_.
-2. Under _Krypterad namnupplösning på internet (DNS över TLS)_, kryssa i _Använd krypterad namnupplösning_.
-3. Kryssa i _Tvinga certifikatverifiering för krypterad namnupplösning_.
-4. Avmarkera _Tillåt återgång till okrypterad namnupplösning_.
+1. Öppna `http://fritz.box` och gå till _Internet → Account Information → DNS Server_.
+2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_ kryssar du i _Use encrypted name resolution_.
+3. Kryssa i _Enforce certificate verification for encrypted name resolution_.
+4. Avmarkera _Allow fallback to unencrypted name resolution_.
 5. I _Resolver-namn_, ange endast {% dot %}. **Ta bort alla andra poster.** FRITZ!Box använder alla listade resolvers, och någon annan släpper igenom annonser.
-6. Klicka på _Verkställ_.
+6. Klicka på _Apply_.
 
 ## ASUS
 
 Nyare ASUS-firmware (3.0.0.4.388 eller senare) och Asuswrt-Merlin.
 
-1. Öppna routerns admin-sida och gå till _WAN → Internetanslutning_.
-2. Under _WAN DNS-inställning_, sätt _DNS Privacy Protocol_ till _DNS-over-TLS (DoT)_ och _DNS-over-TLS Profile_ till _Strict_.
-3. Ta bort alla poster från _DNS-over-TLS Server List_ och lägg sedan till en:
+1. Öppna routerns administrationssida och gå till _WAN → Internet Connection_.
+2. Under _WAN DNS Setting_ ställer du in _DNS Privacy Protocol_ på _DNS-over-TLS (DoT)_ och _DNS-over-TLS Profile_ på _Strict_.
+3. Ta bort alla poster i _DNS-over-TLS Server List_ och lägg sedan till en:
    - Adress: {% ip "dot" %}
    - TLS-värdnamn: {% dot %}
-4. Klicka på _Verkställ_.
+4. Klicka på _Apply_.
 
 ## OpenWrt
 
-1. I _System → Programvara_, uppdatera listorna och installera `luci-app-https-dns-proxy`.
+1. Under _System → Software_ uppdaterar du listorna och installerar `luci-app-https-dns-proxy`.
 2. Öppna _Tjänster → HTTPS DNS Proxy_. Ta bort instanserna för andra leverantörer.
-3. Lägg till en instans med en anpassad resolver-URL: {% doh %}
+3. Lägg till en instans med en egen resolver-URL: {% doh %}
 4. _Spara & Verkställ_. Paketet pekar dnsmasq mot den automatiskt.
 
 ## Andra routrar
@@ -55,7 +55,7 @@ Leta efter en inställning som heter _DNS över TLS_, _Privat DNS_, _Krypterad D
 
 ## Kontrollera att det fungerar
 
-1. Starta om en enhet, eller slå av och på dess Wi-Fi, så att den tar upp ändringen.
+1. Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.
 2. Surfa i en minut, öppna sedan sidan _Aktivitet_ i instrumentpanelen. Ditt nätverks uppslag visas där.
 
 Vissa enheter går förbi routern: telefoner med _Privat DNS_ inställt, webbläsare med _säker DNS_ satt till en annan leverantör, och enheter som hårdkodar sin egen DNS. Ställ in dessa på själva enheten, eller stäng av deras egna DNS-inställning.
