@@ -1,35 +1,35 @@
 ---
-title: Private DNS auf Android mit Blokada Cloud einrichten.
-description: Verwende die integrierte Private DNS-Einstellung von Android mit Blokada Cloud, um Werbung und Tracker in jeder App sowohl über WLAN als auch mobile Daten zu blockieren. Oder lasse die Blokada 6 App das übernehmen.
+title: Privates DNS auf Android mit Blokada Cloud einrichten
+description: Mit Androids Einstellung „Privates DNS“ und Blokada Cloud Werbung und Tracker in allen Apps blockieren, im WLAN und mobil. Oder die App Blokada 6 nutzen.
 updated: 2026-09-28
 order: 5
 ---
 
-## Der einfachste Weg: Die App
+## Am einfachsten: die App
 
-[Blokada 6](https://go.blokada.org/play_cloud) richtet alles für dich ein, schaltet die Blockierung mit einem Tippen an und aus und zeigt direkt auf dem Handy, was blockiert wurde. Melde dich mit deiner Account-ID an und du bist fertig.
+[Blokada 6](https://go.blokada.org/play_cloud) richtet alles für dich ein, schaltet die Blockierung mit einem Tippen ein und aus und zeigt direkt auf dem Handy, was blockiert wurde. Melde dich mit deiner Konto-ID an, und du bist fertig.
 
-<p><a class=\"btn btn-primary\" href=\"https://go.blokada.org/play_cloud\">Blokada 6 bei Google Play herunterladen</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Blokada 6 bei Google Play holen</a></p>
 
-## Ohne die App: Privates DNS
+## Ohne App: Privates DNS
 
-Android 9 und neuer verfügt über eine Einstellung für _Privates DNS_. Stelle sie auf Blokada Cloud ein, und Werbung sowie Tracker werden in allen Apps und in jedem Netzwerk blockiert, ohne dass etwas im Hintergrund läuft.
+Android 9 und neuer hat die Einstellung _Privates DNS_. Trägst du dort Blokada Cloud ein, werden Werbung und Tracker in allen Apps und in jedem Netz blockiert, ohne dass etwas im Hintergrund läuft.
 
-Dein Blokada DNS-Name: {% dot %}
+Dein Blokada-DNS-Name: {% dot %}
 
-1. Öffne _Einstellungen → Netzwerk & Internet_. Auf einigen Geräten heißt dies _Verbindungen_ oder _Verbindung & Teilen_.
-2. Tippe auf _Privates DNS_. Auf Samsung-Geräten befindet sich dies unter _Weitere Verbindungseinstellungen_.
-3. Wähle _Privater DNS-Anbieter-Hostname_.
-4. Gib deinen Blokada DNS-Namen {% dot %} ein und tippe auf _Speichern_.
+1. Öffne _Einstellungen → Netzwerk & Internet_. Auf manchen Handys heißt das _Verbindungen_ oder _Connection & sharing_.
+2. Tippe auf _Privates DNS_. Auf Samsung-Handys findest du es unter _Weitere Verbindungseinstellungen_.
+3. Wähle _Hostname des privaten DNS-Anbieters_.
+4. Gib deinen Blokada-DNS-Namen {% dot %} ein und tippe auf _Speichern_.
 
-Wenn du es nicht finden kannst, suche in der Einstellungen-App nach "Privates DNS".
+Findest du die Einstellung nicht, suche in den Einstellungen nach „Privates DNS“.
 
-## Prüfe, ob es funktioniert
+## Prüfen, ob es funktioniert
 
-Öffne ein paar Apps oder Webseiten und sieh dir dann auf der _Aktivität_-Seite im [Dashboard](https://app.blokada.org/stats?src=guides) nach. Die Anfragen dieses Geräts werden dort angezeigt.
+Öffne ein paar Apps oder Websites und sieh dir dann die Seite _Aktivität_ im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Handys.
 
-## Wenn etwas nicht funktioniert
+## Wenn etwas nicht klappt
 
-- **"Konnte keine Verbindung herstellen" oder kein Internet:** Überprüfe deinen Blokada DNS-Namen auf Tippfehler. Er muss genau wie oben angezeigt eingetragen werden, ohne `https://`.
-- **Eine andere VPN-App ist aktiv:** Einige VPN-Apps nutzen eigene DNS und umgehen das Private DNS. Schalte die DNS- oder Werbeblocker-Einstellung des VPN aus oder verwende stattdessen Blokada 6.
-- **Chrome zeigt weiterhin Werbung an:** Öffne in Chrome _Einstellungen → Datenschutz und Sicherheit → Sicheren DNS verwenden_ und wähle _Aktuellen Dienstanbieter verwenden_.
+- **„Verbindung nicht möglich“ oder kein Internet:** Prüfe deinen Blokada-DNS-Namen auf Tippfehler. Er muss genau wie oben angezeigt eingegeben werden, ohne `https://`.
+- **Eine andere VPN-App ist aktiv:** Manche VPN-Apps nutzen ihr eigenes DNS und umgehen Privates DNS. Schalte das DNS oder den Werbeblocker in der VPN-App aus oder nutze stattdessen Blokada 6.
+- **Chrome zeigt weiter Werbung:** Öffne in Chrome _Einstellungen → Datenschutz und Sicherheit → Sicheres DNS verwenden_ und wähle _Use current service provider_.
