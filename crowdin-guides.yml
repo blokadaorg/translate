@@ -1,7 +1,13 @@
 # Only the blokada.org setup guides, for one-off CLI runs such as uploading
 # existing translations:
-#   crowdin upload translations --config crowdin-guides.yml -i <project id> -T <token>
-# The GitHub integration uses crowdin.yml, which has the same entry.
+#   crowdin upload translations --config crowdin-guides.yml -b master -i <project id> -T <token>
+# The GitHub integration uses crowdin.yml, which has the same entry. The
+# project keeps its files in the Crowdin branch "master", so pass -b master.
+#
+# Keep the guides/ folder in the path, as the integration does; without this
+# the CLI looks for the files at the root and reports they don't exist.
+preserve_hierarchy: true
+
 files:
   - source: /guides/*.md
     translation: /build/guides/%locale_with_underscore%/%original_file_name%
