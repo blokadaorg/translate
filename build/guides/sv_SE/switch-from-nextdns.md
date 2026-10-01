@@ -12,11 +12,11 @@ NextDNS och Blokada Cloud fungerar på samma sätt: en krypterad DNS-tjänst som
 | I NextDNS                                                             | I Blokada Cloud                                                  |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Din konfigurations-ID, t.ex. `abc123` | Din enhetstagg, en del av ditt Blokada-DNS-namn och din DoH-länk |
-| Blocklistor under _Privacy_                                           | _Blocklists_ i dashboarden                                       |
-| _Security_ (skadlig kod, nätfiske)                 | en lista mot skadlig kod under _Blocklists_                      |
-| _Föräldrakontroll_                                                    | listor för vuxeninnehåll och spel om pengar under _Blocklists_   |
+| Blocklistor under _Privacy_                                           | _Blocklistor_ i dashboarden                                      |
+| _Security_ (skadlig kod, nätfiske)                 | en lista mot skadlig kod under _Blocklistor_                     |
+| _Föräldrakontroll_                                                    | listor för vuxeninnehåll och spel om pengar under _Blocklistor_  |
 | _Allowlist_ och _Denylist_                                            | _Undantag_ i dashboarden                                         |
-| _Logs_ och _Analytics_                                                | _Aktivitet_ och _Stats_ i dashboarden                            |
+| _Logs_ och _Analytics_                                                | _Aktivitet_ och _Statistik_ i dashboarden                        |
 
 ## Dina Blokada-uppgifter
 
