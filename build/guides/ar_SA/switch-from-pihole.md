@@ -1,7 +1,7 @@
 ---
 title: بديل لـ Pi-hole لا يحتاج إلى عتاد مخصص
 description: انقل حظر الإعلانات في منزلك من Pi-hole إلى Blokada Cloud، أو احتفظ بـ Pi-hole واجعل عمليات البحث الخاصة به تمر عبر Blokada.
-updated: 2026-09-23
+updated: ٢٠٢٦-١٠-٠١
 order: 1
 ---
 
