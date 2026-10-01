@@ -1,11 +1,11 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
-updated: 2026-10-01
+title: Алтернатива на NextDNS със същата конфигурация на всяко устройство
+description: Преминаване от NextDNS към Blokada Cloud. Заменете вашето NextDNS DNS име, DoH връзка или профил с тези на Blokada на вашия телефон, компютър и рутер, и запазете вашето блокиране на реклами.
+updated: 01-10-2026
 order: 3
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS и Blokada Cloud работят по един и същ начин: това е криптирана DNS услуга, която блокира реклами и тракери по име, като използва вашите настройки чрез персонализирано DNS име. Смяната означава да замените стойностите на NextDNS на всяко устройство с вашите стойности на Blokada. На устройството нищо друго не се променя.
 
 ## What you used, and what to pick in Blokada
 
