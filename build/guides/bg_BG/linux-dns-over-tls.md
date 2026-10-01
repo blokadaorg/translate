@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
-updated: 2026-09-28
+title: Блокиране на рекламите в Linux чрез DNS през TLS
+description: Настройтка на systemd-resolved да използва Blokada Cloud чрез криптиран DNS over TLS и блокирайте реклами и тракери за всяко приложение на вашия Linux компютър.
+updated: 28-09-2026
 order: 9
 ---
 
 Повечето съвременни Linux дистрибуции, включително Ubuntu и Fedora, разрешават имена чрез _systemd-resolved_, който поддържа DNS през TLS. В Debian първо го инсталирайте с `sudo apt install systemd-resolved`. Насочете го към Blokada Cloud и рекламите и тракерите ще бъдат блокирани за всяко приложение на компютъра.
 
-## Set up systemd-resolved
+## Настройване на systemd-resolved
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Създайте папката с команда `sudo mkdir -p /etc/systemd/resolved.conf.d`, след това файла `/etc/systemd/resolved.conf.d/blokada.conf` със следните настройки:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,11 +17,11 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Рестартирайте го: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Проверете: <code>resolvectl status</code> показва <code>+DNSOverTLS</code> и сървъра на Blokada.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Частта след `#` е вашето име на Blokada DNS: {% dot %} systemd-resolved проверява сертификата на сървъра спрямо него, а Blokada го използва, за да разбере кое устройство прави заявката.
 
 <div class="note">
 
@@ -29,7 +29,7 @@ The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks t
 
 </div>
 
-## Without systemd-resolved
+## Без systemd-resolved
 
 Ако `resolvectl` не е наличен, вашата дистрибуция разрешава имената по друг начин. Настройте защитен DNS направо в браузъра си, според [ръководството за браузър](../browser-dns-over-https/), или настройте [рутера си](../router-ad-blocking/), за да покриете цялото домакинство.
 
