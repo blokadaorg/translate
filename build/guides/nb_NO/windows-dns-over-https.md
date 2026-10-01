@@ -1,7 +1,7 @@
 ---
 title: Blokér annonser på Windows med DNS over HTTPS
 description: Bruk den innebygde krypterte DNS-funksjonen i Windows 11 med Blokada Cloud for å blokere annonser og sporere i alle apper og nettlesere, helt uten å installere ekstra programvare.
-updated: 2026-09-28
+updated: 2026-09-23
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 har ikke innebygd kryptert DNS. Konfigurer sikker DNS i nettleseren d
 
 Åpne noen nettsider, og se deretter på _Aktivitet_-siden i [dashbordet](https://app.blokada.org/stats?src=guides). Denne datamaskinens oppslag vises der.
 
-Nettlesere med egen _sikker DNS_-innstilling omgår Windows. I Chrome og Edge, sett det til å bruke nåværende tjenesteleverandør eller din DoH-lenke.
+Chrome og Edge har sin egen _sikre DNS_-innstilling, som omgår Windows. Hvis den står på automatisk, kan den falle tilbake til vanlig DNS, noe Blokada nekter. Sett den til din DoH-lenke i stedet:
+
+- **Chrome:** åpne `chrome://settings/security`, slå på _Bruk sikker DNS_, og under _Velg DNS-leverandør_ velg _Legg til egendefinert DNS-tjenesteleverandør_.
+- **Edge:** åpne `edge://settings/privacy`, slå på sikker DNS, og velg _Velg en tjenesteleverandør_.
+
+Lim så inn din DoH-lenke {% doh %}
 
 <div class="note">
 
