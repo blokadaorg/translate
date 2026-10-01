@@ -39,6 +39,6 @@ Domains=~.</code></pre>
 
 <div class="note">
 
-هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحظر.
+هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحظر.
 
 </div>
