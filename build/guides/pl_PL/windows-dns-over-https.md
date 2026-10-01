@@ -1,7 +1,7 @@
 ---
 title: Blokowanie reklam w systemie Windows za pomocą DNS przez HTTPS
 description: Użyj wbudowanego w Windows 11 szyfrowanego DNS z Blokada Cloud, aby blokować reklamy i trackery we wszystkich aplikacjach i przeglądarkach, bez instalowania dodatkowego oprogramowania.
-updated: 2026-09-28
+updated: 2026-09-23
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 nie ma wbudowanego szyfrowanego DNS. Zamiast tego skonfiguruj bezpiec
 
 Otwórz kilka stron internetowych, a następnie sprawdź stronę _Aktywność_ w [panelu](https://app.blokada.org/stats?src=guides). Zapytania z tego komputera pojawią się tam.
 
-Przeglądarki z własnym ustawieniem _bezpiecznego DNS_ omijają Windows. W Chrome i Edge ustaw je na bieżącego dostawcę usług lub na swój link DoH.
+Chrome i Edge mają własne ustawienie _bezpiecznego DNS_, które omija system Windows. Jeśli pozostawisz tryb automatyczny, może nastąpić powrót do zwykłego DNS, co Blokada odrzuca. Zamiast tego ustaw swój link DoH:
+
+- **Chrome:** otwórz `chrome://settings/security`, włącz _Użyj bezpiecznego DNS_, a pod _Wybierz dostawcę DNS_ wybierz _Dodaj niestandardowego dostawcę usług DNS_.
+- **Edge:** otwórz `edge://settings/privacy`, włącz bezpieczny DNS i wybierz _Wybierz dostawcę usług_.
+
+Następnie wklej swój link DoH {% doh %}
 
 <div class="note">
 
