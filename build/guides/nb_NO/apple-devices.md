@@ -59,7 +59,7 @@ Apple TV kan ikke åpne nettsider, så du skriver inn profillinken din manuelt.
 
 1. Din profillink: {% appleUrl %}
 2. På Apple TV, åpne _Innstillinger → Generelt → Personvern og sikkerhet_.
-3. Marker _Send til Apple_ (kalt _Del Apple TV-analyse_ på eldre tvOS). Ikke velg det. Trykk på Play/Pause-knappen på fjernkontrollen i stedet.
+3. Marker _Del Apple TV-analyse_. Ikke velg det. Trykk på Play/Pause-knappen på fjernkontrollen i stedet.
 4. Velg _Legg til profil_ og skriv inn din profillink. Det er enklest å skrive med tastaturmeldingen på iPhone, hvor du kan lime inn lenken. Installer profilen og bekreft.
 
 <div class="note">
