@@ -1,7 +1,7 @@
 ---
 title: 一个在每台设备上使用相同设置的 NextDNS 替代方案
 description: 从 NextDNS 迁移到 Blokada Cloud。将你的 NextDNS DNS 名称、DoH 链接或配置文件替换为 Blokada 的设置，适用于你的手机、电脑和路由器，并继续保持广告拦截。
-updated: 2026-09-28
+updated: 2026-09-23
 order: 3
 ---
 
