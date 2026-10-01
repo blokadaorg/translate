@@ -5,7 +5,7 @@ updated: 2026-09-23
 order: 2
 ---
 
-Mullvad stopt zijn gratis openbare DNS-dienst op **2 november 2026** en raadt Quad9 aan als alternatief. Quad9 blokkeert malware, maar blokkeert **geen** advertenties of trackers. Als je één van Mullvad's filterende DNS-namen gebruikt, komen advertenties terug op die datum, tenzij je overstapt.
+Mullvad stopt zijn gratis openbare DNS-dienst op **2 november 2026** en raadt Quad9 aan als alternatief. Quad9 blokkeert malware, maar blokkeert **geen** advertenties of trackers. Wanneer de DNS van Mullvad stopt, zullen apparaten die hierop zijn ingesteld geen websites en apps meer laden. Als een apparaat kan terugvallen op een andere DNS-server, komen advertenties terug. Schakel vóór die datum over.
 
 Deze pagina gaat over de openbare DNS-namen die eindigen op `dns.mullvad.net`. Het gaat niet over de Mullvad VPN-app.
 
