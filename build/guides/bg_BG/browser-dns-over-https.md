@@ -14,25 +14,25 @@ order: 7
 ## Chrome
 
 1. Отворете `chrome://settings/security`.
-2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
+2. Включете _Използвай защитен DNS_, след което изберете _Добави собствен доставчик на DNS услуги_.
 3. Въведете {% doh %}
 
 ## Edge
 
 1. Отворете `edge://settings/privacy`.
-2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
-3. Choose _Choose a service provider_ and enter {% doh %}
+2. В раздел _Сигурност_ включете _Използвай защитен DNS, за да зададете как да се търси мрежовия адрес на уебсайтовете_.
+3. Изберете _Изберете доставчик на услуги_ и въведете {% doh %}
 
 ## Firefox
 
-1. Open _Settings → Privacy & Security_ and scroll to _DNS over HTTPS_.
-2. Choose _Max Protection_.
-3. Under _Choose provider_, select _Custom_ and enter {% doh %}
+1. Отворете _Настройки → Поверителност и сигурност_ и превъртете до _DNS през HTTPS_.
+2. Изберете _Максимална защита_.
+3. Под _Избор на доставчик_ изберете _Потребителски_ и въведете {% doh %}
 
 ## Brave
 
 1. Отворете `brave://settings/security`.
-2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
+2. Включете _Използвай защитен DNS_, след това изберете _Добави персонализиран DNS доставчик_.
 3. Въведете {% doh %}
 
 ## Safari
