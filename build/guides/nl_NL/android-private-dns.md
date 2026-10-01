@@ -32,4 +32,4 @@ Open enkele apps of websites en bekijk vervolgens de _Activiteit_-pagina in het 
 
 - **"Kon geen verbinding maken" of geen internet:** controleer je Blokada DNS-naam op spelfouten. Deze moet precies worden ingevoerd zoals hierboven weergegeven, zonder `https://`.
 - **Een andere VPN-app is actief:** sommige VPN-apps gebruiken hun eigen DNS en omzeilen Private DNS. Schakel de DNS- of advertentieblokkering van de VPN uit, of gebruik Blokada 6 in plaats daarvan.
-- **Chrome toont nog steeds advertenties:** open in Chrome _Instellingen → Privacy en beveiliging → Beveiligde DNS gebruiken_ en kies _Huidige serviceprovider gebruiken_.
+- **Chrome toont nog steeds advertenties:** Chrome kan ingesteld zijn op zijn eigen beveiligde DNS-provider, waardoor Private DNS wordt omzeild. **Chrome toont nog steeds advertenties:** open in Chrome _Instellingen → Privacy en beveiliging → Beveiligde DNS gebruiken_ en kies _Huidige serviceprovider gebruiken_. Chrome volgt daarna Private DNS.
