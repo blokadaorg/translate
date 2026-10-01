@@ -32,4 +32,4 @@ Apri alcune app o siti web, poi vai alla pagina _Attività_ nella [dashboard](ht
 
 - **“Impossibile connettersi” o nessuna connessione a internet:** controlla che il tuo nome DNS Blokada non abbia errori di digitazione. Deve essere esattamente come mostrato sopra, senza `https://`.
 - **Un'altra app VPN è attiva:** alcune app VPN usano il proprio DNS e bypassano il DNS privato. Disattiva l'impostazione DNS o di blocco pubblicità della VPN, oppure usa Blokada 6.
-- **Chrome mostra ancora pubblicità:** in Chrome, apri _Impostazioni → Privacy e sicurezza → Usa DNS sicuro_ e scegli _Usa il provider di servizi attuale_.
+- **Chrome mostra ancora annunci:** Chrome potrebbe essere impostato su un proprio provider DNS sicuro, che bypassa il DNS privato. **Chrome mostra ancora pubblicità:** in Chrome, apri _Impostazioni → Privacy e sicurezza → Usa DNS sicuro_ e scegli _Usa il provider di servizi attuale_. Chrome a quel punto seguirà il DNS privato.
