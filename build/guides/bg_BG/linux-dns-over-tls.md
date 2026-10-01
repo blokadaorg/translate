@@ -5,7 +5,7 @@ updated: 2026-09-28
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Повечето съвременни Linux дистрибуции, включително Ubuntu и Fedora, разрешават имена чрез _systemd-resolved_, който поддържа DNS през TLS. В Debian първо го инсталирайте с `sudo apt install systemd-resolved`. Насочете го към Blokada Cloud и рекламите и тракерите ще бъдат блокирани за всяко приложение на компютъра.
 
 ## Set up systemd-resolved
 
@@ -25,20 +25,20 @@ The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks t
 
 <div class="note">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** също препраща DNS сървърите на вашата мрежа. `Domains=~.` изпраща всички заявки към Blokada, но ако `resolvectl status` все още показва друг сървър за връзката, изключете автоматичното задаване на DNS за тази връзка (превключвателя _Автоматично_ до _DNS_ в нейните IPv4 и IPv6 настройки).
 
 </div>
 
 ## Without systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Ако `resolvectl` не е наличен, вашата дистрибуция разрешава имената по друг начин. Настройте защитен DNS направо в браузъра си, според [ръководството за браузър](../browser-dns-over-https/), или настройте [рутера си](../router-ad-blocking/), за да покриете цялото домакинство.
 
-## Check that it works
+## Проверка дали работи
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Отворете няколко уебсайта, след това прегледайте страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Запитванията от този компютър ще се показват там.
 
 <div class="note">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Искате ли VPN и на този компютър? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) включва настройка на WireGuard, която криптира целия трафик с едно и също блокиране.
 
 </div>
