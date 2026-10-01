@@ -5,7 +5,7 @@ updated: 2026-09-28
 order: 9
 ---
 
-当前大多数 Linux 发行版（包括 Ubuntu 和 Fedora）都通过 _systemd-resolved_ 解析名称，并支持 DNS over TLS。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。
+当前大多数 Linux 发行版（包括 Ubuntu 和 Fedora）都通过 _systemd-resolved_ 解析名称，并支持 DNS over TLS。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。
 
 ## 设置 systemd-resolved
 
@@ -22,7 +22,7 @@ order: 9
 
 <div class="note">
 
-**NetworkManager** 同样会传递你网络的 DNS 服务器。 `Domains=~.` 会将所有查询发送至 Blokada。如果 `resolvectl status` 在某个连接上仍然列出了其他服务器，请关闭该连接的自动 DNS（在其 IPv4 和 IPv6 设置中 _DNS_ 旁边的 _自动_ 开关）。
+**NetworkManager** 同样会传递你网络的 DNS 服务器。 **NetworkManager** 同样会传递你网络的 DNS 服务器。 `Domains=~.` 会将所有查询发送至 Blokada。如果 `resolvectl status` 在某个连接上仍然列出了其他服务器，请关闭该连接的自动 DNS（在其 IPv4 和 IPv6 设置中 _DNS_ 旁边的 _自动_ 开关）。
 
 </div>
 
@@ -32,10 +32,10 @@ order: 9
 
 ## 检查是否生效
 
-打开几个网站，然后在 [仪表板](https://app.blokada.org/stats?src=guides) 的 _活动_ 页面查看。这台电脑的查询会在此显示。
+打开几个网站，然后在 [仪表板](https://app.blokada.org/stats?src=guides) 的 _活动_ 页面查看。这台电脑的查询会在此显示。这台电脑的查询会在此显示。
 
 <div class="note">
 
-也想给这台电脑加上 VPN 吗？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。
+也想给这台电脑加上 VPN 吗？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。
 
 </div>
