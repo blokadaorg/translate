@@ -1,7 +1,7 @@
 ---
 title: Ett alternativ till Pi-hole som inte kräver någon hårdvara
 description: Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.
-updated: 2026-09-23
+updated: 2026-10-01'}]} 2026-10-01
 order: 1
 ---
 
