@@ -1,7 +1,7 @@
 ---
 title: Werbung im ganzen Netzwerk blockieren mit einem Router-Werbeblocker
 description: Richte Blokada Cloud einmal im Router ein und blockiere Werbung auf allen Geräten in deinem Zuhause, auch auf Smart-TV, Spielkonsole und Smart Speaker.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 4
 ---
 
@@ -24,22 +24,22 @@ Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS 
 
 FRITZ!OS 7.20 oder neuer.
 
-1. Öffne `http://fritz.box` und gehe zu _Internet → Zugangsdaten → DNS-Server_.
-2. Setze unter _Verschlüsselte Namensauflösung im Internet (DNS over TLS)_ den Haken bei _Verschlüsselte Namensauflösung verwenden_.
-3. Setze den Haken bei _Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen_.
-4. Entferne den Haken bei _Fallback auf unverschlüsselte Namensauflösung im Internet erlauben_.
-5. Trage unter _Auflösungsnamen_ nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.
+1. Öffne `http://fritz.box`, gehe zu _Internet → Zugangsdaten_ und dann auf die Registerkarte _DNS-Server_.
+2. Aktiviere die Option _Verschlüsselte Namensauflösung im Internet (DNS over TLS)_.
+3. Trage im Eingabefeld _Auflösungsnamen der DNS-Server_ nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.
+4. Setze den Haken bei _Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen_ und entferne ihn bei _Fallback auf unverschlüsselte Namensauflösung im Internet zulassen_.
+5. Siehst du die Option _Bei DNS-Störungen auf öffentliche DNS-Server zurückgreifen_, deaktiviere sie.
 6. Klicke auf _Übernehmen_.
 
 ## ASUS
 
-Aktuelle ASUS-Firmware (3.0.0.4.388 oder neuer) und Asuswrt-Merlin.
+ASUS-Firmware neuer als 3.0.0.4.386.4xxxx und Asuswrt-Merlin.
 
 1. Öffne die Admin-Seite des Routers und gehe zu _WAN → Internet Connection_.
 2. Stelle unter _WAN DNS Setting_ das _DNS Privacy Protocol_ auf _DNS-over-TLS (DoT)_ und das _DNS-over-TLS Profile_ auf _Strict_.
 3. Entferne alle Einträge aus der _DNS-over-TLS Server List_ und füge dann einen hinzu:
-   - Adresse: {% ip \"dot\" %}
-   - TLS-Hostname: {% dot %}
+   - Address: {% ip "dot" %}
+   - TLS Hostname: {% dot %}
 4. Klicke auf _Apply_.
 
 ## OpenWrt
@@ -47,7 +47,7 @@ Aktuelle ASUS-Firmware (3.0.0.4.388 oder neuer) und Asuswrt-Merlin.
 1. Aktualisiere unter _System → Software_ die Listen und installiere `luci-app-https-dns-proxy`.
 2. Öffne _Services → HTTPS DNS Proxy_. Lösche die Instanzen anderer Anbieter.
 3. Füge eine Instanz mit eigener Resolver-URL hinzu: {% doh %}
-4. _Speichern & Übernehmen_. Das Paket leitet dnsmasq automatisch darauf um.
+4. _Save & Apply_. Das Paket leitet dnsmasq automatisch darauf um.
 
 ## Andere Router
 
