@@ -1,7 +1,7 @@
 ---
 title: Een Pi-hole alternatief dat geen hardware nodig heeft.
 description: Verplaats de advertentieblokkering van je huis van een Pi-hole naar Blokada Cloud, of behoud je Pi-hole en stuur de zoekopdrachten daarvan via Blokada.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 
