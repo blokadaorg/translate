@@ -18,7 +18,7 @@ Domains=~.</code></pre>
 
 <ol start="2">
 <li>Рестартирайте го: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Проверете: <code>resolvectl status</code> показва <code>+DNSOverTLS</code> и сървъра на Blokada.</li>
+<li>Проверка: <code>resolvectl status</code> показва <code>+DNSOverTLS</code> и сървъра на Blokada.</li>
 </ol>
 
 Частта след `#` е вашето име на Blokada DNS: {% dot %} systemd-resolved проверява сертификата на сървъра спрямо него, а Blokada го използва, за да разбере кое устройство прави заявката.
