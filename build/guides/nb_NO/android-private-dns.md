@@ -32,4 +32,4 @@ Hvis du ikke finner det, søk i Innstillinger-appen etter "Privat DNS".
 
 - <b>"Kunne ikke koble til" eller ingen internett:</b> sjekk ditt Blokada DNS-navn for skrivefeil. Det må være nøyaktig som vist ovenfor, uten `https://`.
 - <b>En annen VPN-app er aktiv:</b> noen VPN-apper bruker egen DNS og omgår Privat DNS. Skru av VPN-appens DNS-innstillinger eller reklameblokkering, eller bruk Blokada 6 i stedet.
-- <b>Chrome viser fortsatt annonser:</b> åpne <i>Innstillinger → Personvern og sikkerhet → Bruk sikker DNS</i> i Chrome, og velg <i>Bruk gjeldende tjenesteleverandør</i>.
+- **Chrome viser fortsatt annonser:** Chrome kan være satt til sin egen sikre DNS-leverandør, som omgår Privat DNS. I Chrome, åpne _Innstillinger → Personvern og sikkerhet → Bruk sikker DNS_ og velg _Bruk din nåværende tjenesteleverandør_. Chrome følger da Privat DNS.
