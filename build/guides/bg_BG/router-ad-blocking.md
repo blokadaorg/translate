@@ -44,24 +44,24 @@ FRITZ!OS 7.20 или по-нова версия.
 
 ## OpenWrt
 
-1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+1. В _System → Software_ актуализирайте списъците и инсталирайте `luci-app-https-dns-proxy`.
+2. Отворете _Услуги → HTTPS DNS Proxy_. Изтрийте записите за другите доставчици.
+3. Добавете запис с персонализиран URL на препращане: {% doh %}
+4. _Запаметете и приложете_. Пакетът автоматично ще насочва dnsmasq към него.
 
-## Other routers
+## Други рутери
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Потърсете настройка с име _DNS over TLS_, _Частен DNS_, _Криптиран DNS_ или _DNS over HTTPS_. Въведете името на Вашия Blokada DNS или DoH връзката отгоре и премахнете всички други DNS сървъри, включително и резервните сървъри.
 
-## Check that it works
+## Проверка дали работи
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Рестартирайте едно устройство или изключете и включете отново неговата Wi-Fi връзка, за да се обнови промяната.
+2. Сърфирайте за минута, след това отворете страницата _Дейност_ в таблото за управление. Запитванията на вашата мрежа ще се показват там.
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Някои устройства заобикалят рутера: телефони с активирана _Частна DNS услуга_, браузъри с _сигурна DNS услуга_, настроена към друг доставчик, и устройства с вградена собствена DNS услуга. Настройте ги директно на самото устройство или изключете собствената му DNS настройка.
 
 <div class="note">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Зад рутера всички устройства споделят един адрес, така че таблото показва вашата мрежа като едно устройство. Настройте телефоните и лаптопите с тяхно собствено Blokada DNS име, ако искате да ги виждате отделно. Те ще запазят блокирането дори, когато напуснат дома си.
 
 </div>
