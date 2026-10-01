@@ -1,7 +1,7 @@
 ---
 title: Blockera reklam på Mac och Apple TV med en DNS-profil från Blokada
 description: Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.
-updated: 2026-09-28
+updated: 2026-10-01
 order: 6
 ---
 
@@ -59,7 +59,7 @@ Apple TV kan inte öppna webbsidor, så du skriver in din profillänk på den.
 
 1. Din profillänk: {% appleUrl %}
 2. Öppna _Inställningar → Allmänt → Integritet och säkerhet_ på Apple TV.
-3. Markera _Skicka till Apple_ (kallas _Dela Apple TV Analytics_ på äldre tvOS). Välj den inte. Tryck på Play/Paus-knappen på fjärrkontrollen istället.
+3. Markera _Dela Apple TV-analys_. Välj den inte. Tryck på Play/Paus-knappen på fjärrkontrollen istället.
 4. Välj _Lägg till profil_ och ange din profillänk. Det är enklast att skriva in med tangentbordet på din iPhone, där du kan klistra in den. Installera profilen och bekräfta.
 
 <div class="note">
