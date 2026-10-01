@@ -26,9 +26,9 @@ FRITZ!OS 7.20 ou version ultérieure.
 
 1. Ouvrez `http://fritz.box` et allez dans _Internet → Informations sur le compte → Serveur DNS_.
 2. Sous _Résolution de nom chiffrée sur Internet (DNS over TLS)_, cochez _Utiliser la résolution de nom chiffrée_.
-3. Cochez _Appliquer la vérification du certificat pour la résolution de nom chiffrée_.
-4. Décochez _Autoriser la bascule vers la résolution de nom non chiffrée_.
-5. Dans _Noms des résolveurs_, saisissez uniquement {% dot %}. **Supprimez toutes les autres entrées.** La FRITZ!Box utilise tous les résolveurs listés, et tout autre résolveur laissera passer des publicités.
+3. Dans _Noms des résolveurs_, saisissez uniquement {% dot %}. **Supprimez toutes les autres entrées.** La FRITZ!Box utilise tous les résolveurs listés, et tout autre résolveur laissera passer des publicités.
+4. Cochez l’option qui impose la vérification du certificat et décochez celle qui autorise la résolution de nom non chiffrée en cas d’échec.
+5. Si vous voyez _Basculement sur des serveurs DNS publics en cas d'interruption du DNS_, désactivez cette option.
 6. Cliquez sur _Appliquer_.
 
 ## ASUS
