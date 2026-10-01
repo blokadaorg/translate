@@ -21,7 +21,7 @@ Det finns två sätt att byta. Byt ut Pi-hole helt, eller behåll den och låt d
    - Din DoH-länk, för DNS över HTTPS: {% doh %}
 2. **Peka din router mot Blokada istället för Pi-hole.** Följ [routerguiden](../router-ad-blocking/). Om din router bara accepterar en vanlig IP-adress som DNS-server, konfigurera enheterna en och en istället: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/).
 3. **Om din Pi-hole var DHCP-server,** slå på DHCP i routern _innan_ du stänger av Pi. Annars kommer dina enheter inte att få några nätverksadresser.
-4. **Flytta dina listor.** I dashboarden väljer du blocklistor under _Blocklists_ och lägger till egna tillåtna eller blockerade domäner under _Undantag_.
+4. **Flytta dina listor.** I dashboarden väljer du blocklistor under _Blocklistor_ och lägger till egna tillåtna eller blockerade domäner under _Undantag_.
 5. **Stäng av Pi-hole,** eller använd den till något annat.
 
 <div class="note">
