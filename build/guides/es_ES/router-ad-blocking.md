@@ -16,7 +16,7 @@ Su router debe soportar **DNS cifrado con un nombre de host**, es decir, DNS sob
 
 <div class="note">
 
-¿Solo direcciones IP simples? Muchos routers de proveedores de internet solo aceptan direcciones IP simples para DNS. El soporte para estos casos está en camino. Mientras tanto, configure sus dispositivos uno por uno: [Android](../android-private-dns/), [Mac y Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) y [navegadores](../browser-dns-over-https/). También puede ejecutar un pequeño reenviador en una Raspberry Pi, como se describe en la [guía de Pi-hole](../switch-from-pihole/).
+Muchos routers de proveedores de internet solo aceptan direcciones IP simples para DNS. El soporte para estos casos está en camino. Mientras tanto, configure sus dispositivos uno por uno: [Android](../android-private-dns/), [Mac y Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) y [navegadores](../browser-dns-over-https/). También puede ejecutar un pequeño reenviador en una Raspberry Pi, como se describe en la [guía de Pi-hole](../switch-from-pihole/).
 
 </div>
 
@@ -26,9 +26,9 @@ FRITZ!OS 7.20 o posterior.
 
 1. Abra `http://fritz.box` y vaya a _Internet → Información de la cuenta → Servidor DNS_.
 2. En _Resolución de nombres cifrada en Internet (DNS sobre TLS)_, marque _Usar resolución de nombres cifrada_.
-3. Marque _Forzar verificación de certificado para la resolución de nombres cifrada_.
-4. Desmarque _Permitir recurrir a la resolución de nombres no cifrada_.
-5. En _Nombres de los resolutores_, introduzca solo {% dot %}. **Elimine todas las demás entradas.** El FRITZ!Box utiliza todos los resolutores que aparecen en la lista, y cualquier otro permitirá el paso de anuncios.
+3. En _Nombres de los resolutores_, introduzca solo {% dot %}. **Elimine todas las demás entradas.** El FRITZ!Box utiliza todos los resolutores que aparecen en la lista, y cualquier otro permitirá el paso de anuncios.
+4. Selecciona la opción que obliga la verificación de certificados y desmarca la que permite volver a la resolución de nombres sin cifrar.
+5. Si ves _Conmutar a servidores DNS públicos cuando el DNS se interrumpe_, apágalo.
 6. Haga clic en _Aplicar_.
 
 ## ASUS
