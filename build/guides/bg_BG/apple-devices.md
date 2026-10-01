@@ -1,7 +1,7 @@
 ---
 title: Блокиране на реклами на Mac и Apple TV с профил Blokada DNS
 description: Инсталиране на профил на Blokada Cloud DNS, за да блокирате реклами и тракери на системно ниво на Mac или Apple TV с криптиран DNS, без нищо да работи във фонов режим.
-updated: 2026-09-28
+updated: 28-09-2026
 order: 6
 ---
 
@@ -37,19 +37,19 @@ order: 6
 
 <div class="if-safari">
 
-1. In Safari, tap the button below, then _Allow_ to download the profile.
+1. В Safari натиснете върху бутона по-долу, после изберете _Разреши_, за да изтеглите профила.
 2. Отворете _Настройки_. Докоснете _Изтеглен профил_ близо до горната част. Може да го намерите и под _Общи → VPN и управление на устройства_.
-3. Tap _Install_, enter your passcode, and confirm.
+3. Докоснете _Инсталиране_, въведете вашия код за достъп и потвърдете.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Изтегли моя профил{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Изтегли моят профил{% endappleProfile %}</p>
 
 ## Mac
 
 1. Кликнете върху бутона по-долу, за да изтеглите профила.
-2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
-3. Double-click the Blokada profile and click _Install_.
+2. Отворете списъка с профили: _Системни настройки → Общи → Управление на устройства_ в macOS 15 и по-нови, _Системни настройки → Поверителност и сигурност → Профили_ в macOS 13 и 14, или _Системни предпочитания → Профили_ в macOS 12 и по-стари.
+3. Щракнете двукратно върху профила на Blokada и изберете _Инсталиране_.
 
 <p class="if-device">{% appleProfile %}Изтегляне на моя профил{% endappleProfile %}</p>
 
@@ -58,8 +58,8 @@ order: 6
 Apple TV не може да отваря уеб страници, затова въвеждате вашия линк към профила в него.
 
 1. Вашият линк към профила: {% appleUrl %}
-2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Share Apple TV Analytics_. Не го избирайте. Вместо това натиснете бутона Play/Pause на дистанционното.
+2. На Apple TV отворете _Настройки → Общи → Поверителност и сигурност_.
+3. Маркиране на „Споделяне на анализи за Apple TV“. Не го избирайте. Вместо това натиснете бутона Play/Pause на дистанционното.
 4. Изберете _Добавяне на профил_ и въведете вашия линк към профила. Най-лесно е да го въведете от клавиатурния прозорец на вашия iPhone, където можете да го поставите. Инсталирайте профила и потвърдете.
 
 <div class="note">

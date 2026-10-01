@@ -32,4 +32,4 @@ Android 9 и по-новите версии имат настройка за _Ч
 
 - **"Не може да се свърже" или няма интернет:** проверете името на вашия Blokada DNS за правописни грешки. Трябва да е точно както е показано по-горе, без `https://`.
 - **Активно е друго VPN приложение:** някои VPN приложения използват собствен DNS и заобикалят Частния DNS. Изключете настройката за DNS или блокиране на реклами във VPN-а или използвайте Blokada 6.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **Chrome все още показва реклами:** Chrome може да е настроен да използва собствен доставчик на защитен DNS, което заобикаля Функцията за частен DNS. В Chrome отворете _Настройки → Поверителност и сигурност → Използване на защитен DNS_ и изберете _Използване на текущия доставчик на услуги_. След това Chrome ще използва частния DNS.

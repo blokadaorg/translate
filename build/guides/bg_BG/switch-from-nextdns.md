@@ -7,50 +7,50 @@ order: 3
 
 NextDNS и Blokada Cloud работят по един и същ начин: това е криптирана DNS услуга, която блокира реклами и тракери по име, като използва вашите настройки чрез персонализирано DNS име. Смяната означава да замените стойностите на NextDNS на всяко устройство с вашите стойности на Blokada. На устройството нищо друго не се променя.
 
-## What you used, and what to pick in Blokada
+## Какво сте използвали и какво да изберете в Blokada
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| В NextDNS                                                            | В Blokada Cloud                                                                   |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Вашият идентификатор за конфигурация, напр. `abc123` | Идентификаторът на вашето устройство, част от вашето Blokada DNS име и DoH връзка |
+| _Поверителни_ списъци за блокиране                                   | _Блокиращи списъци_ в таблото                                                     |
+| _Сигурност_ (зловреден софтуер, фишинг)           | списък с вреден софтуер в _Списъци за блокиране_                                  |
+| _Родителски контрол_                                                 | списъци за съдържание за възрастни и хазарт в _Блокиращи списъци_                 |
+| _Списък с позволени_ и _Списък с блокирани_                          | _Изключения_ в таблото за управление                                              |
+| _Логове_ и _Анализ_                                                  | _Активност_ и _Статистика_ в таблото                                              |
 
-## Your Blokada details
+## Подробности за Вашата Blokada
 
-- Your Blokada DNS name, for DNS over TLS: {% dot %}
-- Your DoH link, for DNS over HTTPS: {% doh %}
+- Вашето Blokada DNS име, за DNS през TLS: {% dot %}
+- Вашият DoH линк, за DNS през HTTPS: {% doh %}
 
-## Switch each device
+## Превключване всяко устройство
 
 ### Android
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+Ако сте използвали _Private DNS_ с `<your-id>.dns.nextdns.io`, заменете го с вашето Blokada DNS име, както е описано в [ръководството за Android](../android-private-dns/). Ако сте използвали приложението NextDNS, деинсталирайте го и вместо него инсталирайте [Blokada 6](https://go.blokada.org/play_cloud).
 
-### iPhone and iPad
+### iPhone и iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+Ако сте използвали приложението NextDNS, деинсталирайте го и инсталирайте [Blokada 6](https://go.blokada.org/appstore). Ако вместо това сте инсталирали профил на NextDNS, премахнете го от _Настройки → Общи → VPN и управление на устройства_, след което следвайте [ръководството за Apple](../apple-devices/).
 
-### Mac and Apple TV
+### Mac и Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+Премахнете профила или приложението на NextDNS, след това инсталирайте профила на Blokada от [ръководството за Apple](../apple-devices/).
 
-### Windows and Linux
+### Windows и Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+Деинсталирайте приложението NextDNS, ако го използвате. На Windows заменете сървъра на NextDNS и шаблона за DoH с тези на Blokada, както е описано в [ръководството за Windows](../windows-dns-over-https/). В Linux заменете сървъра на NextDNS в systemd-resolved, както е описано в [ръководството за Linux](../linux-dns-over-tls/).
 
-### Browsers
+### Браузъри
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+Ако сте задали `https://dns.nextdns.io/…` като _сигурен DNS_ на вашия браузър, заменете го с вашия DoH линк, както е описано в [ръководството за браузъри](../browser-dns-over-https/).
 
-### Router
+### Рутер
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+Ако вашият рутер използва NextDNS чрез DNS през TLS или DNS през HTTPS, заменете името или връзката на NextDNS с вашата на Blokada, както е описано в [ръководството за рутер](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+Ако използва NextDNS чрез обикновени IP адреси с _свързан IP_, Blokada все още не е приложима. Поддръжката за рутери с обикновени DNS адреси предстои скоро. Дотогава настройте устройствата си едно по едно или използвайте рутер, който поддържа криптиран DNS.
 
-## Check that it works
+## Проверка дали работи
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+Отворете няколко уебсайта, след това прегледайте страницата _Дейност_ в таблото за управление. Там ще видите заявките на вашите устройства, като блокираните са отбелязани. Ако дадено устройство не се появява, то все още използва NextDNS.
