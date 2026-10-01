@@ -1,7 +1,7 @@
 ---
 title: Blokkeer advertenties op Windows met DNS over HTTPS.
 description: Gebruik de ingebouwde versleutelde DNS van Windows 11 met Blokada Cloud om advertenties en trackers in elke app en browser te blokkeren, zonder dat je software hoeft te installeren.
-updated: 2026-09-28
+updated: 2026-09-23
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 heeft geen ingebouwde versleutelde DNS. Stel in plaats daarvan veilig
 
 Open een paar websites en bekijk dan de pagina _Activiteit_ in het [dashboard](https://app.blokada.org/stats?src=guides). De opvragingen van deze computer verschijnen daar.
 
-Browsers met een eigen _veilige DNS_-instelling omzeilen Windows. Stel in Chrome en Edge in dat deze de huidige dienstverlener gebruikt, of jouw DoH-link.
+Chrome en Edge hebben hun eigen instelling voor _beveiligde DNS_, die Windows omzeilt. Als deze op automatisch staat, kan het terugvallen op gewone DNS, wat Blokada weigert. Stel deze in op je DoH-link:
+
+- **Chrome:** open `chrome://settings/security`, zet _Beveiligde DNS gebruiken_ aan en kies bij _DNS-provider selecteren_ voor _Aangepaste DNS-serviceprovider toevoegen_.
+- **Edge:** open `edge://settings/privacy`, zet beveiligde DNS aan en kies _Een serviceprovider kiezen_.
+
+Plak daarna je DoH-link {% doh %}
 
 <div class="note">
 
