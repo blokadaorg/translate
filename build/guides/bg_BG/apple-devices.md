@@ -1,29 +1,29 @@
 ---
-title: Block ads on Mac and Apple TV with a Blokada DNS profile
-description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
+title: Блокиране на реклами на Mac и Apple TV с профил Blokada DNS
+description: Инсталиране на профил на Blokada Cloud DNS, за да блокирате реклами и тракери на системно ниво на Mac или Apple TV с криптиран DNS, без нищо да работи във фонов режим.
 updated: 2026-09-28
 order: 6
 ---
 
 Устройствата на Apple могат да използват криптиран DNS за цялата система чрез конфигурационен профил. Blokada профила насочва устройството към Blokada Cloud, който блокира реклами и тракери във всяко приложение и браузър.
 
-It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
+Работи на macOS 11 (Big Sur), tvOS 14, iOS и iPadOS 14 и по-нови версии.
 
 <div class="if-no-device">
 
 Страницата все още не разпознава вашето устройство, затова не може да ви предложи профил. Влезте в таблото, отворете _Настройка_, изберете вашето устройство и отворете това ръководство с _Отвори на друго устройство_.
 
-<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Get my profile link</a></p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Вземи линка за моя профил</a></p>
 
 </div>
 
-## iPhone and iPad
+## iPhone и iPad
 
 Най-лесният начин е приложението. [Blokada 6](https://go.blokada.org/appstore) настройва всичко вместо вас, включва и изключва блокирането с едно докосване и показва какво е блокирано директно на телефона. Влезте с вашия Акаунт ID и сте готови.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Get Blokada 6 on the App Store</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Вземете Blokada 6 от App Store</a></p>
 
-### Without the app
+### Без приложението
 
 Можете да инсталирате профила. На iPhone и iPad инсталирането на профил е възможно само чрез **Safari**.
 
@@ -43,33 +43,33 @@ It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Изтегли моя профил{% endappleProfile %}</p>
 
 ## Mac
 
-1. Click the button below to download the profile.
+1. Кликнете върху бутона по-долу, за да изтеглите профила.
 2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
 3. Double-click the Blokada profile and click _Install_.
 
-<p class="if-device">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device">{% appleProfile %}Изтегляне на моя профил{% endappleProfile %}</p>
 
 ## Apple TV
 
-The Apple TV cannot open web pages, so you type your profile link into it.
+Apple TV не може да отваря уеб страници, затова въвеждате вашия линк към профила в него.
 
-1. Your profile link: {% appleUrl %}
+1. Вашият линк към профила: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
 3. Highlight _Share Apple TV Analytics_. Не го избирайте. Вместо това натиснете бутона Play/Pause на дистанционното.
 4. Изберете _Добавяне на профил_ и въведете вашия линк към профила. Най-лесно е да го въведете от клавиатурния прозорец на вашия iPhone, където можете да го поставите. Инсталирайте профила и потвърдете.
 
 <div class="note">
 
-**Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
+**Apple TV и други устройства у дома:** ако настроите Blokada Cloud на вашия [рутер](../router-ad-blocking/), Apple TV ще бъде защитен заедно с всички останали устройства.
 
 </div>
 
-## Check that it works
+## Проверка дали работи
 
 Сърфирайте за минута, след това отворете страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Запитванията от това устройство ще се показват там.
 
-To remove Blokada later, delete the profile where you installed it.
+За да премахнете Blokada по-късно, изтрийте профила, от там където сте го инсталирали.
