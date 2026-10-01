@@ -1,7 +1,7 @@
 ---
 title: Werbung auf Mac und Apple TV mit einem Blokada-DNS-Profil blockieren
 description: Installiere ein Blokada-Cloud-DNS-Profil und blockiere Werbung und Tracker systemweit auf Mac oder Apple TV, verschlüsselt und ohne Hintergrund-App.
-updated: 2026-09-28
+updated: 2026-10-01
 order: 6
 ---
 
@@ -11,7 +11,7 @@ Das funktioniert ab macOS 11 (Big Sur), tvOS 14 sowie iOS und iPadOS 14.
 
 <div class="if-no-device">
 
-Diese Seite kennt dein Gerät noch nicht und kann dir deshalb dein Profil nicht anbieten. Melde dich im Dashboard an, öffne _Einrichtung_, wähle dein Gerät und öffne diese Anleitung über den Link zum Öffnen auf einem anderen Gerät.
+Diese Seite kennt dein Gerät noch nicht und kann dir deshalb dein Profil nicht anbieten. Melde dich im Dashboard an, öffne _Einrichtung_, wähle dein Gerät und öffne diese Anleitung über _Auf einem anderen Gerät öffnen_.
 
 <p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Meinen Profil-Link holen</a></p>
 
@@ -59,7 +59,7 @@ Das Apple TV kann keine Webseiten öffnen, deshalb tippst du deinen Profil-Link 
 
 1. Dein Profil-Link: {% appleUrl %}
 2. Öffne auf dem Apple TV _Einstellungen → Allgemein → Datenschutz & Sicherheit_.
-3. Markiere _Send to Apple_ (auf älterem tvOS _Share Apple TV Analytics_). Wähle es nicht aus. Drücke stattdessen die Play/Pause-Taste auf der Fernbedienung.
+3. Markiere _Share Apple TV Analytics_. Wähle es nicht aus. Drücke stattdessen die Play/Pause-Taste auf der Fernbedienung.
 4. Wähle _Add Profile_ und gib deinen Profil-Link ein. Am einfachsten tippst du über die Tastatur-Mitteilung auf deinem iPhone, dort kannst du ihn einfügen. Installiere das Profil und bestätige.
 
 <div class="note">
