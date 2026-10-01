@@ -1,7 +1,7 @@
 ---
 title: Bloquee anuncios en Windows con DNS sobre HTTPS.
 description: Utilice el DNS cifrado integrado en Windows 11 con La Nube de Blokada para bloquear anuncios y rastreadores en cada aplicación y navegador, sin necesidad de instalar software.
-updated: 2026-09-28
+updated: 2026-09-23
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 no tiene DNS cifrado integrado. Configure DNS seguro en su navegador,
 
 Abra algunos sitios web y luego mire la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las consultas de este ordenador aparecerán allí.
 
-Los navegadores con su propia configuración de _DNS seguro_ omiten Windows. En Chrome y Edge, configúrelo para usar el proveedor de servicios actual o su enlace DoH.
+Chrome y Edge tienen su propia configuración de _DNS seguro_, que omite Windows. Si se deja en automático, puede volver a usar DNS sin cifrar, lo cual Blokada rechaza. En su lugar, configúrelo con su enlace DoH:
+
+- **Chrome:** abra `chrome://settings/security`, active _Usar DNS seguro_, y en _Seleccionar proveedor de DNS_ elija _Agregar proveedor de DNS personalizado_.
+- **Edge:** abra `edge://settings/privacy`, active DNS seguro, y elija _Seleccionar un proveedor de servicio_.
+
+Luego pegue su enlace DoH {% doh %}
 
 <div class="note">
 
