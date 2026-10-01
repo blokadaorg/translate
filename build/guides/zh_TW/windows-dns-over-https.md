@@ -1,7 +1,7 @@
 ---
 title: 在 Windows 上使用 DNS over HTTPS 阻擋廣告
 description: 使用 Windows 11 內建的加密 DNS 搭配 Blokada Cloud，可在所有應用程式與瀏覽器中阻擋廣告及追蹤器，無需安裝額外軟體。
-updated: 2026-09-28
+updated: 2026-10-01
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 沒有內建加密 DNS。請改為於瀏覽器中設定安全 DNS，�
 
 開啟幾個網站，然後在 [儀表板](https://app.blokada.org/stats?src=guides) 的 _活動_ 頁面查看。這台電腦的查詢會顯示在那裡。
 
-擁有自己 _安全 DNS_ 設定的瀏覽器會繞過 Windows。請在 Chrome 與 Edge 中選擇目前的服務提供者，或輸入您的 DoH 連結。
+Chrome 和 Edge 有自己的「安全 DNS」設定，這會繞過 Windows。若設為自動，可能會回退至傳統 DNS，這是 Blokada 不允許的。請改設為您的 DoH 連結：
+
+- **Chrome：** 開啟 `chrome://settings/security`，開啟「使用安全 DNS」，在「選擇 DNS 提供者」下點擊「新增自訂 DNS 服務提供者」。
+- **Edge：** 開啟 `edge://settings/privacy`，啟用安全 DNS，然後選擇「選擇一個服務提供者」。
+
+然後貼上您的 DoH 連結 {% doh %}
 
 <div class="note">
 
