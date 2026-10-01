@@ -1,11 +1,11 @@
 ---
 title: Il servizio Mullvad DNS verrà disattivato. Continua a bloccare la pubblicità con Blokada Cloud
 description: Mullvad chiude il suo servizio DNS pubblico il 2 novembre 2026. Ecco come migrare il tuo telefono, computer e router a Blokada Cloud entro quella data, senza perdere il blocco della pubblicità.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 2
 ---
 
-Mullvad chiuderà il suo servizio DNS pubblico gratuito il **2 novembre 2026** e consiglia invece Quad9. Quad9 blocca i malware ma **non** blocca pubblicità né tracker. Se utilizzavi uno dei nomi DNS filtranti di Mullvad, la pubblicità tornerà a partire da quella data a meno che tu non faccia il cambio.
+Mullvad chiuderà il suo servizio DNS pubblico gratuito il **2 novembre 2026** e consiglia invece Quad9. Quad9 blocca i malware ma **non** blocca pubblicità né tracker. Quando il DNS di Mullvad smetterà di funzionare, i dispositivi configurati su di esso smetteranno di caricare siti web e app. Se un dispositivo è impostato per passare automaticamente a un altro server DNS, gli annunci torneranno a essere visibili. Effettua il passaggio prima di quella data.
 
 Questa pagina riguarda i nomi DNS pubblici che terminano con `dns.mullvad.net`. Non riguarda l'app VPN di Mullvad.
 

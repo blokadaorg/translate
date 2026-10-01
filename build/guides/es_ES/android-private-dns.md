@@ -32,4 +32,4 @@ Abra algunas apps o sitios web y luego mire la página de _Actividad_ en el [pan
 
 - **"No se pudo conectar" o sin internet:** verifique que su nombre de DNS de Blokada no tenga errores tipográficos. Debe ser exactamente como se muestra arriba, sin `https://`.
 - **Otra app VPN está activa:** algunas apps VPN usan su propio DNS y omiten el DNS privado. Desactive la configuración de DNS o bloqueo de anuncios de la VPN, o use Blokada 6 en su lugar.
-- **Chrome aún muestra anuncios:** en Chrome, abra _Configuración → Privacidad y seguridad → Usar DNS seguro_ y elija _Usar proveedor de servicios actual_.
+- **Chrome sigue mostrando anuncios:** Es posible que Chrome esté configurado con su propio proveedor seguro de DNS, lo cual evita el uso de DNS privado. **Chrome aún muestra anuncios:** en Chrome, abra _Configuración → Privacidad y seguridad → Usar DNS seguro_ y elija _Usar proveedor de servicios actual_. Después, Chrome utiliza el DNS privado.

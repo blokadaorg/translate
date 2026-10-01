@@ -11,7 +11,10 @@ De flesta aktuella Linux-distributioner, inklusive Ubuntu och Fedora, löser nam
 
 1. Skapa mappen med `sudo mkdir -p /etc/systemd/resolved.conf.d` och sedan filen `/etc/systemd/resolved.conf.d/blokada.conf` med de här inställningarna:
 
-<pre><code>[Resolve]\nDNS={{ site.dnsIps.dot }}#<span data-dns=\"dot\">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>\nDNSOverTLS=yes\nDomains=~.</code></pre>
+<pre><code>[Resolve]
+DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
+DNSOverTLS=yes
+Domains=~.</code></pre>
 
 <ol start="2">
 <li>Starta om den: <code>sudo systemctl restart systemd-resolved</code></li>

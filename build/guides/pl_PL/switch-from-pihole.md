@@ -1,7 +1,7 @@
 ---
 title: Alternatywa dla Pi-hole, która nie wymaga sprzętu.
 description: Przenieś blokowanie reklam w swoim domu z Pi-hole do Blokada Cloud lub zachowaj Pi-hole i przesyłaj zapytania przez Blokada.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 

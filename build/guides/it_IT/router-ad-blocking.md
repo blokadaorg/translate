@@ -26,9 +26,9 @@ FRITZ!OS 7.20 o successivo.
 
 1. Apri `http://fritz.box` e vai su _Internet → Informazioni account → Server DNS_.
 2. Sotto _Risoluzione dei nomi crittografata su Internet (DNS over TLS)_, seleziona _Usa la risoluzione dei nomi crittografata_.
-3. Spunta _Richiedi la verifica del certificato per la risoluzione dei nomi crittografata_.
-4. Deseleziona _Consenti fallback alla risoluzione dei nomi non crittografata_.
-5. In _Nomi dei resolver_, inserisci solo {% dot %}. **Rimuovi ogni altra voce.** Il FRITZ!Box usa tutti i resolver inseriti, e qualsiasi altro permette alle pubblicità di passare.
+3. In _Nomi dei resolver_, inserisci solo {% dot %}. **Rimuovi ogni altra voce.** Il FRITZ!Box usa tutti i resolver inseriti, e qualsiasi altro permette alle pubblicità di passare.
+4. Seleziona l'opzione che impone la verifica del certificato e deseleziona quella che permette il fallback alla risoluzione dei nomi non criptata.
+5. Se vedi _Failover verso server DNS pubblici quando il DNS è interrotto_, disattivalo.
 6. Fai clic su _Applica_.
 
 ## ASUS

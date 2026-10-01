@@ -5,9 +5,9 @@ updated: 2026-09-23
 order: 7
 ---
 
-现代浏览器可以使用自己的加密 DNS 提供商，即“安全 DNS”或“DNS over HTTPS”。将其设置为 Blokada Cloud，浏览器即可在任何网络上拦截广告和跟踪器，无需安装扩展程序。
+现代浏览器可以使用自己的加密 DNS 提供商，即“安全 DNS”或“DNS over HTTPS”。现代浏览器可以使用自己的加密 DNS 提供商，即“安全 DNS”或“DNS over HTTPS”。将其设置为 Blokada Cloud，浏览器即可在任何网络上拦截广告和跟踪器，无需安装扩展程序。
 
-此设置仅适用于该浏览器。若要覆盖整个电脑，请在 Mac 上使用 [Apple 配置文件](../apple-devices/)，或配置你的[路由器](../router-ad-blocking/)。
+此设置仅适用于该浏览器。此设置仅适用于该浏览器。若要覆盖整个电脑，请在 Mac 上使用 [Apple 配置文件](../apple-devices/)，或配置你的[路由器](../router-ad-blocking/)。
 
 你的 DoH 链接：{% doh %}
 
@@ -20,7 +20,7 @@ order: 7
 ## Edge
 
 1. 打开 `edge://settings/privacy`。
-2. &#x5728;_&#x5B89;全&#x6027;_&#x4E0B;，开&#x542F;_&#x4F7F;用安全 DNS 指定如何查找网站的网络地址_。
+2. &#x5728;_安全&#x6027;_&#x4E0B;，开&#x542F;_&#x4F7F;用安全 DNS 指定如何查找网站的网络地址_。
 3. 选&#x62E9;_&#x9009;择服务提供&#x5546;_&#x5E76;输入 {% doh %}
 
 ## Firefox
@@ -37,7 +37,7 @@ order: 7
 
 ## Safari
 
-Safari 没有单独的安全 DNS 设置。它使用系统 DNS，因此请安装 [Apple 配置文件](../apple-devices/)。
+Safari 没有单独的安全 DNS 设置。它使用系统 DNS，因此请安装 [Apple 配置文件](../apple-devices/)。它使用系统 DNS，因此请安装 [Apple 配置文件](../apple-devices/)。
 
 ## 检查是否生效
 
@@ -45,6 +45,6 @@ Safari 没有单独的安全 DNS 设置。它使用系统 DNS，因此请安装 
 
 <div class="note">
 
-如果你的浏览器由工作单位或学校管理，则安全 DNS 设置可能会被锁定。请咨询你的管理员。
+如果你的浏览器由工作单位或学校管理，则安全 DNS 设置可能会被锁定。请咨询你的管理员。请咨询你的管理员。
 
 </div>

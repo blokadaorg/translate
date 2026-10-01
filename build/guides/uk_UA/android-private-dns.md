@@ -32,4 +32,4 @@ Open a few apps or websites, then look at the _Activity_ page in the [dashboard]
 
 - **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
 - **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** in Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use current service provider_.
+- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.

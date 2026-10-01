@@ -1,7 +1,7 @@
 ---
 title: A Pi-hole alternative that needs no hardware
 description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 

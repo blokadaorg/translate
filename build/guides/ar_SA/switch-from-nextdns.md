@@ -1,7 +1,7 @@
 ---
 title: بديل NextDNS بنفس الإعدادات على كل جهاز.
 description: انقل من NextDNS إلى Blokada Cloud. استبدل اسم DNS أو رابط DoH أو الملف التعريف الخاص بك في NextDNS بقيم Blokada على هاتفك أو جهاز الحاسوب أو الراوتر، واحتفظ بحظر الإعلانات.
-updated: 2026-09-28
+updated: 2026-10-01
 order: 3
 ---
 

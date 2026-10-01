@@ -26,9 +26,9 @@ FRITZ!OS 7.20 lub nowszy.
 
 1. Otwórz `http://fritz.box` i przejdź do _Internet → Informacje o koncie → Serwer DNS_.
 2. W sekcji _Szyfrowana rozdzielczość nazw w Internecie (DNS-over-TLS)_ zaznacz _Używaj szyfrowanej rozdzielczości nazw_.
-3. Zaznacz _Wymuś weryfikację certyfikatu dla szyfrowanej rozdzielczości nazw_.
-4. Odznacz _Zezwól na przełączenie na nieszyfrowaną rozdzielczość nazw_.
-5. W polu _Nazwy resolverów_ wpisz tylko {% dot %}. **Usuń wszystkie inne wpisy.** FRITZ!Box korzysta ze wszystkich wpisanych resolverów, a każdy inny przepuszcza reklamy.
+3. W polu _Nazwy resolverów_ wpisz tylko {% dot %}. **Usuń wszystkie inne wpisy.** FRITZ!Box korzysta ze wszystkich wpisanych resolverów, a każdy inny przepuszcza reklamy.
+4. Zaznacz _Wymuś weryfikację certyfikatu dla szyfrowanej rozdzielczości nazw_.
+5. Jeśli widzisz opcję _Przełącz na publiczne serwery DNS, gdy DNS jest zakłócony_, wyłącz ją.
 6. Kliknij _Zastosuj_.
 
 ## ASUS

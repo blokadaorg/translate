@@ -1,7 +1,7 @@
 ---
 title: Et Pi-hole-alternativ som ikke krever maskinvare
 description: Flytt hjemmets annonseblokkering fra en Pi-hole til Blokada Cloud, eller behold din Pi-hole og send oppslagene via Blokada.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 

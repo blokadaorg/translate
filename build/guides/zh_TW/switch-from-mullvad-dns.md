@@ -1,11 +1,11 @@
 ---
 title: Mullvad DNS 即將關閉。使用 Blokada Cloud 繼續阻擋廣告
 description: Mullvad 將於 2026 年 11 月 2 日關閉其公共 DNS。以下是在此之前將您的手機、電腦和路由器遷移到 Blokada Cloud 的方法，廣告阻擋功能不會中斷。
-updated: 2026-09-23
+updated: 2026-10-01或之前
 order: 2
 ---
 
-Mullvad 將於 **2026 年 11 月 2 日** 關閉其免費公共 DNS 服務，並建議改用 Quad9。 Quad9 可以阻擋惡意軟體，但**不會**阻擋廣告或追蹤器。如果您使用了 Mullvad 的過濾 DNS 名稱，在那一天之後廣告將會重新顯示，除非您切換。
+Mullvad 將於 **2026 年 11 月 2 日** 關閉其免費公共 DNS 服務，並建議改用 Quad9。 Quad9 可以阻擋惡意軟體，但**不會**阻擋廣告或追蹤器。當Mullvad的DNS停止運作時，設為該DNS的裝置將無法載入網站和應用程式。如果裝置允許自動切換至其他DNS伺服器，廣告就會重新出現。請在該日期前切換。
 
 此頁面是關於以 `dns.mullvad.net` 結尾的公共 DNS 名稱。此內容不包含 Mullvad VPN 應用程式。
 

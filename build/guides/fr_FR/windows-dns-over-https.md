@@ -1,7 +1,7 @@
 ---
 title: Bloquez les publicités sur Windows avec DNS over HTTPS
 description: Utilisez le DNS chiffré intégré à Windows 11 avec Blokada Cloud pour bloquer les publicités et les traqueurs dans chaque application et navigateur, sans installer de logiciel.
-updated: 2026-09-28
+updated: 2026-10-01
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 n’a pas de DNS chiffré intégré. Configurez un DNS sécurisé dan
 
 Ouvrez quelques sites web puis consultez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les requêtes de cet ordinateur s’y afficheront.
 
-Les navigateurs dotés de leur propre paramètre _DNS sécurisé_ contournent Windows. Dans Chrome et Edge, configurez-le pour utiliser le fournisseur de service actuel ou votre lien DoH.
+Chrome et Edge possèdent leur propre paramètre de _DNS sécurisé_, qui contourne Windows. S'il est laissé en mode automatique, il peut revenir au DNS non sécurisé, ce que Blokada refuse. Définissez-le plutôt sur votre lien DoH :
+
+- **Chrome :** ouvrez `chrome://settings/security`, activez _Utiliser un DNS sécurisé_, puis sous _Sélectionner un fournisseur DNS_ choisissez _Ajouter un fournisseur DNS personnalisé_.
+- **Edge :** ouvrez `edge://settings/privacy`, activez le DNS sécurisé, puis choisissez _Choisir un fournisseur de service_.
+
+Puis collez votre lien DoH {% doh %}
 
 <div class="note">
 

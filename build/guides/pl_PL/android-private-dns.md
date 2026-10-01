@@ -32,4 +32,4 @@ Otwórz kilka aplikacji lub stron internetowych, a następnie sprawdź stronę _
 
 - **"Nie można połączyć" lub brak internetu:** sprawdź swoją nazwę DNS Blokada pod kątem literówek. Musi być dokładnie taka, jak pokazano powyżej, bez `https://`.
 - **Aktywna jest inna aplikacja VPN:** niektóre aplikacje VPN używają własnego DNS i omijają Prywatny DNS. Wyłącz ustawienie DNS lub blokowania reklam w VPN, albo użyj zamiast tego Blokada 6.
-- **Chrome nadal wyświetla reklamy:** w Chrome otwórz _Ustawienia → Prywatność i bezpieczeństwo → Użyj bezpiecznego DNS_ i wybierz _Użyj bieżącego dostawcy usług_.
+- **Chrome nadal wyświetla reklamy:** Chrome może być ustawiony na własnego, bezpiecznego dostawcę DNS, co omija Prywatny DNS. **Chrome nadal wyświetla reklamy:** w Chrome otwórz _Ustawienia → Prywatność i bezpieczeństwo → Użyj bezpiecznego DNS_ i wybierz _Użyj bieżącego dostawcy usług_. Wtedy Chrome korzysta z Prywatnego DNS.

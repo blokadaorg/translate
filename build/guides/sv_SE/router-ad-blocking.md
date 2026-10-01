@@ -1,7 +1,7 @@
 ---
 title: Blockera reklam i hela nätverket med reklamblockering i routern
 description: Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 4
 ---
 
@@ -24,22 +24,22 @@ Din router måste stödja **krypterad DNS med ett värdnamn**, det vill säga DN
 
 FRITZ!OS 7.20 eller senare.
 
-1. Öppna `http://fritz.box` och gå till _Internet → Account Information → DNS Server_.
-2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_ kryssar du i _Use encrypted name resolution_.
-3. Kryssa i _Enforce certificate verification for encrypted name resolution_.
-4. Avmarkera _Allow fallback to unencrypted name resolution_.
-5. I _Resolver-namn_, ange endast {% dot %}. **Ta bort alla andra poster.** FRITZ!Box använder alla listade resolvers, och någon annan släpper igenom annonser.
+1. Öppna `http://fritz.box`, gå till _Internet → Account Information_ och sedan fliken _DNS Server_.
+2. Aktivera _Encrypted name resolution in the internet (DNS over TLS)_.
+3. I _Upplösta namn på DNS-servern_, ange endast {% dot %}. **Ta bort alla andra poster.** FRITZ!Box använder alla listade resolvers, och någon annan släpper igenom annonser.
+4. Kryssa i alternativet som kräver certifikatkontroll och avmarkera det som tillåter återgång till okrypterad namnupplösning.
+5. Om du ser _Failover to public DNS servers when DNS disrupted_ stänger du av det.
 6. Klicka på _Apply_.
 
 ## ASUS
 
-Nyare ASUS-firmware (3.0.0.4.388 eller senare) och Asuswrt-Merlin.
+ASUS-firmware senare än 3.0.0.4.386.4xxxx och Asuswrt-Merlin.
 
 1. Öppna routerns administrationssida och gå till _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_ ställer du in _DNS Privacy Protocol_ på _DNS-over-TLS (DoT)_ och _DNS-over-TLS Profile_ på _Strict_.
 3. Ta bort alla poster i _DNS-over-TLS Server List_ och lägg sedan till en:
-   - Adress: {% ip "dot" %}
-   - TLS-värdnamn: {% dot %}
+   - Address: {% ip "dot" %}
+   - TLS Hostname: {% dot %}
 4. Klicka på _Apply_.
 
 ## OpenWrt

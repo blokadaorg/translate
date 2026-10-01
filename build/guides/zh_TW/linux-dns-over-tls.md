@@ -25,7 +25,7 @@ Domains=~.</code></pre>
 
 <div class="note">
 
-**NetworkManager** 也會傳遞您網路上的 DNS 伺服器。 `Domains=~.` 會將所有查詢傳送到 Blokada，但如果 `resolvectl status` 仍然在某個連線上列出其他伺服器，請關閉該連線的自動 DNS 分配（在 IPv4 和 IPv6 設定中的 _DNS_ 旁的 _自動_ 開關）。
+**NetworkManager** 也會傳遞您網路上的 DNS 伺服器。 **NetworkManager** 也會傳遞您網路上的 DNS 伺服器。 `Domains=~.` 會將所有查詢傳送到 Blokada，但如果 `resolvectl status` 仍然在某個連線上列出其他伺服器，請關閉該連線的自動 DNS 分配（在 IPv4 和 IPv6 設定中的 _DNS_ 旁的 _自動_ 開關）。
 
 </div>
 
@@ -39,6 +39,6 @@ Domains=~.</code></pre>
 
 <div class="note">
 
-想讓這台電腦也有 VPN 嗎？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 設定，可加密所有流量，並同時繼續阻擋廣告與追蹤器。
+想讓這台電腦也有 VPN 嗎？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 設定，可加密所有流量，並同時繼續阻擋廣告與追蹤器。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 設定，可加密所有流量，並同時繼續阻擋廣告與追蹤器。
 
 </div>

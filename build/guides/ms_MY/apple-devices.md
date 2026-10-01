@@ -59,7 +59,7 @@ The Apple TV cannot open web pages, so you type your profile link into it.
 
 1. Your profile link: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Send to Apple_ (called _Share Apple TV Analytics_ on older tvOS). Don't select it. Press the Play/Pause button on the remote instead.
+3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
 4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
 
 <div class="note">

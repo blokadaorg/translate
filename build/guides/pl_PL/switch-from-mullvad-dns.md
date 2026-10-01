@@ -5,7 +5,7 @@ updated: 2026-09-23
 order: 2
 ---
 
-Mullvad zamyka swoją bezpłatną publiczną usługę DNS **2 listopada 2026** i zaleca zamiast tego korzystanie z Quad9. Quad9 blokuje złośliwe oprogramowanie, ale **nie** blokuje reklam ani trackerów. Jeśli używałeś jednej z filtrowanych nazw DNS Mullvad, reklamy wrócą w tym dniu, chyba że się przełączysz.
+Mullvad zamyka swoją bezpłatną publiczną usługę DNS **2 listopada 2026** i zaleca zamiast tego korzystanie z Quad9. Quad9 blokuje złośliwe oprogramowanie, ale **nie** blokuje reklam ani trackerów. Gdy DNS Mullvad przestanie działać, urządzenia ustawione na niego przestaną ładować strony internetowe i aplikacje. Jeśli urządzenie może automatycznie przełączyć się na inny serwer DNS, zamiast tego powrócą reklamy. Przełącz się przed tą datą.
 
 Ta strona dotyczy publicznych nazw DNS kończących się na `dns.mullvad.net`. Nie dotyczy aplikacji Mullvad VPN.
 

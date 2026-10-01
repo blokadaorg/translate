@@ -1,7 +1,7 @@
 ---
 title: Un'alternativa a Pi-hole che non richiede hardware
 description: Trasferisci il blocco della pubblicità di casa tua da un Pi-hole a Blokada Cloud, oppure mantieni il tuo Pi-hole e invia le sue richieste attraverso Blokada.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 

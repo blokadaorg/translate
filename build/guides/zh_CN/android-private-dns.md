@@ -1,13 +1,13 @@
 ---
 title: 在 Android 上使用 Blokada Cloud 设置专用 DNS。
-description: 使用 Android 内置的专用 DNS 设置搭配 Blokada Cloud，在所有应用中、包括 Wi-Fi 和移动数据下屏蔽广告和追踪器。或者让 Blokada 6 应用自动完成。
+description: 使用 Android 内置的专用 DNS 设置搭配 Blokada Cloud，在所有应用中、包括 Wi-Fi 和移动数据下屏蔽广告和追踪器。或者让 Blokada 6 应用自动完成。或者让 Blokada 6 应用自动完成。
 updated: 2026-09-28
 order: 5
 ---
 
 ## 最简单的方法：应用
 
-[Blokada 6](https://go.blokada.org/play_cloud) 会为你自动完成所有设置，一键开启或关闭拦截，并在手机上显示已拦截内容。使用你的帐号 ID 登录即可。
+[Blokada 6](https://go.blokada.org/play_cloud) 会为你自动完成所有设置，一键开启或关闭拦截，并在手机上显示已拦截内容。使用你的帐号 ID 登录即可。使用你的帐号 ID 登录即可。
 
 <p><a class=\"btn btn-primary\" href=\"https://go.blokada.org/play_cloud\">在 Google Play 获取 Blokada 6</a></p>
 
@@ -30,6 +30,6 @@ Android 9 及更高版本有一&#x4E2A;_&#x79C1;有 DN&#x53;_&#x8BBE;置。将�
 
 ## 如遇问题
 
-- \*\*“无法连接”或无网络：\*\*请检查您的 Blokada DNS 名称是否有拼写错误。必须与上方显示内容完全一致，不带 `https://`。
-- \*\*另一个 VPN 应用正在运行：\*\*某些 VPN 应用使用自己的 DNS 并绕过私有 DNS。请关闭该 VPN 的 DNS 或广告拦截设置，或者改用 Blokada 6。
-- \*\*Chrome 仍然显示广告：\*\*在 Chrome 中，打&#x5F00;_&#x8BBE;置 → 隐私和安全 → 使用安全 DNS_，并选&#x62E9;_&#x4F7F;用当前服务提供商_。
+- \*\*“无法连接”或无网络：\*\*请检查您的 Blokada DNS 名称是否有拼写错误。必须与上方显示内容完全一致，不带 `https://`。必须与上方显示内容完全一致，不带 `https://`。
+- \*\*另一个 VPN 应用正在运行：\*\*某些 VPN 应用使用自己的 DNS 并绕过私有 DNS。 \*\*另一个 VPN 应用正在运行：\*\*某些 VPN 应用使用自己的 DNS 并绕过私有 DNS。请关闭该 VPN 的 DNS 或广告拦截设置，或者改用 Blokada 6。
+- \*\*Chrome 仍然显示广告：\*\*在 Chrome 中，打&#x5F00;_&#x8BBE;置 → 隐私和安全 → 使用安全 DNS_，并选&#x62E9;_&#x4F7F;用当前服务提供商_。在 Chrome 中，打开 _设置 → 隐私和安全 → 使用安全 DNS_，然后选择 _使用您当前的服务提供商_。此时 Chrome 会遵循私有 DNS。

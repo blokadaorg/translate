@@ -1,7 +1,7 @@
 ---
 title: 無需硬體的 Pi-hole 替代方案
 description: 將您家中的廣告阻擋從 Pi-hole 遷移到 Blokada Cloud，或保留 Pi-hole 並將其查詢通過 Blokada 傳送。
-updated: 2026-09-23
+updated: 2026-10-01
 order: 1
 ---
 

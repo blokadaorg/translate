@@ -26,9 +26,9 @@ FRITZ!OS 7.20 eller nyere.
 
 1. Åpne `http://fritz.box` og gå til _Internett → Kontoinformasjon → DNS-server_.
 2. Under _Kryptert navneoppløsning på Internett (DNS over TLS)_, huk av for _Bruk kryptert navneoppløsning_.
-3. Huk av for _Tving sertifikatverifisering for kryptert navneoppløsning_.
+3. I _Oppløste navn til DNS-serveren_, skriv inn kun {% dot %}. **Fjern alle andre oppføringer.** FRITZ!Box bruker alle oppførte resolvere, og en hvilken som helst annen slipper annonser gjennom.
 4. Fjern avhuking for _Tillat fallback til ukryptert navneoppløsning_.
-5. I _Resolver-navn_, skriv kun inn {% dot %}. **Fjern alle andre oppføringer.** FRITZ!Box bruker alle oppførte resolvere, og en hvilken som helst annen slipper annonser gjennom.
+5. Hvis du ser _Overgang til offentlige DNS-servere ved DNS-avbrudd_, slå det av.
 6. Klikk på _Bruk_.
 
 ## ASUS

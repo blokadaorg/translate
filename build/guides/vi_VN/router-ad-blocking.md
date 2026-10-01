@@ -26,9 +26,9 @@ FRITZ!OS 7.20 or later.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. Tick _Enforce certificate verification for encrypted name resolution_.
+3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
 4. Untick _Allow fallback to unencrypted name resolution_.
-5. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
 6. Click _Apply_.
 
 ## ASUS
