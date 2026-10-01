@@ -26,9 +26,9 @@ FRITZ!OS 7.20 of nieuwer.
 
 1. Open `http://fritz.box` en ga naar _Internet → Accountgegevens → DNS-server_.
 2. Vink bij _Versleutelde naamomzetting op internet (DNS over TLS)_ de optie _Versleutelde naamomzetting gebruiken_ aan.
-3. Vink _Certificaatverificatie afdwingen voor versleutelde naamomzetting_ aan.
-4. Haal het vinkje weg bij _Terugval op niet-versleutelde naamomzetting toestaan_.
-5. Voer onder _Resolvernamen_ alleen {% dot %} in. **Verwijder alle andere vermeldingen.** De FRITZ!Box gebruikt alle vermelde resolvers; elke andere laat advertenties door.
+3. Voer onder _Resolvernamen_ alleen {% dot %} in. **Verwijder alle andere vermeldingen.** De FRITZ!Box gebruikt alle vermelde resolvers; elke andere laat advertenties door.
+4. Vink de optie aan die certificaatverificatie afdwingt, en vink de optie uit waarmee terugval op niet-versleutelde naamsomzetting is toegestaan.
+5. Als je _Failover naar openbare DNS-servers wanneer DNS wordt onderbroken_ ziet, schakel deze dan uit.
 6. Klik op _Toepassen_.
 
 ## ASUS
