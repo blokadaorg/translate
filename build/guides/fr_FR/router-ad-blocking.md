@@ -1,7 +1,7 @@
 ---
 title: Bloquez les publicités sur l'ensemble de votre réseau grâce au blocage des publicités via le routeur.
 description: Configurez Blokada Cloud une fois sur votre routeur, et chaque appareil à la maison sera protégé, y compris les téléviseurs, consoles de jeu et enceintes connectées qui ne peuvent pas exécuter d'application de blocage des publicités.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Chaque appareil de votre réseau demande au routeur quel serveur DNS utiliser. C
 
 ## Ce dont votre routeur a besoin
 
-Votre routeur doit prendre en charge **le DNS chiffré avec un nom d'hôte**, c'est-à-dire DNS over TLS (DoT) ou DNS over HTTPS (DoH). Beaucoup de routeurs récents le font, y compris les modèles ci-dessous. Selon ce que votre routeur prend en charge, vous avez besoin de :
+Votre routeur doit prendre en charge **le DNS chiffré avec un nom d'hôte**, c'est-à-dire DNS over TLS (DoT) ou DNS over HTTPS (DoH). Beaucoup de routeurs récents le font, y compris les modèles ci-dessous. Selon la compatibilité de votre routeur, vous aurez besoin de votre nom DNS ou de votre lien DoH, tous deux disponibles sous _Vos détails_ ci-dessus.
 
-- Pour DNS over TLS, votre nom DNS Blokada : {% dot %}
-- Pour DNS over HTTPS, votre lien DoH : {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Adresses IP simples uniquement&nbsp;?** De nombreux routeurs de fournisseurs d'accès à Internet n'acceptent que les adresses IP pour le DNS. La prise en charge de ces appareils arrive prochainement. D'ici là, configurez vos appareils un par un : [Android](../android-private-dns/), [Mac et Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) et [navigateurs](../browser-dns-over-https/). Vous pouvez également utiliser un petit retransmetteur sur un Raspberry Pi, comme indiqué dans le [guide Pi-hole](../switch-from-pihole/).
 
@@ -58,9 +55,11 @@ Cherchez un paramètre nommé _DNS over TLS_, _DNS privé_, _DNS chiffré_ ou _D
 1. Redémarrez un appareil, ou désactivez puis réactivez son Wi-Fi, afin qu'il prenne en compte la modification.
 2. Naviguez pendant une minute, puis ouvrez la page _Activité_ dans le tableau de bord. Les requêtes de votre réseau apparaissent ici.
 
+## Si certains appareils affichent encore des publicités
+
 Certains appareils contournent le routeur&nbsp;: téléphones avec _DNS privé_ activé, navigateurs avec un _DNS sécurisé_ d'un autre fournisseur, et appareils qui utilisent leur propre DNS codé en dur. Configurez-les directement sur l'appareil, ou désactivez leur propre paramètre DNS.
 
-<div class="note">
+<div class="note tip">
 
 Derrière le routeur, tous les appareils partagent une seule adresse, ainsi le tableau de bord affiche votre réseau comme un seul appareil. Configurez les téléphones et ordinateurs portables avec leur propre nom DNS Blokada si vous souhaitez les voir séparément. Ils conservent aussi leur blocage lorsqu'ils quittent la maison.
 
