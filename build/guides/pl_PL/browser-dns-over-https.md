@@ -1,15 +1,13 @@
 ---
 title: Blokuj reklamy w Chrome, Firefox, Edge i Brave za pomocą DNS over HTTPS
 description: Ustaw Blokada Cloud jako bezpiecznego dostawcę DNS w swojej przeglądarce, aby blokować reklamy i trackery na dowolnym komputerze, w tym na laptopach służbowych, na których nie możesz instalować aplikacji.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 Nowoczesne przeglądarki mogą używać własnego, szyfrowanego dostawcy DNS, nazywanego _bezpieczny DNS_ lub _DNS over HTTPS_. Ustaw go na Blokada Cloud, a przeglądarka będzie blokować reklamy i trackery w każdej sieci, bez potrzeby instalowania rozszerzeń.
 
 To ustawienie dotyczy tylko tej przeglądarki. Aby objąć ochroną cały komputer, użyj [profilu Apple](../apple-devices/) na Macu lub skonfiguruj [router](../router-ad-blocking/).
-
-Twój link DoH: {% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari nie ma własnego ustawienia bezpiecznego DNS. Używa DNS systemu, dlatego
 
 Przeglądaj przez chwilę, a następnie otwórz stronę _Aktywność_ w [panelu](https://app.blokada.org/stats?src=guides). Zapytania tej przeglądarki pojawią się tam.
 
-<div class="note">
+## Jeśli coś nie działa
+
+<div class="note tip">
 
 Jeśli Twoja przeglądarka jest zarządzana przez firmę lub szkołę, ustawienie bezpiecznego DNS może być zablokowane. Poproś administratora.
 
