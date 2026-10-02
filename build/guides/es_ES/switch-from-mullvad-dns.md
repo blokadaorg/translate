@@ -1,7 +1,7 @@
 ---
 title: Mullvad DNS dejará de funcionar. Mantenga Su bloqueo de anuncios con La Nube de Blokada
 description: Mullvad cerrará su DNS público el 2 de noviembre de 2026. Aquí le mostramos cómo mover Su teléfono, computadora y router a La Nube de Blokada antes de esa fecha, sin perder el bloqueo de anuncios.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 2
 ---
 
@@ -22,14 +22,9 @@ Esta página trata sobre los nombres públicos de DNS que terminan en `dns.mullv
 
 Usted elige las listas de bloqueo en el panel bajo _Listas de bloqueo_. Puede cambiarlas en cualquier momento, y el cambio se aplicará a todos Sus dispositivos.
 
-## Sus detalles de Blokada
-
-Blokada le da a cada dispositivo su propio nombre, así que el panel puede mostrar la actividad por dispositivo:
-
-- Su nombre de DNS de Blokada, para DNS sobre TLS (Android, routers): {% dot %}
-- Su enlace DoH, para DNS sobre HTTPS (navegadores, algunos routers): {% doh %}
-
 ## Cambie cada dispositivo
+
+Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
 
 ### Android
 
