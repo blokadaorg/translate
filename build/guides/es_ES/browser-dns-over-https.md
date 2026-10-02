@@ -1,15 +1,13 @@
 ---
 title: Bloquee anuncios en Chrome, Firefox, Edge y Brave con DNS sobre HTTPS.
 description: Configure La Nube de Blokada como el proveedor de DNS seguro en su navegador para bloquear anuncios y rastreadores, en cualquier computadora, incluyendo portátiles de trabajo donde no puede instalar aplicaciones.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 Los navegadores modernos pueden usar su propio proveedor de DNS cifrado, llamado _DNS seguro_ o _DNS sobre HTTPS_. Establézcalo en La Nube de Blokada, y el navegador bloquea anuncios y rastreadores en cualquier red, sin necesidad de instalar extensiones.
 
 Esta configuración cubre solo este navegador. Para cubrir toda la computadora, use el [perfil de Apple](../apple-devices/) en una Mac, o configure su [router](../router-ad-blocking/).
-
-Su enlace DoH: {% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari no tiene una configuración propia de DNS seguro. Utiliza el DNS del sist
 
 Navegue durante un minuto y luego abra la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las consultas de este navegador se mostrarán allí.
 
-<div class="note">
+## Si algo no funciona
+
+<div class="note tip">
 
 Si su navegador es administrado por el trabajo o la escuela, la configuración de DNS seguro podría estar bloqueada. Consulte con su administrador.
 
