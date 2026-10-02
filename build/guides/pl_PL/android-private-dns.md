@@ -1,7 +1,7 @@
 ---
 title: Skonfiguruj Prywatny DNS na Androidzie z Blokada Cloud.
 description: Użyj wbudowanego ustawienia Prywatnego DNS w Androidzie z Blokada Cloud, aby blokować reklamy i trackery we wszystkich aplikacjach, zarówno w sieci Wi-Fi, jak i transmisji danych komórkowych. Lub pozwól, aby zrobiła to aplikacja Blokada 6.
-updated: 2026-10-02
+updated: 02.10.2026
 order: 5
 ---
 
