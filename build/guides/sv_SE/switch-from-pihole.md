@@ -1,7 +1,7 @@
 ---
 title: Ett alternativ till Pi-hole som inte kräver någon hårdvara
 description: Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.
-updated: 2026-10-01'}]} 2026-10-01
+updated: 2026-10-02
 order: 1
 ---
 
@@ -16,15 +16,13 @@ Det finns två sätt att byta. Byt ut Pi-hole helt, eller behåll den och låt d
 
 ## Alternativ 1: ersätt Pi-hole
 
-1. **Skaffa Blokada Cloud** och öppna instrumentpanelen. Under _Setup_ hittar du dina uppgifter:
-   - Ditt Blokada-DNS-namn, för DNS över TLS: {% dot %}
-   - Din DoH-länk, för DNS över HTTPS: {% doh %}
+1. **Skaffa Blokada Cloud** och öppna instrumentpanelen. Ditt DNS-namn och DoH-länk finns under _Setup_ där, och under _Dina uppgifter_ ovan.
 2. **Peka din router mot Blokada istället för Pi-hole.** Följ [routerguiden](../router-ad-blocking/). Om din router bara accepterar en vanlig IP-adress som DNS-server, konfigurera enheterna en och en istället: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/).
 3. **Om din Pi-hole var DHCP-server,** slå på DHCP i routern _innan_ du stänger av Pi. Annars kommer dina enheter inte att få några nätverksadresser.
 4. **Flytta dina listor.** I dashboarden väljer du blocklistor under _Blocklistor_ och lägger till egna tillåtna eller blockerade domäner under _Undantag_.
 5. **Stäng av Pi-hole,** eller använd den till något annat.
 
-<div class="note">
+<div class="note aside">
 
 Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada DNS-namn. En router som är konfigurerad med ett Blokada DNS-namn visas som en enhet.
 
