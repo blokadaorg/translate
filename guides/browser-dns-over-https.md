@@ -1,15 +1,13 @@
 ---
 title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
 description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 Modern browsers can use their own encrypted DNS provider, called *secure DNS* or *DNS over HTTPS*. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
 
 This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
-
-Your DoH link: {% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari has no secure DNS setting of its own. It uses the system's DNS, so instal
 
 Browse for a minute, then open the *Activity* page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
 
-<div class="note">
+## If something doesn't work
+
+<div class="note tip">
 
 If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
 
