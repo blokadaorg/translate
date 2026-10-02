@@ -1,15 +1,13 @@
 ---
 title: Blokkeer advertenties in Chrome, Firefox, Edge en Brave met DNS over HTTPS.
 description: Stel Blokada Cloud in als de beveiligde DNS-provider in je browser om advertenties en trackers te blokkeren, op elke computer, inclusief werk-laptops waarop je geen apps kunt installeren.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 Moderne browsers kunnen hun eigen versleutelde DNS-provider gebruiken, genaamd _beveiligde DNS_ of _DNS over HTTPS_. Stel deze in op Blokada Cloud, en de browser blokkeert advertenties en trackers op elk netwerk, zonder dat je een extensie hoeft te installeren.
 
 Deze instelling geldt alleen voor deze browser. Om de hele computer te beschermen, gebruik je het [Apple-profiel](../apple-devices/) op een Mac, of stel je je [router](../router-ad-blocking/) in.
-
-Je DoH-link: {% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari heeft geen eigen instelling voor beveiligde DNS. Safari gebruikt het DNS 
 
 Blader een minuut rond en open dan de pagina _Activiteit_ in het [dashboard](https://app.blokada.org/stats?src=guides). De opvragingen van deze browser zijn daar zichtbaar.
 
-<div class="note">
+## Als iets niet werkt
+
+<div class="note tip">
 
 Als je browser wordt beheerd door werk of school, kan het zijn dat de instelling voor beveiligde DNS is vergrendeld. Vraag je beheerder om hulp.
 
