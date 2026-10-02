@@ -1,7 +1,7 @@
 ---
 title: حظر الإعلانات على جهاز Mac وApple TV باستخدام ملف تعريف DNS من Blokada
 description: قم بتثبيت ملف تعريف DNS من Blokada Cloud لحظر الإعلانات والمتعقبات على مستوى النظام في جهاز Mac أو Apple TV، مع DNS مشفر ودون تشغيل أي شيء في الخلفية.
-updated: 2026-10-02
+updated: ٢٠٢٦-١٠-٠٢
 order: 6
 ---
 
