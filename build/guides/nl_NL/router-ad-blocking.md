@@ -1,7 +1,7 @@
 ---
 title: Blokkeer advertenties op je hele netwerk met router-advertentieblokkering.
 description: Stel Blokada Cloud één keer in op je router en elk apparaat thuis is beschermd, inclusief tv's, spelcomputers en slimme speakers die geen advertentieblokker kunnen uitvoeren.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Elk apparaat op je netwerk vraagt de router welke DNS-server gebruikt moet worde
 
 ## Wat je router nodig heeft
 
-Je router moet **versleutelde DNS met een hostnaam** ondersteunen, oftewel DNS over TLS (DoT) of DNS over HTTPS (DoH). Veel recente routers ondersteunen dit, waaronder de onderstaande modellen. Afhankelijk van wat je router ondersteunt, heb je het volgende nodig:
+Je router moet **versleutelde DNS met een hostnaam** ondersteunen, oftewel DNS over TLS (DoT) of DNS over HTTPS (DoH). Veel recente routers ondersteunen dit, waaronder de onderstaande modellen. Afhankelijk van wat uw router ondersteunt, heeft u uw DNS-naam of uw DoH-link nodig, beide te vinden onder _Uw gegevens_ hierboven.
 
-- Voor DNS over TLS, je Blokada DNS-naam: {% dot %}
-- Voor DNS over HTTPS, je DoH-link: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Alleen platte IP-adressen?** Veel routers van internetproviders accepteren alleen platte IP-adressen voor DNS. Ondersteuning daarvoor is onderweg. Tot die tijd stel je je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/). Je kunt ook een kleine forwarder op een Raspberry Pi draaien, zoals beschreven in de [Pi-hole handleiding](../switch-from-pihole/).
 
@@ -58,9 +55,11 @@ Zoek naar een instelling genaamd _DNS over TLS_, _Private DNS_, _Versleutelde DN
 1. Herstart één apparaat of zet de wifi uit en weer aan, zodat het de wijziging oppikt.
 2. Navigeer één minuut op internet en open dan de pagina _Activiteit_ in het dashboard. De opvragingen van je netwerk verschijnen daar.
 
+## Als sommige apparaten nog steeds advertenties weergeven
+
 Sommige apparaten omzeilen de router: telefoons met _Private DNS_ ingesteld, browsers met _beveiligde DNS_ ingesteld bij een andere provider en apparaten die hun eigen DNS hard-coderen. Stel deze in op het apparaat zelf of schakel hun eigen DNS-instelling uit.
 
-<div class="note">
+<div class="note tip">
 
 Achter de router delen alle apparaten één adres, dus het dashboard toont je netwerk als één apparaat. Stel telefoons en laptops in met hun eigen Blokada DNS-naam als je ze apart wilt zien. Ze behouden hun blokkering ook als ze thuis weg zijn.
 
