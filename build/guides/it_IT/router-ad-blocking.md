@@ -1,7 +1,7 @@
 ---
 title: Blocca le pubblicità su tutta la tua rete con il blocco degli annunci dal router.
 description: Configura Blokada Cloud una sola volta sul tuo router e tutti i dispositivi di casa saranno protetti, inclusi TV, console di gioco e altoparlanti intelligenti che non possono eseguire un'app blocca pubblicità.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Ogni dispositivo sulla tua rete chiede al router quale server DNS utilizzare. Im
 
 ## Cosa serve al tuo router
 
-Il tuo router deve supportare **DNS crittografato con nome host**, ossia DNS over TLS (DoT) oppure DNS over HTTPS (DoH). Molti router recenti lo supportano, inclusi i modelli qui sotto. A seconda di quale protocollo è supportato dal tuo router, ti serve:
+Il tuo router deve supportare **DNS crittografato con nome host**, ossia DNS over TLS (DoT) oppure DNS over HTTPS (DoH). Molti router recenti lo supportano, inclusi i modelli qui sotto. A seconda di ciò che supporta il tuo router, hai bisogno del tuo nome DNS o del tuo link DoH, entrambi disponibili sotto _I tuoi dati_ qui sopra.
 
-- Per DNS over TLS, il nome DNS di Blokada: {% dot %}
-- Per DNS over HTTPS, il link DoH: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Solo indirizzi IP semplici?** Molti router forniti dai provider Internet accettano solo indirizzi IP semplici per il DNS. Il supporto per questi router è in arrivo. Fino ad allora, configura i tuoi dispositivi uno alla volta: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), e [browser](../browser-dns-over-https/). Puoi anche eseguire un piccolo inoltratore su un Raspberry Pi, come descritto nella [guida Pi-hole](../switch-from-pihole/).
 
@@ -58,9 +55,11 @@ Cerca un'impostazione chiamata _DNS over TLS_, _DNS privato_, _DNS crittografato
 1. Riavvia un dispositivo, oppure spegni e riaccendi il Wi-Fi così da applicare la nuova configurazione.
 2. Naviga per un minuto, poi apri la pagina _Attività_ nella dashboard. Le richieste della tua rete compaiono lì.
 
+## Se alcuni dispositivi mostrano ancora annunci
+
 Alcuni dispositivi aggirano il router: telefoni con _DNS privato_ impostato, browser con _DNS sicuro_ configurato su un altro provider e dispositivi che impostano un DNS proprio. Configura quelli direttamente dal dispositivo, oppure disattiva la rispettiva impostazione DNS.
 
-<div class="note">
+<div class="note tip">
 
 Dietro il router, tutti i dispositivi condividono un solo indirizzo, quindi la dashboard mostra la tua rete come un unico dispositivo. Configura telefoni e laptop con un nome DNS di Blokada dedicato se vuoi visualizzarli separatamente. Inoltre, continuano a bloccare le pubblicità quando lasciano casa.
 
