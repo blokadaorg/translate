@@ -9,7 +9,7 @@ Every device on your network asks the router which DNS server to use. Point the 
 
 ## What your router needs
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. В зависимости от возможностей вашего маршрутизатора, вам понадобится ваше DNS-имя или ваша DoH-ссылка - обе находятся выше в разделе _Ваши данные_.
 
 <div class="note important">
 
@@ -55,7 +55,7 @@ Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS
 1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
 2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
 
-## If some devices still show ads
+## Если на некоторых устройствах все еще отображается реклама
 
 Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
 
