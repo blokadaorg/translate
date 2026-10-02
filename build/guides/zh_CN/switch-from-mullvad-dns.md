@@ -1,7 +1,7 @@
 ---
 title: Mullvad DNS 即将停止服务。使用 Blokada Cloud 继续拦截广告
 description: Mullvad 将于 2026 年 11 月 2 日关闭其公共 DNS 服务。以下是如何在此日期前将您的手机、电脑和路由器切换至 Blokada Cloud，确保广告拦截不中断。
-updated: 2026-10-01‍
+updated: 2026-10-02
 order: 2
 ---
 
@@ -22,14 +22,9 @@ Mullvad 将于 **2026 年 11 月 2 日** 关闭其免费公共 DNS 服务，并�
 
 您可在控制台的 _Blocklists_ 下选择拦截名单。您可随时更改，且更改会应用到所有设备。
 
-## 您的 Blokada 信息
-
-Blokada 会为每个设备分配唯一名称，控制台可显示每台设备的活动：
-
-- 您的 Blokada DNS 名称，用于 DNS over TLS（Android、路由器）：{% dot %}
-- 您的 DoH 链接，用于 DNS over HTTPS（浏览器、部分路由器）：{% doh %}
-
 ## 切换每台设备
+
+Blokada 为每个设备分配一个名称，因此仪表板可以显示每个设备的活动。根据设备的不同，您需要您的 DNS 名称或者 DoH 链接，这两项都可以在上方的 _您的详细信息_ 下找到。
 
 ### Android
 
