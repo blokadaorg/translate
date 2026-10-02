@@ -1,7 +1,7 @@
 ---
 title: 一個在每個裝置上都能用相同設定的 NextDNS 替代方案
 description: 從 NextDNS 轉移到 Blokada Cloud。將你的 NextDNS DNS 名稱、DoH 鏈接或設定檔替換為你的 Blokada，在手機、電腦和路由器上，並持續阻擋廣告。
-updated: 2026-10-01
+updated: 2026-10-02
 order: 3
 ---
 
@@ -18,12 +18,9 @@ NextDNS 與 Blokada Cloud 以相同方式運作：它們是能透過加密 DNS �
 | _允許清單_ 與 _封鎖清單_     | 儀表板中的 _例外_                          |
 | _日誌_ 與 _統計分析_       | 儀表板中 _活動_ 與 _統計_                    |
 
-## 你的 Blokada 資訊
-
-- 你的 Blokada DNS 名稱，適用於 DNS over TLS：{% dot %}
-- 你的 DoH 連結，適用於 DNS over HTTPS：{% doh %}
-
 ## 逐一切換你的裝置
+
+根據您的裝置，您需要您的 DNS 名稱或 DoH 連結，這兩者都在上方的 _您的詳細資料_ 下可找到。
 
 ### Android
 
