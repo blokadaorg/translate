@@ -1,7 +1,7 @@
 ---
 title: Werbung im ganzen Netzwerk blockieren mit einem Router-Werbeblocker
 description: Richte Blokada Cloud einmal im Router ein und blockiere Werbung auf allen Geräten in deinem Zuhause, auch auf Smart-TV, Spielkonsole und Smart Speaker.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen s
 
 ## Was dein Router können muss
 
-Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du:
+Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, benötigst du entweder deinen DNS-Namen oder deinen DoH-Link, beide findest du oben unter _Deine Angaben_.
 
-- Für DNS over TLS deinen Blokada-DNS-Namen: {% dot %}
-- Für DNS over HTTPS dein DoH-Link: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Nur einfache IP-Adressen?** Viele Router von Internetanbietern akzeptieren für DNS nur einfache IP-Adressen. Unterstützung dafür ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein: [Android](../android-private-dns/), [Mac und Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) und [Browser](../browser-dns-over-https/). Du kannst auch eine kleine Weiterleitung auf einem Raspberry Pi betreiben, wie in der [Pi-hole-Anleitung](../switch-from-pihole/) beschrieben.
 
@@ -58,9 +55,11 @@ Suche nach einer Einstellung namens _DNS over TLS_, _Privates DNS_, _Verschlüss
 1. Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.
 2. Surfe eine Minute lang und öffne dann die Seite _Aktivität_ im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.
 
+## Wenn auf einigen Geräten weiterhin Werbung angezeigt wird
+
 Manche Geräte umgehen den Router: Handys mit eingerichtetem _Privatem DNS_, Browser, deren _sicheres DNS_ auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.
 
-<div class="note">
+<div class="note tip">
 
 Hinter dem Router teilen sich alle Geräte eine Adresse, deshalb zeigt das Dashboard dein Netzwerk als ein einziges Gerät. Richte Handys und Laptops mit ihrem eigenen Blokada-DNS-Namen ein, wenn du sie einzeln sehen möchtest. So bleibt ihre Blockierung auch unterwegs aktiv.
 
