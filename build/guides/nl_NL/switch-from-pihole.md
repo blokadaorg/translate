@@ -1,7 +1,7 @@
 ---
 title: Een Pi-hole alternatief dat geen hardware nodig heeft.
 description: Verplaats de advertentieblokkering van je huis van een Pi-hole naar Blokada Cloud, of behoud je Pi-hole en stuur de zoekopdrachten daarvan via Blokada.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 1
 ---
 
@@ -16,15 +16,13 @@ Er zijn twee manieren om over te stappen. Vervang de Pi-hole volledig, of houd h
 
 ## Optie 1: vervang de Pi-hole
 
-1. **Haal Blokada Cloud** en open het dashboard. Onder _Setup_ vind je je gegevens:
-   - Je Blokada DNS-naam, voor DNS over TLS: {% dot %}
-   - Je DoH-link, voor DNS over HTTPS: {% doh %}
+1. **Haal Blokada Cloud** en open het dashboard. Je DNS-naam en DoH-link vind je onder _Setup_ daar, en onder _Jouw gegevens_ hierboven.
 2. **Stel je router in op Blokada in plaats van de Pi-hole.** Volg de [routerhandleiding](../router-ad-blocking/). Als je router alleen een gewoon IP-adres als DNS-server accepteert, stel dan je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/).
 3. **Als je Pi-hole de DHCP-server was,** zet DHCP weer aan op je router _voordat_ je de Pi uitschakelt. Anders krijgen je apparaten geen netwerkadressen meer.
 4. **Verplaats je lijsten.** Kies in het dashboard blokkeerlijsten onder _Blocklists_, en voeg je eigen toegestane of geblokkeerde domeinen toe onder _Exceptions_.
 5. **Schakel de Pi-hole uit,** of bewaar hem voor een ander doel.
 
-<div class="note">
+<div class="note aside">
 
 Je Pi-hole liet elk apparaat in het netwerk zien met zijn IP-adres. Met Blokada verschijnt elk apparaat onder zijn eigen naam, zolang het zijn eigen Blokada DNS-naam gebruikt. Een router die is ingesteld met één Blokada DNS-naam verschijnt als één apparaat.
 
