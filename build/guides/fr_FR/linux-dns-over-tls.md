@@ -1,7 +1,7 @@
 ---
 title: Bloquez les publicités sur Linux avec DNS over TLS
 description: Configurez systemd-resolved pour utiliser Blokada Cloud via DNS chiffré over TLS, et bloquez les publicités et traqueurs pour chaque application sur votre ordinateur Linux.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 9
 ---
 
@@ -23,7 +23,7 @@ Domains=~.</code></pre>
 
 La partie après `#` est votre nom DNS Blokada : {% dot %} systemd-resolved vérifie le certificat du serveur avec celui-ci, et Blokada l'utilise pour savoir quel appareil effectue la requête.
 
-<div class="note">
+<div class="note important">
 
 **NetworkManager** transmet aussi les serveurs DNS de votre réseau. `Domains=~.` envoie toutes les recherches à Blokada, mais si `resolvectl status` affiche toujours un autre serveur sur une connexion, désactivez l'attribution automatique du DNS pour cette connexion (l'interrupteur _Automatique_ à côté de _DNS_ dans ses paramètres IPv4 et IPv6).
 
@@ -37,7 +37,7 @@ Si `resolvectl` n'est pas trouvé, votre distribution résout les noms d'une aut
 
 Ouvrez quelques sites web, puis consultez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les recherches de cet ordinateur apparaissent ici.
 
-<div class="note">
+<div class="note aside">
 
 Vous voulez aussi un VPN sur cet ordinateur ? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) inclut une configuration WireGuard qui chiffre tout le trafic, avec le même blocage.
 
