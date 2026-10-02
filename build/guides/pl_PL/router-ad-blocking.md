@@ -1,7 +1,7 @@
 ---
 title: Blokuj reklamy w całej swojej sieci dzięki blokowaniu reklam na routerze.
 description: Skonfiguruj Blokada Cloud na swoim routerze tylko raz, a każde urządzenie w domu będzie chronione, w tym telewizory, konsole do gier i inteligentne głośniki, które nie mogą uruchamiać blokera reklam.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Każde urządzenie w Twojej sieci pyta router, którego serwera DNS użyć. Skie
 
 ## Czego potrzebuje Twój router
 
-Twój router musi obsługiwać **szyfrowany DNS z nazwą hosta**, czyli DNS-over-TLS (DoT) lub DNS-over-HTTPS (DoH). Wiele nowszych routerów to potrafi, w tym wymienione poniżej modele. W zależności od tego, co obsługuje Twój router, potrzebujesz:
+Twój router musi obsługiwać **szyfrowany DNS z nazwą hosta**, czyli DNS-over-TLS (DoT) lub DNS-over-HTTPS (DoH). Wiele nowszych routerów to potrafi, w tym wymienione poniżej modele. W zależności od tego, które z nich obsługuje Twój router, potrzebujesz swojej nazwy DNS lub linku DoH. Obie te informacje znajdziesz powyżej w sekcji _Twoje dane_.
 
-- Dla DNS over TLS, Twoja nazwa DNS Blokada: {% dot %}
-- Dla DNS over HTTPS, Twój link DoH: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Tylko zwykłe adresy IP?** Wiele routerów od dostawców internetu akceptuje tylko zwykłe adresy IP do DNS. Wsparcie dla nich jest w drodze. Do tego czasu skonfiguruj swoje urządzenia pojedynczo: [Android](../android-private-dns/), [Mac i Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) oraz [przeglądarki](../browser-dns-over-https/). Możesz także uruchomić mały forwarder na Raspberry Pi, zgodnie z opisem w [przewodniku Pi-hole](../switch-from-pihole/).
 
@@ -58,9 +55,11 @@ Poszukaj ustawienia o nazwie _DNS over TLS_, _Prywatny DNS_, _Szyfrowany DNS_ lu
 1. Uruchom ponownie jedno z urządzeń lub wyłącz i włącz jego Wi-Fi, aby odebrało zmianę.
 2. Przeglądaj przez minutę, a następnie otwórz stronę _Aktywność_ w panelu. Zapytania Twojej sieci pojawią się tam.
 
+## Jeśli na niektórych urządzeniach wciąż wyświetlają się reklamy
+
 Niektóre urządzenia omijają router: telefony z ustawionym _Prywatnym DNS_, przeglądarki z _bezpiecznym DNS_ ustawionym na innego dostawcę oraz urządzenia na stałe ustawiające własny DNS. Ustaw to bezpośrednio na urządzeniu lub wyłącz ich własne ustawienia DNS.
 
-<div class="note">
+<div class="note tip">
 
 Za routerem wszystkie urządzenia korzystają z jednego adresu, więc panel wyświetla Twoją sieć jako jedno urządzenie. Skonfiguruj telefony i laptopy z własną nazwą DNS Blokada, jeśli chcesz widzieć je osobno. One również zachowują blokowanie, kiedy są poza domem.
 
