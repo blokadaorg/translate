@@ -1,7 +1,7 @@
 ---
 title: Configura DNS privado en Android con La Nube de Blokada
 description: Utilice la configuración de DNS privado integrada de Android con La Nube de Blokada para bloquear anuncios y rastreadores en cada app, tanto en Wi-Fi como en datos móviles. O deja que la app Blokada 6 lo haga.
-updated: 2026-10-02
+updated: 02-10-2026
 order: 5
 ---
 
