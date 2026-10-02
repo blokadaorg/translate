@@ -1,7 +1,7 @@
 ---
 title: 使用路由器廣告阻擋，為整個網路阻擋廣告
 description: 只需在您的路由器上設置一次 Blokada Cloud，家中的每一台裝置都能受到保護，包括無法執行廣告阻擋程式的電視、遊戲主機與智慧喇叭。
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ order: 4
 
 ## 您的路由器需求
 
-您的路由器必須支援**使用主機名稱的加密 DNS**，也就是 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。許多新型路由器都支援，包括下方這些型號。根據您的路由器支援的功能，您需要：許多新型路由器都支援，包括下方這些型號。根據您的路由器支援的功能，您需要：
+您的路由器必須支援**使用主機名稱的加密 DNS**，也就是 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。許多新型路由器都支援，包括下方這些型號。根據您的路由器支援的功能，您需要：許多新型路由器都支援，包括下方這些型號。根據您的路由器支援的功能，您需要提供您的 DNS 名稱或 DoH 連結，這兩者都可以在上方「您的詳細資訊」中找到。
 
-- 針對 DNS over TLS，請輸入您的 Blokada DNS 名稱：{% dot %}
-- 針對 DNS over HTTPS，請輸入您的 DoH 連結：{% doh %}
-
-<div class="note">
+<div class="note important">
 
 **只能輸入純 IP 位址？** 很多網際網路供應商的路由器只接受 DNS 的純 IP 位址。對這些的支援即將推出。在這之前，請分別為您的裝置設定：[Android](../android-private-dns/)、[Mac 及 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、以及[瀏覽器](../browser-dns-over-https/)。您也可以如在 [Pi-hole 教學](../switch-from-pihole/)中所述，在 Raspberry Pi 上運行小型轉發程式。
 
@@ -58,9 +55,11 @@ FRITZ!OS 7.20 或更新版本。
 1. 重新啟動一台裝置，或關閉再開啟其 Wi-Fi，使其重新獲取設定。
 2. 瀏覽一分鐘，然後在儀表板中開啟 _活動_ 頁面。您網路的查詢將會顯示在該處。
 
+## 如果有些裝置仍然顯示廣告
+
 有些裝置會繞開路由器：已設&#x5B9A;_&#x50;rivate DN&#x53;_&#x7684;手機、已設&#x5B9A;_&#x5B89;全 DN&#x53;_&#x70BA;其他供應商的瀏覽器，及自行硬編碼 DNS 的裝置。請直接在裝置上設定，或關閉他們自己的 DNS 設定。
 
-<div class="note">
+<div class="note tip">
 
 在路由器後方，所有裝置會共用一個位址，因此儀表板會將您的網路顯示為單一裝置。如果希望分開查看，請分別為手機和筆電設置它們自己的 Blokada DNS 名稱。這樣它們即使外出也仍會維持阻擋功能。
 
