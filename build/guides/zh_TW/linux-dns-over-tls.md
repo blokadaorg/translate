@@ -1,7 +1,7 @@
 ---
 title: 在 Linux 使用 DNS-over-TLS 阻擋廣告
 description: 設置 systemd-resolved 以透過加密的 DNS-over-TLS 連接到 Blokada Cloud，並為您 Linux 電腦上的每個應用程式阻擋廣告和追蹤器。
-updated: 2026-09-28
+updated: 2026-10-02
 order: 9
 ---
 
@@ -23,7 +23,7 @@ Domains=~.</code></pre>
 
 `#` 後面部分是您的 Blokada DNS 名稱：{% dot %} systemd-resolved 會檢查伺服器證書並對比名稱，Blokada 也會使用它來識別是哪個裝置正在查詢。
 
-<div class="note">
+<div class="note important">
 
 **NetworkManager** 也會傳遞您網路上的 DNS 伺服器。 **NetworkManager** 也會傳遞您網路上的 DNS 伺服器。 `Domains=~.` 會將所有查詢傳送到 Blokada，但如果 `resolvectl status` 仍然在某個連線上列出其他伺服器，請關閉該連線的自動 DNS 分配（在 IPv4 和 IPv6 設定中的 _DNS_ 旁的 _自動_ 開關）。
 
@@ -37,7 +37,7 @@ Domains=~.</code></pre>
 
 開啟幾個網站，然後到 [儀表板](https://app.blokada.org/stats?src=guides) 的 _活動_ 頁面查看。這台電腦的 DNS 查詢會顯示在那裡。
 
-<div class="note">
+<div class="note aside">
 
 想讓這台電腦也有 VPN 嗎？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 設定，可加密所有流量，並同時繼續阻擋廣告與追蹤器。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 設定，可加密所有流量，並同時繼續阻擋廣告與追蹤器。
 
