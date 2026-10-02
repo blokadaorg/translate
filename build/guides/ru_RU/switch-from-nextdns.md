@@ -20,7 +20,7 @@ NextDNS and Blokada Cloud work the same way: an encrypted DNS service that block
 
 ## Switch each device
 
-Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+В зависимости от устройства, вам понадобится ваше DNS-имя или ваша DoH-ссылка - оба параметра находятся выше в разделе _Ваши данные_.
 
 ### Android
 
