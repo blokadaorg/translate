@@ -1,7 +1,7 @@
 ---
 title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
 description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 2
 ---
 
@@ -22,14 +22,9 @@ This page is about the public DNS names ending in `dns.mullvad.net`. It does not
 
 You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
 
-## Your Blokada details
-
-Blokada gives each device its own name, so the dashboard can show activity per device:
-
-- Your Blokada DNS name, for DNS over TLS (Android, routers): {% dot %}
-- Your DoH link, for DNS over HTTPS (browsers, some routers): {% doh %}
-
 ## Switch each device
+
+Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
 
 ### Android
 
