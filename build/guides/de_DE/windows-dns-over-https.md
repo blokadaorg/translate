@@ -1,16 +1,13 @@
 ---
 title: Werbung unter Windows mit DNS over HTTPS blockieren
 description: Nutze das in Windows 11 eingebaute verschlüsselte DNS mit Blokada Cloud und blockiere Werbung und Tracker in allen Apps und Browsern, ohne Software.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 8
 ---
 
 Windows 11 kann alle DNS-Anfragen verschlüsselt über DNS over HTTPS senden. Stellst du es auf Blokada Cloud um, werden Werbung und Tracker in allen Apps und Browsern auf dem Computer blockiert, ohne dass du etwas installieren musst.
 
-Du brauchst zwei Werte:
-
-- DNS-Server (IP-Adresse): {% ip "doh" %}
-- Dein DoH-Link: {% doh %}
+Du benötigst die IP-Adresse des DNS-Servers und deinen DoH-Link, beide findest du oben unter <i>deine Angaben</i>.
 
 ## Windows 11
 
@@ -23,13 +20,15 @@ Du brauchst zwei Werte:
 
 Nutzt der Computer sowohl WLAN als auch Ethernet, wiederhole das für die andere Verbindung.
 
-<div class="note">
+<div class="note important">
 
 Lass _Alternativer DNS_ leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.
 
-Keine Option _Ein (manuelle Vorlage)_? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die [Browser-Anleitung](../browser-dns-over-https/).
+</div>
 
-Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte _Internetprotokoll, Version 6 (TCP/IPv6)_ in den Eigenschaften des Adapters aus (_Systemsteuerung → Netzwerkverbindungen_), oder richte deinen [Router](../router-ad-blocking/) ein.
+<div class="note tip">
+
+Keine Option _Ein (manuelle Vorlage)_? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die [Browser-Anleitung](../browser-dns-over-https/).
 
 </div>
 
@@ -41,6 +40,14 @@ Windows 10 hat kein eingebautes verschlüsseltes DNS. Richte stattdessen sichere
 
 Öffne ein paar Websites und sieh dir dann die Seite _Aktivität_ im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Computers.
 
+<div class="note aside">
+
+Du möchtest auf diesem Computer auch ein VPN? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) enthält eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.
+
+</div>
+
+## Wenn etwas nicht klappt
+
 Chrome und Edge verfügen über eigene _sichere DNS_-Einstellungen, die Windows umgehen. Wenn es auf automatisch bleibt, kann es auf einfaches DNS zurückfallen, was Blokada ablehnt. Stelle stattdessen deinen DoH-Link ein:
 
 - **Chrome:** Öffne `chrome://settings/security`, aktiviere _Sichere DNS verwenden_ und wähle bei _DNS-Anbieter auswählen_ die Option _Benutzerdefinierten DNS-Dienstanbieter hinzufügen_.
@@ -48,8 +55,4 @@ Chrome und Edge verfügen über eigene _sichere DNS_-Einstellungen, die Windows 
 
 Dann füge deinen DoH-Link ein {% doh %}
 
-<div class="note">
-
-Du möchtest auf diesem Computer auch ein VPN? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) enthält eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.
-
-</div>
+Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte _Internetprotokoll, Version 6 (TCP/IPv6)_ in den Eigenschaften des Adapters aus (_Systemsteuerung → Netzwerkverbindungen_), oder richte deinen [Router](../router-ad-blocking/) ein.
