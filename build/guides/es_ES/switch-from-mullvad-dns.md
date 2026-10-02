@@ -24,7 +24,7 @@ Usted elige las listas de bloqueo en el panel bajo _Listas de bloqueo_. Puede ca
 
 ## Cambie cada dispositivo
 
-Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Blokada asigna un nombre a cada dispositivo, por lo que el panel puede mostrar la actividad por dispositivo. Dependiendo del dispositivo, necesita su nombre de DNS o su enlace DoH, ambos se encuentran en _Sus detalles_ arriba.
 
 ### Android
 
