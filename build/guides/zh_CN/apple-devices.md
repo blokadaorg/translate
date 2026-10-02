@@ -1,7 +1,7 @@
 ---
 title: 使用 Blokada DNS 配置文件在 Mac 和 Apple TV 上屏蔽广告
 description: 安装 Blokada Cloud DNS 配置文件，在 Mac 或 Apple TV 上实现全系统广告和跟踪器屏蔽，采用加密 DNS，无需后台运行任何程序。
-updated: 2026-09-28
+updated: 2026-10-02
 order: 6
 ---
 
@@ -28,7 +28,7 @@ Apple 设备可以通过配置文件为整个系统使用加密 DNS。 Blokada �
 你也可以选择安装配置文件。你也可以选择安装配置文件。 iPhone 和 iPad 只能通过 **Safari** 安装配置文件。
 
 <div class="if-device">
-<div class="if-other-browser note">
+<div class="if-other-browser note important">
 
 本页面在其他浏览器中打开。本页面在其他浏览器中打开。复制你的链接，在 Safari 中打开以继续操作：{% pageLink %}
 
@@ -62,7 +62,7 @@ Apple TV 无法打开网页，因此你需要手动输入你的配置文件链�
 3. 突出显示 _共享 Apple TV 分析_。不要选择它。请用遥控器按下“播放/暂停”按钮。
 4. 选择“添加描述文件”，然后输入你的配置文件链接。如果在 iPhone 上出现键盘提示，粘贴链接会更方便。安装配置文件并确认。
 
-<div class="note">
+<div class="note aside">
 
 **Apple TV 和家中其它设备：** 如果你已在[路由器](../router-ad-blocking/)上设置了 Blokada Cloud，Apple TV 与其他所有设备都能获得保护。
 
