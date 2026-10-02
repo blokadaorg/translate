@@ -1,7 +1,7 @@
 ---
 title: Bloquee los anuncios en toda su red con el bloqueo de anuncios en el router.
 description: Configure La Nube de Blokada en su router una sola vez y todos los dispositivos de su hogar estarán protegidos, incluyendo televisores, consolas de juegos y altavoces inteligentes que no pueden ejecutar un bloqueador de anuncios.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Cada dispositivo en su red le pide al router qué servidor DNS debe usar. Apunte
 
 ## Lo que necesita su router
 
-Su router debe soportar **DNS cifrado con un nombre de host**, es decir, DNS sobre TLS (DoT) o DNS sobre HTTPS (DoH). Muchos routers recientes lo permiten, incluyendo los modelos que se indican a continuación. Dependiendo de lo que soporte su router, necesitará lo siguiente:
+Su router debe soportar **DNS cifrado con un nombre de host**, es decir, DNS sobre TLS (DoT) o DNS sobre HTTPS (DoH). Muchos routers recientes lo permiten, incluyendo los modelos que se indican a continuación. Dependiendo de lo que sea compatible con su router, necesita su nombre DNS o su enlace DoH, ambos debajo de _Sus detalles_ arriba.
 
-- Para DNS sobre TLS, su nombre DNS de Blokada: {% dot %}
-- Para DNS sobre HTTPS, su enlace DoH: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 Muchos routers de proveedores de internet solo aceptan direcciones IP simples para DNS. El soporte para estos casos está en camino. Mientras tanto, configure sus dispositivos uno por uno: [Android](../android-private-dns/), [Mac y Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) y [navegadores](../browser-dns-over-https/). También puede ejecutar un pequeño reenviador en una Raspberry Pi, como se describe en la [guía de Pi-hole](../switch-from-pihole/).
 
@@ -58,9 +55,11 @@ Busque una opción llamada _DNS sobre TLS_, _DNS privado_, _DNS cifrado_ o _DNS 
 1. Reinicie un dispositivo, o apague y encienda su Wi-Fi, para que recoja el cambio.
 2. Navegue por un minuto y luego abra la página de _Actividad_ en el panel de control. Las consultas de su red aparecerán allí.
 
+## Si algunos dispositivos siguen mostrando anuncios
+
 Algunos dispositivos evitan el router: teléfonos con _DNS privado_ activado, navegadores con _DNS seguro_ configurado con otro proveedor y dispositivos que usan su propio DNS. Configure esos en el propio dispositivo, o desactive la configuración de DNS propia.
 
-<div class="note">
+<div class="note tip">
 
 Detrás del router, todos los dispositivos comparten una dirección, por lo que el panel muestra su red como un solo dispositivo. Configure teléfonos y portátiles con su propio nombre DNS de Blokada si quiere verlos por separado. También mantienen su bloqueo cuando salen de casa.
 
