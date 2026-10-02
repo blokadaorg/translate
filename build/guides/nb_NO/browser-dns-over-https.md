@@ -1,15 +1,13 @@
 ---
 title: Blokker annonser i Chrome, Firefox, Edge og Brave med DNS over HTTPS
 description: Sett Blokada Cloud som sikker DNS-leverandør i nettleseren din for å blokkere annonser og sporere, på enhver datamaskin, inkludert jobb-PCer hvor du ikke kan installere apper.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 Moderne nettlesere kan bruke sin egen krypterte DNS-leverandør, kalt _sikker DNS_ eller _DNS over HTTPS_. Sett den til Blokada Cloud, og nettleseren blokkerer annonser og sporere på alle nettverk, uten at du trenger å installere utvidelser.
 
 Denne innstillingen gjelder bare for denne nettleseren. For å dekke hele datamaskinen, bruk [Apple-profilen](../apple-devices/) på Mac, eller konfigurer [ruteren](../router-ad-blocking/).
-
-Din DoH-lenke: {% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari har ingen egen innstilling for sikker DNS. Den bruker systemets DNS, så 
 
 Bla i et minutt, og åpne så _Aktivitet_-siden i [dashbordet](https://app.blokada.org/stats?src=guides). Denne nettleserens oppslag vises der.
 
-<div class="note">
+## Hvis noe ikke fungerer
+
+<div class="note tip">
 
 Hvis nettleseren din administreres av jobben eller skolen, kan innstillingen for sikker DNS være låst. Spør administratoren din.
 
