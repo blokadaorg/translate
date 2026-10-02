@@ -1,7 +1,7 @@
 ---
 title: Mullvad DNS ще бъде прекратен. Запазете блокирането на реклами с Blokada Cloud
 description: Mullvad спира обществения си DNS на 2 ноември 2026 г. Ето как преди това да преместите телефона, компютъра и рутера си към Blokada Cloud без да загубите блокирането на реклами.
-updated: 01-10-2026
+updated: 2026-10-02
 order: 2
 ---
 
@@ -22,14 +22,9 @@ Mullvad прекратява своята безплатна публична DN
 
 Избор на блокиращи списъци в таблото под _Блокиращи списъци_. Можете да ги променяте по всяко време и промяната ще се отрази на всички ваши устройства.
 
-## Подробности за Вашата Blokada
-
-Blokada дава на всяко устройство собствено име, така че таблото за управление да може да показва активността по устройства:
-
-- Вашето Blokada DNS име, за DNS през TLS (Android, рутери): {% dot %}
-- Вашият DoH линк, за DNS през HTTPS (браузъри, някои рутери): {% doh %}
-
 ## Превключване на всяко устройство
+
+Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
 
 ### Android
 
