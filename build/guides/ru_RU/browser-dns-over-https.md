@@ -41,7 +41,7 @@ Safari has no secure DNS setting of its own. It uses the system's DNS, so instal
 
 Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
 
-## If something doesn't work
+## Если что-то не работает
 
 <div class="note tip">
 
