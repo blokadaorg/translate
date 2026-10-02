@@ -24,41 +24,41 @@ Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS 
 
 FRITZ!OS 7.20 oder neuer.
 
-1. Öffne `http://fritz.box`, gehe zu _Internet → Zugangsdaten_ und dann auf die Registerkarte _DNS-Server_.
-2. Aktiviere die Option _Verschlüsselte Namensauflösung im Internet (DNS over TLS)_.
-3. Trage im Eingabefeld _Auflösungsnamen der DNS-Server_ nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.
-4. Setze den Haken bei _Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen_ und entferne ihn bei _Fallback auf unverschlüsselte Namensauflösung im Internet zulassen_.
-5. Siehst du die Option _Bei DNS-Störungen auf öffentliche DNS-Server zurückgreifen_, deaktiviere sie.
-6. Klicke auf _Übernehmen_.
+1. Öffne `http://fritz.box`, gehe zu *Internet → Zugangsdaten* und dann auf die Registerkarte *DNS-Server*.
+2. Aktiviere die Option *Verschlüsselte Namensauflösung im Internet (DNS over TLS)*.
+3. Trage im Eingabefeld *Auflösungsnamen der DNS-Server* nur {% dot %} ein. **Entferne alle anderen Einträge.** Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.
+4. Setze den Haken bei *Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen* und entferne ihn bei *Fallback auf unverschlüsselte Namensauflösung im Internet zulassen*.
+5. Siehst du die Option *Bei DNS-Störungen auf öffentliche DNS-Server zurückgreifen*, deaktiviere sie.
+6. Klicke auf *Übernehmen*.
 
 ## ASUS
 
 ASUS-Firmware neuer als 3.0.0.4.386.4xxxx und Asuswrt-Merlin.
 
-1. Öffne die Admin-Seite des Routers und gehe zu _WAN → Internet Connection_.
-2. Stelle unter _WAN DNS Setting_ das _DNS Privacy Protocol_ auf _DNS-over-TLS (DoT)_ und das _DNS-over-TLS Profile_ auf _Strict_.
-3. Entferne alle Einträge aus der _DNS-over-TLS Server List_ und füge dann einen hinzu:
+1. Öffne die Admin-Seite des Routers und gehe zu *WAN → Internet Connection*.
+2. Stelle unter *WAN DNS Setting* das *DNS Privacy Protocol* auf *DNS-over-TLS (DoT)* und das *DNS-over-TLS Profile* auf *Strict*.
+3. Entferne alle Einträge aus der *DNS-over-TLS Server List* und füge dann einen hinzu:
    - Address: {% ip "dot" %}
    - TLS Hostname: {% dot %}
-4. Klicke auf _Apply_.
+4. Klicke auf *Apply*.
 
 ## OpenWrt
 
-1. Aktualisiere unter _System → Software_ die Listen und installiere `luci-app-https-dns-proxy`.
-2. Öffne _Services → HTTPS DNS Proxy_. Lösche die Instanzen anderer Anbieter.
+1. Aktualisiere unter *System → Software* die Listen und installiere `luci-app-https-dns-proxy`.
+2. Öffne *Services → HTTPS DNS Proxy*. Lösche die Instanzen anderer Anbieter.
 3. Füge eine Instanz mit eigener Resolver-URL hinzu: {% doh %}
-4. _Save & Apply_. Das Paket leitet dnsmasq automatisch darauf um.
+4. *Save & Apply*. Das Paket leitet dnsmasq automatisch darauf um.
 
 ## Andere Router
 
-Suche nach einer Einstellung namens _DNS over TLS_, _Privates DNS_, _Verschlüsseltes DNS_ oder _DNS over HTTPS_. Trage deinen Blokada-DNS-Namen oder DoH-Link von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.
+Suche nach einer Einstellung namens *DNS over TLS*, *Privates DNS*, *Verschlüsseltes DNS* oder *DNS over HTTPS*. Trage deinen Blokada-DNS-Namen oder DoH-Link von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.
 
 ## Prüfen, ob es funktioniert
 
 1. Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.
-2. Surfe eine Minute lang und öffne dann die Seite _Aktivität_ im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.
+2. Surfe eine Minute lang und öffne dann die Seite *Aktivität* im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.
 
-Manche Geräte umgehen den Router: Handys mit eingerichtetem _Privatem DNS_, Browser, deren _sicheres DNS_ auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.
+Manche Geräte umgehen den Router: Handys mit eingerichtetem *Privatem DNS*, Browser, deren *sicheres DNS* auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.
 
 <div class="note">
 

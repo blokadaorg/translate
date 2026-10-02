@@ -5,7 +5,7 @@ updated: 2026-09-28
 order: 9
 ---
 
-Die meisten aktuellen Linux-Distributionen, darunter Ubuntu und Fedora, lösen Namen über _systemd-resolved_ auf, das DNS over TLS unterstützt. Unter Debian installierst du es zuerst mit `sudo apt install systemd-resolved`. Stellst du es auf Blokada Cloud um, werden Werbung und Tracker für alle Apps auf dem Computer blockiert.
+Die meisten aktuellen Linux-Distributionen, darunter Ubuntu und Fedora, lösen Namen über *systemd-resolved* auf, das DNS over TLS unterstützt. Unter Debian installierst du es zuerst mit `sudo apt install systemd-resolved`. Stellst du es auf Blokada Cloud um, werden Werbung und Tracker für alle Apps auf dem Computer blockiert.
 
 ## systemd-resolved einrichten
 
@@ -25,7 +25,7 @@ Der Teil nach `#` ist dein Blokada-DNS-Name: {% dot %} systemd-resolved prüft d
 
 <div class="note">
 
-**NetworkManager** gibt außerdem die DNS-Server deines Netzwerks weiter. `Domains=~.` schickt alle Anfragen an Blokada. Zeigt `resolvectl status` für eine Verbindung trotzdem noch einen anderen Server, schalte für diese Verbindung das automatische DNS aus (den Schalter _Automatisch_ neben _DNS_ in ihren IPv4- und IPv6-Einstellungen).
+**NetworkManager** gibt außerdem die DNS-Server deines Netzwerks weiter. `Domains=~.` schickt alle Anfragen an Blokada. Zeigt `resolvectl status` für eine Verbindung trotzdem noch einen anderen Server, schalte für diese Verbindung das automatische DNS aus (den Schalter *Automatisch* neben *DNS* in ihren IPv4- und IPv6-Einstellungen).
 
 </div>
 
@@ -35,7 +35,7 @@ Wird `resolvectl` nicht gefunden, löst deine Distribution Namen auf andere Weis
 
 ## Prüfen, ob es funktioniert
 
-Öffne ein paar Websites und sieh dir dann die Seite _Aktivität_ im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Computers.
+Öffne ein paar Websites und sieh dir dann die Seite *Aktivität* im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Computers.
 
 <div class="note">
 
