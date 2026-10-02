@@ -1,15 +1,13 @@
 ---
 title: 使用 DNS over HTTPS 在 Chrome、Firefox、Edge 和 Brave 浏览器中拦截广告
 description: 在你的浏览器中将 Blokada Cloud 设置为安全 DNS 提供商，以拦截广告和跟踪器，适用于任何电脑，包括无法安装应用的工作笔记本。
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
 现代浏览器可以使用自己的加密 DNS 提供商，即“安全 DNS”或“DNS over HTTPS”。现代浏览器可以使用自己的加密 DNS 提供商，即“安全 DNS”或“DNS over HTTPS”。将其设置为 Blokada Cloud，浏览器即可在任何网络上拦截广告和跟踪器，无需安装扩展程序。
 
 此设置仅适用于该浏览器。此设置仅适用于该浏览器。若要覆盖整个电脑，请在 Mac 上使用 [Apple 配置文件](../apple-devices/)，或配置你的[路由器](../router-ad-blocking/)。
-
-你的 DoH 链接：{% doh %}
 
 ## Chrome
 
@@ -43,7 +41,9 @@ Safari 没有单独的安全 DNS 设置。它使用系统 DNS，因此请安装 
 
 浏览一分钟后，打开 [仪表盘](https://app.blokada.org/stats?src=guides)中&#x7684;_&#x6D3B;&#x52A8;_&#x9875;面。此浏览器的查询将显示在那里。
 
-<div class="note">
+## 如果遇到问题
+
+<div class="note tip">
 
 如果你的浏览器由工作单位或学校管理，则安全 DNS 设置可能会被锁定。请咨询你的管理员。请咨询你的管理员。
 
