@@ -1,7 +1,7 @@
 ---
 title: Een NextDNS-alternatief met dezelfde configuratie op elk apparaat.
 description: Stap over van NextDNS naar Blokada Cloud. Vervang je NextDNS-DNS-naam, DoH-link of profiel op je telefoon, computer en router door die van Blokada en behoud je advertentieblokkering.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 3
 ---
 
@@ -18,12 +18,9 @@ NextDNS en Blokada Cloud werken op dezelfde manier: een versleutelde DNS-dienst 
 | _Allowlist_ en _Denylist_                            | _Uitzonderingen_ in het dashboard                                 |
 | _Logboeken_ en _Analytics_                           | _Activiteit_ en _Statistieken_ in het dashboard                   |
 
-## Je Blokada-gegevens
-
-- Je Blokada DNS-naam, voor DNS over TLS: {% dot %}
-- Je DoH-link, voor DNS over HTTPS: {% doh %}
-
 ## Schakel elk apparaat om
+
+Afhankelijk van het apparaat heb je je DNS-naam of je DoH-link nodig, beide te vinden onder _Jouw gegevens_ hierboven.
 
 ### Android
 
