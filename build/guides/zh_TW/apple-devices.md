@@ -1,7 +1,7 @@
 ---
 title: 使用 Blokada DNS 設定檔在 Mac 與 Apple TV 阻擋廣告
 description: 安裝 Blokada Cloud DNS 設定檔，在 Mac 或 Apple TV 上系統層級阻擋廣告與追蹤器，並採用加密 DNS，且無需有程式在背景執行。
-updated: 2026-09-28
+updated: 2026-10-02
 order: 6
 ---
 
@@ -28,7 +28,7 @@ Apple 裝置可以透過設定檔，為整個系統啟用加密 DNS。 Blokada �
 你也可以改為安裝設定檔。 iPhone 與 iPad 僅能透過 **Safari** 安裝設定檔。
 
 <div class="if-device">
-<div class="if-other-browser note">
+<div class="if-other-browser note important">
 
 您正在其他瀏覽器開啟此頁面。您正在其他瀏覽器開啟此頁面。請複製你的連結，並用 Safari 開啟以繼續操作：{% pageLink %}
 
@@ -62,7 +62,7 @@ Apple TV 無法開啟網頁，因此你需要手動輸入設定檔連結。
 3. 點選 _分享 Apple TV 分析資料_。請勿選取它。請按下遙控器上的播放/暫停按鈕。
 4. 選&#x64C7;_&#x65B0;增描述&#x6A94;_&#x4E26;輸入你的設定檔連結。在你的 iPhone 上跳出鍵盤提示時，貼上連結會更方便。安裝設定檔並確認。
 
-<div class="note">
+<div class="note aside">
 
 **Apple TV 及家中其他裝置：** 如果你在[路由器](../router-ad-blocking/)上設置 Blokada Cloud，就能讓 Apple TV 及所有裝置同時受保護。
 
