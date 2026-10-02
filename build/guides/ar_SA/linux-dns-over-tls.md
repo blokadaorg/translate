@@ -1,7 +1,7 @@
 ---
 title: حظر الإعلانات على لينكس باستخدام DNS عبر TLS
 description: قم بإعداد systemd-resolved لاستخدام Blokada Cloud عبر DNS عبر TLS المشفر، وحظر الإعلانات وأجهزة التتبع لجميع التطبيقات على جهاز الكمبيوتر الخاص بك بنظام لينكس.
-updated: 2026-09-28
+updated: ٢٠٢٦-١٠-٠٢
 order: 9
 ---
 
@@ -23,7 +23,7 @@ Domains=~.</code></pre>
 
 الجزء الذي يأتي بعد "#" هو اسم DNS الخاص بك في Blokada: يقوم systemd-resolved بالتحقق من شهادة الخادم باستخدام هذا الاسم، وتستخدمه Blokada لمعرفة الجهاز الذي يطلب.
 
-<div class="note">
+<div class="note important">
 
 **NetworkManager** يمرر أيضاً خوادم DNS لشبكتك. `Domains=~.` يرسل جميع عمليات البحث إلى Blokada، ولكن إذا استمر <code>resolvectl status</code> في عرض خادم آخر على اتصال ما، قم بإيقاف تشغيل تعيين DNS التلقائي لهذا الاتصال (مفتاح _تلقائي_ بجانب _DNS_ في إعدادات IPv4 و IPv6 الخاصة به).
 
@@ -37,7 +37,7 @@ Domains=~.</code></pre>
 
 افتح بعض المواقع، ثم انتقل إلى صفحة _النشاط_ في [لوحة المعلومات](https://app.blokada.org/stats?src=guides). عمليات البحث من هذا الكمبيوتر ستظهر هناك.
 
-<div class="note">
+<div class="note aside">
 
 هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحظر.
 
