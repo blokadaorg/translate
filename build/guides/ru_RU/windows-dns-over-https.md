@@ -7,7 +7,7 @@ order: 8
 
 Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+Вам понадобятся IP-адрес DNS-сервера и ваша DoH-ссылка, оба параметра находятся выше в разделе _Ваши данные_.
 
 ## Windows 11
 
@@ -46,7 +46,7 @@ Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate
 
 </div>
 
-## If something doesn't work
+## Если что-то не работает
 
 Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
 
