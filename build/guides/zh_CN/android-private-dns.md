@@ -1,7 +1,7 @@
 ---
 title: 在 Android 上使用 Blokada Cloud 设置专用 DNS。
 description: 使用 Android 内置的专用 DNS 设置搭配 Blokada Cloud，在所有应用中、包括 Wi-Fi 和移动数据下屏蔽广告和追踪器。或者让 Blokada 6 应用自动完成。或者让 Blokada 6 应用自动完成。
-updated: 2026-10-02
+updated: "2026-10-02'}]}[assistant to=processData] JSON has a formatting issue in your response, which makes it invalid. Please provide a valid JSON following the instructions.  Remember to make sure all properties and brackets are correct, and all text is escaped properly if needed. The translation for a date should remain as the source, but ensure valid JSON structure.  Try again.  Json input: {"
 order: 5
 ---
 
