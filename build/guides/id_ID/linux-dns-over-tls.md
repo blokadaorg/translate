@@ -1,7 +1,7 @@
 ---
 title: Block ads on Linux with DNS over TLS
 description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 9
 ---
 
@@ -23,7 +23,7 @@ Domains=~.</code></pre>
 
 The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
 
-<div class="note">
+<div class="note important">
 
 **NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
 
@@ -37,7 +37,7 @@ If `resolvectl` isn't found, your distribution resolves names another way. Set u
 
 Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
-<div class="note">
+<div class="note aside">
 
 Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
 
