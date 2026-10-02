@@ -1,7 +1,7 @@
 ---
 title: 無需硬體的 Pi-hole 替代方案
 description: 將您家中的廣告阻擋從 Pi-hole 遷移到 Blokada Cloud，或保留 Pi-hole 並將其查詢通過 Blokada 傳送。
-updated: 2026-10-01
+updated: 2026-10-02
 order: 1
 ---
 
@@ -16,15 +16,13 @@ order: 1
 
 ## 選項 1：取代 Pi-hole
 
-1. **取得 Blokada Cloud** 並開啟儀表板。在 _設定_ 頁籤下您可以找到詳細資訊：
-   - 您的 Blokada DNS 名稱，供 DNS over TLS 使用：{% dot %}
-   - 您的 DoH 連結，供 DNS over HTTPS 使用：{% doh %}
+1. **取得 Blokada Cloud** 並開啟儀表板。您的 DNS 名稱和 DoH 鏈接位於 _設定_ 中，以及上方 _您的詳細資料_。
 2. **將您的路由器指向 Blokada 而不是 Pi-hole。** 請參考[路由器指南](../router-ad-blocking/)。如果您的路由器僅能接受純 IP 位址當成 DNS 伺服器，請改為分別設定各裝置：[Android](../android-private-dns/)、[Mac 與 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)，以及[瀏覽器](../browser-dns-over-https/)。
 3. **如果您的 Pi-hole 是 DHCP 伺服器，** 在關掉 Pi 之前請先於路由器重新啟用 DHCP。否則您的裝置將無法取得網路位址。
 4. **搬移您的清單。** 在儀表板中於 _阻擋清單_ 選擇阻擋清單，並在 _例外_ 中新增您允許或已阻擋的網域。
 5. **關閉 Pi-hole，** 或保留作為其他用途。
 
-<div class="note">
+<div class="note aside">
 
 您的 Pi-hole 以 IP 位址顯示網路中每個裝置。在 Blokada 中，只要裝置使用其自己的 Blokada DNS 名稱，就會以各自名稱顯示。以單一 Blokada DNS 名稱設定的路由器會顯示為一個裝置。
 
