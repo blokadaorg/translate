@@ -1,7 +1,7 @@
 ---
 title: Block ads on Windows with DNS over HTTPS
 description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
-updated: 2026-09-28
+updated: 2026-10-01
 order: 8
 ---
 
@@ -41,7 +41,12 @@ Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser inst
 
 Open a few websites, then look at the *Activity* page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
-Browsers with their own *secure DNS* setting bypass Windows. In Chrome and Edge, set it to use the current service provider, or to your DoH link.
+Chrome and Edge have their own *secure DNS* setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+
+- **Chrome:** open `chrome://settings/security`, turn on *Use secure DNS*, and under *Select DNS provider* choose *Add custom DNS service provider*.
+- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose *Choose a service provider*.
+
+Then paste your DoH link {% doh %}
 
 <div class="note">
 

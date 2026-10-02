@@ -14,22 +14,22 @@ Du brauchst zwei Werte:
 
 ## Windows 11
 
-1. Öffne _Einstellungen → Netzwerk und Internet_ und dann _WLAN_ oder _Ethernet_, je nachdem, wie der Computer verbunden ist.
-2. Öffne die _Hardwareeigenschaften_ deiner Verbindung. Wähle bei WLAN _Bekannte Netzwerke verwalten_ und dann das Netzwerk, oder oben auf der WLAN-Seite _Hardwareeigenschaften_.
-3. Wähle neben _DNS-Serverzuweisung_ die Option _Bearbeiten_. Wähle _Manuell_ und schalte _IPv4_ ein.
-4. Gib unter _Bevorzugter DNS_ den DNS-Server {% ip "doh" %} ein.
-5. Stelle _DNS über HTTPS_ auf _Ein (manuelle Vorlage)_ und füge deinen DoH-Link {% doh %} als _DoH-Vorlage_ ein.
-6. Schalte _Fallback auf Klartext_ aus und wähle _Speichern_.
+1. Öffne *Einstellungen → Netzwerk & Internet* und dann *WLAN* oder *Ethernet*, je nachdem, wie der Computer verbunden ist.
+2. Öffne die *Hardwareeigenschaften* (*Hardware properties*) deiner Verbindung. Wähle bei WLAN *Bekannte Netzwerke verwalten* und dann das Netzwerk, oder oben auf der WLAN-Seite *Hardwareeigenschaften*.
+3. Wähle neben *DNS-Serverzuweisung* (*DNS server assignment*) die Option *Bearbeiten*. Wähle *Manuell* und schalte *IPv4* ein.
+4. Gib unter *Bevorzugter DNS-Server* den DNS-Server {% ip "doh" %} ein.
+5. Stelle *DNS über HTTPS* auf *An (manuelle Vorlage)* und füge deinen DoH-Link {% doh %} in das Vorlagenfeld *DNS über HTTPS* ein.
+6. Schalte *Fallback auf Nurtext* aus und wähle *Speichern*.
 
 Nutzt der Computer sowohl WLAN als auch Ethernet, wiederhole das für die andere Verbindung.
 
 <div class="note">
 
-Lass _Alternativer DNS_ leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.
+Lass *Alternativer DNS-Server* leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.
 
-Keine Option _Ein (manuelle Vorlage)_? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die [Browser-Anleitung](../browser-dns-over-https/).
+Keine Option *An (manuelle Vorlage)*? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die [Browser-Anleitung](../browser-dns-over-https/).
 
-Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte _Internetprotokoll, Version 6 (TCP/IPv6)_ in den Eigenschaften des Adapters aus (_Systemsteuerung → Netzwerkverbindungen_), oder richte deinen [Router](../router-ad-blocking/) ein.
+Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte *Internetprotokoll Version 6 (TCP/IPv6)* in den Eigenschaften des Adapters aus (*Systemsteuerung → Netzwerkverbindungen*), oder richte deinen [Router](../router-ad-blocking/) ein.
 
 </div>
 
@@ -39,14 +39,14 @@ Windows 10 hat kein eingebautes verschlüsseltes DNS. Richte stattdessen sichere
 
 ## Prüfen, ob es funktioniert
 
-Öffne ein paar Websites und sieh dir dann die Seite _Aktivität_ im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Computers.
+Öffne ein paar Websites und sieh dir dann die Seite *Aktivität* im [Dashboard](https://app.blokada.org/stats?src=guides) an. Dort erscheinen die Anfragen dieses Computers.
 
-Chrome und Edge verfügen über eigene _sichere DNS_-Einstellungen, die Windows umgehen. Wenn es auf automatisch bleibt, kann es auf einfaches DNS zurückfallen, was Blokada ablehnt. Stelle stattdessen deinen DoH-Link ein:
+Chrome und Edge haben eine eigene Einstellung für *sicheres DNS*, die Windows umgeht. Im automatischen Modus kann sie auf unverschlüsseltes DNS zurückfallen, das Blokada ablehnt. Stelle sie stattdessen auf deinen DoH-Link:
 
-- **Chrome:** Öffne `chrome://settings/security`, aktiviere _Sichere DNS verwenden_ und wähle bei _DNS-Anbieter auswählen_ die Option _Benutzerdefinierten DNS-Dienstanbieter hinzufügen_.
-- **Edge:** Öffne `edge://settings/privacy`, aktiviere sicheres DNS und wähle _Dienstanbieter auswählen_.
+- **Chrome:** Öffne `chrome://settings/security`, schalte *Sicheres DNS verwenden* ein und wähle unter *DNS-Anbieter auswählen* die Option *Benutzerdefinierten DNS-Dienstanbieter hinzufügen*.
+- **Edge:** Öffne `edge://settings/privacy`, schalte sicheres DNS ein und wähle *Dienstanbieter auswählen* (*Choose a service provider*).
 
-Dann füge deinen DoH-Link ein {% doh %}
+Füge dann deinen DoH-Link {% doh %} ein.
 
 <div class="note">
 

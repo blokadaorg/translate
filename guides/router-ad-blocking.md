@@ -1,7 +1,7 @@
 ---
 title: Block ads on your whole network with router ad blocking
 description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
-updated: 2026-09-23
+updated: 2026-10-01
 order: 4
 ---
 
@@ -24,16 +24,16 @@ Your router must support **encrypted DNS with a host name**, that is DNS over TL
 
 FRITZ!OS 7.20 or later.
 
-1. Open `http://fritz.box` and go to *Internet → Account Information → DNS Server*.
-2. Under *Encrypted Name Resolution on the Internet (DNS over TLS)*, tick *Use encrypted name resolution*.
-3. Tick *Enforce certificate verification for encrypted name resolution*.
-4. Untick *Allow fallback to unencrypted name resolution*.
-5. In *Resolver names*, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+1. Open `http://fritz.box` and go to *Internet → Account Information*, then the *DNS Server* tab.
+2. Turn on *Encrypted name resolution in the internet (DNS over TLS)*.
+3. In *Resolved Names of the DNS Server*, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+4. Tick the option that enforces certificate verification, and untick the one that allows fallback to unencrypted name resolution.
+5. If you see *Failover to public DNS servers when DNS disrupted*, turn it off.
 6. Click *Apply*.
 
 ## ASUS
 
-Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
+ASUS firmware later than 3.0.0.4.386.4xxxx, and Asuswrt-Merlin.
 
 1. Open the router admin page and go to *WAN → Internet Connection*.
 2. Under *WAN DNS Setting*, set *DNS Privacy Protocol* to *DNS-over-TLS (DoT)* and *DNS-over-TLS Profile* to *Strict*.
