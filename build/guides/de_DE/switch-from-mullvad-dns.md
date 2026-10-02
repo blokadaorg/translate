@@ -1,7 +1,7 @@
 ---
 title: Mullvad DNS wird eingestellt. Werbung weiter blockieren mit Blokada Cloud
 description: Mullvad schaltet sein öffentliches DNS am 2. November 2026 ab. So stellst du Handy, Computer und Router rechtzeitig um und blockierst weiter Werbung.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 2
 ---
 
@@ -22,14 +22,9 @@ Diese Seite behandelt die öffentlichen DNS-Namen, die auf `dns.mullvad.net` end
 
 Blocklisten wählst du im Dashboard unter _Blocklists_. Du kannst sie jederzeit ändern, und die Änderung gilt für alle deine Geräte.
 
-## Deine Blokada-Daten
-
-Blokada gibt jedem Gerät einen eigenen Namen, damit das Dashboard die Aktivität pro Gerät zeigen kann:
-
-- Dein Blokada-DNS-Name, für DNS over TLS (Android, Router): {% dot %}
-- Dein DoH-Link, für DNS over HTTPS (Browser, manche Router): {% doh %}
-
 ## Jedes Gerät umstellen
+
+Blokada gibt jedem Gerät einen eigenen Namen, damit das Dashboard die Aktivität pro Gerät anzeigen kann. Je nach Gerät benötigst du deinen DNS-Namen oder deinen DoH-Link, beides findest du oben unter _Deine Details_.
 
 ### Android
 
