@@ -1,7 +1,7 @@
 ---
 title: Un'alternativa a Pi-hole che non richiede hardware
 description: Trasferisci il blocco della pubblicità di casa tua da un Pi-hole a Blokada Cloud, oppure mantieni il tuo Pi-hole e invia le sue richieste attraverso Blokada.
-updated: 2026-10-01
+updated: 02/10/2026
 order: 1
 ---
 
@@ -16,15 +16,13 @@ Ci sono due modi per passare. Sostituisci completamente il Pi-hole, oppure tieni
 
 ## Opzione 1: sostituisci il Pi-hole
 
-1. **Ottieni Blokada Cloud** e apri il pannello di controllo. Sotto _Configurazione_ trovi i tuoi dettagli:
-   - Il tuo nome DNS di Blokada, per DNS over TLS: {% dot %}
-   - Il tuo link DoH, per DNS over HTTPS: {% doh %}
+1. **Ottieni Blokada Cloud** e apri il pannello di controllo. Il tuo nome DNS e il link DoH si trovano sotto _Configurazione_ lì, e sotto _I tuoi dettagli_ sopra.
 2. **Imposta il tuo router su Blokada invece del Pi-hole.** Segui la [guida per il router](../router-ad-blocking/). Se il tuo router accetta solo un indirizzo IP semplice come server DNS, configura i tuoi dispositivi uno per uno invece: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/).
 3. **Se il tuo Pi-hole era il server DHCP,** riattiva il DHCP nel tuo router _prima_ di spegnere il Pi. Altrimenti i tuoi dispositivi smetteranno di ricevere indirizzi di rete.
 4. **Trasferisci le tue liste.** Nel pannello di controllo, scegli blocklists sotto _Blocklists_ e aggiungi i tuoi domini consentiti o bloccati sotto _Eccezioni_.
 5. **Spegni il Pi-hole,** oppure tienilo per altri scopi.
 
-<div class="note">
+<div class="note aside">
 
 Il tuo Pi-hole mostrava ogni dispositivo della rete tramite il suo indirizzo IP. Con Blokada ogni dispositivo appare con il proprio nome, purché utilizzi il proprio nome DNS di Blokada. Un router configurato con un nome DNS di Blokada apparirà come un solo dispositivo.
 
