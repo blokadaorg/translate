@@ -1,7 +1,7 @@
 ---
 title: Blokuj reklamy na Linuksie za pomocą DNS przez TLS
 description: Skonfiguruj systemd-resolved, aby korzystał z Blokada Cloud przez szyfrowany DNS przez TLS i blokuj reklamy oraz trackery dla każdej aplikacji na Twoim komputerze z Linuksem.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 9
 ---
 
@@ -20,7 +20,7 @@ Większość aktualnych dystrybucji Linuksa, w tym Ubuntu i Fedora, rozwiązuje 
 
 Część po `#` to Twoja nazwa DNS Blokada: {% dot %} systemd-resolved sprawdza z nią certyfikat serwera, a Blokada używa jej do rozpoznania, które urządzenie pyta.
 
-<div class="note">
+<div class="note important">
 
 **NetworkManager** przekazuje także serwery DNS Twojej sieci. `Domains=~.` przekierowuje wszystkie zapytania do Blokada, ale jeśli <code>resolvectl status</code> nadal pokazuje inny serwer na połączeniu, wyłącz automatyczny DNS dla tego połączenia (przełącznik _Automatyczny_ obok _DNS_ w ustawieniach IPv4 i IPv6).
 
@@ -34,7 +34,7 @@ Jeśli nie znaleziono `resolvectl`, Twoja dystrybucja rozwiązuje nazwy w inny s
 
 Otwórz kilka stron internetowych, a następnie sprawdź stronę _Aktywność_ w [panelu](https://app.blokada.org/stats?src=guides). Zapytania z tego komputera pojawią się w tym miejscu.
 
-<div class="note">
+<div class="note aside">
 
 Chcesz również VPN na tym komputerze? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) zawiera konfigurację WireGuard, która szyfruje cały ruch, z takim samym blokowaniem.
 
