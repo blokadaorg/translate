@@ -24,7 +24,7 @@ You choose blocklists in the dashboard under _Blocklists_. You can change them a
 
 ## Switch each device
 
-Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Blokada присваивает каждому устройству собственное имя, чтобы на панели управления можно было просматривать активность по каждому устройству. В зависимости от устройства, вам потребуется ваше имя DNS или ваша ссылка DoH - оба параметра находятся выше в разделе _Ваши данные_.
 
 ### Android
 
