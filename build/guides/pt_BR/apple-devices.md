@@ -1,7 +1,7 @@
 ---
 title: Block ads on Mac and Apple TV with a Blokada DNS profile
 description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 6
 ---
 
@@ -28,7 +28,7 @@ The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets ev
 You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
 
 <div class="if-device">
-<div class="if-other-browser note">
+<div class="if-other-browser note important">
 
 This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
 
@@ -62,7 +62,7 @@ The Apple TV cannot open web pages, so you type your profile link into it.
 3. Highlight _Send to Apple_ (called _Share Apple TV Analytics_ on older tvOS). Don't select it. Press the Play/Pause button on the remote instead.
 4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
 
-<div class="note">
+<div class="note aside">
 
 **Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
 
