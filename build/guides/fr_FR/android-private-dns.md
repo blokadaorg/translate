@@ -1,7 +1,7 @@
 ---
 title: Configurer le DNS privé sur Android avec Blokada Cloud.
 description: Utilisez le paramètre de DNS privé intégré d’Android avec Blokada Cloud pour bloquer les publicités et les traqueurs dans chaque application, sur le Wi-Fi et les données mobiles. Ou laissez l’application Blokada 6 s’en charger.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 5
 ---
 
@@ -14,8 +14,6 @@ order: 5
 ## Sans l'application : DNS privé
 
 Android 9 et versions ultérieures disposent d'un paramètre _DNS privé_. Réglez-le sur Blokada Cloud, et les publicités ainsi que les traqueurs seront bloqués dans toutes les applications, sur tous les réseaux, sans rien d'autre en arrière-plan.
-
-Votre nom DNS Blokada : {% dot %}
 
 1. Ouvrez _Paramètres → Réseau et Internet_. Sur certains téléphones, il s'agit de _Connexions_ ou _Connexion et partage_.
 2. Appuyez sur _DNS privé_. Sur les téléphones Samsung, cela se trouve dans _Plus de paramètres de connexion_.
