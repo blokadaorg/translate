@@ -1,7 +1,7 @@
 ---
 title: 使用 Blokada Cloud 在 Android 上設定私人 DNS
 description: 使用 Android 內建的私人 DNS 設定搭配 Blokada Cloud，可在所有應用程式、Wi-Fi 及行動數據上阻擋廣告與追蹤器。或者讓 Blokada 6 應用自動完成。或者讓 Blokada 6 應用自動完成。
-updated: 2026-09-28
+updated: 2026-10-02
 order: 5
 ---
 
@@ -14,8 +14,6 @@ order: 5
 ## 不使用應用程式：私人 DNS
 
 Android 9 及更新版本具有 _私人 DNS_ 設定。將其設為 Blokada Cloud，所有應用程式及所有網路中的廣告與追蹤器都會被阻擋，且無須在背景運行任何程式。將其設為 Blokada Cloud，所有應用程式及所有網路中的廣告與追蹤器都會被阻擋，且無須在背景運行任何程式。
-
-您的 Blokada DNS 名稱：{% dot %}
 
 1. 開啟 _設定 → 網路與網際網路_。在某些手機上這稱為 _連線_ 或 _連線與分享_。
 2. 點選 _私人 DNS_。在 Samsung 手機上，此選項位於 _更多連線設定_ 下。
