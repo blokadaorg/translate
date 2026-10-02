@@ -1,16 +1,13 @@
 ---
 title: Bloquee anuncios en Windows con DNS sobre HTTPS.
 description: Utilice el DNS cifrado integrado en Windows 11 con La Nube de Blokada para bloquear anuncios y rastreadores en cada aplicación y navegador, sin necesidad de instalar software.
-updated: 2026-09-23
+updated: '"2026-10-02"'
 order: 8
 ---
 
 Windows 11 puede enviar todas sus consultas DNS cifradas, a través de DNS sobre HTTPS. Apúntelo a La Nube de Blokada y los anuncios y rastreadores serán bloqueados en cada aplicación y navegador en el ordenador, sin necesidad de instalar nada.
 
-Necesita dos valores:
-
-- Servidor DNS (dirección IP): {% ip "doh" %}
-- Su enlace DoH: {% doh %}
+Necesita la dirección IP del servidor DNS y su enlace DoH, ambos se encuentran en _Sus detalles_ arriba.
 
 ## Windows 11
 
@@ -23,13 +20,15 @@ Necesita dos valores:
 
 Si el ordenador utiliza tanto Wi-Fi como Ethernet, repita esto para la otra conexión.
 
-<div class="note">
+<div class="note important">
 
 Deje _DNS alternativo_ vacío. Windows utiliza ambos servidores, y cualquier otro dejará pasar anuncios.
 
-¿No hay opción de _Activado (plantilla manual)_? Su Windows 11 es más antiguo. Actualice Windows o utilice la [guía para navegadores](../browser-dns-over-https/) mientras tanto.
+</div>
 
-Si algunos anuncios todavía aparecen en una red con IPv6, Windows puede estar usando también el servidor DNS IPv6 de su router. Desactive _Protocolo de Internet versión 6 (TCP/IPv6)_ en las propiedades del adaptador (_Panel de control → Conexiones de red_), o configure su [router](../router-ad-blocking/).
+<div class="note tip">
+
+¿No hay opción de _Activado (plantilla manual)_? Su Windows 11 es más antiguo. Actualice Windows o utilice la [guía para navegadores](../browser-dns-over-https/) mientras tanto.
 
 </div>
 
@@ -41,6 +40,14 @@ Windows 10 no tiene DNS cifrado integrado. Configure DNS seguro en su navegador,
 
 Abra algunos sitios web y luego mire la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las consultas de este ordenador aparecerán allí.
 
+<div class="note aside">
+
+¿Quiere una VPN en este ordenador también? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) incluye una configuración de WireGuard que cifra todo el tráfico, con el mismo bloqueo.
+
+</div>
+
+## Si algo no funciona
+
 Chrome y Edge tienen su propia configuración de _DNS seguro_, que omite Windows. Si se deja en automático, puede volver a usar DNS sin cifrar, lo cual Blokada rechaza. En su lugar, configúrelo con su enlace DoH:
 
 - **Chrome:** abra `chrome://settings/security`, active _Usar DNS seguro_, y en _Seleccionar proveedor de DNS_ elija _Agregar proveedor de DNS personalizado_.
@@ -48,8 +55,4 @@ Chrome y Edge tienen su propia configuración de _DNS seguro_, que omite Windows
 
 Luego pegue su enlace DoH {% doh %}
 
-<div class="note">
-
-¿Quiere una VPN en este ordenador también? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) incluye una configuración de WireGuard que cifra todo el tráfico, con el mismo bloqueo.
-
-</div>
+Si algunos anuncios todavía aparecen en una red con IPv6, Windows puede estar usando también el servidor DNS IPv6 de su router. Desactive _Protocolo de Internet versión 6 (TCP/IPv6)_ en las propiedades del adaptador (_Panel de control → Conexiones de red_), o configure su [router](../router-ad-blocking/).
