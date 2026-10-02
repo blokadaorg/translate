@@ -24,7 +24,7 @@ Vous choisissez les listes de blocage dans le tableau de bord sous _Listes de bl
 
 ## Configurez chaque appareil
 
-Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Blokada donne à chaque appareil son propre nom, ainsi le tableau de bord peut afficher l’activité de chaque appareil . Selon l’appareil, vous avez besoin de votre nom DNS ou de votre lien DoH, tous deux sous _Vos informations_ ci-dessus.
 
 ### Android
 
