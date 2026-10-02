@@ -1,7 +1,7 @@
 ---
 title: 使用路由器广告拦截在整个网络上屏蔽广告
 description: 只需在路由器上设置一次 Blokada Cloud，家中所有设备都能获得保护，包括无法运行广告拦截器的电视、游戏主机和智能音箱。
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ order: 4
 
 ## 你的路由器所需条件
 
-你的路由器必须支持**使用主机名的加密 DNS**，也就是支持 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。许多新款路由器都支持，包括下列机型。根据你的路由器支持的内容，你需要：许多新款路由器都支持，包括下列机型。根据你的路由器支持的内容，你需要：
+你的路由器必须支持**使用主机名的加密 DNS**，也就是支持 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。许多新款路由器都支持，包括下列机型。根据你的路由器支持的内容，你需要：许多新款路由器都支持，包括下列机型。根据您的路由器支持的类型，您需要获取您的 DNS 名称或 DoH 链接，两者都位于上方的 _您的详细信息_ 部分。
 
-- 对于 DNS over TLS，请使用你的 Blokada DNS 名称：{% dot %}
-- 对于 DNS over HTTPS，请使用你的 DoH 链接：{% doh %}
-
-<div class="note">
+<div class="note important">
 
 **仅支持纯 IP 地址？** 许多互联网运营商提供的路由器只接受作为 DNS 的纯 IP 地址。对此的支持正在开发中。在此之前，请逐一为你的设备进行设置：[Android](../android-private-dns/)、[Mac 和 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/) 和 [浏览器](../browser-dns-over-https/)。你也可以按照 [Pi-hole 指南](../switch-from-pihole/) 在树莓派上运行一个小型转发器。
 
@@ -58,9 +55,11 @@ FRITZ!OS 7.20 或更高版本。
 1. 重启一台设备，或将其 Wi-Fi 关闭再打开，使其获取更改。
 2. 浏览片刻，然后在仪表板中打&#x5F00;_&#x6D3B;&#x52A8;_&#x9875;面。你网络的查询会显示在这里。
 
+## 如果部分设备仍然显示广告
+
 有些设备会绕过路由器：设置&#x4E86;_&#x50;rivate DNS_ 的手机，设置成其他提供&#x5546;_安全 DNS_ 的浏览器，以及内嵌指定 DNS 的设备。请在设备上单独设置，或关闭设备自身的 DNS 设置。请在设备上单独设置，或关闭设备自身的 DNS 设置。
 
-<div class="note">
+<div class="note tip">
 
 在路由器下，所有设备共用一个地址，因此仪表板会将你的网络显示为一台设备。如果你希望分别看到每台设备，请为手机和笔记本配置独立的 Blokada DNS 名称。它们离开家时也会继续拦截广告。
 
