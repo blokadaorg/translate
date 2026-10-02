@@ -1,7 +1,7 @@
 ---
 title: Une alternative à NextDNS avec la même configuration sur chaque appareil.
 description: Passez de NextDNS à Blokada Cloud. Remplacez votre nom DNS, lien DoH ou profil NextDNS par celui de Blokada sur votre téléphone, ordinateur et routeur, et conservez votre blocage des publicités.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 3
 ---
 
@@ -18,12 +18,9 @@ NextDNS et Blokada Cloud fonctionnent de la même manière : un service DNS chif
 | _Liste d’autorisation_ et _Liste de blocage_         | _Exceptions_ dans le tableau de bord                                               |
 | _Journaux_ et _Analyses_                             | _Activité_ et _Statistiques_ dans le tableau de bord                               |
 
-## Vos informations Blokada
-
-- Votre nom DNS Blokada, pour DNS over TLS : {% dot %}
-- Votre lien DoH, pour DNS over HTTPS : {% doh %}
-
 ## Changer chaque appareil
+
+Selon l'appareil, vous aurez besoin de votre nom DNS ou de votre lien DoH, tous deux accessibles dans _Vos informations_ ci-dessus.
 
 ### Android
 
