@@ -5,7 +5,7 @@ updated: 02/10/2026
 order: 3
 ---
 
-NextDNS e Blokada Cloud funzionano allo stesso modo: un servizio DNS criptato che blocca annunci e tracker per nome, con le tue impostazioni dietro un nome DNS personale. Il passaggio consiste nel sostituire i valori di NextDNS su ogni dispositivo con i tuoi di Blokada. Nient'altro cambia sul dispositivo.
+NextDNS e Blokada Cloud funzionano allo stesso modo: un servizio DNS criptato che blocca annunci e tracker per nome, con le tue impostazioni dietro un nome DNS personale. Il passaggio consiste nel sostituire i valori di NextDNS su ogni dispositivo, con quelli di Blokada. Nient'altro cambia sul dispositivo.
 
 ## Cosa usavi, e cosa scegliere su Blokada
 
@@ -14,8 +14,8 @@ NextDNS e Blokada Cloud funzionano allo stesso modo: un servizio DNS criptato ch
 | Il tuo ID di configurazione, ad es. `abc123` | Il tag del tuo dispositivo, parte del tuo nome DNS Blokada e del link DoH |
 | Liste di blocco _Privacy_                                    | _Liste di blocco_ nel pannello di controllo                               |
 | _Sicurezza_ (malware, phishing)           | una lista malware sotto _Liste di blocco_                                 |
-| _Controllo genitori_                                         | liste per contenuti per adulti e gioco d'azzardo sotto _Liste di blocco_  |
-| _Allowlist_ e _Denylist_                                     | _Eccezioni_ nel pannello di controllo                                     |
+| _Controllo parentale_                                        | liste per contenuti per adulti e gioco d'azzardo sotto _Liste di blocco_  |
+| _Whitelist_ e _Blacklist_                                    | _Eccezioni_ nel pannello di controllo                                     |
 | _Log_ e _Analitiche_                                         | _Attività_ e _Statistiche_ nel pannello di controllo                      |
 
 ## Passa ogni dispositivo
@@ -36,7 +36,7 @@ Rimuovi il profilo o l'app NextDNS, poi installa il profilo Blokada dalla [guida
 
 ### Windows e Linux
 
-Disinstalla l'app NextDNS se la usi. Su Windows, sostituisci il server NextDNS e il template DoH con quelli di Blokada, come spiegato nella [guida Windows](../windows-dns-over-https/). Su Linux, sostituisci il server NextDNS in systemd-resolved, come nella [guida Linux](../linux-dns-over-tls/).
+Se la usi, disinstalla l'app NextDNS. Su Windows, sostituisci il server NextDNS e il template DoH con quelli di Blokada, come spiegato nella [guida Windows](../windows-dns-over-https/). Su Linux, sostituisci il server NextDNS in systemd-resolved, come nella [guida Linux](../linux-dns-over-tls/).
 
 ### Browser
 
