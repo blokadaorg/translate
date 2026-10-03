@@ -10,13 +10,13 @@ Un Pi-hole blocca le pubblicità su ogni dispositivo nella tua rete, purché il 
 - **Nessun box da mantenere.** Nessuna scheda SD, nessun aggiornamento, nessuna interruzione quando il Pi si spegne.
 - **Funziona anche fuori casa.** Telefoni e laptop mantengono il blocco anche con dati mobili e altre reti Wi-Fi.
 - **Criptato.** I dispositivi comunicano con Blokada tramite DNS over TLS o DNS over HTTPS, quindi il tuo provider non può leggere o modificare le tue richieste.
-- **Un solo pannello di controllo.** Liste di blocco, domini consentiti e bloccati, e attività per dispositivo, su [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Un'unica dashboard.** Liste di blocco, domini consentiti e bloccati, e attività per dispositivo, su [app.blokada.org](https://app.blokada.org/?src=guides).
 
-Ci sono due modi per passare. Sostituisci completamente il Pi-hole, oppure tienilo e utilizza Blokada Cloud come upstream.
+Ci sono due modi per effettuare il cambio. Sostituisci completamente il Pi-hole, oppure tienilo e utilizza Blokada Cloud come upstream.
 
 ## Opzione 1: sostituisci il Pi-hole
 
-1. **Ottieni Blokada Cloud** e apri il pannello di controllo. Il tuo nome DNS e il link DoH si trovano sotto _Configurazione_ lì, e sotto _I tuoi dettagli_ sopra.
+1. **Ottieni Blokada Cloud** e apri il pannello di controllo. Il tuo nome DNS e il link DoH si trovano su _Configurazione_, e sotto _I tuoi dettagli_, sopra.
 2. **Imposta il tuo router su Blokada invece del Pi-hole.** Segui la [guida per il router](../router-ad-blocking/). Se il tuo router accetta solo un indirizzo IP semplice come server DNS, configura i tuoi dispositivi uno per uno invece: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/).
 3. **Se il tuo Pi-hole era il server DHCP,** riattiva il DHCP nel tuo router _prima_ di spegnere il Pi. Altrimenti i tuoi dispositivi smetteranno di ricevere indirizzi di rete.
 4. **Trasferisci le tue liste.** Nel pannello di controllo, scegli blocklists sotto _Blocklists_ e aggiungi i tuoi domini consentiti o bloccati sotto _Eccezioni_.
