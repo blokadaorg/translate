@@ -1,7 +1,7 @@
 ---
 title: Blocca le pubblicità su Linux con DNS over TLS
 description: Configura systemd-resolved per utilizzare Blokada Cloud tramite DNS su TLS crittografato, e blocca pubblicità e tracker per ogni app sul tuo computer Linux.
-updated: 2026-10-02
+updated: 02/10/2026
 order: 9
 ---
 
