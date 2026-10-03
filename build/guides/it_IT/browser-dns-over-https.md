@@ -1,7 +1,7 @@
 ---
 title: Blocca le pubblicità in Chrome, Firefox, Edge e Brave con DNS over HTTPS
 description: Imposta Blokada Cloud come provider DNS sicuro nel tuo browser per bloccare pubblicità e tracker, su qualsiasi computer, inclusi i portatili aziendali dove non puoi installare app.
-updated: 2026-10-02
+updated: 02/10/2026
 order: 7
 ---
 
@@ -41,7 +41,7 @@ Safari non ha una propria impostazione DNS sicura. Utilizza il DNS di sistema, q
 
 Naviga per un minuto, poi apri la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le ricerche di questo browser appariranno lì.
 
-## Se qualcosa non funziona
+## Se qualcosa non va
 
 <div class="note tip">
 
