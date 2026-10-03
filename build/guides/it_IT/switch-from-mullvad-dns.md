@@ -1,6 +1,6 @@
 ---
 title: Il servizio Mullvad DNS verrà disattivato. Continua a bloccare la pubblicità con Blokada Cloud
-description: Mullvad chiude il suo servizio DNS pubblico il 2 novembre 2026. Ecco come migrare il tuo telefono, computer e router a Blokada Cloud entro quella data, senza perdere il blocco della pubblicità.
+description: Mullvad chiuderà il suo servizio DNS pubblico il 2 novembre 2026. Ecco come migrare il tuo telefono, computer e router a Blokada Cloud entro quella data, senza perdere il blocco della pubblicità.
 updated: 02/10/2026
 order: 2
 ---
@@ -20,9 +20,9 @@ Questa pagina riguarda i nomi DNS pubblici che terminano con `dns.mullvad.net`. 
 | `family.dns.mullvad.net`   | base più contenuti per adulti e gioco d'azzardo | aggiungi le liste per contenuti per adulti e gioco d'azzardo                                                                                                    |
 | `all.dns.mullvad.net`      | tutti i precedenti                              | attivali tutti                                                                                                                                                  |
 
-Nel pannello selezioni le blocklist sotto _Blocklists_. Puoi modificarle in qualsiasi momento e il cambiamento si applica a tutti i tuoi dispositivi.
+Nel pannello seleziona le blocklist sotto _Blocklists_. Puoi modificarle in qualsiasi momento e il cambiamento si applica a tutti i tuoi dispositivi.
 
-## Cambia ogni dispositivo
+## Cambia su ogni dispositivo
 
 Blokada assegna a ogni dispositivo un proprio nome, così la dashboard può mostrare l’attività per ogni dispositivo. A seconda del dispositivo, hai bisogno del nome DNS o del link DoH, entrambi presenti nella sezione _I tuoi dettagli_ sopra.
 
@@ -32,7 +32,7 @@ La guida di Mullvad prevedeva di inserire un hostname in _DNS privato_. Sostitui
 
 ### iPhone, iPad e Mac
 
-La configurazione di Mullvad utilizzava un profilo di configurazione. Rimuovilo innanzitutto:
+La configurazione di Mullvad utilizzava un profilo di configurazione. Anzitutto, rimuovilo:
 
 - **iPhone e iPad:** _Impostazioni → Generali → VPN e gestione dispositivi_, tocca il profilo DNS di Mullvad, quindi _Rimuovi profilo_.
 - **Mac:** apri la lista dei profili (_Impostazioni di sistema → Generali → Gestione dispositivi_ su macOS 15 e successivi, _Impostazioni di sistema → Privacy e sicurezza → Profili_ su macOS 13 e 14, _Preferenze di sistema → Profili_ su macOS 12 e precedenti), seleziona il profilo DNS di Mullvad e fai clic su _−_.
