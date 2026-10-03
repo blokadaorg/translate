@@ -1,7 +1,7 @@
 ---
 title: Il servizio Mullvad DNS verrà disattivato. Continua a bloccare la pubblicità con Blokada Cloud
 description: Mullvad chiude il suo servizio DNS pubblico il 2 novembre 2026. Ecco come migrare il tuo telefono, computer e router a Blokada Cloud entro quella data, senza perdere il blocco della pubblicità.
-updated: 2026-10-02
+updated: 02/10/2026
 order: 2
 ---
 
@@ -24,7 +24,7 @@ Nel pannello selezioni le blocklist sotto _Blocklists_. Puoi modificarle in qual
 
 ## Cambia ogni dispositivo
 
-Blokada assegna a ogni dispositivo un proprio nome, così la dashboard può mostrare l’attività per dispositivo. A seconda del dispositivo, hai bisogno del nome DNS o del link DoH, entrambi presenti nella sezione _I tuoi dettagli_ sopra.
+Blokada assegna a ogni dispositivo un proprio nome, così la dashboard può mostrare l’attività per ogni dispositivo. A seconda del dispositivo, hai bisogno del nome DNS o del link DoH, entrambi presenti nella sezione _I tuoi dettagli_ sopra.
 
 ### Android
 
