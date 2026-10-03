@@ -1,11 +1,11 @@
 ---
 title: Blocca gli annunci su Windows con DNS over HTTPS
 description: Utilizza il DNS crittografato integrato in Windows 11 con Blokada Cloud per bloccare annunci e tracker in ogni app e browser, senza dover installare altri software.
-updated: 02-10-2026
+updated: 02/10/2026
 order: 8
 ---
 
-Windows 11 può inviare tutte le sue richieste DNS in modo crittografato, tramite DNS over HTTPS. Puntalo su Blokada Cloud e annunci e tracker verranno bloccati in ogni app e browser del computer, senza nulla da installare.
+Windows 11 può inviare tutte le sue richieste DNS in modo crittografato, tramite DNS over HTTPS. Impostalo su Blokada Cloud e annunci e tracker verranno bloccati in ogni app e browser del computer, senza nulla da installare.
 
 Hai bisogno dell'indirizzo IP del server DNS e del tuo link DoH, entrambi presenti nella sezione _I tuoi dettagli_ qui sopra.
 
@@ -28,7 +28,7 @@ Lascia vuoto il campo _DNS alternativo_. Windows utilizza entrambi i server e qu
 
 <div class="note tip">
 
-Nessuna opzione _Attivo (modello manuale)_? Il tuo Windows 11 è una versione precedente. Aggiorna Windows o, nel frattempo, utilizza la [guida per browser](../browser-dns-over-https/).
+Nessuna opzione _Attivo (modello manuale)_? La tua versione di Windows 11 è vecchia. Aggiorna Windows o, nel frattempo, utilizza la [guida per browser](../browser-dns-over-https/).
 
 </div>
 
@@ -46,7 +46,7 @@ Vuoi anche una VPN su questo computer? [Blokada Plus](https://app.blokada.org/ac
 
 </div>
 
-## Se qualcosa non funziona
+## Se qualcosa non va
 
 Chrome ed Edge dispongono di una propria impostazione _DNS sicuro_, che bypassa Windows. Se lasciata su automatico, può tornare al DNS non crittografato, cosa che Blokada non accetta. Imposta invece il tuo link DoH:
 
