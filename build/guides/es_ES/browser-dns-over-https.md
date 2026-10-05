@@ -5,7 +5,7 @@ updated: 2026-10-02
 order: 7
 ---
 
-Los navegadores modernos pueden usar su propio proveedor de DNS cifrado, llamado _DNS seguro_ o _DNS sobre HTTPS_. Establézcalo en La Nube de Blokada, y el navegador bloquea anuncios y rastreadores en cualquier red, sin necesidad de instalar extensiones.
+Los navegadores modernos pueden usar su propio proveedor de DNS cifrado, llamado _DNS seguro_ o _DNS sobre HTTPS_. Configúrelo con La Nube de Blokada y el navegador bloqueará anuncios y rastreadores en cualquier red, sin necesidad de instalar una extensión.
 
 Esta configuración cubre solo este navegador. Para cubrir toda la computadora, use el [perfil de Apple](../apple-devices/) en una Mac, o configure su [router](../router-ad-blocking/).
 
@@ -39,12 +39,12 @@ Safari no tiene una configuración propia de DNS seguro. Utiliza el DNS del sist
 
 ## Compruebe que funciona
 
-Navegue durante un minuto y luego abra la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las consultas de este navegador se mostrarán allí.
+Navegue durante un minuto y luego abra la página de _Actividad_ en el [panel](https://app.blokada.org/stats?src=guides). Las búsquedas de este navegador aparecerán allí.
 
 ## Si algo no funciona
 
 <div class="note tip">
 
-Si su navegador es administrado por el trabajo o la escuela, la configuración de DNS seguro podría estar bloqueada. Consulte con su administrador.
+Si su navegador es administrado por el trabajo o la escuela, la configuración de DNS seguro podría estar bloqueada. Pregunte a su administrador.
 
 </div>
