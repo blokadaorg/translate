@@ -1,6 +1,6 @@
 ---
 title: Stel Private DNS in op Android met Blokada Cloud.
-description: Gebruik de ingebouwde Private DNS-instelling van Android met Blokada Cloud om advertenties en trackers in elke app te blokkeren, zowel op wifi als mobiele data. Of laat de Blokada 6-app het voor je doen.
+description: Gebruik de ingebouwde Private DNS-instelling van Android met Blokada Cloud om advertenties en trackers in elke app te blokkeren, zowel op Wi-Fi als mobiele data. Of laat de Blokada 6-app het voor je doen.
 updated: 2026-10-02
 order: 5
 ---
@@ -13,7 +13,7 @@ order: 5
 
 ## Zonder de app: Private DNS
 
-Android 9 en later heeft een instelling voor _Private DNS_. Stel deze in op Blokada Cloud, en advertenties en trackers worden in alle apps en op elk netwerk geblokkeerd, zonder dat er iets op de achtergrond draait.
+Android 9 en nieuwer heeft een _Private DNS_-instelling. Stel deze in op Blokada Cloud, en advertenties en trackers worden in alle apps en op elk netwerk geblokkeerd, zonder dat er iets op de achtergrond draait.
 
 1. Open _Instellingen → Netwerk & internet_. Op sommige telefoons heet dit _Verbindingen_ of _Verbinding & delen_.
 2. Tik op _Private DNS_. Op Samsung-telefoons staat dit onder _Meer verbindingsinstellingen_.
@@ -24,10 +24,10 @@ Als je het niet kunt vinden, zoek dan in de Instellingen-app op "Private DNS".
 
 ## Controleer of het werkt
 
-Open enkele apps of websites en bekijk vervolgens de _Activiteit_-pagina in het [dashboard](https://app.blokada.org/stats?src=guides). De zoekopdrachten van deze telefoon worden daar weergegeven.
+Open enkele apps of websites en bekijk vervolgens de _Activiteit_-pagina in het [dashboard](https://app.blokada.org/stats?src=guides). De zoekopdrachten van deze telefoon verschijnen daar.
 
 ## Als iets niet werkt
 
-- **"Kon geen verbinding maken" of geen internet:** controleer je Blokada DNS-naam op spelfouten. Deze moet precies worden ingevoerd zoals hierboven weergegeven, zonder `https://`.
-- **Een andere VPN-app is actief:** sommige VPN-apps gebruiken hun eigen DNS en omzeilen Private DNS. Schakel de DNS- of advertentieblokkering van de VPN uit, of gebruik Blokada 6 in plaats daarvan.
-- **Chrome toont nog steeds advertenties:** Chrome kan ingesteld zijn op zijn eigen beveiligde DNS-provider, waardoor Private DNS wordt omzeild. **Chrome toont nog steeds advertenties:** open in Chrome _Instellingen → Privacy en beveiliging → Beveiligde DNS gebruiken_ en kies _Huidige serviceprovider gebruiken_. Chrome volgt daarna Private DNS.
+- **"Kan geen verbinding maken" of geen internet:** controleer je Blokada DNS-naam op typefouten. Deze moet exact zijn zoals hierboven weergegeven, zonder `https://`.
+- **Een andere VPN-app is actief:** sommige VPN-apps gebruiken hun eigen DNS en omzeilen Private DNS. Zet de DNS- of advertentieblokkeringsinstelling van de VPN uit, of gebruik in plaats daarvan Blokada 6.
+- **Chrome toont nog steeds advertenties:** Chrome kan ingesteld zijn op een eigen beveiligde DNS-provider, waardoor Private DNS wordt omzeild. Open in Chrome _Instellingen → Privacy en beveiliging → Beveiligde DNS gebruiken_ en kies _Je huidige serviceprovider gebruiken_. Chrome volgt dan Private DNS.
