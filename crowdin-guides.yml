@@ -11,3 +11,5 @@ preserve_hierarchy: true
 files:
   - source: /guides/*.md
     translation: /build/guides/%locale_with_underscore%/%original_file_name%
+    # As in crowdin.yml: one string per paragraph or step.
+    content_segmentation: 0
