@@ -5,7 +5,7 @@ updated: 2026-10-02
 order: 9
 ---
 
-La plupart des distributions Linux récentes, y compris Ubuntu et Fedora, résolvent les noms via _systemd-resolved_, qui prend en charge DNS over TLS. Sur Debian, installez-le d'abord avec `sudo apt install systemd-resolved`. Pointez-le vers Blokada Cloud, et les publicités ainsi que les traqueurs sont bloqués pour chaque application sur l'ordinateur.
+La plupart des distributions Linux modernes, dont Ubuntu et Fedora, résolvent les noms via _systemd-resolved_, qui prend en charge le DNS via TLS. Sur Debian, installez-le d'abord avec `sudo apt install systemd-resolved`. Pointez-le vers Blokada Cloud, et les publicités ainsi que les traqueurs seront bloqués pour toute application sur l’ordinateur.
 
 ## Configurer systemd-resolved
 
@@ -25,20 +25,20 @@ La partie après `#` est votre nom DNS Blokada : {% dot %} systemd-resolved vér
 
 <div class="note important">
 
-**NetworkManager** transmet aussi les serveurs DNS de votre réseau. `Domains=~.` envoie toutes les recherches à Blokada, mais si `resolvectl status` affiche toujours un autre serveur sur une connexion, désactivez l'attribution automatique du DNS pour cette connexion (l'interrupteur _Automatique_ à côté de _DNS_ dans ses paramètres IPv4 et IPv6).
+**NetworkManager** transmet également les serveurs DNS de votre réseau. `Domains=~.` envoie toutes les recherches à Blokada, mais si `resolvectl status` affiche toujours un autre serveur sur une connexion, désactivez l'attribution automatique du DNS pour cette connexion (l'interrupteur _Automatique_ à côté de _DNS_ dans ses paramètres IPv4 et IPv6).
 
 </div>
 
 ## Sans systemd-resolved
 
-Si `resolvectl` n'est pas trouvé, votre distribution résout les noms d'une autre manière. Configurez plutôt un DNS sécurisé dans votre navigateur, comme indiqué dans le [guide du navigateur](../browser-dns-over-https/), ou configurez votre [routeur](../router-ad-blocking/) pour protéger toute la maison.
+Si `resolvectl` n'est pas trouvé, votre distribution résout les noms autrement. Configurez plutôt un DNS sécurisé dans votre navigateur, comme indiqué dans le [guide du navigateur](../browser-dns-over-https/), ou configurez votre [routeur](../router-ad-blocking/) pour protéger toute la maison.
 
 ## Vérifiez que cela fonctionne
 
-Ouvrez quelques sites web, puis consultez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les recherches de cet ordinateur apparaissent ici.
+Ouvrez quelques sites web, puis consultez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les recherches de ce poste apparaîtront à cet endroit.
 
 <div class="note aside">
 
-Vous voulez aussi un VPN sur cet ordinateur ? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) inclut une configuration WireGuard qui chiffre tout le trafic, avec le même blocage.
+Vous souhaitez également un VPN sur cet ordinateur ? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) inclut une configuration WireGuard qui chiffre tout le trafic, avec le même blocage.
 
 </div>
