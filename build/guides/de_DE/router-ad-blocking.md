@@ -9,7 +9,7 @@ Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen s
 
 ## Was dein Router können muss
 
-Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, benötigst du entweder deinen DNS-Namen oder deinen DoH-Link, beide findest du oben unter _Deine Angaben_.
+Dein Router muss **verschlüsseltes DNS mit Hostnamen** unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du deinen DNS-Namen oder deinen DoH-Link. Beide stehen oben unter _Deine Daten_.
 
 <div class="note important">
 
@@ -55,7 +55,7 @@ Suche nach einer Einstellung namens _DNS over TLS_, _Privates DNS_, _Verschlüss
 1. Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.
 2. Surfe eine Minute lang und öffne dann die Seite _Aktivität_ im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.
 
-## Wenn auf einigen Geräten weiterhin Werbung angezeigt wird
+## Wenn manche Geräte noch Werbung zeigen
 
 Manche Geräte umgehen den Router: Handys mit eingerichtetem _Privatem DNS_, Browser, deren _sicheres DNS_ auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.
 
