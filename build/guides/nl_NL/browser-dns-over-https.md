@@ -35,16 +35,16 @@ Deze instelling geldt alleen voor deze browser. Om de hele computer te bescherme
 
 ## Safari
 
-Safari heeft geen eigen instelling voor beveiligde DNS. Safari gebruikt het DNS van het systeem, installeer daarom het [Apple-profiel](../apple-devices/).
+Safari heeft geen eigen instelling voor beveiligde DNS. Het gebruikt het DNS van het systeem, dus installeer het [Apple-profiel](../apple-devices/).
 
 ## Controleer of het werkt
 
-Blader een minuut rond en open dan de pagina _Activiteit_ in het [dashboard](https://app.blokada.org/stats?src=guides). De opvragingen van deze browser zijn daar zichtbaar.
+Blader een minuut rond en open daarna de _Activiteit_-pagina in het [dashboard](https://app.blokada.org/stats?src=guides). De opvragingen van deze browser verschijnen daar.
 
 ## Als iets niet werkt
 
 <div class="note tip">
 
-Als je browser wordt beheerd door werk of school, kan het zijn dat de instelling voor beveiligde DNS is vergrendeld. Vraag je beheerder om hulp.
+Als je browser wordt beheerd door werk of school, kan het zijn dat de instelling voor beveiligde DNS is vergrendeld. Neem contact op met je beheerder.
 
 </div>
