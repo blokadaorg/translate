@@ -5,15 +5,15 @@ updated: 2026-10-02
 order: 4
 ---
 
-Każde urządzenie w Twojej sieci pyta router, którego serwera DNS użyć. Skieruj router na Blokada Cloud, a reklamy i trackery zostaną zablokowane dla wszystkiego podłączonego za nim. To obejmuje inteligentne telewizory, konsole do gier, sticki do streamingu i urządzenia smart home, które nie mają możliwości uruchomienia aplikacji blokera reklam.
+Każde urządzenie w Twojej sieci pyta router, z którego serwera DNS ma korzystać. Skieruj router na Blokada Cloud, a reklamy i trackery zostaną zablokowane dla wszystkiego za nim. Dotyczy to również smart TV, konsol do gier, sticków do streamingu oraz urządzeń smart home, które nie mają możliwości zainstalowania aplikacji blokującej reklamy.
 
 ## Czego potrzebuje Twój router
 
-Twój router musi obsługiwać **szyfrowany DNS z nazwą hosta**, czyli DNS-over-TLS (DoT) lub DNS-over-HTTPS (DoH). Wiele nowszych routerów to potrafi, w tym wymienione poniżej modele. W zależności od tego, które z nich obsługuje Twój router, potrzebujesz swojej nazwy DNS lub linku DoH. Obie te informacje znajdziesz powyżej w sekcji _Twoje dane_.
+Twój router musi obsługiwać **szyfrowany DNS z nazwą hosta**, czyli DNS-over-TLS (DoT) lub DNS-over-HTTPS (DoH). Wiele nowszych routerów to umożliwia, w tym poniższe modele. W zależności od tego, co obsługuje Twój router, potrzebujesz swojej nazwy DNS lub linku DoH, oba widoczne powyżej w sekcji _Twoje dane_.
 
 <div class="note important">
 
-**Tylko zwykłe adresy IP?** Wiele routerów od dostawców internetu akceptuje tylko zwykłe adresy IP do DNS. Wsparcie dla nich jest w drodze. Do tego czasu skonfiguruj swoje urządzenia pojedynczo: [Android](../android-private-dns/), [Mac i Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) oraz [przeglądarki](../browser-dns-over-https/). Możesz także uruchomić mały forwarder na Raspberry Pi, zgodnie z opisem w [przewodniku Pi-hole](../switch-from-pihole/).
+**Tylko zwykłe adresy IP?** Wiele routerów od dostawców internetu akceptuje tylko zwykłe adresy IP dla DNS. Obsługa ich jest w przygotowaniu. Do tego czasu konfiguruj urządzenia pojedynczo: [Android](../android-private-dns/), [Mac i Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) oraz [przeglądarki](../browser-dns-over-https/). Można także uruchomić mały przekierowujący serwer na Raspberry Pi – opis znajdziesz w [poradniku Pi-hole](../switch-from-pihole/).
 
 </div>
 
@@ -23,7 +23,7 @@ FRITZ!OS 7.20 lub nowszy.
 
 1. Otwórz `http://fritz.box` i przejdź do _Internet → Informacje o koncie → Serwer DNS_.
 2. W sekcji _Szyfrowana rozdzielczość nazw w Internecie (DNS-over-TLS)_ zaznacz _Używaj szyfrowanej rozdzielczości nazw_.
-3. W polu _Nazwy resolverów_ wpisz tylko {% dot %}. **Usuń wszystkie inne wpisy.** FRITZ!Box korzysta ze wszystkich wpisanych resolverów, a każdy inny przepuszcza reklamy.
+3. W _Rozwiązane nazwy serwera DNS_ wpisz tylko {% dot %}. **Usuń wszystkie inne wpisy.** FRITZ!Box korzysta ze wszystkich wpisanych resolverów, a każdy inny przepuszcza reklamy.
 4. Zaznacz _Wymuś weryfikację certyfikatu dla szyfrowanej rozdzielczości nazw_.
 5. Jeśli widzisz opcję _Przełącz na publiczne serwery DNS, gdy DNS jest zakłócony_, wyłącz ją.
 6. Kliknij _Zastosuj_.
@@ -42,25 +42,25 @@ Najnowsze oprogramowanie ASUS (3.0.0.4.388 lub nowsze) oraz Asuswrt-Merlin.
 ## OpenWrt
 
 1. W _System → Oprogramowanie_ zaktualizuj listy i zainstaluj `luci-app-https-dns-proxy`.
-2. Otwórz _Usługi → HTTPS DNS Proxy_. Usuń instancje innych dostawców.
+2. Otwórz _Usługi → HTTPS DNS Proxy_. Usuń instancje dla innych dostawców.
 3. Dodaj instancję z niestandardowym adresem URL resolvera: {% doh %}
 4. _Zapisz i zastosuj_. Pakiet automatycznie wskazuje na niego dnsmasq.
 
 ## Inne routery
 
-Poszukaj ustawienia o nazwie _DNS over TLS_, _Prywatny DNS_, _Szyfrowany DNS_ lub _DNS-over-HTTPS_. Wprowadź swoją nazwę DNS Blokada lub link DoH z powyższej instrukcji i usuń wszystkie inne serwery DNS, w tym zapasowe.
+Znajdź ustawienie takie jak _DNS-over-TLS_, _Prywatny DNS_, _Szyfrowany DNS_ lub _DNS-over-HTTPS_. Wprowadź swoją nazwę DNS Blokada lub link DoH z powyższych pozycji i usuń wszystkie inne serwery DNS, wraz z serwerami rezerwowym.
 
 ## Sprawdź, czy działa
 
 1. Uruchom ponownie jedno z urządzeń lub wyłącz i włącz jego Wi-Fi, aby odebrało zmianę.
-2. Przeglądaj przez minutę, a następnie otwórz stronę _Aktywność_ w panelu. Zapytania Twojej sieci pojawią się tam.
+2. Przeglądaj przez minutę, a następnie otwórz stronę _Aktywność_ w panelu. Zapytania z Twojej sieci pojawią się tam.
 
 ## Jeśli na niektórych urządzeniach wciąż wyświetlają się reklamy
 
-Niektóre urządzenia omijają router: telefony z ustawionym _Prywatnym DNS_, przeglądarki z _bezpiecznym DNS_ ustawionym na innego dostawcę oraz urządzenia na stałe ustawiające własny DNS. Ustaw to bezpośrednio na urządzeniu lub wyłącz ich własne ustawienia DNS.
+Niektóre urządzenia omijają router: telefony z ustawionym _Prywatnym DNS_, przeglądarki z _bezpiecznym DNS_ ustawionym na innego dostawcę oraz urządzenia na stałe ustawiające własny DNS. Skonfiguruj takie urządzenie osobno lub wyłącz własne ustawianie DNS.
 
 <div class="note tip">
 
-Za routerem wszystkie urządzenia korzystają z jednego adresu, więc panel wyświetla Twoją sieć jako jedno urządzenie. Skonfiguruj telefony i laptopy z własną nazwą DNS Blokada, jeśli chcesz widzieć je osobno. One również zachowują blokowanie, kiedy są poza domem.
+Za routerem wszystkie urządzenia korzystają z jednego adresu, więc panel wyświetla Twoją sieć jako jedno urządzenie. Jeśli chcesz widzieć telefony i laptopy osobno, skonfiguruj dla nich indywidualną nazwę DNS Blokada. Dzięki temu będą one chronione również po opuszczeniu domu.
 
 </div>
