@@ -1,7 +1,7 @@
 ---
 title: Ett alternativ till Pi-hole som inte kräver någon hårdvara
 description: Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 1
 ---
 
@@ -16,15 +16,13 @@ Det finns två sätt att byta. Ersätt Pi-hole helt, eller behåll den och anvä
 
 ## Alternativ 1: ersätt Pi-hole
 
-1. **Skaffa Blokada Cloud** och öppna dashboarden. Under *Inställningar* hittar du dina uppgifter:
-   - Ditt Blokada-DNS-namn, för DNS över TLS: {% dot %}
-   - Din DoH-länk, för DNS över HTTPS: {% doh %}
+1. **Skaffa Blokada Cloud** och öppna dashboarden. Ditt DNS-namn och din DoH-länk finns där under _Inställningar_ och under _Dina uppgifter_ ovan.
 2. **Peka routern mot Blokada i stället för Pi-hole.** Följ [routerguiden](../router-ad-blocking/). Om routern bara accepterar en vanlig IP-adress som DNS-server ställer du in enheterna en i taget i stället: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/).
-3. **Om din Pi-hole var DHCP-server** aktiverar du DHCP i routern igen *innan* du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.
-4. **Flytta dina listor.** I dashboarden väljer du blocklistor under *Blocklistor* och lägger till egna tillåtna eller blockerade domäner under *Undantag*.
+3. **Om din Pi-hole var DHCP-server** aktiverar du DHCP i routern igen _innan_ du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.
+4. **Flytta dina listor.** I dashboarden väljer du blocklistor under _Blocklistor_ och lägger till egna tillåtna eller blockerade domäner under _Undantag_.
 5. **Stäng av Pi-hole,** eller använd den till något annat.
 
-<div class="note">
+<div class="note aside">
 
 Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn visas som en enhet.
 
@@ -51,8 +49,8 @@ DynamicUser=yes
 WantedBy=multi-user.target</code></pre>
 
 3. Starta den: `sudo systemctl enable --now dnsproxy`
-4. Öppna *Settings → DNS* i Pi-holes administrationsgränssnitt. Avmarkera alla uppströmsservrar och lägg till `127.0.0.1#5054` som anpassad uppströmsserver. Spara.
-5. Kontrollera sidan *Aktivitet* i dashboarden. Uppslag från ditt nätverk visas nu där.
+4. Öppna _Settings → DNS_ i Pi-holes administrationsgränssnitt. Avmarkera alla uppströmsservrar och lägg till `127.0.0.1#5054` som anpassad uppströmsserver. Spara.
+5. Kontrollera sidan _Aktivitet_ i dashboarden. Uppslag från ditt nätverk visas nu där.
 
 Du kan stänga av Pi-holes egna blocklistor och sköta blockeringen i dashboarden, eller behålla båda.
 
