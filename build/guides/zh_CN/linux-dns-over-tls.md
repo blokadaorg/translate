@@ -5,7 +5,7 @@ updated: 2026-10-02
 order: 9
 ---
 
-当前大多数 Linux 发行版（包括 Ubuntu 和 Fedora）都通过 _systemd-resolved_ 解析名称，并支持 DNS over TLS。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。在 Debian 上，先使用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud，电脑上每个应用程序的广告和跟踪器都会被屏蔽。
+目前大多数 Linux 发行版，包括 Ubuntu 和 Fedora，都是通过 _systemd-resolved_ 进行名称解析的，它支持 DNS over TLS。在 Debian 上，首先用 `sudo apt install systemd-resolved` 安装它。将其指向 Blokada Cloud 后，电脑上所有应用的广告和跟踪器都会被屏蔽。
 
 ## 设置 systemd-resolved
 
@@ -22,20 +22,20 @@ order: 9
 
 <div class="note important">
 
-**NetworkManager** 同样会传递你网络的 DNS 服务器。 **NetworkManager** 同样会传递你网络的 DNS 服务器。 `Domains=~.` 会将所有查询发送至 Blokada。如果 `resolvectl status` 在某个连接上仍然列出了其他服务器，请关闭该连接的自动 DNS（在其 IPv4 和 IPv6 设置中 _DNS_ 旁边的 _自动_ 开关）。
+**NetworkManager** 同样会传递你网络的 DNS 服务器。`Domains=~.` 会将所有查询发送至 Blokada，但如果 `resolvectl status` 在某个连接上仍然显示了其他服务器，请为该连接关闭自动 DNS（在其 IPv4 和 IPv6 设置中 _DNS_ 旁的 _自动_ 开关）。
 
 </div>
 
 ## 未使用 systemd-resolved
 
-如果找不到 `resolvectl`，说明你的发行版以其他方式解析名称。请改为在浏览器中配置安全 DNS，具体见[浏览器指南](../browser-dns-over-https/)，或者配置你的[路由器](../router-ad-blocking/)以实现全屋覆盖。
+如果找不到 `resolvectl` 命令，说明你的发行版使用了其他方式进行名称解析。请改为在浏览器中设置安全 DNS，具体请参见[浏览器指南](../browser-dns-over-https/)，或者设置你的[路由器](../router-ad-blocking/)以覆盖整个家庭。
 
 ## 检查是否生效
 
-打开几个网站，然后在 [仪表板](https://app.blokada.org/stats?src=guides) 的 _活动_ 页面查看。这台电脑的查询会在此显示。这台电脑的查询会在此显示。
+打开几个网站，然后在[仪表板](https://app.blokada.org/stats?src=guides)的 _活动_ 页面查看。这台计算机的查询会显示在该处。
 
 <div class="note aside">
 
-也想给这台电脑加上 VPN 吗？ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。 [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 内置 WireGuard 配置，可加密全部流量，同时继续屏蔽广告与跟踪。
+想在这台计算机上也使用 VPN？[Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) 包含 WireGuard 配置，可以加密所有流量，并保持相同的拦截效果。
 
 </div>
