@@ -5,9 +5,9 @@ updated: 2026-10-02
 order: 7
 ---
 
-Les navigateurs modernes peuvent utiliser leur propre fournisseur DNS chiffré, appelé _DNS sécurisé_ ou _DNS sur HTTPS_. Réglez-le sur Blokada Cloud, et le navigateur bloque les publicités et les traqueurs sur tout réseau, sans extension à installer.
+Les navigateurs modernes peuvent utiliser leur propre fournisseur de DNS chiffré, appelé _DNS sécurisé_ ou _DNS over HTTPS_. Configurez-le sur Blokada Cloud, et le navigateur bloque les publicités et les traqueurs sur n'importe quel réseau, sans extension à installer.
 
-Ce paramètre ne s'applique qu'à ce navigateur. Pour couvrir tout l'ordinateur, utilisez le [profil Apple](../apple-devices/) sur un Mac, ou configurez votre [routeur](../router-ad-blocking/).
+Ce paramètre couvre uniquement ce navigateur. Pour couvrir tout l'ordinateur, utilisez le [profil Apple](../apple-devices/) sur un Mac, ou configurez votre [routeur](../router-ad-blocking/).
 
 ## Chrome
 
@@ -39,12 +39,12 @@ Safari ne possède pas de paramètre DNS sécurisé propre. Il utilise le DNS du
 
 ## Vérifiez que cela fonctionne
 
-Naviguez pendant une minute, puis ouvrez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les requêtes de ce navigateur s'affichent ici.
+Naviguez pendant une minute, puis ouvrez la page _Activité_ dans le [tableau de bord](https://app.blokada.org/stats?src=guides). Les requêtes de ce navigateur s'y afficheront.
 
 ## Si quelque chose ne fonctionne pas
 
 <div class="note tip">
 
-Si votre navigateur est géré par votre entreprise ou école, le paramètre DNS sécurisé peut être verrouillé. Contactez votre administrateur.
+Si votre navigateur est géré par votre entreprise ou école, le paramètre DNS sécurisé peut être verrouillé. Demandez à votre administrateur.
 
 </div>
