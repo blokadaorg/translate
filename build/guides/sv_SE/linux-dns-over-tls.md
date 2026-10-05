@@ -5,7 +5,7 @@ updated: 2026-10-02
 order: 9
 ---
 
-De flesta aktuella Linux-distributioner, inklusive Ubuntu och Fedora, löser namn via _systemd-resolved_, som stöder DNS över TLS. På Debian, installera det först med `sudo apt install systemd-resolved`. Peka den mot Blokada Cloud, så blockeras annonser och spårare för alla appar på datorn.
+De flesta aktuella Linux-distributioner, bland annat Ubuntu och Fedora, slår upp namn via _systemd-resolved_, som har stöd för DNS över TLS. På Debian installerar du det först med `sudo apt install systemd-resolved`. Peka den mot Blokada Cloud, så blockeras reklam och spårare för alla appar på datorn.
 
 ## Ställ in systemd-resolved
 
@@ -31,7 +31,7 @@ Delen efter `#` är ditt Blokada-DNS-namn: {% dot %} systemd-resolved kontroller
 
 ## Utan systemd-resolved
 
-Om `resolvectl` inte hittas, löser din distribution namn på ett annat sätt. Ställ istället in säker DNS i din webbläsare enligt [webbläsarguiden](../browser-dns-over-https/), eller konfigurera din [router](../router-ad-blocking/) för att täcka hela hemmet.
+Om `resolvectl` inte hittas slår din distribution upp namn på ett annat sätt. Ställ in säker DNS i webbläsaren i stället, enligt [webbläsarguiden](../browser-dns-over-https/), eller ställ in din [router](../router-ad-blocking/) för att skydda hela hemmet.
 
 ## Kontrollera att det fungerar
 
@@ -39,6 +39,6 @@ Om `resolvectl` inte hittas, löser din distribution namn på ett annat sätt. S
 
 <div class="note aside">
 
-Vill du ha ett VPN på den här datorn också? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) inkluderar en WireGuard-konfiguration som krypterar all trafik, med samma blockering.
+Vill du också ha en VPN på den här datorn? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.
 
 </div>
