@@ -1,11 +1,11 @@
 ---
 title: Una alternativa a NextDNS con la misma configuración en todos los dispositivos
-description: Pase de NextDNS a La Nube de Blokada. Intercambie su nombre DNS, enlace DoH o perfil de NextDNS por el de Blokada en su teléfono, ordenador y router, y mantenga el bloqueo de anuncios.
+description: Pásese de NextDNS a La Nube de Blokada. Cambie su nombre DNS, enlace DoH o perfil de NextDNS por el de La Nube de Blokada en su teléfono, ordenador y router, y mantenga el bloqueo de anuncios.
 updated: 2026-10-02
 order: 3
 ---
 
-NextDNS y La Nube de Blokada funcionan de la misma manera: un servicio DNS cifrado que bloquea anuncios y rastreadores por nombre, con su propia configuración detrás de un nombre DNS personal. Cambiar significa reemplazar los valores de NextDNS en cada dispositivo por los suyos de Blokada. Nada más en el dispositivo cambia.
+NextDNS y La Nube de Blokada funcionan de la misma manera: un servicio DNS cifrado que bloquea anuncios y rastreadores por nombre, con sus propios ajustes detrás de un nombre DNS personal. Cambiar significa reemplazar los valores de NextDNS en cada dispositivo por los de La Nube de Blokada. Nada más en el dispositivo cambia.
 
 ## Lo que usaba, y qué elegir en Blokada
 
@@ -24,11 +24,11 @@ Dependiendo del dispositivo, necesita su nombre de DNS o su enlace DoH, ambos se
 
 ### Android
 
-Si usó _DNS Privado_ con `<su-id>.dns.nextdns.io`, reemplácelo por su nombre DNS de Blokada, como en la [guía de Android](../android-private-dns/). Si usó la aplicación de NextDNS, desinstálela e instale [Blokada 6](https://go.blokada.org/play_cloud) en su lugar.
+Si utilizó _DNS Privado_ con `<your-id>.dns.nextdns.io`, reemplácelo por su nombre de DNS de Blokada, como se indica en la [guía de Android](../android-private-dns/). Si utilizó la app de NextDNS, desinstálela e instale [Blokada 6](https://go.blokada.org/play_cloud) en su lugar.
 
 ### iPhone y iPad
 
-Si usó la aplicación de NextDNS, desinstálela e instale [Blokada 6](https://go.blokada.org/appstore). Si instaló un perfil de NextDNS en su lugar, elimínelo en _Configuración → General → VPN y gestión de dispositivos_, luego siga la [guía de Apple](../apple-devices/).
+Si utilizó la aplicación NextDNS, desinstálela e instale [Blokada 6](https://go.blokada.org/appstore). Si en su lugar instaló un perfil de NextDNS, elimínelo desde _Ajustes → General → VPN y Administración de Dispositivo_, luego siga la [guía para Apple](../apple-devices/).
 
 ### Mac y Apple TV
 
@@ -36,7 +36,7 @@ Elimine el perfil o la aplicación de NextDNS, luego instale el perfil de Blokad
 
 ### Windows y Linux
 
-Desinstale la aplicación de NextDNS si la utiliza. En Windows, reemplace el servidor y plantilla DoH de NextDNS por los de Blokada, como en la [guía de Windows](../windows-dns-over-https/). En Linux, reemplace el servidor NextDNS en systemd-resolved, como en la [guía de Linux](../linux-dns-over-tls/).
+Desinstale la aplicación NextDNS si la usa. En Windows, reemplace el servidor NextDNS y la plantilla DoH por los de Blokada, como indica la [guía de Windows](../windows-dns-over-https/). En Linux, reemplace el servidor NextDNS en systemd-resolved, como se explica en la [guía de Linux](../linux-dns-over-tls/).
 
 ### Navegadores
 
@@ -46,8 +46,8 @@ Si configuró `https://dns.nextdns.io/…` como _DNS seguro_ de su navegador, re
 
 Si su router usa NextDNS sobre DNS sobre TLS o DNS sobre HTTPS, reemplace el nombre o enlace de NextDNS por el de Blokada, como en la [guía de routers](../router-ad-blocking/).
 
-Si utiliza NextDNS a través de direcciones IP simples con una _IP vinculada_, Blokada aún no puede hacerse cargo de eso. El soporte para routers con direcciones DNS simples está en camino. Hasta entonces, configure sus dispositivos uno por uno, o use un router que soporte DNS cifrado.
+Si utiliza NextDNS mediante direcciones IP simples con una _IP vinculada_, Blokada aún no puede hacerse cargo de eso. El soporte para routers con direcciones DNS simples está en camino. Hasta entonces, configure sus dispositivos uno por uno, o utilice un router que admita DNS cifrado.
 
 ## Comprobar que funciona
 
-Abra algunos sitios web, luego mire la página de _Actividad_ en el tablero. Verá las consultas de sus dispositivos allí, con las bloqueadas marcadas. Si un dispositivo no aparece, todavía está usando NextDNS.
+Abra algunos sitios web y luego consulte la página de _Actividad_ en el panel. Allí verá las consultas de sus dispositivos, con las bloqueadas marcadas. Si un dispositivo no aparece, todavía está usando NextDNS.
