@@ -1,16 +1,13 @@
 ---
 title: Block ads on Windows with DNS over HTTPS
 description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 8
 ---
 
 Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
 
-You need two values:
-
-- DNS server (IP address): {% ip "doh" %}
-- Your DoH link: {% doh %}
+Вам понадобятся IP-адрес DNS-сервера и ваша DoH-ссылка, оба параметра находятся выше в разделе _Ваши данные_.
 
 ## Windows 11
 
@@ -23,13 +20,15 @@ You need two values:
 
 If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
 
-<div class="note">
+<div class="note important">
 
 Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+</div>
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+<div class="note tip">
+
+No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
 
 </div>
 
@@ -41,6 +40,14 @@ Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser inst
 
 Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
+<div class="note aside">
+
+Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+
+</div>
+
+## Если что-то не работает
+
 Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
 
 - **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
@@ -48,8 +55,4 @@ Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Lef
 
 Then paste your DoH link {% doh %}
 
-<div class="note">
-
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
-
-</div>
+If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).

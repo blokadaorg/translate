@@ -1,17 +1,17 @@
 ---
 title: Blocca le pubblicità su Mac e Apple TV con un profilo DNS di Blokada
 description: Installa un profilo DNS Blokada Cloud per bloccare pubblicità e tracker su tutto il sistema su Mac o Apple TV, con DNS criptato e senza nulla in esecuzione in background.
-updated: 2026-09-28
+updated: 02/10/2026
 order: 6
 ---
 
-I dispositivi Apple possono utilizzare DNS criptato per l’intero sistema tramite un profilo di configurazione. Il profilo Blokada indirizza il dispositivo su Blokada Cloud, che blocca pubblicità e tracker in ogni app e browser.
+I dispositivi Apple possono utilizzare il DNS crittografato per l'intero sistema tramite un profilo di configurazione. Il profilo di Blokada indirizza il dispositivo a Blokada Cloud, che blocca pubblicità e tracker in ogni app e browser.
 
 Funziona su macOS 11 (Big Sur), tvOS 14, iOS e iPadOS 14 e versioni successive.
 
 <div class="if-no-device">
 
-Questa pagina non riconosce ancora il tuo dispositivo, quindi non può offrire il tuo profilo. Accedi alla dashboard, apri _Setup_, scegli il tuo dispositivo e apri questa guida con _Apri su un altro dispositivo_.
+Questa pagina non conosce ancora il tuo dispositivo, quindi non può offrire il tuo profilo. Accedi alla dashboard, apri _Setup_, scegli il tuo dispositivo e apri questa guida con _Apri su un altro dispositivo_.
 
 <p><a class=\"btn btn-outline\" href=\"https://app.blokada.org/setup?src=guides\">Ottieni il link del mio profilo</a></p>
 
@@ -19,16 +19,16 @@ Questa pagina non riconosce ancora il tuo dispositivo, quindi non può offrire i
 
 ## iPhone e iPad
 
-Il modo più semplice è l’app. [Blokada 6](https://go.blokada.org/appstore) configura tutto per te, attiva e disattiva il blocco con un solo tocco e mostra ciò che è stato bloccato direttamente sul telefono. Accedi con il tuo ID account e hai finito.
+Il modo più semplice è tramite l'app. [Blokada 6](https://go.blokada.org/appstore) configura tutto per te, attiva e disattiva il blocco con un solo tocco e mostra ciò che è stato bloccato direttamente sul telefono. Accedi con il tuo ID account e hai finito.
 
 <p><a class=\"btn btn-primary\" href=\"https://go.blokada.org/appstore\">Scarica Blokada 6 su App Store</a></p>
 
 ### Senza l’app
 
-Puoi invece installare il profilo. iPhone e iPad installano i profili solo da **Safari**.
+In alternativa puoi installare il profilo. iPhone e iPad installano i profili solo da **Safari**.
 
 <div class="if-device">
-<div class="if-other-browser note">
+<div class="if-other-browser note important">
 
 Questa pagina è aperta in un altro browser. Copia il tuo link e aprilo in Safari per continuare lì: {% pageLink %}
 
@@ -38,7 +38,7 @@ Questa pagina è aperta in un altro browser. Copia il tuo link e aprilo in Safar
 <div class="if-safari">
 
 1. In Safari, tocca il pulsante qui sotto, poi _Consenti_ per scaricare il profilo.
-2. Apri le Impostazioni. Tocca _Profilo scaricato_ in alto. Puoi trovarlo anche in _Generali → VPN e gestione dispositivi_.
+2. Apri _Impostazioni_. Tocca _Profilo scaricato_ vicino alla parte superiore. Puoi trovarlo anche sotto _Generali → VPN e gestione dispositivo_.
 3. Tocca _Installa_, inserisci il tuo codice e conferma.
 
 </div>
@@ -59,10 +59,10 @@ L’Apple TV non può aprire pagine web, quindi devi digitare il tuo link del pr
 
 1. Il link del tuo profilo: {% appleUrl %}
 2. Su Apple TV, apri _Impostazioni → Generali → Privacy e sicurezza_.
-3. Evidenzia _Invia ad Apple_ (chiamato _Condividi dati di analisi Apple TV_ su tvOS più vecchi). Non selezionarlo. Premi il tasto Play/Pausa del telecomando invece.
-4. Scegli _Aggiungi profilo_ e inserisci il tuo link del profilo. Digitare è più semplice con il prompt della tastiera sul tuo iPhone, dove puoi incollarlo. Installa il profilo e conferma.
+3. Evidenzia _Condividi analisi Apple TV_. Non selezionarla. Premi invece il pulsante Play/Pausa sul telecomando.
+4. Scegli _Aggiungi profilo_ e inserisci il link del tuo profilo. Digitare è più semplice con la tastiera dell'iPhone, dove puoi incollarlo. Installa il profilo e conferma.
 
-<div class="note">
+<div class="note aside">
 
 **Apple TV e altri dispositivi a casa:** Se configuri Blokada Cloud sul [router](../router-ad-blocking/), anche Apple TV e tutti gli altri dispositivi saranno protetti.
 
@@ -70,6 +70,6 @@ L’Apple TV non può aprire pagine web, quindi devi digitare il tuo link del pr
 
 ## Verifica che funzioni
 
-Naviga per un minuto, poi apri la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le risoluzioni di questo dispositivo appariranno lì.
+Naviga per un minuto, poi apri la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le richieste di questo dispositivo verranno visualizzate lì.
 
 Per rimuovere Blokada in seguito, elimina il profilo dove lo hai installato.

@@ -1,7 +1,7 @@
 ---
 title: Block ads on your whole network with router ad blocking
 description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
@@ -9,12 +9,9 @@ Every device on your network asks the router which DNS server to use. Point the 
 
 ## What your router needs
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:
+Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
 
-- For DNS over TLS, your Blokada DNS name: {% dot %}
-- For DNS over HTTPS, your DoH link: {% doh %}
-
-<div class="note">
+<div class="note important">
 
 **Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
 
@@ -26,7 +23,7 @@ FRITZ!OS 7.20 or later.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolver names_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
 4. Tick _Enforce certificate verification for encrypted name resolution_.
 5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
 6. Click _Apply_.
@@ -58,9 +55,11 @@ Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS
 1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
 2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
 
+## If some devices still show ads
+
 Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
 
-<div class="note">
+<div class="note tip">
 
 Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
 

@@ -1,11 +1,11 @@
 ---
 title: Bloquear anuncios en Linux con DNS sobre TLS
 description: Configure systemd-resolved para usar La Nube de Blokada a través de DNS cifrado sobre TLS, y bloquee anuncios y rastreadores para cada aplicación en su ordenador Linux.
-updated: 2026-09-28
+updated: 2026-10-02
 order: 9
 ---
 
-La mayoría de las distribuciones Linux actuales, incluidas Ubuntu y Fedora, resuelven los nombres mediante <em>systemd-resolved</em>, que admite DNS sobre TLS. En Debian, instálelo primero con <code>sudo apt install systemd-resolved</code>. Apúntelo a La Nube de Blokada, y los anuncios y rastreadores se bloquean para cada aplicación del ordenador.
+La mayoría de las distribuciones actuales de Linux, incluidas Ubuntu y Fedora, resuelven los nombres a través de _systemd-resolved_, que admite DNS sobre TLS. En Debian, instálelo primero con `sudo apt install systemd-resolved`. Apúntelo a la Nube de Blokada y los anuncios y rastreadores serán bloqueados para cada app en el ordenador.
 
 ## Configurar systemd-resolved
 
@@ -23,22 +23,22 @@ Domains=~.</code></pre>
 
 La parte después de <code>#</code> es su nombre DNS de Blokada: {% dot %} systemd-resolved comprueba el certificado del servidor con él, y Blokada lo usa para saber qué dispositivo está consultando.
 
-<div class="note">
+<div class="note important">
 
-<b>NetworkManager</b> también pasa los servidores DNS de su red. <code>Domains=~.</code> envía todas las consultas a Blokada, pero si <code>resolvectl status</code> todavía lista otro servidor en una conexión, desactive el DNS automático para esa conexión (el interruptor <em>Automático</em> junto a <em>DNS</em> en su configuración IPv4 e IPv6).
+**NetworkManager** también transmite los servidores DNS de su red. `Domains=~.` envía todas las consultas a Blokada, pero si `resolvectl status` todavía muestra otro servidor en una conexión, desactive el DNS automático para esa conexión (el interruptor _Automático_ junto a _DNS_ en su configuración IPv4 e IPv6).
 
 </div>
 
 ## Sin systemd-resolved
 
-Si no se encuentra <code>resolvectl</code>, su distribución resuelve los nombres de otra manera. En su lugar, configure el DNS seguro en su navegador, como se explica en la [guía del navegador](../browser-dns-over-https/), o configure su [router](../router-ad-blocking/) para cubrir toda la casa.
+Si no se encuentra `resolvectl`, su distribución resuelve los nombres de otra manera. En su lugar, configure el DNS seguro en su navegador, como se explica en la [guía del navegador](../browser-dns-over-https/), o configure su [router](../router-ad-blocking/) para cubrir toda la casa.
 
 ## Compruebe que funciona
 
-Abra algunos sitios web y luego mire la página <em>Actividad</em> en el [panel de control](https://app.blokada.org/stats?src=guides). Las búsquedas de este ordenador aparecerán allí.
+Abra algunos sitios web, luego consulte la página _Actividad_ en el [dashboard](https://app.blokada.org/stats?src=guides). Las búsquedas de este ordenador aparecerán allí.
 
-<div class="note">
+<div class="note aside">
 
-¿Quiere una VPN en este ordenador también? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) incluye una configuración de WireGuard que cifra todo el tráfico, con el mismo bloqueo.
+¿Quiere una VPN también en este ordenador? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) incluye una configuración de WireGuard que cifra todo el tráfico, con el mismo bloqueo.
 
 </div>

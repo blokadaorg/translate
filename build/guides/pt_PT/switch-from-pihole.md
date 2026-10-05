@@ -1,7 +1,7 @@
 ---
 title: A Pi-hole alternative that needs no hardware
 description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 1
 ---
 
@@ -16,15 +16,13 @@ There are two ways to switch. Replace the Pi-hole completely, or keep it and use
 
 ## Option 1: replace the Pi-hole
 
-1. **Get Blokada Cloud** and open the dashboard. Under _Setup_ you find your details:
-   - Your Blokada DNS name, for DNS over TLS: {% dot %}
-   - Your DoH link, for DNS over HTTPS: {% doh %}
+1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under _Setup_ there, and under _Your details_ above.
 2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
 3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
 4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
 5. **Switch the Pi-hole off,** or keep it for something else.
 
-<div class="note">
+<div class="note aside">
 
 Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
 

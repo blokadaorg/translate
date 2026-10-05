@@ -1,55 +1,58 @@
 ---
 title: Блокиране на рекламите в Windows чрез DNS през HTTPS
 description: Използвайте вградения в Windows 11 криптиран DNS заедно с Blokada Cloud, за да блокирате реклами и тракери във всяко приложение и браузър, без нужда от инсталиране на допълнителен софтуер.
-updated: 01-10-2026
+updated: 2026-10-02
 order: 8
 ---
 
-Windows 11 може да изпраща всички свои DNS заявки криптирани, чрез DNS през HTTPS. Насочете го към Blokada Cloud и рекламите и тракерите ще бъдат блокирани във всяко приложение и браузър на компютъра, без да е необходимо да инсталирате нищо.
+Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
 
-Трябват ви две стойности:
-
-- DNS сървър (IP адрес): {% ip "doh" %}
-- Вашият DoH линк: {% doh %}
+You need the DNS server's IP address and your DoH link, both under _Your details_ above.
 
 ## Windows 11
 
 1. Отворете _Настройки → Мрежа и интернет_, след това _Wi-Fi_ или _Ethernet_, в зависимост от това как е свързан компютърът.
-2. Отворете _Хардуерни свойства_ на вашата връзка. За Wi-Fi изберете _Управление на познати мрежи_ и след това мрежата, или _Хардуерни свойства_ най-горе на Wi-Fi страницата.
-3. До _Задаване на DNS сървър_ изберете _Редактиране_. Изберете _Ръчно_ и включете _IPv4_.
+2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
+3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
 4. Във _Възможен DNS_ въведете DNS сървъра {% ip "doh" %}
 5. Задайте _DNS през HTTPS_ на _Включено (ръчен шаблон)_ и поставете вашия DoH линк {% doh %} като _DoH шаблон_.
 6. Изключете _Fallback to plaintext_ и изберете _Запази_.
 
 Ако компютърът използва както Wi-Fi, така и Ethernet, повторете това и за другата връзка.
 
-<div class="note">
+<div class="note important">
 
-Оставете празно полето _Алтернативен DNS_. Windows ще използва и двата сървъра, а всеки друг ще позволява показването на реклами.
+Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
 
-Няма опция _Включено (ръчен шаблон)_? Вашият Windows 11 е остарял. Актуализирайте Windows или междувременно използвайте [наръчника за браузъра](../browser-dns-over-https/).
+</div>
 
-Ако някои реклами все още се показват в мрежа с IPv6, Windows може да използва и DNS сървъра на вашия рутер по IPv6. Изключете _Internet Protocol Version 6 (TCP/IPv6)_ в настройките на мрежовия адаптер (_Контролен панел → Мрежови връзки_), или настройте своя [рутер](../router-ad-blocking/).
+<div class="note tip">
+
+No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
 
 </div>
 
 ## Windows 10+
 
-Windows 10 няма вградена поддръжка за криптиран DNS. Настройте защитен DNS във Вашия браузър, както е описано в [ръководството за браузър](../browser-dns-over-https/), или настройте Вашия [рутер](../router-ad-blocking/), за да покриете целия дом.
+Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
 
 ## Проверка дали работи
 
-Отворете няколко уебсайта, след това прегледайте страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Запитванията от този компютър ще се показват там.
+Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
 
-Chrome и Edge имат собствена настройка за _защитен DNS_, която заобикаля Windows. Ако е оставено на автоматично, може да се върне към обикновения DNS, което не допуска Blokada. Вместо това задайте Вашия DoH линк:
+<div class="note aside">
+
+Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+
+</div>
+
+## If something doesn't work
+
+Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
 
 - **Chrome:** отворете `chrome://settings/security`, включете _Използване на защитен DNS_ и под _Избор на DNS доставчик_ изберете _Добавяне на собствен доставчик на DNS услуги_.
 - **Edge:** отворете `edge://settings/privacy`, включете защитен DNS и изберете _Изберете доставчик на услуга_.
 
 След това поставете вашия DoH линк {% doh %}
 
-<div class="note">
-
-Искате ли VPN и на компютъра? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) включва настройка на WireGuard, която криптира целия трафик и осигурява същото блокиране.
-
-</div>
+If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).

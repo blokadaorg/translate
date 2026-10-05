@@ -1,22 +1,19 @@
 ---
 title: Blokker annonser på hele nettverket ditt med rutermodus for annonseblokkering
 description: Sett opp Blokada Cloud på ruteren din én gang, og alle enheter hjemme er beskyttet, inkludert TV-er, spillkonsoller og smarte høyttalere som ikke kan kjøre en annonseblokker.
-updated: 2026-09-23
+updated: 2026-10-02
 order: 4
 ---
 
-Alle enheter på nettverket ditt ber ruteren om hvilken DNS-server som skal brukes. Pek ruteren mot Blokada Cloud, så blokkeres annonser og sporing for alt bak den. Det inkluderer smarte TV-er, spillkonsoller, strømmeenheter og smarthus-enheter som ikke har plass til en annonseblokker-app.
+Hver enhet på nettverket ditt spør ruteren hvilken DNS-server som skal brukes. Pek ruteren mot Blokada Cloud, og annonser og sporere blir blokkert for alt bak den. Dette inkluderer smart-TVer, spillkonsoller, strømmeenheter og smarthus-enheter, som ikke har plass til en annonseblokkeringsapp.
 
 ## Dette trenger ruteren din
 
-Ruteren din må støtte **kryptert DNS med vertsnavn**, altså DNS over TLS (DoT) eller DNS over HTTPS (DoH). Mange nyere rutere gjør det, inkludert modellene under. Avhengig av hva ruteren din støtter, trenger du:
+Ruteren din må støtte **kryptert DNS med vertsnavn**, altså DNS over TLS (DoT) eller DNS over HTTPS (DoH). Mange nyere rutere gjør det, inkludert modellene nedenfor. Avhengig av hva ruteren din støtter, trenger du enten DNS-navnet ditt eller DoH-lenken din, begge finner du under _Dine detaljer_ ovenfor.
 
-- For DNS over TLS, din Blokada DNS-navn: {% dot %}
-- For DNS over HTTPS, din DoH-lenke: {% doh %}
+<div class="note important">
 
-<div class="note">
-
-**Kun vanlige IP-adresser?** Mange rutere fra internettleverandører aksepterer bare vanlige IP-adresser for DNS. Støtte for disse er på vei. Til da, sett opp enhetene dine én om gangen: [Android](../android-private-dns/), [Mac og Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) og [nettlesere](../browser-dns-over-https/). Du kan også kjøre en liten videresender på en Raspberry Pi, som beskrevet i [Pi-hole-veiledningen](../switch-from-pihole/).
+**Kun vanlige IP-adresser?** Mange rutere fra internettleverandører godtar bare vanlige IP-adresser for DNS. Støtte for dette er på vei. Inntil da, sett opp enhetene dine én etter én: [Android](../android-private-dns/), [Mac og Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) og [nettlesere](../browser-dns-over-https/). Du kan også kjøre en liten videresender på en Raspberry Pi, som beskrevet i [Pi-hole-guiden](../switch-from-pihole/).
 
 </div>
 
@@ -26,7 +23,7 @@ FRITZ!OS 7.20 eller nyere.
 
 1. Åpne `http://fritz.box` og gå til _Internett → Kontoinformasjon → DNS-server_.
 2. Under _Kryptert navneoppløsning på Internett (DNS over TLS)_, huk av for _Bruk kryptert navneoppløsning_.
-3. I _Oppløste navn til DNS-serveren_, skriv inn kun {% dot %}. **Fjern alle andre oppføringer.** FRITZ!Box bruker alle oppførte resolvere, og en hvilken som helst annen slipper annonser gjennom.
+3. I _Oppløste navn for DNS-serveren_, skriv inn kun {% dot %}. **Fjern alle andre oppføringer.** FRITZ!Box bruker alle listede resolverne, og enhver annen vil slippe inn annonser.
 4. Fjern avhuking for _Tillat fallback til ukryptert navneoppløsning_.
 5. Hvis du ser _Overgang til offentlige DNS-servere ved DNS-avbrudd_, slå det av.
 6. Klikk på _Bruk_.
@@ -45,23 +42,25 @@ Nyere ASUS-fastvare (3.0.0.4.388 eller nyere) og Asuswrt-Merlin.
 ## OpenWrt
 
 1. I _System → Programvare_, oppdater listene og installer `luci-app-https-dns-proxy`.
-2. Åpne _Tjenester → HTTPS DNS Proxy_. Slett instanser for andre tilbydere.
+2. Åpne _Tjenester → HTTPS DNS Proxy_. Slett instansene for andre tilbydere.
 3. Legg til en instans med egendefinert resolver-URL: {% doh %}
-4. _Lagre og bruk_. Pakken peker dnsmasq automatisk mot den.
+4. _Lagre og bruk_. Pakken peker dnsmasq mot den automatisk.
 
 ## Andre rutere
 
-Se etter en innstilling som heter _DNS over TLS_, _Privat DNS_, _Kryptert DNS_ eller _DNS over HTTPS_. Skriv inn ditt Blokada DNS-navn eller DoH-lenken fra over, og fjern alle andre DNS-servere, inkludert reserve-servere.
+Se etter en innstilling som heter _DNS over TLS_, _Privat DNS_, _Kryptert DNS_ eller _DNS over HTTPS_. Skriv inn ditt Blokada DNS-navn eller DoH-lenke fra ovenfor, og fjern alle andre DNS-servere, inkludert reserve-servere.
 
 ## Sjekk at det fungerer
 
 1. Start én enhet på nytt, eller slå Wi-Fi av og på, slik at den henter inn endringen.
-2. Surf et minutt, og åpne deretter _Aktivitet_-siden i dashbordet. Nettverkets dine oppslag vises der.
+2. Surf i ett minutt, og åpne deretter _Aktivitet_-siden i dashbordet. Forespørslene fra nettverket ditt vises der.
 
-Noen enheter omgår ruteren: telefoner med _Privat DNS_ aktivert, nettlesere med _sikker DNS_ satt til en annen leverandør, og enheter som hardkoder sin egen DNS. Sett opp disse på enheten selv, eller slå av deres egne DNS-innstillinger.
+## Hvis noen enheter fortsatt viser annonser
 
-<div class="note">
+Noen enheter omgår ruteren: telefoner med _Privat DNS_ aktivert, nettlesere med _sikker DNS_ satt til en annen tilbyder, og enheter som har hardkodet sin egen DNS. Sett opp disse direkte på enheten, eller slå av egen DNS-innstilling.
 
-Bak ruteren deler alle enheter én adresse, så dashbordet viser nettverket ditt som én enhet. Sett opp telefoner og laptoper med eget Blokada DNS-navn hvis du vil se dem separat. De beholder også blokkeringen sin når de forlater hjemmet.
+<div class="note tip">
+
+Bak ruteren deler alle enheter én adresse, så dashbordet viser nettverket ditt som én enhet. Sett opp telefoner og bærbare med egne Blokada DNS-navn hvis du vil se dem hver for seg. De beholder også blokkeringen når de forlater hjemmet.
 
 </div>

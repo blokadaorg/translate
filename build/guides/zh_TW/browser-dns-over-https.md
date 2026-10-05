@@ -1,15 +1,13 @@
 ---
 title: 使用 DNS over HTTPS 在 Chrome、Firefox、Edge 和 Brave 阻擋廣告
 description: 在您的瀏覽器中將 Blokada Cloud 設為安全 DNS 提供者，即可在任何電腦上（包括無法安裝應用程式的工作筆記型電腦）阻擋廣告和追蹤器。
-updated: 2026-09-23
+updated: 2026-10-02
 order: 7
 ---
 
-現代瀏覽器可以使用自己的加密 DNS 提供者，稱為「安全 DNS」或「DNS over HTTPS」。將其設為 Blokada Cloud，瀏覽器即可於任何網路上阻擋廣告和追蹤器，無需安裝延伸功能。將其設為 Blokada Cloud，瀏覽器即可於任何網路上阻擋廣告和追蹤器，無需安裝延伸功能。
+現代瀏覽器可以使用名為「_安全 DNS_」或「_DNS over HTTPS_」的自家加密 DNS 供應商。將其設為 Blokada Cloud，瀏覽器便能在任何網路上阻擋廣告和追蹤器，且無需安裝任何擴充功能。
 
-此設定僅適用於此瀏覽器。如需保護整部電腦，請在 Mac 上使用 [Apple 設定檔](../apple-devices/)，或設定您的[路由器](../router-ad-blocking/)。
-
-您的 DoH 連結：{% doh %}
+此設定僅適用於本瀏覽器。如要涵蓋整台電腦，請在 Mac 上使用[Apple 設定描述檔](../apple-devices/)，或設定[路由器](../router-ad-blocking/)。
 
 ## Chrome
 
@@ -37,14 +35,16 @@ order: 7
 
 ## Safari
 
-Safari 沒有專屬的安全 DNS 設定。它會使用系統的 DNS，請安裝 [Apple 設定檔](../apple-devices/)。它會使用系統的 DNS，請安裝 [Apple 設定檔](../apple-devices/)。
+Safari 沒有自己的安全 DNS 設定。它會使用系統的 DNS，因此請安裝[Apple 設定描述檔](../apple-devices/)。
 
 ## 檢查是否運作
 
-瀏覽一分鐘後，開啟 [儀表板](https://app.blokada.org/stats?src=guides)中的「活動」頁面。此瀏覽器的查詢會顯示在那裡。此瀏覽器的查詢會顯示在那裡。
+瀏覽一分鐘後，開啟 [儀表板](https://app.blokada.org/stats?src=guides)中的「活動」頁面。此瀏覽器的查詢會顯示在那裡。
 
-<div class="note">
+## 如果有問題無法運作
 
-如果您的瀏覽器由公司或學校管理，則安全 DNS 設定可能會被鎖定。請詢問您的管理員。請詢問您的管理員。
+<div class="note tip">
+
+如果您的瀏覽器由公司或學校管理，則安全 DNS 設定可能會被鎖定。請詢問您的管理員。
 
 </div>

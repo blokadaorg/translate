@@ -1,15 +1,13 @@
 ---
 title: Блокиране на реклами в Chrome, Firefox, Edge и Brave с DNS през HTTPS
 description: Задайте Blokada Cloud като защитен DNS доставчик във вашия браузър, за да блокирате реклами и тракери на всеки компютър, включително служебни лаптопи, на които не можете да инсталирате приложения.
-updated: 23-09-2026
+updated: 2026-10-02
 order: 7
 ---
 
-Съвременните браузъри могат да използват собствен криптиран DNS доставчик, наречен _сигурен DNS_ или _DNS през HTTPS_. Задайте го на Blokada Cloud и браузърът ще блокира реклами и тракери във всяка мрежа, без да инсталирате разширението.
+Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
 
-Тази настройка обхваща само самият браузър. За да защитите целия компютър, използвайте [Apple профил](../apple-devices/) на Mac или настройте вашия [рутер](../router-ad-blocking/).
-
-Вашият DoH линк: {% doh %}
+This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
 
 ## Chrome
 
@@ -37,14 +35,16 @@ order: 7
 
 ## Safari
 
-Safari няма собствена настройка за защитен DNS. Използва системния DNS, затова инсталирайте [Apple профила](../apple-devices/).
+Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
 
 ## Проверка дали работи
 
-Сърфирайте за минута, след това отворете страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Запитванията от браузъра ще се показват там.
+Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
 
-<div class="note">
+## If something doesn't work
 
-Ако вашият браузър се управлява от работа или училище, настройката за защитен DNS може да е заключена. Попитайте вашия администратор.
+<div class="note tip">
+
+If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
 
 </div>
