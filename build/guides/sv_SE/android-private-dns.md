@@ -1,7 +1,7 @@
 ---
 title: Ställ in privat DNS på Android med Blokada Cloud
 description: Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.
-updated: 2026-10-01
+updated: 2026-10-02
 order: 5
 ---
 
@@ -13,23 +13,21 @@ order: 5
 
 ## Utan appen: privat DNS
 
-Android 9 och senare har inställningen *Privat DNS*. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att något körs i bakgrunden.
+Android 9 och senare har inställningen _Privat DNS_. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att något körs i bakgrunden.
 
-Ditt Blokada-DNS-namn: {% dot %}
-
-1. Öppna *Inställningar → Nätverk och internet*. På vissa telefoner heter det *Anslutningar* eller *Anslutning och delning*.
-2. Tryck på *Privat DNS*. På Samsung-telefoner finns det under *Fler anslutningsinställningar*.
-3. Välj *Värdnamn för privat DNS-leverantör*.
-4. Ange ditt Blokada-DNS-namn {% dot %} och tryck på *Spara*.
+1. Öppna _Inställningar → Nätverk och internet_. På vissa telefoner heter det _Anslutningar_ eller _Anslutning och delning_.
+2. Tryck på _Privat DNS_. På Samsung-telefoner finns det under _Fler anslutningsinställningar_.
+3. Välj _Värdnamn för privat DNS-leverantör_.
+4. Ange ditt Blokada-DNS-namn {% dot %} och tryck på _Spara_.
 
 Hittar du det inte kan du söka efter ”Privat DNS” i appen Inställningar.
 
 ## Kontrollera att det fungerar
 
-Öppna några appar eller webbplatser och titta sedan på sidan *Aktivitet* i [dashboarden](https://app.blokada.org/stats?src=guides). Telefonens uppslag visas där.
+Öppna några appar eller webbplatser och titta sedan på sidan _Aktivitet_ i [dashboarden](https://app.blokada.org/stats?src=guides). Telefonens uppslag visas där.
 
 ## Om något inte fungerar
 
 - **”Det gick inte att ansluta” eller inget internet:** kontrollera att ditt Blokada-DNS-namn inte har några stavfel. Det måste vara exakt som ovan, utan `https://`.
 - **En annan VPN-app är aktiv:** vissa VPN-appar använder egen DNS och kringgår privat DNS. Stäng av VPN-appens DNS- eller reklamblockeringsinställning, eller använd Blokada 6 i stället.
-- **Chrome visar fortfarande reklam:** Chrome kan vara inställt på en egen leverantör för säker DNS och då gå förbi privat DNS. Öppna *Inställningar → Integritet och säkerhet → Använd säker DNS* i Chrome och välj *Använd den nuvarande DNS-leverantören*. Då följer Chrome privat DNS.
+- **Chrome visar fortfarande reklam:** Chrome kan vara inställt på en egen leverantör för säker DNS och då gå förbi privat DNS. Öppna _Inställningar → Integritet och säkerhet → Använd säker DNS_ i Chrome och välj _Använd den nuvarande DNS-leverantören_. Då följer Chrome privat DNS.
