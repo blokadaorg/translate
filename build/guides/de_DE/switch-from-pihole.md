@@ -10,16 +10,16 @@ Ein Pi-hole blockiert Werbung für jedes Gerät in deinem Netzwerk, solange der 
 - **Keine Box, um die du dich kümmern musst.** Keine SD-Karten, keine Updates, kein Ausfall, wenn der Pi ausfällt.
 - **Funktioniert auch unterwegs.** Handys und Laptops blockieren weiter, auch mobil und in anderen WLANs.
 - **Verschlüsselt.** Geräte sprechen mit Blokada über DNS over TLS oder DNS over HTTPS, dein Anbieter kann deine Anfragen also weder lesen noch verändern.
-- **Ein Dashboard.** Blocklisten, erlaubte und blockierte Domains und die Aktivität pro Gerät, unter [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Ein Dashboard.** Sperrlisten, erlaubte und blockierte Domains und die Aktivität pro Gerät, unter [app.blokada.org](https://app.blokada.org/?src=guides).
 
-Es gibt zwei Möglichkeiten zu wechseln. Es gibt zwei Wege zum Wechsel: Ersetze den Pi-hole ganz, oder behalte ihn und nutze Blokada Cloud als Upstream.
+Es gibt zwei Wege zum Wechsel: Ersetze den Pi-hole ganz, oder behalte ihn und nutze Blokada Cloud als Upstream.
 
 ## Option 1: den Pi-hole ersetzen
 
-1. **Hol dir Blokada Cloud** und öffne das Dashboard. Dein DNS-Name und der DoH-Link befinden sich dort unter _Setup_ und oben unter _Deine Details_.
+1. **Hol dir Blokada Cloud** und öffne das Dashboard. Deinen DNS-Namen und deinen DoH-Link findest du dort unter _Einrichtung_ und oben unter _Deine Daten_.
 2. **Stelle deinen Router auf Blokada statt auf den Pi-hole um.** Folge der [Router-Anleitung](../router-ad-blocking/). Akzeptiert dein Router als DNS-Server nur eine einfache IP-Adresse, richte stattdessen deine Geräte einzeln ein: [Android](../android-private-dns/), [Mac und Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) und [Browser](../browser-dns-over-https/).
 3. **War dein Pi-hole der DHCP-Server,** schalte DHCP in deinem Router wieder ein, _bevor_ du den Pi ausschaltest. Sonst bekommen deine Geräte keine Netzwerkadressen mehr.
-4. **Übertrage deine Listen.** Wähle im Dashboard unter _Blocklists_ deine Blocklisten und füge unter _Ausnahmen_ eigene erlaubte oder blockierte Domains hinzu.
+4. **Übertrage deine Listen.** Wähle im Dashboard unter _Sperrlisten_ deine Sperrlisten und füge unter _Ausnahmen_ eigene erlaubte oder blockierte Domains hinzu.
 5. **Schalte den Pi-hole aus,** oder nutze ihn für etwas anderes.
 
 <div class="note aside">
@@ -36,7 +36,7 @@ Möchtest du deine lokale Einrichtung behalten, etwa lokale Hostnamen, DHCP oder
 2. Lege `/etc/systemd/system/dnsproxy.service` an:
 
 <pre><code>[Unit]
-Description=Verschlüsselter DNS-Forwarder zu Blokada Cloud
+Description=Encrypted DNS forwarder to Blokada Cloud
 Wants=network-online.target
 After=network-online.target
 
