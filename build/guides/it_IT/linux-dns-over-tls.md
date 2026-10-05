@@ -5,7 +5,7 @@ updated: 02/10/2026
 order: 9
 ---
 
-La maggior parte delle distribuzioni Linux attuali, inclusi Ubuntu e Fedora, risolvono i nomi tramite _systemd-resolved_, che supporta DNS over TLS. Su Debian, installalo prima con `sudo apt install systemd-resolved`. Impostalo su Blokada Cloud e pubblicità e tracker saranno bloccati per ogni app sul computer.
+La maggior parte delle distribuzioni Linux attuali, inclusi Ubuntu e Fedora, risolvono i nomi tramite _systemd-resolved_, che supporta DNS over TLS. Su Debian, installalo prima con `sudo apt install systemd-resolved`. Configuralo per utilizzare Blokada Cloud, e annunci e tracker saranno bloccati per ogni app sul computer.
 
 ## Configura systemd-resolved
 
@@ -31,14 +31,14 @@ La parte dopo `#` è il tuo nome DNS Blokada: {% dot %} systemd-resolved control
 
 ## Senza systemd-resolved
 
-Se `resolvectl` non è presente, la tua distribuzione risolve i nomi in un altro modo. Configura invece DNS sicuro nel tuo browser, come indicato nella [guida browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per coprire tutta la rete domestica.
+Se `resolvectl` non viene trovato, la tua distribuzione risolve i nomi in un altro modo. Configura DNS sicuro nel tuo browser, come indicato nella [guida per browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per proteggere tutta la casa.
 
 ## Verifica che funzioni
 
-Apri alcuni siti web, poi consulta la pagina _Attività_ nel [dashboard](https://app.blokada.org/stats?src=guides). Le richieste di questo computer appariranno lì.
+Apri alcuni siti web e poi guarda la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le risoluzioni di nomi di questo computer saranno visibili lì.
 
 <div class="note aside">
 
-Vuoi anche una VPN su questo computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include una configurazione WireGuard che cripta tutto il traffico, con lo stesso blocco.
+Vuoi anche una VPN su questo computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include una configurazione WireGuard che cripta tutto il traffico, offrendo lo stesso blocco.
 
 </div>
