@@ -5,9 +5,9 @@ updated: 2026-10-02
 order: 7
 ---
 
-Moderna webbläsare kan använda en egen krypterad DNS-leverantör, kallad _säker DNS_ eller _DNS över HTTPS_. Ställ in den på Blokada Cloud, så blockerar webbläsaren annonser och spårare på alla nätverk, utan att någon tillägg behöver installeras.
+Moderna webbläsare kan använda en egen krypterad DNS-leverantör, så kallad _säker DNS_ eller _DNS över HTTPS_. Ställ in den på Blokada Cloud, så blockerar webbläsaren reklam och spårare på alla nätverk, utan något tillägg att installera.
 
-Denna inställning gäller endast denna webbläsare. För att skydda hela datorn, använd [Apple-profilen](../apple-devices/) på en Mac, eller konfigurera din [router](../router-ad-blocking/).
+Inställningen gäller bara den här webbläsaren. Vill du skydda hela datorn använder du [Apple-profilen](../apple-devices/) på en Mac eller ställer in din [router](../router-ad-blocking/).
 
 ## Chrome
 
@@ -39,12 +39,12 @@ Safari har ingen egen inställning för säker DNS. Den använder systemets DNS,
 
 ## Kontrollera att det fungerar
 
-Surfa i en minut, öppna sedan sidan _Aktivitet_ i [dashboarden](https://app.blokada.org/stats?src=guides). Den här webbläsarens uppslag visas där.
+Surfa en stund och öppna sedan sidan _Aktivitet_ i [dashboarden](https://app.blokada.org/stats?src=guides). Webbläsarens uppslag visas där.
 
 ## Om något inte fungerar
 
 <div class="note tip">
 
-Om din webbläsare hanteras av arbete eller skola kan inställningen för säker DNS vara låst. Kontakta din administratör.
+Om webbläsaren hanteras av din arbetsplats eller skola kan inställningen för säker DNS vara låst. Fråga din administratör.
 
 </div>
