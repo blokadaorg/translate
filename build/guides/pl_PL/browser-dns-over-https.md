@@ -5,9 +5,9 @@ updated: 2026-10-02
 order: 7
 ---
 
-Nowoczesne przeglądarki mogą używać własnego, szyfrowanego dostawcy DNS, nazywanego _bezpieczny DNS_ lub _DNS over HTTPS_. Ustaw go na Blokada Cloud, a przeglądarka będzie blokować reklamy i trackery w każdej sieci, bez potrzeby instalowania rozszerzeń.
+Nowoczesne przeglądarki mogą używać własnego szyfrowanego dostawcy DNS, zwanego _bezpiecznym DNS_ lub _DNS przez HTTPS_. Ustaw Blokada Cloud, a przeglądarka będzie blokować reklamy i trackery w każdej sieci, bez konieczności instalacji rozszerzenia.
 
-To ustawienie dotyczy tylko tej przeglądarki. Aby objąć ochroną cały komputer, użyj [profilu Apple](../apple-devices/) na Macu lub skonfiguruj [router](../router-ad-blocking/).
+To ustawienie obejmuje tylko tę przeglądarkę. Aby objąć ochroną cały komputer, użyj [profilu Apple](../apple-devices/) na Macu lub skonfiguruj [router](../router-ad-blocking/).
 
 ## Chrome
 
@@ -45,6 +45,6 @@ Przeglądaj przez chwilę, a następnie otwórz stronę _Aktywność_ w [panelu]
 
 <div class="note tip">
 
-Jeśli Twoja przeglądarka jest zarządzana przez firmę lub szkołę, ustawienie bezpiecznego DNS może być zablokowane. Poproś administratora.
+Jeśli Twoja przeglądarka jest zarządzana przez firmę lub szkołę, ustawienie bezpiecznego DNS może być zablokowane. Skontaktuj się z administratorem.
 
 </div>
