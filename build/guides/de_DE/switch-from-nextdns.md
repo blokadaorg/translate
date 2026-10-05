@@ -12,15 +12,15 @@ NextDNS und Blokada Cloud funktionieren gleich: ein verschlüsselter DNS-Dienst,
 | In NextDNS                                                              | In Blokada Cloud                                                     |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Deine Konfigurations-ID, z. B. `abc123` | Dein Geräte-Tag, Teil deines Blokada-DNS-Namens und deines DoH-Links |
-| _Privacy_-Blocklisten                                                   | _Blocklists_ im Dashboard                                            |
-| _Security_ (Malware, Phishing)                       | eine Malware-Liste unter _Blocklists_                                |
-| _Elterliche Kontrolle_                                                  | Listen für Erwachseneninhalte und Glücksspiel unter _Blocklists_     |
+| _Privacy_-Blocklisten                                                   | _Sperrlisten_ im Dashboard                                           |
+| _Security_ (Malware, Phishing)                       | eine Malware-Liste unter _Sperrlisten_                               |
+| _Parental control_                                                      | Listen für Erwachseneninhalte und Glücksspiel unter _Sperrlisten_    |
 | _Allowlist_ und _Denylist_                                              | _Ausnahmen_ im Dashboard                                             |
-| _Logs_ und _Analytics_                                                  | _Aktivität_ und _Stats_ im Dashboard                                 |
+| _Logs_ und _Analytics_                                                  | _Aktivität_ und _Statistik_ im Dashboard                             |
 
 ## Jedes Gerät umstellen
 
-Je nach Gerät benötigst du entweder deinen DNS-Namen oder deinen DoH-Link, beides findest du oben unter _Deine Details_.
+Je nach Gerät brauchst du deinen DNS-Namen oder deinen DoH-Link. Beide stehen oben unter _Deine Daten_.
 
 ### Android
 
