@@ -5,7 +5,7 @@ updated: ٢٠٢٦-١٠-٠٢
 order: 9
 ---
 
-معظم توزيعات لينكس الحديثة، بما في ذلك أوبونتو وفيدورا، تقوم بحل الأسماء عبر systemd-resolved، والذي يدعم DNS عبر TLS. على ديبيان، قم بتثبيته أولاً باستخدام الأمر: <code>sudo apt install systemd-resolved</code>. وجهه إلى Blokada Cloud، وسيتم حظر الإعلانات وأجهزة التتبع عن جميع التطبيقات على الكمبيوتر.
+تقوم معظم توزيعات لينكس الحديثة، بما في ذلك Ubuntu وFedora، بحل الأسماء عبر _systemd-resolved_، الذي يدعم DNS عبر TLS. في Debian، قم بتثبيته أولاً باستخدام الأمر `sudo apt install systemd-resolved`. قم بتوجيهه إلى Blokada Cloud، وسيتم حظر الإعلانات وأدوات التعقب لكل تطبيق على الكمبيوتر.
 
 ## إعداد systemd-resolved
 
@@ -25,20 +25,20 @@ Domains=~.</code></pre>
 
 <div class="note important">
 
-**NetworkManager** يمرر أيضاً خوادم DNS لشبكتك. `Domains=~.` يرسل جميع عمليات البحث إلى Blokada، ولكن إذا استمر <code>resolvectl status</code> في عرض خادم آخر على اتصال ما، قم بإيقاف تشغيل تعيين DNS التلقائي لهذا الاتصال (مفتاح _تلقائي_ بجانب _DNS_ في إعدادات IPv4 و IPv6 الخاصة به).
+يمرر **NetworkManager** أيضاً خوادم DNS لشبكتك. يقوم `Domains=~.` بإرسال جميع الاستعلامات إلى Blokada، ولكن إذا استمر `resolvectl status` في عرض خادم آخر على اتصال ما، قم بإيقاف تعيين DNS التلقائي لهذا الاتصال (المفتاح _تلقائي_ بجانب _DNS_ في إعدادات IPv4 وIPv6 الخاصة به).
 
 </div>
 
 ## بدون systemd-resolved
 
-إذا لم يتم العثور على <code>resolvectl</code>، فإن توزيعتك تقوم بحل الأسماء بطريقة أخرى. قم بإعداد DNS آمن في متصفحك بدلاً من ذلك، كما هو موضح في [دليل المتصفح](../browser-dns-over-https/)، أو قم بإعداد [الراوتر](../router-ad-blocking/) ليغطي المنزل بأكمله.
+إذا لم يتم العثور على `resolvectl`، فإن التوزيعة تستخدم طريقة أخرى لحل الأسماء. قم بإعداد DNS آمن في متصفحك بدلاً من ذلك، كما هو موضح في [دليل المتصفح](../browser-dns-over-https/)، أو قم بإعداد [الراوتر](../router-ad-blocking/) ليغطي المنزل بأكمله.
 
 ## تحقق من أن الإعداد يعمل
 
-افتح بعض المواقع، ثم انتقل إلى صفحة _النشاط_ في [لوحة المعلومات](https://app.blokada.org/stats?src=guides). عمليات البحث من هذا الكمبيوتر ستظهر هناك.
+افتح بعض المواقع، ثم انتقل إلى صفحة _النشاط_ في [لوحة المعلومات](https://app.blokada.org/stats?src=guides). ستظهر عمليات البحث لهذا الكمبيوتر هناك.
 
 <div class="note aside">
 
-هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ هل ترغب في شبكة VPN على هذا الكمبيوتر أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحظر.
+هل ترغب في وجود VPN على هذا الجهاز أيضاً؟ [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) تتضمن إعداد WireGuard الذي يقوم بتشفير جميع حركة المرور، مع نفس الحجب.
 
 </div>
