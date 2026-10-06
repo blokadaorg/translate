@@ -1050,10 +1050,10 @@
 "web plaintext instructions" = "在 %@ 的網路設定中，僅設定此 IPv6 位址為唯一的 DNS 伺服器。請移除所有其他 DNS 伺服器，包括 IPv4，否則部分請求將會繞過 Blokada。";
 "web plaintext test step" = "檢查是否運作";
 "web plaintext test hint" = "若要檢查路由器，請在連線至該路由器的手機或電腦上開啟測試頁面。請先在該裝置上關閉 Blokada，否則檢查結果只會反映該裝置上的 Blokada 而非路由器。";
-"web plaintext test action" = "Open the test page";
-"web plaintext list header" = "Your DNS addresses";
-"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
-"web plaintext error name" = "Enter a shorter name, without hidden characters.";
-"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
-"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
-"web plaintext error generic" = "Something went wrong. Please try again later.";
+"web plaintext test action" = "打開測試頁面";
+"web plaintext list header" = "您的 DNS 位址";
+"web plaintext delete confirm" = "%@ 在您提供另一個 DNS 伺服器之前，將停止解析名稱。";
+"web plaintext error name" = "請輸入更簡短且沒有隱藏字元的名稱。";
+"web plaintext error limit" = "您已達到 %@ 台裝置的上限。請刪除一台以新增另一台。";
+"web plaintext error taken" = "您的帳戶中已有其他裝置使用此名稱。請選擇另一個名稱。";
+"web plaintext error generic" = "發生錯誤。請稍後再試。";
