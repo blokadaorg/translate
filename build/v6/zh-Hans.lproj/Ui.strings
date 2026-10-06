@@ -1036,3 +1036,22 @@
 // Shares the link (system share sheet) so it can be opened on another device
 "attach action share" = "分享链接";
 "attach error generic" = "无法创建链接。请确保您已联网，然后重试。";
+
+"web plaintext brief" = "适用于只需填写 DNS 服务器地址的设备，如路由器、电视和游戏主机。每个设备会获得其专属地址，并以名称显示在您的活动中。";
+"web plaintext ipv6 required" = "此设置方式需要路由器或设备支持 IPv6。对 IPv4 的支持将于后续提供。";
+"web plaintext legacy" = "您的帐号使用的是不支持此设置的旧版设备标签。请联系我们。";
+"web plaintext step name" = "为您的设备命名";
+"web plaintext name placeholder" = "客厅电视";
+"web plaintext name fixed" = "设备名称设置后无法更改。如需重命名，请先删除该设备并重新添加。";
+"web plaintext action create" = "获取地址";
+"web plaintext step address" = "将此地址设为 DNS 服务器";
+"web plaintext instructions" = "在 %@ 的网络设置中，将此 IPv6 地址设置为唯一的 DNS 服务器。移除其他所有 DNS 服务器，包括 IPv4 服务器，否则部分请求会绕过 Blokada。";
+"web plaintext test step" = "检查其是否正常工作";
+"web plaintext test hint" = "要检测路由器，请在连接该设备的手机或电脑上打开测试页面。请先关闭该手机或电脑上的 Blokada，否则测试的将是其自身的 Blokada 而不是路由器。";
+"web plaintext test action" = "Open the test page";
+"web plaintext list header" = "Your DNS addresses";
+"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
+"web plaintext error name" = "Enter a shorter name, without hidden characters.";
+"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
+"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
+"web plaintext error generic" = "Something went wrong. Please try again later.";
