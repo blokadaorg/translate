@@ -1048,10 +1048,10 @@
 "web plaintext instructions" = "في إعدادات الشبكة لـ %@، قم بتعيين عنوان IPv6 هذا كخادم DNS الوحيد. أزل أي خوادم DNS أخرى، بما في ذلك خوادم IPv4، وإلا قد تتجاوز بعض الطلبات Blokada.";
 "web plaintext test step" = "تحقق أنه يعمل";
 "web plaintext test hint" = "لفحص جهاز التوجيه، افتح صفحة الاختبار على هاتف أو كمبيوتر متصل به. قم بإيقاف Blokada على هذا الهاتف أو الكمبيوتر أولاً، وإلا سيتم اختبار Blokada نفسه وليس جهاز التوجيه.";
-"web plaintext test action" = "Open the test page";
-"web plaintext list header" = "Your DNS addresses";
-"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
-"web plaintext error name" = "Enter a shorter name, without hidden characters.";
-"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
-"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
-"web plaintext error generic" = "Something went wrong. Please try again later.";
+"web plaintext test action" = "افتح صفحة الاختبار";
+"web plaintext list header" = "عناوين DNS الخاصة بك";
+"web plaintext delete confirm" = "سيتوقف %@ عن حل الأسماء حتى تعيِّن له خادماً آخر لـ DNS.";
+"web plaintext error name" = "أدخل اسماً أقصر، دون أحرف خفية.";
+"web plaintext error limit" = "لقد وصلت إلى الحد الأقصى وهو %@ من الأجهزة. احذف جهازًا لإضافة جهاز آخر.";
+"web plaintext error taken" = "جهاز آخر في حسابك يستخدم هذا الاسم بالفعل. اختر اسماً مختلفاً.";
+"web plaintext error generic" = "حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقاً.";
