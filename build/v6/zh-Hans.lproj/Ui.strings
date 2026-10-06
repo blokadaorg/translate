@@ -1048,10 +1048,10 @@
 "web plaintext instructions" = "在 %@ 的网络设置中，将此 IPv6 地址设置为唯一的 DNS 服务器。移除其他所有 DNS 服务器，包括 IPv4 服务器，否则部分请求会绕过 Blokada。";
 "web plaintext test step" = "检查其是否正常工作";
 "web plaintext test hint" = "要检测路由器，请在连接该设备的手机或电脑上打开测试页面。请先关闭该手机或电脑上的 Blokada，否则测试的将是其自身的 Blokada 而不是路由器。";
-"web plaintext test action" = "Open the test page";
-"web plaintext list header" = "Your DNS addresses";
-"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
-"web plaintext error name" = "Enter a shorter name, without hidden characters.";
-"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
-"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
-"web plaintext error generic" = "Something went wrong. Please try again later.";
+"web plaintext test action" = "打开测试页面";
+"web plaintext list header" = "您的DNS地址";
+"web plaintext delete confirm" = "在您为其提供其他DNS服务器之前，%@ 将停止解析名称。";
+"web plaintext error name" = "请输入更短的名称，不要包含隐藏字符。";
+"web plaintext error limit" = "您已达到 %@ 个设备的上限。请删除一个设备以添加新的设备。";
+"web plaintext error taken" = "您的帐号中已有其他设备使用此名称。请选择不同的名称。";
+"web plaintext error generic" = "出现问题。请稍后再试。";
