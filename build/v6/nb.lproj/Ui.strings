@@ -1036,3 +1036,22 @@
 // Shares the link (system share sheet) so it can be opened on another device
 "attach action share" = "Del lenke";
 "attach error generic" = "Kunne ikke opprette lenken. Sørg for at du er tilkoblet internett, og prøv igjen.";
+
+"web plaintext brief" = "For enheter som kun tillater en DNS-serveradresse, som rutere, TV-er og spillkonsoller. Hver enhet får sin egen adresse og vises med navn i aktiviteten din.";
+"web plaintext ipv6 required" = "Ruteren eller enheten må ha IPv6 for denne oppsettet. Støtte for IPv4 kommer senere.";
+"web plaintext legacy" = "Kontoen din bruker en eldre enhetstagg som ikke støtter dette oppsettet. Ta kontakt med oss.";
+"web plaintext step name" = "Gi enheten din et navn";
+"web plaintext name placeholder" = "TV i stuen";
+"web plaintext name fixed" = "Navnet kan ikke endres senere. For å gi nytt navn til en enhet, slett den og legg den til på nytt.";
+"web plaintext action create" = "Hent adresse";
+"web plaintext step address" = "Bruk denne adressen som DNS-server";
+"web plaintext instructions" = "I nettverksinnstillingene til %@, sett denne IPv6-adressen som eneste DNS-server. Fjern eventuelle andre DNS-servere, inkludert IPv4, ellers kan noen forespørsler omgå Blokada.";
+"web plaintext test step" = "Sjekk at det fungerer";
+"web plaintext test hint" = "For å sjekke en ruter, åpne testnettsiden på en telefon eller datamaskin som er koblet til den. Slå først av Blokada på den telefonen eller datamaskinen, ellers tester du Blokada på enheten istedenfor ruteren.";
+"web plaintext test action" = "Open the test page";
+"web plaintext list header" = "Your DNS addresses";
+"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
+"web plaintext error name" = "Enter a shorter name, without hidden characters.";
+"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
+"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
+"web plaintext error generic" = "Something went wrong. Please try again later.";
