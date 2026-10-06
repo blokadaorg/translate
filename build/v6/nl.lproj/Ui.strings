@@ -1036,3 +1036,22 @@
 // Shares the link (system share sheet) so it can be opened on another device
 "attach action share" = "Link delen";
 "attach error generic" = "Kon de link niet aanmaken. Zorg dat je online bent en probeer het opnieuw.";
+
+"web plaintext brief" = "Voor apparaten die alleen een DNS-serveradres accepteren, zoals routers, tv's en gameconsoles. Elk apparaat krijgt een eigen adres en verschijnt met naam in je activiteit.";
+"web plaintext ipv6 required" = "De router of het apparaat heeft IPv6 nodig voor deze installatie. Ondersteuning voor IPv4 komt later.";
+"web plaintext legacy" = "Je account gebruikt een oudere apparaat-tag die deze installatie niet ondersteunt. Neem alstublieft contact met ons op.";
+"web plaintext step name" = "Geef je apparaat een naam";
+"web plaintext name placeholder" = "Tv in woonkamer";
+"web plaintext name fixed" = "De naam kan later niet meer worden gewijzigd. Om een apparaat te hernoemen, verwijder het en voeg het opnieuw toe.";
+"web plaintext action create" = "Adres ophalen";
+"web plaintext step address" = "Stel dit adres in als de DNS-server";
+"web plaintext instructions" = "Stel in de netwerkinstellingen van %@ dit IPv6-adres in als de enige DNS-server. Verwijder alle andere DNS-servers, inclusief IPv4-servers, anders worden sommige verzoeken buiten Blokada om verwerkt.";
+"web plaintext test step" = "Controleer of het werkt";
+"web plaintext test hint" = "Om een router te controleren, open je de testpagina op een telefoon of computer die ermee verbonden is. Zet Blokada eerst uit op dat apparaat, anders controleert de test de Blokada op het apparaat zelf en niet die van de router.";
+"web plaintext test action" = "Open the test page";
+"web plaintext list header" = "Your DNS addresses";
+"web plaintext delete confirm" = "%@ will stop resolving names until you give it another DNS server.";
+"web plaintext error name" = "Enter a shorter name, without hidden characters.";
+"web plaintext error limit" = "You have reached the limit of %@ devices. Delete one to add another.";
+"web plaintext error taken" = "Another device on your account already uses this name. Choose a different one.";
+"web plaintext error generic" = "Something went wrong. Please try again later.";
