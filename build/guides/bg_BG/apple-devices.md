@@ -1,17 +1,17 @@
 ---
 title: Блокиране на реклами на Mac и Apple TV с профил Blokada DNS
 description: Инсталиране на профил на Blokada Cloud DNS, за да блокирате реклами и тракери на системно ниво на Mac или Apple TV с криптиран DNS, без нищо да работи във фонов режим.
-updated: 2026-10-02
+updated: 02-10-2026
 order: 6
 ---
 
-Apple devices can use encrypted DNS for the whole system through a configuration profile. The Blokada profile points the device at Blokada Cloud, which blocks ads and trackers in every app and browser.
+Устройствата на Apple могат да използват криптиран DNS за цялата система чрез конфигурационен профил. Профилът на Blokada насочва устройството към Blokada Cloud, който блокира реклами и тракери във всяко приложение и браузър.
 
 Работи на macOS 11 (Big Sur), tvOS 14, iOS и iPadOS 14 и по-нови версии.
 
 <div class="if-no-device">
 
-This page doesn't know your device yet, so it can't offer your profile. Sign in to the dashboard, open _Setup_, choose your device, and open this guide with _Open on another device_.
+Тази страница все още не разпознава вашето устройство, затова не може да предложи вашия профил. Влезте в таблото, отворете _Настройка_, изберете вашето устройство и отворете това ръководство с _Отвори на друго устройство_.
 
 <p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Вземи линка за моя профил</a></p>
 
@@ -19,18 +19,18 @@ This page doesn't know your device yet, so it can't offer your profile. Sign in 
 
 ## iPhone и iPad
 
-The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+Най-лесният начин е чрез приложението. [Blokada 6](https://go.blokada.org/appstore) настройва всичко вместо вас, включва и изключва блокирането с едно докосване и показва какво е блокирано директно на телефона. Влезте с вашето акаунт ID и сте готови.
 
 <p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Вземете Blokada 6 от App Store</a></p>
 
 ### Без приложението
 
-You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
+Можете да инсталирате профила. iPhone и iPad инсталират профили само от **Safari**.
 
 <div class="if-device">
 <div class="if-other-browser note important">
 
-This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
+Тази страница е отворена в друг браузър. Копирайте вашия линк и го отворете в Safari, за да продължите оттам: {% pageLink %}
 
 </div>
 </div>
@@ -38,7 +38,7 @@ This page is open in another browser. Copy your link and open it in Safari to co
 <div class="if-safari">
 
 1. В Safari натиснете върху бутона по-долу, после изберете _Разреши_, за да изтеглите профила.
-2. Open _Settings_. Tap _Profile Downloaded_ near the top. You can also find it under _General → VPN & Device Management_.
+2. Отворете _Настройки_. Докоснете _Изтеглен профил_ близо до горната част. Може да го намерите и под _Общи → VPN и управление на устройства_.
 3. Докоснете _Инсталиране_, въведете вашия код за достъп и потвърдете.
 
 </div>
@@ -59,8 +59,8 @@ Apple TV не може да отваря уеб страници, затова �
 
 1. Вашият линк към профила: {% appleUrl %}
 2. На Apple TV отворете _Настройки → Общи → Поверителност и сигурност_.
-3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
-4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
+3. Маркирайте _Споделяне на анализи с Apple TV_. Не го избирайте. Вместо това натиснете бутона за възпроизвеждане/пауза на дистанционното.
+4. Изберете _Добави профил_ и въведете вашия профилен линк. Въвеждането е най-лесно с клавиатурната подсказка на вашия iPhone, където можете да го поставите. Инсталирайте профила и потвърдете.
 
 <div class="note aside">
 
@@ -70,6 +70,6 @@ Apple TV не може да отваря уеб страници, затова �
 
 ## Проверка дали работи
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This device's lookups show up there.
+Сърфирайте за минута, след това отворете страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Търсенията на това устройство ще се покажат там.
 
 За да премахнете Blokada по-късно, изтрийте профила, от там където сте го инсталирали.
