@@ -61,6 +61,6 @@ FRITZ!OS 7.20 или по-нова версия.
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Зад рутера всички устройства споделят един адрес, затова таблото показва вашата мрежа като едно устройство. Настройте телефоните и лаптопите с тяхно собствено Blokada DNS име, ако искате да ги виждате поотделно. Също така те ще си запазят блокирането, когато напуснат дома.
 
 </div>
