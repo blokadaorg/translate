@@ -1,11 +1,11 @@
 ---
 title: Алтернатива на Pi-hole, която не изисква хардуер
 description: Преместете блокирането на реклами във вашия дом от Pi-hole към Blokada Cloud, или запазете Pi-hole и изпращайте заявките му през Blokada.
-updated: 2026-10-02
+updated: 02-10-2026
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+Pi-hole блокира рекламите за всяко устройство във вашата мрежа, стига Raspberry Pi да е включен, актуализиран и вкъщи. Blokada Cloud върши същата работа от нашите сървъри:
 
 - **Няма кутия за поддръжка.** Без SD карти, без актуализации, без прекъсване, ако Pi спре да работи.
 - **Работи и извън дома.** Телефоните и лаптопите запазват блокирането си в мобилните мрежи за данни и други Wi-Fi мрежи.
