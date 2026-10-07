@@ -1,11 +1,11 @@
 ---
 title: Блокиране на рекламите в Linux чрез DNS през TLS
 description: Настройтка на systemd-resolved да използва Blokada Cloud чрез криптиран DNS over TLS и блокирайте реклами и тракери за всяко приложение на вашия Linux компютър.
-updated: 2026-10-02
+updated: 02-10-2026
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Повечето съвременни Linux дистрибуции, включително Ubuntu и Fedora, разрешават имена чрез _systemd-resolved_, който поддържа DNS през TLS. В Debian първо го инсталирайте с `sudo apt install systemd-resolved`. Насочете го към Blokada Cloud и рекламите и тракерите ще бъдат блокирани за всяко приложение на компютъра.
 
 ## Настройване на systemd-resolved
 
@@ -25,20 +25,20 @@ Domains=~.</code></pre>
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** също предава DNS сървърите на вашата мрежа. `Domains=~.` изпраща всички заявки към Blokada, но ако `resolvectl status` все още показва друг сървър за дадена връзка, то изключете автоматичното задаване на DNS за тази връзка (превключвателя _Автоматично_ до _DNS_ в неговите IPv4 и IPv6 настройки).
 
 </div>
 
 ## Без systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Ако не е намерена команда `resolvectl`, Вашата дистрибуция решава за имената по друг начин. Вместо това настройте защитен DNS във Вашия браузър, както е описано в [ръководството за браузър](../browser-dns-over-https/), или настройте Вашия [рутер](../router-ad-blocking/), за да покриете целия дом.
 
 ## Проверка дали работи
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Отворете няколко уебсайта, а след това проверете страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Търсенията от този компютър ще се покажат там.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Искате ли VPN и на този компютър? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) включва настройка от WireGuard, която криптира целия трафик и осигурява същото блокиране.
 
 </div>
