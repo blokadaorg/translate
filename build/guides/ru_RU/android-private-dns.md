@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Настройте частный DNS на Android с помощью Blokada Cloud
+description: Используйте встроенную в Android функцию частного DNS вместе с Blokada Cloud для блокировки рекламы и трекеров во всех приложениях, в Wi-Fi и мобильных сетях. Или доверьте это приложению Blokada 6.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## Самый простой способ: приложение
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) настраивает всё автоматически, позволяет включать и отключать блокировку в одно касание и показывает, что было заблокировано, прямо на телефоне. Войдите с помощью вашего идентификатора аккаунта — и готово.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Скачать Blokada 6 в Google Play</a></p>
 
-## Without the app: Private DNS
+## Без приложения: частный DNS
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+В Android 9 и новее есть настройка _Частный DNS_. Установите Blokada Cloud, и реклама с трекерами будут блокироваться во всех приложениях, в любой сети, без фоновых приложений.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Откройте _Настройки → Сеть и интернет_. На некоторых телефонах это _Подключения_ или _Подключение и обмен_.
+2. Нажмите _Частный DNS_. На устройствах Samsung это находится в разделе _Дополнительные настройки подключения_.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Если не можете найти, выполните поиск "Частный DNS" в приложении Настройки.
 
-## Check that it works
+## Проверьте, что всё работает
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Откройте несколько приложений или сайтов, затем перейдите на страницу _Активность_ в [панели управления](https://app.blokada.org/stats?src=guides). Отправленные через этот телефон запросы отобразятся там.
 
-## If something doesn't work
+## Если что-то не работает
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **«Не удалось подключиться» или нет интернета:** проверьте имя вашего DNS Blokada на наличие ошибок. Оно должно быть указано точно так же, как показано выше, без `https://`.
+- **Активно другое VPN-приложение:** некоторые VPN-приложения используют собственный DNS и обходят частный DNS. Отключите DNS или функцию блокировки рекламы в этом VPN, либо используйте Blokada 6.
+- **В Chrome всё ещё показывается реклама:** В Chrome может быть выбран собственный защищённый DNS-провайдер, из-за чего частный DNS обходится. В Chrome откройте _Настройки → Конфиденциальность и безопасность → Использовать безопасный DNS_ и выберите _Использовать вашего текущего поставщика услуг_. После этого Chrome будет использовать частный DNS.
