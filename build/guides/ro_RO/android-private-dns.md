@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Configurează DNS privat pe Android cu Blokada Cloud
+description: Folosește opțiunea de DNS privat integrată în Android împreună cu Blokada Cloud pentru a bloca reclamele și trackerele în orice aplicație, atât pe Wi-Fi cât și pe date mobile. Sau lasă ca aplicația Blokada 6 să facă acest lucru.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## Cea mai simplă metodă: aplicația
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) configurează totul pentru tine, permite activarea sau dezactivarea blocării printr-o singură apăsare și arată ce a fost blocat chiar pe telefon. Autentifică-te cu ID-ul contului și ești gata.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Obține Blokada 6 din Google Play</a></p>
 
-## Without the app: Private DNS
+## Fără aplicație: DNS privat
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Android 9 și versiunile ulterioare au o opțiune _DNS privat_. Setează-l pe Blokada Cloud, iar reclamele și trackerele vor fi blocate în toate aplicațiile, pe orice rețea, fără ca vreo aplicație să ruleze în fundal.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Deschide _Setări → Rețea și internet_. Pe unele telefoane aceasta apare ca _Conexiuni_ sau _Conexiune și partajare_.
+2. Apasă pe _DNS privat_. Pe telefoanele Samsung, se află la _Setări suplimentare de conexiune_.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Dacă nu îl găsești, caută în aplicația Setări termenul "DNS privat".
 
-## Check that it works
+## Verifică dacă funcționează
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Deschide câteva aplicații sau site-uri web, apoi verifică pagina _Activitate_ din [panoul de control](https://app.blokada.org/stats?src=guides). Căutările acestui telefon vor apărea acolo.
 
-## If something doesn't work
+## Dacă ceva nu funcționează
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **„Nu s-a putut conecta” sau nu există internet:** verifică numele DNS Blokada pentru eventuale greșeli de scriere. Trebuie să fie exact cum este prezentat mai sus, fără `https://`.
+- **O altă aplicație VPN este activă:** unele aplicații VPN folosesc propriul DNS și ocolesc DNS-ul privat. Dezactivează DNS-ul sau setarea de blocare reclame din VPN, sau folosește Blokada 6 în loc.
+- **Chrome încă afișează reclame:** Chrome poate fi setat să utilizeze propriul furnizor securizat de DNS, ceea ce ocolește DNS-ul privat. În Chrome, deschide _Setări → Confidențialitate și securitate → Utilizează DNS securizat_ și alege _Utilizează furnizorul de servicii actual_. Astfel, Chrome va folosi DNS-ul privat.
