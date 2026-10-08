@@ -1,23 +1,23 @@
 ---
-title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
-description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
+title: Estä mainokset Chromessa, Firefoxissa, Edgessä ja Bravessa DNS over HTTPS:n avulla.
+description: Aseta Blokada Cloud selaimesi suojatuksi DNS-palveluntarjoajaksi, jotta voit estää mainokset ja seurannan millä tahansa tietokoneella, myös työläppäreissä, joihin et voi asentaa sovelluksia.
 updated: 2026-10-02
 order: 7
 ---
 
-Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
+Nykyaikaiset selaimet voivat käyttää omaa salattua DNS-palvelua, jota kutsutaan nimellä _suojattu DNS_ tai _DNS over HTTPS_. Aseta Blokada Cloud, ja selain estää mainokset ja seurannan millä tahansa verkolla ilman asennettavaa laajennusta.
 
-This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
+Tämä asetus koskee vain tätä selainta. Jos haluat suojata koko tietokoneen, käytä [Apple-profiilia](../apple-devices/) Macilla tai määritä [reititin](../router-ad-blocking/).
 
 ## Chrome
 
-1. Open `chrome://settings/security`.
+1. Avaa `chrome://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Syötä {% doh %}
 
 ## Edge
 
-1. Open `edge://settings/privacy`.
+1. Avaa `edge://settings/privacy`.
 2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
 3. Choose _Choose a service provider_ and enter {% doh %}
 
@@ -29,22 +29,22 @@ This setting covers only this browser. To cover the whole computer, use the [App
 
 ## Brave
 
-1. Open `brave://settings/security`.
+1. Avaa `brave://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Syötä {% doh %}
 
 ## Safari
 
-Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
+Safarilla ei ole omaa suojatun DNS:n asetusta. Se käyttää järjestelmän DNS:ää, joten asenna [Apple-profiili](../apple-devices/).
 
-## Check that it works
+## Tarkista, että se toimii
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
+Surffaa hetki ja avaa sitten _Aktiivisuus_-sivu [kojelaudassa](https://app.blokada.org/stats?src=guides). Tämän selaimen haut näkyvät siellä.
 
-## If something doesn't work
+## Jos jokin ei toimi
 
 <div class="note tip">
 
-If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
+Jos selaintasi hallinnoi työpaikka tai koulu, suojatun DNS:n asetus voi olla lukittu. Kysy järjestelmänvalvojalta.
 
 </div>
