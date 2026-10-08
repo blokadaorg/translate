@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: DNS over TLS ile Linux üzerinde reklamları engelleyin
+description: Blokada Cloud'u şifreli DNS over TLS ile kullanacak şekilde systemd-resolved'u yapılandırın ve Linux bilgisayarınızdaki her uygulama için reklamları ve izleyicileri engelleyin.
 updated: 2026-10-02
-order: 9
+order: 9},{
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Güncel Linux dağıtımlarının çoğu, Ubuntu ve Fedora dahil, isim çözmeyi _systemd-resolved_ aracılığıyla gerçekleştirir ve bu, DNS over TLS'i destekler. Debian'da önce `sudo apt install systemd-resolved` ile yükleyin. Blokada Cloud'u gösterin ve bilgisayardaki her uygulama için reklamlar ve takipçiler engellenmiş olur.
 
-## Set up systemd-resolved
+## Systemd-resolved'u yapılandırın
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. `sudo mkdir -p /etc/systemd/resolved.conf.d` komutu ile klasörü oluşturun, ardından aşağıdaki ayarlarla `/etc/systemd/resolved.conf.d/blokada.conf` dosyasını oluşturun:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Yeniden başlatın: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Kontrol edin: <code>resolvectl status</code> komutunda <code>+DNSOverTLS</code> ve Blokada sunucusu görüntülenir.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+`#` işaretinden sonraki kısım sizin Blokada DNS adınızdır: {% dot %} systemd-resolved sunucunun sertifikasını buna karşı kontrol eder ve Blokada, hangi cihazın sorgulama yaptığını bilmek için bunu kullanır.
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** ayrıca ağınızın DNS sunucularını iletir. `Domains=~.` tüm sorguları Blokada'ya gönderir, fakat `resolvectl status` bir bağlantıda başka bir sunucu listeliyorsa, o bağlantı için otomatik DNS'i kapatın (IPv4 ve IPv6 ayarlarında _DNS_ yanındaki _Otomatik_ anahtarını kapatın).
 
 </div>
 
-## Without systemd-resolved
+## Systemd-resolved olmadan
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+`resolvectl` bulunamazsa, dağıtımınız isim çözmeyi başka bir şekilde gerçekleştiriyor demektir. Bunun yerine tarayıcınızda güvenli DNS yapılandırın, [tarayıcı rehberine](../browser-dns-over-https/) bakın veya tüm evi kapsamak için [router](../router-ad-blocking/) üzerinde yapılandırma yapın.
 
-## Check that it works
+## Çalışıp çalışmadığını kontrol edin
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Birkaç web sitesini açın, ardından [gösterge panelindeki](https://app.blokada.org/stats?src=guides) _Etkinlik_ sayfasına bakın. Bu bilgisayardan yapılan sorgulamalar orada görünecektir.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Bu bilgisayarda ayrıca VPN ister misiniz? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) ile tüm trafiği şifreleyen WireGuard kurulumu ve aynı engelleme dahildir.
 
 </div>
