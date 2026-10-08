@@ -1,58 +1,58 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: Blokir iklan di Windows dengan DNS over HTTPS
+description: Gunakan DNS terenkripsi bawaan Windows 11 dengan Blokada Cloud untuk memblokir iklan dan pelacak di setiap aplikasi dan peramban, tanpa perlu menginstal perangkat lunak tambahan.
 updated: 2026-10-02
 order: 8
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11 dapat mengenkripsi seluruh permintaan DNS-nya menggunakan DNS over HTTPS. Mengarahkan ke Blokada Cloud, iklan dan pelacak akan diblokir di setiap aplikasi dan peramban pada komputer, tanpa perlu menginstal apa pun.
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+Anda memerlukan alamat IP server DNS dan tautan DoH Anda, keduanya ada di bawah _Detail Anda_ di atas.
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. Buka _Pengaturan → Jaringan & internet_, lalu _Wi-Fi_ atau _Ethernet_, tergantung bagaimana komputer terhubung.
+2. Buka _Properti perangkat keras_ koneksi Anda. Untuk Wi-Fi, pilih _Kelola jaringan yang dikenal_ lalu jaringan tersebut, atau _Properti perangkat keras_ di bagian atas halaman Wi-Fi.
+3. Di samping _Penetapan server DNS_, pilih _Edit_. Pilih _Manual_ dan aktifkan _IPv4_.
+4. Pada _DNS utama_, masukkan server DNS {% ip "doh" %}
+5. Atur _DNS over HTTPS_ ke _Aktif (template manual)_, lalu tempel tautan DoH Anda {% doh %} sebagai _template DoH_.
+6. Nonaktifkan _Fallback ke plaintext_, lalu pilih _Simpan_.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+Jika komputer menggunakan baik Wi-Fi maupun Ethernet, ulangi langkah ini untuk sambungan lainnya.
 
 <div class="note important">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+Biarkan _DNS alternatif_ kosong. Windows menggunakan kedua server, dan server lain akan membiarkan iklan lewat.
 
 </div>
 
 <div class="note tip">
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+Tidak ada opsi _Aktif (template manual)_? Windows 11 Anda masih versi lama. Perbarui Windows, atau gunakan [panduan peramban](../browser-dns-over-https/) sementara.
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10 tidak memiliki DNS terenkripsi bawaan. Atur DNS aman di peramban Anda sebagai gantinya, seperti pada [panduan peramban](../browser-dns-over-https/), atau atur [router](../router-ad-blocking/) Anda untuk melindungi seluruh rumah.
 
-## Check that it works
+## Periksa apakah sudah berfungsi
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Buka beberapa situs web, lalu lihat halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan dari komputer ini akan muncul di sana.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Ingin VPN di komputer ini juga? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) mencakup pengaturan WireGuard yang mengenkripsi seluruh lalu lintas, dengan pemblokiran yang sama.
 
 </div>
 
-## If something doesn't work
+## Jika ada yang tidak berfungsi
 
-Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+Chrome dan Edge memiliki pengaturan _DNS aman_ sendiri, yang melewati Windows. Jika dibiarkan otomatis, ini dapat kembali ke DNS biasa, yang ditolak oleh Blokada. Atur ke tautan DoH Anda sebagai gantinya:
 
-- **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
-- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose _Choose a service provider_.
+- **Chrome:** buka `chrome://settings/security`, aktifkan _Gunakan DNS aman_, dan di bawah _Pilih penyedia DNS_ pilih _Tambahkan penyedia layanan DNS kustom_.
+- **Edge:** buka `edge://settings/privacy`, aktifkan DNS aman, dan pilih _Pilih penyedia layanan_.
 
-Then paste your DoH link {% doh %}
+Kemudian tempel tautan DoH Anda {% doh %}
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+Jika beberapa iklan masih lolos di jaringan yang menggunakan IPv6, Windows mungkin juga meminta server DNS IPv6 dari router Anda. Nonaktifkan _Internet Protocol Version 6 (TCP/IPv6)_ di properti adapter (_Panel Kontrol → Jaringan dan Koneksi_), atau atur [router](../router-ad-blocking/) Anda.
