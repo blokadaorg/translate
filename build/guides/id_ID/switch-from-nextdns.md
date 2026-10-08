@@ -1,53 +1,53 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
+title: Alternatif NextDNS dengan pengaturan yang sama di setiap perangkat
+description: Pindah dari NextDNS ke Blokada Cloud. Tukar nama DNS, tautan DoH, atau profil NextDNS Anda dengan milik Blokada di ponsel, komputer, dan router Anda, lalu pertahankan pemblokiran iklan Anda.
 updated: 2026-10-02
 order: 3
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS dan Blokada Cloud bekerja dengan cara yang sama: layanan DNS terenkripsi yang memblokir iklan dan pelacak berdasarkan nama, dengan pengaturan Anda sendiri di balik nama DNS pribadi. Berpindah berarti mengganti nilai NextDNS di setiap perangkat dengan milik Blokada Anda. Tidak ada pengaturan lain di perangkat yang berubah.
 
-## What you used, and what to pick in Blokada
+## Apa yang Anda gunakan, dan apa yang dipilih di Blokada
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| Di NextDNS                                         | Di Blokada Cloud                                                     |
+| -------------------------------------------------- | -------------------------------------------------------------------- |
+| ID konfigurasi Anda, mis. `abc123` | Tag perangkat Anda, bagian dari nama DNS Blokada dan tautan DoH Anda |
+| _Daftar cekal_ privasi                             | _Daftar cekal_ di dashboard                                          |
+| _Keamanan_ (malware, phishing)  | daftar malware di bawah _Daftar cekal_                               |
+| _Pengawasan orang tua_                             | daftar konten dewasa dan perjudian di bawah _Daftar cekal_           |
+| _Allowlist_ dan _Denylist_                         | _Pengecualian_ di dashboard                                          |
+| _Log_ dan _Analitik_                               | _Aktivitas_ dan _Statistik_ di dashboard                             |
 
-## Switch each device
+## Pindahkan setiap perangkat
 
-Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Tergantung perangkatnya, Anda memerlukan nama DNS atau tautan DoH Anda, keduanya ada di bawah _Rincian Anda_ di atas.
 
 ### Android
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+Jika Anda menggunakan _DNS Pribadi_ dengan `<your-id>.dns.nextdns.io`, ganti dengan nama DNS Blokada Anda, seperti di [panduan Android](../android-private-dns/). Jika Anda menggunakan aplikasi NextDNS, copot dan instal [Blokada 6](https://go.blokada.org/play_cloud) sebagai gantinya.
 
-### iPhone and iPad
+### iPhone dan iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+Jika Anda menggunakan aplikasi NextDNS, copot dan instal [Blokada 6](https://go.blokada.org/appstore). Jika Anda memasang profil NextDNS, hapus di _Pengaturan → Umum → VPN & Manajemen Perangkat_, lalu ikuti [panduan Apple](../apple-devices/).
 
-### Mac and Apple TV
+### Mac dan Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+Hapus profil atau aplikasi NextDNS, lalu instal profil Blokada dari [panduan Apple](../apple-devices/).
 
-### Windows and Linux
+### Windows dan Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+Copot aplikasi NextDNS jika Anda menggunakannya. Di Windows, ganti server NextDNS dan template DoH dengan milik Blokada, seperti di [panduan Windows](../windows-dns-over-https/). Di Linux, ganti server NextDNS di systemd-resolved, seperti di [panduan Linux](../linux-dns-over-tls/).
 
-### Browsers
+### Peramban
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+Jika Anda mengatur `https://dns.nextdns.io/…` sebagai _DNS aman_ peramban Anda, ganti dengan tautan DoH Anda, seperti di [panduan peramban](../browser-dns-over-https/).
 
 ### Router
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+Jika router Anda menggunakan NextDNS lewat DNS over TLS atau DNS over HTTPS, ganti nama atau tautan NextDNS dengan milik Blokada Anda, seperti di [panduan router](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+Jika menggunakan NextDNS melalui alamat IP biasa dengan _IP tertaut_, Blokada belum dapat menggantikan itu. Dukungan untuk router dengan alamat DNS biasa sedang dalam pengembangan. Hingga saat itu, atur perangkat Anda satu per satu, atau gunakan router yang mendukung DNS terenkripsi.
 
-## Check that it works
+## Periksa apakah sudah berfungsi
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+Buka beberapa situs web, lalu lihat halaman _Aktivitas_ di dashboard. Anda akan melihat pencarian perangkat Anda di sana, dengan yang diblokir ditandai. Jika suatu perangkat tidak muncul, berarti masih menggunakan NextDNS.
