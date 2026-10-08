@@ -1,58 +1,58 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: WindowsでDNS over HTTPSを使って広告をブロックする
+description: インストール不要で、Windows 11に標準搭載されている暗号化DNSとBlokada Cloudを利用し、すべてのアプリやブラウザーで広告やトラッカーをブロックできます。
 updated: 2026-10-02
-order: 8
+order: 8},{
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11は、すべてのDNSルックアップをDNS over HTTPSで暗号化して送信できます。Blokada Cloudを指定すれば、追加のインストール無しでパソコン上の全てのアプリやブラウザーで広告やトラッカーがブロックされます。
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+DNSサーバーのIPアドレスとDoHリンクの両方が必要です。いずれも上記「お客様の詳細」に記載されています。
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. 「設定」→「ネットワークとインターネット」を開き、パソコンの接続方法に応じて「Wi-Fi」または「イーサネット」を選択します。
+2. 接続の「ハードウェアのプロパティ」を開きます。Wi-Fiの場合は「既知のネットワークの管理」でネットワークを選択するか、Wi-Fiページの上部にある「ハードウェアのプロパティ」を選択します。
+3. 「DNSサーバーの割り当て」の横で「編集」を選択します。「手動」を選び、「IPv4」をオンにします。
+4. 「優先DNS」にDNSサーバー {% ip "doh" %} を入力します
+5. 「DNS over HTTPS」を「オン（手動テンプレート）」に設定し、「DoHテンプレート」としてDoHリンク {% doh %} を貼り付けます。
+6. 「プレーンテキストへのフォールバック」をオフにして、「保存」を選択します。
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+パソコンがWi-Fiとイーサネットの両方を使用している場合は、もう一方でも同様の設定をしてください。
 
 <div class="note important">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+「代替DNS」は空欄のままにしてください。Windowsは両方のサーバーを使用し、他のDNSがあると広告が通過してしまいます。
 
 </div>
 
 <div class="note tip">
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+「オン（手動テンプレート）」が表示されない場合は、Windows 11のバージョンが古い可能性があります。Windowsを更新するか、それまで[ブラウザーガイド](../browser-dns-over-https/)を利用してください。
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10には暗号化DNSの組み込み機能はありません。そのため、[ブラウザーガイド](../browser-dns-over-https/)のようにブラウザーでセキュアDNSを設定するか、[ルーター](../router-ad-blocking/)で家庭全体に適用する設定をしてください。
 
-## Check that it works
+## 動作確認
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+いくつかのウェブサイトを開いた後、[ダッシュボード](https://app.blokada.org/stats?src=guides)の「アクティビティ」ページを確認します。このパソコンの問い合わせがそこに表示されます。
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+このパソコンでもVPNを使いたい場合は、[Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides)をご利用ください。WireGuardの設定で全通信を暗号化し、同じブロッキングが適用されます。
 
 </div>
 
-## If something doesn't work
+## うまく動作しない場合
 
-Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+ChromeとEdgeには独自の「セキュアDNS」設定があり、これが有効だとWindowsの設定をバイパスします。自動の場合はプレーンなDNSにフォールバックすることがあり、Blokadaはそれを許可しません。必ずご自身のDoHリンクに設定してください。
 
-- **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
-- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose _Choose a service provider_.
+- **Chrome:** `chrome://settings/security` を開き、「セキュアDNSを使用する」をオンにし、「DNSプロバイダーを選択」から「カスタムDNSサービスプロバイダーを追加」を選択します。
+- **Edge:** `edge://settings/privacy` を開き、セキュアDNSをオンにして、「サービスプロバイダーを選択」を選びます。
 
-Then paste your DoH link {% doh %}
+次に、DoHリンク {% doh %} を貼り付けます
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+IPv6対応ネットワークで広告が一部通過する場合、WindowsがルーターのIPv6 DNSサーバーにも問い合わせている可能性があります。アダプターのプロパティ（「コントロールパネル → ネットワーク接続」）から「インターネット プロトコル バージョン6（TCP/IPv6）」をオフにするか、[ルーター](../router-ad-blocking/)で設定してください。
