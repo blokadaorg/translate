@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Privát DNS beállítása Androidon a Blokada Cloud segítségével.
+description: Használd az Android beépített Privát DNS beállítását a Blokada Clouddal, hogy blokkolhasd a hirdetéseket és követőket minden alkalmazásban, Wi-Fi-n és mobilhálózaton egyaránt. Vagy engedd, hogy a Blokada 6 alkalmazás tegye ezt meg helyetted.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## A legegyszerűbb mód: az alkalmazás
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+A [Blokada 6](https://go.blokada.org/play_cloud) mindent elintéz neked: egy érintéssel ki- vagy bekapcsolhatod a blokkolást, és megmutatja, mi lett blokkolva magán a telefonon. Jelentkezz be az azonosítóddal, és kész is vagy.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Szerezd meg a Blokada 6-ot a Google Playen</a></p>
 
-## Without the app: Private DNS
+## Alkalmazás nélkül: Privát DNS
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Az Android 9-től kezdve elérhető a _Privát DNS_ beállítás. Állítsd be a Blokada Cloudsra, így minden alkalmazásban, minden hálózaton blokkolva lesznek a hirdetések és követők, anélkül hogy bármi futna a háttérben.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Nyisd meg a _Beállítások → Hálózat és internet_ menüt. Egyes telefonokon ez _Kapcsolatok_ vagy _Kapcsolat és megosztás_ lehet.
+2. Érints rá a _Privát DNS_-re. Samsung telefonokon ez a _További kapcsolatbeállítások_ alatt található.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Ha nem találod, keresd meg a Beállítások alkalmazásban a "Privát DNS" kifejezést.
 
-## Check that it works
+## Ellenőrizd, hogy működik-e
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Nyiss meg néhány alkalmazást vagy weboldalt, majd nézd meg az _Aktivitás_ oldalt a [vezérlőpulton](https://app.blokada.org/stats?src=guides). Ennek a telefonnak a lekérdezései ott fognak megjelenni.
 
-## If something doesn't work
+## Ha valami nem működik
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **„Nem sikerült csatlakozni” vagy nincs internet:** Ellenőrizd, hogy a Blokada DNS nevében nincs-e elgépelés. Pontosan olyannak kell lennie, ahogy fent látható, `https://` nélkül.
+- **Másik VPN alkalmazás aktív:** Egyes VPN alkalmazások saját DNS-t használnak, és megkerülik a Privát DNS-t. Kapcsold ki a VPN DNS vagy hirdetésblokkoló beállítását, vagy használd inkább a Blokada 6-ot.
+- **A Chrome még mindig hirdetéseket mutat:** Elképzelhető, hogy a Chrome saját biztonságos DNS szolgáltatót használ, így megkerüli a Privát DNS-t. A Chrome-ban nyisd meg a _Beállítások → Adatvédelem és biztonság → Biztonságos DNS használata_ menüt, és válaszd a _Jelenlegi szolgáltató használata_ opciót. A Chrome így követni fogja a Privát DNS-t.

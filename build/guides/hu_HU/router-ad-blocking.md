@@ -1,31 +1,31 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Hirdetések blokkolása az egész hálózaton routeres hirdetésblokkolással.
+description: Állítsa be a Blokada Cloud szolgáltatást a routerén egyszer, és az otthoni összes eszköz védve lesz, beleértve a TV-ket, játékkonzolokat és okoshangszórókat is, amelyek nem tudnak hirdetésblokkolót futtatni.
 updated: 2026-10-02
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+A hálózatán lévő minden eszköz megkérdezi a routert, melyik DNS szervert használja. Állítsa be a routert a Blokada Cloud-ra, így a hirdetések és követők blokkolva lesznek minden eszközön, ami mögötte van. Ez magában foglalja az okos TV-ket, játékkonzolokat, streaming stickeket és okosotthon eszközöket, amelyekre nem lehet hirdetésblokkoló alkalmazást telepíteni.
 
-## What your router needs
+## Amire a routerének szüksége van
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+A routerének támogatnia kell a **titkosított DNS-t hosztnévvel**, például DNS over TLS (DoT) vagy DNS over HTTPS (DoH) protokollokat. Sok újabb router támogatja ezt, beleértve az alábbi modelleket is. Attól függően, hogy a routere melyiket támogatja, szüksége lesz a DNS nevére vagy a DoH linkjére, amelyeket fent talál a _Saját adatok_ alatt.
 
 <div class="note important">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**Csak natív IP-címeket támogat?** Sok internetszolgáltató routere csak natív IP-címeket fogad el DNS szervernek. A támogatás ezekhez úton van. Addig is, állítsa be az eszközeit egyenként: [Android](../android-private-dns/), [Mac és Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) és [böngészők](../browser-dns-over-https/). Kis továbbítót is futtathat egy Raspberry Pi-n, ahogy a [Pi-hole útmutatóban](../switch-from-pihole/) leírtuk.
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 vagy újabb.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. A _DNS szerver feloldott nevei_ mezőbe csak ezt írja be: {% dot %}. **Távolítson el minden egyéb bejegyzést.** A FRITZ!Box minden felsorolt feloldót használ, és bármelyik másik átengedi a hirdetéseket.
 4. Untick _Allow fallback to unencrypted name resolution_.
-5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
+5. Ha látja, hogy _Átváltás nyilvános DNS szerverekre, ha a DNS megszakad_, kapcsolja ki.
 6. Click _Apply_.
 
 ## ASUS
@@ -35,32 +35,32 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 1. Open the router admin page and go to _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
 3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
+   - Cím: {% ip "dot" %}
+   - TLS gazdanév: {% dot %}
 4. Click _Apply_.
 
 ## OpenWrt
 
 1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+2. Nyissa meg a _Szolgáltatások → HTTPS DNS Proxy_ menüt. Törölje a más szolgáltatók példányait.
+3. Adjon hozzá egy példányt egy egyéni resolver URL-lel: {% doh %}
+4. _Mentés és alkalmazás_. A csomag automatikusan beállítja rá a dnsmasq-ot.
 
-## Other routers
+## Egyéb routerek
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Keressen egy olyan beállítást, mint a _DNS over TLS_, _Privát DNS_, _Titkosított DNS_ vagy _DNS over HTTPS_. Adja meg a fenti Blokada DNS nevét vagy DoH linkjét, majd távolítson el minden más DNS szervert, beleértve a tartalék szervereket is.
 
-## Check that it works
+## Ellenőrizze, hogy működik-e
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Indítson újra egy eszközt, vagy kapcsolja ki majd vissza a Wi-Fi-t, hogy az átvegye a változást.
+2. Böngésszen egy percig, majd nyissa meg az irányítópulton az _Aktivitás_ oldalt. Itt jelennek meg a hálózat lekérdezései.
 
-## If some devices still show ads
+## Ha néhány eszközön még mindig megjelennek hirdetések
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Egyes eszközök megkerülik a routert: olyan telefonok, amelyeken _Privát DNS_ van beállítva, böngészők, ahol a _biztonságos DNS_ másik szolgáltatóra van állítva, és olyan eszközök is, amelyek saját DNS-t használnak. Ezeken az eszközön állítsa be külön, vagy kapcsolja ki az eszköz egyéni DNS beállítását.
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+A router mögött minden eszköz egy címet oszt meg, így az irányítópulton a hálózata egyetlen eszközként jelenik meg. Ha külön szeretné látni a telefonokat és laptopokat, állítsa be azokat saját Blokada DNS névvel. Így akkor is megmarad a blokkolás, ha elhagyja az otthonát.
 
 </div>

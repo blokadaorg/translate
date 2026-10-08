@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Blokir iklan di Linux dengan DNS over TLS
+description: Atur systemd-resolved untuk menggunakan Blokada Cloud melalui DNS over TLS terenkripsi, dan blokir iklan serta pelacak untuk setiap aplikasi di komputer Linux Anda.
 updated: 2026-10-02
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Sebagian besar distribusi Linux saat ini, termasuk Ubuntu dan Fedora, melakukan resolusi nama melalui _systemd-resolved_, yang mendukung DNS over TLS. Di Debian, instal terlebih dahulu dengan `sudo apt install systemd-resolved`. Arahkan ke Blokada Cloud, dan iklan serta pelacak akan diblokir untuk setiap aplikasi di komputer.
 
-## Set up systemd-resolved
+## Atur systemd-resolved
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Buat folder dengan `sudo mkdir -p /etc/systemd/resolved.conf.d`, lalu file `/etc/systemd/resolved.conf.d/blokada.conf` dengan pengaturan berikut:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Restart layanan: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Periksa: <code>resolvectl status</code> menampilkan <code>+DNSOverTLS</code> dan server Blokada.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Bagian setelah `#` adalah nama DNS Blokada Anda: {% dot %} systemd-resolved akan memeriksa sertifikat server terhadapnya, dan Blokada menggunakannya untuk mengidentifikasi perangkat yang melakukan permintaan.
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** juga meneruskan server DNS dari jaringan Anda. `Domains=~.` mengirimkan semua permintaan pencarian ke Blokada, tetapi jika `resolvectl status` masih mencantumkan server lain pada suatu koneksi, matikan DNS otomatis untuk koneksi tersebut (pengaturan _Otomatis_ di samping _DNS_ pada pengaturan IPv4 dan IPv6-nya).
 
 </div>
 
-## Without systemd-resolved
+## Tanpa systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Jika `resolvectl` tidak ditemukan, distribusi Anda melakukan resolusi nama dengan cara lain. Atur DNS aman di peramban Anda sesuai [panduan peramban](../browser-dns-over-https/), atau atur [router](../router-ad-blocking/) Anda untuk melindungi seluruh rumah.
 
-## Check that it works
+## Cek apakah berhasil
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Buka beberapa situs web, lalu periksa halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan pencarian komputer ini akan muncul di sana.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Ingin VPN di komputer ini juga? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) mencakup pengaturan WireGuard yang mengenkripsi semua lalu lintas, dengan pemblokiran yang sama.
 
 </div>

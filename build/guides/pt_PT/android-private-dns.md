@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
-updated: 2026-10-02
+title: Configure o DNS Privado no Android com o Blokada Cloud
+description: Use a opção de DNS Privado nativa do Android com o Blokada Cloud para bloquear anúncios e rastreadores em todos os apps, tanto no Wi-Fi quanto nos dados móveis. Ou deixe o app Blokada 6 fazer isso para você.
+updated: 02-10-2026
 order: 5
 ---
 
-## The easiest way: the app
+## O jeito mais fácil: o app
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+O [Blokada 6](https://go.blokada.org/play_cloud) configura tudo para você, ativa e desativa o bloqueio com um toque e mostra o que foi bloqueado diretamente no celular. Acesse com seu ID de conta e pronto.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Obtenha o Blokada 6 no Google Play</a></p>
 
-## Without the app: Private DNS
+## Sem o app: DNS Privado
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+O Android 9 e versões posteriores têm uma configuração de _DNS Privado_. Defina para Blokada Cloud e anúncios e rastreadores serão bloqueados em todos os apps, em todas as redes, sem nada rodando em segundo plano.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Abra _Configurações → Rede e internet_. Em alguns aparelhos, é _Conexões_ ou _Conexão e compartilhamento_.
+2. Toque em _DNS Privado_. Nos aparelhos Samsung, está em _Mais configurações de conexão_.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Se não conseguir encontrar, pesquise por "DNS Privado" no app de configurações.
 
-## Check that it works
+## Verifique se está funcionando
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Abra alguns apps ou sites e depois acesse a página _Atividade_ no [painel](https://app.blokada.org/stats?src=guides). As consultas deste celular aparecerão lá.
 
-## If something doesn't work
+## Se algo não funcionar
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **"Não foi possível conectar" ou sem internet:** verifique se o nome DNS do seu Blokada está correto. Ele deve ser exatamente como mostrado acima, sem `https://`.
+- **Outro app de VPN está ativo:** alguns apps de VPN usam seu próprio DNS e ignoram o DNS Privado. Desative a opção de DNS ou bloqueio de anúncios da VPN, ou utilize o Blokada 6.
+- **O Chrome ainda mostra anúncios:** O Chrome pode estar configurado para usar seu próprio provedor de DNS seguro, o que ignora o DNS Privado. No Chrome, abra _Configurações → Privacidade e segurança → Usar DNS seguro_ e escolha _Usar seu provedor de serviços atual_. Assim, o Chrome seguirá o DNS Privado.

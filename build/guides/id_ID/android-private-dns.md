@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Atur DNS Pribadi di Android dengan Blokada Cloud
+description: Gunakan pengaturan DNS Pribadi bawaan Android dengan Blokada Cloud untuk memblokir iklan dan pelacak di setiap aplikasi, baik di Wi-Fi maupun data seluler. Atau biarkan aplikasi Blokada 6 yang melakukannya.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## Cara termudah: aplikasi
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) mengatur semuanya untuk Anda, mengaktifkan dan menonaktifkan pemblokiran dengan satu ketukan, dan menampilkan apa saja yang diblokir langsung di ponsel. Masuk dengan ID akun Anda dan selesai.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Dapatkan Blokada 6 di Google Play</a></p>
 
-## Without the app: Private DNS
+## Tanpa aplikasi: DNS Pribadi
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Android 9 dan setelahnya memiliki pengaturan _DNS Pribadi_. Atur ke Blokada Cloud, maka iklan dan pelacak diblokir di semua aplikasi, di setiap jaringan, tanpa ada aplikasi berjalan di latar belakang.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Buka _Pengaturan → Jaringan & internet_. Di beberapa ponsel ini adalah _Koneksi_ atau _Koneksi & berbagi_.
+2. Ketuk _DNS Pribadi_. Pada ponsel Samsung, ini berada di bawah _Pengaturan koneksi lainnya_.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Jika Anda tidak dapat menemukannya, cari "DNS Pribadi" di aplikasi Pengaturan.
 
-## Check that it works
+## Periksa apakah sudah berfungsi
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Buka beberapa aplikasi atau situs web, kemudian lihat halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan dari ponsel ini akan muncul di sana.
 
-## If something doesn't work
+## Jika ada yang tidak berfungsi
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **"Tidak dapat terhubung" atau tidak ada internet:** periksa nama DNS Blokada Anda, pastikan tidak ada kesalahan ketik. Harus persis seperti yang ditunjukkan di atas, tanpa `https://`.
+- **Aplikasi VPN lain aktif:** beberapa aplikasi VPN menggunakan DNS mereka sendiri dan melewati DNS Pribadi. Nonaktifkan pengaturan DNS atau pemblokiran iklan pada VPN tersebut, atau gunakan Blokada 6 sebagai gantinya.
+- **Chrome masih menampilkan iklan:** Chrome mungkin disetel ke penyedia DNS aman sendiri, yang melewati DNS Pribadi. Di Chrome, buka _Pengaturan → Privasi dan keamanan → Gunakan DNS aman_ dan pilih _Gunakan penyedia layanan Anda saat ini_. Chrome kemudian akan mengikuti DNS Pribadi.

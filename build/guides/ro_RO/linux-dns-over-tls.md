@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Blochează reclamele pe Linux cu DNS over TLS
+description: Configurează systemd-resolved pentru a utiliza Blokada Cloud prin DNS over TLS criptat și blochează reclamele și tracker-ele pentru fiecare aplicație de pe computerul tău Linux.
 updated: 2026-10-02
-order: 9
+order: 9​
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Cele mai recente distribuții Linux, inclusiv Ubuntu și Fedora, rezolvă numele prin _systemd-resolved_, care suportă DNS over TLS. Pe Debian, instalează-l mai întâi cu `sudo apt install systemd-resolved`. Setează Blokada Cloud și reclamele și tracker-ele sunt blocate pentru fiecare aplicație de pe computer.
 
-## Set up systemd-resolved
+## Configurează systemd-resolved
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Creează folderul cu `sudo mkdir -p /etc/systemd/resolved.conf.d`, apoi fișierul `/etc/systemd/resolved.conf.d/blokada.conf` cu aceste setări:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Repornește serviciul: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Verifică: <code>resolvectl status</code> afișează <code>+DNSOverTLS</code> și serverul Blokada.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Partea de după `#` este numele tău Blokada DNS: {% dot %} systemd-resolved verifică certificatul serverului față de acesta, iar Blokada îl folosește pentru a identifica dispozitivul care face solicitarea.
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** transmite și serverele DNS ale rețelei tale. `Domains=~.` trimite toate interogările către Blokada, dar dacă `resolvectl status` încă afișează un alt server pe o conexiune, dezactivează DNS-ul automat pentru acea conexiune (comutatorul _Automat_ de lângă _DNS_ în setările IPv4 și IPv6).
 
 </div>
 
-## Without systemd-resolved
+## Fără systemd-resolved
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Dacă `resolvectl` nu este găsit, distribuția ta Linux folosește altă metodă pentru rezolvarea numelor. Configurează DNS securizat în browserul tău, conform [ghidului pentru browser](../browser-dns-over-https/), sau configurează [routerul](../router-ad-blocking/) pentru a acoperi întreaga locuință.
 
-## Check that it works
+## Verifică funcționalitatea
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Deschide câteva site-uri web, apoi verifică pagina _Activitate_ din [control panel](https://app.blokada.org/stats?src=guides). Interogările acestui computer vor apărea acolo.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Vrei și un VPN pe acest computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include o configurare WireGuard care criptează tot traficul și are același mecanism de blocare.
 
 </div>

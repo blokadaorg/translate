@@ -1,52 +1,52 @@
 ---
-title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
-description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
+title: Mullvad DNS končí. Zachovejte blokování reklam s Blokada Cloud
+description: Mullvad uzavírá svůj veřejný DNS 2. listopadu 2026. Postupujte podle tohoto návodu a přesuňte svůj telefon, počítač a router do Blokada Cloud před tímto datem, abyste nepřišli o blokování reklam.
 updated: 2026-10-02
 order: 2
 ---
 
-Mullvad is closing its free public DNS service on **2 November 2026** and recommends Quad9 instead. Quad9 blocks malware but does **not** block ads or trackers. When Mullvad's DNS stops, devices set to it stop loading websites and apps. Where a device is allowed to fall back to another DNS server, ads come back instead. Switch before that date.
+Mullvad ukončuje svou bezplatnou veřejnou službu DNS dne **2. listopadu 2026** a doporučuje místo ní Quad9. Quad9 blokuje malware, ale **ne** blokuje reklamy ani trackery. Po zastavení DNS Mullvadu zařízení nastavená na něj přestanou načítat webové stránky a aplikace. Pokud zařízení může přejít na jiného DNS poskytovatele, reklamy se opět zobrazí. Přepněte se před tímto datem.
 
-This page is about the public DNS names ending in `dns.mullvad.net`. It does not cover the Mullvad VPN app.
+Tato stránka se týká veřejných DNS jmen končících na `dns.mullvad.net`. Netýká se aplikace Mullvad VPN.
 
-## What you used, and what to pick in Blokada
+## Co jste používali a co vybrat v Blokadě
 
-| Mullvad DNS name           | What it blocked                      | In the Blokada dashboard                                                                                                                      |
-| -------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dns.mullvad.net`          | nothing                              | Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice. |
-| `adblock.dns.mullvad.net`  | ads, trackers                        | an ad and tracker blocklist                                                                                                                   |
-| `base.dns.mullvad.net`     | ads, trackers, malware               | add a malware list                                                                                                                            |
-| `extended.dns.mullvad.net` | base plus social media               | add a social media list                                                                                                                       |
-| `family.dns.mullvad.net`   | base plus adult content and gambling | add adult content and gambling lists                                                                                                          |
-| `all.dns.mullvad.net`      | all of the above                     | turn on all of them                                                                                                                           |
+| Název Mullvad DNS          | Co blokoval                            | V nástěnce Blokada                                                                                                                                      |
+| -------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dns.mullvad.net`          | nic                                    | Blokada je služba filtrování. Pokud nechcete žádné filtrování, Quad9 nebo DNS vašeho poskytovatele je jednodušší volba. |
+| `adblock.dns.mullvad.net`  | reklamy, trackery                      | blocklist reklam a trackerů                                                                                                                             |
+| `base.dns.mullvad.net`     | reklamy, trackery, malware             | přidejte seznam malwaru                                                                                                                                 |
+| `extended.dns.mullvad.net` | základ plus sociální sítě              | přidejte seznam sociálních sítí                                                                                                                         |
+| `family.dns.mullvad.net`   | základ plus obsah pro dospělé a hazard | přidejte seznamy pro dospělé a hazardní stránky                                                                                                         |
+| `all.dns.mullvad.net`      | vše výše uvedené                       | zapněte všechny z nich                                                                                                                                  |
 
-You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
+V nástěnce vybíráte blocklisty v sekci _Blocklisty_. Můžete je kdykoliv změnit a změna se projeví na všech vašich zařízeních.
 
-## Switch each device
+## Přepněte každé zařízení
 
-Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Blokada dává každému zařízení vlastní název, takže nástěnka zobrazí aktivitu za zařízení. Podle typu zařízení budete potřebovat DNS název nebo DoH odkaz, obojí je v sekci _Vaše detaily_ výše.
 
 ### Android
 
-Mullvad's guide had you enter a hostname under _Private DNS_. Replace it with your Blokada DNS name. The [Android guide](../android-private-dns/) has the steps.
+Pokyn Mullvadu vás nechal zadat hostname do _Soukromý DNS_. Nahraďte jej svým názvem DNS z Blokady. [Průvodce pro Android](../android-private-dns/) obsahuje postup.
 
-### iPhone, iPad and Mac
+### iPhone, iPad a Mac
 
-Mullvad's setup used a configuration profile. Remove it first:
+Nastavení Mullvadu používalo konfigurační profil. Nejprve jej odstraňte:
 
-- **iPhone and iPad:** _Settings → General → VPN & Device Management_, tap the Mullvad DNS profile, then _Remove Profile_.
-- **Mac:** open the list of profiles (_System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, _System Preferences → Profiles_ on macOS 12 and earlier), select the Mullvad DNS profile and click _−_.
+- **iPhone a iPad:** _Nastavení → Obecné → VPN a správa zařízení_, klepněte na profil Mullvad DNS a poté _Odstranit profil_.
+- **Mac:** otevřete seznam profilů (_Nastavení systému → Obecné → Správa zařízení_ na macOS 15 a novějším, _Nastavení systému → Soukromí a zabezpečení → Profily_ na macOS 13 a 14, _Předvolby systému → Profily_ na macOS 12 a starších), vyberte profil Mullvad DNS a klikněte na _−_.
 
-Then install the Blokada profile from the [Apple guide](../apple-devices/).
+Pak nainstalujte profil Blokada podle [Apple návodu](../apple-devices/).
 
-### Browsers
+### Prohlížeče
 
-If you entered a Mullvad DoH link such as `https://adblock.dns.mullvad.net/dns-query` under _secure DNS_ or _DNS over HTTPS_, replace it with your DoH link. The [browser guide](../browser-dns-over-https/) has the steps for each browser.
+Pokud jste zadali odkaz DoH Mullvad, například `https://adblock.dns.mullvad.net/dns-query` do _zabezpečeného DNS_ nebo _DNS přes HTTPS_, nahraďte ho svým DoH odkazem. [Průvodce prohlížeče](../browser-dns-over-https/) obsahuje postupy pro každý prohlížeč.
 
 ### Router
 
-If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The [router guide](../router-ad-blocking/) covers common models.
+Pokud váš router používá Mullvad přes DNS-over-TLS, nahraďte hostname Mullvadu názvem DNS z Blokady a odstraňte IP adresy Mullvadu. [Průvodce routerem](../router-ad-blocking/) pokrývá běžné modely.
 
-## Check that it works
+## Zkontrolujte, že vše funguje
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.
+Otevřete několik webových stránek a poté se podívejte na stránku _Aktivita_ v nástěnce. Zde uvidíte vyhledávání svých zařízení a označené blokované položky. Pokud se zařízení nezobrazuje, stále používá jiný DNS server.

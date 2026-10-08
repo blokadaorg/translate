@@ -1,31 +1,31 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Blokování reklam na celé vaší síti pomocí routeru pro blokování reklam.
+description: Nastavte Blokada Cloud na svém routeru jednou a každé zařízení v domácnosti bude chráněno – včetně televizí, herních konzolí a chytrých reproduktorů, které nemohou spustit blokátor reklam.
 updated: 2026-10-02
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+Každé zařízení ve vaší síti se ptá routeru, který DNS server má použít. Nastavte router na Blokada Cloud a reklamy a trackery budou blokovány pro vše, co je za ním. To zahrnuje chytré televize, herní konzole, streamovací zařízení a chytrá domácí zařízení, která nemají prostor pro aplikaci blokátoru reklam.
 
-## What your router needs
+## Co váš router potřebuje
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+Váš router musí podporovat **šifrovaný DNS s názvem hostitele**, tedy DNS over TLS (DoT) nebo DNS over HTTPS (DoH). Mnoho novějších routerů tuto možnost má, včetně níže uvedených modelů. Podle toho, co váš router podporuje, potřebujete svůj DNS název nebo DoH odkaz – oba jsou výše pod _Vaše údaje_.
 
 <div class="note important">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**Pouze prosté IP adresy?** Mnoho routerů od poskytovatelů internetu umožňuje zadat pouze prosté IP adresy pro DNS. Podpora pro ně je v přípravě. Do té doby nastavte svá zařízení zvlášť: [Android](../android-private-dns/), [Mac a Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) a [prohlížeče](../browser-dns-over-https/). Také můžete provozovat malý forwarder na Raspberry Pi, jak je popsáno v [návodu pro Pi-hole](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 nebo novější.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. Do _Vyřešené názvy DNS serveru_ zadejte pouze {% dot %}. **Odstraňte všechna ostatní pole.** FRITZ!Box používá všechny uvedené resolvery a každý další nechá reklamy projít.
 4. Untick _Allow fallback to unencrypted name resolution_.
-5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
+5. Pokud vidíte _Přepnout na veřejné DNS servery při výpadku DNS_, vypněte tuto možnost.
 6. Click _Apply_.
 
 ## ASUS
@@ -35,32 +35,32 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 1. Open the router admin page and go to _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
 3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
+   - Adresa: {% ip "dot" %}
+   - TLS hostname: {% dot %}
 4. Click _Apply_.
 
 ## OpenWrt
 
 1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+2. Otevřete _Služby → HTTPS DNS Proxy_. Odstraňte instance pro jiné poskytovatele.
+3. Přidejte instanci s vlastní URL resolveru: {% doh %}
+4. _Uložit a použít_. Balíček automaticky nastaví dnsmasq na tuto možnost.
 
-## Other routers
+## Jiné routery
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Hledejte nastavení nazvané _DNS over TLS_, _soukromý DNS_, _šifrovaný DNS_ nebo _DNS over HTTPS_. Zadejte svůj Blokada DNS název nebo DoH odkaz z výše uvedeného a odstraňte všechny ostatní DNS servery včetně záložních.
 
-## Check that it works
+## Ověřte, že to funguje
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Restartujte jedno zařízení nebo vypněte a zapněte jeho Wi-Fi, aby se změna projevila.
+2. Chvíli surfujte a poté otevřete stránku _Aktivita_ v dashboardu. Dotazy vaší sítě se zde zobrazí.
 
-## If some devices still show ads
+## Pokud některá zařízení stále zobrazují reklamy
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Některá zařízení obejdou router: telefony s nastaveným _soukromým DNS_, prohlížeče s _bezpečným DNS_ u jiného poskytovatele a zařízení, která mají vlastní tvrdě nastavený DNS. Nastavte je přímo na zařízení, nebo vypněte jejich vlastní nastavení DNS.
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Za routerem sdílí všechna zařízení jednu adresu, takže dashboard zobrazí vaši síť jako jediné zařízení. Pokud chcete vidět telefony a notebooky zvlášť, nastavte pro ně vlastní Blokada DNS název. Blokování také zůstane funkční, když zařízení opustí domov.
 
 </div>

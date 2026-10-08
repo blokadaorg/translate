@@ -1,23 +1,23 @@
 ---
-title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
-description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
+title: Blokujte reklamy v Chrome, Firefoxu, Edge a Brave pomocí DNS over HTTPS
+description: Nastavte Blokada Cloud jako bezpečného poskytovatele DNS ve vašem prohlížeči pro blokování reklam a trackerů na jakémkoli počítači, včetně pracovních laptopů, kde nemůžete instalovat aplikace.
 updated: 2026-10-02
 order: 7
 ---
 
-Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
+Moderní prohlížeče mohou používat vlastního šifrovaného poskytovatele DNS, označovaného jako _bezpečné DNS_ nebo _DNS over HTTPS_. Nastavte Blokada Cloud a prohlížeč bude blokovat reklamy a trackery na jakékoli síti, bez nutnosti instalace rozšíření.
 
-This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
+Toto nastavení platí pouze pro tento prohlížeč. Pokud chcete pokrýt celý počítač, použijte [Apple profil](../apple-devices/) na Macu, nebo nastavte svůj [router](../router-ad-blocking/).
 
 ## Chrome
 
-1. Open `chrome://settings/security`.
+1. Otevřete `chrome://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Zadejte {% doh %}
 
 ## Edge
 
-1. Open `edge://settings/privacy`.
+1. Otevřete `edge://settings/privacy`.
 2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
 3. Choose _Choose a service provider_ and enter {% doh %}
 
@@ -29,22 +29,22 @@ This setting covers only this browser. To cover the whole computer, use the [App
 
 ## Brave
 
-1. Open `brave://settings/security`.
+1. Otevřete `brave://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Zadejte {% doh %}
 
 ## Safari
 
-Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
+Safari nemá vlastní nastavení bezpečného DNS. Používá systémové DNS, proto nainstalujte [Apple profil](../apple-devices/).
 
-## Check that it works
+## Ověřte, že to funguje
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
+Procházejte chvíli web a poté otevřete stránku _Aktivita_ v [dashboardu](https://app.blokada.org/stats?src=guides). Dotazy tohoto prohlížeče se zde zobrazí.
 
-## If something doesn't work
+## Pokud něco nefunguje
 
 <div class="note tip">
 
-If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
+Pokud je váš prohlížeč spravován prací nebo školou, nastavení bezpečného DNS může být uzamčeno. Obraťte se na svého administrátora.
 
 </div>

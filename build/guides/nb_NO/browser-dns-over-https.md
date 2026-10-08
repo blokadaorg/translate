@@ -1,7 +1,7 @@
 ---
 title: Blokker annonser i Chrome, Firefox, Edge og Brave med DNS over HTTPS
 description: Sett Blokada Cloud som sikker DNS-leverandør i nettleseren din for å blokkere annonser og sporere, på enhver datamaskin, inkludert jobb-PCer hvor du ikke kan installere apper.
-updated: 2026-10-02
+updated: 2026-10-02"
 order: 7
 ---
 

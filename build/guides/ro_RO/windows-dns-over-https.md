@@ -1,58 +1,58 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: Blochează reclamele pe Windows folosind DNS peste HTTPS
+description: Folosește DNS-ul criptat integrat în Windows 11 împreună cu Blokada Cloud pentru a bloca reclamele și urmăritorii în orice aplicație și browser, fără să fie nevoie să instalezi software suplimentar.
 updated: 2026-10-02
 order: 8
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11 poate trimite toate interogările DNS criptat, folosind DNS peste HTTPS. Direcționează-le către Blokada Cloud și reclamele, precum și urmăritorii, vor fi blocate pe orice aplicație și browser de pe computer, fără nimic de instalat.
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+Ai nevoie de adresa IP a serverului DNS și de linkul tău DoH, ambele fiind la _Detaliile tale_ de mai sus.
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. Deschide _Setări → Rețea și internet_, apoi _Wi-Fi_ sau _Ethernet_, în funcție de cum este conectat computerul.
+2. Deschide _Proprietăți hardware_ ale conexiunii tale. Pentru Wi-Fi, selectează _Gestionează rețelele cunoscute_ și apoi rețeaua, sau _Proprietăți hardware_ din partea de sus a paginii Wi-Fi.
+3. Lângă _Atribuire server DNS_, selectează _Editează_. Alege _Manual_ și activează _IPv4_.
+4. La _DNS preferat_, introdu serverul DNS {% ip "doh" %}
+5. Setează _DNS peste HTTPS_ pe _Activ (șablon manual)_ și lipsește linkul tău DoH {% doh %} ca _șablon DoH_.
+6. Dezactivează _Trecere la text simplu_, apoi selectează _Salvează_.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+Dacă computerul folosește atât Wi-Fi, cât și Ethernet, repetă pașii pentru cealaltă conexiune.
 
 <div class="note important">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+Lasă _DNS alternativ_ necompletat. Windows folosește ambii serveri, iar folosirea oricărui alt server permite reclamelor să treacă.
 
 </div>
 
 <div class="note tip">
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+Nu există opțiunea _Activ (șablon manual)_? Windows 11 este mai vechi. Actualizează Windows sau folosește [ghidul pentru browser](../browser-dns-over-https/) între timp.
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10 nu are DNS criptat integrat. Configurează DNS securizat în browser, ca în [ghidul pentru browser](../browser-dns-over-https/), sau configurează [routerul](../router-ad-blocking/) pentru a acoperi toată casa.
 
-## Check that it works
+## Verifică dacă funcționează
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Deschide câteva site-uri, apoi verifică pagina _Activitate_ din [panoul de control](https://app.blokada.org/stats?src=guides). Interogările acestui computer vor apărea acolo.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Vrei și un VPN pe acest computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include configurare WireGuard care criptează tot traficul, cu aceeași blocare a reclamelor.
 
 </div>
 
-## If something doesn't work
+## Dacă ceva nu funcționează
 
-Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+Chrome și Edge au setarea lor _DNS securizat_, care ocolește Windows. Lăsată pe automat, poate trece la DNS obișnuit, pe care Blokada îl refuză. Setează-o pe linkul tău DoH:
 
-- **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
-- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose _Choose a service provider_.
+- **Chrome:** deschide `chrome://settings/security`, activează _Folosește DNS securizat_, iar la _Selectează furnizorul DNS_ alege _Adaugă furnizor de DNS personalizat_.
+- **Edge:** deschide `edge://settings/privacy`, activează DNS securizat și alege _Alege un furnizor de servicii_.
 
-Then paste your DoH link {% doh %}
+Apoi lipește linkul tău DoH {% doh %}
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+Dacă unele reclame tot apar pe o rețea cu IPv6, Windows poate folosi și serverul DNS IPv6 al routerului. Dezactivează _Internet Protocol Version 6 (TCP/IPv6)_ din proprietățile adaptorului (_Panou de control → Conexiuni de rețea_) sau configurează [routerul](../router-ad-blocking/).

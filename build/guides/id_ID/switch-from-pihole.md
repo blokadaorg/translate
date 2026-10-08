@@ -1,42 +1,42 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: Alternatif Pi-hole yang tidak memerlukan perangkat keras
+description: Pindahkan pemblokiran iklan di rumah Anda dari Pi-hole ke Blokada Cloud, atau pertahankan Pi-hole Anda dan kirimkan permintaannya melalui Blokada.
 updated: 2026-10-02
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+Pi-hole memblokir iklan untuk setiap perangkat di jaringan Anda, selama Raspberry Pi berjalan, diperbarui, dan berada di rumah. Blokada Cloud melakukan hal yang sama langsung dari server kami:
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Tidak ada perangkat yang harus dirawat.** Tidak ada kartu SD, tidak ada pembaruan, tidak ada mati layanan saat perangkat Pi Anda mati.
+- **Bisa digunakan di luar rumah.** Ponsel dan laptop tetap terblokir iklan meskipun menggunakan data seluler atau jaringan Wi-Fi lain.
+- **Terenkripsi.** Perangkat berbicara dengan Blokada melalui DNS over TLS atau DNS over HTTPS, sehingga penyedia Anda tidak dapat membaca atau mengubah permintaan DNS Anda.
+- **Satu dashboard.** Daftar blokir, domain yang diizinkan dan diblokir, serta aktivitas per perangkat dapat dikelola di [app.blokada.org](https://app.blokada.org/?src=guides).
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+Ada dua cara untuk beralih. Ganti Pi-hole sepenuhnya, atau tetap gunakan Pi-hole dan gunakan Blokada Cloud sebagai upstream-nya.
 
-## Option 1: replace the Pi-hole
+## Opsi 1: ganti Pi-hole
 
-1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under _Setup_ there, and under _Your details_ above.
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **Dapatkan Blokada Cloud** dan buka dashboard-nya. Nama DNS Anda dan tautan DoH tersedia di bagian _Setup_ di sana, serta di bawah _Your details_ di atas.
+2. **Arahkan router Anda ke Blokada, bukan ke Pi-hole.** Ikuti [panduan router](../router-ad-blocking/). Jika router Anda hanya menerima alamat IP sebagai server DNS, atur masing-masing perangkat secara manual: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [browser](../browser-dns-over-https/).
+3. **Jika Pi-hole Anda berperan sebagai server DHCP,** aktifkan kembali DHCP di router _sebelum_ Anda mematikan Pi. Jika tidak, perangkat tidak akan mendapatkan alamat jaringan.
+4. **Pindahkan daftar Anda.** Di dashboard, pilih daftar blokir di bawah _Blocklists_, dan tambahkan domain yang Anda izinkan atau blokir sendiri di bawah _Exceptions_.
+5. **Matikan Pi-hole,** atau tetap gunakan untuk keperluan lain.
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+Pi-hole Anda menampilkan setiap perangkat di jaringan berdasarkan alamat IP mereka. Dengan Blokada, setiap perangkat akan terlihat dengan namanya sendiri, selama menggunakan nama DNS Blokada masing-masing. Router yang diatur dengan satu nama DNS Blokada akan tampil sebagai satu perangkat.
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## Opsi 2: tetap gunakan Pi-hole, gunakan Blokada Cloud sebagai upstream
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+Jika Anda ingin mempertahankan konfigurasi lokal seperti nama host lokal, DHCP, atau daftar Anda sendiri, biarkan Pi-hole meneruskan permintaannya ke Blokada melalui koneksi terenkripsi. Pi-hole tidak bisa meneruskan secara terenkripsi sendiri, jadi perlu aplikasi kecil yang berjalan di sampingnya. Panduan ini menggunakan [dnsproxy](https://github.com/AdguardTeam/dnsproxy), penerus terbuka yang hanya berupa satu berkas.
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. Di mesin Pi-hole, unduh rilis `dnsproxy` untuk CPU Anda (`linux-arm64` untuk Raspberry Pi terbaru) dari halaman rilisnya, lalu salin berkas biner `dnsproxy` ke `/usr/local/bin/`.
+2. Buat `/etc/systemd/system/dnsproxy.service`:
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=Penerus DNS terenkripsi ke Blokada Cloud
 Wants=network-online.target
 After=network-online.target
 
@@ -48,14 +48,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. Mulai: `sudo systemctl enable --now dnsproxy`
+4. Di admin Pi-hole, buka _Settings → DNS_. Hilangkan centang pada setiap server upstream dan tambahkan `127.0.0.1#5054` sebagai server upstream kustom. Simpan.
+5. Cek halaman _Activity_ di dashboard. Permintaan dari jaringan Anda sekarang akan tampil di sana.
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+Anda bisa mematikan daftar blokir milik Pi-hole dan mengelola blokir di dashboard, atau tetap menggunakan keduanya.
 
-## Frequently asked
+## Pertanyaan yang sering ditanyakan
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**Apakah saya perlu Blokada Plus?** Tidak. Blokada Cloud sudah mencakup pemblokiran DNS untuk seluruh rumah Anda. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) menambahkan VPN di atasnya.
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**Bagaimana jika Blokada tidak dapat dijangkau?** Perangkat Anda tidak bisa melakukan resolusi nama hingga layanan kembali tersedia, sama seperti Pi-hole yang mati. Jangan tambahkan server DNS kedua yang tidak disaring sebagai cadangan. Sebagian besar perangkat menggunakan semua server yang ada secara acak, sehingga iklan bisa lolos.

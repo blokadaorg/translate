@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Hirdetések blokkolása Linuxon DNS over TLS segítségével
+description: Állítsd be a systemd-resolved szolgáltatást, hogy a Blokada Cloud-ot használja titkosított DNS over TLS-sel, és blokkolja a hirdetéseket és követőket minden alkalmazásban a Linux számítógépeden.
 updated: 2026-10-02
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+A legtöbb modern Linux disztribúció, köztük az Ubuntu és a Fedora, a _systemd-resolved_ szolgáltatással oldja fel a neveket, amely támogatja a DNS over TLS-t. Debianon először telepítsd ezt: `sudo apt install systemd-resolved`. Állítsd be a Blokada Cloud-ot, és a hirdetések, valamint a követők minden alkalmazásban blokkolva lesznek a számítógépen.
 
-## Set up systemd-resolved
+## Systemd-resolved beállítása
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Hozd létre a mappát ezzel: `sudo mkdir -p /etc/systemd/resolved.conf.d`, majd a `/etc/systemd/resolved.conf.d/blokada.conf` fájlt ezekkel a beállításokkal:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Indítsd újra: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Ellenőrizd: a <code>resolvectl status</code> mutatja, hogy <code>+DNSOverTLS</code> és a Blokada szerver szerepel.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+A `#` utáni rész a Blokada DNS neved: {% dot %} a systemd-resolved ehhez ellenőrzi a szerver tanúsítványát, és a Blokada ezt használja annak meghatározására, melyik eszköz kérdez.
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+A **NetworkManager** is továbbítja a hálózatod DNS szervereit. A `Domains=~.` beállítás minden feloldást a Blokadahoz küld, de ha a `resolvectl status` még mindig egy másik szervert mutat egy kapcsolaton, kapcsold ki az automatikus DNS-t annál a kapcsolatnál (az _Automatikus_ kapcsoló az _DNS_ mellett az IPv4 és IPv6 beállításoknál).
 
 </div>
 
-## Without systemd-resolved
+## Systemd-resolved nélkül
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Ha a `resolvectl` nem található, a disztribúciód másképp oldja fel a neveket. Állíts be biztonságos DNS-t a böngésződben, ahogyan a [böngésző útmutatóban](../browser-dns-over-https/) látható, vagy állítsd be az [útválasztódat](../router-ad-blocking/), hogy az egész házat lefedje.
 
-## Check that it works
+## Ellenőrizd, hogy működik-e
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Nyiss meg néhány weboldalt, majd nézd meg a _Tevékenység_ oldalt a [dashboardon](https://app.blokada.org/stats?src=guides). Ennek a számítógépnek a lekérdezései ott fognak megjelenni.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Szeretnéd, hogy ezen a számítógépen is legyen VPN? A [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) tartalmaz egy WireGuard beállítást, amely minden forgalmat titkosít, a blokkolás változatlan marad.
 
 </div>

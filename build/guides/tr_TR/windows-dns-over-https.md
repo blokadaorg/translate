@@ -1,58 +1,58 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: Windows'ta DNS over HTTPS ile reklamları engelleyin
+description: Blokada Cloud ile Windows 11'e dahili gelen şifreli DNS'i kullanarak, hiçbir ek yazılım kurmadan her uygulama ve tarayıcıda reklamları ve izleyicileri engelleyin.
 updated: 2026-10-02
-order: 8
+order: 8},{
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11 tüm DNS sorgularını şifreli olarak, DNS over HTTPS üzerinden gönderebilir. Blokada Cloud'u seçerek, bilgisayardaki her uygulama ve tarayıcıda reklamlar ve izleyiciler engellenir, hiçbir şey kurmanıza gerek yoktur.
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+DNS sunucusunun IP adresine ve DoH bağlantınıza ihtiyacınız olacak, ikisi de yukarıda _Bilgileriniz_ altında bulunur.
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. _Ayarlar → Ağ ve internet_'i açın, ardından bilgisayarın bağlantı şekline bağlı olarak _Wi-Fi_ veya _Ethernet_'i seçin.
+2. Bağlantınızın _Donanım özellikleri_'ni açın. Wi-Fi kullanıyorsanız, _Bilinen ağları yönet_'i ve ardından ağı, ya da Wi-Fi sayfasının üstünde _Donanım özellikleri_'ni seçin.
+3. _DNS sunucusu ataması_ yanında, _Düzenle_'yi seçin. _Manuel_'i seçin ve _IPv4_'ü etkinleştirin.
+4. _Tercih edilen DNS_ bölümüne DNS sunucusunu girin {% ip "doh" %}
+5. _DNS over HTTPS_'i _Açık (manuel şablon)_ olarak ayarlayın ve DoH bağlantınızı {% doh %} _DoH şablonu_ olarak yapıştırın.
+6. _Düz metine geri dönüş_ seçeneğini kapatın ve _Kaydet_'i seçin.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+Bilgisayar hem Wi-Fi hem de Ethernet kullanıyorsa, diğer bağlantı için de aynı işlemi tekrarlayın.
 
 <div class="note important">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+_Alternatif DNS_'i boş bırakın. Windows her iki sunucuyu da kullanır ve diğer herhangi biri reklamların geçmesine izin verir.
 
 </div>
 
 <div class="note tip">
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+_Açık (manuel şablon)_ seçeneği yok mu? Windows 11'iniz eski. Windows'u güncelleyin veya bu arada [tarayıcı rehberini](../browser-dns-over-https/) kullanın.
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10'da dahili şifreli DNS yoktur. Bunun yerine, [tarayıcı rehberi](../browser-dns-over-https/)'ndeki gibi tarayıcınızda güvenli DNS ayarlayın ya da tüm evi kapsaması için [yönlendiricinizi](../router-ad-blocking/) yapılandırın.
 
-## Check that it works
+## Çalıştığını kontrol edin
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Birkaç web sitesi açın, ardından [gösterge panelindeki](https://app.blokada.org/stats?src=guides) _Etkinlik_ sayfasına bakın. Bu bilgisayarın sorgulamaları orada görünür.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Bu bilgisayarda da VPN ister misiniz? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) ile tüm trafiği şifreleyen ve aynı engellemeyi yapan bir WireGuard kurulumu dahildir.
 
 </div>
 
-## If something doesn't work
+## Bir şey çalışmıyor mu
 
-Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+Chrome ve Edge'in kendi _güvenli DNS_ ayarı vardır, bu da Windows'u atlatır. Otomatikte bırakılırsa, düz DNS'e geri dönebilir, bu da Blokada tarafından reddedilir. Onun yerine DoH bağlantınızı girin:
 
-- **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
-- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose _Choose a service provider_.
+- **Chrome:** `chrome://settings/security` adresini açın, _Güvenli DNS kullanımını_ etkinleştirin ve _DNS sağlayıcısı seç_ altında _Özel DNS hizmeti sağlayıcısı ekle_'yi seçin.
+- **Edge:** `edge://settings/privacy` adresini açın, güvenli DNS'i etkinleştirin ve _Hizmet sağlayıcısı seç_'i seçin.
 
-Then paste your DoH link {% doh %}
+Ardından DoH bağlantınızı yapıştırın {% doh %}
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+Bazı reklamlar hâlâ IPv6 olan bir ağda gösteriliyorsa, Windows yönlendiricinizin IPv6 DNS sunucusuna da sorgu gönderebilir. Adaptör ayarlarından _Internet Protocol Version 6 (TCP/IPv6)_'yı kapatın (_Denetim Masası → Ağ Bağlantıları_) veya [yönlendiricinizi](../router-ad-blocking/) ayarlayın.

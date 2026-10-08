@@ -1,52 +1,52 @@
 ---
-title: Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud
-description: Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.
+title: Mullvad DNS se închide. Păstrați blocarea reclamelor cu Blokada Cloud
+description: Mullvad își închide DNS-ul public pe 2 noiembrie 2026. Iată cum să mutați telefonul, calculatorul și routerul pe Blokada Cloud înainte de această dată, fără a pierde blocarea reclamelor.
 updated: 2026-10-02
 order: 2
 ---
 
-Mullvad is closing its free public DNS service on **2 November 2026** and recommends Quad9 instead. Quad9 blocks malware but does **not** block ads or trackers. When Mullvad's DNS stops, devices set to it stop loading websites and apps. Where a device is allowed to fall back to another DNS server, ads come back instead. Switch before that date.
+Mullvad va închide serviciul său public DNS gratuit pe **2 noiembrie 2026** și recomandă în schimb Quad9. Quad9 blochează malware, dar **nu** blochează reclame sau trackere. Când serviciul DNS al Mullvad se oprește, dispozitivele setate pe acesta nu vor mai încărca site-uri web și aplicații. Unde un dispozitiv are voie să treacă automat la alt server DNS, reclamele vor reveni. Schimbați înainte de această dată.
 
-This page is about the public DNS names ending in `dns.mullvad.net`. It does not cover the Mullvad VPN app.
+Această pagină se referă la numele DNS publice care se termină în `dns.mullvad.net`. Nu acoperă aplicația Mullvad VPN.
 
-## What you used, and what to pick in Blokada
+## Ce ați folosit și ce să alegeți în Blokada
 
-| Mullvad DNS name           | What it blocked                      | In the Blokada dashboard                                                                                                                      |
-| -------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dns.mullvad.net`          | nothing                              | Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice. |
-| `adblock.dns.mullvad.net`  | ads, trackers                        | an ad and tracker blocklist                                                                                                                   |
-| `base.dns.mullvad.net`     | ads, trackers, malware               | add a malware list                                                                                                                            |
-| `extended.dns.mullvad.net` | base plus social media               | add a social media list                                                                                                                       |
-| `family.dns.mullvad.net`   | base plus adult content and gambling | add adult content and gambling lists                                                                                                          |
-| `all.dns.mullvad.net`      | all of the above                     | turn on all of them                                                                                                                           |
+| Numele DNS Mullvad         | Ce a blocat                                         | În tabloul de bord Blokada                                                                                                                                                  |
+| -------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dns.mullvad.net`          | nimic                                               | Blokada este un serviciu de filtrare. Dacă nu doriți filtrare, Quad9 sau DNS-ul furnizorului dvs. este alegerea mai simplă. |
+| `adblock.dns.mullvad.net`  | reclame, trackere                                   | o listă de blocare pentru reclame și trackere                                                                                                                               |
+| `base.dns.mullvad.net`     | reclame, trackere, malware                          | adăugați o listă de malware                                                                                                                                                 |
+| `extended.dns.mullvad.net` | baza plus rețele sociale                            | adăugați o listă pentru rețele sociale                                                                                                                                      |
+| `family.dns.mullvad.net`   | baza plus conținut pentru adulți și jocuri de noroc | adăugați liste pentru conținut pentru adulți și jocuri de noroc                                                                                                             |
+| `all.dns.mullvad.net`      | toate cele de mai sus                               | activați-le pe toate                                                                                                                                                        |
 
-You choose blocklists in the dashboard under _Blocklists_. You can change them at any time, and the change applies to all your devices.
+Alegeți listele de blocare în tabloul de bord, la secțiunea _Liste de blocare_. Le puteți schimba oricând, iar modificarea se aplică tuturor dispozitivelor dumneavoastră.
 
-## Switch each device
+## Schimbați fiecare dispozitiv
 
-Blokada gives each device its own name, so the dashboard can show activity per device. Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+Blokada atribuie fiecărui dispozitiv un nume propriu, astfel încât tabloul de bord poate afișa activitatea pentru fiecare dispozitiv. În funcție de dispozitiv, aveți nevoie de numele dvs. DNS sau de linkul DoH, ambele disponibile la secțiunea _Detalii personale_ de mai sus.
 
 ### Android
 
-Mullvad's guide had you enter a hostname under _Private DNS_. Replace it with your Blokada DNS name. The [Android guide](../android-private-dns/) has the steps.
+Ghidul Mullvad v-a cerut să introduceți un nume gazdă la _DNS privat_. Înlocuiți-l cu numele Blokada DNS. [Ghidul pentru Android](../android-private-dns/) conține pașii.
 
-### iPhone, iPad and Mac
+### iPhone, iPad și Mac
 
-Mullvad's setup used a configuration profile. Remove it first:
+Configurarea Mullvad folosea un profil de configurare. Eliminați-l mai întâi:
 
 - **iPhone and iPad:** _Settings → General → VPN & Device Management_, tap the Mullvad DNS profile, then _Remove Profile_.
 - **Mac:** open the list of profiles (_System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, _System Preferences → Profiles_ on macOS 12 and earlier), select the Mullvad DNS profile and click _−_.
 
-Then install the Blokada profile from the [Apple guide](../apple-devices/).
+Apoi instalați profilul Blokada folosind [ghidul pentru Apple](../apple-devices/).
 
-### Browsers
+### Browsere
 
-If you entered a Mullvad DoH link such as `https://adblock.dns.mullvad.net/dns-query` under _secure DNS_ or _DNS over HTTPS_, replace it with your DoH link. The [browser guide](../browser-dns-over-https/) has the steps for each browser.
+Dacă ați introdus un link Mullvad DoH, precum `https://adblock.dns.mullvad.net/dns-query`, la _DNS securizat_ sau _DNS prin HTTPS_, înlocuiți-l cu propriul link DoH. [Ghidul pentru browser](../browser-dns-over-https/) conține pașii pentru fiecare browser.
 
 ### Router
 
-If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The [router guide](../router-ad-blocking/) covers common models.
+Dacă routerul dvs. folosește Mullvad cu DNS over TLS, înlocuiți numele de gazdă Mullvad cu numele Blokada DNS și eliminați adresele IP Mullvad. [Ghidul pentru router](../router-ad-blocking/) acoperă modelele comune.
 
-## Check that it works
+## Verificați dacă funcționează
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.
+Deschideți câteva site-uri web, apoi accesați pagina _Activitate_ din tabloul de bord. Acolo vedeți interogările dispozitivelor dvs., cu cele blocate marcate. Dacă un dispozitiv nu apare, încă folosește un alt server DNS.

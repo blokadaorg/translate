@@ -1,36 +1,36 @@
 ---
-title: Block ads on Mac and Apple TV with a Blokada DNS profile
-description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
+title: Mac ve Apple TV’de Blokada DNS profili ile reklamları engelle
+description: Mac veya Apple TV'de reklamları ve izleyicileri sistem genelinde engellemek için şifreli DNS ile hiçbir şey arka planda çalışmadan bir Blokada Cloud DNS profili yükleyin.
 updated: 2026-10-02
 order: 6
 ---
 
-Apple devices can use encrypted DNS for the whole system through a configuration profile. The Blokada profile points the device at Blokada Cloud, which blocks ads and trackers in every app and browser.
+Apple cihazları, tüm sistem için şifreli DNS'i bir yapılandırma profiliyle kullanabilir. Blokada profili, cihazı Blokada Cloud'a yönlendirir ve böylece tüm uygulamalarda ve tarayıcılarda reklamlar ve izleyiciler engellenir.
 
-It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
+It works on macOS 11 (Big Sur), tvOS 14, iOS ve iPadOS 14 ve sonraki sürümlerde çalışır.
 
 <div class="if-no-device">
 
-This page doesn't know your device yet, so it can't offer your profile. Sign in to the dashboard, open _Setup_, choose your device, and open this guide with _Open on another device_.
+Bu sayfa henüz cihazınızı bilmiyor, bu yüzden profiliniz sağlanamaz. Panele giriş yapın, _Kurulum_'u açın, cihazınızı seçin ve bu rehberi _Başka bir cihazda aç_ üzerinden açın.
 
-<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Get my profile link</a></p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Profil bağlantımı al</a></p>
 
 </div>
 
-## iPhone and iPad
+## iPhone ve iPad
 
-The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+En kolay yol uygulamayı kullanmaktır. [Blokada 6](https://go.blokada.org/appstore) tüm ayarları sizin için yapar, engellemeyi tek dokunuşla açıp kapatır ve telefonda nelerin engellendiğini gösterir. Hesap kimliğinizle giriş yapın, işlem tamam.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Get Blokada 6 on the App Store</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Blokada 6’yı App Store’dan edinin</a></p>
 
-### Without the app
+### Uygulama olmadan
 
-You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
+Alternatif olarak profili kurabilirsiniz. iPhone ve iPad, profilleri yalnızca **Safari** üzerinden kurar.
 
 <div class="if-device">
 <div class="if-other-browser note important">
 
-This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
+Bu sayfa başka bir tarayıcıda açık. Devam etmek için bağlantınızı kopyalayıp Safari'de açın: {% pageLink %}
 
 </div>
 </div>
@@ -38,38 +38,38 @@ This page is open in another browser. Copy your link and open it in Safari to co
 <div class="if-safari">
 
 1. In Safari, tap the button below, then _Allow_ to download the profile.
-2. Open _Settings_. Tap _Profile Downloaded_ near the top. You can also find it under _General → VPN & Device Management_.
+2. _Ayarlar_'ı açın. Üstteki _Profil İndirildi_'ye dokunun. Ayrıca bunu _Genel → VPN ve Aygıt Yönetimi_ altında da bulabilirsiniz.
 3. Tap _Install_, enter your passcode, and confirm.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Profilimi indir{% endappleProfile %}</p>
 
 ## Mac
 
-1. Click the button below to download the profile.
+1. Profili indirmek için aşağıdaki butona tıklayın.
 2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
 3. Double-click the Blokada profile and click _Install_.
 
-<p class="if-device">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device">{% appleProfile %}Profilimi indir{% endappleProfile %}</p>
 
 ## Apple TV
 
-The Apple TV cannot open web pages, so you type your profile link into it.
+Apple TV web sayfalarını açamaz, bu yüzden profil bağlantınızı elle girmeniz gerekir.
 
-1. Your profile link: {% appleUrl %}
+1. Profil bağlantınız: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
-4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
+3. _Apple TV Analitiğini Paylaş_'ı vurgulayın. Seçmeyin. Bunun yerine kumandada Oynat/Duraklat tuşuna basın.
+4. _Profil Ekle_'yi seçin ve profil bağlantınızı girin. Yazmak, iPhone'unuzda çıkan klavye ile en kolay yöntemdir, buradan yapıştırabilirsiniz. Profili yükleyip onaylayın.
 
 <div class="note aside">
 
-**Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
+**Apple TV ve evdeki diğer cihazlar:** Eğer Blokada Cloud'u [router](../router-ad-blocking/) üzerinden kurarsanız, Apple TV dahil tüm cihazlar korunmuş olur.
 
 </div>
 
-## Check that it works
+## Çalıştığını kontrol edin
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This device's lookups show up there.
+Biraz gezinin, ardından [paneldeki](https://app.blokada.org/stats?src=guides) _Etkinlik_ sayfasını açın. Bu cihazın sorguları orada gösterilecektir.
 
-To remove Blokada later, delete the profile where you installed it.
+Blokada'yı daha sonra kaldırmak için, kurduğunuz yerde profili silin.
