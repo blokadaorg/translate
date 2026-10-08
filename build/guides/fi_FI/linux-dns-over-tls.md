@@ -1,15 +1,15 @@
 ---
-title: Block ads on Linux with DNS over TLS
-description: Set up systemd-resolved to use Blokada Cloud over encrypted DNS over TLS, and block ads and trackers for every app on your Linux computer.
+title: Estä mainokset Linuxissa käyttämällä DNS over TLS:ää.
+description: Ota systemd-resolved käyttöön ja yhdistä Blokada Cloudiin salatun DNS over TLS -yhteyden kautta, jolloin mainokset ja seurantalaitteet estetään kaikissa sovelluksissa Linux-tietokoneellasi.
 updated: 2026-10-02
 order: 9
 ---
 
-Most current Linux distributions, including Ubuntu and Fedora, resolve names through _systemd-resolved_, which supports DNS over TLS. On Debian, install it first with `sudo apt install systemd-resolved`. Point it at Blokada Cloud, and ads and trackers are blocked for every app on the computer.
+Useimmat nykyiset Linux-jakelut, mukaan lukien Ubuntu ja Fedora, ratkaisevat nimet _systemd-resolved_-palvelun kautta, joka tukee DNS over TLS:ää. Debianissa asenna se ensin komennolla `sudo apt install systemd-resolved`. Osoita se Blokada Cloudiin, niin mainokset ja seurantalaitteet estetään kaikissa sovelluksissa tietokoneellasi.
 
-## Set up systemd-resolved
+## Ota systemd-resolved käyttöön
 
-1. Create the folder with `sudo mkdir -p /etc/systemd/resolved.conf.d`, then the file `/etc/systemd/resolved.conf.d/blokada.conf` with these settings:
+1. Luo kansio komennolla `sudo mkdir -p /etc/systemd/resolved.conf.d`, ja sitten tiedosto `/etc/systemd/resolved.conf.d/blokada.conf` näillä asetuksilla:
 
 <pre><code>[Resolve]
 DNS={{ site.dnsIps.dot }}#<span data-dns="dot">{{ t[lang].placeholder | safe }}.cloud.blokada.org</span>
@@ -17,28 +17,28 @@ DNSOverTLS=yes
 Domains=~.</code></pre>
 
 <ol start="2">
-<li>Restart it: <code>sudo systemctl restart systemd-resolved</code></li>
-<li>Check it: <code>resolvectl status</code> shows <code>+DNSOverTLS</code> and the Blokada server.</li>
+<li>Käynnistä se uudelleen: <code>sudo systemctl restart systemd-resolved</code></li>
+<li>Tarkista se: <code>resolvectl status</code> näyttää <code>+DNSOverTLS</code> sekä Blokada-palvelimen.</li>
 </ol>
 
-The part after `#` is your Blokada DNS name: {% dot %} systemd-resolved checks the server's certificate against it, and Blokada uses it to know which device is asking.
+Osa `#`-merkin jälkeen on Blokada DNS -nimesi: {% dot %} systemd-resolved tarkistaa palvelimen varmenteen tätä vastaan, ja Blokada käyttää sitä tunnistaakseen, miltä laitteelta pyyntö on peräisin.
 
 <div class="note important">
 
-**NetworkManager** also passes on the DNS servers of your network. `Domains=~.` sends all lookups to Blokada, but if `resolvectl status` still lists another server on a connection, turn off automatic DNS for that connection (the _Automatic_ switch next to _DNS_ in its IPv4 and IPv6 settings).
+**NetworkManager** välittää myös verkon DNS-palvelimet eteenpäin. `Domains=~.` ohjaa kaikki nimihakupyynnöt Blokadalle, mutta jos `resolvectl status` näyttää edelleen jonkin toisen palvelimen yhteydessä, kytke automaattinen DNS pois päältä kyseisestä yhteydestä (kohdan _DNS_ vieressä oleva _Automatic_-kytkin IPv4- ja IPv6-asetuksissa).
 
 </div>
 
-## Without systemd-resolved
+## Ilman systemd-resolvedia
 
-If `resolvectl` isn't found, your distribution resolves names another way. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Jos `resolvectl`-komentoa ei löydy, jakelusi ratkaisee nimet toisella tavalla. Ota siinä tapauksessa käyttöön suojattu DNS selaimessasi (katso [selainopas](../browser-dns-over-https/)) tai määritä [reitittimesi](../router-ad-blocking/) suojaamaan koko kotiasi.
 
-## Check that it works
+## Tarkista että se toimii
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Avaa muutama verkkosivu ja katso sitten _Toiminta_-sivua [hallintapaneelissa](https://app.blokada.org/stats?src=guides). Tämän tietokoneen nimihakupyynnöt näkyvät siellä.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Haluatko myös VPN:n tälle tietokoneelle? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) sisältää WireGuard-asetuksen, joka salaa kaiken liikenteen ja estää mainokset samalla tavalla.
 
 </div>
