@@ -1,42 +1,42 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: Egy Pi-hole alternatíva, amelyhez nem szükséges hardver.
+description: Vidd át otthoni reklámblokkolásodat a Pi-hole-ról a Blokada Cloud-ra, vagy használd tovább a Pi-hole-t, és irányítsd a lekérdezéseit a Blokada-n keresztül.
 updated: 2026-10-02
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+A Pi-hole minden eszközön blokkolja a reklámokat a hálózatodon, amíg a Raspberry Pi működik, naprakész és otthon van. A Blokada Cloud ugyanezt a feladatot végzi el a szervereinken keresztül:
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Nincs külön doboz karbantartása.** Nincs SD kártya, nincs frissítés, nincs kiesés, ha a Pi leáll.
+- **Otthonon kívül is működik.** A telefonok és laptopok továbbra is blokkolnak mobilneten és más Wi-Fi hálózatokon is.
+- **Titkosított.** Az eszközök a Blokada-val DNS over TLS vagy DNS over HTTPS protokollon keresztül kommunikálnak, így a szolgáltatód nem tudja elolvasni vagy módosítani a lekérdezéseidet.
+- **Egyetlen vezérlőpult.** Feketelisták, engedélyezett és blokkolt domainek, valamint eszközönkénti aktivitás a [app.blokada.org](https://app.blokada.org/?src=guides) oldalon.
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+Két módon válthatsz. Cseréld le teljesen a Pi-hole-t, vagy tartsd meg, és használd a Blokada Cloud-ot upstreamként.
 
-## Option 1: replace the Pi-hole
+## 1. lehetőség: a Pi-hole lecserélése
 
-1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under _Setup_ there, and under _Your details_ above.
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **Szerezd be a Blokada Cloud-ot**, és nyisd meg a vezérlőpultot. A DNS neved és DoH linked a _Setup_ résznél, illetve fent a _Your details_ alatt található.
+2. **Irányítsd a routeredet a Blokada-ra a Pi-hole helyett.** Kövesd a [router útmutatót](../router-ad-blocking/). Ha a routered csak egyszerű IP címet fogad el DNS szerverként, akkor állítsd be az eszközöket egyenként: [Android](../android-private-dns/), [Mac és Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) és [böngészők](../browser-dns-over-https/).
+3. **Ha a Pi-hole volt a DHCP szervered,** kapcsold vissza a DHCP-t a routeredben _mielőtt_ kikapcsolod a Pi-t. Különben az eszközeid nem kapnak hálózati címet.
+4. **Vidd át a listáidat.** A vezérlőpulton válaszd a feketelistákat a _Blocklists_ alatt, és add hozzá saját engedélyezett vagy blokkolt domaineidet az _Exceptions_ részben.
+5. **Kapcsold ki a Pi-hole-t,** vagy használd más célra.
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+A Pi-hole az összes eszközt IP cím szerint mutatta a hálózatodban. A Blokada esetén minden eszköz saját nevével jelenik meg, ha saját Blokada DNS nevet használ. Az a router, amely egy Blokada DNS névre van beállítva, egyetlen eszközként jelenik meg.
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## 2. lehetőség: a Pi-hole megtartása, Blokada Cloud használata upstreamként
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+Ha meg akarod őrizni a helyi beállításaidat, például a helyi hosztneveket, DHCP-t vagy saját listákat, akkor a Pi-hole névfeloldásait titkosított kapcsolaton keresztül továbbítsd a Blokada-hoz. A Pi-hole önmagában nem tud titkosított továbbítást, ezért egy kis továbbító fut mellette. Ez az útmutató a [dnsproxy](https://github.com/AdguardTeam/dnsproxy) nevű nyílt forráskódú továbbítót használja, amely egyetlen fájl.
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. A Pi-hole gépen töltsd le a `dnsproxy` kiadást a processzorodhoz (`linux-arm64` egy újabb Raspberry Pi-hez) a kiadások oldaláról, majd másold a `dnsproxy` binárist a `/usr/local/bin/` mappába.
+2. Hozd létre ezt: `/etc/systemd/system/dnsproxy.service`:
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=Titkosított DNS továbbító a Blokada Cloud-hoz
 Wants=network-online.target
 After=network-online.target
 
@@ -48,14 +48,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. Indítsd el: `sudo systemctl enable --now dnsproxy`
+4. A Pi-hole adminban nyisd meg a _Settings → DNS_ menüt. Kapcsold ki az összes upstream szervert, majd add hozzá a `127.0.0.1#5054`-et egyéni upstream szerverként. Mentsd el.
+5. Ellenőrizd a vezérlőpult _Aktivitás_ oldalát. Mostantól a hálózatod lekérdezései ott is megjelennek.
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+A Pi-hole saját feketelistáit kikapcsolhatod, és a blokkolást a vezérlőpultól kezelheted, vagy megtarthatod mindkettőt.
 
-## Frequently asked
+## Gyakran ismételt kérdések
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**Szükségem van Blokada Plus-ra?** Nem. A Blokada Cloud lefedi a teljes otthonodra vonatkozó DNS alapú blokkolást. A [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) egy VPN-t ad hozzá.
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**Mi van, ha a Blokada nem elérhető?** Az eszközeid nem tudnak neveket feloldani, amíg vissza nem tér, ugyanúgy, mint amikor a Pi-hole leáll. Ne adj hozzá második, szűretlen DNS szervert tartaléknak! A legtöbb eszköz ugyanis véletlenszerűen használja szervereit, így a hirdetések átjuthatnak.
