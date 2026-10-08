@@ -1,31 +1,31 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: ルーターの広告ブロックでネットワーク全体の広告をブロックする
+description: Blokada Cloud を一度ルーターに設定すれば、広告ブロッカーを実行できないテレビやゲーム機、スマートスピーカーなどを含め、家庭内のすべてのデバイスが保護されます。
 updated: 2026-10-02
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+ネットワーク上のすべてのデバイスは、どの DNS サーバーを使うかルーターに問い合わせます。ルーターに Blokada Cloud を設定することで、その背後にいるすべてのデバイスで広告やトラッカーをブロックできます。これには、広告ブロッカーアプリを動かせないスマートテレビやゲーム機、ストリーミングスティック、スマートホーム機器も含まれます。
 
-## What your router needs
+## ルーターに必要な条件
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+ルーターは、**ホスト名付きの暗号化DNS**、つまりDNS over TLS（DoT）またはDNS over HTTPS（DoH）に対応している必要があります。多くの最新ルーターが対応しており、以下のモデルも含まれます。ご利用のルーターがどちらに対応しているかによって、上記「あなたの詳細」に記載されているDNS名、またはDoHリンクが必要です。
 
 <div class="note important">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**IP アドレスのみ？** 一部のプロバイダーレンタルルーターでは、DNS にプレーンな IP アドレスしか指定できません。今後サポート予定ですが、それまではデバイスごとに個別設定してください: [Android](../android-private-dns/)、[Mac および Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、および [ブラウザー](../browser-dns-over-https/)。また、[Pi-hole ガイド](../switch-from-pihole/)の手順に従い、Raspberry Pi 上で小さなフォワーダーを動かすこともできます。
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 以降。
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. 「DNS サーバーの解決済み名」には {% dot %} のみを入力してください。**ほかのエントリーはすべて削除してください。** FRITZ!Box はリスト内の全てのリゾルバーを使用し、他のエントリーがあると広告がブロックされません。
 4. Tick _Enforce certificate verification for encrypted name resolution_.
-5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
+5. 「DNS 障害時にパブリック DNS サーバーへフェイルオーバーする」という設定があれば、オフにしてください。
 6. Click _Apply_.
 
 ## ASUS
@@ -35,32 +35,32 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 1. Open the router admin page and go to _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
 3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
+   - アドレス: {% ip "dot" %}
+   - TLS ホスト名: {% dot %}
 4. Click _Apply_.
 
 ## OpenWrt
 
 1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+2. 「サービス → HTTPS DNS プロキシ」を開きます。他プロバイダーのインスタンスは削除してください。
+3. カスタムリゾルバーURLでインスタンスを追加: {% doh %}
+4. 「保存して適用」。このパッケージは自動的に dnsmasq を適切に設定します。
 
-## Other routers
+## その他のルーター
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+「DNS over TLS」「Private DNS」「Encrypted DNS」「DNS over HTTPS」などの設定を探してください。上記のBlokada DNS名またはDoHリンクを入力し、他のDNSサーバー（フォールバックも含む）はすべて削除してください。
 
-## Check that it works
+## 動作確認
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. デバイスを再起動するか、そのデバイスのWi-Fiを一度オフにしてからオンにし、変更を反映させてください。
+2. 少しブラウジングしたのち、ダッシュボードの「アクティビティ」ページを開いてください。ネットワークの問い合わせ履歴がそこに表示されます。
 
-## If some devices still show ads
+## 一部のデバイスで広告が表示される場合
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+一部のデバイスではルーターをバイパスします。例：_プライベート DNS_ が設定されたスマートフォン、別のプロバイダーの _セキュア DNS_ を設定したブラウザー、自分自身で DNS をハードコードしているデバイスなどです。これらはデバイス本体で設定するか、独自の DNS 設定を無効にしてください。
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+ルーターの背後では、すべてのデバイスが1つのアドレスを共有するため、ダッシュボード上ではネットワークが1つのデバイスとして表示されます。個別に確認したい場合は、スマートフォンやノートパソコンにそれぞれBlokada DNS名を設定してください。それらのデバイスは家庭外でもブロックが有効です。
 
 </div>
