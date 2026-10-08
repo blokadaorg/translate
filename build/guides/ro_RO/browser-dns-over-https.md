@@ -1,23 +1,23 @@
 ---
-title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
-description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
+title: Blochează reclamele în Chrome, Firefox, Edge și Brave cu DNS over HTTPS
+description: Setează Blokada Cloud ca furnizor securizat de DNS în browserul tău pentru a bloca reclame și trackere, pe orice computer, inclusiv laptopurile de serviciu unde nu poți instala aplicații.
 updated: 2026-10-02
-order: 7
+order: 7​​
 ---
 
-Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
+Browserele moderne pot folosi propriul furnizor de DNS criptat, numit _DNS securizat_ sau _DNS over HTTPS_. Selectează Blokada Cloud, iar browserul va bloca reclamele și trackerele pe orice rețea, fără să fie nevoie să instalezi extensii.
 
-This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
+Această setare se aplică doar acestui browser. Pentru a acoperi întregul computer, folosește [profilul Apple](../apple-devices/) pe un Mac sau configurează [routerul](../router-ad-blocking/).
 
 ## Chrome
 
-1. Open `chrome://settings/security`.
+1. Deschide `chrome://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Introdu {% doh %}
 
 ## Edge
 
-1. Open `edge://settings/privacy`.
+1. Deschide `edge://settings/privacy`.
 2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
 3. Choose _Choose a service provider_ and enter {% doh %}
 
@@ -29,22 +29,22 @@ This setting covers only this browser. To cover the whole computer, use the [App
 
 ## Brave
 
-1. Open `brave://settings/security`.
+1. Deschide `brave://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Introdu {% doh %}
 
 ## Safari
 
-Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
+Safari nu are o setare de DNS securizat proprie. Utilizează DNS-ul sistemului, deci instalează [profilul Apple](../apple-devices/).
 
-## Check that it works
+## Verifică dacă funcționează
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
+Navighează un minut, apoi deschide pagina _Activitate_ din [panoul de control](https://app.blokada.org/stats?src=guides). Căutările acestui browser vor apărea acolo.
 
-## If something doesn't work
+## Dacă ceva nu funcționează
 
 <div class="note tip">
 
-If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
+Dacă browserul tău este gestionat de serviciu sau școală, setarea DNS securizat poate fi blocată. Adresează-te administratorului.
 
 </div>
