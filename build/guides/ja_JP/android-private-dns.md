@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Blokada Cloud を使って Android でプライベート DNS を設定する
+description: Android の標準プライベート DNS 設定と Blokada Cloud を利用して、すべてのアプリで広告やトラッカーを Wi-Fi とモバイルデータ両方でブロックできます。または、Blokada 6 アプリに任せることもできます。
 updated: 2026-10-02
-order: 5
+order: 5},{
 ---
 
-## The easiest way: the app
+## 最も簡単な方法：アプリ
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) がすべての設定を行い、ワンタップでブロックのオン／オフ切り替えや、何がブロックされたかを端末で確認できます。アカウント ID でサインインすれば完了です。
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Google Play で Blokada 6 を入手</a></p>
 
-## Without the app: Private DNS
+## アプリなしで：プライベート DNS
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Android 9 以降には _プライベート DNS_ 設定があります。これを Blokada Cloud に設定すると、すべてのアプリ、すべてのネットワークで、バックグラウンドで何も動かさずに広告やトラッカーがブロックされます。
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. _設定 → ネットワークとインターネット_ を開きます。機種によっては _接続_ または _接続と共有_ の場合もあります。
+2. _プライベート DNS_ をタップします。Samsung の場合は _接続の詳細設定_ の下にあります。
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+見つからない場合は、設定アプリで「プライベートDNS」と検索してください。
 
-## Check that it works
+## 動作確認
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+いくつかのアプリやウェブサイトを開いた後、[ダッシュボード](https://app.blokada.org/stats?src=guides) の _アクティビティ_ ページをチェックしてください。この端末の参照履歴が表示されます。
 
-## If something doesn't work
+## うまくいかない場合
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **「接続できません」やインターネットが使えない場合：** Blokada DNS 名にタイプミスがないか確認してください。上記とまったく同じで、`https://` を含めてはいけません。
+- **他の VPN アプリが有効：** 一部の VPN アプリは独自の DNS を使い、プライベート DNS をバイパスします。VPN の DNS や広告ブロック設定をオフにするか、代わりに Blokada 6 を使ってください。
+- **Chrome でまだ広告が表示される場合：** Chrome が独自のセキュア DNS プロバイダーを使う設定になっている可能性があります。Chrome の _設定 → プライバシーとセキュリティ → セキュア DNS を使用_ で _現在のサービスプロバイダを使用_ を選択してください。こうすると Chrome もプライベート DNS に従います。
