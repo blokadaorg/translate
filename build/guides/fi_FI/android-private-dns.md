@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Ota käyttöön Yksityinen DNS Androidissa Blokada Cloudin avulla
+description: Käytä Androidin sisäänrakennettua Yksityinen DNS -asetusta yhdessä Blokada Cloudin kanssa, jotta mainokset ja seuraimet estetään jokaisessa sovelluksessa, sekä Wi-Fi- että mobiilidatan kautta. Tai anna Blokada 6 -sovelluksen hoitaa se.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## Helpoin tapa: sovellus
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) hoitaa kaiken puolestasi, kytkee eston päälle tai pois yhdellä napautuksella ja näyttää mitä puhelimella on estetty. Kirjaudu sisään tilisi tunnisteella ja olet valmis.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Lataa Blokada 6 Google Playsta</a></p>
 
-## Without the app: Private DNS
+## Ilman sovellusta: Yksityinen DNS
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Android 9 ja uudemmissa on _Yksityinen DNS_ -asetus. Aseta se Blokada Cloudiin, jolloin mainokset ja seuraimet estetään kaikissa sovelluksissa ja jokaisessa verkossa ilman taustalla käynnissä olevia sovelluksia.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. Avaa _Asetukset → Verkko & internet_. Joillakin puhelimilla tämä on _Yhteydet_ tai _Yhteys & jakaminen_.
+2. Napauta _Yksityinen DNS_. Samsung-puhelimissa se löytyy _Lisäyhteysasetukset_-kohdasta.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Jos et löydä sitä, etsi Asetukset-sovelluksesta "Yksityinen DNS".
 
-## Check that it works
+## Tarkista että se toimii
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Avaa muutama sovellus tai verkkosivusto ja katso sitten _Toiminta_-sivua [hallintapaneelissa](https://app.blokada.org/stats?src=guides). Tämän puhelimen kyselyt näkyvät siellä.
 
-## If something doesn't work
+## Jos jokin ei toimi
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **"Yhteyttä ei saatu" tai ei internetiä:** tarkista Blokada DNS -nimesi kirjoitusvirheiden varalta. Sen tulee olla täsmälleen yllä olevan mukainen, ilman `https://`-etuliitettä.
+- **Toinen VPN-sovellus on aktiivinen:** jotkin VPN-sovellukset käyttävät omaa DNS-palvelinta ja ohittavat Yksityisen DNS:n. Poista VPN:n DNS- tai mainosten estoasetus käytöstä, tai käytä sen sijaan Blokada 6:tta.
+- **Chromessa näkyy yhä mainoksia:** Chrome saattaa olla asetettu käyttämään omaa suojattua DNS-palveluaan, jolloin Yksityinen DNS ohitetaan. Chromessa avaa _Asetukset → Tietosuoja ja turvallisuus → Käytä suojattua DNS:ää_ ja valitse _Käytä nykyistä palveluntarjoajaa_. Tämän jälkeen Chrome käyttää Yksityistä DNS:ää.
