@@ -1,58 +1,58 @@
 ---
-title: Block ads on Windows with DNS over HTTPS
-description: Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.
+title: Blokujte reklamy ve Windows pomocí DNS přes HTTPS
+description: Použijte šifrovaný DNS vestavěný ve Windows 11 s Blokada Cloud pro blokování reklam a sledovačů ve všech aplikacích a prohlížečích – bez nutnosti instalace dalšího softwaru.
 updated: 2026-10-02
 order: 8
 ---
 
-Windows 11 can send all its DNS lookups encrypted, over DNS over HTTPS. Point it at Blokada Cloud, and ads and trackers are blocked in every app and browser on the computer, with nothing to install.
+Windows 11 může posílat všechny své DNS dotazy šifrovaně přes DNS přes HTTPS. Nastavte ho na Blokada Cloud a reklamy i sledovače budou blokovány ve všech aplikacích a prohlížečích na počítači – bez nutnosti cokoli instalovat.
 
-You need the DNS server's IP address and your DoH link, both under _Your details_ above.
+Potřebujete IP adresu DNS serveru a svůj DoH odkaz, obojí najdete výše pod _Vaše údaje_.
 
 ## Windows 11
 
-1. Open _Settings → Network & internet_, then _Wi-Fi_ or _Ethernet_, depending on how the computer is connected.
-2. Open your connection's _Hardware properties_. For Wi-Fi, select _Manage known networks_ and then the network, or _Hardware properties_ at the top of the Wi-Fi page.
-3. Next to _DNS server assignment_, select _Edit_. Choose _Manual_ and turn on _IPv4_.
-4. In _Preferred DNS_, enter the DNS server {% ip "doh" %}
-5. Set _DNS over HTTPS_ to _On (manual template)_, and paste your DoH link {% doh %} as the _DoH template_.
-6. Turn _Fallback to plaintext_ off, and select _Save_.
+1. Otevřete _Nastavení → Síť a internet_, poté _Wi-Fi_ nebo _Ethernet_ podle toho, jak je počítač připojen.
+2. Otevřete _Vlastnosti hardwaru_ vašeho připojení. U Wi-Fi zvolte _Spravovat známé sítě_ a poté konkrétní síť nebo _Vlastnosti hardwaru_ nahoře na stránce Wi-Fi.
+3. Vedle _Přiřazení DNS serveru_ vyberte _Upravit_. Zvolte _Ruční_ a zapněte _IPv4_.
+4. Do pole _Preferovaný DNS_ zadejte DNS server {% ip "doh" %}
+5. Nastavte _DNS přes HTTPS_ na _Zapnuto (ruční šablona)_ a vložte svůj DoH odkaz {% doh %} jako _šablonu DoH_.
+6. Vypněte _Záložní režim na prostý text_ a klikněte na _Uložit_.
 
-If the computer uses both Wi-Fi and Ethernet, repeat this for the other connection.
+Pokud počítač používá jak Wi-Fi, tak Ethernet, opakujte tento postup i pro druhé připojení.
 
 <div class="note important">
 
-Leave _Alternate DNS_ empty. Windows uses both servers, and any other one lets ads through.
+Pole _Alternativní DNS_ ponechte prázdné. Windows používá oba servery a jakýkoli jiný by propouštěl reklamy.
 
 </div>
 
 <div class="note tip">
 
-No _On (manual template)_ option? Your Windows 11 is older. Update Windows, or use the [browser guide](../browser-dns-over-https/) meanwhile.
+Chybí možnost _Zapnuto (ruční šablona)_? Váš Windows 11 je starší verze. Aktualizujte Windows, nebo použijte mezitím [prohlížečový návod](../browser-dns-over-https/).
 
 </div>
 
 ## Windows 10
 
-Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the [browser guide](../browser-dns-over-https/), or set up your [router](../router-ad-blocking/) to cover the whole home.
+Windows 10 nemá vestavěné šifrované DNS. Nastavte si zabezpečený DNS ve svém prohlížeči podle [prohlížečového návodu](../browser-dns-over-https/), nebo použijte [router](../router-ad-blocking/) pro ochranu celé domácnosti.
 
-## Check that it works
+## Zkontrolujte, že vše funguje
 
-Open a few websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This computer's lookups show up there.
+Otevřete několik webových stránek a poté zobrazte stránku _Aktivita_ v [panelu](https://app.blokada.org/stats?src=guides). Požadavky tohoto počítače se tam zobrazí.
 
 <div class="note aside">
 
-Want a VPN on this computer too? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) includes a WireGuard setup that encrypts all traffic, with the same blocking.
+Chcete i na tomto počítači VPN? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) obsahuje WireGuard nastavení pro šifrování veškerého provozu se stejným blokováním.
 
 </div>
 
-## If something doesn't work
+## Pokud něco nefunguje
 
-Chrome and Edge have their own _secure DNS_ setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:
+Chrome a Edge mají své vlastní nastavení _zabezpečený DNS_, které obchází Windows. Pokud necháte nastaveno automaticky, může přejít zpět na prostý DNS, což Blokada odmítá. Nastavte raději svůj DoH odkaz:
 
-- **Chrome:** open `chrome://settings/security`, turn on _Use secure DNS_, and under _Select DNS provider_ choose _Add custom DNS service provider_.
-- **Edge:** open `edge://settings/privacy`, turn on secure DNS, and choose _Choose a service provider_.
+- **Chrome:** otevřete `chrome://settings/security`, zapněte _Používat zabezpečený DNS_, a pod _Vybrat poskytovatele DNS_ zvolte _Přidat vlastního poskytovatele DNS_.
+- **Edge:** otevřete `edge://settings/privacy`, zapněte zabezpečený DNS a vyberte _Zvolit poskytovatele služeb_.
 
-Then paste your DoH link {% doh %}
+Poté vložte svůj DoH odkaz {% doh %}
 
-If some ads still get through on a network with IPv6, Windows may also be asking your router's IPv6 DNS server. Turn off _Internet Protocol Version 6 (TCP/IPv6)_ in the adapter's properties (_Control Panel → Network Connections_), or set up your [router](../router-ad-blocking/).
+Pokud i přes to některé reklamy na IPv6 sítích procházejí, je možné, že Windows používá také IPv6 DNS server vašeho routeru. Vypněte _Internetový protokol verze 6 (TCP/IPv6)_ ve vlastnostech adaptéru (_Ovládací panely → Síťová připojení_), nebo nastavte svůj [router](../router-ad-blocking/).
