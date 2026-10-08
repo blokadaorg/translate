@@ -1,31 +1,31 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Blochează reclamele pe toată rețeaua ta cu blocarea reclamelor la nivel de router.
+description: Configurează Blokada Cloud pe routerul tău o singură dată și fiecare dispozitiv de acasă va fi protejat, inclusiv televizoarele, consolele de jocuri și difuzoarele inteligente care nu pot folosi un blocator de reclame.
 updated: 2026-10-02
 order: 4
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+Fiecare dispozitiv din rețeaua ta întreabă routerul ce server DNS să folosească. Directionează routerul către Blokada Cloud și reclamele și urmăritorii vor fi blocați pentru tot ceea ce se află în spatele său. Asta include televizoare inteligente, console de jocuri, stick-uri de streaming și dispozitive smart home, care nu permit instalarea unei aplicații blocator de reclame.
 
-## What your router needs
+## De ce are nevoie routerul tău
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+Routerul tău trebuie să suporte **DNS criptat cu nume de gazdă**, adică DNS over TLS (DoT) sau DNS over HTTPS (DoH). Multe routere recente oferă această funcție, inclusiv modelele de mai jos. În funcție de ceea ce suportă routerul tău, ai nevoie de numele DNS sau de link-ul DoH, ambele fiind disponibile la secțiunea _Detaliile tale_ de mai sus.
 
 <div class="note important">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**Doar adrese IP simple?** Multe routere ale furnizorilor de internet acceptă doar adrese IP simple pentru DNS. Suportul pentru acestea este în curs de dezvoltare. Până atunci, configurează dispozitivele individual: [Android](../android-private-dns/), [Mac și Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) și [browsere](../browser-dns-over-https/). Poți de asemenea rula un mic forwarder pe un Raspberry Pi, așa cum este descris în [ghidul Pi-hole](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 sau versiuni ulterioare.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. În _Numele rezolvate ale serverului DNS_, introdu doar {% dot %}. **Elimină orice altă intrare.** FRITZ!Box folosește toți rezolvatorii listați, iar orice altul permite trecerea reclamelor.
 4. Untick _Allow fallback to unencrypted name resolution_.
-5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
+5. Dacă vezi _Failover to public DNS servers when DNS disrupted_, dezactiveaz-o.
 6. Click _Apply_.
 
 ## ASUS
@@ -35,32 +35,32 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 1. Open the router admin page and go to _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
 3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
+   - Adresă: {% ip "dot" %}
+   - Nume gazdă TLS: {% dot %}
 4. Click _Apply_.
 
 ## OpenWrt
 
 1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+2. Deschide _Servicii → DNS HTTPS Proxy_. Șterge instanțele pentru alți furnizori.
+3. Adaugă o instanță cu un URL de rezolvator personalizat: {% doh %}
+4. _Salvează & aplică_. Pachetul direcționează automat dnsmasq către acesta.
 
-## Other routers
+## Alte routere
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Caută o opțiune numită _DNS over TLS_, _DNS privat_, _DNS criptat_ sau _DNS over HTTPS_. Introdu numele DNS Blokada sau link-ul DoH de mai sus, și elimină orice alt server DNS, inclusiv cele de rezervă.
 
-## Check that it works
+## Verifică dacă funcționează
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Repornește un dispozitiv, sau închide și pornește Wi-Fi-ul acestuia, pentru ca modificarea să fie preluată.
+2. Navighează timp de un minut, apoi deschide pagina _Activitate_ din tabloul de bord. Interogările rețelei tale vor apărea acolo.
 
-## If some devices still show ads
+## Dacă unele dispozitive încă afișează reclame
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Unele dispozitive ocolesc routerul: telefoanele cu _DNS privat_ activat, browserele cu _DNS securizat_ setat la un alt furnizor și dispozitive care au propriul DNS impus. Configurează-le direct pe dispozitiv sau dezactivează setarea proprie DNS.
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+După router, toate dispozitivele împart o singură adresă, astfel încât tabloul de bord arată rețeaua ta ca un singur dispozitiv. Configurează telefoanele și laptopurile cu propriul nume DNS Blokada dacă vrei să le vezi separat. Vor păstra de asemenea blocarea chiar și când nu sunt acasă.
 
 </div>
