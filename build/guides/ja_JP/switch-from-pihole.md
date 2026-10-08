@@ -1,42 +1,42 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: ハードウェア不要のPi-hole代替ソリューション
+description: ご家庭の広告ブロックをPi-holeからBlokada Cloudへ移行、またはPi-holeを維持したままその問い合わせをBlokada経由に送信できます。
 updated: 2026-10-02
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+Pi-holeは、Raspberry Piが稼働・更新され自宅にある限り、ネットワーク上の全デバイスの広告をブロックします。Blokada Cloudは、弊社サーバーから同様の機能を提供します：
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **ボックスの管理が不要。** SDカードも、アップデートも不要で、Piがダウンしても停止しません。
+- **外出先でも有効。** スマートフォンやノートパソコンは、モバイルデータや他のWi-Fiネットワークでもブロック機能が維持されます。
+- **暗号化済み。** デバイスはDNS over TLSやDNS over HTTPSを使ってBlokadaと通信するため、プロバイダーが問い合わせ内容を読み取ったり改ざんしたりできません。
+- **一括管理ダッシュボード。** ブロックリスト、許可/ブロック済みドメイン、デバイスごとのアクティビティが [app.blokada.org](https://app.blokada.org/?src=guides) で管理できます。
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+切り替え方法は2つあります。Pi-holeを完全にBlokada Cloudに置き換えることも、そのまま残してBlokada Cloudを上流として利用することもできます。
 
-## Option 1: replace the Pi-hole
+## 方法1：Pi-holeを置き換える
 
-1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under _Setup_ there, and under _Your details_ above.
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **Blokada Cloudを取得**してダッシュボードを開きます。DNS名とDoHリンクは、そこ&#x3067;_&#x53;etu&#x70;_&#x306E;下、または上&#x8A18;_&#x59;our detail&#x73;_&#x306B;あります。
+2. **ルーターのDNSをPi-holeからBlokadaに切り替えます。** [ルーターガイド](../router-ad-blocking/)を参照してください。ルーターがDNSサーバーにプレーンなIPアドレスしか指定できない場合は、各デバイスごとに設定してください：[Android](../android-private-dns/)、[MacやApple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、[ブラウザー](../browser-dns-over-https/)。
+3. **Pi-holeがDHCPサーバーの場合は、** Piをオフにす&#x308B;_&#x524D;_&#x306B;ルーターでDHCPを再度オンにしてください。そうしないとデバイスがネットワークアドレスを取得できなくなります。
+4. **リストを移行。** ダッシュボード&#x306E;_&#x42;locklist&#x73;_&#x3067;ブロックリストを選択し、_Exception&#x73;_&#x3067;許可ドメインやブロックドメインを追加してください。
+5. **Pi-holeをオフにする**、または他の目的で残しておくこともできます。
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+Pi-holeはネットワーク上の全デバイスをIPアドレスで表示していました。一方、Blokadaでは各デバイスが自分専用のBlokada DNS名を使っていれば、それぞれ名前で表示されます。ルーターを1つのBlokada DNS名で設定した場合、1つのデバイスとして表示されます。
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## 方法2：Pi-holeを維持し、Blokada Cloudを上流に設定する
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+ローカル設定（ローカルホスト名、DHCP、自作のリストなど）を維持したい場合は、Pi-holeでのクエリを暗号化された接続でBlokadaに転送できます。Pi-hole自体には暗号化転送の機能がないため、隣に小さなフォワーダーを動作させます。このガイドでは、[dnsproxy](https://github.com/AdguardTeam/dnsproxy)という単一ファイルのオープンソースのフォワーダーを使用します。
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. Pi-holeマシン上で、CPUに合った `dnsproxy` リリース（最新Raspberry Piなら `linux-arm64`）をリリースページからダウンロードし、`dnsproxy` バイナリを `/usr/local/bin/` にコピーします。
+2. `/etc/systemd/system/dnsproxy.service` を作成：
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=Blokada Cloud への暗号化DNSフォワーダー
 Wants=network-online.target
 After=network-online.target
 
@@ -48,14 +48,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. 起動： `sudo systemctl enable --now dnsproxy`
+4. Pi-holeの管理画面で _設定 → DNS_ を開きます。全ての上流サーバーのチェックを外し、カスタム上流サーバーとして `127.0.0.1#5054` を追加してください。保存します。
+5. ダッシュボード&#x306E;_&#x30A2;クティビテ&#x30A3;_&#x30DA;ージで確認できます。ご家庭のネットワークからの問い合わせが表示されます。
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+Pi-hole独自のブロックリストは無効にしてダッシュボードでブロックを管理するか、両方併用もできます。
 
-## Frequently asked
+## よくあるご質問
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**Blokada Plusは必要ですか？** 必要ありません。Blokada Cloudがご家庭全体のDNSブロックをカバーします。[Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides)は追加でVPN機能を提供します。
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**Blokadaに接続できない場合はどうなりますか？** Pi-holeがダウンしたときと同様、Blokadaが復旧するまでデバイスは名前解決できません。セカンダリの（無フィルターの）DNSサーバーをフォールバックとして追加しないでください。多くのデバイスはすべてのDNSサーバーをランダムに利用するため、広告が通過してしまいます。
