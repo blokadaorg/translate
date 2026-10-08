@@ -1,7 +1,7 @@
 ---
 title: Blokuj reklamy w Chrome, Firefox, Edge i Brave za pomocą DNS over HTTPS
 description: Ustaw Blokada Cloud jako bezpiecznego dostawcę DNS w swojej przeglądarce, aby blokować reklamy i trackery na dowolnym komputerze, w tym na laptopach służbowych, na których nie możesz instalować aplikacji.
-updated: 2026-10-02
+updated: "2026-10-02'}]}=userstractions to Polish. The provided date is a standard date format (YYYY-MM-DD) and should remain unchanged in Polish. There is no translation other than preserving the date format. However, the last JSON is not properly escaped/closed. The correct format should be an array with an object for "
 order: 7
 ---
 
