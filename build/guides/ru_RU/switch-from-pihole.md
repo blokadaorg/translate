@@ -1,42 +1,42 @@
 ---
-title: A Pi-hole alternative that needs no hardware
-description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
+title: Альтернатива Pi-hole, не требующая аппаратного обеспечения.
+description: Перенесите блокировку рекламы в вашем доме с Pi-hole на Blokada Cloud или оставьте Pi-hole и направьте его запросы через Blokada.
 updated: 2026-10-02
 order: 1
 ---
 
-A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:
+Pi-hole блокирует рекламу для каждого устройства в вашей сети, пока Raspberry Pi работает, обновлён и находится дома. Blokada Cloud делает то же самое с помощью наших серверов:
 
-- **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
-- **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
-- **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
+- **Не нужно обслуживать отдельное устройство.** Нет SD-карт, нет обновлений, нет сбоев при отключении Pi.
+- **Работает вне дома.** Блокировка работает на телефонах и ноутбуках в мобильных сетях и других Wi-Fi сетях.
+- **Шифрование.** Устройства общаются с Blokada через DNS по TLS или DNS по HTTPS, поэтому ваш провайдер не сможет читать или изменять ваши DNS-запросы.
+- **Единая панель управления.** Списки блокировок, разрешённые и заблокированные домены, а также активность по устройствам доступны на [app.blokada.org](https://app.blokada.org/?src=guides).
 
-There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
+Есть два способа переключения. Полностью заменить Pi-hole или сохранить его и использовать Blokada Cloud как вышестоящий сервер.
 
-## Option 1: replace the Pi-hole
+## Вариант 1: заменить Pi-hole
 
-1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under _Setup_ there, and under _Your details_ above.
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
-3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router _before_ you switch the Pi off. Otherwise your devices stop getting network addresses.
-4. **Move your lists.** In the dashboard, choose blocklists under _Blocklists_, and add your own allowed or blocked domains under _Exceptions_.
-5. **Switch the Pi-hole off,** or keep it for something else.
+1. **Оформите Blokada Cloud** и откройте панель управления. Ваше имя DNS и ссылка DoH находятся в разделе _Настройка_, а также в разделе _Ваши данные_ выше.
+2. **Настройте ваш роутер на Blokada вместо Pi-hole.** Следуйте [инструкции по настройке роутера](../router-ad-blocking/). Если ваш роутер принимает только IP-адрес в качестве DNS-сервера, настройте устройства по отдельности: [Android](../android-private-dns/), [Mac и Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) и [браузеры](../browser-dns-over-https/).
+3. **Если ваш Pi-hole был DHCP-сервером,** включите DHCP на роутере _до того_, как выключите Pi. В противном случае устройства перестанут получать сетевые адреса.
+4. **Перенесите ваши списки.** В панели управления выберите списки блокировки в разделе _Списки блокировок_, а свои разрешённые или заблокированные домены добавьте в разделе _Исключения_.
+5. **Отключите Pi-hole** или используйте его для других задач.
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+Ваш Pi-hole отображал все устройства в сети по их IP-адресу. С Blokada каждое устройство отображается по своему имени, если использует собственное DNS-имя Blokada. Роутер, настроенный с одним DNS-именем Blokada, отображается как одно устройство.
 
 </div>
 
-## Option 2: keep the Pi-hole, use Blokada Cloud upstream
+## Вариант 2: Оставьте Pi-hole, используйте Blokada Cloud как вышестоящий DNS
 
-If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses [dnsproxy](https://github.com/AdguardTeam/dnsproxy), an open source forwarder that is a single file.
+Если вы хотите сохранить локальную настройку, например локальные имена хостов, DHCP или собственные списки, настройте Pi-hole на пересылку запросов в Blokada по зашифрованному каналу. Сам Pi-hole не может пересылать DNS-запросы в шифрованном виде, поэтому рядом с ним работает небольшой форвардер. В этом руководстве используется [dnsproxy](https://github.com/AdguardTeam/dnsproxy) — открытый форвардер в виде одного файла.
 
-1. On the Pi-hole machine, download the `dnsproxy` release for your CPU (`linux-arm64` for a recent Raspberry Pi) from its releases page, and copy the `dnsproxy` binary to `/usr/local/bin/`.
-2. Create `/etc/systemd/system/dnsproxy.service`:
+1. На устройстве с Pi-hole скачайте релиз `dnsproxy` для нужного процессора (`linux-arm64` для современных Raspberry Pi) со страницы релизов и скопируйте бинарный файл `dnsproxy` в `/usr/local/bin/`.
+2. Создайте файл `/etc/systemd/system/dnsproxy.service`:
 
 <pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
+Description=Зашифрованный DNS-переадресатор на Blokada Cloud
 Wants=network-online.target
 After=network-online.target
 
@@ -48,14 +48,14 @@ DynamicUser=yes
 [Install]
 WantedBy=multi-user.target</code></pre>
 
-3. Start it: `sudo systemctl enable --now dnsproxy`
-4. In the Pi-hole admin, open _Settings → DNS_. Untick every upstream server and add `127.0.0.1#5054` as a custom upstream server. Save.
-5. Check the dashboard _Activity_ page. Lookups from your network now show up there.
+3. Запустите сервис: `sudo systemctl enable --now dnsproxy`
+4. В админке Pi-hole откройте _Настройки → DNS_. Снимите все галочки с вышестоящих серверов и добавьте `127.0.0.1#5054` как собственный вышестоящий сервер. Сохраните.
+5. Проверьте страницу _Активность_ в панели управления. Запросы с вашей сети теперь отображаются там.
 
-You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.
+Вы можете отключить собственные списки блокировок Pi-hole и управлять блокировкой через панель управления, либо использовать оба варианта одновременно.
 
-## Frequently asked
+## Часто задаваемые вопросы
 
-**Do I need Blokada Plus?** No. Blokada Cloud covers DNS blocking for your whole home. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) adds a VPN on top.
+**Нужен ли Blokada Plus?** Нет. Blokada Cloud обеспечивает DNS-блокировку для всего вашего дома. [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) просто добавляет VPN.
 
-**What if Blokada is unreachable?** Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.
+**Что если Blokada будет недоступна?** Ваши устройства не смогут выполнять резолвинг до восстановления работы, так же как при отключении Pi-hole. Не добавляйте второй неотфильтрованный DNS-сервер в качестве резервного. Большинство устройств случайным образом используют любой из указанных серверов, поэтому реклама может просачиваться.
