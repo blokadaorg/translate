@@ -1,33 +1,33 @@
 ---
-title: Set up Private DNS on Android with Blokada Cloud
-description: Use Android's built-in Private DNS setting with Blokada Cloud to block ads and trackers in every app, on Wi-Fi and mobile data. Or let the Blokada 6 app do it.
+title: Android üzerinde Blokada Cloud ile Özel DNS'i Kurun
+description: Android'in yerleşik Özel DNS ayarını Blokada Cloud ile kullanarak tüm uygulamalarda, Wi-Fi ve mobil veride reklamları ve izleyicileri engelleyin. Ya da bunu Blokada 6 uygulamasına bırakın.
 updated: 2026-10-02
 order: 5
 ---
 
-## The easiest way: the app
+## En kolay yol: uygulama
 
-[Blokada 6](https://go.blokada.org/play_cloud) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+[Blokada 6](https://go.blokada.org/play_cloud) sizin için her şeyi ayarlar, engellemeyi tek dokunuşla açıp kapatır ve telefonda nelerin engellendiğini gösterir. Hesap kimliğinizle oturum açın ve işlem tamam.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Get Blokada 6 on Google Play</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Blokada 6'yı Google Play'den edinin</a></p>
 
-## Without the app: Private DNS
+## Uygulama olmadan: Özel DNS
 
-Android 9 and later has a _Private DNS_ setting. Set it to Blokada Cloud, and ads and trackers are blocked in all apps, on every network, with nothing running in the background.
+Android 9 ve sonrası sürümlerde bir _Özel DNS_ ayarı var. Bunu Blokada Cloud olarak ayarlayın ve tüm uygulamalarda, her ağda, arka planda hiçbir şey çalışmadan reklamlar ve izleyiciler engellensin.
 
-1. Open _Settings → Network & internet_. On some phones this is _Connections_ or _Connection & sharing_.
-2. Tap _Private DNS_. On Samsung phones it is under _More connection settings_.
+1. _Ayarlar → Ağ ve internet_ bölümünü açın. Bazı telefonlarda bu _Bağlantılar_ veya _Bağlantı & paylaşım_ olarak geçer.
+2. _Özel DNS_'e dokunun. Samsung telefonlarda bu, _Diğer bağlantı ayarları_ altında bulunur.
 3. Choose _Private DNS provider hostname_.
 4. Enter your Blokada DNS name {% dot %} and tap _Save_.
 
-If you can't find it, search the Settings app for "Private DNS".
+Eğer bulamazsanız, Ayarlar uygulamasında "Özel DNS" arayın.
 
-## Check that it works
+## Çalışıp çalışmadığını kontrol edin
 
-Open a few apps or websites, then look at the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This phone's lookups show up there.
+Birkaç uygulama veya web sitesi açın, ardından [kontrol panelindeki](https://app.blokada.org/stats?src=guides) _Etkinlik_ sayfasına bakın. Bu telefonun sorguları orada gösterilecek.
 
-## If something doesn't work
+## Bir şey çalışmıyorsa
 
-- **"Couldn't connect" or no internet:** check your Blokada DNS name for typos. It must be exactly as shown above, without `https://`.
-- **Another VPN app is active:** some VPN apps use their own DNS and bypass Private DNS. Turn the VPN's DNS or ad blocking setting off, or use Blokada 6 instead.
-- **Chrome still shows ads:** Chrome may be set to its own secure DNS provider, which bypasses Private DNS. In Chrome, open _Settings → Privacy and security → Use secure DNS_ and choose _Use your current service provider_. Chrome then follows Private DNS.
+- **"Bağlanılamadı" veya internet yok:** Blokada DNS adınızda yazım hatası olup olmadığını kontrol edin. Yukarıda gösterildiği gibi, `https://` olmadan tam olarak girilmelidir.
+- **Başka bir VPN uygulaması aktif:** Bazı VPN uygulamaları kendi DNS'ini kullanır ve Özel DNS'i atlar. VPN'in DNS veya reklam engelleme ayarını kapatın ya da bunun yerine Blokada 6'yı kullanın.
+- **Chrome hâlâ reklam gösteriyor:** Chrome, kendi güvenli DNS sağlayıcısına ayarlanmış olabilir ve bu da Özel DNS'i atlatır. Chrome'da, _Ayarlar → Gizlilik ve güvenlik → Güvenli DNS kullan_ seçeneğine girin ve _Mevcut hizmet sağlayıcınızı kullanın_ seçeneğini seçin. Böylece Chrome, Özel DNS'i takip eder.
