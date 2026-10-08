@@ -1,53 +1,53 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
+title: すべてのデバイスで同じ設定を使える NextDNS の代替サービス
+description: NextDNS から Blokada Cloud に移行しましょう。電話、コンピューター、ルーターで NextDNS の DNS 名、DoH リンク、またはプロファイルを Blokada のものに入れ替えて、広告ブロック機能を維持できます。
 updated: 2026-10-02
 order: 3
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS と Blokada Cloud は同じ仕組みで動作します。名前ベースで広告やトラッカーをブロックする暗号化 DNS サービスで、各自の設定は個人用 DNS 名で管理されます。切り替え作業は、各デバイスの NextDNS 情報を Blokada の情報に置き換えるだけです。他の端末設定に変更はありません。
 
-## What you used, and what to pick in Blokada
+## 使用していたものと、Blokada で選択するもの
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| NextDNS の場合                       | Blokada Cloud の場合                |
+| --------------------------------- | -------------------------------- |
+| 設定 ID 例: `abc123` | Blokada DNS 名や DoH リンクの一部である端末タグ |
+| _プライバシー_ ブロックリスト                  | ダッシュボード内の _ブロックリスト_              |
+| _セキュリティ_（マルウェア、フィッシング）            | _ブロックリスト_ 内のマルウェアリスト             |
+| _ペアレンタルコントロール_                    | _ブロックリスト_ 内のアダルト・ギャンブル用リスト       |
+| _許可リスト_ と _拒否リスト_                 | ダッシュボード内の _例外_                   |
+| _ログ_ および _分析_                     | ダッシュボード内の _アクティビティ_ および _統計_     |
 
-## Switch each device
+## 各デバイスを切り替える
 
-Depending on the device, you need your DNS name or your DoH link, both under _Your details_ above.
+端末によって、DNS 名または DoH リンクが必要です。どちらも上記 _あなたの詳細_ に記載されています。
 
 ### Android
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+_プライベート DNS_ を `<your-id>.dns.nextdns.io` で利用していた場合は、[Android ガイド](../android-private-dns/) に従い Blokada DNS 名へ切り替えてください。NextDNS アプリを使っていた場合はアンインストールし、代わりに [Blokada 6](https://go.blokada.org/play_cloud) をインストールしてください。
 
-### iPhone and iPad
+### iPhone と iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+NextDNS アプリを使っていた場合はアンインストールし、[Blokada 6](https://go.blokada.org/appstore) をインストールしてください。NextDNS のプロファイルをインストールしていた場合は、「設定 → 一般 → VPNとデバイス管理」から削除し、[Apple ガイド](../apple-devices/) の手順に従ってください。
 
-### Mac and Apple TV
+### Mac と Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+NextDNS のプロファイルまたはアプリを削除し、[Apple ガイド](../apple-devices/) に従って Blokada プロファイルをインストールしてください。
 
-### Windows and Linux
+### Windows および Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+NextDNS アプリを使用している場合はアンインストールしてください。Windows では、[Windows ガイド](../windows-dns-over-https/) に従い NextDNS サーバーと DoH テンプレートを Blokada のものへ置き換えてください。Linux では、[Linux ガイド](../linux-dns-over-tls/) に従い、systemd-resolved 内の NextDNS サーバーを Blokada のものに置き換えてください。
 
-### Browsers
+### ブラウザー
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+ブラウザーの _セキュア DNS_ に `https://dns.nextdns.io/…` を設定している場合は、[ブラウザー ガイド](../browser-dns-over-https/) に従い自分の DoH リンクへ置き換えてください。
 
-### Router
+### ルーター
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+ルーターが DNS over TLS または DNS over HTTPS 経由で NextDNS を利用している場合は、[ルーターガイド](../router-ad-blocking/) に従い NextDNS の名前またはリンクを Blokada のものに置き換えてください。
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+_リンク済み IP_ 付きのプレーン IP アドレス経由で NextDNS を使っている場合、Blokada ではまだ対応できません。プレーン DNS アドレス対応ルーターのサポートは今後追加予定です。それまでは各端末ごとに設定するか、暗号化 DNS に対応したルーターをご利用ください。
 
-## Check that it works
+## 動作確認
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+いくつかのウェブサイトを開いてから、ダッシュボードの _アクティビティ_ ページを確認してください。そこで各端末のルックアップ履歴が表示され、ブロックされたものはマークで判別できます。端末が表示されなければ、まだ NextDNS を利用している状態です。
