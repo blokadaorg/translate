@@ -1,36 +1,36 @@
 ---
-title: Block ads on Mac and Apple TV with a Blokada DNS profile
-description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
+title: Blokir iklan di Mac dan Apple TV dengan profil DNS Blokada
+description: Pasang profil DNS Blokada Cloud untuk memblokir iklan dan pelacak secara menyeluruh di Mac atau Apple TV, dengan DNS terenkripsi dan tanpa ada yang berjalan di latar belakang.
 updated: 2026-10-02
 order: 6
 ---
 
-Apple devices can use encrypted DNS for the whole system through a configuration profile. The Blokada profile points the device at Blokada Cloud, which blocks ads and trackers in every app and browser.
+Perangkat Apple dapat menggunakan DNS terenkripsi untuk seluruh sistem melalui profil konfigurasi. Profil Blokada mengarahkan perangkat ke Blokada Cloud, yang memblokir iklan dan pelacak di setiap aplikasi dan browser.
 
-It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
+Berfungsi di macOS 11 (Big Sur), tvOS 14, iOS dan iPadOS 14 ke atas.
 
 <div class="if-no-device">
 
-This page doesn't know your device yet, so it can't offer your profile. Sign in to the dashboard, open _Setup_, choose your device, and open this guide with _Open on another device_.
+Halaman ini belum mengetahui perangkat Anda, jadi belum dapat menawarkan profil Anda. Masuk ke dasbor, buka _Setup_, pilih perangkat Anda, dan buka panduan ini dengan _Buka di perangkat lain_.
 
-<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Get my profile link</a></p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Dapatkan tautan profil saya</a></p>
 
 </div>
 
-## iPhone and iPad
+## iPhone dan iPad
 
-The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+Cara termudah adalah dengan aplikasi. [Blokada 6](https://go.blokada.org/appstore) akan mengatur semuanya untuk Anda, menyalakan dan mematikan pemblokiran dengan sekali ketuk, dan menampilkan apa saja yang diblokir langsung di ponsel. Masuk dengan ID akun Anda dan selesai.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Get Blokada 6 on the App Store</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Dapatkan Blokada 6 di App Store</a></p>
 
-### Without the app
+### Tanpa aplikasi
 
-You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
+Sebagai gantinya, Anda dapat memasang profil. iPhone dan iPad hanya dapat menginstal profil dari **Safari**.
 
 <div class="if-device">
 <div class="if-other-browser note important">
 
-This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
+Halaman ini dibuka di browser lain. Salin tautan Anda dan buka di Safari untuk melanjutkan: {% pageLink %}
 
 </div>
 </div>
@@ -38,38 +38,38 @@ This page is open in another browser. Copy your link and open it in Safari to co
 <div class="if-safari">
 
 1. In Safari, tap the button below, then _Allow_ to download the profile.
-2. Open _Settings_. Tap _Profile Downloaded_ near the top. You can also find it under _General → VPN & Device Management_.
+2. Buka _Pengaturan_. Ketuk _Profil Terunduh_ di dekat bagian atas. Anda juga dapat menemukannya di bawah _Umum → VPN & Manajemen Perangkat_.
 3. Tap _Install_, enter your passcode, and confirm.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Unduh profil saya{% endappleProfile %}</p>
 
 ## Mac
 
-1. Click the button below to download the profile.
+1. Klik tombol di bawah ini untuk mengunduh profil.
 2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
 3. Double-click the Blokada profile and click _Install_.
 
-<p class="if-device">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device">{% appleProfile %}Unduh profil saya{% endappleProfile %}</p>
 
 ## Apple TV
 
-The Apple TV cannot open web pages, so you type your profile link into it.
+Apple TV tidak dapat membuka halaman web, jadi Anda harus mengetikkan tautan profil Anda secara manual.
 
-1. Your profile link: {% appleUrl %}
+1. Tautan profil Anda: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
-4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
+3. Sorot _Bagikan Analitik Apple TV_. Jangan pilih. Tekan tombol Play/Pause pada remote.
+4. Pilih _Tambahkan Profil_ dan masukkan tautan profil Anda. Mengetik lebih mudah dengan prompt keyboard di iPhone Anda, di mana Anda dapat menempelkan tautan tersebut. Instal profil dan konfirmasi.
 
 <div class="note aside">
 
-**Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
+**Apple TV dan perangkat lain di rumah:** jika Anda mengatur Blokada Cloud di [router](../router-ad-blocking/) Anda, Apple TV juga akan terlindungi bersama semua perangkat lainnya.
 
 </div>
 
-## Check that it works
+## Cek apakah sudah berfungsi
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This device's lookups show up there.
+Jelajahi sebentar, lalu buka halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan pencarian dari perangkat ini akan tampil di sana.
 
-To remove Blokada later, delete the profile where you installed it.
+Untuk menghapus Blokada nanti, hapus profil di tempat Anda menginstalnya.
