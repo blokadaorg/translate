@@ -1,53 +1,53 @@
 ---
-title: A NextDNS alternative with the same setup on every device
-description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
+title: Альтернатива NextDNS с одинаковой настройкой на каждом устройстве
+description: Переходите с NextDNS на Blokada Cloud. Замените ваше имя DNS NextDNS, DoH-ссылку или профиль на данные от Blokada на телефоне, компьютере и роутере, чтобы сохранить блокировку рекламы.
 updated: 2026-10-02
-order: 3
+order: 3"
 ---
 
-NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.
+NextDNS и Blokada Cloud работают одинаково: это зашифрованные DNS-сервисы, которые блокируют рекламу и трекеры по имени, с вашими собственными настройками за личным DNS-именем. Переключение означает замену данных NextDNS на каждом устройстве вашими данными Blokada. Больше ничего на устройстве не меняется.
 
-## What you used, and what to pick in Blokada
+## Что вы использовали и что выбрать в Blokada
 
-| In NextDNS                                                           | In Blokada Cloud                                            |
-| -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Your configuration ID, e.g. `abc123` | Your device tag, part of your Blokada DNS name and DoH link |
-| _Privacy_ blocklists                                                 | _Blocklists_ in the dashboard                               |
-| _Security_ (malware, phishing)                    | a malware list under _Blocklists_                           |
-| _Parental control_                                                   | adult content and gambling lists under _Blocklists_         |
-| _Allowlist_ and _Denylist_                                           | _Exceptions_ in the dashboard                               |
-| _Logs_ and _Analytics_                                               | _Activity_ and _Stats_ in the dashboard                     |
+| В NextDNS                                                         | В Blokada Cloud                                                    |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Ваш идентификатор конфигурации, например, `abc123`                | Ваш тег устройства, часть имени DNS Blokada и DoH-ссылки           |
+| _Списки блокировки_ конфиденциальности                            | _Списки блокировки_ на панели управления                           |
+| _Безопасность_ (вредоносные программы, фишинг) | список вредоносных под _Списками блокировки_                       |
+| _Родительский контроль_                                           | списки взрослого контента и азартных игр под _Списками блокировки_ |
+| _Разрешённые домены_ и _Запрещённые домены_                       | _Исключения_ на панели управления                                  |
+| _Журналы_ и _Аналитика_                                           | _Активность_ и _Статистика_ на панели управления                   |
 
-## Switch each device
+## Переключите каждое устройство
 
 В зависимости от устройства, вам понадобится ваше DNS-имя или ваша DoH-ссылка - оба параметра находятся выше в разделе _Ваши данные_.
 
-### Android
+### Андроид
 
-If you used _Private DNS_ with `<your-id>.dns.nextdns.io`, replace it with your Blokada DNS name, as in the [Android guide](../android-private-dns/). If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/play_cloud) instead.
+Если вы использовали _Частный DNS_ с `<your-id>.dns.nextdns.io`, замените его на имя DNS Blokada, как сказано в [гайде для Android](../android-private-dns/). Если вы использовали приложение NextDNS, удалите его и установите [Blokada 6](https://go.blokada.org/play_cloud).
 
-### iPhone and iPad
+### iPhone и iPad
 
-If you used the NextDNS app, uninstall it and install [Blokada 6](https://go.blokada.org/appstore). If you installed a NextDNS profile instead, remove it under _Settings → General → VPN & Device Management_, then follow the [Apple guide](../apple-devices/).
+Если вы использовали приложение NextDNS, удалите его и установите [Blokada 6](https://go.blokada.org/appstore). Если вместо этого был установлен профиль NextDNS, удалите его в _Настройки → Основные → VPN и управление устройством_, затем следуйте [гайду для Apple](../apple-devices/).
 
-### Mac and Apple TV
+### Mac и Apple TV
 
-Remove the NextDNS profile or app, then install the Blokada profile from the [Apple guide](../apple-devices/).
+Удалите профиль или приложение NextDNS, затем установите профиль Blokada из [гайда для Apple](../apple-devices/).
 
-### Windows and Linux
+### Windows и Linux
 
-Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the [Windows guide](../windows-dns-over-https/). On Linux, replace the NextDNS server in systemd-resolved, as in the [Linux guide](../linux-dns-over-tls/).
+Удалите приложение NextDNS, если вы им пользуетесь. В Windows замените сервер NextDNS и шаблон DoH на данные Blokada, как в [гайде для Windows](../windows-dns-over-https/). В Linux замените сервер NextDNS в systemd-resolved, как в [гайде для Linux](../linux-dns-over-tls/).
 
-### Browsers
+### Браузеры
 
-If you set `https://dns.nextdns.io/…` as your browser's _secure DNS_, replace it with your DoH link, as in the [browser guide](../browser-dns-over-https/).
+Если вы устанавливали `https://dns.nextdns.io/…` в качестве _защищённого DNS_ браузера, замените его на вашу DoH-ссылку, как указано в [гайде для браузеров](../browser-dns-over-https/).
 
-### Router
+### Роутер
 
-If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
+Если ваш роутер использует NextDNS через DNS over TLS или DNS over HTTPS, замените имя или ссылку NextDNS на свой Blokada, как показано в [гайде по роутерам](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses with a _linked IP_, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+Если роутер использует NextDNS через обычные IP-адреса с _привязанным IP_, Blokada пока не может их заменить. Скоро будет поддержка роутеров с обычными DNS-адресами. А пока настраивайте ваши устройства по одному, либо используйте роутер с поддержкой зашифрованного DNS.
 
-## Check that it works
+## Проверьте, что всё работает
 
-Open a few websites, then look at the _Activity_ page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.
+Откройте несколько сайтов, затем посмотрите страницу _Активность_ на панели управления. Там отображаются запросы с ваших устройств, помеченные заблокированные. Если устройство не появляется, оно всё ещё использует NextDNS.
