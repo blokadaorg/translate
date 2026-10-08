@@ -1,36 +1,36 @@
 ---
-title: Block ads on Mac and Apple TV with a Blokada DNS profile
-description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
+title: Блокируйте рекламу на Mac и Apple TV с помощью профиля Blokada DNS
+description: Установите профиль Blokada Cloud DNS, чтобы заблокировать рекламу и трекеры на уровне всей системы на Mac или Apple TV с помощью зашифрованного DNS и без фоновых процессов.
 updated: 2026-10-02
 order: 6
 ---
 
-Apple devices can use encrypted DNS for the whole system through a configuration profile. The Blokada profile points the device at Blokada Cloud, which blocks ads and trackers in every app and browser.
+Apple-устройства могут использовать зашифрованный DNS для всей системы через конфигурационный профиль. Профиль Blokada направляет устройство на Blokada Cloud, который блокирует рекламу и трекеры во всех приложениях и браузерах.
 
-It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
+Работает на macOS 11 (Big Sur), tvOS 14, iOS и iPadOS 14 и новее.
 
 <div class="if-no-device">
 
-This page doesn't know your device yet, so it can't offer your profile. Sign in to the dashboard, open _Setup_, choose your device, and open this guide with _Open on another device_.
+На этой странице ваше устройство пока не определено, поэтому профиль недоступен. Войдите в панель управления, откройте _Настройку_, выберите своё устройство и откройте это руководство через _Открыть на другом устройстве_.
 
-<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Get my profile link</a></p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Получить ссылку на профиль</a></p>
 
 </div>
 
-## iPhone and iPad
+## iPhone и iPad
 
-The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+Самый простой способ — это приложение. [Blokada 6](https://go.blokada.org/appstore) всё настраивает за вас, позволяет включать и выключать блокировку одним нажатием и показывает, что было заблокировано прямо на телефоне. Войдите под своим ID аккаунта — и готово.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Get Blokada 6 on the App Store</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Скачать Blokada 6 в App Store</a></p>
 
-### Without the app
+### Без приложения
 
-You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
+Вы также можете просто установить профиль. На iPhone и iPad профили устанавливаются только через **Safari**.
 
 <div class="if-device">
 <div class="if-other-browser note important">
 
-This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
+Эта страница открыта в другом браузере. Скопируйте вашу ссылку и откройте её в Safari, чтобы продолжить: {% pageLink %}
 
 </div>
 </div>
@@ -38,38 +38,38 @@ This page is open in another browser. Copy your link and open it in Safari to co
 <div class="if-safari">
 
 1. In Safari, tap the button below, then _Allow_ to download the profile.
-2. Open _Settings_. Tap _Profile Downloaded_ near the top. You can also find it under _General → VPN & Device Management_.
+2. Откройте _Настройки_. Нажмите _Загруженный профиль_ вверху. Также его можно найти в _Основные → VPN и управление устройством_.
 3. Tap _Install_, enter your passcode, and confirm.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Скачать мой профиль{% endappleProfile %}</p>
 
 ## Mac
 
-1. Click the button below to download the profile.
+1. Нажмите на кнопку ниже, чтобы скачать профиль.
 2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
 3. Double-click the Blokada profile and click _Install_.
 
-<p class="if-device">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device">{% appleProfile %}Скачать мой профиль{% endappleProfile %}</p>
 
 ## Apple TV
 
-The Apple TV cannot open web pages, so you type your profile link into it.
+Apple TV не может открывать веб-страницы, поэтому вам нужно ввести ссылку на свой профиль вручную.
 
-1. Your profile link: {% appleUrl %}
+1. Ваша ссылка на профиль: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
-4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
+3. Выделите _Передавать аналитику Apple TV_. Не выбирайте её. Нажмите кнопку Воспроизвести/Пауза на пульте.
+4. Выберите _Добавить профиль_ и введите ссылку на профиль. Проще всего печатать с помощью клавиатуры на iPhone, куда можно просто вставить. Установите профиль и подтвердите.
 
 <div class="note aside">
 
-**Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
+**Apple TV и другие устройства дома:** если вы настроите Blokada Cloud на своем [роутере](../router-ad-blocking/), то Apple TV и все остальные устройства тоже будут защищены.
 
 </div>
 
-## Check that it works
+## Проверьте, что всё работает
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This device's lookups show up there.
+Пользуйтесь устройством минуту, затем откройте страницу _Активность_ в [панели управления](https://app.blokada.org/stats?src=guides). Запросы этого устройства отобразятся там.
 
-To remove Blokada later, delete the profile where you installed it.
+Чтобы удалить Blokada позже, удалите профиль там, где вы его устанавливали.
