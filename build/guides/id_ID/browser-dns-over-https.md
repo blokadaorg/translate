@@ -1,23 +1,23 @@
 ---
-title: Block ads in Chrome, Firefox, Edge and Brave with DNS over HTTPS
-description: Set Blokada Cloud as the secure DNS provider in your browser to block ads and trackers, on any computer, including work laptops where you can't install apps.
+title: Blokir iklan di Chrome, Firefox, Edge, dan Brave dengan DNS over HTTPS
+description: Atur Blokada Cloud sebagai penyedia DNS aman di peramban Anda untuk memblokir iklan dan pelacak di komputer apa pun, termasuk laptop kerja di mana Anda tidak dapat memasang aplikasi.
 updated: 2026-10-02
 order: 7
 ---
 
-Modern browsers can use their own encrypted DNS provider, called _secure DNS_ or _DNS over HTTPS_. Set it to Blokada Cloud, and the browser blocks ads and trackers on any network, with no extension to install.
+Peramban modern dapat menggunakan penyedia DNS terenkripsi mereka sendiri, disebut _DNS aman_ atau _DNS over HTTPS_. Atur ke Blokada Cloud, dan peramban akan memblokir iklan dan pelacak di jaringan apa pun tanpa perlu menginstal ekstensi.
 
-This setting covers only this browser. To cover the whole computer, use the [Apple profile](../apple-devices/) on a Mac, or set up your [router](../router-ad-blocking/).
+Pengaturan ini hanya berlaku untuk peramban ini. Untuk mencakup seluruh komputer, gunakan [profil Apple](../apple-devices/) di Mac, atau atur [router](../router-ad-blocking/) Anda.
 
 ## Chrome
 
-1. Open `chrome://settings/security`.
+1. Buka `chrome://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Masukkan {% doh %}
 
 ## Edge
 
-1. Open `edge://settings/privacy`.
+1. Buka `edge://settings/privacy`.
 2. Under _Security_, turn on _Use secure DNS to specify how to look up the network address for websites_.
 3. Choose _Choose a service provider_ and enter {% doh %}
 
@@ -29,22 +29,22 @@ This setting covers only this browser. To cover the whole computer, use the [App
 
 ## Brave
 
-1. Open `brave://settings/security`.
+1. Buka `brave://settings/security`.
 2. Turn on _Use secure DNS_, then choose _Add custom DNS service provider_.
-3. Enter {% doh %}
+3. Masukkan {% doh %}
 
 ## Safari
 
-Safari has no secure DNS setting of its own. It uses the system's DNS, so install the [Apple profile](../apple-devices/).
+Safari tidak memiliki pengaturan DNS aman sendiri. Safari menggunakan DNS sistem, jadi instal [profil Apple](../apple-devices/).
 
-## Check that it works
+## Periksa apakah sudah berfungsi
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This browser's lookups show up there.
+Jelajahi sebentar, lalu buka halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan pencarian dari peramban ini akan muncul di sana.
 
-## If something doesn't work
+## Jika ada yang tidak berfungsi
 
 <div class="note tip">
 
-If your browser is managed by work or school, the secure DNS setting may be locked. Ask your administrator.
+Jika peramban Anda dikendalikan oleh kantor atau sekolah, pengaturan DNS aman mungkin dikunci. Hubungi administrator Anda.
 
 </div>
