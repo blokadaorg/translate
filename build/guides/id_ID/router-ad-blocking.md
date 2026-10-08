@@ -1,31 +1,31 @@
 ---
-title: Block ads on your whole network with router ad blocking
-description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
+title: Blokir iklan di seluruh jaringan Anda dengan pemblokiran iklan di router
+description: Atur Blokada Cloud di router Anda sekali, dan setiap perangkat di rumah akan terlindungi, termasuk TV, konsol game, dan speaker pintar yang tidak dapat menjalankan pemblokir iklan.
 updated: 2026-10-02
-order: 4
+order: 4},{
 ---
 
-Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.
+Setiap perangkat di jaringan Anda akan meminta router untuk menentukan server DNS yang digunakan. Arahkan router ke Blokada Cloud, dan iklan serta pelacak akan diblokir untuk semua perangkat di dalamnya. Ini mencakup smart TV, konsol game, streaming stick, dan perangkat smart home, yang tidak dapat menjalankan aplikasi pemblokir iklan.
 
-## What your router needs
+## Kebutuhan router Anda
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+Router Anda harus mendukung **DNS terenkripsi dengan nama host**, yaitu DNS over TLS (DoT) atau DNS over HTTPS (DoH). Banyak router terbaru yang sudah mendukungnya, termasuk model-model di bawah ini. Bergantung pada dukungan router Anda, Anda memerlukan nama DNS atau tautan DoH, keduanya berada di _Detail Anda_ di atas.
 
 <div class="note important">
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
+**Hanya alamat IP polos?** Banyak router dari penyedia internet hanya menerima alamat IP polos untuk DNS. Dukungan untuk hal ini masih dalam pengembangan. Sampai saat itu, atur perangkat Anda satu per satu: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [browser](../browser-dns-over-https/). Anda juga dapat menjalankan penerus kecil di Raspberry Pi, seperti dijelaskan di [panduan Pi-hole](../switch-from-pihole/).
 
 </div>
 
 ## FRITZ!Box
 
-FRITZ!OS 7.20 or later.
+FRITZ!OS 7.20 atau versi yang lebih baru.
 
 1. Open `http://fritz.box` and go to _Internet → Account Information → DNS Server_.
 2. Under _Encrypted Name Resolution on the Internet (DNS over TLS)_, tick _Use encrypted name resolution_.
-3. In _Resolved Names of the DNS Server_, enter only {% dot %}. **Remove every other entry.** The FRITZ!Box uses all listed resolvers, and any other one lets ads through.
+3. Pada _Nama yang Diselesaikan dari Server DNS_, masukkan hanya {% dot %}. **Hapus semua entri lainnya.** FRITZ!Box menggunakan semua resolver yang terdaftar, dan resolver lain dapat membiarkan iklan lewat.
 4. Untick _Allow fallback to unencrypted name resolution_.
-5. If you see _Failover to public DNS servers when DNS disrupted_, turn it off.
+5. Jika Anda melihat _Failover to public DNS servers when DNS disrupted_, matikan fitur tersebut.
 6. Click _Apply_.
 
 ## ASUS
@@ -35,32 +35,32 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 1. Open the router admin page and go to _WAN → Internet Connection_.
 2. Under _WAN DNS Setting_, set _DNS Privacy Protocol_ to _DNS-over-TLS (DoT)_ and _DNS-over-TLS Profile_ to _Strict_.
 3. Remove every entry from the _DNS-over-TLS Server List_, then add one:
-   - Address: {% ip "dot" %}
-   - TLS Hostname: {% dot %}
+   - Alamat: {% ip "dot" %}
+   - Nama Host TLS: {% dot %}
 4. Click _Apply_.
 
 ## OpenWrt
 
 1. In _System → Software_, update the lists and install `luci-app-https-dns-proxy`.
-2. Open _Services → HTTPS DNS Proxy_. Delete the instances for other providers.
-3. Add an instance with a custom resolver URL: {% doh %}
-4. _Save & Apply_. The package points dnsmasq at it automatically.
+2. Buka _Services → HTTPS DNS Proxy_. Hapus instance milik penyedia lain.
+3. Tambahkan sebuah instance dengan URL resolver khusus: {% doh %}
+4. _Simpan & Terapkan_. Paket secara otomatis mengarahkan dnsmasq ke alamat tersebut.
 
-## Other routers
+## Router lainnya
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Cari pengaturan bernama _DNS over TLS_, _Private DNS_, _Encrypted DNS_, atau _DNS over HTTPS_. Masukkan nama DNS Blokada atau tautan DoH Anda dari atas, dan hapus semua server DNS lain, termasuk server cadangan.
 
-## Check that it works
+## Periksa apakah berhasil
 
-1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the _Activity_ page in the dashboard. Your network's lookups show up there.
+1. Mulai ulang satu perangkat, atau matikan lalu nyalakan kembali Wi-Fi perangkat tersebut, agar perubahan diterapkan.
+2. Jelajahi selama satu menit, lalu buka halaman _Aktivitas_ di dasbor. Permintaan jaringan Anda akan muncul di sana.
 
-## If some devices still show ads
+## Jika beberapa perangkat masih menampilkan iklan
 
-Some devices bypass the router: phones with _Private DNS_ set, browsers with _secure DNS_ set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.
+Beberapa perangkat melewati router: ponsel dengan _Private DNS_ aktif, browser dengan _secure DNS_ yang diatur ke penyedia lain, dan perangkat yang menggunakan DNS sendiri. Atur perangkat tersebut secara langsung, atau matikan pengaturan DNS mereka.
 
 <div class="note tip">
 
-Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.
+Di balik router, semua perangkat berbagi satu alamat, sehingga dasbor akan menampilkan jaringan Anda sebagai satu perangkat. Atur ponsel dan laptop dengan nama DNS Blokada masing-masing jika Anda ingin melihatnya secara terpisah. Mereka juga akan tetap terlindungi saat berada di luar rumah.
 
 </div>
