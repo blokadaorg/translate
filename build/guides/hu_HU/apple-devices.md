@@ -1,36 +1,36 @@
 ---
-title: Block ads on Mac and Apple TV with a Blokada DNS profile
-description: Install a Blokada Cloud DNS profile to block ads and trackers system-wide on a Mac or Apple TV, with encrypted DNS and nothing running in the background.
+title: Hirdetések blokkolása Macen és Apple TV-n Blokada DNS-profllal.
+description: Telepíts egy Blokada Cloud DNS-profilt a hirdetések és követők rendszer-szintű blokkolásához Mac-en vagy Apple TV-n, titkosított DNS-el, háttérben futó folyamat nélkül.
 updated: 2026-10-02
 order: 6
 ---
 
-Apple devices can use encrypted DNS for the whole system through a configuration profile. The Blokada profile points the device at Blokada Cloud, which blocks ads and trackers in every app and browser.
+Az Apple készülékek képesek titkosított DNS-t használni az egész rendszer számára konfigurációs profilon keresztül. A Blokada profil a készüléket a Blokada Cloudhoz irányítja, amely minden alkalmazásban és böngészőben blokkolja a hirdetéseket és követőket.
 
-It works on macOS 11 (Big Sur), tvOS 14, iOS and iPadOS 14 and later.
+Működik a macOS 11 (Big Sur), tvOS 14, iOS és iPadOS 14 vagy újabb verziókon.
 
 <div class="if-no-device">
 
-This page doesn't know your device yet, so it can't offer your profile. Sign in to the dashboard, open _Setup_, choose your device, and open this guide with _Open on another device_.
+Ez az oldal még nem ismeri fel az eszközödet, ezért nem tudja felkínálni a profilodat. Jelentkezz be a vezérlőpultra, nyisd meg a _Beállítások_-at, válaszd ki az eszközöd, majd nyisd meg ezt az útmutatót az _Open on another device_ lehetőséggel.
 
-<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Get my profile link</a></p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Profil linkem lekérése</a></p>
 
 </div>
 
-## iPhone and iPad
+## iPhone és iPad
 
-The easiest way is the app. [Blokada 6](https://go.blokada.org/appstore) sets everything up for you, turns blocking on and off in one tap, and shows what was blocked on the phone itself. Sign in with your account ID and you're done.
+A legegyszerűbb az alkalmazás használata. A [Blokada 6](https://go.blokada.org/appstore) mindent beállít helyetted, egy érintéssel be- vagy kikapcsolhatod a blokkolást, és megmutatja, mi lett blokkolva magán a telefonon. Jelentkezz be a fiókazonnosítóddal és kész is vagy.
 
-<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Get Blokada 6 on the App Store</a></p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Szerezd be a Blokada 6-ot az App Store-ban</a></p>
 
-### Without the app
+### Az alkalmazás nélkül
 
-You can install the profile instead. iPhone and iPad install profiles from **Safari** only.
+Alternatívaként profil is telepíthető. iPhone és iPad csak **Safari**-ból telepíthet profilt.
 
 <div class="if-device">
 <div class="if-other-browser note important">
 
-This page is open in another browser. Copy your link and open it in Safari to continue there: {% pageLink %}
+Ez az oldal épp egy másik böngészőben van megnyitva. Másold ki a profil linked, és nyisd meg Safariban folytatáshoz: {% pageLink %}
 
 </div>
 </div>
@@ -38,38 +38,38 @@ This page is open in another browser. Copy your link and open it in Safari to co
 <div class="if-safari">
 
 1. In Safari, tap the button below, then _Allow_ to download the profile.
-2. Open _Settings_. Tap _Profile Downloaded_ near the top. You can also find it under _General → VPN & Device Management_.
+2. Nyisd meg a _Beállítások_-at. Koppints a _Letöltött profil_-ra a tetején. Megtalálod a _Beállítások → Általános → VPN és eszközkezelés_ menüpont alatt is.
 3. Tap _Install_, enter your passcode, and confirm.
 
 </div>
 
-<p class="if-device if-safari">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device if-safari">{% appleProfile %}Profilom letöltése{% endappleProfile %}</p>
 
 ## Mac
 
-1. Click the button below to download the profile.
+1. Kattints az alábbi gombra a profil letöltéséhez.
 2. Open the list of profiles: _System Settings → General → Device Management_ on macOS 15 and later, _System Settings → Privacy & Security → Profiles_ on macOS 13 and 14, or _System Preferences → Profiles_ on macOS 12 and earlier.
 3. Double-click the Blokada profile and click _Install_.
 
-<p class="if-device">{% appleProfile %}Download my profile{% endappleProfile %}</p>
+<p class="if-device">{% appleProfile %}Profilom letöltése{% endappleProfile %}</p>
 
 ## Apple TV
 
-The Apple TV cannot open web pages, so you type your profile link into it.
+Az Apple TV-n nem lehet weboldalakat megnyitni, ezért oda kézzel kell beírni a profilod linkjét.
 
-1. Your profile link: {% appleUrl %}
+1. A profilod linkje: {% appleUrl %}
 2. On the Apple TV, open _Settings → General → Privacy & Security_.
-3. Highlight _Share Apple TV Analytics_. Don't select it. Press the Play/Pause button on the remote instead.
-4. Choose _Add Profile_ and enter your profile link. Typing is easiest with the keyboard prompt on your iPhone, where you can paste it. Install the profile and confirm.
+3. Jelöld ki a _Share Apple TV Analytics_-t. Ne válaszd ki, hanem a Play/Pause gombot nyomd meg a távirányítón.
+4. Válaszd az _Add Profile_ lehetőséget és add meg a profil linkedet. Gépelni legegyszerűbb az iPhone billentyűzetes felugró ablakában, ott be is tudod illeszteni. Telepítsd a profilt és erősítsd meg.
 
 <div class="note aside">
 
-**Apple TV and other devices at home:** if you set up Blokada Cloud on your [router](../router-ad-blocking/), the Apple TV is covered along with everything else.
+**Apple TV és más otthoni eszközök:** ha a Blokada Cloud-ot a [routeren](../router-ad-blocking/) állítod be, akkor az Apple TV is védelemben részesül, csakúgy mint minden más eszköz.
 
 </div>
 
-## Check that it works
+## Ellenőrizd a működést
 
-Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). This device's lookups show up there.
+Böngéssz egy percig, majd nyisd meg az _Aktivitás_ oldalt a [vezérlőpulton](https://app.blokada.org/stats?src=guides). Ennek az eszköznek a lekérdezései ott fognak megjelenni.
 
-To remove Blokada later, delete the profile where you installed it.
+Ha később el szeretnéd távolítani a Blokadát, töröld a profilt abban az eszközben, ahová telepítetted.
