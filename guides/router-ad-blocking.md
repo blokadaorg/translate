@@ -1,7 +1,7 @@
 ---
 title: Block ads on your whole network with router ad blocking
 description: Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Every device on your network asks the router which DNS server to use. Point the 
 
 ## What your router needs
 
-Your router must support **encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under *Your details* above.
+There are two ways to set up a router:
 
-<div class="note important">
+- **Encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under *Your details* above.
+- **A plain IPv6 DNS address.** Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See [Routers that only take an IP address](#routers-that-only-take-an-ip-address).
 
-**Only plain IP addresses?** Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/). You can also run a small forwarder on a Raspberry Pi, as described in the [Pi-hole guide](../switch-from-pihole/).
-
-</div>
+Use encrypted DNS if your router supports it. Lookups stay private on their way to Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ ASUS firmware later than 3.0.0.4.386.4xxxx, and Asuswrt-Merlin.
 
 ## Other routers
 
-Look for a setting called *DNS over TLS*, *Private DNS*, *Encrypted DNS* or *DNS over HTTPS*. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.
+Look for a setting called *DNS over TLS*, *Private DNS*, *Encrypted DNS* or *DNS over HTTPS*. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers. If there is no such setting, use a plain IPv6 address as below.
+
+## Routers that only take an IP address
+
+Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
+
+1. In the [dashboard](https://app.blokada.org/setup?src=guides), open *Setup* and choose *Router, TV, game console*.
+2. Name the router, for example *Home router*, and select *Get address*. The name shows up in your activity and can't be changed later.
+3. In the router's settings, find the DNS servers for IPv6, often under *Internet*, *WAN* or *IPv6*, and enter the address as the only DNS server.
+4. **Remove every other DNS server, IPv4 ones included.** Devices that still get an IPv4 DNS server from the router send some lookups past Blokada. If the router can't leave IPv4 DNS empty, set up your devices one at a time instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
+
+The same setup works for a TV or game console that lets you enter a DNS server by hand. Give each one its own address, so it shows up by name in your activity.
+
+<div class="note aside">
+
+These lookups travel unencrypted to Blokada, like with any plain DNS server. If your router supports DNS over TLS or DNS over HTTPS, use that instead.
+
+</div>
 
 ## Check that it works
 
 1. Restart one device, or turn its Wi-Fi off and on, so it picks up the change.
-2. Browse for a minute, then open the *Activity* page in the dashboard. Your network's lookups show up there.
+2. On that device, turn off Blokada if it runs it, then open [go.blokada.org/test](https://go.blokada.org/test). It shows whether your DNS goes through Blokada.
+3. Browse for a minute, then open the *Activity* page in the [dashboard](https://app.blokada.org/stats?src=guides). Your network's lookups show up there.
 
 ## If some devices still show ads
 
