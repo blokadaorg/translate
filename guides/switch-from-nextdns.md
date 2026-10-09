@@ -1,7 +1,7 @@
 ---
 title: A NextDNS alternative with the same setup on every device
 description: Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ If you set `https://dns.nextdns.io/…` as your browser's *secure DNS*, replace 
 
 If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses with a *linked IP*, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.
+If it uses NextDNS through plain IP addresses, replace them with a Blokada IPv6 address, as in the [router guide](../router-ad-blocking/). This needs IPv6 on your connection, and the lookups are not encrypted. Blokada has no plain IPv4 addresses yet, so a setup with a NextDNS *linked IP* can't be taken over as it is. Without IPv6, set up your devices one by one, or use a router that supports encrypted DNS.
 
 ## Check that it works
 
