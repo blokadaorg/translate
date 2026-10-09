@@ -46,7 +46,7 @@ If you set `https://dns.nextdns.io/…` as your browser's *secure DNS*, replace 
 
 If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the [router guide](../router-ad-blocking/).
 
-If it uses NextDNS through plain IP addresses, replace them with a Blokada IPv6 address, as in the [router guide](../router-ad-blocking/). This needs IPv6 on your connection. Blokada has no plain IPv4 addresses yet, so a setup with a NextDNS *linked IP* can't be taken over as it is. Without IPv6, set up your devices one by one, or use a router that supports encrypted DNS.
+If it uses NextDNS through plain IP addresses, replace them with a Blokada IPv6 address, as in the [router guide](../router-ad-blocking/). This needs IPv6 on your connection, and the lookups are not encrypted. Blokada has no plain IPv4 addresses yet, so a setup with a NextDNS *linked IP* can't be taken over as it is. Without IPv6, set up your devices one by one, or use a router that supports encrypted DNS.
 
 ## Check that it works
 

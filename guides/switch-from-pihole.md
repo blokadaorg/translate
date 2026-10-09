@@ -9,7 +9,7 @@ A Pi-hole blocks ads for every device on your network, as long as the Raspberry 
 
 - **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
 - **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
+- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups. The exception is a router or device set up with a plain IPv6 address, whose lookups are not encrypted.
 - **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
 
 There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
