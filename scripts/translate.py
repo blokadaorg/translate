@@ -226,6 +226,10 @@ def web4Import(langs, langs_web4, translate, web):
     shutil.copytree(f"{web}/api/v4/canonical/defaults", dst, dirs_exist_ok = True)
 
     for lang in langs:
+        # v4 content only exists for the languages mapped in langs-web4.
+        if lang not in langs_web4:
+            print(f"    skipping {lang}: no v4 content")
+            continue
         l = langs_web4[lang]
         print(f"    importing {l}")
         dst = f"{web}/api/v4/content/{l}"
