@@ -1,7 +1,7 @@
 ---
 title: ハードウェア不要のPi-hole代替ソリューション
 description: ご家庭の広告ブロックをPi-holeからBlokada Cloudへ移行、またはPi-holeを維持したままその問い合わせをBlokada経由に送信できます。
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Pi-holeは、Raspberry Piが稼働・更新され自宅にある限り、ネッ�
 
 - **ボックスの管理が不要。** SDカードも、アップデートも不要で、Piがダウンしても停止しません。
 - **外出先でも有効。** スマートフォンやノートパソコンは、モバイルデータや他のWi-Fiネットワークでもブロック機能が維持されます。
-- **暗号化済み。** デバイスはDNS over TLSやDNS over HTTPSを使ってBlokadaと通信するため、プロバイダーが問い合わせ内容を読み取ったり改ざんしたりできません。
+- **暗号化済み。** デバイスはDNS over TLSまたはDNS over HTTPSを利用してBlokadaと通信するため、プロバイダーは参照内容を読み取ったり変更したりできません。例外として、単なるIPv6アドレスで設定されたルーターやデバイスは参照内容が暗号化されません。
 - **一括管理ダッシュボード。** ブロックリスト、許可/ブロック済みドメイン、デバイスごとのアクティビティが [app.blokada.org](https://app.blokada.org/?src=guides) で管理できます。
 
 切り替え方法は2つあります。Pi-holeを完全にBlokada Cloudに置き換えることも、そのまま残してBlokada Cloudを上流として利用することもできます。
@@ -17,14 +17,14 @@ Pi-holeは、Raspberry Piが稼働・更新され自宅にある限り、ネッ�
 ## 方法1：Pi-holeを置き換える
 
 1. **Blokada Cloudを取得**してダッシュボードを開きます。DNS名とDoHリンクは、そこ&#x3067;_&#x53;etu&#x70;_&#x306E;下、または上&#x8A18;_&#x59;our detail&#x73;_&#x306B;あります。
-2. **ルーターのDNSをPi-holeからBlokadaに切り替えます。** [ルーターガイド](../router-ad-blocking/)を参照してください。ルーターがDNSサーバーにプレーンなIPアドレスしか指定できない場合は、各デバイスごとに設定してください：[Android](../android-private-dns/)、[MacやApple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、[ブラウザー](../browser-dns-over-https/)。
+2. **ルーターのDNS設定をPi-holeからBlokadaに変更します。** [ルーター設定ガイド](../router-ad-blocking/)に従ってください。IPv6接続がある場合、DNSサーバーとしてIPアドレスのみ受け付けるルーターにも対応できます。IPv6がない場合は、各デバイスごとに設定してください：[Android](../android-private-dns/)、[MacとApple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、[ブラウザー](../browser-dns-over-https/)。
 3. **Pi-holeがDHCPサーバーの場合は、** Piをオフにす&#x308B;_&#x524D;_&#x306B;ルーターでDHCPを再度オンにしてください。そうしないとデバイスがネットワークアドレスを取得できなくなります。
 4. **リストを移行。** ダッシュボード&#x306E;_&#x42;locklist&#x73;_&#x3067;ブロックリストを選択し、_Exception&#x73;_&#x3067;許可ドメインやブロックドメインを追加してください。
 5. **Pi-holeをオフにする**、または他の目的で残しておくこともできます。
 
 <div class="note aside">
 
-Pi-holeはネットワーク上の全デバイスをIPアドレスで表示していました。一方、Blokadaでは各デバイスが自分専用のBlokada DNS名を使っていれば、それぞれ名前で表示されます。ルーターを1つのBlokada DNS名で設定した場合、1つのデバイスとして表示されます。
+Pi-hole ではネットワーク上の各デバイスが IP アドレスで表示されていました。Blokada では、各デバイスが自身の Blokada DNS 名を使用していれば、その名前で表示されます。ルーターが 1 つの Blokada DNS 名または IPv6 アドレスで設定されている場合は、1 台のデバイスとして表示されます。
 
 </div>
 
