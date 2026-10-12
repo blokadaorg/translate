@@ -1,7 +1,7 @@
 ---
 title: A Pi-hole alternative that needs no hardware
 description: Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ A Pi-hole blocks ads for every device on your network, as long as the Raspberry 
 
 - **No box to maintain.** No SD cards, no updates, no outage when the Pi goes down.
 - **It works away from home.** Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.
-- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.
+- **Encrypted.** Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups. The exception is a router or device set up with a plain IPv6 address, whose lookups are not encrypted.
 - **One dashboard.** Blocklists, allowed and blocked domains, and activity per device, at [app.blokada.org](https://app.blokada.org/?src=guides).
 
 There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.
@@ -17,14 +17,14 @@ There are two ways to switch. Replace the Pi-hole completely, or keep it and use
 ## Option 1: replace the Pi-hole
 
 1. **Get Blokada Cloud** and open the dashboard. Your DNS name and DoH link are under *Setup* there, and under *Your details* above.
-2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
+2. **Point your router at Blokada instead of the Pi-hole.** Follow the [router guide](../router-ad-blocking/). It also covers routers that only accept a plain IP address as DNS server, as long as your connection has IPv6. Without IPv6, set up your devices one by one instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
 3. **If your Pi-hole was the DHCP server,** turn DHCP back on in your router *before* you switch the Pi off. Otherwise your devices stop getting network addresses.
 4. **Move your lists.** In the dashboard, choose blocklists under *Blocklists*, and add your own allowed or blocked domains under *Exceptions*.
 5. **Switch the Pi-hole off,** or keep it for something else.
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.
+Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name or IPv6 address shows up as one device.
 
 </div>
 
