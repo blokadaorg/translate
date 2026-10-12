@@ -1,7 +1,7 @@
 ---
 title: Blockera reklam i hela nätverket med reklamblockering i routern
 description: Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Alla enheter i nätverket frågar routern vilken DNS-server de ska använda. Pek
 
 ## Det här behöver din router
 
-Din router måste stödja **krypterad DNS med ett värdnamn**, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under _Dina uppgifter_.
+Det finns två sätt att konfigurera en router:
 
-<div class="note important">
+- Din router måste stödja **krypterad DNS med ett värdnamn**, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under _Dina uppgifter_.
+- **En vanlig IPv6 DNS-adress.** Många routers från internetleverantörer accepterar bara vanliga IP-adresser för DNS. Om din gör det och din anslutning har IPv6, ger Blokada dig en IPv6-adress att ange. Se [Routrar som bara accepterar en IP-adress](#routers-that-only-take-an-ip-address).
 
-**Bara vanliga IP-adresser?** Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/). Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i [Pi-hole-guiden](../switch-from-pihole/).
-
-</div>
+Använd krypterad DNS om din router stöder det. Uppslag hålls privata på sin väg till Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ ASUS-firmware senare än 3.0.0.4.386.4xxxx och Asuswrt-Merlin.
 
 ## Andra routrar
 
-Leta efter en inställning som heter _DNS over TLS_, _Private DNS_, _Encrypted DNS_ eller _DNS over HTTPS_. Ange ditt Blokada-DNS-namn eller din DoH-länk från ovan och ta bort alla andra DNS-servrar, även reservservrar.
+Leta efter en inställning som heter _DNS over TLS_, _Private DNS_, _Encrypted DNS_ eller _DNS over HTTPS_. Ange ditt Blokada DNS-namn eller DoH-länk ovan och ta bort alla andra DNS-servrar, inklusive reservservrar. Om det inte finns någon sådan inställning, använd en vanlig IPv6-adress enligt nedan.
+
+## Routrar som endast accepterar en IP-adress
+
+Din router och din internetanslutning behöver IPv6 för detta. Stöd för vanliga IPv4-adresser kommer senare.
+
+1. I [dashboarden](https://app.blokada.org/setup?src=guides), öppna _Konfiguration_ och välj _Router, TV, spelkonsol_.
+2. Ge routern ett namn, till exempel _Hemrouter_, och välj _Hämta adress_. Namnet visas i din aktivitet och kan inte ändras senare.
+3. Gå till routerinställningarna och leta upp DNS-servrarna för IPv6, ofta under _Internet_, _WAN_ eller _IPv6_, och ange adressen som den enda DNS-servern.
+4. **Ta bort alla andra DNS-servrar, även IPv4-servrar.** Enheter som fortfarande får en IPv4 DNS-server från routern skickar vissa uppslag utanför Blokada. Om routern inte kan lämna IPv4 DNS tom, ställ in dina enheter en i taget istället: [Android](../android-private-dns/), [Mac och Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) och [webbläsare](../browser-dns-over-https/).
+
+Samma inställning fungerar för en TV eller spelkonsol där du kan ange DNS-server manuellt. Ge varje enhet en egen adress så den visas med namn i din aktivitet.
+
+<div class="note aside">
+
+Dessa uppslag skickas okrypterade till Blokada, precis som med vilken vanlig DNS-server som helst. Om din router stöder DNS over TLS eller DNS over HTTPS rekommenderas att du använder det istället.
+
+</div>
 
 ## Kontrollera att det fungerar
 
 1. Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.
-2. Surfa en stund och öppna sedan sidan _Aktivitet_ i dashboarden. Nätverkets uppslag visas där.
+2. Stäng av Blokada på enheten om den körs där, och öppna sedan [go.blokada.org/test](https://go.blokada.org/test). Där visas om din DNS går genom Blokada.
+3. Surfa en stund och öppna sedan sidan _Aktivitet_ i [dashboarden](https://app.blokada.org/stats?src=guides). Ditt nätverks uppslag visas där.
 
 ## Om vissa enheter fortfarande visar reklam
 
