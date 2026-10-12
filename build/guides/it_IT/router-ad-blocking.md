@@ -1,7 +1,7 @@
 ---
 title: Blocca le pubblicità su tutta la tua rete con il blocco degli annunci dal router.
 description: Configura Blokada Cloud una sola volta sul tuo router e tutti i dispositivi di casa saranno protetti, inclusi TV, console di gioco e altoparlanti intelligenti che non possono eseguire un'app blocca pubblicità.
-updated: 02/10/2026
+updated: 09/10/2026
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Ogni dispositivo nella tua rete chiede al router quale server DNS utilizzare. Pu
 
 ## Cosa serve al tuo router
 
-Il tuo router deve supportare **DNS crittografato con un nome host**, ovvero DNS over TLS (DoT) o DNS over HTTPS (DoH). Molti router recenti lo fanno, inclusi i modelli sottoelencati. A seconda di ciò che il tuo router supporta, ti serviranno il tuo nome DNS o il tuo link DoH, entrambi sotto _I tuoi dettagli_ sopra.
+Ci sono due modi per configurare un router:
 
-<div class="note important">
+- **DNS crittografato con un nome host**, ovvero DNS over TLS (DoT) o DNS over HTTPS (DoH). Molti router recenti lo supportano, inclusi i modelli indicati qui sotto. A seconda di ciò che supporta il tuo router, ti servirà il nome DNS o il link DoH, entrambi disponibili in _I tuoi dettagli_ sopra.
+- **Un indirizzo DNS IPv6 semplice.** Molti router dei provider Internet accettano solo indirizzi IP semplici per il DNS. Se il tuo è così e la tua connessione dispone di IPv6, Blokada ti fornisce un indirizzo IPv6 da inserire. Vedi [Router che accettano solo un indirizzo IP](#routers-that-only-take-an-ip-address).
 
-**Solo indirizzi IP semplici?** Molti router dei provider internet accettano solo indirizzi IP semplici per il DNS. Il supporto per questi sarà presto disponibile. Fino ad allora, configura i tuoi dispositivi uno alla volta: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/). Puoi anche eseguire un piccolo forwarder su un Raspberry Pi, come descritto nella [guida Pi-hole](../switch-from-pihole/).
-
-</div>
+Usa DNS crittografato se il tuo router lo supporta. Le risoluzioni rimarranno private durante il passaggio verso Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Firmware ASUS recente (3.0.0.4.388 o successivo) e Asuswrt-Merlin.
 
 ## Altri router
 
-Cerca una voce chiamata _DNS over TLS_, _DNS privato_, _DNS crittografato_ o _DNS over HTTPS_. Inserisci il tuo nome DNS di Blokada o il link DoH da sopra e rimuovi ogni altro server DNS, inclusi i server di fallback.
+Cerca un'impostazione chiamata _DNS over TLS_, _DNS privato_, _DNS crittografato_ o _DNS over HTTPS_. Inserisci il nome DNS di Blokada o il link DoH fornito sopra e rimuovi tutti gli altri server DNS, inclusi quelli di fallback. Se non esiste questa impostazione, utilizza un semplice indirizzo IPv6 come indicato sotto.
+
+## Router che accettano solo un indirizzo IP
+
+Per questo, il tuo router e la tua connessione Internet devono supportare IPv6. Il supporto per indirizzi IPv4 semplici arriverà in futuro.
+
+1. Nel [dashboard](https://app.blokada.org/setup?src=guides), apri _Setup_ e scegli _Router, TV, console di gioco_.
+2. Dai un nome al router, ad esempio _Router di casa_, e seleziona _Ottieni indirizzo_. Il nome apparirà nella tua attività e non potrà essere cambiato in seguito.
+3. Nelle impostazioni del router, trova i server DNS per IPv6, spesso sotto _Internet_, _WAN_ o _IPv6_, e inserisci l'indirizzo come unico server DNS.
+4. **Rimuovi tutti gli altri server DNS, inclusi quelli IPv4.** I dispositivi che ricevono ancora un server DNS IPv4 dal router invieranno alcune richieste fuori da Blokada. Se il router non consente di lasciare vuoto il campo DNS IPv4, configura i tuoi dispositivi uno alla volta invece: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/).
+
+La stessa configurazione funziona per una TV o una console di gioco che consente l'inserimento manuale di un server DNS. Assegna ad ognuna un proprio indirizzo, in modo che sia visibile per nome nella tua attività.
+
+<div class="note aside">
+
+Queste richieste viaggiano in chiaro verso Blokada, come con qualsiasi server DNS non crittografato. Se il tuo router supporta DNS over TLS o DNS over HTTPS, usa quella modalità invece.
+
+</div>
 
 ## Verifica che funzioni
 
 1. Riavvia un dispositivo, oppure spegni e riaccendi il Wi-Fi così da applicare la nuova configurazione.
-2. Naviga per un minuto, poi apri la pagina _Attività_ nella dashboard. Le query della tua rete verranno mostrate lì.
+2. Su quel dispositivo, disattiva Blokada se attiva, poi visita [go.blokada.org/test](https://go.blokada.org/test). Ti mostrerà se il tuo DNS passa tramite Blokada.
+3. Naviga per un minuto, poi apri la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le richieste della tua rete saranno visibili lì.
 
 ## Se alcuni dispositivi mostrano ancora pubblicità
 
