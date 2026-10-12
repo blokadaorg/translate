@@ -1,7 +1,7 @@
 ---
 title: Alternatywa dla NextDNS z identyczną konfiguracją na każdym urządzeniu
 description: Przejdź z NextDNS do Blokada Cloud. Zamień swoją nazwę DNS NextDNS, link DoH lub profil na nazwę DNS Blokada na swoim telefonie, komputerze i routerze, aby zachować blokowanie reklam.
-updated: 02.10.2026
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Jeśli ustawiłeś `https://dns.nextdns.io/…` jako _bezpieczny DNS_ przegląda
 
 Jeśli Twój router używa NextDNS przez DNS przez TLS lub DNS przez HTTPS, zamień nazwę lub link NextDNS na swój odpowiednik z Blokady, zgodnie z [przewodnikiem routera](../router-ad-blocking/).
 
-Jeśli korzysta z NextDNS za pośrednictwem zwykłych adresów IP z _powiązanym adresem IP_, Blokada jeszcze tego nie obsługuje. Wsparcie dla routerów ze zwykłymi adresami DNS jest w drodze. Do tego czasu skonfiguruj swoje urządzenia pojedynczo lub użyj routera obsługującego szyfrowany DNS.
+Jeśli używasz NextDNS poprzez zwykłe adresy IP, zastąp je adresem IPv6 Blokada, zgodnie z [przewodnikiem dotyczącym routerów](../router-ad-blocking/). Do tego wymagana jest obsługa IPv6 w Twoim połączeniu, a zapytania DNS nie będą szyfrowane. Blokada nie posiada jeszcze zwykłych adresów IPv4, więc konfigurację z powiązanym adresem IP NextDNS nie da się przenieść bez zmian. Jeśli nie masz IPv6, skonfiguruj każde urządzenie osobno lub użyj routera obsługującego szyfrowany DNS.
 
 ## Sprawdź, czy działa
 
