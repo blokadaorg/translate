@@ -49,7 +49,7 @@ ASUS firmware later than 3.0.0.4.386.4xxxx, and Asuswrt-Merlin.
 
 Look for a setting called *DNS over TLS*, *Private DNS*, *Encrypted DNS* or *DNS over HTTPS*. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers. If there is no such setting, use a plain IPv6 address as below.
 
-## Routers that only take an IP address
+## Routers that only take an IP address {:#routers-that-only-take-an-ip-address}
 
 Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
 
