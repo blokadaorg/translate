@@ -1,7 +1,8 @@
 ---
 title: Pi-hole-vaihtoehto, joka ei vaadi laitteistoa.
 description: Siirrä kotisi mainosten esto Pi-holelta Blokada Cloudiin tai säilytä Pi-hole ja ohjaa sen kyselyt Blokadan kautta.
-updated: 2026-10-02
+updated: |
+  2026-10-09
 order: 1
 ---
 
@@ -9,7 +10,7 @@ Pi-hole estää mainokset kaikilta laitteiltasi verkossa, kunhan Raspberry Pi on
 
 - **Ei ylläpidettävää laatikkoa.** Ei SD-kortteja, ei päivityksiä, eikä katkoksia, kun Pi sammuu.
 - **Toimii myös kodin ulkopuolella.** Puhelimet ja kannettavat säilyttävät eston mobiilidatalla ja muissa Wi-Fi-verkoissa.
-- **Salattu.** Laitteet keskustelevat Blokadan kanssa DNS over TLS:n tai DNS over HTTPS:n kautta, joten palveluntarjoajasi ei voi lukea tai muokata kyselyitäsi.
+- **Salattu.** Laitteet keskustelevat Blokadan kanssa DNS over TLS:n tai DNS over HTTPS:n kautta, joten palveluntarjoajasi ei voi lukea tai muuttaa kyselyitäsi. Poikkeuksena on reititin tai laite, joka on asetettu käyttämään pelkkää IPv6-osoitetta – tällöin kyselyt eivät ole salattuja.
 - **Yksi hallintapaneeli.** Estolistat, sallitut ja estettyvät verkkotunnukset sekä laitekohtainen aktiivisuus osoitteessa [app.blokada.org](https://app.blokada.org/?src=guides).
 
 On kaksi tapaa vaihtaa. Vaihda Pi-hole kokonaan Blokada Cloudiin, tai säilytä se ja käytä Blokada Cloudia sen ylävirran DNS-palvelimena.
@@ -17,14 +18,14 @@ On kaksi tapaa vaihtaa. Vaihda Pi-hole kokonaan Blokada Cloudiin, tai säilytä 
 ## Vaihtoehto 1: korvaa Pi-hole
 
 1. **Hanki Blokada Cloud** ja avaa hallintapaneeli. DNS-nimesi ja DoH-linkkisi löytyvät siellä kohdasta _Asetus_ sekä yllä kohdasta _Tiedot_.
-2. **Ohjaa reitittimesi Blokadaan Pi-holen sijaan.** Noudata [reititinohjetta](../router-ad-blocking/). Jos reitittimesi tukee vain tavallista IP-osoitetta DNS-palvelimena, määritä laitteesi yksitellen: [Android](../android-private-dns/), [Mac ja Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ja [selaimet](../browser-dns-over-https/).
+2. **Osoita reitittimesi Blokadaan Pi-holen sijaan.** Seuraa [reititinohjetta](../router-ad-blocking/). Ohjeessa käsitellään myös reitittimet, jotka hyväksyvät vain tavanomaisen IP-osoitteen DNS-palvelimeksi, jos yhteydelläsi on käytössä IPv6. Ilman IPv6:ta asenna laitteet yksitellen: [Android](../android-private-dns/), [Mac ja Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ja [selaimet](../browser-dns-over-https/).
 3. **Jos Pi-hole oli DHCP-palvelin,** kytke DHCP takaisin päälle reitittimessä _ennen_ kuin sammutat Pin. Muuten laitteesi eivät saa verkko-osoitteita.
 4. **Siirrä listasi.** Hallintapaneelissa valitse estolistat kohdasta _Estolistat_ ja lisää omat sallitut tai estetyt verkkotunnukset kohtaan _Poikkeukset_.
 5. **Sammuta Pi-hole** tai pidä se muuhun käyttöön.
 
 <div class="note aside">
 
-Pi-hole näytti jokaisen verkon laitteen IP-osoitteensa perusteella. Blokadassa kukin laite näkyy omalla nimellään, kunhan se käyttää omaa Blokada DNS -nimeään. Yhdellä Blokada DNS -nimellä varustettu reititin näkyy yhtenä laitteena.
+Pi-hole näytti kaikki verkon laitteet niiden IP-osoitteen mukaan. Blokadassa jokainen laite näkyy omalla nimellään, kunhan se käyttää omaa Blokada DNS -nimeään. Reititin, joka on asetettu yhdellä Blokada DNS -nimellä tai IPv6-osoitteella, näkyy yhtenä laitteena.
 
 </div>
 
