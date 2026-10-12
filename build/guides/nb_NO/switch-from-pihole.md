@@ -1,7 +1,7 @@
 ---
 title: Et Pi-hole-alternativ som ikke krever maskinvare
 description: Flytt hjemmets annonseblokkering fra en Pi-hole til Blokada Cloud, eller behold din Pi-hole og send oppslagene via Blokada.
-updated: 02.10.2026
+updated: "2026-10-09'}]} 监听页面userTesting new context with plural, see if you use correct forms and preserve the id: {"
 order: 1
 ---
 
@@ -9,7 +9,7 @@ En Pi-hole blokkerer annonser for alle enheter på nettverket ditt, så lenge Ra
 
 - **Ingen boks å vedlikeholde.** Ingen SD-kort, ingen oppdateringer, ingen nedetid når Pi-en slår seg av.
 - **Det virker også utenfor hjemmet.** Telefoner og bærbare beholder blokkeringen på mobildata og andre Wi-Fi-nettverk.
-- **Kryptert.** Enhetene snakker med Blokada over DNS over TLS eller DNS over HTTPS, så leverandøren din ikke kan lese eller endre oppslagene dine.
+- **Kryptert.** Enheter kommuniserer med Blokada via DNS over TLS eller DNS over HTTPS, så leverandøren din kan ikke lese eller endre oppslagene dine. Unntaket er en ruter eller enhet som er satt opp med en vanlig IPv6-adresse, hvor oppslagene ikke er kryptert.
 - **Ett dashbord.** Blokklister, tillatte og blokkerte domener, og aktivitet per enhet, finnes på [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Det er to måter å bytte på: Bytt ut Pi-hole helt, eller behold den og bruk Blokada Cloud som oppstrøms DNS.
@@ -17,14 +17,14 @@ Det er to måter å bytte på: Bytt ut Pi-hole helt, eller behold den og bruk Bl
 ## Alternativ 1: Bytt ut Pi-hole
 
 1. **Få Blokada Cloud** og åpne dashbordet. Ditt DNS-navn og DoH-lenke finnes under _Oppsett_ der, og under _Dine detaljer_ ovenfor.
-2. **Pek ruteren din mot Blokada i stedet for Pi-hole.** Følg [ruterveiledningen](../router-ad-blocking/). Hvis ruteren din kun godtar en vanlig IP-adresse som DNS-server, sett opp enhetene én og én i stedet: [Android](../android-private-dns/), [Mac og Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) og [nettlesere](../browser-dns-over-https/).
+2. **Pek ruteren din til Blokada i stedet for Pi-hole.** Følg [ruterguiden](../router-ad-blocking/). Den dekker også rutere som kun godtar en vanlig IP-adresse som DNS-server, så lenge tilkoblingen har IPv6. Uten IPv6 må du sette opp enhetene én etter én i stedet: [Android](../android-private-dns/), [Mac og Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) og [nettlesere](../browser-dns-over-https/).
 3. **Hvis din Pi-hole var DHCP-server,** slå på DHCP i ruteren din _før_ du slår av Pi. Ellers vil enhetene dine slutte å motta nettverksadresser.
 4. **Flytt listene dine.** I dashbordet velger du blokklister under _Blocklists_, og legger til dine egne tillatte eller blokkerte domener under _Exceptions_.
 5. **Slå av Pi-hole,** eller behold den til noe annet.
 
 <div class="note aside">
 
-Din Pi-hole viste hver enhet på nettverket ved dens IP-adresse. Med Blokada vises hver enhet med sitt eget navn, så lenge den bruker sitt eget Blokada DNS-navn. En ruter som er satt opp med ett Blokada DNS-navn, vises som én enhet.
+Pi-hole viste hver enhet på nettverket ved IP-adressen deres. Med Blokada vises hver enhet med sitt eget navn, så lenge den bruker sitt eget Blokada DNS-navn. En ruter som er satt opp med ett Blokada DNS-navn eller én IPv6-adresse vises som én enhet.
 
 </div>
 
