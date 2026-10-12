@@ -49,7 +49,7 @@ Recente ASUS-firmware (3.0.0.4.388 of nieuwer) en Asuswrt-Merlin.
 
 Zoek naar een instelling genaamd _DNS over TLS_, _Private DNS_, _Encrypted DNS_ of _DNS over HTTPS_. Voer je Blokada DNS-naam of DoH-link van hierboven in en verwijder alle andere DNS-servers, inclusief de fallback-servers. Als deze instelling er niet is, gebruik dan een gewoon IPv6-adres zoals hieronder.
 
-## Routers die alleen een IP-adres accepteren
+## Routers die alleen een IP-adres accepteren {:#routers-that-only-take-an-ip-address}
 
 Je router en je internetverbinding hebben IPv6 hiervoor nodig. Ondersteuning voor alleen IPv4-adressen volgt later.
 
