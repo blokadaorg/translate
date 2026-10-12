@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 Cari pengaturan bernama _DNS over TLS_, _DNS Pribadi_, _DNS Terenkripsi_, atau _DNS over HTTPS_. Masukkan nama DNS Blokada atau tautan DoH Anda dari atas, dan hapus semua server DNS lainnya, termasuk server cadangan. Jika tidak ada pengaturan seperti itu, gunakan alamat IPv6 biasa seperti di bawah ini.
 
-## Router yang hanya menerima alamat IP
+## Router yang hanya menerima alamat IP {:#routers-that-only-take-an-ip-address}
 
 Router Anda dan koneksi internet Anda memerlukan IPv6 untuk ini. Dukungan untuk alamat IPv4 biasa akan tersedia nanti.
 
