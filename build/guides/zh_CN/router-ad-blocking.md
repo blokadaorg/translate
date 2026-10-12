@@ -49,7 +49,7 @@ FRITZ!OS 7.20 或更高版本。
 
 查找名为 _DNS over TLS_、_Private DNS_、_Encrypted DNS_ 或 _DNS over HTTPS_ 的设置。输入上面的 Blokada DNS 名称或 DoH 链接，并移除所有其他 DNS 服务器，包括备用服务器。如果没有这些设置，请使用下方提供的普通 IPv6 地址。
 
-## 仅支持输入 IP 地址的路由器
+## 仅支持输入 IP 地址的路由器 {:#routers-that-only-take-an-ip-address}
 
 为此，您的路由器和网络连接需要支持 IPv6。对仅支持 IPv4 地址的支持将在后续推出。
 

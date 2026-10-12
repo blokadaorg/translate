@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 _DNS over TLS_、_Private DNS_、_Encrypted DNS_、また&#x306F;_&#x44;NS over HTTP&#x53;_&#x3068;いう設定を探してください。上記からBlokada DNS名またはDoHリンクを入力し、他のすべてのDNSサーバー（フォールバックサーバーを含む）を削除してください。これらの設定がない場合は、下記のプレーンなIPv6アドレスを使用してください。
 
-## IPアドレスのみを設定できるルーター
+## IPアドレスのみを受け付けるルーター {:#routers-that-only-take-an-ip-address}
 
 この設定には、お使いのルーターとインターネット接続がIPv6に対応している必要があります。プレーンなIPv4アドレスへの対応は今後追加予定です。
 

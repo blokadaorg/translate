@@ -49,7 +49,7 @@ Firmware reciente de ASUS (3.0.0.4.388 o posterior) y Asuswrt-Merlin.
 
 Busque una opción llamada _DNS sobre TLS_, _DNS privado_, _DNS cifrado_ o _DNS sobre HTTPS_. Introduzca su nombre DNS de Blokada o enlace DoH de arriba, y elimine todos los demás servidores DNS, incluidos los de respaldo. Si no existe tal opción, utilice una dirección IPv6 simple como se muestra a continuación.
 
-## Enrutadores que solo aceptan una dirección IP
+## Routers que solo aceptan una dirección IP {:#routers-that-only-take-an-ip-address}
 
 Su enrutador y su conexión a internet necesitan IPv6 para esto. El soporte para direcciones IPv4 simples estará disponible más adelante.
 

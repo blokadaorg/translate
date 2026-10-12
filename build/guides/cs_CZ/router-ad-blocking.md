@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 Najděte nastavení nazvané _DNS over TLS_, _Private DNS_, _Encrypted DNS_ nebo _DNS over HTTPS_. Zadejte svůj název Blokada DNS nebo DoH odkaz z výše uvedeného a odstraňte všechny ostatní DNS servery, včetně záložních serverů. Pokud takové nastavení není k dispozici, použijte obyčejnou IPv6 adresu dle níže uvedeného postupu.
 
-## Routery, které přijímají pouze IP adresu
+## Routery, které akceptují pouze IP adresu {:#routers-that-only-take-an-ip-address}
 
 Váš router i vaše internetové připojení potřebují IPv6 pro toto nastavení. Podpora pro obyčejné IPv4 adresy bude k dispozici později.
 

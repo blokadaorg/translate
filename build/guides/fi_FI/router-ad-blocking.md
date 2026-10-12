@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 Etsi asetusta nimeltä _DNS over TLS_, _Yksityinen DNS_, _Salattu DNS_ tai _DNS over HTTPS_. Syötä Blokada DNS -nimesi tai DoH-linkki yllä olevasta, ja poista kaikki muut DNS-palvelimet, myös varapalvelimet. Jos tällaista asetusta ei ole, käytä tavallista IPv6-osoitetta alla olevalla tavalla.
 
-## Reitittimet, jotka hyväksyvät vain IP-osoitteen
+## Reitittimet, jotka hyväksyvät vain IP-osoitteen {:#routers-that-only-take-an-ip-address}
 
 Tätä varten reitittimesi ja internet-yhteytesi tarvitsevat IPv6:n. Tuki pelkille IPv4-osoitteille on tulossa myöhemmin.
 

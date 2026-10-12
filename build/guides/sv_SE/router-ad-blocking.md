@@ -49,7 +49,7 @@ ASUS-firmware senare än 3.0.0.4.386.4xxxx och Asuswrt-Merlin.
 
 Leta efter en inställning som heter _DNS over TLS_, _Private DNS_, _Encrypted DNS_ eller _DNS over HTTPS_. Ange ditt Blokada DNS-namn eller DoH-länk ovan och ta bort alla andra DNS-servrar, inklusive reservservrar. Om det inte finns någon sådan inställning, använd en vanlig IPv6-adress enligt nedan.
 
-## Routrar som endast accepterar en IP-adress
+## Routrar som endast accepterar en IP-adress {:#routers-that-only-take-an-ip-address}
 
 Din router och din internetanslutning behöver IPv6 för detta. Stöd för vanliga IPv4-adresser kommer senare.
 

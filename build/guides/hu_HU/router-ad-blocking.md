@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 Keressen egy beállítást, amelynek neve _DNS over TLS_, _Privát DNS_, _Titkosított DNS_ vagy _DNS over HTTPS_. Adja meg a Blokada DNS nevét vagy a fenti DoH hivatkozást, és távolítson el minden más DNS szervert, beleértve a tartalék szervereket is. Ha nincs ilyen beállítás, használjon egy egyszerű IPv6 címet az alábbiak szerint.
 
-## Olyan routerek, amelyek csak IP címet fogadnak el
+## Olyan routerek, amelyek csak IP-címet fogadnak el {:#routers-that-only-take-an-ip-address}
 
 Ehhez a routerének és az internetkapcsolatának IPv6 támogatással kell rendelkeznie. Az IPv4 címek támogatása később érkezik.
 

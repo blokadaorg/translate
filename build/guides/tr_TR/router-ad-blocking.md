@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 _DNS over TLS_, _Özel DNS_, _Şifreli DNS_ veya _DNS over HTTPS_ adında bir ayar arayın. Yukarıdan Blokada DNS adınızı veya DoH bağlantınızı girin ve tüm diğer DNS sunucularını, yedek sunucular dahil, kaldırın. Böyle bir ayar yoksa, aşağıdaki gibi düz bir IPv6 adresi kullanın.
 
-## Yalnızca bir IP adresi kabul eden yönlendiriciler
+## Yalnızca bir IP adresi kabul eden yönlendiriciler {:#routers-that-only-take-an-ip-address}
 
 Yönlendiricinizin ve internet bağlantınızın bunun için IPv6 desteklemesi gerekir. Düz IPv4 adresleri desteği daha sonra eklenecektir.
 

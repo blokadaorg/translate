@@ -49,7 +49,7 @@ Micrologiciel ASUS récent (3.0.0.4.388 ou version ultérieure) et Asuswrt-Merli
 
 Recherchez un paramètre appelé _DNS over TLS_, _DNS privé_, _DNS chiffré_ ou _DNS over HTTPS_. Saisissez votre nom DNS Blokada ou le lien DoH indiqué ci-dessus, puis supprimez tous les autres serveurs DNS, y compris les serveurs de secours. S'il n'existe pas un tel paramètre, utilisez une adresse IPv6 simple comme ci-dessous.
 
-## Routeurs acceptant uniquement une adresse IP
+## Routeurs qui n'acceptent qu'une adresse IP {:#routers-that-only-take-an-ip-address}
 
 Votre routeur et votre connexion Internet doivent prendre en charge IPv6 pour cette configuration. Le support des adresses IPv4 simples arrivera prochainement.
 

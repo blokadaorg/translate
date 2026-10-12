@@ -49,7 +49,7 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 Caută o setare numită _DNS peste TLS_, _DNS privat_, _DNS criptat_ sau _DNS peste HTTPS_. Introdu numele DNS Blokada sau linkul DoH de mai sus și elimină orice alt server DNS, inclusiv serverele de rezervă. Dacă nu există o astfel de setare, folosește o adresă IPv6 simplă, așa cum este mai jos.
 
-## Routere care acceptă doar o adresă IP
+## Routere care acceptă doar o adresă IP {:#routers-that-only-take-an-ip-address}
 
 Routerul tău și conexiunea la internet au nevoie de IPv6 pentru aceasta. Suportul pentru adrese doar IPv4 va fi disponibil ulterior.
 

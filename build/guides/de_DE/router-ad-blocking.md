@@ -49,7 +49,7 @@ ASUS-Firmware neuer als 3.0.0.4.386.4xxxx und Asuswrt-Merlin.
 
 Suche nach einer Einstellung namens _DNS over TLS_, _Privates DNS_, _Verschlüsseltes DNS_ oder _DNS over HTTPS_. Gib deinen Blokada-DNS-Namen oder den DoH-Link von oben ein und entferne alle anderen DNS-Server, einschließlich Fallback-Server. Falls es keine solche Einstellung gibt, verwende wie unten beschrieben eine einfache IPv6-Adresse.
 
-## Router, die nur eine IP-Adresse akzeptieren
+## Router, die nur eine IP-Adresse akzeptieren {:#routers-that-only-take-an-ip-address}
 
 Dein Router und deine Internetverbindung benötigen hierfür IPv6. Die Unterstützung für einfache IPv4-Adressen folgt später.
 
