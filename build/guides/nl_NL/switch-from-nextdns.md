@@ -1,7 +1,7 @@
 ---
 title: Een NextDNS-alternatief met dezelfde configuratie op elk apparaat.
 description: Stap over van NextDNS naar Blokada Cloud. Vervang je NextDNS DNS-naam, DoH-link of profiel op je telefoon, computer en router door die van Blokada, en behoud je advertentieblokkering.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Als je `https://dns.nextdns.io/…` als _beveiligde DNS_ in je browser hebt inge
 
 Als je router NextDNS gebruikt via DNS over TLS of DNS over HTTPS, vervang dan de NextDNS-naam of -link door die van Blokada volgens de [routergids](../router-ad-blocking/).
 
-Als je NextDNS gebruikt via gewone IP-adressen met een _gekoppeld IP_, kan Blokada dat nog niet overnemen. Ondersteuning voor routers met gewone DNS-adressen is onderweg. Tot die tijd stel je je apparaten één voor één in, of gebruik je een router die versleutelde DNS ondersteunt.
+Als het NextDNS gebruikt via gewone IP-adressen, vervang deze dan door een Blokada IPv6-adres, zoals beschreven in de [routergids](../router-ad-blocking/). Dit vereist IPv6 op je verbinding, en de zoekopdrachten zijn niet versleuteld. Blokada heeft nog geen gewone IPv4-adressen, dus een installatie met een NextDNS _gekoppeld IP_ kan niet rechtstreeks worden overgenomen. Zonder IPv6 stel je je apparaten één voor één in, of gebruik je een router die versleutelde DNS ondersteunt.
 
 ## Controleer of het werkt
 

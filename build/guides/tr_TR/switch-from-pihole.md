@@ -1,7 +1,7 @@
 ---
 title: Donanım gerektirmeyen bir Pi-hole alternatifi.
 description: Evinizdeki reklam engellemeyi Pi-hole'dan Blokada Cloud'a taşıyın veya Pi-hole'u kullanmaya devam edip sorgularını Blokada üzerinden yönlendirin.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Bir Pi-hole, ağınızdaki tüm cihazlar için reklamları engeller; Raspberry P
 
 - **Kutu yok, bakım yok.** SD kart yok, güncelleme yok, Pi kapanınca erişim kesilmez.
 - **Evden uzakta da çalışır.** Telefonlar ve dizüstü bilgisayarlar, mobil veri ve farklı Wi-Fi ağlarında da engellemeye devam eder.
-- **Şifreli.** Cihazlar Blokada ile DNS over TLS veya DNS over HTTPS üzerinden iletişim kurar, böylece sağlayıcınız sorgularınızı okuyamaz veya değiştiremez.
+- **Şifreli.** Cihazlar, sorgularınızı sağlayıcınızın okuyamayacağı veya değiştiremeyeceği şekilde Blokada ile TLS üzerinden DNS veya HTTPS üzerinden DNS kullanarak iletişim kurar. İstisna olarak, düz IPv6 adresi ile yapılandırılan bir yönlendirici veya cihazın sorguları şifrelenmez.
 - **Tek pano.** Engel listeleri, izin verilen ve engellenen alan adları ile cihaz başına etkinlik [app.blokada.org](https://app.blokada.org/?src=guides) adresinden yönetilir.
 
 Geçiş yapmanın iki yolu var. Pi-hole'u tamamen değiştirebilir veya onu tutup Blokada Cloud'u üst DNS olarak kullanabilirsiniz.
@@ -17,14 +17,14 @@ Geçiş yapmanın iki yolu var. Pi-hole'u tamamen değiştirebilir veya onu tutu
 ## Seçenek 1: Pi-hole'u değiştirin
 
 1. **Blokada Cloud'u edinin** ve panoyu açın. DNS adınız ve DoH bağlantınız _Kurulum_ bölümünde ve üstte _Bilgileriniz_ altında yer alır.
-2. **Yönlendiricinizi Pi-hole yerine Blokada'ya yönlendirin.** [Yönlendirici kılavuzunu](../router-ad-blocking/) izleyin. Yönlendiriciniz DNS sunucusu olarak yalnızca düz bir IP adresi kabul ediyorsa, cihazlarınızı tek tek ayarlayın: [Android](../android-private-dns/), [Mac ve Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ve [tarayıcılar](../browser-dns-over-https/).
+2. **Yönlendiricinizi Pi-hole yerine Blokada'ya yönlendirin.** [Yönlendirici rehberini](../router-ad-blocking/) izleyin. Bu rehber, bağlantınızda IPv6 olduğu sürece yalnızca düz bir IP adresini DNS sunucusu olarak kabul eden yönlendiricileri de kapsar. IPv6 yoksa, cihazlarınızı tek tek yapılandırın: [Android](../android-private-dns/), [Mac ve Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ve [tarayıcılar](../browser-dns-over-https/).
 3. **Eğer Pi-hole'unuz DHCP sunucusuyduysa,** Pi'yi kapatmadan _önce_ yönlendiricinizde DHCP'yi tekrar etkinleştirin. Aksi takdirde cihazlarınız ağ adresi alamaz.
 4. **Listelerinizi taşıyın.** Panoda _Engel listeleri_ bölümünde engel listesi seçip kendi izin verilen veya engellenen alan adlarınızı _İstisnalar_ altında ekleyin.
 5. **Pi-hole'u kapatın,** veya başka bir amaç için kullanmaya devam edin.
 
 <div class="note aside">
 
-Pi-hole ağdaki her cihazı IP adresiyle gösteriyordu. Blokada ile her cihaz, kendi Blokada DNS adını kullandığı sürece, ismiyle görünür. Bir yönlendirici tek bir Blokada DNS adıyla yapılandırılırsa tek bir cihaz olarak görünür.
+Pi-hole'unuz ağdaki her cihazı IP adresiyle gösterirdi. Blokada ile her cihaz, kendi Blokada DNS adıyla kullanıldığı sürece kendi adıyla görünür. Bir Blokada DNS adı veya IPv6 adresiyle yapılandırılmış bir yönlendirici tek bir cihaz olarak görünür.
 
 </div>
 

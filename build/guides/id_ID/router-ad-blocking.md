@@ -1,7 +1,7 @@
 ---
 title: Blokir iklan di seluruh jaringan Anda dengan pemblokiran iklan di router
 description: Atur Blokada Cloud di router Anda sekali, dan setiap perangkat di rumah akan terlindungi, termasuk TV, konsol game, dan speaker pintar yang tidak dapat menjalankan pemblokir iklan.
-updated: 2026-10-02
+updated: 09-10-2026
 order: 4},{
 ---
 
@@ -9,13 +9,12 @@ Setiap perangkat di jaringan Anda akan meminta router untuk menentukan server DN
 
 ## Kebutuhan router Anda
 
-Router Anda harus mendukung **DNS terenkripsi dengan nama host**, yaitu DNS over TLS (DoT) atau DNS over HTTPS (DoH). Banyak router terbaru yang sudah mendukungnya, termasuk model-model di bawah ini. Bergantung pada dukungan router Anda, Anda memerlukan nama DNS atau tautan DoH, keduanya berada di _Detail Anda_ di atas.
+Ada dua cara untuk mengatur router:
 
-<div class="note important">
+- **DNS terenkripsi dengan nama host**, yaitu DNS over TLS (DoT) atau DNS over HTTPS (DoH). Banyak router terbaru yang mendukungnya, termasuk model di bawah ini. Tergantung mana yang didukung router Anda, Anda memerlukan nama DNS Anda atau tautan DoH Anda, keduanya tersedia di _Detail Anda_ di atas.
+- **Alamat DNS IPv6 biasa.** Banyak router dari penyedia internet hanya menerima alamat IP standar untuk DNS. Jika router Anda seperti ini dan koneksi Anda memiliki IPv6, Blokada memberikan alamat IPv6 yang dapat Anda masukkan. Lihat [Router yang hanya menerima alamat IP](#routers-that-only-take-an-ip-address).
 
-**Hanya alamat IP polos?** Banyak router dari penyedia internet hanya menerima alamat IP polos untuk DNS. Dukungan untuk hal ini masih dalam pengembangan. Sampai saat itu, atur perangkat Anda satu per satu: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [browser](../browser-dns-over-https/). Anda juga dapat menjalankan penerus kecil di Raspberry Pi, seperti dijelaskan di [panduan Pi-hole](../switch-from-pihole/).
-
-</div>
+Gunakan DNS terenkripsi jika router Anda mendukungnya. Pencarian tetap pribadi saat menuju ke Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Router lainnya
 
-Cari pengaturan bernama _DNS over TLS_, _Private DNS_, _Encrypted DNS_, atau _DNS over HTTPS_. Masukkan nama DNS Blokada atau tautan DoH Anda dari atas, dan hapus semua server DNS lain, termasuk server cadangan.
+Cari pengaturan bernama _DNS over TLS_, _DNS Pribadi_, _DNS Terenkripsi_, atau _DNS over HTTPS_. Masukkan nama DNS Blokada atau tautan DoH Anda dari atas, dan hapus semua server DNS lainnya, termasuk server cadangan. Jika tidak ada pengaturan seperti itu, gunakan alamat IPv6 biasa seperti di bawah ini.
+
+## Router yang hanya menerima alamat IP
+
+Router Anda dan koneksi internet Anda memerlukan IPv6 untuk ini. Dukungan untuk alamat IPv4 biasa akan tersedia nanti.
+
+1. Di [dasbor](https://app.blokada.org/setup?src=guides), buka _Setup_ dan pilih _Router, TV, konsol game_.
+2. Beri nama router, misalnya _Router Rumah_, lalu pilih _Dapatkan alamat_. Nama ini akan muncul di aktivitas Anda dan tidak dapat diubah nanti.
+3. Di pengaturan router, cari server DNS untuk IPv6, biasanya di bawah _Internet_, _WAN_ atau _IPv6_, dan masukkan alamat tersebut sebagai satu-satunya server DNS.
+4. **Hapus semua server DNS lainnya, termasuk yang IPv4.** Perangkat yang masih menerima server DNS IPv4 dari router akan mengirim beberapa permintaan lewat Blokada. Jika router tidak bisa membiarkan DNS IPv4 kosong, atur perangkat Anda satu per satu: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [peramban](../browser-dns-over-https/).
+
+Pengaturan yang sama berlaku untuk TV atau konsol game yang memungkinkan Anda memasukkan server DNS secara manual. Berikan setiap perangkat alamatnya sendiri, sehingga akan muncul dengan nama pada aktivitas Anda.
+
+<div class="note aside">
+
+Permintaan ini dikirim tanpa enkripsi ke Blokada, seperti server DNS biasa. Jika router Anda mendukung DNS over TLS atau DNS over HTTPS, gunakan itu sebagai gantinya.
+
+</div>
 
 ## Periksa apakah berhasil
 
 1. Mulai ulang satu perangkat, atau matikan lalu nyalakan kembali Wi-Fi perangkat tersebut, agar perubahan diterapkan.
-2. Jelajahi selama satu menit, lalu buka halaman _Aktivitas_ di dasbor. Permintaan jaringan Anda akan muncul di sana.
+2. Pada perangkat tersebut, matikan Blokada jika sedang berjalan, lalu buka [go.blokada.org/test](https://go.blokada.org/test). Halaman tersebut akan menunjukkan apakah DNS Anda melewati Blokada.
+3. Jelajahi internet selama satu menit, lalu buka halaman _Aktivitas_ di [dasbor](https://app.blokada.org/stats?src=guides). Permintaan jaringan Anda akan muncul di sana.
 
 ## Jika beberapa perangkat masih menampilkan iklan
 

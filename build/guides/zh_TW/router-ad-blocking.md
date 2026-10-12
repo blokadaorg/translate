@@ -1,7 +1,7 @@
 ---
 title: 使用路由器廣告阻擋，為整個網路阻擋廣告
 description: 只需在您的路由器上設置一次 Blokada Cloud，家中的每一台裝置都能受到保護，包括無法執行廣告阻擋程式的電視、遊戲主機與智慧喇叭。
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ order: 4
 
 ## 您的路由器需求
 
-您的路由器必須支援**具有主機名稱的加密 DNS**，即 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。許多近期的路由器都支援，包括下列型號。根據您的路由器支援的類型，您需要輸入 DNS 名稱或 DoH 連結，兩者都在上方的「您的詳細資料」下。
+設定路由器有兩種方式：
 
-<div class="note important">
+- **使用帶主機名稱的加密 DNS**，也就是 DNS over TLS（DoT）或 DNS over HTTPS（DoH）。許多新款路由器都支援這項功能，包括下方列出的型號。依您路由器的支援情況，您需要輸入 DNS 名稱或 DoH 連結，兩者都在上方「_您的資料_」中找到。
+- **純 IPv6 DNS 位址。** 許多網路供應商提供的路由器僅接受純 IP 位址作為 DNS。如果您的路由器如此且連線有 IPv6，Blokada 會提供一個 IPv6 位址讓您輸入。請參閱[僅支援 IP 位址的路由器](#routers-that-only-take-an-ip-address)。
 
-**只接受純 IP 位址？** 許多網路供應商的路由器僅接受純 IP 位址作為 DNS。針對這類狀況的支援即將推出。在此之前，請逐一設定您的裝置：[Android](../android-private-dns/)、[Mac 和 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)，以及[瀏覽器](../browser-dns-over-https/)。您也可依據 [Pi-hole 指南](../switch-from-pihole/)在 Raspberry Pi 上運行小型轉發器。
-
-</div>
+如果您的路由器支援，請優先使用加密 DNS。查詢會在傳送至 Blokada 途中保持隱私。
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ FRITZ!OS 7.20 或更新版本。
 
 ## 其他路由器
 
-尋找名稱為「DNS over TLS」、「Private DNS」、「Encrypted DNS」或「DNS over HTTPS」的設定。輸入您的 Blokada DNS 名稱或 DoH 連結，然後移除所有其他 DNS 伺服器，包括備用伺服器。
+尋找名為「DNS over TLS」、「Private DNS」、「Encrypted DNS」或「DNS over HTTPS」的設定。輸入您上方取得的 Blokada DNS 名稱或 DoH 連結，並移除其他所有 DNS 伺服器，包括備援伺服器。如果沒有這類設定，請如以下所示使用純 IPv6 位址。
+
+## 僅能輸入 IP 位址的路由器
+
+您的路由器與網際網路連線皆需支援 IPv6。純 IPv4 位址的支援將於日後推出。
+
+1. 在 [儀表板](https://app.blokada.org/setup?src=guides)中，開啟「設定」並選擇「路由器、電視、遊戲主機」。
+2. 請為路由器命名，例如「家用路由器」，並選擇「取得位址」。名稱將顯示於您的活動紀錄中，且日後無法變更。
+3. 在路由器設定中，找到 IPv6 的 DNS 伺服器選項，通常位於「Internet」、「WAN」或「IPv6」分頁，並輸入該位址為唯一的 DNS 伺服器。
+4. **移除所有其他 DNS 伺服器，包括 IPv4 伺服器。** 若裝置仍從路由器獲得 IPv4 DNS 伺服器，某些查詢會繞過 Blokada。若路由器無法將 IPv4 DNS 留空，請分別為您的裝置設定： [Android](../android-private-dns/)、[Mac 與 Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/) 及 [瀏覽器](../browser-dns-over-https/)。
+
+若電視或遊戲主機能讓您手動輸入 DNS 伺服器，亦可用相同設定。建議每台裝置分配不同位址，以便其名稱顯示於您的活動紀錄。
+
+<div class="note aside">
+
+這些查詢將以未加密狀態傳送給 Blokada，就像一般 DNS 伺服器一樣。如果您的路由器支援 DNS over TLS 或 DNS over HTTPS，請優先選用。
+
+</div>
 
 ## 檢查是否運作正常
 
 1. 重新啟動一台裝置，或關閉再開啟其 Wi-Fi，使其重新獲取設定。
-2. 瀏覽一分鐘後，開啟儀表板中的「活動」頁面。您的網路查詢都會顯示在那裡。
+2. 在該裝置上關閉 Blokada（如果有執行），然後開啟 [go.blokada.org/test](https://go.blokada.org/test)。該頁會顯示您的 DNS 是否透過 Blokada。
+3. 瀏覽一分鐘後，開啟 [儀表板](https://app.blokada.org/stats?src=guides)中的「活動」頁面。您的網路查詢會顯示在那裡。
 
 ## 如果有些裝置仍然顯示廣告
 

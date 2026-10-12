@@ -1,7 +1,7 @@
 ---
 title: NextDNS-vaihtoehto, jossa sama asennus jokaisella laitteella.
 description: Siirry NextDNS:stä Blokada Cloudiin. Vaihda NextDNS:n DNS-nimi, DoH-linkki tai profiili Blokadan vastaaviin puhelimella, tietokoneella ja reitittimellä, ja säilytä mainosten esto.
-updated: 2026-10-02
+updated: 2026-10-09​​
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Jos olet asettanut selaimesi _suojatuksi DNS_:ksi `https://dns.nextdns.io/…`, 
 
 Jos reitittimesi käyttää NextDNS:ää DNS over TLS:llä tai DNS over HTTPS:llä, vaihda NextDNS-nimi tai -linkki Blokada-nimeen tai -linkkiin, kuten [reititinoppaassa](../router-ad-blocking/).
 
-Jos reititin käyttää NextDNS:ää pelkillä IP-osoitteilla ja _liitetyllä IP:llä_, Blokada ei voi vielä ottaa sitä käyttöön. Tuki pelkkien DNS-osoitteiden reitittimille on tulossa. Siihen asti asenna laitteet yksi kerrallaan tai käytä reititintä, joka tukee salattua DNS:ää.
+Jos käytät NextDNS:ää pelkillä IP-osoitteilla, vaihda ne Blokada IPv6 -osoitteeseen kuten [reititinohjeessa](../router-ad-blocking/) neuvotaan. Tämä vaatii IPv6-yhteyden, eivätkä kyselyt ole salattuja. Blokadalla ei vielä ole tavallisia IPv4-osoitteita, joten NextDNS:n _liitettyä IP-osoitetta_ käyttävää kokoonpanoa ei voi siirtää sellaisenaan. Ilman IPv6:ta asenna laitteesi yksi kerrallaan tai käytä reititintä, joka tukee salattua DNS:ää.
 
 ## Varmista että se toimii
 

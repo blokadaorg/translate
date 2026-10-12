@@ -1,7 +1,7 @@
 ---
 title: Bloqueie anúncios em toda a rede com o bloqueio de anúncios no roteador.
 description: Configure o Blokada Cloud em seu roteador uma vez e todos os dispositivos em casa estarão protegidos, incluindo TVs, consoles de jogos e alto-falantes inteligentes que não podem executar um bloqueador de anúncios.
-updated: 2026-10-02
+updated: 09-10-2026
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Cada dispositivo na sua rede consulta o roteador para saber qual servidor DNS us
 
 ## O que seu roteador precisa
 
-Seu roteador deve suportar **DNS criptografado com nome de host**, ou seja, DNS sobre TLS (DoT) ou DNS sobre HTTPS (DoH). Muitos roteadores recentes oferecem esse suporte, incluindo os modelos abaixo. Dependendo do que seu roteador suporta, você precisará do seu nome DNS ou do seu link DoH, ambos na seção _Seus dados_ acima.
+Há duas maneiras de configurar um roteador:
 
-<div class="note important">
+- **DNS criptografado com um nome de host**, ou seja, DNS sobre TLS (DoT) ou DNS sobre HTTPS (DoH). Muitos roteadores recentes oferecem suporte a isso, incluindo os modelos abaixo. Dependendo do que seu roteador suporta, você precisará do seu nome de DNS ou do seu link DoH, ambos disponíveis em _Seus detalhes_ acima.
+- **Um endereço DNS IPv6 simples.** Muitos roteadores de provedores de internet só aceitam endereços IP simples para DNS. Se o seu for assim e sua conexão tiver IPv6, a Blokada fornecerá um endereço IPv6 para inserir. Veja [Roteadores que só aceitam um endereço IP](#routers-that-only-take-an-ip-address).
 
-**Apenas endereços IP simples?** Muitos roteadores fornecidos por operadoras aceitam apenas endereços IP simples para DNS. O suporte para esses casos está a caminho. Até lá, configure seus dispositivos individualmente: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [navegadores](../browser-dns-over-https/). Você também pode executar um pequeno encaminhador em um Raspberry Pi, conforme descrito no [guia do Pi-hole](../switch-from-pihole/).
-
-</div>
+Use DNS criptografado se o seu roteador oferecer suporte. As consultas permanecerão privadas no caminho até a Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Outros roteadores
 
-Procure uma configuração chamada _DNS sobre TLS_, _DNS Privado_, _DNS Criptografado_ ou _DNS sobre HTTPS_. Insira o nome DNS do seu Blokada ou o link DoH acima, e remova todos os outros servidores DNS, incluindo servidores de fallback.
+Procure por uma configuração chamada _DNS sobre TLS_, _DNS Privado_, _DNS Criptografado_ ou _DNS sobre HTTPS_. Digite o nome do seu Blokada DNS ou o link DoH fornecido acima e remova todos os outros servidores DNS, incluindo servidores de fallback. Se não houver tal configuração, utilize um endereço IPv6 simples conforme mostrado abaixo.
+
+## Roteadores que aceitam apenas um endereço IP
+
+Seu roteador e sua conexão com a internet precisam de IPv6 para isso. O suporte para endereços IPv4 simples será adicionado futuramente.
+
+1. No [dashboard](https://app.blokada.org/setup?src=guides), abra _Configuração_ e escolha _Roteador, TV, console de jogos_.
+2. Dê um nome para o roteador, por exemplo _Roteador de casa_, e selecione _Obter endereço_. O nome será exibido na sua atividade e não poderá ser alterado depois.
+3. Nas configurações do roteador, localize os servidores DNS para IPv6, geralmente em _Internet_, _WAN_ ou _IPv6_, e informe o endereço como único servidor DNS.
+4. **Remova todos os outros servidores DNS, inclusive os de IPv4.** Dispositivos que ainda recebam um servidor DNS IPv4 do roteador enviarão algumas consultas sem passar pelo Blokada. Se o roteador não permitir deixar DNS IPv4 em branco, configure seus dispositivos um por um: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [navegadores](../browser-dns-over-https/).
+
+A mesma configuração funciona para uma TV ou console de jogos que permita inserir manualmente um servidor DNS. Atribua um endereço diferente para cada um, assim eles aparecerão identificados por nome na sua atividade.
+
+<div class="note aside">
+
+Essas consultas são enviadas sem criptografia para o Blokada, como em qualquer servidor DNS comum. Se o seu roteador oferecer suporte a DNS sobre TLS ou DNS sobre HTTPS, prefira essa opção.
+
+</div>
 
 ## Verifique se está funcionando
 
 1. Reinicie um dispositivo ou desligue e ligue o Wi-Fi para que ele reconheça a alteração.
-2. Navegue por um minuto, depois abra a página _Atividade_ no painel. As buscas da sua rede aparecerão lá.
+2. Nesse dispositivo, desligue o Blokada se ele estiver ativo e acesse [go.blokada.org/test](https://go.blokada.org/test). O site informará se seu DNS está passando pelo Blokada.
+3. Navegue por um minuto e, em seguida, acesse a página _Atividade_ no [dashboard](https://app.blokada.org/stats?src=guides). As consultas da sua rede aparecerão lá.
 
 ## Se alguns dispositivos ainda exibirem anúncios
 

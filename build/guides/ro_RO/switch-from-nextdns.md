@@ -1,7 +1,7 @@
 ---
 title: O alternativă NextDNS cu aceeași configurare pe fiecare dispozitiv
 description: Treci de la NextDNS la Blokada Cloud. Înlocuiește numele DNS NextDNS, linkul DoH sau profilul cu cele ale Blokada pe telefon, computer și router, și păstrează blocarea reclamelor.
-updated: 2026-10-02
+updated: 09-10-2026
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Dacă ai setat `https://dns.nextdns.io/…` ca _DNS securizat_ al browserului, �
 
 Dacă routerul tău folosește NextDNS prin DNS over TLS sau DNS over HTTPS, înlocuiește numele sau linkul NextDNS cu cel de la Blokada, ca în [ghidul pentru router](../router-ad-blocking/).
 
-Dacă routerul folosește NextDNS prin adrese IP simple cu un _IP asociat_, Blokada nu poate prelua încă această funcție. Suportul pentru routere cu adrese DNS simple este în curs de implementare. Până atunci, setează fiecare dispozitiv separat sau folosește un router care suportă DNS criptat.
+Dacă utilizează NextDNS prin adrese IP simple, înlocuiește-le cu o adresă IPv6 Blokada, conform [ghidului pentru routere](../router-ad-blocking/). Este necesar să ai IPv6 pe conexiune, iar interogările DNS nu vor fi criptate. În prezent, Blokada nu oferă adrese IPv4 simple, deci o configurație cu un _IP asociat_ NextDNS nu poate fi preluată ca atare. Fără IPv6, configurează-ți dispozitivele individual sau folosește un router care acceptă DNS criptat.
 
 ## Verifică dacă funcționează
 

@@ -1,7 +1,7 @@
 ---
 title: Alternativa k Pi-hole, která nevyžaduje žádný hardware
 description: Přesuňte blokování reklam ve vašem domově z Pi-hole do Blokada Cloud, nebo ponechte Pi-hole a přesměrujte jeho dotazy přes Blokada.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Pi-hole blokuje reklamy pro všechna zařízení ve vaší síti, pokud je Raspb
 
 - **Žádná krabička na údržbu.** Žádné SD karty, žádné aktualizace, žádné výpadky, když Pi přestane fungovat.
 - **Funguje i mimo domov.** Telefony a notebooky zůstávají blokovány i na mobilních datech a jiných Wi-Fi sítích.
-- **Šifrováno.** Zařízení komunikují s Blokada přes DNS over TLS nebo DNS over HTTPS, takže váš poskytovatel nemůže číst ani měnit vaše dotazy.
+- **Šifrované.** Zařízení komunikují s Blokada přes DNS over TLS nebo DNS over HTTPS, takže váš poskytovatel nemůže číst ani měnit vaše dotazy. Výjimkou je router nebo zařízení nastavené s čistou IPv6 adresou, jehož dotazy nejsou šifrované.
 - **Jedna hlavní stránka.** Blokovací seznamy, povolené a blokované domény a aktivita podle zařízení – vše na [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Existují dva způsoby, jak přejít. Buď úplně nahradíte Pi-hole, nebo jej ponecháte a použijete Blokada Cloud jako jeho upstream.
@@ -17,14 +17,14 @@ Existují dva způsoby, jak přejít. Buď úplně nahradíte Pi-hole, nebo jej 
 ## Možnost 1: nahraďte Pi-hole
 
 1. **Pořiďte si Blokada Cloud** a otevřete hlavní stránku. Vaše DNS jméno a DoH odkaz najdete v části _Nastavení_ a výše pod _Vaše údaje_.
-2. **Nasměrujte váš router na Blokada namísto Pi-hole.** Postupujte podle [průvodce routerem](../router-ad-blocking/). Pokud váš router akceptuje jako DNS server pouze čistou IP adresu, nastavte si zařízení po jednom: [Android](../android-private-dns/), [Mac a Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) a [prohlížeče](../browser-dns-over-https/).
+2. **Nasměrujte svůj router na Blokada místo Pi-hole.** Postupujte podle [průvodce pro routery](../router-ad-blocking/). Zahrnuje také routery, které přijímají pouze čistou IP adresu jako DNS server, pokud vaše připojení podporuje IPv6. Bez IPv6 nastavte zařízení jedno po druhém: [Android](../android-private-dns/), [Mac a Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) a [prohlížeče](../browser-dns-over-https/).
 3. **Pokud byl Pi-hole také DHCP serverem,** zapněte DHCP zpět v routeru _předtím_, než Pi-hole vypnete. Jinak vaše zařízení přestanou získávat síťové adresy.
 4. **Přesuňte své seznamy.** V hlavní stránce zvolte blokovací seznamy pod _Blocklists_ a přidejte vlastní povolené nebo blokované domény pod _Výjimky_.
 5. **Vypněte Pi-hole,** nebo jej použijte na něco jiného.
 
 <div class="note aside">
 
-Pi-hole zobrazoval každé zařízení v síti podle jeho IP adresy. V Blokada se každé zařízení zobrazuje svým vlastním jménem, pokud používá svůj vlastní Blokada DNS název. Router nastavený s jedním Blokada DNS jménem se zobrazí jako jedno zařízení.
+Váš Pi-hole zobrazoval každé zařízení v síti podle jeho IP adresy. U Blokada se každé zařízení zobrazuje pod svým vlastním jménem, pokud používá svůj vlastní název DNS od Blokada. Router nastavený s jedním DNS jménem Blokada nebo IPv6 adresou se zobrazí jako jedno zařízení.
 
 </div>
 

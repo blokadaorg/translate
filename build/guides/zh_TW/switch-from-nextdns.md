@@ -1,7 +1,7 @@
 ---
 title: 一個在每個裝置上都能用相同設定的 NextDNS 替代方案
 description: 從 NextDNS 轉換到 Blokada Cloud。只需在您的手機、電腦和路由器上將 NextDNS 的 DNS 名稱、DoH 連結或設定檔換成 Blokada 的對應資訊，即可繼續維持廣告阻擋功能。
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ NextDNS 和 Blokada Cloud 的運作方式相同：它們是加密的 DNS 服務�
 
 如果你的路由器使用 NextDNS 作為 DNS over TLS 或 DNS over HTTPS，請將 NextDNS 名稱或連結，按照 [路由器指引](../router-ad-blocking/) 換成你的 Blokada 名稱或連結。
 
-如果您的路由器是透過明碼 IP 地址&#x53CA;_&#x5DF2;連結 I&#x50;_&#x4F7F;用 NextDNS，Blokada 尚未支援該方式。針對僅使用明碼 DNS 地址的路由器，支援功能尚在開發中。在此之前，請逐一在每個裝置上設定，或使用可支援加密 DNS 的路由器。
+如果它通過純 IP 位址使用 NextDNS，請將其替換為 Blokada 的 IPv6 位址，如同在[路由器指南](../router-ad-blocking/)中所說。這需要您的連線支援 IPv6，且這類查詢並不加密。目前 Blokada 尚未提供純 IPv4 位址，因此無法直接承接使用 NextDNS ＊連結 IP＊ 的設定。如果沒有 IPv6，請逐一設定您的裝置，或使用支援加密 DNS 的路由器。
 
 ## 檢查是否運作正常
 

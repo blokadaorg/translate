@@ -1,7 +1,7 @@
 ---
 title: Alternativa NextDNS se stejným nastavením na každém zařízení
 description: Přejděte z NextDNS na Blokada Cloud. Vyměňte svůj NextDNS název DNS, DoH odkaz nebo profil za ekvivalent od Blokady na telefonu, počítači i routeru a ponechte si blokování reklam.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Pokud jste měli nastaveno `https://dns.nextdns.io/…` jako _zabezpečený DNS_
 
 Pokud váš router používá NextDNS přes DNS over TLS nebo DNS over HTTPS, nahraďte NextDNS název nebo odkaz tím od Blokady, jak je popsáno v [návodu pro router](../router-ad-blocking/).
 
-Pokud využívá NextDNS přes běžné IP adresy s _přiřazenou IP_, Blokada toto zatím převzít neumí. Podpora pro routery s obyčejnými DNS adresami se připravuje. Do té doby nastavujte svá zařízení jednotlivě, nebo použijte router podporující šifrovaný DNS.
+Pokud používá NextDNS prostřednictvím prostých IP adres, nahraďte je Blokada IPv6 adresou, jak je popsáno v [průvodci routerem](../router-ad-blocking/). Toto vyžaduje IPv6 ve vaší síti a dotazy nejsou šifrované. Blokada zatím nemá prosté IPv4 adresy, takže nastavení s NextDNS _propojenou IP_ nelze jednoduše převzít. Bez IPv6 nastavte zařízení jedno po druhém nebo použijte router, který podporuje šifrovaný DNS.
 
 ## Ověřte, že vše funguje
 

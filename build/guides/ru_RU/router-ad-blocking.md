@@ -1,7 +1,7 @@
 ---
 title: Блокируйте рекламу во всей сети с помощью блокировки рекламы на роутере
 description: Настройте Blokada Cloud на вашем роутере один раз, и все устройства дома будут защищены, включая телевизоры, игровые приставки и умные колонки, которые не могут использовать блокировщик рекламы.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ order: 4
 
 ## Что необходимо вашему роутеру
 
-Ваш роутер должен поддерживать **зашифрованный DNS с именем хоста**, а именно DNS over TLS (DoT) или DNS over HTTPS (DoH). Многие современные роутеры это умеют, включая указанные ниже модели. В зависимости от того, что поддерживает ваш роутер, вам понадобится ваше DNS-имя или ваша DoH-ссылка — оба параметра находятся в разделе _Ваши данные_ выше.
+There are two ways to set up a router:
 
-<div class="note important">
+- **Encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
+- **A plain IPv6 DNS address.** Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See [Routers that only take an IP address](#routers-that-only-take-an-ip-address).
 
-**Только обычные IP-адреса?** Многие роутеры от интернет-провайдеров принимают только обычные IP-адреса для DNS. Поддержка этого варианта появится в ближайшее время. До тех пор настраивайте устройства по одному: [Android](../android-private-dns/), [Mac и Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) и [браузеры](../browser-dns-over-https/). Также можно запустить небольшой форвардер на Raspberry Pi, как описано в [руководстве по Pi-hole](../switch-from-pihole/).
-
-</div>
+Use encrypted DNS if your router supports it. Lookups stay private on their way to Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Другие роутеры
 
-Найдите настройку с названием _DNS over TLS_, _Private DNS_, _Encrypted DNS_ или _DNS over HTTPS_. Введите ваше DNS-имя Blokada или DoH-ссылку из раздела выше и удалите все остальные DNS-серверы, включая резервные.
+Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers. If there is no such setting, use a plain IPv6 address as below.
+
+## Routers that only take an IP address
+
+Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
+
+1. In the [dashboard](https://app.blokada.org/setup?src=guides), open _Setup_ and choose _Router, TV, game console_.
+2. Name the router, for example _Home router_, and select _Get address_. The name shows up in your activity and can't be changed later.
+3. In the router's settings, find the DNS servers for IPv6, often under _Internet_, _WAN_ or _IPv6_, and enter the address as the only DNS server.
+4. **Remove every other DNS server, IPv4 ones included.** Devices that still get an IPv4 DNS server from the router send some lookups past Blokada. If the router can't leave IPv4 DNS empty, set up your devices one at a time instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
+
+The same setup works for a TV or game console that lets you enter a DNS server by hand. Give each one its own address, so it shows up by name in your activity.
+
+<div class="note aside">
+
+These lookups travel unencrypted to Blokada, like with any plain DNS server. If your router supports DNS over TLS or DNS over HTTPS, use that instead.
+
+</div>
 
 ## Проверьте, что всё работает
 
 1. Перезапустите одно устройство или выключите и включите его Wi‑Fi, чтобы оно приняло изменения.
-2. Поползайте по сайтам минуту, затем откройте страницу _Активность_ в панели управления. Запросы из вашей сети появятся там.
+2. On that device, turn off Blokada if it runs it, then open [go.blokada.org/test](https://go.blokada.org/test). It shows whether your DNS goes through Blokada.
+3. Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). Your network's lookups show up there.
 
 ## Если на некоторых устройствах все еще отображается реклама
 

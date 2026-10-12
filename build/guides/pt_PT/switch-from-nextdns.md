@@ -1,7 +1,7 @@
 ---
 title: Uma alternativa ao NextDNS com a mesma configuração em todos os dispositivos
 description: Mude do NextDNS para o Blokada Cloud. Troque seu nome DNS, link DoH ou perfil do NextDNS para o da Blokada no seu celular, computador e roteador, e mantenha o bloqueio de anúncios.
-updated: 2026-10-02
+updated: 09-10-2026
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Se você configurou `https://dns.nextdns.io/…` como _DNS seguro_ do seu navega
 
 Se seu roteador usa NextDNS sobre DNS over TLS ou DNS over HTTPS, substitua o nome ou link NextDNS pelo da Blokada, conforme o [guia para roteadores](../router-ad-blocking/).
 
-Se ele usar NextDNS via endereços IP simples com _IP vinculado_, a Blokada ainda não pode assumir essa configuração. O suporte para roteadores com endereços DNS simples está a caminho. Até lá, configure seus dispositivos um a um, ou use um roteador que suporte DNS criptografado.
+Se estiver usando o NextDNS por meio de endereços IP simples, substitua-os por um endereço IPv6 da Blokada, conforme descrito no [guia do roteador](../router-ad-blocking/). Isso requer IPv6 na sua conexão e as consultas não serão criptografadas. A Blokada ainda não possui endereços IPv4 simples, portanto, uma configuração com um _IP vinculado_ do NextDNS não pode ser migrada como está. Sem IPv6, configure seus dispositivos individualmente ou utilize um roteador que suporte DNS criptografado.
 
 ## Verifique se está funcionando
 

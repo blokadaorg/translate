@@ -1,7 +1,7 @@
 ---
 title: Her cihazda aynı kuruluma sahip bir NextDNS alternatifi
 description: NextDNS'den Blokada Bulut'a geçin. Telefonunuzda, bilgisayarınızda ve yönlendiricinizde NextDNS DNS adınızı, DoH bağlantınızı veya profilinizi Blokada'nınkiyle değiştirin ve reklam engellemeyi sürdürün.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Tarayıcınızda _güvenli DNS_ olarak `https://dns.nextdns.io/…` ayarlıysa, 
 
 Yönlendiriciniz NextDNS'i DNS over TLS veya DNS over HTTPS üzerinden kullanıyorsa, NextDNS adını veya bağlantısını Blokada’nız ile değiştirin, ayrıntılar için [yönlendirici rehberi](../router-ad-blocking/) üzerinden ilerleyin.
 
-Eğer yönlendiriciniz düz IP adresleri üzerinden _bağlı bir IP_ ile NextDNS kullanıyorsa, Blokada henüz bunu devralamıyor. Düz DNS adreslerine sahip yönlendiriciler için destek yakında gelecek. O zamana kadar cihazlarınızı tek tek ayarlayın veya şifreli DNS destekleyen bir yönlendirici kullanın.
+Eğer NextDNS'i düz IP adresleri üzerinden kullanıyorsanız, bunları [yönlendirici rehberinde](../router-ad-blocking/) açıklandığı gibi bir Blokada IPv6 adresiyle değiştirin. Bu, bağlantınızda IPv6 gerektirir ve sorgular şifrelenmez. Blokada'nın henüz düz IPv4 adresleri yoktur, bu nedenle _bağlantılı IP_ ile yapılan bir NextDNS kurulumu olduğu gibi devralınamaz. IPv6 olmadan, cihazlarınızı tek tek kurun ya da şifreli DNS destekleyen bir yönlendirici kullanın.
 
 ## Çalıştığını kontrol edin
 

@@ -1,7 +1,7 @@
 ---
 title: Blokování reklam na celé vaší síti pomocí routeru pro blokování reklam.
 description: Nastavte Blokada Cloud na svém routeru jednou a každé zařízení v domácnosti bude chráněno – včetně televizí, herních konzolí a chytrých reproduktorů, které nemohou spustit blokátor reklam.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Každé zařízení ve vaší síti se ptá routeru, který DNS server má použ
 
 ## Co váš router potřebuje
 
-Váš router musí podporovat **šifrovaný DNS s názvem hostitele**, tedy DNS over TLS (DoT) nebo DNS over HTTPS (DoH). Mnoho novějších routerů tuto možnost má, včetně níže uvedených modelů. Podle toho, co váš router podporuje, potřebujete svůj DNS název nebo DoH odkaz – oba jsou výše pod _Vaše údaje_.
+Existují dva způsoby nastavení routeru:
 
-<div class="note important">
+- **Šifrovaný DNS s názvem hostitele**, tedy DNS přes TLS (DoT) nebo DNS přes HTTPS (DoH). Mnoho moderních routerů tuto funkci podporuje, včetně níže uvedených modelů. Podle toho, co váš router podporuje, potřebujete svůj DNS název nebo svůj DoH odkaz, oba naleznete výše v části _Vaše údaje_.
+- **Prostá IPv6 adresa DNS.** Mnoho routerů od poskytovatelů internetu přijímá pouze prosté IP adresy jako DNS. Pokud to platí u vašeho a vaše připojení má IPv6, Blokada vám poskytne IPv6 adresu pro zadání. Viz [Routery, které přijímají pouze IP adresu](#routers-that-only-take-an-ip-address).
 
-**Pouze prosté IP adresy?** Mnoho routerů od poskytovatelů internetu umožňuje zadat pouze prosté IP adresy pro DNS. Podpora pro ně je v přípravě. Do té doby nastavte svá zařízení zvlášť: [Android](../android-private-dns/), [Mac a Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) a [prohlížeče](../browser-dns-over-https/). Také můžete provozovat malý forwarder na Raspberry Pi, jak je popsáno v [návodu pro Pi-hole](../switch-from-pihole/).
-
-</div>
+Použijte šifrovaný DNS, pokud to váš router podporuje. Vyhledávání zůstávají na cestě do Blokady soukromá.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Jiné routery
 
-Hledejte nastavení nazvané _DNS over TLS_, _soukromý DNS_, _šifrovaný DNS_ nebo _DNS over HTTPS_. Zadejte svůj Blokada DNS název nebo DoH odkaz z výše uvedeného a odstraňte všechny ostatní DNS servery včetně záložních.
+Najděte nastavení nazvané _DNS over TLS_, _Private DNS_, _Encrypted DNS_ nebo _DNS over HTTPS_. Zadejte svůj název Blokada DNS nebo DoH odkaz z výše uvedeného a odstraňte všechny ostatní DNS servery, včetně záložních serverů. Pokud takové nastavení není k dispozici, použijte obyčejnou IPv6 adresu dle níže uvedeného postupu.
+
+## Routery, které přijímají pouze IP adresu
+
+Váš router i vaše internetové připojení potřebují IPv6 pro toto nastavení. Podpora pro obyčejné IPv4 adresy bude k dispozici později.
+
+1. V [ovládacím panelu](https://app.blokada.org/setup?src=guides) otevřete _Nastavení_ a vyberte možnost _Router, TV, herní konzole_.
+2. Pojmenujte router, například _Domácí router_, a zvolte _Získat adresu_. Jméno se zobrazí ve vaší aktivitě a později jej již nepůjde změnit.
+3. V nastavení routeru najděte DNS servery pro IPv6, často pod _Internet_, _WAN_ nebo _IPv6_, a zadejte adresu jako jediný DNS server.
+4. **Odstraňte všechny ostatní DNS servery, včetně těch pro IPv4.** Zařízení, která stále získají IPv4 DNS server od routeru, posílají některé požadavky mimo Blokada. Pokud router nedovoluje nechat pole pro IPv4 DNS prázdné, nastavujte DNS na každém zařízení jednotlivě: [Android](../android-private-dns/), [Mac a Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) a [prohlížeče](../browser-dns-over-https/).
+
+Stejné nastavení funguje také pro TV nebo herní konzoli, které umožňují ručně zadat DNS server. Každému zařízení zadejte vlastní adresu, aby se zobrazovalo pod jménem ve vaší aktivitě.
+
+<div class="note aside">
+
+Tyto dotazy putují nešifrovaně do Blokada, stejně jako k běžnému DNS serveru. Pokud váš router podporuje DNS over TLS nebo DNS over HTTPS, použijte raději tato nastavení.
+
+</div>
 
 ## Ověřte, že to funguje
 
 1. Restartujte jedno zařízení nebo vypněte a zapněte jeho Wi-Fi, aby se změna projevila.
-2. Chvíli surfujte a poté otevřete stránku _Aktivita_ v dashboardu. Dotazy vaší sítě se zde zobrazí.
+2. Na tomto zařízení vypněte Blokada, pokud je spuštěná, a poté otevřete [go.blokada.org/test](https://go.blokada.org/test). Zjistíte tak, zda vaše DNS prochází přes Blokada.
+3. Procházejte internet minutu a poté otevřete stránku _Aktivita_ v [ovládacím panelu](https://app.blokada.org/stats?src=guides). Vaše síťové dotazy se tam zobrazí.
 
 ## Pokud některá zařízení stále zobrazují reklamy
 

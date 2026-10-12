@@ -1,7 +1,7 @@
 ---
 title: ルーターの広告ブロックでネットワーク全体の広告をブロックする
 description: Blokada Cloud を一度ルーターに設定すれば、広告ブロッカーを実行できないテレビやゲーム機、スマートスピーカーなどを含め、家庭内のすべてのデバイスが保護されます。
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ order: 4
 
 ## ルーターに必要な条件
 
-ルーターは、**ホスト名付きの暗号化DNS**、つまりDNS over TLS（DoT）またはDNS over HTTPS（DoH）に対応している必要があります。多くの最新ルーターが対応しており、以下のモデルも含まれます。ご利用のルーターがどちらに対応しているかによって、上記「あなたの詳細」に記載されているDNS名、またはDoHリンクが必要です。
+ルーターの設定方法は次の2通りあります:
 
-<div class="note important">
+- **ホスト名を使った暗号化DNS**（DNS over TLS（DoT）またはDNS over HTTPS（DoH））。多くの最近のルーターがこれに対応しており、以下の機種も含まれます。お使いのルーターがどちらに対応しているかによって、上記「_Your details_」にあるDNS名またはDoHリンクが必要になります。
+- **通常の IPv6 DNS アドレス。** 多くのインターネットプロバイダのルーターは、DNS に通常の IP アドレスのみを受け付けます。もし対応しており、接続に IPv6 がある場合は、Blokada から指定された IPv6 アドレスを入力してください。詳しくは [IP アドレスのみ入力できるルーター](#routers-that-only-take-an-ip-address) をご覧ください。
 
-**IP アドレスのみ？** 一部のプロバイダーレンタルルーターでは、DNS にプレーンな IP アドレスしか指定できません。今後サポート予定ですが、それまではデバイスごとに個別設定してください: [Android](../android-private-dns/)、[Mac および Apple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、および [ブラウザー](../browser-dns-over-https/)。また、[Pi-hole ガイド](../switch-from-pihole/)の手順に従い、Raspberry Pi 上で小さなフォワーダーを動かすこともできます。
-
-</div>
+ルーターが対応している場合は暗号化 DNS を使用してください。検索クエリは Blokada までの間プライバシーが保護されます。
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## その他のルーター
 
-「DNS over TLS」「Private DNS」「Encrypted DNS」「DNS over HTTPS」などの設定を探してください。上記のBlokada DNS名またはDoHリンクを入力し、他のDNSサーバー（フォールバックも含む）はすべて削除してください。
+_DNS over TLS_、_Private DNS_、_Encrypted DNS_、また&#x306F;_&#x44;NS over HTTP&#x53;_&#x3068;いう設定を探してください。上記からBlokada DNS名またはDoHリンクを入力し、他のすべてのDNSサーバー（フォールバックサーバーを含む）を削除してください。これらの設定がない場合は、下記のプレーンなIPv6アドレスを使用してください。
+
+## IPアドレスのみを設定できるルーター
+
+この設定には、お使いのルーターとインターネット接続がIPv6に対応している必要があります。プレーンなIPv4アドレスへの対応は今後追加予定です。
+
+1. [ダッシュボード](https://app.blokada.org/setup?src=guides)&#x3067;_&#x30BB;ットアッ&#x30D7;_&#x3092;開き、_ルーター、TV、ゲーム&#x6A5F;_&#x3092;選択します。
+2. ルーターに、例え&#x3070;_&#x30DB;ームルータ&#x30FC;_&#x306E;ような名前を付けて、_アドレスを取&#x5F97;_&#x3092;選択します。この名前はアクティビティに表示され、後から変更できません。
+3. ルーターの設定で、_インターネット_、_WAN_、また&#x306F;_&#x49;Pv&#x36;_&#x306E;下にあることが多いIPv6用のDNSサーバーを探し、そのアドレスを唯一のDNSサーバーとして入力してください。
+4. **他のすべてのDNSサーバー（IPv4も含む）を削除してください。** ルーターからIPv4のDNSサーバーを受け取るデバイスは、一部のルックアップをBlokadaを通さずに行うことがあります。ルーターでIPv4 DNSを空欄のままにできない場合は、デバイスごとに次の手順で設定してください：[Android](../android-private-dns/)、[MacおよびApple TV](../apple-devices/)、[Windows](../windows-dns-over-https/)、[Linux](../linux-dns-over-tls/)、および[ブラウザー](../browser-dns-over-https/)。
+
+TVや、手動でDNSサーバーを設定できるゲーム機にも同じ設定が利用できます。それぞれに固有のアドレスを割り当てることで、アクティビティに名前が表示されます。
+
+<div class="note aside">
+
+これらのルックアップは、通常のDNSサーバーと同様に暗号化されずにBlokadaへ送信されます。ルーターがDNS over TLS または DNS over HTTPS をサポートしている場合は、それらを使用してください。
+
+</div>
 
 ## 動作確認
 
 1. デバイスを再起動するか、そのデバイスのWi-Fiを一度オフにしてからオンにし、変更を反映させてください。
-2. 少しブラウジングしたのち、ダッシュボードの「アクティビティ」ページを開いてください。ネットワークの問い合わせ履歴がそこに表示されます。
+2. そのデバイスでBlokadaを実行している場合はオフにし、[go.blokada.org/test](https://go.blokada.org/test)を開いてください。DNS通信がBlokadaを経由しているかどうかが表示されます。
+3. しばらくブラウジングした後、[ダッシュボード](https://app.blokada.org/stats?src=guides)&#x306E;_&#x30A2;クティビテ&#x30A3;_&#x30DA;ージを開いてください。ネットワークによるルックアップがそこに表示されます。
 
 ## 一部のデバイスで広告が表示される場合
 

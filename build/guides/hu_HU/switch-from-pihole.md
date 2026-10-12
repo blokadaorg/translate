@@ -1,7 +1,7 @@
 ---
 title: Egy Pi-hole alternatíva, amelyhez nem szükséges hardver.
 description: Vidd át otthoni reklámblokkolásodat a Pi-hole-ról a Blokada Cloud-ra, vagy használd tovább a Pi-hole-t, és irányítsd a lekérdezéseit a Blokada-n keresztül.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ A Pi-hole minden eszközön blokkolja a reklámokat a hálózatodon, amíg a Ras
 
 - **Nincs külön doboz karbantartása.** Nincs SD kártya, nincs frissítés, nincs kiesés, ha a Pi leáll.
 - **Otthonon kívül is működik.** A telefonok és laptopok továbbra is blokkolnak mobilneten és más Wi-Fi hálózatokon is.
-- **Titkosított.** Az eszközök a Blokada-val DNS over TLS vagy DNS over HTTPS protokollon keresztül kommunikálnak, így a szolgáltatód nem tudja elolvasni vagy módosítani a lekérdezéseidet.
+- **Titkosított.** Az eszközök Blokada-val kommunikálnak DNS over TLS vagy DNS over HTTPS-en keresztül, így a szolgáltatód nem tudja elolvasni vagy módosítani a lekérdezéseidet. Kivétel ez alól az a router vagy eszköz, amely sima IPv6-címet használ, ezek lekérdezései nincsenek titkosítva.
 - **Egyetlen vezérlőpult.** Feketelisták, engedélyezett és blokkolt domainek, valamint eszközönkénti aktivitás a [app.blokada.org](https://app.blokada.org/?src=guides) oldalon.
 
 Két módon válthatsz. Cseréld le teljesen a Pi-hole-t, vagy tartsd meg, és használd a Blokada Cloud-ot upstreamként.
@@ -17,14 +17,14 @@ Két módon válthatsz. Cseréld le teljesen a Pi-hole-t, vagy tartsd meg, és h
 ## 1. lehetőség: a Pi-hole lecserélése
 
 1. **Szerezd be a Blokada Cloud-ot**, és nyisd meg a vezérlőpultot. A DNS neved és DoH linked a _Setup_ résznél, illetve fent a _Your details_ alatt található.
-2. **Irányítsd a routeredet a Blokada-ra a Pi-hole helyett.** Kövesd a [router útmutatót](../router-ad-blocking/). Ha a routered csak egyszerű IP címet fogad el DNS szerverként, akkor állítsd be az eszközöket egyenként: [Android](../android-private-dns/), [Mac és Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) és [böngészők](../browser-dns-over-https/).
+2. **Állítsd át a routeredet, hogy a Blokada-t használja a Pi-hole helyett.** Kövesd a [router útmutatót](../router-ad-blocking/). Ez kitér azokra a routerekre is, amelyek csak egyszerű IP-címeket fogadnak el DNS szerverként, amennyiben a kapcsolatod IPv6-ot használ. Ha nincs IPv6, inkább eszközönként állítsd be őket: [Android](../android-private-dns/), [Mac és Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) és [böngészők](../browser-dns-over-https/).
 3. **Ha a Pi-hole volt a DHCP szervered,** kapcsold vissza a DHCP-t a routeredben _mielőtt_ kikapcsolod a Pi-t. Különben az eszközeid nem kapnak hálózati címet.
 4. **Vidd át a listáidat.** A vezérlőpulton válaszd a feketelistákat a _Blocklists_ alatt, és add hozzá saját engedélyezett vagy blokkolt domaineidet az _Exceptions_ részben.
 5. **Kapcsold ki a Pi-hole-t,** vagy használd más célra.
 
 <div class="note aside">
 
-A Pi-hole az összes eszközt IP cím szerint mutatta a hálózatodban. A Blokada esetén minden eszköz saját nevével jelenik meg, ha saját Blokada DNS nevet használ. Az a router, amely egy Blokada DNS névre van beállítva, egyetlen eszközként jelenik meg.
+A Pi-hole minden eszközt az IP-címe alapján jelenített meg a hálózaton. A Blokada esetén minden eszköz a saját nevén jelenik meg, amennyiben a saját Blokada DNS-nevét használja. Ha a router egyetlen Blokada DNS-névvel vagy IPv6-címmel van beállítva, az egyetlen eszközként jelenik meg.
 
 </div>
 

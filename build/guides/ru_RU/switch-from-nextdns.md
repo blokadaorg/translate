@@ -1,7 +1,7 @@
 ---
 title: Альтернатива NextDNS с одинаковой настройкой на каждом устройстве
 description: Переходите с NextDNS на Blokada Cloud. Замените ваше имя DNS NextDNS, DoH-ссылку или профиль на данные от Blokada на телефоне, компьютере и роутере, чтобы сохранить блокировку рекламы.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3"
 ---
 
@@ -46,7 +46,7 @@ NextDNS и Blokada Cloud работают одинаково: это зашиф�
 
 Если ваш роутер использует NextDNS через DNS over TLS или DNS over HTTPS, замените имя или ссылку NextDNS на свой Blokada, как показано в [гайде по роутерам](../router-ad-blocking/).
 
-Если роутер использует NextDNS через обычные IP-адреса с _привязанным IP_, Blokada пока не может их заменить. Скоро будет поддержка роутеров с обычными DNS-адресами. А пока настраивайте ваши устройства по одному, либо используйте роутер с поддержкой зашифрованного DNS.
+If it uses NextDNS through plain IP addresses, replace them with a Blokada IPv6 address, as in the [router guide](../router-ad-blocking/). This needs IPv6 on your connection, and the lookups are not encrypted. Blokada has no plain IPv4 addresses yet, so a setup with a NextDNS _linked IP_ can't be taken over as it is. Without IPv6, set up your devices one by one, or use a router that supports encrypted DNS.
 
 ## Проверьте, что всё работает
 

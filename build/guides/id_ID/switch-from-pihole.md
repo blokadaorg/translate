@@ -1,7 +1,7 @@
 ---
 title: Alternatif Pi-hole yang tidak memerlukan perangkat keras
 description: Pindahkan pemblokiran iklan di rumah Anda dari Pi-hole ke Blokada Cloud, atau pertahankan Pi-hole Anda dan kirimkan permintaannya melalui Blokada.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Pi-hole memblokir iklan untuk setiap perangkat di jaringan Anda, selama Raspberr
 
 - **Tidak ada perangkat yang harus dirawat.** Tidak ada kartu SD, tidak ada pembaruan, tidak ada mati layanan saat perangkat Pi Anda mati.
 - **Bisa digunakan di luar rumah.** Ponsel dan laptop tetap terblokir iklan meskipun menggunakan data seluler atau jaringan Wi-Fi lain.
-- **Terenkripsi.** Perangkat berbicara dengan Blokada melalui DNS over TLS atau DNS over HTTPS, sehingga penyedia Anda tidak dapat membaca atau mengubah permintaan DNS Anda.
+- **Terenkripsi.** Perangkat berkomunikasi dengan Blokada melalui DNS over TLS atau DNS over HTTPS, sehingga penyedia layanan Anda tidak dapat membaca atau mengubah permintaan DNS Anda. Pengecualian adalah router atau perangkat yang dikonfigurasi dengan alamat IPv6 biasa, di mana permintaan DNS-nya tidak terenkripsi.
 - **Satu dashboard.** Daftar blokir, domain yang diizinkan dan diblokir, serta aktivitas per perangkat dapat dikelola di [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Ada dua cara untuk beralih. Ganti Pi-hole sepenuhnya, atau tetap gunakan Pi-hole dan gunakan Blokada Cloud sebagai upstream-nya.
@@ -17,14 +17,14 @@ Ada dua cara untuk beralih. Ganti Pi-hole sepenuhnya, atau tetap gunakan Pi-hole
 ## Opsi 1: ganti Pi-hole
 
 1. **Dapatkan Blokada Cloud** dan buka dashboard-nya. Nama DNS Anda dan tautan DoH tersedia di bagian _Setup_ di sana, serta di bawah _Your details_ di atas.
-2. **Arahkan router Anda ke Blokada, bukan ke Pi-hole.** Ikuti [panduan router](../router-ad-blocking/). Jika router Anda hanya menerima alamat IP sebagai server DNS, atur masing-masing perangkat secara manual: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [browser](../browser-dns-over-https/).
+2. **Arahkan router Anda ke Blokada, bukan ke Pi-hole.** Ikuti [panduan router](../router-ad-blocking/). Panduan ini juga membahas router yang hanya menerima alamat IP biasa sebagai server DNS, selama koneksi Anda memiliki IPv6. Jika tidak ada IPv6, atur perangkat Anda satu per satu: [Android](../android-private-dns/), [Mac dan Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), dan [browser](../browser-dns-over-https/).
 3. **Jika Pi-hole Anda berperan sebagai server DHCP,** aktifkan kembali DHCP di router _sebelum_ Anda mematikan Pi. Jika tidak, perangkat tidak akan mendapatkan alamat jaringan.
 4. **Pindahkan daftar Anda.** Di dashboard, pilih daftar blokir di bawah _Blocklists_, dan tambahkan domain yang Anda izinkan atau blokir sendiri di bawah _Exceptions_.
 5. **Matikan Pi-hole,** atau tetap gunakan untuk keperluan lain.
 
 <div class="note aside">
 
-Pi-hole Anda menampilkan setiap perangkat di jaringan berdasarkan alamat IP mereka. Dengan Blokada, setiap perangkat akan terlihat dengan namanya sendiri, selama menggunakan nama DNS Blokada masing-masing. Router yang diatur dengan satu nama DNS Blokada akan tampil sebagai satu perangkat.
+Pi-hole Anda menampilkan setiap perangkat di jaringan berdasarkan alamat IP-nya. Dengan Blokada, setiap perangkat akan muncul berdasarkan namanya sendiri, selama menggunakan nama DNS Blokada-nya sendiri. Router yang diatur dengan satu nama DNS Blokada atau alamat IPv6 akan muncul sebagai satu perangkat.
 
 </div>
 

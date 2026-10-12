@@ -1,7 +1,7 @@
 ---
 title: Blokkeer advertenties op je hele netwerk met router-advertentieblokkering.
 description: Stel Blokada Cloud één keer in op je router en elk apparaat thuis is beschermd, inclusief tv's, spelcomputers en slimme speakers die geen advertentieblokker kunnen uitvoeren.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Elk apparaat in je netwerk vraagt de router welke DNS-server gebruikt moet worde
 
 ## Wat je router nodig heeft
 
-Je router moet **versleutelde DNS met een hostnaam** ondersteunen, oftewel DNS over TLS (DoT) of DNS over HTTPS (DoH). Veel recente routers doen dit, waaronder de onderstaande modellen. Afhankelijk van wat je router ondersteunt, heb je je DNS-naam of je DoH-link nodig, beide onder _Je gegevens_ hierboven.
+Er zijn twee manieren om een router in te stellen:
 
-<div class="note important">
+- **Versleutelde DNS met een hostnaam**, oftewel DNS over TLS (DoT) of DNS over HTTPS (DoH). Veel recente routers ondersteunen dit, waaronder de onderstaande modellen. Afhankelijk van wat jouw router ondersteunt, heb je je DNS-naam of je DoH-link nodig, beide te vinden onder _Jouw gegevens_ hierboven.
+- **Een standaard IPv6 DNS-adres.** Veel routers van internetproviders accepteren alleen standaard IP-adressen voor DNS. Als dat bij jouw router het geval is en je verbinding ondersteunt IPv6, geeft Blokada je een IPv6-adres om in te voeren. Zie [Routers die alleen een IP-adres accepteren](#routers-that-only-take-an-ip-address).
 
-**Alleen platte IP-adressen?** Veel routers van internetproviders accepteren alleen platte IP-adressen voor DNS. Ondersteuning daarvoor komt eraan. Tot die tijd stel je je apparaten afzonderlijk in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/). Je kunt ook een kleine forwarder op een Raspberry Pi draaien, zoals beschreven in de [Pi-hole-gids](../switch-from-pihole/).
-
-</div>
+Gebruik versleutelde DNS als jouw router dit ondersteunt. Opzoekingen blijven privé tijdens het verzenden naar Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recente ASUS-firmware (3.0.0.4.388 of nieuwer) en Asuswrt-Merlin.
 
 ## Andere routers
 
-Zoek naar een instelling genaamd _DNS over TLS_, _Private DNS_, _Versleutelde DNS_ of _DNS over HTTPS_. Voer je Blokada DNS-naam of DoH-link van hierboven in, en verwijder alle andere DNS-servers, inclusief fallback-servers.
+Zoek naar een instelling genaamd _DNS over TLS_, _Private DNS_, _Encrypted DNS_ of _DNS over HTTPS_. Voer je Blokada DNS-naam of DoH-link van hierboven in en verwijder alle andere DNS-servers, inclusief de fallback-servers. Als deze instelling er niet is, gebruik dan een gewoon IPv6-adres zoals hieronder.
+
+## Routers die alleen een IP-adres accepteren
+
+Je router en je internetverbinding hebben IPv6 hiervoor nodig. Ondersteuning voor alleen IPv4-adressen volgt later.
+
+1. Open in het [dashboard](https://app.blokada.org/setup?src=guides) _Instellen_ en kies _Router, tv, spelconsole_.
+2. Geef de router een naam, bijvoorbeeld _Thuisrouter_, en selecteer _Adres ophalen_. De naam verschijnt in je activiteit en kan later niet meer worden gewijzigd.
+3. Zoek in de instellingen van de router de DNS-servers voor IPv6, vaak onder _Internet_, _WAN_ of _IPv6_, en voer het adres in als de enige DNS-server.
+4. **Verwijder alle andere DNS-servers, ook die voor IPv4.** Apparaten die van de router nog steeds een IPv4 DNS-server krijgen, sturen sommige aanvragen buiten Blokada om. Als de router geen IPv4 DNS leeg kan laten, stel dan je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/).
+
+Dezelfde instelling werkt voor een tv of spelconsole waarop je handmatig een DNS-server kunt invoeren. Geef elk apparaat zijn eigen adres zodat deze met naam in je activiteit verschijnt.
+
+<div class="note aside">
+
+Deze aanvragen gaan ongecodeerd naar Blokada, net als bij elke gewone DNS-server. Als je router DNS over TLS of DNS over HTTPS ondersteunt, gebruik dat dan in plaats daarvan.
+
+</div>
 
 ## Controleer of het werkt
 
 1. Herstart één apparaat of zet de wifi uit en weer aan, zodat het de wijziging oppikt.
-2. Navigeer één minuut op internet en open dan de pagina _Activiteit_ in het dashboard. De opvragingen van je netwerk verschijnen daar.
+2. Zet op dat apparaat Blokada uit als het draait, open daarna [go.blokada.org/test](https://go.blokada.org/test). Deze pagina laat zien of je DNS via Blokada gaat.
+3. Blader een minuut rond en open dan de pagina _Activiteit_ in het [dashboard](https://app.blokada.org/stats?src=guides). De aanvragen van je netwerk worden daar weergegeven.
 
 ## Als sommige apparaten nog steeds advertenties weergeven
 

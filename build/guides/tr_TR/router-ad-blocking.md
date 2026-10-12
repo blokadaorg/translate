@@ -1,7 +1,7 @@
 ---
 title: Tüm ağınızda reklamları yönlendirici ile engelleyin.
 description: Blokada Cloud'u yönlendiricinize bir kez kurun, evdeki tüm cihazlarınız - reklam engelleyici çalıştıramayan TV'ler, oyun konsolları ve akıllı hoparlörler dahil - korunur.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Ağınızdaki her cihaz hangi DNS sunucusunun kullanılacağını yönlendiricin
 
 ## Yönlendiricinizin ihtiyacı olanlar
 
-Yönlendiriciniz **ana bilgisayar adı ile şifrelenmiş DNS** desteklemelidir, yani DNS over TLS (DoT) veya DNS over HTTPS (DoH). Birçok yeni yönlendirici bu özelliği desteklemektedir, aşağıdaki modeller dahil. Sizin yönlendiriciniz hangisini destekliyorsa, _Yukarıdaki bilgileriniz_ kısmında bulunan DNS adınızı veya DoH bağlantınızı kullanmalısınız.
+Bir yönlendirici kurmanın iki yolu vardır:
 
-<div class="note important">
+- **Bir ana bilgisayar adı ile şifreli DNS**, yani TLS üzerinden DNS (DoT) veya HTTPS üzerinden DNS (DoH). Birçok yeni yönlendirici bunu destekler ve aşağıdaki modeller buna dahildir. Yönlendiricinizin hangisini desteklediğine bağlı olarak, yukarıdaki _Bilgileriniz_ kısmında hem DNS adınıza hem de DoH bağlantınıza ihtiyacınız olacak.
+- **Düz bir IPv6 DNS adresi.** Birçok internet sağlayıcı yönlendiricisi, DNS için yalnızca düz IP adreslerini kabul eder. Sizin yönlendiriciniz de böyleyse ve bağlantınız IPv6 ise, Blokada size girmeniz için bir IPv6 adresi sağlar. [Yalnızca IP adresi kabul eden yönlendiriciler](#routers-that-only-take-an-ip-address) bölümüne bakın.
 
-**Yalnızca sade IP adresleri mi?** Birçok internet sağlayıcı yönlendiricisi DNS için yalnızca IP adreslerini kabul eder. Bu tip cihazlar için destek yakında gelecek. O zamana kadar, cihazlarınızı tek tek ayarlayın: [Android](../android-private-dns/), [Mac ve Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ve [tarayıcılar](../browser-dns-over-https/). Ayrıca [Pi-hole rehberinde](../switch-from-pihole/) anlatıldığı şekilde bir Raspberry Pi üzerinde küçük bir yönlendirici de çalıştırabilirsiniz.
-
-</div>
+Yönlendiriciniz destekliyorsa şifreli DNS kullanın. Sorgularınız Blokada'ya giderken gizli kalır.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Diğer yönlendiriciler
 
-_DNS over TLS_, _Özel DNS_, _Şifreli DNS_ veya _DNS over HTTPS_ adında bir ayar arayın. Yukarıdan Blokada DNS adınızı veya DoH bağlantınızı girin ve diğer tüm DNS sunucularını, yedek sunucular dahil, kaldırın.
+_DNS over TLS_, _Özel DNS_, _Şifreli DNS_ veya _DNS over HTTPS_ adında bir ayar arayın. Yukarıdan Blokada DNS adınızı veya DoH bağlantınızı girin ve tüm diğer DNS sunucularını, yedek sunucular dahil, kaldırın. Böyle bir ayar yoksa, aşağıdaki gibi düz bir IPv6 adresi kullanın.
+
+## Yalnızca bir IP adresi kabul eden yönlendiriciler
+
+Yönlendiricinizin ve internet bağlantınızın bunun için IPv6 desteklemesi gerekir. Düz IPv4 adresleri desteği daha sonra eklenecektir.
+
+1. [Pano](https://app.blokada.org/setup?src=guides) üzerinden _Kurulum_ bölümünü açın ve _Yönlendirici, TV, oyun konsolu_ seçeneğini seçin.
+2. Yönlendiriciye bir isim verin, örneğin _Ev yönlendiricisi_, ve _Adres al_ seçeneğini seçin. Bu isim etkinliğinizde görünecek ve daha sonra değiştirilemez.
+3. Yönlendiricinin ayarlarında, genellikle _İnternet_, _WAN_ veya _IPv6_ altında, IPv6 için DNS sunucularını bulun ve adresi tek DNS sunucusu olarak girin.
+4. **Diğer tüm DNS sunucularını, IPv4 olanlar dahil kaldırın.** Yönlendiriciden halen bir IPv4 DNS sunucusu alan cihazlar bazı sorguları Blokada'nın dışından gönderir. Eğer yönlendirici IPv4 DNS'yi boş bırakmaya izin vermiyorsa, cihazlarınızı tek tek yapılandırın: [Android](../android-private-dns/), [Mac ve Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) ve [tarayıcılar](../browser-dns-over-https/).
+
+TV veya elle DNS sunucusu girebileceğiniz bir oyun konsolu için de aynı kurulum geçerlidir. Her biri için ayrı bir adres girin, böylece etkinliğinizde ismiyle görünsün.
+
+<div class="note aside">
+
+Bu sorgular şifrelemesiz olarak Blokada'ya iletilir, tıpkı herhangi bir düz DNS sunucusunda olduğu gibi. Eğer yönlendiriciniz DNS over TLS veya DNS over HTTPS destekliyorsa, bunun yerine onu kullanın.
+
+</div>
 
 ## Çalışıp çalışmadığını kontrol edin
 
 1. Bir cihazı yeniden başlatın veya Wi-Fi'ını kapatıp açın ki değişikliği alsın.
-2. Bir dakika gezin, ardından kontrol panelindeki _Etkinlik_ sayfasını açın. Ağınıza ait sorgulamalar burada görünür.
+2. Cihazda Blokada çalışıyorsa kapatın, sonra [go.blokada.org/test](https://go.blokada.org/test) adresini açın. DNS'inizin Blokada üzerinden gidip gitmediğini gösterir.
+3. Bir dakika dolaşın, ardından [pano](https://app.blokada.org/stats?src=guides) üzerinden _Etkinlik_ sayfasını açın. Ağınızın sorguları burada görüntülenir.
 
 ## Bazı cihazlar hâlâ reklam gösteriyorsa
 

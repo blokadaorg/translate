@@ -1,7 +1,7 @@
 ---
 title: Blochează reclamele pe toată rețeaua ta cu blocarea reclamelor la nivel de router.
 description: Configurează Blokada Cloud pe routerul tău o singură dată și fiecare dispozitiv de acasă va fi protejat, inclusiv televizoarele, consolele de jocuri și difuzoarele inteligente care nu pot folosi un blocator de reclame.
-updated: 2026-10-02
+updated: 09.10.2026
 order: 4
 ---
 
@@ -9,13 +9,12 @@ Fiecare dispozitiv din rețeaua ta întreabă routerul ce server DNS să folosea
 
 ## De ce are nevoie routerul tău
 
-Routerul tău trebuie să suporte **DNS criptat cu nume de gazdă**, adică DNS over TLS (DoT) sau DNS over HTTPS (DoH). Multe routere recente oferă această funcție, inclusiv modelele de mai jos. În funcție de ceea ce suportă routerul tău, ai nevoie de numele DNS sau de link-ul DoH, ambele fiind disponibile la secțiunea _Detaliile tale_ de mai sus.
+Există două moduri de a configura un router:
 
-<div class="note important">
+- **DNS criptat cu un nume de gazdă**, adică DNS over TLS (DoT) sau DNS over HTTPS (DoH). Multe routere recente acceptă aceste protocoale, inclusiv modelele de mai jos. În funcţie de ce protocol suportă routerul tău, vei avea nevoie de numele tău DNS sau link-ul tău DoH, ambele aflate în secţiunea _Datele tale_ de mai sus.
+- **O adresă DNS IPv6 simplă.** Multe routere oferite de furnizorii de internet acceptă doar adrese IP simple pentru DNS. Dacă al tău funcţionează aşa şi conexiunea ta suportă IPv6, Blokada îţi furnizează o adresă IPv6 de introdus. Vezi secţiunea [Routere care acceptă doar o adresă IP](#routers-that-only-take-an-ip-address).
 
-**Doar adrese IP simple?** Multe routere ale furnizorilor de internet acceptă doar adrese IP simple pentru DNS. Suportul pentru acestea este în curs de dezvoltare. Până atunci, configurează dispozitivele individual: [Android](../android-private-dns/), [Mac și Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) și [browsere](../browser-dns-over-https/). Poți de asemenea rula un mic forwarder pe un Raspberry Pi, așa cum este descris în [ghidul Pi-hole](../switch-from-pihole/).
-
-</div>
+Foloseşte DNS criptat dacă routerul tău îl suportă. Interogările rămân private pe drumul lor către Blokada.
 
 ## FRITZ!Box
 
@@ -48,12 +47,30 @@ Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.
 
 ## Alte routere
 
-Caută o opțiune numită _DNS over TLS_, _DNS privat_, _DNS criptat_ sau _DNS over HTTPS_. Introdu numele DNS Blokada sau link-ul DoH de mai sus, și elimină orice alt server DNS, inclusiv cele de rezervă.
+Caută o setare numită _DNS peste TLS_, _DNS privat_, _DNS criptat_ sau _DNS peste HTTPS_. Introdu numele DNS Blokada sau linkul DoH de mai sus și elimină orice alt server DNS, inclusiv serverele de rezervă. Dacă nu există o astfel de setare, folosește o adresă IPv6 simplă, așa cum este mai jos.
+
+## Routere care acceptă doar o adresă IP
+
+Routerul tău și conexiunea la internet au nevoie de IPv6 pentru aceasta. Suportul pentru adrese doar IPv4 va fi disponibil ulterior.
+
+1. În [dashboard](https://app.blokada.org/setup?src=guides), deschide _Setare_ și alege _Router, TV, consolă de jocuri_.
+2. Dă un nume routerului, de exemplu _Router acasă_, și selectează _Obține adresă_. Numele va apărea în activitatea ta și nu mai poate fi schimbat ulterior.
+3. În setările routerului, caută serverele DNS pentru IPv6, de obicei la _Internet_, _WAN_ sau _IPv6_, și introdu adresa ca singurul server DNS.
+4. **Elimină orice alt server DNS, inclusiv cele pe IPv4.** Dispozitivele care primesc totuși un server DNS pe IPv4 de la router pot trimite unele interogări ocolind Blokada. Dacă routerul nu permite golirea câmpului DNS pe IPv4, configurează dispozitivele separat: [Android](../android-private-dns/), [Mac și Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) și [browsere](../browser-dns-over-https/).
+
+Aceeași configurare funcționează pentru un TV sau o consolă de jocuri care permite introducerea manuală a unui server DNS. Asigură fiecăruia o adresă proprie, ca să apară cu nume în activitatea ta.
+
+<div class="note aside">
+
+Aceste interogări ajung necriptat la Blokada, ca și în cazul oricărui server DNS simplu. Dacă routerul tău suportă DNS peste TLS sau DNS peste HTTPS, folosește acea opțiune în schimb.
+
+</div>
 
 ## Verifică dacă funcționează
 
 1. Repornește un dispozitiv, sau închide și pornește Wi-Fi-ul acestuia, pentru ca modificarea să fie preluată.
-2. Navighează timp de un minut, apoi deschide pagina _Activitate_ din tabloul de bord. Interogările rețelei tale vor apărea acolo.
+2. Pe acel dispozitiv, dezactivează Blokada dacă rulează, apoi deschide [go.blokada.org/test](https://go.blokada.org/test). Acesta arată dacă DNS-ul tău trece prin Blokada.
+3. Navighează puțin, apoi deschide pagina _Activitate_ din [dashboard](https://app.blokada.org/stats?src=guides). Interogările rețelei tale vor apărea acolo.
 
 ## Dacă unele dispozitive încă afișează reclame
 

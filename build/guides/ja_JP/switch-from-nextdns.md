@@ -1,7 +1,7 @@
 ---
 title: すべてのデバイスで同じ設定を使える NextDNS の代替サービス
 description: NextDNS から Blokada Cloud に移行しましょう。電話、コンピューター、ルーターで NextDNS の DNS 名、DoH リンク、またはプロファイルを Blokada のものに入れ替えて、広告ブロック機能を維持できます。
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ NextDNS アプリを使用している場合はアンインストールしてく
 
 ルーターが DNS over TLS または DNS over HTTPS 経由で NextDNS を利用している場合は、[ルーターガイド](../router-ad-blocking/) に従い NextDNS の名前またはリンクを Blokada のものに置き換えてください。
 
-_リンク済み IP_ 付きのプレーン IP アドレス経由で NextDNS を使っている場合、Blokada ではまだ対応できません。プレーン DNS アドレス対応ルーターのサポートは今後追加予定です。それまでは各端末ごとに設定するか、暗号化 DNS に対応したルーターをご利用ください。
+NextDNS を単純な IP アドレスで利用している場合は、[ルーターガイド](../router-ad-blocking/)のようにそれらを Blokada の IPv6 アドレスに置き換えてください。この方法を利用するには接続で IPv6 が必要となり、名前解決は暗号化されません。Blokada はまだ単純な IPv4 アドレスを提供していないため、NextDNS の「linked IP」設定をそのまま引き継ぐことはできません。IPv6 が使えない場合は、デバイスごとに個別に設定するか、暗号化された DNS をサポートするルーターを利用してください。
 
 ## 動作確認
 
