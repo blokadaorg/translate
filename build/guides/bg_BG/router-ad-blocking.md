@@ -1,7 +1,7 @@
 ---
 title: Блокирайте рекламите в цялата си мрежа, чрез блокиране на рекламите от рутера
 description: Настройте Blokada Cloud на вашия рутер само веднъж и всички устройства у дома ще бъдат защитени, включително телевизори, игрови конзоли и смарт спийкъри, които не могат да използват рекламен блокер.
-updated: 2026-10-09
+updated: 09-10-2026
 order: 4
 ---
 
@@ -9,7 +9,7 @@ order: 4
 
 ## Какво е необходимо за вашия рутер
 
-There are two ways to set up a router:
+Има два начина да настроите рутерa:
 
 - **Encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
 - **A plain IPv6 DNS address.** Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See [Routers that only take an IP address](#routers-that-only-take-an-ip-address).
