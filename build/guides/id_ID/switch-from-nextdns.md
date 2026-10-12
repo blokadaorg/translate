@@ -1,7 +1,7 @@
 ---
 title: Alternatif NextDNS dengan pengaturan yang sama di setiap perangkat
 description: Pindah dari NextDNS ke Blokada Cloud. Tukar nama DNS, tautan DoH, atau profil NextDNS Anda dengan milik Blokada di ponsel, komputer, dan router Anda, lalu pertahankan pemblokiran iklan Anda.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Jika Anda mengatur `https://dns.nextdns.io/…` sebagai _DNS aman_ peramban Anda
 
 Jika router Anda menggunakan NextDNS lewat DNS over TLS atau DNS over HTTPS, ganti nama atau tautan NextDNS dengan milik Blokada Anda, seperti di [panduan router](../router-ad-blocking/).
 
-Jika menggunakan NextDNS melalui alamat IP biasa dengan _IP tertaut_, Blokada belum dapat menggantikan itu. Dukungan untuk router dengan alamat DNS biasa sedang dalam pengembangan. Hingga saat itu, atur perangkat Anda satu per satu, atau gunakan router yang mendukung DNS terenkripsi.
+Jika menggunakan NextDNS melalui alamat IP biasa, ganti dengan alamat IPv6 Blokada, sesuai petunjuk di [panduan router](../router-ad-blocking/). Ini memerlukan IPv6 pada sambungan Anda, dan pencarian DNS tersebut tidak dienkripsi. Blokada belum memiliki alamat IPv4 biasa, sehingga pengaturan menggunakan _linked IP_ NextDNS tidak dapat langsung diambil alih begitu saja. Tanpa IPv6, atur perangkat Anda satu per satu, atau gunakan router yang mendukung DNS terenkripsi.
 
 ## Periksa apakah sudah berfungsi
 
