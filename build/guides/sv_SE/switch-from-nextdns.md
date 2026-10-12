@@ -1,7 +1,7 @@
 ---
 title: Ett alternativ till NextDNS med samma inställning på alla enheter
 description: Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Om du angav `https://dns.nextdns.io/…` som webbläsarens _säkra DNS_ byter du
 
 Om din router använder NextDNS via DNS över TLS eller DNS över HTTPS ersätter du NextDNS-namnet eller -länken med ditt Blokada-DNS-namn eller din DoH-länk, enligt [routerguiden](../router-ad-blocking/).
 
-Om den använder NextDNS via vanliga IP-adresser med en _linked IP_ kan Blokada inte ta över det än. Stöd för routrar med vanliga DNS-adresser är på väg. Till dess kan du ställa in dina enheter en i taget, eller använda en router som har stöd för krypterad DNS.
+Om den använder NextDNS via vanliga IP-adresser, ersätt dem med en Blokada IPv6-adress enligt [routerguiden](../router-ad-blocking/). Detta kräver att du har IPv6 på din anslutning och förfrågningarna är inte krypterade. Blokada har ännu inga vanliga IPv4-adresser, så en installation med en NextDNS _länkad IP_ kan inte tas över som den är. Utan IPv6 måste du konfigurera dina enheter en och en, eller använda en router som stöder krypterad DNS.
 
 ## Kontrollera att det fungerar
 
