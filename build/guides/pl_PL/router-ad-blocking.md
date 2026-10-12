@@ -49,7 +49,7 @@ Najnowsze oprogramowanie ASUS (3.0.0.4.388 lub nowsze) oraz Asuswrt-Merlin.
 
 Poszukaj ustawienia o nazwie _DNS przez TLS_, _Prywatny DNS_, _Szyfrowany DNS_ lub _DNS przez HTTPS_. Wprowadź swoją nazwę DNS Blokada lub link DoH z powyższej instrukcji i usuń wszystkie pozostałe serwery DNS, łącznie z serwerami zapasowymi. Jeśli nie ma takiego ustawienia, użyj zwykłego adresu IPv6 według poniższych wskazówek.
 
-## Routery, które przyjmują tylko adres IP
+## Routery, które akceptują tylko adres IP {:#routers-that-only-take-an-ip-address}
 
 Twój router i Twoje połączenie internetowe muszą obsługiwać IPv6, aby to działało. Obsługa zwykłych adresów IPv4 pojawi się później.
 
