@@ -1,7 +1,7 @@
 ---
 title: Egy NextDNS alternatíva, ugyanolyan beállítással minden eszközön.
 description: Válts NextDNS-ről Blokada Cloud-ra. Cseréld le a NextDNS DNS nevedet, DoH hivatkozásodat vagy profilodat a Blokada megfelelőjére telefonodon, számítógépeden és routeredben, és tartsd meg a reklámblokkolást.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 3
 ---
 
@@ -46,7 +46,7 @@ Ha a `https://dns.nextdns.io/…` címet állítottad be böngésződ _biztonsá
 
 Ha a routered a NextDNS-t DNS over TLS vagy DNS over HTTPS protokollon keresztül használja, cseréld le a NextDNS nevet vagy hivatkozást a saját Blokada adatodra a [router útmutató](../router-ad-blocking/) szerint.
 
-Ha a router sima IP címeken keresztül használja a NextDNS-t _kapcsolt IP_-vel, ezt a Blokada még nem tudja átvenni. A sima DNS címmel működő routerek támogatása hamarosan érkezik. Addig állítsd be az eszközeidet egyenként, vagy használj olyan routert, amely támogatja a titkosított DNS-t.
+Ha a NextDNS-t sima IP-címeken keresztül használja, cserélje le ezeket egy Blokada IPv6-címre a [router útmutató](../router-ad-blocking/) alapján. Ehhez IPv6-kapcsolat szükséges, és a lekérdezések nem lesznek titkosítva. A Blokada jelenleg nem rendelkezik sima IPv4-címekkel, így egy NextDNS _kapcsolt IP_-vel működő beállítás nem vihető át változtatás nélkül. IPv6 hiányában állítsa be eszközeit egyenként, vagy használjon olyan routert, amely támogatja a titkosított DNS-t.
 
 ## Ellenőrizd, hogy működik-e
 
