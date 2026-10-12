@@ -1,7 +1,7 @@
 ---
 title: O alternativă la Pi-hole care nu necesită hardware
 description: Mută blocarea reclamelor pentru rețeaua ta de acasă de la un Pi-hole la Blokada Cloud sau păstrează Pi-hole și trimite interogările sale către Blokada.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Un Pi-hole blochează reclamele pentru fiecare dispozitiv de pe rețeaua ta, at�
 
 - **Fără cutie de întreținut.** Fără carduri SD, fără actualizări, fără întreruperi atunci când Pi-ul se oprește.
 - **Funcționează și în afara casei.** Telefoanele și laptopurile păstrează blocarea reclamelor prin date mobile și alte rețele Wi-Fi.
-- **Criptat.** Dispozitivele comunică cu Blokada prin DNS peste TLS sau DNS peste HTTPS, astfel încât furnizorul tău nu poate citi sau modifica interogările.
+- **Criptat.** Dispozitivele comunică cu Blokada prin DNS over TLS sau DNS over HTTPS, astfel încât furnizorul tău nu poate citi sau modifica interogările tale. Excepție face un router sau un dispozitiv configurat cu o adresă IPv6 simplă, ale căror interogări nu sunt criptate.
 - **Un singur panou de control.** Liste de blocare, domenii permise și blocate și activitate pe dispozitiv, la [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Există două moduri de a schimba. Înlocuiește complet Pi-hole sau păstrează-l și folosește Blokada Cloud ca upstream.
@@ -17,14 +17,14 @@ Există două moduri de a schimba. Înlocuiește complet Pi-hole sau păstrează
 ## Opțiunea 1: înlocuiește Pi-hole
 
 1. **Obține Blokada Cloud** și deschide panoul de control. Numele tău DNS și linkul DoH sunt sub _Setup_ acolo și sub _Detaliile tale_ mai sus.
-2. **Configurează routerul tău pentru Blokada în loc de Pi-hole.** Urmează [ghidul pentru router](../router-ad-blocking/). Dacă routerul tău acceptă doar o adresă IP simplă ca server DNS, configurează dispozitivele pe rând: [Android](../android-private-dns/), [Mac și Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) și [browsere](../browser-dns-over-https/).
+2. **Configurează routerul să folosească Blokada în loc de Pi-hole.** Urmează [ghidul pentru router](../router-ad-blocking/). Acesta acoperă și routerele care acceptă doar o adresă IP simplă ca server DNS, atâta timp cât conexiunea ta utilizează IPv6. Fără IPv6, configurează-ți dispozitivele individual: [Android](../android-private-dns/), [Mac și Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) și [browsere](../browser-dns-over-https/).
 3. **Dacă Pi-hole-ul tău era serverul DHCP,** activează din nou DHCP în router _înainte_ să oprești Pi-hole. Altfel, dispozitivele tale nu mai primesc adrese de rețea.
 4. **Mută listele tale.** În panoul de control, alege listele de blocare din _Blocklists_ și adaugă domeniile permise sau blocate proprii la _Excepții_.
 5. **Oprește Pi-hole,** sau păstrează-l pentru altceva.
 
 <div class="note aside">
 
-Pi-hole-ul tău afișa fiecare dispozitiv din rețea după adresa IP. Cu Blokada, fiecare dispozitiv apare cu numele său, atâta timp cât folosește propriul nume DNS de Blokada. Un router configurat cu un singur nume DNS Blokada va apărea ca un singur dispozitiv.
+Pi-hole-ul tău afișa fiecare dispozitiv din rețea după adresa sa IP. Cu Blokada, fiecare dispozitiv apare cu propriul său nume, atâta timp cât folosește propriul său nume DNS Blokada. Un router configurat cu un singur nume DNS Blokada sau cu o adresă IPv6 apare ca un singur dispozitiv.
 
 </div>
 
