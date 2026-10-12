@@ -1,7 +1,7 @@
 ---
 title: Een Pi-hole alternatief dat geen hardware nodig heeft.
 description: Verplaats de advertentieblokkering van je huis van een Pi-hole naar Blokada Cloud, of behoud je Pi-hole en stuur de zoekopdrachten daarvan via Blokada.
-updated: 2026-10-02
+updated: 2026-10-09
 order: 1
 ---
 
@@ -9,7 +9,7 @@ Een Pi-hole blokkeert advertenties voor elk apparaat op je netwerk, zolang de Ra
 
 - **Geen apparaat om te onderhouden.** Geen SD-kaarten, geen updates, geen uitval als de Pi uitvalt.
 - **Het werkt ook buitenshuis.** Telefoons en laptops blijven advertenties blokkeren via mobiel internet en andere Wi-Fi netwerken.
-- **Versleuteld.** Apparaten communiceren met Blokada via DNS over TLS of DNS over HTTPS, zodat je provider je zoekopdrachten niet kan lezen of wijzigen.
+- **Versleuteld.** Apparaten communiceren met Blokada via DNS over TLS of DNS over HTTPS, zodat jouw provider je zoekopdrachten niet kan lezen of wijzigen. De uitzondering is een router of apparaat dat is ingesteld met een gewoon IPv6-adres; daarvan zijn de zoekopdrachten niet versleuteld.
 - **Één dashboard.** Blokkeerlijsten, toegestane en geblokkeerde domeinen, en activiteit per apparaat, op [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Er zijn twee manieren om over te stappen. Vervang de Pi-hole volledig, of houd hem en gebruik Blokada Cloud als zijn upstream.
@@ -17,14 +17,14 @@ Er zijn twee manieren om over te stappen. Vervang de Pi-hole volledig, of houd h
 ## Optie 1: vervang de Pi-hole
 
 1. **Neem Blokada Cloud** en open het dashboard. Je DNS-naam en DoH-link staan daar onder _Installatie_, en hierboven onder _Je gegevens_.
-2. **Stel je router in op Blokada in plaats van de Pi-hole.** Volg de [routergids](../router-ad-blocking/). Accepteert je router alleen een gewoon IP-adres als DNS-server? Stel dan je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/).
+2. **Stel je router in op Blokada in plaats van de Pi-hole.** Volg de [routerhandleiding](../router-ad-blocking/). Deze behandelt ook routers die alleen een gewoon IP-adres als DNS-server accepteren, zolang je verbinding IPv6 heeft. Zonder IPv6 stel je je apparaten één voor één in: [Android](../android-private-dns/), [Mac en Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) en [browsers](../browser-dns-over-https/).
 3. **Als je Pi-hole de DHCP-server was,** schakel DHCP dan weer in op je router _voordat_ je de Pi uitzet. Anders krijgen je apparaten geen netwerkadressen meer.
 4. **Verplaats je lijsten.** Kies in het dashboard blokkeerlijsten onder _Blocklists_, en voeg je eigen toegestane of geblokkeerde domeinen toe onder _Exceptions_.
 5. **Schakel de Pi-hole uit,** of bewaar hem voor een ander doel.
 
 <div class="note aside">
 
-Je Pi-hole gaf elk apparaat in het netwerk weer via zijn IP-adres. Met Blokada verschijnt elk apparaat onder zijn eigen naam, zolang het zijn eigen Blokada DNS-naam gebruikt. Een router ingesteld met één Blokada DNS-naam wordt als één apparaat weergegeven.
+Je Pi-hole gaf elk apparaat op het netwerk weer via zijn IP-adres. Met Blokada verschijnt elk apparaat met zijn eigen naam, zolang het zijn eigen Blokada DNS-naam gebruikt. Een router die is ingesteld met één Blokada DNS-naam of IPv6-adres wordt getoond als één apparaat.
 
 </div>
 
