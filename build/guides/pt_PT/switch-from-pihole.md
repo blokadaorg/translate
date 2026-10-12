@@ -1,7 +1,7 @@
 ---
 title: Uma alternativa ao Pi-hole que não requer hardware
 description: Transfira o bloqueio de anúncios da sua casa de um Pi-hole para o Blokada Cloud, ou mantenha o seu Pi-hole e envie as consultas dele pelo Blokada.
-updated: 02-10-2026
+updated: "2026-10-09\r\n"
 order: 1​ (um)
 ---
 
@@ -9,7 +9,7 @@ Um Pi-hole bloqueia anúncios para todos os dispositivos na sua rede, desde que 
 
 - **Sem caixa para manter.** Sem cartões SD, sem atualizações, sem interrupções quando o Pi cai.
 - **Funciona fora de casa.** Celulares e laptops mantêm o bloqueio usando dados móveis e outras redes Wi-Fi.
-- **Criptografado.** Os dispositivos se comunicam com o Blokada usando DNS sobre TLS ou DNS sobre HTTPS, assim seu provedor não pode ler ou alterar suas consultas.
+- **Criptografado.** Os dispositivos se comunicam com o Blokada usando DNS sobre TLS ou DNS sobre HTTPS, portanto, seu provedor não pode ler ou alterar suas consultas. A exceção é um roteador ou dispositivo configurado com um endereço IPv6 simples, cujas consultas não são criptografadas.
 - **Um único painel.** Listas de bloqueio, domínios permitidos e bloqueados, e atividade por dispositivo, em [app.blokada.org](https://app.blokada.org/?src=guides).
 
 Há duas maneiras de trocar. Substitua o Pi-hole completamente ou mantenha-o usando o Blokada Cloud como upstream.
@@ -17,14 +17,14 @@ Há duas maneiras de trocar. Substitua o Pi-hole completamente ou mantenha-o usa
 ## Opção 1: substituir o Pi-hole
 
 1. **Adquira o Blokada Cloud** e abra o painel. Seu nome DNS e o link DoH estão na seção _Configuração_ ali, e em _Seus detalhes_ acima.
-2. **Aponte seu roteador para o Blokada em vez do Pi-hole.** Siga o [guia do roteador](../router-ad-blocking/). Se seu roteador só aceitar um endereço IP simples como servidor DNS, configure seus dispositivos individualmente: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [navegadores](../browser-dns-over-https/).
+2. **Aponte seu roteador para o Blokada em vez do Pi-hole.** Siga o [guia do roteador](../router-ad-blocking/). Ele também cobre roteadores que só aceitam um endereço IP simples como servidor DNS, desde que sua conexão tenha IPv6. Sem IPv6, configure seus dispositivos um por um: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [navegadores](../browser-dns-over-https/).
 3. **Se o seu Pi-hole era o servidor DHCP,** ative o DHCP no seu roteador _antes_ de desligar o Pi. Caso contrário, seus dispositivos deixarão de receber endereços de rede.
 4. **Transfira suas listas.** No painel, escolha listas de bloqueio em _Blocklists_ e adicione seus próprios domínios permitidos ou bloqueados em _Exceções_.
 5. **Desligue o Pi-hole,** ou mantenha-o para outra finalidade.
 
 <div class="note aside">
 
-Seu Pi-hole mostrava cada dispositivo na rede pelo endereço IP. Com o Blokada, cada dispositivo aparece com seu próprio nome, contanto que utilize seu próprio nome DNS do Blokada. Um roteador configurado com um único nome DNS do Blokada aparece como um único dispositivo.
+Seu Pi-hole exibia cada dispositivo na rede pelo seu endereço IP. Com o Blokada, cada dispositivo aparece pelo seu próprio nome, desde que utilize seu próprio nome DNS Blokada. Um roteador configurado com um único nome DNS Blokada ou endereço IPv6 aparece como um único dispositivo.
 
 </div>
 
