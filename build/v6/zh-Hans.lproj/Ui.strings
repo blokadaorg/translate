@@ -1056,3 +1056,29 @@
 "web plaintext error limit" = "您已达到 %@ 个设备的上限。请删除一个设备以添加新的设备。";
 "web plaintext error taken" = "您的帐号中已有其他设备使用此名称。请选择不同的名称。";
 "web plaintext error generic" = "出现问题。请稍后再试。";
+
+// Caption under the Home "Last 24h" number. The number counts only blocked requests.
+"home counter caption blocked" = "已拦截的广告和追踪请求";
+
+// Short confirmation pills shown at the bottom of the screen after an action
+"toast save failed" = "无法保存更改，请重试。";
+"toast blocklists saved" = "拦截列表已更新";
+"toast removed from allowed" = "已从白名单中移除";
+"toast removed from blocked" = "已从黑名单中移除";
+
+// Settings row that opens the setting for storing activity history (logging)
+"settings row activity history" = "活动记录";
+// Settings section header for the main protection settings (exceptions, activity, devices)
+"account section header protection" = "保护";
+"settings section header notifications" = "显示通知";
+// Shown in the empty detail pane on wide screens, before anything in the list is selected
+"universal label select item details" = "选择一项以查看详情";
+// Badge next to a domain that appeared in the top list for the first time
+"stats label new" = "新上榜";
+// Short labels for the time range switch: last 24 hours and last 7 days
+"stats range 24h" = "24 小时";
+"stats range 7d" = "7 天";
+// Label of a removable chip above the activity list when it is sorted by frequency
+"activity filter chip most common" = "按出现次数从多到少排序";
+// Shown when the user tries to switch off the only enabled blocklist
+"filter last list note" = "至少需要启用一个拦截列表。若要停止拦截，请在首页点击“暂停”。";
