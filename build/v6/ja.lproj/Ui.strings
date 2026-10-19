@@ -51,6 +51,7 @@
 "universal action help" = "ヘルプ";
 "universal action show log" = "ログ";
 "universal action share log" = "ログを共有";
+"universal action run check" = "Run check";
 "universal action copy" = "コピー";
 "universal action save" = "保存";
 "universal action contact us" = "お問い合わせ";
@@ -1083,3 +1084,20 @@
 "activity filter chip most common" = "件数が多い順";
 // Shown when the user tries to switch off the only enabled blocklist
 "filter last list note" = "ブロックリストは常にひとつ以上有効にしておく必要があります。ブロックを停止するには、ホーム画面の「一時停止」を使用してください。";
+
+// Screen reader name of the big power button on Home that turns ad blocking on and off
+"home power button label" = "Blokada protection";
+// Screen reader state of the power button: protection is on / off
+"home power button state on" = "On";
+"home power button state off" = "Off";
+// Support chat card that asks before sending the app log, and the note left after it was sent
+"support share log title" = "Share your app log?";
+"support share log body" = "Sends the recent app log, which can include device and setup details.";
+"support share log done" = "App log shared";
+"support share log declined" = "App log not shared";
+
+// Support chat card that asks before running a DNS check, and the note left after it
+"support network check title" = "Run a network check?";
+"support network check body" = "Checks whether this phone's DNS goes through Blokada.";
+"support network check done" = "Network check done";
+"support network check declined" = "Network check not run";
