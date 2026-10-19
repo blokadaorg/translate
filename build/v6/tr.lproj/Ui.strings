@@ -51,7 +51,7 @@
 "universal action help" = "Yardım";
 "universal action show log" = "Günlükler";
 "universal action share log" = "Hata raporu paylaş";
-"universal action run check" = "Run check";
+"universal action run check" = "Kontrolü çalıştır";
 "universal action copy" = "Kopyala";
 "universal action save" = "Kaydet";
 "universal action contact us" = "Bize ulaşın";
@@ -1085,18 +1085,18 @@
 "filter last list note" = "Bir engel listesi her zaman açık kalır. Engellemeyi durdurmak için Ana Sayfa'daki Duraklat seçeneğini kullanın.";
 
 // Screen reader name of the big power button on Home that turns ad blocking on and off
-"home power button label" = "Blokada protection";
+"home power button label" = "Blokada koruması";
 // Screen reader state of the power button: protection is on / off
-"home power button state on" = "On";
-"home power button state off" = "Off";
+"home power button state on" = "Açık";
+"home power button state off" = "Kapalı";
 // Support chat card that asks before sending the app log, and the note left after it was sent
-"support share log title" = "Share your app log?";
-"support share log body" = "Sends the recent app log, which can include device and setup details.";
-"support share log done" = "App log shared";
-"support share log declined" = "App log not shared";
+"support share log title" = "Uygulama günlüğünüz paylaşılsın mı?";
+"support share log body" = "Cihaz ve yapılandırma bilgilerini içerebilen son uygulama günlüğünü gönderir.";
+"support share log done" = "Uygulama günlüğü paylaşıldı";
+"support share log declined" = "Uygulama günlüğü paylaşılmadı";
 
 // Support chat card that asks before running a DNS check, and the note left after it
-"support network check title" = "Run a network check?";
-"support network check body" = "Checks whether this phone's DNS goes through Blokada.";
-"support network check done" = "Network check done";
-"support network check declined" = "Network check not run";
+"support network check title" = "Ağ kontrolü yapılsın mı?";
+"support network check body" = "Bu telefonun DNS trafiğinin Blokada üzerinden geçip geçmediğini kontrol eder.";
+"support network check done" = "Ağ kontrolü tamamlandı";
+"support network check declined" = "Ağ kontrolü yapılmadı";
