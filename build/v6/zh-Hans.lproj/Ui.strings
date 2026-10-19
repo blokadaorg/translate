@@ -51,6 +51,7 @@
 "universal action help" = "帮助";
 "universal action show log" = "日志";
 "universal action share log" = "分享日志";
+"universal action run check" = "运行检查";
 "universal action copy" = "复制";
 "universal action save" = "保存";
 "universal action contact us" = "联系我们";
@@ -1082,3 +1083,20 @@
 "activity filter chip most common" = "按出现次数从多到少排序";
 // Shown when the user tries to switch off the only enabled blocklist
 "filter last list note" = "至少需要启用一个拦截列表。若要停止拦截，请在首页点击“暂停”。";
+
+// Screen reader name of the big power button on Home that turns ad blocking on and off
+"home power button label" = "Blokada 防护";
+// Screen reader state of the power button: protection is on / off
+"home power button state on" = "开启";
+"home power button state off" = "关闭";
+// Support chat card that asks before sending the app log, and the note left after it was sent
+"support share log title" = "要分享应用日志吗？";
+"support share log body" = "将发送最近的应用日志，其中可能包含设备和设置信息。";
+"support share log done" = "App log shared";
+"support share log declined" = "App log not shared";
+
+// Support chat card that asks before running a DNS check, and the note left after it
+"support network check title" = "Run a network check?";
+"support network check body" = "Checks whether this phone's DNS goes through Blokada.";
+"support network check done" = "Network check done";
+"support network check declined" = "Network check not run";
