@@ -14,7 +14,7 @@ Ci sono due modi per configurare un router:
 - **DNS crittografato con un nome host**, ovvero DNS over TLS (DoT) o DNS over HTTPS (DoH). Molti router recenti lo supportano, inclusi i modelli indicati qui sotto. A seconda di ciò che supporta il tuo router, ti servirà il nome DNS o il link DoH, entrambi disponibili in _I tuoi dettagli_ sopra.
 - **Un indirizzo DNS IPv6 semplice.** Molti router dei provider Internet accettano solo indirizzi IP semplici per il DNS. Se il tuo è così e la tua connessione dispone di IPv6, Blokada ti fornisce un indirizzo IPv6 da inserire. Vedi [Router che accettano solo un indirizzo IP](#routers-that-only-take-an-ip-address).
 
-Usa DNS crittografato se il tuo router lo supporta. Le risoluzioni rimarranno private durante il passaggio verso Blokada.
+Usa DNS crittografato se il tuo router lo supporta. Le richieste DNS rimarranno private durante il passaggio verso Blokada.
 
 ## FRITZ!Box
 
@@ -51,9 +51,9 @@ Cerca un'impostazione chiamata _DNS over TLS_, _DNS privato_, _DNS crittografato
 
 ## Router che accettano solo un indirizzo IP {:#routers-that-only-take-an-ip-address}
 
-Per questo, il tuo router e la tua connessione Internet devono supportare IPv6. Il supporto per indirizzi IPv4 semplici arriverà in futuro.
+Per questo, il tuo router e la tua connessione Internet devono supportare IPv6. Il supporto per gli indirizzi IPv4 arriverà in futuro.
 
-1. Nel [dashboard](https://app.blokada.org/setup?src=guides), apri _Setup_ e scegli _Router, TV, console di gioco_.
+1. Nella [dashboard](https://app.blokada.org/setup?src=guides), apri _Setup_ e scegli _Router, TV, console di gioco_.
 2. Dai un nome al router, ad esempio _Router di casa_, e seleziona _Ottieni indirizzo_. Il nome apparirà nella tua attività e non potrà essere cambiato in seguito.
 3. Nelle impostazioni del router, trova i server DNS per IPv6, spesso sotto _Internet_, _WAN_ o _IPv6_, e inserisci l'indirizzo come unico server DNS.
 4. **Rimuovi tutti gli altri server DNS, inclusi quelli IPv4.** I dispositivi che ricevono ancora un server DNS IPv4 dal router invieranno alcune richieste fuori da Blokada. Se il router non consente di lasciare vuoto il campo DNS IPv4, configura i tuoi dispositivi uno alla volta invece: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/).

@@ -45,6 +45,6 @@ Naviga per un minuto, poi apri la pagina _Attività_ nella [dashboard](https://a
 
 <div class="note tip">
 
-Se il tuo browser è gestito dal lavoro o dalla scuola, l’impostazione DNS sicura potrebbe essere bloccata. Chiedi all’amministratore.
+Se il tuo browser è gestito dall'azienda o dalla scuola, l’impostazione DNS sicura potrebbe essere bloccata. Chiedi all’amministratore.
 
 </div>

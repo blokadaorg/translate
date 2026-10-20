@@ -19,7 +19,7 @@ Questa pagina non conosce ancora il tuo dispositivo, quindi non può offrire il 
 
 ## iPhone e iPad
 
-Il modo più semplice è tramite l'app. [Blokada 6](https://go.blokada.org/appstore) configura tutto per te, attiva e disattiva il blocco con un solo tocco e mostra ciò che è stato bloccato direttamente sul telefono. Accedi con il tuo ID account e hai finito.
+Il modo più semplice è usare l'app. [Blokada 6](https://go.blokada.org/appstore) fa tutto per te, attiva o disattiva il blocco con un tocco e mostra cosa è stato bloccato direttamente sul telefono. Accedi con il tuo ID account e sei pronto.
 
 <p><a class=\"btn btn-primary\" href=\"https://go.blokada.org/appstore\">Scarica Blokada 6 su App Store</a></p>
 
