@@ -16,7 +16,7 @@ Ci sono due modi per cambiare. Sostituisci completamente il Pi-hole, oppure tien
 
 ## Opzione 1: sostituisci il Pi-hole
 
-1. **Ottieni Blokada Cloud** e apri il dashboard. Il tuo nome DNS e il link DoH si trovano sotto _Configurazione_ lì, e sotto _I tuoi dettagli_ sopra.
+1. **Ottieni Blokada Cloud** e apri la dashboard. Il tuo nome DNS e il link DoH si trovano sotto _Configurazione_ lì, e sotto _I tuoi dettagli_ sopra.
 2. **Punta il tuo router verso Blokada invece che verso il Pi-hole.** Segui la [guida per il router](../router-ad-blocking/). Copre anche i router che accettano solo un semplice indirizzo IP come server DNS, purché la tua connessione abbia IPv6. Senza IPv6, configura invece i tuoi dispositivi uno alla volta: [Android](../android-private-dns/), [Mac e Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) e [browser](../browser-dns-over-https/).
 3. **Se il tuo Pi-hole era il server DHCP,** riattiva il DHCP nel tuo router _prima_ di spegnere il Pi. Altrimenti i tuoi dispositivi smetteranno di ottenere indirizzi di rete.
 4. **Trasferisci le tue liste.** Nel pannello di controllo, scegli blocklists sotto _Blocklists_ e aggiungi i tuoi domini consentiti o bloccati sotto _Eccezioni_.
