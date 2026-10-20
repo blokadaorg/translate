@@ -25,17 +25,17 @@ La parte dopo `#` è il tuo nome DNS Blokada: {% dot %} systemd-resolved control
 
 <div class="note important">
 
-**NetworkManager** inoltra anche i server DNS della tua rete. `Domains=~.` invia tutte le richieste a Blokada, ma se `resolvectl status` mostra ancora un altro server su una connessione, disattiva il DNS automatico per quella connessione (l'interruttore _Automatico_ accanto a _DNS_ nelle sue impostazioni IPv4 e IPv6).
+Anche **NetworkManager** comunica i server DNS della tua rete. `Domains=~.` invia tutte le richieste a Blokada, ma se `resolvectl status` mostra ancora un altro server su una connessione, disattiva il DNS automatico per quella connessione (l'interruttore _Automatico_ accanto a _DNS_ nelle sue impostazioni IPv4 e IPv6).
 
 </div>
 
 ## Senza systemd-resolved
 
-Se `resolvectl` non viene trovato, la tua distribuzione risolve i nomi in un altro modo. Configura DNS sicuro nel tuo browser, come indicato nella [guida per browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per proteggere tutta la casa.
+Se `resolvectl` non viene trovato, la tua distribuzione usa un altro metodo per risolvere i nomi di dominio. Configura il DNS sicuro nel tuo browser, come indicato nella [guida per browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per proteggere tutta la casa.
 
 ## Verifica che funzioni
 
-Apri alcuni siti web e poi guarda la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le risoluzioni di nomi di questo computer saranno visibili lì.
+Apri alcuni siti web e poi guarda la pagina _Attività_ nella [dashboard](https://app.blokada.org/stats?src=guides). Le richieste di questo computer saranno visibili lì.
 
 <div class="note aside">
 
