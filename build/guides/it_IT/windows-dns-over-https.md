@@ -34,7 +34,7 @@ Nessuna opzione _Attivato (modello manuale)_? Il tuo Windows 11 è vecchio. Aggi
 
 ## Windows 10
 
-Windows 10 non ha il DNS cifrato integrato. Configura il DNS sicuro nel tuo browser, come indicato nella [guida per browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per proteggere tutta la casa.
+Windows 10 non ha il DNS crittografato integrato. Configura il DNS sicuro nel tuo browser, come indicato nella [guida per browser](../browser-dns-over-https/), oppure configura il tuo [router](../router-ad-blocking/) per proteggere tutta la casa.
 
 ## Verifica che funzioni
 
@@ -42,7 +42,7 @@ Apri alcuni siti web e poi guarda la pagina _Attività_ nella [dashboard](https:
 
 <div class="note aside">
 
-Vuoi anche una VPN su questo computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include una configurazione WireGuard che cripta tutto il traffico, offrendo lo stesso blocco.
+Vuoi una VPN anche su questo computer? [Blokada Plus](https://app.blokada.org/activate?tier=plus&src=guides) include una configurazione WireGuard che cripta tutto il traffico, offrendo lo stesso blocco.
 
 </div>
 
