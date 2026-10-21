@@ -51,26 +51,26 @@ FRITZ!OS 7.20 или по-нова версия.
 
 ## Рутери, които приемат само IP адрес {:#routers-that-only-take-an-ip-address}
 
-Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
+За целта рутерът и интернет връзката трябва да поддържат IPv6. Поддръжката на обикновени IPv4 адреси ще бъде добавена по-късно.
 
-1. In the [dashboard](https://app.blokada.org/setup?src=guides), open _Setup_ and choose _Router, TV, game console_.
-2. Name the router, for example _Home router_, and select _Get address_. The name shows up in your activity and can't be changed later.
-3. In the router's settings, find the DNS servers for IPv6, often under _Internet_, _WAN_ or _IPv6_, and enter the address as the only DNS server.
-4. **Remove every other DNS server, IPv4 ones included.** Devices that still get an IPv4 DNS server from the router send some lookups past Blokada. If the router can't leave IPv4 DNS empty, set up your devices one at a time instead: [Android](../android-private-dns/), [Mac and Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/), and [browsers](../browser-dns-over-https/).
+1. В [таблото за управление](https://app.blokada.org/setup?src=guides) отворете _Настройка_ и изберете _Рутер, телевизор, игрова конзола_.
+2. Задайте име на рутера, например _Домашен рутер_, и изберете _Получаване на адрес_. Името ще се показва в хронологията на активността и няма да може да бъде променено по-късно.
+3. В настройките на рутера намерете DNS сървърите за IPv6, обикновено в раздел _Интернет_, _WAN_ или _IPv6_, и въведете адреса като единствен DNS сървър.
+4. **Премахнете всички останали DNS сървъри, включително тези за IPv4.** Устройствата, които все още получават DNS сървър за IPv4 от рутера, изпращат част от DNS заявките, без да минават през Blokada. Ако рутерът не позволява да оставите полето празно за DNS сървър за IPv4, тогава настройте устройствата си едно по едно: [Android](../android-private-dns/), [Mac и Apple TV](../apple-devices/), [Windows](../windows-dns-over-https/), [Linux](../linux-dns-over-tls/) и [браузъри](../browser-dns-over-https/).
 
-The same setup works for a TV or game console that lets you enter a DNS server by hand. Give each one its own address, so it shows up by name in your activity.
+По същия начин можете да настроите телевизор или игрова конзола, ако позволяват ръчно въвеждане на DNS сървър. Задайте на всяко устройство отделен адрес, за да се показва с името си в историята на активността.
 
 <div class="note aside">
 
-These lookups travel unencrypted to Blokada, like with any plain DNS server. If your router supports DNS over TLS or DNS over HTTPS, use that instead.
+Тези DNS заявки се изпращат до Blokada без шифроване, както при всеки обикновен DNS сървър. Ако рутерът ви поддържа DNS през TLS или DNS през HTTPS, използвайте този вариант.
 
 </div>
 
 ## Проверка дали работи
 
 1. Рестартирайте едно устройство или изключете и включете отново неговата Wi-Fi връзка, за да се обнови промяната.
-2. On that device, turn off Blokada if it runs it, then open [go.blokada.org/test](https://go.blokada.org/test). It shows whether your DNS goes through Blokada.
-3. Browse for a minute, then open the _Activity_ page in the [dashboard](https://app.blokada.org/stats?src=guides). Your network's lookups show up there.
+2. На това устройство ако е включена - изключете Blokada, след което отворете [go.blokada.org/test](https://go.blokada.org/test). Страницата показва дали DNS заявките ви преминават през Blokada.
+3. Сърфирайте за минута, след това отворете страницата _Дейност_ в [таблото за управление](https://app.blokada.org/stats?src=guides). Търсенията от вашата мрежа ще се покажат там.
 
 ## Ако някои устройства все още показват реклами
 
