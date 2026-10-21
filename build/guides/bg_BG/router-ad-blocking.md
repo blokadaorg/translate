@@ -11,10 +11,10 @@ order: 4
 
 Има два начина да настроите рутерa:
 
-- **Encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
-- **A plain IPv6 DNS address.** Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See [Routers that only take an IP address](#routers-that-only-take-an-ip-address).
+- **Криптиран DNS с име на хост**, т. е. DNS през TLS (DoT), или DNS през HTTPS (DoH). Много съвременни рутери го поддържат, включително и изброените по-долу модели. В зависимост от това какво поддържа вашият рутер ще ви е необходимо DNS име или DoH линк, като и двете ще откриете в _Вашите данни_ по-горе.
+- **Обикновен IPv6 DNS адрес.** Много рутери, предоставени от интернет доставчиците, приемат само обикновени IP адреси за DNS. Ако вашият рутер е такъв и връзката ви поддържа IPv6, Blokada ви предоставя IPv6 адрес, който да въведете. Вижте [Рутери, които приемат само IP адрес](#routers-that-only-take-an-ip-address).
 
-Use encrypted DNS if your router supports it. Lookups stay private on their way to Blokada.
+Използвайте криптиран DNS, ако рутерът ви го поддържа. DNS заявките остават поверителни по пътя си към Blokada.
 
 ## FRITZ!Box
 
@@ -47,9 +47,9 @@ FRITZ!OS 7.20 или по-нова версия.
 
 ## Други рутери
 
-Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS over HTTPS_. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers. If there is no such setting, use a plain IPv6 address as below.
+Потърсете настройка с име _DNS през TLS_, _частен DNS_, _криптиран DNS_ или _DNS през HTTPS_. Въведете вашето Blokada DNS име или DoH връзката отгоре и премахнете всички останали DNS сървъри, включително и резервните сървъри. Ако няма такава настройка, използвайте обикновен IPv6 адрес, както е показано по-долу.
 
-## Routers that only take an IP address {:#routers-that-only-take-an-ip-address}
+## Рутери, които приемат само IP адрес {:#routers-that-only-take-an-ip-address}
 
 Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
 
