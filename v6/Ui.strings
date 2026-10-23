@@ -1147,3 +1147,12 @@
 "activity logging action enable" = "Turn on activity logging";
 // Shown instead of an empty list right after activity logging was turned on, until the first requests show up
 "activity logging collecting" = "Collecting your first results";
+
+// Top line of Privacy Pulse. First %s is how many requests were blocked (e.g. "36" or "12.3K"), second %s is the range ("24 h" or "7 d"). One form for a count of 1, the other for all other counts.
+"privacy pulse insight blocked one" = "%s blocked in %s";
+"privacy pulse insight blocked many" = "%s blocked in %s";
+// Added after the line above when there is something to compare with. %s is a percentage, without the sign (e.g. "12").
+"privacy pulse insight fewer 24h" = "%s% fewer than the 24 h before";
+"privacy pulse insight more 24h" = "%s% more than the 24 h before";
+"privacy pulse insight fewer 7d" = "%s% fewer than the week before";
+"privacy pulse insight more 7d" = "%s% more than the week before";
