@@ -9,7 +9,7 @@ order: 4
 
 ## Что необходимо вашему роутеру
 
-There are two ways to set up a router:
+Существует два способа настройки роутера:
 
 - **Encrypted DNS with a host name**, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under _Your details_ above.
 - **A plain IPv6 DNS address.** Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See [Routers that only take an IP address](#routers-that-only-take-an-ip-address).
@@ -51,7 +51,7 @@ Look for a setting called _DNS over TLS_, _Private DNS_, _Encrypted DNS_ or _DNS
 
 ## Роутеры, которые принимают только IP-адрес {:#routers-that-only-take-an-ip-address}
 
-Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.
+Для этого вашему роутеру и вашему интернет-соединению потребуется IPv6. Поддержка обычных IPv4-адресов появится позже.
 
 1. In the [dashboard](https://app.blokada.org/setup?src=guides), open _Setup_ and choose _Router, TV, game console_.
 2. Name the router, for example _Home router_, and select _Get address_. The name shows up in your activity and can't be changed later.
