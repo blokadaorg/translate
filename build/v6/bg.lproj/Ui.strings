@@ -1139,23 +1139,23 @@
 "universal action resume" = "Възобновявяне";
 
 // Activity list: headers grouping entries by when they happened; older days show a date instead
-"activity group just now" = "Just now";
-"activity group earlier today" = "Earlier today";
-"activity group yesterday" = "Yesterday";
+"activity group just now" = "Току-що";
+"activity group earlier today" = "По-рано днес";
+"activity group yesterday" = "Вчера";
 
 // Privacy Pulse and Activity while activity logging is off: made-up numbers, blurred, behind an offer to turn logging on.
 // The badge that marks the numbers as made up
-"activity logging sample" = "Sample";
-"activity logging offer header" = "See what Blokada blocks";
+"activity logging sample" = "Примерни данни";
+"activity logging offer header" = "Вижте какво блокира Blokada";
 // What turning logging on keeps, and for how long
-"activity logging offer brief" = "Blokada keeps the requests from your devices for 24 hours, and you can turn this off any time in Settings.";
-"activity logging action enable" = "Turn on activity logging";
+"activity logging offer brief" = "Blokada съхранява заявките от вашите устройства за 24 часа и можете да изключите това по всяко време от Настройки.";
+"activity logging action enable" = "Включване регистрирането на активността";
 // Shown instead of an empty list right after activity logging was turned on, until the first requests show up
-"activity logging collecting" = "Collecting your first results";
+"activity logging collecting" = "Събираме първите ви резултати";
 
 // Top line of Privacy Pulse. First %s is how many requests were blocked (e.g. "36" or "12.3K"), second %s is the range ("24 h" or "7 d"). One form for a count of 1, the other for all other counts.
-"privacy pulse insight blocked one" = "%s blocked in %s";
-"privacy pulse insight blocked many" = "%s blocked in %s";
+"privacy pulse insight blocked one" = "%s блокирани за %s";
+"privacy pulse insight blocked many" = "%s блокирани за %s";
 // Added after the line above when there is something to compare with. %s is a percentage, without the sign (e.g. "12").
 "privacy pulse insight fewer 24h" = "%s% fewer than the 24 h before";
 "privacy pulse insight more 24h" = "%s% more than the 24 h before";
