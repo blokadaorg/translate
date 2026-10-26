@@ -24,7 +24,7 @@ Pi-hole блокирует рекламу для каждого устройст
 
 <div class="note aside">
 
-Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name or IPv6 address shows up as one device.
+Ваш Pi-hole отображал каждое устройство в сети по его IP-адресу. В Blokada каждое устройство отображается под собственным именем, при условии, что оно использует собственное DNS-имя Blokada. Роутер, настроенный с использованием одного DNS-имени Blokada или IPv6-адреса, отображается как одно устройство.
 
 </div>
 
