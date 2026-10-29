@@ -1171,6 +1171,10 @@
 "blocklists main header" = "Main blocklist";
 // Shown under the header above when no main list is on yet
 "blocklists main pick" = "Pick a main list";
+// Header above the main list choices; the user picks exactly one. "·" separates the two parts
+"blocklists main header pick one" = "Main blocklist · pick one";
+// Header above the cards of optional lists, which the user can switch on in addition to the main list
+"blocklists extras header" = "Extras · optional";
 // Headers of the groups of optional lists, by what they block
 "blocklists group general" = "More general lists";
 "blocklists group ads" = "Ads and trackers";
