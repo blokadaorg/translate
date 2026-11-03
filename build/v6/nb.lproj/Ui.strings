@@ -88,6 +88,10 @@
 "support action chat" = "Chat med oss";
 // Action to end chat. Keep it super short
 "support action end" = "Avslutt";
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+"support action ask" = "Ask support";
+// Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
+"support action continue" = "Continue with support";
 "support placeholder" = "Spør om alt du lurer på!";
 "support error generic" = "Beklager, forstod ikke. Kan du gjenta?";
 // Its ok to leave it as it is
@@ -889,7 +893,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN-omgåelse";
-"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
+"bypass info" = "Noen apper fungerer kanskje ikke som de skal med VPN-et. Du kan legge dem til i listen over apper som omgår VPN-et, slik at trafikken deres går utenom VPN-tunnelen. Det kan løse tilkoblingsproblemer, men gir dårligere personvern. Merk: Hvis innstillingen «Blokker tilkoblinger uten VPN» er aktivert på enheten din, får ikke disse appene tilgang til internett.";
 "bypass none" = "Ingen apper lagt til. Bruk Legg til-knappen øverst for å legge til nye apper i listen.";
 "bypass action add" = "Legg til app";
 "bypass dialog add brief" = "Begynn å skrive for å søke etter apper.";

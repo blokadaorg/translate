@@ -88,6 +88,10 @@
 "support action chat" = "Bizimle sohbet edin";
 // Action to end chat. Keep it super short
 "support action end" = "Son";
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+"support action ask" = "Ask support";
+// Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
+"support action continue" = "Continue with support";
 "support placeholder" = "Bilmek istediğiniz her şeyi sorun!";
 "support error generic" = "Üzgünüm anlamadım, tekrar edebilir misiniz?";
 // Its ok to leave it as it is
@@ -889,7 +893,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN Baypas";
-"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
+"bypass info" = "Bazı uygulamalar VPN ile düzgün çalışmayabilir. Bunları baypas listesine ekleyerek trafiklerini VPN tüneli dışına yönlendirebilirsiniz. Bu, bağlantı sorunlarını gidermeye yardımcı olabilir ancak gizliliği azaltır. Not: Cihazınızda “VPN olmadan bağlantıları engelle” ayarı etkinse, baypas edilen uygulamaların internet erişimi olmayacaktır.";
 "bypass none" = "Eklenen uygulama yok. Bu listeye yeni uygulamalar eklemek için üstteki Ekle düğmesini kullanın.";
 "bypass action add" = "Uygulama Ekle";
 "bypass dialog add brief" = "Uygulamaları aramak için yazmaya başlayın.";
