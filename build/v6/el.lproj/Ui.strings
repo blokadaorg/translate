@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Παράκαμψη VPN";
-"bypass info" = "Κάποιες εφαρμογές ενδέχεται να μην λειτουργούν σωστά με το VPN. Μπορείτε να τις προσθέσετε στη λίστα παράκαμψης για να στέλνουν την κυκλοφορία τους εκτός VPN, κάτι που μπορεί να βοηθήσει στη συνδεσιμότητα αλλά μειώνει την ιδιωτικότητα. Η εφαρμογή περιλαμβάνει επίσης ορισμένες ενσωματωμένες καταχωρήσεις παράκαμψης για συμβατότητα. Σημείωση: αν η συσκευή σας έχει ενεργοποιημένη τη ρύθμιση \"Αποκλεισμός συνδέσεων χωρίς VPN\", οι εφαρμογές που παρακάμπτονται δεν θα έχουν πρόσβαση στο Internet.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Δεν προστέθηκαν εφαρμογές. Χρησιμοποιήστε το κουμπί Προσθήκη στην κορυφή για να προσθέσετε νέες εφαρμογές σε αυτή τη λίστα.";
 "bypass action add" = "Προσθήκη εφαρμογής";
 "bypass dialog add brief" = "Ξεκινήστε να πληκτρολογείτε για να αναζητήσετε εφαρμογές.";
