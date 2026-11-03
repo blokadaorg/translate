@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Omissió VPN";
-"bypass info" = "Algunes aplicacions poden no funcionar correctament amb la VPN. Podeu afegir-les a la llista d'omissions perquè el seu trànsit vagi fora del túnel VPN, la qual cosa pot ajudar amb la connectivitat però redueix la privacitat. L'app també inclou algunes exclusions predefinides per compatibilitat. Nota: si el vostre dispositiu té activada l'opció 'Bloca connexions sense VPN', les aplicacions excloses no tindran accés a Internet.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "No s'ha afegit cap app. Utilitzeu el botó Afegeix a la part superior per afegir noves aplicacions a la llista.";
 "bypass action add" = "Afegeix app";
 "bypass dialog add brief" = "Comença a escriure per buscar aplicacions.";

@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN Bypass";
-"bypass info" = "Baliteke aplikazio batzuek ez funtzionatzea behar bezala VPNarekin. Bypass zerrendara gehi ditzakezu haien trafikoa VPN tunelaren kanpoan bidaltzeko, eta horrek konektibitatea hobetu dezake, baina pribatutasuna murrizten du. Aplikazioak bypass sarrera batzuk eramaten ditu jada bateragarritasunerako. Oharra: zure gailuak 'Blokeatu konexioak VPN gabe' ezarpena gaituta badu, bypass egindako aplikazioek ez dute Internetik izango.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Ez da aplikaziorik gehitu. Erabili Gehitu botoia goian aplikazio berriak zerrenda honetan gehitzeko.";
 "bypass action add" = "Gehitu aplikazioa";
 "bypass dialog add brief" = "Hasi idazten aplikazioak bilatzeko.";

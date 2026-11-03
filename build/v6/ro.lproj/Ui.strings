@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Ocolire VPN";
-"bypass info" = "Unele aplicații pot să nu funcționeze corect cu VPN-ul. Le poți adăuga în lista de ocolire pentru ca traficul lor să fie trimis în afara tunelului VPN, ceea ce poate îmbunătăți conectivitatea dar reduce confidențialitatea. Aplicația include și câteva intrări de ocolire predefinite pentru compatibilitate. Notă: dacă pe dispozitiv ai activată opțiunea „Blochează conexiunile fără VPN”, aplicațiile ocolite nu vor avea acces la internet.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Nicio aplicație adăugată. Folosește butonul Adaugă din partea de sus pentru a adăuga aplicații în această listă.";
 "bypass action add" = "Adaugă aplicație";
 "bypass dialog add brief" = "Începe să tastezi pentru a căuta aplicații.";

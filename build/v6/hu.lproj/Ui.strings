@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN-kikerülés";
-"bypass info" = "Előfordulhat, hogy egyes alkalmazások nem működnek megfelelően VPN-nel. Felveheted őket a kikerülési listára, hogy forgalmuk a VPN-alagúton kívülre kerüljön, ami javíthat a kapcsolaton, de csökkenti az adatvédelmet. Az app néhány beépített kikerülési bejegyzést is tartalmaz a kompatibilitás érdekében. Megjegyzés: ha eszközödön be van kapcsolva a \"Kapcsolatok blokkolása VPN nélkül\" beállítás, a kikerült alkalmazások nem férnek hozzá az internethez.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Nincs hozzáadott alkalmazás. Új alkalmazás hozzáadásához használd a felső Hozzáadás gombot.";
 "bypass action add" = "Alkalmazás hozzáadása";
 "bypass dialog add brief" = "Kezdj el gépelni az alkalmazások kereséséhez.";

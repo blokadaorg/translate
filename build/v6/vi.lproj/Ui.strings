@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Bỏ qua VPN";
-"bypass info" = "Một số ứng dụng có thể không hoạt động đúng với VPN. Bạn có thể thêm chúng vào danh sách bỏ qua để lưu lượng truy cập của chúng đi ngoài đường hầm VPN, có thể giúp kết nối tốt hơn nhưng giảm quyền riêng tư. Ứng dụng cũng bao gồm một số mục bỏ qua tích hợp sẵn giúp tương thích. Lưu ý: nếu thiết bị của bạn bật tuỳ chọn 'Chặn kết nối khi không có VPN', các ứng dụng bỏ qua sẽ không có quyền truy cập internet.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Chưa thêm ứng dụng. Hãy dùng nút Thêm ở trên để thêm ứng dụng mới vào danh sách này.";
 "bypass action add" = "Thêm ứng dụng";
 "bypass dialog add brief" = "Bắt đầu nhập để tìm kiếm ứng dụng.";

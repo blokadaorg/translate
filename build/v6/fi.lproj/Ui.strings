@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN-ohitus";
-"bypass info" = "Kaikki sovellukset eivät välttämättä toimi oikein VPN:n kanssa. Voit lisätä ne ohituslistalle, jolloin niiden liikenne ohjataan VPN-tunnelin ulkopuolelle. Tämä voi auttaa yhteysongelmiin mutta heikentää yksityisyyttä. Sovellus sisältää myös joitain sisäänrakennettuja ohituksia yhteensopivuuden vuoksi. Huom: Jos laitteessasi on 'Estä yhteydet ilman VPN:ää' -asetus päällä, ohitetuilla sovelluksilla ei ole internet-yhteyttä.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Sovelluksia ei lisätty. Lisää uusia sovelluksia tähän listaan ylhäällä olevasta Lisää-painikkeesta.";
 "bypass action add" = "Lisää sovellus";
 "bypass dialog add brief" = "Aloita kirjoittamalla sovelluksen nimi hakua varten.";

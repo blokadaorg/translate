@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN-omgåelse";
-"bypass info" = "Nogle apps fungerer muligvis ikke korrekt med VPN. Du kan tilføje dem til omgåelseslisten, så deres trafik bliver sendt uden for VPN-tunnelen, hvilket kan hjælpe på forbindelsen, men reducerer privatlivet. Appen indeholder også nogle indbyggede omgåelsesposter for kompatibilitet. Bemærk: Hvis dit device har indstillingen 'Bloker forbindelser uden VPN' aktiveret, vil apps på omgåelseslisten ikke have internetadgang.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Ingen apps tilføjet. Brug Tilføj-knappen øverst for at tilføje nye apps til denne liste.";
 "bypass action add" = "Tilføj app";
 "bypass dialog add brief" = "Begynd at skrive for at søge i apps.";

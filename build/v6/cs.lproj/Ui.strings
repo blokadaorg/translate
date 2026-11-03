@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Vynechání VPN";
-"bypass info" = "Některé aplikace nemusí s VPN fungovat správně. Můžete je přidat do seznamu výjimek, aby jejich provoz byl odesílán mimo VPN, což může pomoci s připojením, ale snižuje soukromí. Aplikace také obsahuje několik vestavěných výjimek pro kompatibilitu. Poznámka: Pokud je ve vašem zařízení povoleno nastavení „Blokovat připojení bez VPN“, aplikace s výjimkou nebudou mít přístup k internetu.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Žádné aplikace nebyly přidány. Použijte tlačítko Přidat v horní části pro přidání nových aplikací do tohoto seznamu.";
 "bypass action add" = "Přidat aplikaci";
 "bypass dialog add brief" = "Začněte psát pro hledání aplikací.";
