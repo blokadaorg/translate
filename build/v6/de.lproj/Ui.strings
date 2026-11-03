@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN-Umgehung";
-"bypass info" = "Einige Apps funktionieren möglicherweise nicht richtig mit dem VPN. Du kannst sie zur Umgehungsliste hinzufügen, um ihren Verkehr außerhalb des VPN-Tunnels zu versenden, was bei der Konnektivität helfen kann, aber die Privatsphäre verringert. Die App enthält auch ein paar integrierte Bypass-Einträge zur Kompatibilität. Notiz: Wenn Ihr Gerät die Einstellung 'Blockiere Verbindungen ohne VPN' aktiviert hat, haben umgebende Apps keinen Internetzugang.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Keine Apps hinzugefügt. Verwenden Sie die Schaltfläche Hinzufügen, um neue Apps zu dieser Liste hinzuzufügen.";
 "bypass action add" = "App hinzufügen";
 "bypass dialog add brief" = "Tippen, um Apps zu suchen.";
