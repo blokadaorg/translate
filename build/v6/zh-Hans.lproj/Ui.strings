@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN 旁路";
-"bypass info" = "部分应用可能无法与 VPN 正常工作。您可以将它们添加到旁路列表，从而让它们的流量不经过 VPN 隧道，这可能有助于连通性但会降低隐私。该应用还包含少量内置旁路项以保证兼容性。注意：如果您的设备启用了“无 VPN 时阻止连接”选项，被旁路的应用将无法访问互联网。";
+"bypass info" = "某些应用在使用 VPN 时可能无法正常运行。你可以将它们添加到绕过列表，使其流量绕过 VPN 隧道，这可能有助于改善连接，但会降低隐私性。注意：如果你的设备启用了“无 VPN 时阻止连接”的设置，绕过的应用将无法访问互联网。";
 "bypass none" = "未添加应用。请使用顶部的添加按钮，将新应用添加到此列表。";
 "bypass action add" = "添加应用";
 "bypass dialog add brief" = "开始输入以搜索应用。";
