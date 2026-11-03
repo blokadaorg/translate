@@ -892,7 +892,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN 우회";
-"bypass info" = "일부 앱은 VPN과 호환되지 않을 수 있습니다. 이 앱들을 우회 목록에 추가하면 VPN 터널을 건너 인터넷에 연결되어 호환성은 향상되지만 프라이버시는 다소 감소할 수 있습니다. 또, 앱과의 호환성을 위해 내장 우회 항목도 일부 포함되어 있습니다. 단, 기기에 'VPN 이외의 연결 차단' 설정이 켜져 있으면 우회한 앱은 인터넷에 접근할 수 없습니다.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "앱이 추가되지 않았습니다. 상단의 추가 버튼을 눌러 앱을 목록에 추가하세요.";
 "bypass action add" = "앱 추가";
 "bypass dialog add brief" = "앱 이름을 검색하려면 입력을 시작하세요.";
