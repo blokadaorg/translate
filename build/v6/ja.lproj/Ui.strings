@@ -890,7 +890,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPNバイパス";
-"bypass info" = "一部のアプリはVPNとの動作が正しくない場合があります。これらはバイパスリストに追加して、トラフィックをVPNトンネルの外に送信することができます。これにより接続性が向上する可能性がありますが、プライバシーは低下します。アプリには互換性のために組み込みのバイパス項目も含まれています。注記: お使いのデバイスで「VPNなしの接続をブロック」設定が有効な場合、バイパスしたアプリはインターネットに接続できません。";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "追加されたアプリはありません。リストに新しいアプリを追加するには、上部の「追加」ボタンを使用してください。";
 "bypass action add" = "アプリを追加";
 "bypass dialog add brief" = "入力を開始してアプリを検索してください。";
