@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "Contournement VPN";
-"bypass info" = "Certaines applications peuvent ne pas fonctionner correctement avec le VPN. Vous pouvez les ajouter à la liste de contournement pour diriger leur trafic hors du tunnel VPN, ce qui peut améliorer la connectivité, mais nuit à la confidentialité. L'application intègre également quelques entrées de contournement pour plus de compatibilité. Remarque : si le paramètre « Bloquer les connexions sans VPN » est activé sur votre appareil, les applications contournées n'auront pas accès à Internet.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Aucune application ajoutée. Utilisez le bouton « Ajouter » en haut pour ajouter de nouvelles applications à cette liste.";
 "bypass action add" = "Ajouter une application";
 "bypass dialog add brief" = "Commencez à taper pour rechercher des applications.";
