@@ -889,7 +889,7 @@
 
 // A section to configure apps that should bypass (skip) VPN
 "bypass section header" = "VPN Baypas";
-"bypass info" = "Bazı uygulamalar VPN ile düzgün çalışmayabilir. Bunları baypas listesine ekleyerek trafiğini VPN tüneli dışına gönderebilirsiniz. Bu, bağlantıya yardımcı olabilir ancak gizliliği azaltır. Uygulama ayrıca uyumluluk için birkaç yerleşik baypas girişi içerir. Not: Cihazınızda “VPN olmadan bağlantıları engelle” ayarı etkinse, baypas edilen uygulamalar internet erişimine sahip olmayacaktır.";
+"bypass info" = "Some apps may not work properly with the VPN. You can add them to the bypass list to send their traffic outside the VPN tunnel, which may help with connectivity but reduces privacy. Note: if your device has the 'Block connections without VPN' setting enabled, bypassed apps will not have internet access.";
 "bypass none" = "Eklenen uygulama yok. Bu listeye yeni uygulamalar eklemek için üstteki Ekle düğmesini kullanın.";
 "bypass action add" = "Uygulama Ekle";
 "bypass dialog add brief" = "Uygulamaları aramak için yazmaya başlayın.";
