@@ -16,7 +16,7 @@
 "error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us.";
 "error account invalid" = "หมายเลขบัญชีนี้ไม่ถูกต้อง";
 "error creating account" = "ไม่สามารถสร้างบัญชีใหม่ได้ กรุณาลองใหม่อีกครั้งในภายหลัง.";
-"error fetching data" = "ไม่สามารถดำเนินการนี้ได้ ตรวจสอบให้แน่ใจว่าคุณออนไลน์อยู่และลองอีกครั้งในภายหลัง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error tunnel" = "ไม่สามารถสร้าง VPN โปรดรีสตาร์ทอุปกรณ์ของคุณหรือลบโปรไฟล์ Blokada VPN ในการตั้งค่าระบบแล้วลองอีกครั้ง";
 "error vpn" = "ไม่สามารถสร้าง VPN โปรดรีสตาร์ทอุปกรณ์ของคุณหรือลบโปรไฟล์ Blokada VPN ในการตั้งค่าระบบแล้วลองอีกครั้ง";
 "error vpn perms" = "ไม่มีการอนุญาตให้สร้างโปรไฟล์ VPN";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "คุณต่ออุปกรณ์ถึงขีดจำกัด โปรดตัดการเชื่อมต้่อกับอุปกรณ์หนึ่งเครื้องและลองอีกครั้ง";
 "error vpn expired" = "VPN ถูกปิดการใช้งาน โปรดอัปเดตการสมัครของคุณเพื่อใช้ BLOKADA + ต่อไป";
-"error payment inactive after restore" = "การชำระเงินครั้งก่อนของคุณได้รับการกู้คืนแล้ว แต่การสมัครสมาชิกหมดอาย หากคุณเชื่อว่านี่เป็นความผิดพลาดโปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us.";
 "error restore not found" = "We couldn't find an active Blokada subscription to restore. If your subscription has expired, you can buy a new one. If you believe this is a mistake, please contact us.";
-"error payment failed" = "ไม่สามารถชำระเงินได้ในขณะนี้ ตรวจสอบว่าคุณออนไลน์อยู่และลองอีกครั้งในภายหลัง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
-"error payment failed alternative" = "ไม่สามารถชำระเงินของคุณ โปรดตรวจสอบว่าข้อมูลของคุณถูกต้องแล้วลองอีกครั้ง หากปัญหายังคงมีอยู่โปรดติดต่อเราโดยแตะไอคอนความช่วยเหลือที่ด้านบน";
+"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us.";
+"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us.";
 "error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
 "error payment canceled" = "การชำระเงินถูกยกเลิก คุณไม่ได้ถูกเรียกเก็บเงิน";
 "error pack install" = "ไม่สามารถติดตั้ง (หรือถอนการติดตั้ง) ฟีเจอร์นี้ กรุณาลองใหม่อีกครั้งในภายหลัง.";
 "error location failed fetching" = "ไม่สามารถดึงข้อมูลสถานที่ได้";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
 "error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
 "error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
@@ -88,7 +88,7 @@
 "support action chat" = "Chat with us";
 // Action to end chat. Keep it super short
 "support action end" = "End";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "Ask support";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "Continue with support";

@@ -16,7 +16,7 @@
 "error account inactive after restore" = "这似乎不是一个有效的活跃帐号。如果您认为这是一个错误，请联系我们。";
 "error account invalid" = "该帐号 ID 似乎无效。";
 "error creating account" = "无法创建新帐号。请稍后再试。";
-"error fetching data" = "无法完成此操作。请确保您已联网并稍后再试。如问题依旧，请点击顶部帮助图标联系我们。";
+"error fetching data" = "此操作无法完成。请确保您已连接网络，稍后再试。如果问题仍然存在，请联系我们。";
 "error tunnel" = "无法建立 VPN。请重启您的设备，或在系统设置中移除 Blokada VPN 配置后重试。";
 "error vpn" = "无法建立 VPN。请重启您的设备，或在系统设置中移除 Blokada VPN 配置后重试。";
 "error vpn perms" = "未授权创建 VPN 配置文件。";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus 已在此设备禁用。请选择一个位置以重新激活。";
 "error vpn too many leases" = "您已达到设备数量上限。请移除一个设备后重试。";
 "error vpn expired" = "VPN 已禁用。请更新您的订阅以继续使用 BLOKADA+";
-"error payment inactive after restore" = "您先前的付款已经恢复，但订阅已过期。 如果您认为这是一个错误，请点击顶部的帮助图标联系我们。";
+"error payment inactive after restore" = "您先前的付款已恢复，但订阅已过期。如果您认为这是一个错误，请联系我们。";
 "error restore not found" = "我们无法找到可恢复的活跃 Blokada 订阅。如果您的订阅已过期，您可以购买新的订阅。如果您认为这是一个错误，请联系我们。";
-"error payment failed" = "此时付款不可用。请确保您在线并稍后再试。 如果问题仍然存在，请点击顶部的帮助图标联系我们。";
-"error payment failed alternative" = "无法完成支付。请确保信息正确后重试。如问题依旧，请点击顶部帮助图标联系我们。";
+"error payment failed" = "目前无法付款。请确保您已连接网络，稍后再试。如果问题仍然存在，请联系我们。";
+"error payment failed alternative" = "无法完成付款。请确认您的付款信息无误，然后重试。如果问题仍然存在，请联系我们。";
 "error payment not available" = "本设备暂不支持支付。可能是设备未升级，或我们尚未在您的国家开通购买功能。";
 "error payment canceled" = "支付已取消。您不会被扣费。";
 "error pack install" = "无法安装（或卸载）此功能。请稍后再试。";
 "error location failed fetching" = "无法获取位置。";
-"error unknown" = "发生问题。请确保您已联网并稍后再试。如问题依旧，请点击顶部帮助图标联系我们。";
+"error unknown" = "出现问题。请确保您已连接网络，稍后再试。如果问题仍然存在，请联系我们。";
 "error multiple apps" = "您的设备上有多个 Blokada 应用。这可能导致连接问题。现在要修复此问题吗？";
 "error locked" = "应用锁定时无法执行此操作。请先解锁应用后继续。";
 "error lock invalid" = "有效 PIN 必须为 4 位数字。请重试。";
@@ -88,7 +88,7 @@
 "support action chat" = "与我们聊天";
 // Action to end chat. Keep it super short
 "support action end" = "结束";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "联系客服";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "继续与客服聊天";
@@ -1277,16 +1277,16 @@
 // Home card: the domain blocked most often in the last 24 hours
 "home headline top blocked title" = "今日拦截次数最多的域名";
 // First %s is a domain (e.g. "doubleclick.net"), second %s how many times it was blocked
-"home headline top blocked body" = "%s tried to reach your device and was blocked %s times in the last 24 hours.";
+"home headline top blocked body" = "过去 24 小时内，%s 尝试访问您的设备，被拦截了 %s 次。";
 // Home card: the hour of the last 24 with the most blocked requests
-"home headline busiest hour title" = "Busiest hour";
+"home headline busiest hour title" = "拦截最多的一小时";
 // First %s is the number blocked, second and third %s the start and end of the hour, e.g. "9:00 PM" and "10:00 PM"
-"home headline busiest hour body" = "Blokada blocked %s requests between %s and %s.";
+"home headline busiest hour body" = "Blokada 共拦截了 %s 次请求，时段为 %s 至 %s。";
 // Home after a subscription ended. %s is the date it ended, e.g. "3 Nov"
-"home expired header" = "Protection ended on %s";
+"home expired header" = "保护已于 %s 结束";
 // Used instead of the line above when the end date is unknown
-"home expired header nodate" = "Your protection has ended";
+"home expired header nodate" = "您的保护已结束";
 // Under the line above. %s is how many requests Blokada blocked on this device, e.g. "12.3K"
-"home expired blocked" = "Blokada blocked %s for you.";
+"home expired blocked" = "Blokada 为您拦截了 %s 次请求。";
 // Button that opens the subscription offer again
-"home expired action" = "Resubscribe";
+"home expired action" = "重新订阅";

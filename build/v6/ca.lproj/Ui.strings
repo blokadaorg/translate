@@ -16,7 +16,7 @@
 "error account inactive after restore" = "Sembla que aquest no és un compte actiu vàlid. Si creus que és un error, contacta’ns.";
 "error account invalid" = "La ID sembla no vàlida.";
 "error creating account" = "No s'ha pogut crear un compte nou. Torni-ho a provar.";
-"error fetching data" = "No s'ha pogut completar el compte. Assegurau-vos que teniu connexió, i intentau-ho més tard. Si el problema persisteix, contactau amb nosaltres a tocant la icona d'ajuda.";
+"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error tunnel" = "VPN no establerta. tornau a engegar el dispositiu, o eliminau el perfil Blokada VPN a la configuració del sistema, i tornau-ho a intentar.";
 "error vpn" = "VPN no establerta. Reiniciau el dispositiu o eliminau el perfil Blokada VPN de la configuració del sistema, i tornau-ho a intentar.";
 "error vpn perms" = "Permisos no concedits per a crear el perfil VPN.";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus deshabilitat. Seleccionau una ubicació per a reactivar-la.";
 "error vpn too many leases" = "Heu arribat al límit de dispositius. Eliminau-ne un i tornau-ho a intentar.";
 "error vpn expired" = "VPN inhabilitada. Actualitzau la subscripció per continuar amb BLOKADA+";
-"error payment inactive after restore" = "Pagament anterior restaurat, però la subscripció ha caducat. Si és un error, contactau-nos tocant a la icona d'ajuda.";
+"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us.";
 "error restore not found" = "We couldn't find an active Blokada subscription to restore. If your subscription has expired, you can buy a new one. If you believe this is a mistake, please contact us.";
-"error payment failed" = "Pagaments temporalment no disponibles. Assegurau-vos que teniu connexió i intentau-ho més tard. Si el problema persisteix, contactau-nos a la icona d'ajuda.";
-"error payment failed alternative" = "Pagament no completat. Assegurau-vos de tenir connexió i tornau a intentar-ho. Si el problema persisteix, contactau-nos a la icona d'ajuda.";
+"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us.";
+"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us.";
 "error payment not available" = "Pagaments no disponibles al dispositiu. O el dispositiu no està actualitzat o encara no oferim el servei al vostre país.";
 "error payment canceled" = "Pagament cancel·lat. No s'ha cobrat res.";
 "error pack install" = "Característica no instal·lada (o desinstal·lada). Tornau-ho a intentar.";
 "error location failed fetching" = "Ubicacions no recuperades.";
-"error unknown" = "Error. Assegurau-vos que teniu connexió i tornau-ho a intentar. Si el problema persisteix, contactau-nos a la icona d'ajuda.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error multiple apps" = "Teniu més d'una app Blokada. Això pot afectar la connectivitat. Ho voleu arreglar ara?";
 "error locked" = "Aquesta acció no està disponible quan l'app està bloquejada. Desbloquegeu l'app per continuar.";
 "error lock invalid" = "Un PIN vàlid ha de tenir exactament 4 dígits. Intenta-ho de nou.";
@@ -88,7 +88,7 @@
 "support action chat" = "Xateja amb nosaltres";
 // Action to end chat. Keep it super short
 "support action end" = "Finalitza";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "Ask support";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "Continue with support";

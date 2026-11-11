@@ -16,7 +16,7 @@
 "error account inactive after restore" = "유효한 활성 계정이 아닙니다. 실수라 생각되면 문의해 주세요.";
 "error account invalid" = "이 계정은 유효하지 않는 것으로 보입니다.";
 "error creating account" = "새로운 계정을 생성할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다.";
-"error fetching data" = "이 작업을 완료할 수 없었습니다. 현재 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 help 버튼을 눌러 우리에게 알려주시기 바랍니다.";
+"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error tunnel" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 "error vpn" = "VPN을 연결할 수 없습니다. 장치를 재시작하거나, 시스템 설정에서 Blokada VPN 프로필 정보를 삭제 후 다시 시도하시기 바랍니다.";
 "error vpn perms" = "VPN 프로필을 만들기 위한 권한이 할당되어 있지 않습니다.";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus가 이 기기에서 비활성화되었습니다. 다시 활성화하려면 위치를 선택해 주세요.";
 "error vpn too many leases" = "등록 기기수 제한에 도달했습니다. 기기 중 하나를 삭제하고 다시 시도해보시기 바랍니다.";
 "error vpn expired" = "VPN이 비활성화되었습니다. BLOKADA+를 계속 사용하고 싶다면 구독을 연장해주시기 바랍니다";
-"error payment inactive after restore" = "이전 결제가 복원되었지만 구독이 이미 만료되었습니다. 실수라 생각되면 상단의 도움말 아이콘을 탭하여 문의해 주세요.";
+"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us.";
 "error restore not found" = "We couldn't find an active Blokada subscription to restore. If your subscription has expired, you can buy a new one. If you believe this is a mistake, please contact us.";
-"error payment failed" = "현재 결제 진행이 불가능합니다. 온라인 상태인지 확인 후에, 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 도움말 아이콘을 눌러 연락주시기 바랍니다";
-"error payment failed alternative" = "현재 결제를 완료할 수 없습니다. 입력된 데이터가 정확한지 확인 후 다시 시도해주시기 바랍니다. 만약 이 문제가 계속 발생한다면, 상단에 있는 도움말 아이콘을 눌러 연락주시기 바랍니다";
+"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us.";
+"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us.";
 "error payment not available" = "이 기기에서는 결제가 지원되지 않습니다. 기기가 최신이 아니거나, 또는 저희가 아직 귀하의 국가에서 결제를 지원하지 않습니다.";
 "error payment canceled" = "결제가 취소되었습니다. 청구되지 않았습니다.";
 "error pack install" = "이 기능을 설치 (또는 삭제) 할 수 없습니다. 다음에 다시 시도해보시기 바랍니다.";
 "error location failed fetching" = "지역을 가져올 수 없습니다.";
-"error unknown" = "문제가 발생했습니다. 인터넷 연결 상태를 확인한 후 다시 시도해 주세요. 문제가 지속될 경우 상단의 도움말 아이콘을 탭하여 문의해 주세요.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error multiple apps" = "기기에 Blokada 앱이 두 개 이상 있습니다. 이로 인해 연결 문제가 발생할 수 있습니다. 지금 해결하시겠습니까?";
 "error locked" = "앱이 잠금 상태일 때는 이 작업을 사용할 수 없습니다. 진행하려면 앱의 잠금을 해제해 주세요.";
 "error lock invalid" = "올바른 PIN은 정확히 4자리여야 합니다. 다시 시도하세요.";
@@ -90,7 +90,7 @@
 "support action chat" = "채팅하기";
 // Action to end chat. Keep it super short
 "support action end" = "종료";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "Ask support";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "Continue with support";
