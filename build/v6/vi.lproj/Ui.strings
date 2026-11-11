@@ -16,7 +16,7 @@
 "error account inactive after restore" = "Tài khoản này có vẻ không hợp lệ hoặc không hoạt động. Nếu bạn nghĩ đây là nhầm lẫn, vui lòng liên hệ với chúng tôi.";
 "error account invalid" = "ID tài khoản này có vẻ không hợp lệ.";
 "error creating account" = "Không thể tạo tài khoản mới. Vui lòng thử lại sau.";
-"error fetching data" = "Không thể hoàn thành hành động này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error tunnel" = "Không thể thiết lập VPN. Vui lòng khởi động lại thiết bị của bạn hoặc xóa cấu hình Blokada VPN trong cài đặt hệ thống và thử lại.";
 "error vpn" = "Không thể thiết lập VPN. Vui lòng khởi động lại thiết bị của bạn hoặc xóa cấu hình Blokada VPN trong cài đặt hệ thống và thử lại.";
 "error vpn perms" = "Không có quyền nào được cấp để tạo hồ sơ VPN.";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus hiện đã bị tắt trên thiết bị này. Vui lòng chọn một vị trí để kích hoạt lại nó.";
 "error vpn too many leases" = "Bạn đã đạt đến giới hạn thiết bị của mình. Vui lòng xóa một trong các thiết bị của bạn và thử lại.";
 "error vpn expired" = "VPN đã bị tắt. Vui lòng cập nhật đăng ký của bạn để tiếp tục sử dụng BLOKADA+";
-"error payment inactive after restore" = "Khoản thanh toán trước đó của bạn đã được khôi phục, nhưng đăng ký đã hết hạn. Nếu bạn cho rằng đây là sự nhầm lẫn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us.";
 "error restore not found" = "We couldn't find an active Blokada subscription to restore. If your subscription has expired, you can buy a new one. If you believe this is a mistake, please contact us.";
-"error payment failed" = "Thanh toán không có sẵn tại thời điểm này. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
-"error payment failed alternative" = "Không thể hoàn tất thanh toán của bạn. Vui lòng đảm bảo dữ liệu của bạn là chính xác và thử lại. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us.";
+"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us.";
 "error payment not available" = "Thanh toán không khả dụng cho thiết bị này. Thiết bị này chưa được cập nhật hoặc chúng tôi chưa xử lý các giao dịch mua ở quốc gia của bạn.";
 "error payment canceled" = "Thanh toán đã bị hủy. Bạn sẽ không bị tính phí.";
 "error pack install" = "Không thể cài đặt (hoặc gỡ cài đặt) tính năng này. Vui lòng thử lại sau.";
 "error location failed fetching" = "Không thể tìm nạp vị trí.";
-"error unknown" = "Đã xảy ra sự cố. Đảm bảo rằng bạn đang trực tuyến và thử lại sau. Nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với chúng tôi bằng cách nhấn vào biểu tượng trợ giúp ở trên cùng.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error multiple apps" = "Có nhiều hơn một ứng dụng Blokada trên thiết bị của bạn. Điều này có thể gây ra sự cố kết nối. Bạn có muốn sửa chữa nó ngay bây giờ?";
 "error locked" = "Tác vụ này không khả dụng khi ứng dụng đang ở trạng thái bị khoá. Vui lòng mở khoá ứng dụng để tiếp tục.";
 "error lock invalid" = "Mã PIN hợp lệ phải có đúng 4 chữ số. Vui lòng thử lại.";
@@ -88,7 +88,7 @@
 "support action chat" = "Trò chuyện với chúng tôi";
 // Action to end chat. Keep it super short
 "support action end" = "Kết thúc";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "Ask support";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "Continue with support";
