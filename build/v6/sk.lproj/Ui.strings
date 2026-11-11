@@ -16,7 +16,7 @@
 "error account inactive after restore" = "This does not seem to be a valid active account. If you believe this is a mistake, please contact us.";
 "error account invalid" = "Toto ID účtu sa zdá byť neplatné.";
 "error creating account" = "Nebolo možné vytvoriť nový účet. Prosím, skúste to znovu neskôr.";
-"error fetching data" = "Akcia nebola dokončená. Buďte si istý, že ste aktívny, a skúste to znovu neskôr. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error fetching data" = "This action could not be completed. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error tunnel" = "Nebolo možné ustanoviť VPN. Prosím, reštartujte svoje zariadenie, alebo vymažte Blokada VPN profil v systémových nastaveniach, a skúste to znovu.";
 "error vpn" = "Nebolo možné ustanoviť VPN. Prosím, reštartujte svoje zariadenie, alebo vymažte Blokada VPN profil v systémových nastaveniach, a skúste to znovu.";
 "error vpn perms" = "Neboli vám udelené práva na vytvorenie VPN profilu.";
@@ -24,15 +24,15 @@
 "error vpn no current lease new" = "Blokada Plus is now disabled on this device. Please select a location to reactivate it.";
 "error vpn too many leases" = "Dosiahli ste limit zariadení. Prosím odstráňte jedno z vašich zariadení a skúste to znovu.";
 "error vpn expired" = "VPN bola deaktivovaná. Prosím aktualizujte si vaše predplatné pre pokračovanie v používaní BLOKADA+";
-"error payment inactive after restore" = "Vaša predchádzajúca platba bola obnovená, avšak predplatné vypršalo. Ak ste presvedčený o tom že to je chyba, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error payment inactive after restore" = "Your previous payment was restored, but the subscription has already expired. If you believe this is a mistake, please contact us.";
 "error restore not found" = "We couldn't find an active Blokada subscription to restore. If your subscription has expired, you can buy a new one. If you believe this is a mistake, please contact us.";
-"error payment failed" = "Platby nie sú momentálne k dispozícii. Buďte si istý, že ste aktívny, a skúste to znovu neskôr. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
-"error payment failed alternative" = "Nebolo možné dokončiť platbu. Uistite sa, že sú zadané informácie správne, a skúste to znovu. Ak problém pretrváva, prosím kontaktujte nás stlačením ikony pomoci v hornej časti.";
+"error payment failed" = "Payments are unavailable at this moment. Make sure you are online, and try again later. If the problem persists, please contact us.";
+"error payment failed alternative" = "Could not complete your payment. Please make sure your data is correct, and try again. If the problem persists, please contact us.";
 "error payment not available" = "Payments are unavailable for this device. Either this device is not updated, or we do not handle purchases in your country yet.";
 "error payment canceled" = "Platba bola zrušená. Nebola vám naúčtovaná žiadna čiastka.";
 "error pack install" = "Nebolo možné inštalovať (alebo odinštalovať) túto funkciu. Prosím, skúste to neskôr.";
 "error location failed fetching" = "Nebolo možné vyvolať lokáciu.";
-"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us by tapping the help icon at the top.";
+"error unknown" = "A problem occurred. Make sure you are online, and try again later. If the problem persists, please contact us.";
 "error multiple apps" = "There is more than one Blokada app on your device. This may cause connectivity issues. Do you wish to fix it now?";
 "error locked" = "This action is unavailable when the app is in a locked state. Please unlock the app to proceed.";
 "error lock invalid" = "A valid PIN must be exactly 4 digits. Please try again.";
@@ -88,7 +88,7 @@
 "support action chat" = "Chat with us";
 // Action to end chat. Keep it super short
 "support action end" = "End";
-// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, opens the support chat. Keep it short
+// Small link under the main button of the DNS setup sheet and in the Restore account ID dialog, and a button on some error alerts. Opens the support chat. Keep it short
 "support action ask" = "Ask support";
 // Replaces "Ask support" in the same small link while a support chat is still open, and reopens that chat. Keep it short
 "support action continue" = "Continue with support";
