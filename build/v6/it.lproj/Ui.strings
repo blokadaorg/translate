@@ -1000,7 +1000,7 @@
 
 
 // Title of the weekly report notification. "Privacy Pulse" is the name of the in-app screen it opens; use the same name as "privacy pulse section header" (the full name, not just "Pulse").
-"notification weekly report pulse title" = "Pulse della privacy";
+"notification weekly report pulse title" = "Pulse";
 "notification weekly report body" = "Apri Blokada per controllare il tuo resoconto settimanale.";
 "notification weekly report refreshed title" = "Il tuo resoconto settimanale è pronto";
 "notification weekly report refreshed body" = "Apri Blokada per controllare i dettagli recenti.";
@@ -1158,8 +1158,8 @@
 // Shown instead of an empty list right after activity logging was turned on, until the first requests show up
 "activity logging collecting" = "Stiamo raccogliendo i primi risultati";
 // Guided setup after purchase (#457), first sheet: what the user wants Blokada to block. Each answer turns on one blocklist.
-"activation goals header" = "Cosa vuoi bloccare?";
-"activation goals brief" = "Scegli cosa vuoi che Blokada blocchi per te. Puoi cambiare queste impostazioni in qualsiasi momento nelle Impostazioni avanzate.";
+"activation goals header" = "Di cosa vuoi liberarti?";
+"activation goals brief" = "Scegli cosa vuoi che Blokada blocchi per te. Puoi cambiare queste impostazioni in qualsiasi momento nella sezione Avanzate.";
 "activation goal app ads" = "Pubblicità nelle app e nei giochi";
 "activation goal trackers" = "Strumenti di tracciamento";
 "activation goal scams" = "Siti truffa";
@@ -1168,9 +1168,9 @@
 "activation logging skip" = "Non ora";
 // Guided setup after purchase, last sheet: the first blocked requests right after DNS setup, live for about a minute
 "activation first blocks header" = "Blokada è in funzione";
-"activation first blocks brief" = "Usa il telefono come al solito. Qui vedrai cosa blocca Blokada.";
+"activation first blocks brief" = "Usa il telefono come al solito. Qui vedrai cosa verrà bloccato.";
 // Shown instead of the brief above when activity logging is off, so only the counter is shown
-"activation first blocks brief counter" = "Usa il telefono come al solito. Il contatore aumenta ogni volta che Blokada blocca qualcosa.";
+"activation first blocks brief counter" = "Usa il telefono come al solito. Il contatore aumenta ogni volta che verrà bloccato qualcosa.";
 // Label under the number of requests blocked so far
 "activation first blocks counter label" = "Richieste bloccate finora";
 // Shown while the list of blocked requests is still empty
@@ -1269,7 +1269,7 @@
 // Same line once loaded, with activity logging on. %s is how long ago the last request was blocked, e.g. "2 minutes ago"
 "home status protected last block" = "Protetto · ultimo blocco %s";
 // Same line with activity logging off. %s is how many requests were blocked in the last 24 hours, e.g. "36" or "12.3K"
-"home status protected blocked" = "Protetto · %s richieste bloccate nelle ultime 24 h";
+"home status protected blocked" = "Protetto · %s richieste bloccate nelle ultime 24 ore";
 // Home during the free trial. First %s is the day of the trial, second %s its length in days, e.g. "Day 3 of 7"
 "home trial day" = "Giorno %s di %s";
 // Added after the line above. %s is how many requests were blocked since the trial started, e.g. "1,240" or "12.3K"
